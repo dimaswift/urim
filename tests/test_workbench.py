@@ -1,5 +1,6 @@
 """The session workbench: fragments, merge rules, locks, ledger, packets and status."""
 
+import json
 import shutil
 import sqlite3
 from pathlib import Path
@@ -232,6 +233,29 @@ def test_packets_carry_the_context_each_agent_needs(corpus, tmp_path):
 
     with pytest.raises(TaskError, match="whole chapters"):
         build_packet("chronology", "1KGS.18.1-5", paths)
+
+
+def test_chronology_packets_carry_the_targum_and_time_commentary(corpus, tmp_path):
+    inputs = tmp_path / "inputs"
+    shutil.copytree(FIXTURE_IR, inputs)
+    comments = {
+        "Targum Jonathan": {"1KGS.17.7": ["וַהֲוָה מִסוֹף יוֹמִין וִיבַשׁ נַחְלָא"]},
+        "Metzudat Zion": {"1KGS.17.15": ["ימים. אמרו רבותינו ז״ל: שנה:"]},
+        "Radak": {"1KGS.17.12": ["שנים עצים. לאפות בו:"], "1KGS.17.1": ["חי ה׳. ענין שבועה:"]},
+    }
+    works = {w: {"version_title": w, "license": "test", "verses": v} for w, v in comments.items()}
+    (inputs / "commentary").mkdir()
+    (inputs / "commentary" / "1KGS.json").write_text(
+        json.dumps({"book_code": "1KGS", "works": works}, ensure_ascii=False)
+    )
+    paths = Paths(corpus=corpus, inputs=inputs, work=tmp_path / "work")
+
+    chrono = build_packet("chronology", "1KGS.17", paths).text
+    assert "Targum Jonathan: וַהֲוָה מִסוֹף יוֹמִין" in chrono  # the Targum, on every verse
+    assert "Metzudat Zion: ימים. אמרו רבותינו" in chrono  # "days": a time word
+    assert "שנים עצים" not in chrono  # "two sticks", not years
+    assert "ענין שבועה" not in chrono  # an oath, no time word
+    assert "Targum Jonathan" not in build_packet("ontology", "1KGS.17", paths).text
 
 
 def test_status_suggests_one_chronology_chapter_at_a_time(corpus):

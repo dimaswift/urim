@@ -33,6 +33,18 @@ from urim.workbench.travel import distance_km
 PHILOLOGY_WINDOW = 12
 _SCOPE = re.compile(r"^([1-3]?[A-Za-z]+)\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$")
 
+# Chronology packets carry the Targum and the commentaries whose heading phrase (the words a
+# comment is on) holds a time word: the full commentaries would triple a packet's size.
+_HEBREW_MARKS = re.compile("[\u0591-\u05c7]")
+_TIME_WORDS = {
+    "יום", "ימים", "יומים", "ימי", "יומם", "שנה", "שנת", "שנות", "שנתים", "חדש", "חדשים",
+    "חודש", "בוקר", "לילה", "לילות", "ליל", "צהרים", "צהריים", "מנחה", "עת", "זמן", "שעה",
+    "מחר", "מחרת", "שבוע", "קץ", "אחרי", "שלישית", "ארבעים", "ערבים", "שחר",
+}  # fmt: skip
+# Ambiguous without their prefix: שנים is also "two", בקר "cattle", ערב "pleasant".
+_TIME_EXACT = {"בבקר", "לבקר", "בבוקר", "בערב", "לערב", "ערב"}
+_HEBREW_PREFIXES = set("והבכלמש")
+
 
 class TaskError(ValueError):
     pass
@@ -208,13 +220,53 @@ def _header(agent: str, scope: str, fragment_path: Path, ctx: Context) -> list[s
     ]
 
 
-def _narrative_verses(ctx: Context, verses: list[SourceVerse]) -> list[str]:
+def _is_time_comment(comment: str) -> bool:
+    plain = _HEBREW_MARKS.sub("", comment)
+    heading = plain.split(".", 1)[0]
+    if len(heading) > 60:  # no period after the heading phrase (Malbim): its first words
+        heading = " ".join(plain.split()[:3])
+    for word in re.findall("[\u05d0-\u05ea]+", heading):
+        if word in _TIME_EXACT:
+            return True
+        stems = [word]
+        if len(word) > 2 and word[0] in _HEBREW_PREFIXES:
+            stems.append(word[1:])
+            if len(word) > 3 and word[1] in _HEBREW_PREFIXES:
+                stems.append(word[2:])
+        if _TIME_WORDS.intersection(stems):
+            return True
+    return False
+
+
+def _time_comments(ctx: Context, verse_id: str) -> list[str]:
+    if not ctx.commentary:
+        return []
+    return [
+        f"{name}: {c}"
+        for name, work in ctx.commentary.works.items()
+        for c in work.verses.get(verse_id, [])
+        if name.startswith("Targum") or _is_time_comment(c)
+    ]
+
+
+def _narrative_verses(
+    ctx: Context, verses: list[SourceVerse], commentary: bool = False
+) -> list[str]:
     out = ["## Text", ""]
+    if commentary and ctx.commentary:
+        out += [
+            "Under each verse: the Targum, and the classical commentaries on a phrase with a "
+            "time word (day, year, morning, the hour of the offering, …). They often say how "
+            "the tradition counted a vague span.",
+            "",
+        ]
     for v in verses:
         refs = _kjv_refs(ctx.source, v.verse_id)
         alias = "" if refs == [v.verse_id] else f" (KJV {', '.join(map(_short, refs))})"
         out += [f"### {v.verse_id}{alias}", f"HE  {v.source_text}", f"WD  {_interlinear(v)}"]
         out += _baselines(ctx.source, v.verse_id, ("KJV", "YLT"))
+        if commentary:
+            out += _time_comments(ctx, v.verse_id)
         out.append("")
     return out
 
@@ -499,7 +551,7 @@ def build_packet(agent: str, scope: str, paths: Paths) -> Packet:
         lines += ["## Reviewer requests (address these first)", "", *requests, ""]
     match agent:
         case "chronology":
-            lines += _chronology(ctx) + _narrative_verses(ctx, verses)
+            lines += _chronology(ctx) + _narrative_verses(ctx, verses, commentary=True)
         case "ontology":
             lines += _ontology(ctx) + _narrative_verses(ctx, verses)
         case "philology":

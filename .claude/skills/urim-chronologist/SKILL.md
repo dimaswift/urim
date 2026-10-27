@@ -5,11 +5,11 @@ argument-hint: "<chapter, e.g. 1KGS.17>"
 allowed-tools: Read, Write, Edit, Bash(uv run urim:*)
 ---
 
-# URIM Chronologist · skill version 1
+# URIM Chronologist · skill version 2
 
 You turn one chapter of narrative into dated events: what happens, when, for how long, how sure
 we can be, and what causes what. The linker computes every date from what you write, so
-your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@1`.
+your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@2`.
 
 Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 `uv run urim status` and take the chapter it suggests for `/urim-chronologist`; say which.
@@ -18,7 +18,10 @@ Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 
 1. `uv run urim task chronology <chapter>`. Read the packet in full: the anchors, the events
    already dated before this chapter, the places with distances, and the text (Hebrew, a word
-   gloss line, KJV, YLT). Reviewer requests at the top come first.
+   gloss line, KJV, YLT, the Targum, and the classical commentaries on time words). Reviewer
+   requests at the top come first. When the text is vague ("many days", "after a while"),
+   the commentaries often say how the tradition counted it: use them, and cite them in
+   `temporal_reasoning_note`.
 2. `uv run urim schema chronology`. Read the field descriptions once.
 3. If `work/chronology/<chapter>.fragment.json` already exists, read it. Revise it instead of
    starting over, and keep event ids stable. Events marked LOCKED in the packet are approved:
@@ -26,9 +29,13 @@ Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 4. Read the chapter as a story and list its scenes before writing any JSON (see below).
 5. Write the fragment to `work/chronology/<chapter>.fragment.json`.
 6. Run `uv run urim ir merge <fragment> --dry-run`. Fix every error in the fragment, never in
-   the corpus. Then read the printed timeline line by line against the text: each event at the
-   hour, day and order the story gives it, children inside their parent, and no causal link
-   reporting a time that the text contradicts. Adjust and repeat.
+   the corpus. Then check the printed timeline line by line:
+   - Against your own notes: when a `temporal_reasoning_note` says an event starts "one day
+     after" or "an hour later", its `from …` line must show that delay ("…, 1 d later"). A
+     `from X end` line with no delay means the event starts the moment X ends.
+   - Against the text: each event at the hour, day and order the story gives it, children
+     inside their parent, and no causal link reporting a time the text contradicts.
+   Adjust and repeat.
 7. Run `uv run urim ir merge <fragment>`.
 8. Report to the user (format at the end).
 
@@ -67,20 +74,26 @@ Every event has a `time` spec. You state relations; the linker resolves them in 
   honestly.
 - `anchor_point`: `END` for "after X" and sequences; `START` for "that same day", "while…",
   and for children of a parent.
-- `offset`: elapsed time from the anchor point, when the text gives or implies one ("after
-  many days", "in the third year", "the next day").
+- `offset`: elapsed time from the anchor point to the start: every delay the text gives or
+  implies ("after many days", "in the third year", "the next day") and every delay your note
+  names ("one day after the encounter"). Without an `offset` (and without a `time_of_day`)
+  the event starts exactly at the anchor point.
 - `time_of_day`: a marker the text gives, as a code below or `"HH:MM"`. The start snaps to the
   first such time at or after anchor point + offset, so "the next morning" is `offset` 0 or a
   few hours plus `BOKER`, not `offset` 1 day plus `BOKER`.
 - `duration`: how long the event itself lasts. A speech takes minutes, a meal or a ritual
   hours, a journey what `urim travel` gives, a stay what the text says ("a full year").
-- `margin`: your honest uncertainty about the start relative to the anchor point: minutes or
-  hours when the text pins the hour, a day or so for "the next day" counting, months or years
-  for "after many days".
-- `precision_tier`: the granularity of the text's own time indication, not your confidence.
-  `MACRO_ERA` (only "in the days of…"), `REGNAL_YEAR` (a year of a reign, "in the third
-  year"), `SEASONAL_MONTH` (a month, a harvest, a feast), `DAY_SEQUENCE` (days counted or
-  "the next day"), `DIURNAL_HOUR` (an hour of the day).
+- `margin`: your honest uncertainty about the start, as ± around it: minutes or hours when
+  the text pins the hour, a day or so for "the next day" counting, months or years for "after
+  many days". **A margin never moves the start.** "About a day later, give or take a day" is
+  `offset` 1 day with `margin` 1 day; `margin` 1 day alone means "right after, give or take a
+  day".
+- `precision_tier`: the granularity of the text's own time indication, not your confidence
+  and not the precision of the anchor chain. `MACRO_ERA` (only "in the days of…"),
+  `REGNAL_YEAR` (a numbered year: "in the third year", "in the fourth year of Solomon"),
+  `SEASONAL_MONTH` (a month, a harvest, a feast), `DAY_SEQUENCE` (days counted or "the next
+  day"), `DIURNAL_HOUR` (an hour of the day). An event the text sets in a reign without a
+  year number is `MACRO_ERA`, even when you anchor it on a regnal anchor.
 
 | Code | Text | Clock |
 |---|---|---|
@@ -137,6 +150,15 @@ Link only what the text states or what the plot cannot work without; set `confid
 and a link must mean "because". If a later chapter will likely fulfil something here, say so in
 a reviewer note; that chapter's session writes the link.
 
+Words that come true: whenever God or a prophet says something will happen, including a
+command given to someone else ("I have commanded X to do Y") and a promise of provision, and
+the text then shows it happening, write `FULFILLS_PROPHECY` from the event that holds the word
+to the event where it comes true. This applies inside one chapter too, and even when the word
+and its fulfilment are a few verses apart. Gen 22:8 "God will provide himself a lamb" is
+fulfilled at 22:13 by the ram; in 1 Sam 10:2–7 Samuel foretells three signs, fulfilled at
+10:9–10. Before writing the fragment, list every divine or prophetic speech in the chapter
+and check each for its fulfilment.
+
 ## English text
 
 - `title`: a short headline in the present tense, subject first, at most about ten words, no
@@ -168,3 +190,11 @@ When the merge succeeds, tell the user:
    `/urim-ontologist <chapter>`, which attaches people and places to these events.
 
 Do not approve anything and do not commit.
+
+## Versions
+
+- 2: a delay goes in `offset` and a margin never moves the start, with a self-check of each
+  note against the timeline; a reign without a year number is `MACRO_ERA`; spoken words that
+  come true are `FULFILLS_PROPHECY`, within a chapter too; packets carry the Targum and the
+  commentaries on time words.
+- 1: first version.

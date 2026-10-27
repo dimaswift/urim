@@ -147,7 +147,18 @@ approve or request changes → commit.
 - [x] Chronology merges print the linked timeline (start, end, duration, relative and absolute
       margin, how each event is anchored, elapsed time per causal link); `urim timeline <ch>`
       prints it for the corpus
-- [ ] First real session: `/urim-chronologist 1KGS.17` (no gold beyond the opening oath)
+- [x] First real session: `/urim-chronologist 1KGS.17` on Haiku 5.5. Clean structure, sound
+      span estimates; but five delays went into `margin` instead of `offset`, an undated reign
+      was tagged `REGNAL_YEAR`, and two command → fulfilment links were missed
+- [x] `urim-chronologist@2`: a margin never moves the start (self-check of every note against
+      the timeline), a reign without a year number is `MACRO_ERA`, spoken words that come true
+      are `FULFILLS_PROPHECY` within a chapter too; chronology packets carry the Targum and
+      the commentaries whose heading phrase holds a time word (+5K chars for 1 Kings 17)
+- [x] Rerun 1 Kings 17 with v2 (Haiku again): all six change requests resolved (notes now say
+      "right after" where the text gives no interval; both fulfilment links; `MACRO_ERA`), and
+      the Zarephath stay now follows Metzudat Zion's "days = a year" from the new packet
+      commentary. Open for chapter 18: Cherith (placeholder six months) plus Zarephath (one
+      year) against 18:1's "third year"
 
 **M4: model comparison** on 1 Kings 18–19 against the gold fixture: `/urim-compare` runs the
 same packet through Opus, Sonnet and Haiku subagents into `runs/<model>/`; `urim eval` scores
