@@ -1,0 +1,33 @@
+{
+  "lang_code": "en",
+  "lang_name": "English",
+  "baseline_translation": "KJV",
+  "source_translations": ["KJV", "YLT", "ASV", "BBE", "Webster"],
+  "books": [
+    {"book_code": "1KGS", "name": "1 Kings", "abbreviation": "1 Kgs"}
+  ],
+  "vocab": [
+    {"kind": "diurnal", "code": "ASHMORET_HABOKER", "label": "Morning watch (last night watch, ~02:00)"},
+    {"kind": "diurnal", "code": "SHACHAR", "label": "Dawn (~05:30)"},
+    {"kind": "diurnal", "code": "BOKER", "label": "Morning (~06:00)"},
+    {"kind": "diurnal", "code": "HORA_TERTIA", "label": "Third hour (~09:00)"},
+    {"kind": "diurnal", "code": "TZOHORAYIM", "label": "Noon, \"double light\" (~12:00)"},
+    {"kind": "diurnal", "code": "MINCHAH", "label": "Time of the afternoon offering (~15:00)"},
+    {"kind": "diurnal", "code": "BEIN_HAARBAYIM", "label": "Between the evenings, twilight (~17:30)"},
+    {"kind": "diurnal", "code": "EREV", "label": "Evening, sunset (~18:00)"},
+    {"kind": "diurnal", "code": "ASHMORET_HATICHONAH", "label": "Middle night watch (~22:00)"},
+    {"kind": "precision_tier", "code": "MACRO_ERA", "label": "Era"},
+    {"kind": "precision_tier", "code": "REGNAL_YEAR", "label": "Year"},
+    {"kind": "precision_tier", "code": "SEASONAL_MONTH", "label": "Season or month"},
+    {"kind": "precision_tier", "code": "DAY_SEQUENCE", "label": "Day"},
+    {"kind": "precision_tier", "code": "DIURNAL_HOUR", "label": "Hour"},
+    {"kind": "causal_type", "code": "TRIGGERS", "label": "triggers"},
+    {"kind": "causal_type", "code": "FULFILLS_PROPHECY", "label": "is fulfilled by"},
+    {"kind": "causal_type", "code": "RETALIATES_FOR", "label": "provokes retaliation in"},
+    {"kind": "causal_type", "code": "ENABLES", "label": "enables"},
+    {"kind": "causal_type", "code": "DEFERRED_BY", "label": "defers"}
+  ],
+  "anchors": [
+    {"anchor_id": "anchor.ahab_accession", "label": "Accession of Ahab, king of Israel", "note": "Root anchor for the Omride narratives. Under Thiele's chronology Ahab reigned 874-853 BCE; the end of his reign is pinned by the battle of Qarqar (853 BCE), where Shalmaneser III's Kurkh Monolith lists 'Ahab the Israelite' among the coalition kings."}
+  ]
+}

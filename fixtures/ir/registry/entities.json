@@ -1,7 +1,7 @@
 {
  "attribution": [
-  "Proper names: STEPBible TIPNR (Tyndale House Cambridge), CC BY 4.0",
-  "Geocoding: OpenBible.info Bible Geocoding Data, CC BY 4.0"
+  "Geocoding: OpenBible.info Bible Geocoding Data, CC BY 4.0",
+  "Proper names: STEPBible TIPNR (Tyndale House Cambridge), CC BY 4.0"
  ],
  "entities": [
   {
@@ -13,7 +13,8 @@
     "H0065"
    ],
    "names": [
-    "Abel-meholah =ESV,KJV; Abel Meholah =NIV"
+    "Abel-meholah",
+    "Abel Meholah"
    ],
    "source_names": [
     "אָבֵל מְחוֹלָה"
@@ -216,8 +217,10 @@
     "H0842"
    ],
    "names": [
-    "Asherah( poles) =ESV,NIV,KJV; Asherim =ESV; grove =KJV",
-    "Asheroth =ESV; Asherah( poles) =NIV; grove =KJV"
+    "Asherah poles",
+    "Asherim",
+    "grove",
+    "Asheroth"
    ],
    "source_names": [
     "אֲשֵׁרָה",
@@ -249,7 +252,8 @@
    ],
    "names": [
     "Baal",
-    "Baal-peor =ESV,NIV,KJV; Baal of Peor =ESV,NIV"
+    "Baal-peor",
+    "Baal of Peor"
    ],
    "source_names": [
     "בַּעַל",
@@ -313,9 +317,11 @@
     "H7656"
    ],
    "names": [
-    "Beersheba =ESV,NIV; Beer-sheba =KJV",
+    "Beersheba",
+    "Beer-sheba",
     "Sheba",
-    "Shibah =ESV,NIV; Shebah =KJV"
+    "Shibah",
+    "Shebah"
    ],
    "source_names": [
     "בְּאֵר שֶׁ֫בַע",
@@ -357,7 +363,7 @@
     "H3760H"
    ],
    "names": [
-    "(Mount )Carmel"
+    "Mount Carmel"
    ],
    "source_names": [
     "כַּרְמֶל"
@@ -401,7 +407,8 @@
     "H3747"
    ],
    "names": [
-    "Cherith =ESV,KJV; Kerith =NIV"
+    "Cherith",
+    "Kerith"
    ],
    "source_names": [
     "כְּרִית"
@@ -483,8 +490,8 @@
    ],
    "names": [
     "Elijah",
-    "Elias =KJV,TR; Elijah =ESV,NIV,NA",
-    "Elias =KJV,TR; [ ] =ESV,NIV,NA"
+    "Elias",
+    "[ ]"
    ],
    "source_names": [
     "אֵלִיָּה",
@@ -668,7 +675,7 @@
    ],
    "names": [
     "Elisha",
-    "Elisha =ESV,NIV; Eliseus =KJV"
+    "Eliseus"
    ],
    "source_names": [
     "אֱלִישָׁע",
@@ -709,8 +716,8 @@
     "H1569"
    ],
    "names": [
-    "Gilead =ESV,NIV,KJV; Gileadite =NIV",
-    "Gileadite =ESV,NIV,KJV; Gilead =ESV,NIV"
+    "Gilead",
+    "Gileadite"
    ],
    "source_names": [
     "גִּלְעָד",
@@ -839,16 +846,15 @@
     "G2475"
    ],
    "names": [
-    "Israel,Israelite",
-    "Israel =NIV,KJV; [ ] =ESV",
-    "God =ESV,NIV; Israel =KJV",
     "Israel",
-    "Jacob",
-    "Jeshurun =ESV,NIV,KJV; Jesurun =KJV",
     "Israelite",
-    "Israelitess; Israelite =ESV,NIV; Israelitish =KJV",
-    "Israel =KJV,TR; [ ] =ESV,NIV,NA",
-    "Israelite,Israel"
+    "[ ]",
+    "God",
+    "Jacob",
+    "Jeshurun",
+    "Jesurun",
+    "Israelitess",
+    "Israelitish"
    ],
    "source_names": [
     "יִשְׂרָאֵל",
@@ -1153,18 +1159,19 @@
    ],
    "names": [
     "Judah",
-    "Judah =NIV,KJV,LC",
-    "David =ESV,MT",
-    "Jew =ESV,NIV,KJV; of Judah =ESV,NIV,KJV; Jewish =ESV,NIV; Judean =ESV; Hebrew =NIV",
-    "become Jew =NIV,KJV; declare Jew =ESV",
+    "David",
     "Jew",
-    "Judah =ESV,NIV; Juda =KJV; Judea =NIV",
-    "Judah =ESV,NIV,KJV; Judas,Juda =KJV",
-    "Jew =ESV,NIV,KJV; Jewish =ESV,NIV; of Judea =ESV,KJV",
-    "Jew =KJV,TR; [ ] =ESV,NIV,NA",
-    "Jew =NIV,NA; [ ] =ESV,KJV,TR",
-    "Jew =ESV,NIV,NA; [ ] =KJV,TR",
-    "Jewish"
+    "of Judah",
+    "Jewish",
+    "Judean",
+    "Hebrew",
+    "become Jew",
+    "declare Jew",
+    "Juda",
+    "Judea",
+    "Judas",
+    "of Judea",
+    "[ ]"
    ],
    "source_names": [
     "יְהוּדָה",
@@ -1228,7 +1235,8 @@
     "H7028"
    ],
    "names": [
-    "Kishon =ESV,NIV,KJV; Kison =KJV"
+    "Kishon",
+    "Kison"
    ],
    "source_names": [
     "קִישׁוֹן"
@@ -1295,30 +1303,46 @@
     "G1682"
    ],
    "names": [
-    "LORD =ESV,NIV,KJV; Jah =KJV",
+    "LORD",
+    "Jah",
     "Lord",
     "God",
-    "God =NIV,KJV; Elohim =ESV,KJV",
-    "Master =NIV; Baali =KJV; my Baal =ESV",
+    "Elohim",
+    "Master",
+    "Baali",
+    "my Baal",
     "Almighty",
     "Most High",
-    "Most High =ESV,NIV; most High,Highest =KJV",
-    "God/ Most High =ESV,NIV; most high/ God =KJV",
-    "El/-Elohe/ Israel =ESV,KJV; El/ Elohe/ Israel =NIV",
-    "El-Elohe Israel =ESV,KJV; El Elohe Israel =NIV",
-    "JEHOVAH/–nissi =KJV; LORD/ is my Banner =ESV,NIV",
-    "JEHOVAH-nissi =KJV; The LORD is my Banner =ESV,NIV",
-    "Jehovah/–shalom =KJV; LORD/ is Peace =ESV,NIV",
-    "Jehovah-shalom =KJV; LORD is Peace =ESV,NIV",
-    "Jehovah/–jireh: =KJV; LORD/ will provide =ESV,NIV",
-    "Jehovah-jireh: =KJV; LORD will provider =ESV,NIV",
-    "LORD/ our Righteousness =ESV,KJV; LORD/ our Righteous Saviour =NIV",
-    "LORD our Righteousness =ESV,KJV; LORD our Righteous Saviour =NIV",
-    "Everlasting =ESV,KJV; Eternal =NIV",
+    "most High",
+    "Highest",
+    "God/ Most High",
+    "most high/ God",
+    "El/-Elohe/ Israel",
+    "El/ Elohe/ Israel",
+    "El-Elohe Israel",
+    "El Elohe Israel",
+    "JEHOVAH/–nissi",
+    "LORD/ is my Banner",
+    "JEHOVAH-nissi",
+    "The LORD is my Banner",
+    "Jehovah/–shalom",
+    "LORD/ is Peace",
+    "Jehovah-shalom",
+    "LORD is Peace",
+    "Jehovah/–jireh:",
+    "LORD/ will provide",
+    "Jehovah-jireh:",
+    "LORD will provider",
+    "LORD/ our Righteousness",
+    "LORD/ our Righteous Saviour",
+    "LORD our Righteousness",
+    "LORD our Righteous Saviour",
+    "Everlasting",
+    "Eternal",
     "Jealous",
-    "Hosts =ESV,KJV; Almighty =NIV",
-    "Most High =ESV,NIV,KJV; Highest =KJV",
-    "hosts =ESV; Almighty =NIV; sabaoth =KJV",
+    "Hosts",
+    "hosts",
+    "sabaoth",
     "Abba",
     "Eli",
     "Eloi"
@@ -1761,9 +1785,7 @@
    ],
    "names": [
     "Samaria",
-    "Samaritan =ESV,KJV; Samaria =NIV",
-    "Samaritan",
-    "Samaria =ESV,KJV; Samaritan =NIV"
+    "Samaritan"
    ],
    "source_names": [
     "שֹׁמְרוֹן",
@@ -1843,11 +1865,15 @@
     "G4606"
    ],
    "names": [
-    "Sidon =ESV,NIV,KJV; Zidon =KJV",
-    "Sidon/ the Great,Great/ Sidon =ESV; Greater/ Sidon =NIV; great/ Zidon =KJV",
-    "Sidonian,Sidon =ESV,NIV,KJV; Zidonian,Zidon =KJV",
     "Sidon",
-    "Sidon =ESVKJV,TR; [ ] =NIV,NA"
+    "Zidon",
+    "Sidon/ the Great",
+    "Great/ Sidon",
+    "Greater/ Sidon",
+    "great/ Zidon",
+    "Sidonian",
+    "Zidonian",
+    "[ ]"
    ],
    "source_names": [
     "צִידוֹן",
@@ -1889,9 +1915,9 @@
     "G4614"
    ],
    "names": [
-    "(Mount )Sinai",
-    "(Mount )Horeb",
-    "(Mount )Sinai =ESV,NIV,KJV; Sina =KJV"
+    "Mount Sinai",
+    "Mount Horeb",
+    "Sina"
    ],
    "source_names": [
     "סִינַי",
@@ -1934,11 +1960,13 @@
     "G4949"
    ],
    "names": [
-    "Syria,Syrian =ESV,NIV,KJV; Aram =ESV,NIV",
-    "Syrian =ESV,KJV; Aramean =NIV",
     "Syria",
     "Syrian",
-    "Syrophoenician =ESV; Syrophenician =KJV; Syrian Phoenicia =NIV"
+    "Aram",
+    "Aramean",
+    "Syrophoenician",
+    "Syrophenician",
+    "Syrian Phoenicia"
    ],
    "source_names": [
     "אֲרָם",
@@ -1980,7 +2008,8 @@
     "H8664"
    ],
    "names": [
-    "Tishbe =ESV,NIV; inhabitants =KJV",
+    "Tishbe",
+    "inhabitants",
     "Tishbite"
    ],
    "source_names": [
@@ -2017,7 +2046,7 @@
    ],
    "names": [
     "Zarephath",
-    "Zarephath =ESV,NIV; Sarepta =KJV"
+    "Sarepta"
    ],
    "source_names": [
     "צָֽרְפַת",

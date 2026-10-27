@@ -19,6 +19,7 @@ from urim.compiler.ingest.sefaria import PROPHETS_WORKS, fetch_chapter
 from urim.compiler.ingest.tahot import TahotWord, build_verses, kjv_verse_map, read_tahot
 from urim.compiler.ingest.tipnr import TipnrIndex, TipnrRecord, read_tipnr
 from urim.compiler.ingest.tvtms import read_tvtms
+from urim.ir.load import write_model
 from urim.ir.models import (
     CommentaryIR,
     CommentaryWork,
@@ -109,6 +110,17 @@ def propose_ids(records: list[TipnrRecord]) -> dict[str, str]:
     return out
 
 
+def _display_names(english: str) -> list[str]:
+    """TIPNR's 'Abel-meholah =ESV,KJV; Abel Meholah =NIV' or '(Mount )Carmel' -> clean names."""
+    names = []
+    for piece in english.split(";"):
+        for form in piece.split("=")[0].split(","):
+            form = re.sub(r"\(([^)]*)\)", r"\1", form).strip()
+            if form:
+                names.append(form)
+    return names
+
+
 def _is_proper_noun(morph: str) -> bool:
     """ETCBC/OSHB morphology: 'HNpm' or 'HR/Np' -> True; 'HVNp3fs' (a Niphal verb) -> False."""
     segments = morph.split("/")
@@ -173,7 +185,7 @@ def _registry(
                 tipnr_category=rec.category,
                 tipnr_type=rec.type,
                 dstrongs=rec.dstrongs,
-                names=list(dict.fromkeys(n.english for n in rec.names if n.english)),
+                names=list(dict.fromkeys(x for n in rec.names for x in _display_names(n.english))),
                 source_names=list(dict.fromkeys(n.source_form for n in rec.names if n.source_form)),
                 description=rec.description or None,
                 brief=rec.brief,
@@ -188,12 +200,6 @@ def _registry(
             )
         )
     return seeds
-
-
-def _write(path: Path, model) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    doc = model.model_dump(mode="json", exclude_none=True, exclude_defaults=False)
-    path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def _merge_source(path: Path, new: SourceBookIR) -> SourceBookIR:
@@ -352,23 +358,23 @@ def ingest(
     source = SourceBookIR(
         book_code=book.code,
         source_language="HEBREW",
-        attribution=attribution,
+        attribution=sorted(attribution),
         verses=verses,
         verse_map=verse_map,
         baselines=baselines,
         versification_notes=dict(sorted(notes.items(), key=lambda kv: _ordinal(kv[0]))),
     )
-    _write(
+    write_model(
         ir_dir / "source" / f"{book.code}.json",
         _merge_source(ir_dir / "source" / f"{book.code}.json", source),
     )
-    registry = RegistryIR(attribution=REGISTRY_ATTRIBUTION, entities=seeds)
-    _write(
+    registry = RegistryIR(attribution=sorted(REGISTRY_ATTRIBUTION), entities=seeds)
+    write_model(
         ir_dir / "registry" / "entities.json",
         _merge_registry(ir_dir / "registry" / "entities.json", registry, verse_ids),
     )
     if commentary.works:
-        _write(
+        write_model(
             ir_dir / "commentary" / f"{book.code}.json",
             _merge_commentary(ir_dir / "commentary" / f"{book.code}.json", commentary),
         )

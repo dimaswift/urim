@@ -1,4 +1,4 @@
-"""urim command line."""
+"""urim command line. Paths default to [tool.urim] in pyproject.toml (see urim.config)."""
 
 from __future__ import annotations
 
@@ -9,14 +9,41 @@ from typing import Annotated
 import typer
 
 from urim.compiler.link import LinkError, Report, link_all, link_core, link_lang, validate
+from urim.config import Paths, load_paths
 
-app = typer.Typer(no_args_is_help=True, help="URIM compiler and runtime.")
+app = typer.Typer(no_args_is_help=True, help="URIM compiler, workbench and runtime.")
 link_app = typer.Typer(no_args_is_help=True, help="Link IR into SQLite bundles (no LLM calls).")
+ir_app = typer.Typer(no_args_is_help=True, help="Merge session output into the corpus.")
 app.add_typer(link_app, name="link")
+app.add_typer(ir_app, name="ir")
 
-IrDir = Annotated[Path, typer.Option("--ir", help="IR directory")]
-BundlesDir = Annotated[Path, typer.Option("--bundles", help="Bundles directory")]
+IrDir = Annotated[Path | None, typer.Option("--ir", help="IR directory [default: corpus]")]
+InputsDir = Annotated[
+    Path | None, typer.Option("--inputs", help="Ingest output, when the IR has none of its own")
+]
+BundlesDir = Annotated[Path | None, typer.Option("--bundles", help="Bundles directory")]
 Scheme = Annotated[str | None, typer.Option("--chronology", help="Chronology scheme")]
+Agent = Annotated[str, typer.Argument(help="chronology, ontology or philology")]
+
+
+def _paths(
+    ir: Path | None = None, inputs: Path | None = None, bundles: Path | None = None
+) -> Paths:
+    p = load_paths()
+    return Paths(
+        corpus=ir or p.corpus,
+        inputs=inputs or p.inputs,
+        bundles=bundles or p.bundles,
+        sources=p.sources,
+        lockfile=p.lockfile,
+        work=p.work,
+        runs=p.runs,
+    )
+
+
+def _fail(message: str) -> typer.Exit:
+    typer.secho(f"error: {message}", fg=typer.colors.RED)
+    return typer.Exit(1)
 
 
 def _print_report(name: str, report: Report) -> None:
@@ -25,9 +52,9 @@ def _print_report(name: str, report: Report) -> None:
     typer.secho(f"{name}: ok ({len(report.warnings)} warnings)", fg=typer.colors.GREEN)
 
 
-def _run(fn, *args):
+def _run(fn, *args, **kwargs):
     try:
-        return fn(*args)
+        return fn(*args, **kwargs)
     except LinkError as e:
         for w in e.report.warnings:
             typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
@@ -36,39 +63,50 @@ def _run(fn, *args):
         raise typer.Exit(1) from e
 
 
+# --- linking ----------------------------------------------------------------------------------
+
+
 @link_app.command("core")
 def link_core_cmd(
-    ir: IrDir = Path("fixtures/ir"),
-    bundles: BundlesDir = Path("data/bundles"),
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
     chronology: Scheme = None,
 ) -> None:
     """Build urim-core.sqlite."""
-    _print_report("core", _run(link_core, ir, bundles, chronology))
+    p = _paths(ir, inputs, bundles)
+    _print_report("core", _run(link_core, p.corpus, p.bundles, chronology, inputs_dir=p.inputs))
 
 
 @link_app.command("lang")
 def link_lang_cmd(
-    lang: str, ir: IrDir = Path("fixtures/ir"), bundles: BundlesDir = Path("data/bundles")
+    lang: str, ir: IrDir = None, inputs: InputsDir = None, bundles: BundlesDir = None
 ) -> None:
     """Build one language bundle against the existing core (core is opened read-only)."""
-    _print_report(lang, _run(link_lang, ir, lang, bundles))
+    p = _paths(ir, inputs, bundles)
+    _print_report(lang, _run(link_lang, p.corpus, lang, p.bundles, inputs_dir=p.inputs))
 
 
 @link_app.command("all")
 def link_all_cmd(
-    ir: IrDir = Path("fixtures/ir"),
-    bundles: BundlesDir = Path("data/bundles"),
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
     chronology: Scheme = None,
 ) -> None:
     """Build the core and every language bundle found in the IR."""
-    for name, report in _run(link_all, ir, bundles, chronology).items():
+    p = _paths(ir, inputs, bundles)
+    for name, report in _run(
+        link_all, p.corpus, p.bundles, chronology, inputs_dir=p.inputs
+    ).items():
         _print_report(name, report)
 
 
 @app.command("validate")
-def validate_cmd(ir: IrDir = Path("fixtures/ir"), chronology: Scheme = None) -> None:
+def validate_cmd(ir: IrDir = None, inputs: InputsDir = None, chronology: Scheme = None) -> None:
     """Run the linker's checks without writing anything."""
-    report = validate(ir, chronology)
+    p = _paths(ir, inputs)
+    report = validate(p.corpus, chronology, inputs_dir=p.inputs)
     for w in report.warnings:
         typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
     for err in report.errors:
@@ -78,16 +116,13 @@ def validate_cmd(ir: IrDir = Path("fixtures/ir"), chronology: Scheme = None) -> 
     typer.secho("ok", fg=typer.colors.GREEN)
 
 
+# --- ingest -----------------------------------------------------------------------------------
+
+
 @app.command()
 def ingest(
     scope: Annotated[str, typer.Argument(help="Book or chapters, e.g. 1KGS.17-19")],
-    ir: IrDir = Path("build/ir"),
-    sources: Annotated[Path, typer.Option("--sources", help="Download cache")] = Path(
-        "data/sources"
-    ),
-    lockfile: Annotated[Path, typer.Option("--lock", help="Source pins")] = Path(
-        "sources.lock.json"
-    ),
+    out: Annotated[Path | None, typer.Option("--out", help="[default: build/ir]")] = None,
     refresh: Annotated[bool, typer.Option(help="Re-download and re-pin sources")] = False,
     commentary: Annotated[bool, typer.Option(help="Fetch Sefaria commentaries")] = True,
 ) -> None:
@@ -96,11 +131,14 @@ def ingest(
     from urim.compiler.ingest.build import ingest as run_ingest
     from urim.compiler.ingest.fetch import SourceChanged
 
+    p = _paths()
+    target = out or p.inputs
     try:
-        r = run_ingest(scope, ir, sources, lockfile, refresh=refresh, commentaries=commentary)
+        r = run_ingest(
+            scope, target, p.sources, p.lockfile, refresh=refresh, commentaries=commentary
+        )
     except (IngestError, SourceChanged) as e:
-        typer.secho(f"error: {e}", fg=typer.colors.RED)
-        raise typer.Exit(1) from e
+        raise _fail(str(e)) from e
     for w in r.warnings:
         typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
     typer.echo(f"{r.scope}: {r.verses} verses, {r.tokens} words, {r.verse_map_rows} verse-map rows")
@@ -108,35 +146,207 @@ def ingest(
     if r.commentaries:
         typer.echo("  commentaries: " + ", ".join(f"{k} {v}" for k, v in r.commentaries.items()))
     typer.echo(f"  registry:     {r.entities} entities, {r.geocoded} with coordinates")
-    typer.secho(f"wrote {ir}", fg=typer.colors.GREEN)
+    typer.secho(f"wrote {target}", fg=typer.colors.GREEN)
+
+
+# --- workbench --------------------------------------------------------------------------------
 
 
 @app.command()
-def verse(
-    ref: str, lang: str = "en", bundles: BundlesDir = Path("data/bundles"), ecs: bool = False
+def task(
+    agent: Agent,
+    scope: Annotated[str, typer.Argument(help="1KGS.18 or 1KGS.18.1-12")],
+    ir: IrDir = None,
+    inputs: InputsDir = None,
 ) -> None:
+    """Write the work packet for one session task."""
+    from urim.workbench.packets import TaskError, build_packet, display_path
+
+    try:
+        packet = build_packet(agent, scope, _paths(ir, inputs))
+    except TaskError as e:
+        raise _fail(str(e)) from e
+    for w in packet.warnings:
+        typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
+    typer.echo(f"packet:   {display_path(packet.packet_path)} ({len(packet.text):,} chars)")
+    typer.echo(f"fragment: {display_path(packet.fragment_path)}")
+    typer.echo(f"schema:   urim schema {agent}")
+    typer.echo(f"then:     urim ir merge {display_path(packet.fragment_path)}")
+
+
+@app.command()
+def schema(agent: Agent) -> None:
+    """Print the JSON schema of an agent's fragment."""
+    from urim.workbench.fragments import FRAGMENT_MODELS
+
+    if agent not in FRAGMENT_MODELS:
+        raise _fail(f"unknown agent {agent!r}")
+    typer.echo(json.dumps(FRAGMENT_MODELS[agent].model_json_schema(), indent=1))
+
+
+@ir_app.command("merge")
+def ir_merge(
+    fragment: Annotated[Path, typer.Argument(help="Fragment JSON written by a session")],
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
+    dry_run: Annotated[bool, typer.Option(help="Check only; write nothing")] = False,
+    link: Annotated[bool, typer.Option(help="Relink the bundles afterwards")] = True,
+) -> None:
+    """Check a fragment (schema, ownership, locks, full link) and merge it into the corpus."""
+    from urim.workbench.fragments import FragmentError, load_fragment
+    from urim.workbench.merge import merge_fragment
+
+    p = _paths(ir, inputs, bundles)
+    try:
+        frag = load_fragment(fragment)
+    except FragmentError as e:
+        raise _fail(str(e)) from e
+    r = merge_fragment(frag, p.corpus, p.inputs, dry_run=dry_run)
+    for w in r.warnings:
+        typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
+    for err in r.errors:
+        typer.secho(f"  error {err}", fg=typer.colors.RED)
+    if not r.ok:
+        raise typer.Exit(1)
+    typer.echo(
+        f"{r.agent} {r.chapter_ref}: {len(r.added)} added, {len(r.changed)} changed, "
+        f"{len(r.unchanged)} unchanged, {len(r.removed)} removed, "
+        f"{len(r.kept_locked)} kept (approved)"
+    )
+    if dry_run:
+        typer.secho("dry run: nothing written", fg=typer.colors.GREEN)
+        return
+    for path in r.written:
+        typer.echo(f"  wrote {path}")
+    if link:
+        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs)
+        typer.echo(f"  relinked {p.bundles}")
+    typer.secho(
+        f"merged; review with `urim status` and `urim ledger {r.chapter_ref}`",
+        fg=typer.colors.GREEN,
+    )
+
+
+@app.command()
+def status(ir: IrDir = None, inputs: InputsDir = None) -> None:
+    """Progress per chapter, and what to do next."""
+    from urim.workbench.status import corpus_status, next_steps
+
+    rows = corpus_status(_paths(ir, inputs))
+    header = (
+        f"{'chapter':10} {'verses':>6} {'events':>6} {'linked':>6} {'onto':>5} "
+        f"{'philo':>7} {'✓':>4} {'draft':>5} {'asks':>4} {'notes':>5}"
+    )
+    typer.echo(header)
+    for r in rows:
+        typer.echo(
+            f"{r.chapter:10} {len(r.verses):>6} {r.events:>6} {r.linked_events:>6} "
+            f"{r.ontology_items:>5} {r.philology:>3}/{len(r.verses):<3} {r.approved:>4} "
+            f"{r.drafts:>5} {r.requests:>4} {r.notes:>5}"
+        )
+    steps = next_steps(rows)
+    if steps:
+        typer.echo("\nnext:")
+        for s in steps:
+            typer.echo(f"  {s}")
+
+
+@app.command()
+def ledger(chapter: str, ir: IrDir = None) -> None:
+    """Every reviewable item of a chapter, with status, producer and agent notes."""
+    from urim.workbench.ledger import load_ledger
+
+    led = load_ledger(_paths(ir).corpus, chapter)
+    colors = {"approved": typer.colors.GREEN, "changes_requested": typer.colors.RED}
+    for k, item in led.items.items():
+        typer.secho(f"{item.status:17} {k}", fg=colors.get(item.status))
+        typer.echo(
+            f"{'':17} by {item.produced_by.model} ({item.produced_by.skill}) at {item.produced_at}"
+        )
+        for n in item.agent_notes:
+            typer.echo(f"{'':17} agent: {n}")
+        if item.last_note:
+            typer.echo(f"{'':17} you: {item.last_note}")
+    for n in led.notes:
+        typer.echo(f"note ({n.produced_by.model}, {n.at}): {n.note}")
+
+
+def _review(keys: list[str], new_status: str, note: str | None, ir: Path | None) -> None:
+    from urim.workbench.ledger import LedgerError, set_status
+
+    try:
+        changed = set_status(_paths(ir).corpus, keys, new_status, note)
+    except LedgerError as e:
+        raise _fail(str(e)) from e
+    typer.secho(f"{len(changed)} item(s) now {new_status}", fg=typer.colors.GREEN)
+
+
+@app.command()
+def approve(
+    keys: Annotated[list[str] | None, typer.Argument(help="Ledger keys, e.g. event:evt.…")] = None,
+    chapter: Annotated[str | None, typer.Option(help="Approve every draft in a chapter")] = None,
+    kind: Annotated[str | None, typer.Option(help="With --chapter: only this kind")] = None,
+    note: str | None = None,
+    ir: IrDir = None,
+) -> None:
+    """Approve items; approved items are locked against later merges."""
+    from urim.workbench.ledger import load_ledger
+
+    selected = list(keys or [])
+    if chapter:
+        led = load_ledger(_paths(ir).corpus, chapter)
+        selected += [
+            k
+            for k, i in led.items.items()
+            if i.status == "draft" and (kind is None or k.startswith(f"{kind}:"))
+        ]
+    if not selected:
+        raise _fail("nothing to approve: pass keys or --chapter")
+    _review(selected, "approved", note, ir)
+
+
+@app.command("request-changes")
+def request_changes(
+    key: str, note: Annotated[str, typer.Option(help="What should change")], ir: IrDir = None
+) -> None:
+    """Send an item back; the next packet for its chapter shows your note first."""
+    _review([key], "changes_requested", note, ir)
+
+
+@app.command()
+def reopen(key: str, note: str | None = None, ir: IrDir = None) -> None:
+    """Unlock an approved item so a session may change it again."""
+    _review([key], "draft", note, ir)
+
+
+# --- runtime ----------------------------------------------------------------------------------
+
+
+@app.command()
+def verse(ref: str, lang: str = "en", bundles: BundlesDir = None, ecs: bool = False) -> None:
     """Print one verse matrix as JSON."""
     from urim.runtime.engine import UrimEngine
 
-    m = UrimEngine(bundles).get_verse_matrix(ref, lang=lang, include_ecs=ecs)
+    m = UrimEngine(_paths(bundles=bundles).bundles).get_verse_matrix(
+        ref, lang=lang, include_ecs=ecs
+    )
     typer.echo(json.dumps(m.model_dump(mode="json"), ensure_ascii=False, indent=2))
 
 
 @app.command()
-def serve(
-    bundles: BundlesDir = Path("data/bundles"), host: str = "127.0.0.1", port: int = 8000
-) -> None:
+def serve(bundles: BundlesDir = None, host: str = "127.0.0.1", port: int = 8000) -> None:
     """Serve the REST API."""
     import uvicorn
 
     from urim.interfaces.rest_api import create_app
 
-    uvicorn.run(create_app(bundles), host=host, port=port)
+    uvicorn.run(create_app(_paths(bundles=bundles).bundles), host=host, port=port)
 
 
 @app.command()
-def mcp(bundles: BundlesDir = Path("data/bundles")) -> None:
+def mcp(bundles: BundlesDir = None) -> None:
     """Run the MCP server over stdio."""
     from urim.interfaces.mcp_server import create_server
 
-    create_server(bundles).run()
+    create_server(_paths(bundles=bundles).bundles).run()

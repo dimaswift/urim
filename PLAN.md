@@ -15,7 +15,8 @@ and no absolute anchor.
 | Chronology | Thiele as the default scheme; schemes are switchable at link time |
 | Verse numbering | Source text (WLC / Greek) is canonical; KJV, Synodal, … are aliases via TVTMS |
 | Calendar | Proleptic Gregorian, day arithmetic via Julian Day Numbers |
-| LLM models | Run every agent with Opus 5.5, Sonnet 5.5 and Haiku 5.5 on the PoC; pick per agent from measurements |
+| Agents | Claude Code sessions on the subscription, driven by project skills; API pipeline later for speed |
+| LLM models | Compare Opus 5.5, Sonnet 5.5 and Haiku 5.5 per agent (subagents) on the PoC; pick per agent from measurements |
 | Architecture | Compiler: agents → JSON IR → deterministic linker → SQLite |
 | Python | 3.13, uv-managed (sqlite-vec needs `enable_load_extension`) |
 | MCP | SDK 2.x `MCPServer` (FastMCP was renamed in 2.0) |
@@ -74,34 +75,66 @@ Deviations and open items:
 - **Licenses**: Sefaria reports Radak's digitization as "unknown"; commentaries stay
   compile-time input only.
 
-## Phase 2: agents + model comparison
+## Phase 2: session-driven agents + review game
 
-Prerequisite: Anthropic credentials (`ant auth login` or `ANTHROPIC_API_KEY`).
+Agents are **Claude Code chats on the subscription**, not API calls: you open a chat, invoke a
+skill, it does one bounded task and you review the result. Produce a solid body of reviewed
+output by hand first; the same skills become API prompts later if speed is needed (Phase 4).
 
-- [ ] `compiler/llm.py`: Anthropic SDK, `messages.parse()` with the IR models as structured
-      outputs (forced `tool_choice` is rejected on Opus 5.5 / Sonnet 5.5), explicit `effort`,
-      prompt caching on the shared per-chapter source bundle, content-addressed response cache,
-      Message Batches for large runs
-- [ ] Id lockfile and override layer
-- [ ] Philologist → `i18n/en`; Chronologist → events / time / causality; Ontologist → ECS;
-      Critic (LLM) → review notes
-- [ ] `urim compile-core --chapters 1KGS.17-19 --model {opus,sonnet,haiku}` writes to
-      `build/runs/{model}/ir/`, then links and runs the acceptance tests on each run
+The loop: `/urim-<agent> SCOPE` → `urim task` writes a compact work packet → the session writes
+a fragment JSON → `urim ir merge` validates it (schema, ownership, locks, full link) and merges
+it into `corpus/`, recording model, skill version and date → you review in the review app,
+approve or request changes → commit.
 
-**Comparison harness** (`urim eval`), per agent and model, against the golden fixture:
+**M1: workbench** (deterministic, no model calls) ✅
+- [x] `corpus/` (committed): curated `chronology.json` and bundle labels, agent-written `core/`
+      and `i18n/`, a review ledger per chapter; ingest output stays in `build/ir` as inputs;
+      paths in `[tool.urim]`
+- [x] Fragment schemas (`urim schema <agent>`). Ownership: chronology owns events, timing and
+      causality; ontology owns entities and every link from an event to an entity
+      (participants and place), states, rituals, interactions; philology owns verse layers
+      and glosses
+- [x] `urim ir merge`: ownership and scope checks, approved items locked, a full link in a
+      scratch copy before anything is written, provenance and agent notes into the ledger,
+      bundles relinked
+- [x] `urim task <agent> <scope>`: Markdown packets of 8–17K tokens with rolling context
+      (earlier events with dates, anchors, distances between places, registry, known
+      entities, open states, systems, locked items, your change requests first)
+- [x] `urim status` (chronology and ontology suggested one chapter at a time), `urim ledger`,
+      `urim approve`, `urim request-changes`, `urim reopen`
+- [x] Proof: the gold, split into fragments and merged chapter by chapter into an empty corpus,
+      rebuilds a core identical to the gold (same content hash)
 
-| Agent | Automatic metrics | Judged |
-|---|---|---|
-| Philologist | verse coverage, gloss alignment, notes present, baseline-audit present | blind pairwise vs gold and across models (Opus 5.5 judge) + human spot-check of ~10 verses |
-| Chronologist | linker pass, event-boundary F1 (verse-range IoU), relative offsets within margin, causal-edge F1 | temporal reasoning notes |
-| Ontologist | entity P/R, component transitions, instance F1 | — |
-| All | cost and latency per chapter (from `usage`) | — |
+**M2: review game** (the main human interface; see below)
 
-Decision rule: per agent, the cheapest model whose scores stay within an agreed tolerance of
-Opus. Cost basis (Anthropic list prices, Oct 2026, per 1M input/output tokens): Opus 5.5 $4 /
-$20, Sonnet 5.5 $2 / $10, Haiku 5.5 $0.10 / $0.50 for prompts up to 100K tokens ($0.50 / $2.50
-beyond). Batches are 50% off. Keep per-chapter prompts under 100K tokens so Haiku stays in its
-cheap tier.
+**M3: skills** in `.claude/skills/` (`urim-chronologist`, `urim-ontologist`,
+`urim-philologist`, `urim-critic`) plus a project `CLAUDE.md`; first real session:
+chronology for 1 Kings 17, which has no gold
+
+**M4: model comparison** on 1 Kings 18–19 against the gold fixture: `/urim-compare` runs the
+same packet through Opus, Sonnet and Haiku subagents into `runs/<model>/`; `urim eval` scores
+them (event F1, relative timing within margins, causal F1, entity P/R by TIPNR id, state
+transitions, acceptance tests 1–4, philology checks plus a blind judge subagent). Result: a
+default model per skill. All of it counts against the subscription allowance, not API billing.
+
+### Review game
+
+Reviewing should feel like playing, not auditing. Planned elements, to be designed with you:
+
+- **Progress map**: the canon as a tile world, books as regions and chapters as tiles that fill
+  in as layers are written and approved; streaks, milestones and per-layer completion
+- **Review deck**: pending items as cards with one-key approve / request changes / flag,
+  showing the agent's own uncertainty notes; requested changes become the next session's tasks
+- **Verse X-ray**: interlinear Hebrew with hover cards (lemma, decoded morphology, gloss, linked
+  entity), layer toggles, baseline-versus-literal differences highlighted
+- **Timeline**: zoom from centuries down to a single day's clock (dawn → noon → minchah →
+  Jezreel at 19:30), with uncertainty shown as bands
+- **Causal graph**: the event DAG with typed edges and elapsed times; click to trace
+- **Map**: places with confidence, journeys animated along the timeline
+- **Character sheets**: RPG-style entity cards with state bars over verses, possessions,
+  relationships and appearances across chapters; rituals as collectible codex cards
+- **Query tools**: search, filters (who, where, when), timeline brushing, and a read-only SQL
+  console for power use
 
 ## Phase 3: localization + vectors
 
@@ -116,7 +149,9 @@ cheap tier.
 - [ ] Genesis 18–19 as the generalization test (floating chronology)
 - [ ] Process in chronological narrative arcs (Kings and Chronicles interleave), parallel where
       the rolling state allows
-- [ ] Batch API for the full canon; measured cost per chapter decides the model mix
+- [ ] API pipeline for speed: the skills become prompts, run through the Anthropic SDK with
+      structured outputs, prompt caching and Message Batches; measured cost per chapter decides
+      the model mix
 - [ ] Additional chronology schemes (e.g. Galil) for the divided monarchy
 
 ## Open questions

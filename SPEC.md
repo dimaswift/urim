@@ -258,7 +258,19 @@ Commentary claims should cite the ingested sources (`philological_notes[].source
 Physical durations (travel, chariot runs) are derived from coordinates and a speed table by
 code. The Chronologist chooses the mode of travel and the route; it does not do the arithmetic.
 
-### 6.3 Model selection
+### 6.3 Session workbench
+
+Agents can be Claude Code chats rather than API calls. A skill runs `urim task <agent> <scope>`
+for a Markdown work packet, the session writes a **fragment** (one per agent, see
+[`urim/workbench/fragments.py`](urim/workbench/fragments.py)) and `urim ir merge` folds it into
+`corpus/`. Ownership: chronology owns events, timing and causality; ontology owns entities and
+every event-to-entity link (participants, place), states, rituals and interactions; philology
+owns verse layers. A fragment is authoritative for its agent's items in its chapter (philology:
+for its verses only); approved items are locked; nothing is written until the merged corpus
+links. The per-chapter ledger in `corpus/ledger/` records producer (model, skill version, date),
+agent notes and review history.
+
+### 6.4 Model selection
 
 Every agent's model is configurable. For the PoC, each agent runs with **Claude Opus 5.5**,
 **Sonnet 5.5** and **Haiku 5.5** and is scored against the golden fixture IR. See PLAN.md,

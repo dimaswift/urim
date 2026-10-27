@@ -22,7 +22,14 @@ from typing import Any
 from urim import __version__, utime
 from urim.bundles import core_path, lang_bundle_path, sqlite_uri
 from urim.canon import BOOKS, BOOKS_BY_CODE, TRANSLATION_SCHEMES, parse_ref
-from urim.ir.load import CoreCorpus, available_langs, load_core_corpus, load_i18n, load_sources
+from urim.ir.load import (
+    CoreCorpus,
+    available_langs,
+    inputs_root,
+    load_core_corpus,
+    load_i18n,
+    load_sources,
+)
 from urim.ir.models import ChronologyAnchorIR, ComponentIR, EventIR
 
 SCHEMA_DIR = Path(__file__).resolve().parent.parent / "schema"
@@ -721,7 +728,11 @@ _JSON_COLUMNS = {"aliases": "aliases_json", "rules_and_mechanics": "rules_and_me
 
 
 def build_lang(
-    ir_dir: Path, lang: str, core: sqlite3.Connection, report: Report
+    ir_dir: Path,
+    lang: str,
+    core: sqlite3.Connection,
+    report: Report,
+    inputs_dir: Path | None = None,
 ) -> tuple[dict[str, Table], dict[str, Any]]:
     bundle, chapters = load_i18n(ir_dir, lang)
     j = lambda v: json.dumps(v, ensure_ascii=False, separators=(",", ":"))  # noqa: E731
@@ -782,7 +793,7 @@ def build_lang(
     scheme = TRANSLATION_SCHEMES.get(translation)
     baseline_texts: dict[str, str] = {}
     source_glosses: dict[str, list[str]] = {}  # reference glosses (e.g. STEPBible) per verse
-    for src in load_sources(ir_dir):
+    for src in load_sources(inputs_root(ir_dir, inputs_dir)):
         baseline_texts.update(src.baselines.get(translation, {}))
         source_glosses |= {v.verse_id: v.glosses[lang] for v in src.verses if lang in v.glosses}
     if not baseline_texts:
@@ -922,15 +933,17 @@ def _write_db(path: Path, schema_file: str, tables: dict[str, Table]) -> None:
     os.replace(tmp, path)
 
 
-def validate(ir_dir: Path, scheme: str | None = None) -> Report:
-    corpus = load_core_corpus(ir_dir)
+def validate(ir_dir: Path, scheme: str | None = None, *, inputs_dir: Path | None = None) -> Report:
+    corpus = load_core_corpus(ir_dir, inputs_dir)
     report = Report()
     build_core(corpus, scheme or corpus.chronology.default_scheme, report)
     return report
 
 
-def link_core(ir_dir: Path, bundles_dir: Path, scheme: str | None = None) -> Report:
-    corpus = load_core_corpus(ir_dir)
+def link_core(
+    ir_dir: Path, bundles_dir: Path, scheme: str | None = None, *, inputs_dir: Path | None = None
+) -> Report:
+    corpus = load_core_corpus(ir_dir, inputs_dir)
     report = Report()
     tables = build_core(corpus, scheme or corpus.chronology.default_scheme, report)
     if not report.ok:
@@ -939,7 +952,9 @@ def link_core(ir_dir: Path, bundles_dir: Path, scheme: str | None = None) -> Rep
     return report
 
 
-def link_lang(ir_dir: Path, lang: str, bundles_dir: Path) -> Report:
+def link_lang(
+    ir_dir: Path, lang: str, bundles_dir: Path, *, inputs_dir: Path | None = None
+) -> Report:
     """Build one language bundle against an existing core. Opens the core read-only."""
     core_file = core_path(bundles_dir)
     if not core_file.exists():
@@ -947,7 +962,7 @@ def link_lang(ir_dir: Path, lang: str, bundles_dir: Path) -> Report:
     report = Report()
     core = sqlite3.connect(sqlite_uri(core_file), uri=True)
     try:
-        tables, manifest = build_lang(Path(ir_dir), lang, core, report)
+        tables, manifest = build_lang(Path(ir_dir), lang, core, report, inputs_dir)
     finally:
         core.close()
     if not report.ok:
@@ -958,8 +973,10 @@ def link_lang(ir_dir: Path, lang: str, bundles_dir: Path) -> Report:
     return report
 
 
-def link_all(ir_dir: Path, bundles_dir: Path, scheme: str | None = None) -> dict[str, Report]:
-    reports = {"core": link_core(ir_dir, bundles_dir, scheme)}
+def link_all(
+    ir_dir: Path, bundles_dir: Path, scheme: str | None = None, *, inputs_dir: Path | None = None
+) -> dict[str, Report]:
+    reports = {"core": link_core(ir_dir, bundles_dir, scheme, inputs_dir=inputs_dir)}
     for lang in available_langs(ir_dir):
-        reports[lang] = link_lang(ir_dir, lang, bundles_dir)
+        reports[lang] = link_lang(ir_dir, lang, bundles_dir, inputs_dir=inputs_dir)
     return reports

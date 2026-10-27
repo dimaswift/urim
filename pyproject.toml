@@ -53,3 +53,12 @@ dev = [
     "pytest>=9.1.1",
     "ruff>=0.17.3",
 ]
+
+[tool.urim]
+corpus = "corpus"
+inputs = "build/ir"
+bundles = "data/bundles"
+sources = "data/sources"
+lockfile = "sources.lock.json"
+work = "work"
+runs = "runs"
