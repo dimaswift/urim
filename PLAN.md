@@ -133,9 +133,21 @@ approve or request changes → commit.
       activity, localized UI chrome for `ru` (content already switches)
 
 
-**M3: skills** in `.claude/skills/` (`urim-chronologist`, `urim-ontologist`,
-`urim-philologist`, `urim-critic`) plus a project `CLAUDE.md`; first real session:
-chronology for 1 Kings 17, which has no gold
+**M3: skills**
+- [x] Project `CLAUDE.md`: layout, commands, ownership, and the rules (corpus only through
+      merges, review decisions are the user's, no reading the gold during agent work, no
+      timestamps or coordinates in IR, provenance, no commits)
+- [x] `.claude/skills/`: `urim-chronologist`, `urim-ontologist`, `urim-philologist` (procedure:
+      packet → schema → fragment → dry-run merge → merge → report; the v1.0 directives as
+      concrete rules; worked examples from outside 1 Kings 17–19 so they cannot leak the gold)
+      and `urim-critic` (checks meaning against the text, writes `work/critic/<chapter>.md`,
+      sends back only what the user picks)
+- [x] `urim travel A B [C…] --mode`: journey times from coordinates (great-circle × 1.25,
+      a speed table per mode), so sessions choose route and mode and code does the arithmetic
+- [x] Chronology merges print the linked timeline (start, end, duration, relative and absolute
+      margin, how each event is anchored, elapsed time per causal link); `urim timeline <ch>`
+      prints it for the corpus
+- [ ] First real session: `/urim-chronologist 1KGS.17` (no gold beyond the opening oath)
 
 **M4: model comparison** on 1 Kings 18–19 against the gold fixture: `/urim-compare` runs the
 same packet through Opus, Sonnet and Haiku subagents into `runs/<model>/`; `urim eval` scores

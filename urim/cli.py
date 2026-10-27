@@ -216,6 +216,8 @@ def ir_merge(
         f"{len(r.unchanged)} unchanged, {len(r.removed)} removed, "
         f"{len(r.kept_locked)} kept (approved)"
     )
+    if r.timeline:
+        _print_timeline(r.chapter_ref, r.timeline, r.causes)
     if dry_run:
         typer.secho("dry run: nothing written", fg=typer.colors.GREEN)
         return
@@ -228,6 +230,79 @@ def ir_merge(
         f"merged; review with `urim status` and `urim ledger {r.chapter_ref}`",
         fg=typer.colors.GREEN,
     )
+
+
+def _print_timeline(chapter: str, rows, causes) -> None:
+    from urim.workbench.timeline import span
+
+    typer.echo(f"\ntimeline {chapter} (as linked; check it reads the way the text does):")
+    depth: dict[str, int] = {}
+    for t in rows:
+        depth[t.event_id] = depth.get(t.parent_event_id, -1) + 1 if t.parent_event_id else 0
+        pad = "  " * depth[t.event_id]
+        typer.echo(
+            f"  {pad}{t.start} → {t.end}  {span(t.duration_seconds)} ± {span(t.margin_seconds)}"
+            f" (abs ± {span(t.absolute_margin_seconds)})  {t.precision_tier}  {t.verses}"
+            f"  {t.event_id}"
+        )
+        typer.secho(f"  {pad}    from {t.anchor}", dim=True)
+    for c in causes:
+        typer.echo(f"  {c.causal_id} {c.causal_type}: {span(c.elapsed_seconds)} after the cause")
+
+
+@app.command()
+def timeline(
+    chapter: Annotated[str, typer.Argument(help="Chapter, e.g. 1KGS.17")],
+    bundles: BundlesDir = None,
+) -> None:
+    """A chapter's events with the dates the linker gave them."""
+    from urim.bundles import core_path
+    from urim.workbench.timeline import chapter_timeline
+
+    path = core_path(_paths(bundles=bundles).bundles)
+    if not path.exists():
+        raise _fail(f"{path} not found: run `urim link all`")
+    rows, causes = chapter_timeline(path, chapter)
+    if not rows:
+        raise _fail(f"no events in {chapter} yet")
+    _print_timeline(chapter, rows, causes)
+
+
+@app.command()
+def travel(
+    places: Annotated[list[str], typer.Argument(help="Two or more places: loc.carmel, Jezreel")],
+    mode: Annotated[str | None, typer.Option(help="Only this mode")] = None,
+    detour: Annotated[float, typer.Option(help="Road length over straight line")] = 1.25,
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+) -> None:
+    """Journey times between places, for each way of travelling."""
+    from urim.workbench.travel import MODES, TravelError, find_place, journey
+
+    p = _paths(ir, inputs)
+    if len(places) < 2:
+        raise _fail("give at least two places")
+    try:
+        stops = [find_place(q, p.corpus, p.inputs) for q in places]
+        legs = [journey(stops, m, detour) for m in ([mode] if mode else MODES)]
+    except TravelError as e:
+        raise _fail(str(e)) from e
+    route = " → ".join(f"{s.name} ({s.entity_id})" for s in stops)
+    first = legs[0]
+    typer.echo(f"{route}: {first.straight_km:.0f} km straight, ~{first.route_km:.0f} km by road")
+    for leg in legs:
+        m = MODES[leg.mode]
+        d = leg.ir_duration
+        warn = (
+            "  (longer than one stint)"
+            if leg.mode in ("run", "chariot") and (leg.moving_hours > m.hours_per_day)
+            else ""
+        )
+        typer.echo(
+            f"  {leg.mode:8} {m.kmh:>4g} km/h  {leg.moving_hours:5.1f} h moving  "
+            f"elapsed ≈ {d['value']:g} {d['unit']}  ({m.note}){warn}"
+        )
+    typer.echo('IR: "duration": {"value": N, "unit": "hours" | "days"} from the elapsed column')
 
 
 @app.command()

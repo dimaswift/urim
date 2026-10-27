@@ -7,7 +7,6 @@ your change requests), and where to write the answer.
 
 from __future__ import annotations
 
-import math
 import re
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
@@ -29,6 +28,7 @@ from urim.runtime.engine import format_utes
 from urim.workbench.fragments import key
 from urim.workbench.ledger import ChapterLedger, load_ledger
 from urim.workbench.merge import CorpusFiles, chapter_of
+from urim.workbench.travel import distance_km
 
 PHILOLOGY_WINDOW = 12
 _SCOPE = re.compile(r"^([1-3]?[A-Za-z]+)\.(\d+)(?:\.(\d+)(?:-(\d+))?)?$")
@@ -168,15 +168,6 @@ def _baselines(src: SourceBookIR, verse_id: str, names: tuple[str, ...]) -> list
     return lines
 
 
-def _distance_km(a: EntitySeed, b: EntitySeed) -> float:
-    lat1, lon1, lat2, lon2 = map(math.radians, (a.geo.lat, a.geo.lon, b.geo.lat, b.geo.lon))
-    h = (
-        math.sin((lat2 - lat1) / 2) ** 2
-        + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
-    )
-    return 6371 * 2 * math.asin(math.sqrt(h))
-
-
 def _seed_line(s: EntitySeed, verse_ids: set[str], known: dict[str, str]) -> str:
     mentions = ", ".join(
         f"{_short(m.verse_id)}#{m.pos}" for m in s.mentions if m.verse_id in verse_ids
@@ -296,7 +287,13 @@ def _chronology(ctx: Context) -> list[str]:
         if len(places) > 1:
             out += ["", "Straight-line distances (km):", ""]
             for a, b in combinations(places, 2):
-                out.append(f"- {a.names[0]} – {b.names[0]}: {_distance_km(a, b):.0f}")
+                km = distance_km(a.geo.lat, a.geo.lon, b.geo.lat, b.geo.lon)
+                out.append(f"- {a.names[0]} – {b.names[0]}: {km:.0f}")
+        out += [
+            "",
+            "Journey times: `uv run urim travel FROM TO [--mode walk|hurry|run|donkey|army|"
+            "chariot]` (ids or names; more than two places for a route).",
+        ]
         out.append("")
     return out
 

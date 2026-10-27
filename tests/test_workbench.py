@@ -258,3 +258,47 @@ def test_cli_merge_status_and_approve(corpus, tmp_path):
     assert result.exit_code == 0 and "1 item(s) now approved" in result.output
     result = runner.invoke(app, ["status", *common])
     assert "1KGS.17" in result.output and "/urim-chronologist 1KGS.18" in result.output
+
+
+def test_chronology_merges_report_the_linked_timeline(corpus, tmp_path):
+    merge(gold.chronology("1KGS.17"), corpus)
+    result = merge(gold.chronology("1KGS.18"), corpus)
+    rows = {t.event_id: t for t in result.timeline}
+    assert rows["evt.1kgs_18.minchah_fire"].start.endswith("15:00")
+    assert rows["evt.1kgs_18.elijah_mocks_baal"].anchor == (
+        "evt.1kgs_18.carmel_contest start → TZOHORAYIM, 6.5 h later"
+    )
+    assert [t.event_id for t in result.timeline][0] == "evt.1kgs_18.carmel_contest"
+    assert {c.causal_id for c in result.causes} >= {"caus.1kgs_17.drought_oath.rain_returns"}
+    assert not merge(gold.ontology("1KGS.17"), corpus).timeline
+
+    path = tmp_path / "frag.json"
+    path.write_text(gold.chronology("1KGS.18").model_dump_json())
+    runner = CliRunner()
+    bundles = ["--bundles", str(tmp_path / "bundles")]
+    args = ["ir", "merge", str(path), "--ir", str(corpus), "--inputs", str(FIXTURE_IR)]
+    assert "timeline 1KGS.18" in runner.invoke(app, [*args, *bundles]).output
+    result = runner.invoke(app, ["timeline", "1KGS.18", *bundles])
+    assert result.exit_code == 0
+    assert "from evt.1kgs_17.drought_oath start → SHACHAR, 2.5 y later" in result.output
+
+
+def test_travel_times_come_from_coordinates(corpus):
+    from urim.workbench.travel import TravelError, find_place, journey
+
+    carmel = find_place("Carmel", corpus, FIXTURE_IR)  # a word of "Mount Carmel"
+    jezreel = find_place("loc.jezreel", corpus, FIXTURE_IR)
+    assert carmel.entity_id == "loc.carmel_mount"
+    leg = journey([carmel, jezreel], "chariot")
+    assert 25 < leg.straight_km < 35 and leg.ir_duration == {"value": 3.5, "unit": "hours"}
+
+    beersheba = find_place("Beersheba", corpus, FIXTURE_IR)
+    flight = journey([jezreel, beersheba], "hurry")
+    assert flight.elapsed_hours > 72 and flight.ir_duration["unit"] == "days"
+    with pytest.raises(TravelError, match="no place"):
+        find_place("Atlantis", corpus, FIXTURE_IR)
+
+    result = CliRunner().invoke(
+        app, ["travel", "Carmel", "Jezreel", "--ir", str(corpus), "--inputs", str(FIXTURE_IR)]
+    )
+    assert result.exit_code == 0 and "chariot" in result.output and "walk" in result.output

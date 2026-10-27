@@ -19,6 +19,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
+from urim.bundles import core_path
 from urim.canon import parse_ref
 from urim.compiler.link import LinkError, link_all
 from urim.ir.load import inputs_root, load_sources, read_model, write_model
@@ -38,6 +39,7 @@ from urim.workbench.ledger import (
     now,
     save_ledger,
 )
+from urim.workbench.timeline import CauseRow, TimeRow, chapter_timeline
 
 Fragment = ChronologyFragment | OntologyFragment | PhilologyFragment
 
@@ -54,6 +56,8 @@ class MergeResult:
     errors: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     written: list[Path] = field(default_factory=list)
+    timeline: list[TimeRow] = field(default_factory=list)
+    causes: list[CauseRow] = field(default_factory=list)
 
     @property
     def ok(self) -> bool:
@@ -567,6 +571,10 @@ def merge_fragment(
             return result
         for name, report in reports.items():
             result.warnings += [f"{name}: {w}" for w in report.warnings]
+        if isinstance(fragment, ChronologyFragment):
+            result.timeline, result.causes = chapter_timeline(
+                core_path(Path(tmp) / "bundles"), fragment.chapter_ref
+            )
     if dry_run:
         return result
 
