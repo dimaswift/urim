@@ -14,8 +14,10 @@ from urim.config import Paths, load_paths
 app = typer.Typer(no_args_is_help=True, help="URIM compiler, workbench and runtime.")
 link_app = typer.Typer(no_args_is_help=True, help="Link IR into SQLite bundles (no LLM calls).")
 ir_app = typer.Typer(no_args_is_help=True, help="Merge session output into the corpus.")
+model_app = typer.Typer(no_args_is_help=True, help="The embedding model for semantic search.")
 app.add_typer(link_app, name="link")
 app.add_typer(ir_app, name="ir")
+app.add_typer(model_app, name="model")
 
 IrDir = Annotated[Path | None, typer.Option("--ir", help="IR directory [default: corpus]")]
 InputsDir = Annotated[
@@ -24,6 +26,13 @@ InputsDir = Annotated[
 BundlesDir = Annotated[Path | None, typer.Option("--bundles", help="Bundles directory")]
 Scheme = Annotated[str | None, typer.Option("--chronology", help="Chronology scheme")]
 Agent = Annotated[str, typer.Argument(help="chronology, ontology or philology")]
+Vectors = Annotated[
+    bool | None,
+    typer.Option(
+        "--vectors/--no-vectors",
+        help="Embed search documents for semantic search [default: when the model is installed]",
+    ),
+]
 
 
 def _paths(
@@ -35,6 +44,7 @@ def _paths(
         inputs=inputs or p.inputs,
         bundles=bundles or p.bundles,
         sources=p.sources,
+        cache=p.cache,
         lockfile=p.lockfile,
         work=p.work,
         runs=p.runs,
@@ -46,6 +56,27 @@ def _paths(
 def _fail(message: str) -> typer.Exit:
     typer.secho(f"error: {message}", fg=typer.colors.RED)
     return typer.Exit(1)
+
+
+def _vectorizer(p: Paths, wanted: bool | None = None):
+    """The embedding step for linking: None when vectors are off or cannot be built."""
+    from urim.embeddings import EmbeddingCache, Vectorizer, load_embedder, unavailable
+
+    if wanted is False:
+        return None
+    if reason := unavailable(p.sources):
+        if wanted:
+            raise _fail(reason)
+        typer.secho(f"  note  keyword search only: {reason}", dim=True)
+        return None
+    embedder = load_embedder(p.sources)
+    return Vectorizer(embedder, EmbeddingCache(p.cache, embedder.model_id))
+
+
+def _print_vectors(vectors) -> None:
+    if vectors is not None and vectors.cache is not None:
+        c = vectors.cache
+        typer.echo(f"  vectors: {vectors.model_id}, {c.misses} embedded, {c.hits} from cache")
 
 
 def _print_report(name: str, report: Report) -> None:
@@ -82,11 +113,17 @@ def link_core_cmd(
 
 @link_app.command("lang")
 def link_lang_cmd(
-    lang: str, ir: IrDir = None, inputs: InputsDir = None, bundles: BundlesDir = None
+    lang: str,
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
+    vectors: Vectors = None,
 ) -> None:
     """Build one language bundle against the existing core (core is opened read-only)."""
     p = _paths(ir, inputs, bundles)
-    _print_report(lang, _run(link_lang, p.corpus, lang, p.bundles, inputs_dir=p.inputs))
+    v = _vectorizer(p, vectors)
+    _print_report(lang, _run(link_lang, p.corpus, lang, p.bundles, inputs_dir=p.inputs, vectors=v))
+    _print_vectors(v)
 
 
 @link_app.command("all")
@@ -95,13 +132,16 @@ def link_all_cmd(
     inputs: InputsDir = None,
     bundles: BundlesDir = None,
     chronology: Scheme = None,
+    vectors: Vectors = None,
 ) -> None:
     """Build the core and every language bundle found in the IR."""
     p = _paths(ir, inputs, bundles)
+    v = _vectorizer(p, vectors)
     for name, report in _run(
-        link_all, p.corpus, p.bundles, chronology, inputs_dir=p.inputs
+        link_all, p.corpus, p.bundles, chronology, inputs_dir=p.inputs, vectors=v
     ).items():
         _print_report(name, report)
+    _print_vectors(v)
 
 
 @app.command("validate")
@@ -149,6 +189,21 @@ def ingest(
         typer.echo("  commentaries: " + ", ".join(f"{k} {v}" for k, v in r.commentaries.items()))
     typer.echo(f"  registry:     {r.entities} entities, {r.geocoded} with coordinates")
     typer.secho(f"wrote {target}", fg=typer.colors.GREEN)
+
+
+@model_app.command("fetch")
+def model_fetch() -> None:
+    """Download the pinned embedding model (bge-m3 int8, about 590 MB), checking its hashes."""
+    from urim.compiler.ingest.fetch import MODEL_SOURCES, Fetcher, SourceChanged
+
+    p = _paths()
+    try:
+        with Fetcher(p.sources, p.lockfile) as fetcher:
+            for source in MODEL_SOURCES.values():
+                path = fetcher.get(source)
+                typer.echo(f"{source.key}: {path} ({path.stat().st_size:,} bytes)")
+    except SourceChanged as e:
+        raise _fail(str(e)) from e
 
 
 # --- workbench --------------------------------------------------------------------------------
@@ -224,8 +279,10 @@ def ir_merge(
     for path in r.written:
         typer.echo(f"  wrote {path}")
     if link:
-        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs)
+        v = _vectorizer(p)
+        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs, vectors=v)
         typer.echo(f"  relinked {p.bundles}")
+        _print_vectors(v)
     typer.secho(
         f"merged; review with `urim status` and `urim ledger {r.chapter_ref}`",
         fg=typer.colors.GREEN,
@@ -419,11 +476,13 @@ def review(
     from urim.review.server import create_review_app
 
     p = _paths(ir, inputs, bundles)
+    v = _vectorizer(p)
     if demo or rebuild_demo:
-        p = ensure_demo(p, rebuild=rebuild_demo)
+        p = ensure_demo(p, rebuild=rebuild_demo, vectors=v)
         typer.echo(f"demo corpus: {p.corpus}")
     else:
-        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs)
+        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs, vectors=v)
+    _print_vectors(v)
     dist = p.review / "dist"
     if not dist.exists():
         typer.secho(

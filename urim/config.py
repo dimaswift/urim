@@ -4,6 +4,7 @@ corpus   committed IR written by agents and reviewed by you
 inputs   regenerated ingest output (source/, registry/, commentary/)
 bundles  linked SQLite bundles
 sources  download cache; lockfile pins it
+cache    regenerable caches (embedding vectors by text hash)
 work     task packets and fragments (scratch, not committed)
 runs     comparison runs, one corpus per model; also the review demo
 fixtures the hand-written gold IR (benchmark)
@@ -23,6 +24,7 @@ class Paths:
     inputs: Path = Path("build/ir")
     bundles: Path = Path("data/bundles")
     sources: Path = Path("data/sources")
+    cache: Path = Path("data/cache")
     lockfile: Path = Path("sources.lock.json")
     work: Path = Path("work")
     runs: Path = Path("runs")

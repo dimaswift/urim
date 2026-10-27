@@ -292,11 +292,15 @@ All three interfaces expose the same operations; every one takes `lang` (default
 | `trace_causal_chain(event_id, direction, depth, lang)` | causal subgraph with elapsed seconds per link |
 | `semantic_search(query, lang, scope, top_k)` | hits across verses, entities, systems, events |
 
-The SDK also offers `resolve_ref`, `get_event` and `languages`. Until vectors are built
-(Phase 3), `semantic_search` is FTS5/BM25 keyword search with the same signature. After that
-it becomes **sqlite-vec** similarity stored inside each `i18n_{iso}.sqlite`, so a language
-bundle remains a single file. The query-time embedding model is an optional extra
-(`urim[search]`).
+The SDK also offers `resolve_ref`, `get_event` and `languages`. `semantic_search` is hybrid:
+FTS5/BM25 keyword search always runs, and when a bundle carries vectors (an `i18n_vectors`
+**sqlite-vec** table inside each `i18n_{iso}.sqlite`, so a language bundle remains a single
+file) and the same embedding model is installed, the query is also embedded and matched by
+cosine similarity; the two rankings are fused by reciprocal rank (k = 60), and each hit says
+which search found it (`via`). The model is **bge-m3** (int8 ONNX, 1024 dimensions), pinned
+in `sources.lock.json` and installed with `urim model fetch`; its runtime (ONNX Runtime,
+tokenizers, sqlite-vec) is the optional extra `urim[search]`. Without it, search is keyword
+only. Linking caches vectors by text hash, so relinks embed only what changed.
 
 REST routes: `/languages`, `/verses/{ref}`, `/chapters/{book}/{ch}`, `/entities/{id}`,
 `/systems/{id}`, `/timeline`, `/events/{id}/causal-chain`, `/search`. MCP: the seven tools,

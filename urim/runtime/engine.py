@@ -3,7 +3,8 @@
 The core bundle is opened read-only and immutable, so serving can never modify it. The
 requested language bundle is ATTACHed as `lang_active` and English as `lang_en`; any text
 missing from the active bundle falls back to English. Connections are cached per thread and
-per language.
+per language. When sqlite-vec is installed it is loaded on every connection, so search can
+use the vectors a bundle carries.
 """
 
 from __future__ import annotations
@@ -21,6 +22,8 @@ from typing import Any, Literal
 from urim import utime
 from urim.bundles import core_path, discover_langs, sqlite_uri
 from urim.canon import parse_ref
+from urim.config import load_paths
+from urim.embeddings import Embedder, load_embedder, load_sqlite_vec
 from urim.runtime.models import (
     CausalGraph,
     CausalLink,
@@ -110,8 +113,17 @@ def _get(row: sqlite3.Row | None, key: str) -> Any:
 
 
 class UrimEngine:
-    def __init__(self, bundles_dir: str | Path, default_lang: str = "en"):
+    def __init__(
+        self,
+        bundles_dir: str | Path,
+        default_lang: str = "en",
+        embedder: Embedder | Literal["auto"] | None = "auto",
+    ):
+        """`embedder` embeds search queries: "auto" loads the pinned model on first use when a
+        bundle carries vectors and the model is installed; None keeps search keyword-only."""
         self.bundles_dir = Path(bundles_dir)
+        self._embedder = embedder
+        self._embedder_lock = threading.Lock()
         self.core_path = core_path(self.bundles_dir)
         if not self.core_path.exists():
             raise FileNotFoundError(f"no core bundle at {self.core_path}")
@@ -143,7 +155,19 @@ class UrimEngine:
     def _open(path: Path) -> sqlite3.Connection:
         conn = sqlite3.connect(sqlite_uri(path, immutable=True), uri=True, check_same_thread=False)
         conn.row_factory = sqlite3.Row
+        load_sqlite_vec(conn)
         return conn
+
+    def _query_embedder(self, lang: str) -> Embedder | None:
+        """The embedder for a bundle's vectors: only the model the bundle was built with."""
+        model = self._manifests[lang].get("embedding_model")
+        if not model or self._embedder is None:
+            return None
+        with self._embedder_lock:
+            if self._embedder == "auto":
+                self._embedder = load_embedder(load_paths().sources)
+        embedder = self._embedder
+        return embedder if embedder is not None and embedder.model_id == model else None
 
     def languages(self) -> list[LanguageInfo]:
         return [
@@ -905,32 +929,90 @@ class UrimEngine:
         scope: Literal["verses", "entities", "systems", "events", "all"] = "all",
         top_k: int = 10,
     ) -> list[SearchHit]:
-        """Keyword (FTS5 / BM25) search in the requested language.
+        """Hybrid search in the requested language.
 
-        Phase 3 replaces this with sqlite-vec similarity plus the same relational hydration.
+        Keyword search (FTS5 / BM25) always runs. When the bundle carries vectors and its
+        embedding model is installed, search by meaning (sqlite-vec, cosine) runs too, and the
+        two rankings are fused by reciprocal rank: a hit both find rises to the top, and a hit
+        that shares no word with the query can still be found. Otherwise: keywords alone.
         """
         if scope not in _SEARCH_KINDS:
             raise ValueError(f"scope must be one of {sorted(_SEARCH_KINDS)}")
         terms = re.findall(r"\w+", query)
         if not terms:
             return []
+        top_k = max(1, min(top_k, 100))
         conn = self._conn(lang)
-        schema = self._schemas(lang)[0][0]
+        schema, code = self._schemas(lang)[0]
         kinds = _SEARCH_KINDS[scope]
-        rows = conn.execute(
+        pool = max(3 * top_k, 30)
+        keyword = conn.execute(
             f"SELECT doc_kind, doc_id, title,"
             f" snippet(i18n_search, 3, '[', ']', '…', 16) AS snip, bm25(i18n_search) AS rank"
             f" FROM {schema}.i18n_search WHERE i18n_search MATCH ?"
             f" AND doc_kind IN ({_ph(len(kinds))}) ORDER BY rank LIMIT ?",
-            [" OR ".join(f'"{t}"' for t in terms), *kinds, max(1, min(top_k, 100))],
+            [" OR ".join(f'"{t}"' for t in terms), *kinds, pool],
         ).fetchall()
-        return [
-            SearchHit(
-                kind=r["doc_kind"],
-                id=r["doc_id"],
-                title=r["title"],
-                snippet=r["snip"],
-                score=-r["rank"],
-            )
-            for r in rows
+        meaning = self._nearest(conn, schema, code, query, scope, pool)
+        if not meaning:
+            return [
+                SearchHit(
+                    kind=r["doc_kind"],
+                    id=r["doc_id"],
+                    title=r["title"],
+                    snippet=r["snip"],
+                    score=-r["rank"],
+                    via=["keyword"],
+                )
+                for r in keyword[:top_k]
+            ]
+
+        hits: dict[tuple[str, str], SearchHit] = {}
+        for via, ranked in (("keyword", keyword), ("meaning", meaning)):
+            for rank, r in enumerate(ranked, start=1):
+                key = (r["doc_kind"], r["doc_id"])
+                hit = hits.setdefault(
+                    key,
+                    SearchHit(kind=key[0], id=key[1], title="", snippet="", score=0.0),
+                )
+                hit.score += 1 / (60 + rank)
+                hit.via.append(via)
+                if via == "keyword":
+                    hit.title, hit.snippet = r["title"], r["snip"]
+        best = sorted(hits.values(), key=lambda h: -h.score)[:top_k]
+        self._fill_snippets(conn, schema, [h for h in best if not h.snippet])
+        return best
+
+    def _nearest(
+        self, conn: sqlite3.Connection, schema: str, lang: str, query: str, scope: str, k: int
+    ) -> list[sqlite3.Row]:
+        """Documents nearest to the query by meaning, best first; empty without vectors."""
+        embedder = self._query_embedder(lang)
+        if embedder is None:
+            return []
+        vector = embedder.embed([query])[0]
+        sql = (
+            f"SELECT doc_kind, doc_id, distance FROM {schema}.i18n_vectors"
+            " WHERE embedding MATCH ? AND k = ?"
+        )
+        if scope == "all":
+            return conn.execute(sql, (vector, k)).fetchall()
+        rows = [
+            r
+            for kind in _SEARCH_KINDS[scope]
+            for r in conn.execute(sql + " AND doc_kind = ?", (vector, k, kind))
         ]
+        return sorted(rows, key=lambda r: r["distance"])[:k]
+
+    def _fill_snippets(self, conn: sqlite3.Connection, schema: str, hits: list[SearchHit]) -> None:
+        """Title and the opening words for hits found by meaning alone."""
+        for h in hits:
+            row = conn.execute(
+                f"SELECT title, body FROM {schema}.i18n_search WHERE doc_kind = ? AND doc_id = ?",
+                (h.kind, h.id),
+            ).fetchone()
+            if row is None:
+                continue
+            words = row["body"].split()
+            h.title = row["title"]
+            h.snippet = " ".join(words[:24]) + ("…" if len(words) > 24 else "")

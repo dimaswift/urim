@@ -33,8 +33,9 @@ urim travel <place> <place>… [--mode] journey times from coordinates
 urim ledger <chapter>                review status, producers and notes per item
 urim approve / request-changes / reopen   review decisions (the user's)
 urim review [--demo]                 review app on :8765 (War Room, and /codex)
-urim link all · urim validate        link or check the corpus by hand
+urim link all · urim validate        link or check the corpus by hand (vectors when installed)
 urim ingest 1KGS.17-19               fetch pinned sources into build/ir
+urim model fetch                     the pinned bge-m3 for semantic search (needs urim[search])
 ```
 
 Checks: `uv run pytest -q`, `uv run ruff check urim tests`, `uv run ruff format urim tests`.

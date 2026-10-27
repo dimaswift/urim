@@ -19,7 +19,10 @@ server = [
     "uvicorn>=0.54.0",
 ]
 search = [
+    "numpy>=2.5.4",
+    "onnxruntime>=1.31.1",
     "sqlite-vec>=0.1.9",
+    "tokenizers>=0.23.3",
 ]
 compiler = [
     "anthropic>=2.3.0",
@@ -59,6 +62,7 @@ corpus = "corpus"
 inputs = "build/ir"
 bundles = "data/bundles"
 sources = "data/sources"
+cache = "data/cache"
 lockfile = "sources.lock.json"
 work = "work"
 runs = "runs"

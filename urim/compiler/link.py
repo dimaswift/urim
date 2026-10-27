@@ -14,6 +14,7 @@ import json
 import os
 import sqlite3
 from collections import defaultdict, deque
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
@@ -22,6 +23,7 @@ from typing import Any
 from urim import __version__, utime
 from urim.bundles import core_path, lang_bundle_path, sqlite_uri
 from urim.canon import BOOKS, BOOKS_BY_CODE, TRANSLATION_SCHEMES, parse_ref
+from urim.embeddings import Vectorizer, load_sqlite_vec
 from urim.ir.load import (
     CoreCorpus,
     available_langs,
@@ -911,7 +913,13 @@ def build_lang(
 # =============================================================================================
 
 
-def _write_db(path: Path, schema_file: str, tables: dict[str, Table]) -> None:
+def _write_db(
+    path: Path,
+    schema_file: str,
+    tables: dict[str, Table],
+    post: Callable[[sqlite3.Connection], None] | None = None,
+) -> None:
+    """Write a bundle to a temporary file and move it into place, so readers never see half."""
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name + ".tmp")
     tmp.unlink(missing_ok=True)
@@ -928,6 +936,8 @@ def _write_db(path: Path, schema_file: str, tables: dict[str, Table]) -> None:
                     )
         if problems := conn.execute("PRAGMA foreign_key_check").fetchall():
             raise RuntimeError(f"{path.name}: foreign key violations {problems[:5]}")
+        if post is not None:
+            post(conn)
     finally:
         conn.close()
     os.replace(tmp, path)
@@ -952,10 +962,43 @@ def link_core(
     return report
 
 
+def _vector_table(docs: list[tuple], vectors: Vectorizer) -> Callable[[sqlite3.Connection], None]:
+    """Embed the search documents and store them in a sqlite-vec table inside the bundle."""
+    # A verse's id says nothing; other documents lead with their name or title.
+    texts = [body if kind == "verse" else f"{title}. {body}" for kind, _, title, body in docs]
+    blobs = vectors(texts)
+
+    def write(conn: sqlite3.Connection) -> None:
+        if not load_sqlite_vec(conn):
+            raise RuntimeError("sqlite-vec is not installed: `uv sync --extra search`")
+        conn.execute(
+            "CREATE VIRTUAL TABLE i18n_vectors USING vec0(doc_kind text,"
+            f" embedding float[{vectors.dims}] distance_metric=cosine, +doc_id text)"
+        )
+        with conn:
+            conn.executemany(
+                "INSERT INTO i18n_vectors (doc_kind, embedding, doc_id) VALUES (?, ?, ?)",
+                [
+                    (kind, blob, doc_id)
+                    for (kind, doc_id, _, _), blob in zip(docs, blobs, strict=True)
+                ],
+            )
+
+    return write
+
+
 def link_lang(
-    ir_dir: Path, lang: str, bundles_dir: Path, *, inputs_dir: Path | None = None
+    ir_dir: Path,
+    lang: str,
+    bundles_dir: Path,
+    *,
+    inputs_dir: Path | None = None,
+    vectors: Vectorizer | None = None,
 ) -> Report:
-    """Build one language bundle against an existing core. Opens the core read-only."""
+    """Build one language bundle against an existing core. Opens the core read-only.
+
+    With `vectors`, every search document is also embedded into the bundle's `i18n_vectors`.
+    """
     core_file = core_path(bundles_dir)
     if not core_file.exists():
         raise FileNotFoundError(f"{core_file} not found; run link core first")
@@ -968,15 +1011,27 @@ def link_lang(
     if not report.ok:
         raise LinkError(report)
     out = lang_bundle_path(bundles_dir, lang)
-    _write_db(out, "i18n.sql", tables)
+    post = None
+    if vectors is not None:
+        post = _vector_table(tables["i18n_search"][1], vectors)
+        manifest["embedding_model"] = vectors.model_id
+        cols, rows = tables["bundle_manifest"]
+        i = cols.index("embedding_model")
+        tables["bundle_manifest"] = (cols, [(*r[:i], vectors.model_id, *r[i + 1 :]) for r in rows])
+    _write_db(out, "i18n.sql", tables, post)
     (out.parent / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
     return report
 
 
 def link_all(
-    ir_dir: Path, bundles_dir: Path, scheme: str | None = None, *, inputs_dir: Path | None = None
+    ir_dir: Path,
+    bundles_dir: Path,
+    scheme: str | None = None,
+    *,
+    inputs_dir: Path | None = None,
+    vectors: Vectorizer | None = None,
 ) -> dict[str, Report]:
     reports = {"core": link_core(ir_dir, bundles_dir, scheme, inputs_dir=inputs_dir)}
     for lang in available_langs(ir_dir):
-        reports[lang] = link_lang(ir_dir, lang, bundles_dir, inputs_dir=inputs_dir)
+        reports[lang] = link_lang(ir_dir, lang, bundles_dir, inputs_dir=inputs_dir, vectors=vectors)
     return reports

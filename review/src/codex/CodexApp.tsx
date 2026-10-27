@@ -50,7 +50,10 @@ function Search() {
         <div style={{ position: "absolute", right: 0, top: "110%", width: 420, background: "var(--page)", border: "1px solid var(--gold)", boxShadow: "0 12px 30px rgba(80,50,15,.2)", zIndex: 20 }}>
           {hits.map((h) => (
             <div key={h.kind + h.id} onMouseDown={() => pick(h)} style={{ padding: "8px 12px", borderBottom: "1px solid var(--rule)", cursor: "pointer" }}>
-              <div><span className="small-caps rubric-text">{h.kind}</span> <b>{h.title}</b></div>
+              <div>
+                <span className="small-caps rubric-text">{h.kind}</span> <b>{h.title}</b>
+                {h.via && !h.via.includes("keyword") && <i className="muted" style={{ fontSize: 13 }}> · by meaning</i>}
+              </div>
               <div className="muted" style={{ fontSize: 14 }}>{h.snippet.replace(/[[\]]/g, "")}</div>
             </div>
           ))}

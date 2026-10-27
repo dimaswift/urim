@@ -100,7 +100,7 @@ export interface EntityRow {
   entity_id: string; name: string; entity_type: string; tipnr_id: string | null;
   first_mention_verse: string; events: number; interactions: number; states: number; located: boolean;
 }
-export interface SearchHit { kind: string; id: string; title: string; snippet: string; score: number }
+export interface SearchHit { kind: string; id: string; title: string; snippet: string; score: number; via?: ("keyword" | "meaning")[] }
 
 export class ApiError extends Error {}
 

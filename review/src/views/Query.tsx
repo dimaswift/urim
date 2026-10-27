@@ -87,7 +87,7 @@ export default function Query() {
                     <div className="hud" style={{ fontWeight: 700 }}>{h.title}</div>
                     <div className="muted" style={{ fontSize: 13 }}><Snippet text={h.snippet} /></div>
                   </div>
-                  <span className="mono faint">{h.score.toFixed(1)}</span>
+                  <span className="mono faint" title={`score ${h.score.toFixed(4)}`}>{(h.via ?? ["keyword"]).join(" + ")}</span>
                 </div>
               ))}
             </div>

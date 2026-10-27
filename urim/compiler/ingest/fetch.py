@@ -20,6 +20,7 @@ STEPBIBLE_COMMIT = "be4191f0082aeedddb0eff0c02c966292b2bd641"
 SCROLLMAPPER_COMMIT = "59b18c5af5845728c275d5b7178ad0d024172b1f"
 OPENBIBLE_COMMIT = "7eb18a5ee62f27b9b93bd6689ea272d76dd23b8f"
 NATURAL_EARTH_COMMIT = "ca96624a56bd078437bca8184e78163e5039ad19"
+BGE_M3_COMMIT = "4de13258303883538bd53b696b452bf8099f0858"  # Xenova/bge-m3, ONNX exports
 
 USER_AGENT = "urim-ingest/0.1 (+https://github.com/; research use)"
 
@@ -30,6 +31,11 @@ class Source:
     url: str
     path: str  # relative to the sources directory
     attribution: str
+    sha256: str | None = None  # published hash, checked even on the first download
+
+
+def _huggingface(repo: str, commit: str, path: str) -> str:
+    return f"https://huggingface.co/{repo}/resolve/{commit}/{quote(path)}"
 
 
 def _github(repo: str, commit: str, path: str) -> str:
@@ -147,6 +153,30 @@ SOURCES: dict[str, Source] = {
 }
 
 
+# Fetched on demand (`urim model fetch`), not by ingest: about 590 MB in all.
+MODEL_SOURCES: dict[str, Source] = {
+    s.key: s
+    for s in (
+        Source(
+            key="models/bge-m3/model",
+            url=_huggingface(
+                "Xenova/bge-m3", BGE_M3_COMMIT, "onnx/sentence_transformers_int8.onnx"
+            ),
+            path="models/bge-m3/sentence_transformers_int8.onnx",
+            attribution="BAAI bge-m3 (MIT); int8 ONNX export with pooling by Xenova",
+            sha256="e5b42096865cef734247dd8c7a44e35d305b70ba0c3736758065e1cad50f6453",
+        ),
+        Source(
+            key="models/bge-m3/tokenizer",
+            url=_huggingface("Xenova/bge-m3", BGE_M3_COMMIT, "tokenizer.json"),
+            path="models/bge-m3/tokenizer.json",
+            attribution="BAAI bge-m3 (MIT)",
+            sha256="6710678b12670bc442b99edc952c4d996ae309a7020c1fa0096dd245c2faf790",
+        ),
+    )
+}
+
+
 class SourceChanged(RuntimeError):
     pass
 
@@ -194,9 +224,9 @@ class Fetcher:
         self.lockfile.write_text(json.dumps(dict(sorted(self.lock.items())), indent=2) + "\n")
 
     def get(self, source: Source) -> Path:
-        return self.get_url(source.key, source.url, source.path)
+        return self.get_url(source.key, source.url, source.path, expected=source.sha256)
 
-    def get_url(self, key: str, url: str, rel_path: str) -> Path:
+    def get_url(self, key: str, url: str, rel_path: str, *, expected: str | None = None) -> Path:
         path = self.sources_dir / rel_path
         pinned = self.lock.get(key)
         if path.exists() and not self.refresh:
@@ -208,6 +238,9 @@ class Fetcher:
             if pinned and pinned["sha256"] != digest and not self.refresh:
                 path.unlink()
                 raise SourceChanged(f"{url} changed upstream; refresh to re-pin")
+        if expected and digest != expected:
+            path.unlink()
+            raise SourceChanged(f"{url} does not match its published SHA-256 {expected}")
         if not pinned or pinned["sha256"] != digest or pinned["url"] != url:
             self.lock[key] = {
                 "url": url,

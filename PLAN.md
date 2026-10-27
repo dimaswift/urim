@@ -208,9 +208,21 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
 
 - [ ] Localizer agent → `i18n/ru` for 1 Kings 17–19, aligned to source tokens, auditing the Synodal
 - [ ] `urim compile-lang --lang ru` end to end (Localizer + link + package `.urim-lang` zip)
-- [ ] Embeddings (bge-m3 or similar with an ONNX build) → sqlite-vec table in each bundle;
-      `semantic_search` becomes hybrid vector + BM25
-- [ ] Query-time embedding as the `urim[search]` extra
+- [x] **M1 vectors.** bge-m3 (`Xenova/bge-m3` int8 export with pooling, 569 MB, pinned by
+      commit and published SHA-256; `urim model fetch`) embeds every search document at link
+      time into an `i18n_vectors` sqlite-vec table (cosine, 1024 dimensions) inside each
+      language bundle; the manifest records the model. A text-hash cache in `data/cache` makes
+      relinks cheap (209 documents: 20 s cold, 1.7 s warm). `semantic_search` fuses BM25 and
+      cosine by reciprocal rank and reports `via` per hit; a query is embedded only by the
+      bundle's own model, and without the extra search stays keyword-only. `--vectors` /
+      `--no-vectors` on `link`; merges and `urim review` relink with vectors. Codex and War
+      Room show how each hit was found
+- [x] Query-time embedding as the `urim[search]` extra (ONNX Runtime, tokenizers, numpy,
+      sqlite-vec)
+- [ ] Later: drop very common words from the keyword half of hybrid search (English stopwords
+      make nearly every document a keyword hit); one-word queries against long verse documents
+      are weak for vectors alone; int8 vectors and a smaller vec0 chunk size once bundles grow
+      (each bundle starts at about 4 MB of preallocated vector storage)
 
 ## Phase 4: scale
 

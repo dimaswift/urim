@@ -10,6 +10,7 @@ import shutil
 
 from urim.compiler.link import link_all
 from urim.config import Paths
+from urim.embeddings import Vectorizer
 from urim.ir.load import read_model, write_model
 from urim.ir.models import I18nChapterIR
 from urim.workbench import gold
@@ -27,14 +28,16 @@ def demo_paths(paths: Paths) -> Paths:
         inputs=paths.fixtures,
         bundles=root / "bundles",
         sources=paths.sources,
+        cache=paths.cache,
         lockfile=paths.lockfile,
         work=root / "work",
         runs=paths.runs,
         fixtures=paths.fixtures,
+        review=paths.review,
     )
 
 
-def build_demo(paths: Paths) -> Paths:
+def build_demo(paths: Paths, vectors: Vectorizer | None = None) -> Paths:
     demo = demo_paths(paths)
     if demo.corpus.exists():
         shutil.rmtree(demo.corpus)
@@ -89,12 +92,12 @@ def build_demo(paths: Paths) -> Paths:
         "OpenBible puts Kishon at the river mouth; the executions were near Carmel's "
         "foot. Consider an IR override.",
     )
-    link_all(demo.corpus, demo.bundles, inputs_dir=demo.inputs)
+    link_all(demo.corpus, demo.bundles, inputs_dir=demo.inputs, vectors=vectors)
     return demo
 
 
-def ensure_demo(paths: Paths, rebuild: bool = False) -> Paths:
+def ensure_demo(paths: Paths, rebuild: bool = False, vectors: Vectorizer | None = None) -> Paths:
     demo = demo_paths(paths)
     if rebuild or not (demo.corpus / "ledger").exists():
-        return build_demo(paths)
+        return build_demo(paths, vectors)
     return demo
