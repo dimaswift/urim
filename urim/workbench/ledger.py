@@ -44,6 +44,26 @@ class LedgerItem(BaseModel):
     def last_note(self) -> str | None:
         return next((h.note for h in reversed(self.history) if h.note), None)
 
+    def review_note(self) -> str | None:
+        """Your latest note with where it stands, so an old request does not read as open."""
+        event = next((h for h in reversed(self.history) if h.note), None)
+        if event is None:
+            return None
+        if event.status != "changes_requested":
+            return f"[{event.status} {_minute(event.at)}] {event.note}"
+        if self.status == "changes_requested":
+            return f"[open request] {event.note}"
+        steps = [f"requested {_minute(event.at)}"]
+        if self.produced_at >= event.at:
+            steps.append(f"revised {_minute(self.produced_at)}")
+        if self.status == "approved":
+            steps.append("approved")
+        return f"[{', '.join(steps)}] {event.note}"
+
+
+def _minute(at: str) -> str:
+    return at[:16].replace("T", " ")
+
 
 class ChapterNote(BaseModel):
     note: str

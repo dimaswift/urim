@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
+from functools import cached_property
 from itertools import combinations
 from pathlib import Path
 
@@ -23,6 +24,7 @@ from urim.ir.models import (
     I18nBundleIR,
     SourceBookIR,
     SourceVerse,
+    Token,
 )
 from urim.runtime.engine import format_utes
 from urim.workbench.fragments import key
@@ -124,6 +126,21 @@ class Context:
     def seeds_in(self, verse_ids: set[str]) -> list[EntitySeed]:
         return [s for s in self.seeds if any(m.verse_id in verse_ids for m in s.mentions)]
 
+    @cached_property
+    def names(self) -> dict[tuple[str, int], str]:
+        """(verse_id, word) -> the entity a word names: its corpus id once defined, else the
+        registry's proposed id. Word tags in the source spell TIPNR names their own way
+        (LORD@Gen.1.1-Heb for the registry's LORD@Gen.1.1-Rev), so ids are shown instead."""
+        defined = {tipnr: eid for eid, (_, _, tipnr) in self.corpus_entities().items() if tipnr}
+        return {
+            (m.verse_id, m.pos): defined.get(s.tipnr_id) or s.proposed_entity_id or s.tipnr_id
+            for s in self.seeds
+            for m in s.mentions
+        }
+
+    def name_of(self, verse_id: str, token: Token) -> str:
+        return self.names.get((verse_id, token.pos)) or token.name_ref or ""
+
     def corpus_entities(self) -> dict[str, tuple[str, str, str | None]]:
         """entity_id -> (type, home chapter, tipnr_id) for the whole corpus."""
         out = {}
@@ -159,12 +176,12 @@ def _short(ref: str) -> str:
     return f"{r.chapter}:{r.verse}"
 
 
-def _interlinear(v: SourceVerse) -> str:
+def _interlinear(ctx: Context, v: SourceVerse) -> str:
     glosses = v.glosses.get("en", [])
     parts = []
     for t, g in zip(v.tokens, glosses, strict=False):
-        name = f"[{t.name_ref}]" if t.name_ref else ""
-        parts.append(f"{t.surface}={g}{name}")
+        name = ctx.name_of(v.verse_id, t)
+        parts.append(f"{t.surface}={g}" + (f"{{{name}}}" if name else ""))
     return " · ".join(parts)
 
 
@@ -252,7 +269,14 @@ def _time_comments(ctx: Context, verse_id: str) -> list[str]:
 def _narrative_verses(
     ctx: Context, verses: list[SourceVerse], commentary: bool = False
 ) -> list[str]:
-    out = ["## Text", ""]
+    out = [
+        "## Text",
+        "",
+        "HE is the Hebrew, WD a gloss per word ([brackets] are words English supplies); "
+        "{braces} give the entity a word names: its corpus id once defined, else the registry's "
+        "proposed id.",
+        "",
+    ]
     if commentary and ctx.commentary:
         out += [
             "Under each verse: the Targum, and the classical commentaries on a phrase with a "
@@ -263,7 +287,7 @@ def _narrative_verses(
     for v in verses:
         refs = _kjv_refs(ctx.source, v.verse_id)
         alias = "" if refs == [v.verse_id] else f" (KJV {', '.join(map(_short, refs))})"
-        out += [f"### {v.verse_id}{alias}", f"HE  {v.source_text}", f"WD  {_interlinear(v)}"]
+        out += [f"### {v.verse_id}{alias}", f"HE  {v.source_text}", f"WD  {_interlinear(ctx, v)}"]
         out += _baselines(ctx.source, v.verse_id, ("KJV", "YLT"))
         if commentary:
             out += _time_comments(ctx, v.verse_id)
@@ -452,7 +476,7 @@ def _philology(ctx: Context, verses: list[SourceVerse]) -> list[str]:
             "",
             f"Hebrew: {v.source_text}",
             "",
-            "| # | word | translit | lemma | strongs | morph | STEPBible gloss | name |",
+            "| # | word | translit | lemma | strongs | morph | STEPBible gloss | entity |",
             "|---|---|---|---|---|---|---|---|",
         ]
         glosses = v.glosses.get("en", [])
@@ -462,7 +486,7 @@ def _philology(ctx: Context, verses: list[SourceVerse]) -> list[str]:
             out.append(
                 f"| {t.pos} | {t.surface}{reading} | {t.translit or ''} | "
                 f"{t.lemma or ''} | {t.strongs or ''} | {t.morph or ''} | {g} | "
-                f"{t.name_ref or ''} |"
+                f"{ctx.name_of(v.verse_id, t)} |"
             )
         out.append("")
         out += _baselines(ctx.source, v.verse_id, ("KJV", "YLT", "ASV", "BBE", "Webster"))

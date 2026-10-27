@@ -343,8 +343,8 @@ def ledger(chapter: str, ir: IrDir = None) -> None:
         )
         for n in item.agent_notes:
             typer.echo(f"{'':17} agent: {n}")
-        if item.last_note:
-            typer.echo(f"{'':17} you: {item.last_note}")
+        if note := item.review_note():
+            typer.echo(f"{'':17} you {note}")
     for n in led.notes:
         typer.echo(f"note ({n.produced_by.model}, {n.at}): {n.note}")
 

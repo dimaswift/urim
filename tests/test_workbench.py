@@ -258,6 +258,34 @@ def test_chronology_packets_carry_the_targum_and_time_commentary(corpus, tmp_pat
     assert "Targum Jonathan" not in build_packet("ontology", "1KGS.17", paths).text
 
 
+def test_packets_name_entities_by_id(corpus, tmp_path):
+    # Source word tags spell TIPNR names their own way; packets show the entity id instead.
+    paths = Paths(corpus=corpus, inputs=FIXTURE_IR, work=tmp_path / "work")
+    chrono = build_packet("chronology", "1KGS.17", paths).text
+    assert "of Yahweh{deity.yhwh}" in chrono and "LORD@Gen.1.1-Heb" not in chrono
+    philo = build_packet("philology", "1KGS.18.19", paths).text
+    assert "| deity.baal |" in philo and "Baal@Num.22.41-Rom" not in philo
+
+
+def test_ledger_says_whether_a_request_still_stands(corpus):
+    merge(gold.chronology("1KGS.17"), corpus)
+    k = "event:evt.1kgs_17.drought_oath"
+
+    def note():
+        return load_ledger(corpus, "1KGS.17").items[k].review_note()
+
+    assert note() is None
+    set_status(corpus, [k], "changes_requested", "date it later")
+    assert note() == "[open request] date it later"
+
+    revised = gold.chronology("1KGS.17")
+    revised.events[0].time.duration.value = 2
+    assert merge(revised, corpus).ok
+    assert note().startswith("[requested ") and ", revised " in note()
+    set_status(corpus, [k], "approved")
+    assert note().endswith(", approved] date it later")
+
+
 def test_status_suggests_one_chronology_chapter_at_a_time(corpus):
     paths = Paths(corpus=corpus, inputs=FIXTURE_IR)
     assert next_steps(corpus_status(paths)) == ["/urim-chronologist 1KGS.17"]

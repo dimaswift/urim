@@ -18,8 +18,8 @@ for `/urim-philologist`; say which.
 ## Procedure
 
 1. `uv run urim task philology <verses>`. Read the packet in full: per verse, a table of every
-   word (form, transliteration, lemma, Strong's number, morphology, STEPBible gloss, name
-   link), five English versions, versification notes, the classical commentaries, then the
+   word (form, transliteration, lemma, Strong's number, morphology, STEPBible gloss, the entity it
+   names), five English versions, versification notes, the classical commentaries, then the
    names, the events these verses belong to, and the previous verse's dramatic text.
    Reviewer requests at the top come first.
 2. `uv run urim schema philology`. Read the field descriptions once.
