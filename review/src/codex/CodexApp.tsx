@@ -7,9 +7,9 @@ import Folio from "./Folio";
 import Hours from "./Hours";
 import Mappa from "./Mappa";
 import People from "./People";
-import { LangContext, useLang } from "./parts";
+import { LangContext, defaultChapter, useLang } from "./parts";
 
-export interface TocBook { book_code: string; osis: string; name: string; chapters: { chapter: number; ref: string; verses: number }[] }
+export interface TocBook { book_code: string; osis: string; name: string; chapters: { chapter: number; ref: string; verses: number; translated: number }[] }
 
 const TABS = [
   { id: "read", label: "Read" },
@@ -80,9 +80,13 @@ export default function CodexApp() {
           </nav>
           <div className="spacer" />
           {toc && (
-            <select className="select" value={view === "read" ? route.arg || "" : ""} onChange={(e) => go("read", e.target.value)}>
+            <select className="select" value={view === "read" ? route.arg || defaultChapter(toc) || "" : ""} onChange={(e) => go("read", e.target.value)}>
               <option value="" disabled>Go to chapter…</option>
-              {toc.map((b) => b.chapters.map((c) => <option key={c.ref} value={c.ref}>{b.name} {c.chapter}</option>))}
+              {toc.map((b) => b.chapters.map((c) => (
+                <option key={c.ref} value={c.ref}>
+                  {b.name} {c.chapter}{c.translated === 0 ? " · not yet translated" : c.translated < c.verses ? ` · ${c.translated} of ${c.verses} translated` : ""}
+                </option>
+              )))}
             </select>
           )}
           <Search />

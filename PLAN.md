@@ -166,6 +166,25 @@ them (event F1, relative timing within margins, causal F1, entity P/R by TIPNR i
 transitions, acceptance tests 1–4, philology checks plus a blind judge subagent). Result: a
 default model per skill. All of it counts against the subscription allowance, not API billing.
 
+First data point, before the M4 tooling: philology 1 Kings 17:1–12, the same packet and
+`urim-philologist@1` through Haiku 5.5 (a session) and Sonnet 5.5 (a subagent), kept in
+`runs/compare/philology-1KGS.17.1-12/` with a side-by-side file.
+
+| Check | Haiku | Sonnet |
+|---|---|---|
+| Glosses complete | 12/12 | 12/12 |
+| Literal layer: YHWH / Yahweh (the skill says YHWH) | 0 / 5 | 5 / 0 |
+| Dramatic layer: words; trigrams shared with the KJV; archaic markers | 322; 26%; 5 | 446; 13%; 1 |
+| Commentary words; notes on words | 1,304; 21 | 2,225; 28 |
+| Citations found in the packet's commentaries | 29/29 | 45/49 (+4 BDB, allowed) |
+| Read by hand | KJV-like drama; "many days" added at 17:7; "barrel" called Victorian | rules kept; real dramatic voice; deeper notes (*māṭār* vs *geshem*); drama sometimes adds interpretation ("a man of no standing") |
+
+Mostly a model gap, not a skill gap: Sonnet kept every rule Haiku broke under the same text.
+Sonnet's version is merged (about 12 minutes, 200K tokens). Working defaults until M4
+measures them: Sonnet for philology, Haiku for chronology and ontology. Philologist v2
+should mark the line between drawing out the text and adding interpretation in the drama,
+and keep time words as vague as the Hebrew.
+
 ### Review game
 
 Reviewing should feel like playing, not auditing. Planned elements, to be designed with you:

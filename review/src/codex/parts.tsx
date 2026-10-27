@@ -29,6 +29,12 @@ export function Ornament({ glyph = "❦" }: { glyph?: string }) {
 
 const ROMAN: [number, string][] = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"],
   [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+/** The chapter the reader opens on: the first one with a translation, else the first. */
+export function defaultChapter(toc: { chapters: { ref: string; translated: number }[] }[]): string | undefined {
+  const chapters = toc.flatMap((b) => b.chapters);
+  return chapters.find((c) => c.translated > 0)?.ref ?? chapters[0]?.ref;
+}
+
 export function roman(n: number): string {
   let out = "";
   for (const [v, s] of ROMAN) while (n >= v) { out += s; n -= v; }

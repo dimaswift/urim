@@ -164,6 +164,7 @@ a.chip:hover { border-color: var(--gold); text-decoration: none; }
 }
 .layer-switch button + button { border-left: 1px solid var(--rule); }
 .layer-switch button.on { background: var(--rubric); color: var(--page); }
+.layer-note { text-align: center; font-style: italic; color: var(--faded); max-width: 560px; margin: -10px auto 22px; font-size: 15px; }
 .loading { text-align: center; font-style: italic; color: var(--faded); padding: 60px; }
 
 /* --- people -------------------------------------------------------------------------------- */

@@ -120,6 +120,8 @@ def test_codex_reader_endpoints(client):
         18,
         19,
     ]
+    translated = {c["ref"]: c["translated"] for c in toc[0]["chapters"]}
+    assert translated["1KGS.17"] == 0 and translated["1KGS.18"] > 0  # the gold has no 17 layers
     assert (
         client.get("/api/toc", params={"lang": "ru"})
         .json()[0]["name"]

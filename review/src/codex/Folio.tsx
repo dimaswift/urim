@@ -3,7 +3,7 @@ import type { Codex, EventView, VerseMatrix } from "../api";
 import { useApi } from "../hooks";
 import { go, href, short, type Route } from "../util";
 import type { TocBook } from "./CodexApp";
-import { Corners, Ornament, Words, roman, useLang } from "./parts";
+import { Corners, Ornament, Words, defaultChapter, roman, useLang } from "./parts";
 
 interface Chapter { book_code: string; book_name: string | null; chapter: number; verses: VerseMatrix[]; events: EventView[] }
 type Layer = "baseline" | "literal" | "dramatic";
@@ -70,7 +70,7 @@ function Gloss({ verseId }: { verseId: string }) {
 export default function Folio({ route, toc }: { route: Route; toc: TocBook[] }) {
   const { lang } = useLang();
   const chapters = toc.flatMap((b) => b.chapters);
-  const ref = route.arg || chapters.find((c) => c.ref.endsWith(".18"))?.ref || chapters[0]?.ref;
+  const ref = route.arg || defaultChapter(toc);
   const { data } = useApi<Chapter>(ref ? `/api/chapter/${ref}?lang=${lang}` : null);
   const { data: systems } = useApi<Codex[]>(`/api/systems?lang=${lang}`);
   const [layer, setLayerState] = useState<Layer>(() => {
@@ -101,6 +101,11 @@ export default function Folio({ route, toc }: { route: Route; toc: TocBook[] }) 
   const dated = inChapter.filter((e) => e.precision_tier.code !== "MACRO_ERA");
   const era = dated[0]?.start_label.split("-")[0] ?? inChapter[0]?.start_label;
   const parents = new Set(inChapter.map((e) => e.parent_event_id).filter(Boolean));
+  const synodal = data.verses[0]?.baseline_translation === "RusSynodal";
+  const baseline = synodal ? "Synodal" : "King James";
+  const covered = layer === "baseline" ? data.verses.length
+    : data.verses.filter((v) => (layer === "literal" ? v.translation_literal : v.translation_dramatic)).length;
+  const layerName = layer === "literal" ? "word-for-word translation" : "dramatic translation";
 
   return (
     <article className="folio">
@@ -114,10 +119,17 @@ export default function Folio({ route, toc }: { route: Route; toc: TocBook[] }) 
       <div className="layer-switch">
         {(["baseline", "literal", "dramatic"] as Layer[]).map((l) => (
           <button key={l} className={layer === l ? "on" : ""} onClick={() => setLayer(l)}>
-            {l === "baseline" ? (data.verses[0]?.baseline_translation === "RusSynodal" ? "Synodal" : "King James") : l === "literal" ? "Word for word" : "As drama"}
+            {l === "baseline" ? baseline : l === "literal" ? "Word for word" : "As drama"}
           </button>
         ))}
       </div>
+      {covered < data.verses.length && (
+        <div className="layer-note">
+          {covered === 0
+            ? `No ${layerName} of this chapter yet: the ${baseline} text is shown.`
+            : `The ${layerName} covers ${covered} of ${data.verses.length} verses so far; the rest show the ${baseline} text, marked (${synodal ? "Synodal" : "KJV"}).`}
+        </div>
+      )}
       <div>
         {data.verses.map((v, i) => {
           const chosen = layer === "literal" ? v.translation_literal : layer === "dramatic" ? v.translation_dramatic : null;
@@ -140,7 +152,7 @@ export default function Folio({ route, toc }: { route: Route; toc: TocBook[] }) 
                 <div className="vtext">
                   {first && <span className="initial">{text.charAt(0)}</span>}
                   {first ? text.slice(1) : text}
-                  {fallback && <span className="fallback">({v.baseline_translation === "RusSynodal" ? "Synodal" : "KJV"})</span>}
+                  {fallback && <span className="fallback">({synodal ? "Synodal" : "KJV"})</span>}
                   {(v.directors_commentary || v.philological_notes.length > 0) && <span className="marks" title="Commentary and notes">❦</span>}
                   {rites.get(v.verse_id)?.map((r) => <span key={r} className="rite">✶ {r}</span>)}
                 </div>

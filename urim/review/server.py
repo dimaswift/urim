@@ -145,6 +145,17 @@ def create_review_app(
                 " min(v.verse_id) FROM core_verses v JOIN core_books b USING (book_id)"
                 " GROUP BY b.book_id, v.chapter ORDER BY b.book_id, v.chapter"
             ).fetchall()
+            # A verse counts as translated when this language or the English fallback has a layer.
+            translated: Counter[str] = Counter()
+            for verse_id in {
+                r[0]
+                for schema in schemas
+                for r in conn.execute(
+                    f"SELECT verse_id FROM {schema}.i18n_verses WHERE translation_literal"
+                    " IS NOT NULL OR translation_dramatic IS NOT NULL"
+                )
+            }:
+                translated[verse_id.rsplit(".", 1)[0]] += 1
         finally:
             conn.close()
         books: dict[int, dict[str, Any]] = {}
@@ -153,8 +164,9 @@ def create_review_app(
                 book_id,
                 {"book_code": code, "osis": osis, "name": names.get(book_id, osis), "chapters": []},
             )
+            ref = f"{code}.{chapter}"
             book["chapters"].append(
-                {"chapter": chapter, "ref": f"{code}.{chapter}", "verses": verses}
+                {"chapter": chapter, "ref": ref, "verses": verses, "translated": translated[ref]}
             )
         return list(books.values())
 
