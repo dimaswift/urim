@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "urim-review-demo",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "urim", "review", "--demo", "--port", "8765"],
+      "port": 8765
+    },
+    {
+      "name": "urim-review",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "urim", "review", "--port", "8766"],
+      "port": 8766
+    }
+  ]
+}

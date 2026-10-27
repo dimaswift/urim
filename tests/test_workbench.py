@@ -10,6 +10,7 @@ from typer.testing import CliRunner
 from urim.cli import app
 from urim.compiler.link import link_core
 from urim.config import Paths
+from urim.workbench import gold
 from urim.workbench.fragments import FragmentError, ReviewerNote, key_for_note, load_fragment
 from urim.workbench.ledger import LedgerError, load_ledger, set_status
 from urim.workbench.merge import merge_fragment
@@ -17,7 +18,6 @@ from urim.workbench.packets import TaskError, build_packet
 from urim.workbench.status import corpus_status, next_steps
 
 from .conftest import FIXTURE_IR
-from .support import gold_fragments as gold
 
 REPO = Path(__file__).resolve().parent.parent
 CHAPTERS = ("1KGS.17", "1KGS.18", "1KGS.19")

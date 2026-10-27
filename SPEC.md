@@ -304,9 +304,18 @@ via the MCP Python SDK 2.x (`MCPServer`).
 
 ---
 
+### 7.1 Review app ("War Room")
+
+`urim review` serves a local web app for reviewing agent output, built as a strategy-game HUD:
+Command (canon territory, rank, missions, honours), Review deck, X-Ray, Chronicle, Causal web,
+Atlas, Dossiers, Codex and Query. Decisions write to the corpus ledger; everything else is read
+from the bundles, which the server remounts after each relink. The SQL console runs on a
+read-only, immutable connection with an authorizer that allows only reads.
+
 ## 8. Stack
 
 Python 3.13 (uv-managed) · Pydantic v2 · stdlib `sqlite3` with `STRICT` tables, no ORM ·
+React 19 + TypeScript + Vite + D3 + dagre for the review app ·
 FTS5 → sqlite-vec · Typer · FastAPI + Uvicorn · MCP SDK 2.x · Anthropic SDK (structured
 outputs, Message Batches, prompt caching) · pytest + Hypothesis · Ruff.
 

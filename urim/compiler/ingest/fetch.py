@@ -19,6 +19,7 @@ import httpx
 STEPBIBLE_COMMIT = "be4191f0082aeedddb0eff0c02c966292b2bd641"
 SCROLLMAPPER_COMMIT = "59b18c5af5845728c275d5b7178ad0d024172b1f"
 OPENBIBLE_COMMIT = "7eb18a5ee62f27b9b93bd6689ea272d76dd23b8f"
+NATURAL_EARTH_COMMIT = "ca96624a56bd078437bca8184e78163e5039ad19"
 
 USER_AGENT = "urim-ingest/0.1 (+https://github.com/; research use)"
 
@@ -125,6 +126,22 @@ SOURCES: dict[str, Source] = {
                 attribution="OpenBible.info Bible Geocoding Data, CC BY 4.0",
             )
             for name in ("ancient",)
+        ),
+        *(
+            Source(
+                key=f"naturalearth/{name}",
+                url=_github(
+                    "nvkelso/natural-earth-vector", NATURAL_EARTH_COMMIT, f"geojson/{name}.geojson"
+                ),
+                path=f"naturalearth/{name}.geojson",
+                attribution="Natural Earth (public domain)",
+            )
+            for name in (
+                "ne_10m_land",
+                "ne_10m_lakes",
+                "ne_10m_rivers_lake_centerlines",
+                "ne_10m_geography_regions_polys",
+            )
         ),
     ]
 }

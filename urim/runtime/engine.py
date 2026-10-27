@@ -813,6 +813,88 @@ class UrimEngine:
         )
 
     # -----------------------------------------------------------------------------------------
+    # Lookups and listings (review app, SDK)
+    # -----------------------------------------------------------------------------------------
+
+    def _one(self, conn, sql: str, item_id: str, what: str) -> sqlite3.Row:
+        row = conn.execute(sql, (item_id,)).fetchone()
+        if row is None:
+            raise NotFoundError(f"unknown {what} {item_id!r}")
+        return row
+
+    def get_causal_link(self, causal_id: str, lang: str = "en") -> CausalLink:
+        conn = self._conn(lang)
+        row = self._one(
+            conn, "SELECT * FROM core_causal_edges WHERE causal_id = ?", causal_id, "causal link"
+        )
+        return self._causal_links(conn, lang, [row])[0]
+
+    def get_component(self, component_id: str, lang: str = "en") -> ComponentView:
+        conn = self._conn(lang)
+        row = self._one(
+            conn, "SELECT * FROM core_components WHERE component_id = ?", component_id, "component"
+        )
+        return self._component_views(conn, lang, [row])[0]
+
+    def get_edge(self, edge_id: str, lang: str = "en") -> EdgeView:
+        conn = self._conn(lang)
+        row = self._one(conn, "SELECT * FROM core_edges WHERE edge_id = ?", edge_id, "edge")
+        return self._edge_views(conn, lang, [row])[0]
+
+    def get_instance(self, instance_id: str, lang: str = "en") -> SystemInstanceView:
+        conn = self._conn(lang)
+        row = self._one(
+            conn,
+            "SELECT * FROM core_system_instances WHERE instance_id = ?",
+            instance_id,
+            "system instance",
+        )
+        return self._instance_views(conn, lang, [row])[0]
+
+    def event_participants(self, event_id: str, lang: str = "en") -> list[tuple[EntityRef, str]]:
+        conn = self._conn(lang)
+        rows = conn.execute(
+            "SELECT entity_id, role FROM core_event_participants "
+            "WHERE event_id = ? ORDER BY role, entity_id",
+            (event_id,),
+        ).fetchall()
+        refs = self._entity_refs(conn, lang, [r["entity_id"] for r in rows])
+        return [(refs[r["entity_id"]], r["role"]) for r in rows]
+
+    def verse_range(self, verse_start: str, verse_end: str) -> list[str]:
+        conn = self._conn(self.default_lang)
+        return [
+            r[0]
+            for r in conn.execute(
+                "SELECT v.verse_id FROM core_verses v, core_verses a, core_verses b"
+                " WHERE a.verse_id = ? AND b.verse_id = ?"
+                " AND v.ordinal BETWEEN a.ordinal AND b.ordinal ORDER BY v.ordinal",
+                (verse_start, verse_end),
+            )
+        ]
+
+    def list_events(self, lang: str = "en") -> list[EventView]:
+        conn = self._conn(lang)
+        rows = conn.execute(_EVENT_SELECT + " ORDER BY e.utes_start, e.event_id").fetchall()
+        return self._event_views(conn, lang, rows)
+
+    def list_causal_links(self, lang: str = "en") -> list[CausalLink]:
+        conn = self._conn(lang)
+        rows = conn.execute("SELECT * FROM core_causal_edges ORDER BY causal_id").fetchall()
+        return self._causal_links(conn, lang, rows)
+
+    def list_entities(self, lang: str = "en") -> list[EntityRef]:
+        conn = self._conn(lang)
+        ids = [r[0] for r in conn.execute("SELECT entity_id FROM core_entities ORDER BY 1")]
+        refs = self._entity_refs(conn, lang, ids)
+        return [refs[i] for i in ids]
+
+    def list_systems(self, lang: str = "en") -> list[SystemCodex]:
+        conn = self._conn(lang)
+        ids = [r[0] for r in conn.execute("SELECT system_id FROM core_systems ORDER BY 1")]
+        return [self.get_system_codex(i, lang) for i in ids]
+
+    # -----------------------------------------------------------------------------------------
     # 7. semantic_search
     # -----------------------------------------------------------------------------------------
 

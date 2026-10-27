@@ -105,7 +105,33 @@ approve or request changes → commit.
 - [x] Proof: the gold, split into fragments and merged chapter by chapter into an empty corpus,
       rebuilds a core identical to the gold (same content hash)
 
-**M2: review game** (the main human interface; see below)
+**M2: review game ("War Room")** ✅ first playable version
+- [x] `urim review` (port 8765) serves the API (`urim/review/server.py`) and the built frontend
+      (`review/`: React 19, TypeScript, Vite, D3, dagre, bundled fonts, no CDN at runtime);
+      `urim review --demo` plays on a demo corpus built from the gold through the real
+      workbench (`runs/demo/`, never touches `corpus/`)
+- [x] Command: the canon as fog-of-war territory (1,189 chapter tiles: fog, revealed, written,
+      held), commander rank/XP/streak, front-line rings, missions (agent commands copy to the
+      clipboard), honours
+- [x] Review deck: cards in reading order per kind, agent intel, your orders, provenance and
+      history; A approve, R send back with a note, S/→ skip, ← back, O open; XP toasts, rank-up
+- [x] X-Ray: pointed Hebrew, RTL interlinear with hover cards (decoded morphology, lemma,
+      Strong's, TIPNR link), layer tabs with a tradition-vs-literal audit, philology cards, ECS
+- [x] Chronicle: zoom from years to hours with uncertainty whiskers and a 24-hour day dial
+      marked with the ancient hours; Causal web: dagre DAG, focus lights up a whole chain
+- [x] Atlas: Natural Earth basemap (pinned, clipped, 211 KB, `urim basemap`), places with
+      confidence halos, journeys animated stop by stop
+- [x] Dossiers (RPG sheets: stats, per-verse appearances, state timeline), Codex (collectible
+      ritual cards), Query (search + read-only SQL console behind a SQLite authorizer)
+- [x] Illuminated Codex (`/codex`): the same data as a reader with no review logic. Folio
+      (polyglot page: translation and Hebrew side by side, event rubrics, illuminated initial,
+      KJV / word-for-word / drama switch, tap a verse to unfold the interlinear, translations,
+      commentary and notes), Persons & Places (dramatis personae, story, states as ribbons),
+      a parchment map with journeys by stage, and a Book of Hours (days, interludes of elapsed
+      time, an illuminated wheel of the ancient hours)
+- [ ] Later: keyboard-driven map, per-chapter briefing screen, timeline of your own review
+      activity, localized UI chrome for `ru` (content already switches)
+
 
 **M3: skills** in `.claude/skills/` (`urim-chronologist`, `urim-ontologist`,
 `urim-philologist`, `urim-critic`) plus a project `CLAUDE.md`; first real session:

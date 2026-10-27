@@ -5,7 +5,9 @@ inputs   regenerated ingest output (source/, registry/, commentary/)
 bundles  linked SQLite bundles
 sources  download cache; lockfile pins it
 work     task packets and fragments (scratch, not committed)
-runs     comparison runs, one corpus per model
+runs     comparison runs, one corpus per model; also the review demo
+fixtures the hand-written gold IR (benchmark)
+review   the review app (frontend sources; built into review/dist)
 """
 
 from __future__ import annotations
@@ -24,6 +26,8 @@ class Paths:
     lockfile: Path = Path("sources.lock.json")
     work: Path = Path("work")
     runs: Path = Path("runs")
+    fixtures: Path = Path("fixtures/ir")
+    review: Path = Path("review")
 
 
 def load_paths(start: Path | None = None) -> Paths:

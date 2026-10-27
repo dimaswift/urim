@@ -17,9 +17,9 @@ GOLD = Path(__file__).resolve().parent.parent.parent / "fixtures" / "ir"
 BY = Provenance(model="gold", skill="hand-written@0")
 
 
-def _load(chapter: str) -> tuple[CoreChapterIR, I18nChapterIR]:
-    core = read_model(GOLD / "core" / f"{chapter}.json", CoreChapterIR)
-    en_path = GOLD / "i18n" / "en" / f"{chapter}.json"
+def _load(chapter: str, gold: Path = GOLD) -> tuple[CoreChapterIR, I18nChapterIR]:
+    core = read_model(gold / "core" / f"{chapter}.json", CoreChapterIR)
+    en_path = gold / "i18n" / "en" / f"{chapter}.json"
     en = (
         read_model(en_path, I18nChapterIR)
         if en_path.exists()
@@ -28,8 +28,8 @@ def _load(chapter: str) -> tuple[CoreChapterIR, I18nChapterIR]:
     return core, en
 
 
-def chronology(chapter: str) -> ChronologyFragment:
-    core, en = _load(chapter)
+def chronology(chapter: str, gold: Path = GOLD) -> ChronologyFragment:
+    core, en = _load(chapter, gold)
     events = [
         e.model_copy(update={"participants": [], "location_entity_id": None}) for e in core.events
     ]
@@ -44,8 +44,8 @@ def chronology(chapter: str) -> ChronologyFragment:
     )
 
 
-def ontology(chapter: str) -> OntologyFragment:
-    core, en = _load(chapter)
+def ontology(chapter: str, gold: Path = GOLD) -> OntologyFragment:
+    core, en = _load(chapter, gold)
     return OntologyFragment(
         agent="ontology",
         chapter_ref=chapter,
@@ -74,8 +74,8 @@ def ontology(chapter: str) -> OntologyFragment:
     )
 
 
-def philology(chapter: str) -> PhilologyFragment:
-    _, en = _load(chapter)
+def philology(chapter: str, gold: Path = GOLD) -> PhilologyFragment:
+    _, en = _load(chapter, gold)
     return PhilologyFragment(
         agent="philology", chapter_ref=chapter, produced_by=BY, verses=en.verses
     )

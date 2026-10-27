@@ -38,6 +38,8 @@ def _paths(
         lockfile=p.lockfile,
         work=p.work,
         runs=p.runs,
+        fixtures=p.fixtures,
+        review=p.review,
     )
 
 
@@ -318,6 +320,63 @@ def request_changes(
 def reopen(key: str, note: str | None = None, ir: IrDir = None) -> None:
     """Unlock an approved item so a session may change it again."""
     _review([key], "draft", note, ir)
+
+
+# --- review app -------------------------------------------------------------------------------
+
+
+@app.command()
+def review(
+    demo: Annotated[
+        bool, typer.Option(help="Use a demo corpus built from the gold fixture")
+    ] = False,
+    rebuild_demo: Annotated[bool, typer.Option(help="Rebuild the demo corpus first")] = False,
+    host: str = "127.0.0.1",
+    port: int = 8765,
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
+) -> None:
+    """Open the review game: link the corpus, then serve the API and the built frontend."""
+    import uvicorn
+
+    from urim.review.demo import ensure_demo
+    from urim.review.server import create_review_app
+
+    p = _paths(ir, inputs, bundles)
+    if demo or rebuild_demo:
+        p = ensure_demo(p, rebuild=rebuild_demo)
+        typer.echo(f"demo corpus: {p.corpus}")
+    else:
+        _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs)
+    dist = p.review / "dist"
+    if not dist.exists():
+        typer.secho(
+            f"no frontend build at {dist}: run `npm --prefix {p.review} install` and "
+            f"`npm --prefix {p.review} run build` (API only for now)",
+            fg=typer.colors.YELLOW,
+        )
+    typer.secho(f"War Room (review):   http://{host}:{port}", fg=typer.colors.GREEN)
+    typer.secho(f"Illuminated Codex:   http://{host}:{port}/codex", fg=typer.colors.GREEN)
+    uvicorn.run(
+        create_review_app(p, static_dir=dist, demo=demo or rebuild_demo),
+        host=host,
+        port=port,
+        log_level="warning",
+    )
+
+
+@app.command()
+def basemap() -> None:
+    """Rebuild the Atlas basemap from pinned Natural Earth data."""
+    from urim.compiler.ingest.fetch import Fetcher
+    from urim.review.basemap import build_basemap
+
+    p = _paths()
+    out = p.review / "public" / "geo" / "near_east.json"
+    with Fetcher(p.sources, p.lockfile) as fetcher:
+        stats = build_basemap(fetcher, out)
+    typer.secho(f"wrote {out}: {stats}", fg=typer.colors.GREEN)
 
 
 # --- runtime ----------------------------------------------------------------------------------

@@ -20,6 +20,7 @@ class Book:
     testament: str  # "OT" | "NT"
     stepbible: str  # STEPBible abbreviation: "1Ki"
     sefaria: str | None  # Sefaria index title: "I Kings" (Tanakh only)
+    chapters: int  # in source-text numbering (Joel 4, Malachi 3)
 
 
 # (OSIS, STEPBible, Sefaria) per book, in canon order.
@@ -48,9 +49,19 @@ _BOOK_NAMES = [
 ]
 # fmt: on
 
+# fmt: off
+_CHAPTER_COUNTS = [
+    50, 40, 27, 36, 34, 24, 21, 4, 31, 24, 22, 25, 29, 36, 10, 13, 10, 42, 150, 31, 12, 8, 66, 52,
+    5, 48, 12, 14, 4, 9, 1, 4, 7, 3, 3, 3, 2, 14, 3,
+    28, 16, 24, 21, 28, 16, 16, 13, 6, 6, 4, 4, 5, 3, 6, 4, 3, 1, 13, 5, 5, 3, 5, 1, 1, 1, 22,
+]
+# fmt: on
+
 BOOKS: tuple[Book, ...] = tuple(
-    Book(i, osis.upper(), osis, "OT" if i <= 39 else "NT", step, sefaria)
-    for i, (osis, step, sefaria) in enumerate(_BOOK_NAMES, start=1)
+    Book(i, osis.upper(), osis, "OT" if i <= 39 else "NT", step, sefaria, chapters)
+    for i, ((osis, step, sefaria), chapters) in enumerate(
+        zip(_BOOK_NAMES, _CHAPTER_COUNTS, strict=True), start=1
+    )
 )
 BOOKS_BY_CODE: dict[str, Book] = {b.code: b for b in BOOKS}
 BOOKS_BY_STEPBIBLE: dict[str, Book] = {b.stepbible: b for b in BOOKS}
