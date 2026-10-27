@@ -1,0 +1,38 @@
+{
+  "chapter_ref": "1KGS.17",
+  "events": [
+    {
+      "event_id": "evt.1kgs_17.drought_oath",
+      "title": "Elijah swears a drought before Ahab",
+      "narrative_summary": "Elijah the Tishbite appears without introduction and swears by YHWH that there will be neither dew nor rain except by his word.",
+      "temporal_reasoning_note": "The text gives no regnal year. The oath is placed within Ahab's 22-year reign (1 Kgs 16:29), centred 11 years after accession with a ±9-year margin. This is a fixture placement, not a scholarly claim.",
+      "ancient_year_marker": "During the reign of Ahab (year unstated)"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "person.elijah",
+      "canonical_name": "Elijah",
+      "phonetic_name": "Eliyahu",
+      "aliases": ["Elijah the Tishbite", "man of God"],
+      "etymology_meaning": "\"My God is YHWH\" (Eli + Yahu): the name is itself the thesis of the Carmel contest.",
+      "summary_bio": "Prophet from Tishbe in Gilead who confronts Ahab and Jezebel over the worship of Baal. He announces a drought, defeats the prophets of Baal on Mount Carmel, flees to Horeb, and appoints Elisha as his successor."
+    },
+    {
+      "entity_id": "person.ahab",
+      "canonical_name": "Ahab",
+      "phonetic_name": "Ach'av",
+      "aliases": ["king of Israel", "son of Omri"],
+      "etymology_meaning": "Probably \"brother of the father\".",
+      "summary_bio": "Seventh king of the northern kingdom of Israel and son of Omri. He married the Phoenician princess Jezebel and sponsored Baal worship in Samaria. Assyrian records name him as a major military power at the battle of Qarqar."
+    },
+    {
+      "entity_id": "deity.yhwh",
+      "canonical_name": "the LORD (YHWH)",
+      "phonetic_name": "YHWH",
+      "aliases": ["God of Israel", "God of Abraham, Isaac and Israel"],
+      "etymology_meaning": "The divine name, usually linked to the verb \"to be\" (Exod 3:14). Traditionally not pronounced; English versions render it \"the LORD\".",
+      "summary_bio": "The God of Israel, whose claim to send rain and fire is tested against Baal's on Mount Carmel."
+    }
+  ]
+}

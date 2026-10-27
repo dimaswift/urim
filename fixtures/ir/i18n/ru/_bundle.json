@@ -1,0 +1,33 @@
+{
+  "lang_code": "ru",
+  "lang_name": "Русский",
+  "baseline_translation": "RusSynodal",
+  "source_translations": ["RusSynodal"],
+  "books": [
+    {"book_code": "1KGS", "name": "3-я книга Царств (1-я Царей)", "abbreviation": "3 Цар"}
+  ],
+  "vocab": [
+    {"kind": "diurnal", "code": "ASHMORET_HABOKER", "label": "Утренняя стража (последняя ночная, ~02:00)"},
+    {"kind": "diurnal", "code": "SHACHAR", "label": "Рассвет (~05:30)"},
+    {"kind": "diurnal", "code": "BOKER", "label": "Утро (~06:00)"},
+    {"kind": "diurnal", "code": "HORA_TERTIA", "label": "Третий час (~09:00)"},
+    {"kind": "diurnal", "code": "TZOHORAYIM", "label": "Полдень, «двойной свет» (~12:00)"},
+    {"kind": "diurnal", "code": "MINCHAH", "label": "Время послеполуденной жертвы (~15:00)"},
+    {"kind": "diurnal", "code": "BEIN_HAARBAYIM", "label": "Между вечерами, сумерки (~17:30)"},
+    {"kind": "diurnal", "code": "EREV", "label": "Вечер, закат (~18:00)"},
+    {"kind": "diurnal", "code": "ASHMORET_HATICHONAH", "label": "Средняя ночная стража (~22:00)"},
+    {"kind": "precision_tier", "code": "MACRO_ERA", "label": "Эпоха"},
+    {"kind": "precision_tier", "code": "REGNAL_YEAR", "label": "Год"},
+    {"kind": "precision_tier", "code": "SEASONAL_MONTH", "label": "Сезон или месяц"},
+    {"kind": "precision_tier", "code": "DAY_SEQUENCE", "label": "День"},
+    {"kind": "precision_tier", "code": "DIURNAL_HOUR", "label": "Час"},
+    {"kind": "causal_type", "code": "TRIGGERS", "label": "вызывает"},
+    {"kind": "causal_type", "code": "FULFILLS_PROPHECY", "label": "исполняется в"},
+    {"kind": "causal_type", "code": "RETALIATES_FOR", "label": "провоцирует месть в"},
+    {"kind": "causal_type", "code": "ENABLES", "label": "делает возможным"},
+    {"kind": "causal_type", "code": "DEFERRED_BY", "label": "откладывает"}
+  ],
+  "anchors": [
+    {"anchor_id": "anchor.ahab_accession", "label": "Воцарение Ахава, царя Израиля", "note": "Корневой якорь для повествований о династии Омри. По хронологии Тиле Ахав правил в 874–853 гг. до н. э.; конец правления закреплён битвой при Каркаре (853 г. до н. э.), где Курхский монолит Салманасара III называет «Ахава Израильтянина» среди царей коалиции."}
+  ]
+}

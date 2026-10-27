@@ -1,0 +1,27 @@
+{
+  "chapter_ref": "1KGS.17",
+  "entities": [
+    {"entity_id": "person.elijah", "entity_type": "PERSON", "source_script_name": "אֵלִיָּהוּ", "transliterated_name": "ʾĒliyyāhû", "first_mention_verse": "1KGS.17.1"},
+    {"entity_id": "person.ahab", "entity_type": "PERSON", "source_script_name": "אַחְאָב", "transliterated_name": "ʾAḥʾāb", "first_mention_verse": "1KGS.17.1"},
+    {"entity_id": "deity.yhwh", "entity_type": "DEITY", "source_script_name": "יְהוָה", "transliterated_name": "YHWH", "first_mention_verse": "1KGS.17.1"}
+  ],
+  "events": [
+    {
+      "event_id": "evt.1kgs_17.drought_oath",
+      "verse_start": "1KGS.17.1",
+      "verse_end": "1KGS.17.1",
+      "time": {
+        "anchor": "anchor.ahab_accession",
+        "offset": {"value": 11, "unit": "years"},
+        "duration": {"value": 1, "unit": "hours"},
+        "margin": {"value": 9, "unit": "years"},
+        "precision_tier": "MACRO_ERA"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "person.ahab", "role": "PATIENT"},
+        {"entity_id": "deity.yhwh", "role": "MENTIONED"}
+      ]
+    }
+  ]
+}

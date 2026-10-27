@@ -1,0 +1,70 @@
+{
+  "chapter_ref": "1KGS.19",
+  "verses": [
+    {
+      "verse_id": "1KGS.19.8",
+      "translation_literal": "And he arose and ate and drank, and went in the strength of that eating forty day and forty night, as far as the mountain of God, Chorev.",
+      "translation_dramatic": "He got up, ate and drank — and on the strength of that one meal he walked forty days and forty nights, until he reached Horeb, the mountain of God.",
+      "directors_commentary": "Forty days and nights echoes Moses on the same mountain (Exod 24:18; 34:28) and Israel's forty years in the wilderness. The forty days are counted from the broom tree in the wilderness beyond Beersheba, not from Beersheba itself: Elijah has already walked a day's journey (19:4) and slept twice (19:5-7). The traditional Horeb, Jebel Musa, lies about 300 km in a straight line from Beersheba, far less than forty days' walk. The number is symbolic, or the route was not direct."
+    },
+    {
+      "verse_id": "1KGS.19.19",
+      "translation_literal": "And he went from there and found Elisha son of Shafat, and he was plowing — twelve yokes before him, and he with the twelfth; and Eliyahu passed over to him and threw his mantle upon him.",
+      "translation_dramatic": "Elijah left the mountain and found Elisha son of Shaphat ploughing: eleven teams of oxen ahead of him, and Elisha driving the twelfth himself. Elijah walked up and tossed his cloak over him.",
+      "directors_commentary": "Twelve yoke of oxen is a mark of real wealth; one pair was a smallholder's whole plough team. Elisha drives the last pair himself, overseeing the line. The adderet (mantle) is Elijah's prophetic garment (cf. 2 Kgs 2:13-14), and throwing it over Elisha is a wordless act of claiming. Ploughing begins after the first autumn rains, which fits a sequence that started with the rain on Carmel."
+    },
+    {
+      "verse_id": "1KGS.19.21",
+      "translation_literal": "And he turned back from after him and took the yoke of the cattle and slaughtered it, and with the gear of the cattle he boiled them, the flesh, and gave to the people, and they ate; and he arose and went after Eliyahu and ministered to him.",
+      "translation_dramatic": "Elisha turned back, slaughtered his pair of oxen, broke up the yoke and plough for firewood, boiled the meat and fed the village. Then he got up, followed Elijah, and became his servant.",
+      "directors_commentary": "Burning the plough gear and slaughtering the team is irreversible: Elisha destroys the means of his livelihood and turns it into a communal feast. The verb for his new role, sharat (\"to minister, attend\"), is the one used of Joshua as Moses' attendant (Exod 24:13; Num 11:28): the language of succession."
+    }
+  ],
+  "events": [
+    {"event_id": "evt.1kgs_19.jezebel_threat", "title": "Jezebel's death threat", "narrative_summary": "Ahab tells Jezebel everything Elijah has done; she sends a messenger swearing to kill Elijah by the same time tomorrow.", "temporal_reasoning_note": "Ahab reports on arrival in Jezreel; the threat is set about an hour after the chariot arrives. \"By this time tomorrow\" implies the same night or the next day (±1 day)."},
+    {"event_id": "evt.1kgs_19.flight_to_beersheba", "title": "Elijah flees to Beersheba", "narrative_summary": "Elijah runs for his life south through Judah to Beersheba and leaves his servant there.", "temporal_reasoning_note": "About 150 km straight-line from Jezreel to Beersheba; at 30-35 km a day on foot this is about 5 days (±1)."},
+    {"event_id": "evt.1kgs_19.wilderness_day_journey", "title": "A day into the wilderness; Elijah asks to die", "narrative_summary": "Alone, Elijah walks a day into the wilderness, sits under a broom tree and asks YHWH to take his life.", "temporal_reasoning_note": "\"A day's journey\" (19:4): one day."},
+    {"event_id": "evt.1kgs_19.angel_feeds_elijah", "title": "The angel feeds Elijah twice", "narrative_summary": "An angel wakes Elijah twice with a cake baked on hot stones and a jar of water.", "temporal_reasoning_note": "Two sleeps and two meals, about one day (±1)."},
+    {"event_id": "evt.1kgs_19.journey_to_horeb", "title": "Forty days to Horeb", "narrative_summary": "Strengthened by the food, Elijah walks forty days and forty nights to Horeb, the mountain of God.", "temporal_reasoning_note": "The text gives the duration: forty days, counted from the broom tree, not from Beersheba.", "ancient_year_marker": "Forty days and forty nights"},
+    {"event_id": "evt.1kgs_19.lodging_in_cave", "title": "The night in the cave", "narrative_summary": "Elijah spends the night in a cave on Horeb; the word of YHWH asks him what he is doing there.", "temporal_reasoning_note": "\"He lodged there\" (19:9): placed at the first evening after arrival, for one night.", "ancient_diurnal_marker": "Erev (evening)"},
+    {"event_id": "evt.1kgs_19.theophany_at_horeb", "title": "Wind, earthquake, fire, and a thin silence", "narrative_summary": "YHWH passes by: not in the wind, the earthquake or the fire, but in a \"sound of thin silence\". Elijah is recommissioned to anoint Hazael, Jehu and Elisha.", "temporal_reasoning_note": "Follows the night in the cave; no time is stated. About 3 hours, ±1 day."},
+    {"event_id": "evt.1kgs_19.mantle_investiture", "title": "Elijah casts his mantle on Elisha", "narrative_summary": "Elijah finds Elisha ploughing with twelve yoke of oxen and throws his mantle over him; Elisha asks to kiss his parents goodbye.", "temporal_reasoning_note": "Horeb (traditional site) to Abel-meholah in the Jordan Valley is roughly 450 km: about 15-20 days on foot. Placed 18 days after the theophany (±7 days). Ploughing implies the season after the early rains.", "ancient_season_marker": "Ploughing season, after the early rains"},
+    {"event_id": "evt.1kgs_19.farewell_feast", "title": "Elisha's farewell feast", "narrative_summary": "Elisha slaughters his oxen, cooks them over the burnt plough gear, feeds the people, and follows Elijah as his attendant.", "temporal_reasoning_note": "Same day as the call: about 6 hours for slaughter, cooking and the meal."}
+  ],
+  "causal_edges": [
+    {"causal_id": "caus.1kgs_18.execution_at_kishon.jezebel_threat", "causal_explanation": "Jezebel's oath answers the killing of her prophets: \"if I do not make your life like the life of one of them\" (19:2)."},
+    {"causal_id": "caus.1kgs_19.jezebel_threat.flight_to_beersheba", "causal_explanation": "\"When he saw, he arose and went for his life\" (19:3): the threat drives Elijah out of the kingdom."},
+    {"causal_id": "caus.1kgs_19.angel_feeds_elijah.journey_to_horeb", "causal_explanation": "He walks \"in the strength of that food\" (19:8); the meal makes the forty-day journey possible."},
+    {"causal_id": "caus.1kgs_19.theophany_at_horeb.mantle_investiture", "causal_explanation": "At Horeb YHWH commands Elijah to anoint Elisha as prophet in his place (19:16); Elijah carries it out at Abel-meholah."},
+    {"causal_id": "caus.1kgs_19.mantle_investiture.farewell_feast", "causal_explanation": "Elijah's \"What have I done to you?\" leaves the decision to Elisha, who answers by destroying his plough team and following."}
+  ],
+  "entities": [
+    {"entity_id": "loc.beersheba", "canonical_name": "Beersheba", "phonetic_name": "Be'er Sheva", "aliases": [], "etymology_meaning": "\"Well of the oath\" or \"well of seven\" (Gen 21:31).", "summary_bio": "Southernmost town of Judah (\"from Dan to Beersheba\"), on the edge of the Negev; beyond it lies open wilderness."},
+    {"entity_id": "spirit.angel_of_yhwh", "canonical_name": "the angel of the LORD", "phonetic_name": "mal'akh YHWH", "aliases": ["an angel"], "etymology_meaning": "Mal'akh, \"messenger\".", "summary_bio": "Divine messenger who wakes and feeds Elijah under the broom tree, as Hagar was met in the same wilderness (Gen 21:17)."},
+    {"entity_id": "loc.mount_horeb", "canonical_name": "Horeb, the mountain of God", "phonetic_name": "Chorev", "aliases": ["mountain of God", "Sinai"], "etymology_meaning": "\"Dry, desolate place\".", "summary_bio": "The mountain of the covenant, called Sinai in other traditions. Its location is disputed; the coordinates given are for the traditional Jebel Musa in southern Sinai, and north-west Arabia is a common alternative."},
+    {"entity_id": "artifact.elijahs_mantle", "canonical_name": "Elijah's mantle", "phonetic_name": "adderet", "aliases": ["cloak"], "etymology_meaning": "Adderet, from adar, \"to be wide, glorious\": a broad outer cloak.", "summary_bio": "Elijah's distinctive prophetic cloak. He wraps his face in it at Horeb, throws it over Elisha at his call, and leaves it to Elisha at his ascent (2 Kgs 2:13)."},
+    {"entity_id": "loc.abel_meholah", "canonical_name": "Abel-meholah", "phonetic_name": "Avel Mecholah", "aliases": [], "etymology_meaning": "\"Meadow of dancing\".", "summary_bio": "Elisha's home town in the Jordan Valley. The exact site is uncertain, so no coordinates are given."},
+    {"entity_id": "person.elisha", "canonical_name": "Elisha", "phonetic_name": "Elisha", "aliases": ["son of Shaphat"], "etymology_meaning": "\"My God saves\" (Eli + sha).", "summary_bio": "Wealthy farmer's son from Abel-meholah, called by Elijah to be his attendant and successor; later the leading prophet of the northern kingdom."}
+  ],
+  "components": [
+    {"component_id": "comp.person.elijah.mental_state.1", "label_key": "Mental state", "label_value": "Despair; asks to die", "evidence_explanation": "\"It is enough; now, O LORD, take my life\" (19:4). He repeats his complaint at Horeb (19:10, 14) and is recommissioned at 19:15."},
+    {"component_id": "comp.person.elijah.held_artifact.1", "label_key": "Possession", "label_value": "His mantle (adderet)", "evidence_explanation": "First mentioned when he wraps his face in it at the theophany (19:13)."},
+    {"component_id": "comp.person.elisha.economic_tier.1", "label_key": "Economic status", "label_value": "Wealthy landowner (12 yoke of oxen)", "evidence_explanation": "Ploughing with twelve yoke of oxen (19:19): an estate far larger than a single-household farm."},
+    {"component_id": "comp.person.elisha.role.1", "label_key": "Role", "label_value": "Attendant of Elijah", "evidence_explanation": "\"He went after Elijah and ministered to him\" (19:21); this replaces his life as a landowner, whose oxen and gear he has just destroyed."}
+  ],
+  "systems": [
+    {"system_id": "sys.theophany", "name": "Theophany (divine appearance)", "ancient_near_east_context": "Storm gods across the Near East appear in thunder, wind and fire. Horeb deliberately echoes Sinai (Exod 19) and then breaks the pattern: YHWH is not in the storm.", "rules_and_mechanics": ["The human is told to stand ready at the mountain.", "Natural forces pass before the divine presence.", "The deity speaks and gives a commission."]},
+    {"system_id": "sys.mantle_investiture", "name": "Investiture by mantle", "ancient_near_east_context": "Garments signified office and identity; transferring a garment could transfer status (Aaron's vestments to Eleazar, Num 20:26-28; Jonathan's robe to David, 1 Sam 18:4).", "rules_and_mechanics": ["The office-holder places his garment on the successor.", "The successor accepts by following or serving.", "Full transfer may come later (2 Kgs 2:13)."]}
+  ],
+  "system_instances": [
+    {"instance_id": "inst.theophany.1kgs_19_11", "outcome_summary": "YHWH is not in the wind, earthquake or fire but in a \"sound of thin silence\"; Elijah is sent back with three anointings to perform.", "significance_note": "A deliberate re-run of Sinai that redefines how YHWH is present, after a contest won by spectacular fire."},
+    {"instance_id": "inst.mantle_investiture.1kgs_19_19", "outcome_summary": "Elijah throws his mantle over Elisha, who abandons his farm and follows him.", "significance_note": "First occurrence of mantle investiture between prophets; completed when Elisha takes up the fallen mantle in 2 Kgs 2:13."}
+  ],
+  "edges": [
+    {"edge_id": "edge.1kgs_19_2.jezebel_threatened_elijah", "interaction_label": "threatened", "description": "Jezebel swears to kill Elijah within a day."},
+    {"edge_id": "edge.1kgs_19_3.elijah_fled_from_jezebel", "interaction_label": "fled from", "description": "Elijah runs south to escape Jezebel."},
+    {"edge_id": "edge.1kgs_19_5.angel_fed_elijah", "interaction_label": "fed", "description": "The angel brings Elijah bread and water under the broom tree."},
+    {"edge_id": "edge.1kgs_19_19.elijah_invested_elisha", "interaction_label": "threw his mantle over", "description": "Elijah claims Elisha as his successor by casting his mantle over him."},
+    {"edge_id": "edge.1kgs_19_21.elisha_served_elijah", "interaction_label": "ministered to", "description": "Elisha follows Elijah as his attendant."}
+  ]
+}

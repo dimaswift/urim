@@ -1,0 +1,55 @@
+[project]
+name = "urim"
+version = "0.1.0"
+description = "Unified Relational Interpretive Matrix: a pre-compiled philological, narrative and temporal knowledge engine for ancient scripture"
+readme = "SPEC.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.14.1",
+    "typer>=0.27.3",
+]
+
+[project.scripts]
+urim = "urim.cli:app"
+
+[project.optional-dependencies]
+server = [
+    "fastapi>=0.162.0",
+    "mcp>=2.3.0",
+    "uvicorn>=0.54.0",
+]
+search = [
+    "sqlite-vec>=0.1.9",
+]
+compiler = [
+    "anthropic>=2.3.0",
+    "httpx>=0.28.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["urim"]
+
+[tool.uv]
+python-preference = "only-managed"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "hypothesis>=6.170.12",
+    "pytest>=9.1.1",
+    "ruff>=0.17.3",
+]

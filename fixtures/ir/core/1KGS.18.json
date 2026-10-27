@@ -1,0 +1,179 @@
+{
+  "chapter_ref": "1KGS.18",
+  "entities": [
+    {"entity_id": "person.jezebel", "entity_type": "PERSON", "source_script_name": "אִיזֶבֶל", "transliterated_name": "ʾÎzebel", "first_mention_verse": "1KGS.18.4"},
+    {"entity_id": "deity.baal", "entity_type": "DEITY", "source_script_name": "בַּעַל", "transliterated_name": "Baʿal", "first_mention_verse": "1KGS.18.18"},
+    {"entity_id": "group.prophets_of_baal", "entity_type": "GROUP", "source_script_name": "נְבִיאֵי הַבַּעַל", "transliterated_name": "nəbîʾê habbaʿal", "first_mention_verse": "1KGS.18.19"},
+    {"entity_id": "loc.mount_carmel", "entity_type": "LOCATION", "source_script_name": "הַר הַכַּרְמֶל", "transliterated_name": "har hakkarmel", "first_mention_verse": "1KGS.18.19", "geo_lat": 32.668, "geo_lon": 35.087, "geo_elevation_m": 482},
+    {"entity_id": "loc.kishon_brook", "entity_type": "LOCATION", "source_script_name": "נַחַל קִישׁוֹן", "transliterated_name": "naḥal qîšôn", "first_mention_verse": "1KGS.18.40", "geo_lat": 32.69, "geo_lon": 35.12},
+    {"entity_id": "artifact.ahabs_chariot", "entity_type": "ARTIFACT", "source_script_name": "רֶכֶב", "transliterated_name": "rekeb", "first_mention_verse": "1KGS.18.44"},
+    {"entity_id": "loc.jezreel", "entity_type": "LOCATION", "source_script_name": "יִזְרְעֶאל", "transliterated_name": "Yizrəʿeʾl", "first_mention_verse": "1KGS.18.45", "geo_lat": 32.557, "geo_lon": 35.328, "geo_elevation_m": 100}
+  ],
+  "systems": [
+    {"system_id": "sys.olah_offering", "category": "LITURGICAL_RITUAL"},
+    {"system_id": "sys.divine_fire_acceptance", "category": "SUPERNATURAL_ACT"},
+    {"system_id": "sys.royal_herald_protocol", "category": "SOCIAL_CUSTOM"}
+  ],
+  "events": [
+    {
+      "event_id": "evt.1kgs_18.carmel_contest",
+      "verse_start": "1KGS.18.19",
+      "verse_end": "1KGS.18.40",
+      "location_entity_id": "loc.mount_carmel",
+      "time": {
+        "anchor": "evt.1kgs_17.drought_oath",
+        "offset": {"value": 2.5, "unit": "years"},
+        "time_of_day": "SHACHAR",
+        "duration": {"value": 11, "unit": "hours"},
+        "margin": {"value": 0.5, "unit": "years"},
+        "precision_tier": "REGNAL_YEAR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "group.prophets_of_baal", "role": "AGENT"},
+        {"entity_id": "person.ahab", "role": "PRESENT"},
+        {"entity_id": "deity.yhwh", "role": "AGENT"},
+        {"entity_id": "deity.baal", "role": "MENTIONED"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.carmel_assembly",
+      "parent_event_id": "evt.1kgs_18.carmel_contest",
+      "verse_start": "1KGS.18.20",
+      "verse_end": "1KGS.18.24",
+      "location_entity_id": "loc.mount_carmel",
+      "time": {
+        "anchor": "evt.1kgs_18.carmel_contest",
+        "duration": {"value": 1.5, "unit": "hours"},
+        "margin": {"value": 1, "unit": "hours"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "group.prophets_of_baal", "role": "PRESENT"},
+        {"entity_id": "person.ahab", "role": "PRESENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.elijah_mocks_baal",
+      "parent_event_id": "evt.1kgs_18.carmel_contest",
+      "verse_start": "1KGS.18.27",
+      "verse_end": "1KGS.18.27",
+      "location_entity_id": "loc.mount_carmel",
+      "time": {
+        "anchor": "evt.1kgs_18.carmel_contest",
+        "time_of_day": "TZOHORAYIM",
+        "duration": {"value": 1, "unit": "hours"},
+        "margin": {"value": 30, "unit": "minutes"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "group.prophets_of_baal", "role": "PATIENT"},
+        {"entity_id": "deity.baal", "role": "MENTIONED"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.minchah_fire",
+      "parent_event_id": "evt.1kgs_18.carmel_contest",
+      "verse_start": "1KGS.18.36",
+      "verse_end": "1KGS.18.38",
+      "location_entity_id": "loc.mount_carmel",
+      "time": {
+        "anchor": "evt.1kgs_18.carmel_contest",
+        "time_of_day": "MINCHAH",
+        "duration": {"value": 30, "unit": "minutes"},
+        "margin": {"value": 30, "unit": "minutes"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "deity.yhwh", "role": "AGENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.execution_at_kishon",
+      "parent_event_id": "evt.1kgs_18.carmel_contest",
+      "verse_start": "1KGS.18.39",
+      "verse_end": "1KGS.18.40",
+      "location_entity_id": "loc.kishon_brook",
+      "time": {
+        "anchor": "evt.1kgs_18.minchah_fire",
+        "anchor_point": "END",
+        "duration": {"value": 1, "unit": "hours"},
+        "margin": {"value": 1, "unit": "hours"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "group.prophets_of_baal", "role": "PATIENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.prayer_for_rain",
+      "verse_start": "1KGS.18.41",
+      "verse_end": "1KGS.18.44",
+      "location_entity_id": "loc.mount_carmel",
+      "time": {
+        "anchor": "evt.1kgs_18.execution_at_kishon",
+        "anchor_point": "END",
+        "duration": {"value": 30, "unit": "minutes"},
+        "margin": {"value": 1, "unit": "hours"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "person.ahab", "role": "PATIENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.rain_returns",
+      "verse_start": "1KGS.18.45",
+      "verse_end": "1KGS.18.45",
+      "time": {
+        "anchor": "evt.1kgs_18.prayer_for_rain",
+        "anchor_point": "END",
+        "duration": {"value": 3, "unit": "hours"},
+        "margin": {"value": 1, "unit": "hours"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "deity.yhwh", "role": "MENTIONED"},
+        {"entity_id": "person.ahab", "role": "PRESENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_18.chariot_run_to_jezreel",
+      "verse_start": "1KGS.18.45",
+      "verse_end": "1KGS.18.46",
+      "location_entity_id": "loc.jezreel",
+      "time": {
+        "anchor": "evt.1kgs_18.prayer_for_rain",
+        "anchor_point": "END",
+        "duration": {"value": 2.5, "unit": "hours"},
+        "margin": {"value": 30, "unit": "minutes"},
+        "precision_tier": "DIURNAL_HOUR"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "person.ahab", "role": "AGENT"}
+      ]
+    }
+  ],
+  "causal_edges": [
+    {"causal_id": "caus.1kgs_17.drought_oath.rain_returns", "cause_event_id": "evt.1kgs_17.drought_oath", "effect_event_id": "evt.1kgs_18.rain_returns", "causal_type": "FULFILLS_PROPHECY", "confidence": 0.9},
+    {"causal_id": "caus.1kgs_18.minchah_fire.execution_at_kishon", "cause_event_id": "evt.1kgs_18.minchah_fire", "effect_event_id": "evt.1kgs_18.execution_at_kishon", "causal_type": "TRIGGERS"},
+    {"causal_id": "caus.1kgs_18.prayer_for_rain.rain_returns", "cause_event_id": "evt.1kgs_18.prayer_for_rain", "effect_event_id": "evt.1kgs_18.rain_returns", "causal_type": "TRIGGERS"},
+    {"causal_id": "caus.1kgs_18.rain_returns.chariot_run_to_jezreel", "cause_event_id": "evt.1kgs_18.rain_returns", "effect_event_id": "evt.1kgs_18.chariot_run_to_jezreel", "causal_type": "TRIGGERS", "confidence": 0.8}
+  ],
+  "system_instances": [
+    {"instance_id": "inst.olah_offering.1kgs_18_36", "system_id": "sys.olah_offering", "event_id": "evt.1kgs_18.minchah_fire", "verse_start": "1KGS.18.36", "verse_end": "1KGS.18.38", "initiator_entity_id": "person.elijah", "target_entity_ids": ["deity.yhwh"], "location_entity_id": "loc.mount_carmel", "tags": ["public_contest", "altar_drenched"]},
+    {"instance_id": "inst.divine_fire_acceptance.1kgs_18_38", "system_id": "sys.divine_fire_acceptance", "event_id": "evt.1kgs_18.minchah_fire", "verse_start": "1KGS.18.38", "verse_end": "1KGS.18.38", "initiator_entity_id": "deity.yhwh", "target_entity_ids": ["person.elijah"], "location_entity_id": "loc.mount_carmel", "tags": ["public_ordeal"]},
+    {"instance_id": "inst.royal_herald_protocol.1kgs_18_46", "system_id": "sys.royal_herald_protocol", "event_id": "evt.1kgs_18.chariot_run_to_jezreel", "verse_start": "1KGS.18.46", "verse_end": "1KGS.18.46", "initiator_entity_id": "person.elijah", "target_entity_ids": ["person.ahab"], "artifact_entity_ids": ["artifact.ahabs_chariot"], "location_entity_id": "loc.jezreel"}
+  ],
+  "edges": [
+    {"edge_id": "edge.1kgs_18_27.elijah_mocked_prophets_of_baal", "source_entity_id": "person.elijah", "target_entity_id": "group.prophets_of_baal", "interaction_type": "MOCKED", "verse_id": "1KGS.18.27", "event_id": "evt.1kgs_18.elijah_mocks_baal"},
+    {"edge_id": "edge.1kgs_18_40.elijah_executed_prophets_of_baal", "source_entity_id": "person.elijah", "target_entity_id": "group.prophets_of_baal", "interaction_type": "EXECUTED", "verse_id": "1KGS.18.40", "event_id": "evt.1kgs_18.execution_at_kishon"},
+    {"edge_id": "edge.1kgs_18_46.elijah_ran_ahead_of_ahab", "source_entity_id": "person.elijah", "target_entity_id": "person.ahab", "interaction_type": "RAN_AHEAD_OF", "verse_id": "1KGS.18.46", "event_id": "evt.1kgs_18.chariot_run_to_jezreel"}
+  ]
+}

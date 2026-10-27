@@ -1,0 +1,188 @@
+{
+  "chapter_ref": "1KGS.19",
+  "entities": [
+    {"entity_id": "loc.beersheba", "entity_type": "LOCATION", "source_script_name": "בְּאֵר שֶׁבַע", "transliterated_name": "Bəʾēr Šebaʿ", "first_mention_verse": "1KGS.19.3", "geo_lat": 31.245, "geo_lon": 34.84, "geo_elevation_m": 290},
+    {"entity_id": "spirit.angel_of_yhwh", "entity_type": "SPIRIT_BEING", "source_script_name": "מַלְאַךְ יְהוָה", "transliterated_name": "malʾak YHWH", "first_mention_verse": "1KGS.19.5"},
+    {"entity_id": "loc.mount_horeb", "entity_type": "LOCATION", "source_script_name": "חֹרֵב", "transliterated_name": "Ḥōrēb", "first_mention_verse": "1KGS.19.8", "geo_lat": 28.539, "geo_lon": 33.976, "geo_elevation_m": 2285},
+    {"entity_id": "artifact.elijahs_mantle", "entity_type": "ARTIFACT", "source_script_name": "אַדֶּרֶת", "transliterated_name": "ʾaddeṛet", "first_mention_verse": "1KGS.19.13"},
+    {"entity_id": "loc.abel_meholah", "entity_type": "LOCATION", "source_script_name": "אָבֵל מְחוֹלָה", "transliterated_name": "ʾĀbēl Məḥôlâ", "first_mention_verse": "1KGS.19.16"},
+    {"entity_id": "person.elisha", "entity_type": "PERSON", "source_script_name": "אֱלִישָׁע", "transliterated_name": "ʾĔlîšāʿ", "first_mention_verse": "1KGS.19.16"}
+  ],
+  "systems": [
+    {"system_id": "sys.theophany", "category": "THEOPHANY"},
+    {"system_id": "sys.mantle_investiture", "category": "LEGAL_CUSTOM"}
+  ],
+  "events": [
+    {
+      "event_id": "evt.1kgs_19.jezebel_threat",
+      "verse_start": "1KGS.19.1",
+      "verse_end": "1KGS.19.2",
+      "location_entity_id": "loc.jezreel",
+      "time": {
+        "anchor": "evt.1kgs_18.chariot_run_to_jezreel",
+        "anchor_point": "END",
+        "offset": {"value": 1, "unit": "hours"},
+        "duration": {"value": 30, "unit": "minutes"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "person.ahab", "role": "AGENT"},
+        {"entity_id": "person.jezebel", "role": "AGENT"},
+        {"entity_id": "person.elijah", "role": "PATIENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_19.flight_to_beersheba",
+      "verse_start": "1KGS.19.3",
+      "verse_end": "1KGS.19.3",
+      "location_entity_id": "loc.beersheba",
+      "time": {
+        "anchor": "evt.1kgs_19.jezebel_threat",
+        "anchor_point": "END",
+        "duration": {"value": 5, "unit": "days"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [{"entity_id": "person.elijah", "role": "AGENT"}]
+    },
+    {
+      "event_id": "evt.1kgs_19.wilderness_day_journey",
+      "verse_start": "1KGS.19.4",
+      "verse_end": "1KGS.19.4",
+      "time": {
+        "anchor": "evt.1kgs_19.flight_to_beersheba",
+        "anchor_point": "END",
+        "duration": {"value": 1, "unit": "days"},
+        "margin": {"value": 12, "unit": "hours"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [{"entity_id": "person.elijah", "role": "AGENT"}]
+    },
+    {
+      "event_id": "evt.1kgs_19.angel_feeds_elijah",
+      "verse_start": "1KGS.19.5",
+      "verse_end": "1KGS.19.7",
+      "time": {
+        "anchor": "evt.1kgs_19.wilderness_day_journey",
+        "anchor_point": "END",
+        "duration": {"value": 1, "unit": "days"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "spirit.angel_of_yhwh", "role": "AGENT"},
+        {"entity_id": "person.elijah", "role": "PATIENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_19.journey_to_horeb",
+      "verse_start": "1KGS.19.8",
+      "verse_end": "1KGS.19.8",
+      "location_entity_id": "loc.mount_horeb",
+      "time": {
+        "anchor": "evt.1kgs_19.angel_feeds_elijah",
+        "anchor_point": "END",
+        "duration": {"value": 40, "unit": "days"},
+        "margin": {"value": 12, "unit": "hours"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [{"entity_id": "person.elijah", "role": "AGENT"}]
+    },
+    {
+      "event_id": "evt.1kgs_19.lodging_in_cave",
+      "verse_start": "1KGS.19.9",
+      "verse_end": "1KGS.19.10",
+      "location_entity_id": "loc.mount_horeb",
+      "time": {
+        "anchor": "evt.1kgs_19.journey_to_horeb",
+        "anchor_point": "END",
+        "time_of_day": "EREV",
+        "duration": {"value": 12, "unit": "hours"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "deity.yhwh", "role": "AGENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_19.theophany_at_horeb",
+      "verse_start": "1KGS.19.11",
+      "verse_end": "1KGS.19.18",
+      "location_entity_id": "loc.mount_horeb",
+      "time": {
+        "anchor": "evt.1kgs_19.lodging_in_cave",
+        "anchor_point": "END",
+        "duration": {"value": 3, "unit": "hours"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "deity.yhwh", "role": "AGENT"},
+        {"entity_id": "person.elijah", "role": "PATIENT"},
+        {"entity_id": "person.elisha", "role": "MENTIONED"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_19.mantle_investiture",
+      "verse_start": "1KGS.19.19",
+      "verse_end": "1KGS.19.20",
+      "location_entity_id": "loc.abel_meholah",
+      "time": {
+        "anchor": "evt.1kgs_19.theophany_at_horeb",
+        "anchor_point": "END",
+        "offset": {"value": 18, "unit": "days"},
+        "duration": {"value": 2, "unit": "hours"},
+        "margin": {"value": 7, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "person.elijah", "role": "AGENT"},
+        {"entity_id": "person.elisha", "role": "PATIENT"}
+      ]
+    },
+    {
+      "event_id": "evt.1kgs_19.farewell_feast",
+      "verse_start": "1KGS.19.21",
+      "verse_end": "1KGS.19.21",
+      "location_entity_id": "loc.abel_meholah",
+      "time": {
+        "anchor": "evt.1kgs_19.mantle_investiture",
+        "anchor_point": "END",
+        "duration": {"value": 6, "unit": "hours"},
+        "margin": {"value": 1, "unit": "days"},
+        "precision_tier": "DAY_SEQUENCE"
+      },
+      "participants": [
+        {"entity_id": "person.elisha", "role": "AGENT"},
+        {"entity_id": "person.elijah", "role": "PRESENT"}
+      ]
+    }
+  ],
+  "causal_edges": [
+    {"causal_id": "caus.1kgs_18.execution_at_kishon.jezebel_threat", "cause_event_id": "evt.1kgs_18.execution_at_kishon", "effect_event_id": "evt.1kgs_19.jezebel_threat", "causal_type": "RETALIATES_FOR"},
+    {"causal_id": "caus.1kgs_19.jezebel_threat.flight_to_beersheba", "cause_event_id": "evt.1kgs_19.jezebel_threat", "effect_event_id": "evt.1kgs_19.flight_to_beersheba", "causal_type": "TRIGGERS"},
+    {"causal_id": "caus.1kgs_19.angel_feeds_elijah.journey_to_horeb", "cause_event_id": "evt.1kgs_19.angel_feeds_elijah", "effect_event_id": "evt.1kgs_19.journey_to_horeb", "causal_type": "ENABLES"},
+    {"causal_id": "caus.1kgs_19.theophany_at_horeb.mantle_investiture", "cause_event_id": "evt.1kgs_19.theophany_at_horeb", "effect_event_id": "evt.1kgs_19.mantle_investiture", "causal_type": "TRIGGERS"},
+    {"causal_id": "caus.1kgs_19.mantle_investiture.farewell_feast", "cause_event_id": "evt.1kgs_19.mantle_investiture", "effect_event_id": "evt.1kgs_19.farewell_feast", "causal_type": "TRIGGERS"}
+  ],
+  "components": [
+    {"component_id": "comp.person.elijah.mental_state.1", "entity_id": "person.elijah", "category": "PSYCH_STATE", "component_key": "mental_state", "value_code": "DESPAIR", "acquired_at_verse": "1KGS.19.4", "acquired_in_event": "evt.1kgs_19.wilderness_day_journey", "expired_at_verse": "1KGS.19.15", "expired_in_event": "evt.1kgs_19.theophany_at_horeb"},
+    {"component_id": "comp.person.elijah.held_artifact.1", "entity_id": "person.elijah", "category": "POSSESSION", "component_key": "held_artifact", "target_entity_id": "artifact.elijahs_mantle", "acquired_at_verse": "1KGS.19.13", "acquired_in_event": "evt.1kgs_19.theophany_at_horeb"},
+    {"component_id": "comp.person.elisha.economic_tier.1", "entity_id": "person.elisha", "category": "TRAIT", "component_key": "economic_tier", "value_code": "WEALTHY_LANDOWNER", "acquired_at_verse": "1KGS.19.19", "acquired_in_event": "evt.1kgs_19.mantle_investiture", "expired_at_verse": "1KGS.19.21", "expired_in_event": "evt.1kgs_19.farewell_feast"},
+    {"component_id": "comp.person.elisha.role.1", "entity_id": "person.elisha", "category": "ROLE_TITLE", "component_key": "role", "value_code": "ATTENDANT", "target_entity_id": "person.elijah", "supersedes_component_id": "comp.person.elisha.economic_tier.1", "acquired_at_verse": "1KGS.19.21", "acquired_in_event": "evt.1kgs_19.farewell_feast"}
+  ],
+  "system_instances": [
+    {"instance_id": "inst.theophany.1kgs_19_11", "system_id": "sys.theophany", "event_id": "evt.1kgs_19.theophany_at_horeb", "verse_start": "1KGS.19.11", "verse_end": "1KGS.19.13", "initiator_entity_id": "deity.yhwh", "target_entity_ids": ["person.elijah"], "location_entity_id": "loc.mount_horeb", "tags": ["still_small_voice"]},
+    {"instance_id": "inst.mantle_investiture.1kgs_19_19", "system_id": "sys.mantle_investiture", "event_id": "evt.1kgs_19.mantle_investiture", "verse_start": "1KGS.19.19", "verse_end": "1KGS.19.19", "initiator_entity_id": "person.elijah", "target_entity_ids": ["person.elisha"], "artifact_entity_ids": ["artifact.elijahs_mantle"], "location_entity_id": "loc.abel_meholah", "tags": ["succession"]}
+  ],
+  "edges": [
+    {"edge_id": "edge.1kgs_19_2.jezebel_threatened_elijah", "source_entity_id": "person.jezebel", "target_entity_id": "person.elijah", "interaction_type": "THREATENED", "verse_id": "1KGS.19.2", "event_id": "evt.1kgs_19.jezebel_threat"},
+    {"edge_id": "edge.1kgs_19_3.elijah_fled_from_jezebel", "source_entity_id": "person.elijah", "target_entity_id": "person.jezebel", "interaction_type": "FLED_FROM", "verse_id": "1KGS.19.3", "event_id": "evt.1kgs_19.flight_to_beersheba"},
+    {"edge_id": "edge.1kgs_19_5.angel_fed_elijah", "source_entity_id": "spirit.angel_of_yhwh", "target_entity_id": "person.elijah", "interaction_type": "FED", "verse_id": "1KGS.19.5", "event_id": "evt.1kgs_19.angel_feeds_elijah"},
+    {"edge_id": "edge.1kgs_19_19.elijah_invested_elisha", "source_entity_id": "person.elijah", "target_entity_id": "person.elisha", "interaction_type": "INVESTED", "verse_id": "1KGS.19.19", "event_id": "evt.1kgs_19.mantle_investiture"},
+    {"edge_id": "edge.1kgs_19_21.elisha_served_elijah", "source_entity_id": "person.elisha", "target_entity_id": "person.elijah", "interaction_type": "SERVED", "verse_id": "1KGS.19.21", "event_id": "evt.1kgs_19.farewell_feast"}
+  ]
+}
