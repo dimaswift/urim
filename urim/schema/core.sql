@@ -118,7 +118,9 @@ CREATE TABLE core_entities (
     destroyed_at_utes   INTEGER,
     geo_lat             REAL,
     geo_lon             REAL,
-    geo_elevation_m     REAL
+    geo_elevation_m     REAL,
+    geo_source          TEXT,                  -- "openbible:Mount Carmel", "tipnr", "ir"
+    geo_confidence      REAL                   -- 0-1 where the source reports one
 ) STRICT;
 
 -- ============================================================================

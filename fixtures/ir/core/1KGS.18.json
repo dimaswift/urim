@@ -1,13 +1,13 @@
 {
   "chapter_ref": "1KGS.18",
   "entities": [
-    {"entity_id": "person.jezebel", "entity_type": "PERSON", "source_script_name": "אִיזֶבֶל", "transliterated_name": "ʾÎzebel", "first_mention_verse": "1KGS.18.4"},
-    {"entity_id": "deity.baal", "entity_type": "DEITY", "source_script_name": "בַּעַל", "transliterated_name": "Baʿal", "first_mention_verse": "1KGS.18.18"},
+    {"entity_id": "person.jezebel", "tipnr_id": "Jezebel@1Ki.16.31-Rev", "entity_type": "PERSON", "source_script_name": "אִיזֶבֶל", "transliterated_name": "ʾÎzebel", "first_mention_verse": "1KGS.18.4"},
+    {"entity_id": "deity.baal", "tipnr_id": "Baal@Num.25.3-Rom", "entity_type": "DEITY", "source_script_name": "בַּעַל", "transliterated_name": "Baʿal", "first_mention_verse": "1KGS.18.18"},
     {"entity_id": "group.prophets_of_baal", "entity_type": "GROUP", "source_script_name": "נְבִיאֵי הַבַּעַל", "transliterated_name": "nəbîʾê habbaʿal", "first_mention_verse": "1KGS.18.19"},
-    {"entity_id": "loc.mount_carmel", "entity_type": "LOCATION", "source_script_name": "הַר הַכַּרְמֶל", "transliterated_name": "har hakkarmel", "first_mention_verse": "1KGS.18.19", "geo_lat": 32.668, "geo_lon": 35.087, "geo_elevation_m": 482},
-    {"entity_id": "loc.kishon_brook", "entity_type": "LOCATION", "source_script_name": "נַחַל קִישׁוֹן", "transliterated_name": "naḥal qîšôn", "first_mention_verse": "1KGS.18.40", "geo_lat": 32.69, "geo_lon": 35.12},
+    {"entity_id": "loc.mount_carmel", "tipnr_id": "Carmel_Mount@1Ki.18.19-2Ki", "entity_type": "LOCATION", "source_script_name": "הַר הַכַּרְמֶל", "transliterated_name": "har hakkarmel", "first_mention_verse": "1KGS.18.19"},
+    {"entity_id": "loc.kishon_brook", "tipnr_id": "Kishon@Jdg.4.7-Psa", "entity_type": "LOCATION", "source_script_name": "נַחַל קִישׁוֹן", "transliterated_name": "naḥal qîšôn", "first_mention_verse": "1KGS.18.40"},
     {"entity_id": "artifact.ahabs_chariot", "entity_type": "ARTIFACT", "source_script_name": "רֶכֶב", "transliterated_name": "rekeb", "first_mention_verse": "1KGS.18.44"},
-    {"entity_id": "loc.jezreel", "entity_type": "LOCATION", "source_script_name": "יִזְרְעֶאל", "transliterated_name": "Yizrəʿeʾl", "first_mention_verse": "1KGS.18.45", "geo_lat": 32.557, "geo_lon": 35.328, "geo_elevation_m": 100}
+    {"entity_id": "loc.jezreel", "tipnr_id": "Jezreel@Jos.19.18-Hos", "entity_type": "LOCATION", "source_script_name": "יִזְרְעֶאל", "transliterated_name": "Yizrəʿeʾl", "first_mention_verse": "1KGS.18.45"}
   ],
   "systems": [
     {"system_id": "sys.olah_offering", "category": "LITURGICAL_RITUAL"},

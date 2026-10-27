@@ -158,6 +158,12 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
                 report.error(f"duplicate verse {v.verse_id}")
             if [t.pos for t in v.tokens] != list(range(1, len(v.tokens) + 1)):
                 report.error(f"{v.verse_id}: token positions must run 1..{len(v.tokens)}")
+            for gloss_lang, glosses in v.glosses.items():
+                if len(glosses) != len(v.tokens):
+                    report.error(
+                        f"{v.verse_id}: {len(glosses)} {gloss_lang} glosses for "
+                        f"{len(v.tokens)} tokens"
+                    )
             verses[v.verse_id] = (v, ref, book.source_language)
             ordinal[v.verse_id] = ref.ordinal
     verse_map = [row for book in corpus.sources for row in book.verse_map]
@@ -178,6 +184,37 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
         (x for c in chs for x in c.system_instances), "instance_id", "system instance", report
     )
     edges = _unique((x for c in chs for x in c.edges), "edge_id", "edge", report)
+
+    # Registry: TIPNR identity, first mentions and coordinates. Agents never write coordinates;
+    # explicit IR geo is an override.
+    seeds = {s.tipnr_id: s for s in corpus.registry.entities} if corpus.registry else {}
+    tipnr_owner: dict[str, str] = {}
+    for e in entities.values():
+        if e.tipnr_id is None:
+            continue
+        if other := tipnr_owner.get(e.tipnr_id):
+            report.error(f"{e.entity_id}: tipnr_id {e.tipnr_id} already used by {other}")
+        tipnr_owner[e.tipnr_id] = e.entity_id
+        seed = seeds.get(e.tipnr_id)
+        if corpus.registry and seed is None:
+            report.warn(f"{e.entity_id}: tipnr_id {e.tipnr_id} is not in the registry")
+        elif seed and e.first_mention_verse in ordinal:
+            seen = [m.verse_id for m in seed.mentions if m.verse_id in ordinal]
+            earliest = min(seen, key=ordinal.__getitem__, default=None)
+            if earliest and ordinal[earliest] < ordinal[e.first_mention_verse]:
+                report.warn(
+                    f"{e.entity_id}: mentioned at {earliest}, before its "
+                    f"first_mention_verse {e.first_mention_verse}"
+                )
+
+    def geo_of(e) -> tuple[float | None, float | None, float | None, str | None, float | None]:
+        if e.geo_lat is not None and e.geo_lon is not None:
+            return e.geo_lat, e.geo_lon, e.geo_elevation_m, "ir", None
+        point = seeds[e.tipnr_id].geo if e.tipnr_id in seeds else None
+        if point is None:
+            return None, None, None, None, None
+        source = f"{point.source}:{point.source_name}" if point.source_name else point.source
+        return point.lat, point.lon, None, source, point.confidence
 
     if scheme not in corpus.chronology.schemes:
         report.error(f"unknown chronology scheme {scheme}")
@@ -475,6 +512,8 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
             "geo_lat",
             "geo_lon",
             "geo_elevation_m",
+            "geo_source",
+            "geo_confidence",
         ),
         [
             (
@@ -486,9 +525,7 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
                 e.first_mention_verse,
                 None,
                 None,
-                e.geo_lat,
-                e.geo_lon,
-                e.geo_elevation_m,
+                *geo_of(e),
             )
             for e in sorted(entities.values(), key=lambda e: e.entity_id)
         ],
@@ -744,8 +781,10 @@ def build_lang(
     translation = bundle.baseline_translation
     scheme = TRANSLATION_SCHEMES.get(translation)
     baseline_texts: dict[str, str] = {}
+    source_glosses: dict[str, list[str]] = {}  # reference glosses (e.g. STEPBible) per verse
     for src in load_sources(ir_dir):
         baseline_texts.update(src.baselines.get(translation, {}))
+        source_glosses |= {v.verse_id: v.glosses[lang] for v in src.verses if lang in v.glosses}
     if not baseline_texts:
         report.error(f"{lang}: no {translation} baseline text in source IR")
     mapped: dict[str, list[str]] = defaultdict(list)
@@ -760,7 +799,15 @@ def build_lang(
         refs = sorted(mapped.get(vid, [vid]), key=lambda r: parse_ref(r)[1].ordinal)
         baseline = " ".join(baseline_texts[r] for r in refs if r in baseline_texts)
         vt = texts.get(vid)
-        if not baseline and not vt:
+        if vt and vt.token_glosses:
+            glosses = [g.model_dump() for g in vt.token_glosses]
+        else:
+            glosses = [
+                {"pos": i, "gloss": g}
+                for i, g in enumerate(source_glosses.get(vid, []), start=1)
+                if g
+            ]
+        if not baseline and not vt and not glosses:
             continue
         if not baseline:
             report.warn(f"{lang} {vid}: has layers but no {translation} baseline")
@@ -772,7 +819,7 @@ def build_lang(
                 vt.translation_dramatic if vt else None,
                 vt.directors_commentary if vt else None,
                 j([n.model_dump(exclude_none=True) for n in vt.philological_notes]) if vt else None,
-                j([g.model_dump() for g in vt.token_glosses]) if vt else None,
+                j(glosses) if glosses else None,
             )
         )
         body = " ".join(x for x in (baseline, *(rows[-1][2:5])) if x)

@@ -1,12 +1,12 @@
 {
   "chapter_ref": "1KGS.19",
   "entities": [
-    {"entity_id": "loc.beersheba", "entity_type": "LOCATION", "source_script_name": "בְּאֵר שֶׁבַע", "transliterated_name": "Bəʾēr Šebaʿ", "first_mention_verse": "1KGS.19.3", "geo_lat": 31.245, "geo_lon": 34.84, "geo_elevation_m": 290},
+    {"entity_id": "loc.beersheba", "tipnr_id": "Beersheba@Gen.21.14-Amo", "entity_type": "LOCATION", "source_script_name": "בְּאֵר שֶׁבַע", "transliterated_name": "Bəʾēr Šebaʿ", "first_mention_verse": "1KGS.19.3"},
     {"entity_id": "spirit.angel_of_yhwh", "entity_type": "SPIRIT_BEING", "source_script_name": "מַלְאַךְ יְהוָה", "transliterated_name": "malʾak YHWH", "first_mention_verse": "1KGS.19.5"},
-    {"entity_id": "loc.mount_horeb", "entity_type": "LOCATION", "source_script_name": "חֹרֵב", "transliterated_name": "Ḥōrēb", "first_mention_verse": "1KGS.19.8", "geo_lat": 28.539, "geo_lon": 33.976, "geo_elevation_m": 2285},
+    {"entity_id": "loc.mount_horeb", "tipnr_id": "Sinai@Exo.3.1-Gal", "entity_type": "LOCATION", "source_script_name": "חֹרֵב", "transliterated_name": "Ḥōrēb", "first_mention_verse": "1KGS.19.8"},
     {"entity_id": "artifact.elijahs_mantle", "entity_type": "ARTIFACT", "source_script_name": "אַדֶּרֶת", "transliterated_name": "ʾaddeṛet", "first_mention_verse": "1KGS.19.13"},
-    {"entity_id": "loc.abel_meholah", "entity_type": "LOCATION", "source_script_name": "אָבֵל מְחוֹלָה", "transliterated_name": "ʾĀbēl Məḥôlâ", "first_mention_verse": "1KGS.19.16"},
-    {"entity_id": "person.elisha", "entity_type": "PERSON", "source_script_name": "אֱלִישָׁע", "transliterated_name": "ʾĔlîšāʿ", "first_mention_verse": "1KGS.19.16"}
+    {"entity_id": "loc.abel_meholah", "tipnr_id": "Abel-meholah@Jdg.7.22-1Ki", "entity_type": "LOCATION", "source_script_name": "אָבֵל מְחוֹלָה", "transliterated_name": "ʾĀbēl Məḥôlâ", "first_mention_verse": "1KGS.19.16"},
+    {"entity_id": "person.elisha", "tipnr_id": "Elisha@1Ki.19.16-Luk", "entity_type": "PERSON", "source_script_name": "אֱלִישָׁע", "transliterated_name": "ʾĔlîšāʿ", "first_mention_verse": "1KGS.19.16"}
   ],
   "systems": [
     {"system_id": "sys.theophany", "category": "THEOPHANY"},

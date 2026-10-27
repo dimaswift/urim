@@ -160,3 +160,53 @@ def test_language_bundle_rejects_orphans_and_bad_glosses(ir_copy, tmp_path):
     errors = exc.value.report.errors
     assert any("unknown core id evt.1kgs_18.not_in_core" in e for e in errors)
     assert any("gloss for token 99" in e for e in errors)
+
+
+def test_registry_supplies_coordinates_and_ir_overrides_them(bundles, ir_copy, tmp_path):
+    rows = dict(
+        (r[0], r[1:])
+        for r in _core_rows(
+            bundles,
+            "SELECT entity_id, geo_lat, geo_source, geo_confidence, tipnr_id FROM core_entities",
+        )
+    )
+    assert rows["loc.mount_carmel"] == (
+        32.6725,
+        "openbible:Mount Carmel",
+        1.0,
+        "Carmel_Mount@1Ki.18.19-2Ki",
+    )
+    assert rows["loc.mount_horeb"][1] == "openbible:Mount Sinai"
+    assert rows["artifact.ahabs_chariot"][:3] == (None, None, None)
+
+    def pin_carmel(doc):
+        carmel = next(e for e in doc["entities"] if e["entity_id"] == "loc.mount_carmel")
+        carmel.update(geo_lat=32.668, geo_lon=35.087)
+
+    edit_json(ir_copy / "core" / "1KGS.18.json", pin_carmel)
+    link_core(ir_copy, tmp_path)
+    assert _core_rows(
+        tmp_path,
+        "SELECT geo_lat, geo_source FROM core_entities WHERE entity_id = 'loc.mount_carmel'",
+    ) == [(32.668, "ir")]
+
+
+def test_tipnr_identity_checks(ir_copy):
+    def tamper(doc):
+        doc["entities"][0]["tipnr_id"] = "Ahab@1Ki.16.28-Mic"  # Jezebel claims Ahab's identity
+        doc["entities"][1]["tipnr_id"] = "Nobody@Gen.1.1"  # Baal points nowhere
+
+    edit_json(ir_copy / "core" / "1KGS.18.json", tamper)
+    report = validate(ir_copy)
+    assert any("already used by person.ahab" in e for e in report.errors)
+    assert any("Nobody@Gen.1.1 is not in the registry" in w for w in report.warnings)
+
+
+def test_first_mention_is_checked_against_the_registry(ir_copy):
+    def late(doc):
+        elisha = next(e for e in doc["entities"] if e["entity_id"] == "person.elisha")
+        elisha["first_mention_verse"] = "1KGS.19.19"
+
+    edit_json(ir_copy / "core" / "1KGS.19.json", late)
+    warnings = validate(ir_copy).warnings
+    assert any("person.elisha: mentioned at 1KGS.19.16" in w for w in warnings)

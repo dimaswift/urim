@@ -18,82 +18,43 @@ class Book:
     code: str  # "1KGS"
     osis: str  # "1Kgs"
     testament: str  # "OT" | "NT"
+    stepbible: str  # STEPBible abbreviation: "1Ki"
+    sefaria: str | None  # Sefaria index title: "I Kings" (Tanakh only)
 
 
-_OSIS_CODES = [
-    "Gen",
-    "Exod",
-    "Lev",
-    "Num",
-    "Deut",
-    "Josh",
-    "Judg",
-    "Ruth",
-    "1Sam",
-    "2Sam",
-    "1Kgs",
-    "2Kgs",
-    "1Chr",
-    "2Chr",
-    "Ezra",
-    "Neh",
-    "Esth",
-    "Job",
-    "Ps",
-    "Prov",
-    "Eccl",
-    "Song",
-    "Isa",
-    "Jer",
-    "Lam",
-    "Ezek",
-    "Dan",
-    "Hos",
-    "Joel",
-    "Amos",
-    "Obad",
-    "Jonah",
-    "Mic",
-    "Nah",
-    "Hab",
-    "Zeph",
-    "Hag",
-    "Zech",
-    "Mal",
-    "Matt",
-    "Mark",
-    "Luke",
-    "John",
-    "Acts",
-    "Rom",
-    "1Cor",
-    "2Cor",
-    "Gal",
-    "Eph",
-    "Phil",
-    "Col",
-    "1Thess",
-    "2Thess",
-    "1Tim",
-    "2Tim",
-    "Titus",
-    "Phlm",
-    "Heb",
-    "Jas",
-    "1Pet",
-    "2Pet",
-    "1John",
-    "2John",
-    "3John",
-    "Jude",
-    "Rev",
+# (OSIS, STEPBible, Sefaria) per book, in canon order.
+# fmt: off
+_BOOK_NAMES = [
+    ("Gen", "Gen", "Genesis"), ("Exod", "Exo", "Exodus"), ("Lev", "Lev", "Leviticus"),
+    ("Num", "Num", "Numbers"), ("Deut", "Deu", "Deuteronomy"), ("Josh", "Jos", "Joshua"),
+    ("Judg", "Jdg", "Judges"), ("Ruth", "Rut", "Ruth"), ("1Sam", "1Sa", "I Samuel"),
+    ("2Sam", "2Sa", "II Samuel"), ("1Kgs", "1Ki", "I Kings"), ("2Kgs", "2Ki", "II Kings"),
+    ("1Chr", "1Ch", "I Chronicles"), ("2Chr", "2Ch", "II Chronicles"), ("Ezra", "Ezr", "Ezra"),
+    ("Neh", "Neh", "Nehemiah"), ("Esth", "Est", "Esther"), ("Job", "Job", "Job"),
+    ("Ps", "Psa", "Psalms"), ("Prov", "Pro", "Proverbs"), ("Eccl", "Ecc", "Ecclesiastes"),
+    ("Song", "Sng", "Song of Songs"), ("Isa", "Isa", "Isaiah"), ("Jer", "Jer", "Jeremiah"),
+    ("Lam", "Lam", "Lamentations"), ("Ezek", "Ezk", "Ezekiel"), ("Dan", "Dan", "Daniel"),
+    ("Hos", "Hos", "Hosea"), ("Joel", "Jol", "Joel"), ("Amos", "Amo", "Amos"),
+    ("Obad", "Oba", "Obadiah"), ("Jonah", "Jon", "Jonah"), ("Mic", "Mic", "Micah"),
+    ("Nah", "Nam", "Nahum"), ("Hab", "Hab", "Habakkuk"), ("Zeph", "Zep", "Zephaniah"),
+    ("Hag", "Hag", "Haggai"), ("Zech", "Zec", "Zechariah"), ("Mal", "Mal", "Malachi"),
+    ("Matt", "Mat", None), ("Mark", "Mrk", None), ("Luke", "Luk", None), ("John", "Jhn", None),
+    ("Acts", "Act", None), ("Rom", "Rom", None), ("1Cor", "1Co", None), ("2Cor", "2Co", None),
+    ("Gal", "Gal", None), ("Eph", "Eph", None), ("Phil", "Php", None), ("Col", "Col", None),
+    ("1Thess", "1Th", None), ("2Thess", "2Th", None), ("1Tim", "1Ti", None),
+    ("2Tim", "2Ti", None), ("Titus", "Tit", None), ("Phlm", "Phm", None), ("Heb", "Heb", None),
+    ("Jas", "Jas", None), ("1Pet", "1Pe", None), ("2Pet", "2Pe", None), ("1John", "1Jn", None),
+    ("2John", "2Jn", None), ("3John", "3Jn", None), ("Jude", "Jud", None), ("Rev", "Rev", None),
 ]
+# fmt: on
 
 BOOKS: tuple[Book, ...] = tuple(
-    Book(i, osis.upper(), osis, "OT" if i <= 39 else "NT")
-    for i, osis in enumerate(_OSIS_CODES, start=1)
+    Book(i, osis.upper(), osis, "OT" if i <= 39 else "NT", step, sefaria)
+    for i, (osis, step, sefaria) in enumerate(_BOOK_NAMES, start=1)
 )
 BOOKS_BY_CODE: dict[str, Book] = {b.code: b for b in BOOKS}
+BOOKS_BY_STEPBIBLE: dict[str, Book] = {b.stepbible: b for b in BOOKS}
+BOOKS_BY_OSIS: dict[str, Book] = {b.osis: b for b in BOOKS}
 
 # Versification scheme each baseline translation follows. Translations absent here follow the
 # source-text numbering.

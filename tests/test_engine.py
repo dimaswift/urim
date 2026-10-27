@@ -142,3 +142,17 @@ def test_bundle_built_for_another_core_is_refused(ir_copy, tmp_path):
     assert [lang.compatible for lang in engine.languages()] == [False]
     with pytest.raises(BundleMismatch):
         engine.get_verse_matrix("1KGS.18.27")
+
+
+def test_word_glosses_cover_every_verse(engine):
+    en = engine.get_verse_matrix("1KGS.18.46", include_ecs=False)
+    assert all(t.gloss for t in en.tokens)  # STEPBible glosses where no Philologist ran yet
+    assert en.tokens[4].gloss == "Elijah" and en.tokens[4].name_ref == "Elijah@1Ki.17.1-Jas"
+    ru = engine.get_verse_matrix("1KGS.18.46", lang="ru", include_ecs=False)
+    assert ru.tokens[4].gloss == "Elijah"  # falls back to English
+    assert engine.get_verse_matrix("1KGS.18.27", lang="ru").tokens[4].gloss == "Элиягу"
+
+
+def test_dossier_geo_provenance(engine):
+    geo = engine.get_entity_dossier("loc.abel_meholah").geo
+    assert geo.source == "openbible:Abel-meholah" and 0 < geo.confidence < 1

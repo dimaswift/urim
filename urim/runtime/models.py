@@ -115,6 +115,8 @@ class TokenView(BaseModel):
     lemma: str | None = None
     strongs: str | None = None
     morph: str | None = None
+    name_ref: str | None = None  # TIPNR individual this word names
+    reading: str | None = None  # Qere/Ketiv code when not plain Leningrad
     is_idiom_part: bool = False
     gloss: str | None = None
 
@@ -162,6 +164,8 @@ class Geo(BaseModel):
     lat: float
     lon: float
     elevation_m: float | None
+    source: str | None  # "openbible:Mount Carmel", "tipnr", "ir"
+    confidence: float | None
 
 
 class EntityDossier(BaseModel):

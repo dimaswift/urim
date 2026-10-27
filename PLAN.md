@@ -34,18 +34,45 @@ and no absolute anchor.
 - [x] REST (FastAPI) and MCP adapters; CLI
 - [x] Acceptance criteria 1–4 passing against the golden IR (53 tests)
 
-## Phase 1: ingest (deterministic, no LLM)
+## Phase 1: ingest (deterministic, no LLM) ✅
 
-- [ ] `urim ingest`: download into `data/sources/` with a lockfile of URLs and hashes
-- [ ] STEPBible TAHOT → `source/{BOOK}.json` (tokens with dStrong, lemma, morph, translit)
-- [ ] TVTMS → `verse_map` for KJV and Synodal; split baselines at sub-verse boundaries
-      instead of today's whole-verse concatenation
-- [ ] scrollmapper baselines (KJV, YLT, ASV, BBE, Webster, RusSynodal); WEB from eBible.org
-- [ ] TIPNR → entity seed registry (ids, homonym disambiguation, first mentions)
-- [ ] TBESH → lexicon lookup for the Philologist
-- [ ] Sefaria commentaries (Hebrew) per verse: bulk export rather than per-verse API calls
-- [ ] OpenBible geo → coordinates for seeded locations
-- [ ] Replace `fixtures/ir/source/1KGS.json` with the TAHOT ingest and keep the tests green
+`urim ingest 1KGS.17-19` → `build/ir/{source,registry,commentary}`. A fresh ingest reproduces
+the committed fixture byte for byte (tested whenever `data/sources` exists).
+
+- [x] Fetch layer: GitHub sources pinned to commit SHAs, every file's SHA-256 in
+      `sources.lock.json`; changed bytes fail loudly, `--refresh` re-pins
+- [x] STEPBible TAHOT → tokens (surface, stress-marked transliteration, dStrong, lemma, ETCBC
+      morphology, Qere/Ketiv reading, TIPNR name link) and STEPBible English word glosses
+- [x] KJV ↔ Hebrew verse map derived from TAHOT's **word-level** references (exact: Hebrew
+      18:34 words 1–10 are KJV 18:33); TVTMS cross-checks every whole-verse renumbering and
+      contributes versification notes
+- [x] scrollmapper baselines: KJV, YLT, ASV, BBE, Webster (KJV numbering), RusSynodal
+- [x] TIPNR → entity registry: 31 individuals in 1 Kings 17–19, joined on dStrong, with
+      token-level mentions, family links, descriptions and proposed ids (`person.elijah`;
+      namesakes get a reference suffix)
+- [x] OpenBible → coordinates for 14 of 15 places by shared verse references, with vote-based
+      confidence (Tishbe falls back to TIPNR's map link)
+- [x] Sefaria (API v3, cached and pinned): Rashi, Radak, Ralbag, Metzudat David, Metzudat Zion,
+      Malbim, Targum Jonathan → `commentary/{BOOK}.json` (agent input; not committed, not shipped)
+- [x] Linker: coordinates come from the registry (IR geo is an override, provenance recorded);
+      TIPNR identities must be unique; first mentions are checked against real mentions;
+      English word glosses fill every verse until the Philologist writes its own
+- [x] Fixture regenerated from the ingest; gold entities carry TIPNR ids
+
+Deviations and open items:
+
+- **Synodal numbering**: TVTMS has no Synodal tradition. RusSynodal is treated as Hebrew
+  numbering, which holds for 1 Kings 17–19 (verified at 18:33–34) but not for e.g. Psalms.
+  Candidate source for a real map: the SWORD project's Synodal versification.
+- **Sub-verse baselines**: KJV text can't be split at a Hebrew word boundary without an
+  English–Hebrew alignment, so a split verse still shows the whole KJV verse(s) it overlaps,
+  flagged PARTIAL in the map. Revisit with the Philologist's alignment in Phase 2.
+- **TBESH** dropped: TAHOT already carries the lemma and gloss for every word.
+- **WEB** (eBible.org) not added yet; five English baselines are enough for the Philologist.
+- **STEPBible tagging quirk**: the nation "Israel" carries Jacob's dStrong, so the registry
+  lists Jacob/Israel with 14 mentions; the Ontologist must resolve nation vs patriarch.
+- **Licenses**: Sefaria reports Radak's digitization as "unknown"; commentaries stay
+  compile-time input only.
 
 ## Phase 2: agents + model comparison
 

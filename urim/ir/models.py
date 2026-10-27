@@ -11,6 +11,8 @@ Layout of an IR directory:
     core/{BOOK}.{CH}.json         CoreChapterIR      (Chronologist + Ontologist)
     i18n/{lang}/_bundle.json      I18nBundleIR       (book names, vocab labels, anchor labels)
     i18n/{lang}/{BOOK}.{CH}.json  I18nChapterIR      (Philologist / Localizer)
+    registry/entities.json        RegistryIR         (ingest: TIPNR seeds, mentions, geocoding)
+    commentary/{BOOK}.json        CommentaryIR       (ingest: Sefaria; agent input only)
 """
 
 from __future__ import annotations
@@ -142,8 +144,13 @@ class Token(IRModel):
     surface: str
     translit: str | None = None
     lemma: str | None = None
-    strongs: str | None = None
+    strongs: str | None = Field(default=None, description="Disambiguated Strong's, e.g. H0452G")
     morph: str | None = None
+    name_ref: str | None = Field(default=None, description="TIPNR unique name of a proper noun")
+    reading: str | None = Field(
+        default=None,
+        description="Text type unless plain Leningrad, e.g. Q(K) = Qere, Ketiv variant",
+    )
     is_idiom_part: bool = False
 
 
@@ -151,6 +158,10 @@ class SourceVerse(IRModel):
     verse_id: VerseId
     source_text: str
     tokens: list[Token]
+    glosses: dict[str, list[str]] = Field(
+        default={},
+        description="Reference word glosses per language, parallel to tokens (e.g. STEPBible en)",
+    )
 
 
 class VerseMapRow(IRModel):
@@ -169,6 +180,61 @@ class SourceBookIR(IRModel):
     baselines: dict[str, dict[VerseId, str]] = Field(
         default={}, description="translation code -> verse ref in that translation's scheme -> text"
     )
+    versification_notes: dict[VerseId, list[str]] = {}
+
+
+class CommentaryWork(IRModel):
+    version_title: str
+    license: str
+    verses: dict[VerseId, list[str]]
+
+
+class CommentaryIR(IRModel):
+    """Classical commentaries per book: compile-time input for agents, never shipped."""
+
+    book_code: str
+    works: dict[str, CommentaryWork]
+
+
+class GeoPoint(IRModel):
+    lat: float = Field(ge=-90, le=90)
+    lon: float = Field(ge=-180, le=180)
+    source: str
+    source_id: str | None = None
+    source_name: str | None = None
+    confidence: float | None = Field(default=None, ge=0, le=1)
+
+
+class Mention(IRModel):
+    verse_id: VerseId
+    pos: int = Field(ge=1)
+
+
+class EntitySeed(IRModel):
+    """A TIPNR individual seen in the ingested text: the Ontologist's starting point."""
+
+    tipnr_id: str
+    proposed_entity_id: EntityId | None = None
+    tipnr_category: Literal["PERSON", "PLACE", "OTHER"]
+    tipnr_type: str | None = None
+    dstrongs: list[str]
+    names: list[str] = Field(description="English names, most common first")
+    source_names: list[str] = Field(description="Hebrew/Greek forms")
+    description: str | None = None
+    brief: str | None = None
+    short: str | None = None
+    parents: list[str] = []
+    siblings: list[str] = []
+    partners: list[str] = []
+    offspring: list[str] = []
+    tribe: str | None = None
+    mentions: list[Mention] = []
+    geo: GeoPoint | None = None
+
+
+class RegistryIR(IRModel):
+    attribution: list[str]
+    entities: list[EntitySeed]
 
 
 class ChronologyAnchorIR(IRModel):

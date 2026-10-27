@@ -12,6 +12,7 @@ from urim.ir.models import (
     CoreChapterIR,
     I18nBundleIR,
     I18nChapterIR,
+    RegistryIR,
     SourceBookIR,
 )
 
@@ -32,6 +33,7 @@ class CoreCorpus:
     sources: list[SourceBookIR]
     chronology: ChronologyIR
     chapters: list[CoreChapterIR]
+    registry: RegistryIR | None = None
 
 
 def load_sources(ir_dir: Path) -> list[SourceBookIR]:
@@ -46,6 +48,9 @@ def load_core_corpus(ir_dir: Path) -> CoreCorpus:
         sources=load_sources(ir_dir),
         chronology=read_model(ir_dir / "chronology.json", ChronologyIR),
         chapters=[read_model(p, CoreChapterIR) for p in sorted((ir_dir / "core").glob("*.json"))],
+        registry=read_model(registry, RegistryIR)
+        if (registry := ir_dir / "registry" / "entities.json").exists()
+        else None,
     )
 
 

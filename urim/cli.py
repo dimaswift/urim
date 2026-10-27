@@ -79,6 +79,39 @@ def validate_cmd(ir: IrDir = Path("fixtures/ir"), chronology: Scheme = None) -> 
 
 
 @app.command()
+def ingest(
+    scope: Annotated[str, typer.Argument(help="Book or chapters, e.g. 1KGS.17-19")],
+    ir: IrDir = Path("build/ir"),
+    sources: Annotated[Path, typer.Option("--sources", help="Download cache")] = Path(
+        "data/sources"
+    ),
+    lockfile: Annotated[Path, typer.Option("--lock", help="Source pins")] = Path(
+        "sources.lock.json"
+    ),
+    refresh: Annotated[bool, typer.Option(help="Re-download and re-pin sources")] = False,
+    commentary: Annotated[bool, typer.Option(help="Fetch Sefaria commentaries")] = True,
+) -> None:
+    """Fetch pinned sources and write source IR, entity registry and commentary for a scope."""
+    from urim.compiler.ingest.build import IngestError
+    from urim.compiler.ingest.build import ingest as run_ingest
+    from urim.compiler.ingest.fetch import SourceChanged
+
+    try:
+        r = run_ingest(scope, ir, sources, lockfile, refresh=refresh, commentaries=commentary)
+    except (IngestError, SourceChanged) as e:
+        typer.secho(f"error: {e}", fg=typer.colors.RED)
+        raise typer.Exit(1) from e
+    for w in r.warnings:
+        typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
+    typer.echo(f"{r.scope}: {r.verses} verses, {r.tokens} words, {r.verse_map_rows} verse-map rows")
+    typer.echo("  baselines:    " + ", ".join(f"{k} {v}" for k, v in r.baselines.items()))
+    if r.commentaries:
+        typer.echo("  commentaries: " + ", ".join(f"{k} {v}" for k, v in r.commentaries.items()))
+    typer.echo(f"  registry:     {r.entities} entities, {r.geocoded} with coordinates")
+    typer.secho(f"wrote {ir}", fg=typer.colors.GREEN)
+
+
+@app.command()
 def verse(
     ref: str, lang: str = "en", bundles: BundlesDir = Path("data/bundles"), ecs: bool = False
 ) -> None:

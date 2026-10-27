@@ -1,0 +1,2053 @@
+{
+ "attribution": [
+  "Proper names: STEPBible TIPNR (Tyndale House Cambridge), CC BY 4.0",
+  "Geocoding: OpenBible.info Bible Geocoding Data, CC BY 4.0"
+ ],
+ "entities": [
+  {
+   "tipnr_id": "Abel-meholah@Jdg.7.22-1Ki",
+   "proposed_entity_id": "loc.abel_meholah",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H0065"
+   ],
+   "names": [
+    "Abel-meholah =ESV,KJV; Abel Meholah =NIV"
+   ],
+   "source_names": [
+    "אָבֵל מְחוֹלָה"
+   ],
+   "description": "Abel-meholah",
+   "brief": "A town in Israel, home of Elisha.",
+   "short": "Abel-meholah, a town in Israel, the birthplace of Elisha.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 13
+    },
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 14
+    }
+   ],
+   "geo": {
+    "lat": 32.3743,
+    "lon": 35.56089,
+    "source": "openbible",
+    "source_id": "a5a1bdd",
+    "source_name": "Abel-meholah",
+    "confidence": 0.656
+   }
+  },
+  {
+   "tipnr_id": "Abraham@Gen.11.26-1Pe",
+   "proposed_entity_id": "person.abraham",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H0085",
+    "H0087",
+    "G0011"
+   ],
+   "names": [
+    "Abraham",
+    "Abram"
+   ],
+   "source_names": [
+    "אַבְרָהָם",
+    "אַבְרָם",
+    "Ἀβραάμ"
+   ],
+   "description": "Man living at the time of the Patriarchs",
+   "brief": "Patriarch, chosen by God to father His people",
+   "short": "Abraham, originally named Abram, was the patriarch whom God called to leave his homeland and blessed to become the father of many nations, establishing His covenant with him and his descendants.",
+   "parents": [
+    "Terah@Gen.11.24-Luk"
+   ],
+   "siblings": [
+    "Nahor@Gen.11.26-",
+    "Haran@Gen.11.26-",
+    "Sarah@Gen.11.29-1Pe"
+   ],
+   "partners": [
+    "Sarah@Gen.11.29-1Pe",
+    "Hagar@Gen.16.1-Gal",
+    "Keturah@Gen.25.1-1Ch"
+   ],
+   "offspring": [
+    "Ishmael@Gen.16.11-Psa",
+    "Isaac@Gen.17.19-Jas",
+    "Zimran@Gen.25.2-1Ch",
+    "Jokshan@Gen.25.2-1Ch",
+    "Medan@Gen.25.2-1Ch",
+    "Midian@Gen.25.2-1Ch",
+    "Ishbak@Gen.25.2-1Ch",
+    "Shuah@Gen.25.2-1Ch"
+   ],
+   "tribe": "Early Patriarch",
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 10
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Ahab@1Ki.16.28-Mic",
+   "proposed_entity_id": "person.ahab",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H0256G"
+   ],
+   "names": [
+    "Ahab"
+   ],
+   "source_names": [
+    "אַחְאָב"
+   ],
+   "description": "King living at the time of Divided Monarchy",
+   "brief": "Wicked king of Israel; husband of Jezebel",
+   "short": "Ahab, son of Omri, reigned as king of Israel and did evil in the sight of the Lord.",
+   "parents": [
+    "Omri@1Ki.16.16-Mic"
+   ],
+   "siblings": [],
+   "partners": [
+    "Jezebel@1Ki.16.31-Rev"
+   ],
+   "offspring": [
+    "Joash@1Ki.22.26-2Ch",
+    "Ahaziah@1Ki.22.40-2Ch",
+    "Joram@2Ki.1.17-2Ch",
+    "Athaliah@2Ki.8.26-2Ch"
+   ],
+   "tribe": "Israel",
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.18.1",
+     "pos": 15
+    },
+    {
+     "verse_id": "1KGS.18.2",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.3",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.5",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.6",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.18.9",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.12",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.16",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.16",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.17",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.17",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.18.20",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.41",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.42",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.44",
+     "pos": 15
+    },
+    {
+     "verse_id": "1KGS.18.45",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.46",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.19.1",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Asherah@Exo.34.13-Mic",
+   "proposed_entity_id": "deity.asherah",
+   "tipnr_category": "OTHER",
+   "tipnr_type": "Supernatural",
+   "dstrongs": [
+    "H0842"
+   ],
+   "names": [
+    "Asherah( poles) =ESV,NIV,KJV; Asherim =ESV; grove =KJV",
+    "Asheroth =ESV; Asherah( poles) =NIV; grove =KJV"
+   ],
+   "source_names": [
+    "אֲשֵׁרָה",
+    "הָאֲשֵׁרֽוֹת"
+   ],
+   "description": "A female deity in the Old Testament",
+   "brief": "Canaanite goddess; associated with wooden poles, idolatry",
+   "short": "Asherah, a Canaanite goddess, was worshipped by the Israelites through wooden poles or images, often leading them into idolatry.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.19",
+     "pos": 18
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Baal@Num.25.3-Rom",
+   "proposed_entity_id": "deity.baal",
+   "tipnr_category": "OTHER",
+   "tipnr_type": "Supernatural",
+   "dstrongs": [
+    "H1168A",
+    "H1187",
+    "G0896"
+   ],
+   "names": [
+    "Baal",
+    "Baal-peor =ESV,NIV,KJV; Baal of Peor =ESV,NIV"
+   ],
+   "source_names": [
+    "בַּעַל",
+    "בַּ֫עַל פְּעוֹר",
+    "Βάαλ"
+   ],
+   "description": "A male deity in the Old Testament",
+   "brief": "Canaanite god, \"Lord/God of the Covenant\"",
+   "short": "Baal-berith or El-berith, meaning \"Lord of the Covenant\" or \"God of the Covenant,\" was a Canaanite deity worshipped by the Israelites in Shechem during the time of the judges (<ref=\"Judges 8:33; 9:4, 46\">Judges 8:33; 9:4, 46</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.18",
+     "pos": 17
+    },
+    {
+     "verse_id": "1KGS.18.19",
+     "pos": 13
+    },
+    {
+     "verse_id": "1KGS.18.21",
+     "pos": 20
+    },
+    {
+     "verse_id": "1KGS.18.22",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.18.25",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.26",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.26",
+     "pos": 15
+    },
+    {
+     "verse_id": "1KGS.18.40",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.19.18",
+     "pos": 10
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Beersheba@Gen.21.14-Amo",
+   "proposed_entity_id": "loc.beersheba",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H0884",
+    "H7652B",
+    "H7656"
+   ],
+   "names": [
+    "Beersheba =ESV,NIV; Beer-sheba =KJV",
+    "Sheba",
+    "Shibah =ESV,NIV; Shebah =KJV"
+   ],
+   "source_names": [
+    "בְּאֵר שֶׁ֫בַע",
+    "שֶׁבַע",
+    "שִׁבְעָה"
+   ],
+   "description": "Beersheba",
+   "brief": "Important city in southern Israel, associated with the patriarchs.",
+   "short": "Beersheba (Sheba or Shibah) was an important city in southern Israel, associated with Abraham, Isaac, and Jacob. (Multiple references, see article for details)",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.3",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.19.3",
+     "pos": 8
+    }
+   ],
+   "geo": {
+    "lat": 31.244722,
+    "lon": 34.840833,
+    "source": "openbible",
+    "source_id": "ad2f6c2",
+    "source_name": "Beersheba 1",
+    "confidence": 0.823
+   }
+  },
+  {
+   "tipnr_id": "Carmel_Mount@1Ki.18.19-2Ki",
+   "proposed_entity_id": "loc.carmel_mount",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H3760H"
+   ],
+   "names": [
+    "(Mount )Carmel"
+   ],
+   "source_names": [
+    "כַּרְמֶל"
+   ],
+   "description": "Mount Carmel",
+   "brief": "Mountain range; site of Elijah's confrontation with prophets of Baal",
+   "short": "Mount Carmel was a mountain range in northern Israel where the prophet Elijah confronted the prophets of Baal.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.19",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.20",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.18.42",
+     "pos": 9
+    }
+   ],
+   "geo": {
+    "lat": 32.6725,
+    "lon": 35.023333,
+    "source": "openbible",
+    "source_id": "a3e21c6",
+    "source_name": "Mount Carmel",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Cherith@1Ki.17.3-",
+   "proposed_entity_id": "loc.cherith",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H3747"
+   ],
+   "names": [
+    "Cherith =ESV,KJV; Kerith =NIV"
+   ],
+   "source_names": [
+    "כְּרִית"
+   ],
+   "description": "Cherith= in the  Jordan Valley",
+   "brief": "Brook where Elijah hid during drought",
+   "short": "The Brook Cherith was where the prophet Elijah hid and was fed by ravens during a drought in Israel.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.3",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.17.5",
+     "pos": 8
+    }
+   ],
+   "geo": {
+    "lat": 32.394722,
+    "lon": 35.591389,
+    "source": "openbible",
+    "source_id": "aa7bee8",
+    "source_name": "Cherith",
+    "confidence": 0.335
+   }
+  },
+  {
+   "tipnr_id": "Damascus@Gen.14.15-Gal",
+   "proposed_entity_id": "loc.damascus",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H1834",
+    "G1153",
+    "G1154"
+   ],
+   "names": [
+    "Damascus"
+   ],
+   "source_names": [
+    "דַּמֶּ֫שֶׂק",
+    "Δαμασκηνός",
+    "Δαμασκός"
+   ],
+   "description": "Damascus",
+   "brief": "Ancient city, capital of Syria, important in biblical history.",
+   "short": "Damascus, an ancient city in Syria, played a significant role in biblical history.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.15",
+     "pos": 8
+    }
+   ],
+   "geo": {
+    "lat": 33.511112,
+    "lon": 36.30639,
+    "source": "openbible",
+    "source_id": "a69c1d4",
+    "source_name": "Damascus",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Elijah@1Ki.17.1-Jas",
+   "proposed_entity_id": "person.elijah",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H0452G",
+    "G2243"
+   ],
+   "names": [
+    "Elijah",
+    "Elias =KJV,TR; Elijah =ESV,NIV,NA",
+    "Elias =KJV,TR; [ ] =ESV,NIV,NA"
+   ],
+   "source_names": [
+    "אֵלִיָּה",
+    "Ἡλίας"
+   ],
+   "description": "Prophet living at the time of Divided Monarchy",
+   "brief": "A prophet during the reigns of Ahab and Ahaziah.",
+   "short": "Elijah was a prominent prophet in Israel during the reigns of Ahab and Ahaziah, known for his miracles and confrontations with the prophets of Baal.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "tribe": ">",
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.17.13",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.15",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.17.16",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.17.18",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.22",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.17.23",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.17.23",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.17.24",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.1",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.2",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.7",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.7",
+     "pos": 15
+    },
+    {
+     "verse_id": "1KGS.18.8",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.11",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.14",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.15",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.16",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.17",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.21",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.22",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.25",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.27",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.30",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.31",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.40",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.40",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.41",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.42",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.46",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.19.1",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.19.2",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.19.9",
+     "pos": 16
+    },
+    {
+     "verse_id": "1KGS.19.13",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.19.13",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.19.19",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.19.20",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.21",
+     "pos": 18
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Elisha@1Ki.19.16-Luk",
+   "proposed_entity_id": "person.elisha",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H0477",
+    "G1666"
+   ],
+   "names": [
+    "Elisha",
+    "Elisha =ESV,NIV; Eliseus =KJV"
+   ],
+   "source_names": [
+    "אֱלִישָׁע",
+    "Ἐλισσαῖος"
+   ],
+   "description": "Prophet living at the time of Divided Monarchy",
+   "brief": "A prophet who succeeded Elijah.",
+   "short": "Elisha was a prophet who performed many miracles and served as a spiritual leader in Israel after Elijah.",
+   "parents": [
+    "Shaphat@1Ki.19.16-2Ki"
+   ],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "tribe": ">",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.19.17",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.19.19",
+     "pos": 5
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Gilead@Gen.31.21-Zec",
+   "proposed_entity_id": "loc.gilead",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H1568G",
+    "H1569"
+   ],
+   "names": [
+    "Gilead =ESV,NIV,KJV; Gileadite =NIV",
+    "Gileadite =ESV,NIV,KJV; Gilead =ESV,NIV"
+   ],
+   "source_names": [
+    "גִּלְעָד",
+    "גִּלְעָדִי"
+   ],
+   "description": "Gilead",
+   "brief": "Mountainous region east of Jordan; tribal territory and personal name.",
+   "short": "Gilead refers to a mountainous region east of the Jordan River, as well as being a personal name for several individuals in the Old Testament.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 5
+    }
+   ],
+   "geo": {
+    "lat": 32.187016,
+    "lon": 35.69211,
+    "source": "openbible",
+    "source_id": "ae73b90",
+    "source_name": "Gilead 1",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Hazael@1Ki.19.15-Amo",
+   "proposed_entity_id": "person.hazael",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H2371"
+   ],
+   "names": [
+    "Hazael"
+   ],
+   "source_names": [
+    "חֲזָהאֵל"
+   ],
+   "description": "King living at the time of Divided Monarchy",
+   "brief": "King of Aram (Syria), anointed by Elijah.",
+   "short": "Hazael, king of Aram, was anointed by Elijah and fought against Israel and Judah.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [
+    "Ben-hadad@2Ki.13.3-Amo"
+   ],
+   "tribe": "Syria",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.15",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.19.17",
+     "pos": 4
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Isaac@Gen.17.19-Jas",
+   "proposed_entity_id": "person.isaac",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H3327",
+    "H3446",
+    "G2464"
+   ],
+   "names": [
+    "Isaac"
+   ],
+   "source_names": [
+    "יִצְחָק",
+    "יִשְׂחָק",
+    "Ἰσαάκ"
+   ],
+   "description": "Man living at the time of the Patriarchs",
+   "brief": "Son of Abraham; father of Jacob and Esau.",
+   "short": "Isaac was the son of Abraham and Sarah, and the father of Jacob and Esau. God made a covenant with him, renewing the promises given to Abraham.",
+   "parents": [
+    "Abraham@Gen.11.26-1Pe",
+    "Sarah@Gen.11.29-1Pe"
+   ],
+   "siblings": [
+    "Ishmael@Gen.16.11-Psa",
+    "Zimran@Gen.25.2-1Ch",
+    "Jokshan@Gen.25.2-1Ch",
+    "Medan@Gen.25.2-1Ch",
+    "Midian@Gen.25.2-1Ch",
+    "Ishbak@Gen.25.2-1Ch",
+    "Shuah@Gen.25.2-1Ch"
+   ],
+   "partners": [
+    "Rebekah@Gen.22.23-Rom"
+   ],
+   "offspring": [
+    "Esau@Gen.25.25-Heb",
+    "Israel@Gen.25.26-Rev"
+   ],
+   "tribe": "Early Patriarch",
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 11
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Israel@Gen.25.26-Rev",
+   "proposed_entity_id": "person.israel",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H3478",
+    "H3479",
+    "H3290",
+    "H3484",
+    "H3481H",
+    "H3482",
+    "G2474",
+    "G2384H",
+    "G2475"
+   ],
+   "names": [
+    "Israel,Israelite",
+    "Israel =NIV,KJV; [ ] =ESV",
+    "God =ESV,NIV; Israel =KJV",
+    "Israel",
+    "Jacob",
+    "Jeshurun =ESV,NIV,KJV; Jesurun =KJV",
+    "Israelite",
+    "Israelitess; Israelite =ESV,NIV; Israelitish =KJV",
+    "Israel =KJV,TR; [ ] =ESV,NIV,NA",
+    "Israelite,Israel"
+   ],
+   "source_names": [
+    "יִשְׂרָאֵל",
+    "יַעֲקֹב",
+    "יְשֻׁרוּן",
+    "יִשְׂרְאֵלִי",
+    "יִשְׂרְאֵלִית",
+    "Ἰσραήλ",
+    "Ἰακώβ",
+    "Ἰσραηλίτης"
+   ],
+   "description": "Man living at the time of the Patriarchs",
+   "brief": "Patriarch, son of Isaac, father of twelve tribes",
+   "short": "Israel, also named Jacob, was the son of Isaac, the father of the twelve tribes of Israel, and a key patriarch of the Jewish people.",
+   "parents": [
+    "Isaac@Gen.17.19-Jas",
+    "Rebekah@Gen.22.23-Rom"
+   ],
+   "siblings": [
+    "Esau@Gen.25.25-Heb"
+   ],
+   "partners": [
+    "Rachel@Gen.29.6-Mat",
+    "Leah@Gen.29.16-Rut",
+    "Zilpah@Gen.29.24-",
+    "Bilhah@Gen.29.29-1Ch"
+   ],
+   "offspring": [
+    "Reuben@Gen.29.32-Rev",
+    "Simeon@Gen.29.33-Rev",
+    "Levi@Gen.29.34-Rev",
+    "Judah@Gen.29.35-Rev",
+    "Dan@Gen.30.6-1Ch",
+    "Naphtali@Gen.30.8-Rev",
+    "Gad@Gen.30.11-Rev",
+    "Asher@Gen.30.13-Rev",
+    "Issachar@Gen.30.18-Rev",
+    "Zebulun@Gen.30.20-Rev",
+    "Dinah@Gen.30.21-",
+    "Joseph@Gen.30.24-Rev",
+    "Benjamin@Gen.35.18-Rev"
+   ],
+   "tribe": "Early Patriarch",
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.17.14",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.18.17",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.18.18",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.19",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.18.20",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.31",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.18.31",
+     "pos": 16
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.19.10",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.19.14",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.19.18",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Jehu@1Ki.19.16-Hos",
+   "proposed_entity_id": "person.jehu",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H3058H"
+   ],
+   "names": [
+    "Jehu"
+   ],
+   "source_names": [
+    "יֵהוּא"
+   ],
+   "description": "King living at the time of Divided Monarchy",
+   "brief": "Son of Jehoshaphat, king of Israel, destroyed Ahab's dynasty.",
+   "short": "Jehu, son of Jehoshaphat, was anointed king of Israel by Elisha's servant; he destroyed the house of Ahab and the worship of Baal, but continued in the sins of Jeroboam.",
+   "parents": [
+    "Jehoshaphat@2Ki.9.2-"
+   ],
+   "siblings": [],
+   "partners": [],
+   "offspring": [
+    "Jehoahaz@2Ki.10.35-2Ch"
+   ],
+   "tribe": "Israel",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.19.17",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.17",
+     "pos": 9
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Jezebel@1Ki.16.31-Rev",
+   "proposed_entity_id": "person.jezebel",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Female",
+   "dstrongs": [
+    "H0348",
+    "G2403"
+   ],
+   "names": [
+    "Jezebel"
+   ],
+   "source_names": [
+    "אִיזֶבֶל",
+    "Ἰεζαβήλ"
+   ],
+   "description": "Queen living at the time of Divided Monarchy",
+   "brief": "Queen of Israel; wife of King Ahab",
+   "short": "Queen Jezebel, the Phoenician wife of King Ahab, promoted Baal worship and persecuted the prophets of God.",
+   "parents": [
+    "Ethbaal@1Ki.16.31"
+   ],
+   "siblings": [],
+   "partners": [
+    "Ahab@1Ki.16.28-Mic"
+   ],
+   "offspring": [
+    "Athaliah@2Ki.8.26-2Ch",
+    "Joash@1Ki.22.26-2Ch",
+    "Ahaziah@1Ki.22.40-2Ch",
+    "Joram@2Ki.1.17-2Ch"
+   ],
+   "tribe": "Israel",
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.4",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.13",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.19",
+     "pos": 23
+    },
+    {
+     "verse_id": "1KGS.19.1",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.19.2",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Jezreel@Jos.19.18-Hos",
+   "proposed_entity_id": "loc.jezreel",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H3157H",
+    "H3158H"
+   ],
+   "names": [
+    "Jezreel",
+    "Jezreelite"
+   ],
+   "source_names": [
+    "יִזְרְעֶאל",
+    "יִזְרְעֵאלִי"
+   ],
+   "description": "Jezreel_2",
+   "brief": "A city in Issachar, associated with Ahab and Jezebel",
+   "short": "Jezreel, a city in Issachar, known for its association with King Ahab and Queen Jezebel.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.45",
+     "pos": 16
+    },
+    {
+     "verse_id": "1KGS.18.46",
+     "pos": 13
+    }
+   ],
+   "geo": {
+    "lat": 32.557853,
+    "lon": 35.327953,
+    "source": "openbible",
+    "source_id": "ae0bf4a",
+    "source_name": "Jezreel 2",
+    "confidence": 0.806
+   }
+  },
+  {
+   "tipnr_id": "Jordan@Gen.13.10-Jhn",
+   "proposed_entity_id": "loc.jordan",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H3383",
+    "G2446"
+   ],
+   "names": [
+    "Jordan"
+   ],
+   "source_names": [
+    "יַרְדֵּן",
+    "Ἰορδάνης"
+   ],
+   "description": "Jordan",
+   "brief": "A river and region, significant in Israel's history",
+   "short": "The Jordan River and its surrounding region played a significant role in the history of Israel, from the time of the patriarchs to the New Testament era.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.3",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.17.5",
+     "pos": 12
+    }
+   ],
+   "geo": {
+    "lat": 31.761389,
+    "lon": 35.558333,
+    "source": "openbible",
+    "source_id": "ae686c9",
+    "source_name": "Jordan",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Judah@Gen.29.35-Rev",
+   "proposed_entity_id": "person.judah",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H3063G",
+    "H1732",
+    "H3064",
+    "H3054",
+    "H3062",
+    "G2448",
+    "G2455N",
+    "G2453",
+    "G2450",
+    "G2451",
+    "G2452"
+   ],
+   "names": [
+    "Judah",
+    "Judah =NIV,KJV,LC",
+    "David =ESV,MT",
+    "Jew =ESV,NIV,KJV; of Judah =ESV,NIV,KJV; Jewish =ESV,NIV; Judean =ESV; Hebrew =NIV",
+    "become Jew =NIV,KJV; declare Jew =ESV",
+    "Jew",
+    "Judah =ESV,NIV; Juda =KJV; Judea =NIV",
+    "Judah =ESV,NIV,KJV; Judas,Juda =KJV",
+    "Jew =ESV,NIV,KJV; Jewish =ESV,NIV; of Judea =ESV,KJV",
+    "Jew =KJV,TR; [ ] =ESV,NIV,NA",
+    "Jew =NIV,NA; [ ] =ESV,KJV,TR",
+    "Jew =ESV,NIV,NA; [ ] =KJV,TR",
+    "Jewish"
+   ],
+   "source_names": [
+    "יְהוּדָה",
+    "דָּוִד",
+    "יְהוּדִי",
+    "יָהַד",
+    "יְהוּדַי",
+    "Ἰουδά",
+    "Ἰούδας",
+    "Ἰουδαῖος",
+    "Ἰουδαΐζω",
+    "Ἰουδαϊκός",
+    "Ἰουδαϊκῶς"
+   ],
+   "description": "Jacob's son living at the time of the Patriarchs",
+   "brief": "Israelite tribe, kingdom, and province",
+   "short": "Judah, also known as the Jews or Judea, refers to the Israelite tribe, the southern kingdom, and the Roman province in various biblical contexts.",
+   "parents": [
+    "Israel@Gen.25.26-Rev",
+    "Leah@Gen.29.16-Rut"
+   ],
+   "siblings": [
+    "Reuben@Gen.29.32-Rev",
+    "Simeon@Gen.29.33-Rev",
+    "Levi@Gen.29.34-Rev",
+    "Dan@Gen.30.6-1Ch",
+    "Naphtali@Gen.30.8-Rev",
+    "Gad@Gen.30.11-Rev",
+    "Asher@Gen.30.13-Rev",
+    "Issachar@Gen.30.18-Rev",
+    "Zebulun@Gen.30.20-Rev",
+    "Dinah@Gen.30.21-",
+    "Joseph@Gen.30.24-Rev",
+    "Benjamin@Gen.35.18-Rev"
+   ],
+   "partners": [
+    "Bath-shua@Gen.38.2-1Ch",
+    "Tamar@Gen.38.6-Mat"
+   ],
+   "offspring": [
+    "Er@Gen.38.3-1Ch",
+    "Onan@Gen.38.4-1Ch",
+    "Shelah@Gen.38.5-1Ch",
+    "Perez@Gen.38.29-Luk",
+    "Zerah@Gen.38.30-Mat"
+   ],
+   "tribe": "Tribe of Judah",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.3",
+     "pos": 10
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Kishon@Jdg.4.7-Psa",
+   "proposed_entity_id": "loc.kishon",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H7028"
+   ],
+   "names": [
+    "Kishon =ESV,NIV,KJV; Kison =KJV"
+   ],
+   "source_names": [
+    "קִישׁוֹן"
+   ],
+   "description": "Kishon",
+   "brief": "A river in northern Israel",
+   "short": "Kishon, a river in northern Israel, where Deborah and Barak defeated Sisera's army (<ref=\"Judges 4:7, 13; 5:21\">Judges 4:7, 13; 5:21</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.40",
+     "pos": 17
+    }
+   ],
+   "geo": {
+    "lat": 32.816667,
+    "lon": 35.033333,
+    "source": "openbible",
+    "source_id": "a5a6458",
+    "source_name": "Kishon",
+    "confidence": 0.854
+   }
+  },
+  {
+   "tipnr_id": "LORD@Gen.1.1-Rev",
+   "proposed_entity_id": "deity.yhwh",
+   "tipnr_category": "OTHER",
+   "tipnr_type": "Supernatural",
+   "dstrongs": [
+    "H3068G",
+    "H3050",
+    "H0136",
+    "H0430G",
+    "H1180",
+    "H7706",
+    "H5920G",
+    "H5943",
+    "H5945B",
+    "H5946",
+    "H0410J",
+    "H0410G",
+    "H0410I",
+    "H0415",
+    "H5251G",
+    "H3071",
+    "H7965H",
+    "H3073",
+    "H7200N",
+    "H3070",
+    "H6664H",
+    "H3072",
+    "H5769H",
+    "H7067G",
+    "H6635B",
+    "G2962G",
+    "G2960",
+    "G5310",
+    "G4519",
+    "G0005",
+    "G2241",
+    "G1682"
+   ],
+   "names": [
+    "LORD =ESV,NIV,KJV; Jah =KJV",
+    "Lord",
+    "God",
+    "God =NIV,KJV; Elohim =ESV,KJV",
+    "Master =NIV; Baali =KJV; my Baal =ESV",
+    "Almighty",
+    "Most High",
+    "Most High =ESV,NIV; most High,Highest =KJV",
+    "God/ Most High =ESV,NIV; most high/ God =KJV",
+    "El/-Elohe/ Israel =ESV,KJV; El/ Elohe/ Israel =NIV",
+    "El-Elohe Israel =ESV,KJV; El Elohe Israel =NIV",
+    "JEHOVAH/–nissi =KJV; LORD/ is my Banner =ESV,NIV",
+    "JEHOVAH-nissi =KJV; The LORD is my Banner =ESV,NIV",
+    "Jehovah/–shalom =KJV; LORD/ is Peace =ESV,NIV",
+    "Jehovah-shalom =KJV; LORD is Peace =ESV,NIV",
+    "Jehovah/–jireh: =KJV; LORD/ will provide =ESV,NIV",
+    "Jehovah-jireh: =KJV; LORD will provider =ESV,NIV",
+    "LORD/ our Righteousness =ESV,KJV; LORD/ our Righteous Saviour =NIV",
+    "LORD our Righteousness =ESV,KJV; LORD our Righteous Saviour =NIV",
+    "Everlasting =ESV,KJV; Eternal =NIV",
+    "Jealous",
+    "Hosts =ESV,KJV; Almighty =NIV",
+    "Most High =ESV,NIV,KJV; Highest =KJV",
+    "hosts =ESV; Almighty =NIV; sabaoth =KJV",
+    "Abba",
+    "Eli",
+    "Eloi"
+   ],
+   "source_names": [
+    "יהוה",
+    "יָהּ",
+    "אֲדֹנָי",
+    "אֱלֹהִים",
+    "בַּעֲלִי",
+    "שַׁדַּי",
+    "עַל",
+    "עִלַּי",
+    "עֶלְיוֹן",
+    "אֵל=God+H5945H«H5945b=עֶלְיוֹן",
+    "אֵל=God",
+    "אֵל+H0430H«H0430=אֱלֹהִים+H3479«H3479=יִשְׂרָאֵל",
+    "אֵל אֱלֹהֵי יִשְׂרָאֵל",
+    "נֵס+H3068G«H3068=יהוה",
+    "יְהֹוָה נִסִּי",
+    "שָׁלוֹם+H3068G«H3068=יהוה",
+    "יְהֹוָה שָׁלוֹם",
+    "יִרְאֶה+H3068G«H3068=יהוה",
+    "יְהֹוָה יִרְאֶה",
+    "צִדְקֵנוּ+H3068G«H3068=יהוה",
+    "יְהֹוָה צִדְקֵנוּ",
+    "עוֹלָם",
+    "קַנָּא",
+    "צָבָא",
+    "κύριος",
+    "κυριακός",
+    "ὕψιστος",
+    "σαβαώθ",
+    "ἀββά",
+    "ἠλί",
+    "ἐλωΐ"
+   ],
+   "description": "The Deity",
+   "brief": "Names or title used to refer to God",
+   "short": "Throughout the Bible, God is referred to by various names and titles, each revealing different aspects of His character, nature, and relationship with His people.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.17.2",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.5",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.17.8",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.12",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.12",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.17.14",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.17.14",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.17.14",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.17.16",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.17.18",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.17.20",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.20",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.17.20",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.17.21",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.17.21",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.17.21",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.17.22",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.17.24",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.17.24",
+     "pos": 13
+    },
+    {
+     "verse_id": "1KGS.18.1",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.3",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.18.4",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.18.10",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.10",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.12",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.18.12",
+     "pos": 21
+    },
+    {
+     "verse_id": "1KGS.18.13",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.18.13",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.15",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.15",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.18.18",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.21",
+     "pos": 15
+    },
+    {
+     "verse_id": "1KGS.18.21",
+     "pos": 16
+    },
+    {
+     "verse_id": "1KGS.18.22",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.24",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.24",
+     "pos": 7
+    },
+    {
+     "verse_id": "1KGS.18.24",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.18.24",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.25",
+     "pos": 16
+    },
+    {
+     "verse_id": "1KGS.18.27",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.18.30",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.18.31",
+     "pos": 13
+    },
+    {
+     "verse_id": "1KGS.18.32",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.18.36",
+     "pos": 17
+    },
+    {
+     "verse_id": "1KGS.18.37",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.37",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.18.37",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.38",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.18.39",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.39",
+     "pos": 10
+    },
+    {
+     "verse_id": "1KGS.18.39",
+     "pos": 11
+    },
+    {
+     "verse_id": "1KGS.18.39",
+     "pos": 13
+    },
+    {
+     "verse_id": "1KGS.18.46",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.19.4",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.19.7",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.19.8",
+     "pos": 14
+    },
+    {
+     "verse_id": "1KGS.19.9",
+     "pos": 9
+    },
+    {
+     "verse_id": "1KGS.19.10",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.19.10",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.19.10",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.11",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.11",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.19.11",
+     "pos": 18
+    },
+    {
+     "verse_id": "1KGS.19.11",
+     "pos": 21
+    },
+    {
+     "verse_id": "1KGS.19.11",
+     "pos": 27
+    },
+    {
+     "verse_id": "1KGS.19.12",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.14",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.19.14",
+     "pos": 5
+    },
+    {
+     "verse_id": "1KGS.19.14",
+     "pos": 6
+    },
+    {
+     "verse_id": "1KGS.19.15",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Nimshi@1Ki.19.16-2Ch",
+   "proposed_entity_id": "person.nimshi",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H5250"
+   ],
+   "names": [
+    "Nimshi"
+   ],
+   "source_names": [
+    "נִמְשִׁי"
+   ],
+   "description": "Man living at the time of Divided Monarchy",
+   "brief": "Grandfather of Jehu",
+   "short": "Nimshi was the grandfather of Jehu, the king of Israel who overthrew the dynasty of Ahab.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [
+    "Jehoshaphat@2Ki.9.2-"
+   ],
+   "tribe": "Israel",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 4
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Obadiah@1Ki.18.3-",
+   "proposed_entity_id": "person.obadiah",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H5662G"
+   ],
+   "names": [
+    "Obadiah"
+   ],
+   "source_names": [
+    "עֹבַדְיָ֫הוּ"
+   ],
+   "description": "Man living at the time of Divided Monarchy",
+   "brief": "Ahab's palace administrator, protected prophets",
+   "short": "Obadiah was a palace administrator under King Ahab who feared the Lord and protected a hundred prophets during Jezebel's persecution.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "tribe": ">",
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.3",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.3",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.4",
+     "pos": 8
+    },
+    {
+     "verse_id": "1KGS.18.5",
+     "pos": 4
+    },
+    {
+     "verse_id": "1KGS.18.6",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.18.7",
+     "pos": 2
+    },
+    {
+     "verse_id": "1KGS.18.16",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Samaria@1Ki.13.32-Act",
+   "proposed_entity_id": "loc.samaria",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H8111",
+    "H8115",
+    "H8118",
+    "G4540",
+    "G4541",
+    "G4542"
+   ],
+   "names": [
+    "Samaria",
+    "Samaritan =ESV,KJV; Samaria =NIV",
+    "Samaritan",
+    "Samaria =ESV,KJV; Samaritan =NIV"
+   ],
+   "source_names": [
+    "שֹׁמְרוֹן",
+    "שׇֽׁמְרָ֑יִן",
+    "שֹׁמרֹנִי",
+    "Σαμάρεια",
+    "Σαμαρείτης",
+    "Σαμαρεῖτις"
+   ],
+   "description": "Samaria",
+   "brief": "Capital city of the northern kingdom of Israel; Samaritan inhabitants",
+   "short": "Samaria was the capital city of the northern kingdom of Israel, and its inhabitants were known as Samaritans (<ref=\"1Ki. 16:24; 2Ki. 17:24; Jhn. 4:9; Act.8.5\">1Ki. 16:24; 2Ki. 17:24; Jhn. 4:9; Act.8.5</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.18.2",
+     "pos": 8
+    }
+   ],
+   "geo": {
+    "lat": 32.276111,
+    "lon": 35.195,
+    "source": "openbible",
+    "source_id": "a041bb3",
+    "source_name": "Samaria 1",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Shaphat@1Ki.19.16-2Ki",
+   "proposed_entity_id": "person.shaphat",
+   "tipnr_category": "PERSON",
+   "tipnr_type": "Male",
+   "dstrongs": [
+    "H8202H"
+   ],
+   "names": [
+    "Shaphat"
+   ],
+   "source_names": [
+    "שָׁפָט"
+   ],
+   "description": "Man living at the time of Divided Monarchy",
+   "brief": "Father of Elisha the prophet",
+   "short": "Shaphat was the father of Elisha, the prophet who succeeded Elijah and performed many miracles during the reigns of the kings of Israel.",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [
+    "Elisha@1Ki.19.16-Luk"
+   ],
+   "tribe": ">",
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.16",
+     "pos": 12
+    },
+    {
+     "verse_id": "1KGS.19.19",
+     "pos": 7
+    }
+   ]
+  },
+  {
+   "tipnr_id": "Sidon@Gen.10.19-Act",
+   "proposed_entity_id": "loc.sidon",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H6721H",
+    "H6721I",
+    "H6722",
+    "G4605",
+    "G4606"
+   ],
+   "names": [
+    "Sidon =ESV,NIV,KJV; Zidon =KJV",
+    "Sidon/ the Great,Great/ Sidon =ESV; Greater/ Sidon =NIV; great/ Zidon =KJV",
+    "Sidonian,Sidon =ESV,NIV,KJV; Zidonian,Zidon =KJV",
+    "Sidon",
+    "Sidon =ESVKJV,TR; [ ] =NIV,NA"
+   ],
+   "source_names": [
+    "צִידוֹן",
+    "צִידוֹן+H7227G«H7227a=רַב",
+    "צִידֹנִי",
+    "Σιδών",
+    "Σιδώνιος"
+   ],
+   "description": "Sidon",
+   "brief": "Phoenician city; home of Jezebel",
+   "short": "Sidon, also called Great Sidon, was a prominent Phoenician city known for its trade and culture, and was the hometown of Jezebel, wife of King Ahab (<ref=\"1Ki. 16:31\">1Ki. 16:31</ref>). It is mentioned in various contexts throughout the Bible, including the Old Testament (<ref=\"Gen. 10:19; Josh. 11:8; Judg. 10:6; Isa. 23:2-4; Jer. 27:3; Ezek. 28:21-22\">Gen. 10:19; Josh. 11:8; Judg. 10:6; Isa. 23:2-4; Jer. 27:3; Ezek. 28:21-22</ref>) and the New Testament (<ref=\"Matt. 11:21-22; Luke 4:26; Act.27.3\">Matt. 11:21-22; Luke 4:26; Act.27.3</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.9",
+     "pos": 5
+    }
+   ],
+   "geo": {
+    "lat": 33.560985,
+    "lon": 35.371944,
+    "source": "openbible",
+    "source_id": "a98e4d7",
+    "source_name": "Sidon",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Sinai@Exo.3.1-Gal",
+   "proposed_entity_id": "loc.sinai",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H5514G",
+    "H2722",
+    "G4614"
+   ],
+   "names": [
+    "(Mount )Sinai",
+    "(Mount )Horeb",
+    "(Mount )Sinai =ESV,NIV,KJV; Sina =KJV"
+   ],
+   "source_names": [
+    "סִינַי",
+    "חֹרֵב",
+    "Σινᾶ"
+   ],
+   "description": "Mount Sinai",
+   "brief": "Mountain where Moses received the Ten Commandments",
+   "short": "Sinai, also called Mount Sinai, Horeb, or Mount Horeb, was the mountain where God gave Moses the Ten Commandments and other laws (<ref=\"Exod. 19-40; Lev. 7:38; 25:1; 26:46; 27:34; Num. 3:1; 28:6; Deut. 33:2; Judg. 5:5; Ps. 68:8, 17; Neh. 9:13; Mal. 4:4; Act.7.30, 38; Gal. 4:24-25\">Exod. 19-40; Lev. 7:38; 25:1; 26:46; 27:34; Num. 3:1; 28:6; Deut. 33:2; Judg. 5:5; Ps. 68:8, 17; Neh. 9:13; Mal. 4:4; Act.7.30, 38; Gal. 4:24-25</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.8",
+     "pos": 15
+    }
+   ],
+   "geo": {
+    "lat": 28.539722,
+    "lon": 33.973333,
+    "source": "openbible",
+    "source_id": "abfba2a",
+    "source_name": "Mount Sinai",
+    "confidence": 0.465
+   }
+  },
+  {
+   "tipnr_id": "Syria@Jdg.10.6-Gal",
+   "proposed_entity_id": "loc.syria",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H0758I",
+    "H0761H",
+    "H7421",
+    "G4947",
+    "G4948",
+    "G4949"
+   ],
+   "names": [
+    "Syria,Syrian =ESV,NIV,KJV; Aram =ESV,NIV",
+    "Syrian =ESV,KJV; Aramean =NIV",
+    "Syria",
+    "Syrian",
+    "Syrophoenician =ESV; Syrophenician =KJV; Syrian Phoenicia =NIV"
+   ],
+   "source_names": [
+    "אֲרָם",
+    "אֲרַמִּי",
+    "רַמִּי",
+    "Συρία",
+    "Σύρος",
+    "Συροφοίνισσα"
+   ],
+   "description": "Syria",
+   "brief": "Ancient region north of Israel, often in conflict",
+   "short": "Syria, an ancient region north of Israel, often engaged in conflicts with Israel and Judah (<ref=\"1Kgs. 20:1; 2Kgs. 13:3\">1Kgs. 20:1; 2Kgs. 13:3</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.19.15",
+     "pos": 15
+    }
+   ],
+   "geo": {
+    "lat": 33.511112,
+    "lon": 36.30639,
+    "source": "openbible",
+    "source_id": "a159fa4",
+    "source_name": "Syria 1",
+    "confidence": 1.0
+   }
+  },
+  {
+   "tipnr_id": "Tishbe@1Ki.17.1-2Ki",
+   "proposed_entity_id": "loc.tishbe",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H8453B",
+    "H8664"
+   ],
+   "names": [
+    "Tishbe =ESV,NIV; inhabitants =KJV",
+    "Tishbite"
+   ],
+   "source_names": [
+    "תִּשְׁבֶּה",
+    "תִּשְׁבִּי"
+   ],
+   "description": "Tishbe= near Hazor_1 (Hazor@Jos.11.1-2Ki=H2674G)",
+   "brief": "Hometown of the prophet Elijah",
+   "short": "Tishbe (or Tishbite), the hometown of the prophet Elijah, located in Gilead (<ref=\"1Kgs. 17:1; 21:17, 28; 2Kgs. 1:3, 8; 9:36\">1Kgs. 17:1; 21:17, 28; 2Kgs. 1:3, 8; 9:36</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.1",
+     "pos": 3
+    }
+   ],
+   "geo": {
+    "lat": 33.01718199667929,
+    "lon": 35.56804856758258,
+    "source": "tipnr"
+   }
+  },
+  {
+   "tipnr_id": "Zarephath@1Ki.17.9-Luk",
+   "proposed_entity_id": "loc.zarephath",
+   "tipnr_category": "PLACE",
+   "tipnr_type": "Place",
+   "dstrongs": [
+    "H6886",
+    "G4558"
+   ],
+   "names": [
+    "Zarephath",
+    "Zarephath =ESV,NIV; Sarepta =KJV"
+   ],
+   "source_names": [
+    "צָֽרְפַת",
+    "Σάρεπτα"
+   ],
+   "description": "Zarephath",
+   "brief": "A Phoenician city where Elijah stayed with a widow",
+   "short": "Zarephath, a Phoenician city between Tyre and Sidon, where Elijah stayed with a widow during a famine and performed miracles (<ref=\"1Kgs. 17:9-10; Obad. 1:20; Luke 4:26\">1Kgs. 17:9-10; Obad. 1:20; Luke 4:26</ref>).",
+   "parents": [],
+   "siblings": [],
+   "partners": [],
+   "offspring": [],
+   "mentions": [
+    {
+     "verse_id": "1KGS.17.9",
+     "pos": 3
+    },
+    {
+     "verse_id": "1KGS.17.10",
+     "pos": 3
+    }
+   ],
+   "geo": {
+    "lat": 33.464227,
+    "lon": 35.295136,
+    "source": "openbible",
+    "source_id": "a6fa2d3",
+    "source_name": "Zarephath",
+    "confidence": 1.0
+   }
+  }
+ ]
+}

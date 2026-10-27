@@ -468,8 +468,10 @@ class UrimEngine:
                 ((t, c) for t, c in candidates if t["translation_literal"] is not None),
                 (None, None),
             )
+            gloss_row = next((t for t, _ in candidates if t["token_glosses_json"]), None)
             glosses = {
-                g["pos"]: g["gloss"] for g in json.loads(_get(layers, "token_glosses_json") or "[]")
+                g["pos"]: g["gloss"]
+                for g in json.loads(_get(gloss_row, "token_glosses_json") or "[]")
             }
             tokens = [
                 TokenView(**tok, gloss=glosses.get(tok["pos"]))
@@ -670,7 +672,13 @@ class UrimEngine:
             etymology_meaning=_get(t, "etymology_meaning"),
             summary_bio=_get(t, "summary_bio"),
             first_mention_verse=e["first_mention_verse"],
-            geo=Geo(lat=e["geo_lat"], lon=e["geo_lon"], elevation_m=e["geo_elevation_m"])
+            geo=Geo(
+                lat=e["geo_lat"],
+                lon=e["geo_lon"],
+                elevation_m=e["geo_elevation_m"],
+                source=e["geo_source"],
+                confidence=e["geo_confidence"],
+            )
             if e["geo_lat"] is not None
             else None,
             at_utes=at_utes,

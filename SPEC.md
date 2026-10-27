@@ -67,18 +67,17 @@ keeps the hash, so existing bundles stay valid. Adding, removing or renaming ids
 
 | Source | Provides | License |
 |---|---|---|
-| STEPBible **TAHOT** / TAGNT | Hebrew/Greek text, morphology, disambiguated Strong's | CC BY 4.0 |
-| STEPBible **TIPNR** | Proper-name disambiguation (entity seed) | CC BY 4.0 |
-| STEPBible **TVTMS** | Versification mapping between traditions | CC BY 4.0 |
-| STEPBible **TBESH** | Brief Hebrew lexicon (lemmas, glosses) | CC BY 4.0 |
-| OSHB morphhb | WLC text + morphology (Phase 0 fixture) | WLC PD, morphology CC BY 4.0 |
-| scrollmapper/bible_databases | Baselines: KJV, YLT, ASV, BBE, Webster, RusSynodal, German, … | PD texts |
-| eBible.org | WEB (not in scrollmapper) | PD |
-| Sefaria | Hebrew commentaries (Rashi, Radak, Metzudat David, Targum) | per text; Hebrew originals PD |
-| OpenBible.info | Geocoordinates | CC BY 4.0 |
+| STEPBible **TAHOT** (TAGNT for the NT, pending) | Hebrew text word by word: transliteration, English gloss, disambiguated Strong's, lemma, ETCBC morphology, Qere/Ketiv, proper-name links; word-level KJV ↔ Hebrew references | CC BY 4.0 |
+| STEPBible **TIPNR** | One record per individual: names, dStrongs, references, family links, descriptions | CC BY 4.0 |
+| STEPBible **TVTMS** | Versification traditions: cross-check of renumberings, versification notes | CC BY 4.0 |
+| scrollmapper/bible_databases | Baselines: KJV, YLT, ASV, BBE, Webster, RusSynodal (more available) | PD texts |
+| Sefaria (API v3) | Rashi, Radak, Ralbag, Metzudat David/Zion, Malbim, Targum Jonathan (Hebrew/Aramaic) | per version; recorded |
+| OpenBible.info | Coordinates, matched to TIPNR places by shared verse references | CC BY 4.0 |
 
-Bundles must carry attribution for the CC BY sources (`core_meta.attribution_json`). Ingest
-writes a lockfile of URLs and content hashes so builds are reproducible.
+`urim ingest SCOPE` fetches through a lockfile (`sources.lock.json`): GitHub sources are pinned
+to commit SHAs and every file, including each Sefaria response, to a SHA-256. Bundles carry
+attribution for the CC BY sources (`core_meta.attribution_json`). Commentaries are compile-time
+agent input only and are never shipped in a bundle.
 
 ---
 
@@ -175,9 +174,17 @@ Baselines are assembled per source verse through the map. In 1 Kings 18:33–34 
 book_id·10⁶ + chapter·10³ + verse` replaces a dense `sequence_index`, so partial builds stay
 stable.
 
+**Tokens.** `tokens_json` holds, per word: surface, transliteration, lemma, disambiguated
+Strong's, morphology, `name_ref` (the TIPNR individual a proper noun names) and `reading` (Qere/
+Ketiv code when the text departs from plain Leningrad). Word glosses are language data and live
+in the bundles; STEPBible's English glosses fill `lang-en` until the Philologist writes its own.
+
 **Entities.** Types: PERSON, DEITY, SPIRIT_BEING, LOCATION, GROUP, ARTIFACT, SUBSTANCE. Ids are
-`kind.slug`, with a disambiguator suffix when TIPNR distinguishes homonyms
-(`person.elijah` vs `person.elijah.son_of_jeroham`). `tipnr_id` is unique.
+`kind.slug`; ingest proposes them from TIPNR (the most-referenced bearer of a name gets the bare
+slug, namesakes a reference suffix: `person.elijah`, `person.elijah.ezr_10_21`). `tipnr_id` is
+unique and must exist in the registry. Coordinates are never written by agents: the linker takes
+them from the registry (OpenBible, else TIPNR) and records `geo_source` and `geo_confidence`;
+explicit IR coordinates override, marked `ir`.
 
 **Event participants.** `core_event_participants(event_id, entity_id, role)`, with roles
 AGENT / PATIENT / PRESENT / MENTIONED, drives timeline entity filters and dossiers.
@@ -214,9 +221,13 @@ OpenBible                     chronology.json (curated) Ontologist  ─┤    i1
                                                         Localizer ───────▶
 ```
 
-* **IR directory**: `source/`, `chronology.json`, `core/`, `i18n/{lang}/`. Layout and models are
-  in [`urim/ir/models.py`](urim/ir/models.py). The models double as the structured-output
-  schemas for the LLM calls.
+* **IR directory**: `source/`, `registry/entities.json` and `commentary/` (all from ingest),
+  `chronology.json` (curated), `core/` and `i18n/{lang}/` (agents). Layout and models are in
+  [`urim/ir/models.py`](urim/ir/models.py). The models double as the structured-output schemas
+  for the LLM calls.
+* **Registry**: every TIPNR individual mentioned in the ingested text, with token-level
+  mentions, names, family links, descriptions, proposed id and coordinates. It is the
+  Ontologist's lookup table; the linker uses it to check identities and first mentions.
 * **Linker** ([`urim/compiler/link.py`](urim/compiler/link.py)) is the deterministic half of the
   Sanhedrin Critic. It checks unknown references, duplicate ids, reversed verse ranges, anchor
   cycles, causal order and cycles, component overlaps, gloss positions, and orphaned
@@ -294,7 +305,7 @@ outputs, Message Batches, prompt caching) · pytest + Hypothesis · Ruff.
 ```text
 urim/
 ├── SPEC.md, PLAN.md, pyproject.toml
-├── fixtures/ir/                     hand-authored golden IR for 1 Kings 17–19 (Phase 0)
+├── fixtures/ir/                     golden IR for 1 Kings 17–19: ingested source + registry, hand-authored core/i18n
 ├── urim/
 │   ├── utime.py                     UTES math, JDN, time-of-day markers
 │   ├── canon.py                     books, verse refs, translation → versification scheme
@@ -302,10 +313,12 @@ urim/
 │   ├── schema/core.sql, i18n.sql
 │   ├── ir/models.py, load.py        the IR contract
 │   ├── compiler/link.py             linker + deterministic critic
-│   ├── compiler/ingest/, agents/    Phases 1–2
+│   ├── compiler/ingest/             fetch (lockfile) · tahot · tvtms · tipnr · geo · sefaria · build
+│   ├── compiler/agents/             Phase 2
 │   ├── runtime/engine.py, models.py
 │   ├── interfaces/rest_api.py, mcp_server.py
-│   └── cli.py                       urim link {core,lang,all} · validate · verse · serve · mcp
+│   └── cli.py                       urim ingest · link {core,lang,all} · validate · verse · serve · mcp
+├── sources.lock.json                pinned source URLs and SHA-256s
 └── tests/
 ```
 
@@ -356,3 +369,6 @@ run against the golden fixture now and against agent output in Phase 2
     an LLM review.
 11. Added SPIRIT_BEING, SOCIAL_CUSTOM and event participants; `STRICT` tables with deferred FKs.
 12. Acceptance criteria corrected (91 verses; Horeb counted from the broom tree).
+13. Phase 1: TAHOT replaces OSHB and provides the KJV map at word level; TVTMS cross-checks;
+    TBESH dropped (TAHOT carries lemmas); entity registry from TIPNR with OpenBible coordinates;
+    `geo_source` / `geo_confidence` on entities; `name_ref` / `reading` on tokens.
