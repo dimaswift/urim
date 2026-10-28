@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api, post } from "../api";
 import type { SearchHit } from "../api";
-import { Panel } from "../components";
+import { Panel, Similarity } from "../components";
 import { useApi, useApp } from "../state";
 import { go } from "../util";
 
@@ -39,23 +39,41 @@ function open(hit: SearchHit) {
   else go("chronicle", hit.id);
 }
 
+const MODES: [string, string, string][] = [
+  ["hybrid", "hybrid", "Words and meaning, fused: names first, then what both find"],
+  ["keyword", "words", "Exact words and names (BM25)"],
+  ["meaning", "meaning", "Concepts and paraphrases by embedding similarity, even with no word in common"],
+];
+const KIND_SCOPE: Record<string, string> = { verse: "verses", entity: "entities", system: "systems", event: "events" };
+
 export default function Query() {
   const { lang } = useApp();
   const [q, setQ] = useState("");
   const [scope, setScope] = useState("all");
+  const [mode, setMode] = useState("hybrid");
+  const [like, setLike] = useState<SearchHit | null>(null);
   const [hits, setHits] = useState<SearchHit[] | null>(null);
+  const [searchErr, setSearchErr] = useState<string | null>(null);
   const [sql, setSql] = useState(EXAMPLES[0][1]);
   const [result, setResult] = useState<SqlResult | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const { data: schema } = useApi<TableInfo[]>("/api/sql/schema");
 
   useEffect(() => {
-    if (!q.trim()) { setHits(null); return; }
+    const path = like
+      ? `/api/similar/${like.kind}/${encodeURIComponent(like.id)}?scope=${scope}&lang=${lang}&top_k=20`
+      : q.trim() ? `/api/search?q=${encodeURIComponent(q)}&scope=${scope}&mode=${mode}&lang=${lang}` : null;
+    if (!path) { setHits(null); setSearchErr(null); return; }
+    let live = true;
     const id = setTimeout(() => {
-      api<SearchHit[]>(`/api/search?q=${encodeURIComponent(q)}&scope=${scope}&lang=${lang}`).then(setHits).catch(() => setHits([]));
-    }, 220);
-    return () => clearTimeout(id);
-  }, [q, scope, lang]);
+      api<SearchHit[]>(path)
+        .then((h) => { if (live) { setHits(h); setSearchErr(null); } })
+        .catch((e) => { if (live) { setHits([]); setSearchErr((e as Error).message); } });
+    }, like ? 0 : 220);
+    return () => { live = false; clearTimeout(id); };
+  }, [q, scope, mode, lang, like]);
+
+  const findLike = (h: SearchHit) => { setLike(h); setScope(KIND_SCOPE[h.kind] ?? "all"); };
 
   const run = async () => {
     setErr(null);
@@ -71,13 +89,28 @@ export default function Query() {
           <h1>Query</h1>
         </div>
         <Panel title="Search" count={hits?.length}>
-          <div className="row">
-            <input autoFocus style={{ flex: 1, fontSize: 16 }} value={q} onChange={(e) => setQ(e.target.value)} placeholder="Elijah, noon, mantle, Horeb, נביא…" />
+          <div className="row" style={{ flexWrap: "wrap" }}>
+            <input autoFocus style={{ flex: "1 1 280px", fontSize: 16 }} value={q}
+                   onChange={(e) => { setQ(e.target.value); setLike(null); }}
+                   placeholder="Elijah, mantle, Horeb, נביא… or a concept: grief over a lost son" />
+            {MODES.map(([m, label, help]) => (
+              <span key={m} title={help} className={`chip click ${!like && mode === m ? "on" : ""}`} onClick={() => { setMode(m); setLike(null); }}>{label}</span>
+            ))}
+          </div>
+          <div className="row" style={{ marginTop: 8, gap: 4, flexWrap: "wrap" }}>
             {["all", "verses", "events", "entities", "systems"].map((s) => (
               <span key={s} className={`chip click ${scope === s ? "on" : ""}`} onClick={() => setScope(s)}>{s}</span>
             ))}
           </div>
-          {hits && (
+          {like && (
+            <div className="row" style={{ marginTop: 10, gap: 8 }}>
+              <span className="hud upper muted" style={{ fontSize: 10 }}>Nearest in meaning to</span>
+              <span className="chip">{like.kind}</span><b className="hud">{like.title}</b>
+              <span className="chip click" title="Back to the search" onClick={() => setLike(null)}>✕</span>
+            </div>
+          )}
+          {searchErr && <div className="intel red" style={{ marginTop: 10 }}><b>SEARCH</b>{searchErr}</div>}
+          {hits && !searchErr && (
             <div className="grid" style={{ gap: 6, marginTop: 12 }}>
               {hits.length === 0 && <div className="muted">No hits.</div>}
               {hits.map((h) => (
@@ -87,7 +120,12 @@ export default function Query() {
                     <div className="hud" style={{ fontWeight: 700 }}>{h.title}</div>
                     <div className="muted" style={{ fontSize: 13 }}><Snippet text={h.snippet} /></div>
                   </div>
-                  <span className="mono faint" title={`score ${h.score.toFixed(4)}`}>{(h.via ?? ["keyword"]).join(" + ")}</span>
+                  <div style={{ display: "grid", justifyItems: "end", gap: 4 }}>
+                    <span className="mono faint" style={{ fontSize: 11 }} title={`score ${h.score.toFixed(4)}`}>{(h.via ?? ["keyword"]).join(" + ")}</span>
+                    <Similarity value={h.similarity} />
+                    <span className="chip click" style={{ fontSize: 11 }} title="Find items nearest to this one in meaning"
+                          onClick={(e) => { e.stopPropagation(); findLike(h); }}>≈ similar</span>
+                  </div>
                 </div>
               ))}
             </div>

@@ -119,6 +119,19 @@ export function ReviewBar({ itemKey }: { itemKey: string }) {
   );
 }
 
+/** Cosine similarity of a hit found by meaning, as a short meter. */
+export function Similarity({ value }: { value?: number | null }) {
+  if (value == null) return null;
+  return (
+    <span className="row" style={{ gap: 4 }} title={`cosine similarity ${value.toFixed(3)}`}>
+      <span style={{ width: 38, height: 5, background: "#0f1b25", border: "1px solid var(--line)" }}>
+        <span style={{ display: "block", height: "100%", width: `${Math.max(value, 0) * 100}%`, background: "var(--violet)" }} />
+      </span>
+      <span className="mono faint" style={{ fontSize: 11 }}>{value.toFixed(2)}</span>
+    </span>
+  );
+}
+
 export function Loading({ what = "Loading" }: { what?: string }) {
   return <div className="loading">{what}…</div>;
 }

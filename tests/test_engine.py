@@ -1,7 +1,13 @@
 import pytest
 
 from urim.compiler.link import link_core, link_lang
-from urim.runtime.engine import BundleMismatch, LanguageNotAvailable, NotFoundError, UrimEngine
+from urim.runtime.engine import (
+    BundleMismatch,
+    LanguageNotAvailable,
+    NotFoundError,
+    SearchUnavailable,
+    UrimEngine,
+)
 
 from .conftest import edit_json
 
@@ -108,6 +114,30 @@ def test_search(engine):
     ru = engine.semantic_search("Елисей", lang="ru", scope="entities")
     assert ru[0].id == "person.elisha"
     assert engine.semantic_search("   ") == []
+
+
+def test_search_finds_the_named_before_those_who_mention_them(engine):
+    # Names and titles outweigh bodies, and a name or alias that is the query comes first.
+    assert engine.semantic_search("Carmel")[0].id == "loc.mount_carmel"
+    assert engine.semantic_search("Sinai")[0].id == "loc.mount_horeb"  # an alias
+    assert engine.semantic_search("son of Shaphat")[0].id == "person.elisha"
+    # A name being typed is found before it is finished; a whole word is not a prefix.
+    assert [h.id for h in engine.semantic_search("Elij", top_k=2)] == [
+        "person.elijah",
+        "artifact.elijahs_mantle",
+    ]
+    assert engine.semantic_search("Ahab")[0].id == "person.ahab"
+    assert engine.semantic_search("Carmel", scope="verses")[0].kind == "verse"
+
+
+def test_search_by_meaning_needs_vectors(engine):
+    with pytest.raises(SearchUnavailable, match="no vectors"):
+        engine.semantic_search("drought", mode="meaning")
+    with pytest.raises(SearchUnavailable):
+        engine.find_similar("entity", "person.elijah")
+    with pytest.raises(ValueError):
+        engine.semantic_search("drought", mode="vibes")
+    assert all(h.via == ["keyword"] for h in engine.semantic_search("drought", mode="hybrid"))
 
 
 def test_dossier_history_and_errors(engine):

@@ -221,6 +221,16 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
       Room show how each hit was found
 - [x] Query-time embedding as the `urim[search]` extra (ONNX Runtime, tokenizers, numpy,
       sqlite-vec)
+- [x] **Search by name, by meaning, and similar items.** "Jacob" came ninth: BM25 weighed his
+      one-word title like a body word, so entities whose bios repeat "Jacob" outranked him,
+      and reciprocal-rank fusion buried his first place by meaning. Titles now weigh ten times
+      the body, a name or alias that is the query (or a name being typed, "Elij") comes
+      first, and the last word matches as a prefix. `semantic_search(mode=…)`: `hybrid`,
+      `keyword`, or `meaning` alone for concepts, with cosine `similarity` on hits found by
+      meaning. `find_similar` ranks neighbours by an item's stored vector (no model needed),
+      optionally of the same entity type: REST `/similar`, MCP `find_similar`, War Room
+      Query (modes, "≈ similar"), a "Like …" panel on every dossier and Codex page. Entity
+      search text leads with the bio, so snippets say who someone is
 - [ ] Later: drop very common words from the keyword half of hybrid search (English stopwords
       make nearly every document a keyword hit); one-word queries against long verse documents
       are weak for vectors alone; int8 vectors and a smaller vec0 chunk size once bundles grow

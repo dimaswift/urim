@@ -772,8 +772,9 @@ def build_lang(
         tables[i18n_table] = ((id_attr, *(_JSON_COLUMNS.get(c, c) for c in cols)), rows)
 
         if attr == "entities":
+            # Who they are leads, so a snippet opens with it; then aliases, etymology, phonetics.
             search_rows += [
-                ("entity", r[0], r[1], " ".join([r[2], *json.loads(r[3]), r[4], r[5]]))
+                ("entity", r[0], r[1], " ".join([r[5], *json.loads(r[3]), r[4], r[2]]))
                 for r in rows
             ]
         elif attr == "systems":

@@ -25,7 +25,7 @@ from urim.config import Paths
 from urim.ir.load import inputs_root, load_registry
 from urim.review.cards import card, deck_order
 from urim.review.progress import overview
-from urim.runtime.engine import LanguageNotAvailable, NotFoundError, UrimEngine
+from urim.runtime.engine import LanguageNotAvailable, NotFoundError, SearchUnavailable, UrimEngine
 from urim.workbench.ledger import LedgerError, all_ledgers, set_status
 
 SQL_ROW_LIMIT = 500
@@ -104,6 +104,10 @@ def create_review_app(
     @app.exception_handler(LanguageNotAvailable)
     def _no_lang(_: Request, exc: LanguageNotAvailable) -> JSONResponse:
         return JSONResponse(status_code=404, content={"detail": str(exc)})
+
+    @app.exception_handler(SearchUnavailable)
+    def _no_vectors(_: Request, exc: SearchUnavailable) -> JSONResponse:
+        return JSONResponse(status_code=409, content={"detail": str(exc)})
 
     @app.exception_handler(ValueError)
     def _bad(_: Request, exc: ValueError) -> JSONResponse:
@@ -401,8 +405,22 @@ def create_review_app(
         lang: str = "en",
         scope: Literal["verses", "entities", "systems", "events", "all"] = "all",
         top_k: int = 20,
+        mode: Literal["hybrid", "keyword", "meaning"] = "hybrid",
     ) -> list[dict[str, Any]]:
-        return [h.model_dump() for h in holder.get().semantic_search(q, lang, scope, top_k)]
+        hits = holder.get().semantic_search(q, lang, scope, top_k, mode)
+        return [h.model_dump() for h in hits]
+
+    @app.get("/api/similar/{kind}/{item_id}")
+    def similar(
+        kind: Literal["verse", "entity", "system", "event"],
+        item_id: str,
+        lang: str = "en",
+        scope: Literal["verses", "entities", "systems", "events", "all"] | None = None,
+        top_k: int = 12,
+        same_type: bool = False,
+    ) -> list[dict[str, Any]]:
+        hits = holder.get().find_similar(kind, item_id, lang, scope, top_k, same_type)
+        return [h.model_dump() for h in hits]
 
     # --- SQL console --------------------------------------------------------------------------
 
@@ -414,7 +432,9 @@ def create_review_app(
             for schema in ["main", *[f"lang_{x}" for x in discover_langs(paths.bundles)]]:
                 for (table,) in conn.execute(
                     f"SELECT name FROM {schema}.sqlite_master WHERE type = 'table' "
-                    "AND name NOT LIKE 'sqlite_%' AND name NOT LIKE '%search_%' ORDER BY name"
+                    "AND name NOT LIKE 'sqlite_%' AND name NOT LIKE '%search_%'"
+                    # vec0 tables need sqlite-vec, which the console does not load
+                    " AND name NOT LIKE '%vectors%' ORDER BY name"
                 ):
                     cols = [c[1] for c in conn.execute(f"PRAGMA {schema}.table_info({table})")]
                     out.append({"schema": schema, "table": table, "columns": cols})

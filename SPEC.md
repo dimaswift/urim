@@ -303,21 +303,30 @@ All three interfaces expose the same operations; every one takes `lang` (default
 | `get_system_codex(system_id, lang)` | rules and context + every instance in order |
 | `query_timeline(utes_start, utes_end, entity_filter=None, lang)` | events in order with Δt to the previous event, causes and effects |
 | `trace_causal_chain(event_id, direction, depth, lang)` | causal subgraph with elapsed seconds per link |
-| `semantic_search(query, lang, scope, top_k)` | hits across verses, entities, systems, events |
+| `semantic_search(query, lang, scope, top_k, mode)` | hits across verses, entities, systems, events |
+| `find_similar(kind, item_id, lang, scope, top_k, same_type)` | the items nearest in meaning to one in the corpus |
 
-The SDK also offers `resolve_ref`, `get_event` and `languages`. `semantic_search` is hybrid:
-FTS5/BM25 keyword search always runs, and when a bundle carries vectors (an `i18n_vectors`
-**sqlite-vec** table inside each `i18n_{iso}.sqlite`, so a language bundle remains a single
-file) and the same embedding model is installed, the query is also embedded and matched by
-cosine similarity; the two rankings are fused by reciprocal rank (k = 60), and each hit says
-which search found it (`via`). The model is **bge-m3** (int8 ONNX, 1024 dimensions), pinned
-in `sources.lock.json` and installed with `urim model fetch`; its runtime (ONNX Runtime,
-tokenizers, sqlite-vec) is the optional extra `urim[search]`. Without it, search is keyword
-only. Linking caches vectors by text hash, so relinks embed only what changed.
+The SDK also offers `resolve_ref`, `get_event` and `languages`. `semantic_search` has three
+modes. `keyword` is FTS5/BM25 with a title (a name, an event's title) weighted ten times a
+body word, and the last word matched as a prefix, so results follow typing. `meaning` embeds
+the query and ranks by cosine similarity alone, for concepts and paraphrases that share no
+word with the text ("deception with a garment"); it needs a bundle with vectors (an
+`i18n_vectors` **sqlite-vec** table inside each `i18n_{iso}.sqlite`, so a language bundle
+remains a single file) and the model they were built with. `hybrid`, the default, runs both
+and fuses the rankings by reciprocal rank (k = 60); without vectors it is keyword search.
+Outside `meaning`, entities and systems the query names come first, by name or alias
+("Israel" finds Jacob) or by a name being typed ("Elij"). Each hit says which search found it
+(`via`) and, when found by meaning, its cosine `similarity`. `find_similar` compares the
+vector the bundle stores for an item, so it needs vectors but not the model; `same_type` keeps
+entities of the item's type. The model is **bge-m3** (int8 ONNX, 1024 dimensions,
+multilingual, so a Russian query finds English text), pinned in `sources.lock.json` and
+installed with `urim model fetch`; its runtime (ONNX Runtime, tokenizers, sqlite-vec) is the
+optional extra `urim[search]`. Linking caches vectors by text hash, so relinks embed only
+what changed.
 
 REST routes: `/languages`, `/verses/{ref}`, `/chapters/{book}/{ch}`, `/entities/{id}`,
-`/systems/{id}`, `/timeline`, `/events/{id}/causal-chain`, `/search`. MCP: the seven tools,
-via the MCP Python SDK 2.x (`MCPServer`).
+`/systems/{id}`, `/timeline`, `/events/{id}/causal-chain`, `/search`,
+`/similar/{kind}/{id}`. MCP: the eight tools, via the MCP Python SDK 2.x (`MCPServer`).
 
 ---
 

@@ -77,10 +77,27 @@ def create_server(bundles_dir: str | Path) -> MCPServer:
         lang: str = "en",
         scope: Literal["verses", "entities", "systems", "events", "all"] = "all",
         top_k: int = 10,
+        mode: Literal["hybrid", "keyword", "meaning"] = "hybrid",
     ) -> list[dict[str, Any]]:
-        """Search verses, entities, systems and events in the given language."""
-        return [
-            h.model_dump(mode="json") for h in engine.semantic_search(query, lang, scope, top_k)
-        ]
+        """Search verses, entities, systems and events in the given language. `keyword` finds
+        names and words, `meaning` finds concepts and paraphrases by embedding similarity
+        ("grief over a lost son"), `hybrid` fuses both."""
+        hits = engine.semantic_search(query, lang, scope, top_k, mode)
+        return [h.model_dump(mode="json") for h in hits]
+
+    @server.tool()
+    def find_similar(
+        kind: Literal["verse", "entity", "system", "event"],
+        item_id: str,
+        lang: str = "en",
+        scope: Literal["verses", "entities", "systems", "events", "all"] | None = None,
+        top_k: int = 10,
+        same_type: bool = False,
+    ) -> list[dict[str, Any]]:
+        """Items nearest in meaning to a verse, entity, system or event, by embedding similarity.
+        `scope` defaults to the item's own kind; `same_type` keeps entities of the same type
+        (people like a person)."""
+        hits = engine.find_similar(kind, item_id, lang, scope, top_k, same_type)
+        return [h.model_dump(mode="json") for h in hits]
 
     return server

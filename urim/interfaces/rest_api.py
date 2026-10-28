@@ -13,6 +13,7 @@ from urim.runtime.engine import (
     BundleMismatch,
     LanguageNotAvailable,
     NotFoundError,
+    SearchUnavailable,
     UrimEngine,
 )
 from urim.runtime.models import (
@@ -47,6 +48,10 @@ def create_app(bundles_dir: str | Path) -> FastAPI:
 
     @app.exception_handler(BundleMismatch)
     def _mismatch(_: Request, exc: BundleMismatch) -> JSONResponse:
+        return JSONResponse(status_code=409, content={"detail": str(exc)})
+
+    @app.exception_handler(SearchUnavailable)
+    def _no_vectors(_: Request, exc: SearchUnavailable) -> JSONResponse:
         return JSONResponse(status_code=409, content={"detail": str(exc)})
 
     @app.exception_handler(ValueError)
@@ -101,7 +106,19 @@ def create_app(bundles_dir: str | Path) -> FastAPI:
         lang: Lang = "en",
         scope: Literal["verses", "entities", "systems", "events", "all"] = "all",
         top_k: int = 10,
+        mode: Literal["hybrid", "keyword", "meaning"] = "hybrid",
     ) -> list[SearchHit]:
-        return engine.semantic_search(q, lang=lang, scope=scope, top_k=top_k)
+        return engine.semantic_search(q, lang=lang, scope=scope, top_k=top_k, mode=mode)
+
+    @app.get("/similar/{kind}/{item_id}")
+    def similar(
+        kind: Literal["verse", "entity", "system", "event"],
+        item_id: str,
+        lang: Lang = "en",
+        scope: Literal["verses", "entities", "systems", "events", "all"] | None = None,
+        top_k: int = 10,
+        same_type: bool = False,
+    ) -> list[SearchHit]:
+        return engine.find_similar(kind, item_id, lang, scope, top_k, same_type)
 
     return app

@@ -227,3 +227,4 @@ class SearchHit(BaseModel):
     snippet: str
     score: float
     via: list[Literal["keyword", "meaning"]] = []  # which search found it
+    similarity: float | None = None  # cosine similarity to the query or item, found by meaning

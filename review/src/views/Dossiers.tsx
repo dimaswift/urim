@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import type { Dossier, EntityRow } from "../api";
-import { Loading, Panel, ReviewBar } from "../components";
+import type { Dossier, EntityRow, SearchHit } from "../api";
+import { Loading, Panel, ReviewBar, Similarity } from "../components";
 import { useApi, useApp } from "../state";
 import { ENTITY_COLOR, ENTITY_GLYPH, chapterOf, go, href, short, type Route } from "../util";
 
@@ -16,6 +16,41 @@ function StatBar({ label, value, max, color }: { label: string; value: number; m
       </div>
       <span className="mono" style={{ textAlign: "right" }}>{value}</span>
     </div>
+  );
+}
+
+/** Entities nearest in meaning to this one, by the vectors the bundle stores. */
+function Kindred({ id, name, roster }: { id: string; name: string; roster: EntityRow[] }) {
+  const { lang } = useApp();
+  const [sameType, setSameType] = useState(true);
+  const { data, error } = useApi<SearchHit[]>(`/api/similar/entity/${encodeURIComponent(id)}?lang=${lang}&top_k=8&same_type=${sameType}`);
+  const types = new Map(roster.map((r) => [r.entity_id, r.entity_type]));
+  const toggle = (
+    <span className="row" style={{ gap: 4 }}>
+      <span className={`chip click ${sameType ? "on" : ""}`} onClick={() => setSameType(true)}>same type</span>
+      <span className={`chip click ${!sameType ? "on" : ""}`} onClick={() => setSameType(false)}>any entity</span>
+    </span>
+  );
+  return (
+    <Panel title={`Like ${name}`} count={data?.length} right={toggle}>
+      {error && <div className="muted">{error}</div>}
+      {!error && data?.length === 0 && <div className="muted">Nothing else of this type yet.</div>}
+      <div className="grid" style={{ gap: 6 }}>
+        {!error && data?.map((h) => {
+          const t = types.get(h.id) ?? "";
+          return (
+            <a key={h.id} href={href("dossiers", h.id)} style={{ display: "grid", gridTemplateColumns: "22px 1fr auto", gap: 8, alignItems: "center", color: "var(--text)" }}>
+              <span style={{ color: ENTITY_COLOR[t], fontSize: 16 }}>{ENTITY_GLYPH[t]}</span>
+              <span style={{ minWidth: 0 }}>
+                <b className="hud">{h.title}</b>
+                <div className="muted" style={{ fontSize: 12, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{h.snippet}</div>
+              </span>
+              <Similarity value={h.similarity} />
+            </a>
+          );
+        })}
+      </div>
+    </Panel>
   );
 }
 
@@ -137,6 +172,7 @@ function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
           ))}
         </Panel>
       </div>
+      <Kindred id={d.entity_id} name={d.canonical_name ?? d.entity_id} roster={roster} />
     </div>
   );
 }

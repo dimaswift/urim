@@ -1,4 +1,4 @@
-import type { Dossier, EntityRow } from "../api";
+import type { Dossier, EntityRow, SearchHit } from "../api";
 import { useApi } from "../hooks";
 import { href, short, type Route } from "../util";
 import { Corners, Ornament, Roundel, Section, TYPE_NAME, useLang } from "./parts";
@@ -48,6 +48,22 @@ function Index() {
         );
       })}
     </article>
+  );
+}
+
+/** Others of the same kind whose description is nearest in meaning; silent without vectors. */
+function Kindred({ id, name }: { id: string; name: string }) {
+  const { lang } = useLang();
+  const { data, error } = useApi<SearchHit[]>(`/api/similar/entity/${encodeURIComponent(id)}?lang=${lang}&top_k=6&same_type=true`);
+  if (error || !data?.length) return null;
+  return (
+    <Section title={`Like ${name}`}>
+      <p style={{ margin: "4px 0" }}>
+        {data.map((h, i) => (
+          <span key={h.id}>{i > 0 && " · "}<a href={href("people", h.id)} title={h.snippet}>{h.title}</a></span>
+        ))}
+      </p>
+    </Section>
   );
 }
 
@@ -127,6 +143,8 @@ function Page({ id }: { id: string }) {
           ))}
         </Section>
       )}
+
+      <Kindred id={id} name={d.canonical_name ?? id} />
 
       {byChapter.size > 0 && (
         <Section title="Where the text names them">

@@ -52,6 +52,10 @@ def test_rest_errors(client):
     assert client.get("/verses/1KGS.18.27", params={"lang": "xx"}).status_code == 404
     assert client.get("/verses/garbage").status_code == 404
     assert client.get("/timeline", params={"utes_start": 5, "utes_end": 1}).status_code == 400
+    # These bundles carry no vectors: search by meaning and similar items say why.
+    r = client.get("/search", params={"q": "drought", "mode": "meaning"})
+    assert r.status_code == 409 and "no vectors" in r.json()["detail"]
+    assert client.get("/similar/entity/person.elijah").status_code == 409
 
 
 def test_mcp_tools(bundles):
@@ -74,6 +78,7 @@ def test_mcp_tools(bundles):
         "query_timeline",
         "trace_causal_chain",
         "semantic_search",
+        "find_similar",
     ]
     assert dossier["canonical_name"] == "Елисей"
     assert dossier["components"][0]["label_value"] == "Богатый землевладелец (12 пар волов)"
