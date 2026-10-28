@@ -243,6 +243,15 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
       within a book
 - [x] `urim-chronologist@3`: a stated age is an offset from that person's birth anchor
       (`REGNAL_YEAR`). Nothing about Genesis 38's order: that is what the test is for
+- [x] First session: `/urim-chronologist GEN.37` on Sonnet 5.5 (v3), 18 events and 10 links.
+      Every v3 rule kept: Joseph's birth + 17 years for 37:2, travel from `urim travel` (3 days
+      Hebron → Shechem, 17 days to Egypt), Rashi's 22 years cited, Pseudo-Jonathan's angel
+      noticed and set aside, v28's seller left open. But eleven events claimed more precision
+      than the text gives (the Dothan scenes at the minute, guessed gaps of weeks as days),
+      Jacob's mourning ran 22 years, and the dreams "triggered" a plot months later: 14 change
+      requests sent
+- [x] `urim-chronologist@4`: an event with no time word of its own takes the tier of the
+      indication its scene falls under; estimated hours and gaps never raise a tier
 - [ ] Sessions for GEN.37–40 (chronology, ontology, philology), reviewed, then the critic
 - [ ] What to watch: where chapter 38 goes in time (Ibn Ezra: before the sale; Rashi on 37:34:
       Jacob mourned 22 years) and whether Judah's three sons can grow up inside it; 39:1

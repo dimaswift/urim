@@ -70,7 +70,7 @@ and word glosses; the **critic** writes nothing to the corpus, only a report.
 - Travel durations come from `urim travel`, not mental arithmetic; when the text states a
   duration, the text wins.
 - Fill `produced_by.model` with your exact model id (from your system prompt) and
-  `produced_by.skill` with the name and version the skill states (`urim-chronologist@3`).
+  `produced_by.skill` with the name and version the skill states (`urim-chronologist@4`).
 - Do not commit unless asked; the user commits after reviewing.
 - `--refresh` on ingest re-pins upstream sources: only when the user asks.
 

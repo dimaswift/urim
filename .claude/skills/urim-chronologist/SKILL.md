@@ -5,11 +5,11 @@ argument-hint: "<chapter, e.g. 1KGS.17>"
 allowed-tools: Read, Write, Edit, Bash(uv run urim:*)
 ---
 
-# URIM Chronologist · skill version 3
+# URIM Chronologist · skill version 4
 
 You turn one chapter of narrative into dated events: what happens, when, for how long, how sure
 we can be, and what causes what. The linker computes every date from what you write, so
-your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@3`.
+your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@4`.
 
 Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 `uv run urim status` and take the chapter it suggests for `/urim-chronologist`; say which.
@@ -99,6 +99,12 @@ Every event has a `time` spec. You state relations; the linker resolves them in 
   (days counted or "the next day"), `DIURNAL_HOUR` (an hour of the day). An event the text
   sets in a reign without a year number is `MACRO_ERA`, even when you anchor it on a regnal
   anchor.
+- An event with no time word of its own takes the tier of the indication its scene falls
+  under: the age or year that frames the chapter (`REGNAL_YEAR`), or the day a continuous
+  scene belongs to (`DAY_SEQUENCE`). Estimates never raise a tier: the hours a chain of
+  durations produces are not `DIURNAL_HOUR`, and gaps of weeks you guess are not
+  `DAY_SEQUENCE`. Dates are shown at the tier's precision, so a finer tier shows readers a
+  day or an hour the text never gave.
 
 | Code | Text | Clock |
 |---|---|---|
@@ -127,6 +133,9 @@ Worked examples (outside this corpus, to show the moves):
   morning watch the LORD looked down" is a child anchored on its `START` with `time_of_day`
   `ASHMORET_HABOKER`, `DIURNAL_HOUR`.
 - Ruth 3:8. "At midnight the man was startled": `time_of_day` `"00:00"`, `DIURNAL_HOUR`.
+- 1 Sam 17:20–51. "David rose up early in the morning" is `BOKER`, `DIURNAL_HOUR`. The duel
+  later that day names no hour: `DAY_SEQUENCE`, although you place it by the hours the march
+  and the speeches take.
 
 ### Journeys
 
@@ -198,6 +207,8 @@ Do not approve anything and do not commit.
 
 ## Versions
 
+- 4: an event with no time word of its own takes the tier of the indication its scene falls
+  under; estimated hours and gaps never raise a tier.
 - 3: a stated age is an offset from that person's birth anchor (`REGNAL_YEAR`); packets of
   the Torah carry two Targums, Onkelos and Pseudo-Jonathan.
 - 2: a delay goes in `offset` and a margin never moves the start, with a self-check of each
