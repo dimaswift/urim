@@ -1,0 +1,1259 @@
+{
+ "chapter_ref": "GEN.37",
+ "entities": [
+  {
+   "entity_id": "artifact.coat_of_joseph",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כְּתֹנֶת הַפַּסִּים",
+   "transliterated_name": "ketonet happassim",
+   "first_mention_verse": "GEN.37.3"
+  },
+  {
+   "entity_id": "group.ishmaelites",
+   "entity_type": "GROUP",
+   "source_script_name": "יִשְׁמְעֵאלִים",
+   "transliterated_name": "Yishme'elim",
+   "first_mention_verse": "GEN.37.25"
+  },
+  {
+   "entity_id": "group.jacobs_family",
+   "entity_type": "GROUP",
+   "source_script_name": "בָּנָיו וּבְנֹתָיו",
+   "transliterated_name": "banav uvenotav",
+   "first_mention_verse": "GEN.37.35"
+  },
+  {
+   "entity_id": "group.joseph_brothers",
+   "entity_type": "GROUP",
+   "source_script_name": "אֶחָיו",
+   "transliterated_name": "achav",
+   "first_mention_verse": "GEN.37.2"
+  },
+  {
+   "entity_id": "group.midianite_traders",
+   "entity_type": "GROUP",
+   "source_script_name": "מִדְיָנִים",
+   "transliterated_name": "Midyanim",
+   "first_mention_verse": "GEN.37.28"
+  },
+  {
+   "entity_id": "loc.canaan",
+   "tipnr_id": "Canaan@Gen.10.18-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "כְּנַעַן",
+   "transliterated_name": "Kena'an",
+   "first_mention_verse": "GEN.37.1"
+  },
+  {
+   "entity_id": "loc.dothan",
+   "tipnr_id": "Dothan@Gen.37.17-2Ki",
+   "entity_type": "LOCATION",
+   "source_script_name": "דֹּתָן",
+   "transliterated_name": "Dotan",
+   "first_mention_verse": "GEN.37.17"
+  },
+  {
+   "entity_id": "loc.egypt",
+   "tipnr_id": "Egypt@Gen.12.10-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "מִצְרַיִם",
+   "transliterated_name": "Mitsrayim",
+   "first_mention_verse": "GEN.37.25"
+  },
+  {
+   "entity_id": "loc.hebron_valley",
+   "tipnr_id": "Hebron_Valley@Gen.37.14",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵמֶק חֶבְרוֹן",
+   "transliterated_name": "'Emeq Hevron",
+   "first_mention_verse": "GEN.37.14"
+  },
+  {
+   "entity_id": "loc.pit_at_dothan",
+   "entity_type": "LOCATION",
+   "source_script_name": "הַבּוֹר",
+   "transliterated_name": "ha-bor",
+   "first_mention_verse": "GEN.37.22"
+  },
+  {
+   "entity_id": "loc.shechem",
+   "tipnr_id": "Shechem@Gen.12.6-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "שְׁכֶם",
+   "transliterated_name": "Shekhem",
+   "first_mention_verse": "GEN.37.12"
+  },
+  {
+   "entity_id": "loc.sheol",
+   "tipnr_id": "Sheol@Gen.37.35-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "שְׁאוֹל",
+   "transliterated_name": "She'ol",
+   "first_mention_verse": "GEN.37.35"
+  },
+  {
+   "entity_id": "person.bilhah",
+   "tipnr_id": "Bilhah@Gen.29.29-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "בִּלְהָה",
+   "transliterated_name": "Bilhah",
+   "first_mention_verse": "GEN.37.2"
+  },
+  {
+   "entity_id": "person.israel",
+   "tipnr_id": "Israel@Gen.25.26-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "יַעֲקֹב",
+   "transliterated_name": "Ya'aqov",
+   "first_mention_verse": "GEN.37.1"
+  },
+  {
+   "entity_id": "person.joseph",
+   "tipnr_id": "Joseph@Gen.30.24-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "יוֹסֵף",
+   "transliterated_name": "Yosef",
+   "first_mention_verse": "GEN.37.2"
+  },
+  {
+   "entity_id": "person.judah",
+   "tipnr_id": "Judah@Gen.29.35-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "יְהוּדָה",
+   "transliterated_name": "Yehudah",
+   "first_mention_verse": "GEN.37.26"
+  },
+  {
+   "entity_id": "person.man_at_shechem",
+   "entity_type": "PERSON",
+   "source_script_name": "אִישׁ",
+   "transliterated_name": "ish",
+   "first_mention_verse": "GEN.37.15"
+  },
+  {
+   "entity_id": "person.pharaoh.gen_37_36",
+   "tipnr_id": "Pharaoh@Gen.37.36-Act",
+   "entity_type": "PERSON",
+   "source_script_name": "פַּרְעֹה",
+   "transliterated_name": "Par'oh",
+   "first_mention_verse": "GEN.37.36"
+  },
+  {
+   "entity_id": "person.potiphar",
+   "tipnr_id": "Potiphar@Gen.37.36-",
+   "entity_type": "PERSON",
+   "source_script_name": "פּוֹטִיפַר",
+   "transliterated_name": "Potifar",
+   "first_mention_verse": "GEN.37.36"
+  },
+  {
+   "entity_id": "person.reuben",
+   "tipnr_id": "Reuben@Gen.29.32-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "רְאוּבֵן",
+   "transliterated_name": "Re'uven",
+   "first_mention_verse": "GEN.37.21"
+  },
+  {
+   "entity_id": "person.zilpah",
+   "tipnr_id": "Zilpah@Gen.29.24-",
+   "entity_type": "PERSON",
+   "source_script_name": "זִלְפָּה",
+   "transliterated_name": "Zilpah",
+   "first_mention_verse": "GEN.37.2"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.mourning_rites",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.sale_of_person",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.symbolic_dream",
+   "category": "PROPHETIC_ORACLE"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_37.joseph_reports_and_coat",
+   "verse_start": "GEN.37.1",
+   "verse_end": "GEN.37.4",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "anchor.joseph_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 17.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.coat_of_joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.sheaf_dream",
+   "verse_start": "GEN.37.5",
+   "verse_end": "GEN.37.8",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_37.joseph_reports_and_coat",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.star_dream",
+   "verse_start": "GEN.37.9",
+   "verse_end": "GEN.37.11",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_37.sheaf_dream",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.brothers_to_shechem",
+   "verse_start": "GEN.37.12",
+   "verse_end": "GEN.37.12",
+   "location_entity_id": "loc.shechem",
+   "time": {
+    "anchor": "evt.gen_37.star_dream",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.jacob_sends_joseph",
+   "verse_start": "GEN.37.13",
+   "verse_end": "GEN.37.14",
+   "location_entity_id": "loc.hebron_valley",
+   "time": {
+    "anchor": "evt.gen_37.brothers_to_shechem",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.joseph_travels_to_shechem",
+   "verse_start": "GEN.37.14",
+   "verse_end": "GEN.37.14",
+   "time": {
+    "anchor": "evt.gen_37.jacob_sends_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.man_directs_joseph",
+   "verse_start": "GEN.37.15",
+   "verse_end": "GEN.37.17",
+   "location_entity_id": "loc.shechem",
+   "time": {
+    "anchor": "evt.gen_37.joseph_travels_to_shechem",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.man_at_shechem",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.joseph_travels_to_dothan",
+   "verse_start": "GEN.37.17",
+   "verse_end": "GEN.37.17",
+   "time": {
+    "anchor": "evt.gen_37.man_directs_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.brothers_conspire",
+   "verse_start": "GEN.37.18",
+   "verse_end": "GEN.37.20",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.joseph_travels_to_dothan",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1415.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.reuben_intervenes",
+   "verse_start": "GEN.37.21",
+   "verse_end": "GEN.37.22",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.brothers_conspire",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.pit_at_dothan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.joseph_thrown_into_pit",
+   "verse_start": "GEN.37.23",
+   "verse_end": "GEN.37.24",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.reuben_intervenes",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.coat_of_joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.pit_at_dothan",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.judah_proposes_sale",
+   "verse_start": "GEN.37.25",
+   "verse_end": "GEN.37.27",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.joseph_thrown_into_pit",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.ishmaelites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gilead",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.joseph_sold",
+   "verse_start": "GEN.37.28",
+   "verse_end": "GEN.37.28",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.judah_proposes_sale",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.ishmaelites",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.midianite_traders",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.reuben_finds_pit_empty",
+   "verse_start": "GEN.37.29",
+   "verse_end": "GEN.37.30",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.joseph_sold",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.coat_dipped_in_blood",
+   "verse_start": "GEN.37.31",
+   "verse_end": "GEN.37.31",
+   "location_entity_id": "loc.dothan",
+   "time": {
+    "anchor": "evt.gen_37.reuben_finds_pit_empty",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.coat_of_joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.coat_shown_to_jacob",
+   "verse_start": "GEN.37.32",
+   "verse_end": "GEN.37.33",
+   "location_entity_id": "loc.hebron_valley",
+   "time": {
+    "anchor": "evt.gen_37.coat_dipped_in_blood",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.coat_of_joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.jacob_mourns",
+   "verse_start": "GEN.37.34",
+   "verse_end": "GEN.37.35",
+   "location_entity_id": "loc.hebron_valley",
+   "time": {
+    "anchor": "evt.gen_37.coat_shown_to_jacob",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.sheol",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_37.sold_to_potiphar",
+   "verse_start": "GEN.37.36",
+   "verse_end": "GEN.37.36",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_37.joseph_sold",
+    "anchor_point": "END",
+    "offset": {
+     "value": 17.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 8.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.midianite_traders",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_37.brothers_conspire.coat_dipped_in_blood",
+   "cause_event_id": "evt.gen_37.brothers_conspire",
+   "effect_event_id": "evt.gen_37.coat_dipped_in_blood",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_37.brothers_conspire.reuben_intervenes",
+   "cause_event_id": "evt.gen_37.brothers_conspire",
+   "effect_event_id": "evt.gen_37.reuben_intervenes",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_37.brothers_to_shechem.jacob_sends_joseph",
+   "cause_event_id": "evt.gen_37.brothers_to_shechem",
+   "effect_event_id": "evt.gen_37.jacob_sends_joseph",
+   "causal_type": "ENABLES",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_37.coat_dipped_in_blood.coat_shown_to_jacob",
+   "cause_event_id": "evt.gen_37.coat_dipped_in_blood",
+   "effect_event_id": "evt.gen_37.coat_shown_to_jacob",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_37.coat_shown_to_jacob.jacob_mourns",
+   "cause_event_id": "evt.gen_37.coat_shown_to_jacob",
+   "effect_event_id": "evt.gen_37.jacob_mourns",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_37.jacob_sends_joseph.joseph_travels_to_shechem",
+   "cause_event_id": "evt.gen_37.jacob_sends_joseph",
+   "effect_event_id": "evt.gen_37.joseph_travels_to_shechem",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_37.joseph_reports_and_coat.brothers_conspire",
+   "cause_event_id": "evt.gen_37.joseph_reports_and_coat",
+   "effect_event_id": "evt.gen_37.brothers_conspire",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_37.joseph_sold.coat_dipped_in_blood",
+   "cause_event_id": "evt.gen_37.joseph_sold",
+   "effect_event_id": "evt.gen_37.coat_dipped_in_blood",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_37.joseph_sold.reuben_finds_pit_empty",
+   "cause_event_id": "evt.gen_37.joseph_sold",
+   "effect_event_id": "evt.gen_37.reuben_finds_pit_empty",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_37.judah_proposes_sale.joseph_sold",
+   "cause_event_id": "evt.gen_37.judah_proposes_sale",
+   "effect_event_id": "evt.gen_37.joseph_sold",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_37.reuben_intervenes.joseph_thrown_into_pit",
+   "cause_event_id": "evt.gen_37.reuben_intervenes",
+   "effect_event_id": "evt.gen_37.joseph_thrown_into_pit",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_37.sheaf_dream.brothers_conspire",
+   "cause_event_id": "evt.gen_37.sheaf_dream",
+   "effect_event_id": "evt.gen_37.brothers_conspire",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_37.star_dream.brothers_conspire",
+   "cause_event_id": "evt.gen_37.star_dream",
+   "effect_event_id": "evt.gen_37.brothers_conspire",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.coat_of_joseph.condition.1",
+   "entity_id": "artifact.coat_of_joseph",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "BLOODIED",
+   "acquired_at_verse": "GEN.37.31",
+   "acquired_in_event": "evt.gen_37.coat_dipped_in_blood"
+  },
+  {
+   "component_id": "comp.coat_of_joseph.holder.1",
+   "entity_id": "artifact.coat_of_joseph",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.37.3",
+   "acquired_in_event": "evt.gen_37.joseph_reports_and_coat",
+   "expired_at_verse": "GEN.37.23",
+   "expired_in_event": "evt.gen_37.joseph_thrown_into_pit"
+  },
+  {
+   "component_id": "comp.coat_of_joseph.holder.2",
+   "entity_id": "artifact.coat_of_joseph",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "group.joseph_brothers",
+   "supersedes_component_id": "comp.coat_of_joseph.holder.1",
+   "acquired_at_verse": "GEN.37.23",
+   "acquired_in_event": "evt.gen_37.joseph_thrown_into_pit",
+   "expired_at_verse": "GEN.37.32",
+   "expired_in_event": "evt.gen_37.coat_shown_to_jacob"
+  },
+  {
+   "component_id": "comp.coat_of_joseph.holder.3",
+   "entity_id": "artifact.coat_of_joseph",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.israel",
+   "supersedes_component_id": "comp.coat_of_joseph.holder.2",
+   "acquired_at_verse": "GEN.37.32",
+   "acquired_in_event": "evt.gen_37.coat_shown_to_jacob"
+  },
+  {
+   "component_id": "comp.israel.dwelling.1",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.37.1",
+   "acquired_in_event": "evt.gen_37.joseph_reports_and_coat"
+  },
+  {
+   "component_id": "comp.israel.favour.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "favour",
+   "value_code": "LOVES_MOST",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.37.3",
+   "acquired_in_event": "evt.gen_37.joseph_reports_and_coat"
+  },
+  {
+   "component_id": "comp.israel.mood.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "MOURNING",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.37.34",
+   "acquired_in_event": "evt.gen_37.jacob_mourns"
+  },
+  {
+   "component_id": "comp.joseph.master.1",
+   "entity_id": "person.joseph",
+   "category": "ALLEGIANCE",
+   "component_key": "master",
+   "target_entity_id": "person.potiphar",
+   "acquired_at_verse": "GEN.37.36",
+   "acquired_in_event": "evt.gen_37.sold_to_potiphar"
+  },
+  {
+   "component_id": "comp.joseph.status.1",
+   "entity_id": "person.joseph",
+   "category": "ROLE_TITLE",
+   "component_key": "status",
+   "value_code": "SLAVE",
+   "acquired_at_verse": "GEN.37.28",
+   "acquired_in_event": "evt.gen_37.joseph_sold"
+  },
+  {
+   "component_id": "comp.joseph.whereabouts.1",
+   "entity_id": "person.joseph",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.pit_at_dothan",
+   "acquired_at_verse": "GEN.37.24",
+   "acquired_in_event": "evt.gen_37.joseph_thrown_into_pit",
+   "expired_at_verse": "GEN.37.28",
+   "expired_in_event": "evt.gen_37.joseph_sold"
+  },
+  {
+   "component_id": "comp.joseph.whereabouts.2",
+   "entity_id": "person.joseph",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.egypt",
+   "supersedes_component_id": "comp.joseph.whereabouts.1",
+   "acquired_at_verse": "GEN.37.36",
+   "acquired_in_event": "evt.gen_37.sold_to_potiphar"
+  },
+  {
+   "component_id": "comp.joseph_brothers.attitude.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "attitude",
+   "value_code": "HATRED",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.37.4",
+   "acquired_in_event": "evt.gen_37.joseph_reports_and_coat"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_37.jacob_mourns_joseph",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_37.jacob_mourns",
+   "verse_start": "GEN.37.34",
+   "verse_end": "GEN.37.35",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.hebron_valley",
+   "tags": [
+    "tearing clothes",
+    "sackcloth",
+    "refuses comfort"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_37.reuben_rends_clothes",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_37.reuben_finds_pit_empty",
+   "verse_start": "GEN.37.29",
+   "verse_end": "GEN.37.29",
+   "initiator_entity_id": "person.reuben",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.dothan",
+   "tags": [
+    "tearing clothes"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_37.sale_to_ishmaelites",
+   "system_id": "sys.sale_of_person",
+   "event_id": "evt.gen_37.joseph_sold",
+   "verse_start": "GEN.37.28",
+   "verse_end": "GEN.37.28",
+   "initiator_entity_id": "group.midianite_traders",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.dothan",
+   "tags": [
+    "sale",
+    "twenty silver"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_37.sale_to_potiphar",
+   "system_id": "sys.sale_of_person",
+   "event_id": "evt.gen_37.sold_to_potiphar",
+   "verse_start": "GEN.37.36",
+   "verse_end": "GEN.37.36",
+   "initiator_entity_id": "group.midianite_traders",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "sale",
+    "slavery"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_37.sheaf_dream",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_37.sheaf_dream",
+   "verse_start": "GEN.37.5",
+   "verse_end": "GEN.37.7",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.canaan",
+   "tags": [
+    "dream",
+    "sheaves",
+    "rule"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_37.star_dream",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_37.star_dream",
+   "verse_start": "GEN.37.9",
+   "verse_end": "GEN.37.10",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers",
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.canaan",
+   "tags": [
+    "dream",
+    "sun moon stars",
+    "rule"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_37.brothers_deceive_israel",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.israel",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.37.32",
+   "event_id": "evt.gen_37.coat_shown_to_jacob"
+  },
+  {
+   "edge_id": "edge.gen_37.brothers_hate_joseph",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "HATES",
+   "verse_id": "GEN.37.4",
+   "event_id": "evt.gen_37.joseph_reports_and_coat"
+  },
+  {
+   "edge_id": "edge.gen_37.brothers_plot_against_joseph",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PLOTS_AGAINST",
+   "verse_id": "GEN.37.18",
+   "event_id": "evt.gen_37.brothers_conspire"
+  },
+  {
+   "edge_id": "edge.gen_37.brothers_throw_joseph_in_pit",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "ASSAULTS",
+   "verse_id": "GEN.37.24",
+   "event_id": "evt.gen_37.joseph_thrown_into_pit"
+  },
+  {
+   "edge_id": "edge.gen_37.family_comforts_israel",
+   "source_entity_id": "group.jacobs_family",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMFORTS",
+   "verse_id": "GEN.37.35",
+   "event_id": "evt.gen_37.jacob_mourns"
+  },
+  {
+   "edge_id": "edge.gen_37.israel_loves_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "LOVES",
+   "verse_id": "GEN.37.3",
+   "event_id": "evt.gen_37.joseph_reports_and_coat"
+  },
+  {
+   "edge_id": "edge.gen_37.israel_rebukes_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.37.10",
+   "event_id": "evt.gen_37.star_dream"
+  },
+  {
+   "edge_id": "edge.gen_37.israel_sends_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SENDS",
+   "verse_id": "GEN.37.14",
+   "event_id": "evt.gen_37.jacob_sends_joseph"
+  },
+  {
+   "edge_id": "edge.gen_37.joseph_reports_on_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "REPORTS_ON",
+   "verse_id": "GEN.37.2",
+   "event_id": "evt.gen_37.joseph_reports_and_coat"
+  },
+  {
+   "edge_id": "edge.gen_37.judah_persuades_brothers",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "PERSUADES",
+   "verse_id": "GEN.37.27",
+   "event_id": "evt.gen_37.judah_proposes_sale"
+  },
+  {
+   "edge_id": "edge.gen_37.man_directs_joseph",
+   "source_entity_id": "person.man_at_shechem",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "DIRECTS",
+   "verse_id": "GEN.37.17",
+   "event_id": "evt.gen_37.man_directs_joseph"
+  },
+  {
+   "edge_id": "edge.gen_37.midianites_sell_joseph",
+   "source_entity_id": "group.midianite_traders",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SELLS",
+   "verse_id": "GEN.37.28",
+   "event_id": "evt.gen_37.joseph_sold"
+  },
+  {
+   "edge_id": "edge.gen_37.midianites_sell_joseph_to_potiphar",
+   "source_entity_id": "group.midianite_traders",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SELLS",
+   "verse_id": "GEN.37.36",
+   "event_id": "evt.gen_37.sold_to_potiphar"
+  },
+  {
+   "edge_id": "edge.gen_37.reuben_rescues_joseph",
+   "source_entity_id": "person.reuben",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.37.21",
+   "event_id": "evt.gen_37.reuben_intervenes"
+  }
+ ]
+}

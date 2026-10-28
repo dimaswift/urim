@@ -1,0 +1,807 @@
+{
+ "chapter_ref": "1KGS.17",
+ "entities": [
+  {
+   "entity_id": "artifact.meal_jar",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כַּד",
+   "transliterated_name": "kaḏ",
+   "first_mention_verse": "1KGS.17.12"
+  },
+  {
+   "entity_id": "artifact.oil_jug",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "צַפַּחַת",
+   "transliterated_name": "ṣappaḥat",
+   "first_mention_verse": "1KGS.17.12"
+  },
+  {
+   "entity_id": "deity.yhwh",
+   "tipnr_id": "LORD@Gen.1.1-Rev",
+   "entity_type": "DEITY",
+   "source_script_name": "יְהוָה",
+   "transliterated_name": "YHWH",
+   "first_mention_verse": "1KGS.17.1"
+  },
+  {
+   "entity_id": "group.ravens",
+   "entity_type": "GROUP",
+   "source_script_name": "עֹרְבִים",
+   "transliterated_name": "ʿōrəḇîm",
+   "first_mention_verse": "1KGS.17.4"
+  },
+  {
+   "entity_id": "loc.cherith",
+   "tipnr_id": "Cherith@1Ki.17.3-",
+   "entity_type": "LOCATION",
+   "source_script_name": "כְּרִית",
+   "transliterated_name": "Kərît",
+   "first_mention_verse": "1KGS.17.3"
+  },
+  {
+   "entity_id": "loc.gilead",
+   "tipnr_id": "Gilead@Gen.31.21-Zec",
+   "entity_type": "LOCATION",
+   "source_script_name": "גִּלְעָד",
+   "transliterated_name": "Gilʿād",
+   "first_mention_verse": "1KGS.17.1"
+  },
+  {
+   "entity_id": "loc.jordan",
+   "tipnr_id": "Jordan@Gen.13.10-Jhn",
+   "entity_type": "LOCATION",
+   "source_script_name": "יַרְדֵּן",
+   "transliterated_name": "Yardēn",
+   "first_mention_verse": "1KGS.17.3"
+  },
+  {
+   "entity_id": "loc.sidon",
+   "tipnr_id": "Sidon@Gen.10.19-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "צִידוֹן",
+   "transliterated_name": "Ṣîḏôn",
+   "first_mention_verse": "1KGS.17.9"
+  },
+  {
+   "entity_id": "loc.tishbe",
+   "tipnr_id": "Tishbe@1Ki.17.1-2Ki",
+   "entity_type": "LOCATION",
+   "source_script_name": "תִּשְׁבִּי",
+   "transliterated_name": "Tišbî",
+   "first_mention_verse": "1KGS.17.1"
+  },
+  {
+   "entity_id": "loc.widows_upper_room",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֲלִיָּה",
+   "transliterated_name": "ʿălîyyâ",
+   "first_mention_verse": "1KGS.17.19"
+  },
+  {
+   "entity_id": "loc.zarephath",
+   "tipnr_id": "Zarephath@1Ki.17.9-Luk",
+   "entity_type": "LOCATION",
+   "source_script_name": "צָרְפַתָה",
+   "transliterated_name": "Ṣārəpaṯâ",
+   "first_mention_verse": "1KGS.17.9"
+  },
+  {
+   "entity_id": "person.ahab",
+   "tipnr_id": "Ahab@1Ki.16.28-Mic",
+   "entity_type": "PERSON",
+   "source_script_name": "אַחְאָב",
+   "transliterated_name": "ʾAḥʾāb",
+   "first_mention_verse": "1KGS.17.1"
+  },
+  {
+   "entity_id": "person.elijah",
+   "tipnr_id": "Elijah@1Ki.17.1-Jas",
+   "entity_type": "PERSON",
+   "source_script_name": "אֵלִיָּהוּ",
+   "transliterated_name": "ʾĒlîyyāhû",
+   "first_mention_verse": "1KGS.17.1"
+  },
+  {
+   "entity_id": "person.widow_of_zarephath",
+   "entity_type": "PERSON",
+   "source_script_name": "אִשָּׁה אַלְמָנָה",
+   "transliterated_name": "ʾiššâ ʾalmānâ",
+   "first_mention_verse": "1KGS.17.9"
+  },
+  {
+   "entity_id": "person.widows_son",
+   "entity_type": "PERSON",
+   "source_script_name": "בֶּן־הָאִשָּׁה",
+   "transliterated_name": "bēn hāʾiššâ",
+   "first_mention_verse": "1KGS.17.17"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_word_to_prophet",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.drought_by_prophetic_word",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.oath_by_yhwh",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.raising_the_dead",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.supernatural_provision",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.1kgs_17.elijah_declares_drought",
+   "verse_start": "1KGS.17.1",
+   "verse_end": "1KGS.17.1",
+   "time": {
+    "anchor": "anchor.ahab_accession",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.5,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.5,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ahab",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.hidden_at_cherith",
+   "verse_start": "1KGS.17.2",
+   "verse_end": "1KGS.17.5",
+   "location_entity_id": "loc.cherith",
+   "time": {
+    "anchor": "evt.1kgs_17.elijah_declares_drought",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.ravens",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.fed_by_ravens_at_cherith",
+   "verse_start": "1KGS.17.6",
+   "verse_end": "1KGS.17.6",
+   "location_entity_id": "loc.cherith",
+   "time": {
+    "anchor": "evt.1kgs_17.hidden_at_cherith",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.ravens",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.brook_dries_up",
+   "verse_start": "1KGS.17.7",
+   "verse_end": "1KGS.17.7",
+   "location_entity_id": "loc.cherith",
+   "time": {
+    "anchor": "evt.1kgs_17.fed_by_ravens_at_cherith",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.cherith",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.sent_to_zarephath",
+   "verse_start": "1KGS.17.8",
+   "verse_end": "1KGS.17.10",
+   "location_entity_id": "loc.zarephath",
+   "time": {
+    "anchor": "evt.1kgs_17.brook_dries_up",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.widow_of_zarephath",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.widow_at_the_gate",
+   "verse_start": "1KGS.17.10",
+   "verse_end": "1KGS.17.14",
+   "location_entity_id": "loc.zarephath",
+   "time": {
+    "anchor": "evt.1kgs_17.sent_to_zarephath",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.widow_of_zarephath",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.meal_and_oil_do_not_fail",
+   "verse_start": "1KGS.17.15",
+   "verse_end": "1KGS.17.24",
+   "location_entity_id": "loc.zarephath",
+   "time": {
+    "anchor": "evt.1kgs_17.widow_at_the_gate",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.widow_of_zarephath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.widows_son",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.1kgs_17.widows_son_raised",
+   "parent_event_id": "evt.1kgs_17.meal_and_oil_do_not_fail",
+   "verse_start": "1KGS.17.17",
+   "verse_end": "1KGS.17.24",
+   "location_entity_id": "loc.widows_upper_room",
+   "time": {
+    "anchor": "evt.1kgs_17.meal_and_oil_do_not_fail",
+    "anchor_point": "START",
+    "offset": {
+     "value": 0.5,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 0.5,
+     "unit": "years"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.elijah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.widow_of_zarephath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.widows_son",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.1kgs_17.brook_dries_up.sent_to_zarephath",
+   "cause_event_id": "evt.1kgs_17.brook_dries_up",
+   "effect_event_id": "evt.1kgs_17.sent_to_zarephath",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.1kgs_17.elijah_declares_drought.brook_dries_up",
+   "cause_event_id": "evt.1kgs_17.elijah_declares_drought",
+   "effect_event_id": "evt.1kgs_17.brook_dries_up",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.1kgs_17.hidden_at_cherith.fed_by_ravens_at_cherith",
+   "cause_event_id": "evt.1kgs_17.hidden_at_cherith",
+   "effect_event_id": "evt.1kgs_17.fed_by_ravens_at_cherith",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.1kgs_17.sent_to_zarephath.meal_and_oil_do_not_fail",
+   "cause_event_id": "evt.1kgs_17.sent_to_zarephath",
+   "effect_event_id": "evt.1kgs_17.meal_and_oil_do_not_fail",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.1kgs_17.widow_at_the_gate.meal_and_oil_do_not_fail",
+   "cause_event_id": "evt.1kgs_17.widow_at_the_gate",
+   "effect_event_id": "evt.1kgs_17.meal_and_oil_do_not_fail",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.elijah.dwelling.1",
+   "entity_id": "person.elijah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.cherith",
+   "acquired_at_verse": "1KGS.17.5",
+   "acquired_in_event": "evt.1kgs_17.hidden_at_cherith",
+   "expired_at_verse": "1KGS.17.10",
+   "expired_in_event": "evt.1kgs_17.sent_to_zarephath"
+  },
+  {
+   "component_id": "comp.elijah.dwelling.2",
+   "entity_id": "person.elijah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.zarephath",
+   "supersedes_component_id": "comp.elijah.dwelling.1",
+   "acquired_at_verse": "1KGS.17.10",
+   "acquired_in_event": "evt.1kgs_17.sent_to_zarephath"
+  },
+  {
+   "component_id": "comp.elijah.service.1",
+   "entity_id": "person.elijah",
+   "category": "ALLEGIANCE",
+   "component_key": "service",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "1KGS.17.1",
+   "acquired_in_event": "evt.1kgs_17.elijah_declares_drought"
+  },
+  {
+   "component_id": "comp.widow_of_zarephath.holds_meal.1",
+   "entity_id": "person.widow_of_zarephath",
+   "category": "POSSESSION",
+   "component_key": "holds_meal",
+   "target_entity_id": "artifact.meal_jar",
+   "acquired_at_verse": "1KGS.17.12",
+   "acquired_in_event": "evt.1kgs_17.widow_at_the_gate"
+  },
+  {
+   "component_id": "comp.widow_of_zarephath.holds_oil.1",
+   "entity_id": "person.widow_of_zarephath",
+   "category": "POSSESSION",
+   "component_key": "holds_oil",
+   "target_entity_id": "artifact.oil_jug",
+   "acquired_at_verse": "1KGS.17.12",
+   "acquired_in_event": "evt.1kgs_17.widow_at_the_gate"
+  },
+  {
+   "component_id": "comp.widow_of_zarephath.mood.1",
+   "entity_id": "person.widow_of_zarephath",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "RESIGNED_TO_DEATH",
+   "acquired_at_verse": "1KGS.17.12",
+   "acquired_in_event": "evt.1kgs_17.widow_at_the_gate",
+   "expired_at_verse": "1KGS.17.15",
+   "expired_in_event": "evt.1kgs_17.meal_and_oil_do_not_fail"
+  },
+  {
+   "component_id": "comp.widow_of_zarephath.mood.2",
+   "entity_id": "person.widow_of_zarephath",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "GRIEF",
+   "acquired_at_verse": "1KGS.17.17",
+   "acquired_in_event": "evt.1kgs_17.widows_son_raised",
+   "expired_at_verse": "1KGS.17.23",
+   "expired_in_event": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "component_id": "comp.widows_son.life.1",
+   "entity_id": "person.widows_son",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "1KGS.17.17",
+   "acquired_in_event": "evt.1kgs_17.widows_son_raised",
+   "expired_at_verse": "1KGS.17.22",
+   "expired_in_event": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "component_id": "comp.widows_son.life.2",
+   "entity_id": "person.widows_son",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "ALIVE",
+   "supersedes_component_id": "comp.widows_son.life.1",
+   "acquired_at_verse": "1KGS.17.22",
+   "acquired_in_event": "evt.1kgs_17.widows_son_raised"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.1kgs_17.child_revived",
+   "system_id": "sys.raising_the_dead",
+   "event_id": "evt.1kgs_17.widows_son_raised",
+   "verse_start": "1KGS.17.21",
+   "verse_end": "1KGS.17.22",
+   "initiator_entity_id": "person.elijah",
+   "target_entity_ids": [
+    "person.widows_son"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.widows_upper_room",
+   "tags": [
+    "stretched_three_times",
+    "prayer_heard"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.drought_decreed",
+   "system_id": "sys.drought_by_prophetic_word",
+   "event_id": "evt.1kgs_17.elijah_declares_drought",
+   "verse_start": "1KGS.17.1",
+   "verse_end": "1KGS.17.1",
+   "initiator_entity_id": "person.elijah",
+   "target_entity_ids": [
+    "person.ahab"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "judgment",
+    "withholding_rain"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.elijah_oath",
+   "system_id": "sys.oath_by_yhwh",
+   "event_id": "evt.1kgs_17.elijah_declares_drought",
+   "verse_start": "1KGS.17.1",
+   "verse_end": "1KGS.17.1",
+   "initiator_entity_id": "person.elijah",
+   "target_entity_ids": [
+    "person.ahab"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "oath_formula"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.jar_and_jug_do_not_fail",
+   "system_id": "sys.supernatural_provision",
+   "event_id": "evt.1kgs_17.meal_and_oil_do_not_fail",
+   "verse_start": "1KGS.17.15",
+   "verse_end": "1KGS.17.16",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.widow_of_zarephath",
+    "person.elijah",
+    "person.widows_son"
+   ],
+   "artifact_entity_ids": [
+    "artifact.meal_jar",
+    "artifact.oil_jug"
+   ],
+   "location_entity_id": "loc.zarephath",
+   "tags": [
+    "word_spoken_by_elijah",
+    "lasts_until_rain"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.ravens_feed",
+   "system_id": "sys.supernatural_provision",
+   "event_id": "evt.1kgs_17.fed_by_ravens_at_cherith",
+   "verse_start": "1KGS.17.6",
+   "verse_end": "1KGS.17.6",
+   "initiator_entity_id": "group.ravens",
+   "target_entity_ids": [
+    "person.elijah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.cherith",
+   "tags": [
+    "ravens",
+    "morning_and_evening"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.widow_oath",
+   "system_id": "sys.oath_by_yhwh",
+   "event_id": "evt.1kgs_17.widow_at_the_gate",
+   "verse_start": "1KGS.17.12",
+   "verse_end": "1KGS.17.12",
+   "initiator_entity_id": "person.widow_of_zarephath",
+   "target_entity_ids": [
+    "person.elijah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.zarephath",
+   "tags": [
+    "oath_formula",
+    "denial"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.word_to_cherith",
+   "system_id": "sys.divine_word_to_prophet",
+   "event_id": "evt.1kgs_17.hidden_at_cherith",
+   "verse_start": "1KGS.17.2",
+   "verse_end": "1KGS.17.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.elijah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.cherith",
+   "tags": [
+    "commission",
+    "hiding"
+   ]
+  },
+  {
+   "instance_id": "inst.1kgs_17.word_to_zarephath",
+   "system_id": "sys.divine_word_to_prophet",
+   "event_id": "evt.1kgs_17.sent_to_zarephath",
+   "verse_start": "1KGS.17.8",
+   "verse_end": "1KGS.17.9",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.elijah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "commission",
+    "widow_prepared"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.1kgs_17.elijah_asks_widow_for_bread",
+   "source_entity_id": "person.elijah",
+   "target_entity_id": "person.widow_of_zarephath",
+   "interaction_type": "REQUESTS",
+   "verse_id": "1KGS.17.11",
+   "event_id": "evt.1kgs_17.widow_at_the_gate"
+  },
+  {
+   "edge_id": "edge.1kgs_17.elijah_obeys_yhwh",
+   "source_entity_id": "person.elijah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "OBEYS",
+   "verse_id": "1KGS.17.5",
+   "event_id": "evt.1kgs_17.hidden_at_cherith"
+  },
+  {
+   "edge_id": "edge.1kgs_17.elijah_prays_to_yhwh",
+   "source_entity_id": "person.elijah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAYS_TO",
+   "verse_id": "1KGS.17.21",
+   "event_id": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "edge_id": "edge.1kgs_17.elijah_proclaims_drought",
+   "source_entity_id": "person.elijah",
+   "target_entity_id": "person.ahab",
+   "interaction_type": "PROCLAIMS",
+   "verse_id": "1KGS.17.1",
+   "event_id": "evt.1kgs_17.elijah_declares_drought"
+  },
+  {
+   "edge_id": "edge.1kgs_17.elijah_returns_son_to_mother",
+   "source_entity_id": "person.elijah",
+   "target_entity_id": "person.widow_of_zarephath",
+   "interaction_type": "RETURNS",
+   "verse_id": "1KGS.17.23",
+   "event_id": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "edge_id": "edge.1kgs_17.ravens_feed_elijah",
+   "source_entity_id": "group.ravens",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "FEEDS",
+   "verse_id": "1KGS.17.6",
+   "event_id": "evt.1kgs_17.fed_by_ravens_at_cherith"
+  },
+  {
+   "edge_id": "edge.1kgs_17.widow_accuses_elijah",
+   "source_entity_id": "person.widow_of_zarephath",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "ACCUSES",
+   "verse_id": "1KGS.17.18",
+   "event_id": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "edge_id": "edge.1kgs_17.widow_obeys_elijah",
+   "source_entity_id": "person.widow_of_zarephath",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "OBEYS",
+   "verse_id": "1KGS.17.15",
+   "event_id": "evt.1kgs_17.meal_and_oil_do_not_fail"
+  },
+  {
+   "edge_id": "edge.1kgs_17.widow_recognizes_elijah",
+   "source_entity_id": "person.widow_of_zarephath",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "RECOGNIZES",
+   "verse_id": "1KGS.17.24",
+   "event_id": "evt.1kgs_17.widows_son_raised"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_commands_elijah_to_cherith",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "1KGS.17.3",
+   "event_id": "evt.1kgs_17.hidden_at_cherith"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_commands_elijah_to_zarephath",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.elijah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "1KGS.17.9",
+   "event_id": "evt.1kgs_17.sent_to_zarephath"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_commands_ravens",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.ravens",
+   "interaction_type": "COMMANDS",
+   "verse_id": "1KGS.17.4",
+   "event_id": "evt.1kgs_17.hidden_at_cherith"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_promises_widow",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.widow_of_zarephath",
+   "interaction_type": "PROMISES",
+   "verse_id": "1KGS.17.14",
+   "event_id": "evt.1kgs_17.widow_at_the_gate"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_provides_for_widow",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.widow_of_zarephath",
+   "interaction_type": "PROVIDES",
+   "verse_id": "1KGS.17.16",
+   "event_id": "evt.1kgs_17.meal_and_oil_do_not_fail"
+  },
+  {
+   "edge_id": "edge.1kgs_17.yhwh_restores_child",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.widows_son",
+   "interaction_type": "RESTORES_LIFE",
+   "verse_id": "1KGS.17.22",
+   "event_id": "evt.1kgs_17.widows_son_raised"
+  }
+ ]
+}

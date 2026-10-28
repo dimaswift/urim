@@ -15,6 +15,41 @@
         "margin": {"value": 220, "unit": "years"},
         "precision_tier": "MACRO_ERA",
         "basis": "Masoretic chain from Thiele's date for the founding of Solomon's temple in his fourth year (966 BCE): the 480th year after the Exodus (1 Kgs 6:1) puts the Exodus c. 1446 BCE; Israel's 430 years in Egypt (Ex 12:40-41, MT) put Jacob's descent c. 1876 BCE; Joseph was then 39 (30 when he stood before Pharaoh, Gen 41:46, then seven years of plenty and two of famine, Gen 45:6), so born c. 1915 BCE. Month unknown. The margin covers a 13th-century Exodus (about 185 years later) and the LXX and Samaritan reading of Ex 12:40, which counts the 430 years from Abraham's arrival in Canaan (about 215 years later)."
+      },
+      {
+        "anchor_id": "anchor.jacob_birth",
+        "date": {"year": 2006, "era": "BCE", "month": 1, "day": 1},
+        "margin": {"value": 220, "unit": "years"},
+        "precision_tier": "MACRO_ERA",
+        "basis": "The Masoretic chain back from anchor.joseph_birth (c. 1915 BCE): Jacob was 130 when he stood before Pharaoh (Gen 47:9), in the second year of the famine, when Joseph was 39 (Gen 41:46, 45:6); so Jacob was 91 at Joseph's birth, born c. 2006 BCE. Month unknown; the margin is Joseph's."
+      },
+      {
+        "anchor_id": "anchor.isaac_birth",
+        "date": {"year": 2066, "era": "BCE", "month": 1, "day": 1},
+        "margin": {"value": 220, "unit": "years"},
+        "precision_tier": "MACRO_ERA",
+        "basis": "Isaac was sixty when Rebekah bore Jacob and Esau (Gen 25:26): 60 years before anchor.jacob_birth, c. 2066 BCE. Month unknown; the margin is Joseph's."
+      },
+      {
+        "anchor_id": "anchor.abraham_birth",
+        "date": {"year": 2166, "era": "BCE", "month": 1, "day": 1},
+        "margin": {"value": 220, "unit": "years"},
+        "precision_tier": "MACRO_ERA",
+        "basis": "Abraham was a hundred when Isaac was born (Gen 21:5): 100 years before anchor.isaac_birth, c. 2166 BCE (Anno Mundi 1948 in the Masoretic count). Month unknown; the margin is Joseph's."
+      },
+      {
+        "anchor_id": "anchor.flood",
+        "date": {"year": 2458, "era": "BCE", "month": 1, "day": 1},
+        "margin": {"value": 280, "unit": "years"},
+        "precision_tier": "MACRO_ERA",
+        "basis": "The year the Flood began, Noah's six hundredth (Gen 7:6, 7:11), counted forward from it by Gen 11:10-26 (MT): Arpachshad was born two years after the Flood, then Shelah 35, Eber 30, Peleg 34, Reu 30, Serug 32, Nahor 29 and Abram 70 years after each father's birth, so Abram was born 292 years after the Flood began: 292 years before anchor.abraham_birth, c. 2458 BCE (Anno Mundi 1656). The day in the text's own calendar (the second month, the seventeenth day) belongs to the chronologist, not to this anchor. The margin adds 60 years to Joseph's 220 for the reading that Abram was born when Terah was 130, not 70 (Terah died at 205 in Haran, Gen 11:32, and Abram left at 75 after his death, Gen 12:4; Acts 7:4). The LXX and Samaritan ages in Gen 11 are a different chronology, not this margin."
+      },
+      {
+        "anchor_id": "anchor.creation",
+        "date": {"year": 4113, "era": "BCE", "month": 1, "day": 1},
+        "margin": {"value": 280, "unit": "years"},
+        "precision_tier": "MACRO_ERA",
+        "basis": "Anno Mundi 1 in the Masoretic count: the ages at which each father begat his son in Gen 5 (Adam 130, Seth 105, Enosh 90, Kenan 70, Mahalalel 65, Jared 162, Enoch 65, Methuselah 187, Lamech 182) put Noah's birth in AM 1056 and the Flood, in his six hundredth year, in AM 1656: 1655 years before anchor.flood, c. 4113 BCE. This dates the text's own chronology, not the age of the earth. The margin is the Flood's; the LXX's ages in Gen 5 and 11 put creation more than a thousand years earlier, which is a different chronology, not this margin."
       }
     ]
   }

@@ -1,0 +1,1582 @@
+{
+ "chapter_ref": "1KGS.17",
+ "items": {
+  "causal:caus.1kgs_17.brook_dries_up.sent_to_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T19:51:06+00:00",
+   "agent_notes": [
+    "Inferred at confidence 0.6: the text gives no reason for the move to Zarephath, only the drying and then the word."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:49+00:00",
+     "note": null
+    }
+   ]
+  },
+  "causal:caus.1kgs_17.elijah_declares_drought.brook_dries_up": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T19:51:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:48+00:00",
+     "note": null
+    }
+   ]
+  },
+  "causal:caus.1kgs_17.hidden_at_cherith.fed_by_ravens_at_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:48+00:00",
+     "note": null
+    }
+   ]
+  },
+  "causal:caus.1kgs_17.sent_to_zarephath.meal_and_oil_do_not_fail": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:50+00:00",
+     "note": null
+    }
+   ]
+  },
+  "causal:caus.1kgs_17.widow_at_the_gate.meal_and_oil_do_not_fail": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T19:51:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:51+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.elijah.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:44+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.elijah.dwelling.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:44+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.elijah.service.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "'Before whom I stand' (17:1) is read as a standing service to the LORD. Inferred from one phrase; the reviewer may prefer no state here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:43+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widow_of_zarephath.holds_meal.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:47+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widow_of_zarephath.holds_oil.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:48+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widow_of_zarephath.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Mood states are inferred from her words, since the text names no emotion. mood.1 ends at 17:15, when she acts on Elijah's word; that endpoint is also inferred."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:48+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widow_of_zarephath.mood.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Grief is inferred from the son's death and her accusation (17:17 to 17:18). It is not named in the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:49+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widows_son.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:51+00:00",
+     "note": null
+    }
+   ]
+  },
+  "component:comp.widows_son.life.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:52+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.elijah_asks_widow_for_bread": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:59+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.elijah_obeys_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:58+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.elijah_prays_to_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:05+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.elijah_proclaims_drought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:57+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.elijah_returns_son_to_mother": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:06+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.ravens_feed_elijah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:58+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.widow_accuses_elijah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:04+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.widow_obeys_elijah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:00+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.widow_recognizes_elijah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:07+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_commands_elijah_to_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:57+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_commands_elijah_to_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:58+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_commands_ravens": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:57+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_promises_widow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:59+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_provides_for_widow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:02+00:00",
+     "note": null
+    }
+   ]
+  },
+  "edge:edge.1kgs_17.yhwh_restores_child": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:26:05+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:artifact.meal_jar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "The jar and jug are artifacts because the miracle turns on them (17:14, 17:16). Each has its own POSSESSION slot (holds_meal, holds_oil), since one slot holds one value at a time and a single 'holds' slot would clash."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:38+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:artifact.oil_jug": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:38+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:deity.yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "tipnr_id is the registry entry LORD@Gen.1.1-Rev. The word-level tags in the text show LORD@Gen.1.1-Heb; check that both point to the same registry record. 'God of Israel' (17:1, 17:14) is the divine title, so it names the deity; no nation or patriarch entity is created, and the registry's person.israel is not used in this chapter."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:31+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:group.ravens": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Ravens are typed GROUP because the schema has no animal type and the flock acts as provider (17:4, 17:6). Check the type."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:36+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "The brook's identification is uncertain: 17:3 gives 'east' and 'before Jordan' / 'on the face of the Jordan'. Coordinates come only from the registry through tipnr_id."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:34+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.gilead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:31+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.jordan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Kept because the registry names it and Cherith is located relative to it. No event in this chapter takes place at the Jordan."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:35+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.sidon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:36+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.tishbe": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Named only through the gentilic 'the Tishbite' (17:1); no town name appears in this chapter, so source_script_name is the gentilic form. Check the registry coordinates against the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:32+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.widows_upper_room": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Unnamed room with no registry entry, so no coordinates. Geo fields are empty."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:39+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:loc.zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:37+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:person.ahab": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "17:1 names Ahab but does not call him king, so no office state is recorded here; the kingship belongs to chapter 16, which is not in the corpus yet. first_mention_verse is 1KGS.17.1 for now; if chapter 16 is processed later, move it there."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:32+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:person.elijah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:33+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:person.widow_of_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:38+00:00",
+     "note": null
+    }
+   ]
+  },
+  "entity:person.widows_son": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:39+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.brook_dries_up": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:39+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.elijah_declares_drought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "MACRO_ERA: the chapter gives no year, so the window covers the whole reign, 874 to 853 BCE (offset 10.5, margin 10.5 years), on top of the anchor's own +/- 1 year. Rejected: REGNAL_YEAR, which needs a year number, and dating from 18:1's 'third year', which is outside this chapter. If a later session dates the declaration itself, narrow this margin."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:46+00:00",
+     "note": "precision_tier should be MACRO_ERA: the chapter sets the declaration in Ahab's reign but gives no year number. REGNAL_YEAR needs a numbered year."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:36+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.fed_by_ravens_at_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "Six months is a placeholder for 'at the end of days' (17:7), not a figure from the text; the packet has no commentary on that phrase. The margin on brook_dries_up carries that uncertainty. The ravens come daily, so the event stands for the whole stay."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:44+00:00",
+     "note": "The note says the stay starts one hour after the arrival at Cherith. The delay is in margin, not offset, so the event starts the moment its anchor ends. Put the delay in offset and keep margin for the uncertainty (or change the note if no delay is meant). Also add FULFILLS_PROPHECY from evt.1kgs_17.hidden_at_cherith to this event: 17:4 'I have commanded the ravens to feed you there' comes true at 17:6."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:38+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.hidden_at_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "Measured from Gilead, one day on foot. Ahab's court is not named in the packet, so the start and duration shift if the court was far from Gilead. Considered and dropped: a causal link from the declaration to the hiding, since the text gives no reason for the hiding."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:43+00:00",
+     "note": "The note says the event starts one day after the declaration. The delay is in margin, not offset, so the event starts the moment its anchor ends. Put the delay in offset and keep margin for the uncertainty (or change the note if no delay is meant)."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:37+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.meal_and_oil_do_not_fail": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "One year, from Metzudat Zion's gloss on 'days' in 17:15 ('our sages said: a year'); the text itself gives no number. 1 Kings 18:1 places the summons in the drought's third year. The placeholder for the Cherith stay (six months) plus this one year come to about 1.5 years, which is short if 18:1's third year is counted from the start of the drought. The chapter 18 session should reconcile the stays with 18:1; I did not extrapolate that from outside this chapter. Chapter 18 should also write the FULFILLS_PROPHECY links to the rain of 18:1, from evt.1kgs_17.elijah_declares_drought and from evt.1kgs_17.widow_at_the_gate (the promise of 17:14)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:46+00:00",
+     "note": "The note says the stay starts one day after the encounter. The delay is in margin, not offset, so the event starts the moment its anchor ends. Put the delay in offset and keep margin for the uncertainty (or change the note if no delay is meant). Also add FULFILLS_PROPHECY from evt.1kgs_17.sent_to_zarephath to the event where the widow sustains him: 17:9 'I have commanded a widow there to sustain you' comes true from 17:15."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:44+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.sent_to_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "Five days on foot from Cherith, walk mode because the text gives a command, not a flight. A different Cherith location would change this figure."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:44+00:00",
+     "note": "The note says the event starts one day after the brook dries. The delay is in margin, not offset, so the event starts the moment its anchor ends. Put the delay in offset and keep margin for the uncertainty (or change the note if no delay is meant)."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.widow_at_the_gate": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-27T20:05:45+00:00",
+     "note": "The note says the encounter starts one hour after the arrival at the gate. The delay is in margin, not offset, so the event starts the moment its anchor ends. Put the delay in offset and keep margin for the uncertainty (or change the note if no delay is meant)."
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:43+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event:evt.1kgs_17.widows_son_raised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:09:46+00:00",
+   "agent_notes": [
+    "No time is claimed inside the stay: the offset is the midpoint of the one-year stay. I read 17:17's 'after these things' as during the stay, not after it. The one-day duration is an estimate. Split 'son falls ill' from 'son raised' if the reviewer wants separate beats."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:13:46+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.brook_dries_up": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:18+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.elijah_declares_drought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "No place recorded: the text does not say where Elijah speaks to Ahab. Left out rather than guessed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:08+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.fed_by_ravens_at_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:16+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.hidden_at_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:12+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.meal_and_oil_do_not_fail": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:28+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.sent_to_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:21+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.widow_at_the_gate": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:26+00:00",
+     "note": null
+    }
+   ]
+  },
+  "event_links:evt.1kgs_17.widows_son_raised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Placed in the upper room (17:19 to 17:22). The event ends with the boy brought down to the house (17:23), so the upper room is the centre of the scene rather than its end."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:30+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.child_revived": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:56+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.drought_decreed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:52+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.elijah_oath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:53+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.jar_and_jug_do_not_fail": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:56+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.ravens_feed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:54+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.widow_oath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:55+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.word_to_cherith": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:54+00:00",
+     "note": null
+    }
+   ]
+  },
+  "instance:inst.1kgs_17.word_to_zarephath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:55+00:00",
+     "note": null
+    }
+   ]
+  },
+  "system:sys.divine_word_to_prophet": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "system:sys.drought_by_prophetic_word": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Typed SUPERNATURAL_ACT: the withholding of rain is the act, and the prophet's word is its cause. The word-to-prophet commission is the separate PROPHETIC_ORACLE system sys.divine_word_to_prophet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "system:sys.oath_by_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [
+    "Defined from two oath formulas (17:1, 17:12). Typed LEGAL_CUSTOM because the schema has no oath category."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "system:sys.raising_the_dead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:43+00:00",
+     "note": null
+    }
+   ]
+  },
+  "system:sys.supernatural_provision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T20:18:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T20:25:42+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "First verse of the chapter, so there was no previous dramatic text to continue; the voice is set here. Glosses 21 and 22 correct STEPBible’s split “that / except”: kî ʾim is one unit, “except”. I kept the Masoretic mittôšābê as “resident aliens (dwellers)”. The BBE’s “of Tishbe in Gilead” follows another reading of the same consonants (from Tishbe); I recall the Septuagint reads it that way but did not verify. The Ugaritic points (Baal as Rider on the Clouds, dew as his daughter Ṭallay) are from my own background knowledge, not from the packet, so they have no source in the note. The Hiel / Joshua / Moses midrash is Rashi, Radak and Metzudat David and is labelled as rabbinic story, not text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "I contrast Rashi (Elijah does not recognise her, sets the Eliezer sign) with Malbim (he recognises her and probes). The Num 15:32–33 parallel for mĕqōšēš ʿēṣîm is from my own recall and hedged “as far as I can tell”. The “well-scene turned over” reading (Gen 24:17 has the same words, meʿaṭ-mayim) is mine."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:45+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "Radak’s one-line comment on the lamed’s gaʿya is terse; my paraphrase is a reading, not a settled sense. The echo of Abraham’s “morsel of bread” (Gen 18:5) is my own and unsourced."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:46+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "“An ounce or two” for a palm’s fullness of flour is my own rough estimate. I say Ps 35:16 is the only other occurrence of māʿôg on Metzudat Zion’s citation plus my recall. The gloss “your God” as recognition of Elijah’s Israelite God is my reading. Packet glosses corrected: “that” for kî (pos 9), “wood<s>” for ʿēṣîm as “sticks”, and the kî ʾim pair as one unit."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:47+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "Radak’s claim that God had told Elijah to show himself to Ahab is attached to Radak’s comment on 17:1; it echoes the wording of 18:1, which lies outside this window."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:40+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "The Kerith site is disputed and I give both candidate locations without choosing. The link between Kerith (kārat, “cut”) and Jezebel “cutting off” the prophets in 18:4 is my own observation and I mark it “probably”; it has no source in the packet. The remark that front means east in the Hebrew compass is standard; BDB cited."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:41+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "“Ravens” follows the Masoretic pointing. The consonants ʿ-r-b-ym can also be read “Arabs” or “people of Orbo”; I did not use it, since it is a modern conjecture I could not source. Radak’s “merchants” reading is quoted from the packet. The Gen 47:12 and 1 Kgs 4:7 parallels for kilkēl are from my own recall of the text, not from the packet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:42+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:42+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "Five English versions split: the BBE reads “bread in the morning and meat in the evening”, while KJV, ASV, YLT and Webster double both. I followed the Masoretic text. My remark that the BBE follows the Greek, and that the Greek echoes Exod 16:8, 12, is from memory and should be checked."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:43+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "Two unsourced points of mine: that “days” can mean “a year”, and that geshem is the heavy winter downpour against māṭār (BDB is cited for the latter). Rashi’s paraphrase (“so Elijah would know the need for rain”) is my rendering of a terse Hebrew comment."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:44+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:44+00:00",
+     "note": null
+    }
+   ]
+  },
+  "verse.en:1KGS.17.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-27T21:01:17+00:00",
+   "agent_notes": [
+    "The Jonah 1:2 echo (“Arise, go”) is my own observation; Radak’s Jonah’s-mother midrash is from the packet. The name Zarephath as “smelter” (ṣārap) is mine and flagged as such. I give no distance from Kerith to Zarephath."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-27T21:19:45+00:00",
+     "note": null
+    }
+   ]
+  }
+ },
+ "notes": [
+  {
+   "note": "All 24 verses are covered; no framing verses are left out. Ahab's court is never named, so 'from here' (17:3) has no place and the first journey is measured from Gilead. The Cherith coordinates are low-confidence (0.335), so both journeys depend on them.",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-27T19:51:06+00:00"
+  },
+  {
+   "note": "All 24 verses are covered; no framing verses are left out. Ahab's court is never named, so 'from here' (17:3) has no place: the first journey is measured from Gilead, and a leg from the court may be longer. The Cherith coordinates are low-confidence (0.335), so both journeys depend on them. Start times now follow the text's order: where the text gives no interval, the start is right after the anchor, with the uncertainty in the margin and no offset.",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-chronologist@2",
+    "run": "main"
+   },
+   "at": "2026-10-27T20:09:46+00:00"
+  },
+  {
+   "note": "The system catalog was empty, so all five systems are defined here for the first time. Each is named for what is done (sys.raising_the_dead), not for who did it once.",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-27T20:18:37+00:00"
+  },
+  {
+   "note": "Sources are limited to the commentaries in the packet, cited by name and verse. No lexicon (BDB, HALOT) is cited, because I have not checked one here. Root entries are my reading.",
+   "produced_by": {
+    "model": "claude-haiku-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-27T20:35:10+00:00"
+  }
+ ]
+}

@@ -1,0 +1,790 @@
+{
+ "chapter_ref": "GEN.39",
+ "entities": [
+  {
+   "entity_id": "artifact.garment_of_joseph_at_potiphar",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "בֶּגֶד",
+   "transliterated_name": "beged",
+   "first_mention_verse": "GEN.39.12"
+  },
+  {
+   "entity_id": "group.hebrews",
+   "tipnr_id": "Hebrews@Gen.14.13-Heb",
+   "entity_type": "GROUP",
+   "source_script_name": "עִבְרִים",
+   "transliterated_name": "ʿibrîm",
+   "first_mention_verse": "GEN.39.14"
+  },
+  {
+   "entity_id": "group.household_men_of_potiphar",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי הַבַּיִת",
+   "transliterated_name": "ʾanšê habbayit",
+   "first_mention_verse": "GEN.39.11"
+  },
+  {
+   "entity_id": "group.royal_prisoners",
+   "entity_type": "GROUP",
+   "source_script_name": "אֲסִירֵי הַמֶּלֶךְ",
+   "transliterated_name": "ʾăsîrê hammelek",
+   "first_mention_verse": "GEN.39.20"
+  },
+  {
+   "entity_id": "loc.potiphars_house",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית אֲדֹנָיו",
+   "transliterated_name": "bêt ʾădōnāyw",
+   "first_mention_verse": "GEN.39.2"
+  },
+  {
+   "entity_id": "loc.royal_prison",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית הַסֹּהַר",
+   "transliterated_name": "bêt hassōhar",
+   "first_mention_verse": "GEN.39.20"
+  },
+  {
+   "entity_id": "person.keeper_of_prison",
+   "entity_type": "PERSON",
+   "source_script_name": "שַׂר בֵּית־הַסֹּהַר",
+   "transliterated_name": "śar bêt-hassōhar",
+   "first_mention_verse": "GEN.39.21"
+  },
+  {
+   "entity_id": "person.potiphars_wife",
+   "entity_type": "PERSON",
+   "source_script_name": "אֵשֶׁת אֲדֹנָיו",
+   "transliterated_name": "ʾēšet ʾădōnāyw",
+   "first_mention_verse": "GEN.39.7"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_blessing_prosperity",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.false_accusation",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.imprisonment",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_39.joseph_bought",
+   "verse_start": "GEN.39.1",
+   "verse_end": "GEN.39.1",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_37.sold_to_potiphar",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.ishmaelites",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.joseph_prospers_in_house",
+   "verse_start": "GEN.39.2",
+   "verse_end": "GEN.39.3",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.joseph_bought",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.joseph_made_overseer",
+   "verse_start": "GEN.39.4",
+   "verse_end": "GEN.39.6",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.joseph_prospers_in_house",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.wife_propositions_joseph",
+   "verse_start": "GEN.39.7",
+   "verse_end": "GEN.39.7",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.joseph_made_overseer",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.joseph_refuses",
+   "verse_start": "GEN.39.8",
+   "verse_end": "GEN.39.9",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.wife_propositions_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.daily_pressure",
+   "verse_start": "GEN.39.10",
+   "verse_end": "GEN.39.10",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.joseph_refuses",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.garment_incident",
+   "verse_start": "GEN.39.11",
+   "verse_end": "GEN.39.12",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.daily_pressure",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.household_men_of_potiphar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.wife_calls_household",
+   "verse_start": "GEN.39.13",
+   "verse_end": "GEN.39.15",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.garment_incident",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.household_men_of_potiphar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.wife_accuses_joseph_to_potiphar",
+   "verse_start": "GEN.39.16",
+   "verse_end": "GEN.39.18",
+   "location_entity_id": "loc.potiphars_house",
+   "time": {
+    "anchor": "evt.gen_39.wife_calls_household",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.joseph_jailed",
+   "verse_start": "GEN.39.19",
+   "verse_end": "GEN.39.20",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_39.wife_accuses_joseph_to_potiphar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.royal_prisoners",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphars_wife",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_39.joseph_favored_in_prison",
+   "verse_start": "GEN.39.21",
+   "verse_end": "GEN.39.23",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_39.joseph_jailed",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.royal_prisoners",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.keeper_of_prison",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_39.garment_incident.wife_calls_household",
+   "cause_event_id": "evt.gen_39.garment_incident",
+   "effect_event_id": "evt.gen_39.wife_calls_household",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_39.joseph_jailed.joseph_favored_in_prison",
+   "cause_event_id": "evt.gen_39.joseph_jailed",
+   "effect_event_id": "evt.gen_39.joseph_favored_in_prison",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_39.joseph_prospers_in_house.joseph_made_overseer",
+   "cause_event_id": "evt.gen_39.joseph_prospers_in_house",
+   "effect_event_id": "evt.gen_39.joseph_made_overseer",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_39.joseph_refuses.wife_accuses_joseph_to_potiphar",
+   "cause_event_id": "evt.gen_39.joseph_refuses",
+   "effect_event_id": "evt.gen_39.wife_accuses_joseph_to_potiphar",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_39.wife_accuses_joseph_to_potiphar.joseph_jailed",
+   "cause_event_id": "evt.gen_39.wife_accuses_joseph_to_potiphar",
+   "effect_event_id": "evt.gen_39.joseph_jailed",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.garment_of_joseph_at_potiphar.holder.1",
+   "entity_id": "artifact.garment_of_joseph_at_potiphar",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.potiphars_wife",
+   "acquired_at_verse": "GEN.39.12",
+   "acquired_in_event": "evt.gen_39.garment_incident"
+  },
+  {
+   "component_id": "comp.joseph.divine_presence.1",
+   "entity_id": "person.joseph",
+   "category": "ALLEGIANCE",
+   "component_key": "divine_presence",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.39.2",
+   "acquired_in_event": "evt.gen_39.joseph_prospers_in_house"
+  },
+  {
+   "component_id": "comp.joseph.office.1",
+   "entity_id": "person.joseph",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "HOUSEHOLD_OVERSEER",
+   "acquired_at_verse": "GEN.39.4",
+   "acquired_in_event": "evt.gen_39.joseph_made_overseer",
+   "expired_at_verse": "GEN.39.20",
+   "expired_in_event": "evt.gen_39.joseph_jailed"
+  },
+  {
+   "component_id": "comp.joseph.office.2",
+   "entity_id": "person.joseph",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "PRISON_ADMINISTRATOR",
+   "acquired_at_verse": "GEN.39.22",
+   "acquired_in_event": "evt.gen_39.joseph_favored_in_prison"
+  },
+  {
+   "component_id": "comp.joseph.residence.1",
+   "entity_id": "person.joseph",
+   "category": "LOCATION_STATE",
+   "component_key": "residence",
+   "target_entity_id": "loc.potiphars_house",
+   "acquired_at_verse": "GEN.39.2",
+   "acquired_in_event": "evt.gen_39.joseph_prospers_in_house",
+   "expired_at_verse": "GEN.39.20",
+   "expired_in_event": "evt.gen_39.joseph_jailed"
+  },
+  {
+   "component_id": "comp.joseph.residence.2",
+   "entity_id": "person.joseph",
+   "category": "LOCATION_STATE",
+   "component_key": "residence",
+   "target_entity_id": "loc.royal_prison",
+   "supersedes_component_id": "comp.joseph.residence.1",
+   "acquired_at_verse": "GEN.39.20",
+   "acquired_in_event": "evt.gen_39.joseph_jailed"
+  },
+  {
+   "component_id": "comp.potiphar.mood.1",
+   "entity_id": "person.potiphar",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "ANGRY",
+   "acquired_at_verse": "GEN.39.19",
+   "acquired_in_event": "evt.gen_39.joseph_jailed"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_39.accusation_before_household",
+   "system_id": "sys.false_accusation",
+   "event_id": "evt.gen_39.wife_calls_household",
+   "verse_start": "GEN.39.14",
+   "verse_end": "GEN.39.15",
+   "initiator_entity_id": "person.potiphars_wife",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [
+    "artifact.garment_of_joseph_at_potiphar"
+   ],
+   "location_entity_id": "loc.potiphars_house",
+   "tags": [
+    "outcry",
+    "ethnic_slur"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_39.accusation_before_potiphar",
+   "system_id": "sys.false_accusation",
+   "event_id": "evt.gen_39.wife_accuses_joseph_to_potiphar",
+   "verse_start": "GEN.39.16",
+   "verse_end": "GEN.39.18",
+   "initiator_entity_id": "person.potiphars_wife",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [
+    "artifact.garment_of_joseph_at_potiphar"
+   ],
+   "location_entity_id": "loc.potiphars_house",
+   "tags": [
+    "garment_as_evidence"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_39.blessing_on_potiphars_house",
+   "system_id": "sys.divine_blessing_prosperity",
+   "event_id": "evt.gen_39.joseph_made_overseer",
+   "verse_start": "GEN.39.5",
+   "verse_end": "GEN.39.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.potiphar",
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.potiphars_house",
+   "tags": [
+    "blessing",
+    "for_josephs_sake"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_39.joseph_imprisoned",
+   "system_id": "sys.imprisonment",
+   "event_id": "evt.gen_39.joseph_jailed",
+   "verse_start": "GEN.39.19",
+   "verse_end": "GEN.39.20",
+   "initiator_entity_id": "person.potiphar",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.royal_prison",
+   "tags": [
+    "no_trial_recorded"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_39.prosperity_in_house",
+   "system_id": "sys.divine_blessing_prosperity",
+   "event_id": "evt.gen_39.joseph_prospers_in_house",
+   "verse_start": "GEN.39.2",
+   "verse_end": "GEN.39.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.potiphars_house",
+   "tags": [
+    "presence",
+    "success"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_39.prosperity_in_prison",
+   "system_id": "sys.divine_blessing_prosperity",
+   "event_id": "evt.gen_39.joseph_favored_in_prison",
+   "verse_start": "GEN.39.21",
+   "verse_end": "GEN.39.23",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.royal_prison",
+   "tags": [
+    "presence",
+    "favor"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_39.joseph_refuses_wife",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.potiphars_wife",
+   "interaction_type": "REFUSES",
+   "verse_id": "GEN.39.8",
+   "event_id": "evt.gen_39.joseph_refuses"
+  },
+  {
+   "edge_id": "edge.gen_39.keeper_entrusts_prisoners",
+   "source_entity_id": "person.keeper_of_prison",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "ENTRUSTS",
+   "verse_id": "GEN.39.22",
+   "event_id": "evt.gen_39.joseph_favored_in_prison"
+  },
+  {
+   "edge_id": "edge.gen_39.potiphar_appoints_joseph",
+   "source_entity_id": "person.potiphar",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "APPOINTS",
+   "verse_id": "GEN.39.4",
+   "event_id": "evt.gen_39.joseph_made_overseer"
+  },
+  {
+   "edge_id": "edge.gen_39.potiphar_buys_joseph",
+   "source_entity_id": "person.potiphar",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PURCHASES",
+   "verse_id": "GEN.39.1",
+   "event_id": "evt.gen_39.joseph_bought"
+  },
+  {
+   "edge_id": "edge.gen_39.potiphar_imprisons_joseph",
+   "source_entity_id": "person.potiphar",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "IMPRISONS",
+   "verse_id": "GEN.39.20",
+   "event_id": "evt.gen_39.joseph_jailed"
+  },
+  {
+   "edge_id": "edge.gen_39.wife_accuses_joseph_household",
+   "source_entity_id": "person.potiphars_wife",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.39.14",
+   "event_id": "evt.gen_39.wife_calls_household"
+  },
+  {
+   "edge_id": "edge.gen_39.wife_accuses_joseph_potiphar",
+   "source_entity_id": "person.potiphars_wife",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.39.17",
+   "event_id": "evt.gen_39.wife_accuses_joseph_to_potiphar"
+  },
+  {
+   "edge_id": "edge.gen_39.wife_seizes_joseph",
+   "source_entity_id": "person.potiphars_wife",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SEIZES",
+   "verse_id": "GEN.39.12",
+   "event_id": "evt.gen_39.garment_incident"
+  },
+  {
+   "edge_id": "edge.gen_39.wife_solicits_joseph",
+   "source_entity_id": "person.potiphars_wife",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SOLICITS",
+   "verse_id": "GEN.39.7",
+   "event_id": "evt.gen_39.wife_propositions_joseph"
+  },
+  {
+   "edge_id": "edge.gen_39.yhwh_blesses_potiphar",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.potiphar",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.39.5",
+   "event_id": "evt.gen_39.joseph_made_overseer"
+  },
+  {
+   "edge_id": "edge.gen_39.yhwh_favors_joseph_in_prison",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "FAVORS",
+   "verse_id": "GEN.39.21",
+   "event_id": "evt.gen_39.joseph_favored_in_prison"
+  },
+  {
+   "edge_id": "edge.gen_39.yhwh_prospers_joseph",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PROSPERS",
+   "verse_id": "GEN.39.3",
+   "event_id": "evt.gen_39.joseph_prospers_in_house"
+  }
+ ]
+}

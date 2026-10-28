@@ -1,0 +1,3372 @@
+{
+ "chapter_ref": "GEN.39",
+ "items": {
+  "causal.ru:caus.gen_39.garment_incident.wife_calls_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d0a1b7f9521"
+  },
+  "causal.ru:caus.gen_39.joseph_jailed.joseph_favored_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fbe16db110ec"
+  },
+  "causal.ru:caus.gen_39.joseph_prospers_in_house.joseph_made_overseer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b59f06878db2"
+  },
+  "causal.ru:caus.gen_39.joseph_refuses.wife_accuses_joseph_to_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ebb86fd63902"
+  },
+  "causal.ru:caus.gen_39.wife_accuses_joseph_to_potiphar.joseph_jailed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d22f1e5b4cce"
+  },
+  "causal:caus.gen_39.garment_incident.wife_calls_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_39.joseph_jailed.joseph_favored_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_39.joseph_prospers_in_house.joseph_made_overseer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_39.joseph_refuses.wife_accuses_joseph_to_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "The text does not state that the accusation is revenge, but her words (v14, v17) answer his refusal and flight. Confidence 0.8 as an inference."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": "[consider] Consider moving the cause to evt.gen_39.garment_incident (his flight is what she answers), or keep this link and add garment_incident -> wife_accuses_joseph_to_potiphar as ENABLES (the garment is her evidence). (GEN.39.13-16: \"when she saw that he had left his garment in her hand ... And she laid up his garment by her, until his lord came home\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_39.wife_accuses_joseph_to_potiphar.joseph_jailed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component.ru:comp.garment_of_joseph_at_potiphar.holder.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "765150792546"
+  },
+  "component.ru:comp.joseph.divine_presence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ade8551175b"
+  },
+  "component.ru:comp.joseph.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d7ff80ddaccc"
+  },
+  "component.ru:comp.joseph.office.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b644aedc9194"
+  },
+  "component.ru:comp.joseph.residence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ee5cb81ef67"
+  },
+  "component.ru:comp.joseph.residence.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66bdb8e8d970"
+  },
+  "component.ru:comp.potiphar.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e59d0a8bdab"
+  },
+  "component:comp.garment_of_joseph_at_potiphar.holder.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Left open: the text does not say what happens to the garment after Potiphar hears her."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.divine_presence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": "[consider] Consider a category or label that reads as divine favour on Joseph rather than Joseph's allegiance, if the schema offers one. (GEN.39.2: \"And the LORD was with Joseph\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.office.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Office slot reused after a gap in time: office.1 ends at 39:20 and office.2 opens at 39:22, so no supersedes link. Value PRISON_ADMINISTRATOR is my label for 39:22."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.residence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Inferred from 39:2 and 39:20 rather than a single stated verse. Slot named residence to keep the finer house and prison locations apart from comp.joseph.whereabouts.2 (Egypt), which stays open."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.residence.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.potiphar.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge.ru:edge.gen_39.joseph_refuses_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51228a9876a6"
+  },
+  "edge.ru:edge.gen_39.keeper_entrusts_prisoners": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5844d07caf43"
+  },
+  "edge.ru:edge.gen_39.potiphar_appoints_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "669fd9f5ddb3"
+  },
+  "edge.ru:edge.gen_39.potiphar_buys_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a8af8128781"
+  },
+  "edge.ru:edge.gen_39.potiphar_imprisons_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1761fd1e47c3"
+  },
+  "edge.ru:edge.gen_39.wife_accuses_joseph_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "edb04b107318"
+  },
+  "edge.ru:edge.gen_39.wife_accuses_joseph_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "572c9d2da902"
+  },
+  "edge.ru:edge.gen_39.wife_seizes_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6176fb249117"
+  },
+  "edge.ru:edge.gen_39.wife_solicits_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a151d12bd0ac"
+  },
+  "edge.ru:edge.gen_39.yhwh_blesses_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a8ae675f794"
+  },
+  "edge.ru:edge.gen_39.yhwh_favors_joseph_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [
+    "«shows loyalty to» передано как «являет верность»; в стихе 21 Синодального перевода «простер милость» (חסד)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fc05c32cfc7f"
+  },
+  "edge.ru:edge.gen_39.yhwh_prospers_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "138b493a7997"
+  },
+  "edge:edge.gen_39.joseph_refuses_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.keeper_entrusts_prisoners": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.potiphar_appoints_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.potiphar_buys_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.potiphar_imprisons_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.wife_accuses_joseph_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.wife_accuses_joseph_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.wife_seizes_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.wife_solicits_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.yhwh_blesses_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.yhwh_favors_joseph_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_39.yhwh_prospers_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity.ru:artifact.garment_of_joseph_at_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "077a8db747cb"
+  },
+  "entity.ru:group.hebrews": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [
+    "Синодальный перевод пишет «Еврей»; для группы взято «Евреи», alias «Еврей» сохранён."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8c2a89dffb64"
+  },
+  "entity.ru:group.household_men_of_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f692641b0e99"
+  },
+  "entity.ru:group.royal_prisoners": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7270aa3c276"
+  },
+  "entity.ru:loc.potiphars_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef385fe7d38d"
+  },
+  "entity.ru:loc.royal_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [
+    "«Темница» — слово Синодального перевода для בית הסהר; «круглый дом» оставлен как предположительное значение с оговоркой о неясности."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75dd939f046d"
+  },
+  "entity.ru:person.keeper_of_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f10399bf5544"
+  },
+  "entity.ru:person.potiphars_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d09624df2e6"
+  },
+  "entity:artifact.garment_of_joseph_at_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.hebrews": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "TIPNR Hebrews@Gen.14.13-Heb is a people, so a group entity. First defined here for this book; Genesis 14 is outside the corpus. Her use of 'Hebrew' is a slur for a foreigner."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": "[consider] Consider 'used by Potiphar's wife of Joseph to mark him as a foreigner', and leave the Eber etymology to the etymology field as a possibility. (GEN.39.14: \"he hath brought in an Hebrew unto us to mock us\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.household_men_of_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.royal_prisoners": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.potiphars_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.royal_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.keeper_of_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "The prison's chief officer. Whether he is the same person as the captain of the guard (Potiphar) is not stated in Gen 39; I kept them separate, since 40:3 puts the prison in the captain of the guard's house, which is a later chapter's problem."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.potiphars_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Unnamed in the text; identified by role. The Hebrew 'wife of his master' is the only designation (39:7). Later tradition names her Zuleikha, which I did not use."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event.ru:evt.gen_39.daily_pressure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f6e38af5177a"
+  },
+  "event.ru:evt.gen_39.garment_incident": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e95e69cd6082"
+  },
+  "event.ru:evt.gen_39.joseph_bought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f66a73894dc8"
+  },
+  "event.ru:evt.gen_39.joseph_favored_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "581c32ebf1dd"
+  },
+  "event.ru:evt.gen_39.joseph_jailed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[consider] Keep one tense through each summary, e.g. «Гнев Потифара воспламеняется, когда он слышит слова жены; он берёт Иосифа и отдаёт его в темницу...». (GEN.39.19-20: וַיִּחַר אַפּוֹ וַיִּקַּח אֲדֹנֵי יוֹסֵף אֹתוֹ)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5b8937f533f"
+  },
+  "event.ru:evt.gen_39.joseph_made_overseer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13a8798debd5"
+  },
+  "event.ru:evt.gen_39.joseph_prospers_in_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e05b585ff44"
+  },
+  "event.ru:evt.gen_39.joseph_refuses": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75bd8d3a0149"
+  },
+  "event.ru:evt.gen_39.wife_accuses_joseph_to_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b7ac77da5fd4"
+  },
+  "event.ru:evt.gen_39.wife_calls_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d4aecce8497"
+  },
+  "event.ru:evt.gen_39.wife_propositions_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «שכבה עמי» как «спи со мною»; в заголовке оставлено «Ложись со мной», как в стихе 12 Синодального перевода, и в кавычках-ёлочках."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[consider] Use «Ложись со мной» (or «Ляг со мной») in the title and summary, as the note intended and as the verse layer has. (GEN.39.7: שִׁכְבָה עִמִּי; English title: \"says, 'Lie with me'\"; Synodal 39:12: «ложись со мной»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "73dd2355ee29"
+  },
+  "event:evt.gen_39.daily_pressure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "'Day by day' (v10) gives no count. Ibn Ezra on v11 reads 'about this day' as after a week, a month, or a full year (he prefers the year); I take about 2 months with a margin of a month, to keep the age count in order. Only the repetition is day by day, but the event carries the DAY_SEQUENCE tier of the text's own indication."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.garment_incident": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "Rashi (Tanhuma) reads 'about this day' as a festival of the Egyptians on which everyone went to the temple; Radak reads it as one of the days of her insistence. Onkelos and Pseudo-Jonathan have Joseph going in to check his accounts. No hour is given, so no time_of_day; DAY_SEQUENCE."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_bought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "Verse 1 resumes the sale of Gen 37:36 after the interlude of Gen 38; it is the same transaction, so this event is anchored on the START of evt.gen_37.sold_to_potiphar rather than placed later. Joseph is 17 at the sale; Gen 41:46 puts him at 30 before Pharaoh, so Potiphar's house plus the prison fill about 13 years."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_favored_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "The stay is open-ended. 1 year before the keeper's trust and then 2 years of it is a guess (margin 1 year); Gen 40:1 'after these things' will anchor on the end of this event."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": "[consider] Consider 'does not look into anything in Joseph's charge, because the LORD is with him and prospers what he does'. (GEN.39.23: \"The keeper of the prison looked not to any thing that was under his hand; because the LORD was with him\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_jailed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "v19-20 are one event: anger and the committal are continuous. Pseudo-Jonathan adds that Potiphar doubted the story, which explains prison instead of death; not used for dating."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_made_overseer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "The length of Joseph's stewardship before the trouble is not stated. I allowed 3 years of running the house (v5-6) and, after 'after these things', another year before the advance (margin 1 year). Potiphar's house then takes about 6 years, leaving Joseph about 23 at the prison; with the prison stay here, Gen 40 and the two full years of Gen 41:1 this fits the 30 of Gen 41:46."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_prospers_in_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "No interval is given between the purchase and Joseph's rise. 6 months of settling, then a year as a prospering servant, is a guess; the margin is 6 months."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.joseph_refuses": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": "[consider] Consider a margin of minutes relative to the proposition; the tier may stay with the scene if that is the convention. (GEN.39.8: \"But he refused, and said unto his master's wife\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.wife_accuses_joseph_to_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [
+    "v16 'until his lord came home' is a gap of hours, taken as 6 hours with a margin of 4; the text gives no more."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.wife_calls_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": "[consider] Consider 'says that her husband brought in a Hebrew to mock them'. (GEN.39.14: \"See, he hath brought in an Hebrew unto us to mock us\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_39.wife_propositions_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:24:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:26:10+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.daily_pressure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.garment_incident": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_bought": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Place left at loc.egypt: the text names no city and no place of sale."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_favored_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_jailed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Royal prisoners listed as PRESENT because 39:20 describes the place, not an act by them."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_made_overseer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_prospers_in_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.joseph_refuses": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.wife_accuses_joseph_to_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": "[consider] Consider adding artifact.garment_of_joseph_at_potiphar as INSTRUMENT (or the closest role) here and in evt.gen_39.garment_incident. (GEN.39.16: \"And she laid up his garment by her, until his lord came home\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.wife_calls_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": "[consider] Consider adding person.potiphar as MENTIONED. (GEN.39.14: \"See, he hath brought in an Hebrew unto us to mock us\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_39.wife_propositions_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance.ru:inst.gen_39.accusation_before_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c44a281723ae"
+  },
+  "instance.ru:inst.gen_39.accusation_before_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8e2dc8e5562e"
+  },
+  "instance.ru:inst.gen_39.blessing_on_potiphars_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5800b253f07"
+  },
+  "instance.ru:inst.gen_39.joseph_imprisoned": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "61e0a39b7bd5"
+  },
+  "instance.ru:inst.gen_39.prosperity_in_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "158007fe32b0"
+  },
+  "instance.ru:inst.gen_39.prosperity_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41294a59e693"
+  },
+  "instance:inst.gen_39.accusation_before_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_39.accusation_before_potiphar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_39.blessing_on_potiphars_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": "[consider] Consider keeping only person.potiphar (and his house) as target, and dropping the Abrahamic-promise clause from the significance note or marking it as interpretation. (GEN.39.5: \"the LORD blessed the Egyptian's house for Joseph's sake\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_39.joseph_imprisoned": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_39.prosperity_in_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_39.prosperity_in_prison": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system.ru:sys.divine_blessing_prosperity": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [
+    "Господь — по соглашению Синодального перевода; в английском тексте LORD."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16a8a0e47c6f"
+  },
+  "system.ru:sys.false_accusation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "200790695dee"
+  },
+  "system.ru:sys.imprisonment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:13:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a5f5b2df460e"
+  },
+  "system:sys.divine_blessing_prosperity": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Defined here; no existing system covers 'the LORD is with him and makes him prosper'. Category SUPERNATURAL_ACT."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.false_accusation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Defined here, new in the catalog. Category LEGAL_CUSTOM is a stretch, since the accusation is private rather than a court process."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.imprisonment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:30:38+00:00",
+   "agent_notes": [
+    "Defined here. No coordinates for loc.royal_prison and loc.potiphars_house, which are unlocated in the registry; place in Egypt is not narrowed further."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:32:18+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "Gloss for sar hatabbachim: STEPBible has 'the bodyguards'; I glossed 'the bodyguards (butchers)' to keep the literal sense visible. Saris glossed 'official (eunuch)' because the text gives Potiphar a wife and the sense is disputed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "'His work' is disputed (Onkelos / Ibn Ezra: estate business; Sotah 36b as cited by Rashi: another reading); I kept 'work'. The subject 'he' is not named in Hebrew; the dramatic layer says 'Joseph' for clarity only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider root לאך, and stating the second opinion plainly, marked as midrash. (Rashi on 39:11: \"וְחַד אָמַר לַעֲשׂוֹת צְרָכָיו עִמָּהּ, אֶלָּא שֶׁנִּרְאֵית לוֹ דְּמוּת דְּיוּקְנוֹ שֶׁל אָבִיו\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "The echo of vaya'azov (v. 6 and v. 12) and the garment motif (37:31, 38:14) are my reading; sources are cited only for Ramban's and Sforno's specific claims."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:27:07+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the 'ivri note no longer cites 40:15 among the outsiders' uses, and the rule is softened to 'mostly on foreigners' lips or when speaking to foreigners'. Her 'a man, a Hebrew' is read as contemptuous and ethnic; the KJV/ASV 'an Hebrew/a Hebrew' keeps the ethnic label but loses the dismissive 'man' + noun apposition (YLT keeps it).",
+    "'he has brought to us' leaves the subject unnamed. Rashi and Ibn Ezra read it as a jab at her husband; Radak first takes 'to the men of her house' as people who heard her cry. I follow the first reading in the commentary and mark it as the traditional reading, not as certain.",
+    "'to mock' (lətsaheq): the root צחק also underlies Isaac's name and Ishmael's 'playing' (Gen 21:9); the sexual overtone is plausible here (cf. 39:17), but the word does not say it. I gloss 'to mock' / literal 'to laugh at' and put the possible overtone in the note as my own reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[should_fix] Replace 'courtesy or contempt' with Ramban's reasons (out of respect, as women's manners, or because everyone knows who brought him). Drop 'the law of the day'; give Rashbam's reading (she cries out to show she resisted and was far from help) and, if you keep Deut 22:24, call it a later Israelite parallel. (Ramban on 39:14: \"לֹא הִזְכִּירַתּוּ לִכְבוֹדוֹ, אוֹ בְּדֶרֶךְ מוּסָר לַנָּשִׁים, אוֹ בַּעֲבוּר שֶׁהַמֵּבִיא יָדוּעַ\"; Rashbam on 39:14: \"לפי שאתם רחוקים ממני, שאילו לא הרימותי קולי היה שוכב עמי בעל כורחי\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": "[should_fix] In the 'ivri note drop '40:15' from the outsiders' uses (or cite it as Joseph's own 'land of the Hebrews', speaking to an Egyptian), and soften the rule to 'mostly on foreigners' lips or when speaking to foreigners'. (GEN.40.15 (Joseph to the cupbearer): \"For indeed I was stolen away out of the land of the Hebrews\"; GEN.39.14: \"he hath brought in an Hebrew unto us\" (the wife))",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:28:16+00:00",
+     "note": "[consider] Say that Sforno reads letsaheq as sexual play that showed he meant to lie with her, instead of presenting the overtone as your own reading. (Sforno on 39:14: \"לְצַחֶק בָּנוּ. בְּעִנְיְנֵי צְחוֹק שֶׁמִּתּוֹכָם נִכָּר שֶׁבָּא אֵלַי לִשְׁכַּב עִמִּי\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:23:38+00:00",
+   "agent_notes": [
+    "Addressed the request: the contrast with verses 12-13 (beyadah, 'in her hand') is now cited by verse. STEPBible has no gloss problem here; 'ki' is rendered 'that' and the sentence is left as the Hebrew leaves it, a long dependent clause."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[should_fix] Replace '(as in the packet's previous verse)' with the verse references: 'in verses 12 and 13 the Hebrew has him leave the garment in her hand (beyadah)'. (GEN.39.12-13: \"he left his garment in her hand\" (beyadah); GEN.39.15: \"he left his garment with me\" (etzli))",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:23:38+00:00",
+   "agent_notes": [
+    "Rewrote both paragraphs as requested. The first says she names his slave status and suppresses his office (cf. 39:4-5, where he is over the house). The second treats vv. 17-18 as one speech and states Ramban's real point from his comment on 39:19: she would hide a real violation from her husband, so he doubts the midrash (Rashi on 39:19) that she spoke in intimacy. The Ramban citation is therefore to 39:19, not 39:17."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[blocker] Rewrite the second paragraph: vv. 17-18 are one speech that keeps the cry and drops only 'to lie with me' (v. 14) and 'went out' (v. 15); either drop Ramban or state his real point (she would conceal any violation from her husband, so the midrash of v. 19 is unlikely). In the first paragraph say she names his slave status and suppresses his office, rather than that he is not a slave. (GEN.39.18: \"as I lifted up my voice and cried, that he left his garment with me\"; Ramban on 39:19: \"וְהִנֵּה לְאַנְשֵׁי בֵּיתָהּ אָמְרָה 'בָּא אֵלַי לִשְׁכַּב עִמִּי', לֹא שֶׁשָּׁכַב ... וְכָל שֶׁכֵּן שֶׁתַּסְתִּיר הַדָּבָר מִבַּעְלָהּ\"; GEN.39.1: \"Potiphar ... bought him\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": "[consider] Consider moving the Radak source to a note on kadevarim ha'eleh, and 'she said the same words to him' in the dramatic layer. (Radak on 39:17: \"וְאָמְרוּ כַּדְּבָרִים בְּכַף הַשִּׁעוּר, כְּלוֹמַר פָּחוֹת מֵהֶם אוֹ יוֹתֵר עֲלֵיהֶם, אֲבָל הָעִנְיָן אֶחָד\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:37:57+00:00",
+   "agent_notes": [
+    "Rashi and Ramban (via Bereshit Rabbah) read 'according to these words' as spoken in the hour of intimacy; Ramban himself doubts it and prefers 'these words' = what she already told the household. I follow the plain sense and mention the midrash only as a minority reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider splitting the two: 24:28 for 'these very words', 44:7 for the intensifying kaf. (Ramban on 39:19: \"כִּי אֵין הַכָּ\"ף לְדִמְיוֹן ... וְכָמוֹהוּ 'וַתַּגֵּד לְבֵית אִמָּהּ כַּדְּבָרִים הָאֵלֶּה' ... וְיִתָּכֵן שֶׁשִּׁמּוּשׁ הַכָּ\"ף בָּזֶה לְהַפְלָגָה, וְכֵן 'לָמָּה יְדַבֵּר אֲדֹנִי כַּדְּבָרִים הָאֵלֶּה'\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider: 'in the Joseph story outside chapters 38-39 the narrator does not use YHWH'; give the note the term 'וַיְהִי יְהוָה אֶת' or drop the root, and say 26:28 uses a synonym (im). (GEN.39.2: \"וַיְהִי יְהוָה אֶת־יוֹסֵף\"; Gen 38:7: \"Er ... was wicked in the sight of the LORD; and the LORD slew him\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:27:07+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the Ketiv/Qere note now has term 'אֲסוּרֵי / אֲסִירֵי' (asurei / asirei) and treats both forms as belonging to word 11; asurim (word 13) is no longer part of it. Word 13 is a separate passive participle of the same root אסר, which gives the repetition 'prisoners … bound'.",
+    "STEPBible glosses word 11 'the prisoners of' using the Qere lemma H0615 (אָסִיר); the written (Ketiv) form is אֲסוּרֵי, per Radak. I gloss the reading and name the written form in the note. The five English versions do not split on this; they all ignore the difference.",
+    "Sohar etymology is disputed (Ramban cites R. Abraham [Ibn Ezra] for an Egyptian word, then offers his own derivation from a round or underground structure; Radak's Sefer HaShorashim, as Ramban reports, derives it from 'round'). I give no firm etymology, and YLT's 'round-house' is only noted as one reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[should_fix] Attribute 'round enclosure' to the grammarians (Radak) and give Ramban's own view: an underground pit-house with a small light-opening above, named from 'light' (sihara/tsohar). Present Ibn Ezra's 'narrator's gloss of a foreign word' as his suggestion, which Ramban rejects. Fix the note's root sentence to match. (Ramban on 39:20: \"וּבַעֲלֵי הַלָּשׁוֹן ... יְפָרְשׁוּ 'סַהַר' כִּפָּה עֲגֻלָּה ... וּלְפִי דַּעְתִּי שֶׁהוּא הַבּוֹר, בַּיִת בָּנוּי תַּחַת הַקַּרְקַע וְלוֹ פֶּתַח קָטָן מִלְּמַעְלָה ... וְהוּא מִלְּשׁוֹן סֵיהֲרָא\"; on Ibn Ezra: \"וְלֹא אָמַר כְּלוּם\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": "[should_fix] In the Ketiv/Qere note set the term to 'אֲסוּרֵי / אֲסִירֵי' (translit 'asurei / asirei') and say both forms belong to word 11; leave asurim (word 13) out of it. (GEN.39.20 word 11: \"אֲסִירֵ֥י (Q(K)) 'asurei\", word 13: \"אֲסוּרִ֑ים\"; Radak on 39:20: \"אֲסוּרֵי. כְּתִיב וְהוּא פָּעוּל, וַאֲסִירֵי קְרִי וְהוּא תֹּאַר\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:28:16+00:00",
+     "note": "[consider] Attribute 'round dome' to Radak's Sefer HaShorashim as reported by Ramban, keep 'underground pit, from Aramaic sihara' as Ramban's own, and drop 'Radak on Genesis 39:20' from that note's sources. (Ramban on 39:20: \"וּבַעֲלֵי הַלָּשׁוֹן (רד\"ק בספר השרשים שורש סהר) יְפָרְשׁוּ 'סַהַר' כִּפָּה עֲגֻלָּה ... וּלְפִי דַּעְתִּי שֶׁהוּא הַבּוֹר ... מִלְּשׁוֹן סֵיהֲרָא בַּאֲרָמִית\"; Radak on 39:20 comments only on אֶל, אֲסוּרֵי and וַיְהִי שָׁם)",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:23:38+00:00",
+   "agent_notes": [
+    "Addressed the request. Rashi is removed from the 'steadfast kindness' sense and cited separately for his own reading of chesed as charm; the commentary attaches his remark to chesed, not to 'favor'. STEPBible's 'covenant loyalty' is softened to 'steadfast kindness' since no covenant is named in the verse; this is my reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[should_fix] In the note, either drop Rashi from the sources of the 'steadfast kindness' sense or add Rashi's different reading (chesed as charm, Joseph found pleasing by all who saw him). In the commentary, attach Rashi's remark to chesed, not to 'favor'. (Rashi on 39:21: \"ויט אליו חסד. שֶׁהָיָה מְקֻבָּל לְכָל רוֹאָיו, לְשׁוֹן 'כַּלָּה נָאָה וַחֲסוּדָה' שֶׁבַּמִּשְׁנָה\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T20:23:38+00:00",
+   "agent_notes": [
+    "Corrected: YHWH is named twice in the closing reason, as subject of both clauses. The commentary no longer says first and last."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[should_fix] Correct the claim: YHWH is named twice in the closing reason ('because YHWH was with him ... YHWH made it succeed'), as the subject of both clauses; do not say first and last. (GEN.39.23: \"אֵין שַׂר בֵּית־הַסֹּהַר רֹאֶה ... בַּאֲשֶׁר יְהוָה אִתּוֹ וַאֲשֶׁר־הוּא עֹשֶׂה יְהוָה מַצְלִיחַ\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T20:25:39+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "The 'hand' motif is my own reading; Rashi and Ramban on what the master saw are left open."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider setting the root to יד. (GEN.39.3: \"בְּיָדוֹ\" (lemma יָד, H3027))",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "The echo of the promise to Abraham (12:3) is my reading, not a source claim."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "The pair 'ki im' (pos 11-12) is one idiom, 'except'; STEPBible splits it as 'that / except', I glossed 'but' + 'except'. The 'bread' euphemism is disputed (Rashi vs Ibn Ezra); both kept in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider 'suggests instead that the bread was the one thing Potiphar did not leave in Joseph's hand, since a Hebrew could not handle an Egyptian's food (43:32)'. (Ibn Ezra on 39:6: \"חוץ מן הלחם שלא היה אפילו נוגע בו בעבור היותו עברי\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "The Tale of Two Brothers parallel is mentioned from general knowledge as a scholarly comparison, with no citation; drop it if too speculative."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider 'lifted her eyes to Joseph' without the repeated looking. (GEN.39.7: \"his master's wife cast her eyes upon Joseph; and she said, Lie with me\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider 'vayma'en, the ordinary word for a settled refusal' and keep the 37:35 echo, which is the real point. (GEN.39.8: \"וַיְמָאֵן\" (morph Vpw3ms))",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.39.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T19:35:31+00:00",
+   "agent_notes": [
+    "Ramban's reason for the order of Joseph's arguments is from the packet. In the packet the lemma of gadol shows as H1419A (גַּל); I glossed 'great'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T19:41:17+00:00",
+     "note": "[consider] Consider making the dramatic line follow the reading the commentary argues for: 'He himself is not greater in this house than I.' (GEN.39.9: \"אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי\")",
+     "by": "urim-critic@2 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:GEN.39.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [
+    "סריס (saris) переведён в буквальном слое «евнух», в драматическом «царедворец»: синодальное «царедворец» так же прячет значение «евнух», как английское «officer». Комментарий об этом говорит.",
+    "שר הטבחים: в буквальном слое «начальник резников (поваров)», в драматическом «начальник царской стражи»; синодальное «начальник телохранителей» сделано так же, как в KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "64650134cfb2"
+  },
+  "verse.ru:GEN.39.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[consider] Consider «день, день» in the literal layer, leaving «день за днём» in the dramatic layer. (GEN.39.10: יוֹם יוֹם; English literal: \"day, day\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a609c33ac817"
+  },
+  "verse.ru:GEN.39.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "610c3f090688"
+  },
+  "verse.ru:GEN.39.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [
+    "Глагол ויעזב в ст. 6 и 12 передан одним русским словом «оставил», чтобы сохранилась перекличка."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "04f03c9e8403"
+  },
+  "verse.ru:GEN.39.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1158ff6c92ec"
+  },
+  "verse.ru:GEN.39.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:21:06+00:00",
+   "agent_notes": [
+    "В драматическом слое «дала им слово раньше…» заменено на «заговорила первой» по замечанию."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[should_fix] In translation_dramatic replace «и дала им слово раньше, чем...» with a phrase meaning she spoke first, e.g. «и заговорила первой, раньше, чем одежда в её руке успела бы сказать что-то иное». (GEN.39.14: וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם; English dramatic: \"she gave them the word before the cloth in her hand could say anything else\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:21:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "84608d19f63f"
+  },
+  "verse.ru:GEN.39.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8135325f39f3"
+  },
+  "verse.ru:GEN.39.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ebf55be1cc5"
+  },
+  "verse.ru:GEN.39.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:21:06+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном исправлена: порядок двух существительных сохранён, но они стоят перед глаголом, и ивритская отсрочка теряется; отмечена и вставка в скобках, которой нет в еврейском тексте."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[should_fix] Correct the sentence about the Synodal: say that «раб Еврей» keeps the order of the two nouns but places them before the verb «приходил ко мне», so the delay of the Hebrew is lost; optionally note that the Synodal's bracketed «[и говорил мне: лягу я с тобою]» is not in the Hebrew. (GEN.39.17: בָּא אֵלַי הָעֶבֶד הָעִבְרִי; Synodal: «раб Еврей, которого ты привел к нам, приходил ко мне ругаться надо мною [и говорил мне: лягу я с тобою]»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:21:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d4bea34400b"
+  },
+  "verse.ru:GEN.39.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[consider] Consider «побежал — вон, наружу». (GEN.39.18: וַיָּנָס הַחוּצָה; English dramatic: \"and ran, out into the open\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cbe401374905"
+  },
+  "verse.ru:GEN.39.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [
+    "וַיִּחַר אַפּוֹ: «воспылал нос его» в дословном слое сохраняет телесный образ; синодальное «воспылал гневом» приведено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f0b899a793d2"
+  },
+  "verse.ru:GEN.39.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99b0ec4a212d"
+  },
+  "verse.ru:GEN.39.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [
+    "בֵּית הַסֹּהַר: в дословном слое «дом Сохар» (слово не переведено), в драматическом и примечаниях — «темница», как в Синодальном переводе. Название «Сохар» введено здесь впервые."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e25a9e5073c"
+  },
+  "verse.ru:GEN.39.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [
+    "שַׂר: «начальник» (как в Синодальном: «начальник темницы»), в комментарии поясняется, что это должностное лицо, а не тюремщик. חֶסֶד: в синодальном «милость»; в дословном слое «неизменная милость/верность»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[consider] Consider «неизменную милость» in the literal layer and gloss, as the note intended. (GEN.39.21: וַיֵּט אֵלָיו חָסֶד; English literal: \"extended to him steadfast kindness\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "da037c3935c0"
+  },
+  "verse.ru:GEN.39.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a4f8f6a6aca3"
+  },
+  "verse.ru:GEN.39.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:17:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8e1a19e0c287"
+  },
+  "verse.ru:GEN.39.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc8811f08b53"
+  },
+  "verse.ru:GEN.39.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "959d65eeb69d"
+  },
+  "verse.ru:GEN.39.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5bccd4756ff7"
+  },
+  "verse.ru:GEN.39.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [
+    "«Хлеб» оставлен «хлебом» (лехем), как просит английский слой; в Синодальном переводе тоже «хлеб»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a67a24d09518"
+  },
+  "verse.ru:GEN.39.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [
+    "Синодальное «спи со мною» мягче и устарелее, чем שכבה עמי; в буквальном слое «ляг со мной», в драматическом «Ложись со мной»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8edfb03920c3"
+  },
+  "verse.ru:GEN.39.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:15:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4b2699c6f6a2"
+  },
+  "verse.ru:GEN.39.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-10-28T21:21:06+00:00",
+   "agent_notes": [
+    "Начало буквального слоя переписано по замечанию: «Не больше он в доме этом, чем я», чтобы сравнение читалось сразу; синодальное «нет больше меня» сохраняет сравнение, но в другом порядке слов."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-10-28T21:20:09+00:00",
+     "note": "[should_fix] Rewrite the opening of translation_literal so that the comparison is clear from the start, e.g. «Не больше он в доме этом, чем я» or «Нет его больше меня в доме этом», and keep the rest of the verse. (GEN.39.9: אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי; English literal: \"He is not greater in this house than I\"; Synodal: «нет больше меня в доме сем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-10-28T21:21:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5414da30275a"
+  }
+ },
+ "notes": [
+  {
+   "note": "All 23 verses are covered. The chapter has no time word beyond 'after these things' (v7), 'day by day' (v10) and 'about this day' (v11), so everything else is placed by plausible intervals and tier MACRO_ERA. There is no divine or prophetic speech in the chapter, so no FULFILLS_PROPHECY. Gen 40 should anchor on the end of the prison stay.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:24:57+00:00"
+  },
+  {
+   "note": "[entity:group.ishmaelites] TIPNR tags the Ishmaelites of 39:1 with person.ishmael (the patriarch); I used the existing group.ishmaelites instead, as in Gen 37, and did not link the patriarch.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:30:38+00:00"
+  },
+  {
+   "note": "[component:comp.joseph.master.1] Closed at 39:20 when Joseph is put in prison. Joseph's status SLAVE (comp.joseph.status.1) is left open because the text does not release him.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:30:38+00:00"
+  },
+  {
+   "note": "[entity:group.ishmaelites] TIPNR tags the Ishmaelites of 39:1 with person.ishmael (the patriarch); I used the existing group.ishmaelites instead, as in Gen 37, and did not link the patriarch.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[entity:group.hebrews] TIPNR Hebrews@Gen.14.13-Heb is a people, so a group entity. First defined here for this book; Genesis 14 is outside the corpus. Her use of 'Hebrew' is a slur for a foreigner.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[entity:person.potiphars_wife] Unnamed in the text; identified by role. The Hebrew 'wife of his master' is the only designation (39:7). Later tradition names her Zuleikha, which I did not use.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[entity:person.keeper_of_prison] The prison's chief officer. Whether he is the same person as the captain of the guard (Potiphar) is not stated in Gen 39; I kept them separate, since 40:3 puts the prison in the captain of the guard's house, which is a later chapter's problem.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[component:comp.joseph.residence.1] Inferred from 39:2 and 39:20 rather than a single stated verse. Slot named residence to keep the finer house and prison locations apart from comp.joseph.whereabouts.2 (Egypt), which stays open.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[component:comp.joseph.office.2] Office slot reused after a gap in time: office.1 ends at 39:20 and office.2 opens at 39:22, so no supersedes link. Value PRISON_ADMINISTRATOR is my label for 39:22.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[component:comp.garment_of_joseph_at_potiphar.holder.1] Left open: the text does not say what happens to the garment after Potiphar hears her.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[system:sys.false_accusation] Defined here, new in the catalog. Category LEGAL_CUSTOM is a stretch, since the accusation is private rather than a court process.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[system:sys.divine_blessing_prosperity] Defined here; no existing system covers 'the LORD is with him and makes him prosper'. Category SUPERNATURAL_ACT.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[system:sys.imprisonment] Defined here. No coordinates for loc.royal_prison and loc.potiphars_house, which are unlocated in the registry; place in Egypt is not narrowed further.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_39.joseph_bought] Place left at loc.egypt: the text names no city and no place of sale.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_39.joseph_jailed] Royal prisoners listed as PRESENT because 39:20 describes the place, not an act by them.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-10-28T19:33:05+00:00"
+  }
+ ]
+}

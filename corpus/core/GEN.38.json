@@ -1,0 +1,1525 @@
+{
+ "chapter_ref": "GEN.38",
+ "entities": [
+  {
+   "entity_id": "artifact.judahs_pledge",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "חֹתָם וּפְתִיל וּמַטֶּה",
+   "transliterated_name": "ḥōtām ûpətîl ûmaṭṭeh",
+   "first_mention_verse": "GEN.38.18"
+  },
+  {
+   "entity_id": "artifact.kid_of_goats",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "גְּדִי עִזִּים",
+   "transliterated_name": "gədî ʿizzîm",
+   "first_mention_verse": "GEN.38.17"
+  },
+  {
+   "entity_id": "group.men_of_enaim",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי מְקֹמָהּ",
+   "transliterated_name": "ʾanšê məqōmāh",
+   "first_mention_verse": "GEN.38.21"
+  },
+  {
+   "entity_id": "loc.achzib",
+   "tipnr_id": "Achzib@Gen.38.5-Mic",
+   "entity_type": "LOCATION",
+   "source_script_name": "כְזִיב",
+   "transliterated_name": "Kəzîb",
+   "first_mention_verse": "GEN.38.5"
+  },
+  {
+   "entity_id": "loc.adullam",
+   "tipnr_id": "Adullam@Gen.38.1-Mic",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֲדֻלָּם",
+   "transliterated_name": "ʿĂdullām",
+   "first_mention_verse": "GEN.38.1"
+  },
+  {
+   "entity_id": "loc.enaim",
+   "tipnr_id": "Enaim@Gen.38.14-",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵינַיִם",
+   "transliterated_name": "ʿĒnayim",
+   "first_mention_verse": "GEN.38.14"
+  },
+  {
+   "entity_id": "loc.timnah",
+   "tipnr_id": "Timnah@Gen.38.12-2Ch",
+   "entity_type": "LOCATION",
+   "source_script_name": "תִּמְנָה",
+   "transliterated_name": "Timnāh",
+   "first_mention_verse": "GEN.38.12"
+  },
+  {
+   "entity_id": "person.daughter_of_shua",
+   "entity_type": "PERSON",
+   "source_script_name": "בַּת־שׁוּעַ",
+   "transliterated_name": "bat-Šûaʿ",
+   "first_mention_verse": "GEN.38.2"
+  },
+  {
+   "entity_id": "person.er",
+   "tipnr_id": "Er@Gen.38.3-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "עֵר",
+   "transliterated_name": "ʿĒr",
+   "first_mention_verse": "GEN.38.3"
+  },
+  {
+   "entity_id": "person.hirah",
+   "tipnr_id": "Hirah@Gen.38.1-",
+   "entity_type": "PERSON",
+   "source_script_name": "חִירָה",
+   "transliterated_name": "Ḥîrāh",
+   "first_mention_verse": "GEN.38.1"
+  },
+  {
+   "entity_id": "person.midwife_of_tamar",
+   "entity_type": "PERSON",
+   "source_script_name": "הַמְיַלֶּדֶת",
+   "transliterated_name": "hamyallédet",
+   "first_mention_verse": "GEN.38.28"
+  },
+  {
+   "entity_id": "person.onan",
+   "tipnr_id": "Onan@Gen.38.4-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אוֹנָן",
+   "transliterated_name": "ʾÔnān",
+   "first_mention_verse": "GEN.38.4"
+  },
+  {
+   "entity_id": "person.perez",
+   "tipnr_id": "Perez@Gen.38.29-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "פֶּרֶץ",
+   "transliterated_name": "Pereṣ",
+   "first_mention_verse": "GEN.38.27"
+  },
+  {
+   "entity_id": "person.shelah.gen_38_5",
+   "tipnr_id": "Shelah@Gen.38.5-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "שֵׁלָה",
+   "transliterated_name": "Šēlāh",
+   "first_mention_verse": "GEN.38.5"
+  },
+  {
+   "entity_id": "person.shua",
+   "tipnr_id": "Shua@Gen.38.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "שׁוּעַ",
+   "transliterated_name": "Šûaʿ",
+   "first_mention_verse": "GEN.38.2"
+  },
+  {
+   "entity_id": "person.tamar.gen_38_6",
+   "tipnr_id": "Tamar@Gen.38.6-Mat",
+   "entity_type": "PERSON",
+   "source_script_name": "תָּמָר",
+   "transliterated_name": "Tāmār",
+   "first_mention_verse": "GEN.38.6"
+  },
+  {
+   "entity_id": "person.zerah",
+   "tipnr_id": "Zerah@Gen.38.30-Mat",
+   "entity_type": "PERSON",
+   "source_script_name": "זֶרַח",
+   "transliterated_name": "Zeraḥ",
+   "first_mention_verse": "GEN.38.27"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_judgment_by_death",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.levirate_marriage",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.penalty_of_burning",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.pledge_for_payment",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.sheepshearing_feast",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_38.judah_leaves_brothers",
+   "verse_start": "GEN.38.1",
+   "verse_end": "GEN.38.1",
+   "location_entity_id": "loc.adullam",
+   "time": {
+    "anchor": "evt.gen_37.jacob_mourns",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hirah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_marries_shua",
+   "verse_start": "GEN.38.2",
+   "verse_end": "GEN.38.2",
+   "location_entity_id": "loc.adullam",
+   "time": {
+    "anchor": "evt.gen_38.judah_leaves_brothers",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.daughter_of_shua",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shua",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.er_born",
+   "verse_start": "GEN.38.3",
+   "verse_end": "GEN.38.3",
+   "location_entity_id": "loc.adullam",
+   "time": {
+    "anchor": "evt.gen_38.judah_marries_shua",
+    "anchor_point": "END",
+    "offset": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.daughter_of_shua",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.er",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.onan_born",
+   "verse_start": "GEN.38.4",
+   "verse_end": "GEN.38.4",
+   "location_entity_id": "loc.adullam",
+   "time": {
+    "anchor": "evt.gen_38.er_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.daughter_of_shua",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.onan",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.shelah_born",
+   "verse_start": "GEN.38.5",
+   "verse_end": "GEN.38.5",
+   "location_entity_id": "loc.achzib",
+   "time": {
+    "anchor": "evt.gen_38.onan_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.daughter_of_shua",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shelah.gen_38_5",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.er_marries_tamar",
+   "verse_start": "GEN.38.6",
+   "verse_end": "GEN.38.6",
+   "time": {
+    "anchor": "evt.gen_38.er_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 13.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.er",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.er_wicked_slain",
+   "verse_start": "GEN.38.7",
+   "verse_end": "GEN.38.7",
+   "time": {
+    "anchor": "evt.gen_38.er_marries_tamar",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.er",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_orders_levirate",
+   "verse_start": "GEN.38.8",
+   "verse_end": "GEN.38.8",
+   "time": {
+    "anchor": "evt.gen_38.er_wicked_slain",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.er",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.onan",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.onan_spills_seed",
+   "verse_start": "GEN.38.9",
+   "verse_end": "GEN.38.9",
+   "time": {
+    "anchor": "evt.gen_38.judah_orders_levirate",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.er",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.onan",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.onan_slain",
+   "verse_start": "GEN.38.10",
+   "verse_end": "GEN.38.10",
+   "time": {
+    "anchor": "evt.gen_38.onan_spills_seed",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.onan",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_sends_tamar_home",
+   "verse_start": "GEN.38.11",
+   "verse_end": "GEN.38.11",
+   "time": {
+    "anchor": "evt.gen_38.onan_slain",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shelah.gen_38_5",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_goes_up_to_timnah",
+   "verse_start": "GEN.38.12",
+   "verse_end": "GEN.38.12",
+   "location_entity_id": "loc.timnah",
+   "time": {
+    "anchor": "evt.gen_38.shua_dies_judah_comforted",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.5,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.hirah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.shua_dies_judah_comforted",
+   "verse_start": "GEN.38.12",
+   "verse_end": "GEN.38.12",
+   "time": {
+    "anchor": "evt.gen_38.judah_sends_tamar_home",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.daughter_of_shua",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.tamar_veils_at_enaim",
+   "verse_start": "GEN.38.13",
+   "verse_end": "GEN.38.14",
+   "location_entity_id": "loc.enaim",
+   "time": {
+    "anchor": "evt.gen_38.judah_goes_up_to_timnah",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.5,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.judah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shelah.gen_38_5",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_propositions_tamar",
+   "verse_start": "GEN.38.15",
+   "verse_end": "GEN.38.16",
+   "location_entity_id": "loc.enaim",
+   "time": {
+    "anchor": "evt.gen_38.tamar_veils_at_enaim",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.pledge_and_union",
+   "verse_start": "GEN.38.17",
+   "verse_end": "GEN.38.18",
+   "location_entity_id": "loc.enaim",
+   "time": {
+    "anchor": "evt.gen_38.judah_propositions_tamar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.judahs_pledge",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.kid_of_goats",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.tamar_resumes_widow_garb",
+   "verse_start": "GEN.38.19",
+   "verse_end": "GEN.38.19",
+   "time": {
+    "anchor": "evt.gen_38.pledge_and_union",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.kid_sent_with_hirah",
+   "verse_start": "GEN.38.20",
+   "verse_end": "GEN.38.20",
+   "time": {
+    "anchor": "evt.gen_38.pledge_and_union",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 4.5,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.kid_of_goats",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hirah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.hirah_asks_at_enaim",
+   "verse_start": "GEN.38.21",
+   "verse_end": "GEN.38.22",
+   "location_entity_id": "loc.enaim",
+   "time": {
+    "anchor": "evt.gen_38.kid_sent_with_hirah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_enaim",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hirah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_lets_her_keep_pledge",
+   "verse_start": "GEN.38.23",
+   "verse_end": "GEN.38.23",
+   "time": {
+    "anchor": "evt.gen_38.hirah_asks_at_enaim",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.judahs_pledge",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hirah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.tamar_pregnancy_reported",
+   "verse_start": "GEN.38.24",
+   "verse_end": "GEN.38.24",
+   "time": {
+    "anchor": "evt.gen_38.pledge_and_union",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.tamar_sends_pledge",
+   "verse_start": "GEN.38.25",
+   "verse_end": "GEN.38.25",
+   "time": {
+    "anchor": "evt.gen_38.tamar_pregnancy_reported",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.judahs_pledge",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.judah_acknowledges_tamar",
+   "verse_start": "GEN.38.26",
+   "verse_end": "GEN.38.26",
+   "time": {
+    "anchor": "evt.gen_38.tamar_sends_pledge",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.judahs_pledge",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shelah.gen_38_5",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.twins_born",
+   "verse_start": "GEN.38.27",
+   "verse_end": "GEN.38.27",
+   "time": {
+    "anchor": "evt.gen_38.pledge_and_union",
+    "anchor_point": "END",
+    "offset": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.perez",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zerah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.hand_out_scarlet_thread",
+   "parent_event_id": "evt.gen_38.twins_born",
+   "verse_start": "GEN.38.28",
+   "verse_end": "GEN.38.28",
+   "time": {
+    "anchor": "evt.gen_38.twins_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.midwife_of_tamar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.zerah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.perez_born",
+   "parent_event_id": "evt.gen_38.twins_born",
+   "verse_start": "GEN.38.29",
+   "verse_end": "GEN.38.29",
+   "time": {
+    "anchor": "evt.gen_38.hand_out_scarlet_thread",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.midwife_of_tamar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.perez",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.zerah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_38.zerah_born",
+   "parent_event_id": "evt.gen_38.twins_born",
+   "verse_start": "GEN.38.30",
+   "verse_end": "GEN.38.30",
+   "time": {
+    "anchor": "evt.gen_38.perez_born",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.tamar.gen_38_6",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zerah",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_38.er_wicked_slain.judah_orders_levirate",
+   "cause_event_id": "evt.gen_38.er_wicked_slain",
+   "effect_event_id": "evt.gen_38.judah_orders_levirate",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.judah_goes_up_to_timnah.tamar_veils_at_enaim",
+   "cause_event_id": "evt.gen_38.judah_goes_up_to_timnah",
+   "effect_event_id": "evt.gen_38.tamar_veils_at_enaim",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.judah_sends_tamar_home.tamar_veils_at_enaim",
+   "cause_event_id": "evt.gen_38.judah_sends_tamar_home",
+   "effect_event_id": "evt.gen_38.tamar_veils_at_enaim",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.onan_slain.judah_sends_tamar_home",
+   "cause_event_id": "evt.gen_38.onan_slain",
+   "effect_event_id": "evt.gen_38.judah_sends_tamar_home",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.onan_spills_seed.onan_slain",
+   "cause_event_id": "evt.gen_38.onan_spills_seed",
+   "effect_event_id": "evt.gen_38.onan_slain",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.pledge_and_union.kid_sent_with_hirah",
+   "cause_event_id": "evt.gen_38.pledge_and_union",
+   "effect_event_id": "evt.gen_38.kid_sent_with_hirah",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_38.pledge_and_union.tamar_sends_pledge",
+   "cause_event_id": "evt.gen_38.pledge_and_union",
+   "effect_event_id": "evt.gen_38.tamar_sends_pledge",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.pledge_and_union.twins_born",
+   "cause_event_id": "evt.gen_38.pledge_and_union",
+   "effect_event_id": "evt.gen_38.twins_born",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.tamar_pregnancy_reported.tamar_sends_pledge",
+   "cause_event_id": "evt.gen_38.tamar_pregnancy_reported",
+   "effect_event_id": "evt.gen_38.tamar_sends_pledge",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_38.tamar_sends_pledge.judah_acknowledges_tamar",
+   "cause_event_id": "evt.gen_38.tamar_sends_pledge",
+   "effect_event_id": "evt.gen_38.judah_acknowledges_tamar",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.daughter_of_shua.life.1",
+   "entity_id": "person.daughter_of_shua",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.38.12",
+   "acquired_in_event": "evt.gen_38.shua_dies_judah_comforted"
+  },
+  {
+   "component_id": "comp.er.life.1",
+   "entity_id": "person.er",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.38.7",
+   "acquired_in_event": "evt.gen_38.er_wicked_slain"
+  },
+  {
+   "component_id": "comp.judah.dwelling.1",
+   "entity_id": "person.judah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.adullam",
+   "acquired_at_verse": "GEN.38.1",
+   "acquired_in_event": "evt.gen_38.judah_leaves_brothers"
+  },
+  {
+   "component_id": "comp.judah.wife.1",
+   "entity_id": "person.judah",
+   "category": "ALLEGIANCE",
+   "component_key": "wife",
+   "target_entity_id": "person.daughter_of_shua",
+   "acquired_at_verse": "GEN.38.2",
+   "acquired_in_event": "evt.gen_38.judah_marries_shua",
+   "expired_at_verse": "GEN.38.12",
+   "expired_in_event": "evt.gen_38.shua_dies_judah_comforted"
+  },
+  {
+   "component_id": "comp.judahs_pledge.holder.1",
+   "entity_id": "artifact.judahs_pledge",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "acquired_at_verse": "GEN.38.18",
+   "acquired_in_event": "evt.gen_38.pledge_and_union",
+   "expired_at_verse": "GEN.38.25",
+   "expired_in_event": "evt.gen_38.tamar_sends_pledge"
+  },
+  {
+   "component_id": "comp.judahs_pledge.holder.2",
+   "entity_id": "artifact.judahs_pledge",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.judah",
+   "supersedes_component_id": "comp.judahs_pledge.holder.1",
+   "acquired_at_verse": "GEN.38.25",
+   "acquired_in_event": "evt.gen_38.tamar_sends_pledge"
+  },
+  {
+   "component_id": "comp.onan.life.1",
+   "entity_id": "person.onan",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.38.10",
+   "acquired_in_event": "evt.gen_38.onan_slain"
+  },
+  {
+   "component_id": "comp.perez.birth_order.1",
+   "entity_id": "person.perez",
+   "category": "TRAIT",
+   "component_key": "birth_order",
+   "value_code": "FIRST_TO_EMERGE",
+   "acquired_at_verse": "GEN.38.29",
+   "acquired_in_event": "evt.gen_38.perez_born"
+  },
+  {
+   "component_id": "comp.tamar.appearance.1",
+   "entity_id": "person.tamar.gen_38_6",
+   "category": "TRAIT",
+   "component_key": "appearance",
+   "value_code": "VEILED",
+   "acquired_at_verse": "GEN.38.14",
+   "acquired_in_event": "evt.gen_38.tamar_veils_at_enaim",
+   "expired_at_verse": "GEN.38.19",
+   "expired_in_event": "evt.gen_38.tamar_resumes_widow_garb"
+  },
+  {
+   "component_id": "comp.tamar.dwelling.1",
+   "entity_id": "person.tamar.gen_38_6",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "value_code": "FATHERS_HOUSE",
+   "acquired_at_verse": "GEN.38.11",
+   "acquired_in_event": "evt.gen_38.judah_sends_tamar_home"
+  },
+  {
+   "component_id": "comp.tamar.pregnancy.1",
+   "entity_id": "person.tamar.gen_38_6",
+   "category": "TRAIT",
+   "component_key": "pregnancy",
+   "value_code": "PREGNANT",
+   "acquired_at_verse": "GEN.38.18",
+   "acquired_in_event": "evt.gen_38.pledge_and_union",
+   "expired_at_verse": "GEN.38.30",
+   "expired_in_event": "evt.gen_38.zerah_born"
+  },
+  {
+   "component_id": "comp.tamar.status.1",
+   "entity_id": "person.tamar.gen_38_6",
+   "category": "ROLE_TITLE",
+   "component_key": "status",
+   "value_code": "WIFE_OF_ER",
+   "acquired_at_verse": "GEN.38.6",
+   "acquired_in_event": "evt.gen_38.er_marries_tamar",
+   "expired_at_verse": "GEN.38.7",
+   "expired_in_event": "evt.gen_38.er_wicked_slain"
+  },
+  {
+   "component_id": "comp.tamar.status.2",
+   "entity_id": "person.tamar.gen_38_6",
+   "category": "ROLE_TITLE",
+   "component_key": "status",
+   "value_code": "WIDOW",
+   "supersedes_component_id": "comp.tamar.status.1",
+   "acquired_at_verse": "GEN.38.7",
+   "acquired_in_event": "evt.gen_38.er_wicked_slain"
+  },
+  {
+   "component_id": "comp.zerah.birth_order.1",
+   "entity_id": "person.zerah",
+   "category": "TRAIT",
+   "component_key": "birth_order",
+   "value_code": "SECOND_TO_EMERGE",
+   "acquired_at_verse": "GEN.38.30",
+   "acquired_in_event": "evt.gen_38.zerah_born"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_38.burning_ordered",
+   "system_id": "sys.penalty_of_burning",
+   "event_id": "evt.gen_38.tamar_pregnancy_reported",
+   "verse_start": "GEN.38.24",
+   "verse_end": "GEN.38.24",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.tamar.gen_38_6"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "harlotry",
+    "patriarchal_authority"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.er_struck_down",
+   "system_id": "sys.divine_judgment_by_death",
+   "event_id": "evt.gen_38.er_wicked_slain",
+   "verse_start": "GEN.38.7",
+   "verse_end": "GEN.38.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.er"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "wickedness",
+    "firstborn"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.levirate_charge",
+   "system_id": "sys.levirate_marriage",
+   "event_id": "evt.gen_38.judah_orders_levirate",
+   "verse_start": "GEN.38.8",
+   "verse_end": "GEN.38.8",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.onan",
+    "person.tamar.gen_38_6"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "raise_seed",
+    "brother_of_deceased"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.levirate_evaded",
+   "system_id": "sys.levirate_marriage",
+   "event_id": "evt.gen_38.onan_spills_seed",
+   "verse_start": "GEN.38.9",
+   "verse_end": "GEN.38.9",
+   "initiator_entity_id": "person.onan",
+   "target_entity_ids": [
+    "person.tamar.gen_38_6"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "refused_duty",
+    "withdrawal"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.onan_struck_down",
+   "system_id": "sys.divine_judgment_by_death",
+   "event_id": "evt.gen_38.onan_slain",
+   "verse_start": "GEN.38.10",
+   "verse_end": "GEN.38.10",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.onan"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "evil_in_the_eyes_of_the_lord"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.seal_cord_staff_pledge",
+   "system_id": "sys.pledge_for_payment",
+   "event_id": "evt.gen_38.pledge_and_union",
+   "verse_start": "GEN.38.17",
+   "verse_end": "GEN.38.18",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.tamar.gen_38_6"
+   ],
+   "artifact_entity_ids": [
+    "artifact.judahs_pledge",
+    "artifact.kid_of_goats"
+   ],
+   "location_entity_id": "loc.enaim",
+   "tags": [
+    "kid_promised",
+    "identity_tokens"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_38.shearing_at_timnah",
+   "system_id": "sys.sheepshearing_feast",
+   "event_id": "evt.gen_38.judah_goes_up_to_timnah",
+   "verse_start": "GEN.38.12",
+   "verse_end": "GEN.38.12",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.timnah",
+   "tags": [
+    "flock",
+    "journey_up"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_38.judah_commands_onan",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.onan",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.38.8",
+   "event_id": "evt.gen_38.judah_orders_levirate"
+  },
+  {
+   "edge_id": "edge.gen_38.judah_condemns_tamar",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "interaction_type": "CONDEMNS",
+   "verse_id": "GEN.38.24",
+   "event_id": "evt.gen_38.tamar_pregnancy_reported"
+  },
+  {
+   "edge_id": "edge.gen_38.judah_sends_hirah",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.hirah",
+   "interaction_type": "SENDS",
+   "verse_id": "GEN.38.20",
+   "event_id": "evt.gen_38.kid_sent_with_hirah"
+  },
+  {
+   "edge_id": "edge.gen_38.judah_sends_tamar_away",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "interaction_type": "SENDS_AWAY",
+   "verse_id": "GEN.38.11",
+   "event_id": "evt.gen_38.judah_sends_tamar_home"
+  },
+  {
+   "edge_id": "edge.gen_38.judah_solicits_tamar",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "interaction_type": "SOLICITS",
+   "verse_id": "GEN.38.16",
+   "event_id": "evt.gen_38.judah_propositions_tamar"
+  },
+  {
+   "edge_id": "edge.gen_38.judah_vindicates_tamar",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "interaction_type": "ACKNOWLEDGES_RIGHT",
+   "verse_id": "GEN.38.26",
+   "event_id": "evt.gen_38.judah_acknowledges_tamar"
+  },
+  {
+   "edge_id": "edge.gen_38.midwife_marks_zerah",
+   "source_entity_id": "person.midwife_of_tamar",
+   "target_entity_id": "person.zerah",
+   "interaction_type": "MARKS",
+   "verse_id": "GEN.38.28",
+   "event_id": "evt.gen_38.hand_out_scarlet_thread"
+  },
+  {
+   "edge_id": "edge.gen_38.onan_defrauds_tamar",
+   "source_entity_id": "person.onan",
+   "target_entity_id": "person.tamar.gen_38_6",
+   "interaction_type": "DEFRAUDS",
+   "verse_id": "GEN.38.9",
+   "event_id": "evt.gen_38.onan_spills_seed"
+  },
+  {
+   "edge_id": "edge.gen_38.tamar_confronts_judah",
+   "source_entity_id": "person.tamar.gen_38_6",
+   "target_entity_id": "person.judah",
+   "interaction_type": "CONFRONTS",
+   "verse_id": "GEN.38.25",
+   "event_id": "evt.gen_38.tamar_sends_pledge"
+  },
+  {
+   "edge_id": "edge.gen_38.tamar_deceives_judah",
+   "source_entity_id": "person.tamar.gen_38_6",
+   "target_entity_id": "person.judah",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.38.14",
+   "event_id": "evt.gen_38.tamar_veils_at_enaim"
+  },
+  {
+   "edge_id": "edge.gen_38.tamar_demands_pledge",
+   "source_entity_id": "person.tamar.gen_38_6",
+   "target_entity_id": "person.judah",
+   "interaction_type": "DEMANDS_PLEDGE_FROM",
+   "verse_id": "GEN.38.18",
+   "event_id": "evt.gen_38.pledge_and_union"
+  },
+  {
+   "edge_id": "edge.gen_38.yhwh_kills_er",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.er",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.38.7",
+   "event_id": "evt.gen_38.er_wicked_slain"
+  },
+  {
+   "edge_id": "edge.gen_38.yhwh_kills_onan",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.onan",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.38.10",
+   "event_id": "evt.gen_38.onan_slain"
+  }
+ ]
+}

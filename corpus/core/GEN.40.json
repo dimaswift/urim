@@ -1,0 +1,720 @@
+{
+ "chapter_ref": "GEN.40",
+ "entities": [
+  {
+   "entity_id": "artifact.pharaohs_cup",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כּוֹס פַּרְעֹה",
+   "transliterated_name": "kos par'oh",
+   "first_mention_verse": "GEN.40.11"
+  },
+  {
+   "entity_id": "group.servants_of_pharaoh",
+   "entity_type": "GROUP",
+   "source_script_name": "עֲבָדָיו",
+   "transliterated_name": "avadav",
+   "first_mention_verse": "GEN.40.20"
+  },
+  {
+   "entity_id": "person.chief_baker",
+   "entity_type": "PERSON",
+   "source_script_name": "שַׂר הָאוֹפִים",
+   "transliterated_name": "sar ha-ofim",
+   "first_mention_verse": "GEN.40.1"
+  },
+  {
+   "entity_id": "person.chief_cupbearer",
+   "entity_type": "PERSON",
+   "source_script_name": "שַׂר הַמַּשְׁקִים",
+   "transliterated_name": "sar ha-mashqim",
+   "first_mention_verse": "GEN.40.1"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.execution_by_hanging",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.royal_birthday_feast",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_40.officers_offend",
+   "verse_start": "GEN.40.1",
+   "verse_end": "GEN.40.2",
+   "time": {
+    "anchor": "evt.gen_39.joseph_favored_in_prison",
+    "anchor_point": "START",
+    "offset": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_baker",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.officers_in_custody",
+   "verse_start": "GEN.40.3",
+   "verse_end": "GEN.40.4",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_40.officers_offend",
+    "anchor_point": "END",
+    "duration": {
+     "value": 12.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_baker",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.two_dreams",
+   "verse_start": "GEN.40.5",
+   "verse_end": "GEN.40.5",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_40.officers_in_custody",
+    "anchor_point": "END",
+    "time_of_day": "ASHMORET_HATICHONAH",
+    "duration": {
+     "value": 8.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_baker",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.joseph_asks_why_sad",
+   "verse_start": "GEN.40.6",
+   "verse_end": "GEN.40.8",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_40.two_dreams",
+    "anchor_point": "START",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.chief_baker",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.butler_dream_interpreted",
+   "verse_start": "GEN.40.9",
+   "verse_end": "GEN.40.15",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_40.joseph_asks_why_sad",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.pharaohs_cup",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.baker_dream_interpreted",
+   "verse_start": "GEN.40.16",
+   "verse_end": "GEN.40.19",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_40.butler_dream_interpreted",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_baker",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.birthday_feast",
+   "verse_start": "GEN.40.20",
+   "verse_end": "GEN.40.22",
+   "time": {
+    "anchor": "evt.gen_40.baker_dream_interpreted",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.servants_of_pharaoh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.chief_baker",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.butler_restored",
+   "parent_event_id": "evt.gen_40.birthday_feast",
+   "verse_start": "GEN.40.21",
+   "verse_end": "GEN.40.21",
+   "time": {
+    "anchor": "evt.gen_40.birthday_feast",
+    "anchor_point": "START",
+    "offset": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.pharaohs_cup",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.baker_hanged",
+   "parent_event_id": "evt.gen_40.birthday_feast",
+   "verse_start": "GEN.40.22",
+   "verse_end": "GEN.40.22",
+   "time": {
+    "anchor": "evt.gen_40.birthday_feast",
+    "anchor_point": "START",
+    "offset": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_baker",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_40.butler_forgets_joseph",
+   "verse_start": "GEN.40.23",
+   "verse_end": "GEN.40.23",
+   "time": {
+    "anchor": "evt.gen_40.birthday_feast",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_40.baker_dream_interpreted.baker_hanged",
+   "cause_event_id": "evt.gen_40.baker_dream_interpreted",
+   "effect_event_id": "evt.gen_40.baker_hanged",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_40.butler_dream_interpreted.baker_dream_interpreted",
+   "cause_event_id": "evt.gen_40.butler_dream_interpreted",
+   "effect_event_id": "evt.gen_40.baker_dream_interpreted",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_40.butler_dream_interpreted.butler_forgets_joseph",
+   "cause_event_id": "evt.gen_40.butler_dream_interpreted",
+   "effect_event_id": "evt.gen_40.butler_forgets_joseph",
+   "causal_type": "ENABLES",
+   "confidence": 0.5
+  },
+  {
+   "causal_id": "caus.gen_40.butler_dream_interpreted.butler_restored",
+   "cause_event_id": "evt.gen_40.butler_dream_interpreted",
+   "effect_event_id": "evt.gen_40.butler_restored",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_40.officers_offend.officers_in_custody",
+   "cause_event_id": "evt.gen_40.officers_offend",
+   "effect_event_id": "evt.gen_40.officers_in_custody",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_40.two_dreams.joseph_asks_why_sad",
+   "cause_event_id": "evt.gen_40.two_dreams",
+   "effect_event_id": "evt.gen_40.joseph_asks_why_sad",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.chief_baker.life.1",
+   "entity_id": "person.chief_baker",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.40.22",
+   "acquired_in_event": "evt.gen_40.baker_hanged"
+  },
+  {
+   "component_id": "comp.chief_baker.mood.1",
+   "entity_id": "person.chief_baker",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "DEJECTED",
+   "acquired_at_verse": "GEN.40.6",
+   "acquired_in_event": "evt.gen_40.joseph_asks_why_sad",
+   "expired_at_verse": "GEN.40.22",
+   "expired_in_event": "evt.gen_40.baker_hanged"
+  },
+  {
+   "component_id": "comp.chief_baker.status.1",
+   "entity_id": "person.chief_baker",
+   "category": "LOCATION_STATE",
+   "component_key": "status",
+   "value_code": "PRISONER",
+   "acquired_at_verse": "GEN.40.3",
+   "acquired_in_event": "evt.gen_40.officers_in_custody",
+   "expired_at_verse": "GEN.40.22",
+   "expired_in_event": "evt.gen_40.baker_hanged"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.memory_of_joseph.1",
+   "entity_id": "person.chief_cupbearer",
+   "category": "PSYCH_STATE",
+   "component_key": "memory_of_joseph",
+   "value_code": "FORGOTTEN",
+   "acquired_at_verse": "GEN.40.23",
+   "acquired_in_event": "evt.gen_40.butler_forgets_joseph"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.mood.1",
+   "entity_id": "person.chief_cupbearer",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "DEJECTED",
+   "acquired_at_verse": "GEN.40.6",
+   "acquired_in_event": "evt.gen_40.joseph_asks_why_sad",
+   "expired_at_verse": "GEN.40.13",
+   "expired_in_event": "evt.gen_40.butler_dream_interpreted"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.office.1",
+   "entity_id": "person.chief_cupbearer",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "CHIEF_CUPBEARER",
+   "acquired_at_verse": "GEN.40.1",
+   "acquired_in_event": "evt.gen_40.officers_offend",
+   "expired_at_verse": "GEN.40.3",
+   "expired_in_event": "evt.gen_40.officers_in_custody"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.office.2",
+   "entity_id": "person.chief_cupbearer",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "CHIEF_CUPBEARER",
+   "supersedes_component_id": "comp.chief_cupbearer.office.1",
+   "acquired_at_verse": "GEN.40.21",
+   "acquired_in_event": "evt.gen_40.butler_restored"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.status.1",
+   "entity_id": "person.chief_cupbearer",
+   "category": "LOCATION_STATE",
+   "component_key": "status",
+   "value_code": "PRISONER",
+   "acquired_at_verse": "GEN.40.3",
+   "acquired_in_event": "evt.gen_40.officers_in_custody",
+   "expired_at_verse": "GEN.40.21",
+   "expired_in_event": "evt.gen_40.butler_restored"
+  },
+  {
+   "component_id": "comp.joseph.assignment.1",
+   "entity_id": "person.joseph",
+   "category": "ROLE_TITLE",
+   "component_key": "assignment",
+   "value_code": "ATTENDANT_OF_OFFICERS",
+   "acquired_at_verse": "GEN.40.4",
+   "acquired_in_event": "evt.gen_40.officers_in_custody"
+  },
+  {
+   "component_id": "comp.pharaoh.mood.1",
+   "entity_id": "person.pharaoh.gen_37_36",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "ANGRY",
+   "acquired_at_verse": "GEN.40.2",
+   "acquired_in_event": "evt.gen_40.officers_offend",
+   "expired_at_verse": "GEN.40.20",
+   "expired_in_event": "evt.gen_40.birthday_feast"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_40.baker_baskets_dream",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_40.baker_dream_interpreted",
+   "verse_start": "GEN.40.16",
+   "verse_end": "GEN.40.19",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.chief_baker"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.royal_prison",
+   "tags": [
+    "interpretation",
+    "baskets",
+    "ill_omen"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_40.baker_hanged",
+   "system_id": "sys.execution_by_hanging",
+   "event_id": "evt.gen_40.baker_hanged",
+   "verse_start": "GEN.40.22",
+   "verse_end": "GEN.40.22",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "person.chief_baker"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "execution",
+    "fulfilled_interpretation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_40.cupbearer_vine_dream",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_40.butler_dream_interpreted",
+   "verse_start": "GEN.40.9",
+   "verse_end": "GEN.40.15",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.chief_cupbearer"
+   ],
+   "artifact_entity_ids": [
+    "artifact.pharaohs_cup"
+   ],
+   "location_entity_id": "loc.royal_prison",
+   "tags": [
+    "interpretation",
+    "vine",
+    "good_omen"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_40.officers_imprisoned",
+   "system_id": "sys.imprisonment",
+   "event_id": "evt.gen_40.officers_in_custody",
+   "verse_start": "GEN.40.3",
+   "verse_end": "GEN.40.4",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "person.chief_cupbearer",
+    "person.chief_baker"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.royal_prison",
+   "tags": [
+    "custody",
+    "royal_officers"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_40.pharaoh_birthday_feast",
+   "system_id": "sys.royal_birthday_feast",
+   "event_id": "evt.gen_40.birthday_feast",
+   "verse_start": "GEN.40.20",
+   "verse_end": "GEN.40.22",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "group.servants_of_pharaoh"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "birthday",
+    "feast"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_40.captain_assigns_joseph",
+   "source_entity_id": "person.potiphar",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "ASSIGNS",
+   "verse_id": "GEN.40.4",
+   "event_id": "evt.gen_40.officers_in_custody"
+  },
+  {
+   "edge_id": "edge.gen_40.cupbearer_forgets_joseph",
+   "source_entity_id": "person.chief_cupbearer",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "FORGETS",
+   "verse_id": "GEN.40.23",
+   "event_id": "evt.gen_40.butler_forgets_joseph"
+  },
+  {
+   "edge_id": "edge.gen_40.joseph_interprets_baker_dream",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.chief_baker",
+   "interaction_type": "INTERPRETS_DREAM_OF",
+   "verse_id": "GEN.40.18",
+   "event_id": "evt.gen_40.baker_dream_interpreted"
+  },
+  {
+   "edge_id": "edge.gen_40.joseph_interprets_cupbearer_dream",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.chief_cupbearer",
+   "interaction_type": "INTERPRETS_DREAM_OF",
+   "verse_id": "GEN.40.12",
+   "event_id": "evt.gen_40.butler_dream_interpreted"
+  },
+  {
+   "edge_id": "edge.gen_40.joseph_pleads_with_cupbearer",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.chief_cupbearer",
+   "interaction_type": "ENTREATS",
+   "verse_id": "GEN.40.14",
+   "event_id": "evt.gen_40.butler_dream_interpreted"
+  },
+  {
+   "edge_id": "edge.gen_40.pharaoh_hangs_baker",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.chief_baker",
+   "interaction_type": "EXECUTES",
+   "verse_id": "GEN.40.22",
+   "event_id": "evt.gen_40.baker_hanged"
+  },
+  {
+   "edge_id": "edge.gen_40.pharaoh_imprisons_baker",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.chief_baker",
+   "interaction_type": "IMPRISONS",
+   "verse_id": "GEN.40.3",
+   "event_id": "evt.gen_40.officers_in_custody"
+  },
+  {
+   "edge_id": "edge.gen_40.pharaoh_imprisons_cupbearer",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.chief_cupbearer",
+   "interaction_type": "IMPRISONS",
+   "verse_id": "GEN.40.3",
+   "event_id": "evt.gen_40.officers_in_custody"
+  },
+  {
+   "edge_id": "edge.gen_40.pharaoh_restores_cupbearer",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.chief_cupbearer",
+   "interaction_type": "RESTORES",
+   "verse_id": "GEN.40.21",
+   "event_id": "evt.gen_40.butler_restored"
+  }
+ ]
+}
