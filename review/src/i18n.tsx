@@ -5,6 +5,7 @@
 // outside React (util.ts) call tr(), which follows the language last rendered.
 import { createContext, Fragment, useContext, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
+import { api } from "./api";
 
 type Entry = string | Record<string, string>;
 type Catalog = Record<string, Entry>;
@@ -70,9 +71,8 @@ export function I18nProvider({ lang, children }: { lang: string; children: React
   useEffect(() => {
     if (lang === "en") { setLoaded({ lang, messages: {} }); return; }
     let live = true;
-    fetch(`/api/messages?lang=${encodeURIComponent(lang)}`)
-      .then((r) => (r.ok ? r.json() : { messages: {} }))
-      .then((d: { messages: Catalog }) => { if (live) setLoaded({ lang, messages: d.messages ?? {} }); })
+    api<{ messages: Catalog }>(`/api/messages?lang=${encodeURIComponent(lang)}`)
+      .then((d) => { if (live) setLoaded({ lang, messages: d.messages ?? {} }); })
       .catch(() => { if (live) setLoaded({ lang, messages: {} }); });
     return () => { live = false; };
   }, [lang]);

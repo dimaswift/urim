@@ -410,6 +410,18 @@ chosen in their header (§6.6). Decisions write to the corpus ledger;
 everything else is read from the bundles, which the server remounts after each relink. The SQL
 console runs on a read-only, immutable connection with an authorizer that allows only reads.
 
+**Static copy (GitHub Pages).** `urim site` links the corpus and asks the real server, through a
+test client, every question whose answers can be listed in advance (each chapter, verse and
+entity in each language, every chapter's review deck), writing the answers as JSON under
+`build/site/api/` beside a build of both apps made with `npm run build:site`. In that build
+(`VITE_URIM_STATIC=1`) the apps read those files, and what depends on words a reader types runs
+in the browser: keyword search over the exported FTS documents (BM25 and snippets as FTS5
+computes them, so results match the server's), similar items over the exported vectors (int8),
+and the SQL console in sql.js over the bundles without their search tables. It is read-only:
+Learn, Campaign, review decisions and search by meaning need the server and are left out. The
+Pages workflow (`.github/workflows/pages.yml`) ingests the pinned sources, links with vectors and
+publishes on every push to the default branch.
+
 ### 7.2 Learning
 
 Once a book is written, the War Room is for learning it ([`urim/learn/`](urim/learn/)). Quiz
@@ -463,7 +475,8 @@ urim/
 │   ├── i18n/                        interface messages (en/*.json), translators, language progress
 │   ├── runtime/engine.py, models.py
 │   ├── interfaces/rest_api.py, mcp_server.py
-│   └── cli.py                       urim ingest · link · validate · task · ir merge · run · review · serve · mcp
+│   ├── review/                      War Room server, cards, demo corpus, static copy (site.py)
+│   └── cli.py                       urim ingest · link · validate · task · ir merge · run · review · site · serve · mcp
 ├── sources.lock.json                pinned source URLs and SHA-256s
 └── tests/
 ```

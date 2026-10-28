@@ -113,7 +113,7 @@ function Shell() {
             <option key={l.lang_code} value={l.lang_code}>{l.lang_name}</option>
           ))}
         </select>
-        <a href="/" className="small-caps muted" title={t("codex.nav.war_room_title")}>{t("codex.nav.war_room")}</a>
+        <a href="./" className="small-caps muted" title={t("codex.nav.war_room_title")}>{t("codex.nav.war_room")}</a>
       </header>
       {view === "read" && <Folio route={route} toc={toc ?? []} />}
       {view === "people" && <People route={route} />}

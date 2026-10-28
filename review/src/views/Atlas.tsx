@@ -35,7 +35,7 @@ export default function Atlas({ route }: { route: Route }) {
   const [progress, setProgress] = useState<number | null>(null);
   const selected = route.arg || null;
 
-  useEffect(() => { fetch("/geo/near_east.json").then((r) => r.json()).then(setBase); }, []);
+  useEffect(() => { fetch("geo/near_east.json").then((r) => r.json()).then(setBase); }, []);
   useEffect(() => {
     const svg = svgRef.current;
     if (!svg) return;

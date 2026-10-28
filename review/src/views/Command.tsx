@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { ChapterTile, LearnChapter, LearnOverview, Overview } from "../api";
-import { api } from "../api";
+import { STATIC, api } from "../api";
 import { Icon, Loading, Panel, ProgressRing } from "../components";
 import { has, num, tr, useT } from "../i18n";
 import type { TFunc } from "../i18n";
@@ -103,7 +103,7 @@ export default function Command() {
   const { overview, lang } = useApp();
   const t = useT();
   const [hover, setHover] = useState<{ t: ChapterTile; x: number; y: number } | null>(null);
-  const [knowing, setKnowing] = useState(() => { try { return localStorage.getItem("urim.command.layer") === "knowing"; } catch { return false; } });
+  const [knowing, setKnowing] = useState(() => { try { return !STATIC && localStorage.getItem("urim.command.layer") === "knowing"; } catch { return false; } });
   const [mastery, setMastery] = useState<Record<string, LearnChapter> | null>(null);
   useEffect(() => {
     try { localStorage.setItem("urim.command.layer", knowing ? "knowing" : "writing"); } catch { /* storage unavailable */ }
@@ -143,12 +143,12 @@ export default function Command() {
         </div>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 380px", gap: 16, alignItems: "start" }}>
-        <Panel title={t("command.territory")} right={
+        <Panel title={t("command.territory")} right={!STATIC && (
           <span className="row" style={{ gap: 4 }}>
             <span className={`chip click ${knowing ? "" : "on"}`} onClick={() => setKnowing(false)}>{t("command.layer.writing")}</span>
             <span className={`chip click ${knowing ? "on" : ""}`} onClick={() => setKnowing(true)} style={knowing ? { color: "var(--violet)" } : undefined}>{t("command.layer.knowing")}</span>
           </span>
-        }>
+        )}>
           <Theatre overview={overview} mastery={knowing ? mastery : null} onHover={(tile, e) => setHover(tile && e ? { t: tile, x: e.clientX, y: e.clientY } : null)} />
         </Panel>
         <div className="grid">

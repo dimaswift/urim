@@ -694,6 +694,42 @@ def basemap() -> None:
     typer.secho(f"wrote {out}: {stats}", fg=typer.colors.GREEN)
 
 
+@app.command()
+def site(
+    out: Annotated[
+        Path | None,
+        typer.Argument(help="The static build of the apps [default: build/site]"),
+    ] = None,
+    ir: IrDir = None,
+    inputs: InputsDir = None,
+    bundles: BundlesDir = None,
+    vectors: Vectors = None,
+) -> None:
+    """Link the corpus and write a static copy of the review API next to the apps' static
+    build, for GitHub Pages: read-only, without Learn, runs or review decisions."""
+    from urim.review.site import SiteError, export_site
+
+    p = _paths(ir, inputs, bundles)
+    out = out or p.review.parent / "build" / "site"  # where `npm run build:site` puts it
+    v = _vectorizer(p, vectors)
+    _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs, vectors=v)
+    _print_vectors(v)
+    if not (out / "index.html").exists():
+        typer.secho(
+            f"no static build at {out}: run `npm --prefix {p.review} run build:site` first,"
+            " or the data has no apps to read it",
+            fg=typer.colors.YELLOW,
+        )
+    try:
+        r = export_site(p, out)
+    except SiteError as e:
+        raise _fail(str(e)) from e
+    typer.echo(f"  {r.files} files, {r.bytes / 1e6:.1f} MB, languages {', '.join(r.langs)}")
+    if missing := [lang for lang in r.langs if lang not in r.vectors]:
+        typer.secho(f"  note  no similar items in {', '.join(missing)}: no vectors", dim=True)
+    typer.secho(f"wrote {out}", fg=typer.colors.GREEN)
+
+
 # --- runtime ----------------------------------------------------------------------------------
 
 

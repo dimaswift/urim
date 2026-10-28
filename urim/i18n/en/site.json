@@ -1,0 +1,9 @@
+{
+ "site.static": {"text": "Static copy", "note": "Pill in the top bar of the copy published on GitHub Pages: read-only, no server behind it"},
+ "site.static_title": {"text": "A read-only copy of the corpus, published as files. Reviewing, learning and runs need the local server (urim review).", "note": "Tooltip on the Static copy pill; 'urim review' is a command, keep it as is"},
+ "site.server_only": {"text": "This needs the local server: run urim review.", "note": "Shown on the static copy when a screen or action needs the Python server; 'urim review' is a command"},
+ "site.missing": {"text": "Not in this copy: {path}", "note": "Error: a file or item the static copy does not contain; {path} is a file path or an item id"},
+ "site.no_meaning": {"text": "Search by meaning needs the local server; this copy searches by words.", "note": "Error on the static copy when search by meaning is asked for"},
+ "site.no_vectors": {"text": "Similar items need vectors, and this copy was published without them.", "note": "Error on the static copy built without embedding vectors"},
+ "site.read_only": {"text": "Read-only copy: approvals and change requests are made in urim review.", "note": "Note in the review deck of the static copy, where the decision buttons are gone; 'urim review' is a command"}
+}

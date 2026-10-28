@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
 import type { CausalLink, EntityRef, EventView, Status } from "./api";
+import { STATIC } from "./api";
 import { num, useT } from "./i18n";
 import { useApp } from "./state";
 import { ENTITY_COLOR, ENTITY_GLYPH, duration, href, range, statusLabel } from "./util";
@@ -110,6 +111,7 @@ export function ReviewBar({ itemKey }: { itemKey: string }) {
   const [note, setNote] = useState("");
   const status = ledger[itemKey]?.status;
   if (!ledger[itemKey]) return <span className="pill faint">{t("shell.not_in_ledger")}</span>;
+  if (STATIC) return <StatusPill status={status} />; // decisions are made in `urim review`
   return (
     <div className="row" style={{ flexWrap: "wrap" }}>
       <StatusPill status={status} />

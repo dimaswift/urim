@@ -1,0 +1,73 @@
+# The War Room and the Illuminated Codex as a static, read-only copy on GitHub Pages: ingest the
+# pinned sources, link the committed corpus with vectors, build the apps for the site and write
+# the API as files beside them (`urim site`). Publishes from the default branch.
+name: Pages
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          enable-cache: true
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: review/package-lock.json
+      # Sources are pinned by sources.lock.json (the model too, about 590 MB): download once.
+      - name: Restore pinned sources
+        uses: actions/cache@v6
+        with:
+          path: data/sources
+          key: sources-${{ hashFiles('sources.lock.json') }}
+          restore-keys: sources-
+      # Vectors are cached by text, so a run embeds only what changed.
+      - name: Restore embeddings
+        uses: actions/cache@v6
+        with:
+          path: data/cache
+          key: embeddings-${{ github.run_id }}
+          restore-keys: embeddings-
+      - run: uv sync --extra server --extra search --extra compiler
+      # The chapters the corpus reads; commentaries are for agents' packets, not the bundles.
+      - name: Ingest
+        run: |
+          uv run urim ingest 1KGS.17-19 --no-commentary
+          uv run urim ingest GEN --no-commentary
+      - run: uv run urim model fetch
+      - name: Build the apps
+        working-directory: review
+        run: |
+          npm ci
+          npm run build:site
+      - name: Link and write the API
+        run: uv run urim site --vectors
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: build/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

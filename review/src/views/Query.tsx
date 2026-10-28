@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api, post } from "../api";
+import { STATIC, api, post } from "../api";
 import type { SearchHit } from "../api";
 import { Panel, Similarity } from "../components";
 import { num, useT, type TFunc } from "../i18n";
@@ -53,11 +53,13 @@ function open(hit: SearchHit) {
 }
 
 function modes(t: TFunc): [string, string, string][] {
-  return [
+  const all: [string, string, string][] = [
     ["hybrid", t("query.mode.hybrid"), t("query.mode.hybrid_help")],
     ["keyword", t("query.mode.keyword"), t("query.mode.keyword_help")],
     ["meaning", t("query.mode.meaning"), t("query.mode.meaning_help")],
   ];
+  // The static copy has no model to embed a query: words only.
+  return STATIC ? all.filter(([m]) => m === "keyword") : all;
 }
 
 const SCOPES = ["all", "verses", "events", "entities", "systems"];
@@ -99,7 +101,7 @@ export default function Query() {
   const { lang } = useApp();
   const [q, setQ] = useState("");
   const [scope, setScope] = useState("all");
-  const [mode, setMode] = useState("hybrid");
+  const [mode, setMode] = useState(STATIC ? "keyword" : "hybrid");
   const [like, setLike] = useState<SearchHit | null>(null);
   const [hits, setHits] = useState<SearchHit[] | null>(null);
   const [searchErr, setSearchErr] = useState<string | null>(null);

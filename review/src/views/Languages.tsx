@@ -106,7 +106,7 @@ function Language({ p }: { p: LangProgress }) {
                   <td style={{ minWidth: 160 }}><Cell c={c.verses} /></td>
                   <td>
                     <a className="small" href={href("review", c.chapter)}>{t("languages.review")}</a>{" · "}
-                    <a className="small" href={`/codex.html${href("read", c.chapter)}`}>{t("languages.read")}</a>
+                    <a className="small" href={`codex.html${href("read", c.chapter)}`}>{t("languages.read")}</a>
                   </td>
                 </tr>
               ))}

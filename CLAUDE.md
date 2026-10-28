@@ -20,6 +20,7 @@ with Genesis 37–40 (the Joseph story) as the generalization test, which has no
 | `data/learner.sqlite` | Your quiz answers, mastery and exams (personal, gitignored) | the Learn view |
 | `runs/` | Other corpora: `runs/demo` (gold, for the review app), `runs/<model>` (comparisons) | commands |
 | `review/` | Review frontend (React, TypeScript, Vite, D3): War Room (`/`, with Learn and Campaign) and Illuminated Codex (`/codex`) | code |
+| `build/site/` | The static copy for GitHub Pages: both apps plus the API as files | `npm run build:site`, then `urim site` |
 | `.claude/skills/` | The agent skills: `urim-chronologist`, `urim-ontologist`, `urim-philologist`, `urim-localizer`, `urim-critic` | code |
 
 ## Commands
@@ -41,13 +42,18 @@ urim travel <place> <place>… [--mode] journey times from coordinates
 urim ledger <chapter>                review status, producers and notes per item
 urim approve / request-changes / reopen   review decisions (the user's)
 urim review [--demo]                 War Room on :8765 (Learn, Campaign, Languages, Review…), and /codex
+urim site                            link, then write the API as files into build/site (GitHub Pages)
 urim link all · urim validate        link or check the corpus by hand (vectors when installed)
 urim ingest 1KGS.17-19 · GEN.37-40   fetch pinned sources into build/ir
 urim model fetch                     the pinned bge-m3 for semantic search (needs urim[search])
 ```
 
 Checks: `uv run pytest -q`, `uv run ruff check urim tests`, `uv run ruff format urim tests`.
-Frontend: `npm run build` in `review/` (the server serves `review/dist`).
+Frontend: `npm run build` in `review/` (the server serves `review/dist`). The static copy:
+`npm run build:site` in `review/`, then `uv run urim site`; `.github/workflows/pages.yml` does
+both on every push to the default branch and publishes to GitHub Pages. A screen that needs a
+new GET gets it from `urim/review/site.py` too, or from `review/src/static.ts` when it depends
+on what the reader types.
 
 ## Agent work
 

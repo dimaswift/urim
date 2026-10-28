@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { STATIC } from "./api";
 import { Icon } from "./components";
 import type { TFunc } from "./i18n";
 import { num, useT } from "./i18n";
@@ -17,7 +18,10 @@ import Campaign from "./views/Campaign";
 import Learn from "./views/Learn";
 import Languages from "./views/Languages";
 
-const NAV = ["command", "learn", "campaign", "languages", "review", "xray", "chronicle", "causal", "atlas", "dossiers", "codex", "query"];
+// Learn and Campaign keep state on the server: the static copy (GitHub Pages) goes without.
+const SERVER_VIEWS = ["learn", "campaign"];
+const NAV = ["command", "learn", "campaign", "languages", "review", "xray", "chronicle", "causal", "atlas", "dossiers", "codex", "query"]
+  .filter((id) => !STATIC || !SERVER_VIEWS.includes(id));
 
 function navLabel(t: TFunc, id: string): string {
   switch (id) {
@@ -59,6 +63,7 @@ function TopBar() {
         <b>URIM</b><small>{t("shell.war_room")}</small>
       </div>
       {demo && <span className="pill" style={{ color: "var(--violet)" }}>{t("shell.demo_corpus")}</span>}
+      {STATIC && <span className="pill" style={{ color: "var(--cyan)" }} title={t("site.static_title")}>{t("site.static")}</span>}
       <div className="spacer" />
       {totals && (
         <>
@@ -84,7 +89,7 @@ function TopBar() {
           </div>
         </div>
       )}
-      <a className="btn small ghost" href="/codex.html" title={t("shell.codex_title")}>{t("shell.codex_link")} ↗</a>
+      <a className="btn small ghost" href="codex.html" title={t("shell.codex_title")}>{t("shell.codex_link")} ↗</a>
       <select value={lang} onChange={(e) => setLang(e.target.value)} title={t("shell.language_title")}>
         {(languages.length ? languages : [{ lang_code: "en", lang_name: "English" }]).map((l) => (
           <option key={l.lang_code} value={l.lang_code}>{l.lang_code.toUpperCase()} · {l.lang_name}</option>
@@ -104,6 +109,7 @@ export default function App() {
     dossiers: <Dossiers route={route} />, codex: <Codex route={route} />, query: <Query />,
     campaign: <Campaign route={route} />, learn: <Learn route={route} />, languages: <Languages />,
   };
+  if (STATIC) for (const id of SERVER_VIEWS) views[id] = <div className="intel">{t("site.server_only")}</div>;
   const pending = (overview?.totals.drafts ?? 0) + (overview?.totals.requests ?? 0);
   return (
     <div className="app">

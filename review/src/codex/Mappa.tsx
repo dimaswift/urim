@@ -42,7 +42,7 @@ export default function Mappa({ route }: { route: Route }) {
   const [step, setStep] = useState<number | null>(null);
   const selected = route.arg || null;
 
-  useEffect(() => { fetch("/geo/near_east.json").then((r) => r.json()).then(setBase); }, []);
+  useEffect(() => { fetch("geo/near_east.json").then((r) => r.json()).then(setBase); }, []);
   useEffect(() => {
     const svg = ref.current;
     if (!svg) return;

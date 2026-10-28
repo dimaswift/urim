@@ -98,7 +98,7 @@ function MapPick({ q, pin, setPin, judged }: {
   const ref = useRef<SVGSVGElement>(null);
   const W = 720, H = 420;
   useEffect(() => {
-    basemap ??= fetch("/geo/near_east.json").then((r) => r.json());
+    basemap ??= fetch("geo/near_east.json").then((r) => r.json());
     basemap.then(setBase);
   }, []);
   const projection = useMemo(() => {
@@ -260,7 +260,7 @@ function QuestionCard({ q, n, total, onAnswered, mode, examId }: {
           <div><span className="muted">{t("learn.feedback.answer")}</span> {judged.answer}</div>
           {judged.explanation && <div className="muted" style={{ marginTop: 4 }}>{judged.explanation}</div>}
           <div className="row" style={{ marginTop: 8, gap: 12 }}>
-            {judged.verse && <a href={`/codex.html#/read/${judged.verse.split(".").slice(0, 2).join(".")}`} target="_blank" rel="noreferrer">{t("learn.feedback.read", { ref: short(judged.verse) })} ↗</a>}
+            {judged.verse && <a href={`codex.html#/read/${judged.verse.split(".").slice(0, 2).join(".")}`} target="_blank" rel="noreferrer">{t("learn.feedback.read", { ref: short(judged.verse) })} ↗</a>}
             <span className="muted mono" style={{ fontSize: 11 }}>
               {judged.card.interval_days ? t("learn.feedback.next_in", { count: judged.card.interval_days }) : t("learn.feedback.again_soon")}
             </span>

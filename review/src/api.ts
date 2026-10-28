@@ -108,7 +108,11 @@ export interface SearchHit {
 
 export class ApiError extends Error {}
 
+/** Built for GitHub Pages (`npm run build:site`): no server, read-only, the API from files. */
+export const STATIC = import.meta.env.VITE_URIM_STATIC === "1";
+
 export async function api<T>(path: string, init?: RequestInit): Promise<T> {
+  if (STATIC) return (await import("./static")).answer<T>(path, init);
   const res = await fetch(path, init);
   if (!res.ok) {
     let detail = res.statusText;

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Codex, EventView, VerseMatrix } from "../api";
+import { STATIC } from "../api";
 import { useApi } from "../hooks";
 import { Msg, useT } from "../i18n";
 import type { TFunc } from "../i18n";
@@ -185,9 +186,11 @@ export default function Folio({ route, toc }: { route: Route; toc: TocBook[] }) 
         {next ? <a href={href("read", next.ref)}>{t("codex.folio.next_chapter", { roman: roman(next.chapter) })}</a> : <span />}
       </div>
       {open && <div className="muted" style={{ textAlign: "center", marginTop: 8, fontSize: 14 }}>{t("codex.folio.showing", { ref: short(open) })}</div>}
-      <div style={{ textAlign: "center", marginTop: 22 }}>
-        <a className="test-yourself" href={`/#/learn/${encodeURIComponent(ref)}`}>{t("codex.folio.test_yourself")}</a>
-      </div>
+      {!STATIC && (
+        <div style={{ textAlign: "center", marginTop: 22 }}>
+          <a className="test-yourself" href={`./#/learn/${encodeURIComponent(ref)}`}>{t("codex.folio.test_yourself")}</a>
+        </div>
+      )}
     </article>
   );
 }

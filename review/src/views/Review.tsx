@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Card, CausalLink, ComponentView, Dossier, EdgeView, EventView, InstanceView, Status, VerseMatrix } from "../api";
+import { STATIC } from "../api";
 import { CausalRow, EntityChip, EventBrief, Loading, Panel, StatusPill } from "../components";
 import { Msg, num, useT } from "../i18n";
 import { useApi, useApp } from "../state";
@@ -261,6 +262,7 @@ export default function Review({ route }: { route: Route }) {
         if (e.key === "Enter" && (e.metaKey || e.ctrlKey) && asking) decide("changes_requested");
         return;
       }
+      if (STATIC && (e.key === "a" || e.key === "r")) return;
       if (e.key === "a" && card && card.status !== "approved") decide("approved");
       else if (e.key === "r" && card) { setAsking(true); setTimeout(() => noteRef.current?.focus()); e.preventDefault(); }
       else if (e.key === "ArrowRight" || e.key === "s") setIndex((i) => Math.min(i + 1, cards.length - 1));
@@ -348,8 +350,12 @@ export default function Review({ route }: { route: Route }) {
               <button className="btn" onClick={() => setIndex((i) => Math.min(i + 1, cards.length - 1))}>{t("review.action.skip")} <span className="kbd">S</span></button>
               <button className="btn ghost" onClick={() => openTarget(card)}>{t("review.action.open")} <span className="kbd">O</span></button>
               <div className="spacer" />
-              <button className="btn red" onClick={() => decide("changes_requested")}>{t("review.action.send_back")} <span className="kbd">R</span></button>
-              <button className="btn green" disabled={card.status === "approved"} onClick={() => decide("approved")}>{t("review.action.approve")} <span className="kbd">A</span></button>
+              {STATIC ? <span className="muted" style={{ fontSize: 12 }}>{t("site.read_only")}</span> : (
+                <>
+                  <button className="btn red" onClick={() => decide("changes_requested")}>{t("review.action.send_back")} <span className="kbd">R</span></button>
+                  <button className="btn green" disabled={card.status === "approved"} onClick={() => decide("approved")}>{t("review.action.approve")} <span className="kbd">A</span></button>
+                </>
+              )}
             </div>
             {asking && (
               <div className="panel" style={{ marginTop: 12, borderColor: "rgba(255,90,95,.5)" }}>

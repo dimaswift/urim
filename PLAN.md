@@ -357,6 +357,20 @@ first (bundle and Synodal baseline already in place).
 - [ ] Later: localized map base layer (Natural Earth names), structured next steps on Command
       instead of English sentences, run logs and agents' working notes stay English
 
+## Phase 7: GitHub Pages
+
+A public, read-only copy of both apps, rebuilt from the corpus on every push (2026-10-29).
+
+- [x] `urim site`: link, then write every enumerable API answer as files (`build/site/api/`),
+      the keyword index, int8 vectors and the bundles without search tables (`build/site/db/`)
+- [x] `npm run build:site` (`review/.env.site`): the apps read the files; keyword search,
+      similar items, the deck's filters and SQL (sql.js) run in the browser, matching the
+      server's results; Learn, Campaign, decisions and search by meaning stay with the server
+- [x] Relative asset URLs (`base: "./"`), so the same build serves at `/` and under `/urim/`
+- [x] `.github/workflows/pages.yml`: pinned sources and embeddings cached, ingest without
+      commentaries, model fetch, build, `urim site --vectors`, deploy
+- [ ] Later: a CI job for the tests; Learn on the static copy with answers kept in the browser
+
 ## Open questions
 
 - How much human review per chapter before a bundle ships?
