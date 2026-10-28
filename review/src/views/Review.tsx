@@ -196,6 +196,12 @@ export default function Review({ route }: { route: Route }) {
 
   useEffect(() => { setIndex(0); setGone(new Set()); }, [status, chapter, kind]);
   const cards = useMemo(() => (data?.cards ?? []).filter((c) => !gone.has(c.key)), [data, gone]);
+  // The queue counts kinds as fetched; take off the cards decided since.
+  const byKind = useMemo(() => {
+    const out = { ...(data?.by_kind ?? {}) };
+    data?.cards.forEach((c) => { if (gone.has(c.key)) out[c.key.split(":")[0]] -= 1; });
+    return out;
+  }, [data, gone]);
   const card = cards[Math.min(index, Math.max(cards.length - 1, 0))];
 
   const decide = async (decision: "approved" | "changes_requested") => {
@@ -228,8 +234,9 @@ export default function Review({ route }: { route: Route }) {
   });
 
   const ingested = overview?.books.flatMap((b) => b.chapters.filter((c) => c.ingested)) ?? [];
+  const tally = chapter ? ingested.find((c) => c.ref === chapter) : overview?.totals;
   const counts: Record<string, number | undefined> = {
-    draft: overview?.totals.drafts, changes_requested: overview?.totals.requests, approved: overview?.totals.approved,
+    draft: tally?.drafts, changes_requested: tally?.requests, approved: tally?.approved,
   };
   const set = (k: string, v?: string) => go("review", "", { status, chapter, kind, [k]: v });
 
@@ -263,8 +270,8 @@ export default function Review({ route }: { route: Route }) {
         </select>
       </div>
       <div className="row" style={{ marginBottom: 14, flexWrap: "wrap", gap: 6 }}>
-        <span className={`chip click ${!kind ? "on" : ""}`} onClick={() => set("kind", undefined)}>All <span className="n">{data ? Object.values(data.by_kind).reduce((a, b) => a + b, 0) : ""}</span></span>
-        {Object.entries(data?.by_kind ?? {}).map(([k, n]) => (
+        <span className={`chip click ${!kind ? "on" : ""}`} onClick={() => set("kind", undefined)}>All <span className="n">{data ? Object.values(byKind).reduce((a, b) => a + b, 0) : ""}</span></span>
+        {Object.entries(byKind).map(([k, n]) => (
           <span key={k} className={`chip click ${kind === k ? "on" : ""}`} onClick={() => set("kind", k)}>
             <span style={{ color: KIND_COLOR[k] }}>■</span>{KIND_LABEL[k] ?? k} <span className="n">{n}</span>
           </span>
