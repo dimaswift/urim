@@ -3,9 +3,10 @@
 PoC fragment: **1 Kings 17–19** (91 verses). It has an extra-biblical date anchor (Ahab at
 Qarqar, 853 BCE), a KJV/Hebrew verse-numbering split inside the range (18:33–34), diurnal
 and multi-day timing, rituals, a theophany, and a succession. A second fragment,
-**Genesis 18–19**, will test generalization: dense diurnal sequencing (heat of the day → evening
-→ dawn → sunrise), a prophecy fulfilled a year later (18:10 → 21:2), name and state changes,
-and no absolute anchor.
+**Genesis 37–40** (the Joseph story, 112 verses), tests generalization with no gold: time told
+by a person's age, a chapter told out of order (38, "at that time", spanning two decades),
+dreams that come true on a stated day (40:12–22), a deception with a goat and a garment told
+twice, and no absolute anchor.
 
 ## Decisions (2026-10-27)
 
@@ -20,6 +21,7 @@ and no absolute anchor.
 | Architecture | Compiler: agents → JSON IR → deterministic linker → SQLite |
 | Python | 3.13, uv-managed (sqlite-vec needs `enable_load_extension`) |
 | MCP | SDK 2.x `MCPServer` (FastMCP was renamed in 2.0) |
+| Genesis frame (2026-10-28) | The Masoretic chain: pre-monarchic anchors are derived inside each scheme from its date for Solomon, with margins of centuries |
 
 ## Phase 0: skeleton without LLM ✅
 
@@ -226,7 +228,30 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
 
 ## Phase 4: scale
 
-- [ ] Genesis 18–19 as the generalization test (floating chronology)
+**M1: generalization, Genesis 37–40** (in place of Genesis 18–19)
+- [x] `urim ingest GEN.37-40`: 112 verses, all six baselines, no versification splits; the
+      Torah gets its own commentaries (Rashi, Rashbam, Ibn Ezra, Ramban, Radak, Sforno) and two
+      Targums (Onkelos, and Pseudo-Jonathan, which Sefaria files as "Targum Jonathan on
+      Genesis"); 31 registry names, 11 places with coordinates
+- [x] The frame, an open question until now: the Masoretic chain. `anchor.joseph_birth` (THIELE)
+      at c. 1915 BCE ± 220 years: 966 BCE for Solomon's temple + 480 years (1 Kgs 6:1) + 430
+      years in Egypt (Ex 12:40 MT) + Joseph's 39 years at the descent. Other schemes derive it
+      from their own Solomon; the margin covers a 13th-century Exodus and the LXX's Ex 12:40
+- [x] Two books at once: `urim status` runs one chronology and one ontology chain per book;
+      packets keep earlier events and open states within the book; the linker records the
+      earliest real mention of an entity a later-written book names first, and warns only
+      within a book
+- [x] `urim-chronologist@3`: a stated age is an offset from that person's birth anchor
+      (`REGNAL_YEAR`). Nothing about Genesis 38's order: that is what the test is for
+- [ ] Sessions for GEN.37–40 (chronology, ontology, philology), reviewed, then the critic
+- [ ] What to watch: where chapter 38 goes in time (Ibn Ezra: before the sale; Rashi on 37:34:
+      Jacob mourned 22 years) and whether Judah's three sons can grow up inside it; 39:1
+      resuming 37:36; "on the third day" in 40; TIPNR tags the Ishmaelites as Ishmael and the
+      Midianites as Midian; Jacob's proposed id is `person.israel`. Packets run larger than in
+      1 Kings: chronology GEN.37 44K characters (two Targums), philology GEN.37.1–12 59K
+      against 40K for 1KGS.17.13–24 (eight commentaries, Ramban is long)
+
+**Later in Phase 4**
 - [ ] Process in chronological narrative arcs (Kings and Chronicles interleave), parallel where
       the rolling state allows
 - [ ] API pipeline for speed: the skills become prompts, run through the Anthropic SDK with
@@ -236,6 +261,4 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
 
 ## Open questions
 
-- Which absolute frame to use for pre-monarchic narratives (Genesis): Masoretic Anno Mundi with
-  very wide margins, or "floating" events with relative anchors only?
 - How much human review per chapter before a bundle ships?

@@ -143,6 +143,16 @@ under named schemes. Every scheme defines the same anchor ids. **THIELE** is the
 (`urim link core --chronology GALIL`) shifts every absolute date, keeps every relative offset,
 and keeps language bundles valid. No agent re-runs.
 
+Narratives before the monarchy have no outside synchronism. Their anchors are derived inside
+each scheme from that scheme's own date for Solomon, through the Masoretic numbers, with a
+margin wide enough for the main alternatives. `anchor.joseph_birth` is the founding of the
+temple in Solomon's fourth year (966 BCE under Thiele) + 480 years to the Exodus (1 Kgs 6:1)
++ 430 years in Egypt (Ex 12:40, MT) + 39 years, Joseph's age at Jacob's descent (Gen 41:46,
+45:6): c. 1915 BCE ± 220 years, covering a 13th-century Exodus and the LXX reading of Ex 12:40.
+The text's own ages and spans are offsets from such an anchor ("seventeen years old" is 17
+years after it), so the story's inner chronology stays exact while its absolute date floats
+with the scheme.
+
 ### 4.5 Causality
 
 `core_causal_edges` always point **cause → effect**:
@@ -228,6 +238,9 @@ OpenBible                     chronology.json (curated) Ontologist  ─┤    i1
 * **Registry**: every TIPNR individual mentioned in the ingested text, with token-level
   mentions, names, family links, descriptions, proposed id and coordinates. It is the
   Ontologist's lookup table; the linker uses it to check identities and first mentions.
+  Books are written in any order, so an entity defined in one book may be named earlier in
+  another: the bundle records the earliest mention, and only an earlier mention in the
+  entity's own book is reported.
 * **Linker** ([`urim/compiler/link.py`](urim/compiler/link.py)) is the deterministic half of the
   Sanhedrin Critic. It checks unknown references, duplicate ids, reversed verse ranges, anchor
   cycles, causal order and cycles, component overlaps, gloss positions, and orphaned

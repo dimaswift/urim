@@ -68,22 +68,26 @@ def corpus_status(paths: Paths) -> list[ChapterRow]:
 
 def next_steps(rows: list[ChapterRow], limit: int = 6) -> list[str]:
     steps = []
-    chronology_next = ontology_next = False  # both build on earlier chapters: one at a time
+    # Chronology and ontology build on earlier chapters of the same book: one chapter at a time
+    # per book, while separate books (separate stories) can run side by side.
+    chronology_next: set[str] = set()
+    ontology_next: set[str] = set()
     for row in rows:
         ch = row.chapter
+        book = ch.split(".")[0]
         if row.requests:
             steps.append(
                 f"{ch}: {row.requests} change request(s) waiting; rerun the skill that "
                 "owns them (the packet lists them first)"
             )
         if row.events == 0:
-            if not chronology_next:
+            if book not in chronology_next:
                 steps.append(f"/urim-chronologist {ch}")
-            chronology_next = True
+            chronology_next.add(book)
         elif row.linked_events == 0 and row.ontology_items == 0:
-            if not ontology_next:
+            if book not in ontology_next:
                 steps.append(f"/urim-ontologist {ch}")
-            ontology_next = True
+            ontology_next.add(book)
         missing = row.missing_philology
         if missing and row.events:
             first = parse_ref(missing[0])[1].verse

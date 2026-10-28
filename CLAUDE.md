@@ -2,7 +2,8 @@
 
 A pre-compiled knowledge engine for scripture, built like a compiler: agents write JSON IR, a
 deterministic linker turns it into SQLite bundles (a language-free core plus one bundle per
-language), and a runtime serves them over Python, REST and MCP. PoC scope: 1 Kings 17–19.
+language), and a runtime serves them over Python, REST and MCP. PoC scope: 1 Kings 17–19,
+with Genesis 37–40 (the Joseph story) as the generalization test, which has no gold.
 [SPEC.md](SPEC.md) is the design; [PLAN.md](PLAN.md) is the build plan and its decisions.
 
 ## Layout
@@ -34,7 +35,7 @@ urim ledger <chapter>                review status, producers and notes per item
 urim approve / request-changes / reopen   review decisions (the user's)
 urim review [--demo]                 review app on :8765 (War Room, and /codex)
 urim link all · urim validate        link or check the corpus by hand (vectors when installed)
-urim ingest 1KGS.17-19               fetch pinned sources into build/ir
+urim ingest 1KGS.17-19 · GEN.37-40   fetch pinned sources into build/ir
 urim model fetch                     the pinned bge-m3 for semantic search (needs urim[search])
 ```
 
@@ -69,7 +70,7 @@ and word glosses; the **critic** writes nothing to the corpus, only a report.
 - Travel durations come from `urim travel`, not mental arithmetic; when the text states a
   duration, the text wins.
 - Fill `produced_by.model` with your exact model id (from your system prompt) and
-  `produced_by.skill` with the name and version the skill states (`urim-chronologist@2`).
+  `produced_by.skill` with the name and version the skill states (`urim-chronologist@3`).
 - Do not commit unless asked; the user commits after reviewing.
 - `--refresh` on ingest re-pins upstream sources: only when the user asks.
 

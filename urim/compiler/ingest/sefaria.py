@@ -18,16 +18,47 @@ from urim.compiler.ingest.fetch import Fetcher
 
 API = "https://www.sefaria.org/api/v3/texts/"
 
-# Commentaries on the Prophets and Writings; Torah would use Onkelos instead of Jonathan.
-PROPHETS_WORKS = (
-    "Rashi",
-    "Radak",
-    "Ralbag",
-    "Metzudat David",
-    "Metzudat Zion",
-    "Malbim",
-    "Targum Jonathan",
+
+@dataclass(frozen=True)
+class Work:
+    """A commentary or Targum: the name packets and citations use, and its Sefaria title."""
+
+    name: str
+    title: str = "{work} on {book}"
+    targum: bool = False
+
+    def sefaria_title(self, book: Book) -> str:
+        return self.title.format(work=self.name, book=book.sefaria)
+
+
+# Sefaria's "Targum Jonathan on Genesis" is the Palestinian Pseudo-Jonathan, not the Targum
+# Jonathan of the Prophets, so it goes by its scholarly name here.
+TORAH_WORKS = (
+    Work("Rashi"),
+    Work("Rashbam"),
+    Work("Ibn Ezra"),
+    Work("Ramban"),
+    Work("Radak"),
+    Work("Sforno"),
+    Work("Onkelos", "{work} {book}", targum=True),
+    Work("Targum Pseudo-Jonathan", "Targum Jonathan on {book}", targum=True),
 )
+PROPHETS_WORKS = (
+    Work("Rashi"),
+    Work("Radak"),
+    Work("Ralbag"),
+    Work("Metzudat David"),
+    Work("Metzudat Zion"),
+    Work("Malbim"),
+    Work("Targum Jonathan", targum=True),
+)
+TARGUMS = frozenset(w.name for w in TORAH_WORKS + PROPHETS_WORKS if w.targum)
+
+
+def works_for(book: Book) -> tuple[Work, ...]:
+    """The commentaries ingested for a book: the Torah has its own classical set and Onkelos."""
+    return TORAH_WORKS if book.book_id <= 5 else PROPHETS_WORKS
+
 
 _TAG = re.compile(r"<[^>]+>")
 
@@ -44,9 +75,8 @@ def _clean(text: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(_TAG.sub("", text))).strip()
 
 
-def fetch_chapter(fetcher: Fetcher, work: str, book: Book, chapter: int) -> WorkChapter | None:
-    title = f"{work} on {book.sefaria}"
-    slug = title.replace(" ", "_")
+def fetch_chapter(fetcher: Fetcher, work: Work, book: Book, chapter: int) -> WorkChapter | None:
+    slug = work.sefaria_title(book).replace(" ", "_")
     path = fetcher.get_url(
         key=f"sefaria/{slug}.{chapter}",
         url=f"{API}{quote(slug)}.{chapter}?version=hebrew",
@@ -63,7 +93,7 @@ def fetch_chapter(fetcher: Fetcher, work: str, book: Book, chapter: int) -> Work
         if cleaned:
             verses[i] = cleaned
     return WorkChapter(
-        work=work,
+        work=work.name,
         version_title=version.get("versionTitle", "").strip(),
         license=version.get("license") or "unknown",
         verses=verses,

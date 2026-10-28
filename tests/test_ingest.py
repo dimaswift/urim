@@ -8,6 +8,7 @@ from pathlib import Path
 import httpx
 import pytest
 
+from urim.canon import BOOKS_BY_CODE
 from urim.compiler.ingest.build import (
     _is_proper_noun,
     _merge_source,
@@ -17,6 +18,7 @@ from urim.compiler.ingest.build import (
 )
 from urim.compiler.ingest.fetch import Fetcher, SourceChanged
 from urim.compiler.ingest.geo import OpenBibleIndex
+from urim.compiler.ingest.sefaria import TARGUMS, works_for
 from urim.compiler.ingest.tahot import build_verses, kjv_verse_map, read_tahot
 from urim.compiler.ingest.tipnr import TipnrIndex, TipnrRecord, read_tipnr
 from urim.compiler.ingest.tvtms import read_tvtms
@@ -187,3 +189,17 @@ def test_reingest_reproduces_the_committed_fixture(tmp_path):
     assert report.warnings == []
     for rel in ("source/1KGS.json", "registry/entities.json"):
         assert (tmp_path / "ir" / rel).read_bytes() == (FIXTURE_IR / rel).read_bytes(), rel
+
+
+def test_the_torah_and_the_prophets_have_their_own_commentaries():
+    gen, kings = BOOKS_BY_CODE["GEN"], BOOKS_BY_CODE["1KGS"]
+    titles = [w.sefaria_title(gen) for w in works_for(gen)]
+    assert "Ramban on Genesis" in titles and "Onkelos Genesis" in titles
+    # Sefaria files Pseudo-Jonathan as "Targum Jonathan on Genesis"; packets use its real name.
+    assert {w.name: w.sefaria_title(gen) for w in works_for(gen)}[
+        "Targum Pseudo-Jonathan"
+    ] == "Targum Jonathan on Genesis"
+    assert [w.sefaria_title(kings) for w in works_for(kings) if w.targum] == [
+        "Targum Jonathan on I Kings"
+    ]
+    assert {"Onkelos", "Targum Pseudo-Jonathan", "Targum Jonathan"} <= TARGUMS

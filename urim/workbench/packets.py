@@ -15,6 +15,7 @@ from itertools import combinations
 from pathlib import Path
 
 from urim.canon import BOOKS_BY_CODE, parse_ref
+from urim.compiler.ingest.sefaria import TARGUMS
 from urim.compiler.link import Report, build_core
 from urim.config import Paths
 from urim.ir.load import inputs_root, load_core_corpus, load_registry, load_sources, read_model
@@ -141,6 +142,10 @@ class Context:
     def name_of(self, verse_id: str, token: Token) -> str:
         return self.names.get((verse_id, token.pos)) or token.name_ref or ""
 
+    def book_chapters(self) -> list[str]:
+        """Corpus chapters of this chapter's book: a story's rolling state stays in its book."""
+        return [ch for ch in self.files.chapters() if ch.split(".")[0] == self.book]
+
     def corpus_entities(self) -> dict[str, tuple[str, str, str | None]]:
         """entity_id -> (type, home chapter, tipnr_id) for the whole corpus."""
         out = {}
@@ -262,7 +267,7 @@ def _time_comments(ctx: Context, verse_id: str) -> list[str]:
         f"{name}: {c}"
         for name, work in ctx.commentary.works.items()
         for c in work.verses.get(verse_id, [])
-        if name.startswith("Targum") or _is_time_comment(c)
+        if name in TARGUMS or _is_time_comment(c)
     ]
 
 
@@ -279,9 +284,9 @@ def _narrative_verses(
     ]
     if commentary and ctx.commentary:
         out += [
-            "Under each verse: the Targum, and the classical commentaries on a phrase with a "
-            "time word (day, year, morning, the hour of the offering, …). They often say how "
-            "the tradition counted a vague span.",
+            "Under each verse: the Aramaic Targum(s), and the classical commentaries on a "
+            "phrase with a time word (day, year, morning, the hour of the offering, …). They "
+            "often say how the tradition counted a vague span.",
             "",
         ]
     for v in verses:
@@ -316,14 +321,14 @@ def _chronology(ctx: Context) -> list[str]:
 
     this_order = parse_ref(f"{ctx.chapter}.1")[1].ordinal
     earlier = []
-    for ch in ctx.files.chapters():
+    for ch in ctx.book_chapters():
         if ch == ctx.chapter or parse_ref(f"{ch}.1")[1].ordinal > this_order:
             continue
         en = {t.event_id: t for t in ctx.files.i18n("en", ch).events}
         for e in ctx.files.core(ch).events:
             earlier.append((ctx.times.get(e.event_id, (0,))[0], e, en.get(e.event_id)))
     earlier.sort(key=lambda x: x[0])
-    out += ["## Events already in the corpus before this chapter (latest 15)", ""]
+    out += ["## Events already in the corpus before this chapter in this book (latest 15)", ""]
     if not earlier:
         out.append("- none yet: anchor on a chronology anchor")
     for _, e, t in earlier[-15:]:
@@ -417,16 +422,14 @@ def _ontology(ctx: Context) -> list[str]:
     out.append("")
 
     open_states = []
-    for ch in ctx.files.chapters():
-        closed = {
-            c.component_id
-            for x in ctx.files.chapters()
-            for c in ctx.files.core(x).component_closures
-        }
+    closed = {
+        c.component_id for x in ctx.book_chapters() for c in ctx.files.core(x).component_closures
+    }
+    for ch in ctx.book_chapters():
         for c in ctx.files.core(ch).components:
             if c.expired_at_verse is None and c.component_id not in closed:
                 open_states.append(c)
-    out += ["## Open states (not yet closed)", ""]
+    out += ["## Open states in this book (not yet closed)", ""]
     out += [
         f"- `{c.component_id}` {c.entity_id}.{c.component_key} = "
         f"{c.value_code or c.target_entity_id} since {c.acquired_at_verse}"

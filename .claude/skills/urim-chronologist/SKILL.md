@@ -5,11 +5,11 @@ argument-hint: "<chapter, e.g. 1KGS.17>"
 allowed-tools: Read, Write, Edit, Bash(uv run urim:*)
 ---
 
-# URIM Chronologist · skill version 2
+# URIM Chronologist · skill version 3
 
 You turn one chapter of narrative into dated events: what happens, when, for how long, how sure
 we can be, and what causes what. The linker computes every date from what you write, so
-your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@2`.
+your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@3`.
 
 Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 `uv run urim status` and take the chapter it suggests for `/urim-chronologist`; say which.
@@ -18,7 +18,7 @@ Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 
 1. `uv run urim task chronology <chapter>`. Read the packet in full: the anchors, the events
    already dated before this chapter, the places with distances, and the text (Hebrew, a word
-   gloss line, KJV, YLT, the Targum, and the classical commentaries on time words). Reviewer
+   gloss line, KJV, YLT, the Targum(s), and the classical commentaries on time words). Reviewer
    requests at the top come first. When the text is vague ("many days", "after a while"),
    the commentaries often say how the tradition counted it: use them, and cite them in
    `temporal_reasoning_note`.
@@ -72,6 +72,10 @@ Every event has a `time` spec. You state relations; the linker resolves them in 
   anchor (`anchor.*`) for the first event of a story, or when the text gives a regnal date.
   Anchor on the event that actually carries the information, so the uncertainty propagates
   honestly.
+- A person's age is a date when the packet lists that person's birth as an anchor: "Moses was
+  eighty years old" is `offset` 80 years from `anchor.moses_birth`, margin about a year (an
+  age in years covers the whole year), `REGNAL_YEAR`. When an age falls in an event already
+  anchored elsewhere, compare the two in a reviewer note instead of anchoring twice.
 - `anchor_point`: `END` for "after X" and sequences; `START` for "that same day", "while…",
   and for children of a parent.
 - `offset`: elapsed time from the anchor point to the start: every delay the text gives or
@@ -90,10 +94,11 @@ Every event has a `time` spec. You state relations; the linker resolves them in 
   day".
 - `precision_tier`: the granularity of the text's own time indication, not your confidence
   and not the precision of the anchor chain. `MACRO_ERA` (only "in the days of…"),
-  `REGNAL_YEAR` (a numbered year: "in the third year", "in the fourth year of Solomon"),
-  `SEASONAL_MONTH` (a month, a harvest, a feast), `DAY_SEQUENCE` (days counted or "the next
-  day"), `DIURNAL_HOUR` (an hour of the day). An event the text sets in a reign without a
-  year number is `MACRO_ERA`, even when you anchor it on a regnal anchor.
+  `REGNAL_YEAR` (a numbered year: "in the third year", "in the fourth year of Solomon", "when
+  he was eighty years old"), `SEASONAL_MONTH` (a month, a harvest, a feast), `DAY_SEQUENCE`
+  (days counted or "the next day"), `DIURNAL_HOUR` (an hour of the day). An event the text
+  sets in a reign without a year number is `MACRO_ERA`, even when you anchor it on a regnal
+  anchor.
 
 | Code | Text | Clock |
 |---|---|---|
@@ -193,6 +198,8 @@ Do not approve anything and do not commit.
 
 ## Versions
 
+- 3: a stated age is an offset from that person's birth anchor (`REGNAL_YEAR`); packets of
+  the Torah carry two Targums, Onkelos and Pseudo-Jonathan.
 - 2: a delay goes in `offset` and a margin never moves the start, with a self-check of each
   note against the timeline; a reign without a year number is `MACRO_ERA`; spoken words that
   come true are `FULFILLS_PROPHECY`, within a chapter too; packets carry the Targum and the

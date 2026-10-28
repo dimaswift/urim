@@ -16,7 +16,7 @@ from urim.workbench.fragments import FragmentError, ReviewerNote, key_for_note, 
 from urim.workbench.ledger import LedgerError, load_ledger, set_status
 from urim.workbench.merge import merge_fragment
 from urim.workbench.packets import TaskError, build_packet
-from urim.workbench.status import corpus_status, next_steps
+from urim.workbench.status import ChapterRow, corpus_status, next_steps
 
 from .conftest import FIXTURE_IR
 
@@ -26,9 +26,11 @@ CHAPTERS = ("1KGS.17", "1KGS.18", "1KGS.19")
 
 @pytest.fixture
 def corpus(tmp_path) -> Path:
-    """An empty working corpus (anchors and bundle labels only), reading the fixture's inputs."""
+    """An empty working corpus (anchors and bundle labels only), reading the fixture's inputs.
+    Anchors are the gold's: the working corpus also dates books the gold does not cover."""
     target = tmp_path / "corpus"
     shutil.copytree(REPO / "corpus", target, ignore=shutil.ignore_patterns("core", "ledger"))
+    shutil.copy(FIXTURE_IR / "chronology.json", target / "chronology.json")
     for lang in ("en", "ru"):
         for p in (target / "i18n" / lang).glob("*.json"):
             if p.name != "_bundle.json":
@@ -294,6 +296,11 @@ def test_status_suggests_one_chronology_chapter_at_a_time(corpus):
     assert "/urim-ontologist 1KGS.17" in steps and "/urim-chronologist 1KGS.18" in steps
     assert sum(s.startswith("/urim-chronologist") for s in steps) == 1
     assert "1KGS.17: review 1 draft item(s)" in steps
+
+
+def test_status_runs_each_book_as_its_own_story():
+    rows = [ChapterRow(c, [f"{c}.1"]) for c in ("GEN.37", "GEN.38", "1KGS.18", "1KGS.19")]
+    assert next_steps(rows) == ["/urim-chronologist GEN.37", "/urim-chronologist 1KGS.18"]
 
 
 def test_cli_merge_status_and_approve(corpus, tmp_path):

@@ -15,7 +15,7 @@ from pathlib import Path
 from urim.canon import BOOKS_BY_CODE, TRANSLATION_SCHEMES, Book, parse_ref
 from urim.compiler.ingest.fetch import SOURCES, TAHOT_FILES, Fetcher
 from urim.compiler.ingest.geo import OpenBibleIndex
-from urim.compiler.ingest.sefaria import PROPHETS_WORKS, fetch_chapter
+from urim.compiler.ingest.sefaria import fetch_chapter, works_for
 from urim.compiler.ingest.tahot import TahotWord, build_verses, kjv_verse_map, read_tahot
 from urim.compiler.ingest.tipnr import TipnrIndex, TipnrRecord, read_tipnr
 from urim.compiler.ingest.tvtms import read_tvtms
@@ -333,13 +333,13 @@ def ingest(
         # Commentaries.
         commentary = CommentaryIR(book_code=book.code, works={})
         if commentaries and book.sefaria:
-            for work in PROPHETS_WORKS:
+            for work in works_for(book):
                 collected: dict[str, list[str]] = {}
                 meta = None
                 for ch in present_chapters:
                     wc = fetch_chapter(fetcher, work, book, ch)
                     if wc is None:
-                        report.warnings.append(f"Sefaria: no {work} on {book.sefaria} {ch}")
+                        report.warnings.append(f"Sefaria: no {work.sefaria_title(book)} {ch}")
                         continue
                     meta = wc
                     for v, comments in wc.verses.items():
@@ -347,10 +347,10 @@ def ingest(
                         if vid in verse_ids:
                             collected[vid] = comments
                 if meta is not None:
-                    commentary.works[work] = CommentaryWork(
+                    commentary.works[work.name] = CommentaryWork(
                         version_title=meta.version_title, license=meta.license, verses=collected
                     )
-                    report.commentaries[work] = len(collected)
+                    report.commentaries[work.name] = len(collected)
 
     attribution = STEPBIBLE_ATTRIBUTION + [
         f"{name} baseline: scrollmapper/bible_databases (public domain)" for name in BASELINES

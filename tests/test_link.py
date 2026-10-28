@@ -1,6 +1,7 @@
 """The linker as critic: what it derives, and what it refuses to write."""
 
 import hashlib
+import json
 import sqlite3
 
 import pytest
@@ -210,3 +211,29 @@ def test_first_mention_is_checked_against_the_registry(ir_copy):
     edit_json(ir_copy / "core" / "1KGS.19.json", late)
     warnings = validate(ir_copy).warnings
     assert any("person.elisha: mentioned at 1KGS.19.16" in w for w in warnings)
+
+
+def test_an_earlier_book_moves_the_first_mention_without_a_warning(ir_copy, tmp_path):
+    # Books are written in any order: Genesis, ingested after 1 Kings, names the LORD first.
+    verse = {
+        "verse_id": "GEN.38.7",
+        "source_text": "יְהוָה",
+        "tokens": [{"pos": 1, "surface": "יְהוָה"}],
+    }
+    (ir_copy / "source" / "GEN.json").write_text(
+        json.dumps(
+            {"book_code": "GEN", "source_language": "HEBREW", "attribution": [], "verses": [verse]}
+        )
+    )
+
+    def named_in_genesis(doc):
+        lord = next(e for e in doc["entities"] if e["tipnr_id"] == "LORD@Gen.1.1-Rev")
+        lord["mentions"].insert(0, {"verse_id": "GEN.38.7", "pos": 1})
+
+    edit_json(ir_copy / "registry" / "entities.json", named_in_genesis)
+    report = validate(ir_copy)
+    assert report.errors == [] and not any("deity.yhwh" in w for w in report.warnings)
+    link_core(ir_copy, tmp_path)
+    assert _core_rows(
+        tmp_path, "SELECT first_mention_verse FROM core_entities WHERE entity_id = 'deity.yhwh'"
+    ) == [("GEN.38.7",)]

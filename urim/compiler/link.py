@@ -195,8 +195,11 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
     edges = _unique((x for c in chs for x in c.edges), "edge_id", "edge", report)
 
     # Registry: TIPNR identity, first mentions and coordinates. Agents never write coordinates;
-    # explicit IR geo is an override.
+    # explicit IR geo is an override. Books are written in any order, so an entity defined in
+    # one book may be named earlier in another: the bundle keeps the earliest mention, and only
+    # an earlier mention in the entity's own book is a mistake to report.
     seeds = {s.tipnr_id: s for s in corpus.registry.entities} if corpus.registry else {}
+    first_mention: dict[str, str] = {}
     tipnr_owner: dict[str, str] = {}
     for e in entities.values():
         if e.tipnr_id is None:
@@ -211,10 +214,12 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
             seen = [m.verse_id for m in seed.mentions if m.verse_id in ordinal]
             earliest = min(seen, key=ordinal.__getitem__, default=None)
             if earliest and ordinal[earliest] < ordinal[e.first_mention_verse]:
-                report.warn(
-                    f"{e.entity_id}: mentioned at {earliest}, before its "
-                    f"first_mention_verse {e.first_mention_verse}"
-                )
+                first_mention[e.entity_id] = earliest
+                if earliest.split(".")[0] == e.first_mention_verse.split(".")[0]:
+                    report.warn(
+                        f"{e.entity_id}: mentioned at {earliest}, before its "
+                        f"first_mention_verse {e.first_mention_verse}"
+                    )
 
     def geo_of(e) -> tuple[float | None, float | None, float | None, str | None, float | None]:
         if e.geo_lat is not None and e.geo_lon is not None:
@@ -531,7 +536,7 @@ def build_core(corpus: CoreCorpus, scheme: str, report: Report) -> dict[str, Tab
                 e.entity_type,
                 e.source_script_name,
                 e.transliterated_name,
-                e.first_mention_verse,
+                first_mention.get(e.entity_id, e.first_mention_verse),
                 None,
                 None,
                 *geo_of(e),
