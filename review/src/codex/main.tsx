@@ -5,6 +5,8 @@ import "@fontsource/eb-garamond/400-italic.css";
 import "@fontsource/eb-garamond/600.css";
 import "@fontsource/cinzel/600.css";
 import "@fontsource/cinzel/700.css";
+// Cinzel has no Cyrillic: Forum draws Roman capitals for it.
+import "@fontsource/forum/cyrillic-400.css";
 import "@fontsource/noto-serif-hebrew/400.css";
 import "@fontsource/jetbrains-mono/400.css";
 import "./codex.css";

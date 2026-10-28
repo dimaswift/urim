@@ -1,5 +1,7 @@
-// Formatting, routing and the Hebrew morphology decoder.
+// Formatting, routing and the Hebrew morphology decoder. Words come from the message catalog
+// (i18n.tsx), so every label here follows the interface language.
 import { useEffect, useState } from "react";
+import { has, num, tr } from "./i18n";
 
 // --- routing (hash based: #/view/arg?x=y) -------------------------------------------------------
 export interface Route { view: string; arg: string; params: URLSearchParams }
@@ -53,12 +55,14 @@ export function duration(seconds: number, parts = 2): string {
   if (seconds === 0) return "0";
   const sign = seconds < 0 ? "−" : "";
   let s = Math.abs(seconds);
-  if (s >= 31_556_952 * 2) return `${sign}${(s / 31_556_952).toFixed(1)} y`;
+  if (s >= 31_556_952 * 2) {
+    return sign + tr("unit.y", { n: num(s / 31_556_952, { minimumFractionDigits: 1, maximumFractionDigits: 1 }) });
+  }
   const out: string[] = [];
   for (const [size, unit] of UNITS) {
     if (s >= size && out.length < parts) {
       const n = Math.floor(s / size);
-      out.push(`${n} ${unit}`);
+      out.push(tr(`unit.${unit}`, { n }));
       s -= n * size;
     }
   }
@@ -67,27 +71,28 @@ export function duration(seconds: number, parts = 2): string {
 
 export function ago(iso: string): string {
   const s = (Date.now() - Date.parse(iso)) / 1000;
-  if (s < 60) return "just now";
-  if (s < 3600) return `${Math.floor(s / 60)} min ago`;
-  if (s < 86400) return `${Math.floor(s / 3600)} h ago`;
-  return `${Math.floor(s / 86400)} d ago`;
+  if (s < 60) return tr("time.just_now");
+  if (s < 3600) return tr("time.minutes_ago", { count: Math.floor(s / 60) });
+  if (s < 86400) return tr("time.hours_ago", { count: Math.floor(s / 3600) });
+  return tr("time.days_ago", { count: Math.floor(s / 86400) });
 }
 
-export const STATUS_LABEL: Record<string, string> = {
-  draft: "Draft", changes_requested: "Sent back", approved: "Approved",
-};
+/** A review status in words: Draft, Sent back, Approved. */
+export const statusLabel = (status: string) => (has(`status.${status}`) ? tr(`status.${status}`) : status);
 
-export const KIND_LABEL: Record<string, string> = {
-  event: "Event", causal: "Causal link", event_links: "Cast & place", entity: "Entity",
-  system: "System", component: "State", closure: "State closed", instance: "Ritual instance",
-  edge: "Interaction", "verse.en": "Verse",
-};
+/** A ledger kind in words; a translation's kind carries its language: "Event · RU". */
+export function kindLabel(kind: string): string {
+  const [base, lang] = kind.split(".");
+  const word = has(`kind.${base}`) ? tr(`kind.${base}`) : base;
+  return lang && lang !== "en" ? `${word} · ${lang.toUpperCase()}` : word;
+}
 
-export const KIND_COLOR: Record<string, string> = {
+const KIND_COLORS: Record<string, string> = {
   event: "var(--amber)", causal: "var(--gold)", event_links: "var(--cyan)", entity: "var(--cyan)",
   system: "var(--violet)", component: "var(--green)", closure: "var(--green)",
-  instance: "var(--violet)", edge: "var(--cyan)", "verse.en": "var(--text)",
+  instance: "var(--violet)", edge: "var(--cyan)", verse: "var(--text)",
 };
+export const kindColor = (kind: string) => KIND_COLORS[kind.split(".")[0]] ?? "var(--text)";
 
 export const ENTITY_COLOR: Record<string, string> = {
   PERSON: "var(--amber)", DEITY: "var(--violet)", SPIRIT_BEING: "var(--violet)",
@@ -98,63 +103,43 @@ export const ENTITY_GLYPH: Record<string, string> = {
   PERSON: "♟", DEITY: "✶", SPIRIT_BEING: "✧", LOCATION: "⌖", GROUP: "⚑", ARTIFACT: "◈", SUBSTANCE: "◇",
 };
 
+/** An entity type in words: Person, Place… */
+export const entityTypeLabel = (type: string) => (has(`entity_type.${type}`) ? tr(`entity_type.${type}`) : type);
+
 // UTES seconds -> JS Date (proleptic Gregorian, astronomical years, UTC).
 export const toDate = (utes: number) => new Date(utes * 1000);
 
 export function yearLabel(d: Date): string {
   const y = d.getUTCFullYear();
-  return y <= 0 ? `${1 - y} BCE` : `${y} CE`;
+  return y <= 0 ? tr("time.bce", { year: String(1 - y) }) : tr("time.ce", { year: String(y) });
 }
 
 // --- Hebrew morphology (OSHB / STEPBible TAHOT codes) ----------------------------------------
-const POS: Record<string, string> = {
-  A: "adjective", C: "conjunction", D: "adverb", N: "noun", P: "pronoun", R: "preposition",
-  S: "suffix", T: "particle", V: "verb",
-};
-const STEMS: Record<string, string> = {
-  q: "qal", N: "niphal", p: "piel", P: "pual", h: "hiphil", H: "hophal", t: "hithpael",
-  o: "polel", O: "polal", r: "hithpolel", m: "poel", M: "poal", k: "palel", K: "pulal",
-  Q: "qal passive", l: "pilpel", L: "polpal", f: "hithpalpel", D: "nithpael", j: "pealal",
-  i: "pilel", u: "hothpaal", c: "tiphil", v: "hishtaphel", w: "nithpalel", y: "nithpoel",
-  z: "hithpoel",
-};
-const CONJ: Record<string, string> = {
-  p: "perfect", q: "sequential perfect", i: "imperfect", w: "wayyiqtol", h: "cohortative",
-  j: "jussive", v: "imperative", r: "active participle", s: "passive participle",
-  a: "infinitive absolute", c: "infinitive construct",
-};
-const PERSON: Record<string, string> = { "1": "1st", "2": "2nd", "3": "3rd" };
-const GENDER: Record<string, string> = { m: "masc.", f: "fem.", b: "both", c: "common" };
-const NUMBER: Record<string, string> = { s: "sing.", p: "plur.", d: "dual" };
-const STATE: Record<string, string> = { a: "absolute", c: "construct", d: "determined" };
-const SUB: Record<string, Record<string, string>> = {
-  N: { c: "common", g: "gentilic", p: "proper", x: "" },
-  A: { a: "", c: "cardinal", g: "gentilic", o: "ordinal" },
-  P: { d: "demonstrative", f: "indefinite", i: "interrogative", p: "personal", r: "relative" },
-  S: { d: "directional ה", h: "paragogic ה", n: "paragogic נ", p: "pronominal" },
-  T: { a: "affirmation", d: "article", e: "exhortation", i: "interrogative", j: "interjection",
-       m: "demonstrative", n: "negative", o: "object marker", r: "relative", c: "conjunctive" },
-  R: { d: "with article" },
-};
+// Every code has a message: morph.pos.V "verb", morph.stem.q "qal", morph.sub.T.o "object marker".
+const SUB_BLANK = new Set(["N.x", "A.a"]);
+const word = (group: string, code: string) => (has(`morph.${group}.${code}`) ? tr(`morph.${group}.${code}`) : code);
+const feature = (c: string) => ["person", "gender", "number", "state"].map((g) => `morph.${g}.${c}`).find(has);
 
 function decodeSegment(seg: string): string {
   const pos = seg[0];
   const rest = seg.slice(1);
   const parts: string[] = [];
+  const features = (codes: string) => { for (const c of codes) { const k = feature(c); parts.push(k ? tr(k) : c); } };
   if (pos === "V") {
-    parts.push(STEMS[rest[0]] ?? rest[0], CONJ[rest[1]] ?? rest[1] ?? "");
-    for (const c of rest.slice(2)) parts.push(PERSON[c] ?? GENDER[c] ?? NUMBER[c] ?? STATE[c] ?? c);
+    parts.push(word("stem", rest[0]), rest[1] ? word("conj", rest[1]) : "");
+    features(rest.slice(2));
   } else {
-    const sub = SUB[pos]?.[rest[0]];
-    if (sub !== undefined) parts.push(sub);
-    for (const c of rest.slice(sub !== undefined ? 1 : 0)) parts.push(PERSON[c] ?? GENDER[c] ?? NUMBER[c] ?? STATE[c] ?? c);
+    const subKey = `${pos}.${rest[0]}`;
+    const isSub = has(`morph.sub.${subKey}`) || SUB_BLANK.has(subKey);
+    if (isSub && has(`morph.sub.${subKey}`)) parts.push(tr(`morph.sub.${subKey}`));
+    features(rest.slice(isSub ? 1 : 0));
   }
-  return [POS[pos] ?? pos, ...parts.filter(Boolean)].join(" ");
+  return [word("pos", pos), ...parts.filter(Boolean)].join(" ");
 }
 
 export function decodeMorph(code?: string | null): string[] {
   if (!code) return [];
-  const lang = code[0] === "A" ? "Aramaic" : "Hebrew";
+  const lang = tr(code[0] === "A" ? "morph.lang.A" : "morph.lang.H");
   const segs = code.slice(1).split("/");
   return [lang, ...segs.map(decodeSegment)];
 }

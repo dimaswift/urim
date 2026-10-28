@@ -1,0 +1,149 @@
+{
+ "quiz.context.scene": {
+  "text": "{ref}: “{title}”",
+  "note": "A scene's title after its verse reference, e.g. 'Genesis 37:5: “Joseph tells his brothers his dream”'. Use your language's quotation marks"
+ },
+ "quiz.who.prompt.AGENT": "Who takes part in this scene, as the one who acts?",
+ "quiz.who.prompt.PATIENT": "Who takes part in this scene, as the one acted upon?",
+ "quiz.who.prompt.PRESENT": "Who takes part in this scene, as someone present?",
+ "quiz.who.explanation.AGENT": {
+  "text": "{name} is in “{title}” ({ref}) as the one who acts.",
+  "note": "{name} is a person or group, {title} a scene's title, {ref} a verse reference like 'Genesis 37:5'"
+ },
+ "quiz.who.explanation.PATIENT": "{name} is in “{title}” ({ref}) as the one acted upon.",
+ "quiz.who.explanation.PRESENT": "{name} is in “{title}” ({ref}) as someone present.",
+ "quiz.scene.prompt": {
+  "text": "Which scene does {ref} tell?",
+  "note": "{ref} is a verse range like 'Genesis 37:5–8'; the choices are scene titles"
+ },
+ "quiz.cause.prompt": {
+  "text": "What led to this?",
+  "note": "Asked about a scene; the choices are earlier scenes"
+ },
+ "quiz.cause.explanation": {
+  "text": "{explanation} ({kind})",
+  "note": "{explanation} says why one scene led to another; {kind} is the kind of link, e.g. 'triggers'"
+ },
+ "quiz.state.prompt": {
+  "text": "From {ref}: {name} — {state}?",
+  "note": "Asks what a state of a person or thing is from a verse on, e.g. 'From Genesis 37:3: Joseph — standing in the family?'. {state} is the state's name, lowercased"
+ },
+ "quiz.deed.prompt": {
+  "text": "Who {deed} {target} here?",
+  "note": "{deed} is a verb phrase from the corpus such as 'sells' or 'throws into a pit'; {target} is who it is done to"
+ },
+ "quiz.order.prompt": "Put these in the order they happened, first at the top.",
+ "quiz.order.explanation": {
+  "text": "By the linked timeline: {events}.",
+  "note": "{events} lists scenes with their dates, e.g. 'Joseph dreams (c. 1898 BCE); Joseph is sold (c. 1898 BCE)'"
+ },
+ "quiz.order.explanation_retold": {
+  "text": "By the linked timeline: {events}. The text tells them in another order.",
+  "note": "As quiz.order.explanation, when the narrative tells the scenes out of the order they happened"
+ },
+ "quiz.where.prompt": "Where does this happen? Click the map.",
+ "quiz.where.explanation": {
+  "text": "“{title}” happens at {place}.",
+  "note": "{title} is a scene's title, {place} a place name"
+ },
+ "quiz.where.distance": {
+  "one": "{answer} ({count} km from your pin)",
+  "other": "{answer} ({count} km from your pin)",
+  "note": "The answer to a map question: {answer} is the place's name, {count} how far the learner's pin was, in kilometres"
+ },
+ "quiz.place.prompt": {
+  "text": "Where does this happen?",
+  "note": "Asked about a scene; the choices are place names"
+ },
+ "quiz.place.explanation": {
+  "text": "At {place}.",
+  "note": "The place a scene happens at"
+ },
+ "quiz.span.prompt.hours": "How long from the first scene to the second, in hours?",
+ "quiz.span.prompt.days": "How long from the first scene to the second, in days?",
+ "quiz.span.prompt.months": "How long from the first scene to the second, in months?",
+ "quiz.span.prompt.years": "How long from the first scene to the second, in years?",
+ "quiz.span.context": {
+  "text": "“{first}” ({first_ref}) → “{second}” ({second_ref})",
+  "note": "Two scene titles with their verse references; the arrow points from the earlier to the later"
+ },
+ "quiz.span.answer": {
+  "text": "about {value} (± {tolerance})",
+  "note": "An estimated time between two scenes, e.g. 'about 3 days (± 1 day)'; both values carry their unit"
+ },
+ "quiz.age.prompt": {
+  "text": "How old is {name} here, in years?",
+  "note": "{name} is a person's name"
+ },
+ "quiz.unit.hours": {
+  "text": "hours",
+  "note": "Unit shown beside the number the learner types"
+ },
+ "quiz.unit.days": "days",
+ "quiz.unit.months": "months",
+ "quiz.unit.years": "years",
+ "quiz.unit.hours.count": {
+  "one": "{count} hour",
+  "other": "{count} hours",
+  "note": "A length of time; {count} may be a decimal like 2.5"
+ },
+ "quiz.unit.days.count": {
+  "one": "{count} day",
+  "other": "{count} days"
+ },
+ "quiz.unit.months.count": {
+  "one": "{count} month",
+  "other": "{count} months"
+ },
+ "quiz.unit.years.count": {
+  "one": "{count} year",
+  "other": "{count} years",
+  "note": "Also a person's age: '17 years'"
+ },
+ "quiz.gloss.prompt": {
+  "text": "What does {word} mean here?",
+  "note": "{word} is a Hebrew word with its transliteration, e.g. 'וַיֵּשֶׁב (wayyēšeḇ)'; the choices are short glosses"
+ },
+ "quiz.gloss.prompt_english": {
+  "text": "What does {word} mean here? The choices are English glosses.",
+  "note": "As quiz.gloss.prompt, when this language has no glosses of its own for the chapter yet"
+ },
+ "quiz.gloss.explanation": {
+  "text": "{word}, lemma {lemma}: “{gloss}”.",
+  "note": "{word} is a Hebrew word with its transliteration, {lemma} its dictionary form, {gloss} what it means here"
+ },
+ "quiz.gloss.explanation_no_lemma": "{word}: “{gloss}”.",
+ "quiz.word.prompt": {
+  "text": "Which word means “{gloss}” in {ref}?",
+  "note": "{gloss} is a short meaning; the choices are Hebrew words"
+ },
+ "quiz.word.prompt_english": {
+  "text": "Which word means “{gloss}” (an English gloss) in {ref}?",
+  "note": "As quiz.word.prompt, when this language has no glosses of its own for the chapter yet"
+ },
+ "quiz.cloze.prompt": {
+  "text": "Fill in the missing word (the {translation}).",
+  "note": "{translation} is the name of a published Bible translation, e.g. KJV"
+ },
+ "quiz.cloze.prompt_literal": {
+  "text": "Fill in the missing word (the literal translation).",
+  "note": "The verse is from this project's own word-for-word translation"
+ },
+ "quiz.retell.too_short": {
+  "text": "write at least a few sentences: who, what, where, in what order",
+  "note": "Shown when a retelling of a chapter is too short to grade"
+ },
+ "quiz.retell.unreadable": {
+  "text": "the grader's answer was not readable: {reply}",
+  "note": "{reply} is the start of the grading model's raw answer"
+ },
+ "quiz.error.gone": "this question is gone: the corpus changed under it",
+ "quiz.error.unreadable_answer": {
+  "text": "unreadable answer: {error}",
+  "note": "{error} is a technical message"
+ },
+ "quiz.error.no_events": {
+  "text": "{chapter} has no events yet to check a retelling by",
+  "note": "{chapter} is a chapter id like GEN.37"
+ }
+}

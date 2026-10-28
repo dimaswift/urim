@@ -61,7 +61,10 @@ class OpenBibleIndex:
                     name=d["friendly_id"],
                     lat=lat,
                     lon=lon,
-                    confidence=round(best.get("score", {}).get("time_total", 0) / 1000, 3),
+                    # Votes can net out below zero: a disputed identification, confidence 0.
+                    confidence=round(
+                        min(max(best.get("score", {}).get("time_total", 0) / 1000, 0.0), 1.0), 3
+                    ),
                     osises=osises,
                 )
                 self.places[place.id] = place

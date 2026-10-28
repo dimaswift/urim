@@ -125,3 +125,57 @@ export function post<T>(path: string, body: unknown): Promise<T> {
 export interface ReviewResult {
   changed: string[]; player: Player; xp_gained: number; level_up: boolean; badges: Badge[];
 }
+
+// --- autonomous runs (urim run) ----------------------------------------------------------------
+export interface LayerRow {
+  phase: "unwritten" | "partial" | "requested" | "drafts" | "done" | "failed";
+  approved: number; drafts: number; requested: number; escalated: number; unwritten: number; rounds: number;
+}
+export interface RunStep {
+  id: string; action: "write" | "revise" | "critique"; layer: string; chapter: string; scope: string;
+  round: number; final: boolean; model: string;
+  status: "running" | "done" | "failed" | "limited" | "unavailable" | "stopped";
+  started: string; ended: string | null; activity: string | null; summary: string; error: string | null;
+  verdict: Record<string, number> | null; turns: number; duration_s: number; cost_usd: number;
+  tokens_in: number; tokens_out: number; cache_read: number;
+}
+export interface RunState {
+  name: string; scope: string; layers: string[]; models: Record<string, string>;
+  parallel: number; max_rounds: number;
+  status: "running" | "waiting" | "finished" | "stopped" | "interrupted";
+  started: string; updated: string; finished: string | null;
+  waiting_until: string | null; waiting_for: string | null;
+  chapters: { chapter: string; verses: number; layers: Record<string, LayerRow> }[];
+  totals: { sessions: number; cost_usd: number; tokens: number };
+  running: RunStep[];
+  steps?: RunStep[]; log?: string[];
+  escalated?: { key: string; chapter: string; note: string | null }[];
+}
+
+// --- learning (urim/learn) ----------------------------------------------------------------------
+export interface QuizChoice { id: string; label: string; hebrew: boolean }
+export interface Question {
+  id: string; kind: string; family: string; chapter: string; item: string;
+  format: "choice" | "order" | "map" | "number" | "text";
+  prompt: string; context: string | null; hebrew: string | null; choices: QuizChoice[];
+  frame: { west: number; south: number; east: number; north: number } | null;
+  unit: string | null; verse: string | null;
+}
+export interface Judged {
+  correct: boolean; score: number; answer: string; explanation: string; verse: string | null;
+  point: [number, number] | null; card: { interval_days: number; due: string };
+}
+export interface LearnChapter {
+  chapter: string; book: string; verses: number; translated: number; events: number; facts: number;
+  seen?: number; known?: number; due?: number; mastery: number; proven: boolean;
+  best_exam?: number; exams?: number; retell_score?: number | null; accuracy?: number; answers?: number;
+}
+export interface LearnOverview {
+  chapters: LearnChapter[]; families: Record<string, string[]>; pass_mark: number;
+  exam_size: number; known_days: number;
+}
+export interface RetellResult {
+  score: number; covered: string[]; missed: string[];
+  errors: { claim: string; correction: string; verse: string | null }[];
+  order_ok: boolean; feedback: string; titles: Record<string, string>;
+}

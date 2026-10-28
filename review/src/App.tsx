@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import { Icon } from "./components";
-import { useApp } from "./state";
+import type { TFunc } from "./i18n";
+import { num, useT } from "./i18n";
+import { rankLabel, useApp } from "./state";
 import { href, useRoute } from "./util";
 import Command from "./views/Command";
 import Review from "./views/Review";
@@ -11,12 +13,29 @@ import Atlas from "./views/Atlas";
 import Dossiers from "./views/Dossiers";
 import Codex from "./views/Codex";
 import Query from "./views/Query";
+import Campaign from "./views/Campaign";
+import Learn from "./views/Learn";
+import Languages from "./views/Languages";
 
-const NAV: { id: string; label: string }[] = [
-  { id: "command", label: "Command" }, { id: "review", label: "Review" }, { id: "xray", label: "X-Ray" },
-  { id: "chronicle", label: "Chronicle" }, { id: "causal", label: "Causal" }, { id: "atlas", label: "Atlas" },
-  { id: "dossiers", label: "Dossiers" }, { id: "codex", label: "Codex" }, { id: "query", label: "Query" },
-];
+const NAV = ["command", "learn", "campaign", "languages", "review", "xray", "chronicle", "causal", "atlas", "dossiers", "codex", "query"];
+
+function navLabel(t: TFunc, id: string): string {
+  switch (id) {
+    case "command": return t("shell.nav.command");
+    case "learn": return t("shell.nav.learn");
+    case "campaign": return t("shell.nav.campaign");
+    case "languages": return t("shell.nav.languages");
+    case "review": return t("shell.nav.review");
+    case "xray": return t("shell.nav.xray");
+    case "chronicle": return t("shell.nav.chronicle");
+    case "causal": return t("shell.nav.causal");
+    case "atlas": return t("shell.nav.atlas");
+    case "dossiers": return t("shell.nav.dossiers");
+    case "codex": return t("shell.nav.codex");
+    case "query": return t("shell.nav.query");
+    default: return id;
+  }
+}
 
 function Insignia({ level }: { level: number }) {
   return (
@@ -29,27 +48,28 @@ function Insignia({ level }: { level: number }) {
 
 function TopBar() {
   const { overview, lang, setLang, languages, demo } = useApp();
+  const t = useT();
   const p = overview?.player;
-  const t = overview?.totals;
+  const totals = overview?.totals;
   const pct = p ? (p.xp - p.level_floor) / Math.max(p.level_ceiling - p.level_floor, 1) : 0;
   return (
     <header className="topbar">
       <div className="brand">
         <svg width="26" height="26" viewBox="0 0 32 32"><path d="M16 2 30 16 16 30 2 16Z" fill="none" stroke="var(--amber)" strokeWidth="2" /><circle cx="16" cy="16" r="4" fill="var(--amber)" /></svg>
-        <b>URIM</b><small>WAR ROOM</small>
+        <b>URIM</b><small>{t("shell.war_room")}</small>
       </div>
-      {demo && <span className="pill" style={{ color: "var(--violet)" }}>Demo corpus</span>}
+      {demo && <span className="pill" style={{ color: "var(--violet)" }}>{t("shell.demo_corpus")}</span>}
       <div className="spacer" />
-      {t && (
+      {totals && (
         <>
-          <div className="stat-inline">Drafts<b style={{ color: "var(--amber)" }}>{t.drafts}</b></div>
-          <div className="stat-inline">Sent back<b style={{ color: "var(--red)" }}>{t.requests}</b></div>
-          <div className="stat-inline">Approved<b style={{ color: "var(--green)" }}>{t.approved}</b></div>
+          <div className="stat-inline">{t("shell.totals.drafts")}<b style={{ color: "var(--amber)" }}>{num(totals.drafts)}</b></div>
+          <div className="stat-inline">{t("shell.totals.sent_back")}<b style={{ color: "var(--red)" }}>{num(totals.requests)}</b></div>
+          <div className="stat-inline">{t("shell.totals.approved")}<b style={{ color: "var(--green)" }}>{num(totals.approved)}</b></div>
         </>
       )}
       {p && (
-        <div className="stat-inline" title="Days in a row with at least one review">
-          Streak<b style={{ color: p.streak_days ? "var(--amber)" : "var(--faint)" }}>
+        <div className="stat-inline" title={t("shell.streak_title")}>
+          {t("shell.streak")}<b style={{ color: p.streak_days ? "var(--amber)" : "var(--faint)" }}>
             <span style={{ verticalAlign: "-3px" }}><Icon name="flame" size={16} /></span>{p.streak_days}
           </b>
         </div>
@@ -58,14 +78,14 @@ function TopBar() {
         <div className="rank">
           <Insignia level={p.level} />
           <div className="xpbar">
-            <div className="label"><span style={{ color: "var(--amber)" }}>{p.rank}</span><span className="mono">{p.xp} XP</span></div>
+            <div className="label"><span style={{ color: "var(--amber)" }}>{rankLabel(p.rank)}</span><span className="mono">{t("shell.xp", { xp: p.xp })}</span></div>
             <div className="track"><div className="fill" style={{ width: `${pct * 100}%` }} /></div>
-            <div className="label"><span>Lv {p.level}</span><span>next {p.level_ceiling}</span></div>
+            <div className="label"><span>{t("shell.level", { level: p.level })}</span><span>{t("shell.next_level", { xp: p.level_ceiling })}</span></div>
           </div>
         </div>
       )}
-      <a className="btn small ghost" href="/codex.html" title="Read without review: the Illuminated Codex">Codex ↗</a>
-      <select value={lang} onChange={(e) => setLang(e.target.value)} title="Language bundle">
+      <a className="btn small ghost" href="/codex.html" title={t("shell.codex_title")}>{t("shell.codex_link")} ↗</a>
+      <select value={lang} onChange={(e) => setLang(e.target.value)} title={t("shell.language_title")}>
         {(languages.length ? languages : [{ lang_code: "en", lang_name: "English" }]).map((l) => (
           <option key={l.lang_code} value={l.lang_code}>{l.lang_code.toUpperCase()} · {l.lang_name}</option>
         ))}
@@ -77,20 +97,22 @@ function TopBar() {
 export default function App() {
   const route = useRoute();
   const { overview } = useApp();
+  const t = useT();
   const views: Record<string, ReactNode> = {
     command: <Command />, review: <Review route={route} />, xray: <Xray route={route} />,
     chronicle: <Chronicle route={route} />, causal: <Causal route={route} />, atlas: <Atlas route={route} />,
     dossiers: <Dossiers route={route} />, codex: <Codex route={route} />, query: <Query />,
+    campaign: <Campaign route={route} />, learn: <Learn route={route} />, languages: <Languages />,
   };
   const pending = (overview?.totals.drafts ?? 0) + (overview?.totals.requests ?? 0);
   return (
     <div className="app">
       <TopBar />
       <nav className="rail">
-        {NAV.map((n) => (
-          <a key={n.id} href={href(n.id)} className={route.view === n.id ? "active" : ""}>
-            <Icon name={n.id} />{n.label}
-            {n.id === "review" && pending > 0 && <span className="badge-dot">{pending}</span>}
+        {NAV.map((id) => (
+          <a key={id} href={href(id)} className={route.view === id ? "active" : ""}>
+            <Icon name={id} />{navLabel(t, id)}
+            {id === "review" && pending > 0 && <span className="badge-dot">{num(pending)}</span>}
           </a>
         ))}
       </nav>

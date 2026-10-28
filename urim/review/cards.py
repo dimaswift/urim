@@ -1,10 +1,15 @@
-"""Review cards: one per ledger item, carrying everything needed to judge it at a glance."""
+"""Review cards: one per ledger item, carrying everything needed to judge it at a glance.
+
+A translation's card (`event.ru:…`) is its item's card in that language, with the English it
+was made from beside it.
+"""
 
 from __future__ import annotations
 
 from typing import Any
 
 from urim.canon import parse_ref
+from urim.i18n.messages import ENGLISH, Translator
 from urim.runtime.engine import NotFoundError, UrimEngine
 from urim.workbench.ledger import ChapterLedger, LedgerItem
 
@@ -38,8 +43,16 @@ def _kjv(engine: UrimEngine, verse_start: str, verse_end: str, lang: str) -> lis
     return out
 
 
-def payload(engine: UrimEngine, kind: str, item_id: str, lang: str) -> tuple[str, Any]:
+def payload(
+    engine: UrimEngine, kind: str, item_id: str, lang: str, t: Translator = ENGLISH
+) -> tuple[str, Any]:
     """(title, payload) for one item; raises NotFoundError if the bundles lack it."""
+    base, _, item_lang = kind.partition(".")
+    if item_lang and item_lang != "en":
+        own = "verse.en" if base == "verse" else base
+        title, data = payload(engine, own, item_id, item_lang, t)
+        _, english = payload(engine, own, item_id, "en", t)
+        return title, {**data, "translation": item_lang, "english": english}
     match kind:
         case "event":
             ev = engine.get_event(item_id, lang)
@@ -53,7 +66,7 @@ def payload(engine: UrimEngine, kind: str, item_id: str, lang: str) -> tuple[str
             }
         case "event_links":
             ev = engine.get_event(item_id, lang)
-            return f"Cast of: {ev.title or item_id}", {
+            return t("cards.cast_of", title=ev.title or item_id), {
                 "event": _dump(ev),
                 "participants": [
                     {"entity": _dump(ref), "role": role}
@@ -98,11 +111,16 @@ def payload(engine: UrimEngine, kind: str, item_id: str, lang: str) -> tuple[str
 
 
 def card(
-    engine: UrimEngine, ledger: ChapterLedger, item_key: str, item: LedgerItem, lang: str = "en"
+    engine: UrimEngine,
+    ledger: ChapterLedger,
+    item_key: str,
+    item: LedgerItem,
+    lang: str = "en",
+    t: Translator = ENGLISH,
 ) -> dict[str, Any]:
     kind, item_id = item_key.split(":", 1)
     try:
-        title, data = payload(engine, kind, item_id, lang)
+        title, data = payload(engine, kind, item_id, lang, t)
         missing = False
     except NotFoundError:
         title, data, missing = item_id, None, True
@@ -125,7 +143,8 @@ def card(
 def anchor_verse(c: dict[str, Any]) -> str | None:
     """The verse a card is about, for ordering the deck in reading order."""
     p = c["payload"] or {}
-    match c["kind"]:
+    base, _, item_lang = c["kind"].partition(".")
+    match base if item_lang != "en" else c["kind"]:
         case "event" | "event_links":
             return p["event"]["verse_start"]
         case "causal":
@@ -140,13 +159,17 @@ def anchor_verse(c: dict[str, Any]) -> str | None:
             return p["instance"]["verse_start"]
         case "edge":
             return p["edge"]["verse_id"]
-        case "verse.en":
+        case "verse.en" | "verse":
             return c["id"]
     return None
 
 
 def deck_order(c: dict[str, Any], chapter_ordinal: int) -> tuple:
     kind = c["kind"]
-    order = KIND_ORDER.index(kind) if kind in KIND_ORDER else len(KIND_ORDER)
+    base, _, lang = kind.partition(".")
+    own = "verse.en" if base == "verse" else base
+    order = KIND_ORDER.index(own) if own in KIND_ORDER else len(KIND_ORDER)
+    if lang and lang != "en":
+        order += len(KIND_ORDER)  # a chapter's translations after its English
     verse = anchor_verse(c) if not c["missing"] else None
     return (chapter_ordinal, order, parse_ref(verse)[1].ordinal if verse else 0, c["id"])

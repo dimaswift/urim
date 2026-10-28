@@ -9,6 +9,8 @@ from fastapi import FastAPI, Query, Request
 from fastapi.responses import JSONResponse
 
 from urim import __version__
+from urim.config import load_paths
+from urim.i18n.messages import Messages
 from urim.runtime.engine import (
     BundleMismatch,
     LanguageNotAvailable,
@@ -31,7 +33,7 @@ Lang = Annotated[str, Query(description="ISO 639-1 language bundle, e.g. en, ru"
 
 
 def create_app(bundles_dir: str | Path) -> FastAPI:
-    engine = UrimEngine(bundles_dir)
+    engine = UrimEngine(bundles_dir, messages=Messages(load_paths().corpus))
     app = FastAPI(
         title="URIM",
         version=__version__,

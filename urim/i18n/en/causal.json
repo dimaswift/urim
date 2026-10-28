@@ -1,0 +1,54 @@
+{
+ "causal.kicker": {
+  "text": "Causal web · drag to pan, scroll to zoom",
+  "note": "Small heading above the page title; the view is a graph of events linked by cause and effect"
+ },
+ "causal.title": {
+  "text": "Cause & consequence",
+  "note": "Page title: the graph of events linked by cause and effect"
+ },
+ "causal.loading": {
+  "text": "Tracing consequences",
+  "note": "Loading message while the graph loads; the interface adds an ellipsis"
+ },
+ "causal.type.triggers": {
+  "text": "triggers",
+  "note": "Legend: a link where one event directly causes another"
+ },
+ "causal.type.fulfills_prophecy": {
+  "text": "fulfills prophecy",
+  "note": "Legend: a link where an event fulfils an earlier prophecy"
+ },
+ "causal.type.retaliates_for": {
+  "text": "retaliates for",
+  "note": "Legend: a link where an event is revenge for an earlier one"
+ },
+ "causal.type.enables": {
+  "text": "enables",
+  "note": "Legend: a link where one event makes another possible"
+ },
+ "causal.type.deferred_by": {
+  "text": "deferred by",
+  "note": "Legend: a link where one event postpones another"
+ },
+ "causal.isolated": {
+  "text": "isolated events",
+  "note": "Toggle chip: also show events with no causal links"
+ },
+ "causal.clear_focus": {
+  "text": "clear focus",
+  "note": "Chip: stop highlighting the chain of the selected event"
+ },
+ "causal.overlap": {
+  "text": "overlap",
+  "note": "Label on a link when the cause and effect overlap in time, shown instead of the time between them"
+ },
+ "causal.focus": {
+  "text": "Focus",
+  "note": "Panel title: details of the selected event"
+ },
+ "causal.open_chronicle": {
+  "text": "Open in Chronicle",
+  "note": "Button: show this event on the timeline; Chronicle is the name of the timeline view"
+ }
+}

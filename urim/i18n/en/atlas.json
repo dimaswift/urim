@@ -1,0 +1,76 @@
+{
+ "atlas.loading": {
+  "text": "Unrolling the map",
+  "note": "Loading message while the map loads; the interface adds an ellipsis"
+ },
+ "atlas.kicker": {
+  "text": "Atlas · Natural Earth · OpenBible coordinates",
+  "note": "Small heading above the map title. Natural Earth (a basemap) and OpenBible (a coordinates dataset) are proper names"
+ },
+ "atlas.title": {
+  "text": "Theatre map",
+  "note": "Page title: the map of the region where the story takes place ('theatre' as in theatre of operations)"
+ },
+ "atlas.confidence_title": {
+  "text": "confidence {pct} ({source})",
+  "note": "Tooltip on a place marker: how sure the coordinates are. {pct} is a percentage like '85%', {source} the dataset that gave the coordinates"
+ },
+ "atlas.token_stop": {
+  "text": "{journey} · stop {n}/{total}",
+  "note": "While a journey plays on the map: the traveller's name and which stop of how many, e.g. 'Elijah · stop 2/5'"
+ },
+ "atlas.credits": {
+  "text": "Basemap: Natural Earth (public domain) · coordinates: OpenBible.info CC BY",
+  "note": "Attribution line under the map. Keep the proper names Natural Earth and OpenBible.info and the licence name CC BY"
+ },
+ "atlas.journeys": {
+  "text": "Journeys",
+  "note": "Panel title: the routes people travel in the story"
+ },
+ "atlas.stops": {
+  "one": "{count} stop",
+  "other": "{count} stops",
+  "note": "Number of stops on a journey"
+ },
+ "atlas.play_route": {
+  "text": "Play {name}'s route",
+  "note": "Button that animates a person's journey on the map; {name} is the traveller"
+ },
+ "atlas.place": {
+  "text": "Place",
+  "note": "Panel title for the place selected on the map"
+ },
+ "atlas.position": {
+  "text": "Position",
+  "note": "Label for a place's latitude and longitude"
+ },
+ "atlas.source": {
+  "text": "Source",
+  "note": "Label for the dataset the coordinates come from"
+ },
+ "atlas.confidence": {
+  "text": "Confidence",
+  "note": "Label for how sure the identification of a place's location is"
+ },
+ "atlas.confidence_unknown": {
+  "text": "unknown",
+  "note": "Shown instead of a percentage when a place's confidence is not known"
+ },
+ "atlas.events_here": {
+  "text": "Events here",
+  "note": "Small heading over the list of events that happen at the selected place"
+ },
+ "atlas.open_dossier": {
+  "text": "Open dossier",
+  "note": "Link to the place's dossier page (its profile); an arrow follows it"
+ },
+ "atlas.places": {
+  "text": "Places",
+  "note": "Panel title: the list of places on the map"
+ },
+ "atlas.events_short": {
+  "one": "{count} ev",
+  "other": "{count} ev",
+  "note": "Number of events at a place, abbreviated to fit a narrow column ('ev' = events)"
+ }
+}

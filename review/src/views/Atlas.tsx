@@ -2,6 +2,7 @@ import * as d3 from "d3";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Journey, Place } from "../api";
 import { Loading, Panel, ReviewBar } from "../components";
+import { num, useT } from "../i18n";
 import { useApi, useApp } from "../state";
 import { go, href, type Route } from "../util";
 
@@ -11,20 +12,25 @@ interface Basemap {
   land: { rings: LonLat[][] }[];
   lakes: { rings: LonLat[][]; name: string | null }[];
   rivers: { line: LonLat[]; name: string | null; scalerank: number | null }[];
-  regions: { name: string; kind: string; lon: number; lat: number; min_zoom: number | null }[];
+  // Natural Earth names, with name_ru and name_he where the basemap has them.
+  regions: { name: string; kind: string; lon: number; lat: number; min_zoom: number | null; [k: `name_${string}`]: string | undefined }[];
 }
+/** A share as a whole percent in the active language: 0.85 -> "85%" (or "85 %"). */
+const pct = (x: number) => num(Math.round(x * 100) / 100, { style: "percent" });
+
 interface AtlasData {
   places: Place[]; journeys: Journey[];
   events: Record<string, { title: string | null; label: string; utes: number }>;
 }
 
 export default function Atlas({ route }: { route: Route }) {
+  const t = useT();
   const { lang, ledger } = useApp();
   const { data } = useApi<AtlasData>(`/api/atlas?lang=${lang}`);
   const [base, setBase] = useState<Basemap | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [size, setSize] = useState({ w: 1000, h: 700 });
-  const [t, setT] = useState(d3.zoomIdentity);
+  const [zt, setZt] = useState(d3.zoomIdentity);
   const [journeyId, setJourneyId] = useState<string | null>(null);
   const [progress, setProgress] = useState<number | null>(null);
   const selected = route.arg || null;
@@ -35,7 +41,7 @@ export default function Atlas({ route }: { route: Route }) {
     if (!svg) return;
     const ro = new ResizeObserver(() => setSize({ w: svg.clientWidth, h: svg.clientHeight }));
     ro.observe(svg);
-    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.6, 60]).on("zoom", (e) => setT(e.transform));
+    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.6, 60]).on("zoom", (e) => setZt(e.transform));
     d3.select(svg).call(zoom);
     return () => ro.disconnect();
   }, [base]);
@@ -51,7 +57,7 @@ export default function Atlas({ route }: { route: Route }) {
     return d3.geoMercator().fitExtent([[40, 40], [size.w - 40, size.h - 40]], frame);
   }, [data, size]);
 
-  const P = (lonlat: LonLat) => { const p = projection(lonlat)!; return [t.applyX(p[0]), t.applyY(p[1])]; };
+  const P = (lonlat: LonLat) => { const p = projection(lonlat)!; return [zt.applyX(p[0]), zt.applyY(p[1])]; };
   const ringPath = (ring: LonLat[]) => ring.map((p, i) => { const [x, y] = P(p); return `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`; }).join("") + "Z";
   const linePath = (line: LonLat[]) => line.map((p, i) => { const [x, y] = P(p); return `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`; }).join("");
 
@@ -81,9 +87,9 @@ export default function Atlas({ route }: { route: Route }) {
     token = { x: ax + (bx - ax) * u, y: ay + (by - ay) * u, stop: u > 0.5 ? i + 1 : i };
   }
 
-  if (!data || !base) return <Loading what="Unrolling the map" />;
+  if (!data || !base) return <Loading what={t("atlas.loading")} />;
   const place = selected ? placeById[selected] : null;
-  const k = t.k;
+  const k = zt.k;
   const maxEvents = Math.max(1, ...data.places.map((p) => p.events.length));
   const labelAt = new Map<string, { dy: number }>();
   {
@@ -107,8 +113,8 @@ export default function Atlas({ route }: { route: Route }) {
     <div className="view full" style={{ display: "grid", gridTemplateColumns: "1fr 340px", height: "100%" }}>
       <div style={{ position: "relative", background: "radial-gradient(ellipse at 40% 40%, #08131c, #03060a 70%)" }}>
         <div style={{ position: "absolute", left: 20, top: 16, zIndex: 2, pointerEvents: "none" }}>
-          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>Atlas · Natural Earth · OpenBible coordinates</div>
-          <h1>Theatre map</h1>
+          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>{t("atlas.kicker")}</div>
+          <h1>{t("atlas.title")}</h1>
         </div>
         <svg ref={svgRef} className="svg-fill" style={{ cursor: "grab" }}>
           <defs>
@@ -126,7 +132,7 @@ export default function Atlas({ route }: { route: Route }) {
           {base.rivers.map((r, i) => <path key={i} d={linePath(r.line)} fill="none" stroke="rgba(79,209,232,.45)" strokeWidth={r.name === "Jordan" ? 1.6 : 0.9} />)}
           {base.regions.filter((r) => (r.min_zoom ?? 5) <= 3.4 + Math.log2(k) * 1.6 + (r.kind === "Desert" || r.kind === "Geoarea" ? 1 : 0)).map((r) => {
             const [x, y] = P([r.lon, r.lat]);
-            return <text key={r.name} x={x} y={y} textAnchor="middle" fill="rgba(160,190,210,.32)" fontFamily="var(--hud)" fontSize={11} fontWeight={600} letterSpacing="0.35em">{r.name.toUpperCase()}</text>;
+            return <text key={r.name} x={x} y={y} textAnchor="middle" fill="rgba(160,190,210,.32)" fontFamily="var(--hud)" fontSize={11} fontWeight={600} letterSpacing="0.35em">{(r[`name_${lang}`] ?? r.name).toUpperCase()}</text>;
           })}
           {journey && stops.length > 1 && (
             <g>
@@ -155,7 +161,7 @@ export default function Atlas({ route }: { route: Route }) {
             return (
               <g key={p.entity_id} transform={`translate(${x},${y})`} style={{ cursor: "pointer" }} onClick={(e) => { e.stopPropagation(); go("atlas", p.entity_id); }}>
                 <circle r={r + 10 + (1 - conf) * 18} fill={color} fillOpacity={0.06} stroke={color} strokeOpacity={0.5}
-                        strokeDasharray={conf < 0.7 ? "3 4" : undefined}><title>confidence {Math.round(conf * 100)}% ({p.source})</title></circle>
+                        strokeDasharray={conf < 0.7 ? "3 4" : undefined}><title>{t("atlas.confidence_title", { pct: pct(conf), source: p.source ?? "" })}</title></circle>
                 <circle r={r} fill={color} fillOpacity={on ? 0.9 : 0.55} stroke={on ? "#fff" : color} filter="url(#glow)" />
                 {(labelAt.get(p.entity_id)?.dy ?? 0) !== 0 && (
                   <line x1={r} y1={0} x2={r + 6} y2={labelAt.get(p.entity_id)!.dy} stroke="var(--dim)" strokeWidth={0.8} />
@@ -177,22 +183,22 @@ export default function Atlas({ route }: { route: Route }) {
         </svg>
         {token && journey && (
           <div className="panel" style={{ position: "absolute", left: 20, bottom: 20, padding: "10px 14px", minWidth: 320 }}>
-            <div className="hud upper" style={{ fontSize: 10, color: "var(--amber)" }}>{journey.name} · stop {token.stop + 1}/{stops.length}</div>
+            <div className="hud upper" style={{ fontSize: 10, color: "var(--amber)" }}>{t("atlas.token_stop", { journey: journey.name, n: token.stop + 1, total: stops.length })}</div>
             <div className="hud" style={{ fontSize: 17, fontWeight: 700 }}>{stops[token.stop].title}</div>
             <div className="mono muted">{stops[token.stop].label} · {placeById[stops[token.stop].place].name}</div>
           </div>
         )}
-        <div className="muted mono" style={{ position: "absolute", right: 12, bottom: 8, fontSize: 10 }}>Basemap: Natural Earth (public domain) · coordinates: OpenBible.info CC BY</div>
+        <div className="muted mono" style={{ position: "absolute", right: 12, bottom: 8, fontSize: 10 }}>{t("atlas.credits")}</div>
       </div>
       <div style={{ borderLeft: "1px solid var(--line)", overflow: "auto", padding: 16 }} className="grid">
-        <Panel title="Journeys" count={data.journeys.length}>
+        <Panel title={t("atlas.journeys")} count={data.journeys.length}>
           <div className="grid" style={{ gap: 6 }}>
             {data.journeys.map((j) => (
               <div key={j.entity_id} className={`chip click ${j.entity_id === journeyId ? "on" : ""}`} style={{ justifyContent: "space-between" }} onClick={() => setJourneyId(j.entity_id)}>
-                <span>♟ {j.name}</span><span className="n">{j.stops.length} stops</span>
+                <span>♟ {j.name}</span><span className="n">{t("atlas.stops", { count: j.stops.length })}</span>
               </div>
             ))}
-            {journey && <button className="btn amber" onClick={play} disabled={progress !== null}>▶ Play {journey.name}'s route</button>}
+            {journey && <button className="btn amber" onClick={play} disabled={progress !== null}>▶ {t("atlas.play_route", { name: journey.name })}</button>}
           </div>
           {journey && (
             <ol style={{ margin: "12px 0 0", paddingLeft: 20, fontSize: 12 }}>
@@ -206,29 +212,29 @@ export default function Atlas({ route }: { route: Route }) {
           )}
         </Panel>
         {place && (
-          <Panel title="Place" className="cyan" right={<ReviewBar itemKey={`entity:${place.entity_id}`} />}>
+          <Panel title={t("atlas.place")} className="cyan" right={<ReviewBar itemKey={`entity:${place.entity_id}`} />}>
             <h2>{place.name}</h2>
             <dl className="kv" style={{ margin: "8px 0" }}>
-              <dt>Position</dt><dd className="mono">{place.lat.toFixed(3)}, {place.lon.toFixed(3)}</dd>
-              <dt>Source</dt><dd>{place.source}</dd>
-              <dt>Confidence</dt><dd>
+              <dt>{t("atlas.position")}</dt><dd className="mono">{place.lat.toFixed(3)}, {place.lon.toFixed(3)}</dd>
+              <dt>{t("atlas.source")}</dt><dd>{place.source}</dd>
+              <dt>{t("atlas.confidence")}</dt><dd>
                 <div style={{ height: 6, width: 160, background: "#132230", borderRadius: 3 }}>
                   <div style={{ height: "100%", width: `${(place.confidence ?? 0) * 100}%`, background: "var(--cyan)", borderRadius: 3, boxShadow: "var(--glow-cyan)" }} />
                 </div>
-                <span className="mono muted">{place.confidence != null ? `${Math.round(place.confidence * 100)}%` : "unknown"}</span>
+                <span className="mono muted">{place.confidence != null ? pct(place.confidence) : t("atlas.confidence_unknown")}</span>
               </dd>
             </dl>
-            <div className="hud upper muted" style={{ fontSize: 10 }}>Events here</div>
+            <div className="hud upper muted" style={{ fontSize: 10 }}>{t("atlas.events_here")}</div>
             {place.events.map((id) => <div key={id} style={{ fontSize: 13 }}><a href={href("chronicle", id)}>{data.events[id]?.title}</a> <span className="mono muted">{data.events[id]?.label}</span></div>)}
-            <a href={href("dossiers", place.entity_id)} style={{ display: "block", marginTop: 8 }}>Open dossier →</a>
+            <a href={href("dossiers", place.entity_id)} style={{ display: "block", marginTop: 8 }}>{t("atlas.open_dossier")} →</a>
           </Panel>
         )}
-        <Panel title="Places" count={data.places.length}>
+        <Panel title={t("atlas.places")} count={data.places.length}>
           {data.places.map((p) => (
             <div key={p.entity_id} className="row" style={{ fontSize: 13, cursor: "pointer", padding: "3px 0" }} onClick={() => go("atlas", p.entity_id)}>
               <span style={{ color: "var(--cyan)" }}>⌖</span><span style={{ flex: 1 }}>{p.name}</span>
-              <span className="mono muted">{p.events.length} ev</span>
-              <span className="mono" style={{ width: 38, textAlign: "right", color: (p.confidence ?? 0) < 0.7 ? "var(--amber)" : "var(--dim)" }}>{p.confidence != null ? `${Math.round(p.confidence * 100)}%` : "—"}</span>
+              <span className="mono muted">{t("atlas.events_short", { count: p.events.length })}</span>
+              <span className="mono" style={{ width: 38, textAlign: "right", color: (p.confidence ?? 0) < 0.7 ? "var(--amber)" : "var(--dim)" }}>{p.confidence != null ? pct(p.confidence) : "—"}</span>
             </div>
           ))}
         </Panel>

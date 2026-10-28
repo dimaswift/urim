@@ -2,6 +2,7 @@ import * as d3 from "d3";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Journey, Place } from "../api";
 import { useApi } from "../hooks";
+import { useT } from "../i18n";
 import { go, href, type Route } from "../util";
 import { useLang } from "./parts";
 
@@ -11,29 +12,32 @@ interface Basemap {
   land: { rings: LonLat[][] }[];
   lakes: { rings: LonLat[][] }[];
   rivers: { line: LonLat[]; name: string | null }[];
-  regions: { name: string; name_ru: string | null; kind: string; lon: number; lat: number; min_zoom: number | null }[];
+  // Region names come from Natural Earth with a name_<lang> per language it carries (ru, he).
+  regions: { name: string; kind: string; lon: number; lat: number; min_zoom: number | null; [name: `name_${string}`]: string | null }[];
 }
 interface Atlas { places: Place[]; journeys: Journey[]; events: Record<string, { title: string | null; label: string }> }
 
 function Compass({ x, y }: { x: number; y: number }) {
+  const t = useT();
   return (
     <g transform={`translate(${x},${y})`} fill="none" stroke="var(--ink-2)" strokeWidth="1">
       <circle r="34" strokeOpacity="0.5" /><circle r="28" strokeOpacity="0.3" />
       <path d="M0 -40 L6 0 L0 40 L-6 0 Z" fill="var(--ink-2)" fillOpacity="0.15" />
       <path d="M0 -40 L6 0 L0 0 Z" fill="var(--rubric)" stroke="none" />
       <path d="M-40 0 L0 -5 L40 0 L0 5 Z" fill="var(--ink-2)" fillOpacity="0.12" />
-      <text y="-46" textAnchor="middle" fill="var(--rubric)" stroke="none" fontFamily="var(--caps)" fontSize="13" fontWeight="700">N</text>
+      <text y="-46" textAnchor="middle" fill="var(--rubric)" stroke="none" fontFamily="var(--caps)" fontSize="13" fontWeight="700">{t("codex.mappa.north")}</text>
     </g>
   );
 }
 
 export default function Mappa({ route }: { route: Route }) {
+  const t = useT();
   const { lang } = useLang();
   const { data } = useApi<Atlas>(`/api/atlas?lang=${lang}`);
   const [base, setBase] = useState<Basemap | null>(null);
   const ref = useRef<SVGSVGElement>(null);
   const [size, setSize] = useState({ w: 1100, h: 720 });
-  const [t, setT] = useState(d3.zoomIdentity);
+  const [zt, setZt] = useState(d3.zoomIdentity);
   const [who, setWho] = useState<string | null>(null);
   const [step, setStep] = useState<number | null>(null);
   const selected = route.arg || null;
@@ -44,7 +48,7 @@ export default function Mappa({ route }: { route: Route }) {
     if (!svg) return;
     const ro = new ResizeObserver(() => setSize({ w: svg.clientWidth, h: svg.clientHeight }));
     ro.observe(svg);
-    d3.select(svg).call(d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.6, 40]).on("zoom", (e) => setT(e.transform)));
+    d3.select(svg).call(d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.6, 40]).on("zoom", (e) => setZt(e.transform)));
     return () => ro.disconnect();
   }, [base, data]);
   useEffect(() => { if (data && !who && data.journeys[0]) setWho(data.journeys[0].entity_id); }, [data, who]);
@@ -57,8 +61,8 @@ export default function Mappa({ route }: { route: Route }) {
     return d3.geoMercator().fitExtent([[60, 60], [size.w - 60, size.h - 60]], frame);
   }, [data, size]);
 
-  if (!data || !base) return <div className="loading">Unrolling the chart…</div>;
-  const P = (p: LonLat) => { const q = projection(p)!; return [t.applyX(q[0]), t.applyY(q[1])]; };
+  if (!data || !base) return <div className="loading">{t("codex.mappa.loading")}</div>;
+  const P = (p: LonLat) => { const q = projection(p)!; return [zt.applyX(q[0]), zt.applyY(q[1])]; };
   const ring = (r: LonLat[]) => r.map((p, i) => { const [x, y] = P(p); return `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`; }).join("") + "Z";
   const line = (l: LonLat[]) => l.map((p, i) => { const [x, y] = P(p); return `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`; }).join("");
   const places = Object.fromEntries(data.places.map((p) => [p.entity_id, p]));
@@ -85,10 +89,10 @@ export default function Mappa({ route }: { route: Route }) {
           <path d={landPath} fill="#f1e3c0" fillRule="evenodd" stroke="#6b4f2a" strokeWidth="1.1" filter="url(#ink)" />
           {base.lakes.map((l, i) => <path key={i} d={l.rings.map(ring).join("")} fill="#cfdccf" stroke="#4e6b78" strokeWidth="0.8" />)}
           {base.rivers.map((r, i) => <path key={i} d={line(r.line)} fill="none" stroke="#3c6488" strokeOpacity={0.7} strokeWidth={r.name === "Jordan" ? 1.6 : 0.9} />)}
-          {base.regions.filter((r) => (r.min_zoom ?? 5) <= 4 + Math.log2(t.k) * 1.6).map((r) => {
+          {base.regions.filter((r) => (r.min_zoom ?? 5) <= 4 + Math.log2(zt.k) * 1.6).map((r) => {
             const [x, y] = P([r.lon, r.lat]);
-            const name = lang === "ru" && r.name_ru ? r.name_ru : r.name;
-            return <text key={r.name} x={x} y={y} textAnchor="middle" fill="rgba(78,59,40,.45)" fontFamily="var(--serif)" fontStyle="italic" fontSize={14} letterSpacing="0.25em">{name.toUpperCase()}</text>;
+            const name = r[`name_${lang}`] || r.name;
+            return <text key={r.name} x={x} y={y} textAnchor="middle" fill="rgba(78,59,40,.45)" fontFamily="var(--serif)" fontStyle="italic" fontSize={14} letterSpacing="0.25em">{name.toLocaleUpperCase(lang)}</text>;
           })}
           {journey && shown > 1 && (
             <path d={line(stops.slice(0, shown).map((s) => [places[s.place].lon, places[s.place].lat] as LonLat))}
@@ -120,28 +124,28 @@ export default function Mappa({ route }: { route: Route }) {
           <g transform="translate(26, 24)">
             <rect width="250" height="54" fill="var(--page)" stroke="var(--gold)" />
             <rect x="4" y="4" width="242" height="46" fill="none" stroke="var(--gold)" strokeOpacity="0.5" />
-            <text x="125" y="26" textAnchor="middle" fontFamily="var(--caps)" fontWeight={700} fontSize={15} fill="var(--rubric)" letterSpacing="0.12em">TABVLA TERRAE</text>
-            <text x="125" y="42" textAnchor="middle" fontFamily="var(--serif)" fontStyle="italic" fontSize={13} fill="var(--ink-2)">the lands of the story</text>
+            <text x="125" y="26" textAnchor="middle" fontFamily="var(--caps)" fontWeight={700} fontSize={15} fill="var(--rubric)" letterSpacing="0.12em">{t("codex.mappa.cartouche")}</text>
+            <text x="125" y="42" textAnchor="middle" fontFamily="var(--serif)" fontStyle="italic" fontSize={13} fill="var(--ink-2)">{t("codex.mappa.cartouche_sub")}</text>
           </g>
         </svg>
-        <div className="muted" style={{ position: "absolute", left: 10, bottom: 6, fontSize: 12 }}>Natural Earth (public domain) · places after OpenBible.info · “?” marks an uncertain site</div>
+        <div className="muted" style={{ position: "absolute", left: 10, bottom: 6, fontSize: 12 }}>{t("codex.mappa.credits")}</div>
       </div>
       <aside style={{ padding: "16px 22px 16px 6px", overflow: "auto" }}>
-        <div className="section-title" style={{ marginTop: 6 }}>Journeys</div>
+        <div className="section-title" style={{ marginTop: 6 }}>{t("codex.mappa.journeys")}</div>
         {data.journeys.map((j) => (
           <div key={j.entity_id} style={{ margin: "4px 0" }}>
             <a href="#" onClick={(e) => { e.preventDefault(); setWho(j.entity_id); setStep(null); }}
                style={{ fontWeight: who === j.entity_id ? 700 : 400, color: who === j.entity_id ? "var(--rubric)" : undefined }}>
               {j.name}
-            </a> <span className="muted">· {j.stops.length} stages</span>
+            </a> <span className="muted">· {t("codex.mappa.stage_count", { count: j.stops.length })}</span>
           </div>
         ))}
         {journey && (
           <>
             <div style={{ display: "flex", gap: 8, margin: "10px 0" }}>
-              <button className="select" onClick={() => setStep((s) => (s === null ? 0 : Math.max(s - 1, 0)))}>← stage</button>
-              <button className="select" onClick={() => setStep((s) => (s === null ? 0 : Math.min(s + 1, stops.length - 1)))}>stage →</button>
-              <button className="select" onClick={() => setStep(null)}>whole road</button>
+              <button className="select" onClick={() => setStep((s) => (s === null ? 0 : Math.max(s - 1, 0)))}>{t("codex.mappa.prev_stage")}</button>
+              <button className="select" onClick={() => setStep((s) => (s === null ? 0 : Math.min(s + 1, stops.length - 1)))}>{t("codex.mappa.next_stage")}</button>
+              <button className="select" onClick={() => setStep(null)}>{t("codex.mappa.whole_road")}</button>
             </div>
             <ol style={{ paddingLeft: 22, margin: 0 }}>
               {stops.map((s, i) => (
@@ -159,8 +163,8 @@ export default function Mappa({ route }: { route: Route }) {
             {place.events.map((id) => (
               <p key={id} style={{ margin: "4px 0" }}><a href={href("hours", id)}>{data.events[id]?.title}</a> <span className="muted">· {data.events[id]?.label}</span></p>
             ))}
-            {place.events.length === 0 && <p className="muted">Named, but nothing happens here in these chapters.</p>}
-            <p><a href={href("people", place.entity_id)}>Read about {place.name} →</a></p>
+            {place.events.length === 0 && <p className="muted">{t("codex.mappa.nothing_here")}</p>}
+            <p><a href={href("people", place.entity_id)}>{t("codex.mappa.read_about", { name: place.name })}</a></p>
           </>
         )}
       </aside>

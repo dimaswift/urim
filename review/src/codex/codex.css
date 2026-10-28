@@ -14,7 +14,7 @@
   --lapis: #24476f;
   --verdigris: #3b6f60;
   --serif: "EB Garamond", "Garamond", "Georgia", serif;
-  --caps: "Cinzel", "EB Garamond", serif;
+  --caps: "Cinzel", "Forum", "EB Garamond", serif;
   --hebrew: "Noto Serif Hebrew", "SBL Hebrew", serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;
 }
@@ -212,3 +212,5 @@ a.card:hover { text-decoration: none; box-shadow: 0 8px 20px rgba(90, 60, 20, 0.
 .interlude span { display: inline-block; padding: 4px 20px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 .because { font-size: 14.5px; color: var(--verdigris); margin-top: 2px; }
 .sticky { position: sticky; top: 90px; }
+
+.test-yourself { font: 600 14px var(--caps); letter-spacing: 0.14em; padding: 8px 16px; border: 1px solid currentColor; border-radius: 2px; }

@@ -3,6 +3,10 @@ import { createRoot } from "react-dom/client";
 import "@fontsource/rajdhani/500.css";
 import "@fontsource/rajdhani/600.css";
 import "@fontsource/rajdhani/700.css";
+// Rajdhani has no Cyrillic: Exo 2 draws it in the same squared style.
+import "@fontsource/exo-2/cyrillic-500.css";
+import "@fontsource/exo-2/cyrillic-600.css";
+import "@fontsource/exo-2/cyrillic-700.css";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/600.css";
 import "@fontsource/jetbrains-mono/400.css";

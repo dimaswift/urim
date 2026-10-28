@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CausalLink, EventView } from "../api";
 import { CausalRow, EventBrief, Loading, Panel, ReviewBar } from "../components";
+import { useT, type TFunc } from "../i18n";
 import { useApi, useApp } from "../state";
 import { duration, go, range, type Route } from "../util";
 
@@ -12,6 +13,17 @@ const TYPE_COLOR: Record<string, string> = {
   TRIGGERS: "var(--amber)", FULFILLS_PROPHECY: "var(--violet)", RETALIATES_FOR: "var(--red)",
   ENABLES: "var(--cyan)", DEFERRED_BY: "var(--gold)",
 };
+
+function typeName(t: TFunc, code: string): string {
+  switch (code) {
+    case "TRIGGERS": return t("causal.type.triggers");
+    case "FULFILLS_PROPHECY": return t("causal.type.fulfills_prophecy");
+    case "RETALIATES_FOR": return t("causal.type.retaliates_for");
+    case "ENABLES": return t("causal.type.enables");
+    case "DEFERRED_BY": return t("causal.type.deferred_by");
+  }
+  return code.replace("_", " ").toLowerCase();
+}
 
 function wrap(text: string, max = 30): string[] {
   const words = text.split(" ");
@@ -26,6 +38,7 @@ function wrap(text: string, max = 30): string[] {
 
 export default function Causal({ route }: { route: Route }) {
   const { lang, ledger } = useApp();
+  const t = useT();
   const { data } = useApi<Data>(`/api/events?lang=${lang}`);
   const [showIsolated, setShowIsolated] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -69,7 +82,7 @@ export default function Causal({ route }: { route: Route }) {
     svg.call(zoom.transform, d3.zoomIdentity.translate((width - layout.size.width * k) / 2, (height - layout.size.height * k) / 2).scale(k));
   }, [layout]);
 
-  if (!data || !layout) return <Loading what="Tracing consequences" />;
+  if (!data || !layout) return <Loading what={t("causal.loading")} />;
   const titles = Object.fromEntries(data.events.map((e) => [e.event_id, e.title]));
   const ev = focus ? data.events.find((e) => e.event_id === focus) : null;
   const line = d3.line<{ x: number; y: number }>().x((p) => p.x).y((p) => p.y).curve(d3.curveBasis);
@@ -79,19 +92,19 @@ export default function Causal({ route }: { route: Route }) {
       <div style={{ position: "relative" }}>
         <div className="row" style={{ position: "absolute", left: 20, top: 16, zIndex: 2, flexWrap: "wrap" }}>
           <div>
-            <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>Causal web · drag to pan, scroll to zoom</div>
-            <h1>Cause & consequence</h1>
+            <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>{t("causal.kicker")}</div>
+            <h1>{t("causal.title")}</h1>
           </div>
         </div>
         <div className="row" style={{ position: "absolute", left: 20, top: 76, zIndex: 2, gap: 6, flexWrap: "wrap" }}>
-          {Object.entries(TYPE_COLOR).map(([t, c]) => <span key={t} className="chip" style={{ color: c }}>■ {t.replace("_", " ").toLowerCase()}</span>)}
-          <span className={`chip click ${showIsolated ? "on" : ""}`} onClick={() => setShowIsolated((v) => !v)}>isolated events</span>
-          {focus && <span className="chip click" onClick={() => go("causal")}>clear focus</span>}
+          {Object.entries(TYPE_COLOR).map(([code, c]) => <span key={code} className="chip" style={{ color: c }}>■ {typeName(t, code)}</span>)}
+          <span className={`chip click ${showIsolated ? "on" : ""}`} onClick={() => setShowIsolated((v) => !v)}>{t("causal.isolated")}</span>
+          {focus && <span className="chip click" onClick={() => go("causal")}>{t("causal.clear_focus")}</span>}
         </div>
         <svg ref={svgRef} className="svg-fill" style={{ cursor: "grab" }}>
           <defs>
-            {Object.entries(TYPE_COLOR).map(([t, c]) => (
-              <marker key={t} id={`arrow-${t}`} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            {Object.entries(TYPE_COLOR).map(([code, c]) => (
+              <marker key={code} id={`arrow-${code}`} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
                 <path d="M0 0 10 5 0 10z" fill={c} />
               </marker>
             ))}
@@ -108,7 +121,7 @@ export default function Causal({ route }: { route: Route }) {
                         strokeDasharray={l.causal_type.code === "FULFILLS_PROPHECY" ? "6 4" : undefined} />
                   <rect x={e.x - 52} y={e.y - 10} width={104} height={20} rx={3} fill="#071018" stroke={color} strokeOpacity={0.5} />
                   <text x={e.x} y={e.y + 4} textAnchor="middle" fontSize="10" fontFamily="var(--mono)" fill={color}>
-                    {l.elapsed_seconds < 0 ? "overlap" : `+${duration(l.elapsed_seconds, 1)}`}
+                    {l.elapsed_seconds < 0 ? t("causal.overlap") : `+${duration(l.elapsed_seconds, 1)}`}
                   </text>
                 </g>
               );
@@ -126,7 +139,7 @@ export default function Causal({ route }: { route: Route }) {
                   <rect width={W} height={H} rx={4} fill={on ? "#1a1408" : "#0b141c"} stroke={color} strokeWidth={on ? 2 : 1}
                         style={{ filter: on ? `drop-shadow(0 0 8px ${color})` : undefined }} />
                   <rect width={4} height={H} fill={color} />
-                  {lines.map((t, i) => <text key={i} x={12} y={20 + i * 15} fontSize="12.5" fontWeight="700" fontFamily="var(--hud)" fill="var(--text)">{t}</text>)}
+                  {lines.map((text, i) => <text key={i} x={12} y={20 + i * 15} fontSize="12.5" fontWeight="700" fontFamily="var(--hud)" fill="var(--text)">{text}</text>)}
                   <text x={12} y={H - 9} fontSize="10" fontFamily="var(--mono)" fill="var(--dim)">{range(e.verse_start, e.verse_end)} · {e.start_label}</text>
                 </g>
               );
@@ -136,7 +149,7 @@ export default function Causal({ route }: { route: Route }) {
       </div>
       {ev && (
         <div style={{ borderLeft: "1px solid var(--line)", overflow: "auto", padding: 16 }}>
-          <Panel title="Focus" right={<ReviewBar itemKey={`event:${ev.event_id}`} />}>
+          <Panel title={t("causal.focus")} right={<ReviewBar itemKey={`event:${ev.event_id}`} />}>
             <h2 style={{ marginBottom: 8 }}>{ev.title}</h2>
             <EventBrief event={ev} />
             <div className="grid" style={{ gap: 6, marginTop: 12 }}>
@@ -144,7 +157,7 @@ export default function Causal({ route }: { route: Route }) {
                 <CausalRow key={l.causal_id} link={l} titles={titles} from={ev.event_id} />
               ))}
             </div>
-            <button className="btn small" style={{ marginTop: 12 }} onClick={() => go("chronicle", ev.event_id)}>Open in Chronicle</button>
+            <button className="btn small" style={{ marginTop: 12 }} onClick={() => go("chronicle", ev.event_id)}>{t("causal.open_chronicle")}</button>
           </Panel>
         </div>
       )}

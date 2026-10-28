@@ -1,0 +1,203 @@
+{
+ "review.kicker": {
+  "text": "Intelligence review",
+  "note": "Small heading above the page title of the review deck, where the user approves or sends back the agents' work"
+ },
+ "review.title": {
+  "text": "Review deck",
+  "note": "Page title: a deck of cards, one per item an agent wrote, to approve or send back"
+ },
+ "review.tab.draft": {
+  "text": "Drafts",
+  "note": "Tab listing the items waiting for review; a count follows it"
+ },
+ "review.tab.changes_requested": {
+  "text": "Sent back",
+  "note": "Tab listing the items the user sent back to the agent for changes; a count follows it"
+ },
+ "review.tab.approved": {
+  "text": "Approved",
+  "note": "Tab listing the items the user approved; a count follows it"
+ },
+ "review.filter.all_chapters": {
+  "text": "All chapters",
+  "note": "Option of the chapter filter that shows every chapter"
+ },
+ "review.filter.all_kinds": {
+  "text": "All",
+  "note": "Filter chip that shows items of every kind (events, entities, verses…); a count follows it"
+ },
+ "review.error": {
+  "text": "ERROR",
+  "note": "Label of an error box, shown in capitals; the error message follows it"
+ },
+ "review.loading": {
+  "text": "Pulling the deck",
+  "note": "Loading message while the review cards load; the interface adds an ellipsis"
+ },
+ "review.empty.drafts": {
+  "text": "Deck cleared. No drafts waiting: send an agent on a mission from Command.",
+  "note": "Shown when no items wait for review; 'Command' is the name of the start page, where agents are sent to work"
+ },
+ "review.empty.other": {
+  "text": "Deck cleared. Nothing here.",
+  "note": "Shown when the chosen tab and filters have no items"
+ },
+ "review.agent_intel": {
+  "text": "AGENT INTEL",
+  "note": "Label, in capitals, of a box holding the notes the agent left for the reviewer"
+ },
+ "review.your_orders": {
+  "text": "YOUR ORDERS",
+  "note": "Label, in capitals, of a box holding the note the user wrote when sending this item back"
+ },
+ "review.action.back": {
+  "text": "Back",
+  "note": "Button: show the previous card; a keyboard key follows it"
+ },
+ "review.action.skip": {
+  "text": "Skip",
+  "note": "Button: show the next card without deciding; a keyboard key follows it"
+ },
+ "review.action.open": {
+  "text": "Open",
+  "note": "Button: open this item in its own view (timeline, dossier, verse); a keyboard key follows it"
+ },
+ "review.action.send_back": {
+  "text": "Send back",
+  "note": "Button: return the item to the agent with a note asking for changes"
+ },
+ "review.action.approve": {
+  "text": "Approve",
+  "note": "Button: accept the item; a keyboard key follows it"
+ },
+ "review.orders.title": {
+  "text": "Orders for the next session",
+  "note": "Heading of the box where the user writes what the agent should change; the agent reads it in its next session"
+ },
+ "review.orders.placeholder": {
+  "text": "What should the agent change? It will see this first in its packet.",
+  "note": "Placeholder of the note box; a packet is the task file the agent reads before working"
+ },
+ "review.orders.hint": {
+  "text": "{send} send · {cancel} cancel",
+  "note": "Keyboard hint under the note box; {send} and {cancel} are key symbols (⌘↵, Esc)"
+ },
+ "review.provenance.title": {
+  "text": "Provenance",
+  "note": "Side panel title: who wrote this item and when"
+ },
+ "review.provenance.status": {
+  "text": "Status",
+  "note": "Field label: the review status of the item"
+ },
+ "review.provenance.model": {
+  "text": "Model",
+  "note": "Field label: the AI model that wrote the item"
+ },
+ "review.provenance.skill": {
+  "text": "Skill",
+  "note": "Field label: the agent skill (role and version) that wrote the item"
+ },
+ "review.provenance.written": {
+  "text": "Written",
+  "note": "Field label: how long ago the item was written, e.g. '3 h ago'"
+ },
+ "review.history.title": {
+  "text": "History",
+  "note": "Side panel title: the review decisions made on this item"
+ },
+ "review.history.empty": {
+  "text": "No decisions yet.",
+  "note": "Shown in the history panel when nobody has reviewed the item"
+ },
+ "review.up_next": {
+  "text": "Up next",
+  "note": "Side panel title: the next cards in the deck"
+ },
+ "review.refresh": {
+  "text": "Refresh deck",
+  "note": "Button: reload the review cards"
+ },
+ "review.card.missing": {
+  "text": "This item is not in the linked bundles",
+  "note": "Shown on a card whose item the database lacks (the bundles are the compiled database)"
+ },
+ "review.causality": {
+  "text": "Causality",
+  "note": "Small heading over the list of cause and effect links of an event"
+ },
+ "review.first_at": {
+  "text": "first at {verse}",
+  "note": "Where an entity or ritual first appears; {verse} is a reference like 1KGS.17.1"
+ },
+ "review.confidence": {
+  "text": "confidence {percent}%",
+  "note": "How sure the agent is, as a percentage; {percent} is a number like 85"
+ },
+ "review.entity.no_tipnr": {
+  "text": "no TIPNR id",
+  "note": "Shown when a person or place has no identifier in TIPNR, the reference list of biblical names"
+ },
+ "review.entity.meaning": {
+  "text": "Meaning",
+  "note": "Field label: what a name means (its etymology)"
+ },
+ "review.entity.also": {
+  "text": "Also",
+  "note": "Field label: other names the entity goes by"
+ },
+ "review.entity.position": {
+  "text": "Position",
+  "note": "Field label: the map coordinates of a place"
+ },
+ "review.entity.via": {
+  "text": "via {source}",
+  "note": "Where the coordinates come from; {source} is a dataset name, e.g. 'via OpenBible'"
+ },
+ "review.component.target": {
+  "text": "Target: {entity}",
+  "note": "Who or what a state is directed at; {entity} is a name chip"
+ },
+ "review.component.supersedes": {
+  "text": "supersedes {id}",
+  "note": "This state replaces an earlier one; {id} is that state's identifier"
+ },
+ "review.instance.significance": {
+  "text": "SIGNIFICANCE",
+  "note": "Label, in capitals, of a box explaining what a ritual or mechanic means in the story"
+ },
+ "review.verse.literal": {
+  "text": "Literal",
+  "note": "Label of the word-for-word translation of a verse"
+ },
+ "review.verse.dramatic": {
+  "text": "Dramatic",
+  "note": "Label of the free, dramatic translation of a verse"
+ },
+ "review.verse.commentary": {
+  "text": "Commentary",
+  "note": "Label of the historical and linguistic commentary on a verse"
+ },
+ "review.verse.baseline": {
+  "text": "Baseline",
+  "note": "Label of the traditional translation (such as the KJV) when its name is unknown"
+ },
+ "review.verse.open_xray": {
+  "text": "Open in X-Ray →",
+  "note": "Link to the verse in the X-Ray view, which shows a verse word by word"
+ },
+ "review.causal.overlaps": {
+  "text": "overlaps",
+  "note": "Shown instead of the time between cause and effect when the two events overlap in time"
+ },
+ "review.system.occurrences": {
+  "one": "{count} occurrence(s)",
+  "other": "{count} occurrence(s)",
+  "note": "How many times a ritual or mechanic occurs in the text"
+ },
+ "review.translation.english": {
+  "text": "The English it translates",
+  "note": "Fold-out under a translation's review card, showing the English source"
+ }
+}

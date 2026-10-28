@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import os
+import threading
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -86,7 +88,7 @@ def load_i18n(ir_dir: Path, lang: str) -> tuple[I18nBundleIR, list[I18nChapterIR
     chapters = [
         read_model(p, I18nChapterIR)
         for p in sorted(root.glob("*.json"))
-        if p.name != "_bundle.json"
+        if not p.name.startswith("_")  # _bundle.json, _ui.json (interface messages)
     ]
     return bundle, chapters
 
@@ -95,4 +97,7 @@ def write_model(path: Path, model: BaseModel) -> None:
     """Write IR as stable, diff-friendly JSON (no nulls, one-space indent)."""
     path.parent.mkdir(parents=True, exist_ok=True)
     doc = model.model_dump(mode="json", exclude_none=True)
-    path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # Whole-file replace: an autonomous run reads the corpus while its sessions merge into it.
+    tmp = path.with_name(f".{path.name}.{os.getpid()}.{threading.get_ident()}.tmp")
+    tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    tmp.replace(path)

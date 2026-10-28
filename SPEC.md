@@ -151,7 +151,12 @@ temple in Solomon's fourth year (966 BCE under Thiele) + 480 years to the Exodus
 45:6): c. 1915 BCE ± 220 years, covering a 13th-century Exodus and the LXX reading of Ex 12:40.
 The text's own ages and spans are offsets from such an anchor ("seventeen years old" is 17
 years after it), so the story's inner chronology stays exact while its absolute date floats
-with the scheme.
+with the scheme. Genesis carries the chain back with the Masoretic ages: Jacob's birth (91
+years before Joseph's, Gen 47:9 with 41:46 and 45:6), Isaac's (Gen 25:26), Abraham's (Gen 21:5,
+c. 2166 BCE), the year the Flood began (292 years before Abram by Gen 11:10–26, c. 2458 BCE)
+and creation, Anno Mundi 1 (1655 years before the Flood by Gen 5, c. 4113 BCE). From the Flood
+back the margin grows by 60 years for Terah's age at Abram's birth (70 or 130). The anchors date
+the text's own chronology; the LXX and Samaritan ages would be other schemes.
 
 ### 4.5 Causality
 
@@ -261,7 +266,7 @@ OpenBible                     chronology.json (curated) Ontologist  ─┤    i1
 | **Chronologist** | chapter, Philologist output, rolling temporal state, anchors | events with `time` specs, participants, causal edges |
 | **Ontologist** | chapter, TIPNR-seeded entity registry, system registry | entities, components and closures, systems, instances, interaction edges |
 | **Critic (LLM)** | IR + linker report | semantic review: unsupported claims, missed events, wrong roles |
-| **Localizer** | core + `i18n/en` IR, target baseline | `i18n/{iso}` IR, aligned to source tokens; audits the target baseline |
+| **Localizer** | `i18n/en` IR, source tokens, target baseline, the language's names so far | `i18n/{iso}` IR (verses translated from the Hebrew), interface messages, bundle labels; see §6.6 |
 
 The agent directives from v1.0 still apply. Layer 1 is ultra-literal with idioms and
 euphemisms kept; Layer 2 is dramatic literary prose; Layer 3 is a historical, cultural and
@@ -283,13 +288,79 @@ for its verses only); approved items are locked; nothing is written until the me
 links. The per-chapter ledger in `corpus/ledger/` records producer (model, skill version, date),
 agent notes and review history.
 
-### 6.4 Model selection
+### 6.4 Autonomous runs
+
+`urim run <book>` (or a range, `GEN.38-40`) does the session loop unattended. The conductor is
+code, not a model ([`urim/conductor/`](urim/conductor/)): it plans each step from the corpus and
+its ledger, so a run that stops resumes by planning again, and it keeps no context to fill over
+hundreds of sessions. Each step is a headless Claude Code session (`claude -p "/urim-… <scope>"`)
+with the project skills, told it runs alone, kept from the gold, and limited to the tools the
+skills need.
+
+- Order: chronology one chapter at a time (each builds on the settled dates of the last);
+  ontology after its chapter's chronology and its own previous chapter; philology windows of
+  twelve verses side by side once a chapter's events are settled. Up to `--parallel` sessions
+  at once; merges take a lock on the corpus.
+- Review: after each layer of a chapter the critic writes a JSON report (`urim schema critic`,
+  [`urim/workbench/critique.py`](urim/workbench/critique.py)). The run applies it in the
+  critic's name: blocker and should-fix findings send the item back with the change request at
+  the top of the next packet, every other reviewed draft is approved and locked, `consider`
+  findings travel with the approval as advice. An agent that keeps an item unchanged sends it
+  back to the critic. After `--rounds` sendings back (default 2) the last critique escalates
+  what is still disputed: it stays a draft with the critic's note, for the user. Every decision
+  records who made it (`by` in the ledger history); the user can reopen anything.
+- Models: Sonnet 5.5 writes and Opus 5.5 critiques by default, per agent with `--model`.
+- Limits: a usage limit pauses the run until the time the CLI reports, then it resumes. An
+  API failure that is not about the session's own request (an account refusal, an outage, an
+  overload) pauses it too, for 10 minutes doubling to 2 hours, with one desktop alert, and
+  counts against no layer. A session that fails on its own work counts; three in a row mark
+  the layer failed, and running the run again retries it.
+- Unattended sessions are told that only `uv run urim …` runs: scripts, pipes and heredocs
+  wait for an approval nobody can give, so fragments are written with Write and fixed with
+  Edit.
+- State: `work/run/<name>.json` (phases per chapter layer, steps with tokens, cost and the
+  session's report, a log) and one transcript per session; the War Room's Campaign view reads
+  it live, and the run ends with `work/run/<name>/report.md`.
+
+### 6.5 Model selection
 
 Every agent's model is configurable. For the PoC, each agent runs with **Claude Opus 5.5**,
 **Sonnet 5.5** and **Haiku 5.5** and is scored against the golden fixture IR. See PLAN.md,
 Phase 2.
 
 ---
+
+### 6.6 Localization
+
+Everything a reader sees exists in English first and can be translated by the localizer
+(`/urim-localizer <lang> <scope>`, [`urim/workbench/localize.py`](urim/workbench/localize.py)):
+
+| Scope | What | From |
+|---|---|---|
+| `GEN.38` | a chapter's event, link, entity, system, state, ritual and interaction texts | the English texts |
+| `GEN.38.1-12` | verses: literal and dramatic layers and word glosses; commentary and notes | the Hebrew, with the English layers and the language's own Bible beside it; commentary and notes from the English |
+| `ui.<namespace>` | the interface messages of one screen of the War Room or the Codex | `urim/i18n/en/<namespace>.json` |
+| `bundle` | book names, vocabulary labels, chronology anchors | the English bundle |
+
+- A translation is a fragment like any other and merges with `urim ir merge`. Chapter texts
+  and verses are ledger items of their chapter keyed by language (`event.ru:evt.…`,
+  `verse.ru:GEN.38.4`), reviewed like the English ones; a language is a layer the critic can
+  review (`/urim-critic GEN.38 ru`).
+- Each translation remembers a hash of the English it was made from (`source` in the ledger;
+  `corpus/ledger/lang/<lang>.json` for messages and labels). When the English changes the
+  translation is stale: it shows as work again, and its approval no longer locks it.
+- Interface messages: English is written with the code (`urim/i18n/en/*.json`, a key → text,
+  or plural forms, with a note for the translator); translations go to
+  `corpus/i18n/<lang>/_ui.json`. Placeholders (`{name}`) must survive, counted messages take
+  one form per CLDR plural category of the language. The apps call `t(key, vars)`; a missing
+  translation falls back to English per message, and so does a missing corpus text, which the
+  Codex marks.
+- `urim run <book> --lang ru` adds the language as a layer: the interface and the bundle
+  first, a chapter's texts once its English chronology and ontology are settled, its verses
+  in windows once their philology is, then the critic. Progress: `urim lang [ru]` and the War
+  Room's Languages view (per chapter and screen: missing, stale, translated, approved).
+- A new language starts with `corpus/i18n/<lang>/_bundle.json` (code, name, its own Bible as
+  baseline, pinned and ingested); the localizer writes the rest.
 
 ## 7. Runtime API
 
@@ -333,10 +404,34 @@ REST routes: `/languages`, `/verses/{ref}`, `/chapters/{book}/{ch}`, `/entities/
 ### 7.1 Review app ("War Room")
 
 `urim review` serves a local web app for reviewing agent output, built as a strategy-game HUD:
-Command (canon territory, rank, missions, honours), Review deck, X-Ray, Chronicle, Causal web,
-Atlas, Dossiers, Codex and Query. Decisions write to the corpus ledger; everything else is read
-from the bundles, which the server remounts after each relink. The SQL console runs on a
-read-only, immutable connection with an authorizer that allows only reads.
+Command (canon territory, rank, missions, honours), Learn, Campaign, Languages, Review deck,
+X-Ray, Chronicle, Causal web, Atlas, Dossiers, Codex and Query. Both apps speak the language
+chosen in their header (§6.6). Decisions write to the corpus ledger;
+everything else is read from the bundles, which the server remounts after each relink. The SQL
+console runs on a read-only, immutable connection with an authorizer that allows only reads.
+
+### 7.2 Learning
+
+Once a book is written, the War Room is for learning it ([`urim/learn/`](urim/learn/)). Quiz
+questions are views of the linked data, built by code: no model writes them, so they always
+agree with the corpus, and a question's id (`kind|chapter|subject|seed`) rebuilds it on the
+server to check the answer.
+
+| Family | Kinds |
+|---|---|
+| Story | who took part in a scene and in what role; which scene a passage tells; what caused an event; a state and how it changed; who did what to whom |
+| Time and place | put scenes in the order they happened (by the linked timeline, which may differ from the telling); click the place on a map (scored by distance); choose the place; how long between two scenes; how old someone was (within the linked margins) |
+| Hebrew and text | what a Hebrew word means in its verse; which word means a gloss; fill in a word of the verse |
+
+Wrong choices come from the same book, and from search by meaning when the bundle has vectors,
+so they are plausible; names that would give an answer away are masked. Answers go to
+`data/learner.sqlite` (personal, never committed): one card per fact, scheduled by a small
+SM-2 (a fact counts as known at a three-week interval), so practice brings back what is due
+before what is new. A chapter's mastery is the share of its facts known; an exam of fifteen
+questions across every kind, passed at 80%, proves it. Retelling a chapter from memory is the
+one kind graded by a model: a headless Claude session compares the text with the chapter's
+events and returns what was covered, missed and contradicted. The Command map has a Knowing
+layer (violet for mastery, gold for proven) and each Codex chapter ends with a link to test it.
 
 ## 8. Stack
 
@@ -362,9 +457,13 @@ urim/
 │   ├── compiler/link.py             linker + deterministic critic
 │   ├── compiler/ingest/             fetch (lockfile) · tahot · tvtms · tipnr · geo · sefaria · build
 │   ├── compiler/agents/             Phase 2
+│   ├── workbench/                   packets, fragments, merge, ledger, critique (critic reports)
+│   ├── conductor/                   urim run: plan from the corpus, headless sessions, run state
+│   ├── learn/                       quiz kinds, sessions, spaced repetition, retelling grader
+│   ├── i18n/                        interface messages (en/*.json), translators, language progress
 │   ├── runtime/engine.py, models.py
 │   ├── interfaces/rest_api.py, mcp_server.py
-│   └── cli.py                       urim ingest · link {core,lang,all} · validate · verse · serve · mcp
+│   └── cli.py                       urim ingest · link · validate · task · ir merge · run · review · serve · mcp
 ├── sources.lock.json                pinned source URLs and SHA-256s
 └── tests/
 ```

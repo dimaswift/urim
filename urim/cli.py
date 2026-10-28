@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from dataclasses import replace
 from pathlib import Path
 from typing import Annotated
 
@@ -25,7 +26,8 @@ InputsDir = Annotated[
 ]
 BundlesDir = Annotated[Path | None, typer.Option("--bundles", help="Bundles directory")]
 Scheme = Annotated[str | None, typer.Option("--chronology", help="Chronology scheme")]
-Agent = Annotated[str, typer.Argument(help="chronology, ontology or philology")]
+Agent = Annotated[str, typer.Argument(help="chronology, ontology, philology or localization")]
+SEVERITIES = ("blocker", "should_fix", "consider")
 Vectors = Annotated[
     bool | None,
     typer.Option(
@@ -39,17 +41,8 @@ def _paths(
     ir: Path | None = None, inputs: Path | None = None, bundles: Path | None = None
 ) -> Paths:
     p = load_paths()
-    return Paths(
-        corpus=ir or p.corpus,
-        inputs=inputs or p.inputs,
-        bundles=bundles or p.bundles,
-        sources=p.sources,
-        cache=p.cache,
-        lockfile=p.lockfile,
-        work=p.work,
-        runs=p.runs,
-        fixtures=p.fixtures,
-        review=p.review,
+    return replace(
+        p, corpus=ir or p.corpus, inputs=inputs or p.inputs, bundles=bundles or p.bundles
     )
 
 
@@ -212,15 +205,24 @@ def model_fetch() -> None:
 @app.command()
 def task(
     agent: Agent,
-    scope: Annotated[str, typer.Argument(help="1KGS.18 or 1KGS.18.1-12")],
+    scope: Annotated[
+        str, typer.Argument(help="1KGS.18 or 1KGS.18.1-12; for localization also ui.<ns>, bundle")
+    ],
+    lang: Annotated[str | None, typer.Option(help="Localization: the language, e.g. ru")] = None,
     ir: IrDir = None,
     inputs: InputsDir = None,
 ) -> None:
     """Write the work packet for one session task."""
+    from urim.workbench.localize_packets import build_localization_packet
     from urim.workbench.packets import TaskError, build_packet, display_path
 
     try:
-        packet = build_packet(agent, scope, _paths(ir, inputs))
+        if agent == "localization":
+            if not lang:
+                raise TaskError("localization needs --lang, e.g. --lang ru")
+            packet = build_localization_packet(lang, scope, _paths(ir, inputs))
+        else:
+            packet = build_packet(agent, scope, _paths(ir, inputs))
     except TaskError as e:
         raise _fail(str(e)) from e
     for w in packet.warnings:
@@ -233,12 +235,42 @@ def task(
 
 @app.command()
 def schema(agent: Agent) -> None:
-    """Print the JSON schema of an agent's fragment."""
+    """Print the JSON schema of an agent's fragment, or of the critic's report."""
+    from urim.workbench.critique import CriticReport
     from urim.workbench.fragments import FRAGMENT_MODELS
 
-    if agent not in FRAGMENT_MODELS:
+    models = FRAGMENT_MODELS | {"critic": CriticReport}
+    if agent not in models:
         raise _fail(f"unknown agent {agent!r}")
-    typer.echo(json.dumps(FRAGMENT_MODELS[agent].model_json_schema(), indent=1))
+    typer.echo(json.dumps(models[agent].model_json_schema(), indent=1))
+
+
+@app.command()
+def critique(
+    report: Annotated[Path, typer.Argument(help="work/critic/<chapter>.<layer>.json")],
+    ir: IrDir = None,
+) -> None:
+    """Check a critic report against the ledger and print it. Changes nothing."""
+    from urim.workbench.critique import CritiqueError, check_report, load_report
+
+    try:
+        r = load_report(report)
+    except CritiqueError as e:
+        raise _fail(str(e)) from e
+    errors = check_report(r, _paths(ir).corpus)
+    for err in errors:
+        typer.secho(f"  error {err}", fg=typer.colors.RED)
+    by_severity = {s: [f for f in r.findings if f.severity == s] for s in SEVERITIES}
+    typer.echo(
+        f"{r.layer} {r.chapter_ref}: {len(r.reviewed)} reviewed, "
+        + ", ".join(f"{len(v)} {k.replace('_', ' ')}" for k, v in by_severity.items())
+    )
+    for severity, findings in by_severity.items():
+        for f in findings:
+            typer.echo(f"  {severity:10} {f.item}: {f.problem}")
+            typer.echo(f"  {'':10} {f.evidence}")
+    if errors:
+        raise typer.Exit(1)
 
 
 @ir_app.command("merge")
@@ -252,13 +284,21 @@ def ir_merge(
 ) -> None:
     """Check a fragment (schema, ownership, locks, full link) and merge it into the corpus."""
     from urim.workbench.fragments import FragmentError, load_fragment
-    from urim.workbench.merge import merge_fragment
+    from urim.workbench.ledger import corpus_lock
 
     p = _paths(ir, inputs, bundles)
     try:
         frag = load_fragment(fragment)
     except FragmentError as e:
         raise _fail(str(e)) from e
+    # Sessions of an autonomous run merge side by side: check, write and relink one at a time.
+    with corpus_lock(p.corpus):
+        _merge(frag, p, dry_run, link)
+
+
+def _merge(frag, p: Paths, dry_run: bool, link: bool) -> None:
+    from urim.workbench.merge import merge_fragment
+
     r = merge_fragment(frag, p.corpus, p.inputs, dry_run=dry_run)
     for w in r.warnings:
         typer.secho(f"  warn  {w}", fg=typer.colors.YELLOW)
@@ -278,7 +318,7 @@ def ir_merge(
         return
     for path in r.written:
         typer.echo(f"  wrote {path}")
-    if link:
+    if link and r.relink:
         v = _vectorizer(p)
         _run(link_all, p.corpus, p.bundles, inputs_dir=p.inputs, vectors=v)
         typer.echo(f"  relinked {p.bundles}")
@@ -386,6 +426,41 @@ def status(ir: IrDir = None, inputs: InputsDir = None) -> None:
             typer.echo(f"  {s}")
 
 
+@app.command("lang")
+def lang_status(
+    lang: Annotated[str | None, typer.Argument(help="One language, e.g. ru [default: all]")] = None,
+    ir: IrDir = None,
+) -> None:
+    """How far each language has come: chapter texts, verses, interface, bundle."""
+    from urim.i18n.progress import all_progress, language_progress
+    from urim.workbench.localize import has_language
+
+    p = _paths(ir)
+    if lang and not has_language(p.corpus, lang):
+        raise _fail(f"no language {lang!r} (corpus/i18n/{lang}/_bundle.json)")
+    rows = [language_progress(p.corpus, lang)] if lang else all_progress(p.corpus)
+    if not rows:
+        typer.echo("no languages besides English yet")
+
+    def cell(c: dict) -> str:
+        if not c["total"]:
+            return "·"
+        extra = "".join(
+            f" {c[k]}{mark}" for k, mark in (("stale", "~"), ("requested", "!")) if c[k]
+        )
+        return f"{c['approved']}✓ {c['translated'] - c['approved']}d/{c['total']}{extra}"
+
+    for row in rows:
+        typer.secho(f"\n{row['lang']} · {row['lang_name']} (baseline {row['baseline']})", bold=True)
+        typer.echo(f"{'chapter':10} {'texts':>22} {'verses':>22}")
+        for ch in row["chapters"]:
+            typer.echo(f"{ch['chapter']:10} {cell(ch['texts']):>22} {cell(ch['verses']):>22}")
+        ui, b = row["interface"], row["bundle"]
+        typer.echo(f"interface  {ui['translated']}/{ui['total']} messages, {ui['stale']} stale")
+        typer.echo(f"bundle     {b['translated']}/{b['total']} labels, {b['stale']} stale")
+    typer.echo("\n✓ approved, d drafts, ~ stale, ! requested")
+
+
 @app.command()
 def ledger(chapter: str, ir: IrDir = None) -> None:
     """Every reviewable item of a chapter, with status, producer and agent notes."""
@@ -401,7 +476,7 @@ def ledger(chapter: str, ir: IrDir = None) -> None:
         for n in item.agent_notes:
             typer.echo(f"{'':17} agent: {n}")
         if note := item.review_note():
-            typer.echo(f"{'':17} you {note}")
+            typer.echo(f"{'':17} review {note}")
     for n in led.notes:
         typer.echo(f"note ({n.produced_by.model}, {n.at}): {n.note}")
 
@@ -452,6 +527,112 @@ def request_changes(
 def reopen(key: str, note: str | None = None, ir: IrDir = None) -> None:
     """Unlock an approved item so a session may change it again."""
     _review([key], "draft", note, ir)
+
+
+# --- autonomous runs --------------------------------------------------------------------------
+
+
+@app.command("run")
+def run_cmd(
+    scope: Annotated[str, typer.Argument(help="Book or chapters: GEN, GEN.37-40")],
+    parallel: Annotated[int, typer.Option(help="Sessions at a time")] = 3,
+    rounds: Annotated[int, typer.Option(help="Times the critic may send a layer back")] = 2,
+    model: Annotated[
+        list[str] | None,
+        typer.Option(help="agent=model, e.g. critic=claude-opus-5-5 (repeatable)"),
+    ] = None,
+    layers: Annotated[str, typer.Option(help="Layers to write")] = "chronology,ontology,philology",
+    lang: Annotated[
+        list[str] | None,
+        typer.Option(help="Also translate into this language, e.g. ru (repeatable)"),
+    ] = None,
+    plan_only: Annotated[
+        bool, typer.Option("--plan", help="Show where each chapter stands and what runs next")
+    ] = False,
+    name: Annotated[str | None, typer.Option(help="Run name [default: the scope]")] = None,
+    claude: Annotated[str, typer.Option(help="Claude Code executable")] = "claude",
+    timeout: Annotated[float, typer.Option(help="Minutes before a session is stopped")] = 60,
+    notify: Annotated[
+        bool, typer.Option(help="Desktop notification at the end, and when the API fails")
+    ] = True,
+) -> None:
+    """Write, critique and revise a book with headless Claude Code sessions, unattended.
+
+    Chronology runs one chapter at a time, ontology follows, philology windows run alongside;
+    the critic reviews every layer and its report is applied in its name. Ctrl-C stops, and
+    running the same command again resumes, retrying layers that failed. Progress: the War
+    Room's Campaign view. With --lang, each chapter also gets a translation layer once its
+    English is settled, and the language's interface and bundle are translated too.
+    """
+    from urim.compiler.ingest.build import IngestError
+    from urim.conductor.plan import LAYERS
+    from urim.conductor.run import Conductor, RunError, scope_chapters
+    from urim.conductor.run import notify as notify_user
+    from urim.workbench.critique import is_language
+
+    p = _paths()
+    chosen = tuple(x.strip() for x in layers.split(",") if x.strip()) + tuple(lang or ())
+    if unknown := {x for x in chosen if x not in LAYERS and not is_language(x)}:
+        raise _fail(f"unknown layer(s): {', '.join(sorted(unknown))}")
+    models = {}
+    for pair in model or []:
+        agent, _, model_id = pair.partition("=")
+        if agent not in (*LAYERS, "localization", "critic") or not model_id:
+            raise _fail(f"bad --model {pair!r}; expected e.g. critic=claude-opus-5-5")
+        models[agent] = model_id
+    try:
+        scope_chapters(scope)
+        if not plan_only:
+            _ingest_missing(scope, p)
+        conductor = Conductor(
+            p,
+            scope,
+            name=name,
+            parallel=parallel,
+            max_rounds=rounds,
+            models=models,
+            layers=chosen,
+            claude=claude,
+            timeout_min=timeout,
+            echo=typer.echo,
+            alert=(lambda text: notify_user("URIM", text)) if notify else (lambda _: None),
+        )
+    except (IngestError, RunError) as e:
+        raise _fail(str(e)) from e
+    if plan_only:
+        _print_plan(conductor)
+        return
+    state = conductor.run()
+    if notify and state.status == "finished":
+        notify_user("URIM", f"Run {state.name} finished: {conductor.summary()}")
+
+
+def _ingest_missing(scope: str, p: Paths) -> None:
+    from urim.conductor.plan import chapter_verses
+    from urim.conductor.run import scope_chapters
+
+    verses = chapter_verses(p, scope_chapters(scope))
+    if all(verses.values()):
+        return
+    typer.echo(f"ingesting {scope} first")
+    ingest(scope)
+
+
+def _print_plan(conductor) -> None:
+    p = conductor.plan()
+    marks = {"done": "✓", "failed": "✗", "unwritten": "·"}
+    typer.echo(f"{'chapter':10} " + " ".join(f"{layer:>14}" for layer in conductor.layers))
+    for row in conductor.state.chapters:
+        cells = []
+        for layer in conductor.layers:
+            r = row.layers[layer]
+            cells.append(f"{marks.get(r.phase, r.phase):>14}")
+        typer.echo(f"{row.chapter:10} " + " ".join(cells))
+    typer.echo("\nnext:")
+    for step in p.steps[: conductor.state.parallel * 4]:
+        typer.echo(f"  {step.command:40} {step.action} · {conductor.state.models[step.agent]}")
+    if not p.steps:
+        typer.echo("  nothing: every chapter layer is done or blocked")
 
 
 # --- review app -------------------------------------------------------------------------------

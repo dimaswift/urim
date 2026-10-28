@@ -7,6 +7,8 @@ from typing import Any, Literal
 
 from mcp.server.mcpserver import MCPServer
 
+from urim.config import load_paths
+from urim.i18n.messages import Messages
 from urim.runtime.engine import UrimEngine
 
 INSTRUCTIONS = """\
@@ -19,7 +21,7 @@ takes `lang` (default "en"); text missing from a language bundle falls back to E
 
 
 def create_server(bundles_dir: str | Path) -> MCPServer:
-    engine = UrimEngine(bundles_dir)
+    engine = UrimEngine(bundles_dir, messages=Messages(load_paths().corpus))
     server = MCPServer(name="urim", instructions=INSTRUCTIONS)
 
     @server.tool()

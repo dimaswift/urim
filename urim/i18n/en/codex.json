@@ -1,0 +1,474 @@
+{
+ "codex.nav.tagline": {
+  "text": "the illuminated codex",
+  "note": "Subtitle beside the URIM brand in the reader's masthead. The reader is styled as an illuminated medieval manuscript; keep a bookish, slightly solemn register and the lowercase."
+ },
+ "codex.nav.read": {
+  "text": "Read",
+  "note": "Tab: the chapter text, laid out as a manuscript page"
+ },
+ "codex.nav.people": {
+  "text": "Persons & Places",
+  "note": "Tab: the index of everyone and everything the story names"
+ },
+ "codex.nav.map": {
+  "text": "Map",
+  "note": "Tab: the map of the story's lands and journeys"
+ },
+ "codex.nav.hours": {
+  "text": "Book of Hours",
+  "note": "Tab: the story day by day with the ancient hours. Named after the medieval prayer book (Latin 'liber horarum'); use your language's name for that kind of manuscript if it has one (Russian: Часослов)."
+ },
+ "codex.nav.go_to_chapter": {
+  "text": "Go to chapter…",
+  "note": "Placeholder of the chapter selector"
+ },
+ "codex.nav.not_translated": {
+  "text": "not yet translated",
+  "note": "After a chapter in the selector: '1 Kings 17 · not yet translated' (no new translation of any verse yet)"
+ },
+ "codex.nav.translated_of": {
+  "text": "{done} of {total} translated",
+  "note": "After a chapter in the selector: '1 Kings 17 · 12 of 24 translated'; counts verses"
+ },
+ "codex.nav.search": {
+  "text": "Search the codex…",
+  "note": "Placeholder of the search box; 'the codex' is this illuminated reader"
+ },
+ "codex.nav.by_meaning": {
+  "text": "by meaning",
+  "note": "Beside a search result found by similarity of meaning rather than by matching words"
+ },
+ "codex.nav.war_room": {
+  "text": "War Room ↗",
+  "note": "Link to the review app, called the War Room; ↗ means it opens the other app"
+ },
+ "codex.nav.war_room_title": {
+  "text": "Review in the War Room",
+  "note": "Tooltip of the War Room link"
+ },
+ "codex.fallback.title": {
+  "text": "Not yet translated into this language: shown in English",
+  "note": "Tooltip of the small 'EN' marker beside a text that has no translation in the chosen language and falls back to English (the only fallback language)"
+ },
+ "codex.folio.empty": {
+  "text": "The codex is empty: nothing has been ingested yet.",
+  "note": "The reader has no chapters at all; 'ingested' means loaded from the sources"
+ },
+ "codex.folio.opening": {
+  "text": "Opening the folio…",
+  "note": "Loading a chapter; a folio is a manuscript page. Keep the manuscript image."
+ },
+ "codex.folio.chapter": {
+  "text": "Chapter {roman}",
+  "note": "Heading of the page; {roman} is a Roman numeral such as XVII"
+ },
+ "codex.folio.prev_chapter": {
+  "text": "← Chapter {roman}",
+  "note": "Link to the previous chapter at the foot of the page; {roman} is a Roman numeral. Flip the arrow for right-to-left languages."
+ },
+ "codex.folio.next_chapter": {
+  "text": "Chapter {roman} →",
+  "note": "Link to the next chapter at the foot of the page; {roman} is a Roman numeral. Flip the arrow for right-to-left languages."
+ },
+ "codex.folio.baseline.kjv": {
+  "text": "King James",
+  "note": "Button naming the traditional translation shown by default: the King James Version. Use the name readers of your language know it by."
+ },
+ "codex.folio.baseline.synodal": {
+  "text": "Synodal",
+  "note": "Button naming the traditional translation shown by default: the Russian Synodal Bible"
+ },
+ "codex.folio.baseline_mark.kjv": {
+  "text": "KJV",
+  "note": "Short name of the King James Version, shown in parentheses beside a verse that has no new translation yet"
+ },
+ "codex.folio.baseline_mark.synodal": {
+  "text": "Synodal",
+  "note": "Short name of the Russian Synodal Bible, shown in parentheses beside a verse that has no new translation yet"
+ },
+ "codex.folio.layer.literal": {
+  "text": "Word for word",
+  "note": "Button and label: the ultra-literal translation, which follows the Hebrew word order"
+ },
+ "codex.folio.layer.dramatic": {
+  "text": "As drama",
+  "note": "Button and label: the dramatic translation, written to be read aloud like a play"
+ },
+ "codex.folio.layer_none.literal": {
+  "text": "No word-for-word translation of this chapter yet: the {baseline} text is shown.",
+  "note": "{baseline} is the traditional translation's name, e.g. 'King James'"
+ },
+ "codex.folio.layer_none.dramatic": {
+  "text": "No dramatic translation of this chapter yet: the {baseline} text is shown.",
+  "note": "{baseline} is the traditional translation's name, e.g. 'King James'"
+ },
+ "codex.folio.layer_partial.literal": {
+  "one": "The word-for-word translation covers {covered} of {count} verse so far; the rest show the {baseline} text, marked ({mark}).",
+  "other": "The word-for-word translation covers {covered} of {count} verses so far; the rest show the {baseline} text, marked ({mark}).",
+  "note": "{count} is the chapter's verses, {covered} those translated; {baseline} names the traditional translation ('King James'), {mark} its short form shown beside each such verse ('KJV')"
+ },
+ "codex.folio.layer_partial.dramatic": {
+  "one": "The dramatic translation covers {covered} of {count} verse so far; the rest show the {baseline} text, marked ({mark}).",
+  "other": "The dramatic translation covers {covered} of {count} verses so far; the rest show the {baseline} text, marked ({mark}).",
+  "note": "{count} is the chapter's verses, {covered} those translated; {baseline} names the traditional translation ('King James'), {mark} its short form shown beside each such verse ('KJV')"
+ },
+ "codex.folio.marks_title": {
+  "text": "Commentary and notes",
+  "note": "Tooltip of the fleuron ❦ beside a verse that has commentary or notes on words"
+ },
+ "codex.folio.verse_count": {
+  "one": "{count} verse",
+  "other": "{count} verses",
+  "note": "At the foot of the page: '24 verses · 9 events · tap a verse to unfold it'"
+ },
+ "codex.folio.event_count": {
+  "one": "{count} event",
+  "other": "{count} events",
+  "note": "At the foot of the page: '24 verses · 9 events · tap a verse to unfold it'"
+ },
+ "codex.folio.tap_to_unfold": {
+  "text": "tap a verse to unfold it",
+  "note": "At the foot of the page; a verse opens to show its words, translations and notes"
+ },
+ "codex.folio.showing": {
+  "text": "Showing {ref}",
+  "note": "Under the page when one verse is open; {ref} is a chapter:verse reference like 17:4"
+ },
+ "codex.folio.test_yourself": {
+  "text": "Test yourself on this chapter →",
+  "note": "Link to the quizzes on this chapter in the War Room"
+ },
+ "codex.folio.unfolding": {
+  "text": "Unfolding…",
+  "note": "Loading an opened verse"
+ },
+ "codex.folio.hebrew_words": {
+  "text": "The Hebrew, word by word",
+  "note": "Small-caps heading inside an opened verse: each Hebrew word with its transliteration and gloss"
+ },
+ "codex.folio.aliases": {
+  "text": "Numbered differently in English Bibles: {refs}",
+  "note": "Where the Hebrew verse numbering differs from the King James one; {refs} like 'KJV 18:34'. Name the Bibles of your language's tradition if the numbering there follows the KJV."
+ },
+ "codex.folio.translations": {
+  "text": "Translations",
+  "note": "Small-caps heading inside an opened verse"
+ },
+ "codex.folio.no_translations": {
+  "text": "No new translations for this verse yet; the word glosses come from STEPBible.",
+  "note": "STEPBible is the name of the source of the word glosses; keep it"
+ },
+ "codex.folio.commentary": {
+  "text": "Commentary",
+  "note": "Small-caps heading inside an opened verse: historical and linguistic commentary"
+ },
+ "codex.folio.notes": {
+  "text": "Notes on words",
+  "note": "Small-caps heading inside an opened verse: notes on key Hebrew words"
+ },
+ "codex.folio.root": {
+  "text": "root {root}",
+  "note": "In a note on a word: its Hebrew root, e.g. 'root שׁוב'"
+ },
+ "codex.folio.in_this_verse": {
+  "text": "In this verse",
+  "note": "Small-caps heading inside an opened verse, above the people, places and events it names"
+ },
+ "codex.folio.word.gloss": {
+  "text": "“{gloss}”",
+  "note": "The English meaning of a Hebrew word in quotation marks; use your language's quotation marks"
+ },
+ "codex.folio.word.from": {
+  "text": "From",
+  "note": "Label on a Hebrew word's card: the dictionary form it comes from"
+ },
+ "codex.folio.word.form": {
+  "text": "Form",
+  "note": "Label on a Hebrew word's card: its grammar (verb qal perfect…)"
+ },
+ "codex.folio.word.strongs": {
+  "text": "Strong’s",
+  "note": "Label on a Hebrew word's card: its Strong's concordance number"
+ },
+ "codex.folio.word.reading": {
+  "text": "Reading",
+  "note": "Label on a Hebrew word's card: a note on how the word is read aloud"
+ },
+ "codex.folio.word.qere": {
+  "text": "Qere (read aloud), Ketiv written differently",
+  "note": "Qere and Ketiv are the Masoretic terms for what is read and what is written; keep the two terms"
+ },
+ "codex.folio.word.names": {
+  "text": "Names",
+  "note": "Label on a Hebrew word's card: the person or place the word names"
+ },
+ "codex.hours.loading": {
+  "text": "Turning to the hours…",
+  "note": "Loading the Book of Hours; keep the image of turning a manuscript's pages"
+ },
+ "codex.hours.latin": {
+  "text": "Liber horarum",
+  "note": "Latin running title above 'The Book of Hours', in the manuscript voice. Keep it in Latin unless your readers' tradition has its own liturgical term (e.g. Church Slavonic)."
+ },
+ "codex.hours.title": {
+  "text": "The Book of Hours",
+  "note": "Page heading: the story day by day with the ancient hours. Use your language's name for the medieval prayer book (Russian: Часослов)."
+ },
+ "codex.hours.subtitle": "The story day by day, as the clock of the ancient hours tells it",
+ "codex.hours.day_month": {
+  "text": "{day} {month}",
+  "note": "A day of the month and the month's name, '14 September'; reorder for your language. {month} comes from the browser in your language."
+ },
+ "codex.hours.same_day": {
+  "text": "the same day",
+  "note": "Between two days of the story: no time passes between them"
+ },
+ "codex.hours.next_day": {
+  "text": "the next day",
+  "note": "Between two days of the story"
+ },
+ "codex.hours.days_pass": {
+  "one": "{count} day passes",
+  "other": "{count} days pass",
+  "note": "Between two days of the story: the time that passes"
+ },
+ "codex.hours.months_pass": {
+  "one": "{count} month passes",
+  "other": "{count} months pass",
+  "note": "Between two days of the story: the time that passes"
+ },
+ "codex.hours.years_pass": {
+  "one": "about {count} year passes",
+  "other": "about {count} years pass",
+  "note": "Between two days of the story; {count} may be a decimal such as 2.5"
+ },
+ "codex.hours.because.fulfills": {
+  "text": "fulfilled in {event}",
+  "note": "Under an event, linking to a later event: a prophecy here is fulfilled there. {event} is that event's title."
+ },
+ "codex.hours.because.avenges": {
+  "text": "avenged in {event}",
+  "note": "Under an event, linking to a later event that avenges it. {event} is that event's title."
+ },
+ "codex.hours.because.enables": {
+  "text": "makes possible {event}",
+  "note": "Under an event, linking to a later event it makes possible. {event} is that event's title."
+ },
+ "codex.hours.because.other": {
+  "text": "and so {event}",
+  "note": "Under an event, linking to a later event it causes. {event} is that event's title."
+ },
+ "codex.hours.at_once": {
+  "text": "at once",
+  "note": "In parentheses after a consequence: it follows immediately"
+ },
+ "codex.hours.later": {
+  "text": "{duration} later",
+  "note": "In parentheses after a consequence; {duration} like '3 d'"
+ },
+ "codex.hours.horologium": {
+  "text": "Horologium",
+  "note": "Latin heading of the clock dial of the ancient hours, in the manuscript voice; keep it Latin unless your tradition has its own word"
+ },
+ "codex.hours.chosen_hour": {
+  "text": "Chosen hour",
+  "note": "Small-caps heading over the event picked on the dial"
+ },
+ "codex.hours.how_we_know": {
+  "text": "How we know:",
+  "note": "Before the reasoning that dates the chosen event"
+ },
+ "codex.hours.the_hours": {
+  "text": "The hours",
+  "note": "Heading of the list of the ancient hours of the day"
+ },
+ "codex.hours.hour.morning_watch": {
+  "text": "Morning watch",
+  "note": "The last night watch before dawn (Hebrew ashmoret ha-boqer)"
+ },
+ "codex.hours.hour.dawn": "Dawn",
+ "codex.hours.hour.morning": "Morning",
+ "codex.hours.hour.third": {
+  "text": "Third hour",
+  "note": "The third hour after sunrise, about 9 o'clock (Latin hora tertia)"
+ },
+ "codex.hours.hour.noon": "Noon",
+ "codex.hours.hour.minchah": {
+  "text": "Minchah",
+  "note": "Transliterated Hebrew: the afternoon offering and its hour; transliterate it for your script"
+ },
+ "codex.hours.hour.between_evenings": {
+  "text": "Between the evenings",
+  "note": "Literal rendering of the Hebrew bein ha-arbayim, the dusk; keep it literal"
+ },
+ "codex.hours.hour.evening": "Evening",
+ "codex.hours.hour.middle_watch": {
+  "text": "Middle watch",
+  "note": "The middle of the three night watches (Hebrew ashmoret ha-tikhonah)"
+ },
+ "codex.mappa.loading": {
+  "text": "Unrolling the chart…",
+  "note": "Loading the map; 'chart' as an old sea or land map, unrolled like a scroll"
+ },
+ "codex.mappa.north": {
+  "text": "N",
+  "note": "Compass rose letter for north"
+ },
+ "codex.mappa.cartouche": {
+  "text": "TABVLA TERRAE",
+  "note": "Latin title in the map's cartouche ('map of the land'), with V for U as old maps write it; keep it Latin unless your tradition has its own"
+ },
+ "codex.mappa.cartouche_sub": {
+  "text": "the lands of the story",
+  "note": "Italic line under the map's Latin title"
+ },
+ "codex.mappa.credits": {
+  "text": "Natural Earth (public domain) · places after OpenBible.info · “?” marks an uncertain site",
+  "note": "Credits under the map; Natural Earth and OpenBible.info are names. A '?' after a place name marks an uncertain identification."
+ },
+ "codex.mappa.journeys": {
+  "text": "Journeys",
+  "note": "Heading of the list of people whose travels the map can draw"
+ },
+ "codex.mappa.stage_count": {
+  "one": "{count} stage",
+  "other": "{count} stages",
+  "note": "After a person's name in the list of journeys: the stops on their road"
+ },
+ "codex.mappa.prev_stage": {
+  "text": "← stage",
+  "note": "Button: show the journey up to the previous stage"
+ },
+ "codex.mappa.next_stage": {
+  "text": "stage →",
+  "note": "Button: show the journey up to the next stage"
+ },
+ "codex.mappa.whole_road": {
+  "text": "whole road",
+  "note": "Button: show the whole journey at once"
+ },
+ "codex.mappa.nothing_here": "Named, but nothing happens here in these chapters.",
+ "codex.mappa.read_about": {
+  "text": "Read about {name} →",
+  "note": "Link from a place on the map to its page; {name} is the place's name"
+ },
+ "codex.people.loading": {
+  "text": "Gathering the company…",
+  "note": "Loading the index of persons; 'the company' as a cast of characters"
+ },
+ "codex.people.latin": {
+  "text": "Dramatis personae",
+  "note": "Latin running title of the index of persons, in the manuscript voice; keep it Latin unless your tradition has its own"
+ },
+ "codex.people.title": {
+  "text": "Persons & Places",
+  "note": "Page heading of the index of everyone and everything the story names"
+ },
+ "codex.people.subtitle": "Everyone and everything the story names, in order of importance",
+ "codex.people.group.persons": {
+  "text": "Persons",
+  "note": "Section heading in the index of persons"
+ },
+ "codex.people.group.divine": {
+  "text": "The Divine and the Heavenly",
+  "note": "Section heading: God and heavenly beings (angels, spirits)"
+ },
+ "codex.people.group.places": {
+  "text": "Places",
+  "note": "Section heading in the index of persons"
+ },
+ "codex.people.group.peoples": {
+  "text": "Peoples and Companies",
+  "note": "Section heading: nations, tribes and groups of people (prophets of Baal, the army)"
+ },
+ "codex.people.group.things": {
+  "text": "Things",
+  "note": "Section heading: objects and substances (the altar, the flour)"
+ },
+ "codex.people.type.PERSON": {
+  "text": "Person",
+  "note": "Small-caps kind above a name on its page"
+ },
+ "codex.people.type.DEITY": {
+  "text": "The Divine",
+  "note": "Small-caps kind above God's name, or a god's, on its page"
+ },
+ "codex.people.type.SPIRIT_BEING": {
+  "text": "Heavenly being",
+  "note": "Small-caps kind above an angel's or spirit's name on its page"
+ },
+ "codex.people.type.LOCATION": {
+  "text": "Place",
+  "note": "Small-caps kind above a place's name on its page"
+ },
+ "codex.people.type.GROUP": {
+  "text": "People",
+  "note": "Small-caps kind above a group's name on its page: a people or nation, not 'persons'"
+ },
+ "codex.people.type.ARTIFACT": {
+  "text": "Object",
+  "note": "Small-caps kind above a made thing's name on its page"
+ },
+ "codex.people.type.SUBSTANCE": {
+  "text": "Substance",
+  "note": "Small-caps kind above a substance's name on its page (oil, flour, water)"
+ },
+ "codex.people.like": {
+  "text": "Like {name}",
+  "note": "Section heading over others of the same kind whose description is nearest in meaning; {name} is the person or place on the page"
+ },
+ "codex.people.opening": {
+  "text": "Opening the page…",
+  "note": "Loading a person's or place's page"
+ },
+ "codex.people.also_called": {
+  "text": "Also called {names}",
+  "note": "Other names of the person or place, separated by commas"
+ },
+ "codex.people.name_means": {
+  "text": "The name means",
+  "note": "Small-caps lead-in before the meaning of the Hebrew name"
+ },
+ "codex.people.located": {
+  "text": "Located at {lat}° N, {lon}° E",
+  "note": "Coordinates of a place; N and E are north latitude and east longitude"
+ },
+ "codex.people.approximate": {
+  "text": "(an approximate identification)",
+  "note": "After the coordinates when the site's identification is uncertain"
+ },
+ "codex.people.see_on_map": "see on the map",
+ "codex.people.in_story": {
+  "text": "In the story",
+  "note": "Section heading over the events a person or place takes part in"
+ },
+ "codex.people.at_place": {
+  "text": "at {place}",
+  "note": "Where an event happens; {place} is a place's name"
+ },
+ "codex.people.through_narrative": {
+  "text": "Through the narrative",
+  "note": "Section heading over the states a person holds over the story (widowed, hiding, fed by ravens)"
+ },
+ "codex.people.state_until": {
+  "text": "{state}, from {from} until {until}",
+  "note": "How long a state lasts; {state} is the kind of state in lowercase (may be empty), {from} and {until} are chapter:verse references like 17:4"
+ },
+ "codex.people.state_onward": {
+  "text": "{state}, from {from} onward",
+  "note": "A state that lasts to the end of the story; {state} is the kind of state in lowercase (may be empty), {from} a chapter:verse reference"
+ },
+ "codex.people.deeds": {
+  "text": "Deeds and encounters",
+  "note": "Section heading over what a person does to or with others"
+ },
+ "codex.people.named_in": {
+  "text": "Where the text names them",
+  "note": "Section heading over the verses that mention the person or place"
+ },
+ "codex.people.all": {
+  "text": "← All persons & places",
+  "note": "Link back to the index of persons and places"
+ }
+}

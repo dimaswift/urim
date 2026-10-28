@@ -1,0 +1,258 @@
+{
+ "shell.war_room": {
+  "text": "WAR ROOM",
+  "note": "Subtitle beside the brand URIM in the top bar: the name of this review app. Written in capitals."
+ },
+ "shell.demo_corpus": {
+  "text": "Demo corpus",
+  "note": "Badge in the top bar when the app shows the demo corpus instead of the working one"
+ },
+ "shell.totals.drafts": {
+  "text": "Drafts",
+  "note": "Top-bar counter label: how many items are drafts awaiting review"
+ },
+ "shell.totals.sent_back": {
+  "text": "Sent back",
+  "note": "Top-bar counter label: how many items were sent back with a change request"
+ },
+ "shell.totals.approved": {
+  "text": "Approved",
+  "note": "Top-bar counter label: how many items are approved"
+ },
+ "shell.streak": {
+  "text": "Streak",
+  "note": "Top-bar counter label: consecutive days with at least one review (game term)"
+ },
+ "shell.streak_title": "Days in a row with at least one review",
+ "shell.xp": {
+  "text": "{xp} XP",
+  "note": "Experience points (game term), abbreviated: '120 XP'"
+ },
+ "shell.level": {
+  "text": "Lv {level}",
+  "note": "Player level, abbreviated: 'Lv 3'"
+ },
+ "shell.next_level": {
+  "text": "next {xp}",
+  "note": "Under the experience bar: the XP total at which the next level starts"
+ },
+ "shell.codex_link": {
+  "text": "Codex",
+  "note": "Top-bar link to the Illuminated Codex, the reading app"
+ },
+ "shell.codex_title": "Read without review: the Illuminated Codex",
+ "shell.language_title": {
+  "text": "Language bundle",
+  "note": "Tooltip of the language picker: which language bundle the corpus is shown in"
+ },
+ "shell.nav.command": {
+  "text": "Command",
+  "note": "Navigation: the overview screen (a war-room command post)"
+ },
+ "shell.nav.learn": {
+  "text": "Learn",
+  "note": "Navigation: quizzes and exams"
+ },
+ "shell.nav.campaign": {
+  "text": "Campaign",
+  "note": "Navigation: the autonomous run that writes a book unattended"
+ },
+ "shell.nav.languages": {
+  "text": "Languages",
+  "note": "Navigation: translation progress per language"
+ },
+ "shell.nav.review": {
+  "text": "Review",
+  "note": "Navigation: the review deck where items are approved or sent back"
+ },
+ "shell.nav.xray": {
+  "text": "X-Ray",
+  "note": "Navigation: the verse-by-verse view of every layer"
+ },
+ "shell.nav.chronicle": {
+  "text": "Chronicle",
+  "note": "Navigation: the timeline of events"
+ },
+ "shell.nav.causal": {
+  "text": "Causal",
+  "note": "Navigation: the graph of causes and effects between events"
+ },
+ "shell.nav.atlas": {
+  "text": "Atlas",
+  "note": "Navigation: the map"
+ },
+ "shell.nav.dossiers": {
+  "text": "Dossiers",
+  "note": "Navigation: files on people, places and things"
+ },
+ "shell.nav.codex": {
+  "text": "Codex",
+  "note": "Navigation: rituals and institutions (systems)"
+ },
+ "shell.nav.query": {
+  "text": "Query",
+  "note": "Navigation: search and SQL console"
+ },
+ "shell.loading": {
+  "text": "Loading",
+  "note": "Shown while data loads; an ellipsis follows"
+ },
+ "shell.unreviewed": {
+  "text": "Unreviewed",
+  "note": "Status pill of an item that has no review status yet"
+ },
+ "shell.not_in_ledger": {
+  "text": "Not in ledger",
+  "note": "Pill shown when an item has no entry in the review ledger"
+ },
+ "shell.review.approve": {
+  "text": "Approve",
+  "note": "Button: approve this item"
+ },
+ "shell.review.reopen": {
+  "text": "Reopen",
+  "note": "Button: turn an approved item back into a draft"
+ },
+ "shell.review.send_back": {
+  "text": "Send back",
+  "note": "Button: request changes to this item"
+ },
+ "shell.review.note_placeholder": "What should change?",
+ "shell.review.send": {
+  "text": "Send",
+  "note": "Button: send the change request written in the field"
+ },
+ "shell.margin_relative": {
+  "text": "± {margin} rel.",
+  "note": "An event's timing margin relative to its anchor; 'rel.' abbreviates 'relative'. {margin} is a duration like '2 d'"
+ },
+ "shell.timing": {
+  "text": "Timing",
+  "note": "Label before the note that explains how an event was dated"
+ },
+ "shell.causal.overlaps": {
+  "text": "overlaps",
+  "note": "Between a cause and its effect: the two events overlap in time"
+ },
+ "shell.causal.immediately": {
+  "text": "immediately",
+  "note": "Between a cause and its effect: no time passes"
+ },
+ "shell.causal.after": {
+  "text": "after {duration}",
+  "note": "Between a cause and its effect: the time that passes, e.g. 'after 3 d'"
+ },
+ "shell.similarity": {
+  "text": "cosine similarity {value}",
+  "note": "Tooltip on a search hit found by meaning; {value} is a number between 0 and 1"
+ },
+ "shell.toast.xp": {
+  "text": "+{xp} XP",
+  "note": "Notification after a review decision: experience points gained"
+ },
+ "shell.toast.sent_back": "Sent back for revision",
+ "shell.toast.badge": {
+  "text": "Badge unlocked: {name}",
+  "note": "Notification when a badge is earned; {name} is the badge's name"
+ },
+ "shell.rank_up": {
+  "text": "RANK UP",
+  "note": "Full-screen announcement when the player reaches a new rank; written in capitals"
+ },
+ "shell.rank.scout": {
+  "text": "Scout",
+  "note": "Player rank 1 of 10, from lowest to highest"
+ },
+ "shell.rank.runner": {
+  "text": "Runner",
+  "note": "Player rank 2 of 10, from lowest to highest"
+ },
+ "shell.rank.scribe": {
+  "text": "Scribe",
+  "note": "Player rank 3 of 10, from lowest to highest"
+ },
+ "shell.rank.watchman": {
+  "text": "Watchman",
+  "note": "Player rank 4 of 10, from lowest to highest"
+ },
+ "shell.rank.herald": {
+  "text": "Herald",
+  "note": "Player rank 5 of 10, from lowest to highest"
+ },
+ "shell.rank.captain": {
+  "text": "Captain",
+  "note": "Player rank 6 of 10, from lowest to highest"
+ },
+ "shell.rank.seer": {
+  "text": "Seer",
+  "note": "Player rank 7 of 10, from lowest to highest"
+ },
+ "shell.rank.prophet": {
+  "text": "Prophet",
+  "note": "Player rank 8 of 10, from lowest to highest"
+ },
+ "shell.rank.judge": {
+  "text": "Judge",
+  "note": "Player rank 9 of 10, from lowest to highest"
+ },
+ "shell.rank.sanhedrin": {
+  "text": "Sanhedrin",
+  "note": "Player rank 10 of 10, from lowest to highest"
+ },
+ "shell.badge.first_seal.name": {
+  "text": "First Seal",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.first_seal.description": {
+  "text": "Approve your first item",
+  "note": "How to earn the badge 'First Seal'"
+ },
+ "shell.badge.sharp_eye.name": {
+  "text": "Sharp Eye",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.sharp_eye.description": {
+  "text": "Send 5 items back with a note",
+  "note": "How to earn the badge 'Sharp Eye'"
+ },
+ "shell.badge.chronicler.name": {
+  "text": "Chronicler",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.chronicler.description": {
+  "text": "Approve 25 events",
+  "note": "How to earn the badge 'Chronicler'"
+ },
+ "shell.badge.lexicographer.name": {
+  "text": "Lexicographer",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.lexicographer.description": {
+  "text": "Approve 25 verses",
+  "note": "How to earn the badge 'Lexicographer'"
+ },
+ "shell.badge.cartographer.name": {
+  "text": "Cartographer",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.cartographer.description": {
+  "text": "Approve 10 entities",
+  "note": "How to earn the badge 'Cartographer'"
+ },
+ "shell.badge.conqueror.name": {
+  "text": "Territory Held",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.conqueror.description": {
+  "text": "Clear a chapter: 10+ items, all approved",
+  "note": "How to earn the badge 'Territory Held'"
+ },
+ "shell.badge.vigil.name": {
+  "text": "Seven Watches",
+  "note": "Name of a badge (game achievement)"
+ },
+ "shell.badge.vigil.description": {
+  "text": "Review on 7 days in a row",
+  "note": "How to earn the badge 'Seven Watches'"
+ }
+}

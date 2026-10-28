@@ -1,0 +1,135 @@
+{
+ "dossiers.loading": {
+  "text": "Mustering",
+  "note": "Loading message while the list of people and places loads (as in mustering troops); the interface adds an ellipsis"
+ },
+ "dossiers.loading_sheet": {
+  "text": "Opening dossier",
+  "note": "Loading message while one person's or place's profile loads; the interface adds an ellipsis"
+ },
+ "dossiers.kicker": {
+  "text": "Personnel & places",
+  "note": "Small heading above the page title: the people and places of the story"
+ },
+ "dossiers.title": {
+  "text": "Dossiers",
+  "note": "Page title: profiles of the people, places and other entities in the text"
+ },
+ "dossiers.all": {
+  "text": "All",
+  "note": "Filter chip that shows entities of every type; a count follows it"
+ },
+ "dossiers.type.person": {
+  "text": "person",
+  "note": "Entity type, as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.deity": {
+  "text": "deity",
+  "note": "Entity type, as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.spirit_being": {
+  "text": "spirit being",
+  "note": "Entity type (angels and other spirits), as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.location": {
+  "text": "location",
+  "note": "Entity type (a place), as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.group": {
+  "text": "group",
+  "note": "Entity type (a people, a band, a household), as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.artifact": {
+  "text": "artifact",
+  "note": "Entity type (a made object), as a filter chip in lower case; also the profile's type line, shown in capitals"
+ },
+ "dossiers.type.substance": {
+  "text": "substance",
+  "note": "Entity type (flour, oil, water…), shown in capitals as the profile's type line"
+ },
+ "dossiers.count.events": {
+  "one": "{count} ev",
+  "other": "{count} ev",
+  "note": "Number of events an entity takes part in, abbreviated to fit a list row ('ev' = events)"
+ },
+ "dossiers.count.interactions": {
+  "one": "{count} int",
+  "other": "{count} int",
+  "note": "Number of interactions between this entity and others, abbreviated to fit a list row ('int' = interactions)"
+ },
+ "dossiers.count.states": {
+  "one": "{count} st",
+  "other": "{count} st",
+  "note": "Number of states an entity goes through (alive, widowed, king…), abbreviated to fit a list row ('st' = states)"
+ },
+ "dossiers.empty": "No entities yet",
+ "dossiers.no_tipnr": {
+  "text": "no TIPNR id",
+  "note": "Shown when the entity has no identifier in TIPNR (Translators Individualised Proper Names, a reference dataset); keep the name TIPNR"
+ },
+ "dossiers.first_at": {
+  "text": "first at {verse}",
+  "note": "Where the entity is first mentioned; {verse} is a verse reference link such as 1KGS.17.1"
+ },
+ "dossiers.name_means": {
+  "text": "Name means",
+  "note": "Label before the meaning of the person's or place's name, e.g. 'Name means: my God is the LORD'"
+ },
+ "dossiers.stats": {
+  "text": "Stats",
+  "note": "Panel title: counts about the entity, shown as bars"
+ },
+ "dossiers.stat.events": {
+  "text": "Events",
+  "note": "Bar label in the Stats panel; the column is narrow"
+ },
+ "dossiers.stat.interactions": {
+  "text": "Interactions",
+  "note": "Bar label in the Stats panel; the column is narrow"
+ },
+ "dossiers.stat.states": {
+  "text": "States",
+  "note": "Bar label in the Stats panel (conditions such as alive, widowed, king); the column is narrow"
+ },
+ "dossiers.stat.mentions": {
+  "text": "Mentions",
+  "note": "Bar label in the Stats panel: how many words in the text name the entity; the column is narrow"
+ },
+ "dossiers.on_the_map": {
+  "text": "On the map",
+  "note": "Button that opens the place on the Atlas map"
+ },
+ "dossiers.appearances": {
+  "text": "Appearances",
+  "note": "Panel title: a chart of where in the text the entity is mentioned, verse by verse"
+ },
+ "dossiers.no_mentions": {
+  "text": "No word-level mentions (not a TIPNR individual).",
+  "note": "TIPNR is a reference dataset of proper names; keep the name"
+ },
+ "dossiers.state_timeline": {
+  "text": "State timeline",
+  "note": "Panel title: when the entity's states (alive, widowed, king…) begin and end, along the verses"
+ },
+ "dossiers.events": {
+  "text": "Events",
+  "note": "Panel title: the events this entity takes part in"
+ },
+ "dossiers.interactions": {
+  "text": "Interactions",
+  "note": "Panel title: what this entity does to or with others"
+ },
+ "dossiers.like": {
+  "text": "Like {name}",
+  "note": "Panel title: entities most similar in meaning to {name}"
+ },
+ "dossiers.same_type": {
+  "text": "same type",
+  "note": "Toggle chip: compare only with entities of the same type"
+ },
+ "dossiers.any_entity": {
+  "text": "any entity",
+  "note": "Toggle chip: compare with entities of every type"
+ },
+ "dossiers.kindred_empty": "Nothing else of this type yet."
+}

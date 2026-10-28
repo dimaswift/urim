@@ -1,0 +1,130 @@
+{
+ "xray.kicker": {
+  "text": "Verse X-ray",
+  "note": "Small heading above the page title; the view shows one verse word by word, the title is the verse reference"
+ },
+ "xray.prev": {
+  "text": "← Prev",
+  "note": "Button: go to the previous verse"
+ },
+ "xray.next": {
+  "text": "Next →",
+  "note": "Button: go to the next verse"
+ },
+ "xray.error": {
+  "text": "ERROR",
+  "note": "Label of an error box, shown in capitals; the error message follows it"
+ },
+ "xray.loading": {
+  "text": "Scanning",
+  "note": "Loading message while a verse loads; the interface adds an ellipsis"
+ },
+ "xray.source": {
+  "text": "Source",
+  "note": "Panel title: the verse in its original language (Hebrew), word by word"
+ },
+ "xray.layers": {
+  "text": "Layers",
+  "note": "Panel title: the translations and commentary of the verse, one tab each"
+ },
+ "xray.layers_from": {
+  "text": "layers from {lang}",
+  "note": "Shown when the translations come from another language; {lang} is a language code like 'en'"
+ },
+ "xray.layer.literal": {
+  "text": "Literal",
+  "note": "Tab: the word-for-word translation"
+ },
+ "xray.layer.dramatic": {
+  "text": "Dramatic",
+  "note": "Tab: the free, dramatic translation"
+ },
+ "xray.layer.commentary": {
+  "text": "Commentary",
+  "note": "Tab: the historical and linguistic commentary"
+ },
+ "xray.layer.baseline": {
+  "text": "Baseline",
+  "note": "Tab: the traditional translation (such as the KJV) when its name is unknown"
+ },
+ "xray.layer.audit": {
+  "text": "Audit",
+  "note": "Tab: the traditional translation and the literal one side by side, to compare them"
+ },
+ "xray.no_layers": {
+  "text": "NO LAYERS YET",
+  "note": "Label, in capitals, of a box saying the verse has no translations yet"
+ },
+ "xray.no_layers_hint": {
+  "text": "Send a Philologist on this verse: {command}",
+  "note": "{command} is a command line to type; the Philologist is the agent that translates verses"
+ },
+ "xray.audit.tradition": {
+  "text": "{translation} (tradition)",
+  "note": "Heading of the traditional translation in the side-by-side view; {translation} is its name, such as KJV"
+ },
+ "xray.audit.literal": {
+  "text": "Literal (source)",
+  "note": "Heading of the word-for-word translation in the side-by-side view"
+ },
+ "xray.philology": {
+  "text": "Philology",
+  "note": "Panel title: notes on key words of the verse"
+ },
+ "xray.word": {
+  "text": "Word",
+  "note": "Panel title: details of the word the user clicked"
+ },
+ "xray.events": {
+  "text": "Events",
+  "note": "Panel title: the events this verse narrates"
+ },
+ "xray.no_events": {
+  "text": "No events cover this verse yet.",
+  "note": "Shown when no event spans this verse"
+ },
+ "xray.present": {
+  "text": "Present",
+  "note": "Panel title: the people, places and things present in this verse"
+ },
+ "xray.active_states": {
+  "text": "Active states",
+  "note": "Panel title: the states (conditions, roles, possessions) in force at this verse"
+ },
+ "xray.interactions": {
+  "text": "Interactions",
+  "note": "Panel title: who does what to whom in this verse"
+ },
+ "xray.rituals": {
+  "text": "Rituals & mechanics",
+  "note": "Panel title: rituals and recurring mechanics (sacrifice, oath, famine) that occur in this verse"
+ },
+ "xray.token.sound": {
+  "text": "Sound",
+  "note": "Field label: the transliteration of a Hebrew word, how it sounds"
+ },
+ "xray.token.gloss": {
+  "text": "Gloss",
+  "note": "Field label: the short meaning of the word in context"
+ },
+ "xray.token.lemma": {
+  "text": "Lemma",
+  "note": "Field label: the dictionary form of the word"
+ },
+ "xray.token.strongs": {
+  "text": "Strong's",
+  "note": "Field label: the word's number in Strong's concordance"
+ },
+ "xray.token.grammar": {
+  "text": "Grammar",
+  "note": "Field label: the grammatical analysis of the word"
+ },
+ "xray.token.reading": {
+  "text": "Reading",
+  "note": "Field label: a variant reading of the word (written vs read form)"
+ },
+ "xray.token.names": {
+  "text": "Names",
+  "note": "Field label: the person or place this word names"
+ }
+}

@@ -1,29 +1,46 @@
 import * as d3 from "d3";
 import { useMemo } from "react";
+import type { ReactNode } from "react";
 import type { CausalLink, EventView } from "../api";
 import { useApi } from "../hooks";
+import { Msg, useI18n } from "../i18n";
+import type { TFunc } from "../i18n";
 import { duration, go, href, range, toDate, yearLabel, type Route } from "../util";
-import { Corners, Ornament, useLang } from "./parts";
+import { Corners, LangMark, Ornament, dayMonth, useLang } from "./parts";
 
 interface Data { events: EventView[]; links: CausalLink[] }
 interface Group { key: string; daily: boolean; start: number; end: number; events: EventView[] }
 
-const HOURS: [number, string, string][] = [
-  [2, "Morning watch", "אַשְׁמֹרֶת הַבֹּקֶר"], [5.5, "Dawn", "שַׁחַר"], [6, "Morning", "בֹּקֶר"],
-  [9, "Third hour", "hora tertia"], [12, "Noon", "צָהֳרַיִם"], [15, "Minchah", "מִנְחָה"],
-  [17.5, "Between the evenings", "בֵּין הָעַרְבַּיִם"], [18, "Evening", "עֶרֶב"], [22, "Middle watch", "אַשְׁמֹרֶת הַתִּיכוֹנָה"],
+/** The ancient hours: when, the name in the interface language, the name in its own tongue. */
+const hoursOf = (t: TFunc): [number, string, string][] => [
+  [2, t("codex.hours.hour.morning_watch"), "אַשְׁמֹרֶת הַבֹּקֶר"], [5.5, t("codex.hours.hour.dawn"), "שַׁחַר"],
+  [6, t("codex.hours.hour.morning"), "בֹּקֶר"], [9, t("codex.hours.hour.third"), "hora tertia"],
+  [12, t("codex.hours.hour.noon"), "צָהֳרַיִם"], [15, t("codex.hours.hour.minchah"), "מִנְחָה"],
+  [17.5, t("codex.hours.hour.between_evenings"), "בֵּין הָעַרְבַּיִם"], [18, t("codex.hours.hour.evening"), "עֶרֶב"],
+  [22, t("codex.hours.hour.middle_watch"), "אַשְׁמֹרֶת הַתִּיכוֹנָה"],
 ];
 
-function passage(seconds: number): string {
+function passage(t: TFunc, seconds: number): string {
   const days = seconds / 86400;
-  if (days < 0.5) return "the same day";
-  if (days < 1.5) return "the next day";
-  if (days < 45) return `${Math.round(days)} days pass`;
-  if (days < 700) return `${Math.round(days / 30.4)} months pass`;
-  return `about ${(days / 365.2425).toFixed(1).replace(".0", "")} years pass`;
+  if (days < 0.5) return t("codex.hours.same_day");
+  if (days < 1.5) return t("codex.hours.next_day");
+  if (days < 45) return t("codex.hours.days_pass", { count: Math.round(days) });
+  if (days < 700) return t("codex.hours.months_pass", { count: Math.round(days / 30.4) });
+  return t("codex.hours.years_pass", { count: Math.round((days / 365.2425) * 10) / 10 });
+}
+
+/** What a cause leads to, in words, before the effect's title. */
+function Because({ code, event }: { code: string; event: ReactNode }) {
+  switch (code) {
+    case "FULFILLS_PROPHECY": return <Msg k="codex.hours.because.fulfills" vars={{ event }} />;
+    case "RETALIATES_FOR": return <Msg k="codex.hours.because.avenges" vars={{ event }} />;
+    case "ENABLES": return <Msg k="codex.hours.because.enables" vars={{ event }} />;
+    default: return <Msg k="codex.hours.because.other" vars={{ event }} />;
+  }
 }
 
 function Horologium({ day, events, selected }: { day: number; events: EventView[]; selected?: string }) {
+  const { t, lang } = useI18n();
   const S = 300, c = S / 2, R = 116;
   const arc = (h0: number, h1: number, r0: number, r1: number) =>
     d3.arc()({ innerRadius: r0, outerRadius: r1, startAngle: (h0 / 24) * 2 * Math.PI, endAngle: (h1 / 24) * 2 * Math.PI }) ?? "";
@@ -45,14 +62,14 @@ function Horologium({ day, events, selected }: { day: number; events: EventView[
           );
         })}
         <circle r={30} fill="var(--page)" stroke="var(--gold)" />
-        <text y={-2} textAnchor="middle" fontFamily="var(--caps)" fontWeight={700} fontSize={12} fill="var(--rubric)">{d3.utcFormat("%d %b")(toDate(day))}</text>
+        <text y={-2} textAnchor="middle" fontFamily="var(--caps)" fontWeight={700} fontSize={12} fill="var(--rubric)">{dayMonth(t, lang, toDate(day))}</text>
         <text y={12} textAnchor="middle" fontFamily="var(--serif)" fontStyle="italic" fontSize={11} fill="var(--faded)">{yearLabel(toDate(day))}</text>
       </g>
       {d3.range(24).map((h) => {
         const [x0, y0] = pt(h, R), [x1, y1] = pt(h, R + (h % 3 === 0 ? 9 : 5));
         return <line key={h} x1={x0} y1={y0} x2={x1} y2={y1} stroke="var(--ink-2)" strokeOpacity="0.6" />;
       })}
-      {HOURS.map(([h, name]) => {
+      {hoursOf(t).map(([h, name]) => {
         const [x, y] = pt(h, R - 6);
         return <circle key={name} cx={x} cy={y} r={3} fill="var(--gold)" stroke="var(--ink-2)" strokeWidth="0.6"><title>{name}</title></circle>;
       })}
@@ -65,6 +82,7 @@ function Horologium({ day, events, selected }: { day: number; events: EventView[
 }
 
 export default function Hours({ route }: { route: Route }) {
+  const { t, lang: uiLang } = useI18n();
   const { lang } = useLang();
   const { data } = useApi<Data>(`/api/events?lang=${lang}`);
   const groups = useMemo(() => {
@@ -84,7 +102,7 @@ export default function Hours({ route }: { route: Route }) {
     }
     return out;
   }, [data]);
-  if (!data) return <div className="loading">Turning to the hours…</div>;
+  if (!data) return <div className="loading">{t("codex.hours.loading")}</div>;
   const selected = route.arg || data.events.find((e) => e.time_of_day?.code === "MINCHAH")?.event_id;
   const sel = data.events.find((e) => e.event_id === selected);
   const firstDaily = groups.find((g) => g.daily);
@@ -95,9 +113,9 @@ export default function Hours({ route }: { route: Route }) {
     <article className="folio">
       <Corners />
       <div className="heading">
-        <div className="book">Liber horarum</div>
-        <h1>The Book of Hours</h1>
-        <div className="sub">The story day by day, as the clock of the ancient hours tells it</div>
+        <div className="book">{t("codex.hours.latin")}</div>
+        <h1>{t("codex.hours.title")}</h1>
+        <div className="sub">{t("codex.hours.subtitle")}</div>
         <Ornament />
       </div>
       <div className="hours">
@@ -106,7 +124,7 @@ export default function Hours({ route }: { route: Route }) {
             const prev = groups[gi - 1];
             const head = g.daily ? (
               <div className="day-head">
-                <div className="date">{d3.utcFormat("%d %B")(toDate(g.start))}</div>
+                <div className="date">{dayMonth(t, uiLang, toDate(g.start), true)}</div>
                 <div className="era">{yearLabel(toDate(g.start))}</div>
               </div>
             ) : (
@@ -114,7 +132,7 @@ export default function Hours({ route }: { route: Route }) {
             );
             return (
               <section key={g.key}>
-                {prev && <div className="interlude"><span>{passage(g.start - prev.end)}</span></div>}
+                {prev && <div className="interlude"><span>{passage(t, g.start - prev.end)}</span></div>}
                 {head}
                 {g.events.map((e) => {
                   const effects = data.links.filter((l) => l.cause_event_id === e.event_id);
@@ -127,7 +145,7 @@ export default function Hours({ route }: { route: Route }) {
                          onClick={() => go("hours", e.event_id)}>
                       <div className="time">{clock}</div>
                       <div>
-                        <h3><a href={href("read", e.verse_start.split(".").slice(0, 2).join(".")) + `?v=${e.verse_start}`} onClick={(ev) => ev.stopPropagation()}>{e.title}</a></h3>
+                        <h3><a href={href("read", e.verse_start.split(".").slice(0, 2).join(".")) + `?v=${e.verse_start}`} onClick={(ev) => ev.stopPropagation()}>{e.title}</a><LangMark from={e.text_lang} /></h3>
                         <p>{e.narrative_summary}</p>
                         <div className="meta">
                           {range(e.verse_start, e.verse_end)}
@@ -137,9 +155,8 @@ export default function Hours({ route }: { route: Route }) {
                         </div>
                         {effects.map((l) => (
                           <div key={l.causal_id} className="because">
-                            ⤷ {l.causal_type.code === "FULFILLS_PROPHECY" ? "fulfilled in" : l.causal_type.code === "RETALIATES_FOR" ? "avenged in" : l.causal_type.code === "ENABLES" ? "makes possible" : "and so"}{" "}
-                            <a href={href("hours", l.effect_event_id)} onClick={(ev) => ev.stopPropagation()}>{titles[l.effect_event_id]}</a>
-                            <span className="muted"> ({l.elapsed_seconds <= 0 ? "at once" : `${duration(l.elapsed_seconds, 1)} later`})</span>
+                            ⤷ <Because code={l.causal_type.code} event={<a href={href("hours", l.effect_event_id)} onClick={(ev) => ev.stopPropagation()}>{titles[l.effect_event_id]}</a>} />
+                            <span className="muted"> ({l.elapsed_seconds <= 0 ? t("codex.hours.at_once") : t("codex.hours.later", { duration: duration(l.elapsed_seconds, 1) })})</span>
                           </div>
                         ))}
                       </div>
@@ -151,18 +168,18 @@ export default function Hours({ route }: { route: Route }) {
           })}
         </div>
         <aside className="sticky">
-          <div className="section-title" style={{ marginTop: 0 }}>Horologium</div>
+          <div className="section-title" style={{ marginTop: 0 }}>{t("codex.hours.horologium")}</div>
           <div style={{ display: "grid", placeItems: "center" }}><Horologium day={day} events={data.events} selected={selected} /></div>
           {sel && (
             <div style={{ marginTop: 12 }}>
-              <div className="small-caps rubric-text">Chosen hour</div>
-              <div style={{ fontSize: 19, fontWeight: 600 }}>{sel.title}</div>
+              <div className="small-caps rubric-text">{t("codex.hours.chosen_hour")}</div>
+              <div style={{ fontSize: 19, fontWeight: 600 }}>{sel.title}<LangMark from={sel.text_lang} /></div>
               <div className="muted">{sel.start_label} → {sel.end_label}</div>
-              {sel.temporal_reasoning_note && <p style={{ fontSize: 15.5 }}><i>How we know:</i> {sel.temporal_reasoning_note}</p>}
+              {sel.temporal_reasoning_note && <p style={{ fontSize: 15.5 }}><i>{t("codex.hours.how_we_know")}</i> {sel.temporal_reasoning_note}</p>}
             </div>
           )}
-          <div className="section-title">The hours</div>
-          {HOURS.map(([h, name, heb]) => (
+          <div className="section-title">{t("codex.hours.the_hours")}</div>
+          {hoursOf(t).map(([h, name, heb]) => (
             <div key={name} style={{ display: "grid", gridTemplateColumns: "48px 1fr auto", fontSize: 15, padding: "2px 0" }}>
               <span className="small-caps rubric-text">{String(Math.floor(h)).padStart(2, "0")}:{h % 1 ? "30" : "00"}</span>
               <span>{name}</span>

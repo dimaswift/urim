@@ -1,8 +1,9 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
 import type { CausalLink, EntityRef, EventView, Status } from "./api";
+import { num, useT } from "./i18n";
 import { useApp } from "./state";
-import { ENTITY_COLOR, ENTITY_GLYPH, STATUS_LABEL, duration, href, range } from "./util";
+import { ENTITY_COLOR, ENTITY_GLYPH, duration, href, range, statusLabel } from "./util";
 
 const ICONS: Record<string, ReactNode> = {
   command: <><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><path d="M12 12 18 6M12 3v2M12 19v2M3 12h2M19 12h2" /></>,
@@ -14,6 +15,9 @@ const ICONS: Record<string, ReactNode> = {
   dossiers: <><circle cx="12" cy="8" r="4" /><path d="M4 21c1-4.5 4.5-7 8-7s7 2.5 8 7" /></>,
   codex: <><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3Z" /><path d="M5 17a3 3 0 0 1 3-3h11M9 8h6" /></>,
   query: <><rect x="3" y="4" width="18" height="16" rx="1" /><path d="m7 10 3 2-3 2M12 15h5" /></>,
+  learn: <><path d="M3 9 12 4l9 5-9 5Z" /><path d="M7 11v5c3 2 7 2 10 0v-5" /><path d="M21 9v6" /></>,
+  languages: <><circle cx="12" cy="12" r="9" /><path d="M3 12h18" /><path d="M12 3c3 3 3 15 0 18c-3-3-3-15 0-18" /></>,
+  campaign: <><path d="M5 21V4" /><path d="M5 4h11l-2 4 2 4H5" /><circle cx="19" cy="18" r="2" /><path d="M12 18h5" /></>,
   flame: <><path d="M12 22c4 0 7-3 7-7 0-5-5-7-5-12-3 2-4 5-4 7-1-1-2-2-2-4-2 2-3 5-3 9 0 4 3 7 7 7Z" /></>,
 };
 
@@ -41,8 +45,9 @@ export function Panel({ title, count, children, className = "", right }: {
 }
 
 export function StatusPill({ status }: { status?: Status | null }) {
-  if (!status) return <span className="pill faint">Unreviewed</span>;
-  return <span className={`pill st-${status}`}>{STATUS_LABEL[status]}</span>;
+  const t = useT();
+  if (!status) return <span className="pill faint">{t("shell.unreviewed")}</span>;
+  return <span className={`pill st-${status}`}>{statusLabel(status)}</span>;
 }
 
 export function EntityChip({ entity, onClick }: { entity: EntityRef; onClick?: () => void }) {
@@ -56,6 +61,7 @@ export function EntityChip({ entity, onClick }: { entity: EntityRef; onClick?: (
 }
 
 export function EventBrief({ event, compact = false }: { event: EventView; compact?: boolean }) {
+  const t = useT();
   return (
     <div className="grid" style={{ gap: 6 }}>
       <div className="row" style={{ flexWrap: "wrap", gap: 8 }}>
@@ -63,13 +69,13 @@ export function EventBrief({ event, compact = false }: { event: EventView; compa
         <span className="chip"><b className="mono" style={{ color: "var(--amber)" }}>{event.start_label}</b></span>
         {event.time_of_day && <span className="chip" style={{ color: "var(--cyan)" }}>☼ {event.time_of_day.label ?? event.time_of_day.code}</span>}
         <span className="chip">⧗ {duration(event.duration_seconds)}</span>
-        <span className="chip muted">± {duration(event.relative_margin_seconds, 1)} rel.</span>
+        <span className="chip muted">{t("shell.margin_relative", { margin: duration(event.relative_margin_seconds, 1) })}</span>
         {event.location && <EntityChip entity={event.location} />}
       </div>
       {!compact && event.narrative_summary && <p style={{ margin: 0 }}>{event.narrative_summary}</p>}
       {!compact && event.temporal_reasoning_note && (
         <p className="muted" style={{ margin: 0, fontSize: 13 }}>
-          <b className="hud upper" style={{ fontSize: 10, color: "var(--cyan)" }}>Timing&nbsp;</b>
+          <b className="hud upper" style={{ fontSize: 10, color: "var(--cyan)" }}>{t("shell.timing")}&nbsp;</b>
           {event.temporal_reasoning_note}
         </p>
       )}
@@ -78,6 +84,7 @@ export function EventBrief({ event, compact = false }: { event: EventView; compa
 }
 
 export function CausalRow({ link, titles, from }: { link: CausalLink; titles: Record<string, string | null>; from?: string }) {
+  const t = useT();
   const other = link.cause_event_id === from ? link.effect_event_id : link.cause_event_id;
   const arrow = link.cause_event_id === from ? "→" : "←";
   return (
@@ -86,7 +93,8 @@ export function CausalRow({ link, titles, from }: { link: CausalLink; titles: Re
       <div style={{ flex: 1 }}>
         <a href={href("chronicle", other)}>{arrow} {titles[other] ?? other}</a>
         <span className="muted mono" style={{ marginLeft: 8 }}>
-          {link.elapsed_seconds < 0 ? "overlaps" : link.elapsed_seconds === 0 ? "immediately" : `after ${duration(link.elapsed_seconds)}`}
+          {link.elapsed_seconds < 0 ? t("shell.causal.overlaps") : link.elapsed_seconds === 0 ? t("shell.causal.immediately")
+            : t("shell.causal.after", { duration: duration(link.elapsed_seconds) })}
         </span>
         {link.explanation && <div className="muted" style={{ fontSize: 12 }}>{link.explanation}</div>}
       </div>
@@ -97,22 +105,23 @@ export function CausalRow({ link, titles, from }: { link: CausalLink; titles: Re
 /** Approve / send back controls for one ledger key, used inside the reading views. */
 export function ReviewBar({ itemKey }: { itemKey: string }) {
   const { ledger, review } = useApp();
+  const t = useT();
   const [asking, setAsking] = useState(false);
   const [note, setNote] = useState("");
   const status = ledger[itemKey]?.status;
-  if (!ledger[itemKey]) return <span className="pill faint">Not in ledger</span>;
+  if (!ledger[itemKey]) return <span className="pill faint">{t("shell.not_in_ledger")}</span>;
   return (
     <div className="row" style={{ flexWrap: "wrap" }}>
       <StatusPill status={status} />
-      {status !== "approved" && <button className="btn green small" onClick={() => review([itemKey], "approved")}>Approve</button>}
-      {status === "approved" && <button className="btn small ghost" onClick={() => review([itemKey], "draft")}>Reopen</button>}
-      {!asking && status !== "changes_requested" && <button className="btn red small" onClick={() => setAsking(true)}>Send back</button>}
+      {status !== "approved" && <button className="btn green small" onClick={() => review([itemKey], "approved")}>{t("shell.review.approve")}</button>}
+      {status === "approved" && <button className="btn small ghost" onClick={() => review([itemKey], "draft")}>{t("shell.review.reopen")}</button>}
+      {!asking && status !== "changes_requested" && <button className="btn red small" onClick={() => setAsking(true)}>{t("shell.review.send_back")}</button>}
       {asking && (
         <>
-          <input autoFocus value={note} placeholder="What should change?" onChange={(e) => setNote(e.target.value)}
+          <input autoFocus value={note} placeholder={t("shell.review.note_placeholder")} onChange={(e) => setNote(e.target.value)}
                  onKeyDown={(e) => { if (e.key === "Enter" && note) { review([itemKey], "changes_requested", note); setAsking(false); setNote(""); } }}
                  style={{ minWidth: 260 }} />
-          <button className="btn red small" disabled={!note} onClick={() => { review([itemKey], "changes_requested", note); setAsking(false); setNote(""); }}>Send</button>
+          <button className="btn red small" disabled={!note} onClick={() => { review([itemKey], "changes_requested", note); setAsking(false); setNote(""); }}>{t("shell.review.send")}</button>
         </>
       )}
     </div>
@@ -121,19 +130,22 @@ export function ReviewBar({ itemKey }: { itemKey: string }) {
 
 /** Cosine similarity of a hit found by meaning, as a short meter. */
 export function Similarity({ value }: { value?: number | null }) {
+  const t = useT();
   if (value == null) return null;
+  const fixed = (digits: number) => num(value, { minimumFractionDigits: digits, maximumFractionDigits: digits });
   return (
-    <span className="row" style={{ gap: 4 }} title={`cosine similarity ${value.toFixed(3)}`}>
+    <span className="row" style={{ gap: 4 }} title={t("shell.similarity", { value: fixed(3) })}>
       <span style={{ width: 38, height: 5, background: "#0f1b25", border: "1px solid var(--line)" }}>
         <span style={{ display: "block", height: "100%", width: `${Math.max(value, 0) * 100}%`, background: "var(--violet)" }} />
       </span>
-      <span className="mono faint" style={{ fontSize: 11 }}>{value.toFixed(2)}</span>
+      <span className="mono faint" style={{ fontSize: 11 }}>{fixed(2)}</span>
     </span>
   );
 }
 
-export function Loading({ what = "Loading" }: { what?: string }) {
-  return <div className="loading">{what}…</div>;
+export function Loading({ what }: { what?: string }) {
+  const t = useT();
+  return <div className="loading">{what ?? t("shell.loading")}…</div>;
 }
 
 export function ProgressRing({ value, size = 64, stroke = 6, color = "var(--amber)", label, sub }: {

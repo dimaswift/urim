@@ -1,0 +1,67 @@
+{
+ "status.draft": "Draft",
+ "status.changes_requested": "Sent back",
+ "status.approved": "Approved",
+ "kind.event": "Event",
+ "kind.causal": "Causal link",
+ "kind.event_links": "Cast & place",
+ "kind.entity": "Entity",
+ "kind.system": "System",
+ "kind.component": "State",
+ "kind.closure": "State closed",
+ "kind.instance": "Ritual instance",
+ "kind.edge": "Interaction",
+ "kind.verse": "Verse",
+ "entity_type.PERSON": "Person",
+ "entity_type.DEITY": "Deity",
+ "entity_type.SPIRIT_BEING": "Spirit being",
+ "entity_type.LOCATION": "Place",
+ "entity_type.GROUP": "Group",
+ "entity_type.ARTIFACT": "Artifact",
+ "entity_type.SUBSTANCE": "Substance",
+ "unit.y": {
+  "text": "{n} y",
+  "note": "Years, abbreviated, in a duration such as '3 y 2 d'"
+ },
+ "unit.d": {
+  "text": "{n} d",
+  "note": "Days, abbreviated"
+ },
+ "unit.h": {
+  "text": "{n} h",
+  "note": "Hours, abbreviated"
+ },
+ "unit.m": {
+  "text": "{n} m",
+  "note": "Minutes, abbreviated"
+ },
+ "unit.s": {
+  "text": "{n} s",
+  "note": "Seconds, abbreviated"
+ },
+ "time.just_now": "just now",
+ "time.minutes_ago": {
+  "one": "{count} min ago",
+  "other": "{count} min ago"
+ },
+ "time.hours_ago": {
+  "one": "{count} h ago",
+  "other": "{count} h ago"
+ },
+ "time.days_ago": {
+  "one": "{count} d ago",
+  "other": "{count} d ago"
+ },
+ "time.bce": {
+  "text": "{year} BCE",
+  "note": "A year before the Common Era; {year} is a plain number like 1720"
+ },
+ "time.ce": {
+  "text": "{year} CE",
+  "note": "A year of the Common Era"
+ },
+ "time.circa": {
+  "text": "c. {date}",
+  "note": "An approximate date: 'c. 1720 BCE'"
+ }
+}

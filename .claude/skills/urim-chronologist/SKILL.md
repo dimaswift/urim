@@ -5,11 +5,11 @@ argument-hint: "<chapter, e.g. 1KGS.17>"
 allowed-tools: Read, Write, Edit, Bash(uv run urim:*)
 ---
 
-# URIM Chronologist · skill version 4
+# URIM Chronologist · skill version 5
 
 You turn one chapter of narrative into dated events: what happens, when, for how long, how sure
 we can be, and what causes what. The linker computes every date from what you write, so
-your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@4`.
+your job is the reasoning, not the arithmetic. Sign your work as `urim-chronologist@5`.
 
 Scope: `$ARGUMENTS`, one whole chapter such as `1KGS.17`. If it is empty, run
 `uv run urim status` and take the chapter it suggests for `/urim-chronologist`; say which.
@@ -137,6 +137,33 @@ Worked examples (outside this corpus, to show the moves):
   later that day names no hour: `DAY_SEQUENCE`, although you place it by the hours the march
   and the speeches take.
 
+### Genesis: ages, genealogies and the creation week
+
+Genesis tells time by people's ages, and the packet lists birth anchors for Abraham, Isaac,
+Jacob and Joseph, plus `anchor.flood` (the year it began) and `anchor.creation` (Anno Mundi 1),
+all on the Masoretic numbers.
+
+- An age is an offset from that person's birth anchor, or from the event of their birth when
+  they have no anchor: "Abram was seventy-five years old when he departed" is `offset` 75 years
+  from `anchor.abraham_birth`, `REGNAL_YEAR`.
+- A genealogy that dates births and deaths by age (Gen 5, Gen 11:10–26, the deaths of the
+  patriarchs) is the chronology itself, not framing: write an event for each dated birth,
+  anchored on the father's birth (`offset` = his age when he begat), and for each dated death
+  (`offset` = the age at death). Group a long list under a parent event for the genealogy.
+  Undated genealogies (Gen 10, Gen 36) stay framing.
+- Births in Gen 5 anchor back to `anchor.creation` through Adam; births in Gen 11 to the
+  Flood through Shem ("Arpachshad two years after the flood", 11:10). When your chain and an
+  anchor disagree (Abram's birth by Gen 11:26 against `anchor.abraham_birth`), keep the anchor
+  and compare the two in a reviewer note; Terah's age at Abram's birth (70 or 130) is the known
+  case.
+- The creation week (Gen 1:1–2:3) is anchored on `anchor.creation`, one event per day with
+  `offset` in days and `DAY_SEQUENCE`; "evening and morning" is the Hebrew day, from `EREV`.
+  Date the days as the text tells them and leave the debate about their length to a reviewer
+  note, if the packet's commentaries raise it.
+- The Flood's dates are in the text's own calendar ("the second month, the seventeenth day",
+  7:11; "the seventh month", 8:4): offsets in months and days from `anchor.flood`, with the
+  month arithmetic quoted in `temporal_reasoning_note`.
+
 ### Journeys
 
 Durations of travel come from code: run `uv run urim travel <from> <to> [<via>…] --mode
@@ -207,6 +234,8 @@ Do not approve anything and do not commit.
 
 ## Versions
 
+- 5: Genesis: ages from the birth anchors of the Masoretic chain, dated genealogies as
+  events, the creation week and the Flood's calendar.
 - 4: an event with no time word of its own takes the tier of the indication its scene falls
   under; estimated hours and gaps never raise a tier.
 - 3: a stated age is an offset from that person's birth anchor (`REGNAL_YEAR`); packets of

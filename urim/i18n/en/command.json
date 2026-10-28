@@ -1,0 +1,216 @@
+{
+ "command.loading": {
+  "text": "Raising the war room",
+  "note": "Loading message of the overview screen; an ellipsis follows"
+ },
+ "command.theatre": {
+  "text": "Theatre of operations",
+  "note": "Small heading above the map of the canon (military metaphor)"
+ },
+ "command.title": {
+  "text": "The Canon",
+  "note": "Heading: the whole Bible as a territory of chapters"
+ },
+ "command.chapters_revealed": {
+  "one": "{revealed} of {count} chapter revealed",
+  "other": "{revealed} of {count} chapters revealed",
+  "note": "Beside the heading; {count} is the number of chapters in the canon"
+ },
+ "command.legend.fog": {
+  "text": "Fog",
+  "note": "Map legend: a chapter not ingested yet (fog of war)"
+ },
+ "command.legend.revealed": {
+  "text": "Revealed",
+  "note": "Map legend: a chapter ingested but barely written"
+ },
+ "command.legend.written": {
+  "text": "Written",
+  "note": "Map legend: a chapter with its layers written"
+ },
+ "command.legend.held": {
+  "text": "Held",
+  "note": "Map legend: a chapter whose items are all approved (territory held)"
+ },
+ "command.territory": {
+  "text": "Territory",
+  "note": "Panel title: the map of chapters"
+ },
+ "command.layer.writing": {
+  "text": "Writing",
+  "note": "Map layer toggle: colour chapters by how much is written"
+ },
+ "command.layer.knowing": {
+  "text": "Knowing",
+  "note": "Map layer toggle: colour chapters by how much you have learned"
+ },
+ "command.commander": {
+  "text": "Commander",
+  "note": "Panel title: the player's rank and experience"
+ },
+ "command.level": {
+  "text": "L{level}",
+  "note": "Level, abbreviated, inside the rank ring: 'L3'"
+ },
+ "command.xp": {
+  "text": "XP",
+  "note": "Experience points, abbreviated (game term)"
+ },
+ "command.xp_to_next": "{xp} XP to next rank",
+ "command.streak": {
+  "one": "{count}-day streak",
+  "other": "{count}-day streak",
+  "note": "Consecutive days with at least one review"
+ },
+ "command.decisions": {
+  "one": "{count} decision",
+  "other": "{count} decisions",
+  "note": "Review decisions made so far"
+ },
+ "command.front_lines": {
+  "text": "Front lines",
+  "note": "Panel title: overall progress of the corpus (military metaphor)"
+ },
+ "command.ring.of_verses": {
+  "text": "of {total} vv",
+  "note": "Under a count of verses with layers; 'vv' abbreviates 'verses'"
+ },
+ "command.ring.of_held": {
+  "text": "of {total} held",
+  "note": "Under the count of approved items: out of all items"
+ },
+ "command.ring.events": {
+  "one": "event",
+  "other": "events",
+  "note": "Under the number of events; the number itself is shown above"
+ },
+ "command.ring.sent_back": {
+  "text": "sent back",
+  "note": "Under the number of items sent back with a change request"
+ },
+ "command.missions": {
+  "text": "Missions",
+  "note": "Panel title: the next tasks to do (agent commands to run, chapters to review)"
+ },
+ "command.no_missions": "No missions",
+ "command.mission.agent": {
+  "text": "AGENT",
+  "note": "Tag on a mission that an agent session carries out; written in capitals"
+ },
+ "command.mission.review": {
+  "text": "REVIEW",
+  "note": "Tag on a mission that you carry out by reviewing; written in capitals"
+ },
+ "command.mission.copy": {
+  "text": "copy",
+  "note": "Hint on an agent mission: clicking copies the command"
+ },
+ "command.mission.open": {
+  "text": "open",
+  "note": "Hint on a review mission: clicking opens the review deck"
+ },
+ "command.mission.copied": "Command copied: paste it into a new chat",
+ "command.honours": {
+  "text": "Honours",
+  "note": "Panel title: the badges"
+ },
+ "command.tip.verses": {
+  "text": "Verses",
+  "note": "Chapter tooltip, row label: number of verses"
+ },
+ "command.tip.written": {
+  "text": "Written",
+  "note": "Chapter tooltip, row label: how much of the chapter is written"
+ },
+ "command.tip.events": {
+  "one": "{count} event",
+  "other": "{count} events"
+ },
+ "command.tip.layered": {
+  "text": "{count} vv layered",
+  "note": "Verses with translations and commentary; 'vv' abbreviates 'verses'"
+ },
+ "command.tip.review": {
+  "text": "Review",
+  "note": "Chapter tooltip, row label: review state of the chapter's items"
+ },
+ "command.tip.held": {
+  "text": "{count} held",
+  "note": "Items approved"
+ },
+ "command.tip.drafts": {
+  "one": "{count} draft",
+  "other": "{count} drafts"
+ },
+ "command.tip.sent_back": {
+  "text": "{count} sent back",
+  "note": "Items sent back with a change request"
+ },
+ "command.tip.known": {
+  "text": "Known",
+  "note": "Chapter tooltip, row label: what you have learned of the chapter"
+ },
+ "command.tip.facts": {
+  "one": "{known}/{count} fact",
+  "other": "{known}/{count} facts",
+  "note": "Facts you know out of all the chapter's facts"
+ },
+ "command.tip.proven": {
+  "text": "proven",
+  "note": "The chapter's exam is passed; a star follows"
+ },
+ "command.tip.due": {
+  "text": "{count} due",
+  "note": "Facts due for review (spaced repetition)"
+ },
+ "command.tip.fog": {
+  "text": "Fog of war: not ingested yet",
+  "note": "Tooltip of a chapter whose text is not loaded yet"
+ },
+ "command.section.torah": {
+  "text": "Torah",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.former_prophets": {
+  "text": "Former Prophets",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.writings_history": {
+  "text": "Writings: History",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.writings_poetry": {
+  "text": "Writings: Poetry",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.latter_prophets": {
+  "text": "Latter Prophets",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.the_twelve": {
+  "text": "The Twelve",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.gospels_acts": {
+  "text": "Gospels & Acts",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.letters": {
+  "text": "Letters",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.section.revelation": {
+  "text": "Revelation",
+  "note": "A section of the biblical canon, heading a row of books on the map"
+ },
+ "command.mission.requests_waiting": {
+  "one": "{chapter}: {count} change request waiting; rerun the skill that owns it (the packet lists it first)",
+  "other": "{chapter}: {count} change requests waiting; rerun the skill that owns them (the packet lists them first)",
+  "note": "A mission on the Command screen; {chapter} is a chapter id such as GEN.38"
+ },
+ "command.mission.drafts_waiting": {
+  "one": "{chapter}: review {count} draft item",
+  "other": "{chapter}: review {count} draft items",
+  "note": "A mission on the Command screen"
+ }
+}

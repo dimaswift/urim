@@ -13,6 +13,8 @@ import re
 from dataclasses import dataclass
 from urllib.parse import quote
 
+import httpx
+
 from urim.canon import Book
 from urim.compiler.ingest.fetch import Fetcher
 
@@ -77,11 +79,16 @@ def _clean(text: str) -> str:
 
 def fetch_chapter(fetcher: Fetcher, work: Work, book: Book, chapter: int) -> WorkChapter | None:
     slug = work.sefaria_title(book).replace(" ", "_")
-    path = fetcher.get_url(
-        key=f"sefaria/{slug}.{chapter}",
-        url=f"{API}{quote(slug)}.{chapter}?version=hebrew",
-        rel_path=f"sefaria/{slug}/{chapter}.json",
-    )
+    try:
+        path = fetcher.get_url(
+            key=f"sefaria/{slug}.{chapter}",
+            url=f"{API}{quote(slug)}.{chapter}?version=hebrew",
+            rel_path=f"sefaria/{slug}/{chapter}.json",
+        )
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code == 404:  # a work with gaps: Rashbam skips whole chapters
+            return None
+        raise
     data = json.loads(path.read_text(encoding="utf-8"))
     if not data.get("versions"):
         return None

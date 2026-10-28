@@ -1,0 +1,126 @@
+{
+ "chronicle.kicker": {
+  "text": "UTES timeline · scroll to zoom from eras to hours",
+  "note": "Small heading above the page title; UTES is the name of the project's time scale, keep it as is"
+ },
+ "chronicle.title": {
+  "text": "Chronicle",
+  "note": "Page title: the timeline of events"
+ },
+ "chronicle.loading": {
+  "text": "Synchronising clocks",
+  "note": "Loading message while the timeline loads; the interface adds an ellipsis"
+ },
+ "chronicle.zoom.all": {
+  "text": "All",
+  "note": "Button: zoom the timeline out to show every event"
+ },
+ "chronicle.zoom.day": {
+  "text": "Day of selection",
+  "note": "Button: zoom the timeline to the day of the selected event"
+ },
+ "chronicle.zoom.event": {
+  "text": "Zoom to event",
+  "note": "Button: zoom the timeline to the selected event"
+ },
+ "chronicle.bar_title": {
+  "text": "{title} · {start} → {end} (± {margin} relative)",
+  "note": "Tooltip of an event on the timeline: its title, start and end dates, and the uncertainty of its timing relative to its anchor, e.g. '± 2 h'"
+ },
+ "chronicle.month_year": {
+  "text": "{month} {year}",
+  "note": "Timeline axis label: an abbreviated month and a year, e.g. 'Mar 870 BCE'"
+ },
+ "chronicle.day_month": {
+  "text": "{day} {month}",
+  "note": "Timeline axis and day dial label: a two-digit day and an abbreviated month, e.g. '14 Mar'"
+ },
+ "chronicle.event.title": {
+  "text": "Event",
+  "note": "Panel title: details of the selected event"
+ },
+ "chronicle.event.starts": {
+  "text": "Starts",
+  "note": "Field label: when the event starts"
+ },
+ "chronicle.event.ends": {
+  "text": "Ends",
+  "note": "Field label: when the event ends"
+ },
+ "chronicle.event.anchor": {
+  "text": "Anchor",
+  "note": "Field label: the event or fixed date this event's timing is measured from"
+ },
+ "chronicle.anchor_point.start": {
+  "text": "start",
+  "note": "Which end of the anchor event the timing is measured from: its start; shown in brackets after the anchor"
+ },
+ "chronicle.anchor_point.end": {
+  "text": "end",
+  "note": "Which end of the anchor event the timing is measured from: its end; shown in brackets after the anchor"
+ },
+ "chronicle.event.precision": {
+  "text": "Precision",
+  "note": "Field label: how precisely the event can be dated (year, day, hour…)"
+ },
+ "chronicle.event.text_says": {
+  "text": "Text says",
+  "note": "Field label: the year as the biblical text states it, e.g. 'in the third year'"
+ },
+ "chronicle.event.season": {
+  "text": "Season",
+  "note": "Field label: the season the text mentions"
+ },
+ "chronicle.event.hour": {
+  "text": "Hour",
+  "note": "Field label: the time of day the text mentions"
+ },
+ "chronicle.event.verses": {
+  "text": "Verses",
+  "note": "Field label: the verses that narrate the event"
+ },
+ "chronicle.dial.title": {
+  "text": "Day dial",
+  "note": "Panel title: a 24-hour clock face showing the events of one day"
+ },
+ "chronicle.dial.note": {
+  "text": "Events of this civil day. Cyan dots mark the ancient hours: dawn, morning, noon, minchah, evening.",
+  "note": "Caption under the 24-hour dial; minchah is the Hebrew name of the afternoon offering hour"
+ },
+ "chronicle.hour.ashmoret_haboker": {
+  "text": "Ashmoret haBoker",
+  "note": "Hebrew name, transliterated, of the morning watch, the last watch of the night (about 2 a.m.); tooltip on the day dial"
+ },
+ "chronicle.hour.shachar": {
+  "text": "Shachar",
+  "note": "Hebrew name, transliterated, of dawn (about 5:30 a.m.)"
+ },
+ "chronicle.hour.boker": {
+  "text": "Boker",
+  "note": "Hebrew name, transliterated, of morning (about 6 a.m.)"
+ },
+ "chronicle.hour.third_hour": {
+  "text": "3rd hour",
+  "note": "The third hour of the day, counted from sunrise (about 9 a.m.)"
+ },
+ "chronicle.hour.tzohorayim": {
+  "text": "Tzohorayim",
+  "note": "Hebrew name, transliterated, of noon"
+ },
+ "chronicle.hour.minchah": {
+  "text": "Minchah",
+  "note": "Hebrew name, transliterated, of the afternoon offering hour (about 3 p.m.)"
+ },
+ "chronicle.hour.bein_haarbayim": {
+  "text": "Bein ha'arbayim",
+  "note": "Hebrew name, transliterated, of twilight, literally 'between the evenings' (about 5:30 p.m.)"
+ },
+ "chronicle.hour.erev": {
+  "text": "Erev",
+  "note": "Hebrew name, transliterated, of evening (about 6 p.m.)"
+ },
+ "chronicle.hour.middle_watch": {
+  "text": "Middle watch",
+  "note": "The middle watch of the night (about 10 p.m.)"
+ }
+}

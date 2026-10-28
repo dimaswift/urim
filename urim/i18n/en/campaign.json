@@ -1,0 +1,254 @@
+{
+ "campaign.title": {
+  "text": "Campaign",
+  "note": "An autonomous run that writes, critiques and revises a book unattended"
+ },
+ "campaign.loading_runs": {
+  "text": "Finding campaigns",
+  "note": "Loading message; an ellipsis follows"
+ },
+ "campaign.loading_run": {
+  "text": "Reading the campaign",
+  "note": "Loading message; an ellipsis follows"
+ },
+ "campaign.empty.title": "No run yet",
+ "campaign.empty.intro": "An autonomous run writes, critiques and revises a whole book while you are away. Start one in a terminal:",
+ "campaign.empty.pilot": {
+  "text": "a pilot",
+  "note": "Comment after an example command that runs three chapters as a trial"
+ },
+ "campaign.empty.book": {
+  "text": "the whole book",
+  "note": "Comment after an example command that runs a whole book"
+ },
+ "campaign.empty.plan": {
+  "text": "where each chapter stands, without running",
+  "note": "Comment after an example command that only prints the plan"
+ },
+ "campaign.empty.resume": {
+  "text": "Ctrl-C stops it; the same command resumes. This page follows it live.",
+  "note": "Ctrl-C is the key combination that stops a terminal command"
+ },
+ "campaign.kicker": {
+  "text": "Autonomous campaign",
+  "note": "Small heading above the run's name"
+ },
+ "campaign.status.running": {
+  "text": "running",
+  "note": "Status of a run or a session"
+ },
+ "campaign.status.waiting": {
+  "text": "waiting",
+  "note": "Status of a run paused until a usage limit resets"
+ },
+ "campaign.status.finished": {
+  "text": "finished",
+  "note": "Status of a run that has nothing left to do"
+ },
+ "campaign.status.stopped": {
+  "text": "stopped",
+  "note": "Status of a run or session stopped by the user"
+ },
+ "campaign.status.interrupted": {
+  "text": "interrupted",
+  "note": "Status of a run whose process is gone without stopping cleanly"
+ },
+ "campaign.status.done": {
+  "text": "done",
+  "note": "Status of a session that finished"
+ },
+ "campaign.status.failed": {
+  "text": "failed",
+  "note": "Status of a session that failed"
+ },
+ "campaign.status.limited": {
+  "text": "limited",
+  "note": "Status of a session cut short by a usage limit"
+ },
+ "campaign.status.unavailable": {
+  "text": "unavailable",
+  "note": "Status of a session that failed because the API was unavailable"
+ },
+ "campaign.phase.unwritten": {
+  "text": "waiting",
+  "note": "A chapter layer not started yet"
+ },
+ "campaign.phase.partial": {
+  "text": "writing",
+  "note": "A chapter layer partly written"
+ },
+ "campaign.phase.drafts": {
+  "text": "to critique",
+  "note": "A chapter layer written and waiting for the critic"
+ },
+ "campaign.phase.requested": {
+  "text": "revising",
+  "note": "A chapter layer the critic sent back, being revised"
+ },
+ "campaign.phase.done": {
+  "text": "done",
+  "note": "A chapter layer finished"
+ },
+ "campaign.phase.failed": {
+  "text": "failed",
+  "note": "A chapter layer that failed three times"
+ },
+ "campaign.action.write": {
+  "text": "write",
+  "note": "What a session does: write a layer"
+ },
+ "campaign.action.revise": {
+  "text": "revise",
+  "note": "What a session does: revise a layer after the critic's requests"
+ },
+ "campaign.action.critique": {
+  "text": "critique",
+  "note": "What a session does: critique a layer"
+ },
+ "campaign.layer.chronology": {
+  "text": "chronology",
+  "note": "Layer of the corpus: events and their timing"
+ },
+ "campaign.layer.ontology": {
+  "text": "ontology",
+  "note": "Layer of the corpus: people, places, states and rituals"
+ },
+ "campaign.layer.philology": {
+  "text": "philology",
+  "note": "Layer of the corpus: translations, glosses and commentary"
+ },
+ "campaign.layer.language": {
+  "text": "{lang} translation",
+  "note": "Column of a translation layer in the run grid; {lang} is a language code such as RU"
+ },
+ "campaign.round": {
+  "text": "round {round}",
+  "note": "Critique round number"
+ },
+ "campaign.round_short": {
+  "text": "r{round}",
+  "note": "Critique round, abbreviated: 'r2'"
+ },
+ "campaign.cell.approved": {
+  "text": "{count} approved",
+  "note": "Tooltip of a chapter layer: items approved"
+ },
+ "campaign.cell.drafts": {
+  "one": "{count} draft",
+  "other": "{count} drafts",
+  "note": "Tooltip of a chapter layer: items still drafts"
+ },
+ "campaign.cell.sent_back": {
+  "text": "{count} sent back",
+  "note": "Tooltip of a chapter layer: items with change requests"
+ },
+ "campaign.cell.escalated": {
+  "text": "{count} escalated",
+  "note": "Tooltip of a chapter layer: items the critic escalated to the user"
+ },
+ "campaign.left": {
+  "text": "{count} left",
+  "note": "A chapter layer not written yet: items still to write"
+ },
+ "campaign.verdict.approved": {
+  "text": "{count} approved",
+  "note": "What a critique session decided: items approved"
+ },
+ "campaign.verdict.requested": {
+  "text": "{count} requested",
+  "note": "What a critique session decided: items with changes requested"
+ },
+ "campaign.verdict.escalated": {
+  "text": "{count} escalated",
+  "note": "What a critique session decided: items escalated to the user"
+ },
+ "campaign.verdict.kept": {
+  "text": "{count} kept",
+  "note": "What a critique session decided: items kept as they were"
+ },
+ "campaign.error": {
+  "text": "Error",
+  "note": "Label before a session's error message"
+ },
+ "campaign.no_report": {
+  "text": "(no report)",
+  "note": "Shown when a session left no report"
+ },
+ "campaign.waiting.usage_limit": {
+  "text": "Usage limit",
+  "note": "The run is paused because the model's usage limit was reached"
+ },
+ "campaign.waiting.api_failed": {
+  "text": "The API failed",
+  "note": "The run is paused because the model's API returned errors"
+ },
+ "campaign.waiting.until": {
+  "text": "Paused until {time}; it resumes on its own.",
+  "note": "{time} is a date and time"
+ },
+ "campaign.failed.title": {
+  "text": "Failed",
+  "note": "Heading of the notice that some chapter layers failed"
+ },
+ "campaign.failed.text": {
+  "one": "{count} chapter layer failed three times in a row. {cmd} retries it; each session's error is under Sessions.",
+  "other": "{count} chapter layers failed three times in a row. {cmd} retries them; each session's error is under Sessions.",
+  "note": "{cmd} is a terminal command shown as code; 'Sessions' is the title of a panel on this page"
+ },
+ "campaign.interrupted.title": {
+  "text": "Interrupted",
+  "note": "Heading of the notice that the run's process is gone"
+ },
+ "campaign.interrupted.text": {
+  "text": "The conductor is no longer running. {cmd} resumes it.",
+  "note": "The conductor is the process that runs the campaign; {cmd} is a terminal command shown as code"
+ },
+ "campaign.progress": {
+  "text": "Progress",
+  "note": "Panel title"
+ },
+ "campaign.sessions_count": {
+  "one": "{count} session",
+  "other": "{count} sessions",
+  "note": "Agent sessions run so far"
+ },
+ "campaign.tokens": {
+  "text": "{millions}M tokens",
+  "note": "Tokens used, in millions: '12.4M tokens'"
+ },
+ "campaign.cost": {
+  "text": "{cost} at API prices",
+  "note": "{cost} is an amount in US dollars"
+ },
+ "campaign.started": {
+  "text": "started {ago}",
+  "note": "{ago} is a relative time such as '3 h ago'"
+ },
+ "campaign.parallel": {
+  "text": "{count} at a time",
+  "note": "How many sessions run in parallel"
+ },
+ "campaign.max_rounds": {
+  "one": "{count} round",
+  "other": "{count} rounds",
+  "note": "The most critique rounds a chapter layer gets"
+ },
+ "campaign.sessions": {
+  "text": "Sessions",
+  "note": "Panel title: the list of agent sessions"
+ },
+ "campaign.now": {
+  "text": "Now",
+  "note": "Panel title: the sessions running at this moment"
+ },
+ "campaign.none_running": "No session running.",
+ "campaign.escalated": {
+  "text": "Escalated to you",
+  "note": "Panel title: items the critic could not settle and left to the user"
+ },
+ "campaign.none_escalated": "Nothing yet: the critic has settled everything it reviewed.",
+ "campaign.log": {
+  "text": "Log",
+  "note": "Panel title: the run's log"
+ }
+}

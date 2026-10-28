@@ -14,7 +14,7 @@ import re
 import sqlite3
 import threading
 from collections import deque
-from collections.abc import Iterable
+from collections.abc import Callable, Iterable
 from itertools import batched
 from pathlib import Path
 from typing import Any, Literal
@@ -24,6 +24,7 @@ from urim.bundles import core_path, discover_langs, sqlite_uri
 from urim.canon import parse_ref
 from urim.config import load_paths
 from urim.embeddings import Embedder, load_embedder, load_sqlite_vec, unavailable
+from urim.i18n.messages import ENGLISH, Translator
 from urim.runtime.models import (
     CausalGraph,
     CausalLink,
@@ -100,18 +101,20 @@ _COVERING_EVENTS = (
 )
 
 
-def format_utes(utes: int, precision_tier: str) -> str:
+def format_utes(utes: int, precision_tier: str, t: Translator = ENGLISH) -> str:
+    """A date as precise as its tier, in the words of `t`'s language: 'c. 870 BCE'."""
     d = utime.utes_to_date(utes)
     year, era = utime.astronomical_to_era(d.year)
+    when = t(f"time.{era.lower()}", year=str(year))
     match _LABEL_PRECISION.get(precision_tier, "minute"):
         case "year":
-            return f"c. {year} {era}"
+            return t("time.circa", date=when)
         case "month":
-            return f"{year} {era}-{d.month:02d}"
+            return f"{when}-{d.month:02d}"
         case "day":
-            return d.label(with_time=False)
+            return f"{when}-{d.month:02d}-{d.day:02d}"
         case _:
-            return d.label()
+            return f"{when}-{d.month:02d}-{d.day:02d} {d.hour:02d}:{d.minute:02d}"
 
 
 def _ph(n: int) -> str:
@@ -128,10 +131,13 @@ class UrimEngine:
         bundles_dir: str | Path,
         default_lang: str = "en",
         embedder: Embedder | Literal["auto"] | None = "auto",
+        messages: Callable[[str], Translator] | None = None,
     ):
         """`embedder` embeds search queries: "auto" loads the pinned model on first use when a
-        bundle carries vectors and the model is installed; None keeps search keyword-only."""
+        bundle carries vectors and the model is installed; None keeps search keyword-only.
+        `messages` gives the words of generated labels (dates) per language; English if None."""
         self.bundles_dir = Path(bundles_dir)
+        self.messages = messages or (lambda _lang: ENGLISH)
         self._embedder = embedder
         self._embedder_lock = threading.Lock()
         self.core_path = core_path(self.bundles_dir)
@@ -301,8 +307,8 @@ class UrimEngine:
                     utes_margin_seconds=r["utes_margin_seconds"],
                     relative_margin_seconds=r["relative_margin_seconds"],
                     precision_tier=self._coded(conn, lang, "precision_tier", tier),
-                    start_label=format_utes(r["utes_start"], tier),
-                    end_label=format_utes(r["utes_end"], tier),
+                    start_label=format_utes(r["utes_start"], tier, self.messages(lang)),
+                    end_label=format_utes(r["utes_end"], tier, self.messages(lang)),
                     anchor_id=r["anchor_id"],
                     anchor_point=r["anchor_point"],
                     relative_offset_seconds=r["relative_offset_seconds"],

@@ -1,11 +1,29 @@
 import { useMemo, useState } from "react";
 import type { Dossier, EntityRow, SearchHit } from "../api";
 import { Loading, Panel, ReviewBar, Similarity } from "../components";
+import { Msg, num, useT, type TFunc } from "../i18n";
 import { useApi, useApp } from "../state";
 import { ENTITY_COLOR, ENTITY_GLYPH, chapterOf, go, href, short, type Route } from "../util";
 
 interface EntityPayload { dossier: Dossier; mentions: { verse_id: string; pos: number }[] }
 const TYPES = ["PERSON", "DEITY", "SPIRIT_BEING", "LOCATION", "GROUP", "ARTIFACT"];
+
+/** An entity type as the roster chips name it (lower case; the sheet header upper-cases it). */
+function typeLabel(t: TFunc, type: string): string {
+  switch (type) {
+    case "PERSON": return t("dossiers.type.person");
+    case "DEITY": return t("dossiers.type.deity");
+    case "SPIRIT_BEING": return t("dossiers.type.spirit_being");
+    case "LOCATION": return t("dossiers.type.location");
+    case "GROUP": return t("dossiers.type.group");
+    case "ARTIFACT": return t("dossiers.type.artifact");
+    case "SUBSTANCE": return t("dossiers.type.substance");
+    default: return type.replace("_", " ").toLowerCase();
+  }
+}
+
+/** A share as a whole percent in the active language: 0.85 -> "85%" (or "85 %"). */
+const pct = (x: number) => num(Math.round(x * 100) / 100, { style: "percent" });
 
 function StatBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
   return (
@@ -14,33 +32,34 @@ function StatBar({ label, value, max, color }: { label: string; value: number; m
       <div style={{ height: 8, background: "#0f1b25", border: "1px solid var(--line)", borderRadius: 2 }}>
         <div style={{ height: "100%", width: `${(value / Math.max(max, 1)) * 100}%`, background: color, boxShadow: `0 0 8px ${color}` }} />
       </div>
-      <span className="mono" style={{ textAlign: "right" }}>{value}</span>
+      <span className="mono" style={{ textAlign: "right" }}>{num(value)}</span>
     </div>
   );
 }
 
 /** Entities nearest in meaning to this one, by the vectors the bundle stores. */
 function Kindred({ id, name, roster }: { id: string; name: string; roster: EntityRow[] }) {
+  const t = useT();
   const { lang } = useApp();
   const [sameType, setSameType] = useState(true);
   const { data, error } = useApi<SearchHit[]>(`/api/similar/entity/${encodeURIComponent(id)}?lang=${lang}&top_k=8&same_type=${sameType}`);
   const types = new Map(roster.map((r) => [r.entity_id, r.entity_type]));
   const toggle = (
     <span className="row" style={{ gap: 4 }}>
-      <span className={`chip click ${sameType ? "on" : ""}`} onClick={() => setSameType(true)}>same type</span>
-      <span className={`chip click ${!sameType ? "on" : ""}`} onClick={() => setSameType(false)}>any entity</span>
+      <span className={`chip click ${sameType ? "on" : ""}`} onClick={() => setSameType(true)}>{t("dossiers.same_type")}</span>
+      <span className={`chip click ${!sameType ? "on" : ""}`} onClick={() => setSameType(false)}>{t("dossiers.any_entity")}</span>
     </span>
   );
   return (
-    <Panel title={`Like ${name}`} count={data?.length} right={toggle}>
+    <Panel title={t("dossiers.like", { name })} count={data?.length} right={toggle}>
       {error && <div className="muted">{error}</div>}
-      {!error && data?.length === 0 && <div className="muted">Nothing else of this type yet.</div>}
+      {!error && data?.length === 0 && <div className="muted">{t("dossiers.kindred_empty")}</div>}
       <div className="grid" style={{ gap: 6 }}>
         {!error && data?.map((h) => {
-          const t = types.get(h.id) ?? "";
+          const kind = types.get(h.id) ?? "";
           return (
             <a key={h.id} href={href("dossiers", h.id)} style={{ display: "grid", gridTemplateColumns: "22px 1fr auto", gap: 8, alignItems: "center", color: "var(--text)" }}>
-              <span style={{ color: ENTITY_COLOR[t], fontSize: 16 }}>{ENTITY_GLYPH[t]}</span>
+              <span style={{ color: ENTITY_COLOR[kind], fontSize: 16 }}>{ENTITY_GLYPH[kind]}</span>
               <span style={{ minWidth: 0 }}>
                 <b className="hud">{h.title}</b>
                 <div className="muted" style={{ fontSize: 12, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{h.snippet}</div>
@@ -55,9 +74,10 @@ function Kindred({ id, name, roster }: { id: string; name: string; roster: Entit
 }
 
 function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
+  const t = useT();
   const { lang, overview } = useApp();
   const { data } = useApi<EntityPayload>(`/api/entity/${encodeURIComponent(id)}?lang=${lang}`);
-  if (!data) return <Loading what="Opening dossier" />;
+  if (!data) return <Loading what={t("dossiers.loading_sheet")} />;
   const d = data.dossier;
   const row = roster.find((r) => r.entity_id === id);
   const color = ENTITY_COLOR[d.entity_type] ?? "var(--text)";
@@ -87,36 +107,36 @@ function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
                         border: `1px solid ${color}`, borderRadius: 4, background: `color-mix(in srgb, ${color} 8%, transparent)`,
                         boxShadow: `0 0 20px color-mix(in srgb, ${color} 30%, transparent)` }}>{ENTITY_GLYPH[d.entity_type]}</div>
           <div style={{ flex: 1 }}>
-            <div className="hud upper" style={{ fontSize: 11, color, letterSpacing: "0.3em" }}>{d.entity_type.replace("_", " ")}</div>
+            <div className="hud upper" style={{ fontSize: 11, color, letterSpacing: "0.3em" }}>{typeLabel(t, d.entity_type)}</div>
             <div className="row" style={{ flexWrap: "wrap" }}>
               <h1>{d.canonical_name}</h1>
               {d.source_script_name && <span className="hebrew" style={{ fontSize: 30, color: "var(--gold)" }}>{d.source_script_name}</span>}
             </div>
             <div className="muted">{d.phonetic_name}{d.transliterated_name && <span className="mono"> · {d.transliterated_name}</span>}{d.aliases.length > 0 && ` · ${d.aliases.join(" · ")}`}</div>
-            <div className="mono faint" style={{ marginTop: 4 }}>{d.entity_id} · {d.tipnr_id ?? "no TIPNR id"} · first at <a href={href("xray", d.first_mention_verse)}>{d.first_mention_verse}</a></div>
+            <div className="mono faint" style={{ marginTop: 4 }}>{d.entity_id} · {d.tipnr_id ?? t("dossiers.no_tipnr")} · <Msg k="dossiers.first_at" vars={{ verse: <a href={href("xray", d.first_mention_verse)}>{d.first_mention_verse}</a> }} /></div>
           </div>
           <ReviewBar itemKey={`entity:${d.entity_id}`} />
         </div>
         <p style={{ marginBottom: 6 }}>{d.summary_bio}</p>
-        <div className="muted" style={{ fontSize: 13 }}><b className="hud upper" style={{ fontSize: 10, color: "var(--gold)" }}>Name means&nbsp;</b>{d.etymology_meaning}</div>
+        <div className="muted" style={{ fontSize: 13 }}><b className="hud upper" style={{ fontSize: 10, color: "var(--gold)" }}>{t("dossiers.name_means")}&nbsp;</b>{d.etymology_meaning}</div>
       </Panel>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
-        <Panel title="Stats">
+        <Panel title={t("dossiers.stats")}>
           <div className="grid" style={{ gap: 8 }}>
-            <StatBar label="Events" value={row?.events ?? 0} max={max("events")} color="var(--amber)" />
-            <StatBar label="Interactions" value={row?.interactions ?? 0} max={max("interactions")} color="var(--cyan)" />
-            <StatBar label="States" value={row?.states ?? 0} max={max("states")} color="var(--green)" />
-            <StatBar label="Mentions" value={data.mentions.length} max={Math.max(data.mentions.length, 40)} color="var(--violet)" />
+            <StatBar label={t("dossiers.stat.events")} value={row?.events ?? 0} max={max("events")} color="var(--amber)" />
+            <StatBar label={t("dossiers.stat.interactions")} value={row?.interactions ?? 0} max={max("interactions")} color="var(--cyan)" />
+            <StatBar label={t("dossiers.stat.states")} value={row?.states ?? 0} max={max("states")} color="var(--green)" />
+            <StatBar label={t("dossiers.stat.mentions")} value={data.mentions.length} max={Math.max(data.mentions.length, 40)} color="var(--violet)" />
           </div>
           {d.geo && (
             <div style={{ marginTop: 12 }} className="row">
               <span className="mono">{d.geo.lat.toFixed(3)}, {d.geo.lon.toFixed(3)}</span>
-              <span className="muted">{d.geo.source} {d.geo.confidence != null && `· ${Math.round(d.geo.confidence * 100)}%`}</span>
-              <button className="btn small" onClick={() => go("atlas", d.entity_id)}>On the map</button>
+              <span className="muted">{d.geo.source} {d.geo.confidence != null && `· ${pct(d.geo.confidence)}`}</span>
+              <button className="btn small" onClick={() => go("atlas", d.entity_id)}>{t("dossiers.on_the_map")}</button>
             </div>
           )}
         </Panel>
-        <Panel title="Appearances" count={data.mentions.length}>
+        <Panel title={t("dossiers.appearances")} count={data.mentions.length}>
           {chapters.map((c) => (
             <div key={c.ref} style={{ display: "grid", gridTemplateColumns: "56px 1fr", gap: 8, alignItems: "end", marginBottom: 6 }}>
               <span className="mono muted" style={{ fontSize: 10 }}>{c.ref.replace(".", " ")}</span>
@@ -129,11 +149,11 @@ function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
               </div>
             </div>
           ))}
-          {data.mentions.length === 0 && <div className="muted">No word-level mentions (not a TIPNR individual).</div>}
+          {data.mentions.length === 0 && <div className="muted">{t("dossiers.no_mentions")}</div>}
         </Panel>
       </div>
       {d.components.length > 0 && (
-        <Panel title="State timeline" count={d.components.length}>
+        <Panel title={t("dossiers.state_timeline")} count={d.components.length}>
           <div style={{ position: "relative" }}>
             {d.components.map((c) => {
               const a = pos(c.acquired_at_verse), b = c.expired_at_verse ? pos(c.expired_at_verse) : 1;
@@ -154,14 +174,14 @@ function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
         </Panel>
       )}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
-        <Panel title="Events" count={d.events.length}>
+        <Panel title={t("dossiers.events")} count={d.events.length}>
           {d.events.map((e) => (
             <div key={e.event_id} style={{ fontSize: 13, marginBottom: 4 }}>
               <a href={href("chronicle", e.event_id)}>{e.title}</a> <span className="mono muted">{short(e.verse_start)} · {e.start_label}</span>
             </div>
           ))}
         </Panel>
-        <Panel title="Interactions" count={d.interactions.length}>
+        <Panel title={t("dossiers.interactions")} count={d.interactions.length}>
           {d.interactions.map((x) => (
             <div key={x.edge_id} style={{ fontSize: 13, marginBottom: 4 }}>
               <a href={href("dossiers", x.source.entity_id)}>{x.source.name}</a>{" "}
@@ -178,24 +198,25 @@ function Sheet({ id, roster }: { id: string; roster: EntityRow[] }) {
 }
 
 export default function Dossiers({ route }: { route: Route }) {
+  const t = useT();
   const { lang, ledger } = useApp();
   const { data } = useApi<EntityRow[]>(`/api/entities?lang=${lang}`);
   const [type, setType] = useState<string | null>(null);
   const roster = useMemo(() => (data ?? [])
     .filter((r) => !type || r.entity_type === type)
     .sort((a, b) => TYPES.indexOf(a.entity_type) - TYPES.indexOf(b.entity_type) || b.events - a.events || a.name.localeCompare(b.name)), [data, type]);
-  if (!data) return <Loading what="Mustering" />;
+  if (!data) return <Loading what={t("dossiers.loading")} />;
   const id = route.arg || data.find((r) => r.entity_type === "PERSON")?.entity_id || data[0]?.entity_id;
   return (
     <div className="view" style={{ display: "grid", gridTemplateColumns: "300px minmax(0, 1fr)", gap: 16 }}>
       <div>
-        <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>Personnel & places</div>
-        <h1 style={{ marginBottom: 10 }}>Dossiers</h1>
+        <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>{t("dossiers.kicker")}</div>
+        <h1 style={{ marginBottom: 10 }}>{t("dossiers.title")}</h1>
         <div className="row" style={{ flexWrap: "wrap", gap: 4, marginBottom: 10 }}>
-          <span className={`chip click ${!type ? "on" : ""}`} onClick={() => setType(null)}>All <span className="n">{data.length}</span></span>
-          {TYPES.filter((t) => data.some((r) => r.entity_type === t)).map((t) => (
-            <span key={t} className={`chip click ${type === t ? "on" : ""}`} onClick={() => setType(t)}>
-              <span style={{ color: ENTITY_COLOR[t] }}>{ENTITY_GLYPH[t]}</span>{t.replace("_", " ").toLowerCase()}
+          <span className={`chip click ${!type ? "on" : ""}`} onClick={() => setType(null)}>{t("dossiers.all")} <span className="n">{num(data.length)}</span></span>
+          {TYPES.filter((ty) => data.some((r) => r.entity_type === ty)).map((ty) => (
+            <span key={ty} className={`chip click ${type === ty ? "on" : ""}`} onClick={() => setType(ty)}>
+              <span style={{ color: ENTITY_COLOR[ty] }}>{ENTITY_GLYPH[ty]}</span>{typeLabel(t, ty)}
             </span>
           ))}
         </div>
@@ -207,7 +228,7 @@ export default function Dossiers({ route }: { route: Route }) {
                 <span style={{ fontSize: 18, color: ENTITY_COLOR[r.entity_type] }}>{ENTITY_GLYPH[r.entity_type]}</span>
                 <span>
                   <div className="hud" style={{ fontWeight: 700, fontSize: 14 }}>{r.name}</div>
-                  <div className="mono faint" style={{ fontSize: 10 }}>{r.events} ev · {r.interactions} int · {r.states} st · {chapterOf(r.first_mention_verse)}</div>
+                  <div className="mono faint" style={{ fontSize: 10 }}>{t("dossiers.count.events", { count: r.events })} · {t("dossiers.count.interactions", { count: r.interactions })} · {t("dossiers.count.states", { count: r.states })} · {chapterOf(r.first_mention_verse)}</div>
                 </span>
                 <span className={`st-${status ?? ""}`} style={{ fontSize: 10 }}>{status === "approved" ? "✦" : status === "changes_requested" ? "!" : "•"}</span>
               </a>
@@ -215,7 +236,7 @@ export default function Dossiers({ route }: { route: Route }) {
           })}
         </div>
       </div>
-      {id ? <Sheet id={id} roster={data} /> : <div className="empty">No entities yet</div>}
+      {id ? <Sheet id={id} roster={data} /> : <div className="empty">{t("dossiers.empty")}</div>}
     </div>
   );
 }

@@ -6,7 +6,8 @@ import react from "@vitejs/plugin-react";
 // Illuminated Codex (codex.html) for reading. The dev server proxies /api to the Python server.
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5173, proxy: { "/api": "http://127.0.0.1:8765" } },
+  // The English messages live with the Python package (urim/i18n/en), one level up.
+  server: { port: 5173, proxy: { "/api": "http://127.0.0.1:8765" }, fs: { allow: [".."] } },
   build: {
     outDir: "dist",
     emptyOutDir: true,

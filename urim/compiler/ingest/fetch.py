@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import time
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -251,7 +252,19 @@ class Fetcher:
             }
         return path
 
-    def _download(self, url: str, path: Path) -> str:
+    def _download(self, url: str, path: Path, attempts: int = 4) -> str:
+        """Download with retries: a whole book is hundreds of requests, and servers hiccup."""
+        for attempt in range(attempts):
+            try:
+                return self._download_once(url, path)
+            except (httpx.TransportError, httpx.HTTPStatusError) as e:
+                status = e.response.status_code if isinstance(e, httpx.HTTPStatusError) else None
+                if attempt == attempts - 1 or (status is not None and status < 500):
+                    raise
+                time.sleep(2 ** (attempt + 1))
+        raise AssertionError("unreachable")
+
+    def _download_once(self, url: str, path: Path) -> str:
         path.parent.mkdir(parents=True, exist_ok=True)
         tmp = path.with_name(path.name + ".part")
         h = hashlib.sha256()

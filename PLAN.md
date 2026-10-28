@@ -22,6 +22,8 @@ twice, and no absolute anchor.
 | Python | 3.13, uv-managed (sqlite-vec needs `enable_load_extension`) |
 | MCP | SDK 2.x `MCPServer` (FastMCP was renamed in 2.0) |
 | Genesis frame (2026-10-28) | The Masoretic chain: pre-monarchic anchors are derived inside each scheme from its date for Solomon, with margins of centuries |
+| Autonomous runs (2026-10-28) | A code conductor (`urim run`) over headless Claude Code sessions on the subscription; the critic approves in its name and escalates what two rounds cannot settle; Sonnet writes, Opus critiques |
+| Learning (2026-10-28) | Quizzes are built from the bundles by code (no model at quiz time) except retelling, which Claude grades; mastery by spaced repetition, proven by an exam at 80% |
 
 ## Phase 0: skeleton without LLM ✅
 
@@ -208,7 +210,7 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
 
 ## Phase 3: localization + vectors
 
-- [ ] Localizer agent → `i18n/ru` for 1 Kings 17–19, aligned to source tokens, auditing the Synodal
+- [x] Localizer agent: see Phase 6
 - [ ] `urim compile-lang --lang ru` end to end (Localizer + link + package `.urim-lang` zip)
 - [x] **M1 vectors.** bge-m3 (`Xenova/bge-m3` int8 export with pooling, 569 MB, pinned by
       commit and published SHA-256; `urim model fetch`) embeds every search document at link
@@ -277,6 +279,83 @@ Reviewing should feel like playing, not auditing. Planned elements, to be design
       structured outputs, prompt caching and Message Batches; measured cost per chapter decides
       the model mix
 - [ ] Additional chronology schemes (e.g. Galil) for the divided monarchy
+
+## Phase 5: autonomous runs and learning
+
+Manual review rounds showed the agents doing better work than expected, so the loop runs
+itself: name a book, the conductor writes, critiques and revises it, and the War Room turns
+from a review queue into a place to learn the book and prove it.
+
+**M1: the conductor**
+- [x] `urim run <book|range>`: plans from the corpus and its ledger (`urim/conductor/plan.py`),
+      so a stopped run resumes by planning again. Chronology one chapter at a time, ontology
+      after it, philology windows in parallel; `--parallel 3`, `--rounds 2`, `--model
+      agent=id`, `--layers`, `--plan`. Ingests the book first when it is missing
+- [x] Sessions: `claude -p "/urim-<agent> <scope>"` with stream-json watched for activity and
+      usage, an unattended note in the system prompt, the skills' tools allowed, the gold denied
+      (`Read(./fixtures/**)` and the demo). Usage limits pause the run until the reset time;
+      failures retry up to three times, then the layer is marked failed
+- [x] After the GEN.38–40 pilot: API failures (an account refusal ended it) pause the run with
+      a growing wait instead of counting as failures; running again retries failed layers; the
+      unattended note says only `uv run urim` runs, since most sessions lost turns on refused
+      python, heredocs and pipes
+- [x] Critic v2 (`urim-critic@2`): one JSON report per chapter layer (`urim schema critic`,
+      checked by `urim critique`), applied by the run in the critic's name: send back,
+      approve, or on the last round escalate. The ledger records who decided (`by`)
+- [x] Merges and review decisions take a lock on the corpus; paths can come from `URIM_*`
+      environment variables (a run against a scratch corpus)
+- [x] Campaign view: chapter × layer grid, running sessions and what they are doing, the
+      session table with verdicts, tokens and cost, escalations, the log
+- [x] Genesis 1–36 anchors: Jacob, Isaac and Abraham's births, the Flood, creation (AM 1) on the
+      Masoretic ages; `urim-chronologist@5` (ages, dated genealogies, the creation week, the
+      Flood's calendar)
+- [x] `urim ingest GEN`: all 1,533 verses, eight commentaries and Targums, 453 registry names
+      (102 placed). Ingest now retries server errors and skips commentary chapters a work does
+      not have (Rashbam's Genesis has gaps); OpenBible scores below zero are confidence 0
+- [ ] Pilot: `urim run GEN.38-40`, then read the escalations and the critic's decisions on a
+      sample before the whole book
+- [ ] `urim run GEN`: the whole book; measure sessions, tokens and wall time per chapter
+- [ ] Later: ontology for chapters written out of order (GEN.37 before GEN.29) still makes a
+      later chapter the home of people the text names earlier; the linker warns
+
+**M2: learning**
+- [x] Quiz kinds built from the bundles (`urim/learn/quiz.py`): who, scene, cause, state,
+      deed; order, map, place, span, age; Hebrew gloss, Hebrew word, verse cloze. Distractors
+      from the book and from search by meaning; answers masked out of the prompts
+- [x] Spaced repetition per fact, practice (due, then new), exams of fifteen across every kind
+      (80% proves a chapter), all in `data/learner.sqlite`
+- [x] Retelling graded by a headless Claude session against the chapter's events: covered,
+      missed, contradicted (about 15 seconds on Sonnet)
+- [x] Learn view (chapter cards, the quiz runner with map, ordering and Hebrew), the Command
+      map's Knowing layer, "Test yourself" at the end of each Codex chapter
+- [ ] Later: kinship questions (the ontology has no family edges yet), quizzes across a whole
+      book, streaks and XP for learning like those for review
+
+## Phase 6: localization through agents
+
+Everything in the War Room and the Codex can be translated by an agent, and its progress
+tracked. Decisions (2026-10-28): verses are translated afresh from the Hebrew, with the English
+layers and the language's own Bible as references; everything else from the English. Russian
+first (bundle and Synodal baseline already in place).
+
+- [x] Interface messages: English catalog with the code (`urim/i18n/en/<namespace>.json`,
+      notes for translators, plural forms), `t()` / `<Msg>` in both apps and `msg` in Python,
+      `/api/messages`, per-message fallback to English, translations in
+      `corpus/i18n/<lang>/_ui.json`. Every screen converted (about 800 messages); dates and
+      numbers follow the language; Cyrillic faces for the headings (Exo 2, Forum)
+- [x] Localizer skill (`urim-localizer@1`), fragment (`urim schema localization`), packets
+      (`urim task localization <scope> --lang ru`) for chapter texts, verse windows, interface
+      namespaces and the bundle; merges keyed by language with the English source's hash, so
+      changed English marks translations stale and unlocks them
+- [x] Critic v3 reviews a language layer (`/urim-critic GEN.38 ru`); review cards show a
+      translation next to its English
+- [x] `urim run … --lang ru`: interface and bundle first, chapter texts after their English
+      settles, verse windows after their philology, then the critic
+- [x] Progress: `urim lang [ru]`, the War Room's Languages view, the translation column in
+      Campaign; quizzes and retelling in the learner's language
+- [ ] First real run: `urim run GEN.38-40 --lang ru`
+- [ ] Later: localized map base layer (Natural Earth names), structured next steps on Command
+      instead of English sentences, run logs and agents' working notes stay English
 
 ## Open questions
 

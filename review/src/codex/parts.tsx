@@ -1,6 +1,8 @@
 import { createContext, useContext, useState } from "react";
 import type { ReactNode } from "react";
 import type { Token } from "../api";
+import { useT } from "../i18n";
+import type { TFunc } from "../i18n";
 import { decodeMorph } from "../util";
 
 // --- language ---------------------------------------------------------------------------------
@@ -58,26 +60,56 @@ export function Roundel({ name, type, size = 54 }: { name: string; type: string;
   );
 }
 
-export const TYPE_NAME: Record<string, string> = {
-  PERSON: "Person", DEITY: "The Divine", SPIRIT_BEING: "Heavenly being", LOCATION: "Place",
-  GROUP: "People", ARTIFACT: "Object", SUBSTANCE: "Substance",
-};
+/** An entity type as the codex names it (softer words than the War Room's). */
+export function typeName(t: TFunc, type: string): string {
+  switch (type) {
+    case "PERSON": return t("codex.people.type.PERSON");
+    case "DEITY": return t("codex.people.type.DEITY");
+    case "SPIRIT_BEING": return t("codex.people.type.SPIRIT_BEING");
+    case "LOCATION": return t("codex.people.type.LOCATION");
+    case "GROUP": return t("codex.people.type.GROUP");
+    case "ARTIFACT": return t("codex.people.type.ARTIFACT");
+    case "SUBSTANCE": return t("codex.people.type.SUBSTANCE");
+    default: return type;
+  }
+}
+
+/** "14 September": the day and the month's name in the interface language. */
+export function dayMonth(t: TFunc, lang: string, d: Date, long = false): string {
+  const month = new Intl.DateTimeFormat(lang, { day: "numeric", month: long ? "long" : "short", timeZone: "UTC" })
+    .formatToParts(d).find((p) => p.type === "month")?.value ?? "";
+  return t("codex.hours.day_month", { day: String(d.getUTCDate()).padStart(2, "0"), month });
+}
+
+/** A small "EN" beside text that has no translation in the chosen language yet. */
+export function LangMark({ from }: { from: string | null | undefined }) {
+  const t = useT();
+  const { lang } = useLang();
+  if (!from || from === lang) return null;
+  return (
+    <span className="small-caps muted" title={t("codex.fallback.title")}
+          style={{ fontSize: 10, fontStyle: "normal", fontWeight: 400, letterSpacing: "0.08em", marginLeft: 6, verticalAlign: "middle", cursor: "help" }}>
+      {from.toUpperCase()}
+    </span>
+  );
+}
 
 // --- words ------------------------------------------------------------------------------------------
-export function WordCard({ t }: { t: Token }) {
-  const grammar = decodeMorph(t.morph).slice(1);
-  const hebrewLemma = t.lemma && /[֐-׿]/.test(t.lemma);
+export function WordCard({ t: tok }: { t: Token }) {
+  const t = useT();
+  const grammar = decodeMorph(tok.morph).slice(1);
+  const hebrewLemma = tok.lemma && /[֐-׿]/.test(tok.lemma);
   return (
     <div>
-      <div className="he">{t.surface}</div>
-      {t.translit && <div className="muted" style={{ fontStyle: "italic" }}>{t.translit}</div>}
-      {t.gloss && <div style={{ fontSize: 17, margin: "2px 0 6px" }}>“{t.gloss}”</div>}
+      <div className="he">{tok.surface}</div>
+      {tok.translit && <div className="muted" style={{ fontStyle: "italic" }}>{tok.translit}</div>}
+      {tok.gloss && <div style={{ fontSize: 17, margin: "2px 0 6px" }}>{t("codex.folio.word.gloss", { gloss: tok.gloss })}</div>}
       <dl className="kv">
-        {hebrewLemma && <><dt>From</dt><dd style={{ fontFamily: "var(--hebrew)", fontSize: 18 }}>{t.lemma}</dd></>}
-        {grammar.length > 0 && <><dt>Form</dt><dd>{grammar.join("; ")}</dd></>}
-        {t.strongs && <><dt>Strong’s</dt><dd style={{ fontFamily: "var(--mono)", fontSize: 13 }}>{t.strongs}</dd></>}
-        {t.reading && <><dt>Reading</dt><dd>{t.reading.startsWith("Q") ? "Qere (read aloud), Ketiv written differently" : t.reading}</dd></>}
-        {t.name_ref && <><dt>Names</dt><dd className="rubric-text">{t.name_ref.split("@")[0].replace("|", " / ")}</dd></>}
+        {hebrewLemma && <><dt>{t("codex.folio.word.from")}</dt><dd style={{ fontFamily: "var(--hebrew)", fontSize: 18 }}>{tok.lemma}</dd></>}
+        {grammar.length > 0 && <><dt>{t("codex.folio.word.form")}</dt><dd>{grammar.join("; ")}</dd></>}
+        {tok.strongs && <><dt>{t("codex.folio.word.strongs")}</dt><dd style={{ fontFamily: "var(--mono)", fontSize: 13 }}>{tok.strongs}</dd></>}
+        {tok.reading && <><dt>{t("codex.folio.word.reading")}</dt><dd>{tok.reading.startsWith("Q") ? t("codex.folio.word.qere") : tok.reading}</dd></>}
+        {tok.name_ref && <><dt>{t("codex.folio.word.names")}</dt><dd className="rubric-text">{tok.name_ref.split("@")[0].replace("|", " / ")}</dd></>}
       </dl>
     </div>
   );

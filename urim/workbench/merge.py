@@ -26,6 +26,7 @@ from urim.ir.load import inputs_root, load_sources, read_model, write_model
 from urim.ir.models import CoreChapterIR, I18nChapterIR, Participant
 from urim.workbench.fragments import (
     ChronologyFragment,
+    LocalizationFragment,
     OntologyFragment,
     PhilologyFragment,
     key,
@@ -58,6 +59,8 @@ class MergeResult:
     written: list[Path] = field(default_factory=list)
     timeline: list[TimeRow] = field(default_factory=list)
     causes: list[CauseRow] = field(default_factory=list)
+    sources: dict[str, str] = field(default_factory=dict)  # translations: key -> English hash
+    relink: bool = True  # interface messages are not in the bundles
 
     @property
     def ok(self) -> bool:
@@ -534,8 +537,16 @@ def _merge_philology(
 
 
 def merge_fragment(
-    fragment: Fragment, corpus: Path, inputs: Path, *, dry_run: bool = False
+    fragment: Fragment | LocalizationFragment,
+    corpus: Path,
+    inputs: Path,
+    *,
+    dry_run: bool = False,
 ) -> MergeResult:
+    if isinstance(fragment, LocalizationFragment):
+        from urim.workbench.localize import merge_localization
+
+        return merge_localization(fragment, corpus, inputs, dry_run=dry_run)
     corpus, inputs = Path(corpus), Path(inputs)
     result = MergeResult(agent=fragment.agent, chapter_ref=fragment.chapter_ref)
     sources = load_sources(inputs_root(corpus, inputs))
@@ -585,9 +596,13 @@ def merge_fragment(
     return result
 
 
-def _record(fragment: Fragment, ledgers: dict[str, ChapterLedger], result: MergeResult) -> None:
+def _record(
+    fragment: Fragment | LocalizationFragment,
+    ledgers: dict[str, ChapterLedger],
+    result: MergeResult,
+) -> None:
     """Provenance and agent notes into the ledger; removed items leave it."""
-    lang = "en"
+    lang = getattr(fragment, "lang", "en")
     notes: dict[str, list[str]] = defaultdict(list)
     chapter_notes = []
     for n in fragment.reviewer_notes:
@@ -609,6 +624,7 @@ def _record(fragment: Fragment, ledgers: dict[str, ChapterLedger], result: Merge
             produced_at=stamp,
             agent_notes=notes.get(k, []),
             history=old.history if old else [],
+            source=result.sources.get(k),
         )
     for k in result.removed:
         led.items.pop(k, None)

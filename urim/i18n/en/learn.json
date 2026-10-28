@@ -1,0 +1,301 @@
+{
+ "learn.title": {
+  "text": "Learn",
+  "note": "Heading of the learning screen"
+ },
+ "learn.kicker": {
+  "text": "Prove it",
+  "note": "Small heading above 'Learn'"
+ },
+ "learn.loading_overview": {
+  "text": "Counting what you know",
+  "note": "Loading message; an ellipsis follows"
+ },
+ "learn.loading_questions": {
+  "text": "Drawing questions",
+  "note": "Loading message; an ellipsis follows"
+ },
+ "learn.facts_known": {
+  "one": "{count} fact known",
+  "other": "{count} facts known"
+ },
+ "learn.chapters_proven": {
+  "one": "{count} chapter proven",
+  "other": "{count} chapters proven",
+  "note": "Chapters whose exam you passed"
+ },
+ "learn.due": {
+  "text": "{count} due",
+  "note": "Facts due for review today (spaced repetition)"
+ },
+ "learn.intro": {
+  "one": "Practice brings back what is due, then what you have not met. A fact counts as known once you recall it {count} day apart; an exam of {size} mixed questions at {mark} proves a chapter.",
+  "other": "Practice brings back what is due, then what you have not met. A fact counts as known once you recall it {count} days apart; an exam of {size} mixed questions at {mark} proves a chapter.",
+  "note": "{mark} is the pass mark as a percentage, e.g. '80%'"
+ },
+ "learn.show_text_only": {
+  "one": "Show {count} chapter with Hebrew and KJV only",
+  "other": "Show {count} chapters with Hebrew and KJV only",
+  "note": "Button: also list chapters that have only the source text and the King James Version, no story yet"
+ },
+ "learn.family.story": {
+  "text": "Story",
+  "note": "Question family: who did what, and why"
+ },
+ "learn.family.time_place": {
+  "text": "Time & place",
+  "note": "Question family: when, how long, and where"
+ },
+ "learn.family.hebrew": {
+  "text": "Hebrew & text",
+  "note": "Question family: Hebrew words and verse text"
+ },
+ "learn.kind.who": {
+  "text": "Who",
+  "note": "Question kind: who did something"
+ },
+ "learn.kind.scene": {
+  "text": "Scene",
+  "note": "Question kind: which scene a detail belongs to"
+ },
+ "learn.kind.cause": {
+  "text": "Cause",
+  "note": "Question kind: what caused an event"
+ },
+ "learn.kind.state": {
+  "text": "State",
+  "note": "Question kind: a person's or thing's state at a moment"
+ },
+ "learn.kind.deed": {
+  "text": "Deed",
+  "note": "Question kind: what someone did"
+ },
+ "learn.kind.order": {
+  "text": "Order",
+  "note": "Question kind: put scenes in order"
+ },
+ "learn.kind.where": {
+  "text": "Map",
+  "note": "Question kind: click on the map where it happened"
+ },
+ "learn.kind.place": {
+  "text": "Place",
+  "note": "Question kind: where something happened, chosen from a list"
+ },
+ "learn.kind.span": {
+  "text": "Span",
+  "note": "Question kind: how much time passed between two scenes"
+ },
+ "learn.kind.age": {
+  "text": "Age",
+  "note": "Question kind: how old someone was"
+ },
+ "learn.kind.gloss": {
+  "text": "Word",
+  "note": "Question kind: what a Hebrew word means"
+ },
+ "learn.kind.word": {
+  "text": "Hebrew",
+  "note": "Question kind: which Hebrew word is used"
+ },
+ "learn.kind.cloze": {
+  "text": "Verse",
+  "note": "Question kind: fill the gap in a verse"
+ },
+ "learn.unit.hours": {
+  "text": "hours",
+  "note": "Unit of a number answer"
+ },
+ "learn.unit.days": {
+  "text": "days",
+  "note": "Unit of a number answer"
+ },
+ "learn.unit.months": {
+  "text": "months",
+  "note": "Unit of a number answer"
+ },
+ "learn.unit.years": {
+  "text": "years",
+  "note": "Unit of a number answer"
+ },
+ "learn.mode.practice": {
+  "text": "practice",
+  "note": "Learning mode, beside the chapter name"
+ },
+ "learn.mode.exam": {
+  "text": "exam",
+  "note": "Learning mode, beside the chapter name"
+ },
+ "learn.mode.retell": {
+  "text": "retell",
+  "note": "Learning mode: retell the chapter from memory"
+ },
+ "learn.answer.in_unit": {
+  "text": "in {unit}",
+  "note": "Placeholder of a number answer field: 'in days'"
+ },
+ "learn.answer.word": {
+  "text": "the word",
+  "note": "Placeholder of a text answer field"
+ },
+ "learn.check": {
+  "text": "Check",
+  "note": "Button: submit the answer; the Enter key symbol follows"
+ },
+ "learn.map_hint": "Click where it happened.",
+ "learn.feedback.right": {
+  "text": "Right",
+  "note": "Feedback on a correct answer"
+ },
+ "learn.feedback.close": {
+  "text": "Close · {score}",
+  "note": "Feedback on a partly correct answer; {score} is a percentage"
+ },
+ "learn.feedback.wrong": {
+  "text": "Not quite",
+  "note": "Feedback on a wrong answer"
+ },
+ "learn.feedback.answer": {
+  "text": "Answer:",
+  "note": "Label before the correct answer"
+ },
+ "learn.feedback.read": {
+  "text": "Read {ref}",
+  "note": "Link to read the verse in the Codex; {ref} is chapter:verse such as '38:4'"
+ },
+ "learn.feedback.next_in": {
+  "one": "next in {count} d",
+  "other": "next in {count} d",
+  "note": "When the question comes back (spaced repetition); 'd' abbreviates days"
+ },
+ "learn.feedback.again_soon": {
+  "text": "again in 10 min",
+  "note": "The question comes back in ten minutes"
+ },
+ "learn.next": {
+  "text": "Next",
+  "note": "Button: next question; the Enter key symbol follows"
+ },
+ "learn.quiz": {
+  "text": "Quiz",
+  "note": "Heading of an error notice in the quiz"
+ },
+ "learn.nothing.title": "Nothing to ask",
+ "learn.nothing.text": "This chapter has no material for these kinds yet.",
+ "learn.result.exam": "Exam result",
+ "learn.result.round": {
+  "text": "Round done",
+  "note": "Panel title after a practice round"
+ },
+ "learn.result.passed": {
+  "text": "passed",
+  "note": "Under the exam score"
+ },
+ "learn.result.not_yet": {
+  "text": "not yet",
+  "note": "Under the exam score when the exam is not passed"
+ },
+ "learn.result.score": {
+  "text": "score",
+  "note": "Under the score of a practice round"
+ },
+ "learn.result.proven": {
+  "text": "{chapter} proven.",
+  "note": "{chapter} is a chapter reference such as GEN.37"
+ },
+ "learn.result.try_again": {
+  "text": "{mark} proves a chapter. Practise the misses and try again.",
+  "note": "{mark} is the pass mark as a percentage"
+ },
+ "learn.of": {
+  "text": "of {total}",
+  "note": "After a score: out of how many questions or points"
+ },
+ "learn.another_round": "Another round",
+ "learn.all_chapters": "All chapters",
+ "learn.chapters": {
+  "text": "Chapters",
+  "note": "Back link to the list of chapters; an arrow precedes it"
+ },
+ "learn.retell.title": {
+  "text": "Retell {chapter}",
+  "note": "{chapter} is a chapter reference such as GEN.37"
+ },
+ "learn.retell.words": {
+  "one": "{count} word",
+  "other": "{count} words",
+  "note": "Length of the retelling typed so far"
+ },
+ "learn.retell.intro": "From memory: who, what, where, in what order. Claude checks it against the chapter's events (about a minute).",
+ "learn.retell.placeholder": {
+  "text": "Joseph, seventeen, was shepherding with his brothers…",
+  "note": "Example opening of a retelling of Genesis 37, shown in the empty text box"
+ },
+ "learn.retell.busy": {
+  "text": "Claude is reading…",
+  "note": "Button while the retelling is being graded"
+ },
+ "learn.retell.check": {
+  "text": "Check my retelling",
+  "note": "Button: send the retelling to be graded"
+ },
+ "learn.retell.feedback": {
+  "text": "Feedback",
+  "note": "Panel title: the grade of a retelling"
+ },
+ "learn.retell.order": "The order of the scenes differs from the text.",
+ "learn.retell.check_label": {
+  "text": "Check",
+  "note": "Label of a claim in the retelling that needs checking"
+ },
+ "learn.retell.error": {
+  "text": "“{claim}” — {correction}",
+  "note": "A claim quoted from the retelling, then its correction; use the language's quotation marks"
+ },
+ "learn.retell.told": {
+  "text": "Told",
+  "note": "Column heading: scenes the retelling covered"
+ },
+ "learn.retell.missed": {
+  "text": "Missed",
+  "note": "Column heading: scenes the retelling left out"
+ },
+ "learn.card.proven": {
+  "text": "Exam passed",
+  "note": "Tooltip of the star on a proven chapter"
+ },
+ "learn.card.due": {
+  "text": "{count} due",
+  "note": "Facts of this chapter due for review"
+ },
+ "learn.card.known": {
+  "one": "{known}/{count} known",
+  "other": "{known}/{count} known",
+  "note": "Facts known out of the chapter's facts"
+ },
+ "learn.card.scenes": {
+  "one": "{count} scene",
+  "other": "{count} scenes",
+  "note": "Events of the chapter"
+ },
+ "learn.card.exam": {
+  "text": "exam {score}",
+  "note": "Best exam score, a percentage"
+ },
+ "learn.card.retold": {
+  "text": "retold {score}",
+  "note": "Best retelling score, out of 100"
+ },
+ "learn.card.practice": {
+  "text": "Practice",
+  "note": "Button: start a practice round"
+ },
+ "learn.card.exam_button": {
+  "text": "Exam",
+  "note": "Button: take the chapter exam"
+ },
+ "learn.card.retell": {
+  "text": "Retell",
+  "note": "Button: retell the chapter from memory"
+ }
+}

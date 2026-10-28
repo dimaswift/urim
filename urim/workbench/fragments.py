@@ -6,8 +6,10 @@ Ownership keeps sessions from stepping on each other:
     ontology    entities, event participants and locations, states and closures, rituals and
                 their occurrences, interactions, their English text
     philology   verse layers, notes and word glosses (English)
+    localization  everything above in one other language, interface messages, bundle labels
 
-Every reviewable unit has a ledger key `kind:id`, e.g. `event:evt.1kgs_18.carmel_contest`.
+Every reviewable unit has a ledger key `kind:id`, e.g. `event:evt.1kgs_18.carmel_contest`; a
+translation's key carries its language: `event.ru:evt.1kgs_18.carmel_contest`.
 """
 
 from __future__ import annotations
@@ -19,6 +21,8 @@ from typing import Annotated, Literal
 from pydantic import Field, TypeAdapter, ValidationError, model_validator
 
 from urim.ir.models import (
+    AnchorText,
+    BookName,
     CausalEdgeIR,
     CausalText,
     ChapterRef,
@@ -40,6 +44,7 @@ from urim.ir.models import (
     SystemIR,
     SystemText,
     VerseText,
+    VocabEntry,
 )
 
 AgentName = Literal["chronology", "ontology", "philology"]
@@ -133,13 +138,70 @@ class PhilologyFragment(_Fragment):
     verses: list[VerseText] = Field(description="Layers, notes and glosses per verse")
 
 
+class InterfaceMessage(IRModel):
+    key: str = Field(description="The message key as the packet lists it, e.g. campaign.sessions")
+    text: str | None = Field(
+        default=None,
+        description="The translation. Keep every {placeholder} of the English, spelled the same",
+    )
+    forms: dict[str, str] | None = Field(
+        default=None,
+        description="Instead of text, for messages counted by {count}: one form per plural "
+        "category of the language, as the packet names them (Russian: one, few, many, other)",
+    )
+
+
+class BundleTexts(IRModel):
+    lang_name: str | None = Field(default=None, description="The language's own name for itself")
+    books: list[BookName] = Field(default=[], description="Book names, by the English book_code")
+    vocab: list[VocabEntry] = Field(default=[], description="Labels, by the English kind and code")
+    anchors: list[AnchorText] = Field(
+        default=[], description="Chronology anchors' labels and notes, by anchor_id"
+    )
+
+
+class LocalizationFragment(IRModel):
+    agent: Literal["localization"]
+    lang: str = Field(
+        pattern=r"^[a-z]{2,3}$", description="The language you write, e.g. ru; never en"
+    )
+    scope: str = Field(
+        description="As the packet names it: GEN.38 (a chapter's texts), GEN.38.1-12 (verses), "
+        "ui.<namespace> (interface messages), bundle (book names and labels)"
+    )
+    produced_by: Provenance
+    reviewer_notes: list[ReviewerNote] = []
+    events: list[EventText] = []
+    causal_edges: list[CausalText] = []
+    entities: list[EntityText] = []
+    components: list[ComponentText] = []
+    systems: list[SystemText] = []
+    system_instances: list[InstanceText] = []
+    edges: list[EdgeText] = []
+    verses: list[VerseText] = Field(
+        default=[],
+        description="Verse layers in the language: literal and dramatic translated from the "
+        "Hebrew, commentary and notes from the English, a gloss for every Hebrew word",
+    )
+    messages: list[InterfaceMessage] = []
+    bundle: BundleTexts | None = None
+
+    @property
+    def chapter_ref(self) -> str:
+        """The chapter a texts or verses scope belongs to; the scope itself otherwise."""
+        parts = self.scope.split(".")
+        return ".".join(parts[:2]) if len(parts) >= 2 and parts[1].isdigit() else self.scope
+
+
 Fragment = Annotated[
-    ChronologyFragment | OntologyFragment | PhilologyFragment, Field(discriminator="agent")
+    ChronologyFragment | OntologyFragment | PhilologyFragment | LocalizationFragment,
+    Field(discriminator="agent"),
 ]
-FRAGMENT_MODELS: dict[str, type[_Fragment]] = {
+FRAGMENT_MODELS: dict[str, type[IRModel]] = {
     "chronology": ChronologyFragment,
     "ontology": OntologyFragment,
     "philology": PhilologyFragment,
+    "localization": LocalizationFragment,
 }
 _adapter: TypeAdapter = TypeAdapter(Fragment)
 
@@ -148,7 +210,9 @@ class FragmentError(ValueError):
     pass
 
 
-def load_fragment(path: Path) -> ChronologyFragment | OntologyFragment | PhilologyFragment:
+def load_fragment(
+    path: Path,
+) -> ChronologyFragment | OntologyFragment | PhilologyFragment | LocalizationFragment:
     try:
         return _adapter.validate_json(Path(path).read_bytes())
     except ValidationError as e:
@@ -178,11 +242,12 @@ def key_for_note(item: str, agent: str, lang: str = "en") -> str | None:
         return item
     if _VERSE.match(item):
         return key(f"verse.{lang}", item)
+    tail = f".{lang}" if agent == "localization" else ""
     for prefix, kind in _PREFIX_KIND.items():
         if item.startswith(prefix):
             if kind == "event" and agent == "ontology":
                 kind = "event_links"
-            return key(kind, item)
+            return key(kind + tail, item)
     if re.match(r"^(person|deity|spirit|loc|group|artifact|substance)\.", item):
-        return key("entity", item)
+        return key("entity" + tail, item)
     return None

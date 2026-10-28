@@ -10,6 +10,7 @@ import sqlite3
 import threading
 import time
 from collections import Counter, defaultdict
+from collections.abc import Callable
 from pathlib import Path
 from typing import Any, Literal
 
@@ -21,8 +22,16 @@ from pydantic import BaseModel
 from urim import __version__
 from urim.bundles import core_path, discover_langs, sqlite_uri
 from urim.canon import parse_ref
+from urim.conductor.plan import is_escalated
+from urim.conductor.run import RunState, alive, list_runs, load_state
 from urim.config import Paths
+from urim.i18n.messages import Messages, load_translations
+from urim.i18n.progress import all_progress
 from urim.ir.load import inputs_root, load_registry
+from urim.learn.coach import EXAM_SIZE, facts_count, session
+from urim.learn.quiz import FAMILIES, Facts, chapter_facts, judge, make, parse_id
+from urim.learn.retell import RetellError, grade
+from urim.learn.store import KNOWN_DAYS, PASS_MARK, Learner
 from urim.review.cards import card, deck_order
 from urim.review.progress import overview
 from urim.runtime.engine import LanguageNotAvailable, NotFoundError, SearchUnavailable, UrimEngine
@@ -55,11 +64,26 @@ class SqlRequest(BaseModel):
     query: str
 
 
+class AnswerRequest(BaseModel):
+    question_id: str
+    response: Any
+    mode: Literal["practice", "exam"] = "practice"
+    exam_id: int | None = None
+    ms: int | None = None
+    lang: str = "en"
+
+
+class RetellRequest(BaseModel):
+    chapter: str
+    text: str
+    lang: str = "en"
+
+
 class EngineHolder:
     """One engine per bundle generation: re-created when a relink changes the files."""
 
-    def __init__(self, bundles: Path):
-        self.bundles = Path(bundles)
+    def __init__(self, bundles: Path, messages: Messages | None = None):
+        self.bundles, self.messages = Path(bundles), messages
         self._engine: UrimEngine | None = None
         self._stamp: tuple | None = None
         self._lock = threading.Lock()
@@ -71,7 +95,7 @@ class EngineHolder:
         stamp = tuple((str(p), p.stat().st_mtime_ns) for p in self._files() if p.exists())
         with self._lock:
             if stamp != self._stamp or self._engine is None:
-                self._engine = UrimEngine(self.bundles)
+                self._engine = UrimEngine(self.bundles, messages=self.messages)
                 self._stamp = stamp
             return self._engine
 
@@ -92,10 +116,18 @@ def _chapter_ordinal(chapter: str) -> int:
 
 
 def create_review_app(
-    paths: Paths, *, static_dir: Path | None = None, demo: bool = False
+    paths: Paths,
+    *,
+    static_dir: Path | None = None,
+    demo: bool = False,
+    grader: Callable[[str], str] | None = None,
 ) -> FastAPI:
-    holder = EngineHolder(paths.bundles)
+    translators = Messages(paths.corpus)  # generated words (dates, quizzes, cards) per language
+    holder = EngineHolder(paths.bundles, translators)
     app = FastAPI(title="URIM review", version=__version__)
+    # The demo corpus is the gold: answers to it stay out of your own record.
+    learner = Learner(paths.runs / "demo" / "learner.sqlite" if demo else paths.learner)
+    facts_cache: dict[tuple[int, str, str], Facts] = {}  # by engine, chapter and language
 
     @app.exception_handler(NotFoundError)
     def _not_found(_: Request, exc: NotFoundError) -> JSONResponse:
@@ -130,6 +162,19 @@ def create_review_app(
             "languages": [lang.model_dump() for lang in engine.languages()],
             "chronology_scheme": engine.core_meta.get("chronology_scheme"),
         }
+
+    @app.get("/api/messages")
+    def messages(lang: str = "en") -> dict[str, Any]:
+        """Interface translations for one language; the apps carry English themselves."""
+        return {
+            "lang": lang,
+            "messages": {} if lang == "en" else load_translations(paths.corpus, lang),
+        }
+
+    @app.get("/api/i18n/progress")
+    def i18n_progress() -> list[dict[str, Any]]:
+        """Each language's progress: chapter texts and verses, interface, bundle labels."""
+        return all_progress(paths.corpus)
 
     @app.get("/api/toc")
     def toc(lang: str = "en") -> list[dict[str, Any]]:
@@ -207,7 +252,7 @@ def create_review_app(
         ]
         counts = Counter(k.split(":")[0] for _, k, _ in scoped)
         picked = [x for x in scoped if kind is None or x[1].startswith(kind + ":")]
-        cards = [card(engine, led, k, i, lang) for led, k, i in picked]
+        cards = [card(engine, led, k, i, lang, translators(lang)) for led, k, i in picked]
         cards.sort(key=lambda c: deck_order(c, _chapter_ordinal(c["chapter"])))
         return {
             "total": len(picked),
@@ -472,6 +517,134 @@ def create_review_app(
         if path == "/" or path.endswith(".html"):
             response.headers["Cache-Control"] = "no-cache"
         return response
+
+    # --- learning -------------------------------------------------------------------------------
+
+    def facts(chapter: str, lang: str) -> Facts:
+        engine = holder.get()
+        k = (id(engine), chapter, lang)
+        cached = facts_cache.get(k)
+        # Rebuilt when the language's interface translations change, too.
+        if cached is None or cached.t is not translators(lang):
+            if len(facts_cache) > 300:
+                facts_cache.clear()
+            cached = facts_cache[k] = chapter_facts(engine, chapter, lang, translators)
+        return cached
+
+    @app.get("/api/learn/overview")
+    def learn_overview(lang: str = "en") -> dict[str, Any]:
+        rows, counts = [], {}
+        for book in toc(lang):
+            for c in book["chapters"]:
+                f = facts(c["ref"], lang)
+                counts[c["ref"]] = facts_count(f)
+                rows.append(
+                    {
+                        "chapter": c["ref"],
+                        "book": book["name"],
+                        "verses": c["verses"],
+                        "translated": c["translated"],
+                        "events": len(f.events),
+                    }
+                )
+        progress = learner.progress(counts)
+        return {
+            "chapters": [r | progress.get(r["chapter"], {}) for r in rows],
+            "families": FAMILIES,
+            "pass_mark": PASS_MARK,
+            "exam_size": EXAM_SIZE,
+            "known_days": KNOWN_DAYS,
+        }
+
+    @app.get("/api/learn/session")
+    def learn_session(
+        chapter: str,
+        mode: Literal["practice", "exam"] = "practice",
+        families: str = ",".join(FAMILIES),
+        n: int = 10,
+        lang: str = "en",
+    ) -> dict[str, Any]:
+        chosen = tuple(x for x in families.split(",") if x in FAMILIES) or tuple(FAMILIES)
+        made = session(facts(chapter, lang), learner, mode=mode, families=chosen, n=n)
+        exam_id = learner.start_exam(chapter, len(made)) if mode == "exam" and made else None
+        return {"exam_id": exam_id, "questions": [q.model_dump() for q, _ in made]}
+
+    @app.post("/api/learn/answer")
+    def learn_answer(req: AnswerRequest) -> dict[str, Any]:
+        kind, chapter, subject, seed = parse_id(req.question_id)
+        f = facts(chapter, req.lang)
+        made = make(f, kind, subject, seed)
+        if made is None:
+            raise HTTPException(410, f.t("quiz.error.gone"))
+        q, key = made
+        try:
+            judged = judge(q, key, req.response, f.t)
+        except (TypeError, ValueError) as e:
+            raise HTTPException(400, f.t("quiz.error.unreadable_answer", error=e)) from e
+        card = learner.record(
+            question_id=q.id,
+            kind=q.kind,
+            chapter=chapter,
+            item=q.item,
+            correct=judged.correct,
+            score=judged.score,
+            mode=req.mode,
+            exam_id=req.exam_id,
+            ms=req.ms,
+        )
+        return judged.model_dump() | {"card": card}
+
+    @app.post("/api/learn/exam/{exam_id}/finish")
+    def learn_finish(exam_id: int) -> dict[str, Any]:
+        try:
+            return learner.finish_exam(exam_id)
+        except KeyError as e:
+            raise HTTPException(404, str(e)) from e
+
+    @app.post("/api/learn/retell")
+    def learn_retell(req: RetellRequest) -> dict[str, Any]:
+        f = facts(req.chapter, req.lang)
+        if not f.events:
+            raise HTTPException(409, f.t("quiz.error.no_events", chapter=req.chapter))
+        try:
+            result = grade(f, req.text, run=grader, lang=req.lang)
+        except RetellError as e:
+            raise HTTPException(422, str(e)) from e
+        learner.record_retell(req.chapter, req.text, result.model_dump())
+        return result.model_dump() | {"titles": {e.event_id: e.title for e in f.events}}
+
+    # --- autonomous runs ------------------------------------------------------------------------
+
+    def run_view(state: RunState, full: bool) -> dict[str, Any]:
+        live = state.status in ("running", "waiting") and alive(state.pid)
+        view = state.model_dump(exclude={"steps", "log"} if not full else set())
+        view |= {
+            "status": state.status
+            if live or state.status not in ("running", "waiting")
+            else "interrupted",
+            "totals": state.totals,
+            "running": [s.model_dump() for s in state.steps if s.status == "running" and live],
+        }
+        if full:
+            wanted = {c.chapter for c in state.chapters}
+            view["escalated"] = [
+                {"key": k, "chapter": led.chapter_ref, "note": item.history[-1].note}
+                for led, k, item in ledger_items()
+                if led.chapter_ref in wanted and is_escalated(item)
+            ]
+            view["steps"] = [s.model_dump() for s in state.steps[-120:]]
+        return view
+
+    @app.get("/api/runs")
+    def runs() -> list[dict[str, Any]]:
+        return [run_view(r, full=False) for r in list_runs(paths)]
+
+    @app.get("/api/run/{name}")
+    def run(name: str) -> dict[str, Any]:
+        state = load_state(paths, name)
+        if state is None:
+            raise HTTPException(404, f"no run {name!r}")
+        return run_view(state, full=True)
 
     @app.get("/codex", include_in_schema=False)
     def codex_redirect() -> RedirectResponse:

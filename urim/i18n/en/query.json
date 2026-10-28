@@ -1,0 +1,159 @@
+{
+ "query.kicker": {
+  "text": "Signals intelligence",
+  "note": "Small heading above the page title, in the military style of the War Room (SIGINT)"
+ },
+ "query.title": {
+  "text": "Query",
+  "note": "Page title: search the corpus and query its database"
+ },
+ "query.search": {
+  "text": "Search",
+  "note": "Panel title (a noun): the search box and its results"
+ },
+ "query.placeholder": {
+  "text": "Elijah, mantle, Horeb, נביא… or a concept: grief over a lost son",
+  "note": "Placeholder in the search box: example searches by name, word, Hebrew word or idea. Replace the English examples with what a reader of your language would type; keep the Hebrew word נביא"
+ },
+ "query.mode.hybrid": {
+  "text": "hybrid",
+  "note": "Search mode chip: words and meaning combined"
+ },
+ "query.mode.hybrid_help": "Words and meaning, fused: names first, then what both find",
+ "query.mode.keyword": {
+  "text": "words",
+  "note": "Search mode chip: match exact words"
+ },
+ "query.mode.keyword_help": {
+  "text": "Exact words and names (BM25)",
+  "note": "Tooltip; BM25 is the name of a ranking algorithm, keep it"
+ },
+ "query.mode.meaning": {
+  "text": "meaning",
+  "note": "Search mode chip: match by meaning (semantic search)"
+ },
+ "query.mode.meaning_help": "Concepts and paraphrases by embedding similarity, even with no word in common",
+ "query.scope.all": {
+  "text": "all",
+  "note": "Search filter chip: every kind of item"
+ },
+ "query.scope.verses": {
+  "text": "verses",
+  "note": "Search filter chip"
+ },
+ "query.scope.events": {
+  "text": "events",
+  "note": "Search filter chip"
+ },
+ "query.scope.entities": {
+  "text": "entities",
+  "note": "Search filter chip: people, places, groups, objects"
+ },
+ "query.scope.systems": {
+  "text": "systems",
+  "note": "Search filter chip: rituals, customs and supernatural mechanics"
+ },
+ "query.kind.verse": {
+  "text": "verse",
+  "note": "Tag on a search result telling what kind of item it is"
+ },
+ "query.kind.event": {
+  "text": "event",
+  "note": "Tag on a search result telling what kind of item it is"
+ },
+ "query.kind.entity": {
+  "text": "entity",
+  "note": "Tag on a search result: a person, place, group or object"
+ },
+ "query.kind.system": {
+  "text": "system",
+  "note": "Tag on a search result: a ritual, custom or supernatural mechanic"
+ },
+ "query.via.keyword": {
+  "text": "keyword",
+  "note": "Which search found a result: the word search. Shown as 'keyword + meaning' when both did"
+ },
+ "query.via.meaning": {
+  "text": "meaning",
+  "note": "Which search found a result: the search by meaning. Shown as 'keyword + meaning' when both did"
+ },
+ "query.score": {
+  "text": "score {score}",
+  "note": "Tooltip: the result's ranking score, a decimal number"
+ },
+ "query.nearest_to": {
+  "text": "Nearest in meaning to",
+  "note": "Label before an item: the results are the items most similar in meaning to it"
+ },
+ "query.back_to_search": {
+  "text": "Back to the search",
+  "note": "Tooltip on the button that leaves the 'similar items' list"
+ },
+ "query.search_error": {
+  "text": "SEARCH",
+  "note": "Short label in capitals before a search error message"
+ },
+ "query.no_hits": {
+  "text": "No hits.",
+  "note": "The search found nothing"
+ },
+ "query.similar": {
+  "text": "similar",
+  "note": "Small button on a search result: show items similar to this one"
+ },
+ "query.similar_title": "Find items nearest to this one in meaning",
+ "query.sql_console": {
+  "text": "SQL console (read-only)",
+  "note": "Panel title: a box for typing database queries that cannot change data"
+ },
+ "query.example.events_in_order": {
+  "text": "Events in time order with their place",
+  "note": "Description of an example database query; clicking it loads the query"
+ },
+ "query.example.minchah_to_jezreel": {
+  "text": "Minchah fire to arrival at Jezreel (hours)",
+  "note": "Description of an example database query: hours from the fire at the evening offering (minchah) on Carmel to the arrival at Jezreel, 1 Kings 18"
+ },
+ "query.example.states_by_verse": {
+  "text": "Who holds which state, verse by verse",
+  "note": "Description of an example database query: the states of people and things (alive, widowed, king…)"
+ },
+ "query.example.prophecies": {
+  "text": "Prophecies and how long fulfilment took (days)",
+  "note": "Description of an example database query"
+ },
+ "query.example.place_confidence": {
+  "text": "Places with their coordinate confidence",
+  "note": "Description of an example database query: how sure each place's map position is"
+ },
+ "query.example.person_words": {
+  "text": "Words naming a person in 1 Kings 18",
+  "note": "Description of an example database query; write the book name as your language's Bibles do"
+ },
+ "query.run": {
+  "text": "Run",
+  "note": "Button that runs the SQL query; a keyboard shortcut follows it"
+ },
+ "query.rows": {
+  "one": "{count} row",
+  "other": "{count} rows",
+  "note": "Number of rows a database query returned"
+ },
+ "query.rows_more": {
+  "one": "{count}+ rows",
+  "other": "{count}+ rows",
+  "note": "Number of rows a database query returned when the list was cut off: at least {count}"
+ },
+ "query.elapsed_ms": {
+  "text": "{ms} ms",
+  "note": "How long the query took, in milliseconds (abbreviated)"
+ },
+ "query.sql_error": {
+  "text": "SQL ERROR",
+  "note": "Short label in capitals before a database error message"
+ },
+ "query.schema": {
+  "text": "Schema",
+  "note": "Panel title: the database tables and their columns"
+ }
+}

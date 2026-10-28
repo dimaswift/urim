@@ -2,24 +2,51 @@ import * as d3 from "d3";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CausalLink, EventView } from "../api";
 import { CausalRow, EventBrief, Loading, Panel, ReviewBar } from "../components";
+import { useI18n, useT, type TFunc } from "../i18n";
 import { useApi, useApp } from "../state";
 import { chapterOf, go, href, range, toDate, yearLabel, type Route } from "../util";
 
 interface Data { events: EventView[]; links: CausalLink[] }
 const LANE = 30;
 const DIURNAL: [number, string][] = [
-  [2, "Ashmoret haBoker"], [5.5, "Shachar"], [6, "Boker"], [9, "3rd hour"], [12, "Tzohorayim"],
-  [15, "Minchah"], [17.5, "Bein ha'arbayim"], [18, "Erev"], [22, "Middle watch"],
+  [2, "ashmoret_haboker"], [5.5, "shachar"], [6, "boker"], [9, "third_hour"], [12, "tzohorayim"],
+  [15, "minchah"], [17.5, "bein_haarbayim"], [18, "erev"], [22, "middle_watch"],
 ];
 
-function tickFormatFor(ticks: Date[]) {
+function hourName(t: TFunc, code: string): string {
+  switch (code) {
+    case "ashmoret_haboker": return t("chronicle.hour.ashmoret_haboker");
+    case "shachar": return t("chronicle.hour.shachar");
+    case "boker": return t("chronicle.hour.boker");
+    case "third_hour": return t("chronicle.hour.third_hour");
+    case "tzohorayim": return t("chronicle.hour.tzohorayim");
+    case "minchah": return t("chronicle.hour.minchah");
+    case "bein_haarbayim": return t("chronicle.hour.bein_haarbayim");
+    case "erev": return t("chronicle.hour.erev");
+    case "middle_watch": return t("chronicle.hour.middle_watch");
+  }
+  return code;
+}
+
+// Month names come from Intl in the interface language. Ancient dates are proleptic Gregorian,
+// which Intl may not honour, so only the month index is taken from them.
+const mid = (date: Date) => new Date(Date.UTC(2000, date.getUTCMonth(), 15));
+const monthName = (date: Date, lang: string) =>
+  new Intl.DateTimeFormat(lang, { month: "short", timeZone: "UTC" }).format(mid(date));
+const monthInDate = (date: Date, lang: string) =>
+  new Intl.DateTimeFormat(lang, { day: "numeric", month: "short", timeZone: "UTC" })
+    .formatToParts(mid(date)).find((p) => p.type === "month")?.value ?? monthName(date, lang);
+const dayMonth = (t: TFunc, lang: string, date: Date) =>
+  t("chronicle.day_month", { day: d3.utcFormat("%d")(date), month: monthInDate(date, lang) });
+
+function tickFormatFor(ticks: Date[], t: TFunc, lang: string) {
   const day = 86400e3;
   const step = ticks.length > 1 ? ticks[1].getTime() - ticks[0].getTime() : 365 * day;
   return (d: Date | d3.NumberValue) => {
     const date = d as Date;
     if (step >= 300 * day) return yearLabel(date);
-    if (step >= 27 * day) return `${d3.utcFormat("%b")(date)} ${yearLabel(date)}`;
-    if (step >= day) return d3.utcFormat("%d %b")(date);
+    if (step >= 27 * day) return t("chronicle.month_year", { month: monthName(date, lang), year: yearLabel(date) });
+    if (step >= day) return dayMonth(t, lang, date);
     return d3.utcFormat("%H:%M")(date);
   };
 }
@@ -51,6 +78,8 @@ function pack(events: EventView[], x: d3.ScaleTime<number, number>, allLabels: b
 }
 
 function DayClock({ day, events, selected }: { day: number; events: EventView[]; selected: string }) {
+  const t = useT();
+  const { lang } = useI18n();
   const size = 300, c = size / 2, R = 118;
   const angle = (h: number) => (h / 24) * 2 * Math.PI - Math.PI / 2;
   const pt = (h: number, r: number) => [c + r * Math.cos(angle(h)), c + r * Math.sin(angle(h))];
@@ -84,17 +113,18 @@ function DayClock({ day, events, selected }: { day: number; events: EventView[];
         const [x, y] = pt(h, R + 18);
         return <text key={h} x={x} y={y + 4} textAnchor="middle" fill="var(--dim)" fontSize="10" fontFamily="var(--mono)">{String(h).padStart(2, "0")}</text>;
       })}
-      {DIURNAL.map(([h, name]) => {
+      {DIURNAL.map(([h, code]) => {
         const [x, y] = pt(h, 30);
         const [lx, ly] = pt(h, R - 3);
+        const name = hourName(t, code);
         return (
-          <g key={name}>
+          <g key={code}>
             <line x1={x} y1={y} x2={lx} y2={ly} stroke="rgba(79,209,232,.22)" strokeDasharray="2 3" />
             <circle cx={lx} cy={ly} r={2.5} fill="var(--cyan)"><title>{name} {h}:00</title></circle>
           </g>
         );
       })}
-      <text x={c} y={c - 4} textAnchor="middle" fill="var(--amber)" fontFamily="var(--hud)" fontWeight="700" fontSize="13">{d3.utcFormat("%d %b")(toDate(day))}</text>
+      <text x={c} y={c - 4} textAnchor="middle" fill="var(--amber)" fontFamily="var(--hud)" fontWeight="700" fontSize="13">{dayMonth(t, lang, toDate(day))}</text>
       <text x={c} y={c + 12} textAnchor="middle" fill="var(--dim)" fontFamily="var(--hud)" fontSize="10" letterSpacing="2">{yearLabel(toDate(day))}</text>
     </svg>
   );
@@ -102,6 +132,8 @@ function DayClock({ day, events, selected }: { day: number; events: EventView[];
 
 export default function Chronicle({ route }: { route: Route }) {
   const { lang, ledger } = useApp();
+  const t = useT();
+  const { lang: uiLang } = useI18n();
   const { data } = useApi<Data>(`/api/events?lang=${lang}`);
   const svgRef = useRef<SVGSVGElement>(null);
   const [width, setWidth] = useState(0);
@@ -158,7 +190,7 @@ export default function Chronicle({ route }: { route: Route }) {
     }
   });
 
-  if (!data) return <Loading what="Synchronising clocks" />;
+  if (!data) return <Loading what={t("chronicle.loading")} />;
   const ev = data.events.find((e) => e.event_id === selected);
   const titles = Object.fromEntries(data.events.map((e) => [e.event_id, e.title]));
   const span = x.domain()[1].getTime() - x.domain()[0].getTime();
@@ -172,19 +204,19 @@ export default function Chronicle({ route }: { route: Route }) {
     <div className="view">
       <div className="row" style={{ marginBottom: 12, flexWrap: "wrap" }}>
         <div>
-          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>UTES timeline · scroll to zoom from eras to hours</div>
-          <h1>Chronicle</h1>
+          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>{t("chronicle.kicker")}</div>
+          <h1>{t("chronicle.title")}</h1>
         </div>
         <div className="spacer" />
-        <button className="btn small" onClick={() => focus(all[0], all[1])}>All</button>
-        {ev && <button className="btn small amber" onClick={() => focus(day, day + 86400)}>Day of selection</button>}
-        {ev && <button className="btn small" onClick={() => focus(ev.utes_start - ev.duration_seconds * 0.5 - 3600, ev.utes_end + ev.duration_seconds * 0.5 + 3600)}>Zoom to event</button>}
+        <button className="btn small" onClick={() => focus(all[0], all[1])}>{t("chronicle.zoom.all")}</button>
+        {ev && <button className="btn small amber" onClick={() => focus(day, day + 86400)}>{t("chronicle.zoom.day")}</button>}
+        {ev && <button className="btn small" onClick={() => focus(ev.utes_start - ev.duration_seconds * 0.5 - 3600, ev.utes_end + ev.duration_seconds * 0.5 + 3600)}>{t("chronicle.zoom.event")}</button>}
       </div>
       <Panel>
         <svg ref={svgRef} className="svg-fill" style={{ height, cursor: "grab" }}>
-          <g transform={`translate(0, ${height - 24})`} ref={(g) => { if (g) d3.select(g).call(d3.axisBottom(x).ticks(Math.max(width / 120, 2)).tickFormat(tickFormatFor(ticks)) as any).call((s) => { s.selectAll("text").attr("fill", "var(--dim)").attr("font-family", "var(--mono)"); s.selectAll("line,path").attr("stroke", "var(--line-2)"); }); }} />
-          {ticks.map((t) => (
-            <line key={t.getTime()} x1={x(t)} x2={x(t)} y1={10} y2={height - 24} stroke="rgba(79,209,232,.06)" />
+          <g transform={`translate(0, ${height - 24})`} ref={(g) => { if (g) d3.select(g).call(d3.axisBottom(x).ticks(Math.max(width / 120, 2)).tickFormat(tickFormatFor(ticks, t, uiLang)) as any).call((s) => { s.selectAll("text").attr("fill", "var(--dim)").attr("font-family", "var(--mono)"); s.selectAll("line,path").attr("stroke", "var(--line-2)"); }); }} />
+          {ticks.map((tick) => (
+            <line key={tick.getTime()} x1={x(tick)} x2={x(tick)} y1={10} y2={height - 24} stroke="rgba(79,209,232,.06)" />
           ))}
           {data.events.map((e) => {
             const slot = slots.get(e.event_id)!;
@@ -197,6 +229,9 @@ export default function Chronicle({ route }: { route: Route }) {
             const label = e.title ?? e.event_id;
             if (x1 < -400 || x0 > width + 400) return null;
             const whisker = Math.min(m, width);
+            const margin = e.relative_margin_seconds / 3600 < 48
+              ? t("unit.h", { n: Math.round(e.relative_margin_seconds / 360) / 10 })
+              : t("unit.d", { n: Math.round(e.relative_margin_seconds / 8640) / 10 });
             return (
               <g key={e.event_id} style={{ cursor: "pointer" }} onClick={() => go("chronicle", e.event_id)}>
                 {whisker > 3 && (
@@ -208,7 +243,7 @@ export default function Chronicle({ route }: { route: Route }) {
                 )}
                 <rect x={x0} y={y + 4} width={x1 - x0} height={12} rx={2} fill={color} fillOpacity={on ? 0.95 : 0.55}
                       stroke={on ? "#fff" : color} style={{ filter: on ? `drop-shadow(0 0 6px ${color})` : undefined }}>
-                  <title>{label} · {e.start_label} → {e.end_label} (± {e.relative_margin_seconds / 3600 < 48 ? `${Math.round(e.relative_margin_seconds / 360) / 10} h` : `${Math.round(e.relative_margin_seconds / 8640) / 10} d`} relative)</title>
+                  <title>{t("chronicle.bar_title", { title: label, start: e.start_label, end: e.end_label, margin })}</title>
                 </rect>
                 {slot.label && (
                   <text x={slot.inside ? Math.max(x0, 4) + 6 : x1 + 6} y={y + 14} fill={slot.inside ? "#051018" : "var(--text)"}
@@ -221,18 +256,18 @@ export default function Chronicle({ route }: { route: Route }) {
       </Panel>
       {ev && (
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 340px", gap: 16, marginTop: 16, alignItems: "start" }}>
-          <Panel title="Event" right={<ReviewBar itemKey={`event:${ev.event_id}`} />}>
+          <Panel title={t("chronicle.event.title")} right={<ReviewBar itemKey={`event:${ev.event_id}`} />}>
             <h2 style={{ marginBottom: 8 }}>{ev.title}</h2>
             <EventBrief event={ev} />
             <dl className="kv" style={{ marginTop: 12 }}>
-              <dt>Starts</dt><dd className="mono">{ev.start_label}</dd>
-              <dt>Ends</dt><dd className="mono">{ev.end_label}</dd>
-              <dt>Anchor</dt><dd className="mono"><a href={ev.anchor_id.startsWith("evt.") ? href("chronicle", ev.anchor_id) : undefined}>{ev.anchor_id}</a> ({ev.anchor_point.toLowerCase()}) {ev.relative_offset_seconds ? `+${Math.round(ev.relative_offset_seconds / 3600)} h` : ""}</dd>
-              <dt>Precision</dt><dd>{ev.precision_tier.label ?? ev.precision_tier.code}</dd>
-              {ev.ancient_year_marker && <><dt>Text says</dt><dd>{ev.ancient_year_marker}</dd></>}
-              {ev.ancient_season_marker && <><dt>Season</dt><dd>{ev.ancient_season_marker}</dd></>}
-              {ev.ancient_diurnal_marker && <><dt>Hour</dt><dd>{ev.ancient_diurnal_marker}</dd></>}
-              <dt>Verses</dt><dd><a className="mono" href={href("xray", ev.verse_start)}>{range(ev.verse_start, ev.verse_end)}</a></dd>
+              <dt>{t("chronicle.event.starts")}</dt><dd className="mono">{ev.start_label}</dd>
+              <dt>{t("chronicle.event.ends")}</dt><dd className="mono">{ev.end_label}</dd>
+              <dt>{t("chronicle.event.anchor")}</dt><dd className="mono"><a href={ev.anchor_id.startsWith("evt.") ? href("chronicle", ev.anchor_id) : undefined}>{ev.anchor_id}</a> ({ev.anchor_point === "START" ? t("chronicle.anchor_point.start") : ev.anchor_point === "END" ? t("chronicle.anchor_point.end") : ev.anchor_point.toLowerCase()}) {ev.relative_offset_seconds ? `+${t("unit.h", { n: Math.round(ev.relative_offset_seconds / 3600) })}` : ""}</dd>
+              <dt>{t("chronicle.event.precision")}</dt><dd>{ev.precision_tier.label ?? ev.precision_tier.code}</dd>
+              {ev.ancient_year_marker && <><dt>{t("chronicle.event.text_says")}</dt><dd>{ev.ancient_year_marker}</dd></>}
+              {ev.ancient_season_marker && <><dt>{t("chronicle.event.season")}</dt><dd>{ev.ancient_season_marker}</dd></>}
+              {ev.ancient_diurnal_marker && <><dt>{t("chronicle.event.hour")}</dt><dd>{ev.ancient_diurnal_marker}</dd></>}
+              <dt>{t("chronicle.event.verses")}</dt><dd><a className="mono" href={href("xray", ev.verse_start)}>{range(ev.verse_start, ev.verse_end)}</a></dd>
             </dl>
             <div className="grid" style={{ gap: 6, marginTop: 12 }}>
               {data.links.filter((l) => l.cause_event_id === ev.event_id || l.effect_event_id === ev.event_id).map((l) => (
@@ -240,9 +275,9 @@ export default function Chronicle({ route }: { route: Route }) {
               ))}
             </div>
           </Panel>
-          <Panel title="Day dial" className="cyan">
+          <Panel title={t("chronicle.dial.title")} className="cyan">
             <div style={{ display: "grid", placeItems: "center" }}><DayClock day={day} events={data.events} selected={ev.event_id} /></div>
-            <div className="muted" style={{ fontSize: 12 }}>Events of this civil day. Cyan dots mark the ancient hours: dawn, morning, noon, minchah, evening.</div>
+            <div className="muted" style={{ fontSize: 12 }}>{t("chronicle.dial.note")}</div>
           </Panel>
         </div>
       )}

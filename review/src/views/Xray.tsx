@@ -1,56 +1,68 @@
 import { useEffect, useState } from "react";
 import type { Token, VerseMatrix } from "../api";
 import { EntityChip, EventBrief, Loading, Panel, ReviewBar } from "../components";
+import { Msg, num, useT } from "../i18n";
 import { useApi, useApp } from "../state";
 import { decodeMorph, go, href, short, type Route } from "../util";
 
 const LAYERS = ["literal", "dramatic", "commentary", "baseline", "audit"] as const;
 type Layer = (typeof LAYERS)[number];
 
-function TokenCard({ t }: { t: Token }) {
-  const morph = decodeMorph(t.morph);
+function TokenCard({ token: w }: { token: Token }) {
+  const t = useT();
+  const morph = decodeMorph(w.morph);
   return (
     <div className="grid" style={{ gap: 6 }}>
       <div className="row" style={{ justifyContent: "space-between" }}>
-        <span className="hebrew" style={{ fontSize: 30, color: "var(--gold)" }}>{t.surface}</span>
-        <span className="mono muted">#{t.pos}</span>
+        <span className="hebrew" style={{ fontSize: 30, color: "var(--gold)" }}>{w.surface}</span>
+        <span className="mono muted">#{w.pos}</span>
       </div>
       <dl className="kv">
-        {t.translit && <><dt>Sound</dt><dd className="mono">{t.translit}</dd></>}
-        {t.gloss && <><dt>Gloss</dt><dd>{t.gloss}</dd></>}
-        {t.lemma && <><dt>Lemma</dt><dd className={/[\u0590-\u05FF]/.test(t.lemma) ? "hebrew" : "mono"} style={{ fontSize: /[\u0590-\u05FF]/.test(t.lemma) ? 18 : 12, textAlign: "left" }}>{t.lemma}</dd></>}
-        {t.strongs && <><dt>Strong's</dt><dd className="mono">{t.strongs}</dd></>}
-        {morph.length > 0 && <><dt>Grammar</dt><dd>{morph.slice(1).map((m) => <div key={m}>{m}</div>)}<span className="mono faint">{t.morph}</span></dd></>}
-        {t.reading && <><dt>Reading</dt><dd className="mono">{t.reading}</dd></>}
-        {t.name_ref && <><dt>Names</dt><dd className="mono" style={{ color: "var(--cyan)" }}>{t.name_ref}</dd></>}
+        {w.translit && <><dt>{t("xray.token.sound")}</dt><dd className="mono">{w.translit}</dd></>}
+        {w.gloss && <><dt>{t("xray.token.gloss")}</dt><dd>{w.gloss}</dd></>}
+        {w.lemma && <><dt>{t("xray.token.lemma")}</dt><dd className={/[\u0590-\u05FF]/.test(w.lemma) ? "hebrew" : "mono"} style={{ fontSize: /[\u0590-\u05FF]/.test(w.lemma) ? 18 : 12, textAlign: "left" }}>{w.lemma}</dd></>}
+        {w.strongs && <><dt>{t("xray.token.strongs")}</dt><dd className="mono">{w.strongs}</dd></>}
+        {morph.length > 0 && <><dt>{t("xray.token.grammar")}</dt><dd>{morph.slice(1).map((m) => <div key={m}>{m}</div>)}<span className="mono faint">{w.morph}</span></dd></>}
+        {w.reading && <><dt>{t("xray.token.reading")}</dt><dd className="mono">{w.reading}</dd></>}
+        {w.name_ref && <><dt>{t("xray.token.names")}</dt><dd className="mono" style={{ color: "var(--cyan)" }}>{w.name_ref}</dd></>}
       </dl>
     </div>
   );
 }
 
 function Layers({ m }: { m: VerseMatrix }) {
+  const t = useT();
   const [layer, setLayer] = useState<Layer>("literal");
   const text: Record<Layer, string | null> = {
     literal: m.translation_literal, dramatic: m.translation_dramatic, commentary: m.directors_commentary,
     baseline: m.traditional_baseline, audit: null,
   };
   const missing = !m.translation_literal;
+  const label = (l: Layer): string => {
+    switch (l) {
+      case "literal": return t("xray.layer.literal");
+      case "dramatic": return t("xray.layer.dramatic");
+      case "commentary": return t("xray.layer.commentary");
+      case "baseline": return m.baseline_translation ?? t("xray.layer.baseline");
+      case "audit": return t("xray.layer.audit");
+    }
+  };
   return (
-    <Panel title="Layers" right={m.layers_lang && m.layers_lang !== m.baseline_lang ? <span className="chip muted">layers from {m.layers_lang}</span> : undefined}>
+    <Panel title={t("xray.layers")} right={m.layers_lang && m.layers_lang !== m.baseline_lang ? <span className="chip muted">{t("xray.layers_from", { lang: m.layers_lang })}</span> : undefined}>
       <div className="row" style={{ gap: 4, marginBottom: 12, flexWrap: "wrap" }}>
         {LAYERS.map((l) => (
           <span key={l} className={`chip click ${layer === l ? "on" : ""}`} onClick={() => setLayer(l)}>
-            {l === "baseline" ? m.baseline_translation ?? "Baseline" : l[0].toUpperCase() + l.slice(1)}
+            {label(l)}
           </span>
         ))}
       </div>
       {missing && layer !== "baseline" && (
-        <div className="intel"><b>NO LAYERS YET</b>Send a Philologist on this verse: <span className="mono">/urim-philologist {m.verse_id}</span></div>
+        <div className="intel"><b>{t("xray.no_layers")}</b><Msg k="xray.no_layers_hint" vars={{ command: <span className="mono">/urim-philologist {m.verse_id}</span> }} /></div>
       )}
       {layer === "audit" && !missing ? (
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
-          <div><div className="hud upper muted" style={{ fontSize: 10 }}>{m.baseline_translation} (tradition)</div><p>{m.traditional_baseline}</p></div>
-          <div><div className="hud upper" style={{ fontSize: 10, color: "var(--amber)" }}>Literal (source)</div><p>{m.translation_literal}</p></div>
+          <div><div className="hud upper muted" style={{ fontSize: 10 }}>{t("xray.audit.tradition", { translation: m.baseline_translation ?? "" })}</div><p>{m.traditional_baseline}</p></div>
+          <div><div className="hud upper" style={{ fontSize: 10, color: "var(--amber)" }}>{t("xray.audit.literal")}</div><p>{m.translation_literal}</p></div>
         </div>
       ) : (
         text[layer] && <p style={{ fontSize: layer === "dramatic" ? 18 : 15, lineHeight: 1.65, margin: 0, fontFamily: layer === "dramatic" ? "var(--hud)" : undefined }}>{text[layer]}</p>
@@ -61,9 +73,10 @@ function Layers({ m }: { m: VerseMatrix }) {
 
 export default function Xray({ route }: { route: Route }) {
   const { overview, lang } = useApp();
+  const t = useT();
   const verseId = route.arg || "1KGS.18.27";
   const { data: m, error } = useApi<VerseMatrix>(`/api/verse/${encodeURIComponent(verseId)}?lang=${lang}`);
-  const [hover, setHover] = useState<{ t: Token; x: number; y: number } | null>(null);
+  const [hover, setHover] = useState<{ token: Token; x: number; y: number } | null>(null);
   const [pinned, setPinned] = useState<Token | null>(null);
   const chapter = verseId.split(".").slice(0, 2).join(".");
   const tile = overview?.books.flatMap((b) => b.chapters).find((c) => c.ref === chapter);
@@ -100,44 +113,44 @@ export default function Xray({ route }: { route: Route }) {
       `}</style>
       <div className="row" style={{ marginBottom: 12, flexWrap: "wrap" }}>
         <div>
-          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>Verse X-ray</div>
+          <div className="hud upper muted" style={{ fontSize: 11, letterSpacing: "0.3em" }}>{t("xray.kicker")}</div>
           <h1>{m?.book_name ?? book} {ch}:{v}{m?.aliases.length ? <span className="muted mono" style={{ fontSize: 13, marginLeft: 10 }}>{m.aliases.join(" · ")}</span> : null}</h1>
         </div>
         <div className="spacer" />
         <select value={chapter} onChange={(e) => go("xray", `${e.target.value}.1`)}>
           {ingested.map((c) => <option key={c.ref} value={c.ref}>{c.ref.replace(".", " ")}</option>)}
         </select>
-        <button className="btn small" disabled={n <= 1} onClick={() => go("xray", `${book}.${ch}.${n - 1}`)}>← Prev</button>
-        <button className="btn small" disabled={n >= verses} onClick={() => go("xray", `${book}.${ch}.${n + 1}`)}>Next →</button>
+        <button className="btn small" disabled={n <= 1} onClick={() => go("xray", `${book}.${ch}.${n - 1}`)}>{t("xray.prev")}</button>
+        <button className="btn small" disabled={n >= verses} onClick={() => go("xray", `${book}.${ch}.${n + 1}`)}>{t("xray.next")}</button>
       </div>
       <div className="vstrip" style={{ marginBottom: 14 }}>
         {Array.from({ length: verses }, (_, i) => i + 1).map((i) => (
           <a key={i} href={href("xray", `${book}.${ch}.${i}`)} className={i === n ? "on" : ""}>{i}</a>
         ))}
       </div>
-      {error && <div className="intel red"><b>ERROR</b>{error}</div>}
-      {!m && !error && <Loading what="Scanning" />}
+      {error && <div className="intel red"><b>{t("xray.error")}</b>{error}</div>}
+      {!m && !error && <Loading what={t("xray.loading")} />}
       {m && (
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 340px", gap: 16, alignItems: "start" }}>
           <div className="grid">
-            <Panel title="Source" right={<ReviewBar itemKey={`verse.en:${m.verse_id}`} />}>
+            <Panel title={t("xray.source")} right={<ReviewBar itemKey={`verse.en:${m.verse_id}`} />}>
               <div className="hebrew" style={{ fontSize: 30, lineHeight: 2, color: "var(--gold)", textAlign: "right", marginBottom: 14 }}>{m.source_text}</div>
               <div className="interlinear">
-                {m.tokens.map((t) => (
-                  <div key={t.pos} className={`tok ${t.name_ref ? "name" : ""} ${pinned?.pos === t.pos ? "on" : ""}`}
-                       onMouseEnter={(e) => setHover({ t, x: e.clientX, y: e.clientY })}
-                       onMouseMove={(e) => setHover({ t, x: e.clientX, y: e.clientY })}
-                       onMouseLeave={() => setHover(null)} onClick={() => setPinned(t)}>
-                    <span className="he">{t.surface}</span>
-                    <span className="tr">{t.translit}</span>
-                    <span className="gl">{t.gloss}</span>
+                {m.tokens.map((token) => (
+                  <div key={token.pos} className={`tok ${token.name_ref ? "name" : ""} ${pinned?.pos === token.pos ? "on" : ""}`}
+                       onMouseEnter={(e) => setHover({ token, x: e.clientX, y: e.clientY })}
+                       onMouseMove={(e) => setHover({ token, x: e.clientX, y: e.clientY })}
+                       onMouseLeave={() => setHover(null)} onClick={() => setPinned(token)}>
+                    <span className="he">{token.surface}</span>
+                    <span className="tr">{token.translit}</span>
+                    <span className="gl">{token.gloss}</span>
                   </div>
                 ))}
               </div>
             </Panel>
             <Layers m={m} />
             {m.philological_notes.length > 0 && (
-              <Panel title="Philology" count={m.philological_notes.length}>
+              <Panel title={t("xray.philology")} count={num(m.philological_notes.length)}>
                 <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))" }}>
                   {m.philological_notes.map((note) => (
                     <div key={note.term} className="panel" style={{ padding: 12 }}>
@@ -152,10 +165,10 @@ export default function Xray({ route }: { route: Route }) {
             )}
           </div>
           <div className="grid">
-            {pinned && <Panel title="Word" className="cyan"><TokenCard t={pinned} /></Panel>}
-            <Panel title="Events" count={m.events.length}>
+            {pinned && <Panel title={t("xray.word")} className="cyan"><TokenCard token={pinned} /></Panel>}
+            <Panel title={t("xray.events")} count={num(m.events.length)}>
               <div className="grid">
-                {m.events.length === 0 && <div className="muted">No events cover this verse yet.</div>}
+                {m.events.length === 0 && <div className="muted">{t("xray.no_events")}</div>}
                 {m.events.map((e) => (
                   <div key={e.event_id}>
                     <a href={href("chronicle", e.event_id)} className="hud" style={{ fontWeight: 700, fontSize: 15 }}>{e.title ?? e.event_id}</a>
@@ -166,11 +179,11 @@ export default function Xray({ route }: { route: Route }) {
             </Panel>
             {m.ecs && (
               <>
-                <Panel title="Present" count={m.ecs.entities.length}>
+                <Panel title={t("xray.present")} count={num(m.ecs.entities.length)}>
                   <div className="row" style={{ flexWrap: "wrap", gap: 6 }}>{m.ecs.entities.map((e) => <EntityChip key={e.entity_id} entity={e} />)}</div>
                 </Panel>
                 {m.ecs.components.length > 0 && (
-                  <Panel title="Active states" count={m.ecs.components.length}>
+                  <Panel title={t("xray.active_states")} count={num(m.ecs.components.length)}>
                     <div className="grid" style={{ gap: 6 }}>
                       {m.ecs.components.map((c) => (
                         <div key={c.component_id} style={{ fontSize: 13 }}>
@@ -183,14 +196,14 @@ export default function Xray({ route }: { route: Route }) {
                   </Panel>
                 )}
                 {m.ecs.edges.length > 0 && (
-                  <Panel title="Interactions" count={m.ecs.edges.length}>
+                  <Panel title={t("xray.interactions")} count={num(m.ecs.edges.length)}>
                     {m.ecs.edges.map((e) => (
                       <div key={e.edge_id} style={{ fontSize: 13 }}>{e.source.name} <span style={{ color: "var(--cyan)" }}>{e.interaction_label}</span> {e.target.name}</div>
                     ))}
                   </Panel>
                 )}
                 {m.ecs.system_instances.length > 0 && (
-                  <Panel title="Rituals & mechanics" count={m.ecs.system_instances.length}>
+                  <Panel title={t("xray.rituals")} count={num(m.ecs.system_instances.length)}>
                     {m.ecs.system_instances.map((i) => (
                       <div key={i.instance_id} style={{ fontSize: 13 }}><a href={href("codex", i.system_id)} style={{ color: "var(--violet)" }}>{i.system_name}</a> <span className="muted">{i.outcome_summary}</span></div>
                     ))}
@@ -202,7 +215,7 @@ export default function Xray({ route }: { route: Route }) {
         </div>
       )}
       {hover && !pinned && (
-        <div className="tooltip" style={{ left: Math.min(hover.x + 16, window.innerWidth - 360), top: hover.y + 16 }}><TokenCard t={hover.t} /></div>
+        <div className="tooltip" style={{ left: Math.min(hover.x + 16, window.innerWidth - 360), top: hover.y + 16 }}><TokenCard token={hover.token} /></div>
       )}
     </div>
   );
