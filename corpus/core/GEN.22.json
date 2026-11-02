@@ -1,7 +1,164 @@
 {
  "chapter_ref": "GEN.22",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.altar_of_moriah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הַמִּזְבֵּחַ",
+   "transliterated_name": "ha-mizbeach",
+   "first_mention_verse": "GEN.22.9"
+  },
+  {
+   "entity_id": "artifact.ram_of_moriah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אַיִל",
+   "transliterated_name": "'ayil",
+   "first_mention_verse": "GEN.22.13"
+  },
+  {
+   "entity_id": "artifact.sacrificial_knife",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הַמַּאֲכֶלֶת",
+   "transliterated_name": "ha-ma'akhelet",
+   "first_mention_verse": "GEN.22.6"
+  },
+  {
+   "entity_id": "artifact.wood_of_burnt_offering",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "עֲצֵי עֹלָה",
+   "transliterated_name": "'atse 'olah",
+   "first_mention_verse": "GEN.22.3"
+  },
+  {
+   "entity_id": "group.two_servants_of_abraham",
+   "entity_type": "GROUP",
+   "source_script_name": "נְעָרָיו",
+   "transliterated_name": "ne'arav",
+   "first_mention_verse": "GEN.22.3"
+  },
+  {
+   "entity_id": "loc.moriah_mount",
+   "tipnr_id": "Moriah_Mount@Gen.22.2-2Ch",
+   "entity_type": "LOCATION",
+   "source_script_name": "הַמֹּרִיָּה",
+   "transliterated_name": "ha-Moriyyah",
+   "first_mention_verse": "GEN.22.2"
+  },
+  {
+   "entity_id": "person.aram.gen_22_21",
+   "tipnr_id": "Aram@Gen.22.21",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲרָם",
+   "transliterated_name": "'Aram",
+   "first_mention_verse": "GEN.22.21"
+  },
+  {
+   "entity_id": "person.buz.gen_22_21",
+   "tipnr_id": "Buz@Gen.22.21",
+   "entity_type": "PERSON",
+   "source_script_name": "בּוּז",
+   "transliterated_name": "Buz",
+   "first_mention_verse": "GEN.22.21"
+  },
+  {
+   "entity_id": "person.chesed",
+   "tipnr_id": "Chesed@Gen.22.22",
+   "entity_type": "PERSON",
+   "source_script_name": "כֶּשֶׂד",
+   "transliterated_name": "Kesed",
+   "first_mention_verse": "GEN.22.22"
+  },
+  {
+   "entity_id": "person.gaham",
+   "tipnr_id": "Gaham@Gen.22.24",
+   "entity_type": "PERSON",
+   "source_script_name": "גַּחַם",
+   "transliterated_name": "Gacham",
+   "first_mention_verse": "GEN.22.24"
+  },
+  {
+   "entity_id": "person.hazo",
+   "tipnr_id": "Hazo@Gen.22.22",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲזוֹ",
+   "transliterated_name": "Chazo",
+   "first_mention_verse": "GEN.22.22"
+  },
+  {
+   "entity_id": "person.jidlaph",
+   "tipnr_id": "Jidlaph@Gen.22.22",
+   "entity_type": "PERSON",
+   "source_script_name": "יִדְלָף",
+   "transliterated_name": "Yidlaf",
+   "first_mention_verse": "GEN.22.22"
+  },
+  {
+   "entity_id": "person.kemuel.gen_22_21",
+   "tipnr_id": "Kemuel@Gen.22.21",
+   "entity_type": "PERSON",
+   "source_script_name": "קְמוּאֵל",
+   "transliterated_name": "Qemu'el",
+   "first_mention_verse": "GEN.22.21"
+  },
+  {
+   "entity_id": "person.maacah.gen_22_24",
+   "tipnr_id": "Maacah@Gen.22.24",
+   "entity_type": "PERSON",
+   "source_script_name": "מַעֲכָה",
+   "transliterated_name": "Ma'akhah",
+   "first_mention_verse": "GEN.22.24"
+  },
+  {
+   "entity_id": "person.pildash",
+   "tipnr_id": "Pildash@Gen.22.22",
+   "entity_type": "PERSON",
+   "source_script_name": "פִּלְדָּשׁ",
+   "transliterated_name": "Pildash",
+   "first_mention_verse": "GEN.22.22"
+  },
+  {
+   "entity_id": "person.reumah",
+   "tipnr_id": "Reumah@Gen.22.24",
+   "entity_type": "PERSON",
+   "source_script_name": "רְאוּמָה",
+   "transliterated_name": "Re'umah",
+   "first_mention_verse": "GEN.22.24"
+  },
+  {
+   "entity_id": "person.tahash",
+   "tipnr_id": "Tahash@Gen.22.24",
+   "entity_type": "PERSON",
+   "source_script_name": "תַּחַשׁ",
+   "transliterated_name": "Tachash",
+   "first_mention_verse": "GEN.22.24"
+  },
+  {
+   "entity_id": "person.tebah",
+   "tipnr_id": "Tebah@Gen.22.24",
+   "entity_type": "PERSON",
+   "source_script_name": "טֶבַח",
+   "transliterated_name": "Tevach",
+   "first_mention_verse": "GEN.22.24"
+  },
+  {
+   "entity_id": "person.uz.gen_22_21",
+   "tipnr_id": "Uz@Gen.22.21",
+   "entity_type": "PERSON",
+   "source_script_name": "עוּץ",
+   "transliterated_name": "'Uts",
+   "first_mention_verse": "GEN.22.21"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_testing",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.substitutionary_offering",
+   "category": "LITURGICAL_RITUAL"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_22.god_tests_abraham",
@@ -24,7 +181,24 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.moriah_mount",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.abraham_sets_out",
@@ -44,7 +218,28 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.wood_of_burnt_offering",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.two_servants_of_abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.abraham_sees_the_place",
@@ -67,7 +262,24 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.two_servants_of_abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.moriah_mount",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.servants_left_behind",
@@ -86,12 +298,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.two_servants_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.abraham_and_isaac_climb",
    "verse_start": "GEN.22.6",
    "verse_end": "GEN.22.8",
+   "location_entity_id": "loc.moriah_mount",
    "time": {
     "anchor": "evt.gen_22.servants_left_behind",
     "anchor_point": "END",
@@ -105,12 +331,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.sacrificial_knife",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.wood_of_burnt_offering",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.altar_and_binding",
    "verse_start": "GEN.22.9",
    "verse_end": "GEN.22.10",
+   "location_entity_id": "loc.moriah_mount",
    "time": {
     "anchor": "evt.gen_22.abraham_and_isaac_climb",
     "anchor_point": "END",
@@ -124,12 +372,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.altar_of_moriah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.sacrificial_knife",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.wood_of_burnt_offering",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.angel_stops_sacrifice",
    "verse_start": "GEN.22.11",
    "verse_end": "GEN.22.12",
+   "location_entity_id": "loc.moriah_mount",
    "time": {
     "anchor": "evt.gen_22.altar_and_binding",
     "anchor_point": "END",
@@ -143,12 +413,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.ram_offered",
    "verse_start": "GEN.22.13",
    "verse_end": "GEN.22.14",
+   "location_entity_id": "loc.moriah_mount",
    "time": {
     "anchor": "evt.gen_22.angel_stops_sacrifice",
     "anchor_point": "END",
@@ -162,12 +454,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.altar_of_moriah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.ram_of_moriah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.moriah_mount",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.oath_and_blessing",
    "verse_start": "GEN.22.15",
    "verse_end": "GEN.22.18",
+   "location_entity_id": "loc.moriah_mount",
    "time": {
     "anchor": "evt.gen_22.ram_offered",
     "anchor_point": "END",
@@ -181,12 +499,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.return_to_beersheba",
    "verse_start": "GEN.22.19",
    "verse_end": "GEN.22.19",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_22.oath_and_blessing",
     "anchor_point": "END",
@@ -200,12 +536,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.two_servants_of_abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_22.news_of_milcahs_sons",
    "verse_start": "GEN.22.20",
    "verse_end": "GEN.22.24",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_22.return_to_beersheba",
     "anchor_point": "END",
@@ -219,7 +569,80 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.aram.gen_22_21",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.buz.gen_22_21",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.chesed",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.gaham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hazo",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.jidlaph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.kemuel.gen_22_21",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.maacah.gen_22_24",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.milcah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.pildash",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reumah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.tahash",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.tebah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.uz.gen_22_21",
+     "role": "MENTIONED"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -252,8 +675,370 @@
    "confidence": 1.0
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.abraham.divine_approval.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "divine_approval",
+   "value_code": "FEARER_OF_GOD",
+   "acquired_at_verse": "GEN.22.12",
+   "acquired_in_event": "evt.gen_22.angel_stops_sacrifice"
+  },
+  {
+   "component_id": "comp.abraham.dwelling.6",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.beersheba",
+   "supersedes_component_id": "comp.abraham.dwelling.5",
+   "acquired_at_verse": "GEN.22.19",
+   "acquired_in_event": "evt.gen_22.return_to_beersheba"
+  },
+  {
+   "component_id": "comp.abraham.trial.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "trial",
+   "value_code": "UNDER_TEST",
+   "acquired_at_verse": "GEN.22.1",
+   "acquired_in_event": "evt.gen_22.god_tests_abraham",
+   "expired_at_verse": "GEN.22.12",
+   "expired_in_event": "evt.gen_22.angel_stops_sacrifice"
+  },
+  {
+   "component_id": "comp.isaac.binding.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "binding",
+   "value_code": "BOUND_ON_ALTAR",
+   "acquired_at_verse": "GEN.22.9",
+   "acquired_in_event": "evt.gen_22.altar_and_binding",
+   "expired_at_verse": "GEN.22.12",
+   "expired_in_event": "evt.gen_22.angel_stops_sacrifice"
+  },
+  {
+   "component_id": "comp.moriah_mount.name.1",
+   "entity_id": "loc.moriah_mount",
+   "category": "TRAIT",
+   "component_key": "name",
+   "value_code": "YHWH_YIREH",
+   "acquired_at_verse": "GEN.22.14",
+   "acquired_in_event": "evt.gen_22.ram_offered"
+  },
+  {
+   "component_id": "comp.reumah.status.1",
+   "entity_id": "person.reumah",
+   "category": "ROLE_TITLE",
+   "component_key": "status",
+   "value_code": "CONCUBINE_OF_NAHOR",
+   "acquired_at_verse": "GEN.22.24",
+   "acquired_in_event": "evt.gen_22.news_of_milcahs_sons"
+  },
+  {
+   "component_id": "comp.yhwh.oath_to_abraham.1",
+   "entity_id": "deity.yhwh",
+   "category": "ALLEGIANCE",
+   "component_key": "oath_to_abraham",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.22.16",
+   "acquired_in_event": "evt.gen_22.oath_and_blessing"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.abraham.dwelling.5",
+   "expired_at_verse": "GEN.22.19",
+   "expired_in_event": "evt.gen_22.return_to_beersheba"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_22.abraham_tested",
+   "system_id": "sys.divine_testing",
+   "event_id": "evt.gen_22.god_tests_abraham",
+   "verse_start": "GEN.22.1",
+   "verse_end": "GEN.22.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "test",
+    "only_son",
+    "burnt_offering_command"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.altar_built",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_22.altar_and_binding",
+   "verse_start": "GEN.22.9",
+   "verse_end": "GEN.22.9",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [
+    "artifact.altar_of_moriah",
+    "artifact.wood_of_burnt_offering"
+   ],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "altar",
+    "wood_arranged"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.blessing_promised",
+   "system_id": "sys.covenant_promise",
+   "event_id": "evt.gen_22.oath_and_blessing",
+   "verse_start": "GEN.22.16",
+   "verse_end": "GEN.22.18",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "seed_like_stars",
+    "all_nations_blessed",
+    "obedience"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.go_to_moriah",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_22.god_tests_abraham",
+   "verse_start": "GEN.22.2",
+   "verse_end": "GEN.22.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "go",
+    "offer_isaac"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.isaac_bound_for_offering",
+   "system_id": "sys.burnt_offering",
+   "event_id": "evt.gen_22.altar_and_binding",
+   "verse_start": "GEN.22.9",
+   "verse_end": "GEN.22.10",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [
+    "artifact.altar_of_moriah",
+    "artifact.sacrificial_knife",
+    "artifact.wood_of_burnt_offering"
+   ],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "interrupted",
+    "human_offering_commanded"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.isaac_spared",
+   "system_id": "sys.angelic_deliverance",
+   "event_id": "evt.gen_22.angel_stops_sacrifice",
+   "verse_start": "GEN.22.11",
+   "verse_end": "GEN.22.12",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "call_from_heaven",
+    "hand_stayed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.oath_by_himself",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_22.oath_and_blessing",
+   "verse_start": "GEN.22.15",
+   "verse_end": "GEN.22.16",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "oath_by_himself",
+    "second_call"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.place_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_22.ram_offered",
+   "verse_start": "GEN.22.14",
+   "verse_end": "GEN.22.14",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "loc.moriah_mount"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "yhwh_yireh",
+    "etiology"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.ram_burnt_offering",
+   "system_id": "sys.burnt_offering",
+   "event_id": "evt.gen_22.ram_offered",
+   "verse_start": "GEN.22.13",
+   "verse_end": "GEN.22.13",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [
+    "artifact.ram_of_moriah",
+    "artifact.altar_of_moriah"
+   ],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "ram",
+    "completed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_22.ram_offered",
+   "system_id": "sys.substitutionary_offering",
+   "event_id": "evt.gen_22.ram_offered",
+   "verse_start": "GEN.22.13",
+   "verse_end": "GEN.22.13",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ram_of_moriah",
+    "artifact.altar_of_moriah"
+   ],
+   "location_entity_id": "loc.moriah_mount",
+   "tags": [
+    "ram_in_thicket",
+    "in_place_of_son"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_22.abraham_binds_isaac",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "BINDS",
+   "verse_id": "GEN.22.9",
+   "event_id": "evt.gen_22.altar_and_binding"
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_commands_servants",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.two_servants_of_abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.22.5",
+   "event_id": "evt.gen_22.servants_left_behind"
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_loads_isaac",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "LOADS",
+   "verse_id": "GEN.22.6",
+   "event_id": "evt.gen_22.abraham_and_isaac_climb"
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_names_place",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "loc.moriah_mount",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.22.14",
+   "event_id": "evt.gen_22.ram_offered"
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_offers_ram",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "artifact.ram_of_moriah",
+   "interaction_type": "OFFERS",
+   "verse_id": "GEN.22.13",
+   "event_id": "evt.gen_22.ram_offered"
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_raises_knife_to_isaac",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "PREPARES_TO_SLAY",
+   "verse_id": "GEN.22.10",
+   "event_id": "evt.gen_22.altar_and_binding"
+  },
+  {
+   "edge_id": "edge.gen_22.angel_blesses_abraham",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.22.17",
+   "event_id": "evt.gen_22.oath_and_blessing"
+  },
+  {
+   "edge_id": "edge.gen_22.angel_stops_abraham",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "RESTRAINS",
+   "verse_id": "GEN.22.12",
+   "event_id": "evt.gen_22.angel_stops_sacrifice"
+  },
+  {
+   "edge_id": "edge.gen_22.angel_swears_to_abraham",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.22.16",
+   "event_id": "evt.gen_22.oath_and_blessing"
+  },
+  {
+   "edge_id": "edge.gen_22.bethuel_fathers_rebekah",
+   "source_entity_id": "person.bethuel",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.22.23",
+   "event_id": "evt.gen_22.news_of_milcahs_sons"
+  },
+  {
+   "edge_id": "edge.gen_22.god_commands_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.22.2",
+   "event_id": "evt.gen_22.god_tests_abraham"
+  },
+  {
+   "edge_id": "edge.gen_22.isaac_questions_abraham",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.22.7",
+   "event_id": "evt.gen_22.abraham_and_isaac_climb"
+  },
+  {
+   "edge_id": "edge.gen_22.yhwh_provides_ram",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "artifact.ram_of_moriah",
+   "interaction_type": "PROVIDES",
+   "verse_id": "GEN.22.13",
+   "event_id": "evt.gen_22.ram_offered"
+  }
+ ]
 }

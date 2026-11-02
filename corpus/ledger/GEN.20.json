@@ -98,6 +98,480 @@
    ],
    "source": null
   },
+  "closure:comp.abraham.dwelling.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.abraham.wealth.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abimelech.divine_warning.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider expiring it at GEN.20.17 in evt.gen_20.abraham_prays_and_god_heals. (GEN.20.7: \"he shall pray for thee, and thou shalt live\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abimelech.household_fertility.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Inferred: the text reports the closing of wombs only in a retrospective note (20:18). I date its start to the taking of Sarah (20:2) and its end to the healing (20:17); the exact moment is not stated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.dwelling.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "20:1 says Abraham 'dwelt between Kadesh and Shur' and 'sojourned in Gerar'. I chose Gerar as the target of the state since the events happen there; the Kadesh–Shur stay is mentioned in the event participants."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.wealth.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Supersedes comp.abraham.wealth.1 (GEN.12) because Abimelech's gifts add livestock, servants and silver."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.household.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:05:33+00:00",
+   "agent_notes": [
+    "Renamed from comp.sarah.held_by.1 at the reviewer's request: ALLEGIANCE / household, matching comp.sarah.household.1 (GEN.12, Pharaoh's house). 20:4 and 20:6 state he did not touch her."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:06:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.servants_of_abimelech.fear.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abimelech_gives_abraham_gifts": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abimelech_rebukes_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abimelech_restores_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abimelech_takes_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abimelech_vindicates_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider hedging the description ('… a covering of the eyes; the last word is read as vindicated or as reproved') here and in substance.silver_of_vindication's summary_bio. (GEN.20.16: KJV \"thus she was reproved\"; YLT \"by all this she is reasoned with\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abraham_deceives_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:05:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[should_fix] Rewrite the description as: 'Abraham says that Sarah his wife is his sister, and Abimelech, told so, takes her' (20:2, 5), with no purpose clause; if a motive is given, use 20:11: fear of being killed for her. (GEN.20.11: \"they will slay me for my wife's sake\"; GEN.20.5: \"Said he not unto me, She is my sister?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:06:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.abraham_prays_for_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.god_commands_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.god_heals_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.god_restrains_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_20.god_warns_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.maidservants_of_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.servants_of_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.wife_of_abimelech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Unnamed; 'his wife' in 20:17. A single wife is assumed, as the Hebrew is singular."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.silver_of_vindication": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "The thousand silver pieces are the plot-relevant object, a 'covering of the eyes' (20:16); a modelling choice to keep it as a substance."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_20.abimelech_confronts_abraham": {
    "status": "approved",
    "produced_by": {
@@ -236,6 +710,357 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_20.abimelech_confronts_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider adding person.terah as MENTIONED. (GEN.20.12: \"she is the daughter of my father, but not the daughter of my mother\"; GEN.20.13: \"from my father's house\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.abimelech_restores_sarah_with_gifts": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.abimelech_takes_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Gerar is carried over from the previous scene; the text names it only as Abimelech's seat (20:2)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider a comp.sarah.public_identity.2 (CLAIMED_SISTER) from 20:2 to 20:16, where Abimelech calls Abraham 'thy brother' while returning her. (GEN.20.2: \"She is my sister\"; GEN.20.5: \"she, even she herself said, He is my brother\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.abimelech_tells_his_servants": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.abraham_moves_to_gerar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Place is Gerar, the end of the journey; Negeb, Kadesh and Shur are listed as MENTIONED."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.abraham_prays_and_god_heals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_20.god_warns_abimelech_in_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.abraham_intercedes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider adding person.abimelech.gen_20_2 to target_entity_ids. (GEN.20.7: \"he shall pray for thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.household_healed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.restitution_to_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.sarah_taken": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[consider] Consider attributing the reading ('read by many as protecting the promised son, 18:10') or using the reason in 20:6. (GEN.20.6: \"I also withheld thee from sinning against me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.sister_claim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:05:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[should_fix] Change the outcome_summary to: 'Abraham says Sarah is his sister, and she says he is her brother (20:2, 5); Abimelech, believing them, takes her.' Drop 'the people of Gerar'. (GEN.20.5: \"Said he not unto me, She is my sister? and she, even she herself said, He is my brother\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:06:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.warning_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_20.wombs_closed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_closing_of_wombs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:05:33+00:00",
+   "agent_notes": [
+    "Defined here rather than reusing sys.divine_plague (GEN.12), because the act is targeted infertility rather than disease."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[should_fix] Reword the third rule to 'God alone reopens the womb; in Gen 20 he does so after the prophet's prayer (20:17)', so later instances are not bound to an intercessor. (GEN.20.17: \"So Abraham prayed unto God: and God healed\"; GEN.30.22: \"God remembered Rachel, and God hearkened to her, and opened her womb\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:06:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_healing": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:05:33+00:00",
+   "agent_notes": [
+    "Defined here: no healing system existed in the catalog. Could be reused for later healings."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": "[should_fix] Replace the second rule with 'God may name the intercessor whose prayer brings the healing (20:7)' and reword the third as a description of this case ('Here the healing reverses God's own closing of the wombs, 20:18') or drop it. (GEN.20.7: \"he is a prophet, and he shall pray for thee, and thou shalt live\"; GEN.20.17: \"So Abraham prayed unto God: and God healed Abimelech\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:06:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.restitution_gift": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:02:40+00:00",
+   "agent_notes": [
+    "Defined here for gifts that repair a wrong (20:14–16); distinct from sys.gift_of_homage (GEN.43), which honours a superior."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:04:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -256,6 +1081,114 @@
     "run": "main"
    },
    "at": "2026-11-02T14:05:55+00:00"
+  },
+  {
+   "note": "[entity:person.abimelech.gen_20_2] Already defined in the corpus (from GEN.26, where he is the later king of Gerar). I reuse the same entity for the Abimelech of Gen 20 because the registry gives one TIPNR id (Abimelech@Gen.20.2-) to both; many scholars treat them as distinct rulers or a dynastic title, but the corpus keeps one entity.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:02:40+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Elohim (20:3, 6, 13, 17) and Yahweh (20:18) both map to deity.yhwh, per the skill rule that a divine title is the deity. In 20:13 the plural verb with Elohim ('they caused me to wander') is still read of the one God.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:02:40+00:00"
+  },
+  {
+   "note": "[entity:person.abimelech.gen_20_2] Already defined in the corpus (from GEN.26, where he is the later king of Gerar). I reuse the same entity for the Abimelech of Gen 20 because the registry gives one TIPNR id (Abimelech@Gen.20.2-) to both; many scholars treat them as distinct rulers or a dynastic title, but the corpus keeps one entity.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Elohim (20:3, 6, 13, 17) and Yahweh (20:18) both map to deity.yhwh, per the skill rule that a divine title is the deity. In 20:13 the plural verb with Elohim ('they caused me to wander') is still read of the one God.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[component:comp.abimelech.household_fertility.1] Inferred: the text reports the closing of wombs only in a retrospective note (20:18). I date its start to the taking of Sarah (20:2) and its end to the healing (20:17); the exact moment is not stated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.dwelling.5] 20:1 says Abraham 'dwelt between Kadesh and Shur' and 'sojourned in Gerar'. I chose Gerar as the target of the state since the events happen there; the Kadesh–Shur stay is mentioned in the event participants.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.wealth.2] Supersedes comp.abraham.wealth.1 (GEN.12) because Abimelech's gifts add livestock, servants and silver.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_20.abraham_moves_to_gerar] Place is Gerar, the end of the journey; Negeb, Kadesh and Shur are listed as MENTIONED.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_20.abimelech_takes_sarah] Gerar is carried over from the previous scene; the text names it only as Abimelech's seat (20:2).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[system:sys.restitution_gift] Defined here for gifts that repair a wrong (20:14–16); distinct from sys.gift_of_homage (GEN.43), which honours a superior.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[entity:substance.silver_of_vindication] The thousand silver pieces are the plot-relevant object, a 'covering of the eyes' (20:16); a modelling choice to keep it as a substance.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
+  },
+  {
+   "note": "[entity:person.wife_of_abimelech] Unnamed; 'his wife' in 20:17. A single wife is assumed, as the Hebrew is singular.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:05:33+00:00"
   }
  ]
 }

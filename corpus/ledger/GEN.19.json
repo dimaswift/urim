@@ -268,7 +268,7 @@
    "source": null
   },
   "closure:comp.lot.dwelling.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -276,11 +276,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.ben_ammi.progeny.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -288,11 +295,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.descendants.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -300,11 +314,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.dwelling.2": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -314,11 +335,18 @@
    "agent_notes": [
     "Lot's dwelling in Sodom (comp.lot.dwelling.1) is closed at his entry into Zoar (19:23), where the next state opens; he left the city at 19:16 and was only in transit between."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.dwelling.3": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -326,11 +354,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.fear.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -338,11 +373,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.intoxication.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -352,11 +394,18 @@
    "agent_notes": [
     "Drunkenness is modelled as two one-verse components, one for each night."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lot.intoxication.2": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -364,11 +413,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[consider] Consider dropping supersedes_component_id here; the category choice can stay if no closer one fits. (GEN.19.35: \"And they made their father drink wine that night also\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.lots_wife.form.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -376,11 +432,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.men_of_sodom.life.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -388,11 +451,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "component:comp.moab.progeny.1": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -400,11 +470,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_blind_mob": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -412,11 +489,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_command_flight": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -424,11 +508,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_grant_zoar": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -436,11 +527,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_lead_family_out": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -448,11 +546,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_order_family_out": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -460,11 +565,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.angels_pull_lot_inside": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -472,11 +584,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.elder_bears_moab": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -484,11 +603,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.elder_intoxicates_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -496,11 +622,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[consider] Either add a matching edge from person.lots_younger_daughter or say in the description that the elder is chosen as source because she proposed the plan (19:32). (GEN.19.33: \"And they made their father drink wine that night\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.elder_lies_with_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -508,11 +641,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.elder_proposes_plan": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -520,11 +660,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.god_delivers_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -532,11 +679,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.god_remembers_abraham": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -544,11 +698,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.lot_bows_to_visitors": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -556,11 +717,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.lot_hosts_angels": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -568,11 +736,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.lot_offers_daughters": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -580,11 +755,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.lot_pleads_for_zoar": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -592,11 +774,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.lot_warns_sons_in_law": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -604,11 +793,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.mob_demands_guests": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -616,11 +812,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.mob_threatens_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -628,11 +831,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.yhwh_destroys_gomorrah": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -640,11 +850,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.yhwh_destroys_sodom": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -652,11 +869,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.younger_bears_ben_ammi": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -664,11 +888,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "edge:edge.gen_19.younger_lies_with_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -676,11 +907,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:group.ammonites": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -690,11 +928,18 @@
    "agent_notes": [
     "The registry proposes loc.ammon (Ammon@Gen.19.38-Zep) as a place. Here Ammon is the ancestor-people, so I defined group.ammonites and group.moabites with no tipnr_id; the place entities, if wanted, can be added from the later books. Ben-ammi and Moab take the registry ids."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:group.moabites": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -702,11 +947,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:group.sons_in_law_of_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -714,11 +966,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:loc.cave_above_zoar": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -728,11 +987,18 @@
    "agent_notes": [
     "No coordinates and not in the registry; 'the mountain' (v30) is not otherwise identified."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:loc.gate_of_sodom": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -740,11 +1006,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:loc.house_of_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -752,11 +1025,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:person.ben_ammi": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -764,11 +1044,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:person.lots_elder_daughter": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -778,11 +1065,18 @@
    "agent_notes": [
     "Both daughters first appear at 19:8 ('two daughters who have not known man'); who is the elder is stated only at 19:31."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:person.lots_wife": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -790,11 +1084,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:person.lots_younger_daughter": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -802,11 +1103,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:person.moab": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -814,11 +1122,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "entity:substance.sulfur_and_fire": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -826,7 +1141,14 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event:evt.gen_19.abraham_sees_smoke": {
@@ -1135,7 +1457,7 @@
    "source": null
   },
   "event_links:evt.gen_19.abraham_sees_smoke": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1145,11 +1467,18 @@
    "agent_notes": [
     "Abraham 'stood before the LORD' in Gen 18:22, near Mamre, so I placed the event at loc.mamre by inference; v27 does not name the place."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[consider] Consider leaving the location empty, or keep loc.mamre and say in the note that it stands for the vicinity of Mamre on the road toward Sodom. (GEN.18.16: \"Abraham went with them to bring them on the way\"; GEN.19.27: \"to the place where he stood before the Lord\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.angels_blind_the_mob": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1157,11 +1486,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.angels_hasten_lot_out": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1169,11 +1505,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.angels_warn_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1181,11 +1524,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.angels_welcomed_by_lot": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1195,11 +1545,18 @@
    "agent_notes": [
     "The event runs from the gate (v1) into the house (v3); I placed it at loc.house_of_lot, and the greeting itself is placed at loc.gate_of_sodom in inst.gen_19.lot_bows_to_visitors."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.daughters_first_night": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1207,11 +1564,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.daughters_second_night": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1219,11 +1583,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.fire_rains_on_sodom": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1231,23 +1602,45 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.lot_enters_zoar": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
     "run": "main"
    },
-   "produced_at": "2026-11-02T14:15:22+00:00",
-   "agent_notes": [],
-   "history": [],
+   "produced_at": "2026-11-02T14:59:41+00:00",
+   "agent_notes": [
+    "Per reviewer request, Lot's wife is removed from the participants: she becomes a pillar of salt at 19:26 and is not with Lot in Zoar (19:30). Lot and the two daughters remain."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[should_fix] Remove person.lots_wife from the participants of evt.gen_19.lot_enters_zoar (keep Lot and the two daughters, who are with him in Zoar per 19:30). (GEN.19.23: \"The sun was risen upon the earth when Lot entered into Zoar.\"; GEN.19.26: \"But his wife looked back from behind him, and she became a pillar of salt.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:00:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.lot_pleads_for_zoar": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1257,11 +1650,18 @@
    "agent_notes": [
     "Lot addresses 'my lord' (adonai, v18); the registry glosses this as the LORD, but the vocalisation and the plural 'them' fit the angels, and 19:21 says 'he said'. I modelled the angels as the interlocutors and left deity.yhwh out of this event; the speaker may be read as the LORD speaking through them. No place is given: the scene is outside Sodom, so it has no location."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.lot_settles_in_cave": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1269,11 +1669,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.lot_warns_sons_in_law": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1281,11 +1688,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.lot_wife_pillar_of_salt": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1295,11 +1709,18 @@
    "agent_notes": [
     "No place stated (on the way to Zoar), so none is set. Who turns her to salt is not stated; I set the LORD as initiator of inst.gen_19.lots_wife_becomes_salt by inference, reusing sys.divine_judgment_by_death."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.moab_and_ben_ammi_born": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1309,11 +1730,18 @@
    "agent_notes": [
     "The birth place is not stated; carried over from the cave."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "event_links:evt.gen_19.mob_surrounds_house": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1321,11 +1749,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.angelic_rescue_from_sodom": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1333,11 +1768,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.blinding_of_the_mob": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1345,11 +1787,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.fire_on_the_cities": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1357,11 +1806,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.first_night_seed": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1369,11 +1825,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.god_remembers_abraham": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1381,11 +1844,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.guest_protection_offer": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1393,11 +1863,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.hospitality_to_angels": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1405,11 +1882,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.lot_bows_to_visitors": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1417,11 +1901,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.lots_wife_becomes_salt": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1429,11 +1920,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[consider] Consider phrasing it as looking back against the warning given in 19:17, without asserting her disobedience as the text's moral. (GEN.19.17: \"he said, Escape for thy life; look not behind thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "instance:inst.gen_19.second_night_seed": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1441,11 +1939,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "system:sys.angelic_deliverance": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1453,11 +1958,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "system:sys.divine_judgment_by_fire": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1465,11 +1977,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "system:sys.guest_protection": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1477,11 +1996,18 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "system:sys.seed_preservation_by_intoxication": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1491,11 +2017,18 @@
    "agent_notes": [
     "Defined rather than reused: no existing system fits. Kept general in case it recurs; it may belong with sys.surrogate_concubinage in a review."
    ],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": "[consider] Consider saying in ancient_near_east_context that this is a one-off scheme the text sets against 'the manner of all the earth', not an attested custom. (GEN.19.31: \"there is not a man in the earth to come in unto us after the manner of all the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "system:sys.supernatural_blinding": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1503,7 +2036,14 @@
    },
    "produced_at": "2026-11-02T14:15:22+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:59:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   }
  },
@@ -1615,6 +2155,114 @@
     "run": "main"
    },
    "at": "2026-11-02T14:15:22+00:00"
+  },
+  {
+   "note": "[entity:group.two_visitors_to_sodom] Reused from Gen 18 for the 'two angels' (malakhim) of 19:1; the Hebrew switches between 'angels' and 'men'. Not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_19.lot_pleads_for_zoar] Lot addresses 'my lord' (adonai, v18); the registry glosses this as the LORD, but the vocalisation and the plural 'them' fit the angels, and 19:21 says 'he said'. I modelled the angels as the interlocutors and left deity.yhwh out of this event; the speaker may be read as the LORD speaking through them. No place is given: the scene is outside Sodom, so it has no location.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_19.lot_wife_pillar_of_salt] No place stated (on the way to Zoar), so none is set. Who turns her to salt is not stated; I set the LORD as initiator of inst.gen_19.lots_wife_becomes_salt by inference, reusing sys.divine_judgment_by_death.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_19.abraham_sees_smoke] Abraham 'stood before the LORD' in Gen 18:22, near Mamre, so I placed the event at loc.mamre by inference; v27 does not name the place.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_19.angels_welcomed_by_lot] The event runs from the gate (v1) into the house (v3); I placed it at loc.house_of_lot, and the greeting itself is placed at loc.gate_of_sodom in inst.gen_19.lot_bows_to_visitors.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_19.moab_and_ben_ammi_born] The birth place is not stated; carried over from the cave.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[entity:group.ammonites] The registry proposes loc.ammon (Ammon@Gen.19.38-Zep) as a place. Here Ammon is the ancestor-people, so I defined group.ammonites and group.moabites with no tipnr_id; the place entities, if wanted, can be added from the later books. Ben-ammi and Moab take the registry ids.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[component:comp.lot.dwelling.2] Lot's dwelling in Sodom (comp.lot.dwelling.1) is closed at his entry into Zoar (19:23), where the next state opens; he left the city at 19:16 and was only in transit between.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[component:comp.lot.intoxication.1] Drunkenness is modelled as two one-verse components, one for each night.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[system:sys.seed_preservation_by_intoxication] Defined rather than reused: no existing system fits. Kept general in case it recurs; it may belong with sys.surrogate_concubinage in a review.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[entity:person.lots_elder_daughter] Both daughters first appear at 19:8 ('two daughters who have not known man'); who is the elder is stated only at 19:31.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
+  },
+  {
+   "note": "[entity:loc.cave_above_zoar] No coordinates and not in the registry; 'the mountain' (v30) is not otherwise identified.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:59:41+00:00"
   }
  ]
 }

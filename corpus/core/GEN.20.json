@@ -1,12 +1,55 @@
 {
  "chapter_ref": "GEN.20",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "group.maidservants_of_abimelech",
+   "entity_type": "GROUP",
+   "source_script_name": "אַמְהֹתָיו",
+   "transliterated_name": "ʾamhotav",
+   "first_mention_verse": "GEN.20.17"
+  },
+  {
+   "entity_id": "group.servants_of_abimelech",
+   "entity_type": "GROUP",
+   "source_script_name": "עֲבָדָיו",
+   "transliterated_name": "ʿavadav",
+   "first_mention_verse": "GEN.20.8"
+  },
+  {
+   "entity_id": "person.wife_of_abimelech",
+   "entity_type": "PERSON",
+   "source_script_name": "אִשְׁתּוֹ",
+   "transliterated_name": "ʾishto",
+   "first_mention_verse": "GEN.20.17"
+  },
+  {
+   "entity_id": "substance.silver_of_vindication",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "כֶּסֶף",
+   "transliterated_name": "kesef",
+   "first_mention_verse": "GEN.20.16"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_closing_of_wombs",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.divine_healing",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.restitution_gift",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_20.abraham_moves_to_gerar",
    "verse_start": "GEN.20.1",
    "verse_end": "GEN.20.1",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_19.abraham_sees_smoke",
     "anchor_point": "END",
@@ -20,12 +63,30 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.kadesh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.negeb",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.shur",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.abimelech_takes_sarah",
    "verse_start": "GEN.20.2",
    "verse_end": "GEN.20.2",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.abraham_moves_to_gerar",
     "anchor_point": "END",
@@ -43,12 +104,26 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.god_warns_abimelech_in_dream",
    "verse_start": "GEN.20.3",
    "verse_end": "GEN.20.7",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.abimelech_takes_sarah",
     "anchor_point": "END",
@@ -63,12 +138,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.abimelech_tells_his_servants",
    "verse_start": "GEN.20.8",
    "verse_end": "GEN.20.8",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.god_warns_abimelech_in_dream",
     "anchor_point": "END",
@@ -83,12 +176,22 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.servants_of_abimelech",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.abimelech_confronts_abraham",
    "verse_start": "GEN.20.9",
    "verse_end": "GEN.20.13",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.abimelech_tells_his_servants",
     "anchor_point": "END",
@@ -102,12 +205,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
    "verse_start": "GEN.20.14",
    "verse_end": "GEN.20.16",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.abimelech_confronts_abraham",
     "anchor_point": "END",
@@ -121,12 +242,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_20.abraham_prays_and_god_heals",
    "verse_start": "GEN.20.17",
    "verse_end": "GEN.20.18",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_20.abimelech_restores_sarah_with_gifts",
     "anchor_point": "END",
@@ -140,7 +275,32 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.maidservants_of_abimelech",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.wife_of_abimelech",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -180,8 +340,309 @@
    "confidence": 1.0
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.abimelech.divine_warning.1",
+   "entity_id": "person.abimelech.gen_20_2",
+   "category": "TRAIT",
+   "component_key": "divine_warning",
+   "value_code": "DEATH_THREATENED",
+   "acquired_at_verse": "GEN.20.3",
+   "acquired_in_event": "evt.gen_20.god_warns_abimelech_in_dream",
+   "expired_at_verse": "GEN.20.14",
+   "expired_in_event": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "component_id": "comp.abimelech.household_fertility.1",
+   "entity_id": "person.abimelech.gen_20_2",
+   "category": "TRAIT",
+   "component_key": "household_fertility",
+   "value_code": "WOMBS_CLOSED",
+   "acquired_at_verse": "GEN.20.2",
+   "acquired_in_event": "evt.gen_20.abimelech_takes_sarah",
+   "expired_at_verse": "GEN.20.17",
+   "expired_in_event": "evt.gen_20.abraham_prays_and_god_heals"
+  },
+  {
+   "component_id": "comp.abraham.dwelling.5",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.gerar",
+   "supersedes_component_id": "comp.abraham.dwelling.4",
+   "acquired_at_verse": "GEN.20.1",
+   "acquired_in_event": "evt.gen_20.abraham_moves_to_gerar"
+  },
+  {
+   "component_id": "comp.abraham.office.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "PROPHET",
+   "acquired_at_verse": "GEN.20.7",
+   "acquired_in_event": "evt.gen_20.god_warns_abimelech_in_dream"
+  },
+  {
+   "component_id": "comp.abraham.wealth.2",
+   "entity_id": "person.abraham",
+   "category": "POSSESSION",
+   "component_key": "wealth",
+   "value_code": "FLOCKS_SERVANTS_CAMELS_AND_ROYAL_GIFTS",
+   "supersedes_component_id": "comp.abraham.wealth.1",
+   "acquired_at_verse": "GEN.20.14",
+   "acquired_in_event": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "component_id": "comp.sarah.household.2",
+   "entity_id": "person.sarah",
+   "category": "ALLEGIANCE",
+   "component_key": "household",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "acquired_at_verse": "GEN.20.2",
+   "acquired_in_event": "evt.gen_20.abimelech_takes_sarah",
+   "expired_at_verse": "GEN.20.14",
+   "expired_in_event": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "component_id": "comp.servants_of_abimelech.fear.1",
+   "entity_id": "group.servants_of_abimelech",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "TERRIFIED",
+   "acquired_at_verse": "GEN.20.8",
+   "acquired_in_event": "evt.gen_20.abimelech_tells_his_servants"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.abraham.dwelling.4",
+   "expired_at_verse": "GEN.20.1",
+   "expired_in_event": "evt.gen_20.abraham_moves_to_gerar"
+  },
+  {
+   "component_id": "comp.abraham.wealth.1",
+   "expired_at_verse": "GEN.20.14",
+   "expired_in_event": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_20.abraham_intercedes",
+   "system_id": "sys.petition_prayer",
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "verse_start": "GEN.20.17",
+   "verse_end": "GEN.20.17",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "intercession",
+    "prophet"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.household_healed",
+   "system_id": "sys.divine_healing",
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "verse_start": "GEN.20.17",
+   "verse_end": "GEN.20.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2",
+    "person.wife_of_abimelech",
+    "group.maidservants_of_abimelech"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "fertility_restored"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.restitution_to_abraham",
+   "system_id": "sys.restitution_gift",
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+   "verse_start": "GEN.20.14",
+   "verse_end": "GEN.20.16",
+   "initiator_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [
+    "substance.silver_of_vindication"
+   ],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "livestock",
+    "servants",
+    "silver",
+    "vindication"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.sarah_taken",
+   "system_id": "sys.taking_into_royal_house",
+   "event_id": "evt.gen_20.abimelech_takes_sarah",
+   "verse_start": "GEN.20.2",
+   "verse_end": "GEN.20.2",
+   "initiator_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "royal_house"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.sister_claim",
+   "system_id": "sys.wife_passed_as_sister",
+   "event_id": "evt.gen_20.abimelech_takes_sarah",
+   "verse_start": "GEN.20.2",
+   "verse_end": "GEN.20.2",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.sarah",
+    "person.abimelech.gen_20_2"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "deception",
+    "wife_sister"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.warning_dream",
+   "system_id": "sys.revelatory_dream",
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "verse_start": "GEN.20.3",
+   "verse_end": "GEN.20.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "night_dream",
+    "warning",
+    "gentile_king"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_20.wombs_closed",
+   "system_id": "sys.divine_closing_of_wombs",
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "verse_start": "GEN.20.18",
+   "verse_end": "GEN.20.18",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2",
+    "person.wife_of_abimelech",
+    "group.maidservants_of_abimelech"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "infertility",
+    "retrospective"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_20.abimelech_gives_abraham_gifts",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "GIVES_TO",
+   "verse_id": "GEN.20.14",
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_rebukes_abraham",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.20.9",
+   "event_id": "evt.gen_20.abimelech_confronts_abraham"
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_restores_sarah",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "RESTORES",
+   "verse_id": "GEN.20.14",
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_takes_sarah",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "TAKES",
+   "verse_id": "GEN.20.2",
+   "event_id": "evt.gen_20.abimelech_takes_sarah"
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_vindicates_sarah",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "VINDICATES",
+   "verse_id": "GEN.20.16",
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts"
+  },
+  {
+   "edge_id": "edge.gen_20.abraham_deceives_abimelech",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.20.2",
+   "event_id": "evt.gen_20.abimelech_takes_sarah"
+  },
+  {
+   "edge_id": "edge.gen_20.abraham_prays_for_abimelech",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "INTERCEDES_FOR",
+   "verse_id": "GEN.20.17",
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals"
+  },
+  {
+   "edge_id": "edge.gen_20.god_commands_abimelech",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.20.7",
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream"
+  },
+  {
+   "edge_id": "edge.gen_20.god_heals_abimelech",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "HEALS",
+   "verse_id": "GEN.20.17",
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals"
+  },
+  {
+   "edge_id": "edge.gen_20.god_restrains_abimelech",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "RESTRAINS",
+   "verse_id": "GEN.20.6",
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream"
+  },
+  {
+   "edge_id": "edge.gen_20.god_warns_abimelech",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "WARNS",
+   "verse_id": "GEN.20.3",
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream"
+  }
+ ]
 }

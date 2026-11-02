@@ -92,9 +92,362 @@
    "causal_explanation": "Abraham sets out because God commanded him to take Isaac to Moriah (22:3 answers 22:2)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.altar_of_moriah",
+   "canonical_name": "The altar on Moriah",
+   "phonetic_name": "Mizbeach",
+   "aliases": [],
+   "etymology_meaning": "Hebrew mizbeach, 'place of slaughter, altar'.",
+   "summary_bio": "The altar Abraham builds on the mountain God showed him. Isaac is bound on it, and the ram is offered on it in his place."
+  },
+  {
+   "entity_id": "artifact.ram_of_moriah",
+   "canonical_name": "The ram",
+   "phonetic_name": "Ayil",
+   "aliases": [
+    "the ram caught in the thicket"
+   ],
+   "etymology_meaning": "Hebrew 'ayil, 'ram'.",
+   "summary_bio": "A ram Abraham finds caught by its horns in a thicket after the angel's call. He offers it as a burnt offering in place of his son, answering his earlier words that God will provide the lamb."
+  },
+  {
+   "entity_id": "artifact.sacrificial_knife",
+   "canonical_name": "The knife",
+   "phonetic_name": "Ma'akhelet",
+   "aliases": [],
+   "etymology_meaning": "Hebrew ma'akhelet, a 'cutting, devouring' blade; the word is used for a slaughtering knife.",
+   "summary_bio": "The knife Abraham carries with the fire up the mountain. He takes it in hand to slaughter Isaac, until the angel calls out."
+  },
+  {
+   "entity_id": "artifact.wood_of_burnt_offering",
+   "canonical_name": "The wood for the burnt offering",
+   "phonetic_name": "Atse olah",
+   "aliases": [],
+   "etymology_meaning": "Hebrew 'atse 'olah, 'wood of the ascending offering'.",
+   "summary_bio": "Wood Abraham splits before setting out. Isaac carries it up the mountain, and Abraham arranges it on the altar beneath the bound Isaac."
+  },
+  {
+   "entity_id": "group.two_servants_of_abraham",
+   "canonical_name": "Abraham's two young men",
+   "phonetic_name": "Ne'arav",
+   "aliases": [
+    "his young men",
+    "his servants"
+   ],
+   "etymology_meaning": "Hebrew na'ar, 'young man, servant'.",
+   "summary_bio": "Two unnamed servants who go with Abraham and Isaac to Moriah. Abraham leaves them behind with the donkey where he first sees the place from afar, and they later go back with Abraham to Beersheba."
+  },
+  {
+   "entity_id": "loc.moriah_mount",
+   "canonical_name": "Mount Moriah",
+   "phonetic_name": "Moriyah",
+   "aliases": [
+    "the land of Moriah",
+    "the mount of the LORD",
+    "Jehovah-jireh"
+   ],
+   "etymology_meaning": "Probably 'seen by the LORD' or 'provided by the LORD'; the text itself plays on the verb 'to see' in 22:8, 14.",
+   "summary_bio": "The region and mountain to which God sends Abraham to offer Isaac. Abraham sees it from afar on the third day, builds the altar there and names the place 'The LORD will provide'."
+  },
+  {
+   "entity_id": "person.aram.gen_22_21",
+   "canonical_name": "Aram",
+   "phonetic_name": "Aram",
+   "aliases": [],
+   "etymology_meaning": "Probably 'height' or 'highland'; the same name as the people and region of Aram.",
+   "summary_bio": "Son of Kemuel and grandson of Nahor, named only in the genealogy of Nahor's household. A different Aram from the son of Shem in GEN.10."
+  },
+  {
+   "entity_id": "person.buz.gen_22_21",
+   "canonical_name": "Buz",
+   "phonetic_name": "Buz",
+   "aliases": [],
+   "etymology_meaning": "Probably 'contempt' or 'contemptible'.",
+   "summary_bio": "Second son of Nahor and Milcah, brother of Uz, and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.chesed",
+   "canonical_name": "Chesed",
+   "phonetic_name": "Kesed",
+   "aliases": [
+    "Kesed"
+   ],
+   "etymology_meaning": "Uncertain; possibly linked to the Chaldeans (Kasdim).",
+   "summary_bio": "A son of Nahor and Milcah and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.gaham",
+   "canonical_name": "Gaham",
+   "phonetic_name": "Gacham",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'flame' or 'burning'.",
+   "summary_bio": "A son of Nahor and his concubine Reumah, and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.hazo",
+   "canonical_name": "Hazo",
+   "phonetic_name": "Chazo",
+   "aliases": [],
+   "etymology_meaning": "Uncertain; possibly 'vision'.",
+   "summary_bio": "A son of Nahor and Milcah and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.jidlaph",
+   "canonical_name": "Jidlaph",
+   "phonetic_name": "Yidlaf",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'he weeps' or 'he drips'.",
+   "summary_bio": "A son of Nahor and Milcah and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.kemuel.gen_22_21",
+   "canonical_name": "Kemuel",
+   "phonetic_name": "Kemu'el",
+   "aliases": [],
+   "etymology_meaning": "Probably 'raised by God' or 'assembly of God'.",
+   "summary_bio": "A son of Nahor and Milcah, described as the father of Aram. A nephew of Abraham."
+  },
+  {
+   "entity_id": "person.maacah.gen_22_24",
+   "canonical_name": "Maacah",
+   "phonetic_name": "Ma'akhah",
+   "aliases": [
+    "Maachah"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'oppression'.",
+   "summary_bio": "The youngest-named son of Nahor and his concubine Reumah, and a nephew of Abraham. The same name appears later for other people."
+  },
+  {
+   "entity_id": "person.pildash",
+   "canonical_name": "Pildash",
+   "phonetic_name": "Pildash",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A son of Nahor and Milcah and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.reumah",
+   "canonical_name": "Reumah",
+   "phonetic_name": "Re'umah",
+   "aliases": [],
+   "etymology_meaning": "Probably 'raised up' or 'coral'.",
+   "summary_bio": "Concubine of Nahor, Abraham's brother. She bore him four sons: Tebah, Gaham, Tahash and Maacah."
+  },
+  {
+   "entity_id": "person.tahash",
+   "canonical_name": "Tahash",
+   "phonetic_name": "Tachash",
+   "aliases": [
+    "Thahash"
+   ],
+   "etymology_meaning": "Probably a kind of animal ('badger' or 'seacow'), as in the name of the tabernacle covering.",
+   "summary_bio": "A son of Nahor and his concubine Reumah, and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.tebah",
+   "canonical_name": "Tebah",
+   "phonetic_name": "Tevach",
+   "aliases": [],
+   "etymology_meaning": "Probably 'slaughter' (from the same root as 'butcher').",
+   "summary_bio": "A son of Nahor and his concubine Reumah, and a nephew of Abraham."
+  },
+  {
+   "entity_id": "person.uz.gen_22_21",
+   "canonical_name": "Uz",
+   "phonetic_name": "Uts",
+   "aliases": [
+    "Huz"
+   ],
+   "etymology_meaning": "Uncertain; possibly 'counsel' or tied to the land of Uz.",
+   "summary_bio": "Firstborn son of Nahor and Milcah, so a nephew of Abraham. Named in the report brought to Abraham after Moriah."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.divine_approval.1",
+   "label_key": "Standing with God",
+   "label_value": "Declared a fearer of God",
+   "evidence_explanation": "GEN.22.12: 'now I know that you fear God, since you have not withheld your son, your only son, from me'."
+  },
+  {
+   "component_id": "comp.abraham.dwelling.6",
+   "label_key": "Dwelling",
+   "label_value": "Living at Beersheba",
+   "evidence_explanation": "GEN.22.19: 'and Abraham lived at Beersheba'."
+  },
+  {
+   "component_id": "comp.abraham.trial.1",
+   "label_key": "Trial",
+   "label_value": "Under God's test",
+   "evidence_explanation": "GEN.22.1: 'God put Abraham to the test'; the test ends when the angel says 'now I know that you fear God' (22.12)."
+  },
+  {
+   "component_id": "comp.isaac.binding.1",
+   "label_key": "Binding",
+   "label_value": "Bound on the altar",
+   "evidence_explanation": "GEN.22.9: Abraham bound Isaac and laid him on the altar; GEN.22.12 forbids the harm and ends the state."
+  },
+  {
+   "component_id": "comp.moriah_mount.name.1",
+   "label_key": "Name",
+   "label_value": "The LORD will provide (Yahweh-yireh)",
+   "evidence_explanation": "GEN.22.14: Abraham called the name of that place 'The LORD will provide', and it is said to this day 'on the mount of the LORD it shall be provided'."
+  },
+  {
+   "component_id": "comp.reumah.status.1",
+   "label_key": "Status",
+   "label_value": "Nahor's concubine",
+   "evidence_explanation": "GEN.22.24: 'his concubine, whose name was Reumah, bore also Tebah, Gaham, Tahash and Maacah'."
+  },
+  {
+   "component_id": "comp.yhwh.oath_to_abraham.1",
+   "label_key": "Oath",
+   "label_value": "Sworn blessing and seed to Abraham",
+   "evidence_explanation": "GEN.22.16-18: 'By myself I have sworn, declares the LORD... I will surely bless you and multiply your offspring'."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_testing",
+   "name": "Divine testing",
+   "ancient_near_east_context": "In Israel's tradition God proves a person's loyalty by a demanding command (Gen 22; Exod 16:4; Deut 8:2; 13:3; Job 1-2). The Hebrew verb nissah has the sense of a proof or trial, not a temptation to evil. Child sacrifice is known in the wider region but is condemned elsewhere in the law (Lev 18:21; Deut 12:31).",
+   "rules_and_mechanics": [
+    "God initiates the test and states it as a command.",
+    "The test measures fear of God and obedience, not knowledge: the result is described as God coming to know (22:12).",
+    "The person has no way to verify the demand and proves himself by acting on it.",
+    "God can end the test at the last moment before harm is done."
+   ]
+  },
+  {
+   "system_id": "sys.substitutionary_offering",
+   "name": "Substitutionary offering",
+   "ancient_near_east_context": "An animal offered in place of a person or a firstborn is widely attested in the region, and Israelite law redeems the firstborn by substitution (Exod 13:13; 34:20). The ram here stands in the place ('in the stead of his son', 22:13) of the person spared.",
+   "rules_and_mechanics": [
+    "A person is spared and an animal is offered instead.",
+    "The substitute is provided from outside the one who offers, here by God.",
+    "The offering is carried out in full as a burnt offering on the altar.",
+    "The place may be named for what happened there."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_22.abraham_tested",
+   "outcome_summary": "God calls Abraham by name, and Abraham answers 'Here I am'. God then tells him to offer up his only son. Abraham obeys without argument.",
+   "significance_note": "The test the whole chapter turns on: whether Abraham's trust in God reaches the son who carries the promise."
+  },
+  {
+   "instance_id": "inst.gen_22.altar_built",
+   "outcome_summary": "At the place God named, Abraham builds the altar and arranges the wood on it.",
+   "significance_note": "Marks the point of no return: everything is ready for the offering."
+  },
+  {
+   "instance_id": "inst.gen_22.blessing_promised",
+   "outcome_summary": "God promises Abraham blessing and offspring as many as the stars and the sand, victory over enemies, and blessing for all nations through his seed.",
+   "significance_note": "Restates the promises of Gen 12, 15 and 17 as an oath, now tied to Abraham's obedience."
+  },
+  {
+   "instance_id": "inst.gen_22.go_to_moriah",
+   "outcome_summary": "God commands Abraham to take Isaac to the land of Moriah and offer him there on a mountain God will show.",
+   "significance_note": "The command stacks four descriptions of Isaac (son, only son, whom you love, Isaac), each making the cost greater."
+  },
+  {
+   "instance_id": "inst.gen_22.isaac_bound_for_offering",
+   "outcome_summary": "Abraham binds Isaac, lays him on the altar over the wood, and takes the knife to slaughter him. The offering is stopped by the angel before the blow.",
+   "significance_note": "The climax of the chapter and the only place in the Hebrew Bible where the binding (akedah) of a person for offering is told this way."
+  },
+  {
+   "instance_id": "inst.gen_22.isaac_spared",
+   "outcome_summary": "The angel of the LORD calls Abraham twice from heaven, forbids him to harm the boy, and declares that Abraham now has proved he fears God.",
+   "significance_note": "God turns back his own command at the last moment, and the promise through Isaac is kept."
+  },
+  {
+   "instance_id": "inst.gen_22.oath_by_himself",
+   "outcome_summary": "The angel calls a second time from heaven and speaks for the LORD: 'By myself I have sworn', since Abraham did not withhold his son.",
+   "significance_note": "The only place in Genesis where God swears by himself to Abraham; the oath rests on Abraham's obedience."
+  },
+  {
+   "instance_id": "inst.gen_22.place_named",
+   "outcome_summary": "Abraham names the place 'The LORD will provide', and the text says the saying is still current 'to this day'.",
+   "significance_note": "Fixes the lesson of the chapter in a name and gives the site a later cultic use."
+  },
+  {
+   "instance_id": "inst.gen_22.ram_burnt_offering",
+   "outcome_summary": "Abraham burns the ram whole on the altar as a burnt offering.",
+   "significance_note": "The offering the command asked for is carried out, with the ram in the son's place."
+  },
+  {
+   "instance_id": "inst.gen_22.ram_offered",
+   "outcome_summary": "Abraham sees a ram caught by its horns in a thicket and offers it in place of his son.",
+   "significance_note": "The sign that God does provide, answering Abraham's words in 22:8; the substitute is supplied, not chosen."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_22.abraham_binds_isaac",
+   "interaction_label": "binds",
+   "description": "Abraham ties Isaac and lays him on the altar on top of the wood."
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_commands_servants",
+   "interaction_label": "tells to wait",
+   "description": "Abraham tells his two servants to stay with the donkey while he and Isaac go on to worship."
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_loads_isaac",
+   "interaction_label": "loads with the wood",
+   "description": "Abraham lays the wood for the burnt offering on Isaac while he himself carries the fire and the knife."
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_names_place",
+   "interaction_label": "names",
+   "description": "Abraham calls the place 'The LORD will provide'."
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_offers_ram",
+   "interaction_label": "offers up",
+   "description": "Abraham takes the ram and offers it as a burnt offering in place of his son."
+  },
+  {
+   "edge_id": "edge.gen_22.abraham_raises_knife_to_isaac",
+   "interaction_label": "takes the knife to slay",
+   "description": "Abraham stretches out his hand and takes the knife to slaughter his son."
+  },
+  {
+   "edge_id": "edge.gen_22.angel_blesses_abraham",
+   "interaction_label": "blesses",
+   "description": "The angel promises Abraham blessing, countless offspring and possession of his enemies' gate."
+  },
+  {
+   "edge_id": "edge.gen_22.angel_stops_abraham",
+   "interaction_label": "restrains",
+   "description": "The angel of the LORD calls from heaven and forbids Abraham to lay a hand on the boy or do anything to him."
+  },
+  {
+   "edge_id": "edge.gen_22.angel_swears_to_abraham",
+   "interaction_label": "swears to",
+   "description": "The angel declares that the LORD has sworn by himself because Abraham did not withhold his only son."
+  },
+  {
+   "edge_id": "edge.gen_22.bethuel_fathers_rebekah",
+   "interaction_label": "fathers",
+   "description": "The report to Abraham notes that Bethuel became the father of Rebekah, the future wife of Isaac."
+  },
+  {
+   "edge_id": "edge.gen_22.god_commands_abraham",
+   "interaction_label": "commands",
+   "description": "God tells Abraham to take his only son Isaac to Moriah and offer him as a burnt offering."
+  },
+  {
+   "edge_id": "edge.gen_22.isaac_questions_abraham",
+   "interaction_label": "asks",
+   "description": "Isaac asks his father where the lamb for the burnt offering is, since they have the fire and the wood."
+  },
+  {
+   "edge_id": "edge.gen_22.yhwh_provides_ram",
+   "interaction_label": "provides",
+   "description": "God supplies a ram caught in a thicket, fulfilling Abraham's words that God will provide the lamb."
+  }
+ ]
 }

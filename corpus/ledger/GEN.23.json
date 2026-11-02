@@ -96,6 +96,299 @@
    ],
    "source": null
   },
+  "component:comp.abraham.burial_property.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.grief.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Closed at 23:3 when Abraham rises from before his dead; his grief obviously continues, only the act of mourning is bounded."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.legal_status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Inferred from Abraham's self-description in 23:4; stays open after the purchase because ownership of one tomb does not change his status as a sojourner."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.standing.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Taken from the Hittite address in 23:6; inferred rather than a formal title."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": "[consider] If reopened, use a neutral value code such as HONORED_AS_PRINCE and a label like 'Addressed as a mighty prince (lit. prince of God)', and say in the evidence that both readings exist. (GEN.23.6: \"thou art a mighty prince among us\" (KJV); YLT: \"a prince of God art thou in our midst\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.abraham_asks_ephron_via_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.abraham_buries_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.abraham_offers_payment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.abraham_pays_ephron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.abraham_petitions_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.ephron_names_price": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.ephron_offers_field": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.hittites_confirm_title": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_23.hittites_honor_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.gate_of_hebron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "New entity for 'the gate of his city' (23:10, 18); the city is taken to be Hebron (Kiriath-arba, 23:2). tipnr_id is null and no coordinates are given; check whether it should rather collapse into loc.hebron."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_23.abraham_asks_hittites": {
    "status": "approved",
    "produced_by": {
@@ -331,6 +624,356 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_23.abraham_asks_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.abraham_bows_and_asks_for_ephron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Events 3–5 are placed at Hebron and events 6–10 at its gate, since the gate is stated only at 23:10; the dialogue in 23:3–9 is probably also at the gate."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": "[consider] If reopened, consider placing evt.gen_23.abraham_asks_hittites, hittites_answer and abraham_bows_and_asks_for_ephron at loc.gate_of_hebron too, with a note that the gate is stated only at v10. (GEN.23.10: \"And Ephron dwelt among the children of Heth: and Ephron the Hittite answered Abraham in the audience of ... all that went in at the gate of his city\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.abraham_buries_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": "[consider] If reopened, add group.hittites as MENTIONED. (GEN.23.20: \"were made sure unto Abraham for a possession of a buryingplace by the sons of Heth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.abraham_insists_on_paying": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.abraham_mourns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.abraham_weighs_the_silver": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.ephron_names_the_price": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.ephron_offers_the_field": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.field_confirmed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.hittites_answer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "'Prince of God' (23:6) is listed as deity.yhwh MENTIONED because the registry maps elohim there. It may be a superlative ('mighty prince'), and the divine reference may be debatable."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": "[consider] If reopened, remove deity.yhwh from the participants, or keep it and note in the link that it rests on the literal reading of elohim. (GEN.23.6: \"thou art a mighty prince among us\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_23.sarah_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.first_bow_to_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.mourning_for_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.sarah_buried": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.second_bow_to_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": "[consider] If reopened, write 'After Ephron offers the field as a gift, Abraham bows again before the people of the land and insists on paying.' (GEN.23.11–12: \"...bury thy dead. And Abraham bowed down himself before the people of the land.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.silver_weighed_out": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_23.title_made_sure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Ephron is the initiator as seller; the verb 'was made sure' (vayyaqom) is passive, so the active party is inferred."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.property_purchase_at_gate": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:20:28+00:00",
+   "agent_notes": [
+    "Defined here rather than reusing sys.land_purchase_for_crown, which concerns the Egyptian crown purchase in GEN.47. Also reused sys.burial_in_family_tomb, defined in a later chapter (GEN.25)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:22:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -459,6 +1102,24 @@
     "run": "main"
    },
    "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "[entity:group.hittites] The 'sons of Heth' and 'people of the land' are treated as the one group.hittites (defined in a later chapter); person.heth is only MENTIONED as their ancestor.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:20:28+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.dwelling.6] Left unchanged: Abraham's Beersheba dwelling (22:19) is not closed because 23:2 shows him at Hebron without stating a move.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:20:28+00:00"
   }
  ]
 }

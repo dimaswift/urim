@@ -1,12 +1,79 @@
 {
  "chapter_ref": "GEN.21",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.seven_ewe_lambs",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "שֶׁבַע כִּבְשֹׂת הַצֹּאן",
+   "transliterated_name": "sheva' kivsot hatso'n",
+   "first_mention_verse": "GEN.21.28"
+  },
+  {
+   "entity_id": "artifact.tamarisk_of_beersheba",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אֵשֶׁל",
+   "transliterated_name": "'eshel",
+   "first_mention_verse": "GEN.21.33"
+  },
+  {
+   "entity_id": "loc.hagars_well",
+   "entity_type": "LOCATION",
+   "source_script_name": "בְּאֵר מַיִם",
+   "transliterated_name": "be'er mayim",
+   "first_mention_verse": "GEN.21.19"
+  },
+  {
+   "entity_id": "loc.paran",
+   "tipnr_id": "Paran@Gen.21.21-1Ki",
+   "entity_type": "LOCATION",
+   "source_script_name": "פָּארָן",
+   "transliterated_name": "Pā'rān",
+   "first_mention_verse": "GEN.21.21"
+  },
+  {
+   "entity_id": "loc.well_of_beersheba",
+   "entity_type": "LOCATION",
+   "source_script_name": "בְּאֵר",
+   "transliterated_name": "be'er",
+   "first_mention_verse": "GEN.21.25"
+  },
+  {
+   "entity_id": "loc.wilderness_of_beersheba",
+   "entity_type": "LOCATION",
+   "source_script_name": "מִדְבַּר בְּאֵר שָׁבַע",
+   "transliterated_name": "midbar Be'er Shava'",
+   "first_mention_verse": "GEN.21.14"
+  },
+  {
+   "entity_id": "person.wife_of_ishmael",
+   "entity_type": "PERSON",
+   "first_mention_verse": "GEN.21.21"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.disinheritance_by_expulsion",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.divine_visitation_of_womb",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.weaning_feast",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.witness_gift_of_lambs",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_21.sarah_bears_isaac",
    "verse_start": "GEN.21.1",
    "verse_end": "GEN.21.2",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "anchor.isaac_birth",
     "anchor_point": "START",
@@ -20,12 +87,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_names_isaac",
    "verse_start": "GEN.21.3",
    "verse_end": "GEN.21.3",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.sarah_bears_isaac",
     "anchor_point": "END",
@@ -39,12 +124,26 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_circumcises_isaac",
    "verse_start": "GEN.21.4",
    "verse_end": "GEN.21.5",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.sarah_bears_isaac",
     "anchor_point": "START",
@@ -62,12 +161,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.sarah_laughs_with_joy",
    "verse_start": "GEN.21.6",
    "verse_end": "GEN.21.7",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.abraham_circumcises_isaac",
     "anchor_point": "END",
@@ -81,12 +194,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.isaac_weaned_feast",
    "verse_start": "GEN.21.8",
    "verse_end": "GEN.21.8",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.sarah_bears_isaac",
     "anchor_point": "START",
@@ -104,12 +235,22 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.sarah_demands_expulsion",
    "verse_start": "GEN.21.9",
    "verse_end": "GEN.21.11",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.isaac_weaned_feast",
     "anchor_point": "START",
@@ -127,12 +268,38 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.god_reassures_abraham",
    "verse_start": "GEN.21.12",
    "verse_end": "GEN.21.13",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.sarah_demands_expulsion",
     "anchor_point": "END",
@@ -146,12 +313,38 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_sends_hagar_away",
    "verse_start": "GEN.21.14",
    "verse_end": "GEN.21.14",
+   "location_entity_id": "loc.gerar",
    "time": {
     "anchor": "evt.gen_21.god_reassures_abraham",
     "anchor_point": "END",
@@ -166,12 +359,26 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.hagar_leaves_ishmael_to_die",
    "verse_start": "GEN.21.15",
    "verse_end": "GEN.21.16",
+   "location_entity_id": "loc.wilderness_of_beersheba",
    "time": {
     "anchor": "evt.gen_21.abraham_sends_hagar_away",
     "anchor_point": "END",
@@ -189,12 +396,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael",
    "verse_start": "GEN.21.17",
    "verse_end": "GEN.21.19",
+   "location_entity_id": "loc.hagars_well",
    "time": {
     "anchor": "evt.gen_21.hagar_leaves_ishmael_to_die",
     "anchor_point": "END",
@@ -208,12 +425,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.ishmael_grows_and_marries",
    "verse_start": "GEN.21.20",
    "verse_end": "GEN.21.21",
+   "location_entity_id": "loc.paran",
    "time": {
     "anchor": "evt.gen_21.angel_rescues_hagar_and_ishmael",
     "anchor_point": "END",
@@ -227,12 +462,34 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.wife_of_ishmael",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abimelech_proposes_oath",
    "verse_start": "GEN.21.22",
    "verse_end": "GEN.21.24",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_21.sarah_bears_isaac",
     "anchor_point": "START",
@@ -250,12 +507,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.phicol",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_reproves_over_well",
    "verse_start": "GEN.21.25",
    "verse_end": "GEN.21.26",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_21.abimelech_proposes_oath",
     "anchor_point": "END",
@@ -269,12 +544,26 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.servants_of_abimelech",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.covenant_at_beersheba",
    "verse_start": "GEN.21.27",
    "verse_end": "GEN.21.32",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_21.abraham_reproves_over_well",
     "anchor_point": "END",
@@ -288,12 +577,34 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.seven_ewe_lambs",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.philistia",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.phicol",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_plants_tamarisk",
    "verse_start": "GEN.21.33",
    "verse_end": "GEN.21.33",
+   "location_entity_id": "loc.beersheba",
    "time": {
     "anchor": "evt.gen_21.covenant_at_beersheba",
     "anchor_point": "END",
@@ -307,12 +618,26 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.tamarisk_of_beersheba",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_21.abraham_sojourns_in_philistia",
    "verse_start": "GEN.21.34",
    "verse_end": "GEN.21.34",
+   "location_entity_id": "loc.philistia",
    "time": {
     "anchor": "evt.gen_20.abraham_moves_to_gerar",
     "anchor_point": "START",
@@ -326,7 +651,16 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.philistines",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -394,8 +728,420 @@
    "confidence": 1.0
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.abraham.covenant_with_abimelech.1",
+   "entity_id": "person.abraham",
+   "category": "ALLEGIANCE",
+   "component_key": "covenant_with_abimelech",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "acquired_at_verse": "GEN.21.32",
+   "acquired_in_event": "evt.gen_21.covenant_at_beersheba"
+  },
+  {
+   "component_id": "comp.isaac.circumcision.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "circumcision",
+   "value_code": "CIRCUMCISED",
+   "acquired_at_verse": "GEN.21.4",
+   "acquired_in_event": "evt.gen_21.abraham_circumcises_isaac"
+  },
+  {
+   "component_id": "comp.ishmael.condition.1",
+   "entity_id": "person.ishmael",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "DYING_OF_THIRST",
+   "acquired_at_verse": "GEN.21.15",
+   "acquired_in_event": "evt.gen_21.hagar_leaves_ishmael_to_die",
+   "expired_at_verse": "GEN.21.19",
+   "expired_in_event": "evt.gen_21.angel_rescues_hagar_and_ishmael"
+  },
+  {
+   "component_id": "comp.ishmael.dwelling.1",
+   "entity_id": "person.ishmael",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.paran",
+   "acquired_at_verse": "GEN.21.21",
+   "acquired_in_event": "evt.gen_21.ishmael_grows_and_marries"
+  },
+  {
+   "component_id": "comp.ishmael.vocation.1",
+   "entity_id": "person.ishmael",
+   "category": "ROLE_TITLE",
+   "component_key": "vocation",
+   "value_code": "ARCHER",
+   "acquired_at_verse": "GEN.21.20",
+   "acquired_in_event": "evt.gen_21.ishmael_grows_and_marries"
+  },
+  {
+   "component_id": "comp.ishmael.wife.1",
+   "entity_id": "person.ishmael",
+   "category": "TRAIT",
+   "component_key": "wife",
+   "target_entity_id": "person.wife_of_ishmael",
+   "acquired_at_verse": "GEN.21.21",
+   "acquired_in_event": "evt.gen_21.ishmael_grows_and_marries"
+  },
+  {
+   "component_id": "comp.sarah.fertility.2",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "fertility",
+   "value_code": "MOTHER_OF_ISAAC",
+   "supersedes_component_id": "comp.sarah.fertility.1",
+   "acquired_at_verse": "GEN.21.2",
+   "acquired_in_event": "evt.gen_21.sarah_bears_isaac"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.hagar.serves.1",
+   "expired_at_verse": "GEN.21.14",
+   "expired_in_event": "evt.gen_21.abraham_sends_hagar_away"
+  },
+  {
+   "component_id": "comp.sarah.childlessness.1",
+   "expired_at_verse": "GEN.21.2",
+   "expired_in_event": "evt.gen_21.sarah_bears_isaac"
+  },
+  {
+   "component_id": "comp.sarah.fertility.1",
+   "expired_at_verse": "GEN.21.2",
+   "expired_in_event": "evt.gen_21.sarah_bears_isaac"
+  },
+  {
+   "component_id": "comp.sarah.son_promise.1",
+   "expired_at_verse": "GEN.21.2",
+   "expired_in_event": "evt.gen_21.sarah_bears_isaac"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_21.covenant_at_beersheba",
+   "system_id": "sys.covenant_alliance",
+   "event_id": "evt.gen_21.covenant_at_beersheba",
+   "verse_start": "GEN.21.27",
+   "verse_end": "GEN.21.32",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2",
+    "person.phicol"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "cutting_covenant",
+    "peace_with_philistines",
+    "naming_of_beersheba"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.everlasting_god_invoked",
+   "system_id": "sys.invoking_the_name",
+   "event_id": "evt.gen_21.abraham_plants_tamarisk",
+   "verse_start": "GEN.21.33",
+   "verse_end": "GEN.21.33",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "artifact.tamarisk_of_beersheba"
+   ],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "el_olam",
+    "tree_planted"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.god_commands_listen",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_21.god_reassures_abraham",
+   "verse_start": "GEN.21.12",
+   "verse_end": "GEN.21.13",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "listen_to_sarah",
+    "promise_to_ishmael"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.hagar_ishmael_delivered",
+   "system_id": "sys.angelic_deliverance",
+   "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael",
+   "verse_start": "GEN.21.17",
+   "verse_end": "GEN.21.19",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.hagar",
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.hagars_well",
+   "tags": [
+    "voice_from_heaven",
+    "well_opened",
+    "boy_heard"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.hagar_ishmael_expelled",
+   "system_id": "sys.disinheritance_by_expulsion",
+   "event_id": "evt.gen_21.abraham_sends_hagar_away",
+   "verse_start": "GEN.21.14",
+   "verse_end": "GEN.21.14",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.hagar",
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "expulsion",
+    "bread_and_water",
+    "demanded_by_sarah"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_circumcised",
+   "system_id": "sys.circumcision",
+   "event_id": "evt.gen_21.abraham_circumcises_isaac",
+   "verse_start": "GEN.21.4",
+   "verse_end": "GEN.21.5",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "eighth_day",
+    "covenant_sign",
+    "obedience"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_21.abraham_names_isaac",
+   "verse_start": "GEN.21.3",
+   "verse_end": "GEN.21.3",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "name",
+    "laughter"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_weaning_feast",
+   "system_id": "sys.weaning_feast",
+   "event_id": "evt.gen_21.isaac_weaned_feast",
+   "verse_start": "GEN.21.8",
+   "verse_end": "GEN.21.8",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "great_feast",
+    "weaning"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.lambs_as_witness",
+   "system_id": "sys.witness_gift_of_lambs",
+   "event_id": "evt.gen_21.covenant_at_beersheba",
+   "verse_start": "GEN.21.28",
+   "verse_end": "GEN.21.30",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2"
+   ],
+   "artifact_entity_ids": [
+    "artifact.seven_ewe_lambs"
+   ],
+   "location_entity_id": "loc.well_of_beersheba",
+   "tags": [
+    "seven_lambs",
+    "well_ownership",
+    "witness"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.oath_at_beersheba",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_21.covenant_at_beersheba",
+   "verse_start": "GEN.21.31",
+   "verse_end": "GEN.21.31",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "mutual_oath",
+    "place_name_explained"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.sarah_visited",
+   "system_id": "sys.divine_visitation_of_womb",
+   "event_id": "evt.gen_21.sarah_bears_isaac",
+   "verse_start": "GEN.21.1",
+   "verse_end": "GEN.21.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "promise_fulfilled",
+    "barren_woman",
+    "old_age"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_21.well_dispute",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_21.abraham_reproves_over_well",
+   "verse_start": "GEN.21.25",
+   "verse_end": "GEN.21.26",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2",
+    "group.servants_of_abimelech"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.well_of_beersheba",
+   "tags": [
+    "seized_well",
+    "reproof"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_21.abimelech_asks_oath",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "REQUESTS_OATH",
+   "verse_id": "GEN.21.23",
+   "event_id": "evt.gen_21.abimelech_proposes_oath"
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_circumcises_isaac",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "CIRCUMCISES",
+   "verse_id": "GEN.21.4",
+   "event_id": "evt.gen_21.abraham_circumcises_isaac"
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_gives_lambs",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "GIVES_TO",
+   "verse_id": "GEN.21.27",
+   "event_id": "evt.gen_21.covenant_at_beersheba"
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_reproves_abimelech",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "REPROVES",
+   "verse_id": "GEN.21.25",
+   "event_id": "evt.gen_21.abraham_reproves_over_well"
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_sends_hagar_away",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "SENDS_AWAY",
+   "verse_id": "GEN.21.14",
+   "event_id": "evt.gen_21.abraham_sends_hagar_away"
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_swears_to_abimelech",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.21.31",
+   "event_id": "evt.gen_21.covenant_at_beersheba"
+  },
+  {
+   "edge_id": "edge.gen_21.god_hears_ishmael",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.21.17",
+   "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael"
+  },
+  {
+   "edge_id": "edge.gen_21.god_opens_hagars_eyes",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.21.19",
+   "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael"
+  },
+  {
+   "edge_id": "edge.gen_21.god_promises_ishmael_nation",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.21.13",
+   "event_id": "evt.gen_21.god_reassures_abraham"
+  },
+  {
+   "edge_id": "edge.gen_21.god_tells_abraham_to_listen",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.21.12",
+   "event_id": "evt.gen_21.god_reassures_abraham"
+  },
+  {
+   "edge_id": "edge.gen_21.god_visits_sarah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "VISITS",
+   "verse_id": "GEN.21.1",
+   "event_id": "evt.gen_21.sarah_bears_isaac"
+  },
+  {
+   "edge_id": "edge.gen_21.hagar_takes_wife_for_ishmael",
+   "source_entity_id": "person.hagar",
+   "target_entity_id": "person.wife_of_ishmael",
+   "interaction_type": "ARRANGES_MARRIAGE",
+   "verse_id": "GEN.21.21",
+   "event_id": "evt.gen_21.ishmael_grows_and_marries"
+  },
+  {
+   "edge_id": "edge.gen_21.sarah_demands_expulsion",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.21.10",
+   "event_id": "evt.gen_21.sarah_demands_expulsion"
+  }
+ ]
 }

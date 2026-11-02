@@ -142,9 +142,308 @@
    "causal_explanation": "Yahweh's command to return to his fathers' land (31:3) is carried out when Jacob sets out with all he has (31:17-18)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.cairn_of_galeed",
+   "canonical_name": "Cairn of Galeed",
+   "phonetic_name": "gal",
+   "aliases": [
+    "the heap",
+    "Jegar-sahadutha",
+    "Galeed"
+   ],
+   "etymology_meaning": "Hebrew 'gal' (heap of stones); Laban's Aramaic name Jegar-sahadutha and Jacob's Hebrew Galeed both mean 'heap of witness'.",
+   "summary_bio": "The heap of stones Jacob's kinsmen gather and pile up (31:46). They eat beside it, and Laban declares it a witness between him and Jacob (31:48)."
+  },
+  {
+   "entity_id": "artifact.pillar_of_galeed",
+   "canonical_name": "Pillar of Galeed",
+   "phonetic_name": "matsey-VAH",
+   "aliases": [
+    "the pillar",
+    "Mizpah"
+   ],
+   "etymology_meaning": "Hebrew 'matstsevah', a standing stone. The name Mizpah ('watchtower') is tied to the pillar in 31:49 in some readings.",
+   "summary_bio": "A stone Jacob sets up as a pillar (31:45) at the covenant site with Laban. Laban speaks of it as one he has cast up (31:51), and it stands as a witness that neither will cross the line for harm (31:52)."
+  },
+  {
+   "entity_id": "artifact.teraphim",
+   "canonical_name": "Laban's household gods",
+   "phonetic_name": "teraFEEM",
+   "aliases": [
+    "teraphim",
+    "images",
+    "idols",
+    "my gods"
+   ],
+   "etymology_meaning": "Of uncertain origin; the plural 'teraphim' names household images, which some scholars link to ancestor or inheritance claims.",
+   "summary_bio": "Household images that belonged to Laban. Rachel steals them while Laban is away shearing (31:19), hides them in her camel's saddlebag and sits on them when Laban searches (31:34-35). Laban calls them 'my gods' (31:30), and Jacob, not knowing the theft, swears death on whoever has them (31:32)."
+  },
+  {
+   "entity_id": "group.camels_of_jacob",
+   "canonical_name": "Jacob's camels",
+   "phonetic_name": "gemalim",
+   "aliases": [],
+   "etymology_meaning": "Hebrew 'gamal', camel; no further etymology is offered.",
+   "summary_bio": "The camels on which Jacob sets his sons and wives for the flight from Laban (31:17). Rachel hides the household gods in a camel's saddlebag (31:34)."
+  },
+  {
+   "entity_id": "group.kinsmen_of_jacob",
+   "canonical_name": "Jacob's kinsmen",
+   "phonetic_name": "ekhav",
+   "aliases": [
+    "Jacob's brethren"
+   ],
+   "etymology_meaning": "Hebrew 'ach' (brother) used broadly for male relatives and companions.",
+   "summary_bio": "The relatives and retainers of Jacob whom he tells to gather stones for the heap (31:46) and whom he invites to the sacrificial meal on the mountain (31:54). The text does not name them."
+  },
+  {
+   "entity_id": "group.kinsmen_of_laban",
+   "canonical_name": "Laban's kinsmen",
+   "phonetic_name": "ekhav",
+   "aliases": [
+    "Laban's brethren"
+   ],
+   "etymology_meaning": "Hebrew 'ach' (brother) used broadly for male relatives and clansmen.",
+   "summary_bio": "The relatives Laban takes with him when he pursues Jacob for seven days (31:23). They camp with him in Gilead and witness the confrontation and the covenant."
+  },
+  {
+   "entity_id": "loc.galeed",
+   "canonical_name": "Galeed",
+   "phonetic_name": "gal-EHD",
+   "aliases": [
+    "Jegar-sahadutha",
+    "Mizpah"
+   ],
+   "etymology_meaning": "'Heap of witness'; Mizpah means 'watchtower', from Laban's saying 'the LORD watch between me and you' (31:49).",
+   "summary_bio": "The site in the hill country of Gilead where Jacob and Laban make their covenant, named for the cairn of witness (31:47-49). It marks the line neither will cross for harm."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.cairn_of_galeed.status.1",
+   "label_key": "Status",
+   "label_value": "Witness of the covenant",
+   "evidence_explanation": "31:48 has Laban say the heap is a witness between them this day."
+  },
+  {
+   "component_id": "comp.galeed.name.1",
+   "label_key": "Name",
+   "label_value": "Named Galeed",
+   "evidence_explanation": "31:47-48 gives the names Jegar-sahadutha (Laban) and Galeed (Jacob)."
+  },
+  {
+   "component_id": "comp.israel.anger_at_laban.1",
+   "label_key": "Mood",
+   "label_value": "Angry at Laban",
+   "evidence_explanation": "31:36 says it burned to Jacob and he quarreled with Laban."
+  },
+  {
+   "component_id": "comp.israel.covenant_with_laban.1",
+   "label_key": "Covenant with Laban",
+   "label_value": "Bound by covenant with Laban",
+   "evidence_explanation": "31:44-52 shows the covenant proposed and sealed with pillar and heap."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.3",
+   "label_key": "Whereabouts",
+   "label_value": "Camped in the hill country of Gilead",
+   "evidence_explanation": "31:25 says Jacob had pitched his tent in the hill country when Laban overtook him."
+  },
+  {
+   "component_id": "comp.laban.attitude.1",
+   "label_key": "Attitude to Jacob",
+   "label_value": "Cooler than before",
+   "evidence_explanation": "31:2 says Laban's face was not toward Jacob as it had been before."
+  },
+  {
+   "component_id": "comp.pillar_of_galeed.status.1",
+   "label_key": "Status",
+   "label_value": "Witness of the covenant",
+   "evidence_explanation": "31:52 calls the pillar a witness between Jacob and Laban."
+  },
+  {
+   "component_id": "comp.teraphim.holder.1",
+   "label_key": "Holder",
+   "label_value": "Held by Rachel",
+   "evidence_explanation": "31:19 says Rachel stole them; 31:34 shows them in her saddlebag."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.conditional_curse",
+   "name": "Conditional curse of death",
+   "ancient_near_east_context": "A speaker pronounces a penalty on whoever is found guilty, in front of witnesses, and the verdict is left to the inquiry. Such oath-curses bind the speaker to carry out the penalty.",
+   "rules_and_mechanics": [
+    "The curse names no one; it falls on 'whoever' is found with the stolen object.",
+    "It is spoken in front of kinsmen who serve as witnesses (31:32).",
+    "The inquiry is held in the presence of both parties' relatives."
+   ]
+  },
+  {
+   "system_id": "sys.household_gods",
+   "name": "Household gods (teraphim)",
+   "ancient_near_east_context": "Small household images kept by Mesopotamian and West Semitic families. Texts from Nuzi are often cited to suggest a link to inheritance, though that is debated; the teraphim are also associated with divination and household protection.",
+   "rules_and_mechanics": [
+    "The images belong to the household's head and are kept in his house.",
+    "Taking them is treated as theft of the owner's gods (31:30).",
+    "Women's uncleanness is an accepted reason to stay seated and not stand before a man (31:35)."
+   ]
+  },
+  {
+   "system_id": "sys.witness_monument",
+   "name": "Witness monument",
+   "ancient_near_east_context": "Stones, pillars and heaps were set up in the region to witness agreements and mark boundaries, with a god invoked as watcher over the line.",
+   "rules_and_mechanics": [
+    "A standing stone and a heap of stones are raised together at the site (31:45-46).",
+    "The monument is given a name in each party's language (31:47).",
+    "Neither party will cross the line for harm (31:52).",
+    "The deities of both sides are called on to judge any breach (31:49, 31:53)."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_31.angel_dream_recalled",
+   "outcome_summary": "Jacob tells his wives that in a dream the angel of God showed him the striped, speckled and mottled he-goats mating, and said that God had seen Laban's treatment of him.",
+   "significance_note": "It grounds Jacob's wealth in God's action, and the angel's closing order to return gives his wives a divine reason to leave."
+  },
+  {
+   "instance_id": "inst.gen_31.appeal_to_gods",
+   "outcome_summary": "Laban invokes the LORD as watcher between them, then the God of Abraham and the God of Nahor as judges.",
+   "significance_note": "Because the two parties will be out of sight of each other, God is called to enforce the terms."
+  },
+  {
+   "instance_id": "inst.gen_31.covenant_meal",
+   "outcome_summary": "Jacob's kinsmen gather stones into a heap and eat there beside it.",
+   "significance_note": "A shared meal at the heap is a typical sealing of a treaty."
+  },
+  {
+   "instance_id": "inst.gen_31.covenant_with_laban",
+   "outcome_summary": "Laban and Jacob make a covenant: neither will cross the heap and pillar for harm, and Jacob must not mistreat Laban's daughters or take other wives.",
+   "significance_note": "It ends the pursuit peacefully and fixes the line between Aram and Jacob's lands."
+  },
+  {
+   "instance_id": "inst.gen_31.hill_sacrifice",
+   "outcome_summary": "Jacob offers a sacrifice on the mountain and invites his kinsmen to eat. They stay the night there.",
+   "significance_note": "It closes the covenant with an offering and a meal before Jacob and Laban part."
+  },
+  {
+   "instance_id": "inst.gen_31.jacob_oath",
+   "outcome_summary": "Jacob swears by the Fear of his father Isaac.",
+   "significance_note": "He answers Laban's two gods with an oath by Isaac's God alone."
+  },
+  {
+   "instance_id": "inst.gen_31.jacobs_curse",
+   "outcome_summary": "Jacob declares that whoever is found with Laban's gods shall not live, not knowing that Rachel took them.",
+   "significance_note": "The curse puts Rachel unknowingly at risk and adds tension to the search."
+  },
+  {
+   "instance_id": "inst.gen_31.laban_dream_warning",
+   "outcome_summary": "God comes to Laban in a night dream and tells him not to speak to Jacob either good or bad.",
+   "significance_note": "It restrains Laban and explains why the confrontation ends in a covenant and not in violence."
+  },
+  {
+   "instance_id": "inst.gen_31.pillar_and_cairn",
+   "outcome_summary": "Jacob raises a pillar and his kinsmen pile a heap of stones, and both are named witnesses between the two men.",
+   "significance_note": "It supplies the place-name Galeed and a fixed boundary marker."
+  },
+  {
+   "instance_id": "inst.gen_31.return_command",
+   "outcome_summary": "The LORD tells Jacob to return to the land of his fathers and kindred, promising to be with him.",
+   "significance_note": "It starts the departure and places the whole flight under divine direction."
+  },
+  {
+   "instance_id": "inst.gen_31.teraphim_hidden",
+   "outcome_summary": "Rachel puts the gods in a camel's saddlebag and sits on them, saying she cannot rise because of her period. Laban searches the tent and finds nothing.",
+   "significance_note": "Rachel's deception shows the household-god scheme working and turns the search into a failed accusation, which gives Jacob his protest in 31:36-42."
+  },
+  {
+   "instance_id": "inst.gen_31.teraphim_stolen",
+   "outcome_summary": "While Laban is away shearing, Rachel steals her father's household gods.",
+   "significance_note": "The theft sets up Laban's accusation and the search scene, and the text gives no reason for it."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_31.israel_curses_thief",
+   "interaction_label": "curses",
+   "description": "Jacob declares that whoever has the gods shall not live; the thief is Rachel."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_deceives_laban",
+   "interaction_label": "deceives",
+   "description": "Jacob 'steals the heart' of Laban by fleeing without telling him."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_rebukes_laban",
+   "interaction_label": "rebukes",
+   "description": "Jacob angrily asks what his offence is after the fruitless search."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_sacrifices_to_yhwh",
+   "interaction_label": "sacrifices to",
+   "description": "Jacob offers a sacrifice on the mountain after the covenant."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_summons_leah",
+   "interaction_label": "summons",
+   "description": "Jacob sends for Leah to meet him at his flock in the field."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_summons_rachel",
+   "interaction_label": "summons",
+   "description": "Jacob sends for Rachel to meet him at his flock in the field."
+  },
+  {
+   "edge_id": "edge.gen_31.israel_swears_to_laban",
+   "interaction_label": "swears to",
+   "description": "Jacob swears by the Fear of Isaac to keep the terms."
+  },
+  {
+   "edge_id": "edge.gen_31.laban_accuses_israel",
+   "interaction_label": "accuses",
+   "description": "Laban charges Jacob with stealing away and with stealing his gods."
+  },
+  {
+   "edge_id": "edge.gen_31.laban_overtakes_israel",
+   "interaction_label": "overtakes",
+   "description": "Laban catches up with Jacob in the hill country of Gilead."
+  },
+  {
+   "edge_id": "edge.gen_31.laban_proposes_covenant",
+   "interaction_label": "proposes a covenant to",
+   "description": "Laban invites Jacob to make a covenant to serve as a witness between them."
+  },
+  {
+   "edge_id": "edge.gen_31.laban_pursues_israel",
+   "interaction_label": "pursues",
+   "description": "Laban takes his kinsmen and chases Jacob for seven days."
+  },
+  {
+   "edge_id": "edge.gen_31.rachel_deceives_laban",
+   "interaction_label": "deceives",
+   "description": "Rachel hides the gods under her and claims she cannot rise, so Laban's search fails."
+  },
+  {
+   "edge_id": "edge.gen_31.rachel_steals_teraphim",
+   "interaction_label": "steals",
+   "description": "Rachel takes her father's household gods while he is away shearing."
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_commands_israel",
+   "interaction_label": "commands",
+   "description": "The LORD tells Jacob to return to the land of his fathers and kindred."
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_rebukes_laban",
+   "interaction_label": "rebukes",
+   "description": "Jacob says God saw his affliction and rebuked Laban the night before."
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_warns_laban",
+   "interaction_label": "warns",
+   "description": "God warns Laban in a dream not to speak to Jacob from good to bad."
+  }
+ ]
 }

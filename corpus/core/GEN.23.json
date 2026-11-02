@@ -1,12 +1,26 @@
 {
  "chapter_ref": "GEN.23",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "loc.gate_of_hebron",
+   "entity_type": "LOCATION",
+   "source_script_name": "שַׁעַר עִירוֹ",
+   "transliterated_name": "shaʿar ʿîrô",
+   "first_mention_verse": "GEN.23.10"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.property_purchase_at_gate",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_23.sarah_dies",
    "verse_start": "GEN.23.1",
    "verse_end": "GEN.23.2",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "anchor.isaac_birth",
     "anchor_point": "START",
@@ -24,12 +38,22 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_mourns",
    "verse_start": "GEN.23.2",
    "verse_end": "GEN.23.3",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "evt.gen_23.sarah_dies",
     "anchor_point": "END",
@@ -43,12 +67,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_asks_hittites",
    "verse_start": "GEN.23.3",
    "verse_end": "GEN.23.4",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "evt.gen_23.abraham_mourns",
     "anchor_point": "END",
@@ -63,12 +97,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.hittites_answer",
    "verse_start": "GEN.23.5",
    "verse_end": "GEN.23.6",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "evt.gen_23.abraham_asks_hittites",
     "anchor_point": "END",
@@ -82,12 +134,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hittites",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_bows_and_asks_for_ephron",
    "verse_start": "GEN.23.7",
    "verse_end": "GEN.23.9",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "evt.gen_23.hittites_answer",
     "anchor_point": "END",
@@ -101,12 +171,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.machpelah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.zohar",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.ephron_offers_the_field",
    "verse_start": "GEN.23.10",
    "verse_end": "GEN.23.11",
+   "location_entity_id": "loc.gate_of_hebron",
    "time": {
     "anchor": "evt.gen_23.abraham_bows_and_asks_for_ephron",
     "anchor_point": "END",
@@ -120,12 +216,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.machpelah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_insists_on_paying",
    "verse_start": "GEN.23.12",
    "verse_end": "GEN.23.13",
+   "location_entity_id": "loc.gate_of_hebron",
    "time": {
     "anchor": "evt.gen_23.ephron_offers_the_field",
     "anchor_point": "END",
@@ -139,12 +253,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.ephron_names_the_price",
    "verse_start": "GEN.23.14",
    "verse_end": "GEN.23.15",
+   "location_entity_id": "loc.gate_of_hebron",
    "time": {
     "anchor": "evt.gen_23.abraham_insists_on_paying",
     "anchor_point": "END",
@@ -158,12 +286,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_weighs_the_silver",
    "verse_start": "GEN.23.16",
    "verse_end": "GEN.23.16",
+   "location_entity_id": "loc.gate_of_hebron",
    "time": {
     "anchor": "evt.gen_23.ephron_names_the_price",
     "anchor_point": "END",
@@ -177,12 +319,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.field_confirmed",
    "verse_start": "GEN.23.17",
    "verse_end": "GEN.23.18",
+   "location_entity_id": "loc.gate_of_hebron",
    "time": {
     "anchor": "evt.gen_23.abraham_weighs_the_silver",
     "anchor_point": "END",
@@ -196,12 +352,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.machpelah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.mamre",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_23.abraham_buries_sarah",
    "verse_start": "GEN.23.19",
    "verse_end": "GEN.23.20",
+   "location_entity_id": "loc.machpelah",
    "time": {
     "anchor": "evt.gen_23.field_confirmed",
     "anchor_point": "END",
@@ -215,7 +393,32 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.hebron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.machpelah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.mamre",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -255,8 +458,239 @@
    "confidence": 1.0
   }
  ],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.abraham.burial_property.1",
+   "entity_id": "person.abraham",
+   "category": "POSSESSION",
+   "component_key": "burial_property",
+   "target_entity_id": "loc.machpelah",
+   "acquired_at_verse": "GEN.23.18",
+   "acquired_in_event": "evt.gen_23.field_confirmed"
+  },
+  {
+   "component_id": "comp.abraham.grief.1",
+   "entity_id": "person.abraham",
+   "category": "PSYCH_STATE",
+   "component_key": "grief",
+   "value_code": "MOURNING_SARAH",
+   "acquired_at_verse": "GEN.23.2",
+   "acquired_in_event": "evt.gen_23.abraham_mourns",
+   "expired_at_verse": "GEN.23.3",
+   "expired_in_event": "evt.gen_23.abraham_asks_hittites"
+  },
+  {
+   "component_id": "comp.abraham.legal_status.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "legal_status",
+   "value_code": "SOJOURNER_AND_RESIDENT_ALIEN",
+   "acquired_at_verse": "GEN.23.4",
+   "acquired_in_event": "evt.gen_23.abraham_asks_hittites"
+  },
+  {
+   "component_id": "comp.abraham.standing.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "standing",
+   "value_code": "PRINCE_OF_GOD",
+   "acquired_at_verse": "GEN.23.6",
+   "acquired_in_event": "evt.gen_23.hittites_answer"
+  },
+  {
+   "component_id": "comp.sarah.life.1",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.23.2",
+   "acquired_in_event": "evt.gen_23.sarah_dies"
+  }
+ ],
  "component_closures": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_23.first_bow_to_hittites",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_23.abraham_bows_and_asks_for_ephron",
+   "verse_start": "GEN.23.7",
+   "verse_end": "GEN.23.7",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "group.hittites"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.hebron",
+   "tags": [
+    "bowing",
+    "courtesy"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_23.mourning_for_sarah",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_23.abraham_mourns",
+   "verse_start": "GEN.23.2",
+   "verse_end": "GEN.23.2",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.hebron",
+   "tags": [
+    "mourning",
+    "weeping"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_23.sarah_buried",
+   "system_id": "sys.burial_in_family_tomb",
+   "event_id": "evt.gen_23.abraham_buries_sarah",
+   "verse_start": "GEN.23.19",
+   "verse_end": "GEN.23.19",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.machpelah",
+   "tags": [
+    "burial",
+    "cave"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_23.second_bow_to_hittites",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_23.abraham_insists_on_paying",
+   "verse_start": "GEN.23.12",
+   "verse_end": "GEN.23.12",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "group.hittites"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gate_of_hebron",
+   "tags": [
+    "bowing",
+    "courtesy"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_23.silver_weighed_out",
+   "system_id": "sys.property_purchase_at_gate",
+   "event_id": "evt.gen_23.abraham_weighs_the_silver",
+   "verse_start": "GEN.23.16",
+   "verse_end": "GEN.23.16",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.ephron"
+   ],
+   "artifact_entity_ids": [
+    "loc.machpelah"
+   ],
+   "location_entity_id": "loc.gate_of_hebron",
+   "tags": [
+    "payment",
+    "silver",
+    "400_shekels",
+    "witnessed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_23.title_made_sure",
+   "system_id": "sys.property_purchase_at_gate",
+   "event_id": "evt.gen_23.field_confirmed",
+   "verse_start": "GEN.23.17",
+   "verse_end": "GEN.23.18",
+   "initiator_entity_id": "person.ephron",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [
+    "loc.machpelah"
+   ],
+   "location_entity_id": "loc.gate_of_hebron",
+   "tags": [
+    "conveyance",
+    "witnessed",
+    "field_cave_trees"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_23.abraham_asks_ephron_via_hittites",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ephron",
+   "interaction_type": "ENTREATS",
+   "verse_id": "GEN.23.8",
+   "event_id": "evt.gen_23.abraham_bows_and_asks_for_ephron"
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_buries_sarah",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "BURIES",
+   "verse_id": "GEN.23.19",
+   "event_id": "evt.gen_23.abraham_buries_sarah"
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_offers_payment",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ephron",
+   "interaction_type": "OFFERS_PAYMENT",
+   "verse_id": "GEN.23.13",
+   "event_id": "evt.gen_23.abraham_insists_on_paying"
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_pays_ephron",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ephron",
+   "interaction_type": "PAYS",
+   "verse_id": "GEN.23.16",
+   "event_id": "evt.gen_23.abraham_weighs_the_silver"
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_petitions_hittites",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.hittites",
+   "interaction_type": "PETITIONS",
+   "verse_id": "GEN.23.4",
+   "event_id": "evt.gen_23.abraham_asks_hittites"
+  },
+  {
+   "edge_id": "edge.gen_23.ephron_names_price",
+   "source_entity_id": "person.ephron",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "NAMES_PRICE",
+   "verse_id": "GEN.23.15",
+   "event_id": "evt.gen_23.ephron_names_the_price"
+  },
+  {
+   "edge_id": "edge.gen_23.ephron_offers_field",
+   "source_entity_id": "person.ephron",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "OFFERS",
+   "verse_id": "GEN.23.11",
+   "event_id": "evt.gen_23.ephron_offers_the_field"
+  },
+  {
+   "edge_id": "edge.gen_23.hittites_confirm_title",
+   "source_entity_id": "group.hittites",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "CONFIRMS_TITLE",
+   "verse_id": "GEN.23.18",
+   "event_id": "evt.gen_23.field_confirmed"
+  },
+  {
+   "edge_id": "edge.gen_23.hittites_honor_abraham",
+   "source_entity_id": "group.hittites",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "HONORS",
+   "verse_id": "GEN.23.6",
+   "event_id": "evt.gen_23.hittites_answer"
+  }
+ ]
 }

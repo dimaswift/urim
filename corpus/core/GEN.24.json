@@ -1,12 +1,137 @@
 {
  "chapter_ref": "GEN.24",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.betrothal_gifts_for_rebekah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כְּלֵי כֶסֶף וּכְלֵי זָהָב וּבְגָדִים",
+   "transliterated_name": "kĕlê ḵesef ûḵĕlê zāhāḇ ûḇĕḡāḏîm",
+   "first_mention_verse": "GEN.24.53"
+  },
+  {
+   "entity_id": "artifact.gold_bracelets_of_rebekah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "צְמִידִים",
+   "transliterated_name": "ṣĕmîdîm",
+   "first_mention_verse": "GEN.24.22"
+  },
+  {
+   "entity_id": "artifact.gold_ring_of_rebekah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "נֶזֶם זָהָב",
+   "transliterated_name": "nezem zāhāḇ",
+   "first_mention_verse": "GEN.24.22"
+  },
+  {
+   "entity_id": "group.camels_of_abraham",
+   "entity_type": "GROUP",
+   "source_script_name": "גְּמַלִּים",
+   "transliterated_name": "gĕmallîm",
+   "first_mention_verse": "GEN.24.10"
+  },
+  {
+   "entity_id": "group.maids_of_rebekah",
+   "entity_type": "GROUP",
+   "source_script_name": "נַעֲרֹתֶיהָ",
+   "transliterated_name": "naʿărōteyhā",
+   "first_mention_verse": "GEN.24.61"
+  },
+  {
+   "entity_id": "group.men_with_the_servant",
+   "entity_type": "GROUP",
+   "source_script_name": "הָאֲנָשִׁים אֲשֶׁר אִתּוֹ",
+   "transliterated_name": "hāʾănāšîm ʾăšer ʾittô",
+   "first_mention_verse": "GEN.24.32"
+  },
+  {
+   "entity_id": "group.women_of_nahors_city",
+   "entity_type": "GROUP",
+   "source_script_name": "הַשֹּׁאֲבֹת",
+   "transliterated_name": "haššōʾăḇōṯ",
+   "first_mention_verse": "GEN.24.11"
+  },
+  {
+   "entity_id": "loc.city_of_nahor",
+   "entity_type": "LOCATION",
+   "source_script_name": "עִיר נָחוֹר",
+   "transliterated_name": "ʿîr Nāḥôr",
+   "first_mention_verse": "GEN.24.10"
+  },
+  {
+   "entity_id": "loc.house_of_bethuel",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית אָבִיךְ",
+   "transliterated_name": "bêt ʾāḇîḵ",
+   "first_mention_verse": "GEN.24.23"
+  },
+  {
+   "entity_id": "loc.mesopotamia",
+   "tipnr_id": "Mesopotamia@Gen.24.10-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֲרַם נַהֲרַיִם",
+   "transliterated_name": "ʾĂram Nahărayim",
+   "first_mention_verse": "GEN.24.10"
+  },
+  {
+   "entity_id": "loc.tent_of_sarah",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָאֹהֱלָה שָׂרָה אִמּוֹ",
+   "transliterated_name": "hāʾōhŏlāh Śārāh ʾimmô",
+   "first_mention_verse": "GEN.24.67"
+  },
+  {
+   "entity_id": "loc.well_of_nahors_city",
+   "entity_type": "LOCATION",
+   "source_script_name": "בְּאֵר הַמַּיִם",
+   "transliterated_name": "bĕʾēr hammayim",
+   "first_mention_verse": "GEN.24.11"
+  },
+  {
+   "entity_id": "person.abrahams_chief_servant",
+   "entity_type": "PERSON",
+   "source_script_name": "הָעֶבֶד",
+   "transliterated_name": "hāʿeḇeḏ",
+   "first_mention_verse": "GEN.24.2"
+  },
+  {
+   "entity_id": "person.rebekahs_mother",
+   "entity_type": "PERSON",
+   "source_script_name": "אִמָּהּ",
+   "transliterated_name": "ʾimmāh",
+   "first_mention_verse": "GEN.24.28"
+  },
+  {
+   "entity_id": "person.rebekahs_nurse",
+   "entity_type": "PERSON",
+   "source_script_name": "מֵנִקְתָּהּ",
+   "transliterated_name": "mēniqtāh",
+   "first_mention_verse": "GEN.24.59"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blessing_of_departing_bride",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.bridal_veiling",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.bridewealth_gifts",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.marriage_negotiation",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_24.charge_and_oath",
    "verse_start": "GEN.24.1",
    "verse_end": "GEN.24.9",
+   "location_entity_id": "loc.canaan",
    "time": {
     "anchor": "evt.gen_23.abraham_buries_sarah",
     "anchor_point": "END",
@@ -24,12 +149,38 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.canaanites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.journey_to_nahor",
    "verse_start": "GEN.24.10",
    "verse_end": "GEN.24.10",
+   "location_entity_id": "loc.mesopotamia",
    "time": {
     "anchor": "evt.gen_24.charge_and_oath",
     "anchor_point": "END",
@@ -43,12 +194,30 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_halts_at_the_well",
    "verse_start": "GEN.24.11",
    "verse_end": "GEN.24.11",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.journey_to_nahor",
     "anchor_point": "END",
@@ -63,12 +232,26 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.women_of_nahors_city",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_prays",
    "verse_start": "GEN.24.12",
    "verse_end": "GEN.24.14",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.servant_halts_at_the_well",
     "anchor_point": "END",
@@ -82,12 +265,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.women_of_nahors_city",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.rebekah_gives_water",
    "verse_start": "GEN.24.15",
    "verse_end": "GEN.24.21",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.servant_prays",
     "anchor_point": "START",
@@ -105,12 +314,46 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.milcah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.gifts_and_lodging_question",
    "verse_start": "GEN.24.22",
    "verse_end": "GEN.24.25",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.rebekah_gives_water",
     "anchor_point": "END",
@@ -124,12 +367,46 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gold_bracelets_of_rebekah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.gold_ring_of_rebekah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.milcah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_worships",
    "verse_start": "GEN.24.26",
    "verse_end": "GEN.24.27",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.gifts_and_lodging_question",
     "anchor_point": "END",
@@ -143,12 +420,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.rebekah_tells_her_household",
    "verse_start": "GEN.24.28",
    "verse_end": "GEN.24.28",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.gifts_and_lodging_question",
     "anchor_point": "END",
@@ -162,12 +453,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekahs_mother",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.laban_welcomes_the_servant",
    "verse_start": "GEN.24.29",
    "verse_end": "GEN.24.32",
+   "location_entity_id": "loc.well_of_nahors_city",
    "time": {
     "anchor": "evt.gen_24.rebekah_tells_her_household",
     "anchor_point": "END",
@@ -181,12 +482,46 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gold_bracelets_of_rebekah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "artifact.gold_ring_of_rebekah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.men_with_the_servant",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_tells_his_errand",
    "verse_start": "GEN.24.33",
    "verse_end": "GEN.24.49",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.laban_welcomes_the_servant",
     "anchor_point": "END",
@@ -200,12 +535,66 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.canaanites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.men_with_the_servant",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.milcah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.laban_and_bethuel_consent",
    "verse_start": "GEN.24.50",
    "verse_end": "GEN.24.51",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.servant_tells_his_errand",
     "anchor_point": "END",
@@ -219,12 +608,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_worships_and_gives_gifts",
    "verse_start": "GEN.24.52",
    "verse_end": "GEN.24.53",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.laban_and_bethuel_consent",
     "anchor_point": "END",
@@ -238,12 +653,42 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.betrothal_gifts_for_rebekah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rebekahs_mother",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.night_at_bethuels_house",
    "verse_start": "GEN.24.54",
    "verse_end": "GEN.24.54",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.servant_worships_and_gives_gifts",
     "anchor_point": "END",
@@ -257,12 +702,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_with_the_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.servant_asks_leave",
    "verse_start": "GEN.24.54",
    "verse_end": "GEN.24.56",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.night_at_bethuels_house",
     "anchor_point": "END",
@@ -277,12 +740,38 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekahs_mother",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.rebekah_consents",
    "verse_start": "GEN.24.57",
    "verse_end": "GEN.24.58",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.servant_asks_leave",
     "anchor_point": "END",
@@ -296,12 +785,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekahs_mother",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.rebekah_departs",
    "verse_start": "GEN.24.59",
    "verse_end": "GEN.24.61",
+   "location_entity_id": "loc.house_of_bethuel",
    "time": {
     "anchor": "evt.gen_24.rebekah_consents",
     "anchor_point": "END",
@@ -319,7 +826,36 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_with_the_servant",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekahs_mother",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekahs_nurse",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.journey_home",
@@ -338,12 +874,38 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.maids_of_rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.men_with_the_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekahs_nurse",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.rebekah_meets_isaac",
    "verse_start": "GEN.24.62",
    "verse_end": "GEN.24.65",
+   "location_entity_id": "loc.negeb",
    "time": {
     "anchor": "evt.gen_24.journey_home",
     "anchor_point": "END",
@@ -358,12 +920,34 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.camels_of_abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.beer_lahai_roi",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_24.isaac_marries_rebekah",
    "verse_start": "GEN.24.66",
    "verse_end": "GEN.24.67",
+   "location_entity_id": "loc.tent_of_sarah",
    "time": {
     "anchor": "evt.gen_24.rebekah_meets_isaac",
     "anchor_point": "END",
@@ -377,7 +961,24 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.abrahams_chief_servant",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -438,8 +1039,570 @@
    "confidence": 1.0
   }
  ],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.abraham.age.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "age",
+   "value_code": "OLD_AND_ADVANCED_IN_DAYS",
+   "acquired_at_verse": "GEN.24.1",
+   "acquired_in_event": "evt.gen_24.charge_and_oath"
+  },
+  {
+   "component_id": "comp.abraham.divine_blessing.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "divine_blessing",
+   "value_code": "BLESSED_IN_ALL_THINGS",
+   "acquired_at_verse": "GEN.24.1",
+   "acquired_in_event": "evt.gen_24.charge_and_oath"
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.bound_by_oath_to.1",
+   "entity_id": "person.abrahams_chief_servant",
+   "category": "ALLEGIANCE",
+   "component_key": "bound_by_oath_to",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.24.9",
+   "acquired_in_event": "evt.gen_24.charge_and_oath",
+   "expired_at_verse": "GEN.24.66",
+   "expired_in_event": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.fasting.1",
+   "entity_id": "person.abrahams_chief_servant",
+   "category": "PSYCH_STATE",
+   "component_key": "fasting",
+   "value_code": "REFUSING_FOOD_UNTIL_ERRAND_TOLD",
+   "acquired_at_verse": "GEN.24.33",
+   "acquired_in_event": "evt.gen_24.servant_tells_his_errand",
+   "expired_at_verse": "GEN.24.54",
+   "expired_in_event": "evt.gen_24.night_at_bethuels_house"
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.office.1",
+   "entity_id": "person.abrahams_chief_servant",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "ELDEST_SERVANT_RULING_THE_HOUSEHOLD",
+   "acquired_at_verse": "GEN.24.2",
+   "acquired_in_event": "evt.gen_24.charge_and_oath"
+  },
+  {
+   "component_id": "comp.betrothal_gifts_for_rebekah.holder.1",
+   "entity_id": "artifact.betrothal_gifts_for_rebekah",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.rebekah",
+   "acquired_at_verse": "GEN.24.53",
+   "acquired_in_event": "evt.gen_24.servant_worships_and_gives_gifts"
+  },
+  {
+   "component_id": "comp.gold_bracelets_of_rebekah.holder.1",
+   "entity_id": "artifact.gold_bracelets_of_rebekah",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.rebekah",
+   "acquired_at_verse": "GEN.24.22",
+   "acquired_in_event": "evt.gen_24.gifts_and_lodging_question"
+  },
+  {
+   "component_id": "comp.gold_ring_of_rebekah.holder.1",
+   "entity_id": "artifact.gold_ring_of_rebekah",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.rebekah",
+   "acquired_at_verse": "GEN.24.22",
+   "acquired_in_event": "evt.gen_24.gifts_and_lodging_question"
+  },
+  {
+   "component_id": "comp.isaac.consolation.1",
+   "entity_id": "person.isaac",
+   "category": "PSYCH_STATE",
+   "component_key": "consolation",
+   "value_code": "COMFORTED_AFTER_HIS_MOTHER",
+   "acquired_at_verse": "GEN.24.67",
+   "acquired_in_event": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "component_id": "comp.isaac.whereabouts.1",
+   "entity_id": "person.isaac",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.negeb",
+   "acquired_at_verse": "GEN.24.62",
+   "acquired_in_event": "evt.gen_24.rebekah_meets_isaac"
+  },
+  {
+   "component_id": "comp.rebekah.dwelling.1",
+   "entity_id": "person.rebekah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.house_of_bethuel",
+   "acquired_at_verse": "GEN.24.28",
+   "acquired_in_event": "evt.gen_24.rebekah_tells_her_household",
+   "expired_at_verse": "GEN.24.61",
+   "expired_in_event": "evt.gen_24.rebekah_departs"
+  },
+  {
+   "component_id": "comp.rebekah.dwelling.2",
+   "entity_id": "person.rebekah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.tent_of_sarah",
+   "supersedes_component_id": "comp.rebekah.dwelling.1",
+   "acquired_at_verse": "GEN.24.67",
+   "acquired_in_event": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.1",
+   "entity_id": "person.rebekah",
+   "category": "TRAIT",
+   "component_key": "marital_status",
+   "value_code": "UNMARRIED_VIRGIN",
+   "acquired_at_verse": "GEN.24.16",
+   "acquired_in_event": "evt.gen_24.rebekah_gives_water",
+   "expired_at_verse": "GEN.24.51",
+   "expired_in_event": "evt.gen_24.laban_and_bethuel_consent"
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.2",
+   "entity_id": "person.rebekah",
+   "category": "TRAIT",
+   "component_key": "marital_status",
+   "value_code": "BETROTHED_TO_ISAAC",
+   "supersedes_component_id": "comp.rebekah.marital_status.1",
+   "acquired_at_verse": "GEN.24.51",
+   "acquired_in_event": "evt.gen_24.laban_and_bethuel_consent",
+   "expired_at_verse": "GEN.24.67",
+   "expired_in_event": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.3",
+   "entity_id": "person.rebekah",
+   "category": "TRAIT",
+   "component_key": "marital_status",
+   "value_code": "WIFE_OF_ISAAC",
+   "supersedes_component_id": "comp.rebekah.marital_status.2",
+   "acquired_at_verse": "GEN.24.67",
+   "acquired_in_event": "evt.gen_24.isaac_marries_rebekah"
+  }
+ ],
  "component_closures": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_24.bridewealth_gifts",
+   "system_id": "sys.bridewealth_gifts",
+   "event_id": "evt.gen_24.servant_worships_and_gives_gifts",
+   "verse_start": "GEN.24.53",
+   "verse_end": "GEN.24.53",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "person.rebekah",
+    "person.laban",
+    "person.rebekahs_mother"
+   ],
+   "artifact_entity_ids": [
+    "artifact.betrothal_gifts_for_rebekah"
+   ],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "mohar",
+    "gifts_to_bride_and_kin"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.brother_mother_blessing",
+   "system_id": "sys.blessing_of_departing_bride",
+   "event_id": "evt.gen_24.rebekah_departs",
+   "verse_start": "GEN.24.60",
+   "verse_end": "GEN.24.60",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.rebekah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "blessing_of_bride",
+    "thousands_of_myriads",
+    "possess_the_gate"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.family_consent",
+   "system_id": "sys.marriage_negotiation",
+   "event_id": "evt.gen_24.laban_and_bethuel_consent",
+   "verse_start": "GEN.24.50",
+   "verse_end": "GEN.24.51",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.abrahams_chief_servant"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "consent",
+    "bethuel_co_consenting",
+    "matter_from_yhwh"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.guidance_acknowledged",
+   "system_id": "sys.divine_providence",
+   "event_id": "evt.gen_24.servant_worships",
+   "verse_start": "GEN.24.27",
+   "verse_end": "GEN.24.27",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abrahams_chief_servant"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.well_of_nahors_city",
+   "tags": [
+    "led_on_the_way",
+    "hesed_and_emet"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.isaac_takes_rebekah",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_24.isaac_marries_rebekah",
+   "verse_start": "GEN.24.67",
+   "verse_end": "GEN.24.67",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.rebekah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.tent_of_sarah",
+   "tags": [
+    "taken_into_tent",
+    "love",
+    "comfort"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.laban_hospitality",
+   "system_id": "sys.hospitality_meal",
+   "event_id": "evt.gen_24.laban_welcomes_the_servant",
+   "verse_start": "GEN.24.31",
+   "verse_end": "GEN.24.32",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.abrahams_chief_servant",
+    "group.men_with_the_servant"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "foot_washing",
+    "fodder_for_camels"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.proposal_to_family",
+   "system_id": "sys.marriage_negotiation",
+   "event_id": "evt.gen_24.servant_tells_his_errand",
+   "verse_start": "GEN.24.34",
+   "verse_end": "GEN.24.49",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "person.laban",
+    "person.bethuel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "proposal",
+    "spokesman_for_groom"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.rebekah_asked",
+   "system_id": "sys.marriage_negotiation",
+   "event_id": "evt.gen_24.rebekah_consents",
+   "verse_start": "GEN.24.57",
+   "verse_end": "GEN.24.58",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.rebekah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "bride_consent",
+    "i_will_go"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.rebekah_veils",
+   "system_id": "sys.bridal_veiling",
+   "event_id": "evt.gen_24.rebekah_meets_isaac",
+   "verse_start": "GEN.24.65",
+   "verse_end": "GEN.24.65",
+   "initiator_entity_id": "person.rebekah",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.negeb",
+   "tags": [
+    "veil",
+    "first_meeting"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.ring_and_bracelets",
+   "system_id": "sys.bridewealth_gifts",
+   "event_id": "evt.gen_24.gifts_and_lodging_question",
+   "verse_start": "GEN.24.22",
+   "verse_end": "GEN.24.22",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "person.rebekah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.gold_ring_of_rebekah",
+    "artifact.gold_bracelets_of_rebekah"
+   ],
+   "location_entity_id": "loc.well_of_nahors_city",
+   "tags": [
+    "first_gift",
+    "token_before_asking_identity"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.second_worship",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_24.servant_worships_and_gives_gifts",
+   "verse_start": "GEN.24.52",
+   "verse_end": "GEN.24.52",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_bethuel",
+   "tags": [
+    "prostration",
+    "thanksgiving"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.sign_requested_at_well",
+   "system_id": "sys.sign_requested",
+   "event_id": "evt.gen_24.servant_prays",
+   "verse_start": "GEN.24.12",
+   "verse_end": "GEN.24.14",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.well_of_nahors_city",
+   "tags": [
+    "test_of_kindness",
+    "choice_of_bride"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.thigh_oath",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_24.charge_and_oath",
+   "verse_start": "GEN.24.2",
+   "verse_end": "GEN.24.9",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abrahams_chief_servant"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.canaan",
+   "tags": [
+    "thigh_oath",
+    "marriage_charge",
+    "oath_by_yhwh"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_24.worship_at_well",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_24.servant_worships",
+   "verse_start": "GEN.24.26",
+   "verse_end": "GEN.24.26",
+   "initiator_entity_id": "person.abrahams_chief_servant",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.well_of_nahors_city",
+   "tags": [
+    "bowing",
+    "thanksgiving"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_24.abraham_charges_servant",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.24.4",
+   "event_id": "evt.gen_24.charge_and_oath"
+  },
+  {
+   "edge_id": "edge.gen_24.bethuel_consents",
+   "source_entity_id": "person.bethuel",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "CONSENTS_TO",
+   "verse_id": "GEN.24.50",
+   "event_id": "evt.gen_24.laban_and_bethuel_consent"
+  },
+  {
+   "edge_id": "edge.gen_24.isaac_loves_rebekah",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "LOVES",
+   "verse_id": "GEN.24.67",
+   "event_id": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "edge_id": "edge.gen_24.isaac_marries_rebekah",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.24.67",
+   "event_id": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "edge_id": "edge.gen_24.laban_blesses_rebekah",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.24.60",
+   "event_id": "evt.gen_24.rebekah_departs"
+  },
+  {
+   "edge_id": "edge.gen_24.laban_consents",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "CONSENTS_TO",
+   "verse_id": "GEN.24.50",
+   "event_id": "evt.gen_24.laban_and_bethuel_consent"
+  },
+  {
+   "edge_id": "edge.gen_24.laban_welcomes_servant",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "WELCOMES",
+   "verse_id": "GEN.24.31",
+   "event_id": "evt.gen_24.laban_welcomes_the_servant"
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_agrees_to_go",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "AGREES_TO_GO_WITH",
+   "verse_id": "GEN.24.58",
+   "event_id": "evt.gen_24.rebekah_consents"
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_tells_mother",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.rebekahs_mother",
+   "interaction_type": "REPORTS_TO",
+   "verse_id": "GEN.24.28",
+   "event_id": "evt.gen_24.rebekah_tells_her_household"
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_waters_camels",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "group.camels_of_abraham",
+   "interaction_type": "GIVES_DRINK_TO",
+   "verse_id": "GEN.24.20",
+   "event_id": "evt.gen_24.rebekah_gives_water"
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_waters_servant",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "GIVES_DRINK_TO",
+   "verse_id": "GEN.24.18",
+   "event_id": "evt.gen_24.rebekah_gives_water"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_blesses_yhwh",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.24.27",
+   "event_id": "evt.gen_24.servant_worships"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gifts_laban",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.laban",
+   "interaction_type": "GIVES_GIFT_TO",
+   "verse_id": "GEN.24.53",
+   "event_id": "evt.gen_24.servant_worships_and_gives_gifts"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gifts_rebekah",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "GIVES_GIFT_TO",
+   "verse_id": "GEN.24.53",
+   "event_id": "evt.gen_24.servant_worships_and_gives_gifts"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gives_jewelry",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.rebekah",
+   "interaction_type": "GIVES_GIFT_TO",
+   "verse_id": "GEN.24.22",
+   "event_id": "evt.gen_24.gifts_and_lodging_question"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_prays_to_yhwh",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAYS_TO",
+   "verse_id": "GEN.24.12",
+   "event_id": "evt.gen_24.servant_prays"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_proposes_to_laban",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.laban",
+   "interaction_type": "PROPOSES_MARRIAGE_TO",
+   "verse_id": "GEN.24.49",
+   "event_id": "evt.gen_24.servant_tells_his_errand"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_reports_to_isaac",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "REPORTS_TO",
+   "verse_id": "GEN.24.66",
+   "event_id": "evt.gen_24.isaac_marries_rebekah"
+  },
+  {
+   "edge_id": "edge.gen_24.servant_swears_to_abraham",
+   "source_entity_id": "person.abrahams_chief_servant",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.24.9",
+   "event_id": "evt.gen_24.charge_and_oath"
+  },
+  {
+   "edge_id": "edge.gen_24.yhwh_leads_servant",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abrahams_chief_servant",
+   "interaction_type": "LEADS",
+   "verse_id": "GEN.24.27",
+   "event_id": "evt.gen_24.servant_worships"
+  }
+ ]
 }

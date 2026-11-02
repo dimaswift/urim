@@ -69,9 +69,216 @@
    "causal_explanation": "God said that Abraham the prophet would pray for Abimelech and he would live; Abraham prays and God heals him (20:7, 17)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "group.maidservants_of_abimelech",
+   "canonical_name": "Maidservants of Abimelech",
+   "phonetic_name": "amhotav",
+   "aliases": [
+    "female slaves",
+    "handmaids"
+   ],
+   "etymology_meaning": "Hebrew 'amah' means female servant or slave.",
+   "summary_bio": "The female servants of Abimelech's household. Their wombs were closed by the LORD because of Sarah, and they bear children again after Abraham's prayer."
+  },
+  {
+   "entity_id": "group.servants_of_abimelech",
+   "canonical_name": "Servants of Abimelech",
+   "phonetic_name": "avadav",
+   "aliases": [
+    "the men",
+    "his servants"
+   ],
+   "etymology_meaning": "Hebrew 'avadim' means servants or royal officials.",
+   "summary_bio": "The court officials of the king of Gerar. Abimelech summons them at dawn and tells them about his dream, and they are greatly afraid."
+  },
+  {
+   "entity_id": "person.wife_of_abimelech",
+   "canonical_name": "Wife of Abimelech",
+   "phonetic_name": "ishto",
+   "aliases": [],
+   "etymology_meaning": "Unnamed; the text calls her only 'his wife'.",
+   "summary_bio": "The wife of the king of Gerar. She is healed with the rest of his household after Abraham prays, and is able to bear children again."
+  },
+  {
+   "entity_id": "substance.silver_of_vindication",
+   "canonical_name": "Thousand pieces of silver",
+   "phonetic_name": "kesef",
+   "aliases": [
+    "a thousand of silver"
+   ],
+   "etymology_meaning": "Hebrew 'kesef' means silver, from a root for longing or paleness (probably).",
+   "summary_bio": "A thousand units of silver that Abimelech gives to Abraham, called a 'covering of the eyes' for Sarah before all who are with her. It publicly clears her name."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abimelech.divine_warning.1",
+   "label_key": "Divine warning",
+   "label_value": "Under threat of death",
+   "evidence_explanation": "Gen 20:3 and 20:7 say he is a dead man if he does not return Sarah."
+  },
+  {
+   "component_id": "comp.abimelech.household_fertility.1",
+   "label_key": "Household fertility",
+   "label_value": "Every womb closed",
+   "evidence_explanation": "Gen 20:18 says the LORD had shut every womb in Abimelech's house because of Sarah; 20:17 shows it ended."
+  },
+  {
+   "component_id": "comp.abraham.dwelling.5",
+   "label_key": "Dwelling",
+   "label_value": "Sojourning in Gerar",
+   "evidence_explanation": "Gen 20:1 says he dwelt between Kadesh and Shur and sojourned in Gerar."
+  },
+  {
+   "component_id": "comp.abraham.office.1",
+   "label_key": "Office",
+   "label_value": "Prophet",
+   "evidence_explanation": "Gen 20:7 calls Abraham a prophet who will pray for Abimelech."
+  },
+  {
+   "component_id": "comp.abraham.wealth.2",
+   "label_key": "Wealth",
+   "label_value": "Flocks, servants and royal gifts",
+   "evidence_explanation": "Gen 20:14 says Abimelech gave Abraham sheep, cattle, and male and female servants, and 20:16 adds a thousand pieces of silver."
+  },
+  {
+   "component_id": "comp.sarah.household.2",
+   "label_key": "Household",
+   "label_value": "Taken into Abimelech's household",
+   "evidence_explanation": "Gen 20:2 says Abimelech sent and took Sarah; she is returned in 20:14."
+  },
+  {
+   "component_id": "comp.servants_of_abimelech.fear.1",
+   "label_key": "Fear",
+   "label_value": "Greatly afraid",
+   "evidence_explanation": "Gen 20:8 says the men feared exceedingly on hearing the dream."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_closing_of_wombs",
+   "name": "Divine closing of wombs",
+   "ancient_near_east_context": "In the ancient Near East fertility was seen as a gift of the gods, so a household's barrenness was read as divine displeasure. Genesis attributes both the opening and the closing of the womb to the LORD.",
+   "rules_and_mechanics": [
+    "God alone opens or shuts the womb.",
+    "The closing falls on a whole household, not only on the offender.",
+    "God alone reopens the womb; in Gen 20 he does so after the prophet's prayer (20:17)."
+   ]
+  },
+  {
+   "system_id": "sys.divine_healing",
+   "name": "Divine healing",
+   "ancient_near_east_context": "Healing was commonly sought from gods through priests or intercessors. In Genesis, God heals directly, and a prophet's prayer is the means.",
+   "rules_and_mechanics": [
+    "The healing is God's act, not the intercessor's.",
+    "God may name the intercessor whose prayer brings the healing (20:7).",
+    "Here the healing reverses God's own closing of the wombs (20:18)."
+   ]
+  },
+  {
+   "system_id": "sys.restitution_gift",
+   "name": "Restitution gift",
+   "ancient_near_east_context": "A ruler who wronged a guest or a stranger could repair it with property. Gifts served both as compensation and as a public sign that the matter was settled.",
+   "rules_and_mechanics": [
+    "The wrongdoer gives goods to the wronged party.",
+    "The person wronged is returned unharmed.",
+    "A statement before witnesses clears the name of the wronged woman."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_20.abraham_intercedes",
+   "outcome_summary": "Abraham prays to God for Abimelech.",
+   "significance_note": "Abraham acts as a prophet, as God said in 20:7, and blesses the man he deceived."
+  },
+  {
+   "instance_id": "inst.gen_20.household_healed",
+   "outcome_summary": "God heals Abimelech, his wife and his maidservants, and they bear children.",
+   "significance_note": "The reversal closes the episode and shows the effect of the prophet's prayer."
+  },
+  {
+   "instance_id": "inst.gen_20.restitution_to_abraham",
+   "outcome_summary": "Abimelech gives Abraham sheep, cattle, servants and a thousand pieces of silver, returns Sarah, and offers him his land.",
+   "significance_note": "The gift repairs the wrong and clears Sarah's name before her household."
+  },
+  {
+   "instance_id": "inst.gen_20.sarah_taken",
+   "outcome_summary": "Abimelech sends for Sarah and takes her.",
+   "significance_note": "The king's act triggers God's intervention to protect Sarah before she can bear Isaac."
+  },
+  {
+   "instance_id": "inst.gen_20.sister_claim",
+   "outcome_summary": "Abraham says Sarah is his sister, and she says he is her brother (20:2, 5); Abimelech, believing them, takes her.",
+   "significance_note": "A second telling of the wife-as-sister episode (after Gen 12). It puts Sarah and the promised line at risk."
+  },
+  {
+   "instance_id": "inst.gen_20.warning_dream",
+   "outcome_summary": "God comes to Abimelech in a night dream and warns him of death for taking another man's wife, then tells him to return her.",
+   "significance_note": "God speaks directly to a non-Israelite king and treats his integrity as a reason for mercy."
+  },
+  {
+   "instance_id": "inst.gen_20.wombs_closed",
+   "outcome_summary": "The LORD shuts every womb in Abimelech's house.",
+   "significance_note": "The plague explains why Abimelech's household is in danger and later why the healing matters."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_20.abimelech_gives_abraham_gifts",
+   "interaction_label": "gives to",
+   "description": "Abimelech gives Abraham sheep, cattle, and male and female servants."
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_rebukes_abraham",
+   "interaction_label": "rebukes",
+   "description": "Abimelech asks Abraham what he has done and says he brought a great sin on the kingdom."
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_restores_sarah",
+   "interaction_label": "restores",
+   "description": "Abimelech gives Sarah back to Abraham."
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_takes_sarah",
+   "interaction_label": "takes",
+   "description": "Abimelech sends for Sarah and takes her into his household."
+  },
+  {
+   "edge_id": "edge.gen_20.abimelech_vindicates_sarah",
+   "interaction_label": "vindicates",
+   "description": "Abimelech tells Sarah that the silver given to her brother is a covering of the eyes and clears her name."
+  },
+  {
+   "edge_id": "edge.gen_20.abraham_deceives_abimelech",
+   "interaction_label": "deceives",
+   "description": "Abraham says that Sarah his wife is his sister, and Abimelech, told so, takes her (20:2, 5)."
+  },
+  {
+   "edge_id": "edge.gen_20.abraham_prays_for_abimelech",
+   "interaction_label": "prays for",
+   "description": "Abraham prays to God on behalf of Abimelech and his household."
+  },
+  {
+   "edge_id": "edge.gen_20.god_commands_abimelech",
+   "interaction_label": "commands",
+   "description": "God tells Abimelech to return the man's wife, as Abraham the prophet will pray for him."
+  },
+  {
+   "edge_id": "edge.gen_20.god_heals_abimelech",
+   "interaction_label": "heals",
+   "description": "God heals Abimelech, his wife and his maidservants so that they bear children."
+  },
+  {
+   "edge_id": "edge.gen_20.god_restrains_abimelech",
+   "interaction_label": "restrains",
+   "description": "God says he kept Abimelech from sinning and did not let him touch Sarah."
+  },
+  {
+   "edge_id": "edge.gen_20.god_warns_abimelech",
+   "interaction_label": "warns",
+   "description": "God tells Abimelech in a dream that he will die because the woman he took is married."
+  }
+ ]
 }

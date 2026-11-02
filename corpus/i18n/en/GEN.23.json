@@ -92,9 +92,142 @@
    "causal_explanation": "Sarah's death is why Abraham comes to mourn and weep for her (23:2)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "loc.gate_of_hebron",
+   "canonical_name": "Gate of Hebron",
+   "phonetic_name": "Shaar Iro",
+   "aliases": [
+    "gate of his city",
+    "city gate of Ephron"
+   ],
+   "etymology_meaning": "Hebrew 'shaʿar ʿiro', 'the gate of his city': the gate of Kiriath-arba (Hebron), where Ephron sits with the Hittites.",
+   "summary_bio": "The entrance of Hebron, where the Hittite elders sit and public business is done before all who enter. Here Abraham bargains with Ephron for the cave of Machpelah, and the sale is witnessed 'before all who went in at the gate of his city' (Gen 23:10, 18)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.burial_property.1",
+   "label_key": "Burial property",
+   "label_value": "Owns the cave of Machpelah and its field",
+   "evidence_explanation": "Gen 23:17-18: the field, the cave and its trees 'were made sure to Abraham for a possession' before the Hittites."
+  },
+  {
+   "component_id": "comp.abraham.grief.1",
+   "label_key": "Grief",
+   "label_value": "Mourning and weeping for Sarah",
+   "evidence_explanation": "Gen 23:2: Abraham came 'to mourn for Sarah and to weep for her'; the mourning pauses when he rises from before his dead (23:3)."
+  },
+  {
+   "component_id": "comp.abraham.legal_status.1",
+   "label_key": "Legal status",
+   "label_value": "Sojourner and resident alien among the Hittites",
+   "evidence_explanation": "Gen 23:4: 'I am a sojourner and a resident alien with you.'"
+  },
+  {
+   "component_id": "comp.abraham.standing.1",
+   "label_key": "Standing among the Hittites",
+   "label_value": "A prince of God in their midst",
+   "evidence_explanation": "Gen 23:6: the Hittites call him 'a prince of God among us' (nesi elohim)."
+  },
+  {
+   "component_id": "comp.sarah.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 23:2: 'And Sarah died in Kiriath-arba, that is Hebron, in the land of Canaan.'"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.property_purchase_at_gate",
+   "name": "Property purchase at the city gate",
+   "ancient_near_east_context": "In the ancient Near East land was transferred in public, usually at the city gate where elders and townsmen sat as witnesses, so that title could later be proved by their testimony. Bargaining began with courteous offers of a gift, and silver was weighed out by weight rather than counted as coin, since minted money did not yet exist.",
+   "rules_and_mechanics": [
+    "The sale is made in the hearing of the elders and of all who enter the gate.",
+    "The seller first offers the property as a gift; the buyer insists on paying.",
+    "The seller names the price, the buyer accepts without haggling and weighs out the silver.",
+    "The property is conveyed whole: field, cave and every tree within its borders.",
+    "Title is 'made sure' (vayyaqom) before the witnesses."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_23.first_bow_to_hittites",
+   "outcome_summary": "Abraham rises and bows to the people of the land after they offer him any tomb.",
+   "significance_note": "Shows Abraham's courtesy toward the locals while he pursues a specific request: Ephron's cave."
+  },
+  {
+   "instance_id": "inst.gen_23.mourning_for_sarah",
+   "outcome_summary": "Abraham goes in to mourn and weep for Sarah at Hebron.",
+   "significance_note": "The first recorded mourning of a patriarch for his wife, and the reason he must now seek a burial place."
+  },
+  {
+   "instance_id": "inst.gen_23.sarah_buried",
+   "outcome_summary": "Abraham buries Sarah in the cave of the field of Machpelah, east of Mamre.",
+   "significance_note": "Establishes the family tomb where Abraham, Isaac, Rebekah, Leah and Jacob will also be laid."
+  },
+  {
+   "instance_id": "inst.gen_23.second_bow_to_hittites",
+   "outcome_summary": "Abraham bows again as Ephron offers the field as a gift, then insists on paying.",
+   "significance_note": "Marks the turn from courteous exchange to a firm demand for full ownership."
+  },
+  {
+   "instance_id": "inst.gen_23.silver_weighed_out",
+   "outcome_summary": "Abraham weighs out four hundred shekels of silver at the merchants' standard to Ephron before the Hittites.",
+   "significance_note": "Completes the purchase at full price, so that the burial ground is a legal, undisputed possession."
+  },
+  {
+   "instance_id": "inst.gen_23.title_made_sure",
+   "outcome_summary": "The field, the cave and every tree within its borders pass to Abraham in front of all who enter the gate.",
+   "significance_note": "The first piece of the promised land that Abraham owns, secured by public witness."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_23.abraham_asks_ephron_via_hittites",
+   "interaction_label": "entreats through intermediaries",
+   "description": "Abraham asks the Hittites to plead with Ephron to sell him the cave of Machpelah."
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_buries_sarah",
+   "interaction_label": "buries",
+   "description": "Abraham buries his wife Sarah in the cave of Machpelah."
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_offers_payment",
+   "interaction_label": "offers to pay",
+   "description": "Abraham insists on giving the full price of the field."
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_pays_ephron",
+   "interaction_label": "pays",
+   "description": "Abraham weighs out the four hundred shekels to Ephron before the Hittites."
+  },
+  {
+   "edge_id": "edge.gen_23.abraham_petitions_hittites",
+   "interaction_label": "petitions",
+   "description": "Abraham, a resident alien, asks the Hittites for a burial possession among them."
+  },
+  {
+   "edge_id": "edge.gen_23.ephron_names_price",
+   "interaction_label": "names the price to",
+   "description": "Ephron states the land is worth four hundred shekels of silver, and waves it off as trivial between them."
+  },
+  {
+   "edge_id": "edge.gen_23.ephron_offers_field",
+   "interaction_label": "offers a gift to",
+   "description": "Ephron offers Abraham the field and cave as a gift before his people."
+  },
+  {
+   "edge_id": "edge.gen_23.hittites_confirm_title",
+   "interaction_label": "witness the title of",
+   "description": "The sons of Heth witness at the gate that the field and cave become Abraham's possession."
+  },
+  {
+   "edge_id": "edge.gen_23.hittites_honor_abraham",
+   "interaction_label": "honor",
+   "description": "The Hittites call Abraham a prince of God and offer him their choicest tomb."
+  }
+ ]
 }

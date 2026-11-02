@@ -191,6 +191,647 @@
    ],
    "source": null
   },
+  "closure:comp.israel.serves.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.israel.whereabouts.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.cairn_of_galeed.status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.galeed.name.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.anger_at_laban.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider closing it at the end of the rebuke (evt.gen_31.jacob_rebukes_laban) or saying in the evidence that the closure is inferred from the covenant. (GEN.31.36: \"And Jacob was wroth, and chode with Laban\"; GEN.31.45: \"And Jacob took a stone, and set it up for a pillar.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.covenant_with_laban.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.whereabouts.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Jacob leaves Haran/Paddan-aram at 31:21 but is only said to be in Gilead at 31:25 (tent pitched). The closure of whereabouts.2 and the opening of .3 are both placed at 31:25 so the slot has no gap; the journey itself is not modelled."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.laban.attitude.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Inferred from 31:2 (Laban's face is not toward Jacob as before) and the sons' complaint; I closed it at the covenant proposal (31:44) where Laban turns conciliatory."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.pillar_of_galeed.status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.teraphim.holder.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Rachel's holding continues past this chapter (Jacob buries the idols in 35:4); no expiry is set here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_curses_thief": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider a label such as 'unknowingly curses' or keeping the edge and the instance's target as they are but making the description open with 'unknowingly'. (GEN.31.32: \"With whomsoever thou findest thy gods, let him not live ... For Jacob knew not that Rachel had stolen them.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_deceives_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_rebukes_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_sacrifices_to_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_summons_leah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_summons_rachel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.israel_swears_to_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.laban_accuses_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.laban_overtakes_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.laban_proposes_covenant": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.laban_pursues_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.rachel_deceives_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.rachel_steals_teraphim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.yhwh_commands_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.yhwh_rebukes_laban": {
+   "status": "changes_requested",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[should_fix] Remove edge.gen_31.yhwh_rebukes_laban; the dream's interaction is already edge.gen_31.yhwh_warns_laban in evt.gen_31.god_warns_laban (GEN.31.24). If you want Jacob's reading of it as a rebuke, put it in that edge's description, not in a second edge. (GEN.31.42: \"God hath seen mine affliction ... and rebuked thee yesternight\" (אמש); GEN.31.29: \"the God of your father spake unto me yesternight\"; GEN.31.24: \"God came to Laban ... in a dream by night\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_31.yhwh_warns_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.cairn_of_galeed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.pillar_of_galeed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider keeping Mizpah only as an alias of loc.galeed and leaving the reading tied to the pillar in the etymology note. (GEN.31.48-49: \"Therefore was the name of it called Galeed; And Mizpah; for he said, The Lord watch between me and thee\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.teraphim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "The registry proposes deity.teraphim (Supernatural). I made them an ARTIFACT because the plot treats them as portable objects (stolen, hidden in a saddlebag, searched for), while Laban calls them 'my gods' (31:30). tipnr_id kept so the registry link survives."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.camels_of_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.kinsmen_of_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "'His brethren' in 31:46 and 31:54 are read as Jacob's kinsmen and retainers; the text does not say who they are. Some commentators think both parties' relatives share the meal at 31:46."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.kinsmen_of_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "'His brethren' (31:23, 25) are Laban's kinsmen, not necessarily brothers; defined as a group. Not the same entity as group.sons_of_laban."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.galeed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "The registry maps Jegar-sahadutha, Galeed and Mizpah (31:47-49) to Ramoth-gilead (loc.ramoth). That is a different, later city of refuge, so I did not reuse it: loc.galeed is the cairn site in the hill country of Gilead with no tipnr_id and no coordinates (reviewer: place not securely identified; the cairn is traditionally sought east of the Jordan near the Jabbok). Galeed, Jegar-sahadutha and Mizpah are treated as names of one site."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_31.covenant_feast": {
    "status": "approved",
    "produced_by": {
@@ -506,6 +1147,588 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_31.covenant_feast": {
+   "status": "changes_requested",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[should_fix] Add person.laban as PRESENT to evt.gen_31.covenant_feast. Add group.kinsmen_of_laban as PRESENT too, or say in a note why 'his brethren' of 31:54 are Jacob's kinsmen only (TgPsJ reads them as those who came with Laban). (GEN.31.54: \"and they did eat bread, and tarried all night in the mount\" (וילינו בהר); GEN.32.1 (Hebrew; English 31:55): \"And early in the morning Laban rose up, and kissed his sons and his daughters\"; Targum Pseudo-Jonathan 31:54 reads 'his kinsmen who had come with Laban'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.covenant_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.covenant_proposed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.god_warns_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "The text only says Laban was overtaking Jacob; where Laban slept is not stated (presumably on the way to or in Gilead). Place left out."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.jacob_answers_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.jacob_calls_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.jacob_flees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.jacob_rebukes_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.laban_accuses": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.laban_overtakes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.laban_pursues": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "No place given: the pursuit starts from Laban's home area and ends in Gilead, so no single location fits; left out."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.laban_sons_complain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.laban_told": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.tents_searched": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider adding group.camels_of_jacob as PRESENT, or as an artifact of inst.gen_31.teraphim_hidden. (GEN.31.34: \"put them in the camel's furniture, and sat upon them\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_31.yhwh_commands_return": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.angel_dream_recalled": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.appeal_to_gods": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider mentioning the plural verb in the outcome summary, and wording the jacob_oath significance so it does not contradict the YHWH mapping (e.g. 'he swears by Isaac's God alone'). (GEN.31.53: \"אֱלֹהֵי אַבְרָהָם וֵאלֹהֵי נָחוֹר יִשְׁפְּטוּ בֵינֵינוּ\" (the God of Abraham and the God of Nahor, may they judge between us).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.covenant_meal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.covenant_with_laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider 'it sets the heap as a line neither will cross against the other for harm'. (GEN.31.52: \"that I will not pass over this heap to thee, and that thou shalt not pass over this heap and this pillar unto me, for harm.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.hill_sacrifice": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.jacob_oath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.jacobs_curse": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Rachel is named as target because she is in fact the thief (31:32), although Jacob does not know it; Jacob's curse is against 'whoever' is found with the gods."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.laban_dream_warning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.pillar_and_cairn": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.return_command": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.teraphim_hidden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_31.teraphim_stolen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.conditional_curse": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Defined here: Jacob's capital curse on whoever has stolen the gods (31:32); distinct from the existing divine_curse (God cursing)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.household_gods": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Defined here rather than reused; no teraphim practice exists in the catalog. Category SOCIAL_CUSTOM chosen over LITURGICAL_RITUAL because the text stresses household property and inheritance claims; the Nuzi parallels are debated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": "[consider] Consider moving that point to inst.gen_31.teraphim_hidden's significance note and keeping the system's rules about the images themselves. (GEN.31.35: \"Let it not displease my lord that I cannot rise up before thee; for the custom of women is upon me.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.witness_monument": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:34:33+00:00",
+   "agent_notes": [
+    "Defined here: pillar and heap as a standing witness between two parties; distinct from sys.pillar_consecration (anointing at Bethel)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:37:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -598,6 +1821,33 @@
     "run": "main"
    },
    "at": "2026-11-02T14:08:26+00:00"
+  },
+  {
+   "note": "[entity:spirit.angel_of_yhwh] 'The angel of God' in Jacob's recalled dream (31:11) is mapped to the existing angel entity rather than a new one; it identifies itself as the God of Bethel in 31:13, so the divine and angelic voice blur.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:34:33+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] 'God of my father', 'Fear of Isaac' and 'God of Abraham' are all mapped to YHWH. In 31:53 Laban's 'God of Nahor' may denote the gods of Nahor's line (Laban is a polytheist, cf. the teraphim); I kept it as YHWH because the text does not distinguish.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:34:33+00:00"
+  },
+  {
+   "note": "[component:comp.israel.serves.1] Closed at the flight (31:21), when Jacob ceases to serve Laban. The wage agreement (comp.israel.wage_agreement.1) is left open: the text does not say it formally ends, only that Laban altered it ten times.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:34:33+00:00"
   }
  ]
 }

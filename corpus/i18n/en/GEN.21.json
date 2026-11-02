@@ -145,9 +145,287 @@
    "causal_explanation": "Abraham's distress at Sarah's demand about his son (21:11) leads God to speak to him (21:12)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.seven_ewe_lambs",
+   "canonical_name": "The seven ewe lambs",
+   "phonetic_name": "Sheva' kivsot",
+   "aliases": [
+    "seven lambs"
+   ],
+   "etymology_meaning": "The word for 'seven' (sheva') is tied in the text to the name Beer-sheba.",
+   "summary_bio": "Seven lambs from Abraham's flock that he sets apart and gives to Abimelech. By accepting them Abimelech is a witness that Abraham dug the well."
+  },
+  {
+   "entity_id": "artifact.tamarisk_of_beersheba",
+   "canonical_name": "The tamarisk at Beer-sheba",
+   "phonetic_name": "Eshel",
+   "aliases": [
+    "tamarisk tree"
+   ],
+   "etymology_meaning": "'Tamarisk', a hardy desert tree.",
+   "summary_bio": "A tree Abraham plants at Beer-sheba. There he calls on the name of the LORD, the Everlasting God."
+  },
+  {
+   "entity_id": "loc.hagars_well",
+   "canonical_name": "Hagar's well",
+   "phonetic_name": "Be'er mayim",
+   "aliases": [
+    "well of water"
+   ],
+   "etymology_meaning": "'Well of water'; the text gives it no proper name.",
+   "summary_bio": "A well that God shows Hagar after opening her eyes. She fills the skin and gives the boy water to drink."
+  },
+  {
+   "entity_id": "loc.paran",
+   "canonical_name": "Paran",
+   "phonetic_name": "Paran",
+   "aliases": [
+    "Wilderness of Paran"
+   ],
+   "etymology_meaning": "Probably 'place of caverns' or 'abundant in foliage'; the meaning is uncertain.",
+   "summary_bio": "A desert region south of Canaan in the Sinai and Negev area. Ishmael settles there as an archer after he and his mother are sent away, and his mother takes him a wife from the land of Egypt."
+  },
+  {
+   "entity_id": "loc.well_of_beersheba",
+   "canonical_name": "The well of Beer-sheba",
+   "phonetic_name": "Be'er",
+   "aliases": [
+    "the well of the oath"
+   ],
+   "etymology_meaning": "Beer-sheba is explained as 'well of the oath' or 'well of seven', from the oath and the seven lambs (vv. 28–31).",
+   "summary_bio": "The well that Abimelech's servants seized and Abraham confirms as his own by giving seven ewe lambs as witness. It gives the place its name."
+  },
+  {
+   "entity_id": "loc.wilderness_of_beersheba",
+   "canonical_name": "Wilderness of Beer-sheba",
+   "phonetic_name": "Midbar Be'er Shava'",
+   "aliases": [],
+   "etymology_meaning": "'Wilderness of the well of the oath' or 'of the seven'; the name Beer-sheba is explained later in the chapter (v. 31).",
+   "summary_bio": "The dry country in which Hagar wanders after Abraham sends her away with bread and water. The skin of water runs out here and Ishmael is laid under a bush."
+  },
+  {
+   "entity_id": "person.wife_of_ishmael",
+   "canonical_name": "Ishmael's Egyptian wife",
+   "phonetic_name": "Ishmael's wife",
+   "aliases": [],
+   "etymology_meaning": "Unnamed in the text.",
+   "summary_bio": "An Egyptian woman whom Hagar takes as a wife for Ishmael after he settles in the wilderness of Paran. Hagar's own origin explains the choice."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.covenant_with_abimelech.1",
+   "label_key": "Covenant",
+   "label_value": "In covenant with Abimelech",
+   "evidence_explanation": "Gen 21:27 and 21:32: the two men made a covenant at Beer-sheba."
+  },
+  {
+   "component_id": "comp.isaac.circumcision.1",
+   "label_key": "Circumcision",
+   "label_value": "Circumcised on the eighth day",
+   "evidence_explanation": "Gen 21:4 says Abraham circumcised Isaac at eight days old as God commanded."
+  },
+  {
+   "component_id": "comp.ishmael.condition.1",
+   "label_key": "Condition",
+   "label_value": "Near death from thirst",
+   "evidence_explanation": "Gen 21:15–16: the water is gone and Hagar sets the boy down so as not to see him die."
+  },
+  {
+   "component_id": "comp.ishmael.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "Living in the wilderness of Paran",
+   "evidence_explanation": "Gen 21:21 says he lived in the wilderness of Paran."
+  },
+  {
+   "component_id": "comp.ishmael.vocation.1",
+   "label_key": "Vocation",
+   "label_value": "Archer",
+   "evidence_explanation": "Gen 21:20 says he became an archer."
+  },
+  {
+   "component_id": "comp.ishmael.wife.1",
+   "label_key": "Wife",
+   "label_value": "Married to an Egyptian woman",
+   "evidence_explanation": "Gen 21:21: his mother took him a wife from the land of Egypt."
+  },
+  {
+   "component_id": "comp.sarah.fertility.2",
+   "label_key": "Fertility",
+   "label_value": "Mother of Isaac",
+   "evidence_explanation": "Gen 21:2 says Sarah conceived and bore Abraham a son in his old age."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.disinheritance_by_expulsion",
+   "name": "Disinheritance by expulsion",
+   "ancient_near_east_context": "Law collections from Mesopotamia treat a concubine's or slave woman's son as an heir only if the father acknowledges him, and the household could dismiss a slave woman and her child; freeing them was sometimes required.",
+   "rules_and_mechanics": [
+    "The wife demands that the slave woman and her son be driven out so the son of the wife is the only heir.",
+    "The father may resist, but here God tells him to comply.",
+    "The expelled receive provisions for the way but no share of the estate."
+   ]
+  },
+  {
+   "system_id": "sys.divine_visitation_of_womb",
+   "name": "The LORD visits a barren woman",
+   "ancient_near_east_context": "In the ancient Near East a woman's fertility was widely seen as the gift of a god; the Hebrew verb 'visit' (paqad) means that God turns his attention to someone and acts on a promise.",
+   "rules_and_mechanics": [
+    "God acts as he had said, so a promised birth becomes a fulfilment of his word.",
+    "The birth happens at the appointed time named in the promise.",
+    "The child receives a name tied to the promise or the joy it brings."
+   ]
+  },
+  {
+   "system_id": "sys.weaning_feast",
+   "name": "Weaning feast",
+   "ancient_near_east_context": "Children were weaned at about two or three years old, so surviving to weaning was an occasion to celebrate a child's survival and standing in the household.",
+   "rules_and_mechanics": [
+    "The head of the household holds the feast, a 'great' one for an heir.",
+    "It takes place on the day the child is weaned.",
+    "It marks the child's place in the family and, here, sharpens the question of who will inherit."
+   ]
+  },
+  {
+   "system_id": "sys.witness_gift_of_lambs",
+   "name": "Witness gift of lambs",
+   "ancient_near_east_context": "Where wells were scarce, disputes over water rights were settled by a witnessed act; a gift accepted before witnesses served as a proof of ownership or claim.",
+   "rules_and_mechanics": [
+    "The claimant gives a gift of animals to the other party.",
+    "Accepting the gift means admitting the claimant dug the well.",
+    "A name or oath at the place commemorates the agreement."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_21.covenant_at_beersheba",
+   "outcome_summary": "Abraham and Abimelech make a covenant at Beer-sheba, after which Abimelech and Phicol go back to the land of the Philistines.",
+   "significance_note": "It brings peace between Abraham and the Philistine king and secures Abraham's stay."
+  },
+  {
+   "instance_id": "inst.gen_21.everlasting_god_invoked",
+   "outcome_summary": "Abraham plants a tamarisk at Beer-sheba and calls on the name of the LORD, the Everlasting God.",
+   "significance_note": "The patriarch fixes his worship at Beer-sheba and names God as eternal, a title found only here."
+  },
+  {
+   "instance_id": "inst.gen_21.god_commands_listen",
+   "outcome_summary": "God tells Abraham to do as Sarah says and promises to make Ishmael a nation too.",
+   "significance_note": "God confirms Isaac as the line of the promise while promising Ishmael a future, which resolves Abraham's distress."
+  },
+  {
+   "instance_id": "inst.gen_21.hagar_ishmael_delivered",
+   "outcome_summary": "The angel of God calls to Hagar from heaven; God has heard the boy, and she is shown a well.",
+   "significance_note": "God saves the outcast mother and son, and repeats the promise of a great nation, which echoes ch. 16."
+  },
+  {
+   "instance_id": "inst.gen_21.hagar_ishmael_expelled",
+   "outcome_summary": "Abraham rises early, gives Hagar bread and a skin of water and sends her away with the boy.",
+   "significance_note": "The household splits in two: Isaac stays as sole heir and Ishmael leaves with his mother."
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_circumcised",
+   "outcome_summary": "Abraham circumcises Isaac when he is eight days old, as God commanded.",
+   "significance_note": "Abraham obeys the covenant command of ch. 17 for the covenant heir."
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_named",
+   "outcome_summary": "Abraham calls his newborn son Isaac.",
+   "significance_note": "The name 'he laughs' carries the laughter of ch. 17 and ch. 18 and Sarah's joy in vv. 6–7."
+  },
+  {
+   "instance_id": "inst.gen_21.isaac_weaning_feast",
+   "outcome_summary": "Abraham holds a great feast on the day Isaac is weaned.",
+   "significance_note": "The feast displays Isaac as the heir and sets the scene for Sarah's reaction to Ishmael."
+  },
+  {
+   "instance_id": "inst.gen_21.lambs_as_witness",
+   "outcome_summary": "Abraham sets seven ewe lambs apart and Abimelech accepts them as witness that Abraham dug the well.",
+   "significance_note": "The gift gives the legal basis for Abraham's claim and for the name Beer-sheba."
+  },
+  {
+   "instance_id": "inst.gen_21.oath_at_beersheba",
+   "outcome_summary": "The two men swear together at the place, which is called Beer-sheba.",
+   "significance_note": "The oath gives the place its name and a lasting memory of the agreement."
+  },
+  {
+   "instance_id": "inst.gen_21.sarah_visited",
+   "outcome_summary": "The LORD visits Sarah as he had said, and she conceives and bears a son at the appointed time.",
+   "significance_note": "The long-promised heir is born, which fulfils the covenant promise and ends Sarah's barrenness."
+  },
+  {
+   "instance_id": "inst.gen_21.well_dispute",
+   "outcome_summary": "Abraham reproves Abimelech about a well his servants seized; Abimelech says he knew nothing of it.",
+   "significance_note": "It shows water rights as a source of conflict and sets up the covenant that settles it."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_21.abimelech_asks_oath",
+   "interaction_label": "asks for an oath from",
+   "description": "Abimelech asks Abraham to swear by God that he will not deal falsely with him or his descendants."
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_circumcises_isaac",
+   "interaction_label": "circumcises",
+   "description": "Abraham circumcises his son Isaac on the eighth day as God commanded."
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_gives_lambs",
+   "interaction_label": "gives sheep and cattle to",
+   "description": "Abraham gives Abimelech sheep and oxen and makes a covenant with him."
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_reproves_abimelech",
+   "interaction_label": "reproves",
+   "description": "Abraham reproves Abimelech about a well that Abimelech's servants had seized."
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_sends_hagar_away",
+   "interaction_label": "sends away",
+   "description": "Abraham gives Hagar bread and water and sends her away with the boy."
+  },
+  {
+   "edge_id": "edge.gen_21.abraham_swears_to_abimelech",
+   "interaction_label": "swears to",
+   "description": "Abraham and Abimelech swear an oath to each other at the place later called Beer-sheba."
+  },
+  {
+   "edge_id": "edge.gen_21.god_hears_ishmael",
+   "interaction_label": "rescues",
+   "description": "God hears the boy's voice where he lies and answers by calling to Hagar from heaven."
+  },
+  {
+   "edge_id": "edge.gen_21.god_opens_hagars_eyes",
+   "interaction_label": "provides for",
+   "description": "God opens Hagar's eyes so that she sees a well and can give the boy water."
+  },
+  {
+   "edge_id": "edge.gen_21.god_promises_ishmael_nation",
+   "interaction_label": "promises a nation to",
+   "description": "God says he will make the son of the slave woman a nation because he is Abraham's offspring."
+  },
+  {
+   "edge_id": "edge.gen_21.god_tells_abraham_to_listen",
+   "interaction_label": "commands",
+   "description": "God tells Abraham to listen to Sarah's voice because Isaac carries the line of his offspring."
+  },
+  {
+   "edge_id": "edge.gen_21.god_visits_sarah",
+   "interaction_label": "visits",
+   "description": "The LORD visits Sarah and does for her what he had promised."
+  },
+  {
+   "edge_id": "edge.gen_21.hagar_takes_wife_for_ishmael",
+   "interaction_label": "arranges a marriage for",
+   "description": "Hagar takes a wife for Ishmael from the land of Egypt."
+  },
+  {
+   "edge_id": "edge.gen_21.sarah_demands_expulsion",
+   "interaction_label": "commands",
+   "description": "Sarah tells Abraham to drive out the slave woman and her son so that Ishmael will not inherit with Isaac."
+  }
+ ]
 }

@@ -159,9 +159,472 @@
    "causal_explanation": "The servant's account of the oath, the prayer and the sign leads Laban and Bethuel to say the matter is from the LORD (24:50)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.betrothal_gifts_for_rebekah",
+   "canonical_name": "Betrothal gifts",
+   "phonetic_name": "kelei kesef u-kelei zahav u-vgadim",
+   "aliases": [
+    "jewels of silver and gold and garments"
+   ],
+   "etymology_meaning": "'Keli' means vessel or article; the list is silver articles, gold articles and clothing.",
+   "summary_bio": "Articles of silver and gold and garments that the servant gives Rebekah once her family consents. He also gives precious things to her brother and mother."
+  },
+  {
+   "entity_id": "artifact.gold_bracelets_of_rebekah",
+   "canonical_name": "Gold bracelets",
+   "phonetic_name": "tzemidim",
+   "aliases": [
+    "the two bracelets"
+   ],
+   "etymology_meaning": "'Tsamid' means a bracelet or band; the pair weighs ten shekels of gold.",
+   "summary_bio": "Two gold bracelets, together weighing ten gold shekels, put on Rebekah's hands by the servant at the well."
+  },
+  {
+   "entity_id": "artifact.gold_ring_of_rebekah",
+   "canonical_name": "Gold ring",
+   "phonetic_name": "nezem zahav",
+   "aliases": [
+    "the golden earring",
+    "the nose ring"
+   ],
+   "etymology_meaning": "'Nezem' is a ring worn in the nose or ear; the weight is a beka, about half a shekel.",
+   "summary_bio": "A gold ring of a beka's weight that the servant gives Rebekah at the well. Laban sees it on his sister's hands when he runs to the well."
+  },
+  {
+   "entity_id": "group.camels_of_abraham",
+   "canonical_name": "Abraham's camels",
+   "phonetic_name": "gemallim",
+   "aliases": [
+    "the ten camels"
+   ],
+   "etymology_meaning": "'Gamal' means camel.",
+   "summary_bio": "Ten camels taken from Abraham's herds to carry the servant and his master's goods to Nahor's city. Rebekah draws water for all of them, which is the sign the servant asked for."
+  },
+  {
+   "entity_id": "group.maids_of_rebekah",
+   "canonical_name": "Rebekah's maids",
+   "phonetic_name": "na'arotehah",
+   "aliases": [
+    "her young women",
+    "her damsels"
+   ],
+   "etymology_meaning": "'Na'arah' means young woman or female attendant.",
+   "summary_bio": "The female attendants who ride with Rebekah on camels when she leaves her family's house to follow Abraham's servant."
+  },
+  {
+   "entity_id": "group.men_with_the_servant",
+   "canonical_name": "The men with the servant",
+   "phonetic_name": "ha-anashim asher ito",
+   "aliases": [
+    "the men who were with him"
+   ],
+   "etymology_meaning": "'Anashim' means men.",
+   "summary_bio": "The companions who travel with Abraham's servant. Laban gives them water to wash their feet, and they eat, stay the night and return with the servant."
+  },
+  {
+   "entity_id": "group.women_of_nahors_city",
+   "canonical_name": "Women of Nahor's city",
+   "phonetic_name": "ha-sho'avot",
+   "aliases": [
+    "the daughters of the men of the city",
+    "the women who draw water"
+   ],
+   "etymology_meaning": "'Sho'avot' means women who draw water.",
+   "summary_bio": "The women of the city who come out to the well in the evening to draw water. The servant waits among them for the one who will answer his prayer."
+  },
+  {
+   "entity_id": "loc.city_of_nahor",
+   "canonical_name": "City of Nahor",
+   "phonetic_name": "ir Nachor",
+   "aliases": [],
+   "etymology_meaning": "The city named after Abraham's brother Nahor, where his household settled.",
+   "summary_bio": "The city in Aram-naharaim where Nahor's family lives and where Bethuel's house stands. The servant stops at its well on arriving in the evening."
+  },
+  {
+   "entity_id": "loc.house_of_bethuel",
+   "canonical_name": "House of Bethuel",
+   "phonetic_name": "beit Betu'el",
+   "aliases": [
+    "her father's house",
+    "her mother's house"
+   ],
+   "etymology_meaning": "'Beit' means house, here the household of Rebekah's father.",
+   "summary_bio": "The home of Bethuel, Laban and Rebekah in Nahor's city. Laban brings the servant here, where he tells his errand, the family consents, and Rebekah leaves with him."
+  },
+  {
+   "entity_id": "loc.mesopotamia",
+   "canonical_name": "Mesopotamia",
+   "phonetic_name": "Aram Naharayim",
+   "aliases": [
+    "Aram-naharaim",
+    "Aram of the two rivers"
+   ],
+   "etymology_meaning": "Aram-naharayim means 'Aram of the two rivers', the land between the Euphrates and its tributary or the Tigris.",
+   "summary_bio": "The northern region where Nahor's family lives. Abraham's servant travels there from Canaan to find a wife for Isaac from among Abraham's kin."
+  },
+  {
+   "entity_id": "loc.tent_of_sarah",
+   "canonical_name": "Sarah's tent",
+   "phonetic_name": "ohel Sarah",
+   "aliases": [
+    "the tent of Sarah his mother"
+   ],
+   "etymology_meaning": "'Ohel' means tent.",
+   "summary_bio": "The tent that had belonged to Sarah, Isaac's mother. Isaac brings Rebekah into it and marries her."
+  },
+  {
+   "entity_id": "loc.well_of_nahors_city",
+   "canonical_name": "Well outside Nahor's city",
+   "phonetic_name": "be'er ha-mayim",
+   "aliases": [
+    "the spring",
+    "the well of water"
+   ],
+   "etymology_meaning": "'Be'er ha-mayim' means well of water; v.13 calls it 'ayin', a spring.",
+   "summary_bio": "A well outside the city where the women come at evening to draw water. Here the servant prays, meets Rebekah, and gives her the first gifts."
+  },
+  {
+   "entity_id": "person.abrahams_chief_servant",
+   "canonical_name": "Abraham's chief servant",
+   "phonetic_name": "ha-eved",
+   "aliases": [
+    "the servant",
+    "the man",
+    "eldest servant of his house"
+   ],
+   "etymology_meaning": "Unnamed; the Hebrew 'eved' means servant or slave. Later Jewish tradition calls him Eliezer, but the chapter does not.",
+   "summary_bio": "The senior servant of Abraham's household, who rules over all that Abraham owns. Abraham makes him swear to fetch a wife for Isaac from his own kindred; he travels to Nahor's city with ten camels, prays at the well, and brings Rebekah home."
+  },
+  {
+   "entity_id": "person.rebekahs_mother",
+   "canonical_name": "Rebekah's mother",
+   "phonetic_name": "immah",
+   "aliases": [
+    "her mother"
+   ],
+   "etymology_meaning": "Unnamed; 'em' means mother. Her name is not given in Genesis; Milcah is the wife of Nahor, Bethuel's mother, not Rebekah's.",
+   "summary_bio": "The mother of Rebekah and Laban, wife of Bethuel. Rebekah runs to her house with the news, and she joins Laban in asking for ten days' delay and in receiving the servant's gifts."
+  },
+  {
+   "entity_id": "person.rebekahs_nurse",
+   "canonical_name": "Rebekah's nurse",
+   "phonetic_name": "meniktah",
+   "aliases": [
+    "her nurse"
+   ],
+   "etymology_meaning": "Unnamed here; Hebrew 'meneqet' means a wet-nurse or a woman who raised a child.",
+   "summary_bio": "The woman who nursed and raised Rebekah. She goes with her when her family sends her off to marry Isaac (24:59)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.age.1",
+   "label_key": "Age",
+   "label_value": "Old, advanced in days",
+   "evidence_explanation": "24:1 says Abraham was old and well advanced in days."
+  },
+  {
+   "component_id": "comp.abraham.divine_blessing.1",
+   "label_key": "Divine blessing",
+   "label_value": "Blessed in all things",
+   "evidence_explanation": "24:1 says the LORD had blessed Abraham in everything."
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.bound_by_oath_to.1",
+   "label_key": "Bound by oath to",
+   "label_value": "Abraham",
+   "evidence_explanation": "24:9 shows the servant swearing to Abraham with his hand under his thigh."
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.fasting.1",
+   "label_key": "Meal",
+   "label_value": "Refusing food until his errand is told",
+   "evidence_explanation": "24:33 has him say he will not eat until he has spoken his words; he eats in 24:54."
+  },
+  {
+   "component_id": "comp.abrahams_chief_servant.office.1",
+   "label_key": "Office",
+   "label_value": "Eldest servant, ruling the household",
+   "evidence_explanation": "24:2 calls him the eldest servant of his house who rules over all that Abraham has."
+  },
+  {
+   "component_id": "comp.betrothal_gifts_for_rebekah.holder.1",
+   "label_key": "Holder",
+   "label_value": "Rebekah",
+   "evidence_explanation": "24:53 has the servant give the silver, gold and garments to Rebekah."
+  },
+  {
+   "component_id": "comp.gold_bracelets_of_rebekah.holder.1",
+   "label_key": "Holder",
+   "label_value": "Rebekah",
+   "evidence_explanation": "24:22 shows the bracelets put on her hands."
+  },
+  {
+   "component_id": "comp.gold_ring_of_rebekah.holder.1",
+   "label_key": "Holder",
+   "label_value": "Rebekah",
+   "evidence_explanation": "24:22 and 24:30 show the ring on Rebekah."
+  },
+  {
+   "component_id": "comp.isaac.consolation.1",
+   "label_key": "Consolation",
+   "label_value": "Comforted after his mother's death",
+   "evidence_explanation": "24:67 says Isaac was comforted after his mother's death."
+  },
+  {
+   "component_id": "comp.isaac.whereabouts.1",
+   "label_key": "Whereabouts",
+   "label_value": "Living in the Negeb",
+   "evidence_explanation": "24:62 says Isaac was living in the land of the Negeb."
+  },
+  {
+   "component_id": "comp.rebekah.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "In her father's house",
+   "evidence_explanation": "24:28 has her run to her mother's house and 24:61 shows her leaving it."
+  },
+  {
+   "component_id": "comp.rebekah.dwelling.2",
+   "label_key": "Dwelling",
+   "label_value": "In Sarah's tent",
+   "evidence_explanation": "24:67 says Isaac brought her into the tent of Sarah his mother."
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.1",
+   "label_key": "Marital status",
+   "label_value": "Unmarried virgin",
+   "evidence_explanation": "24:16 says she was a virgin and no man had known her."
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.2",
+   "label_key": "Marital status",
+   "label_value": "Betrothed to Isaac",
+   "evidence_explanation": "24:51 has Laban and Bethuel say she may be wife to Isaac, and 24:53 has the gifts given."
+  },
+  {
+   "component_id": "comp.rebekah.marital_status.3",
+   "label_key": "Marital status",
+   "label_value": "Wife of Isaac",
+   "evidence_explanation": "24:67 says Isaac took Rebekah and she became his wife."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blessing_of_departing_bride",
+   "name": "Family blessing of a departing bride",
+   "ancient_near_east_context": "When a bride left her family's house for her husband's, her kin sent her off with words of good wishes. Genesis 24:60 is the clearest case in the Bible; it is spoken by her brother and mother, not by a father at the end of his life as in the patriarchal blessings (Gen 27).",
+   "rules_and_mechanics": [
+    "Her kin speak the blessing at the moment of sending her off (24:59-60).",
+    "It is addressed to the bride herself, who is called 'our sister'.",
+    "It wishes her fertility: that she become thousands of myriads.",
+    "It wishes her offspring victory: that they possess the gate of those who hate them."
+   ]
+  },
+  {
+   "system_id": "sys.bridal_veiling",
+   "name": "Veiling of the bride",
+   "ancient_near_east_context": "Genesis attests this one case of a woman covering herself with the tsa'if (veil) on first seeing her future husband. Veils carried other meanings elsewhere: in Gen 38:14-15 Tamar covers herself and Judah takes her for a prostitute, so a veil did not by itself signal a marriage.",
+   "rules_and_mechanics": [
+    "The bride covers herself with the veil (tsa'if) when she first sees the groom (24:65)."
+   ]
+  },
+  {
+   "system_id": "sys.bridewealth_gifts",
+   "name": "Bridewealth and betrothal gifts",
+   "ancient_near_east_context": "Marriage in the ancient Near East involved payment (Hebrew mohar) or gifts from the groom's family to the bride's family, and often jewellery and clothing for the bride herself.",
+   "rules_and_mechanics": [
+    "Gifts come from the groom's family, here through the envoy.",
+    "Part goes to the bride (jewellery, clothing) and part to her brother and mother.",
+    "A first gift can be given before the family agrees, as a token.",
+    "Receiving the gifts signals that the betrothal is accepted."
+   ]
+  },
+  {
+   "system_id": "sys.marriage_negotiation",
+   "name": "Arranged marriage negotiated with the bride's family",
+   "ancient_near_east_context": "In the ancient Near East a marriage was normally arranged between the families, with the father or brothers of the bride giving consent and the groom's side paying gifts. A trusted envoy could act for an absent groom, and the bride's own agreement was sometimes asked.",
+   "rules_and_mechanics": [
+    "The groom's family sends an envoy rather than the groom himself.",
+    "The envoy states his errand and his master's credentials before eating.",
+    "The bride's father and brother give or withhold consent.",
+    "Gifts are given to the bride and her family when consent is given.",
+    "The bride may be asked whether she will go."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_24.bridewealth_gifts",
+   "outcome_summary": "The servant brings out silver and gold articles and garments for Rebekah, and precious things for her brother and mother.",
+   "significance_note": "The gifts seal the betrothal and honor the family."
+  },
+  {
+   "instance_id": "inst.gen_24.brother_mother_blessing",
+   "outcome_summary": "Her family blesses Rebekah that she may become thousands of myriads and that her offspring possess the gate of their enemies.",
+   "significance_note": "The blessing echoes God's promise to Abraham (22:17) and marks Rebekah's entry into the covenant line."
+  },
+  {
+   "instance_id": "inst.gen_24.family_consent",
+   "outcome_summary": "Laban and Bethuel say the matter comes from the LORD and that Rebekah may go and be Isaac's wife.",
+   "significance_note": "The bride's family accepts the proposal and ties it to the LORD's will."
+  },
+  {
+   "instance_id": "inst.gen_24.guidance_acknowledged",
+   "outcome_summary": "The servant praises the LORD who has not left off his loyalty and faithfulness to Abraham and has led him to his master's kin.",
+   "significance_note": "Gives the narrative's own reading of the events: God's providence, not luck, brings Rebekah to the well."
+  },
+  {
+   "instance_id": "inst.gen_24.isaac_takes_rebekah",
+   "outcome_summary": "Isaac brings Rebekah into his mother Sarah's tent, takes her as wife, and loves her.",
+   "significance_note": "Completes the servant's errand and carries the covenant line forward; Isaac is comforted after Sarah's death."
+  },
+  {
+   "instance_id": "inst.gen_24.laban_hospitality",
+   "outcome_summary": "Laban gives the servant room in the house, straw and fodder for the camels, and water to wash the feet of the servant and his men.",
+   "significance_note": "The welcome shows the kinship ties the servant came to renew."
+  },
+  {
+   "instance_id": "inst.gen_24.proposal_to_family",
+   "outcome_summary": "The servant tells the family who his master is, what Abraham charged him with, how Rebekah answered his prayer, and asks if they will deal loyally with Abraham.",
+   "significance_note": "He presents the match as God's doing and asks them to agree."
+  },
+  {
+   "instance_id": "inst.gen_24.rebekah_asked",
+   "outcome_summary": "Her family asks Rebekah whether she will go with the man; she says 'I will go'.",
+   "significance_note": "Rebekah's own consent decides the matter after her family had asked her to delay."
+  },
+  {
+   "instance_id": "inst.gen_24.rebekah_veils",
+   "outcome_summary": "Seeing Isaac, Rebekah gets down from the camel and covers herself with her veil.",
+   "significance_note": "Shows her as a bride meeting her husband for the first time."
+  },
+  {
+   "instance_id": "inst.gen_24.ring_and_bracelets",
+   "outcome_summary": "After the camels drink, the servant gives Rebekah a gold ring and two gold bracelets.",
+   "significance_note": "The gifts show the family what kind of household the servant serves, and Laban's reaction to them draws him to the well."
+  },
+  {
+   "instance_id": "inst.gen_24.second_worship",
+   "outcome_summary": "On hearing their answer the servant bows to the ground before the LORD.",
+   "significance_note": "Marks the second time he answers God's guidance with worship."
+  },
+  {
+   "instance_id": "inst.gen_24.sign_requested_at_well",
+   "outcome_summary": "The servant asks that the young woman who offers him a drink and waters his camels be the one chosen for Isaac.",
+   "significance_note": "He lets Rebekah's kindness prove God's choice instead of picking her himself."
+  },
+  {
+   "instance_id": "inst.gen_24.thigh_oath",
+   "outcome_summary": "The servant puts his hand under Abraham's thigh and swears by the LORD not to take a wife for Isaac from the Canaanites, but from Abraham's own kindred.",
+   "significance_note": "The oath binds the servant to Abraham's covenant aim: Isaac must marry within the family and must not go back to the old homeland."
+  },
+  {
+   "instance_id": "inst.gen_24.worship_at_well",
+   "outcome_summary": "The servant bows low and worships the LORD at the well.",
+   "significance_note": "He treats the meeting as God's answer before he knows the family's response."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_24.abraham_charges_servant",
+   "interaction_label": "charges",
+   "description": "Abraham charges his servant to go to his own land and kindred and take a wife for Isaac."
+  },
+  {
+   "edge_id": "edge.gen_24.bethuel_consents",
+   "interaction_label": "consents to",
+   "description": "Bethuel joins Laban in saying the matter comes from the LORD."
+  },
+  {
+   "edge_id": "edge.gen_24.isaac_loves_rebekah",
+   "interaction_label": "loves",
+   "description": "Isaac loved Rebekah, and was comforted after his mother's death."
+  },
+  {
+   "edge_id": "edge.gen_24.isaac_marries_rebekah",
+   "interaction_label": "marries",
+   "description": "Isaac takes Rebekah into his mother's tent and she becomes his wife."
+  },
+  {
+   "edge_id": "edge.gen_24.laban_blesses_rebekah",
+   "interaction_label": "blesses",
+   "description": "Her family blesses Rebekah as they send her off."
+  },
+  {
+   "edge_id": "edge.gen_24.laban_consents",
+   "interaction_label": "consents to",
+   "description": "Laban says the matter comes from the LORD and gives his consent."
+  },
+  {
+   "edge_id": "edge.gen_24.laban_welcomes_servant",
+   "interaction_label": "welcomes",
+   "description": "Laban invites the servant into the house and says he has prepared room."
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_agrees_to_go",
+   "interaction_label": "agrees to go with",
+   "description": "Asked if she will go with the man, Rebekah answers 'I will go'."
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_tells_mother",
+   "interaction_label": "reports to",
+   "description": "Rebekah runs to her mother's house and tells what happened."
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_waters_camels",
+   "interaction_label": "waters",
+   "description": "Rebekah draws water until all the camels have drunk."
+  },
+  {
+   "edge_id": "edge.gen_24.rebekah_waters_servant",
+   "interaction_label": "gives a drink to",
+   "description": "Rebekah lowers her jar and gives the servant a drink."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_blesses_yhwh",
+   "interaction_label": "blesses",
+   "description": "The servant says 'Blessed be the LORD, God of my master Abraham'."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gifts_laban",
+   "interaction_label": "gives gifts to",
+   "description": "The servant gives precious things to Laban and Rebekah's mother."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gifts_rebekah",
+   "interaction_label": "gives gifts to",
+   "description": "The servant gives Rebekah silver and gold articles and garments."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_gives_jewelry",
+   "interaction_label": "gives a gift to",
+   "description": "The servant gives Rebekah a gold ring and two gold bracelets."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_prays_to_yhwh",
+   "interaction_label": "prays to",
+   "description": "The servant asks the LORD to show kindness to Abraham by granting success at the well."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_proposes_to_laban",
+   "interaction_label": "asks for Rebekah's hand from",
+   "description": "The servant asks Laban and Bethuel to say whether they will deal loyally with Abraham."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_reports_to_isaac",
+   "interaction_label": "reports to",
+   "description": "The servant tells Isaac everything he has done."
+  },
+  {
+   "edge_id": "edge.gen_24.servant_swears_to_abraham",
+   "interaction_label": "swears to",
+   "description": "The servant puts his hand under Abraham's thigh and swears to carry out the charge."
+  },
+  {
+   "edge_id": "edge.gen_24.yhwh_leads_servant",
+   "interaction_label": "leads",
+   "description": "The LORD led the servant on the way to the house of his master's kin."
+  }
+ ]
 }

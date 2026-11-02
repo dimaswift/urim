@@ -81,6 +81,786 @@
    ],
    "source": null
   },
+  "closure:comp.abraham.dwelling.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.divine_approval.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.dwelling.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "Closes comp.abraham.dwelling.5 (Gerar, GEN.20.1) at 22.19. Between 21:34 and 22:19 the text says only that he sojourned in the Philistines' land, so the Gerar state is read as holding until the return; 21:33 already has a tamarisk planted in Beersheba, so the earlier dwelling.5 may have been closed earlier by another chapter. Check against GEN.21."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] No change needed here; a GEN.21 revision could close Gerar at 21:31-34. (GEN.22.19: \"and Abraham dwelt at Beer-sheba\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.trial.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.binding.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.moriah_mount.name.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.reumah.status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.yhwh.oath_to_abraham.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The oath is spoken by the angel but sworn in the name of the LORD ('by myself I have sworn, utterance of the LORD', v16). Recorded on deity.yhwh as an inferred state, a standing promise that holds from v16 onward."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] Optionally move the standing oath to a TRAIT on person.abraham (e.g. SWORN_BLESSING), in line with GEN.13's offspring_promise. (GEN.22.16: \"By myself have I sworn, saith the LORD\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_binds_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_commands_servants": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_loads_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_names_place": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_offers_ram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.abraham_raises_knife_to_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.angel_blesses_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.angel_stops_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.angel_swears_to_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.bethuel_fathers_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] Optionally add FATHERS edges for Kemuel to Aram and Nahor to his sons, as the earlier genealogies do. (GEN.22.21: \"Kemuel the father of Aram\"; GEN.22.23: \"these eight Milcah did bear to Nahor\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.god_commands_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.isaac_questions_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_22.yhwh_provides_ram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] Optionally say in the description that the provision is implied by 22:8 and 22:14 rather than stated in 22:13. (GEN.22.13: \"behold behind him a ram caught in a thicket by his horns\"; GEN.22.14: \"Jehovah-jireh\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.altar_of_moriah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.ram_of_moriah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The ram is made an entity because the plot turns on it (substitution). The donkey (v3, v5) and the fire (v6) are left out as incidental."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.sacrificial_knife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.wood_of_burnt_offering": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.two_servants_of_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:17:48+00:00",
+   "agent_notes": [
+    "'Two of his young men' (v3, v5, v19) are unnamed. Kept apart from person.servant_of_abraham (GEN.18, the household steward), because nothing in the text links them."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[should_fix] In the summary_bio replace 'at the foot of the mountain' with 'where Abraham first sees the place from afar' (or simply 'behind'), so it states only what 22:4-5 says. (GEN.22.4-5: \"saw the place afar off. And Abraham said unto his young men, Abide ye here with the ass\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:18:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.moriah_mount": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The Hebrew has 'the land of the Moriah' (v2) and 'one of the mountains' to be shown later (v2); the exact mountain is not named in this chapter. The registry's Moriah_Mount (site of Solomon's temple, 2 Chr 3:1) is used as the identification of the place, a later tradition rather than something the chapter says. The ram-offering site (v14, 'the mount of the LORD') is treated as the same place."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.aram.gen_22_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "Aram, son of Kemuel, is a different person from person.aram (GEN.10, son of Shem); the registry's suffix keeps them apart. Likewise Uz here is the firstborn of Nahor, not person.uz of GEN.10."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.buz.gen_22_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.chesed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gaham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hazo": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jidlaph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.kemuel.gen_22_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.maacah.gen_22_24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The registry's Maacah is a male son of Nahor by Reumah (v24), and the id keeps the registry's gen_22_24 suffix to separate him from later Maacahs."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] Say 'the last-named son' instead of 'the youngest-named son'. (GEN.22.24: \"she bare also Tebah, and Gaham, and Thahash, and Maachah\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.pildash": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.reumah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tahash": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tebah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.uz.gen_22_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_22.abraham_and_isaac_climb": {
    "status": "approved",
    "produced_by": {
@@ -309,6 +1089,459 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_22.abraham_and_isaac_climb": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.abraham_sees_the_place": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:17:48+00:00",
+   "agent_notes": [
+    "On the road, Moriah seen from afar. loc.moriah_mount is a MENTIONED participant (the place seen) but not the event location, since Abraham is not yet there. No place given for events 3-4; the mountain location starts at the climb (22:6)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[should_fix] Add loc.moriah_mount as a participant of evt.gen_22.abraham_sees_the_place with role MENTIONED (the place seen from afar); keep location_entity_id empty, since Abraham is not yet there. (GEN.22.4: \"Abraham lifted up his eyes, and saw the place afar off\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:18:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.abraham_sets_out": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.altar_and_binding": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.angel_stops_sacrifice": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.god_tests_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The text does not say where Abraham is when God speaks (21:33-34 has him sojourning in the Philistines' land; 22:19 has him return to Beersheba). No place is given for this event or for the departure; left out rather than guessed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.news_of_milcahs_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "The messenger who tells Abraham is unnamed ('it was told') and not modelled as an entity. Milcah, Nahor, Bethuel and Rebekah are MENTIONED: absent from the scene, named in the report. The place carries over from the return to Beersheba (v19)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.oath_and_blessing": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.ram_offered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.return_to_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": "[consider] Optionally add an agent note that Isaac's presence on the return is inferred from 22:5, not stated in 22:19. (GEN.22.19: \"So Abraham returned unto his young men, and they rose up and went together to Beer-sheba\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_22.servants_left_behind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.abraham_tested": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.altar_built": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.blessing_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.go_to_moriah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.isaac_bound_for_offering": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.isaac_spared": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.oath_by_himself": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.place_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.ram_burnt_offering": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_22.ram_offered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_testing": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "Defined here, new system: God deliberately puts a person to the proof (v1 nissah). Generalizes to Deut 8:2, Job, Judg 2:22."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.substitutionary_offering": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T15:15:16+00:00",
+   "agent_notes": [
+    "Defined here, new system: an animal offered in place of a person who is spared (v13 'in place of his son'). Kept distinct from sys.burnt_offering, which the ram offering also instantiates."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T15:17:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -419,6 +1652,132 @@
     "run": "main"
    },
    "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[entity:spirit.angel_of_yhwh] Reused from GEN.16. The angel speaks in the first person as God ('from me', 'by myself I swear', vv12, 16), so the line between the angel and deity.yhwh is blurred in the text. Both are recorded: the angel as the speaker and agent of events 7 and 9; YHWH as the one who tests (v1), provides (v8, 14) and is the subject of the oath formula.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:15:16+00:00"
+  },
+  {
+   "note": "[entity:person.bethuel] Bethuel and Rebekah are already in the corpus from later chapters (GEN.25), but the registry shows their first mention here (22:22-23). They are reused as they are, with entity_texts left unchanged.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:15:16+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_22.god_tests_abraham] The text does not say where Abraham is when God speaks (21:33-34 has him sojourning in the Philistines' land; 22:19 has him return to Beersheba). No place is given for this event or for the departure; left out rather than guessed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:loc.moriah_mount] The Hebrew has 'the land of the Moriah' (v2) and 'one of the mountains' to be shown later (v2); the exact mountain is not named in this chapter. The registry's Moriah_Mount (site of Solomon's temple, 2 Chr 3:1) is used as the identification of the place, a later tradition rather than something the chapter says. The ram-offering site (v14, 'the mount of the LORD') is treated as the same place.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:spirit.angel_of_yhwh] Reused from GEN.16. The angel speaks in the first person as God ('from me', 'by myself I swear', vv12, 16), so the line between the angel and deity.yhwh is blurred in the text. Both are recorded: the angel as the speaker and agent of events 7 and 9; YHWH as the one who tests (v1), provides (v8, 14) and is the subject of the oath formula.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:artifact.ram_of_moriah] The ram is made an entity because the plot turns on it (substitution). The donkey (v3, v5) and the fire (v6) are left out as incidental.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[system:sys.divine_testing] Defined here, new system: God deliberately puts a person to the proof (v1 nissah). Generalizes to Deut 8:2, Job, Judg 2:22.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[system:sys.substitutionary_offering] Defined here, new system: an animal offered in place of a person who is spared (v13 'in place of his son'). Kept distinct from sys.burnt_offering, which the ram offering also instantiates.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[component:comp.yhwh.oath_to_abraham.1] The oath is spoken by the angel but sworn in the name of the LORD ('by myself I have sworn, utterance of the LORD', v16). Recorded on deity.yhwh as an inferred state, a standing promise that holds from v16 onward.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.dwelling.6] Closes comp.abraham.dwelling.5 (Gerar, GEN.20.1) at 22.19. Between 21:34 and 22:19 the text says only that he sojourned in the Philistines' land, so the Gerar state is read as holding until the return; 21:33 already has a tamarisk planted in Beersheba, so the earlier dwelling.5 may have been closed earlier by another chapter. Check against GEN.21.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_22.news_of_milcahs_sons] The messenger who tells Abraham is unnamed ('it was told') and not modelled as an entity. Milcah, Nahor, Bethuel and Rebekah are MENTIONED: absent from the scene, named in the report. The place carries over from the return to Beersheba (v19).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:person.maacah.gen_22_24] The registry's Maacah is a male son of Nahor by Reumah (v24), and the id keeps the registry's gen_22_24 suffix to separate him from later Maacahs.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:person.aram.gen_22_21] Aram, son of Kemuel, is a different person from person.aram (GEN.10, son of Shem); the registry's suffix keeps them apart. Likewise Uz here is the firstborn of Nahor, not person.uz of GEN.10.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
+  },
+  {
+   "note": "[entity:person.bethuel] Bethuel and Rebekah are already in the corpus from later chapters (GEN.25), but the registry shows their first mention here (22:22-23). They are reused as they are, with entity_texts left unchanged.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T15:17:48+00:00"
   }
  ]
 }

@@ -1,12 +1,77 @@
 {
  "chapter_ref": "GEN.31",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.cairn_of_galeed",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "גַּל",
+   "transliterated_name": "gal",
+   "first_mention_verse": "GEN.31.46"
+  },
+  {
+   "entity_id": "artifact.pillar_of_galeed",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מַצֵּבָה",
+   "transliterated_name": "maṣṣēbâ",
+   "first_mention_verse": "GEN.31.45"
+  },
+  {
+   "entity_id": "artifact.teraphim",
+   "tipnr_id": "Teraphim@Gen.31.19-Zec",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "תְּרָפִים",
+   "transliterated_name": "terāphîm",
+   "first_mention_verse": "GEN.31.19"
+  },
+  {
+   "entity_id": "group.camels_of_jacob",
+   "entity_type": "GROUP",
+   "source_script_name": "הַגְּמַלִּים",
+   "transliterated_name": "gĕmallîm",
+   "first_mention_verse": "GEN.31.17"
+  },
+  {
+   "entity_id": "group.kinsmen_of_jacob",
+   "entity_type": "GROUP",
+   "source_script_name": "אֶחָיו",
+   "transliterated_name": "ʾeḥāyw",
+   "first_mention_verse": "GEN.31.46"
+  },
+  {
+   "entity_id": "group.kinsmen_of_laban",
+   "entity_type": "GROUP",
+   "source_script_name": "אֶחָיו",
+   "transliterated_name": "ʾeḥāyw",
+   "first_mention_verse": "GEN.31.23"
+  },
+  {
+   "entity_id": "loc.galeed",
+   "entity_type": "LOCATION",
+   "source_script_name": "גַּלְעֵד",
+   "transliterated_name": "Galʿēd",
+   "first_mention_verse": "GEN.31.47"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.conditional_curse",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.household_gods",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.witness_monument",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_31.laban_sons_complain",
    "verse_start": "GEN.31.1",
    "verse_end": "GEN.31.2",
+   "location_entity_id": "loc.paddan",
    "time": {
     "anchor": "evt.gen_30.joseph_born",
     "anchor_point": "END",
@@ -24,12 +89,26 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.yhwh_commands_return",
    "verse_start": "GEN.31.3",
    "verse_end": "GEN.31.3",
+   "location_entity_id": "loc.paddan",
    "time": {
     "anchor": "evt.gen_31.laban_sons_complain",
     "anchor_point": "END",
@@ -43,12 +122,22 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.jacob_calls_wives",
    "verse_start": "GEN.31.4",
    "verse_end": "GEN.31.16",
+   "location_entity_id": "loc.paddan",
    "time": {
     "anchor": "evt.gen_31.yhwh_commands_return",
     "anchor_point": "END",
@@ -66,12 +155,46 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.flock_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.jacob_flees",
    "verse_start": "GEN.31.17",
    "verse_end": "GEN.31.21",
+   "location_entity_id": "loc.paddan",
    "time": {
     "anchor": "evt.gen_31.jacob_calls_wives",
     "anchor_point": "END",
@@ -89,12 +212,62 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.teraphim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.camels_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.flock_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.euphrates",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gilead",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.laban_told",
    "verse_start": "GEN.31.22",
    "verse_end": "GEN.31.22",
+   "location_entity_id": "loc.paddan",
    "time": {
     "anchor": "evt.gen_31.jacob_flees",
     "anchor_point": "START",
@@ -112,7 +285,16 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.laban_pursues",
@@ -131,7 +313,24 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.gilead",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.god_warns_laban",
@@ -155,12 +354,26 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.laban_overtakes",
    "verse_start": "GEN.31.25",
    "verse_end": "GEN.31.25",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.laban_pursues",
     "anchor_point": "END",
@@ -174,12 +387,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.laban_accuses",
    "verse_start": "GEN.31.26",
    "verse_end": "GEN.31.30",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.laban_overtakes",
     "anchor_point": "END",
@@ -193,12 +420,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.teraphim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.jacob_answers_laban",
    "verse_start": "GEN.31.31",
    "verse_end": "GEN.31.32",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.laban_accuses",
     "anchor_point": "END",
@@ -212,12 +465,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.teraphim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kinsmen_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.tents_searched",
    "verse_start": "GEN.31.33",
    "verse_end": "GEN.31.35",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.jacob_answers_laban",
     "anchor_point": "END",
@@ -231,12 +510,42 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.teraphim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.jacob_rebukes_laban",
    "verse_start": "GEN.31.36",
    "verse_end": "GEN.31.42",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.tents_searched",
     "anchor_point": "END",
@@ -250,12 +559,54 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.flock_of_laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kinsmen_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.covenant_proposed",
    "verse_start": "GEN.31.43",
    "verse_end": "GEN.31.44",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.jacob_rebukes_laban",
     "anchor_point": "END",
@@ -269,12 +620,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.covenant_made",
    "verse_start": "GEN.31.45",
    "verse_end": "GEN.31.53",
+   "location_entity_id": "loc.galeed",
    "time": {
     "anchor": "evt.gen_31.covenant_proposed",
     "anchor_point": "END",
@@ -288,12 +661,62 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.cairn_of_galeed",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.pillar_of_galeed",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kinsmen_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_31.covenant_feast",
    "verse_start": "GEN.31.54",
    "verse_end": "GEN.31.54",
+   "location_entity_id": "loc.gilead",
    "time": {
     "anchor": "evt.gen_31.covenant_made",
     "anchor_point": "END",
@@ -307,7 +730,20 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kinsmen_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -382,8 +818,444 @@
    "confidence": 0.9
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.cairn_of_galeed.status.1",
+   "entity_id": "artifact.cairn_of_galeed",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "WITNESS_OF_COVENANT",
+   "acquired_at_verse": "GEN.31.46",
+   "acquired_in_event": "evt.gen_31.covenant_made"
+  },
+  {
+   "component_id": "comp.galeed.name.1",
+   "entity_id": "loc.galeed",
+   "category": "TRAIT",
+   "component_key": "name",
+   "value_code": "GALEED",
+   "acquired_at_verse": "GEN.31.47",
+   "acquired_in_event": "evt.gen_31.covenant_made"
+  },
+  {
+   "component_id": "comp.israel.anger_at_laban.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "anger_at_laban",
+   "value_code": "ANGRY_AT_LABAN",
+   "acquired_at_verse": "GEN.31.36",
+   "acquired_in_event": "evt.gen_31.jacob_rebukes_laban",
+   "expired_at_verse": "GEN.31.45",
+   "expired_in_event": "evt.gen_31.covenant_made"
+  },
+  {
+   "component_id": "comp.israel.covenant_with_laban.1",
+   "entity_id": "person.israel",
+   "category": "ALLEGIANCE",
+   "component_key": "covenant_with_laban",
+   "target_entity_id": "person.laban",
+   "acquired_at_verse": "GEN.31.52",
+   "acquired_in_event": "evt.gen_31.covenant_made"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.3",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.gilead",
+   "supersedes_component_id": "comp.israel.whereabouts.2",
+   "acquired_at_verse": "GEN.31.25",
+   "acquired_in_event": "evt.gen_31.laban_overtakes"
+  },
+  {
+   "component_id": "comp.laban.attitude.1",
+   "entity_id": "person.laban",
+   "category": "PSYCH_STATE",
+   "component_key": "attitude",
+   "value_code": "COOLED_TOWARD_JACOB",
+   "acquired_at_verse": "GEN.31.2",
+   "acquired_in_event": "evt.gen_31.laban_sons_complain",
+   "expired_at_verse": "GEN.31.44",
+   "expired_in_event": "evt.gen_31.covenant_proposed"
+  },
+  {
+   "component_id": "comp.pillar_of_galeed.status.1",
+   "entity_id": "artifact.pillar_of_galeed",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "WITNESS_OF_COVENANT",
+   "acquired_at_verse": "GEN.31.45",
+   "acquired_in_event": "evt.gen_31.covenant_made"
+  },
+  {
+   "component_id": "comp.teraphim.holder.1",
+   "entity_id": "artifact.teraphim",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.rachel",
+   "acquired_at_verse": "GEN.31.19",
+   "acquired_in_event": "evt.gen_31.jacob_flees"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.serves.1",
+   "expired_at_verse": "GEN.31.21",
+   "expired_in_event": "evt.gen_31.jacob_flees"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.2",
+   "expired_at_verse": "GEN.31.25",
+   "expired_in_event": "evt.gen_31.laban_overtakes"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_31.angel_dream_recalled",
+   "system_id": "sys.revelatory_dream",
+   "event_id": "evt.gen_31.jacob_calls_wives",
+   "verse_start": "GEN.31.10",
+   "verse_end": "GEN.31.13",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "recalled",
+    "flock",
+    "instruction"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.appeal_to_gods",
+   "system_id": "sys.appeal_for_divine_judgment",
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.49",
+   "verse_end": "GEN.31.53",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.galeed",
+   "tags": [
+    "mizpah",
+    "witness",
+    "judge_between"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.covenant_meal",
+   "system_id": "sys.covenant_feast",
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.46",
+   "verse_end": "GEN.31.46",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "group.kinsmen_of_jacob",
+    "group.kinsmen_of_laban"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.galeed",
+   "tags": [
+    "meal_at_cairn"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.covenant_with_laban",
+   "system_id": "sys.covenant_alliance",
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.45",
+   "verse_end": "GEN.31.52",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [
+    "artifact.pillar_of_galeed",
+    "artifact.cairn_of_galeed"
+   ],
+   "location_entity_id": "loc.galeed",
+   "tags": [
+    "boundary",
+    "non_aggression",
+    "protection_of_daughters"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.hill_sacrifice",
+   "system_id": "sys.sacrifice_offering",
+   "event_id": "evt.gen_31.covenant_feast",
+   "verse_start": "GEN.31.54",
+   "verse_end": "GEN.31.54",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gilead",
+   "tags": [
+    "sacrificial_meal",
+    "night_stay"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.jacob_oath",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.53",
+   "verse_end": "GEN.31.53",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.laban"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.galeed",
+   "tags": [
+    "oath_by_fear_of_isaac"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.jacobs_curse",
+   "system_id": "sys.conditional_curse",
+   "event_id": "evt.gen_31.jacob_answers_laban",
+   "verse_start": "GEN.31.32",
+   "verse_end": "GEN.31.32",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.rachel"
+   ],
+   "artifact_entity_ids": [
+    "artifact.teraphim"
+   ],
+   "location_entity_id": "loc.gilead",
+   "tags": [
+    "death_penalty",
+    "unwitting"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.laban_dream_warning",
+   "system_id": "sys.revelatory_dream",
+   "event_id": "evt.gen_31.god_warns_laban",
+   "verse_start": "GEN.31.24",
+   "verse_end": "GEN.31.24",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.laban"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "warning",
+    "night"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.pillar_and_cairn",
+   "system_id": "sys.witness_monument",
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.45",
+   "verse_end": "GEN.31.52",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.laban"
+   ],
+   "artifact_entity_ids": [
+    "artifact.pillar_of_galeed",
+    "artifact.cairn_of_galeed"
+   ],
+   "location_entity_id": "loc.galeed",
+   "tags": [
+    "pillar",
+    "heap",
+    "boundary_marker"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.return_command",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_31.yhwh_commands_return",
+   "verse_start": "GEN.31.3",
+   "verse_end": "GEN.31.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.paddan",
+   "tags": [
+    "return",
+    "promise_of_presence"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.teraphim_hidden",
+   "system_id": "sys.household_gods",
+   "event_id": "evt.gen_31.tents_searched",
+   "verse_start": "GEN.31.34",
+   "verse_end": "GEN.31.35",
+   "initiator_entity_id": "person.rachel",
+   "target_entity_ids": [
+    "person.laban"
+   ],
+   "artifact_entity_ids": [
+    "artifact.teraphim"
+   ],
+   "location_entity_id": "loc.gilead",
+   "tags": [
+    "concealment",
+    "search"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_31.teraphim_stolen",
+   "system_id": "sys.household_gods",
+   "event_id": "evt.gen_31.jacob_flees",
+   "verse_start": "GEN.31.19",
+   "verse_end": "GEN.31.19",
+   "initiator_entity_id": "person.rachel",
+   "target_entity_ids": [
+    "person.laban"
+   ],
+   "artifact_entity_ids": [
+    "artifact.teraphim"
+   ],
+   "location_entity_id": "loc.paddan",
+   "tags": [
+    "theft",
+    "household_gods"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_31.israel_curses_thief",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.31.32",
+   "event_id": "evt.gen_31.jacob_answers_laban"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_deceives_laban",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.31.20",
+   "event_id": "evt.gen_31.jacob_flees"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_rebukes_laban",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.31.36",
+   "event_id": "evt.gen_31.jacob_rebukes_laban"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_sacrifices_to_yhwh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "SACRIFICES_TO",
+   "verse_id": "GEN.31.54",
+   "event_id": "evt.gen_31.covenant_feast"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_summons_leah",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.leah",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.31.4",
+   "event_id": "evt.gen_31.jacob_calls_wives"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_summons_rachel",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.31.4",
+   "event_id": "evt.gen_31.jacob_calls_wives"
+  },
+  {
+   "edge_id": "edge.gen_31.israel_swears_to_laban",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.31.53",
+   "event_id": "evt.gen_31.covenant_made"
+  },
+  {
+   "edge_id": "edge.gen_31.laban_accuses_israel",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.31.30",
+   "event_id": "evt.gen_31.laban_accuses"
+  },
+  {
+   "edge_id": "edge.gen_31.laban_overtakes_israel",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "OVERTAKES",
+   "verse_id": "GEN.31.25",
+   "event_id": "evt.gen_31.laban_overtakes"
+  },
+  {
+   "edge_id": "edge.gen_31.laban_proposes_covenant",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PROPOSES_COVENANT_WITH",
+   "verse_id": "GEN.31.44",
+   "event_id": "evt.gen_31.covenant_proposed"
+  },
+  {
+   "edge_id": "edge.gen_31.laban_pursues_israel",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PURSUES",
+   "verse_id": "GEN.31.23",
+   "event_id": "evt.gen_31.laban_pursues"
+  },
+  {
+   "edge_id": "edge.gen_31.rachel_deceives_laban",
+   "source_entity_id": "person.rachel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.31.35",
+   "event_id": "evt.gen_31.tents_searched"
+  },
+  {
+   "edge_id": "edge.gen_31.rachel_steals_teraphim",
+   "source_entity_id": "person.rachel",
+   "target_entity_id": "artifact.teraphim",
+   "interaction_type": "STEALS",
+   "verse_id": "GEN.31.19",
+   "event_id": "evt.gen_31.jacob_flees"
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_commands_israel",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.31.3",
+   "event_id": "evt.gen_31.yhwh_commands_return"
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_rebukes_laban",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.laban",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.31.42",
+   "event_id": "evt.gen_31.jacob_rebukes_laban"
+  },
+  {
+   "edge_id": "edge.gen_31.yhwh_warns_laban",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.laban",
+   "interaction_type": "WARNS",
+   "verse_id": "GEN.31.24",
+   "event_id": "evt.gen_31.god_warns_laban"
+  }
+ ]
 }
