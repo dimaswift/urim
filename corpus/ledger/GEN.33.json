@@ -2,7 +2,7 @@
  "chapter_ref": "GEN.33",
  "items": {
   "causal:caus.gen_28.promise_at_bethel.jacob_arrives_shechem": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-chronologist@5",
@@ -10,11 +10,18 @@
    },
    "produced_at": "2026-11-02T14:15:52+00:00",
    "agent_notes": [],
-   "history": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
    "source": null
   },
   "causal:caus.gen_32.jacob_prays.esau_embraces": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-chronologist@5",
@@ -27,6 +34,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:15:06+00:00",
      "note": "[should_fix] Rewrite the causal_explanation as a causal claim grounded in the text: Jacob prayed to be delivered from Esau (32:12), and at the meeting he credits God's grace (33:11) for Esau's friendly welcome. If you cannot ground it that way, drop the link. (GEN.32.12 (KJV 32:11): \"Deliver me, I pray thee, from the hand of my brother, from the hand of Esau\"; GEN.33.11: \"because God hath dealt graciously with me\"; GEN.33.10: \"thou wast pleased with me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:34+00:00",
+     "note": "[consider] Consider citing the plea as 32:12 (KJV 32:11) so the reference matches the corpus's verse ids. (GEN.32.12 (KJV 32:11): \"Deliver me, I pray thee, from the hand of my brother, from the hand of Esau\")",
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -210,7 +223,7 @@
    "source": null
   },
   "event:evt.gen_33.jacob_arrives_shechem": {
-   "status": "changes_requested",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-chronologist@5",
@@ -223,6 +236,18 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:15:06+00:00",
      "note": "[should_fix] Add a causal edge evt.gen_28.promise_at_bethel → evt.gen_33.jacob_arrives_shechem of type FULFILLS_PROPHECY, with an explanation quoting 28:15 ('bring thee again into this land') and 33:18 ('came safe ... in the land of Canaan ... from Paddan-aram'). (GEN.33.18: \"Jacob came safe (shalem) to the city of Shechem, which is in the land of Canaan, when he came from Paddan-aram\"; GEN.28.15: \"I will keep thee ... and will bring thee again into this land\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "draft",
+     "at": "2026-11-02T14:16:02+00:00",
+     "note": "The agent kept it unchanged after the request; back to the critic.",
+     "by": "urim run"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:34+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],

@@ -693,22 +693,6 @@
  "component_closures": [],
  "system_instances": [
   {
-   "instance_id": "inst.gen_47.burial_requested",
-   "system_id": "sys.burial_in_family_tomb",
-   "event_id": "evt.gen_47.jacob_makes_joseph_swear",
-   "verse_start": "GEN.47.29",
-   "verse_end": "GEN.47.30",
-   "initiator_entity_id": "person.israel",
-   "target_entity_ids": [
-    "person.joseph"
-   ],
-   "artifact_entity_ids": [],
-   "tags": [
-    "with_the_fathers",
-    "not_in_egypt"
-   ]
-  },
-  {
    "instance_id": "inst.gen_47.cattle_for_bread",
    "system_id": "sys.famine_grain_sale",
    "event_id": "evt.gen_47.cattle_for_bread",

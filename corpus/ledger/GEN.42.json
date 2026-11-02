@@ -1848,7 +1848,7 @@
    "source": null
   },
   "verse.en:GEN.42.31": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-philologist@1",
@@ -1864,12 +1864,18 @@
      "at": "2026-11-02T14:13:33+00:00",
      "note": "[should_fix] Say that kenim is the brothers' own word from 42:11, which Joseph turned into his condition (42:19, 33-34), and that they now repeat it to Jacob. Keep the rest of the commentary. (GEN.42.11: \"kenim anachnu\" (the brothers: \"we are true men\"); GEN.42.19: \"im kenim attem\" (Joseph: \"If ye be true men\"))",
      "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:27+00:00",
+     "note": "[consider] Give the root as כון and render Onkelos's כֵּיוָנֵי as 'true/honest' rather than 'upright'. (GEN.42.31: כֵּנִים (lemma כֵּן, H3651A); Onkelos: \"כֵּיוָנֵי אֲנָחְנָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
    "source": null
   },
   "verse.en:GEN.42.32": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-philologist@1",
@@ -1886,6 +1892,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:13:33+00:00",
      "note": "[should_fix] Gloss pos 1 as 'two' (or 'twelve: two') and pos 2 as 'ten', so each gloss matches its own word. (GEN.42.32: שְׁנֵים עָשָׂר (pos 1 שְׁנֵים 'two', pos 2 עָשָׂר 'ten'; STEPBible '[are] two [plus]' / 'ten'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:27+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -2014,7 +2026,7 @@
    "source": null
   },
   "verse.en:GEN.42.4": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-philologist@1",
@@ -2029,6 +2041,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:13:33+00:00",
      "note": "[should_fix] Gloss pos 1 as 'and [obj]', as you do for the same particle in 42:20, 33 and 36. (GEN.42.4: וְאֶת־בִּנְיָמִין (pos 1 וְאֶת, STEPBible 'and <obj.>'; pos 2 בִּנְיָמִין 'Benjamin'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:16:27+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],

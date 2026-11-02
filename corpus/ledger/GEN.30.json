@@ -614,7 +614,7 @@
    "source": null
   },
   "entity:artifact.peeled_rods": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -627,6 +627,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:14:23+00:00",
      "note": "[should_fix] In summary_bio, change 'Jacob's flocks bear striped, speckled and spotted young' to 'the flock he tends for Laban bears striped, speckled and spotted young'. (GEN.30.36: \"Jacob fed the rest of Laban's flocks\"; GEN.30.39: \"the flocks conceived before the rods, and brought forth cattle ringstraked, speckled, and spotted\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:15:56+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -1369,7 +1375,7 @@
    "source": null
   },
   "event_links:evt.gen_30.laban_wage_terms": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
@@ -1384,6 +1390,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:14:23+00:00",
      "note": "[should_fix] Add group.flock_of_laban to evt.gen_30.laban_wage_terms as MENTIONED, or as PATIENT if you read it as the object of the agreement. (GEN.30.29-32: \"how thy cattle was with me ... I will again feed and keep thy flock: I will pass through all thy flock to day\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:15:56+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],

@@ -184,15 +184,15 @@
    "source": null
   },
   "event:evt.gen_22.god_tests_abraham": {
-   "status": "changes_requested",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-chronologist@5",
     "run": "main"
    },
-   "produced_at": "2026-11-02T14:14:18+00:00",
+   "produced_at": "2026-11-02T14:16:18+00:00",
    "agent_notes": [
-    "The text says only 'after these things'. Isaac's age is not given: Targum Pseudo-Jonathan has him 36–37, and the other chapters' anchors (Isaac born c. 2066 BCE, Gen 21 events c. 2064 BCE) leave a gap. I anchored on the end of the last Gen 21 event with an offset of 5 years and a 5-year margin at MACRO_ERA; the real gap could be 10–30 years. Check against later events that depend on Isaac's age (e.g. Sarah's death, Gen 23, when Isaac is c. 37 if Sarah was 127 at his age 37).",
+    "The text says only 'after these things'. Isaac's age is not given: Targum Pseudo-Jonathan has him 36–37, and the other chapters' anchors (Isaac born c. 2066 BCE, Gen 21 events c. 2064 BCE) leave a gap. Following the reviewer request, I anchored on the START of Isaac's birth with offset 25 years and margin 12 years (Isaac c. 13–37), bounded below by Ishmael's departure and above by Sarah's death in Gen 23 (Isaac 37). The centre is a guess; Pseudo-Jonathan's 36 lies near the upper end.",
     "Divine speeches: 22:1–2 (command, followed by 22:3 obedience; a TRIGGERS link, not FULFILLS_PROPHECY), 22:8 (Abraham's word, fulfilled at 22:13), 22:11–12 and 22:15–18 (angel's words; the promise of 22:17–18 has no fulfilment in this chapter). The place 'which I will tell you' (22:2) is reached at 22:9 and I wrote no prophecy link for it since the text shows no separate telling."
    ],
    "history": [
@@ -200,6 +200,12 @@
      "status": "changes_requested",
      "at": "2026-11-02T14:15:50+00:00",
      "note": "[should_fix] Widen the margin so the window covers the whole span the text allows: e.g. anchor on evt.gen_21.sarah_bears_isaac START with an offset of about 25 years and a margin of about 12 years (Isaac c. 13 to 37), and rewrite the temporal_reasoning_note to state that window and its two bounds (Ishmael's departure, Sarah's death in Gen 23). (GEN.22.1: \"after these things\" (no figure); Targum Pseudo-Jonathan on GEN.22.1: \"בַּר תְּלָתִין וְשִׁית שְׁנִין\"; Gen 21:5 (Abraham 100 at Isaac's birth) with Gen 17:17 and Gen 23:1 (Sarah 127 at death) put Isaac at 37 when Sarah dies, after this chapter in the narrative.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:17:00+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -323,6 +329,96 @@
     "run": "main"
    },
    "at": "2026-11-02T14:14:18+00:00"
+  },
+  {
+   "note": "Every verse 1–24 is covered. 22:21–24 (the names of Nahor's sons) are the content of the report in 22:20 and sit in the same event; they are not a separate scene.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.abraham_sets_out] The text does not say how long after the command he rose. 'Early in the morning' is taken as the first morning after the command, so offset 0 and BOKER. Pseudo-Jonathan names Eliezer and Ishmael as the two servants; I follow the Hebrew.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.abraham_sets_out] Journey time: `urim travel loc.beersheba loc.moriah_mount --mode donkey` gives 70 km straight, c. 88 km by road, 4 km/h, 21.9 h moving, elapsed about 2 days. This agrees with the text's third day (the first day counted as day one). Ibn Ezra says he left from Beersheba; Radak reads the third day as the day he reached Jerusalem's border and saw the place.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.abraham_sees_the_place] 'On the third day' counted inclusively: day 1 is the departure day, so the sighting is START of departure + 2 days, margin 12 hours. Rashi explains the delay as keeping Abraham from acting in a daze. Whether the Hebrew day (sunset to sunset) shifts this count is not answered; the margin covers it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.abraham_and_isaac_climb] 22:6–8 form one continuous ascent with the dialogue; the two 'they went both of them together' (22:6, 22:8) bracket it. The duration of 2 hours is an estimate and gives no hour of the day; DAY_SEQUENCE because it falls within the day of the sighting.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_22.abraham_and_isaac_climb.ram_provided] Abraham's word in 22:8 'God will provide himself a lamb' is fulfilled by the ram of 22:13. Confidence 0.9: Abraham's words may be an evasion or a statement of faith, and he foresaw a lamb, not a ram; the text itself sets 22:14 (Yhwh-yireh) as the sign of the fulfilment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_22.altar_and_binding.angel_stops_sacrifice] An angel's call is the effect of Abraham's raised knife; the link is explicit in 22:10–12.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_22.altar_and_binding.oath_and_blessing] The oath (22:16) is expressly 'because you have done this thing'. Its fulfilment is in later chapters (22:17 offspring like the stars, 22:18 nations blessed); the Gen 24–26 sessions should write the FULFILLS_PROPHECY links, for example 26:3–5 where God repeats the oath to Isaac.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.return_to_beersheba] The return trip is not timed in the text. I took the same two days as the outward journey, with a margin of a day. Pseudo-Jonathan has Isaac taken to the school of Shem for three years and returning that day only Abraham; I follow the Hebrew.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
+  },
+  {
+   "note": "[event:evt.gen_22.news_of_milcahs_sons] 'After these things' with no figure. Rashi has Abraham told on his return from Moriah, and Pseudo-Jonathan on the road; I put the news at the end of the return with a margin of a year because the births themselves are undated. Rebekah's birth is reported as a fact before this point; it dates only by the Gen 24–25 chain (Isaac 40 at marriage), so no anchor is set from it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:16:18+00:00"
   }
  ]
 }
