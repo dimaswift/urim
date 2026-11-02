@@ -1,0 +1,809 @@
+{
+ "chapter_ref": "GEN.16",
+ "entities": [
+  {
+   "entity_id": "loc.bered",
+   "tipnr_id": "Bered@Gen.16.14",
+   "entity_type": "LOCATION",
+   "source_script_name": "בָּרֶד",
+   "transliterated_name": "Bered",
+   "first_mention_verse": "GEN.16.14"
+  },
+  {
+   "entity_id": "spirit.angel_of_yhwh",
+   "entity_type": "SPIRIT_BEING",
+   "source_script_name": "מַלְאַךְ יְהוָה",
+   "transliterated_name": "mal'akh YHWH",
+   "first_mention_verse": "GEN.16.7"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.appeal_for_divine_judgment",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.surrogate_concubinage",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_16.sarai_proposes",
+   "verse_start": "GEN.16.1",
+   "verse_end": "GEN.16.2",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "anchor.abraham_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 85.4,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.sarai_gives_hagar",
+   "verse_start": "GEN.16.3",
+   "verse_end": "GEN.16.3",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.sarai_proposes",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.hagar_conceives",
+   "verse_start": "GEN.16.4",
+   "verse_end": "GEN.16.4",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.sarai_gives_hagar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.hagar_despises_sarai",
+   "verse_start": "GEN.16.4",
+   "verse_end": "GEN.16.4",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.hagar_conceives",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.sarai_blames_abram",
+   "verse_start": "GEN.16.5",
+   "verse_end": "GEN.16.6",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.hagar_despises_sarai",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.hagar_flees",
+   "verse_start": "GEN.16.6",
+   "verse_end": "GEN.16.6",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.sarai_blames_abram",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.5,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.angel_finds_hagar",
+   "verse_start": "GEN.16.7",
+   "verse_end": "GEN.16.8",
+   "location_entity_id": "loc.beer_lahai_roi",
+   "time": {
+    "anchor": "evt.gen_16.hagar_flees",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.shur",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.angel_commands_return",
+   "verse_start": "GEN.16.9",
+   "verse_end": "GEN.16.9",
+   "location_entity_id": "loc.beer_lahai_roi",
+   "time": {
+    "anchor": "evt.gen_16.angel_finds_hagar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.angel_promises_ishmael",
+   "verse_start": "GEN.16.10",
+   "verse_end": "GEN.16.12",
+   "location_entity_id": "loc.beer_lahai_roi",
+   "time": {
+    "anchor": "evt.gen_16.angel_commands_return",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.hagar_names_the_well",
+   "verse_start": "GEN.16.13",
+   "verse_end": "GEN.16.14",
+   "location_entity_id": "loc.beer_lahai_roi",
+   "time": {
+    "anchor": "evt.gen_16.angel_promises_ishmael",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.bered",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.kadesh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_16.ishmael_born",
+   "verse_start": "GEN.16.15",
+   "verse_end": "GEN.16.16",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_16.hagar_conceives",
+    "anchor_point": "START",
+    "offset": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hagar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_16.angel_promises_ishmael.ishmael_born",
+   "cause_event_id": "evt.gen_16.angel_promises_ishmael",
+   "effect_event_id": "evt.gen_16.ishmael_born",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_16.hagar_conceives.hagar_despises_sarai",
+   "cause_event_id": "evt.gen_16.hagar_conceives",
+   "effect_event_id": "evt.gen_16.hagar_despises_sarai",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_16.hagar_despises_sarai.sarai_blames_abram",
+   "cause_event_id": "evt.gen_16.hagar_despises_sarai",
+   "effect_event_id": "evt.gen_16.sarai_blames_abram",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_16.sarai_blames_abram.hagar_flees",
+   "cause_event_id": "evt.gen_16.sarai_blames_abram",
+   "effect_event_id": "evt.gen_16.hagar_flees",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_16.sarai_gives_hagar.hagar_conceives",
+   "cause_event_id": "evt.gen_16.sarai_gives_hagar",
+   "effect_event_id": "evt.gen_16.hagar_conceives",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_16.sarai_proposes.sarai_gives_hagar",
+   "cause_event_id": "evt.gen_16.sarai_proposes",
+   "effect_event_id": "evt.gen_16.sarai_gives_hagar",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.offspring.2",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "offspring",
+   "value_code": "FATHER_OF_ISHMAEL",
+   "supersedes_component_id": "comp.abraham.offspring.1",
+   "acquired_at_verse": "GEN.16.15",
+   "acquired_in_event": "evt.gen_16.ishmael_born"
+  },
+  {
+   "component_id": "comp.hagar.attitude_to_sarah.1",
+   "entity_id": "person.hagar",
+   "category": "PSYCH_STATE",
+   "component_key": "attitude_to_sarah",
+   "value_code": "CONTEMPT",
+   "acquired_at_verse": "GEN.16.4",
+   "acquired_in_event": "evt.gen_16.hagar_despises_sarai"
+  },
+  {
+   "component_id": "comp.hagar.divine_promise.1",
+   "entity_id": "person.hagar",
+   "category": "TRAIT",
+   "component_key": "divine_promise",
+   "value_code": "UNCOUNTABLE_OFFSPRING",
+   "acquired_at_verse": "GEN.16.10",
+   "acquired_in_event": "evt.gen_16.angel_promises_ishmael"
+  },
+  {
+   "component_id": "comp.hagar.legal_status.1",
+   "entity_id": "person.hagar",
+   "category": "TRAIT",
+   "component_key": "legal_status",
+   "value_code": "FUGITIVE",
+   "acquired_at_verse": "GEN.16.6",
+   "acquired_in_event": "evt.gen_16.hagar_flees",
+   "expired_at_verse": "GEN.16.15",
+   "expired_in_event": "evt.gen_16.ishmael_born"
+  },
+  {
+   "component_id": "comp.hagar.marital_status.1",
+   "entity_id": "person.hagar",
+   "category": "ROLE_TITLE",
+   "component_key": "marital_status",
+   "value_code": "WIFE_OF_ABRAM",
+   "acquired_at_verse": "GEN.16.3",
+   "acquired_in_event": "evt.gen_16.sarai_gives_hagar"
+  },
+  {
+   "component_id": "comp.hagar.pregnancy.1",
+   "entity_id": "person.hagar",
+   "category": "TRAIT",
+   "component_key": "pregnancy",
+   "value_code": "PREGNANT",
+   "acquired_at_verse": "GEN.16.4",
+   "acquired_in_event": "evt.gen_16.hagar_conceives",
+   "expired_at_verse": "GEN.16.15",
+   "expired_in_event": "evt.gen_16.ishmael_born"
+  },
+  {
+   "component_id": "comp.hagar.serves.1",
+   "entity_id": "person.hagar",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.sarah",
+   "acquired_at_verse": "GEN.16.1",
+   "acquired_in_event": "evt.gen_16.sarai_proposes"
+  },
+  {
+   "component_id": "comp.hagar.whereabouts.1",
+   "entity_id": "person.hagar",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.beer_lahai_roi",
+   "acquired_at_verse": "GEN.16.7",
+   "acquired_in_event": "evt.gen_16.angel_finds_hagar",
+   "expired_at_verse": "GEN.16.15",
+   "expired_in_event": "evt.gen_16.ishmael_born"
+  },
+  {
+   "component_id": "comp.ishmael.destiny.1",
+   "entity_id": "person.ishmael",
+   "category": "TRAIT",
+   "component_key": "destiny",
+   "value_code": "WILD_DONKEY_OF_A_MAN",
+   "acquired_at_verse": "GEN.16.12",
+   "acquired_in_event": "evt.gen_16.angel_promises_ishmael"
+  },
+  {
+   "component_id": "comp.sarah.fertility.1",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "fertility",
+   "value_code": "BARREN",
+   "acquired_at_verse": "GEN.16.1",
+   "acquired_in_event": "evt.gen_16.sarai_proposes"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.abraham.offspring.1",
+   "expired_at_verse": "GEN.16.15",
+   "expired_in_event": "evt.gen_16.ishmael_born"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_16.abram_names_ishmael",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_16.ishmael_born",
+   "verse_start": "GEN.16.15",
+   "verse_end": "GEN.16.15",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "child",
+    "obedient-naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.angel_appears_at_spring",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_16.angel_finds_hagar",
+   "verse_start": "GEN.16.7",
+   "verse_end": "GEN.16.8",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.hagar"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beer_lahai_roi",
+   "tags": [
+    "angel",
+    "wilderness",
+    "spring"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.angel_orders_return",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_16.angel_commands_return",
+   "verse_start": "GEN.16.9",
+   "verse_end": "GEN.16.9",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.hagar"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beer_lahai_roi",
+   "tags": [
+    "return",
+    "submission"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.appeal_to_yhwh_as_judge",
+   "system_id": "sys.appeal_for_divine_judgment",
+   "event_id": "evt.gen_16.sarai_blames_abram",
+   "verse_start": "GEN.16.5",
+   "verse_end": "GEN.16.5",
+   "initiator_entity_id": "person.sarah",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "grievance",
+    "oath-like"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.hagar_given_to_abram",
+   "system_id": "sys.surrogate_concubinage",
+   "event_id": "evt.gen_16.sarai_gives_hagar",
+   "verse_start": "GEN.16.3",
+   "verse_end": "GEN.16.3",
+   "initiator_entity_id": "person.sarah",
+   "target_entity_ids": [
+    "person.hagar",
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "childlessness",
+    "maidservant",
+    "wife"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.hagar_names_god",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_16.hagar_names_the_well",
+   "verse_start": "GEN.16.13",
+   "verse_end": "GEN.16.13",
+   "initiator_entity_id": "person.hagar",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beer_lahai_roi",
+   "tags": [
+    "divine-name",
+    "El Roi"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_16.promise_of_multitude",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_16.angel_promises_ishmael",
+   "verse_start": "GEN.16.10",
+   "verse_end": "GEN.16.12",
+   "initiator_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_ids": [
+    "person.hagar",
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beer_lahai_roi",
+   "tags": [
+    "offspring",
+    "birth-announcement",
+    "naming"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_16.abram_hands_hagar_to_sarai",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "ENTRUSTS",
+   "verse_id": "GEN.16.6",
+   "event_id": "evt.gen_16.sarai_blames_abram"
+  },
+  {
+   "edge_id": "edge.gen_16.abram_lies_with_hagar",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "LIES_WITH",
+   "verse_id": "GEN.16.4",
+   "event_id": "evt.gen_16.hagar_conceives"
+  },
+  {
+   "edge_id": "edge.gen_16.abram_names_ishmael",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.16.15",
+   "event_id": "evt.gen_16.ishmael_born"
+  },
+  {
+   "edge_id": "edge.gen_16.angel_commands_hagar",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.16.9",
+   "event_id": "evt.gen_16.angel_commands_return"
+  },
+  {
+   "edge_id": "edge.gen_16.angel_promises_hagar",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.16.10",
+   "event_id": "evt.gen_16.angel_promises_ishmael"
+  },
+  {
+   "edge_id": "edge.gen_16.angel_questions_hagar",
+   "source_entity_id": "spirit.angel_of_yhwh",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.16.8",
+   "event_id": "evt.gen_16.angel_finds_hagar"
+  },
+  {
+   "edge_id": "edge.gen_16.hagar_bears_ishmael",
+   "source_entity_id": "person.hagar",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.16.15",
+   "event_id": "evt.gen_16.ishmael_born"
+  },
+  {
+   "edge_id": "edge.gen_16.hagar_despises_sarai",
+   "source_entity_id": "person.hagar",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "DESPISES",
+   "verse_id": "GEN.16.4",
+   "event_id": "evt.gen_16.hagar_despises_sarai"
+  },
+  {
+   "edge_id": "edge.gen_16.hagar_names_yhwh",
+   "source_entity_id": "person.hagar",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.16.13",
+   "event_id": "evt.gen_16.hagar_names_the_well"
+  },
+  {
+   "edge_id": "edge.gen_16.sarai_accuses_abram",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.16.5",
+   "event_id": "evt.gen_16.sarai_blames_abram"
+  },
+  {
+   "edge_id": "edge.gen_16.sarai_afflicts_hagar",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "AFFLICTS",
+   "verse_id": "GEN.16.6",
+   "event_id": "evt.gen_16.hagar_flees"
+  },
+  {
+   "edge_id": "edge.gen_16.sarai_gives_hagar",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "GIVES",
+   "verse_id": "GEN.16.3",
+   "event_id": "evt.gen_16.sarai_gives_hagar"
+  },
+  {
+   "edge_id": "edge.gen_16.sarai_urges_abram",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "URGES",
+   "verse_id": "GEN.16.2",
+   "event_id": "evt.gen_16.sarai_proposes"
+  },
+  {
+   "edge_id": "edge.gen_16.yhwh_hears_hagar",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.hagar",
+   "interaction_type": "HEARS",
+   "verse_id": "GEN.16.11",
+   "event_id": "evt.gen_16.angel_promises_ishmael"
+  }
+ ]
+}

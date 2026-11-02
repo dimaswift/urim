@@ -1,0 +1,495 @@
+{
+ "chapter_ref": "GEN.50",
+ "items": {
+  "causal:caus.gen_49.burial_charge.burial_at_machpelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_49.burial_charge.petition_to_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "Jacob's burial charge is a command and oath, not an oracle, so TRIGGERS rather than FULFILLS_PROPHECY, both here and for the burial itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_49.jacob_dies.brothers_plead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_49.jacob_dies.embalming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[consider] Drop 'for the journey to Canaan' or mark it as an inference. (GEN.50.2: \"Joseph commanded his servants the physicians to embalm his father\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_49.jacob_dies.joseph_weeps": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_50.brothers_plead.joseph_reassures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_50.petition_to_pharaoh.funeral_procession": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.brothers_plead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "No time word: 'when they saw that their father was dead' is placed right after the return, with a one-month margin for how long the fear took to surface. Tier MACRO_ERA because the text gives no measure."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[consider] Consider a duration of about a day for message and visit. (GEN.50.16: \"they sent a messenger unto Joseph\"; GEN.50.18: \"his brethren also went and fell down before his face\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.burial_at_machpelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[consider] Use the same mode as the procession for the Atad–Machpelah leg (urim travel Atad Machpelah --mode walk). (GEN.50.13: \"his sons carried him into the land of Canaan\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.egypt_mourns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "The 70 days of Egyptian mourning (v. 3) are counted from Jacob's death and include the 40 days of embalming (Rashi, Radak: 40 for embalming + 30 for weeping), so the mourning is anchored on the death's START and the embalming runs inside it. If the 70 were read as 40 + 70 the burial would be 40 days later."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.embalming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.funeral_procession": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:10:33+00:00",
+   "agent_notes": [
+    "Paced at walking speed: Goshen–Atad road (≈465 km) is ≈16 days on foot against 7 by chariot; I chose walking because the company is 'very great' and includes elders and a household, with margin 3 days toward the chariot pace. Atad's location 'beyond the Jordan' is the registry's coordinates; the route via Jordan's east bank (a detour round the Dead Sea) is not modelled. Pseudo-Jonathan's Esau episode at Hebron (v. 13) is not used."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[should_fix] Pace the procession at walking speed (urim travel Goshen Atad --mode walk ≈ 16 days), or keep the chariot estimate with a margin wide enough to include walking pace (start ≈ 7–16 days after the petition), and say which in the note. (GEN.50.8-9: \"all the house of Joseph, and his brethren, and his father's house … And there went up with him both (gam) chariots and horsemen: and it was a very great (kaved) company\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.joseph_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:10:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[should_fix] Base the duration on the forty days of embalming stated as the custom in 50:3 (about 40 days, a margin of a few days to a week), and cite 50:3's custom rather than the 70 days of Egypt's weeping in the note. (GEN.50.3: \"forty days were fulfilled for him; for so are fulfilled the days of those which are embalmed\"; GEN.50.26: \"they embalmed him, and he was put in a coffin\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.joseph_dwells_in_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "Duration 54 years: Jacob died when Joseph was about 56 on the Masoretic chain (anchor.joseph_birth; Jacob 130 at Gen 47:9, Joseph 39), Joseph died at 110. The two chains are consistent to within a year, which is the margin; the anchor's own ±220 years is carried by the death event.",
+    "The dwelling's computed end (Feb 1805 BCE) overlaps the last words (Jan 1805 BCE) by about five weeks, because the death is dated by age from anchor.joseph_birth and the dwelling by duration from Jacob's death; this is inside the one-year margin."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.joseph_last_words": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "Joseph's age of 110 (v. 26) is given at his death; the last words are anchored on birth + 110 years and the death follows. Verse 24's 'God will surely visit you and bring you up' and v. 25's oath about the bones are fulfilled later (Exod 13:19, Josh 24:32): the Exodus chapter's session should write FULFILLS_PROPHECY from this event."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.joseph_reassures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.joseph_weeps": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.lament_at_atad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.petition_to_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_50.return_to_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:04+00:00",
+   "agent_notes": [
+    "Machpelah–Goshen by chariot: 6 days, from urim travel."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:09:59+00:00",
+     "note": "[consider] If the procession is re-paced at walking speed, pace the return the same way (urim travel Machpelah Goshen --mode walk). (GEN.50.14: \"he, and his brethren, and all that went up with him\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 1–26 are all covered. Verse 22 (Joseph dwelt in Egypt, lived 110 years) and verse 23 (great-grandchildren) are one event, evt.gen_50.joseph_dwells_in_egypt; verse 22's age is dated at the death (v. 26).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:08:04+00:00"
+  },
+  {
+   "note": "Verses 1–26 are all covered. Verse 22 (Joseph dwelt in Egypt, lived 110 years) and verse 23 (great-grandchildren) are one event, evt.gen_50.joseph_dwells_in_egypt; verse 22's age is dated at the death (v. 26).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.egypt_mourns] The 70 days of Egyptian mourning (v. 3) are counted from Jacob's death and include the 40 days of embalming (Rashi, Radak: 40 for embalming + 30 for weeping), so the mourning is anchored on the death's START and the embalming runs inside it. If the 70 were read as 40 + 70 the burial would be 40 days later.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.joseph_dwells_in_egypt] Duration 54 years: Jacob died when Joseph was about 56 on the Masoretic chain (anchor.joseph_birth; Jacob 130 at Gen 47:9, Joseph 39), Joseph died at 110. The two chains are consistent to within a year, which is the margin; the anchor's own ±220 years is carried by the death event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.joseph_dwells_in_egypt] The dwelling's computed end (Feb 1805 BCE) overlaps the last words (Jan 1805 BCE) by about five weeks, because the death is dated by age from anchor.joseph_birth and the dwelling by duration from Jacob's death; this is inside the one-year margin.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.joseph_last_words] Joseph's age of 110 (v. 26) is given at his death; the last words are anchored on birth + 110 years and the death follows. Verse 24's 'God will surely visit you and bring you up' and v. 25's oath about the bones are fulfilled later (Exod 13:19, Josh 24:32): the Exodus chapter's session should write FULFILLS_PROPHECY from this event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.brothers_plead] No time word: 'when they saw that their father was dead' is placed right after the return, with a one-month margin for how long the fear took to surface. Tier MACRO_ERA because the text gives no measure.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_49.burial_charge.petition_to_pharaoh] Jacob's burial charge is a command and oath, not an oracle, so TRIGGERS rather than FULFILLS_PROPHECY, both here and for the burial itself.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  },
+  {
+   "note": "[event:evt.gen_50.return_to_egypt] Machpelah–Goshen by chariot: 6 days, from urim travel.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:33+00:00"
+  }
+ ]
+}

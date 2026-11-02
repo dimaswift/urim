@@ -1,0 +1,150 @@
+{
+ "chapter_ref": "GEN.31",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_31.laban_sons_complain",
+   "title": "Laban's sons resent Jacob's wealth",
+   "narrative_summary": "Jacob hears Laban's sons say that he has taken all that was their father's. He also sees that Laban's face is no longer toward him as before.",
+   "temporal_reasoning_note": "Jacob's twenty years with Laban (31:38, 41) are 14 for the wives, ending with Joseph's birth, and 6 for the flock (31:41). The scene is about 6 years after evt.gen_30.joseph_born, so I anchor on its END with a 6-year offset and a 1-year margin. No hour or day is named; REGNAL_YEAR because the twenty-year count frames it.",
+   "ancient_year_marker": "In the twentieth year of his service"
+  },
+  {
+   "event_id": "evt.gen_31.yhwh_commands_return",
+   "title": "Yahweh tells Jacob to return to his fathers' land",
+   "narrative_summary": "Yahweh tells Jacob to go back to the land of his fathers and to his kindred, and promises to be with him.",
+   "temporal_reasoning_note": "No time word. It follows the sons' complaint and Laban's cooled face directly; a margin of 3 days, no gap. REGNAL_YEAR as the scene falls under the twenty-year frame."
+  },
+  {
+   "event_id": "evt.gen_31.jacob_calls_wives",
+   "title": "Jacob persuades Rachel and Leah to leave",
+   "narrative_summary": "Jacob calls Rachel and Leah to the field and tells them of Laban's deceit and of God's call to return. They answer that they have no share left in their father's house and tell him to do what God has said.",
+   "temporal_reasoning_note": "'Jacob sent and called' (31:4) follows the divine word; I put it 1 day after, with a 3-day margin (he needs to send a message to the women and meet them in the field). The scene lasts about 2 hours. REGNAL_YEAR as the scene falls under the twenty-year frame."
+  },
+  {
+   "event_id": "evt.gen_31.jacob_flees",
+   "title": "Jacob flees from Laban with his family and flocks",
+   "narrative_summary": "While Laban is away shearing his sheep, Rachel steals the household gods and Jacob, deceiving Laban, takes wives, children and all his livestock across the river toward Gilead.",
+   "temporal_reasoning_note": "Jacob leaves while Laban is at the shearing (31:19), 3 days off (30:36). I put it 1 day after the council, margin 2 days. The event is the departure itself (1 day); the journey that follows is carried by the dated events: Laban is told 3 days later and overtakes Jacob in Gilead about 10 days after the start (31:22-25). The road Paddan to Gilead is about 754 km (donkey 23 days, army 41 days); the text's count is shorter and wins. DAY_SEQUENCE because the following days are counted.",
+   "ancient_season_marker": "While Laban went to shear his sheep"
+  },
+  {
+   "event_id": "evt.gen_31.laban_told",
+   "title": "Laban learns on the third day that Jacob has fled",
+   "narrative_summary": "On the third day Laban is told that Jacob has fled.",
+   "temporal_reasoning_note": "'On the third day' (31:22), counted inclusively: Jacob's start day is the first day, so the report falls on the third, an offset of 2 days from the flight's START, with margin of 12 hours. Rashi: there was a three-day journey between them. DAY_SEQUENCE.",
+   "ancient_diurnal_marker": "On the third day"
+  },
+  {
+   "event_id": "evt.gen_31.laban_pursues",
+   "title": "Laban pursues Jacob for seven days",
+   "narrative_summary": "Laban takes his kinsmen and pursues Jacob a seven days' journey, overtaking him in the hill country of Gilead.",
+   "temporal_reasoning_note": "Starts when he hears (END of laban_told); 'a seven days' journey' (31:23) is the duration, with 12 hours margin. Rashi says the seven days are the distance Laban covered in a day while Jacob travelled seven; Rashbam says Jacob went slowly. DAY_SEQUENCE.",
+   "ancient_diurnal_marker": "A seven days' journey"
+  },
+  {
+   "event_id": "evt.gen_31.god_warns_laban",
+   "title": "God warns Laban in a dream not to harm Jacob",
+   "narrative_summary": "God comes to Laban the Aramean in a dream by night and tells him to take care not to speak to Jacob either good or bad.",
+   "temporal_reasoning_note": "'By night' (31:24), and Laban calls it 'yesternight' in 31:29, so it is the night before the overtaking. Placed 6 days after the pursuit began at the middle watch (22:00), 12 hours margin; the hour is my reading. DIURNAL_HOUR on the 'night' marker.",
+   "ancient_diurnal_marker": "By night"
+  },
+  {
+   "event_id": "evt.gen_31.laban_overtakes",
+   "title": "Laban overtakes Jacob in the hill country of Gilead",
+   "narrative_summary": "Laban overtakes Jacob, who has pitched his tent in the hill country; Laban and his kinsmen camp in the hill country of Gilead.",
+   "temporal_reasoning_note": "Starts at the END of the pursuit, the arrival being the end of the 7 days. The hour is not named, so the margin is 6 hours. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.laban_accuses",
+   "title": "Laban accuses Jacob of stealing away and taking his gods",
+   "narrative_summary": "Laban asks Jacob why he fled secretly with his daughters, without a farewell, and why he stole his gods.",
+   "temporal_reasoning_note": "A speech directly following the overtaking, about 20 minutes. Treated as the same day; margin 6 hours. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.jacob_answers_laban",
+   "title": "Jacob answers and curses the thief with death",
+   "narrative_summary": "Jacob answers that he feared Laban would take his daughters, and says that whoever has the gods shall not live. Not knowing that Rachel stole them, he invites Laban to search.",
+   "temporal_reasoning_note": "A short speech after the accusation, about 10 minutes; same day. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.tents_searched",
+   "title": "Laban searches the tents; Rachel hides the gods",
+   "narrative_summary": "Laban searches the tents of Jacob, Leah and the two maidservants, and then Rachel's. She has put the household gods in the camel's saddle and sits on them, saying she cannot rise because she is in her monthly period.",
+   "temporal_reasoning_note": "Four tents in a camp: about 3 hours, with 1 hour margin. Same day as the accusation. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.jacob_rebukes_laban",
+   "title": "Jacob angrily rebukes Laban for twenty years of wrongs",
+   "narrative_summary": "Jacob, angry, asks what his offence was; he recounts twenty years of faithful service, of loss from wild beasts, of heat and cold and sleeplessness, and of Laban changing his wages ten times, and says that only God's help kept him from being sent away empty.",
+   "temporal_reasoning_note": "Follows the failed search directly; a speech of about 20 minutes. The 'twenty years' (31:38, 41) is the same count as in the anchor of the chapter's first event. DAY_SEQUENCE.",
+   "ancient_year_marker": "Twenty years I have been in your house"
+  },
+  {
+   "event_id": "evt.gen_31.covenant_proposed",
+   "title": "Laban answers and proposes a covenant",
+   "narrative_summary": "Laban answers that daughters, children and flocks are his, yet what can he do about them today? He proposes that they make a covenant to be a witness between them.",
+   "temporal_reasoning_note": "Follows directly; a short speech of about 10 minutes, same day. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.covenant_made",
+   "title": "Jacob and Laban make a covenant with a pillar and a heap",
+   "narrative_summary": "Jacob sets up a stone as a pillar and his kinsmen make a heap. Laban calls it Jegar-sahadutha and Jacob Galeed; it is also called Mizpah, and Laban sets the terms: no harming the daughters, no other wives, no crossing the heap to harm. Laban calls on the God of Abraham and the God of Nahor to judge between them, and Jacob swears by the Fear of his father Isaac.",
+   "temporal_reasoning_note": "Stones, a heap and an oath: about 3 hours after the proposal; same day. The meal and the night of 31:54 follow. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_31.covenant_feast",
+   "title": "Jacob offers a sacrifice and they eat and stay the night",
+   "narrative_summary": "Jacob offers a sacrifice on the mountain and calls his kinsmen to eat bread. They eat and spend the night on the mountain.",
+   "temporal_reasoning_note": "'Tarried all night' (31:54): the feast and the night run about 13 hours from the end of the covenant so that the END falls at daybreak (about 06:00), since the departure follows 'early in the morning' (31:55 = Hebrew 32:1). Margin 2 hours. DAY_SEQUENCE.",
+   "ancient_diurnal_marker": "They tarried all night in the mountain"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_31.covenant_proposed.covenant_made",
+   "causal_explanation": "Laban's proposal is carried out by the pillar, heap and oath (31:44-53)."
+  },
+  {
+   "causal_id": "caus.gen_31.god_warns_laban.laban_accuses",
+   "causal_explanation": "Because God warned him, Laban says he could have harmed Jacob but speaks only an accusation (31:24, 29)."
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_calls_wives.jacob_flees",
+   "causal_explanation": "Rachel and Leah agree to do whatever God has told him (31:16), and Jacob rises and sets his family on camels (31:17)."
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_flees.laban_told",
+   "causal_explanation": "Laban is told on the third day that Jacob has fled (31:22)."
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_rebukes_laban.covenant_proposed",
+   "causal_explanation": "After Jacob's rebuke Laban turns from accusation to a proposal of covenant (31:43-44)."
+  },
+  {
+   "causal_id": "caus.gen_31.laban_accuses.tents_searched",
+   "causal_explanation": "Laban's charge that his gods were stolen leads to the search of the tents (31:30-33)."
+  },
+  {
+   "causal_id": "caus.gen_31.laban_pursues.laban_overtakes",
+   "causal_explanation": "The seven days' pursuit ends when Laban overtakes Jacob in Gilead (31:23, 25)."
+  },
+  {
+   "causal_id": "caus.gen_31.laban_sons_complain.jacob_calls_wives",
+   "causal_explanation": "The sons' words and Laban's changed face make Jacob consult his wives about leaving (31:1-5)."
+  },
+  {
+   "causal_id": "caus.gen_31.laban_told.laban_pursues",
+   "causal_explanation": "Having heard of the flight, Laban takes his kinsmen and pursues (31:23)."
+  },
+  {
+   "causal_id": "caus.gen_31.yhwh_commands_return.jacob_flees",
+   "causal_explanation": "Yahweh's command to return to his fathers' land (31:3) is carried out when Jacob sets out with all he has (31:17-18)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

@@ -1,0 +1,1133 @@
+{
+ "chapter_ref": "GEN.5",
+ "entities": [
+  {
+   "entity_id": "person.enoch",
+   "tipnr_id": "Enoch@Gen.5.18-Jud",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲנוֹךְ",
+   "transliterated_name": "Ḥănôk",
+   "first_mention_verse": "GEN.5.18"
+  },
+  {
+   "entity_id": "person.jared",
+   "tipnr_id": "Jared@Gen.5.15-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "יֶרֶד",
+   "transliterated_name": "Yereḏ",
+   "first_mention_verse": "GEN.5.15"
+  },
+  {
+   "entity_id": "person.kenan",
+   "tipnr_id": "Kenan@Gen.5.9-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "קֵינָן",
+   "transliterated_name": "Qênān",
+   "first_mention_verse": "GEN.5.9"
+  },
+  {
+   "entity_id": "person.lamech",
+   "tipnr_id": "Lamech@Gen.5.25-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "לֶמֶךְ",
+   "transliterated_name": "Lemeḵ",
+   "first_mention_verse": "GEN.5.25"
+  },
+  {
+   "entity_id": "person.mahalalel",
+   "tipnr_id": "Mahalalel@Gen.5.12-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "מַהֲלַלְאֵל",
+   "transliterated_name": "Mahălal'ēl",
+   "first_mention_verse": "GEN.5.12"
+  },
+  {
+   "entity_id": "person.methuselah",
+   "tipnr_id": "Methuselah@Gen.5.21-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "מְתוּשֶׁלַח",
+   "transliterated_name": "Methûšelaḥ",
+   "first_mention_verse": "GEN.5.21"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_taking",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.1",
+   "verse_end": "GEN.5.32",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1657.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.seth_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.3",
+   "verse_end": "GEN.5.4",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "offset": {
+     "value": 130.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.seth",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.adam_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.5",
+   "verse_end": "GEN.5.5",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "offset": {
+     "value": 930.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.enosh_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.6",
+   "verse_end": "GEN.5.7",
+   "time": {
+    "anchor": "evt.gen_5.seth_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 105.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enosh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.seth",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.seth_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.8",
+   "verse_end": "GEN.5.8",
+   "time": {
+    "anchor": "evt.gen_5.seth_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 912.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.seth",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.kenan_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.9",
+   "verse_end": "GEN.5.10",
+   "time": {
+    "anchor": "evt.gen_5.enosh_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 90.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enosh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.kenan",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.enosh_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.11",
+   "verse_end": "GEN.5.11",
+   "time": {
+    "anchor": "evt.gen_5.enosh_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 905.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enosh",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.12",
+   "verse_end": "GEN.5.13",
+   "time": {
+    "anchor": "evt.gen_5.kenan_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 70.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.kenan",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.mahalalel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.kenan_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.14",
+   "verse_end": "GEN.5.14",
+   "time": {
+    "anchor": "evt.gen_5.kenan_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 910.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.kenan",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.jared_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.15",
+   "verse_end": "GEN.5.16",
+   "time": {
+    "anchor": "evt.gen_5.mahalalel_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 65.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.jared",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.mahalalel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.17",
+   "verse_end": "GEN.5.17",
+   "time": {
+    "anchor": "evt.gen_5.mahalalel_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 895.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.mahalalel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.enoch_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.18",
+   "verse_end": "GEN.5.19",
+   "time": {
+    "anchor": "evt.gen_5.jared_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 162.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enoch",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.jared",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.jared_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.20",
+   "verse_end": "GEN.5.20",
+   "time": {
+    "anchor": "evt.gen_5.jared_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 962.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.jared",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.21",
+   "verse_end": "GEN.5.22",
+   "time": {
+    "anchor": "evt.gen_5.enoch_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 65.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.enoch",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.methuselah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.enoch_taken",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.23",
+   "verse_end": "GEN.5.24",
+   "time": {
+    "anchor": "evt.gen_5.enoch_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 365.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.enoch",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.lamech_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.25",
+   "verse_end": "GEN.5.26",
+   "time": {
+    "anchor": "evt.gen_5.methuselah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 187.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lamech",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.methuselah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.27",
+   "verse_end": "GEN.5.27",
+   "time": {
+    "anchor": "evt.gen_5.methuselah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 968.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.methuselah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.noah_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.28",
+   "verse_end": "GEN.5.29",
+   "time": {
+    "anchor": "evt.gen_5.lamech_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 182.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.ground",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lamech",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.lamech_dies",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.30",
+   "verse_end": "GEN.5.31",
+   "time": {
+    "anchor": "evt.gen_5.lamech_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 777.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lamech",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_5.noah_sons_born",
+   "parent_event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.32",
+   "verse_end": "GEN.5.32",
+   "time": {
+    "anchor": "evt.gen_5.noah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 500.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.ham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [],
+ "components": [
+  {
+   "component_id": "comp.adam.life.2",
+   "entity_id": "person.adam",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.adam.life.1",
+   "acquired_at_verse": "GEN.5.5",
+   "acquired_in_event": "evt.gen_5.adam_dies"
+  },
+  {
+   "component_id": "comp.enoch.life.1",
+   "entity_id": "person.enoch",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.18",
+   "acquired_in_event": "evt.gen_5.enoch_born",
+   "expired_at_verse": "GEN.5.24",
+   "expired_in_event": "evt.gen_5.enoch_taken"
+  },
+  {
+   "component_id": "comp.enoch.life.2",
+   "entity_id": "person.enoch",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "TAKEN_BY_GOD",
+   "supersedes_component_id": "comp.enoch.life.1",
+   "acquired_at_verse": "GEN.5.24",
+   "acquired_in_event": "evt.gen_5.enoch_taken"
+  },
+  {
+   "component_id": "comp.enoch.walk_with_god.1",
+   "entity_id": "person.enoch",
+   "category": "ALLEGIANCE",
+   "component_key": "walk_with_god",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.5.22",
+   "acquired_in_event": "evt.gen_5.methuselah_born",
+   "expired_at_verse": "GEN.5.24",
+   "expired_in_event": "evt.gen_5.enoch_taken"
+  },
+  {
+   "component_id": "comp.enosh.life.1",
+   "entity_id": "person.enosh",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.6",
+   "acquired_in_event": "evt.gen_5.enosh_born",
+   "expired_at_verse": "GEN.5.11",
+   "expired_in_event": "evt.gen_5.enosh_dies"
+  },
+  {
+   "component_id": "comp.enosh.life.2",
+   "entity_id": "person.enosh",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.enosh.life.1",
+   "acquired_at_verse": "GEN.5.11",
+   "acquired_in_event": "evt.gen_5.enosh_dies"
+  },
+  {
+   "component_id": "comp.jared.life.1",
+   "entity_id": "person.jared",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.15",
+   "acquired_in_event": "evt.gen_5.jared_born",
+   "expired_at_verse": "GEN.5.20",
+   "expired_in_event": "evt.gen_5.jared_dies"
+  },
+  {
+   "component_id": "comp.jared.life.2",
+   "entity_id": "person.jared",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.jared.life.1",
+   "acquired_at_verse": "GEN.5.20",
+   "acquired_in_event": "evt.gen_5.jared_dies"
+  },
+  {
+   "component_id": "comp.kenan.life.1",
+   "entity_id": "person.kenan",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.9",
+   "acquired_in_event": "evt.gen_5.kenan_born",
+   "expired_at_verse": "GEN.5.14",
+   "expired_in_event": "evt.gen_5.kenan_dies"
+  },
+  {
+   "component_id": "comp.kenan.life.2",
+   "entity_id": "person.kenan",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.kenan.life.1",
+   "acquired_at_verse": "GEN.5.14",
+   "acquired_in_event": "evt.gen_5.kenan_dies"
+  },
+  {
+   "component_id": "comp.lamech.life.1",
+   "entity_id": "person.lamech",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.25",
+   "acquired_in_event": "evt.gen_5.lamech_born",
+   "expired_at_verse": "GEN.5.31",
+   "expired_in_event": "evt.gen_5.lamech_dies"
+  },
+  {
+   "component_id": "comp.lamech.life.2",
+   "entity_id": "person.lamech",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.lamech.life.1",
+   "acquired_at_verse": "GEN.5.31",
+   "acquired_in_event": "evt.gen_5.lamech_dies"
+  },
+  {
+   "component_id": "comp.mahalalel.life.1",
+   "entity_id": "person.mahalalel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.12",
+   "acquired_in_event": "evt.gen_5.mahalalel_born",
+   "expired_at_verse": "GEN.5.17",
+   "expired_in_event": "evt.gen_5.mahalalel_dies"
+  },
+  {
+   "component_id": "comp.mahalalel.life.2",
+   "entity_id": "person.mahalalel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.mahalalel.life.1",
+   "acquired_at_verse": "GEN.5.17",
+   "acquired_in_event": "evt.gen_5.mahalalel_dies"
+  },
+  {
+   "component_id": "comp.methuselah.life.1",
+   "entity_id": "person.methuselah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.21",
+   "acquired_in_event": "evt.gen_5.methuselah_born",
+   "expired_at_verse": "GEN.5.27",
+   "expired_in_event": "evt.gen_5.methuselah_dies"
+  },
+  {
+   "component_id": "comp.methuselah.life.2",
+   "entity_id": "person.methuselah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.methuselah.life.1",
+   "acquired_at_verse": "GEN.5.27",
+   "acquired_in_event": "evt.gen_5.methuselah_dies"
+  },
+  {
+   "component_id": "comp.seth.life.1",
+   "entity_id": "person.seth",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.5.3",
+   "acquired_in_event": "evt.gen_5.seth_born",
+   "expired_at_verse": "GEN.5.8",
+   "expired_in_event": "evt.gen_5.seth_dies"
+  },
+  {
+   "component_id": "comp.seth.life.2",
+   "entity_id": "person.seth",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.seth.life.1",
+   "acquired_at_verse": "GEN.5.8",
+   "acquired_in_event": "evt.gen_5.seth_dies"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.adam.life.1",
+   "expired_at_verse": "GEN.5.5",
+   "expired_in_event": "evt.gen_5.adam_dies"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_5.enoch_taken",
+   "system_id": "sys.divine_taking",
+   "event_id": "evt.gen_5.enoch_taken",
+   "verse_start": "GEN.5.24",
+   "verse_end": "GEN.5.24",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.enoch"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "no_death",
+    "walked_with_god"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_blessed",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.2",
+   "verse_end": "GEN.5.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "blessing"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_5.adam_genealogy",
+   "verse_start": "GEN.5.2",
+   "verse_end": "GEN.5.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "name_adam",
+    "male_and_female"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_5.noah_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_5.noah_born",
+   "verse_start": "GEN.5.29",
+   "verse_end": "GEN.5.29",
+   "initiator_entity_id": "person.lamech",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "naming_of_son",
+    "comfort_oracle"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_5.seth_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_5.seth_born",
+   "verse_start": "GEN.5.3",
+   "verse_end": "GEN.5.3",
+   "initiator_entity_id": "person.adam",
+   "target_entity_ids": [
+    "person.seth"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "naming_of_son"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_5.adam_fathers_seth",
+   "source_entity_id": "person.adam",
+   "target_entity_id": "person.seth",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.3",
+   "event_id": "evt.gen_5.seth_born"
+  },
+  {
+   "edge_id": "edge.gen_5.enoch_fathers_methuselah",
+   "source_entity_id": "person.enoch",
+   "target_entity_id": "person.methuselah",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.21",
+   "event_id": "evt.gen_5.methuselah_born"
+  },
+  {
+   "edge_id": "edge.gen_5.enosh_fathers_kenan",
+   "source_entity_id": "person.enosh",
+   "target_entity_id": "person.kenan",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.9",
+   "event_id": "evt.gen_5.kenan_born"
+  },
+  {
+   "edge_id": "edge.gen_5.god_blesses_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.5.2",
+   "event_id": "evt.gen_5.adam_genealogy"
+  },
+  {
+   "edge_id": "edge.gen_5.god_creates_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.5.2",
+   "event_id": "evt.gen_5.adam_genealogy"
+  },
+  {
+   "edge_id": "edge.gen_5.god_takes_enoch",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.enoch",
+   "interaction_type": "TAKES",
+   "verse_id": "GEN.5.24",
+   "event_id": "evt.gen_5.enoch_taken"
+  },
+  {
+   "edge_id": "edge.gen_5.jared_fathers_enoch",
+   "source_entity_id": "person.jared",
+   "target_entity_id": "person.enoch",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.18",
+   "event_id": "evt.gen_5.enoch_born"
+  },
+  {
+   "edge_id": "edge.gen_5.kenan_fathers_mahalalel",
+   "source_entity_id": "person.kenan",
+   "target_entity_id": "person.mahalalel",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.12",
+   "event_id": "evt.gen_5.mahalalel_born"
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_fathers_noah",
+   "source_entity_id": "person.lamech",
+   "target_entity_id": "person.noah",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.28",
+   "event_id": "evt.gen_5.noah_born"
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_names_noah",
+   "source_entity_id": "person.lamech",
+   "target_entity_id": "person.noah",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.5.29",
+   "event_id": "evt.gen_5.noah_born"
+  },
+  {
+   "edge_id": "edge.gen_5.mahalalel_fathers_jared",
+   "source_entity_id": "person.mahalalel",
+   "target_entity_id": "person.jared",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.15",
+   "event_id": "evt.gen_5.jared_born"
+  },
+  {
+   "edge_id": "edge.gen_5.methuselah_fathers_lamech",
+   "source_entity_id": "person.methuselah",
+   "target_entity_id": "person.lamech",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.25",
+   "event_id": "evt.gen_5.lamech_born"
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_ham",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.ham",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.32",
+   "event_id": "evt.gen_5.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_japheth",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.japheth",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.32",
+   "event_id": "evt.gen_5.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_shem",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.shem",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.32",
+   "event_id": "evt.gen_5.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_5.seth_fathers_enosh",
+   "source_entity_id": "person.seth",
+   "target_entity_id": "person.enosh",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.5.6",
+   "event_id": "evt.gen_5.enosh_born"
+  }
+ ]
+}

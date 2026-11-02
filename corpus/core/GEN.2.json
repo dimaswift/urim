@@ -1,0 +1,748 @@
+{
+ "chapter_ref": "GEN.2",
+ "entities": [
+  {
+   "entity_id": "artifact.tree_of_knowledge",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "עֵץ הַדַּעַת טוֹב וָרָע",
+   "transliterated_name": "ʿēṣ hadaʿat ṭôb wārāʿ",
+   "first_mention_verse": "GEN.2.9"
+  },
+  {
+   "entity_id": "artifact.tree_of_life",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "עֵץ הַחַיִּים",
+   "transliterated_name": "ʿēṣ haḥayyîm",
+   "first_mention_verse": "GEN.2.9"
+  },
+  {
+   "entity_id": "loc.cush",
+   "tipnr_id": "Cush@Gen.2.13-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "כּוּשׁ",
+   "transliterated_name": "kûš",
+   "first_mention_verse": "GEN.2.13"
+  },
+  {
+   "entity_id": "loc.eden",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵדֶן",
+   "transliterated_name": "ʿēden",
+   "first_mention_verse": "GEN.2.8"
+  },
+  {
+   "entity_id": "loc.euphrates",
+   "tipnr_id": "Euphrates@Gen.2.14-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "פְּרָת",
+   "transliterated_name": "pərāt",
+   "first_mention_verse": "GEN.2.14"
+  },
+  {
+   "entity_id": "loc.garden_of_eden",
+   "entity_type": "LOCATION",
+   "source_script_name": "גַּן־עֵדֶן",
+   "transliterated_name": "gan-ʿēden",
+   "first_mention_verse": "GEN.2.8"
+  },
+  {
+   "entity_id": "loc.gihon",
+   "entity_type": "LOCATION",
+   "source_script_name": "גִּיחוֹן",
+   "transliterated_name": "gîḥôn",
+   "first_mention_verse": "GEN.2.13"
+  },
+  {
+   "entity_id": "loc.havilah.gen_2_11",
+   "tipnr_id": "Havilah@Gen.2.11",
+   "entity_type": "LOCATION",
+   "source_script_name": "הַחֲוִילָה",
+   "transliterated_name": "ḥăwîlâ",
+   "first_mention_verse": "GEN.2.11"
+  },
+  {
+   "entity_id": "loc.pishon",
+   "tipnr_id": "Pishon@Gen.2.11",
+   "entity_type": "LOCATION",
+   "source_script_name": "פִּישׁוֹן",
+   "transliterated_name": "pîšôn",
+   "first_mention_verse": "GEN.2.11"
+  },
+  {
+   "entity_id": "loc.tigris",
+   "tipnr_id": "Tigris@Gen.2.14-Dan",
+   "entity_type": "LOCATION",
+   "source_script_name": "חִדֶּקֶל",
+   "transliterated_name": "ḥiddeqel",
+   "first_mention_verse": "GEN.2.14"
+  },
+  {
+   "entity_id": "person.adam",
+   "tipnr_id": "Adam@Gen.2.19-Jud",
+   "entity_type": "PERSON",
+   "source_script_name": "אָדָם",
+   "transliterated_name": "ʾādām",
+   "first_mention_verse": "GEN.2.7"
+  },
+  {
+   "entity_id": "person.woman_of_eden",
+   "entity_type": "PERSON",
+   "source_script_name": "אִשָּׁה",
+   "transliterated_name": "ʾiššâ",
+   "first_mention_verse": "GEN.2.22"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_formation",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.marriage",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.naming_by_man",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.sabbath_sanctification",
+   "category": "LITURGICAL_RITUAL"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_2.sabbath",
+   "verse_start": "GEN.2.1",
+   "verse_end": "GEN.2.3",
+   "time": {
+    "anchor": "evt.gen_1.day6_land_life",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.man_formed",
+   "verse_start": "GEN.2.5",
+   "verse_end": "GEN.2.7",
+   "time": {
+    "anchor": "evt.gen_1.day6_humankind",
+    "anchor_point": "START",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.garden_planted",
+   "verse_start": "GEN.2.8",
+   "verse_end": "GEN.2.14",
+   "location_entity_id": "loc.eden",
+   "time": {
+    "anchor": "evt.gen_2.man_formed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tree_of_knowledge",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.tree_of_life",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.assyria",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.cush",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.euphrates",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gihon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.havilah.gen_2_11",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.pishon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.tigris",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.man_placed",
+   "verse_start": "GEN.2.15",
+   "verse_end": "GEN.2.15",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.garden_planted",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.command_trees",
+   "verse_start": "GEN.2.16",
+   "verse_end": "GEN.2.17",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.man_placed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tree_of_knowledge",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.alone_decision",
+   "verse_start": "GEN.2.18",
+   "verse_end": "GEN.2.18",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.command_trees",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.animals_named",
+   "verse_start": "GEN.2.19",
+   "verse_end": "GEN.2.20",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.alone_decision",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.woman_formed",
+   "verse_start": "GEN.2.21",
+   "verse_end": "GEN.2.22",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.animals_named",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_2.man_speaks_one_flesh",
+   "verse_start": "GEN.2.23",
+   "verse_end": "GEN.2.25",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.woman_formed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_2.alone_decision.woman_formed",
+   "cause_event_id": "evt.gen_2.alone_decision",
+   "effect_event_id": "evt.gen_2.woman_formed",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_2.animals_named.woman_formed",
+   "cause_event_id": "evt.gen_2.animals_named",
+   "effect_event_id": "evt.gen_2.woman_formed",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_2.garden_planted.man_placed",
+   "cause_event_id": "evt.gen_2.garden_planted",
+   "effect_event_id": "evt.gen_2.man_placed",
+   "causal_type": "ENABLES",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_2.woman_formed.man_speaks_one_flesh",
+   "cause_event_id": "evt.gen_2.woman_formed",
+   "effect_event_id": "evt.gen_2.man_speaks_one_flesh",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.adam.companionship.1",
+   "entity_id": "person.adam",
+   "category": "TRAIT",
+   "component_key": "companionship",
+   "value_code": "ALONE",
+   "acquired_at_verse": "GEN.2.18",
+   "acquired_in_event": "evt.gen_2.alone_decision",
+   "expired_at_verse": "GEN.2.22",
+   "expired_in_event": "evt.gen_2.woman_formed"
+  },
+  {
+   "component_id": "comp.adam.dwelling.1",
+   "entity_id": "person.adam",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.garden_of_eden",
+   "acquired_at_verse": "GEN.2.15",
+   "acquired_in_event": "evt.gen_2.man_placed"
+  },
+  {
+   "component_id": "comp.adam.life.1",
+   "entity_id": "person.adam",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.2.7",
+   "acquired_in_event": "evt.gen_2.man_formed"
+  },
+  {
+   "component_id": "comp.adam.occupation.1",
+   "entity_id": "person.adam",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "TILLER_AND_KEEPER",
+   "acquired_at_verse": "GEN.2.15",
+   "acquired_in_event": "evt.gen_2.man_placed"
+  },
+  {
+   "component_id": "comp.adam.shame.1",
+   "entity_id": "person.adam",
+   "category": "PSYCH_STATE",
+   "component_key": "shame",
+   "value_code": "UNASHAMED",
+   "acquired_at_verse": "GEN.2.25",
+   "acquired_in_event": "evt.gen_2.man_speaks_one_flesh"
+  },
+  {
+   "component_id": "comp.adam.wife.1",
+   "entity_id": "person.adam",
+   "category": "ALLEGIANCE",
+   "component_key": "wife",
+   "target_entity_id": "person.woman_of_eden",
+   "acquired_at_verse": "GEN.2.22",
+   "acquired_in_event": "evt.gen_2.woman_formed"
+  },
+  {
+   "component_id": "comp.tree_of_knowledge.access.1",
+   "entity_id": "artifact.tree_of_knowledge",
+   "category": "TRAIT",
+   "component_key": "access",
+   "value_code": "FORBIDDEN",
+   "acquired_at_verse": "GEN.2.17",
+   "acquired_in_event": "evt.gen_2.command_trees"
+  },
+  {
+   "component_id": "comp.woman_of_eden.husband.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "ALLEGIANCE",
+   "component_key": "husband",
+   "target_entity_id": "person.adam",
+   "acquired_at_verse": "GEN.2.22",
+   "acquired_in_event": "evt.gen_2.woman_formed"
+  },
+  {
+   "component_id": "comp.woman_of_eden.life.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "LIVING",
+   "acquired_at_verse": "GEN.2.22",
+   "acquired_in_event": "evt.gen_2.woman_formed"
+  },
+  {
+   "component_id": "comp.woman_of_eden.shame.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "PSYCH_STATE",
+   "component_key": "shame",
+   "value_code": "UNASHAMED",
+   "acquired_at_verse": "GEN.2.25",
+   "acquired_in_event": "evt.gen_2.man_speaks_one_flesh"
+  },
+  {
+   "component_id": "comp.yhwh.work.1",
+   "entity_id": "deity.yhwh",
+   "category": "TRAIT",
+   "component_key": "work",
+   "value_code": "RESTED_FROM_WORK",
+   "acquired_at_verse": "GEN.2.2",
+   "acquired_in_event": "evt.gen_2.sabbath"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_2.animals_formed",
+   "system_id": "sys.divine_formation",
+   "event_id": "evt.gen_2.animals_named",
+   "verse_start": "GEN.2.19",
+   "verse_end": "GEN.2.19",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.land_animals",
+    "group.birds"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "from_the_ground"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.animals_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_2.animals_named",
+   "verse_start": "GEN.2.19",
+   "verse_end": "GEN.2.20",
+   "initiator_entity_id": "person.adam",
+   "target_entity_ids": [
+    "group.land_animals",
+    "group.birds"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "authority",
+    "classification"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.first_marriage",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_2.man_speaks_one_flesh",
+   "verse_start": "GEN.2.23",
+   "verse_end": "GEN.2.24",
+   "initiator_entity_id": "person.adam",
+   "target_entity_ids": [
+    "person.woman_of_eden"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "one_flesh",
+    "origin_account"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.man_formed",
+   "system_id": "sys.divine_formation",
+   "event_id": "evt.gen_2.man_formed",
+   "verse_start": "GEN.2.7",
+   "verse_end": "GEN.2.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.adam"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "dust",
+    "breath_of_life"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.sabbath_sanctified",
+   "system_id": "sys.sabbath_sanctification",
+   "event_id": "evt.gen_2.sabbath",
+   "verse_start": "GEN.2.2",
+   "verse_end": "GEN.2.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "tags": [
+    "rest",
+    "blessing",
+    "holy_time"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.tree_prohibition",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_2.command_trees",
+   "verse_start": "GEN.2.16",
+   "verse_end": "GEN.2.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.adam"
+   ],
+   "artifact_entity_ids": [
+    "artifact.tree_of_knowledge"
+   ],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "prohibition",
+    "death_penalty"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_2.woman_built",
+   "system_id": "sys.divine_formation",
+   "event_id": "evt.gen_2.woman_formed",
+   "verse_start": "GEN.2.21",
+   "verse_end": "GEN.2.22",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.adam",
+    "person.woman_of_eden"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "deep_sleep",
+    "rib"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_2.adam_names_animals",
+   "source_entity_id": "person.adam",
+   "target_entity_id": "group.land_animals",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.2.20",
+   "event_id": "evt.gen_2.animals_named"
+  },
+  {
+   "edge_id": "edge.gen_2.adam_names_woman",
+   "source_entity_id": "person.adam",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.2.23",
+   "event_id": "evt.gen_2.man_speaks_one_flesh"
+  },
+  {
+   "edge_id": "edge.gen_2.yhwh_brings_woman_to_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "PRESENTS",
+   "verse_id": "GEN.2.22",
+   "event_id": "evt.gen_2.woman_formed"
+  },
+  {
+   "edge_id": "edge.gen_2.yhwh_builds_woman",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "FORMS",
+   "verse_id": "GEN.2.22",
+   "event_id": "evt.gen_2.woman_formed"
+  },
+  {
+   "edge_id": "edge.gen_2.yhwh_commands_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.2.16",
+   "event_id": "evt.gen_2.command_trees"
+  },
+  {
+   "edge_id": "edge.gen_2.yhwh_forms_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "FORMS",
+   "verse_id": "GEN.2.7",
+   "event_id": "evt.gen_2.man_formed"
+  },
+  {
+   "edge_id": "edge.gen_2.yhwh_places_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "PLACES",
+   "verse_id": "GEN.2.15",
+   "event_id": "evt.gen_2.man_placed"
+  }
+ ]
+}

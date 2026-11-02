@@ -1,0 +1,575 @@
+{
+ "chapter_ref": "GEN.13",
+ "entities": [
+  {
+   "entity_id": "group.herdsmen_of_abram",
+   "entity_type": "GROUP",
+   "source_script_name": "רֹעֵי מִקְנֵה־אַבְרָם",
+   "transliterated_name": "roʿe miqneh ʾAvram",
+   "first_mention_verse": "GEN.13.7"
+  },
+  {
+   "entity_id": "group.herdsmen_of_lot",
+   "entity_type": "GROUP",
+   "source_script_name": "רֹעֵי מִקְנֵה־לוֹט",
+   "transliterated_name": "roʿe miqneh Lot",
+   "first_mention_verse": "GEN.13.7"
+  },
+  {
+   "entity_id": "group.men_of_sodom",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי סְדֹם",
+   "transliterated_name": "ʾanshe Sedom",
+   "first_mention_verse": "GEN.13.13"
+  },
+  {
+   "entity_id": "group.perizzites",
+   "tipnr_id": "Perizzites@Gen.13.7-Neh",
+   "entity_type": "GROUP",
+   "source_script_name": "הַפְּרִזִּי",
+   "transliterated_name": "happerizzi",
+   "first_mention_verse": "GEN.13.7"
+  },
+  {
+   "entity_id": "loc.gomorrah",
+   "tipnr_id": "Gomorrah@Gen.10.19-Jud",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֲמֹרָה",
+   "transliterated_name": "ʿAmorah",
+   "first_mention_verse": "GEN.13.10"
+  },
+  {
+   "entity_id": "loc.hebron",
+   "tipnr_id": "Hebron@Gen.13.18-Neh",
+   "entity_type": "LOCATION",
+   "source_script_name": "חֶבְרוֹן",
+   "transliterated_name": "Ḥevron",
+   "first_mention_verse": "GEN.13.18"
+  },
+  {
+   "entity_id": "loc.sodom",
+   "tipnr_id": "Sodom@Gen.10.19-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "סְדֹם",
+   "transliterated_name": "Sedom",
+   "first_mention_verse": "GEN.13.10"
+  },
+  {
+   "entity_id": "loc.zoar",
+   "tipnr_id": "Zoar@Gen.13.10-Jer",
+   "entity_type": "LOCATION",
+   "source_script_name": "צֹעַר",
+   "transliterated_name": "Tsoʿar",
+   "first_mention_verse": "GEN.13.10"
+  }
+ ],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_13.ascent_from_egypt",
+   "verse_start": "GEN.13.1",
+   "verse_end": "GEN.13.3",
+   "location_entity_id": "loc.negeb",
+   "time": {
+    "anchor": "evt.gen_12.pharaoh_sends_away",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.ai",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.negeb",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.altar_worship_bethel",
+   "verse_start": "GEN.13.4",
+   "verse_end": "GEN.13.4",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_13.ascent_from_egypt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.herdsmen_strife",
+   "verse_start": "GEN.13.5",
+   "verse_end": "GEN.13.7",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_13.altar_worship_bethel",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.canaanites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.herdsmen_of_abram",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.herdsmen_of_lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.perizzites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.separation_proposal",
+   "verse_start": "GEN.13.8",
+   "verse_end": "GEN.13.9",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_13.herdsmen_strife",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.lot_chooses_plain",
+   "verse_start": "GEN.13.10",
+   "verse_end": "GEN.13.11",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_13.separation_proposal",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.jordan",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.zoar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.lot_settles_by_sodom",
+   "verse_start": "GEN.13.12",
+   "verse_end": "GEN.13.13",
+   "location_entity_id": "loc.sodom",
+   "time": {
+    "anchor": "evt.gen_13.lot_chooses_plain",
+    "anchor_point": "END",
+    "offset": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.men_of_sodom",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.promise_to_abram",
+   "verse_start": "GEN.13.14",
+   "verse_end": "GEN.13.17",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_13.lot_chooses_plain",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_13.settles_at_mamre",
+   "verse_start": "GEN.13.18",
+   "verse_end": "GEN.13.18",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_13.promise_to_abram",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.hebron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_13.herdsmen_strife.separation_proposal",
+   "cause_event_id": "evt.gen_13.herdsmen_strife",
+   "effect_event_id": "evt.gen_13.separation_proposal",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_13.lot_chooses_plain.promise_to_abram",
+   "cause_event_id": "evt.gen_13.lot_chooses_plain",
+   "effect_event_id": "evt.gen_13.promise_to_abram",
+   "causal_type": "ENABLES",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_13.separation_proposal.lot_chooses_plain",
+   "cause_event_id": "evt.gen_13.separation_proposal",
+   "effect_event_id": "evt.gen_13.lot_chooses_plain",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.dwelling.3",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.13.12",
+   "acquired_in_event": "evt.gen_13.lot_settles_by_sodom",
+   "expired_at_verse": "GEN.13.18",
+   "expired_in_event": "evt.gen_13.settles_at_mamre"
+  },
+  {
+   "component_id": "comp.abraham.dwelling.4",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.mamre",
+   "supersedes_component_id": "comp.abraham.dwelling.3",
+   "acquired_at_verse": "GEN.13.18",
+   "acquired_in_event": "evt.gen_13.settles_at_mamre"
+  },
+  {
+   "component_id": "comp.abraham.offspring_promise.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "offspring_promise",
+   "value_code": "SEED_LIKE_DUST",
+   "acquired_at_verse": "GEN.13.16",
+   "acquired_in_event": "evt.gen_13.promise_to_abram"
+  },
+  {
+   "component_id": "comp.lot.dwelling.1",
+   "entity_id": "person.lot",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.sodom",
+   "acquired_at_verse": "GEN.13.12",
+   "acquired_in_event": "evt.gen_13.lot_settles_by_sodom"
+  },
+  {
+   "component_id": "comp.lot.wealth.1",
+   "entity_id": "person.lot",
+   "category": "TRAIT",
+   "component_key": "wealth",
+   "value_code": "FLOCKS_HERDS_TENTS",
+   "acquired_at_verse": "GEN.13.5",
+   "acquired_in_event": "evt.gen_13.herdsmen_strife"
+  },
+  {
+   "component_id": "comp.men_of_sodom.moral_state.1",
+   "entity_id": "group.men_of_sodom",
+   "category": "TRAIT",
+   "component_key": "moral_state",
+   "value_code": "WICKED_SINNERS",
+   "acquired_at_verse": "GEN.13.13",
+   "acquired_in_event": "evt.gen_13.lot_settles_by_sodom"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.lot.travels_with.1",
+   "expired_at_verse": "GEN.13.11",
+   "expired_in_event": "evt.gen_13.lot_chooses_plain"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_13.altar_at_mamre",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_13.settles_at_mamre",
+   "verse_start": "GEN.13.18",
+   "verse_end": "GEN.13.18",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "altar",
+    "settlement"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_13.invoking_at_bethel",
+   "system_id": "sys.invoking_the_name",
+   "event_id": "evt.gen_13.altar_worship_bethel",
+   "verse_start": "GEN.13.4",
+   "verse_end": "GEN.13.4",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "altar",
+    "return",
+    "worship"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_13.promise_of_land",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_13.promise_to_abram",
+   "verse_start": "GEN.13.14",
+   "verse_end": "GEN.13.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "land",
+    "offspring",
+    "after_separation"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_13.abram_proposes_parting",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.lot",
+   "interaction_type": "PROPOSES_SEPARATION",
+   "verse_id": "GEN.13.9",
+   "event_id": "evt.gen_13.separation_proposal"
+  },
+  {
+   "edge_id": "edge.gen_13.lot_chooses_plain",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "loc.jordan",
+   "interaction_type": "CHOOSES",
+   "verse_id": "GEN.13.11",
+   "event_id": "evt.gen_13.lot_chooses_plain"
+  },
+  {
+   "edge_id": "edge.gen_13.yhwh_commands_walk",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.13.17",
+   "event_id": "evt.gen_13.promise_to_abram"
+  },
+  {
+   "edge_id": "edge.gen_13.yhwh_promises_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.13.15",
+   "event_id": "evt.gen_13.promise_to_abram"
+  }
+ ]
+}

@@ -1,0 +1,1289 @@
+{
+ "chapter_ref": "GEN.29",
+ "entities": [
+  {
+   "entity_id": "artifact.well_stone",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הָאֶבֶן",
+   "transliterated_name": "hāʾeven",
+   "first_mention_verse": "GEN.29.2"
+  },
+  {
+   "entity_id": "group.men_of_the_place",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי הַמָּקוֹם",
+   "transliterated_name": "ʾanšê hammāqôm",
+   "first_mention_verse": "GEN.29.22"
+  },
+  {
+   "entity_id": "group.shepherds_of_haran",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.29.4"
+  },
+  {
+   "entity_id": "loc.well_of_haran",
+   "entity_type": "LOCATION",
+   "source_script_name": "בְּאֵר",
+   "transliterated_name": "bəʾēr",
+   "first_mention_verse": "GEN.29.2"
+  },
+  {
+   "entity_id": "person.leah",
+   "tipnr_id": "Leah@Gen.29.16-Rut",
+   "entity_type": "PERSON",
+   "source_script_name": "לֵאָה",
+   "transliterated_name": "Lēʾâ",
+   "first_mention_verse": "GEN.29.16"
+  },
+  {
+   "entity_id": "person.levi",
+   "tipnr_id": "Levi@Gen.29.34-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "לֵוִי",
+   "transliterated_name": "Lēwî",
+   "first_mention_verse": "GEN.29.34"
+  },
+  {
+   "entity_id": "person.nahor",
+   "tipnr_id": "Nahor@Gen.11.26-",
+   "entity_type": "PERSON",
+   "source_script_name": "נָחוֹר",
+   "transliterated_name": "Nāḥôr",
+   "first_mention_verse": "GEN.29.5"
+  },
+  {
+   "entity_id": "person.rachel",
+   "tipnr_id": "Rachel@Gen.29.6-Mat",
+   "entity_type": "PERSON",
+   "source_script_name": "רָחֵל",
+   "transliterated_name": "Rāḥēl",
+   "first_mention_verse": "GEN.29.6"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.bridal_maidservant",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.bride_service",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.wedding_feast",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_29.journey_to_haran",
+   "verse_start": "GEN.29.1",
+   "verse_end": "GEN.29.1",
+   "location_entity_id": "loc.land_of_the_east",
+   "time": {
+    "anchor": "anchor.jacob_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 76.83,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 29.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.shepherds_at_well",
+   "verse_start": "GEN.29.2",
+   "verse_end": "GEN.29.8",
+   "location_entity_id": "loc.well_of_haran",
+   "time": {
+    "anchor": "evt.gen_29.journey_to_haran",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.well_stone",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.shepherds_of_haran",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.rachel_arrives",
+   "verse_start": "GEN.29.9",
+   "verse_end": "GEN.29.12",
+   "location_entity_id": "loc.well_of_haran",
+   "time": {
+    "anchor": "evt.gen_29.shepherds_at_well",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.well_stone",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.shepherds_of_haran",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.laban_welcomes",
+   "verse_start": "GEN.29.13",
+   "verse_end": "GEN.29.14",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.rachel_arrives",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.month_stay",
+   "verse_start": "GEN.29.14",
+   "verse_end": "GEN.29.14",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.laban_welcomes",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.wages_bargain",
+   "verse_start": "GEN.29.15",
+   "verse_end": "GEN.29.19",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.month_stay",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.seven_years_service",
+   "verse_start": "GEN.29.20",
+   "verse_end": "GEN.29.20",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.wages_bargain",
+    "anchor_point": "END",
+    "duration": {
+     "value": 7.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.demand_wife",
+   "verse_start": "GEN.29.21",
+   "verse_end": "GEN.29.21",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.seven_years_service",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.wedding_feast",
+   "verse_start": "GEN.29.22",
+   "verse_end": "GEN.29.22",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.demand_wife",
+    "anchor_point": "END",
+    "time_of_day": "12:00",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_the_place",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.leah_wedding_night",
+   "verse_start": "GEN.29.23",
+   "verse_end": "GEN.29.24",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.wedding_feast",
+    "anchor_point": "START",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.morning_discovery",
+   "verse_start": "GEN.29.25",
+   "verse_end": "GEN.29.27",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.leah_wedding_night",
+    "anchor_point": "START",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.rachel_given",
+   "verse_start": "GEN.29.28",
+   "verse_end": "GEN.29.30",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.leah_wedding_night",
+    "anchor_point": "START",
+    "offset": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.bilhah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.second_service",
+   "verse_start": "GEN.29.30",
+   "verse_end": "GEN.29.30",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.rachel_given",
+    "anchor_point": "END",
+    "duration": {
+     "value": 7.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.reuben_born",
+   "verse_start": "GEN.29.31",
+   "verse_end": "GEN.29.32",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.leah_wedding_night",
+    "anchor_point": "START",
+    "offset": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.simeon_born",
+   "verse_start": "GEN.29.33",
+   "verse_end": "GEN.29.33",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.reuben_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 11.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.levi_born",
+   "verse_start": "GEN.29.34",
+   "verse_end": "GEN.29.34",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.simeon_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 11.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_29.judah_born",
+   "verse_start": "GEN.29.35",
+   "verse_end": "GEN.29.35",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_29.levi_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 11.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_29.demand_wife.wedding_feast",
+   "cause_event_id": "evt.gen_29.demand_wife",
+   "effect_event_id": "evt.gen_29.wedding_feast",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_29.leah_wedding_night.morning_discovery",
+   "cause_event_id": "evt.gen_29.leah_wedding_night",
+   "effect_event_id": "evt.gen_29.morning_discovery",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.morning_discovery.rachel_given",
+   "cause_event_id": "evt.gen_29.morning_discovery",
+   "effect_event_id": "evt.gen_29.rachel_given",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_arrives.laban_welcomes",
+   "cause_event_id": "evt.gen_29.rachel_arrives",
+   "effect_event_id": "evt.gen_29.laban_welcomes",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_given.reuben_born",
+   "cause_event_id": "evt.gen_29.rachel_given",
+   "effect_event_id": "evt.gen_29.reuben_born",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_given.second_service",
+   "cause_event_id": "evt.gen_29.rachel_given",
+   "effect_event_id": "evt.gen_29.second_service",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.seven_years_service.demand_wife",
+   "cause_event_id": "evt.gen_29.seven_years_service",
+   "effect_event_id": "evt.gen_29.demand_wife",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.wages_bargain.seven_years_service",
+   "cause_event_id": "evt.gen_29.wages_bargain",
+   "effect_event_id": "evt.gen_29.seven_years_service",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_29.wedding_feast.leah_wedding_night",
+   "cause_event_id": "evt.gen_29.wedding_feast",
+   "effect_event_id": "evt.gen_29.leah_wedding_night",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.bilhah.serves.1",
+   "entity_id": "person.bilhah",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.rachel",
+   "acquired_at_verse": "GEN.29.29",
+   "acquired_in_event": "evt.gen_29.rachel_given"
+  },
+  {
+   "component_id": "comp.israel.beloved.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "beloved",
+   "target_entity_id": "person.rachel",
+   "acquired_at_verse": "GEN.29.18",
+   "acquired_in_event": "evt.gen_29.wages_bargain"
+  },
+  {
+   "component_id": "comp.israel.serves.1",
+   "entity_id": "person.israel",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.laban",
+   "acquired_at_verse": "GEN.29.20",
+   "acquired_in_event": "evt.gen_29.seven_years_service"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.2",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.haran",
+   "supersedes_component_id": "comp.israel.whereabouts.1",
+   "acquired_at_verse": "GEN.29.4",
+   "acquired_in_event": "evt.gen_29.shepherds_at_well"
+  },
+  {
+   "component_id": "comp.leah.fertility.1",
+   "entity_id": "person.leah",
+   "category": "TRAIT",
+   "component_key": "fertility",
+   "value_code": "WOMB_OPENED",
+   "acquired_at_verse": "GEN.29.31",
+   "acquired_in_event": "evt.gen_29.reuben_born",
+   "expired_at_verse": "GEN.29.35",
+   "expired_in_event": "evt.gen_29.judah_born"
+  },
+  {
+   "component_id": "comp.leah.fertility.2",
+   "entity_id": "person.leah",
+   "category": "TRAIT",
+   "component_key": "fertility",
+   "value_code": "CEASED_BEARING",
+   "supersedes_component_id": "comp.leah.fertility.1",
+   "acquired_at_verse": "GEN.29.35",
+   "acquired_in_event": "evt.gen_29.judah_born"
+  },
+  {
+   "component_id": "comp.leah.husband.1",
+   "entity_id": "person.leah",
+   "category": "ALLEGIANCE",
+   "component_key": "husband",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.29.23",
+   "acquired_in_event": "evt.gen_29.leah_wedding_night"
+  },
+  {
+   "component_id": "comp.leah.standing.1",
+   "entity_id": "person.leah",
+   "category": "PSYCH_STATE",
+   "component_key": "standing",
+   "value_code": "HATED",
+   "acquired_at_verse": "GEN.29.31",
+   "acquired_in_event": "evt.gen_29.reuben_born"
+  },
+  {
+   "component_id": "comp.rachel.fertility.1",
+   "entity_id": "person.rachel",
+   "category": "TRAIT",
+   "component_key": "fertility",
+   "value_code": "BARREN",
+   "acquired_at_verse": "GEN.29.31",
+   "acquired_in_event": "evt.gen_29.reuben_born"
+  },
+  {
+   "component_id": "comp.rachel.husband.1",
+   "entity_id": "person.rachel",
+   "category": "ALLEGIANCE",
+   "component_key": "husband",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.29.28",
+   "acquired_in_event": "evt.gen_29.rachel_given"
+  },
+  {
+   "component_id": "comp.zilpah.serves.1",
+   "entity_id": "person.zilpah",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.leah",
+   "acquired_at_verse": "GEN.29.24",
+   "acquired_in_event": "evt.gen_29.leah_wedding_night"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.whereabouts.1",
+   "expired_at_verse": "GEN.29.4",
+   "expired_in_event": "evt.gen_29.shepherds_at_well"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_29.bilhah_given",
+   "system_id": "sys.bridal_maidservant",
+   "event_id": "evt.gen_29.rachel_given",
+   "verse_start": "GEN.29.29",
+   "verse_end": "GEN.29.29",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.rachel",
+    "person.bilhah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "maidservant"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.judah_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_29.judah_born",
+   "verse_start": "GEN.29.35",
+   "verse_end": "GEN.29.35",
+   "initiator_entity_id": "person.leah",
+   "target_entity_ids": [
+    "person.judah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "wordplay",
+    "praise"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.leah_substituted",
+   "system_id": "sys.deceptive_impersonation",
+   "event_id": "evt.gen_29.leah_wedding_night",
+   "verse_start": "GEN.29.23",
+   "verse_end": "GEN.29.24",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.israel",
+    "person.leah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "substitution",
+    "bride"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.levi_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_29.levi_born",
+   "verse_start": "GEN.29.34",
+   "verse_end": "GEN.29.34",
+   "initiator_entity_id": "person.leah",
+   "target_entity_ids": [
+    "person.levi"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "wordplay",
+    "joining"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.marriage_leah",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_29.leah_wedding_night",
+   "verse_start": "GEN.29.23",
+   "verse_end": "GEN.29.23",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.israel",
+    "person.leah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "first_wife"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.marriage_rachel",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_29.rachel_given",
+   "verse_start": "GEN.29.28",
+   "verse_end": "GEN.29.28",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.israel",
+    "person.rachel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "second_wife",
+    "after_leahs_week"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.reuben_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_29.reuben_born",
+   "verse_start": "GEN.29.32",
+   "verse_end": "GEN.29.32",
+   "initiator_entity_id": "person.leah",
+   "target_entity_ids": [
+    "person.reuben"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "wordplay",
+    "affliction"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.second_service",
+   "system_id": "sys.bride_service",
+   "event_id": "evt.gen_29.second_service",
+   "verse_start": "GEN.29.30",
+   "verse_end": "GEN.29.30",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.laban",
+    "person.rachel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "seven_years",
+    "second_term"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.service_for_rachel",
+   "system_id": "sys.bride_service",
+   "event_id": "evt.gen_29.seven_years_service",
+   "verse_start": "GEN.29.20",
+   "verse_end": "GEN.29.20",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.laban",
+    "person.rachel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "seven_years",
+    "love"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.simeon_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_29.simeon_born",
+   "verse_start": "GEN.29.33",
+   "verse_end": "GEN.29.33",
+   "initiator_entity_id": "person.leah",
+   "target_entity_ids": [
+    "person.simeon"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "wordplay",
+    "hearing"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.wedding_feast",
+   "system_id": "sys.wedding_feast",
+   "event_id": "evt.gen_29.wedding_feast",
+   "verse_start": "GEN.29.22",
+   "verse_end": "GEN.29.22",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "group.men_of_the_place"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "feast",
+    "guests"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.womb_opened",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_29.reuben_born",
+   "verse_start": "GEN.29.31",
+   "verse_end": "GEN.29.31",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.leah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "womb_opened",
+    "unloved_wife"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_29.zilpah_given",
+   "system_id": "sys.bridal_maidservant",
+   "event_id": "evt.gen_29.leah_wedding_night",
+   "verse_start": "GEN.29.24",
+   "verse_end": "GEN.29.24",
+   "initiator_entity_id": "person.laban",
+   "target_entity_ids": [
+    "person.leah",
+    "person.zilpah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "maidservant"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_29.jacob_confronts_laban",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "CONFRONTS",
+   "verse_id": "GEN.29.25",
+   "event_id": "evt.gen_29.morning_discovery"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_demands_wife",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "DEMANDS",
+   "verse_id": "GEN.29.21",
+   "event_id": "evt.gen_29.demand_wife"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_kisses_rachel",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "KISSES",
+   "verse_id": "GEN.29.11",
+   "event_id": "evt.gen_29.rachel_arrives"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_loves_rachel",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "LOVES",
+   "verse_id": "GEN.29.18",
+   "event_id": "evt.gen_29.wages_bargain"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_offers_service",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.laban",
+   "interaction_type": "PROPOSES",
+   "verse_id": "GEN.29.18",
+   "event_id": "evt.gen_29.wages_bargain"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_tells_rachel",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.29.12",
+   "event_id": "evt.gen_29.rachel_arrives"
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_waters_flock",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "AIDS",
+   "verse_id": "GEN.29.10",
+   "event_id": "evt.gen_29.rachel_arrives"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_accepts",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "AGREES_WITH",
+   "verse_id": "GEN.29.19",
+   "event_id": "evt.gen_29.wages_bargain"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_asks_wages",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "OFFERS_WAGES",
+   "verse_id": "GEN.29.15",
+   "event_id": "evt.gen_29.wages_bargain"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_deceives_jacob",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.29.23",
+   "event_id": "evt.gen_29.leah_wedding_night"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_embraces_jacob",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "EMBRACES",
+   "verse_id": "GEN.29.13",
+   "event_id": "evt.gen_29.laban_welcomes"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_excuses_himself",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.israel",
+   "interaction_type": "ANSWERS",
+   "verse_id": "GEN.29.26",
+   "event_id": "evt.gen_29.morning_discovery"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_bilhah",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.bilhah",
+   "interaction_type": "GIVES",
+   "verse_id": "GEN.29.29",
+   "event_id": "evt.gen_29.rachel_given"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_rachel",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "GIVES",
+   "verse_id": "GEN.29.28",
+   "event_id": "evt.gen_29.rachel_given"
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_zilpah",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.zilpah",
+   "interaction_type": "GIVES",
+   "verse_id": "GEN.29.24",
+   "event_id": "evt.gen_29.leah_wedding_night"
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_judah",
+   "source_entity_id": "person.leah",
+   "target_entity_id": "person.judah",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.29.35",
+   "event_id": "evt.gen_29.judah_born"
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_levi",
+   "source_entity_id": "person.leah",
+   "target_entity_id": "person.levi",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.29.34",
+   "event_id": "evt.gen_29.levi_born"
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_reuben",
+   "source_entity_id": "person.leah",
+   "target_entity_id": "person.reuben",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.29.32",
+   "event_id": "evt.gen_29.reuben_born"
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_simeon",
+   "source_entity_id": "person.leah",
+   "target_entity_id": "person.simeon",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.29.33",
+   "event_id": "evt.gen_29.simeon_born"
+  },
+  {
+   "edge_id": "edge.gen_29.leah_praises_yhwh",
+   "source_entity_id": "person.leah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAISES",
+   "verse_id": "GEN.29.35",
+   "event_id": "evt.gen_29.judah_born"
+  },
+  {
+   "edge_id": "edge.gen_29.yhwh_hears_leah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.leah",
+   "interaction_type": "HEARS",
+   "verse_id": "GEN.29.33",
+   "event_id": "evt.gen_29.simeon_born"
+  },
+  {
+   "edge_id": "edge.gen_29.yhwh_sees_leah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.leah",
+   "interaction_type": "OPENS_WOMB",
+   "verse_id": "GEN.29.31",
+   "event_id": "evt.gen_29.reuben_born"
+  }
+ ]
+}

@@ -1,0 +1,1000 @@
+{
+ "chapter_ref": "GEN.8",
+ "entities": [
+  {
+   "entity_id": "artifact.altar_of_noah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מִזְבֵּחַ",
+   "transliterated_name": "mizbēaḥ",
+   "first_mention_verse": "GEN.8.20"
+  },
+  {
+   "entity_id": "artifact.olive_leaf_of_dove",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "עֲלֵה־זַיִת",
+   "transliterated_name": "ʿălēh-zayit",
+   "first_mention_verse": "GEN.8.11"
+  },
+  {
+   "entity_id": "group.dove_of_noah",
+   "entity_type": "GROUP",
+   "source_script_name": "יוֹנָה",
+   "transliterated_name": "yônâ",
+   "first_mention_verse": "GEN.8.8"
+  },
+  {
+   "entity_id": "group.raven_of_noah",
+   "entity_type": "GROUP",
+   "source_script_name": "עֹרֵב",
+   "transliterated_name": "ʿōrēb",
+   "first_mention_verse": "GEN.8.7"
+  },
+  {
+   "entity_id": "loc.ararat",
+   "tipnr_id": "Ararat@Gen.8.4-Jer",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֲרָרָט",
+   "transliterated_name": "ʾĂrārāṭ",
+   "first_mention_verse": "GEN.8.4"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.burnt_offering",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.divine_remembering",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.scouting_by_birds",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_8.god_remembers_noah",
+   "verse_start": "GEN.8.1",
+   "verse_end": "GEN.8.2",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.waters_prevail",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.waters_recede",
+   "verse_start": "GEN.8.3",
+   "verse_end": "GEN.8.5",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_8.god_remembers_noah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 74.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.ark_rests_on_ararat",
+   "verse_start": "GEN.8.4",
+   "verse_end": "GEN.8.4",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.god_remembers_noah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.ararat",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.mountain_tops_seen",
+   "verse_start": "GEN.8.5",
+   "verse_end": "GEN.8.5",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_8.ark_rests_on_ararat",
+    "anchor_point": "START",
+    "offset": {
+     "value": 74.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.noah_opens_window",
+   "verse_start": "GEN.8.6",
+   "verse_end": "GEN.8.6",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.mountain_tops_seen",
+    "anchor_point": "START",
+    "offset": {
+     "value": 40.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.raven_sent",
+   "verse_start": "GEN.8.7",
+   "verse_end": "GEN.8.7",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.noah_opens_window",
+    "anchor_point": "END",
+    "duration": {
+     "value": 50.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.raven_of_noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.dove_first_flight",
+   "verse_start": "GEN.8.8",
+   "verse_end": "GEN.8.9",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.raven_sent",
+    "anchor_point": "START",
+    "offset": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 8.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.dove_of_noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.dove_returns_with_olive",
+   "verse_start": "GEN.8.10",
+   "verse_end": "GEN.8.11",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.dove_first_flight",
+    "anchor_point": "START",
+    "offset": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 8.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "artifact.olive_leaf_of_dove",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.dove_of_noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.dove_does_not_return",
+   "verse_start": "GEN.8.12",
+   "verse_end": "GEN.8.12",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.dove_returns_with_olive",
+    "anchor_point": "START",
+    "offset": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.dove_of_noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.noah_removes_covering",
+   "verse_start": "GEN.8.13",
+   "verse_end": "GEN.8.13",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_7.waters_prevail",
+    "anchor_point": "START",
+    "offset": {
+     "value": 314.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.earth_dry",
+   "verse_start": "GEN.8.14",
+   "verse_end": "GEN.8.14",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_8.noah_removes_covering",
+    "anchor_point": "START",
+    "offset": {
+     "value": 56.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.god_commands_exit",
+   "verse_start": "GEN.8.15",
+   "verse_end": "GEN.8.17",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.earth_dry",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.wives_of_noahs_sons",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noahs_wife",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.noah_leaves_ark",
+   "verse_start": "GEN.8.18",
+   "verse_end": "GEN.8.19",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.god_commands_exit",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.wives_of_noahs_sons",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noahs_wife",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.noah_offers_burnt_offerings",
+   "verse_start": "GEN.8.20",
+   "verse_end": "GEN.8.20",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.noah_leaves_ark",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.altar_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_8.yhwh_resolves_no_more_curse",
+   "verse_start": "GEN.8.21",
+   "verse_end": "GEN.8.22",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.noah_offers_burnt_offerings",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.altar_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.ground",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_8.god_commands_exit.noah_leaves_ark",
+   "cause_event_id": "evt.gen_8.god_commands_exit",
+   "effect_event_id": "evt.gen_8.noah_leaves_ark",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_8.god_remembers_noah.waters_recede",
+   "cause_event_id": "evt.gen_8.god_remembers_noah",
+   "effect_event_id": "evt.gen_8.waters_recede",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_8.noah_offers_burnt_offerings.yhwh_resolves_no_more_curse",
+   "cause_event_id": "evt.gen_8.noah_offers_burnt_offerings",
+   "effect_event_id": "evt.gen_8.yhwh_resolves_no_more_curse",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.altar_of_noah.dedication.1",
+   "entity_id": "artifact.altar_of_noah",
+   "category": "ALLEGIANCE",
+   "component_key": "dedicated_to",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.8.20",
+   "acquired_in_event": "evt.gen_8.noah_offers_burnt_offerings"
+  },
+  {
+   "component_id": "comp.ark_of_noah.position.2",
+   "entity_id": "artifact.ark_of_noah",
+   "category": "LOCATION_STATE",
+   "component_key": "position",
+   "target_entity_id": "loc.ararat",
+   "supersedes_component_id": "comp.ark_of_noah.position.1",
+   "acquired_at_verse": "GEN.8.4",
+   "acquired_in_event": "evt.gen_8.ark_rests_on_ararat"
+  },
+  {
+   "component_id": "comp.dove_of_noah.whereabouts.1",
+   "entity_id": "group.dove_of_noah",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "value_code": "AWAY_FROM_ARK",
+   "acquired_at_verse": "GEN.8.12",
+   "acquired_in_event": "evt.gen_8.dove_does_not_return"
+  },
+  {
+   "component_id": "comp.earth.condition.4",
+   "entity_id": "loc.earth",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "DRY",
+   "supersedes_component_id": "comp.earth.condition.3",
+   "acquired_at_verse": "GEN.8.14",
+   "acquired_in_event": "evt.gen_8.earth_dry"
+  },
+  {
+   "component_id": "comp.noah.whereabouts.2",
+   "entity_id": "person.noah",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.ararat",
+   "supersedes_component_id": "comp.noah.whereabouts.1",
+   "acquired_at_verse": "GEN.8.18",
+   "acquired_in_event": "evt.gen_8.noah_leaves_ark"
+  },
+  {
+   "component_id": "comp.yhwh.mood.2",
+   "entity_id": "deity.yhwh",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "APPEASED",
+   "supersedes_component_id": "comp.yhwh.mood.1",
+   "acquired_at_verse": "GEN.8.21",
+   "acquired_in_event": "evt.gen_8.yhwh_resolves_no_more_curse"
+  },
+  {
+   "component_id": "comp.yhwh.resolve.1",
+   "entity_id": "deity.yhwh",
+   "category": "TRAIT",
+   "component_key": "resolve",
+   "value_code": "NO_MORE_CURSE_OR_FLOOD",
+   "acquired_at_verse": "GEN.8.21",
+   "acquired_in_event": "evt.gen_8.yhwh_resolves_no_more_curse"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.ark_of_noah.position.1",
+   "expired_at_verse": "GEN.8.4",
+   "expired_in_event": "evt.gen_8.ark_rests_on_ararat"
+  },
+  {
+   "component_id": "comp.earth.condition.3",
+   "expired_at_verse": "GEN.8.14",
+   "expired_in_event": "evt.gen_8.earth_dry"
+  },
+  {
+   "component_id": "comp.noah.whereabouts.1",
+   "expired_at_verse": "GEN.8.18",
+   "expired_in_event": "evt.gen_8.noah_leaves_ark"
+  },
+  {
+   "component_id": "comp.yhwh.mood.1",
+   "expired_at_verse": "GEN.8.21",
+   "expired_in_event": "evt.gen_8.yhwh_resolves_no_more_curse"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_8.altar_built",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_8.noah_offers_burnt_offerings",
+   "verse_start": "GEN.8.20",
+   "verse_end": "GEN.8.20",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "artifact.altar_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "first_altar_after_flood"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.burnt_offering_made",
+   "system_id": "sys.burnt_offering",
+   "event_id": "evt.gen_8.noah_offers_burnt_offerings",
+   "verse_start": "GEN.8.20",
+   "verse_end": "GEN.8.20",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "artifact.altar_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "clean_animals",
+    "clean_birds",
+    "pleasing_aroma"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.clean_animals_offered",
+   "system_id": "sys.clean_and_unclean_animals",
+   "event_id": "evt.gen_8.noah_offers_burnt_offerings",
+   "verse_start": "GEN.8.20",
+   "verse_end": "GEN.8.20",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "group.animals_in_ark"
+   ],
+   "artifact_entity_ids": [
+    "artifact.altar_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "clean_animals"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.dove_scouting_first",
+   "system_id": "sys.scouting_by_birds",
+   "event_id": "evt.gen_8.dove_first_flight",
+   "verse_start": "GEN.8.8",
+   "verse_end": "GEN.8.9",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "group.dove_of_noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "dove",
+    "no_resting_place"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.dove_scouting_second",
+   "system_id": "sys.scouting_by_birds",
+   "event_id": "evt.gen_8.dove_returns_with_olive",
+   "verse_start": "GEN.8.10",
+   "verse_end": "GEN.8.11",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "group.dove_of_noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah",
+    "artifact.olive_leaf_of_dove"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "dove",
+    "olive_leaf"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.dove_scouting_third",
+   "system_id": "sys.scouting_by_birds",
+   "event_id": "evt.gen_8.dove_does_not_return",
+   "verse_start": "GEN.8.12",
+   "verse_end": "GEN.8.12",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "group.dove_of_noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "dove",
+    "dry_land"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.exit_command",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_8.god_commands_exit",
+   "verse_start": "GEN.8.15",
+   "verse_end": "GEN.8.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "leave_ark",
+    "be_fruitful"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.god_remembers_noah",
+   "system_id": "sys.divine_remembering",
+   "event_id": "evt.gen_8.god_remembers_noah",
+   "verse_start": "GEN.8.1",
+   "verse_end": "GEN.8.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah",
+    "group.animals_in_ark",
+    "substance.floodwaters"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "wind",
+    "flood_ends"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.no_more_curse_decree",
+   "system_id": "sys.divine_decree",
+   "event_id": "evt.gen_8.yhwh_resolves_no_more_curse",
+   "verse_start": "GEN.8.21",
+   "verse_end": "GEN.8.22",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind",
+    "loc.ground",
+    "loc.earth"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "no_more_flood",
+    "seasons_fixed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_8.raven_scouting",
+   "system_id": "sys.scouting_by_birds",
+   "event_id": "evt.gen_8.raven_sent",
+   "verse_start": "GEN.8.7",
+   "verse_end": "GEN.8.7",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "group.raven_of_noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "raven",
+    "no_report"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_8.god_commands_noah_out",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.8.16",
+   "event_id": "evt.gen_8.god_commands_exit"
+  },
+  {
+   "edge_id": "edge.gen_8.god_remembers_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "REMEMBERS",
+   "verse_id": "GEN.8.1",
+   "event_id": "evt.gen_8.god_remembers_noah"
+  },
+  {
+   "edge_id": "edge.gen_8.noah_offers_to_yhwh",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "WORSHIPS",
+   "verse_id": "GEN.8.20",
+   "event_id": "evt.gen_8.noah_offers_burnt_offerings"
+  },
+  {
+   "edge_id": "edge.gen_8.noah_sends_dove",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "group.dove_of_noah",
+   "interaction_type": "SENDS",
+   "verse_id": "GEN.8.8",
+   "event_id": "evt.gen_8.dove_first_flight"
+  },
+  {
+   "edge_id": "edge.gen_8.noah_sends_raven",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "group.raven_of_noah",
+   "interaction_type": "SENDS",
+   "verse_id": "GEN.8.7",
+   "event_id": "evt.gen_8.raven_sent"
+  },
+  {
+   "edge_id": "edge.gen_8.noah_takes_in_dove",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "group.dove_of_noah",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.8.9",
+   "event_id": "evt.gen_8.dove_first_flight"
+  },
+  {
+   "edge_id": "edge.gen_8.yhwh_spares_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "SPARES",
+   "verse_id": "GEN.8.21",
+   "event_id": "evt.gen_8.yhwh_resolves_no_more_curse"
+  }
+ ]
+}

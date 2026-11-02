@@ -1,0 +1,900 @@
+{
+ "chapter_ref": "GEN.12",
+ "entities": [
+  {
+   "entity_id": "group.canaanites",
+   "entity_type": "GROUP",
+   "source_script_name": "הַכְּנַעֲנִי",
+   "transliterated_name": "hak-Kenaʿănî",
+   "first_mention_verse": "GEN.12.6"
+  },
+  {
+   "entity_id": "group.egyptians",
+   "entity_type": "GROUP",
+   "source_script_name": "הַמִּצְרִים",
+   "transliterated_name": "ham-Miṣrîm",
+   "first_mention_verse": "GEN.12.12"
+  },
+  {
+   "entity_id": "group.men_of_pharaoh",
+   "entity_type": "GROUP",
+   "source_script_name": "אֲנָשִׁים",
+   "transliterated_name": "ʾănāšîm",
+   "first_mention_verse": "GEN.12.20"
+  },
+  {
+   "entity_id": "group.officials_of_pharaoh",
+   "entity_type": "GROUP",
+   "source_script_name": "שָׂרֵי פַרְעֹה",
+   "transliterated_name": "śārê Parʿōh",
+   "first_mention_verse": "GEN.12.15"
+  },
+  {
+   "entity_id": "loc.ai",
+   "tipnr_id": "Ai@Gen.12.8-Isa",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָעַי",
+   "transliterated_name": "hā-ʿAy",
+   "first_mention_verse": "GEN.12.8"
+  },
+  {
+   "entity_id": "loc.bethel",
+   "tipnr_id": "Bethel@Gen.12.8-Zec",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית־אֵל",
+   "transliterated_name": "Bêt-ʾēl",
+   "first_mention_verse": "GEN.12.8"
+  },
+  {
+   "entity_id": "loc.haran",
+   "tipnr_id": "Haran@Gen.11.31-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "חָרָן",
+   "transliterated_name": "Ḥārān",
+   "first_mention_verse": "GEN.12.4"
+  },
+  {
+   "entity_id": "loc.moreh",
+   "tipnr_id": "Moreh@Gen.12.6-Deu",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֵלוֹן מוֹרֶה",
+   "transliterated_name": "ʾēlôn Môreh",
+   "first_mention_verse": "GEN.12.6"
+  },
+  {
+   "entity_id": "loc.negeb",
+   "tipnr_id": "Negeb@Gen.12.9-Zec",
+   "entity_type": "LOCATION",
+   "source_script_name": "נֶגֶב",
+   "transliterated_name": "Negeb",
+   "first_mention_verse": "GEN.12.9"
+  },
+  {
+   "entity_id": "person.abraham",
+   "tipnr_id": "Abraham@Gen.11.26-1Pe",
+   "entity_type": "PERSON",
+   "source_script_name": "אַבְרָם",
+   "transliterated_name": "ʾAbrām",
+   "first_mention_verse": "GEN.12.1"
+  },
+  {
+   "entity_id": "person.lot",
+   "tipnr_id": "Lot@Gen.11.27-2Pe",
+   "entity_type": "PERSON",
+   "source_script_name": "לוֹט",
+   "transliterated_name": "Lōṭ",
+   "first_mention_verse": "GEN.12.4"
+  },
+  {
+   "entity_id": "person.pharaoh.gen_12_15",
+   "tipnr_id": "Pharaoh@Gen.12.15-",
+   "entity_type": "PERSON",
+   "source_script_name": "פַּרְעֹה",
+   "transliterated_name": "Parʿōh",
+   "first_mention_verse": "GEN.12.15"
+  },
+  {
+   "entity_id": "person.sarah",
+   "tipnr_id": "Sarah@Gen.11.29-1Pe",
+   "entity_type": "PERSON",
+   "source_script_name": "שָׂרַי",
+   "transliterated_name": "Śāray",
+   "first_mention_verse": "GEN.12.5"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.altar_building",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.divine_call_and_promise",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.divine_plague",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.invoking_the_name",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.taking_into_royal_house",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.theophanic_appearance",
+   "category": "THEOPHANY"
+  },
+  {
+   "system_id": "sys.wife_passed_as_sister",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_12.call_of_abram",
+   "verse_start": "GEN.12.1",
+   "verse_end": "GEN.12.3",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "anchor.abraham_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 75.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.journey_to_canaan",
+   "verse_start": "GEN.12.4",
+   "verse_end": "GEN.12.6",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_12.call_of_abram",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 24.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.canaanites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.moreh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.shechem",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.promise_at_shechem",
+   "verse_start": "GEN.12.7",
+   "verse_end": "GEN.12.7",
+   "location_entity_id": "loc.shechem",
+   "time": {
+    "anchor": "evt.gen_12.journey_to_canaan",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.altar_at_bethel",
+   "verse_start": "GEN.12.8",
+   "verse_end": "GEN.12.8",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_12.promise_at_shechem",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.ai",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.journey_to_negeb",
+   "verse_start": "GEN.12.9",
+   "verse_end": "GEN.12.9",
+   "location_entity_id": "loc.negeb",
+   "time": {
+    "anchor": "evt.gen_12.altar_at_bethel",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.descent_to_egypt",
+   "verse_start": "GEN.12.10",
+   "verse_end": "GEN.12.10",
+   "location_entity_id": "loc.negeb",
+   "time": {
+    "anchor": "evt.gen_12.journey_to_negeb",
+    "anchor_point": "END",
+    "duration": {
+     "value": 14.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.sister_plan",
+   "verse_start": "GEN.12.11",
+   "verse_end": "GEN.12.13",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_12.descent_to_egypt",
+    "anchor_point": "START",
+    "offset": {
+     "value": 13.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.sarai_taken",
+   "verse_start": "GEN.12.14",
+   "verse_end": "GEN.12.15",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_12.descent_to_egypt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.officials_of_pharaoh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_12_15",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.abram_enriched",
+   "verse_start": "GEN.12.16",
+   "verse_end": "GEN.12.16",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_12.sarai_taken",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_12_15",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.plagues_on_pharaoh",
+   "verse_start": "GEN.12.17",
+   "verse_end": "GEN.12.17",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_12.sarai_taken",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_12_15",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_12.pharaoh_sends_away",
+   "verse_start": "GEN.12.18",
+   "verse_end": "GEN.12.20",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_12.plagues_on_pharaoh",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_pharaoh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_12_15",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_12.call_of_abram.journey_to_canaan",
+   "cause_event_id": "evt.gen_12.call_of_abram",
+   "effect_event_id": "evt.gen_12.journey_to_canaan",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_12.call_of_abram.plagues_on_pharaoh",
+   "cause_event_id": "evt.gen_12.call_of_abram",
+   "effect_event_id": "evt.gen_12.plagues_on_pharaoh",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.5
+  },
+  {
+   "causal_id": "caus.gen_12.call_of_abram.promise_at_shechem",
+   "cause_event_id": "evt.gen_12.call_of_abram",
+   "effect_event_id": "evt.gen_12.promise_at_shechem",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_12.plagues_on_pharaoh.pharaoh_sends_away",
+   "cause_event_id": "evt.gen_12.plagues_on_pharaoh",
+   "effect_event_id": "evt.gen_12.pharaoh_sends_away",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_12.sarai_taken.abram_enriched",
+   "cause_event_id": "evt.gen_12.sarai_taken",
+   "effect_event_id": "evt.gen_12.abram_enriched",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_12.sarai_taken.plagues_on_pharaoh",
+   "cause_event_id": "evt.gen_12.sarai_taken",
+   "effect_event_id": "evt.gen_12.plagues_on_pharaoh",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_12.sister_plan.sarai_taken",
+   "cause_event_id": "evt.gen_12.sister_plan",
+   "effect_event_id": "evt.gen_12.sarai_taken",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.dwelling.1",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.12.5",
+   "acquired_in_event": "evt.gen_12.journey_to_canaan",
+   "expired_at_verse": "GEN.12.10",
+   "expired_in_event": "evt.gen_12.descent_to_egypt"
+  },
+  {
+   "component_id": "comp.abraham.dwelling.2",
+   "entity_id": "person.abraham",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.egypt",
+   "supersedes_component_id": "comp.abraham.dwelling.1",
+   "acquired_at_verse": "GEN.12.10",
+   "acquired_in_event": "evt.gen_12.descent_to_egypt",
+   "expired_at_verse": "GEN.12.20",
+   "expired_in_event": "evt.gen_12.pharaoh_sends_away"
+  },
+  {
+   "component_id": "comp.abraham.promised_land.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "promised_land",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.12.7",
+   "acquired_in_event": "evt.gen_12.promise_at_shechem"
+  },
+  {
+   "component_id": "comp.abraham.wealth.1",
+   "entity_id": "person.abraham",
+   "category": "POSSESSION",
+   "component_key": "wealth",
+   "value_code": "FLOCKS_SERVANTS_CAMELS",
+   "acquired_at_verse": "GEN.12.16",
+   "acquired_in_event": "evt.gen_12.abram_enriched"
+  },
+  {
+   "component_id": "comp.lot.travels_with.1",
+   "entity_id": "person.lot",
+   "category": "ALLEGIANCE",
+   "component_key": "travels_with",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.12.4",
+   "acquired_in_event": "evt.gen_12.journey_to_canaan"
+  },
+  {
+   "component_id": "comp.pharaoh.health.1",
+   "entity_id": "person.pharaoh.gen_12_15",
+   "category": "TRAIT",
+   "component_key": "health",
+   "value_code": "PLAGUED",
+   "acquired_at_verse": "GEN.12.17",
+   "acquired_in_event": "evt.gen_12.plagues_on_pharaoh"
+  },
+  {
+   "component_id": "comp.sarah.household.1",
+   "entity_id": "person.sarah",
+   "category": "ALLEGIANCE",
+   "component_key": "household",
+   "target_entity_id": "person.pharaoh.gen_12_15",
+   "acquired_at_verse": "GEN.12.15",
+   "acquired_in_event": "evt.gen_12.sarai_taken",
+   "expired_at_verse": "GEN.12.20",
+   "expired_in_event": "evt.gen_12.pharaoh_sends_away"
+  },
+  {
+   "component_id": "comp.sarah.public_identity.1",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "public_identity",
+   "value_code": "CLAIMED_SISTER",
+   "acquired_at_verse": "GEN.12.13",
+   "acquired_in_event": "evt.gen_12.sister_plan",
+   "expired_at_verse": "GEN.12.19",
+   "expired_in_event": "evt.gen_12.pharaoh_sends_away"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_12.altar_at_bethel",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_12.altar_at_bethel",
+   "verse_start": "GEN.12.8",
+   "verse_end": "GEN.12.8",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "altar"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.altar_at_shechem",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_12.promise_at_shechem",
+   "verse_start": "GEN.12.7",
+   "verse_end": "GEN.12.7",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "altar",
+    "thanksgiving"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.appearance_at_shechem",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_12.promise_at_shechem",
+   "verse_start": "GEN.12.7",
+   "verse_end": "GEN.12.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "appears"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.call_of_abram",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_12.call_of_abram",
+   "verse_start": "GEN.12.1",
+   "verse_end": "GEN.12.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.haran",
+   "tags": [
+    "command",
+    "blessing",
+    "nation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.calling_on_the_name",
+   "system_id": "sys.invoking_the_name",
+   "event_id": "evt.gen_12.altar_at_bethel",
+   "verse_start": "GEN.12.8",
+   "verse_end": "GEN.12.8",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "worship",
+    "prayer"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.land_promised",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_12.promise_at_shechem",
+   "verse_start": "GEN.12.7",
+   "verse_end": "GEN.12.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "land",
+    "offspring"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.plagues_on_pharaoh",
+   "system_id": "sys.divine_plague",
+   "event_id": "evt.gen_12.plagues_on_pharaoh",
+   "verse_start": "GEN.12.17",
+   "verse_end": "GEN.12.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.pharaoh.gen_12_15"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "plague",
+    "protection_of_sarai"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.sarai_taken_to_pharaoh",
+   "system_id": "sys.taking_into_royal_house",
+   "event_id": "evt.gen_12.sarai_taken",
+   "verse_start": "GEN.12.14",
+   "verse_end": "GEN.12.15",
+   "initiator_entity_id": "person.pharaoh.gen_12_15",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "beauty",
+    "royal_house"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_12.sister_ruse",
+   "system_id": "sys.wife_passed_as_sister",
+   "event_id": "evt.gen_12.sister_plan",
+   "verse_start": "GEN.12.11",
+   "verse_end": "GEN.12.13",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.sarah",
+    "group.egyptians"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "deception",
+    "survival"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_12.abraham_instructs_sarah",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "INSTRUCTS",
+   "verse_id": "GEN.12.13",
+   "event_id": "evt.gen_12.sister_plan"
+  },
+  {
+   "edge_id": "edge.gen_12.officials_praise_sarah",
+   "source_entity_id": "group.officials_of_pharaoh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "PRAISES",
+   "verse_id": "GEN.12.15",
+   "event_id": "evt.gen_12.sarai_taken"
+  },
+  {
+   "edge_id": "edge.gen_12.pharaoh_enriches_abraham",
+   "source_entity_id": "person.pharaoh.gen_12_15",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "ENRICHES",
+   "verse_id": "GEN.12.16",
+   "event_id": "evt.gen_12.abram_enriched"
+  },
+  {
+   "edge_id": "edge.gen_12.pharaoh_expels_abraham",
+   "source_entity_id": "person.pharaoh.gen_12_15",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "SENDS_AWAY",
+   "verse_id": "GEN.12.20",
+   "event_id": "evt.gen_12.pharaoh_sends_away"
+  },
+  {
+   "edge_id": "edge.gen_12.pharaoh_rebukes_abraham",
+   "source_entity_id": "person.pharaoh.gen_12_15",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.12.18",
+   "event_id": "evt.gen_12.pharaoh_sends_away"
+  },
+  {
+   "edge_id": "edge.gen_12.yhwh_blesses_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.12.2",
+   "event_id": "evt.gen_12.call_of_abram"
+  },
+  {
+   "edge_id": "edge.gen_12.yhwh_commands_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.12.1",
+   "event_id": "evt.gen_12.call_of_abram"
+  },
+  {
+   "edge_id": "edge.gen_12.yhwh_plagues_pharaoh",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.pharaoh.gen_12_15",
+   "interaction_type": "STRIKES",
+   "verse_id": "GEN.12.17",
+   "event_id": "evt.gen_12.plagues_on_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_12.yhwh_promises_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.12.7",
+   "event_id": "evt.gen_12.promise_at_shechem"
+  }
+ ]
+}

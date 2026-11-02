@@ -1,0 +1,1475 @@
+{
+ "chapter_ref": "GEN.14",
+ "entities": [
+  {
+   "entity_id": "group.amorites",
+   "tipnr_id": "Amorites@Gen.10.16-Amo",
+   "entity_type": "GROUP",
+   "source_script_name": "אֱמֹרִי",
+   "transliterated_name": "ʾĔmōrî",
+   "first_mention_verse": "GEN.14.7"
+  },
+  {
+   "entity_id": "group.captives_of_sodom",
+   "entity_type": "GROUP",
+   "source_script_name": "הַנָּשִׁים וְהָעָם",
+   "transliterated_name": "hannāšîm wᵊhāʿām",
+   "first_mention_verse": "GEN.14.16"
+  },
+  {
+   "entity_id": "group.emim",
+   "tipnr_id": "Emim@Gen.14.5-Deu",
+   "entity_type": "GROUP",
+   "source_script_name": "אֵמִים",
+   "transliterated_name": "ʾĒmîm",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "group.goiim",
+   "tipnr_id": "Goiim@Gen.14.1-Jos",
+   "entity_type": "GROUP",
+   "source_script_name": "גּוֹיִם",
+   "transliterated_name": "Gôyim",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "group.horites",
+   "tipnr_id": "Hori@Gen.14.6-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "חֹרִי",
+   "transliterated_name": "Ḥōrî",
+   "first_mention_verse": "GEN.14.6"
+  },
+  {
+   "entity_id": "group.kings_of_the_plain",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "group.rephaim",
+   "tipnr_id": "Rephaim@Gen.14.5-Jos",
+   "entity_type": "GROUP",
+   "source_script_name": "רְפָאִים",
+   "transliterated_name": "Rᵊpāʾim",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "group.trained_men_of_abram",
+   "entity_type": "GROUP",
+   "source_script_name": "חֲנִיכָיו יְלִידֵי בֵיתוֹ",
+   "transliterated_name": "ḥănîkāyw yᵊlîdê bêtô",
+   "first_mention_verse": "GEN.14.14"
+  },
+  {
+   "entity_id": "group.zuzim",
+   "tipnr_id": "Zuzim@Gen.14.5",
+   "entity_type": "GROUP",
+   "source_script_name": "זוּזִים",
+   "transliterated_name": "Zûzîm",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "loc.admah",
+   "tipnr_id": "Admah@Gen.10.19-Hos",
+   "entity_type": "LOCATION",
+   "source_script_name": "אַדְמָה",
+   "transliterated_name": "ʾAdmāh",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "loc.amalek",
+   "tipnr_id": "Amalek@Gen.14.7-Psa",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֲמָלֵקִי",
+   "transliterated_name": "ʿĂmālēqî",
+   "first_mention_verse": "GEN.14.7"
+  },
+  {
+   "entity_id": "loc.ashteroth_karnaim",
+   "tipnr_id": "Ashteroth-karnaim@Gen.14.5-Amo",
+   "entity_type": "LOCATION",
+   "source_script_name": "עַשְׁתְּרֹת קַרְנַיִם",
+   "transliterated_name": "ʿAštᵊrōt Qarnayim",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "loc.babylon",
+   "tipnr_id": "Babylon@Gen.10.10-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "בָּבֶל",
+   "transliterated_name": "Bābel",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "loc.damascus",
+   "tipnr_id": "Damascus@Gen.14.15-Gal",
+   "entity_type": "LOCATION",
+   "source_script_name": "דַּמֶּשֶׂק",
+   "transliterated_name": "Dammeśeq",
+   "first_mention_verse": "GEN.14.15"
+  },
+  {
+   "entity_id": "loc.dan",
+   "tipnr_id": "Dan@Gen.14.14-Amo",
+   "entity_type": "LOCATION",
+   "source_script_name": "דָּן",
+   "transliterated_name": "Dān",
+   "first_mention_verse": "GEN.14.14"
+  },
+  {
+   "entity_id": "loc.el_paran",
+   "tipnr_id": "El-paran@Gen.14.6",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֵיל פָּארָן",
+   "transliterated_name": "ʾÊl Pāʾrān",
+   "first_mention_verse": "GEN.14.6"
+  },
+  {
+   "entity_id": "loc.elam",
+   "tipnr_id": "Elam@Gen.14.1-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵילָם",
+   "transliterated_name": "ʿÊlām",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "loc.ellasar",
+   "tipnr_id": "Ellasar@Gen.14.1-",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֶלָּסָר",
+   "transliterated_name": "ʾEllāsār",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "loc.engedi",
+   "tipnr_id": "Engedi@Gen.14.7-Ezk",
+   "entity_type": "LOCATION",
+   "source_script_name": "חַצְצֹן תָּמָר",
+   "transliterated_name": "Ḥaṣṣōn Tāmār",
+   "first_mention_verse": "GEN.14.7"
+  },
+  {
+   "entity_id": "loc.ham",
+   "tipnr_id": "Ham@Gen.14.5",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָם",
+   "transliterated_name": "Hām",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "loc.hobah",
+   "tipnr_id": "Hobah@Gen.14.15",
+   "entity_type": "LOCATION",
+   "source_script_name": "חוֹבָה",
+   "transliterated_name": "Ḥôbāh",
+   "first_mention_verse": "GEN.14.15"
+  },
+  {
+   "entity_id": "loc.jerusalem",
+   "tipnr_id": "Jerusalem@Gen.14.18-Rev",
+   "entity_type": "LOCATION",
+   "source_script_name": "שָׁלֵם",
+   "transliterated_name": "Šālēm",
+   "first_mention_verse": "GEN.14.18"
+  },
+  {
+   "entity_id": "loc.kadesh",
+   "tipnr_id": "Kadesh@Gen.14.7-Psa",
+   "entity_type": "LOCATION",
+   "source_script_name": "קָדֵשׁ",
+   "transliterated_name": "Qāḏēš",
+   "first_mention_verse": "GEN.14.7"
+  },
+  {
+   "entity_id": "loc.king_s_valley",
+   "tipnr_id": "King's_Valley@Gen.14.17-2Sa",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵמֶק הַמֶּלֶךְ",
+   "transliterated_name": "ʿēmeq hammelek",
+   "first_mention_verse": "GEN.14.17"
+  },
+  {
+   "entity_id": "loc.kiriathaim",
+   "tipnr_id": "Kiriathaim@Gen.14.5-Amo",
+   "entity_type": "LOCATION",
+   "source_script_name": "קִרְיָתַיִם",
+   "transliterated_name": "Qiryātayim",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "loc.salt_sea",
+   "tipnr_id": "Salt_Sea@Gen.14.3-2Ki",
+   "entity_type": "LOCATION",
+   "source_script_name": "יָם הַמֶּלַח",
+   "transliterated_name": "yām hammelaḥ",
+   "first_mention_verse": "GEN.14.3"
+  },
+  {
+   "entity_id": "loc.seir",
+   "tipnr_id": "Seir@Gen.14.6-Ezk",
+   "entity_type": "LOCATION",
+   "source_script_name": "שֵׂעִיר",
+   "transliterated_name": "Śēʿîr",
+   "first_mention_verse": "GEN.14.6"
+  },
+  {
+   "entity_id": "loc.shaveh",
+   "tipnr_id": "Shaveh@Gen.14.5-",
+   "entity_type": "LOCATION",
+   "source_script_name": "שָׁוֵה",
+   "transliterated_name": "Šāwēh",
+   "first_mention_verse": "GEN.14.5"
+  },
+  {
+   "entity_id": "loc.siddim_valley",
+   "tipnr_id": "Siddim_Valley@Gen.14.3-",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵמֶק הַשִּׂדִּים",
+   "transliterated_name": "ʿēmeq haśśiddîm",
+   "first_mention_verse": "GEN.14.3"
+  },
+  {
+   "entity_id": "loc.zeboiim",
+   "tipnr_id": "Zeboiim@Gen.10.19-Hos",
+   "entity_type": "LOCATION",
+   "source_script_name": "צְבוֹיִם",
+   "transliterated_name": "Ṣᵊbôyim",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.amraphel",
+   "tipnr_id": "Amraphel@Gen.14.1-",
+   "entity_type": "PERSON",
+   "source_script_name": "אַמְרָפֶל",
+   "transliterated_name": "ʾAmrāpel",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "person.aner",
+   "tipnr_id": "Aner@Gen.14.13-",
+   "entity_type": "PERSON",
+   "source_script_name": "עָנֵר",
+   "transliterated_name": "ʿĀnēr",
+   "first_mention_verse": "GEN.14.13"
+  },
+  {
+   "entity_id": "person.arioch.gen_14_1",
+   "tipnr_id": "Arioch@Gen.14.1-",
+   "entity_type": "PERSON",
+   "source_script_name": "אַרְיוֹךְ",
+   "transliterated_name": "ʾAryôk",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "person.bera",
+   "tipnr_id": "Bera@Gen.14.2",
+   "entity_type": "PERSON",
+   "source_script_name": "בֶּרַע",
+   "transliterated_name": "Beraʿ",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.birsha",
+   "tipnr_id": "Birsha@Gen.14.2",
+   "entity_type": "PERSON",
+   "source_script_name": "בִּרְשַׁע",
+   "transliterated_name": "Biršaʿ",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.chedorlaomer",
+   "tipnr_id": "Chedorlaomer@Gen.14.1-",
+   "entity_type": "PERSON",
+   "source_script_name": "כְּדָרְלָעֹמֶר",
+   "transliterated_name": "Kᵊdorlāʿomer",
+   "first_mention_verse": "GEN.14.1"
+  },
+  {
+   "entity_id": "person.eshcol",
+   "tipnr_id": "Eshcol@Gen.14.13-",
+   "entity_type": "PERSON",
+   "source_script_name": "אֶשְׁכֹּל",
+   "transliterated_name": "ʾEškōl",
+   "first_mention_verse": "GEN.14.13"
+  },
+  {
+   "entity_id": "person.fugitive_from_the_battle",
+   "entity_type": "PERSON",
+   "source_script_name": "הַפָּלִיט",
+   "transliterated_name": "happālîṭ",
+   "first_mention_verse": "GEN.14.13"
+  },
+  {
+   "entity_id": "person.king_of_bela",
+   "entity_type": "PERSON",
+   "source_script_name": "מֶלֶךְ בֶּלַע",
+   "transliterated_name": "melek Belaʿ",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.mamre",
+   "tipnr_id": "Mamre@Gen.14.13",
+   "entity_type": "PERSON",
+   "source_script_name": "מַמְרֵא",
+   "transliterated_name": "Mamrēʾ",
+   "first_mention_verse": "GEN.14.13"
+  },
+  {
+   "entity_id": "person.melchizedek",
+   "tipnr_id": "Melchizedek@Gen.14.18-Heb",
+   "entity_type": "PERSON",
+   "source_script_name": "מַלְכִּי־צֶדֶק",
+   "transliterated_name": "Malkî-ṣedeq",
+   "first_mention_verse": "GEN.14.18"
+  },
+  {
+   "entity_id": "person.shemeber",
+   "tipnr_id": "Shemeber@Gen.14.2",
+   "entity_type": "PERSON",
+   "source_script_name": "שֶׁמְאֵבֶר",
+   "transliterated_name": "Šemʾēber",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.shinab",
+   "tipnr_id": "Shinab@Gen.14.2",
+   "entity_type": "PERSON",
+   "source_script_name": "שִׁנְאָב",
+   "transliterated_name": "Šinʾāb",
+   "first_mention_verse": "GEN.14.2"
+  },
+  {
+   "entity_id": "person.tidal",
+   "tipnr_id": "Tidal@Gen.14.1-",
+   "entity_type": "PERSON",
+   "source_script_name": "תִּדְעָל",
+   "transliterated_name": "Tidʿāl",
+   "first_mention_verse": "GEN.14.1"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.covenant_alliance",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.military_campaign",
+   "category": "MILITARY_PROTOCOL"
+  },
+  {
+   "system_id": "sys.plunder_and_captivity",
+   "category": "MILITARY_PROTOCOL"
+  },
+  {
+   "system_id": "sys.priestly_blessing",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.surprise_night_attack",
+   "category": "MILITARY_PROTOCOL"
+  },
+  {
+   "system_id": "sys.tithe",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.vassal_service",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_14.kings_revolt",
+   "verse_start": "GEN.14.1",
+   "verse_end": "GEN.14.4",
+   "location_entity_id": "loc.siddim_valley",
+   "time": {
+    "anchor": "evt.gen_13.settles_at_mamre",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.goiim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kings_of_the_plain",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.admah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.babylon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.elam",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.ellasar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.salt_sea",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.zeboiim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.zoar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.amraphel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.arioch.gen_14_1",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bera",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.birsha",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.king_of_bela",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shemeber",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shinab",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tidal",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.eastern_campaign",
+   "verse_start": "GEN.14.5",
+   "verse_end": "GEN.14.7",
+   "time": {
+    "anchor": "evt.gen_14.kings_revolt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.amorites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.emim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.horites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.rephaim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.zuzim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.amalek",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.ashteroth_karnaim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.el_paran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.engedi",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.ham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.kadesh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.kiriathaim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.seir",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.shaveh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.amraphel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.arioch.gen_14_1",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.tidal",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.battle_of_siddim",
+   "verse_start": "GEN.14.8",
+   "verse_end": "GEN.14.10",
+   "location_entity_id": "loc.siddim_valley",
+   "time": {
+    "anchor": "evt.gen_14.eastern_campaign",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.kings_of_the_plain",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.amraphel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.arioch.gen_14_1",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bera",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.birsha",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.king_of_bela",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shemeber",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shinab",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.tidal",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.sack_of_sodom",
+   "verse_start": "GEN.14.11",
+   "verse_end": "GEN.14.12",
+   "location_entity_id": "loc.sodom",
+   "time": {
+    "anchor": "evt.gen_14.battle_of_siddim",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.amraphel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.arioch.gen_14_1",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.tidal",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.fugitive_reports",
+   "verse_start": "GEN.14.13",
+   "verse_end": "GEN.14.13",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_14.sack_of_sodom",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.amorites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.aner",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.eshcol",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.fugitive_from_the_battle",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.mamre",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.abram_pursues_to_dan",
+   "verse_start": "GEN.14.14",
+   "verse_end": "GEN.14.14",
+   "location_entity_id": "loc.dan",
+   "time": {
+    "anchor": "evt.gen_14.fugitive_reports",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.5,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.trained_men_of_abram",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.dan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.aner",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.eshcol",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.mamre",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.night_attack",
+   "verse_start": "GEN.14.15",
+   "verse_end": "GEN.14.15",
+   "location_entity_id": "loc.hobah",
+   "time": {
+    "anchor": "evt.gen_14.abram_pursues_to_dan",
+    "anchor_point": "END",
+    "time_of_day": "ASHMORET_HATICHONAH",
+    "duration": {
+     "value": 4.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.trained_men_of_abram",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.damascus",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.hobah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.amraphel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.aner",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.arioch.gen_14_1",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.eshcol",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.mamre",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.tidal",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.return_with_captives",
+   "verse_start": "GEN.14.16",
+   "verse_end": "GEN.14.16",
+   "time": {
+    "anchor": "evt.gen_14.night_attack",
+    "anchor_point": "END",
+    "duration": {
+     "value": 14.5,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.captives_of_sodom",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.trained_men_of_abram",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.king_of_sodom_meets_abram",
+   "verse_start": "GEN.14.17",
+   "verse_end": "GEN.14.17",
+   "location_entity_id": "loc.king_s_valley",
+   "time": {
+    "anchor": "evt.gen_14.return_with_captives",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.king_s_valley",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.bera",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.chedorlaomer",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.melchizedek_blesses",
+   "verse_start": "GEN.14.18",
+   "verse_end": "GEN.14.20",
+   "location_entity_id": "loc.king_s_valley",
+   "time": {
+    "anchor": "evt.gen_14.king_of_sodom_meets_abram",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.jerusalem",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.melchizedek",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_14.abram_refuses_spoils",
+   "verse_start": "GEN.14.21",
+   "verse_end": "GEN.14.24",
+   "location_entity_id": "loc.king_s_valley",
+   "time": {
+    "anchor": "evt.gen_14.melchizedek_blesses",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.trained_men_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.aner",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bera",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.eshcol",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.mamre",
+     "role": "MENTIONED"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_14.battle_of_siddim.sack_of_sodom",
+   "cause_event_id": "evt.gen_14.battle_of_siddim",
+   "effect_event_id": "evt.gen_14.sack_of_sodom",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_14.eastern_campaign.battle_of_siddim",
+   "cause_event_id": "evt.gen_14.eastern_campaign",
+   "effect_event_id": "evt.gen_14.battle_of_siddim",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_14.fugitive_reports.abram_pursues_to_dan",
+   "cause_event_id": "evt.gen_14.fugitive_reports",
+   "effect_event_id": "evt.gen_14.abram_pursues_to_dan",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_14.kings_revolt.eastern_campaign",
+   "cause_event_id": "evt.gen_14.kings_revolt",
+   "effect_event_id": "evt.gen_14.eastern_campaign",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 0.85
+  },
+  {
+   "causal_id": "caus.gen_14.night_attack.return_with_captives",
+   "cause_event_id": "evt.gen_14.night_attack",
+   "effect_event_id": "evt.gen_14.return_with_captives",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_14.return_with_captives.king_of_sodom_meets_abram",
+   "cause_event_id": "evt.gen_14.return_with_captives",
+   "effect_event_id": "evt.gen_14.king_of_sodom_meets_abram",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_14.sack_of_sodom.fugitive_reports",
+   "cause_event_id": "evt.gen_14.sack_of_sodom",
+   "effect_event_id": "evt.gen_14.fugitive_reports",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.aner.allegiance.1",
+   "entity_id": "person.aner",
+   "category": "ALLEGIANCE",
+   "component_key": "allegiance",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.14.13",
+   "acquired_in_event": "evt.gen_14.fugitive_reports"
+  },
+  {
+   "component_id": "comp.eshcol.allegiance.1",
+   "entity_id": "person.eshcol",
+   "category": "ALLEGIANCE",
+   "component_key": "allegiance",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.14.13",
+   "acquired_in_event": "evt.gen_14.fugitive_reports"
+  },
+  {
+   "component_id": "comp.kings_of_the_plain.allegiance.1",
+   "entity_id": "group.kings_of_the_plain",
+   "category": "ALLEGIANCE",
+   "component_key": "allegiance",
+   "target_entity_id": "person.chedorlaomer",
+   "acquired_at_verse": "GEN.14.4",
+   "acquired_in_event": "evt.gen_14.kings_revolt",
+   "expired_at_verse": "GEN.14.4",
+   "expired_in_event": "evt.gen_14.kings_revolt"
+  },
+  {
+   "component_id": "comp.kings_of_the_plain.allegiance.2",
+   "entity_id": "group.kings_of_the_plain",
+   "category": "ALLEGIANCE",
+   "component_key": "allegiance",
+   "value_code": "REBELLIOUS",
+   "supersedes_component_id": "comp.kings_of_the_plain.allegiance.1",
+   "acquired_at_verse": "GEN.14.4",
+   "acquired_in_event": "evt.gen_14.kings_revolt",
+   "expired_at_verse": "GEN.14.10",
+   "expired_in_event": "evt.gen_14.battle_of_siddim"
+  },
+  {
+   "component_id": "comp.lot.freedom.1",
+   "entity_id": "person.lot",
+   "category": "TRAIT",
+   "component_key": "freedom",
+   "value_code": "CAPTIVE",
+   "acquired_at_verse": "GEN.14.12",
+   "acquired_in_event": "evt.gen_14.sack_of_sodom",
+   "expired_at_verse": "GEN.14.16",
+   "expired_in_event": "evt.gen_14.return_with_captives"
+  },
+  {
+   "component_id": "comp.mamre.allegiance.1",
+   "entity_id": "person.mamre",
+   "category": "ALLEGIANCE",
+   "component_key": "allegiance",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.14.13",
+   "acquired_in_event": "evt.gen_14.fugitive_reports"
+  },
+  {
+   "component_id": "comp.melchizedek.office.1",
+   "entity_id": "person.melchizedek",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "KING_OF_SALEM",
+   "acquired_at_verse": "GEN.14.18",
+   "acquired_in_event": "evt.gen_14.melchizedek_blesses"
+  },
+  {
+   "component_id": "comp.melchizedek.priesthood.1",
+   "entity_id": "person.melchizedek",
+   "category": "ROLE_TITLE",
+   "component_key": "priesthood",
+   "value_code": "PRIEST_OF_GOD_MOST_HIGH",
+   "acquired_at_verse": "GEN.14.18",
+   "acquired_in_event": "evt.gen_14.melchizedek_blesses"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_14.abram_allied_with_amorites",
+   "system_id": "sys.covenant_alliance",
+   "event_id": "evt.gen_14.fugitive_reports",
+   "verse_start": "GEN.14.13",
+   "verse_end": "GEN.14.13",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.mamre",
+    "person.eshcol",
+    "person.aner"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "alliance"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.battle_in_siddim",
+   "system_id": "sys.military_campaign",
+   "event_id": "evt.gen_14.battle_of_siddim",
+   "verse_start": "GEN.14.8",
+   "verse_end": "GEN.14.10",
+   "initiator_entity_id": "person.chedorlaomer",
+   "target_entity_ids": [
+    "group.kings_of_the_plain"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.siddim_valley",
+   "tags": [
+    "battle_array",
+    "bitumen_pits"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.eastern_campaign",
+   "system_id": "sys.military_campaign",
+   "event_id": "evt.gen_14.eastern_campaign",
+   "verse_start": "GEN.14.5",
+   "verse_end": "GEN.14.7",
+   "initiator_entity_id": "person.chedorlaomer",
+   "target_entity_ids": [
+    "group.rephaim",
+    "group.zuzim",
+    "group.emim",
+    "group.horites",
+    "group.amorites"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "coalition",
+    "punitive"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.melchizedek_blessing",
+   "system_id": "sys.priestly_blessing",
+   "event_id": "evt.gen_14.melchizedek_blesses",
+   "verse_start": "GEN.14.18",
+   "verse_end": "GEN.14.20",
+   "initiator_entity_id": "person.melchizedek",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.king_s_valley",
+   "tags": [
+    "bread_and_wine",
+    "god_most_high"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.night_strike",
+   "system_id": "sys.surprise_night_attack",
+   "event_id": "evt.gen_14.night_attack",
+   "verse_start": "GEN.14.15",
+   "verse_end": "GEN.14.15",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.chedorlaomer"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "divided_force",
+    "night",
+    "pursuit"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.oath_refusing_spoils",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_14.abram_refuses_spoils",
+   "verse_start": "GEN.14.22",
+   "verse_end": "GEN.14.23",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.bera"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.king_s_valley",
+   "tags": [
+    "raised_hand",
+    "refuses_reward"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.sodom_plundered",
+   "system_id": "sys.plunder_and_captivity",
+   "event_id": "evt.gen_14.sack_of_sodom",
+   "verse_start": "GEN.14.11",
+   "verse_end": "GEN.14.12",
+   "initiator_entity_id": "person.chedorlaomer",
+   "target_entity_ids": [
+    "person.lot",
+    "loc.sodom",
+    "loc.gomorrah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.sodom",
+   "tags": [
+    "goods",
+    "food",
+    "captive"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.tithe_to_melchizedek",
+   "system_id": "sys.tithe",
+   "event_id": "evt.gen_14.melchizedek_blesses",
+   "verse_start": "GEN.14.20",
+   "verse_end": "GEN.14.20",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.melchizedek"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.king_s_valley",
+   "tags": [
+    "tenth_of_spoils"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_14.twelve_years_service",
+   "system_id": "sys.vassal_service",
+   "event_id": "evt.gen_14.kings_revolt",
+   "verse_start": "GEN.14.4",
+   "verse_end": "GEN.14.4",
+   "initiator_entity_id": "person.chedorlaomer",
+   "target_entity_ids": [
+    "group.kings_of_the_plain"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "tribute",
+    "rebellion"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_14.abram_pursues_captors",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.chedorlaomer",
+   "interaction_type": "PURSUES",
+   "verse_id": "GEN.14.14",
+   "event_id": "evt.gen_14.abram_pursues_to_dan"
+  },
+  {
+   "edge_id": "edge.gen_14.abram_refuses_sodom_king",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.bera",
+   "interaction_type": "REFUSES",
+   "verse_id": "GEN.14.23",
+   "event_id": "evt.gen_14.abram_refuses_spoils"
+  },
+  {
+   "edge_id": "edge.gen_14.abram_rescues_lot",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.lot",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.14.16",
+   "event_id": "evt.gen_14.return_with_captives"
+  },
+  {
+   "edge_id": "edge.gen_14.abram_strikes_captors",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.chedorlaomer",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.15",
+   "event_id": "evt.gen_14.night_attack"
+  },
+  {
+   "edge_id": "edge.gen_14.abram_swears_by_god",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "SWEARS_BY",
+   "verse_id": "GEN.14.22",
+   "event_id": "evt.gen_14.abram_refuses_spoils"
+  },
+  {
+   "edge_id": "edge.gen_14.abram_tithes_to_melchizedek",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.melchizedek",
+   "interaction_type": "GIVES_TITHE_TO",
+   "verse_id": "GEN.14.20",
+   "event_id": "evt.gen_14.melchizedek_blesses"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_defeats_plain_kings",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.kings_of_the_plain",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.10",
+   "event_id": "evt.gen_14.battle_of_siddim"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_plunders_sodom",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "loc.sodom",
+   "interaction_type": "PLUNDERS",
+   "verse_id": "GEN.14.11",
+   "event_id": "evt.gen_14.sack_of_sodom"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_strikes_amorites",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.amorites",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.7",
+   "event_id": "evt.gen_14.eastern_campaign"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_strikes_emim",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.emim",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.5",
+   "event_id": "evt.gen_14.eastern_campaign"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_strikes_horites",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.horites",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.6",
+   "event_id": "evt.gen_14.eastern_campaign"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_strikes_rephaim",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.rephaim",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.5",
+   "event_id": "evt.gen_14.eastern_campaign"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_strikes_zuzim",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "group.zuzim",
+   "interaction_type": "DEFEATS",
+   "verse_id": "GEN.14.5",
+   "event_id": "evt.gen_14.eastern_campaign"
+  },
+  {
+   "edge_id": "edge.gen_14.chedorlaomer_takes_lot",
+   "source_entity_id": "person.chedorlaomer",
+   "target_entity_id": "person.lot",
+   "interaction_type": "CAPTURES",
+   "verse_id": "GEN.14.12",
+   "event_id": "evt.gen_14.sack_of_sodom"
+  },
+  {
+   "edge_id": "edge.gen_14.fugitive_informs_abram",
+   "source_entity_id": "person.fugitive_from_the_battle",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.14.13",
+   "event_id": "evt.gen_14.fugitive_reports"
+  },
+  {
+   "edge_id": "edge.gen_14.god_delivers_enemies_to_abram",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "DELIVERS",
+   "verse_id": "GEN.14.20",
+   "event_id": "evt.gen_14.melchizedek_blesses"
+  },
+  {
+   "edge_id": "edge.gen_14.melchizedek_blesses_abram",
+   "source_entity_id": "person.melchizedek",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.14.19",
+   "event_id": "evt.gen_14.melchizedek_blesses"
+  },
+  {
+   "edge_id": "edge.gen_14.plain_kings_rebel",
+   "source_entity_id": "group.kings_of_the_plain",
+   "target_entity_id": "person.chedorlaomer",
+   "interaction_type": "REBELS_AGAINST",
+   "verse_id": "GEN.14.4",
+   "event_id": "evt.gen_14.kings_revolt"
+  },
+  {
+   "edge_id": "edge.gen_14.sodom_king_meets_abram",
+   "source_entity_id": "person.bera",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "MEETS",
+   "verse_id": "GEN.14.17",
+   "event_id": "evt.gen_14.king_of_sodom_meets_abram"
+  },
+  {
+   "edge_id": "edge.gen_14.sodom_king_offers_goods",
+   "source_entity_id": "person.bera",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "OFFERS_TO",
+   "verse_id": "GEN.14.21",
+   "event_id": "evt.gen_14.abram_refuses_spoils"
+  }
+ ]
+}

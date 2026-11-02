@@ -1,0 +1,639 @@
+{
+ "chapter_ref": "GEN.17",
+ "entities": [
+  {
+   "entity_id": "group.household_of_abraham",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי בֵיתוֹ",
+   "transliterated_name": "ʾanšê bêṯô",
+   "first_mention_verse": "GEN.17.12"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.circumcision",
+   "category": "LITURGICAL_RITUAL"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_17.el_shaddai_appears",
+   "verse_start": "GEN.17.1",
+   "verse_end": "GEN.17.2",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "anchor.abraham_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 99.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.covenant_promises",
+   "verse_start": "GEN.17.3",
+   "verse_end": "GEN.17.8",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.el_shaddai_appears",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.offspring_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.circumcision_command",
+   "verse_start": "GEN.17.9",
+   "verse_end": "GEN.17.14",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.covenant_promises",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.household_of_abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.offspring_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.sarai_renamed_sarah",
+   "verse_start": "GEN.17.15",
+   "verse_end": "GEN.17.16",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.circumcision_command",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.abraham_laughs_pleads",
+   "verse_start": "GEN.17.17",
+   "verse_end": "GEN.17.18",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.sarai_renamed_sarah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "verse_start": "GEN.17.19",
+   "verse_end": "GEN.17.22",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.abraham_laughs_pleads",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_17.circumcision_performed",
+   "verse_start": "GEN.17.23",
+   "verse_end": "GEN.17.27",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.isaac_and_ishmael_promised",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.household_of_abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.abraham_laughs_pleads.isaac_and_ishmael_promised",
+   "cause_event_id": "evt.gen_17.abraham_laughs_pleads",
+   "effect_event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_17.circumcision_command.circumcision_performed",
+   "cause_event_id": "evt.gen_17.circumcision_command",
+   "effect_event_id": "evt.gen_17.circumcision_performed",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_17.sarai_renamed_sarah.abraham_laughs_pleads",
+   "cause_event_id": "evt.gen_17.sarai_renamed_sarah",
+   "effect_event_id": "evt.gen_17.abraham_laughs_pleads",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.circumcision.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "circumcision",
+   "value_code": "CIRCUMCISED",
+   "acquired_at_verse": "GEN.17.24",
+   "acquired_in_event": "evt.gen_17.circumcision_performed"
+  },
+  {
+   "component_id": "comp.abraham.name.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "name",
+   "value_code": "ABRAHAM",
+   "acquired_at_verse": "GEN.17.5",
+   "acquired_in_event": "evt.gen_17.covenant_promises"
+  },
+  {
+   "component_id": "comp.household_of_abraham.circumcision.1",
+   "entity_id": "group.household_of_abraham",
+   "category": "TRAIT",
+   "component_key": "circumcision",
+   "value_code": "CIRCUMCISED",
+   "acquired_at_verse": "GEN.17.27",
+   "acquired_in_event": "evt.gen_17.circumcision_performed"
+  },
+  {
+   "component_id": "comp.isaac.covenant_heir.1",
+   "entity_id": "person.isaac",
+   "category": "ROLE_TITLE",
+   "component_key": "covenant_heir",
+   "value_code": "PROMISED_COVENANT_HEIR",
+   "acquired_at_verse": "GEN.17.19",
+   "acquired_in_event": "evt.gen_17.isaac_and_ishmael_promised"
+  },
+  {
+   "component_id": "comp.ishmael.circumcision.1",
+   "entity_id": "person.ishmael",
+   "category": "TRAIT",
+   "component_key": "circumcision",
+   "value_code": "CIRCUMCISED",
+   "acquired_at_verse": "GEN.17.25",
+   "acquired_in_event": "evt.gen_17.circumcision_performed"
+  },
+  {
+   "component_id": "comp.ishmael.divine_blessing.1",
+   "entity_id": "person.ishmael",
+   "category": "TRAIT",
+   "component_key": "divine_blessing",
+   "value_code": "BLESSED_TO_BE_GREAT_NATION",
+   "acquired_at_verse": "GEN.17.20",
+   "acquired_in_event": "evt.gen_17.isaac_and_ishmael_promised"
+  },
+  {
+   "component_id": "comp.sarah.name.1",
+   "entity_id": "person.sarah",
+   "category": "ROLE_TITLE",
+   "component_key": "name",
+   "value_code": "SARAH",
+   "acquired_at_verse": "GEN.17.15",
+   "acquired_in_event": "evt.gen_17.sarai_renamed_sarah"
+  },
+  {
+   "component_id": "comp.yhwh.abrahamic_covenant.1",
+   "entity_id": "deity.yhwh",
+   "category": "ALLEGIANCE",
+   "component_key": "abrahamic_covenant",
+   "target_entity_id": "person.abraham",
+   "acquired_at_verse": "GEN.17.4",
+   "acquired_in_event": "evt.gen_17.covenant_promises"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_17.abram_renamed",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_17.covenant_promises",
+   "verse_start": "GEN.17.5",
+   "verse_end": "GEN.17.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "rename"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.appearance_to_abram",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_17.el_shaddai_appears",
+   "verse_start": "GEN.17.1",
+   "verse_end": "GEN.17.1",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "el_shaddai",
+    "age_99"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.circumcision_sign_given",
+   "system_id": "sys.covenant_sign",
+   "event_id": "evt.gen_17.circumcision_command",
+   "verse_start": "GEN.17.10",
+   "verse_end": "GEN.17.14",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "group.offspring_of_abram",
+    "group.household_of_abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "circumcision",
+    "eight_days",
+    "cut_off_penalty"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.covenant_promised",
+   "system_id": "sys.covenant_promise",
+   "event_id": "evt.gen_17.covenant_promises",
+   "verse_start": "GEN.17.4",
+   "verse_end": "GEN.17.8",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "group.offspring_of_abram"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "everlasting_covenant",
+    "many_nations",
+    "land_of_canaan"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.household_circumcised",
+   "system_id": "sys.circumcision",
+   "event_id": "evt.gen_17.circumcision_performed",
+   "verse_start": "GEN.17.23",
+   "verse_end": "GEN.17.27",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.ishmael",
+    "group.household_of_abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "same_day",
+    "obedience"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.isaac_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "verse_start": "GEN.17.19",
+   "verse_end": "GEN.17.19",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "name_before_birth"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.ishmael_blessed",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "verse_start": "GEN.17.20",
+   "verse_end": "GEN.17.20",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "twelve_princes",
+    "great_nation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.plea_for_ishmael",
+   "system_id": "sys.petition_prayer",
+   "event_id": "evt.gen_17.abraham_laughs_pleads",
+   "verse_start": "GEN.17.18",
+   "verse_end": "GEN.17.18",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh",
+    "person.ishmael"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "intercession"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.sarah_blessed",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_17.sarai_renamed_sarah",
+   "verse_start": "GEN.17.16",
+   "verse_end": "GEN.17.16",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "promised_son",
+    "mother_of_nations"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_17.sarai_renamed",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_17.sarai_renamed_sarah",
+   "verse_start": "GEN.17.15",
+   "verse_end": "GEN.17.15",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "rename"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_17.abraham_circumcises_household",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.household_of_abraham",
+   "interaction_type": "CIRCUMCISES",
+   "verse_id": "GEN.17.23",
+   "event_id": "evt.gen_17.circumcision_performed"
+  },
+  {
+   "edge_id": "edge.gen_17.abraham_circumcises_ishmael",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "CIRCUMCISES",
+   "verse_id": "GEN.17.23",
+   "event_id": "evt.gen_17.circumcision_performed"
+  },
+  {
+   "edge_id": "edge.gen_17.abraham_pleads_for_ishmael",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "INTERCEDES_FOR",
+   "verse_id": "GEN.17.18",
+   "event_id": "evt.gen_17.abraham_laughs_pleads"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_blesses_ishmael",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.ishmael",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.17.20",
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_blesses_sarah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.17.16",
+   "event_id": "evt.gen_17.sarai_renamed_sarah"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_commands_abraham_walk",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.17.1",
+   "event_id": "evt.gen_17.el_shaddai_appears"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_commands_circumcision",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.17.10",
+   "event_id": "evt.gen_17.circumcision_command"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_covenant_with_isaac",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "ESTABLISHES_COVENANT_WITH",
+   "verse_id": "GEN.17.19",
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_promises_abraham_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "PROMISES_TO",
+   "verse_id": "GEN.17.8",
+   "event_id": "evt.gen_17.covenant_promises"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_renames_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "RENAMES",
+   "verse_id": "GEN.17.5",
+   "event_id": "evt.gen_17.covenant_promises"
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_renames_sarah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "RENAMES",
+   "verse_id": "GEN.17.15",
+   "event_id": "evt.gen_17.sarai_renamed_sarah"
+  }
+ ]
+}

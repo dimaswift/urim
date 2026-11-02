@@ -1,0 +1,438 @@
+{
+ "chapter_ref": "GEN.5",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_5.adam_genealogy",
+   "title": "The record of Adam's line from creation to Noah's sons",
+   "narrative_summary": "The book of the generations of Adam recalls that God made humankind male and female in his likeness and blessed them. It then lists ten generations from Adam to Noah, with each man's age at begetting and at death.",
+   "temporal_reasoning_note": "The whole chapter is a chain of ages counted from the creation (Masoretic numbers), so the parent starts at anchor.creation and runs 1657 years, long enough to hold the last death in the chain (Methuselah, AM 1656). Its children are dated from their fathers' births. 5:1-2 recall 'the day God created man', which is the anchor itself.",
+   "ancient_year_marker": "In the day that God created man"
+  },
+  {
+   "event_id": "evt.gen_5.seth_born",
+   "title": "Adam, aged 130, fathers Seth in his own likeness",
+   "narrative_summary": "Adam, at 130 years, begets a son in his likeness and calls him Seth. He lives 800 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:3: 'Adam lived 130 years and begot': offset 130 years from anchor.creation, taken as Adam's birth (he was created as an adult, but the text counts his years from the day of his creation, 5:1-2). Age is a whole year, so margin 1 year; REGNAL_YEAR because the text gives a numbered age. Duration of one day for the birth is nominal. This is AM 131 by the anchor's count; 5:4 (800 more years) is the rest of his life and is covered by his death at 930.",
+   "ancient_year_marker": "When Adam had lived 130 years"
+  },
+  {
+   "event_id": "evt.gen_5.adam_dies",
+   "title": "Adam dies at 930 years",
+   "narrative_summary": "All the days of Adam were 930 years, and he died.",
+   "temporal_reasoning_note": "5:5: 130 + 800 = 930 years, from anchor.creation (Adam's birth). Margin 1 year as for any age; REGNAL_YEAR.",
+   "ancient_year_marker": "930 years"
+  },
+  {
+   "event_id": "evt.gen_5.enosh_born",
+   "title": "Seth, aged 105, fathers Enosh",
+   "narrative_summary": "Seth, at 105 years, begets Enosh. He lives 807 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:6: offset 105 years from Seth's birth START. The chain gives AM 236, in agreement with evt.gen_4.enosh_born (c. 3878 BCE). Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Seth had lived 105 years"
+  },
+  {
+   "event_id": "evt.gen_5.seth_dies",
+   "title": "Seth dies at 912 years",
+   "narrative_summary": "All the days of Seth were 912 years, and he died.",
+   "temporal_reasoning_note": "5:8: 105 + 807 = 912 years from Seth's birth. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "912 years"
+  },
+  {
+   "event_id": "evt.gen_5.kenan_born",
+   "title": "Enosh, aged 90, fathers Kenan",
+   "narrative_summary": "Enosh, at 90 years, begets Kenan. He lives 815 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:9: offset 90 years from Enosh's birth START. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Enosh had lived 90 years"
+  },
+  {
+   "event_id": "evt.gen_5.enosh_dies",
+   "title": "Enosh dies at 905 years",
+   "narrative_summary": "All the days of Enosh were 905 years, and he died.",
+   "temporal_reasoning_note": "5:11: 90 + 815 = 905 years from Enosh's birth. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "905 years"
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_born",
+   "title": "Kenan, aged 70, fathers Mahalalel",
+   "narrative_summary": "Kenan, at 70 years, begets Mahalalel. He lives 840 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:12: offset 70 years from Kenan's birth START. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Kenan had lived 70 years"
+  },
+  {
+   "event_id": "evt.gen_5.kenan_dies",
+   "title": "Kenan dies at 910 years",
+   "narrative_summary": "All the days of Kenan were 910 years, and he died.",
+   "temporal_reasoning_note": "5:14: 70 + 840 = 910 years from Kenan's birth. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "910 years"
+  },
+  {
+   "event_id": "evt.gen_5.jared_born",
+   "title": "Mahalalel, aged 65, fathers Jared",
+   "narrative_summary": "Mahalalel, at 65 years, begets Jared. He lives 830 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:15: offset 65 years from Mahalalel's birth START. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Mahalalel had lived 65 years"
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_dies",
+   "title": "Mahalalel dies at 895 years",
+   "narrative_summary": "All the days of Mahalalel were 895 years, and he died.",
+   "temporal_reasoning_note": "5:17: 65 + 830 = 895 years from Mahalalel's birth. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "895 years"
+  },
+  {
+   "event_id": "evt.gen_5.enoch_born",
+   "title": "Jared, aged 162, fathers Enoch",
+   "narrative_summary": "Jared, at 162 years, begets Enoch. He lives 800 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:18: offset 162 years from Jared's birth START. This is Seth's line's Enoch, not the Cainite Enoch of Gen 4:17. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Jared had lived 162 years"
+  },
+  {
+   "event_id": "evt.gen_5.jared_dies",
+   "title": "Jared dies at 962 years",
+   "narrative_summary": "All the days of Jared were 962 years, and he died.",
+   "temporal_reasoning_note": "5:20: 162 + 800 = 962 years from Jared's birth. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "962 years"
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_born",
+   "title": "Enoch, aged 65, fathers Methuselah and walks with God",
+   "narrative_summary": "Enoch, at 65 years, begets Methuselah. After that he walks with God 300 years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:21: offset 65 years from Enoch's birth START. 5:22 ('walked with God 300 years') runs to 365 and is the span up to evt.gen_5.enoch_taken. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Enoch had lived 65 years"
+  },
+  {
+   "event_id": "evt.gen_5.enoch_taken",
+   "title": "Enoch, aged 365, is no more, for God took him",
+   "narrative_summary": "All the days of Enoch were 365 years. He walked with God, and he was not, for God took him.",
+   "temporal_reasoning_note": "5:23-24: 65 + 300 = 365 years from Enoch's birth. The text says he did not die in the usual way; the date is the end of his years. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "365 years"
+  },
+  {
+   "event_id": "evt.gen_5.lamech_born",
+   "title": "Methuselah, aged 187, fathers Lamech",
+   "narrative_summary": "Methuselah, at 187 years, begets Lamech. He lives 782 more years and has other sons and daughters.",
+   "temporal_reasoning_note": "5:25: offset 187 years from Methuselah's birth START. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Methuselah had lived 187 years"
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_dies",
+   "title": "Methuselah dies at 969 years",
+   "narrative_summary": "All the days of Methuselah were 969 years, and he died.",
+   "temporal_reasoning_note": "5:27: all his days were 969 years (187 + 782). The ages are whole years, so a man who 'died at 969' dies in his 969th year, after 968 completed years: offset 968 years from his birth. Methuselah is born 687 years after anchor.creation (130+105+90+70+65+162+65), and anchor.flood is 1655 years after it, so 687 + 968 = 1655: his death falls in the Flood year itself (Noah's 600th, 7:6). The text rules out a death after the Flood began: only Noah and those in the ark survived (7:21-23). Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "969 years"
+  },
+  {
+   "event_id": "evt.gen_5.noah_born",
+   "title": "Lamech, aged 182, fathers Noah",
+   "narrative_summary": "Lamech, at 182 years, begets a son and calls him Noah, saying he will comfort them from the work and toil of their hands because of the ground the LORD cursed.",
+   "temporal_reasoning_note": "5:28-29: offset 182 years from Lamech's birth START. The chain puts Noah's birth in AM 1056, 600 years before the Flood, as the anchor.flood basis says. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "When Lamech had lived 182 years"
+  },
+  {
+   "event_id": "evt.gen_5.lamech_dies",
+   "title": "Lamech dies at 777 years",
+   "narrative_summary": "Lamech lives 595 years after Noah's birth and has other sons and daughters. All his days are 777 years, and he dies.",
+   "temporal_reasoning_note": "5:30-31: 182 + 595 = 777 years from Lamech's birth, five years before the Flood. Margin 1 year; REGNAL_YEAR.",
+   "ancient_year_marker": "777 years"
+  },
+  {
+   "event_id": "evt.gen_5.noah_sons_born",
+   "title": "Noah, aged 500, fathers Shem, Ham and Japheth",
+   "narrative_summary": "When Noah is 500 years old he begets Shem, Ham and Japheth.",
+   "temporal_reasoning_note": "5:32: offset 500 years from Noah's birth START. The text names the age at which he began to beget; the three sons need not be born in one year (Gen 11:10 puts Shem's birth in Noah's 502nd year), hence a 3-year margin. REGNAL_YEAR.",
+   "ancient_year_marker": "When Noah was 500 years old"
+  }
+ ],
+ "causal_edges": [],
+ "entities": [
+  {
+   "entity_id": "person.enoch",
+   "canonical_name": "Enoch",
+   "phonetic_name": "Chanokh",
+   "aliases": [
+    "Henoch"
+   ],
+   "etymology_meaning": "Probably 'dedicated' or 'initiated', from a root meaning to train or dedicate.",
+   "summary_bio": "Son of Jared in Seth's line and father of Methuselah. He lived 365 years, walked with God, and was taken by God so that he was no more. Not to be confused with Cain's son Enoch (Gen 4:17)."
+  },
+  {
+   "entity_id": "person.jared",
+   "canonical_name": "Jared",
+   "phonetic_name": "Yeh-red",
+   "aliases": [
+    "Jered"
+   ],
+   "etymology_meaning": "Probably 'descent' or 'descender', from the verb to go down.",
+   "summary_bio": "Son of Mahalalel and father of Enoch in Seth's line. He lived 962 years."
+  },
+  {
+   "entity_id": "person.kenan",
+   "canonical_name": "Kenan",
+   "phonetic_name": "Kay-nahn",
+   "aliases": [
+    "Cainan"
+   ],
+   "etymology_meaning": "Probably 'possession' or 'smith', related to the root of Cain's name.",
+   "summary_bio": "Son of Enosh and father of Mahalalel in Seth's line. He lived 910 years."
+  },
+  {
+   "entity_id": "person.lamech",
+   "canonical_name": "Lamech",
+   "phonetic_name": "Leh-mekh",
+   "aliases": [],
+   "etymology_meaning": "Of uncertain meaning; possibly related to an Akkadian word for 'powerful man' or 'one who is brought low'.",
+   "summary_bio": "Son of Methuselah in Seth's line and father of Noah. At Noah's birth he named him for the comfort he hoped for from the cursed ground. He lived 777 years. Not to be confused with Cain's descendant Lamech (Gen 4:18)."
+  },
+  {
+   "entity_id": "person.mahalalel",
+   "canonical_name": "Mahalalel",
+   "phonetic_name": "Mah-hah-lal-el",
+   "aliases": [
+    "Mahalaleel"
+   ],
+   "etymology_meaning": "Probably 'praise of God' or 'God is praised'.",
+   "summary_bio": "Son of Kenan and father of Jared in Seth's line. He lived 895 years."
+  },
+  {
+   "entity_id": "person.methuselah",
+   "canonical_name": "Methuselah",
+   "phonetic_name": "Meh-too-sheh-lakh",
+   "aliases": [
+    "Methusaleh"
+   ],
+   "etymology_meaning": "Uncertain; probably 'man of the javelin' or 'man of Shelah'.",
+   "summary_bio": "Son of Enoch and father of Lamech. He lived 969 years, the longest life recorded in the Bible."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.adam.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:5: all the days Adam lived were 930 years, and he died."
+  },
+  {
+   "component_id": "comp.enoch.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:18: Jared fathers Enoch; 5:23 gives his 365 years."
+  },
+  {
+   "component_id": "comp.enoch.life.2",
+   "label_key": "Life",
+   "label_value": "Taken by God",
+   "evidence_explanation": "Gen 5:24: he was no more, for God took him; no death is reported."
+  },
+  {
+   "component_id": "comp.enoch.walk_with_god.1",
+   "label_key": "Relation to God",
+   "label_value": "Walking with God",
+   "evidence_explanation": "Gen 5:22 and 5:24: Enoch walked with God for 300 years after Methuselah's birth, until taken."
+  },
+  {
+   "component_id": "comp.enosh.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:6: Seth fathers Enosh; his span is given in 5:11."
+  },
+  {
+   "component_id": "comp.enosh.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:11: Enosh lived 905 years, and he died."
+  },
+  {
+   "component_id": "comp.jared.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:15: Mahalalel fathers Jared; his span is given in 5:20."
+  },
+  {
+   "component_id": "comp.jared.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:20: Jared lived 962 years, and he died."
+  },
+  {
+   "component_id": "comp.kenan.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:9: Enosh fathers Kenan; his span is given in 5:14."
+  },
+  {
+   "component_id": "comp.kenan.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:14: Kenan lived 910 years, and he died."
+  },
+  {
+   "component_id": "comp.lamech.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:25: Methuselah fathers Lamech; his span is given in 5:31."
+  },
+  {
+   "component_id": "comp.lamech.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:31: Lamech lived 777 years, and he died."
+  },
+  {
+   "component_id": "comp.mahalalel.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:12: Kenan fathers Mahalalel; his span is given in 5:17."
+  },
+  {
+   "component_id": "comp.mahalalel.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:17: Mahalalel lived 895 years, and he died."
+  },
+  {
+   "component_id": "comp.methuselah.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:21: Enoch fathers Methuselah; his span is given in 5:27."
+  },
+  {
+   "component_id": "comp.methuselah.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:27: Methuselah lived 969 years, and he died."
+  },
+  {
+   "component_id": "comp.seth.life.1",
+   "label_key": "Life",
+   "label_value": "Living",
+   "evidence_explanation": "Gen 5:3: Seth is born to Adam, and 5:8 gives his span of life."
+  },
+  {
+   "component_id": "comp.seth.life.2",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 5:8: Seth lived 912 years, and he died."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_taking",
+   "name": "Divine taking of a person",
+   "ancient_near_east_context": "Texts across the ancient Near East speak of favoured individuals removed from the human sphere, such as Utnapishtim given life among the gods, and the Hebrew Bible records Enoch and later Elijah.",
+   "rules_and_mechanics": [
+    "God is the sole agent: the verb is 'take' (laqach), not 'die'.",
+    "The one taken has first 'walked with God'.",
+    "The person is simply 'no more' on earth, and no death is reported."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_5.enoch_taken",
+   "outcome_summary": "After 365 years Enoch is no more, for God took him.",
+   "significance_note": "The only one in the chapter whose life ends without the refrain 'and he died'."
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_blessed",
+   "outcome_summary": "God blesses the man and woman at creation.",
+   "significance_note": "The blessing is the ground of the fertility and the generations that follow in the chapter."
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_named",
+   "outcome_summary": "God calls the male and female he created 'Adam' on the day they were created.",
+   "significance_note": "Shared name for both sexes ties the line of Adam to the whole human race."
+  },
+  {
+   "instance_id": "inst.gen_5.noah_named",
+   "outcome_summary": "Lamech names his son Noah, hoping he will bring comfort from the toil of the cursed ground.",
+   "significance_note": "Links the line of Seth to the curse of Gen 3 and anticipates Noah's role after the flood."
+  },
+  {
+   "instance_id": "inst.gen_5.seth_named",
+   "outcome_summary": "Adam fathers a son in his own likeness and image and names him Seth.",
+   "significance_note": "The language echoes God making Adam in his likeness (5:1), passing the image on through the line."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_5.adam_fathers_seth",
+   "interaction_label": "fathers",
+   "description": "Adam, aged 130, fathers Seth in his own likeness."
+  },
+  {
+   "edge_id": "edge.gen_5.enoch_fathers_methuselah",
+   "interaction_label": "fathers",
+   "description": "Enoch, aged 65, fathers Methuselah."
+  },
+  {
+   "edge_id": "edge.gen_5.enosh_fathers_kenan",
+   "interaction_label": "fathers",
+   "description": "Enosh, aged 90, fathers Kenan."
+  },
+  {
+   "edge_id": "edge.gen_5.god_blesses_humankind",
+   "interaction_label": "blesses",
+   "description": "God blessed them when they were created (5:2)."
+  },
+  {
+   "edge_id": "edge.gen_5.god_creates_humankind",
+   "interaction_label": "creates",
+   "description": "God created the man and woman in his likeness (5:1-2)."
+  },
+  {
+   "edge_id": "edge.gen_5.god_takes_enoch",
+   "interaction_label": "takes",
+   "description": "God takes Enoch, who is then no more."
+  },
+  {
+   "edge_id": "edge.gen_5.jared_fathers_enoch",
+   "interaction_label": "fathers",
+   "description": "Jared, aged 162, fathers Enoch."
+  },
+  {
+   "edge_id": "edge.gen_5.kenan_fathers_mahalalel",
+   "interaction_label": "fathers",
+   "description": "Kenan, aged 70, fathers Mahalalel."
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_fathers_noah",
+   "interaction_label": "fathers",
+   "description": "Lamech, aged 182, fathers a son."
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_names_noah",
+   "interaction_label": "names",
+   "description": "Lamech calls his son Noah, saying he will comfort them in their toil."
+  },
+  {
+   "edge_id": "edge.gen_5.mahalalel_fathers_jared",
+   "interaction_label": "fathers",
+   "description": "Mahalalel, aged 65, fathers Jared."
+  },
+  {
+   "edge_id": "edge.gen_5.methuselah_fathers_lamech",
+   "interaction_label": "fathers",
+   "description": "Methuselah, aged 187, fathers Lamech."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_ham",
+   "interaction_label": "fathers",
+   "description": "Noah, aged 500, fathers Ham."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_japheth",
+   "interaction_label": "fathers",
+   "description": "Noah, aged 500, fathers Japheth."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_shem",
+   "interaction_label": "fathers",
+   "description": "Noah, aged 500, fathers Shem."
+  },
+  {
+   "edge_id": "edge.gen_5.seth_fathers_enosh",
+   "interaction_label": "fathers",
+   "description": "Seth, aged 105, fathers Enosh."
+  }
+ ]
+}

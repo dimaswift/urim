@@ -1,0 +1,3623 @@
+{
+ "chapter_ref": "GEN.25",
+ "items": {
+  "causal:caus.gen_25.abraham_death.abraham_burial": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_25.abraham_death.isaac_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": "[consider] Consider saying in the explanation that the text gives sequence and the causal reading is interpretive. (GEN.25.11: \"And it came to pass after the death of Abraham, that God blessed his son Isaac\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_25.prayer_conception.twins_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:32:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_25.prayer_conception.twins_struggle": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": "[consider] Consider ENABLES instead of TRIGGERS. (GEN.25.22: \"And the children struggled together within her\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.esau.attitude_to_birthright.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.esau.birthright.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Inferred: Esau holds the birthright as firstborn from his birth (25:25) until he sells it (25:33). The text names the birthright only in the sale scene."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.esau.condition.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.esau.occupation.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.blessing.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.favourite.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.heir.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.isaac.wife.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.ishmael.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.birthright.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.lifestyle.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.keturah.status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.rebekah.favourite.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.rebekah.fertility.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Barrenness is stated at 25:21 ('she was barren') but belongs to the whole period since the marriage (25:20); opened at 25:21, the first verse that says it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.rebekah.fertility.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sons_of_concubines.whereabouts.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sons_of_ishmael.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "State inferred from 25:18: they settled from Havilah to Shur; the region is coded as a value, not a single place. The site of Havilah and Shur in this verse is debated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.abraham_gives_all_to_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.abraham_sends_away_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.abraham_takes_keturah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.esau_asks_for_stew": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.esau_sells_birthright": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.esau_swears_to_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.god_blesses_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.isaac_buries_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.isaac_entreats_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.isaac_loves_esau": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.isaac_takes_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.ishmael_buries_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.jacob_demands_birthright": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[consider] Consider dropping the two speech edges and keeping the acts. (GEN.25.31: \"And Jacob said, Sell me this day thy birthright\"; GEN.25.30: \"Feed me, I pray thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.jacob_feeds_esau": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.rebekah_inquires_of_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.rebekah_loves_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.yhwh_answers_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_25.yhwh_reveals_to_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.asshurim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Asshurim (25:3) is a descendant tribe of Dedan, not the Assyrians; defined without tipnr_id and kept separate from loc.assyria."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:42:12+00:00",
+   "agent_notes": [
+    "Per reviewer: the people of 25:9-10 ('the Hittite', 'sons of Heth') are a group, defined here without tipnr_id; the patriarch person.heth is not a participant in this chapter and is left out. MENTIONED in the burial event. First mention is 25:9 since Gen 23 is not in the corpus."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:55+00:00",
+     "note": "[consider] Consider 'near Mamre' instead of 'at Hebron', or cite Gen 23 for Hebron. (GEN.25.9: \"in the field of Ephron the son of Zohar the Hittite, which is before Mamre\"; GEN.25.10: \"The field which Abraham purchased of the sons of Heth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.letushim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.leummim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.sons_of_concubines": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.sons_of_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[consider] Say 'They dwell from Havilah to Shur (25:18)' without 'after his death', and consider whether the 25:18 dwelling belongs to group.ishmaelites. (GEN.25.18: \"And they dwelt from Havilah unto Shur\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.assyria": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.beer_lahai_roi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.havilah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[consider] No change to the entity; flag the registry coordinates of Havilah_2 for correction. (GEN.25.18: \"from Havilah unto Shur, that is before Egypt\": Havilah is the far end from Egypt)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.land_of_the_east": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "'Land of the east' (eretz qedem, 25:6) is a vague region, not a point; no coordinates and no registry entry."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.machpelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.paddan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.shur": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.abida": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.adbeel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.bethuel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.dedan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.dumah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.eldaah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ephah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.epher": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ephron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.esau": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Esau and Edom are one person (25:30 'therefore his name was called Edom'); Edom as a nation is not modelled as a separate entity yet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hadad.gen_25_15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:42:12+00:00",
+   "agent_notes": [
+    "Hebrew Hadad (chet-dalet-dalet), as in 1 Chr 1:30; the KJV and some Hebrew editions read Hadar, kept as alias. The registry id is kept."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[should_fix] Change the summary to: 'Son of Ishmael (25:15). The KJV and some Hebrew editions read Hadar; the Masoretic text here and 1 Chr 1:30 read Hadad.' Keep the alias Hadar. (GEN.25.15 HE: \"חֲדַ֣ד וְתֵימָ֔א\" (Hadad); KJV: \"Hadar, and Tema\"; 1 Chr 1:30 (KJV): \"Mishma, and Dumah, Massa, Hadad, and Tema\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hanoch.gen_25_4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[consider] Set first_mention_verse to the verse the linker reports (the one in the tipnr id) for each of these entities. (urim validate: \"person.isaac: mentioned at GEN.17.19, before its first_mention_verse GEN.25.5\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ishbak": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:42:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[should_fix] Remove 'Ishmaelite' from person.ishmael's aliases. Leave the aliases empty or use only spellings of the personal name. (GEN.37.25: \"a company of Ishmeelites came from Gilead\" (group.ishmaelites); GEN.25.12: \"Ishmael, Abraham's son, whom Hagar the Egyptian ... bare\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jetur": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jokshan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.kedar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.kedemah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.keturah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Keturah is called a wife (ishah) at 25:1 but her sons are among those of the 'concubines' (25:6; 1 Chr 1:32 calls her a concubine). The state is coded WIFE with this caveat."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[consider] Say 'A woman Abraham takes as wife; the account follows Sarah's death', or mark the timing as inferred. (GEN.25.1: \"Then again Abraham took a wife, and her name was Keturah\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.laban": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.massa": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.medan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.mibsam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.midian": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.mishma.gen_25_14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.naphish": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.nebaioth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sheba.gen_25_3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shuah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tema": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.zimran": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.zohar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.lentil_stew": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Included because the plot turns on it (25:29-34); the 'red stuff' (adom) is the Edom pun."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.abraham_burial": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:32:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": "[should_fix] Drop 'at once' and the 'no journey time' claim; say the place of death is not given and Isaac would come from Beer-lahai-roi (urim travel: about 2.5 days hurrying, 5 days walking), and widen the margin to about 7 days. (GEN.25.9: \"his sons Isaac and Ishmael buried him in the cave of Machpelah\"; GEN.25.11 / 24:62: Isaac \"dwelt by the well Lahai-roi\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.abraham_death": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.birthright_sold": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [
+    "Date of the sale is unknown. Pseudo-Jonathan ties it to the day of Abraham's death (Jacob 15, with the lentil stew as mourners' food); the plain text says only that the boys had grown. Margin 8 years covers both."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.boys_grow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.gifts_sendoff": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": "[consider] Consider anchoring on anchor.abraham_birth directly (offset about 165 years, margin about 9 years) so the margin stays before the death. (GEN.25.6: \"and sent them away from Isaac his son, while he yet lived\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.isaac_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.isaac_marries": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.ishmael_death": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [
+    "Ishmael's death at 137 (Abraham aged 223 from birth) falls after the events of Genesis 26-35 up to about Jacob's age 63; the narrator rounds up his account here. Dated by ages, not by the order of the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.keturah_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [
+    "Placing Keturah after Sarah's death (Abraham 137+) is an inference from the sequence of the text; some traditions (Pseudo-Jonathan, Rashi) identify Keturah with Hagar. The tradition does not change the date."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.prayer_conception": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:32:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": "[should_fix] Make the event end about nine months (c. 270 days) before the birth at Isaac's age 60, e.g. offset 19 years with duration 3 months (ending near Isaac 59 and 3 months) instead of duration 6 months; keep twins_struggle inside the pregnancy and say in the note that the full term of v.24 sets the conception. (GEN.25.24: \"when her days to be delivered were fulfilled, behold, there were twins in her womb\"; GEN.25.21: \"and Rebekah his wife conceived\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.twins_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [
+    "Anchoring on anchor.isaac_birth with 60 years reproduces anchor.jacob_birth, as expected. Abraham was then 160."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_25.twins_struggle": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:23+00:00",
+   "agent_notes": [
+    "The oracle at 25:23 ('the elder shall serve the younger') is fulfilled in later chapters (27, 33 and beyond); that chapter's session writes the FULFILLS_PROPHECY link. I did not link the sale of the birthright as a fulfilment."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.abraham_burial": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:42:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": "[should_fix] Replace person.heth with the Hittites group (see entity:person.heth) as MENTIONED in this event. (GEN.25.10: \"of the sons of Heth\"; GEN.25.9: \"Zohar the Hittite\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.abraham_death": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Place not stated in 25:7-8; left empty."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.birthright_sold": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.boys_grow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Place is the family encampment ('tents'), not named."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.gifts_sendoff": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "No place stated; Abraham's residence is not restated. The destination (land of the east) is a state, not the place of the event."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.isaac_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.isaac_marries": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Place left out: the marriage is told in Gen 24 and not restated here. The chronologist dates it 40 years into Isaac's life; the event sits after the narrative order of this chapter."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.ishmael_death": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Place of death not stated. 25:18 gives the region his sons settled; it is recorded as the sons' dwelling state, not an event place. The last clause of v18 ('he fell in the presence of his brothers') is read as Ishmael's death/settlement, debated; not modelled as a separate act."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.keturah_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "No place stated for the marriage and births; left out rather than assumed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.prayer_conception": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Place not restated; one might carry over Beer-lahai-roi from 25:11, but that verse is later in time (after Abraham's death), so it is not assumed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.twins_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Isaac is MENTIONED only (his age is given at v26); the text does not place him at the birth."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_25.twins_struggle": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "'She went to inquire of the LORD': the place (an altar, a prophet, a shrine) is unspecified; none given. The twins are PRESENT (in the womb); modelled as two persons already."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.abraham_buried": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.birthright_sold": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.esau_swears": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.estate_to_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.isaac_blessed_by_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.isaac_prays_for_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_25.rebekah_inquires": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.binding_oath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here, since sys.oath_by_yhwh is an oath by the living LORD and 25:33 does not say by whom Esau swears."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.birthright_transfer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here: the sale of the firstborn's rights is not the same as sys.sale_of_person (Gen 37). Parallels cited (Nuzi) are about firstborn inheritance shares and are debated for this passage."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.burial_in_family_tomb": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here; the existing sys.mourning_rites covers mourning, not burial. The 'gathered to his people' formula (25:8) is treated as part of the death account, not as the burial itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.inheritance_of_estate": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here: inter vivos gifts to the concubines' sons and the whole estate to the heir (25:5-6). Terminology of the 'gifts' is debated; the mechanics are those the text implies."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.oracle_inquiry": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here: Rebekah inquiring of the LORD and receiving an oracle (25:22-23). It is distinct from sys.divine_word_to_prophet because no prophet is named."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.petition_prayer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:37:57+00:00",
+   "agent_notes": [
+    "Defined here as the general practice (Isaac entreats the LORD for Rebekah), because no prayer system exists yet in the corpus."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [
+    "Keturah's status is disputed: Rashi (after Genesis Rabbah) identifies her with Hagar; Rashbam, Ibn Ezra, Ramban and Radak reject it. The text calls her 'ishah (wife) here but Abraham's sons by her are 'sons of the concubines' in v. 6 and 1 Chr 1:32 calls her pilegesh. I follow the plain sense and flag the tension in the commentary.",
+    "STEPBible glosses wayyosef as 'and he repeated'; I render 'and Abraham added [and] took', since the idiom is 'he added to do (something)', i.e. 'again'. The verb carries no sense of repetition of a wife already taken in the narrative's own terms."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:17+00:00",
+   "agent_notes": [
+    "Revised per the reviewer. The Esau reason is now Rashi's (Sotah 14a): Abraham feared to bless Isaac because he foresaw Esau. Pseudo-Jonathan's reason is different: Abraham would not bless Ishmael, so he did not bless Isaac either. Onkelos renders Elohim as the LORD and gives the well a different etymology, so I note it but make no claim about the Hebrew from it. The verse is spoken of God as Elohim, not YHWH; the literal layer reads 'God'. The brief remark that Abraham gave goods while the blessing stayed with God is my own reading and is unsourced."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Give the Esau reason to Rashi. Say that Pseudo-Jonathan's reason is Abraham's unwillingness to bless Ishmael, which kept him from blessing Isaac. (GEN.25.11 Pseudo-Jonathan: \"מן בגלל דלא הוה אברהם צבי לברכא ית ישמעאל בגין כן לא בריך ית יצחק\"; Rashi: \"נתירא לברך את יצחק מפני שצפה את עשו יוצא ממנו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "Names of Ishmael's sons: the packet does not give a modern identification of any tribe beyond what the commentaries say; I avoided asserting site locations for Tema, Dumah, Massa, Jetur beyond the common Arabian-oasis identifications, which I mark as my own reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "The packet's first word is marked as a variant reading (LA(BH)); the Hebrew text before me reads Hadad (חדד), as in 1 Chr 1:30. KJV/YLT/Webster 'Hadar' follow the ד/ר confusion of a variant tradition; ASV and BBE read Hadad. I glossed Hadad and mention the variant in the commentary without asserting which manuscripts carry it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Describe it as a ד/ר variant without ruling on which reading is the error, and move the first-person remark to reviewer notes. (GEN.25.15 packet: KJV/YLT \"Hadar\", ASV/BBE \"Hadad\"; Hebrew \"חֲדַד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:23+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the 'first twelve-tribe league in the book' claim is gone. The commentary now ties the twelve nesi'im to the promise of Gen 17:20, and sets Ishmael's twelve beside Nahor's twelve sons (Gen 22:20-24: eight by Milcah, four by Reumah) and Jacob's twelve to come.",
+    "H2918 tirah is glossed 'encampments' (ASV/BBE) against KJV 'castles'; Ibn Ezra reads 'palaces' (Song 8:9), Radak 'fortified towns'. The parallel with unwalled hatzerim, and use for nomad camps elsewhere (Num 31:10, Ezek 25:4, cited from memory, no source given in the notes), favour the camp sense. 'Chieftains' for nesi'im keeps the Hebrew rank word distinct from 'princes' (KJV)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Delete the 'first twelve-tribe league in the book' claim, or rephrase it to acknowledge Nahor's twelve sons (Gen 22:20-24). The tie to Gen 17:20 and to Jacob's twelve can stay. (GEN.25.16: \"twelve princes according to their nations\"; cf. Gen 22:20-24 (Uz, Buz, Kemuel, Chesed, Hazo, Pildash, Jidlaph, Bethuel; Tebah, Gaham, Thahash, Maachah))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": "[consider] Credit the fortified-town reading of tirot to Radak, and Rashi only with 'hatzerim = unwalled towns'. (GEN.25.16 Rashi: \"בחצריהם. כְּרַכִּים שֶׁאֵין לָהֶם חוֹמָה\"; Radak: \"וְהַחֲצֵרִים הֵם עָרֵי הַפְּרָזוֹת, וְהַטִּירוֹת הֵם הַכְּרַכִּים וְהַמִּבְצָרִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "'vayigva' is rendered 'expired' and the Rashi/Ramban claim that gevi'ah is said only of the righteous is reported with attribution; Ramban himself notes the Talmud's objection (flood generation). No view adopted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Use one rendering in both verses so the echo the commentary points to can be seen. (GEN.25.8 and GEN.25.17: \"וַיֵּאָסֶף אֶל־עַמָּיו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "'nafal' is hard: KJV/Webster 'he died' follows the plain verb 'fell'; ASV 'abode' and BBE 'took their place' follow Rashi/Radak (nafal = dwelt, as in Judg 7:12) and Gen 16:12 (yishkon). I rendered 'fell' literally and 'settled' dramatically, and flag that Ibn Ezra also allows 'fell' = 'died' or 'fell by lot'. The subject is singular 'he' after plural 'they' dwelt; I left it ambiguous in the literal layer.",
+    "'bo'akha' (suffix 2ms, 'your going') is gloss-corrected from STEPBible 'going you' to 'as you go'; 'Asshur' is glossed as 'toward Asshur' (directive -ah). Whether this is the city/land or the empire is disputed; I kept 'Asshur'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Say that Sforno bases his reading on Chronicles. (GEN.25.2 Sforno: \"כי אמנם אברהם לא הוליד כי אם יצחק וישמעאל כמבואר בדברי הימים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Drop the altar, or describe the staging as the commentators do. (GEN.25.21 Rashi: \"זה עומד בזוית זו ומתפלל וזו עומדת בזוית זו ומתפללת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "'im-ken lamah zeh anokhi' is a famously broken sentence. Five versions split: KJV 'why am I thus', ASV 'wherefore do I live', BBE 'why am I like this'. Rashi (longing for pregnancy), Ibn Ezra (asked other women), Ramban (why do I exist at all?) differ. I kept the Hebrew's broken syntax in the literal layer and followed Ramban's sense of existential cry in the dramatic layer, with the others named in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "The consonantal text has גיים (Ketiv), read goyim (Qere) per the packet. The Rashi/Radak aggadic readings (gei'im 'proud ones', Antoninus and Rabbi) are cited as the commentators' own and not adopted. The syntax of 'rav ya'avod tza'ir' is genuinely ambiguous (Radak says so); the dramatic layer deliberately preserves the ambiguity by keeping the Hebrew order."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Either make the dramatic layer keep the ambiguity (e.g. 'and the great one, the small one shall serve') or soften the KJV criticism to say it follows Radak's majority reading. (GEN.25.23: \"וְרַב יַעֲבֹד צָעִיר\"; Radak: \"והנה הדבר מספק\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:04+00:00",
+   "agent_notes": [
+    "Chronology claims in Rashi on 25:20 (Rebekah born at the Akedah, married at three) are Rashi's midrashic arithmetic and are reported as such, not as the plain text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:23+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the dramatic layer names him again ('Then they named him Esau') and the invented staging is cut. The subject of 'they called' is left open as in the Hebrew (Rashi: everyone; Radak: onlookers, or Isaac and Rebekah).",
+    "The remark that Esau's red/hair foreshadow Edom (25:30) and Seir (36:8) is my own reading and carries no source. Rashi's 'asui (made, fully formed) etymology is cited as his, not as the text's own explanation; the text gives none here."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Put the name back in the dramatic layer, e.g. 'Then they named him Esau.' The invented staging ('the room went quiet', 'They stared') is optional to trim. (GEN.25.25: \"וַיִּקְרְאוּ שְׁמוֹ עֵשָׂו\" (KJV \"and they called his name Esau\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": "[consider] Consider 'The first came out red, and all of him like a cloak of hair.' (GEN.25.25: \"אַדְמוֹנִי כֻּלּוֹ כְּאַדֶּרֶת שֵׂעָר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "The subject of 'called' is singular and unmarked (he called). Ibn Ezra and Radak say Isaac; Rashi gives God or Isaac. I translate 'he called' and let the commentary lay out the options. Isaac's age: Gen 21:5 has Abraham at 100 at Isaac's birth, so Abraham is 160 at the twins' birth and 175 at death (Gen 25:7), which makes the boys 15 at his death. That arithmetic is mine; it underlies the tradition in Rashi on 25:30 that Abraham died that day."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "Five English versions split on 'tam' (plain / quiet / blameless) and on 'yode'a tsayid' (cunning hunter / skilful / expert bowman). 'Bowman' in BBE is an addition, not in the Hebrew. I kept 'knower of hunting' in the literal layer and 'complete/whole, unscheming' in the dramatic one; Rashi reads tam as 'not sharp at deceiving', Radak as 'without deceit', and the Targums as 'perfect' and 'studying'. I treat the study-house readings of the Targums as later interpretation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "'Tsayid be-fiv': literally 'game in his mouth'. The mouth is Isaac's (Onkelos, Rashbam, Ibn Ezra, Radak) or Esau's (Rashi's midrash, Pseudo-Jonathan: deceit in his mouth). Ramban gives both and prefers an idiom of constant presence. I follow the plain sense: Isaac's mouth. The KJV supplies a verb ('did eat') that the Hebrew lacks."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "Pseudo-Jonathan's expansion (the day Abraham died, Esau's five sins) is not in the Hebrew and is not used in the dramatic layer. Rashi on 25:30 likewise says Abraham died that day and that the lentils are a mourner's meal; the plain text does not say so. I mention it in the commentary as tradition only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:17+00:00",
+   "agent_notes": [
+    "Revised per the reviewer. The common-noun reading of Asshurim, Letushim and Leummim is credited to Onkelos (Aramaic 'camps, tent-dwellers, islanders') and Pseudo-Jonathan ('traders, merchants, heads of nations') only. Ramban explains Onkelos but, citing R. Samuel b. Nahmani, agrees with Rashi and Ibn Ezra that the three are names. The earlier remark about the Sheba of the queen is deleted; it had no source in the packet. Ibn Ezra's 'some say' (guides, watchers) is reported as a view he rejects. Glosses keep the Hebrew plural -im forms as 'Asshurim' etc."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] In the commentary and the note, credit the common-noun reading to Onkelos (and Pseudo-Jonathan) only. Say that Ramban explains Onkelos but agrees with Rashi and Ibn Ezra that the three are names. Delete the 'not the Sheba of the queen' claim, or mark it clearly as unsourced. (GEN.25.3 packet, Ramban: \"ואמר רבי שמואל בר רב נחמן שאף על פי שנהגו לתרגם כן, אינם אלא ראשי אמות, אין בהם שם תאר כלל. וכך הדבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:49:18+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the KJV audit now says that 'pottage' adds a noun Esau does not say and that 'that same red' smooths the stuttered 'the red, the red, this'; it no longer claims the KJV removes the redness. YLT's 'this red red thing' is the only one of the five versions that keeps the doubling.",
+    "STEPBible glosses both ha'adom words 'the red [stew]'. I kept 'the red' for each and bracketed [stuff] only in the literal layer, since the noun is exactly what the Hebrew withholds. 'Edom' (pos 18) is glossed as the name; the wordplay with adom is in the notes.",
+    "Impersonal 'one called his name' (qara, 3ms with no subject) is rendered as 'one called'; Onkelos and Targum Pseudo-Jonathan read it as passive ('his name was called'). Who named him is left open, as in the Hebrew; Rashbam and Ramban read a taunt by others."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Correct the KJV audit: 'pottage' adds a noun Esau does not say, and 'that same red' smooths the stuttered 'the red, the red, this'. Do not say the KJV removes the redness. (GEN.25.30 KJV: \"Feed me, I pray thee, with that same red pottage\"; Hebrew: \"מִן־הָאָדֹם הָאָדֹם הַזֶּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:49:18+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary now states that bekhorah and berakhah share the consonants b-k-r / b-r-k with the last two letters swapped, the wordplay Gen 27:36 exploits. The first-person phrasing is removed from the kayyom note.",
+    "kayyom is disputed among the commentators in the packet (Rashi 'clear, binding sale', Radak 'complete sale today', Ramban's plain sense 'at this time'). I rendered 'as the day' literally and chose 'right now' for the dramatic layer, which fits the plain sense and is compatible with Rashi and Radak. Ramban also reports an Onkelos-based reading ('on whatever day it falls to you') that I did not adopt."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Say that bekhorah and berakhah share the consonants b-k-r / b-r-k with two letters swapped, the wordplay Gen 27:36 uses. Drop the first-person 'I read it' from the kayyom note. (GEN.25.31: \"בְּכֹרָתְךָ\"; Gen 27:36 \"אֶת־בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "'Holekh lamut' ('going to die') is read as hyperbole of exhaustion (Sforno) or the real danger of the hunt (Rashbam, Ibn Ezra, Radak, Ramban). I gave the dramatic layer both: weariness and a hunter's trade. I did not take a side."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "The sequence swear / sell is read two ways: oath first (Ramban's first view), or the oath confirming a sale already agreed (Ramban's second, Sforno). I follow the Hebrew order. The text never gives a price other than the food in v.34; Rashbam and Radak's father say money too, which the text does not state."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Give the literal sense as 'swear (to me)' and mark the link to sheva 'seven' as a proposed etymology. (GEN.25.33: \"הִשָּׁבְעָה לִּי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:40:47+00:00",
+   "agent_notes": [
+    "Five consecutive verbs of Esau (ate, drank, arose, went, despised) are kept as a flat string. 'Despised' (vayyivez) is the narrator's verdict, as Rashi and Radak say. Whether the birthright was only the double share (a later law, Deut 21:17) or a wider status, as Ramban argues, I leave open in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[consider] Consider ending the dramatic layer with a flat verb ('And Esau despised the birthright.') to match the commentary. (GEN.25.34: \"וַיִּבֶז עֵשָׂו אֶת־הַבְּכֹרָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:51:54+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary and the note on הַפִּילַגְשִׁים now cite 'Radak on Genesis 25:1' by name, with his testimony that he found the word written full, with the yod, in all the accurate manuscripts. I take that wording from the request, which quotes his Hebrew; the 25:1 commentary itself is not in this verse's packet, so I could not re-read it. The reference to 'the reviewer' is removed.",
+    "Rashi's reading (a single concubine, Hagar who is Keturah, because the word is 'written defective') rests on a spelling the received text here does not have: the Hebrew shows הַפִּילַגְשִׁים with yod. I report Rashi and Radak's reply side by side and take no side beyond the plain plural.",
+    "Token 9 מֵעַל: STEPBible has 'from with'; I glossed 'from upon', the literal sense of the compound, which the literal layer keeps. Token 14 קֵדְמָה is glossed 'eastward' (directional ה) against token 17 קֶדֶם 'the east', so the shared root stays visible.",
+    "The five English versions agree except BBE, which turns 'concubines' into 'other women' and 'gifts' into 'offerings'. I follow the Hebrew: concubines, gifts."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": "[should_fix] Rewrite the note: Rashi (after Genesis Rabbah) reads the word as written defectively and builds the single-concubine reading on it. The text here, and Radak's accurate manuscripts, have the yod. (GEN.25.6 Hebrew: \"וְלִבְנֵ֤י הַפִּֽילַגְשִׁים֙\"; Radak on 25:1: \"וַאֲנַחְנוּ מְצָאנוּהוּ מָלֵא בְּיוּ״ד בְּכָל הַסְּפָרִים הַמְדֻיָּקִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:51:02+00:00",
+     "note": "[should_fix] Cite Radak on Genesis 25:1 directly in the commentary and the note for הַפִּילַגְשִׁים (e.g. 'Radak, on 25:1, says he found it written full, with the yod, in all the accurate manuscripts'). Remove every mention of 'the reviewer', and change the source to plain 'Radak on Genesis 25:1'. (GEN.25.1 packet, Radak: \"וְדָרְשׁוּ זֶה בַּעֲבוּר שֶׁמָּצְאוּ ״הַפִּילַגְשִׁם״ (בראשית כה:ו) חָסֵר יוּ״ד. וַאֲנַחְנוּ מְצָאנוּהוּ מָלֵא בְּיוּ״ד בְּכָל הַסְּפָרִים הַמְדֻיָּקִים\"; GEN.25.6 commentary: \"the reviewer's note records Radak's testimony\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:52:52+00:00",
+     "note": "[consider] Consider adding one clause giving Ibn Ezra's reading (qedem = east of the land of Israel), or dropping him from the sources. (GEN.25.6 packet, Ibn Ezra: \"קדמה. פי' אל ארץ קדם ... וקדם מזרח א\"י, וי\"א אל מקום בן ישמעאל והראשון נכון\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [
+    "The packet does not include a Ketiv/Qere; none in these verses. 'Gathered to his people' is kept literal; Ibn Ezra and Sforno offer opposing readings (family fellowship vs afterlife), which I cite without choosing beyond saying it precedes burial in v. 9."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.25.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:28+00:00",
+   "agent_notes": [
+    "KJV, ASV and Webster use 'Zohar'; YLT 'Zoar'. The Hebrew is tzochar, so Zohar."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:45:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 12-16 (Ishmael's undated genealogy and twelve princes) and 19 (toledot heading) are left out as framing. Verse 18's settlement is folded into the Ishmael death event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:23+00:00"
+  },
+  {
+   "note": "Verses 12-16 (Ishmael's undated genealogy and twelve princes) and 19 (toledot heading) are left out as framing. Verse 18's settlement is folded into the Ishmael death event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "[event:evt.gen_25.twins_struggle] The oracle at 25:23 ('the elder shall serve the younger') is fulfilled in later chapters (27, 33 and beyond); that chapter's session writes the FULFILLS_PROPHECY link. I did not link the sale of the birthright as a fulfilment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "[event:evt.gen_25.keturah_sons] Placing Keturah after Sarah's death (Abraham 137+) is an inference from the sequence of the text; some traditions (Pseudo-Jonathan, Rashi) identify Keturah with Hagar. The tradition does not change the date.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "[event:evt.gen_25.ishmael_death] Ishmael's death at 137 (Abraham aged 223 from birth) falls after the events of Genesis 26-35 up to about Jacob's age 63; the narrator rounds up his account here. Dated by ages, not by the order of the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "[event:evt.gen_25.twins_born] Anchoring on anchor.isaac_birth with 60 years reproduces anchor.jacob_birth, as expected. Abraham was then 160.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "[event:evt.gen_25.birthright_sold] Date of the sale is unknown. Pseudo-Jonathan ties it to the day of Abraham's death (Jacob 15, with the lentil stew as mourners' food); the plain text says only that the boys had grown. Margin 8 years covers both.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:51+00:00"
+  },
+  {
+   "note": "Chapter-wide: Abraham and Sarah are reused from GEN.12. The corpus holds no ontology for Gen 16-24, so Hagar, Isaac, Ishmael, Rebekah, Machpelah, Mamre, Beer-lahai-roi and others are defined here, at their first mention in this chapter. If those chapters are ontologized later, those ids should be reused, not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:37:57+00:00"
+  },
+  {
+   "note": "No event covers 25:12-16 (the generations of Ishmael) or 25:19 (heading of Isaac's generations). Ishmael's sons and Hagar are first mentioned at 25:12-15, outside any event, so they are attached as MENTIONED to evt.gen_25.ishmael_death (25:17-18), the nearest Ishmael unit. Consider a chronologist event for the list.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:37:57+00:00"
+  },
+  {
+   "note": "[entity:person.israel] Jacob (named at 25:26, 'Jacob') is the existing person.israel (tipnr Israel@Gen.25.26-Rev, defined in GEN.37); no new entity. The Hebrew form here is Yaaqov; Israel is the later name (Gen 32). Not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:37:57+00:00"
+  },
+  {
+   "note": "[system:sys.divine_blessing_prosperity] Reused for God's blessing of Isaac (25:11): the existing system is 'the LORD makes someone prosper', and the content of the blessing is not stated here. A reviewer may prefer a separate sys.divine_blessing.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:37:57+00:00"
+  },
+  {
+   "note": "Chapter-wide: Abraham and Sarah are reused from GEN.12. The corpus holds no ontology for Gen 16-24, so Hagar, Isaac, Ishmael, Rebekah, Machpelah, Mamre, Beer-lahai-roi and others are defined here, at their first mention in this chapter. If those chapters are ontologized later, those ids should be reused, not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "No event covers 25:12-16 (the generations of Ishmael) or 25:19 (heading of Isaac's generations). Ishmael's sons and Hagar are first mentioned at 25:12-15, outside any event, so they are attached as MENTIONED to evt.gen_25.ishmael_death (25:17-18), the nearest Ishmael unit. Consider a chronologist event for the list.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:person.israel] Jacob (named at 25:26, 'Jacob') is the existing person.israel (tipnr Israel@Gen.25.26-Rev, defined in GEN.37); no new entity. The Hebrew form here is Yaaqov; Israel is the later name (Gen 32). Not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:person.esau] Esau and Edom are one person (25:30 'therefore his name was called Edom'); Edom as a nation is not modelled as a separate entity yet.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:person.keturah] Keturah is called a wife (ishah) at 25:1 but her sons are among those of the 'concubines' (25:6; 1 Chr 1:32 calls her a concubine). The state is coded WIFE with this caveat.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:group.asshurim] Asshurim (25:3) is a descendant tribe of Dedan, not the Assyrians; defined without tipnr_id and kept separate from loc.assyria.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:loc.land_of_the_east] 'Land of the east' (eretz qedem, 25:6) is a vague region, not a point; no coordinates and no registry entry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.keturah_sons] No place stated for the marriage and births; left out rather than assumed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.gifts_sendoff] No place stated; Abraham's residence is not restated. The destination (land of the east) is a state, not the place of the event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.abraham_death] Place not stated in 25:7-8; left empty.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.ishmael_death] Place of death not stated. 25:18 gives the region his sons settled; it is recorded as the sons' dwelling state, not an event place. The last clause of v18 ('he fell in the presence of his brothers') is read as Ishmael's death/settlement, debated; not modelled as a separate act.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.isaac_marries] Place left out: the marriage is told in Gen 24 and not restated here. The chronologist dates it 40 years into Isaac's life; the event sits after the narrative order of this chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.prayer_conception] Place not restated; one might carry over Beer-lahai-roi from 25:11, but that verse is later in time (after Abraham's death), so it is not assumed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.twins_struggle] 'She went to inquire of the LORD': the place (an altar, a prophet, a shrine) is unspecified; none given. The twins are PRESENT (in the womb); modelled as two persons already.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.twins_born] Isaac is MENTIONED only (his age is given at v26); the text does not place him at the birth.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_25.boys_grow] Place is the family encampment ('tents'), not named.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[component:comp.sons_of_ishmael.dwelling.1] State inferred from 25:18: they settled from Havilah to Shur; the region is coded as a value, not a single place. The site of Havilah and Shur in this verse is debated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[component:comp.esau.birthright.1] Inferred: Esau holds the birthright as firstborn from his birth (25:25) until he sells it (25:33). The text names the birthright only in the sale scene.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[component:comp.rebekah.fertility.1] Barrenness is stated at 25:21 ('she was barren') but belongs to the whole period since the marriage (25:20); opened at 25:21, the first verse that says it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.divine_blessing_prosperity] Reused for God's blessing of Isaac (25:11): the existing system is 'the LORD makes someone prosper', and the content of the blessing is not stated here. A reviewer may prefer a separate sys.divine_blessing.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.birthright_transfer] Defined here: the sale of the firstborn's rights is not the same as sys.sale_of_person (Gen 37). Parallels cited (Nuzi) are about firstborn inheritance shares and are debated for this passage.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.binding_oath] Defined here, since sys.oath_by_yhwh is an oath by the living LORD and 25:33 does not say by whom Esau swears.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.petition_prayer] Defined here as the general practice (Isaac entreats the LORD for Rebekah), because no prayer system exists yet in the corpus.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.oracle_inquiry] Defined here: Rebekah inquiring of the LORD and receiving an oracle (25:22-23). It is distinct from sys.divine_word_to_prophet because no prophet is named.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.burial_in_family_tomb] Defined here; the existing sys.mourning_rites covers mourning, not burial. The 'gathered to his people' formula (25:8) is treated as part of the death account, not as the burial itself.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[system:sys.inheritance_of_estate] Defined here: inter vivos gifts to the concubines' sons and the whole estate to the heir (25:5-6). Terminology of the 'gifts' is debated; the mechanics are those the text implies.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  },
+  {
+   "note": "[entity:substance.lentil_stew] Included because the plot turns on it (25:29-34); the 'red stuff' (adom) is the Edom pun.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:12+00:00"
+  }
+ ]
+}

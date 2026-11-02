@@ -1,0 +1,1400 @@
+{
+ "chapter_ref": "GEN.16",
+ "items": {
+  "causal:caus.gen_16.angel_promises_ishmael.ishmael_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_16.hagar_conceives.hagar_despises_sarai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_16.hagar_despises_sarai.sarai_blames_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_16.sarai_blames_abram.hagar_flees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_16.sarai_gives_hagar.hagar_conceives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_16.sarai_proposes.sarai_gives_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.abraham.offspring.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.offspring.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.attitude_to_sarah.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:56+00:00",
+   "agent_notes": [
+    "Left open on the reviewer's request: 16:9 commands Hagar to submit but nothing reports that she did, so a later chapter may close it from its own text."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": "[should_fix] Remove expired_at_verse and expired_in_event from comp.hagar.attitude_to_sarah.1 and leave the state open, so a later chapter can close it from its own text. Drop 'Closed when the angel tells her to submit (16:9), an inference' from evidence_explanation. (GEN.16.9: \"שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶיהָ\" (return to your mistress and humble yourself), a command with no report that it was carried out; GEN.16.4: \"וַתֵּקַל גְּבִרְתָּהּ בְּעֵינֶיהָ\" is the only verse about her attitude.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:03:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.divine_promise.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.legal_status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Closed at 16:15 by inference: the text does not say that Hagar returned, but she bears Ishmael to Abram."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.marital_status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.pregnancy.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.serves.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.hagar.whereabouts.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.ishmael.destiny.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": "[consider] Consider 'A wild donkey of a man, dwelling over against all his brothers', and keep the evidence to what 16:12 says. (GEN.16.12: \"וְעַל־פְּנֵי כָל־אֶחָיו יִשְׁכֹּן\" (and in the face of all his brothers he will dwell))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.fertility.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": "[consider] No change is needed here. Better still, the GEN.11 ontology could open this state at 11:30, and this item could be re-pointed or dropped. (GEN.16.1: \"לֹא יָלְדָה לוֹ\"; Gen 11:30 already says that Sarai was barren and had no child.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.abram_hands_hagar_to_sarai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.abram_lies_with_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.abram_names_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.angel_commands_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.angel_promises_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.angel_questions_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.hagar_bears_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.hagar_despises_sarai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.hagar_names_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.sarai_accuses_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.sarai_afflicts_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.sarai_gives_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.sarai_urges_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_16.yhwh_hears_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.bered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Site unknown; no coordinates are given. The registry has no coordinates for it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:spirit.angel_of_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Defined as its own entity, not folded into deity.yhwh, because the text distinguishes 'the angel of the LORD' (16:7–11) from the LORD; yet 16:13 has Hagar name the LORD 'who spoke to her', so the two are closely identified. The reviewer may prefer to merge them."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.angel_commands_return": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.angel_finds_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.angel_promises_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.hagar_conceives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.hagar_despises_sarai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": "[consider] Drop the parenthesis about the 'from X end' line; keep the reasoning that seeing the pregnancy takes weeks. (GEN.16.4: \"וַתֵּרֶא כִּי הָרָתָה\" (she saw that she had conceived): the note should just say why a month)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.hagar_flees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [
+    "Abram's residence is not stated in this chapter (Mamre/Hebron by 13:18, 14:13). I took Hebron to Beer-lahai-roi, the well 'on the way to Shur' (16:7, 14), as 148 km by road, hurry mode, about 2.5 days. Hagar's route toward Shur and the identification of the spring (Kadesh/Bered, openbible confidence 0.26) are uncertain, so the margin is a day."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.hagar_names_the_well": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": "[consider] Keep the question form, e.g. 'for she asked whether she had here seen after the one who sees her'. (GEN.16.13: \"הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי\" (Have I even here seen after the one who sees me?))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.ishmael_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:04+00:00",
+   "agent_notes": [
+    "Birth dated from the conception plus nine months (about 86.15 years from anchor.abraham_birth), agreeing with 16:16 (86 years); the proposal was moved to 85.4 years to make both verses hold. I did not anchor twice on abraham_birth. Hagar's return to Sarai (commanded in 16:9) is not narrated and has no event; the birth in the household is implied by 16:15 (Abram names the child)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": "[blocker] Make the linked birth fall at age 86 (86.0 to 87.0 years after anchor.abraham_birth): the stated age wins. Either anchor the birth on anchor.abraham_birth START with offset 86 years (margin about 6 months), or keep the nine-month chain and move the proposal later (see sarai_proposes) so that conception + 9 months lands at 86; correct the temporal_reasoning_note accordingly. (GEN.16.16: \"וְאַבְרָם בֶּן־שְׁמֹנִים שָׁנָה וְשֵׁשׁ שָׁנִים\" (Abram was fourscore and six years old when Hagar bare Ishmael))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.sarai_blames_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.sarai_gives_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:47:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_16.sarai_proposes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:04+00:00",
+   "agent_notes": [
+    "Dated by 16:3 'at the end of ten years of dwelling in Canaan': Abram left Haran at 75 (12:4), so 75 + 10 = 85 years from anchor.abraham_birth; 16:16 (86 at the birth, nine months after conception) forces the proposal to about 85.25-85.9, so I used 85.4 with a 6-month margin. Gen 15 events sit at c. 2087 BCE in the corpus (they are anchored otherwise), i.e. about 6 years before this date on the birth-anchor count; the two chains disagree, I kept the age arithmetic here and did not tie Gen 16 to the Gen 15 events. Verse 1 is background (Sarai childless, Hagar) and joins this event; Targum Pseudo-Jonathan adds that Hagar was Pharaoh's daughter, which I did not use."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:49:24+00:00",
+     "note": "[should_fix] Date the proposal so that both verses hold: e.g. offset 85.5 years from anchor.abraham_birth with a margin of about 6 months, and say in the note that 16:16 narrows the ten-year mark of 16:3. If the birth is instead anchored on abraham_birth at 86, check that the conception chain still lands within a few months of nine before it. (GEN.16.3: \"מִקֵּץ עֶשֶׂר שָׁנִים לְשֶׁבֶת אַבְרָם בְּאֶרֶץ כְּנָעַן\"; GEN.16.16: \"בֶּן־שְׁמֹנִים שָׁנָה וְשֵׁשׁ שָׁנִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.angel_commands_return": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.angel_finds_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Place is loc.beer_lahai_roi, since 16:14 names the well that Hagar was at; 16:7 says only a spring on the way to Shur, so loc.shur is listed as mentioned."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.angel_promises_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.hagar_conceives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.hagar_despises_sarai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.hagar_flees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.hagar_names_the_well": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.ishmael_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.sarai_blames_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.sarai_gives_hagar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_16.sarai_proposes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Place set to loc.mamre, inferred from the open state comp.abraham.dwelling.4 (Abram at Mamre since 13:18); 16:3 says only 'the land of Canaan'. Applies also to the events up to Hagar's flight and to the birth of Ishmael."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.abram_names_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": "[consider] Say that the name Abram gives matches the angel's word to Hagar, without claiming that Abram knew of it. Consider dropping the 'obedient-naming' tag. (GEN.16.11: \"וְקָרָאת שְׁמוֹ יִשְׁמָעֵאל\" (you, Hagar, will call); GEN.16.15: \"וַיִּקְרָא אַבְרָם שֶׁם־בְּנוֹ ... יִשְׁמָעֵאל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.angel_appears_at_spring": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.angel_orders_return": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.appeal_to_yhwh_as_judge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.hagar_given_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.hagar_names_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Uses sys.naming_by_man, which fits a human naming a place or being; the object here is God."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_16.promise_of_multitude": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.appeal_for_divine_judgment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Defined here; one instance so far. A reviewer may prefer a narrower reading of 16:5 as an oath-like complaint."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": "[consider] Consider dropping the oath clause, or the 'oath-like' tag on the instance, unless you can cite a source for it. (GEN.16.5: \"יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶיךָ\" (may the LORD judge between me and you))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.surrogate_concubinage": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:08+00:00",
+   "agent_notes": [
+    "Defined here rather than reused: no existing system covers giving a maid to a husband for children."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Every verse is covered: 1 (framing, background to the proposal) and 2 by sarai_proposes; 3 gives; 4-6 by four events; 7-14 by four events; 15-16 by the birth.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:47:56+00:00"
+  },
+  {
+   "note": "Links considered and dropped: Gen 15:4 (heir from Abram's own body) to Sarai's proposal, since the text gives Sarai's own reason (the LORD has restrained her, 16:2). The angel's promises of a multitude (16:10) and of a wild-donkey life (16:12) will be fulfilled in later chapters (Gen 17, 21, 25); those sessions write the links.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:47:56+00:00"
+  },
+  {
+   "note": "Every verse is covered: 1 (framing, background to the proposal) and 2 by sarai_proposes; 3 gives; 4-6 by four events; 7-14 by four events; 15-16 by the birth.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:04+00:00"
+  },
+  {
+   "note": "Links considered and dropped: Gen 15:4 (heir from Abram's own body) to Sarai's proposal, since the text gives Sarai's own reason (the LORD has restrained her, 16:2). The angel's promises of a multitude (16:10) and of a wild-donkey life (16:12) will be fulfilled in later chapters (Gen 17, 21, 25); those sessions write the links.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:04+00:00"
+  },
+  {
+   "note": "[event:evt.gen_16.hagar_flees] Abram's residence is not stated in this chapter (Mamre/Hebron by 13:18, 14:13). I took Hebron to Beer-lahai-roi, the well 'on the way to Shur' (16:7, 14), as 148 km by road, hurry mode, about 2.5 days. Hagar's route toward Shur and the identification of the spring (Kadesh/Bered, openbible confidence 0.26) are uncertain, so the margin is a day.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:04+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.offspring.1] Closed because Abram is no longer childless at the birth of Ishmael (16:15); the promised heir through Sarai remains open (comp.abraham.heir.2).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:08+00:00"
+  },
+  {
+   "note": "[entity:spirit.angel_of_yhwh] Defined as its own entity, not folded into deity.yhwh, because the text distinguishes 'the angel of the LORD' (16:7–11) from the LORD; yet 16:13 has Hagar name the LORD 'who spoke to her', so the two are closely identified. The reviewer may prefer to merge them.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[entity:loc.bered] Site unknown; no coordinates are given. The registry has no coordinates for it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_16.sarai_proposes] Place set to loc.mamre, inferred from the open state comp.abraham.dwelling.4 (Abram at Mamre since 13:18); 16:3 says only 'the land of Canaan'. Applies also to the events up to Hagar's flight and to the birth of Ishmael.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_16.angel_finds_hagar] Place is loc.beer_lahai_roi, since 16:14 names the well that Hagar was at; 16:7 says only a spring on the way to Shur, so loc.shur is listed as mentioned.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[component:comp.hagar.legal_status.1] Closed at 16:15 by inference: the text does not say that Hagar returned, but she bears Ishmael to Abram.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.offspring.1] Closed because Abram is no longer childless at the birth of Ishmael (16:15); the promised heir through Sarai remains open (comp.abraham.heir.2).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[system:sys.surrogate_concubinage] Defined here rather than reused: no existing system covers giving a maid to a husband for children.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[system:sys.appeal_for_divine_judgment] Defined here; one instance so far. A reviewer may prefer a narrower reading of 16:5 as an oath-like complaint.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  },
+  {
+   "note": "[instance:inst.gen_16.hagar_names_god] Uses sys.naming_by_man, which fits a human naming a place or being; the object here is God.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:56+00:00"
+  }
+ ]
+}

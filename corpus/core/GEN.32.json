@@ -1,0 +1,344 @@
+{
+ "chapter_ref": "GEN.32",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_32.laban_departs",
+   "verse_start": "GEN.32.1",
+   "verse_end": "GEN.32.1",
+   "time": {
+    "anchor": "evt.gen_31.covenant_feast",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.angels_meet_jacob",
+   "verse_start": "GEN.32.2",
+   "verse_end": "GEN.32.3",
+   "time": {
+    "anchor": "evt.gen_32.laban_departs",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.messengers_sent",
+   "verse_start": "GEN.32.4",
+   "verse_end": "GEN.32.6",
+   "time": {
+    "anchor": "evt.gen_32.angels_meet_jacob",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.messengers_return",
+   "verse_start": "GEN.32.7",
+   "verse_end": "GEN.32.7",
+   "time": {
+    "anchor": "evt.gen_32.messengers_sent",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.camps_divided",
+   "verse_start": "GEN.32.8",
+   "verse_end": "GEN.32.9",
+   "time": {
+    "anchor": "evt.gen_32.messengers_return",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.jacob_prays",
+   "verse_start": "GEN.32.10",
+   "verse_end": "GEN.32.13",
+   "time": {
+    "anchor": "evt.gen_32.camps_divided",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.gift_chosen",
+   "verse_start": "GEN.32.14",
+   "verse_end": "GEN.32.16",
+   "time": {
+    "anchor": "evt.gen_32.jacob_prays",
+    "anchor_point": "END",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.servants_instructed",
+   "verse_start": "GEN.32.17",
+   "verse_end": "GEN.32.21",
+   "time": {
+    "anchor": "evt.gen_32.gift_chosen",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.gift_sent_ahead",
+   "verse_start": "GEN.32.22",
+   "verse_end": "GEN.32.22",
+   "time": {
+    "anchor": "evt.gen_32.servants_instructed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.jacob_crosses_jabbok",
+   "verse_start": "GEN.32.23",
+   "verse_end": "GEN.32.24",
+   "time": {
+    "anchor": "evt.gen_32.gift_sent_ahead",
+    "anchor_point": "END",
+    "offset": {
+     "value": 90.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.wrestling",
+   "verse_start": "GEN.32.25",
+   "verse_end": "GEN.32.26",
+   "time": {
+    "anchor": "evt.gen_32.jacob_crosses_jabbok",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.blessing_and_new_name",
+   "verse_start": "GEN.32.27",
+   "verse_end": "GEN.32.30",
+   "time": {
+    "anchor": "evt.gen_32.wrestling",
+    "anchor_point": "END",
+    "time_of_day": "SHACHAR",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.peniel_named",
+   "verse_start": "GEN.32.31",
+   "verse_end": "GEN.32.31",
+   "time": {
+    "anchor": "evt.gen_32.blessing_and_new_name",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_32.sunrise_limping",
+   "verse_start": "GEN.32.32",
+   "verse_end": "GEN.32.32",
+   "time": {
+    "anchor": "evt.gen_32.peniel_named",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_32.blessing_and_new_name.peniel_named",
+   "cause_event_id": "evt.gen_32.blessing_and_new_name",
+   "effect_event_id": "evt.gen_32.peniel_named",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_32.messengers_return.camps_divided",
+   "cause_event_id": "evt.gen_32.messengers_return",
+   "effect_event_id": "evt.gen_32.camps_divided",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_32.messengers_return.gift_chosen",
+   "cause_event_id": "evt.gen_32.messengers_return",
+   "effect_event_id": "evt.gen_32.gift_chosen",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_32.messengers_sent.messengers_return",
+   "cause_event_id": "evt.gen_32.messengers_sent",
+   "effect_event_id": "evt.gen_32.messengers_return",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_32.servants_instructed.gift_sent_ahead",
+   "cause_event_id": "evt.gen_32.servants_instructed",
+   "effect_event_id": "evt.gen_32.gift_sent_ahead",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_32.wrestling.blessing_and_new_name",
+   "cause_event_id": "evt.gen_32.wrestling",
+   "effect_event_id": "evt.gen_32.blessing_and_new_name",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_32.wrestling.sunrise_limping",
+   "cause_event_id": "evt.gen_32.wrestling",
+   "effect_event_id": "evt.gen_32.sunrise_limping",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

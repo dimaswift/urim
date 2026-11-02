@@ -1,0 +1,54 @@
+{
+ "chapter_ref": "GEN.49",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_49.jacob_summons_sons",
+   "title": "Jacob summons his sons to hear their future",
+   "narrative_summary": "Jacob calls his sons together to tell them what will befall them in the last days, and bids them gather and listen to their father Israel.",
+   "temporal_reasoning_note": "Follows Jacob's words to Joseph (48:21-22) in the same deathbed episode; no gap is stated, so it starts at the END of that event with a margin of 3 days, since the text only says 'Jacob called'. The speech itself takes minutes. Tier DAY_SEQUENCE: the continuous deathbed scene."
+  },
+  {
+   "event_id": "evt.gen_49.oracles_first_sons",
+   "title": "Jacob addresses Reuben, Simeon, Levi and Judah",
+   "narrative_summary": "Jacob rebukes Reuben for defiling his bed, condemns the violence of Simeon and Levi, and promises Judah praise, victory and the scepter.",
+   "temporal_reasoning_note": "One continuous speech, so each oracle block starts when the previous one ends. Durations are estimates of speaking time (about 20 minutes). Not DIURNAL_HOUR: the text names no hour."
+  },
+  {
+   "event_id": "evt.gen_49.oracles_other_sons",
+   "title": "Jacob speaks of Zebulun, Issachar, Dan, Gad, Asher and Naphtali",
+   "narrative_summary": "Jacob describes Zebulun's haven by the sea, Issachar's burden, Dan's judging and serpent-like ambush, Gad's raiders, Asher's rich food and Naphtali's words.",
+   "temporal_reasoning_note": "Continues the same speech directly after the Judah oracle (49:12 to 49:13), no gap. Duration about 15 minutes of speech."
+  },
+  {
+   "event_id": "evt.gen_49.blesses_joseph",
+   "title": "Jacob blesses Joseph, the fruitful bough",
+   "narrative_summary": "Jacob likens Joseph to a fruitful bough by a spring, recalls the archers who attacked him, and pronounces blessings of heaven, deep, breast and womb that surpass those of his forefathers.",
+   "temporal_reasoning_note": "Continuation of the speech, no gap; about 10 minutes."
+  },
+  {
+   "event_id": "evt.gen_49.benjamin_and_summary",
+   "title": "Jacob calls Benjamin a ravening wolf; the twelve tribes are summed up",
+   "narrative_summary": "Jacob says Benjamin is a ravenous wolf that devours prey and divides spoil. The narrator closes: these are the twelve tribes of Israel, each blessed with its own blessing.",
+   "temporal_reasoning_note": "Last oracle of the same speech, directly after 49:26; the narrator's summary in 49:28 is covered with it. About 5 minutes."
+  },
+  {
+   "event_id": "evt.gen_49.burial_charge",
+   "title": "Jacob charges his sons to bury him at Machpelah",
+   "narrative_summary": "Jacob tells his sons he is about to be gathered to his people and commands them to bury him with his fathers in the cave of Machpelah in Canaan, where Abraham, Sarah, Isaac, Rebekah and Leah lie.",
+   "temporal_reasoning_note": "'And he charged them' (49:29) follows the blessings immediately; the text marks no break. About 10 minutes of speech."
+  },
+  {
+   "event_id": "evt.gen_49.jacob_dies",
+   "title": "Jacob draws up his feet and dies",
+   "narrative_summary": "When he finishes commanding his sons, Jacob gathers his feet into the bed, breathes his last and is gathered to his people.",
+   "temporal_reasoning_note": "49:33 'when Jacob had made an end of commanding his sons' puts death right after the charge. His age of 147 (47:28) from anchor.jacob_birth gives c. 1859 BCE; this chain gives c. 1860 BCE, a year apart and within the anchor's margin of 220 years. The chain from the scene is kept so the sequence holds."
+  }
+ ],
+ "causal_edges": [],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

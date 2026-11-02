@@ -1,0 +1,1123 @@
+{
+ "chapter_ref": "GEN.41",
+ "entities": [
+  {
+   "entity_id": "group.diviners_of_egypt",
+   "entity_type": "GROUP",
+   "source_script_name": "חַרְטֻמֵּי מִצְרַיִם",
+   "transliterated_name": "ḥarṭummê Miṣrayim",
+   "first_mention_verse": "GEN.41.8"
+  },
+  {
+   "entity_id": "loc.nile",
+   "tipnr_id": "Nile@Gen.41.1-Zec",
+   "entity_type": "LOCATION",
+   "source_script_name": "הַיְאֹר",
+   "transliterated_name": "hay-Yəʾōr",
+   "first_mention_verse": "GEN.41.1"
+  },
+  {
+   "entity_id": "loc.on",
+   "tipnr_id": "On@Gen.41.45-Ezk",
+   "entity_type": "LOCATION",
+   "source_script_name": "אוֹן",
+   "transliterated_name": "ʾOn",
+   "first_mention_verse": "GEN.41.45"
+  },
+  {
+   "entity_id": "person.asenath",
+   "tipnr_id": "Asenath@Gen.41.45-",
+   "entity_type": "PERSON",
+   "source_script_name": "אָסְנַת",
+   "transliterated_name": "ʾĀsənat",
+   "first_mention_verse": "GEN.41.45"
+  },
+  {
+   "entity_id": "person.ephraim",
+   "tipnr_id": "Ephraim@Gen.41.52-Zec",
+   "entity_type": "PERSON",
+   "source_script_name": "אֶפְרָיִם",
+   "transliterated_name": "ʾEfrayim",
+   "first_mention_verse": "GEN.41.52"
+  },
+  {
+   "entity_id": "person.manasseh",
+   "tipnr_id": "Manasseh@Gen.41.51-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "מְנַשֶּׁה",
+   "transliterated_name": "Mənašše",
+   "first_mention_verse": "GEN.41.51"
+  },
+  {
+   "entity_id": "person.potiphera",
+   "tipnr_id": "Potiphera@Gen.41.45-",
+   "entity_type": "PERSON",
+   "source_script_name": "פּוֹטִי פֶרַע",
+   "transliterated_name": "Poṭi Fera‘",
+   "first_mention_verse": "GEN.41.45"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.dream_interpretation",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.royal_investiture",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.royal_renaming",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_41.dream_of_cows",
+   "verse_start": "GEN.41.1",
+   "verse_end": "GEN.41.4",
+   "location_entity_id": "loc.nile",
+   "time": {
+    "anchor": "anchor.joseph_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 30.5,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.dream_of_ears",
+   "verse_start": "GEN.41.5",
+   "verse_end": "GEN.41.7",
+   "time": {
+    "anchor": "evt.gen_41.dream_of_cows",
+    "anchor_point": "END",
+    "offset": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.diviners_fail",
+   "verse_start": "GEN.41.8",
+   "verse_end": "GEN.41.8",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.dream_of_ears",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.diviners_of_egypt",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.butler_remembers",
+   "verse_start": "GEN.41.9",
+   "verse_end": "GEN.41.13",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.diviners_fail",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.chief_baker",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.chief_cupbearer",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.potiphar",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.joseph_summoned",
+   "verse_start": "GEN.41.14",
+   "verse_end": "GEN.41.14",
+   "location_entity_id": "loc.royal_prison",
+   "time": {
+    "anchor": "evt.gen_41.butler_remembers",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.pharaoh_tells_dreams",
+   "verse_start": "GEN.41.15",
+   "verse_end": "GEN.41.24",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.joseph_summoned",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.nile",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.joseph_interprets",
+   "verse_start": "GEN.41.25",
+   "verse_end": "GEN.41.36",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.pharaoh_tells_dreams",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.joseph_made_vizier",
+   "verse_start": "GEN.41.37",
+   "verse_end": "GEN.41.44",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.joseph_interprets",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.egyptians",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.servants_of_pharaoh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.zaphenath_paneah_and_asenath",
+   "verse_start": "GEN.41.45",
+   "verse_end": "GEN.41.45",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.joseph_made_vizier",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.on",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.asenath",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.potiphera",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.joseph_tours_egypt",
+   "verse_start": "GEN.41.46",
+   "verse_end": "GEN.41.46",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.joseph_made_vizier",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.grain_stored",
+   "parent_event_id": "evt.gen_41.seven_years_of_plenty",
+   "verse_start": "GEN.41.47",
+   "verse_end": "GEN.41.49",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.seven_years_of_plenty",
+    "anchor_point": "START",
+    "duration": {
+     "value": 7.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.seven_years_of_plenty",
+   "verse_start": "GEN.41.47",
+   "verse_end": "GEN.41.52",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.joseph_tours_egypt",
+    "anchor_point": "START",
+    "duration": {
+     "value": 7.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.manasseh_born",
+   "parent_event_id": "evt.gen_41.seven_years_of_plenty",
+   "verse_start": "GEN.41.50",
+   "verse_end": "GEN.41.51",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.seven_years_of_plenty",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.5,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.on",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.asenath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.potiphera",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.ephraim_born",
+   "parent_event_id": "evt.gen_41.seven_years_of_plenty",
+   "verse_start": "GEN.41.50",
+   "verse_end": "GEN.41.52",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.manasseh_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.2,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.2,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.asenath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.famine_begins",
+   "verse_start": "GEN.41.53",
+   "verse_end": "GEN.41.54",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.seven_years_of_plenty",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.people_cry_for_bread",
+   "verse_start": "GEN.41.55",
+   "verse_end": "GEN.41.55",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.famine_begins",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_41.joseph_sells_grain",
+   "verse_start": "GEN.41.56",
+   "verse_end": "GEN.41.57",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.people_cry_for_bread",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_40.butler_dream_interpreted.butler_remembers",
+   "cause_event_id": "evt.gen_40.butler_dream_interpreted",
+   "effect_event_id": "evt.gen_41.butler_remembers",
+   "causal_type": "ENABLES",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_41.butler_remembers.joseph_summoned",
+   "cause_event_id": "evt.gen_41.butler_remembers",
+   "effect_event_id": "evt.gen_41.joseph_summoned",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.diviners_fail.butler_remembers",
+   "cause_event_id": "evt.gen_41.diviners_fail",
+   "effect_event_id": "evt.gen_41.butler_remembers",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.dream_of_ears.diviners_fail",
+   "cause_event_id": "evt.gen_41.dream_of_ears",
+   "effect_event_id": "evt.gen_41.diviners_fail",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.famine_begins.people_cry_for_bread",
+   "cause_event_id": "evt.gen_41.famine_begins",
+   "effect_event_id": "evt.gen_41.people_cry_for_bread",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.grain_stored.joseph_sells_grain",
+   "cause_event_id": "evt.gen_41.grain_stored",
+   "effect_event_id": "evt.gen_41.joseph_sells_grain",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.joseph_interprets.famine_begins",
+   "cause_event_id": "evt.gen_41.joseph_interprets",
+   "effect_event_id": "evt.gen_41.famine_begins",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.joseph_interprets.joseph_made_vizier",
+   "cause_event_id": "evt.gen_41.joseph_interprets",
+   "effect_event_id": "evt.gen_41.joseph_made_vizier",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_41.joseph_interprets.seven_years_of_plenty",
+   "cause_event_id": "evt.gen_41.joseph_interprets",
+   "effect_event_id": "evt.gen_41.seven_years_of_plenty",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_41.joseph_made_vizier.grain_stored",
+   "cause_event_id": "evt.gen_41.joseph_made_vizier",
+   "effect_event_id": "evt.gen_41.grain_stored",
+   "causal_type": "ENABLES",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_41.people_cry_for_bread.joseph_sells_grain",
+   "cause_event_id": "evt.gen_41.people_cry_for_bread",
+   "effect_event_id": "evt.gen_41.joseph_sells_grain",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.asenath.husband.1",
+   "entity_id": "person.asenath",
+   "category": "ALLEGIANCE",
+   "component_key": "husband",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.41.45",
+   "acquired_in_event": "evt.gen_41.zaphenath_paneah_and_asenath"
+  },
+  {
+   "component_id": "comp.chief_cupbearer.memory_of_joseph.2",
+   "entity_id": "person.chief_cupbearer",
+   "category": "PSYCH_STATE",
+   "component_key": "memory_of_joseph",
+   "value_code": "REMEMBERED",
+   "supersedes_component_id": "comp.chief_cupbearer.memory_of_joseph.1",
+   "acquired_at_verse": "GEN.41.9",
+   "acquired_in_event": "evt.gen_41.butler_remembers"
+  },
+  {
+   "component_id": "comp.egypt.condition.1",
+   "entity_id": "loc.egypt",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "PLENTY",
+   "acquired_at_verse": "GEN.41.47",
+   "acquired_in_event": "evt.gen_41.seven_years_of_plenty",
+   "expired_at_verse": "GEN.41.53",
+   "expired_in_event": "evt.gen_41.famine_begins"
+  },
+  {
+   "component_id": "comp.egypt.condition.2",
+   "entity_id": "loc.egypt",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "FAMINE",
+   "supersedes_component_id": "comp.egypt.condition.1",
+   "acquired_at_verse": "GEN.41.54",
+   "acquired_in_event": "evt.gen_41.famine_begins"
+  },
+  {
+   "component_id": "comp.ephraim.birth_order.1",
+   "entity_id": "person.ephraim",
+   "category": "TRAIT",
+   "component_key": "birth_order",
+   "value_code": "SECOND_SON_OF_JOSEPH",
+   "acquired_at_verse": "GEN.41.52",
+   "acquired_in_event": "evt.gen_41.ephraim_born"
+  },
+  {
+   "component_id": "comp.joseph.master.2",
+   "entity_id": "person.joseph",
+   "category": "ALLEGIANCE",
+   "component_key": "master",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "supersedes_component_id": "comp.joseph.master.1",
+   "acquired_at_verse": "GEN.41.40",
+   "acquired_in_event": "evt.gen_41.joseph_made_vizier"
+  },
+  {
+   "component_id": "comp.joseph.office.3",
+   "entity_id": "person.joseph",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "VIZIER_OF_EGYPT",
+   "supersedes_component_id": "comp.joseph.office.2",
+   "acquired_at_verse": "GEN.41.41",
+   "acquired_in_event": "evt.gen_41.joseph_made_vizier"
+  },
+  {
+   "component_id": "comp.joseph.status.2",
+   "entity_id": "person.joseph",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "SECOND_TO_PHARAOH",
+   "supersedes_component_id": "comp.joseph.status.1",
+   "acquired_at_verse": "GEN.41.40",
+   "acquired_in_event": "evt.gen_41.joseph_made_vizier"
+  },
+  {
+   "component_id": "comp.manasseh.birth_order.1",
+   "entity_id": "person.manasseh",
+   "category": "TRAIT",
+   "component_key": "birth_order",
+   "value_code": "FIRSTBORN_OF_JOSEPH",
+   "acquired_at_verse": "GEN.41.51",
+   "acquired_in_event": "evt.gen_41.manasseh_born"
+  },
+  {
+   "component_id": "comp.pharaoh.gen_37_36.mood.1",
+   "entity_id": "person.pharaoh.gen_37_36",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "TROUBLED",
+   "acquired_at_verse": "GEN.41.8",
+   "acquired_in_event": "evt.gen_41.diviners_fail",
+   "expired_at_verse": "GEN.41.37",
+   "expired_in_event": "evt.gen_41.joseph_made_vizier"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.chief_cupbearer.memory_of_joseph.1",
+   "expired_at_verse": "GEN.41.9",
+   "expired_in_event": "evt.gen_41.butler_remembers"
+  },
+  {
+   "component_id": "comp.joseph.assignment.1",
+   "expired_at_verse": "GEN.41.14",
+   "expired_in_event": "evt.gen_41.joseph_summoned"
+  },
+  {
+   "component_id": "comp.joseph.master.1",
+   "expired_at_verse": "GEN.41.40",
+   "expired_in_event": "evt.gen_41.joseph_made_vizier"
+  },
+  {
+   "component_id": "comp.joseph.office.2",
+   "expired_at_verse": "GEN.41.14",
+   "expired_in_event": "evt.gen_41.joseph_summoned"
+  },
+  {
+   "component_id": "comp.joseph.residence.2",
+   "expired_at_verse": "GEN.41.14",
+   "expired_in_event": "evt.gen_41.joseph_summoned"
+  },
+  {
+   "component_id": "comp.joseph.status.1",
+   "expired_at_verse": "GEN.41.40",
+   "expired_in_event": "evt.gen_41.joseph_made_vizier"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_41.diviners_consulted",
+   "system_id": "sys.dream_interpretation",
+   "event_id": "evt.gen_41.diviners_fail",
+   "verse_start": "GEN.41.8",
+   "verse_end": "GEN.41.8",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "group.diviners_of_egypt"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "failed",
+    "court"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.dream_of_cows",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_41.dream_of_cows",
+   "verse_start": "GEN.41.1",
+   "verse_end": "GEN.41.4",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.pharaoh.gen_37_36"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.nile",
+   "tags": [
+    "dream",
+    "cows",
+    "seven",
+    "famine"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.dream_of_ears",
+   "system_id": "sys.symbolic_dream",
+   "event_id": "evt.gen_41.dream_of_ears",
+   "verse_start": "GEN.41.5",
+   "verse_end": "GEN.41.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.pharaoh.gen_37_36"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "dream",
+    "grain",
+    "seven",
+    "doubled"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.dreams_interpreted",
+   "system_id": "sys.dream_interpretation",
+   "event_id": "evt.gen_41.joseph_interprets",
+   "verse_start": "GEN.41.25",
+   "verse_end": "GEN.41.32",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.pharaoh.gen_37_36"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "success",
+    "divinely_given",
+    "seven_years_plenty",
+    "seven_years_famine"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.ephraim_fruitful",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_41.ephraim_born",
+   "verse_start": "GEN.41.52",
+   "verse_end": "GEN.41.52",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "fruitful",
+    "land_of_affliction"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.joseph_invested",
+   "system_id": "sys.royal_investiture",
+   "event_id": "evt.gen_41.joseph_made_vizier",
+   "verse_start": "GEN.41.41",
+   "verse_end": "GEN.41.43",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "ring",
+    "linen_robes",
+    "gold_chain",
+    "second_chariot",
+    "herald"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_41.joseph_renamed",
+   "system_id": "sys.royal_renaming",
+   "event_id": "evt.gen_41.zaphenath_paneah_and_asenath",
+   "verse_start": "GEN.41.45",
+   "verse_end": "GEN.41.45",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "egyptian_name",
+    "marriage_gift"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_41.asenath_bears_ephraim",
+   "source_entity_id": "person.asenath",
+   "target_entity_id": "person.ephraim",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.41.50",
+   "event_id": "evt.gen_41.ephraim_born"
+  },
+  {
+   "edge_id": "edge.gen_41.asenath_bears_manasseh",
+   "source_entity_id": "person.asenath",
+   "target_entity_id": "person.manasseh",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.41.50",
+   "event_id": "evt.gen_41.manasseh_born"
+  },
+  {
+   "edge_id": "edge.gen_41.cupbearer_informs_pharaoh",
+   "source_entity_id": "person.chief_cupbearer",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.41.12",
+   "event_id": "evt.gen_41.butler_remembers"
+  },
+  {
+   "edge_id": "edge.gen_41.egyptians_cry_to_pharaoh",
+   "source_entity_id": "group.egyptians",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "APPEALS_TO",
+   "verse_id": "GEN.41.55",
+   "event_id": "evt.gen_41.people_cry_for_bread"
+  },
+  {
+   "edge_id": "edge.gen_41.god_reveals_to_pharaoh",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "REVEALS_TO",
+   "verse_id": "GEN.41.25",
+   "event_id": "evt.gen_41.joseph_interprets"
+  },
+  {
+   "edge_id": "edge.gen_41.joseph_advises_pharaoh",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "ADVISES",
+   "verse_id": "GEN.41.33",
+   "event_id": "evt.gen_41.joseph_interprets"
+  },
+  {
+   "edge_id": "edge.gen_41.joseph_sells_grain_to_egyptians",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "SELLS_TO",
+   "verse_id": "GEN.41.56",
+   "event_id": "evt.gen_41.joseph_sells_grain"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_appoints_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "APPOINTS",
+   "verse_id": "GEN.41.41",
+   "event_id": "evt.gen_41.joseph_made_vizier"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_gives_asenath",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.asenath",
+   "interaction_type": "GIVES_IN_MARRIAGE",
+   "verse_id": "GEN.41.45",
+   "event_id": "evt.gen_41.zaphenath_paneah_and_asenath"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_renames_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "RENAMES",
+   "verse_id": "GEN.41.45",
+   "event_id": "evt.gen_41.zaphenath_paneah_and_asenath"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_sends_egyptians_to_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.41.55",
+   "event_id": "evt.gen_41.people_cry_for_bread"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_summons_diviners",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "group.diviners_of_egypt",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.41.8",
+   "event_id": "evt.gen_41.diviners_fail"
+  },
+  {
+   "edge_id": "edge.gen_41.pharaoh_summons_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.41.14",
+   "event_id": "evt.gen_41.joseph_summoned"
+  }
+ ]
+}

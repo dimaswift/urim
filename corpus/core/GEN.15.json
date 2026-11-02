@@ -1,0 +1,861 @@
+{
+ "chapter_ref": "GEN.15",
+ "entities": [
+  {
+   "entity_id": "artifact.flaming_torch",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "לַפִּיד אֵשׁ",
+   "transliterated_name": "lappîd ʾēš",
+   "first_mention_verse": "GEN.15.17"
+  },
+  {
+   "entity_id": "artifact.smoking_furnace",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "תַנּוּר עָשָׁן",
+   "transliterated_name": "tannûr ʿāšān",
+   "first_mention_verse": "GEN.15.17"
+  },
+  {
+   "entity_id": "group.birds_of_prey",
+   "entity_type": "GROUP",
+   "source_script_name": "הָעַיִט",
+   "transliterated_name": "hāʿayiṭ",
+   "first_mention_verse": "GEN.15.11"
+  },
+  {
+   "entity_id": "group.covenant_animals",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.15.9"
+  },
+  {
+   "entity_id": "group.girgashite",
+   "tipnr_id": "Girgashite@Gen.10.16-Neh",
+   "entity_type": "GROUP",
+   "source_script_name": "גִּרְגָּשִׁי",
+   "transliterated_name": "Girgāšî",
+   "first_mention_verse": "GEN.15.21"
+  },
+  {
+   "entity_id": "group.jebusites",
+   "tipnr_id": "Jebusites@Gen.10.16-Zec",
+   "entity_type": "GROUP",
+   "source_script_name": "יְבוּסִי",
+   "transliterated_name": "Yebûsî",
+   "first_mention_verse": "GEN.15.21"
+  },
+  {
+   "entity_id": "group.kadmonites",
+   "tipnr_id": "Kadmonites@Gen.15.19",
+   "entity_type": "GROUP",
+   "source_script_name": "קַדְמֹנִי",
+   "transliterated_name": "Qadmonî",
+   "first_mention_verse": "GEN.15.19"
+  },
+  {
+   "entity_id": "group.kenite",
+   "tipnr_id": "Kenite@Gen.15.19-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "קֵינִי",
+   "transliterated_name": "Qênî",
+   "first_mention_verse": "GEN.15.19"
+  },
+  {
+   "entity_id": "group.kenizzites",
+   "tipnr_id": "Kenizzites@Gen.15.19",
+   "entity_type": "GROUP",
+   "source_script_name": "קְנִזִּי",
+   "transliterated_name": "Qenizzî",
+   "first_mention_verse": "GEN.15.19"
+  },
+  {
+   "entity_id": "group.offspring_of_abram",
+   "entity_type": "GROUP",
+   "source_script_name": "זֶרַע",
+   "transliterated_name": "zeraʿ",
+   "first_mention_verse": "GEN.15.3"
+  },
+  {
+   "entity_id": "group.oppressing_nation",
+   "entity_type": "GROUP",
+   "source_script_name": "גּוֹי",
+   "transliterated_name": "gôy",
+   "first_mention_verse": "GEN.15.13"
+  },
+  {
+   "entity_id": "loc.chaldea",
+   "tipnr_id": "Chaldea@Gen.11.28-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "כַּשְׂדִּים",
+   "transliterated_name": "Kaśdîm",
+   "first_mention_verse": "GEN.15.7"
+  },
+  {
+   "entity_id": "loc.ur",
+   "tipnr_id": "Ur@Gen.11.28-Neh",
+   "entity_type": "LOCATION",
+   "source_script_name": "אוּר",
+   "transliterated_name": "ʾÛr",
+   "first_mention_verse": "GEN.15.7"
+  },
+  {
+   "entity_id": "person.eliezer.gen_15_2",
+   "tipnr_id": "Eliezer@Gen.15.2",
+   "entity_type": "PERSON",
+   "source_script_name": "אֱלִיעֶזֶר",
+   "transliterated_name": "ʾĔlîʿezer",
+   "first_mention_verse": "GEN.15.2"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.covenant_cutting",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.faith_reckoned_righteous",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.prophetic_vision",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.sign_requested",
+   "category": "PROPHETIC_ORACLE"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_15.vision_fear_not",
+   "verse_start": "GEN.15.1",
+   "verse_end": "GEN.15.1",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_14.abram_refuses_spoils",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "time_of_day": "ASHMORET_HATICHONAH",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.abram_complains_childless",
+   "verse_start": "GEN.15.2",
+   "verse_end": "GEN.15.3",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.vision_fear_not",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.damascus",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.eliezer.gen_15_2",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.stars_and_heir",
+   "verse_start": "GEN.15.4",
+   "verse_end": "GEN.15.6",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.abram_complains_childless",
+    "anchor_point": "END",
+    "duration": {
+     "value": 8.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.offspring_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.eliezer.gen_15_2",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.land_promise_and_sign_asked",
+   "verse_start": "GEN.15.7",
+   "verse_end": "GEN.15.8",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.stars_and_heir",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.chaldea",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.ur",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.animals_prepared",
+   "verse_start": "GEN.15.9",
+   "verse_end": "GEN.15.11",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.land_promise_and_sign_asked",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds_of_prey",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.covenant_animals",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.deep_sleep_at_sunset",
+   "verse_start": "GEN.15.12",
+   "verse_end": "GEN.15.12",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.animals_prepared",
+    "anchor_point": "END",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.future_revealed",
+   "parent_event_id": "evt.gen_15.deep_sleep_at_sunset",
+   "verse_start": "GEN.15.13",
+   "verse_end": "GEN.15.16",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.deep_sleep_at_sunset",
+    "anchor_point": "START",
+    "offset": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.amorites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.offspring_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.oppressing_nation",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.smoking_furnace_passes",
+   "parent_event_id": "evt.gen_15.deep_sleep_at_sunset",
+   "verse_start": "GEN.15.17",
+   "verse_end": "GEN.15.17",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.deep_sleep_at_sunset",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.flaming_torch",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "artifact.smoking_furnace",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.covenant_animals",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_15.covenant_land_boundaries",
+   "parent_event_id": "evt.gen_15.deep_sleep_at_sunset",
+   "verse_start": "GEN.15.18",
+   "verse_end": "GEN.15.21",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_15.smoking_furnace_passes",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.amorites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.canaanites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.girgashite",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hittites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.jebusites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kadmonites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kenite",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.kenizzites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.offspring_of_abram",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.perizzites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.rephaim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.euphrates",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_14.abram_refuses_spoils.vision_fear_not",
+   "cause_event_id": "evt.gen_14.abram_refuses_spoils",
+   "effect_event_id": "evt.gen_15.vision_fear_not",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_15.abram_complains_childless.stars_and_heir",
+   "cause_event_id": "evt.gen_15.abram_complains_childless",
+   "effect_event_id": "evt.gen_15.stars_and_heir",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_15.animals_prepared.smoking_furnace_passes",
+   "cause_event_id": "evt.gen_15.animals_prepared",
+   "effect_event_id": "evt.gen_15.smoking_furnace_passes",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_15.land_promise_and_sign_asked.animals_prepared",
+   "cause_event_id": "evt.gen_15.land_promise_and_sign_asked",
+   "effect_event_id": "evt.gen_15.animals_prepared",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_15.smoking_furnace_passes.covenant_land_boundaries",
+   "cause_event_id": "evt.gen_15.smoking_furnace_passes",
+   "effect_event_id": "evt.gen_15.covenant_land_boundaries",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_15.vision_fear_not.abram_complains_childless",
+   "cause_event_id": "evt.gen_15.vision_fear_not",
+   "effect_event_id": "evt.gen_15.abram_complains_childless",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.heir.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "heir",
+   "target_entity_id": "person.eliezer.gen_15_2",
+   "acquired_at_verse": "GEN.15.3",
+   "acquired_in_event": "evt.gen_15.abram_complains_childless",
+   "expired_at_verse": "GEN.15.4",
+   "expired_in_event": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "component_id": "comp.abraham.heir.2",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "heir",
+   "value_code": "SON_OF_OWN_BODY",
+   "supersedes_component_id": "comp.abraham.heir.1",
+   "acquired_at_verse": "GEN.15.4",
+   "acquired_in_event": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "component_id": "comp.abraham.land_covenant.1",
+   "entity_id": "person.abraham",
+   "category": "ALLEGIANCE",
+   "component_key": "land_covenant",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.15.18",
+   "acquired_in_event": "evt.gen_15.covenant_land_boundaries"
+  },
+  {
+   "component_id": "comp.abraham.offspring.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "offspring",
+   "value_code": "CHILDLESS",
+   "acquired_at_verse": "GEN.15.2",
+   "acquired_in_event": "evt.gen_15.abram_complains_childless"
+  },
+  {
+   "component_id": "comp.abraham.righteousness.1",
+   "entity_id": "person.abraham",
+   "category": "TRAIT",
+   "component_key": "righteousness",
+   "value_code": "CREDITED_RIGHTEOUS",
+   "acquired_at_verse": "GEN.15.6",
+   "acquired_in_event": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "component_id": "comp.covenant_animals.condition.1",
+   "entity_id": "group.covenant_animals",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "DIVIDED_IN_TWO",
+   "acquired_at_verse": "GEN.15.10",
+   "acquired_in_event": "evt.gen_15.animals_prepared"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_15.covenant_pieces",
+   "system_id": "sys.covenant_cutting",
+   "event_id": "evt.gen_15.animals_prepared",
+   "verse_start": "GEN.15.9",
+   "verse_end": "GEN.15.11",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "group.covenant_animals"
+   ],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "halved_animals",
+    "preparation",
+    "birds_driven_off"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.faith_reckoned",
+   "system_id": "sys.faith_reckoned_righteous",
+   "event_id": "evt.gen_15.stars_and_heir",
+   "verse_start": "GEN.15.6",
+   "verse_end": "GEN.15.6",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "faith",
+    "righteousness"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.furnace_passes",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_15.smoking_furnace_passes",
+   "verse_start": "GEN.15.17",
+   "verse_end": "GEN.15.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [
+    "artifact.smoking_furnace",
+    "artifact.flaming_torch",
+    "group.covenant_animals"
+   ],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "fire",
+    "smoke",
+    "covenant_ratification"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.future_revealed",
+   "system_id": "sys.prophetic_vision",
+   "event_id": "evt.gen_15.future_revealed",
+   "verse_start": "GEN.15.13",
+   "verse_end": "GEN.15.16",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "deep_sleep",
+    "exile",
+    "four_hundred_years",
+    "exodus"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.heir_promise",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_15.stars_and_heir",
+   "verse_start": "GEN.15.4",
+   "verse_end": "GEN.15.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "heir",
+    "stars",
+    "offspring"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.land_covenant",
+   "system_id": "sys.covenant_promise",
+   "event_id": "evt.gen_15.covenant_land_boundaries",
+   "verse_start": "GEN.15.18",
+   "verse_end": "GEN.15.21",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "group.offspring_of_abram"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "land_grant",
+    "boundaries",
+    "ten_peoples"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.sign_requested",
+   "system_id": "sys.sign_requested",
+   "event_id": "evt.gen_15.land_promise_and_sign_asked",
+   "verse_start": "GEN.15.8",
+   "verse_end": "GEN.15.8",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "land",
+    "assurance"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_15.word_in_vision",
+   "system_id": "sys.prophetic_vision",
+   "event_id": "evt.gen_15.vision_fear_not",
+   "verse_start": "GEN.15.1",
+   "verse_end": "GEN.15.1",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "vision",
+    "fear_not",
+    "shield"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_15.abram_asks_for_sign",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "ASKS_ASSURANCE_OF",
+   "verse_id": "GEN.15.8",
+   "event_id": "evt.gen_15.land_promise_and_sign_asked"
+  },
+  {
+   "edge_id": "edge.gen_15.abram_believes_yhwh",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "TRUSTS",
+   "verse_id": "GEN.15.6",
+   "event_id": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "edge_id": "edge.gen_15.abram_drives_off_birds",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.birds_of_prey",
+   "interaction_type": "DRIVES_AWAY",
+   "verse_id": "GEN.15.11",
+   "event_id": "evt.gen_15.animals_prepared"
+  },
+  {
+   "edge_id": "edge.gen_15.abram_protests_to_yhwh",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PROTESTS_TO",
+   "verse_id": "GEN.15.2",
+   "event_id": "evt.gen_15.abram_complains_childless"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_commands_animals",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.15.9",
+   "event_id": "evt.gen_15.animals_prepared"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_covenants_with_abram",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "COVENANTS_WITH",
+   "verse_id": "GEN.15.18",
+   "event_id": "evt.gen_15.covenant_land_boundaries"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_credits_righteousness",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "RECKONS_RIGHTEOUS",
+   "verse_id": "GEN.15.6",
+   "event_id": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_foretells_exile",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "FORETELLS",
+   "verse_id": "GEN.15.13",
+   "event_id": "evt.gen_15.future_revealed"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_promises_heir",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.15.4",
+   "event_id": "evt.gen_15.stars_and_heir"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_promises_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.15.7",
+   "event_id": "evt.gen_15.land_promise_and_sign_asked"
+  },
+  {
+   "edge_id": "edge.gen_15.yhwh_reassures_abram",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "REASSURES",
+   "verse_id": "GEN.15.1",
+   "event_id": "evt.gen_15.vision_fear_not"
+  }
+ ]
+}

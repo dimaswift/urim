@@ -1,0 +1,2192 @@
+{
+ "chapter_ref": "GEN.46",
+ "items": {
+  "causal:caus.gen_45.brothers_depart_with_provisions.departure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_45.jacob_resolves_to_go.journey_to_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_46.joseph_meets_israel.joseph_instructs_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": "[should_fix] Rewrite causal_explanation to state the cause, e.g. 'Now that his father's house has come to him in Goshen (46:29-31), Joseph must announce them to Pharaoh, so he tells them how to answer about their trade (46:31-34).' If you cannot state a cause, drop the edge. (GEN.46.31: \"I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house ... are come unto me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:55:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_46.judah_sent_ahead.joseph_meets_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_46.vision_at_beersheba.departure": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.israel.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.israel.mood.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.israel.resolve.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.assurance.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Inferred: the command not to fear (46:3) implies hesitation about Egypt, but the text does not state it, so no fear state was written; only the assurance given is recorded."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.dwelling.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:10:37+00:00",
+   "agent_notes": [
+    "Dwelling.1 (Canaan, GEN.37.1) is closed at 46:6 when the party takes its goods out of Canaan; dwelling.2 opens at 46:28 when they enter Goshen. The interval is the journey and is deliberately left without a value."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[should_fix] Change label_value to 'In the land of Goshen' or 'Arrived in the land of Goshen', to match comp.jacobs_family.dwelling.1, and say in evidence_explanation that the settlement is granted later (47:6). (GEN.46.28: \"and they came into the land of Goshen\"; GEN.46.34: \"that ye may dwell in the land of Goshen\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.mood.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Israel's wish to die (46:30) is read as contentment after reunion, not despair; the value CONTENT_TO_DIE is an interpretation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.jacobs_family.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.jacobs_family.trade.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The shepherd's trade is stated in Joseph's speech (46:32, 34) as the family's occupation; recorded as the family's trait from that verse though it long precedes it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.god_commands_not_to_fear": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.god_promises_nation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.israel_sacrifices_to_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.israel_sends_judah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.joseph_embraces_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.joseph_instructs_family": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.pharaoh_sends_wagons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[consider] Consider dropping it, or recording Pharaoh's provision in GEN.45, where he commands it (45:19). (GEN.46.5: \"the wagons which Pharaoh had sent\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_46.sons_carry_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ahiram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The text has Ehi (אֵחִי); the registry reads it as Ahiram (Num 26:38). Kept the registry id with Ehi as alias."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ard": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:10:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[should_fix] Rewrite summary_bio, e.g. 'Listed last among the sons of Benjamin in 46:21; Num 26:40 makes him a son of Bela, so a grandson of Benjamin.' (GEN.46.21: \"the sons of Benjamin were Belah, and Becher ... and Ard\"; Num 26:40: \"And the sons of Bela were Ard and Naaman\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.areli": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.arod": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ashbel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.asher": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.becher": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.bela": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.beriah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.canaanite_woman": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Unnamed mother of Shaul (46:10). The registry tags her as a person; kept as an unnamed-character entity with her registry id."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.carmi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.dan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Dan, Dinah, Gad, Asher, Issachar, Zebulun and Naphtali are not yet in the corpus (Leah, Rachel and Levi are, from GEN.29), so they are defined here with first_mention_verse in Gen 46, although the text names them earlier (Gen 30). Re-anchor if Gen 30 is modelled."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.dinah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.elon.gen_46_14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.eri": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ezbon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gera.gen_46_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Gen 46:21 lists Gera and Naaman as sons of Benjamin, but 1 Chr 8:3-4 and Num 26:40 make Naaman and Gera grandsons through Bela. Recorded as the text of this chapter has it. In the same way, 46:21 lists ten sons of Benjamin against Num 26's five."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gershon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.guni": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.haggi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hamul": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hanoch": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.heber.gen_46_17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hezron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Two Hezrons in the chapter: Reuben's son (person.hezron.gen_46_9) and Perez's son (person.hezron, the ancestor of David). Perez's sons Hezron and Hamul are born after the story reaches Egypt only by anticipation (46:12); the list counts them as those who came, which is probably a retrospective inclusion."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hezron.gen_46_9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.huppim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hushim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.imnah.gen_46_17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ishvah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ishvi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.issachar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jachin": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jahleel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jahzeel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jamin": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jashub": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The Masoretic text reads Iob (יוֹב, KJV 'Job'); the registry identifies him with Jashub (Num 26:24, 1 Chr 7:1). Kept the registry id; the spelling is probably a scribal variant."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jemuel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jezer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.kohath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.malchiel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.merari": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.muppim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.naaman.gen_46_21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[consider] Consider dropping the alias Nohah, or giving its source in a reviewer note. (GEN.46.21: \"Gera, and Naaman\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.naphtali": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ohad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.pallu": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.puah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.rosh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.serah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shaul.gen_46_10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shillem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shimron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shuni": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tola": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.zebulun": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.zerah.gen_46_10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The Hebrew text of 46:10 reads Zohar (צֹחַר); the registry tags him Zerah, as in Num 26:13 and 1 Chr 4:24. Kept the registry id (a Simeonite namesake of Judah's Zerah) and gave Zohar as alias."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ziphion": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.departure_from_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "The 20-day duration is the Beersheba-Goshen figure from urim travel (363 km by road, army mode, about 18 km a day), chosen because the wagons, little ones, flocks and herds (46:5-6) move at the pace of a baggage train. The donkey/walk modes would give 11 to 12.5 days. The text states no duration. The morning start (BOKER) is inferred from the usual rising early after a night revelation; the text says only 'Jacob rose up'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.joseph_instructs_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "Joseph's predictions in 46:33-34 (Pharaoh will summon them and ask their trade) come true in 47:2-3; that chapter's session writes the link."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.joseph_meets_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "Anchored on the end of the journey: Joseph harnesses his chariot after Judah's report and goes up to Goshen to meet the caravan on its arrival. Joseph's own travel from his residence to Goshen is not given; the packet places On and Egypt at the same coordinates, and Egypt-Goshen is 90 km, so a chariot trip would be about a day at most. The margin covers this."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.journey_to_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "The text does not name Jacob's starting point. Gen 37:14 and 35:27 place him at Hebron, so Hebron to Beersheba (about 50 km by road, army mode for a household with flocks, 18 km a day, about 2 days) is assumed. If he set out from elsewhere in Canaan the duration changes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.judah_sent_ahead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "46:28 says Judah was sent ahead to Joseph to give directions to Goshen, and that 'they came into the land of Goshen'. Judah's mission is placed in the last 4 days of the journey (start at day 16 of 20) with a margin of 4 days, since the text gives no interval. Its end coincides with the end of the journey, so the arrival in Goshen is included here and not given a separate event."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.sacrifice_at_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": "[consider] Optionally give the sacrifice a daytime time_of_day (e.g. BOKER on the day after arrival), so the vision falls on the night of the sacrifice day, as your note intends. (GEN.46.1-2: \"came to Beer-sheba, and offered sacrifices ... And God spake unto Israel in the visions of the night\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_46.vision_at_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:42+00:00",
+   "agent_notes": [
+    "46:2 says 'visions of the night' without more. The night after the sacrifice is assumed, snapped to the middle watch (22:00) with a margin of 4 hours.",
+    "Divine words that come true later, for the next chapters to link: 'I will make of thee a great nation' (46:3, see Ex 1:7); 'I will also surely bring thee up again' (46:4, see Gen 50:5-13, the burial in Canaan, and the Exodus); 'Joseph shall put his hand upon thine eyes' (46:4, Gen 50:1). None is fulfilled in this chapter, so no FULFILLS_PROPHECY edge is written."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.departure_from_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Place is Beersheba (where the departure begins); the journey itself and the entry into Egypt (46:6) are not located. The sons of Israel are recorded as group.joseph_brothers, which includes Benjamin, though Joseph is absent."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.joseph_instructs_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.joseph_meets_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.journey_to_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The text does not say where Israel set out from (Hebron, by the chronology of Gen 37). Place given as the destination Beersheba, where the event ends; no origin place is recorded."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.judah_sent_ahead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.sacrifice_at_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "The 'God of his father Isaac' is the same deity as deity.yhwh (46:3 'the God of your father'); he is a recipient of the sacrifice and recorded as PRESENT. Isaac is MENTIONED."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_46.vision_at_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_46.embrace_in_goshen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[consider] Consider a reunion system, or widen sys.reconciliation_embrace into a kin-reunion embrace in a later revision. (GEN.46.29: \"he fell on his neck, and wept on his neck a good while\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_46.night_vision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[consider] Consider 'the vision gives the descent to Egypt God's sanction and promise of presence'. (GEN.46.3-4: \"fear not to go down into Egypt ... I will go down with thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_46.promise_of_nation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_46.sacrifice_at_beersheba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": "[consider] Consider stating only the setting: at Beersheba, where God appeared to Isaac (26:23-25), before he leaves Canaan. (GEN.46.1: \"offered sacrifices unto the God of his father Isaac\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.sacrifice_offering": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:41+00:00",
+   "agent_notes": [
+    "Defined rather than reused: zebahim are generic sacrificial meals, not clearly the whole burnt offering of sys.burnt_offering. Named by what is done so it can recur."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 8-27 (the list of Jacob's household that went into Egypt, with the totals 33, 16, 14, 7, 66 and 70) are left out as an undated genealogy, i.e. framing. They give no ages or dates. The people listed travel in the departure event (46:5-7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:42+00:00"
+  },
+  {
+   "note": "Verses 8-27 (the list of Jacob's household that went into Egypt, with the totals 33, 16, 14, 7, 66 and 70) are left out as an undated genealogy, i.e. framing. They give no ages or dates. The people listed travel in the departure event (46:5-7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.journey_to_beersheba] The text does not name Jacob's starting point. Gen 37:14 and 35:27 place him at Hebron, so Hebron to Beersheba (about 50 km by road, army mode for a household with flocks, 18 km a day, about 2 days) is assumed. If he set out from elsewhere in Canaan the duration changes.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.departure_from_beersheba] The 20-day duration is the Beersheba-Goshen figure from urim travel (363 km by road, army mode, about 18 km a day), chosen because the wagons, little ones, flocks and herds (46:5-6) move at the pace of a baggage train. The donkey/walk modes would give 11 to 12.5 days. The text states no duration. The morning start (BOKER) is inferred from the usual rising early after a night revelation; the text says only 'Jacob rose up'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.judah_sent_ahead] 46:28 says Judah was sent ahead to Joseph to give directions to Goshen, and that 'they came into the land of Goshen'. Judah's mission is placed in the last 4 days of the journey (start at day 16 of 20) with a margin of 4 days, since the text gives no interval. Its end coincides with the end of the journey, so the arrival in Goshen is included here and not given a separate event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.joseph_meets_israel] Anchored on the end of the journey: Joseph harnesses his chariot after Judah's report and goes up to Goshen to meet the caravan on its arrival. Joseph's own travel from his residence to Goshen is not given; the packet places On and Egypt at the same coordinates, and Egypt-Goshen is 90 km, so a chariot trip would be about a day at most. The margin covers this.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.vision_at_beersheba] 46:2 says 'visions of the night' without more. The night after the sacrifice is assumed, snapped to the middle watch (22:00) with a margin of 4 hours.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.vision_at_beersheba] Divine words that come true later, for the next chapters to link: 'I will make of thee a great nation' (46:3, see Ex 1:7); 'I will also surely bring thee up again' (46:4, see Gen 50:5-13, the burial in Canaan, and the Exodus); 'Joseph shall put his hand upon thine eyes' (46:4, Gen 50:1). None is fulfilled in this chapter, so no FULFILLS_PROPHECY edge is written.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "[event:evt.gen_46.joseph_instructs_brothers] Joseph's predictions in 46:33-34 (Pharaoh will summon them and ask their trade) come true in 47:2-3; that chapter's session writes the link.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:54:41+00:00"
+  },
+  {
+   "note": "Verses 8-27 (the list of those who came to Egypt) belong to no event of the chapter, so the sixty-two new genealogical entities have no participant rows. They are defined only through their first_mention_verse and texts.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:07:41+00:00"
+  },
+  {
+   "note": "[entity:loc.goshen] Judah's errand to direct the way to Goshen (46:28) is ambiguous in Hebrew (lehorot lefanav Goshnah); read as arranging the meeting and the route in Goshen, with the party arriving in the land of Goshen.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:07:41+00:00"
+  },
+  {
+   "note": "Verses 8-27 (the list of those who came to Egypt) belong to no event of the chapter, so the sixty-two new genealogical entities have no participant rows. They are defined only through their first_mention_verse and texts.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.dan] Dan, Dinah, Gad, Asher, Issachar, Zebulun and Naphtali are not yet in the corpus (Leah, Rachel and Levi are, from GEN.29), so they are defined here with first_mention_verse in Gen 46, although the text names them earlier (Gen 30). Re-anchor if Gen 30 is modelled.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.zerah.gen_46_10] The Hebrew text of 46:10 reads Zohar (צֹחַר); the registry tags him Zerah, as in Num 26:13 and 1 Chr 4:24. Kept the registry id (a Simeonite namesake of Judah's Zerah) and gave Zohar as alias.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.jashub] The Masoretic text reads Iob (יוֹב, KJV 'Job'); the registry identifies him with Jashub (Num 26:24, 1 Chr 7:1). Kept the registry id; the spelling is probably a scribal variant.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.ahiram] The text has Ehi (אֵחִי); the registry reads it as Ahiram (Num 26:38). Kept the registry id with Ehi as alias.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.gera.gen_46_21] Gen 46:21 lists Gera and Naaman as sons of Benjamin, but 1 Chr 8:3-4 and Num 26:40 make Naaman and Gera grandsons through Bela. Recorded as the text of this chapter has it. In the same way, 46:21 lists ten sons of Benjamin against Num 26's five.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.hezron] Two Hezrons in the chapter: Reuben's son (person.hezron.gen_46_9) and Perez's son (person.hezron, the ancestor of David). Perez's sons Hezron and Hamul are born after the story reaches Egypt only by anticipation (46:12); the list counts them as those who came, which is probably a retrospective inclusion.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:person.canaanite_woman] Unnamed mother of Shaul (46:10). The registry tags her as a person; kept as an unnamed-character entity with her registry id.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_46.journey_to_beersheba] The text does not say where Israel set out from (Hebron, by the chronology of Gen 37). Place given as the destination Beersheba, where the event ends; no origin place is recorded.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_46.departure_from_beersheba] Place is Beersheba (where the departure begins); the journey itself and the entry into Egypt (46:6) are not located. The sons of Israel are recorded as group.joseph_brothers, which includes Benjamin, though Joseph is absent.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_46.sacrifice_at_beersheba] The 'God of his father Isaac' is the same deity as deity.yhwh (46:3 'the God of your father'); he is a recipient of the sacrifice and recorded as PRESENT. Isaac is MENTIONED.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[system:sys.sacrifice_offering] Defined rather than reused: zebahim are generic sacrificial meals, not clearly the whole burnt offering of sys.burnt_offering. Named by what is done so it can recur.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[component:comp.israel.assurance.1] Inferred: the command not to fear (46:3) implies hesitation about Egypt, but the text does not state it, so no fear state was written; only the assurance given is recorded.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[component:comp.israel.mood.4] Israel's wish to die (46:30) is read as contentment after reunion, not despair; the value CONTENT_TO_DIE is an interpretation.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[component:comp.jacobs_family.trade.1] The shepherd's trade is stated in Joseph's speech (46:32, 34) as the family's occupation; recorded as the family's trait from that verse though it long precedes it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  },
+  {
+   "note": "[entity:loc.goshen] Judah's errand to direct the way to Goshen (46:28) is ambiguous in Hebrew (lehorot lefanav Goshnah); read as arranging the meeting and the route in Goshen, with the party arriving in the land of Goshen.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:10:37+00:00"
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "chapter_ref": "GEN.9",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_9.blessing_and_ordinances",
+   "title": "God blesses Noah's family and gives new ordinances",
+   "narrative_summary": "God blesses Noah and his sons and tells them to be fruitful and fill the earth. Animals will fear them and all living creatures become food, except flesh with its blood. God will require blood for human life, since humankind is made in his image.",
+   "temporal_reasoning_note": "No time word. The speech follows God's resolve at 8:21-22 on the day of the offering after leaving the ark (2457 BCE, month 2), so it starts when that event ends. Speech of minutes; margin of a day since the text does not say whether it is the same day. Tier DAY_SEQUENCE: a continuous scene belongs to the day of the sacrifice."
+  },
+  {
+   "event_id": "evt.gen_9.covenant_declared",
+   "title": "God establishes his covenant with Noah, his sons and every creature",
+   "narrative_summary": "God announces that he is establishing his covenant with Noah, his descendants and every creature that left the ark. Never again will a flood cut off all flesh or destroy the earth.",
+   "temporal_reasoning_note": "A new speech introduced by 'And God said' (9:8), continuing the same scene; starts at the end of the previous speech. Minutes long; margin a day as above."
+  },
+  {
+   "event_id": "evt.gen_9.rainbow_sign",
+   "title": "God sets his bow in the cloud as the sign of the covenant",
+   "narrative_summary": "God names the bow in the cloud as the sign of the covenant for all generations. When it appears he will see it and remember his covenant, and the waters will not again become a flood.",
+   "temporal_reasoning_note": "Further speech (9:12, 9:17 'And God said'), continuous with the covenant declaration. The bow is a standing sign ('I have set'); no moment of its first appearance is narrated, so the event is the speech itself."
+  },
+  {
+   "event_id": "evt.gen_9.noah_plants_vineyard",
+   "title": "Noah becomes a farmer and plants a vineyard",
+   "narrative_summary": "Noah begins to work the ground and plants a vineyard.",
+   "temporal_reasoning_note": "The text gives no date ('Noah began'). The offset of 10 years after the covenant is an estimate, not a date the text gives. The episode can only be bounded as after the exit from the ark and after Canaan's birth (Ham's fourth son, born after the flood: 10:1, 10:6; he is named in 9:18, 9:22, 9:25) and before Noah's death 350 years after the flood (9:28). The margin of 10 years therefore reflects that wide, mostly unknown window; it could be wider. Tier MACRO_ERA because the text gives no time indication."
+  },
+  {
+   "event_id": "evt.gen_9.noah_drunk",
+   "title": "Noah drinks wine, becomes drunk and lies uncovered in his tent",
+   "narrative_summary": "Noah drinks of the wine, becomes drunk and uncovers himself inside his tent.",
+   "temporal_reasoning_note": "Follows the planting by the time the vineyard yields wine: about 3 years after the planting ended (first vintage), margin 3 years. Estimate only; MACRO_ERA. Pseudo-Jonathan says the vine bore fruit and was pressed the same day it was planted, a miraculous reading I did not follow."
+  },
+  {
+   "event_id": "evt.gen_9.ham_sees_and_tells",
+   "title": "Ham sees his father's nakedness and tells his two brothers",
+   "narrative_summary": "Ham, the father of Canaan, sees his father's nakedness and tells his two brothers outside.",
+   "temporal_reasoning_note": "Within the same drunken episode: starts when Noah's drunken exposure ends (no delay), margin an hour. No time word; tier follows the scene (MACRO_ERA, since the scene's own date is only an estimate)."
+  },
+  {
+   "event_id": "evt.gen_9.shem_japheth_cover_noah",
+   "title": "Shem and Japheth walk backward and cover their father",
+   "narrative_summary": "Shem and Japheth take a garment, lay it on their shoulders, walk in backward and cover their father without seeing his nakedness.",
+   "temporal_reasoning_note": "Response to Ham's report: 15 minutes after he finishes telling them, margin an hour. They are outside and need to go in. Same tier as the scene."
+  },
+  {
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem",
+   "title": "Noah wakes, curses Canaan and blesses Shem and Japheth",
+   "narrative_summary": "Noah wakes from his wine and learns what his youngest son did to him. He says Canaan is cursed to be a servant of servants, blesses the LORD, the God of Shem, and wishes Japheth room to dwell in Shem's tents, with Canaan their servant.",
+   "temporal_reasoning_note": "He wakes after sleeping off the wine: about 6 hours after the covering, margin 6 hours. Estimate; the text only says he awoke. MACRO_ERA as the scene."
+  },
+  {
+   "event_id": "evt.gen_9.noah_dies",
+   "title": "Noah dies at nine hundred and fifty years",
+   "narrative_summary": "Noah lives 350 years after the flood; all his days are 950 years, and he dies.",
+   "temporal_reasoning_note": "9:28 'Noah lived after the flood 350 years'. The flood began in Noah's 600th year (anchor.flood), so his death is 350 years after it (600 + 350 = 950, matching 9:29). Margin 1 year as ages cover a whole year. REGNAL_YEAR.",
+   "ancient_year_marker": "Three hundred and fifty years after the flood"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_8.yhwh_resolves_no_more_curse.covenant_declared",
+   "causal_explanation": "God's resolve never again to strike every living thing (8:21-22) makes possible his formal covenant promise of the same (9:11)."
+  },
+  {
+   "causal_id": "caus.gen_9.covenant_declared.rainbow_sign",
+   "causal_explanation": "The covenant just declared calls for a sign, and God names the bow in the cloud as that sign (9:12-13)."
+  },
+  {
+   "causal_id": "caus.gen_9.ham_sees_and_tells.noah_curses_canaan_blesses_shem",
+   "causal_explanation": "Noah's words follow from what 'his youngest son had done to him' (9:24), which was Ham's deed; the blessing also answers his brothers' act, hence confidence 0.9."
+  },
+  {
+   "causal_id": "caus.gen_9.ham_sees_and_tells.shem_japheth_cover_noah",
+   "causal_explanation": "Ham's report to his brothers leads them to take a garment and cover their father (9:22-23)."
+  },
+  {
+   "causal_id": "caus.gen_9.noah_drunk.ham_sees_and_tells",
+   "causal_explanation": "Noah's drunken exposure in his tent gave Ham what he saw (9:21-22)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.noahs_garment",
+   "canonical_name": "The Garment",
+   "phonetic_name": "Simlah",
+   "aliases": [
+    "Cloak",
+    "Mantle"
+   ],
+   "etymology_meaning": "Hebrew simlah, a wrap or outer garment.",
+   "summary_bio": "The cloth Shem and Japheth lay across their shoulders and use to cover their father Noah while walking backward, so as not to see his nakedness."
+  },
+  {
+   "entity_id": "artifact.rainbow_bow",
+   "canonical_name": "The Bow in the Cloud",
+   "phonetic_name": "Keshet",
+   "aliases": [
+    "Rainbow",
+    "Bow of God"
+   ],
+   "etymology_meaning": "The Hebrew word qeshet means a bow, the weapon; the rainbow reading is traditional.",
+   "summary_bio": "The bow God sets in the cloud as the sign of his covenant never again to destroy the earth by flood. God says he will see it and remember the covenant."
+  },
+  {
+   "entity_id": "loc.noahs_tent",
+   "canonical_name": "Noah's Tent",
+   "phonetic_name": "Oholo",
+   "aliases": [],
+   "etymology_meaning": "Hebrew ohel, a tent; the text gives no name or location.",
+   "summary_bio": "The tent where Noah lies drunk and uncovered, and where Ham sees him and his brothers cover him. Its location is not stated."
+  },
+  {
+   "entity_id": "person.canaan",
+   "canonical_name": "Canaan",
+   "phonetic_name": "Kenaan",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; sometimes linked to 'low' or 'humbled', or to a word for merchants (probably).",
+   "summary_bio": "Son of Ham and grandson of Noah, named in Genesis 9:18. Noah pronounces a curse on him after the incident in the tent, making him a servant of servants to his brothers' line."
+  },
+  {
+   "entity_id": "substance.wine",
+   "canonical_name": "Wine",
+   "phonetic_name": "Yayin",
+   "aliases": [],
+   "etymology_meaning": "Hebrew yayin, the common word for wine; of uncertain, possibly non-Semitic origin (probably).",
+   "summary_bio": "The fruit of the vineyard Noah plants after the flood. Drinking it makes him drunk and leads to the episode of the tent."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.canaan.curse.1",
+   "label_key": "Standing",
+   "label_value": "Cursed by Noah",
+   "evidence_explanation": "Gen 9:25: 'Cursed be Canaan.'"
+  },
+  {
+   "component_id": "comp.canaan.servitude.1",
+   "label_key": "Servitude",
+   "label_value": "Servant of servants to his brothers",
+   "evidence_explanation": "Gen 9:25-27: he will be a servant of servants to his brothers, and a servant to Shem and Japheth."
+  },
+  {
+   "component_id": "comp.noah.exposure.1",
+   "label_key": "Dress",
+   "label_value": "Uncovered in his tent",
+   "evidence_explanation": "Gen 9:21: he uncovered himself within his tent; covered by his sons in 9:23."
+  },
+  {
+   "component_id": "comp.noah.intoxication.1",
+   "label_key": "Condition",
+   "label_value": "Drunk with wine",
+   "evidence_explanation": "Gen 9:21: he drank of the wine and became drunk; 9:24 he awoke from his wine."
+  },
+  {
+   "component_id": "comp.noah.life.1",
+   "label_key": "Life",
+   "label_value": "Dead at 950 years",
+   "evidence_explanation": "Gen 9:29: all the days of Noah were 950 years, and he died."
+  },
+  {
+   "component_id": "comp.noah.occupation.1",
+   "label_key": "Occupation",
+   "label_value": "Farmer and vine-grower",
+   "evidence_explanation": "Gen 9:20: Noah began to be a man of the ground and planted a vineyard."
+  },
+  {
+   "component_id": "comp.rainbow_bow.placement.1",
+   "label_key": "Placement",
+   "label_value": "Set in the cloud",
+   "evidence_explanation": "Gen 9:13: 'I have set my bow in the cloud.'"
+  },
+  {
+   "component_id": "comp.shem.god.1",
+   "label_key": "God",
+   "label_value": "The LORD is the God of Shem",
+   "evidence_explanation": "Gen 9:26: 'Blessed be the LORD, the God of Shem.'"
+  },
+  {
+   "component_id": "comp.yhwh.covenant_partner.1",
+   "label_key": "Covenant partner",
+   "label_value": "Covenant with Noah and his descendants",
+   "evidence_explanation": "Gen 9:9: 'I establish my covenant with you and your seed after you.'"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blood_reckoning",
+   "name": "Reckoning for shed blood",
+   "ancient_near_east_context": "Ancient Near Eastern law commonly answered homicide with blood vengeance by kin or the community, and legal collections set penalties for killing. Genesis grounds the principle in the image of God rather than in kinship.",
+   "rules_and_mechanics": [
+    "God requires the blood of a slain human at the hand of every beast and every person.",
+    "Whoever sheds human blood has his own blood shed by humans.",
+    "The ground given is that humankind bears the image of God."
+   ]
+  },
+  {
+   "system_id": "sys.covenant_sign",
+   "name": "Sign of the covenant",
+   "ancient_near_east_context": "Covenants in the ancient Near East were often marked by a visible token, such as a stele, a standing stone, a shared meal or a bodily mark, that recalled the obligation to both parties and to witnesses.",
+   "rules_and_mechanics": [
+    "A sign accompanies the covenant it marks and does not replace it.",
+    "The sign is given by the one who establishes the covenant.",
+    "The sign serves as a reminder, here to God himself, who will see it and remember.",
+    "The sign is perpetual, lasting for all generations."
+   ]
+  },
+  {
+   "system_id": "sys.covering_nakedness",
+   "name": "Covering a parent's nakedness",
+   "ancient_near_east_context": "Respect for a father included protecting him from shame. Exposure of a parent was a grave dishonor, and Israelite law later treats uncovering nakedness as a serious offence.",
+   "rules_and_mechanics": [
+    "Sons cover a father who is exposed.",
+    "They avoid looking, here by walking backward with faces turned away.",
+    "Care for the father's honor is rewarded in the father's blessing."
+   ]
+  },
+  {
+   "system_id": "sys.food_ordinance",
+   "name": "Food ordinance",
+   "ancient_near_east_context": "Regulations on what may be eaten, and on how meat is treated, are common in ancient Near Eastern law and cult. Blood was widely regarded as the seat of life, and its handling was often tied to ritual.",
+   "rules_and_mechanics": [
+    "Every living creature is given to humans for food, as the green plants were.",
+    "Flesh may not be eaten with its life, that is, its blood.",
+    "The ordinance is given to all of Noah's descendants, not one nation."
+   ]
+  },
+  {
+   "system_id": "sys.patriarchal_pronouncement",
+   "name": "Patriarchal curse and blessing",
+   "ancient_near_east_context": "In the ancient Near East a father's spoken blessing or curse over his sons was held to carry binding, prophetic force, often fixing the standing of descendants and passing on inheritance, as with Isaac and Jacob later in Genesis.",
+   "rules_and_mechanics": [
+    "A father speaks over his sons or their descendants in solemn poetic words.",
+    "The word is considered effective once spoken and cannot be taken back.",
+    "A blessing may be directed to God, and the effect follows from him.",
+    "A curse may fall on a descendant of the offender rather than on the offender."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_9.blessing_of_shem_and_japheth",
+   "outcome_summary": "Noah blesses the LORD, God of Shem, and asks that God enlarge Japheth and that Japheth dwell in Shem's tents.",
+   "significance_note": "Marks Shem's line as bound to the LORD and joins Japheth to it."
+  },
+  {
+   "instance_id": "inst.gen_9.blood_reckoning",
+   "outcome_summary": "God declares he will require an account for human blood from beasts and from people, and that a murderer's blood is to be shed by humans.",
+   "significance_note": "Founds justice for homicide on humankind being made in God's image."
+  },
+  {
+   "instance_id": "inst.gen_9.bow_in_cloud",
+   "outcome_summary": "God sets his bow in the cloud as the sign of the covenant, and says he will see it and remember.",
+   "significance_note": "Gives a visible, recurring guarantee of the promise, tied to the end of the flood."
+  },
+  {
+   "instance_id": "inst.gen_9.curse_on_canaan",
+   "outcome_summary": "Noah curses Canaan, making him a servant of servants to his brothers.",
+   "significance_note": "Sets the later standing of the Canaanites relative to Shem's and Japheth's descendants."
+  },
+  {
+   "instance_id": "inst.gen_9.fertility_blessing",
+   "outcome_summary": "God blesses Noah and his sons and tells them to be fruitful, multiply and fill the earth.",
+   "significance_note": "Renews the creation mandate of Genesis 1 for the world after the flood."
+  },
+  {
+   "instance_id": "inst.gen_9.garment_laid_over_noah",
+   "outcome_summary": "Shem and Japheth lay a garment on their shoulders, walk backward and cover Noah without seeing him.",
+   "significance_note": "Contrasts with Ham's act and explains why Shem and Japheth are blessed."
+  },
+  {
+   "instance_id": "inst.gen_9.meat_ordinance",
+   "outcome_summary": "God gives every living creature to humans for food, but forbids eating flesh with its blood.",
+   "significance_note": "Extends the human diet beyond plants and places a limit on it, tied to the sanctity of life."
+  },
+  {
+   "instance_id": "inst.gen_9.noahic_covenant",
+   "outcome_summary": "God establishes his covenant with Noah, his sons, their descendants and every creature that left the ark, promising no further flood to destroy the earth.",
+   "significance_note": "This establishes the covenant first promised to Noah in 6:18 (inst.gen_6.covenant_promised): 'with thee will I establish my covenant'. It is universal and unconditional, resting on God's promise alone."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_9.god_blesses_noah",
+   "interaction_label": "blesses",
+   "description": "God blesses Noah and his sons after they leave the ark (9:1)."
+  },
+  {
+   "edge_id": "edge.gen_9.god_establishes_covenant_with_noah",
+   "interaction_label": "establishes a covenant with",
+   "description": "God declares he is establishing his covenant with Noah and his descendants (9:9)."
+  },
+  {
+   "edge_id": "edge.gen_9.god_gives_sign_to_noah",
+   "interaction_label": "gives a sign to",
+   "description": "God tells Noah that the bow is the sign of the covenant between himself and all flesh (9:17)."
+  },
+  {
+   "edge_id": "edge.gen_9.ham_sees_noah",
+   "interaction_label": "sees the nakedness of",
+   "description": "Ham sees his father uncovered in the tent (9:22)."
+  },
+  {
+   "edge_id": "edge.gen_9.ham_tells_japheth",
+   "interaction_label": "tells",
+   "description": "Ham tells his brother Japheth outside what he has seen (9:22)."
+  },
+  {
+   "edge_id": "edge.gen_9.ham_tells_shem",
+   "interaction_label": "tells",
+   "description": "Ham tells his brother Shem outside what he has seen (9:22)."
+  },
+  {
+   "edge_id": "edge.gen_9.japheth_covers_noah",
+   "interaction_label": "covers",
+   "description": "Japheth covers his father's nakedness walking backward (9:23)."
+  },
+  {
+   "edge_id": "edge.gen_9.noah_blesses_japheth",
+   "interaction_label": "blesses",
+   "description": "Noah asks God to enlarge Japheth and let him dwell in Shem's tents (9:27)."
+  },
+  {
+   "edge_id": "edge.gen_9.noah_blesses_yhwh",
+   "interaction_label": "blesses",
+   "description": "Noah says 'Blessed be the LORD, the God of Shem' (9:26)."
+  },
+  {
+   "edge_id": "edge.gen_9.noah_curses_canaan",
+   "interaction_label": "curses",
+   "description": "Noah curses Canaan, saying he will be a servant of servants (9:25)."
+  },
+  {
+   "edge_id": "edge.gen_9.shem_covers_noah",
+   "interaction_label": "covers",
+   "description": "Shem covers his father's nakedness walking backward (9:23)."
+  }
+ ]
+}

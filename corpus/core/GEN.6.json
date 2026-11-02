@@ -1,0 +1,654 @@
+{
+ "chapter_ref": "GEN.6",
+ "entities": [
+  {
+   "entity_id": "artifact.ark_of_noah",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "תֵּבָה",
+   "transliterated_name": "tēbâ",
+   "first_mention_verse": "GEN.6.14"
+  },
+  {
+   "entity_id": "group.daughters_of_men",
+   "entity_type": "GROUP",
+   "source_script_name": "בְּנוֹת הָאָדָם",
+   "transliterated_name": "bənôt hāʾādām",
+   "first_mention_verse": "GEN.6.1"
+  },
+  {
+   "entity_id": "group.gibborim",
+   "entity_type": "GROUP",
+   "source_script_name": "הַגִּבֹּרִים",
+   "transliterated_name": "hag-gibbōrîm",
+   "first_mention_verse": "GEN.6.4"
+  },
+  {
+   "entity_id": "group.nephilim",
+   "tipnr_id": "Nephilim@Gen.6.4-Num",
+   "entity_type": "GROUP",
+   "source_script_name": "הַנְּפִלִים",
+   "transliterated_name": "han-nəpilîm",
+   "first_mention_verse": "GEN.6.4"
+  },
+  {
+   "entity_id": "group.sons_of_god",
+   "entity_type": "GROUP",
+   "source_script_name": "בְּנֵי הָאֱלֹהִים",
+   "transliterated_name": "bənê hāʾĕlōhîm",
+   "first_mention_verse": "GEN.6.2"
+  },
+  {
+   "entity_id": "group.wives_of_noahs_sons",
+   "entity_type": "GROUP",
+   "source_script_name": "נְשֵׁי בָנֶיךָ",
+   "transliterated_name": "nəšê bāneykā",
+   "first_mention_verse": "GEN.6.18"
+  },
+  {
+   "entity_id": "person.ham",
+   "tipnr_id": "Ham@Gen.5.32-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "חָם",
+   "transliterated_name": "Ḥām",
+   "first_mention_verse": "GEN.6.10"
+  },
+  {
+   "entity_id": "person.japheth",
+   "tipnr_id": "Japheth@Gen.5.32-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יָפֶת",
+   "transliterated_name": "Yāpet",
+   "first_mention_verse": "GEN.6.10"
+  },
+  {
+   "entity_id": "person.noah",
+   "tipnr_id": "Noah@Gen.5.29-2Pe",
+   "entity_type": "PERSON",
+   "source_script_name": "נֹחַ",
+   "transliterated_name": "Nōaḥ",
+   "first_mention_verse": "GEN.6.8"
+  },
+  {
+   "entity_id": "person.noahs_wife",
+   "entity_type": "PERSON",
+   "source_script_name": "אִשְׁתְּךָ",
+   "transliterated_name": "ʾištəkā",
+   "first_mention_verse": "GEN.6.18"
+  },
+  {
+   "entity_id": "person.shem",
+   "tipnr_id": "Shem@Gen.5.32-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "שֵׁם",
+   "transliterated_name": "Šēm",
+   "first_mention_verse": "GEN.6.10"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.covenant_promise",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.divine_command",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.divine_decree",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.divine_flood_judgment",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_6.sons_of_god_take_wives",
+   "verse_start": "GEN.6.1",
+   "verse_end": "GEN.6.2",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1450.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 50.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 300.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.daughters_of_men",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.sons_of_god",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.lifespan_decree",
+   "verse_start": "GEN.6.3",
+   "verse_end": "GEN.6.3",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1535.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.nephilim_heroes",
+   "verse_start": "GEN.6.4",
+   "verse_end": "GEN.6.4",
+   "time": {
+    "anchor": "evt.gen_6.sons_of_god_take_wives",
+    "anchor_point": "END",
+    "offset": {
+     "value": 20.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 40.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 60.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.daughters_of_men",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.gibborim",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.nephilim",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.sons_of_god",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.yhwh_regrets_making_man",
+   "verse_start": "GEN.6.5",
+   "verse_end": "GEN.6.8",
+   "time": {
+    "anchor": "evt.gen_6.lifespan_decree",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.noah_sons_born",
+   "verse_start": "GEN.6.9",
+   "verse_end": "GEN.6.10",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1555.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.earth_corrupt",
+   "verse_start": "GEN.6.11",
+   "verse_end": "GEN.6.12",
+   "time": {
+    "anchor": "evt.gen_6.noah_sons_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.god_commands_ark",
+   "verse_start": "GEN.6.13",
+   "verse_end": "GEN.6.21",
+   "time": {
+    "anchor": "evt.gen_6.earth_corrupt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.wives_of_noahs_sons",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noahs_wife",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_6.noah_builds_ark",
+   "verse_start": "GEN.6.22",
+   "verse_end": "GEN.6.22",
+   "time": {
+    "anchor": "evt.gen_6.god_commands_ark",
+    "anchor_point": "END",
+    "duration": {
+     "value": 73.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_6.earth_corrupt.god_commands_ark",
+   "cause_event_id": "evt.gen_6.earth_corrupt",
+   "effect_event_id": "evt.gen_6.god_commands_ark",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_6.god_commands_ark.noah_builds_ark",
+   "cause_event_id": "evt.gen_6.god_commands_ark",
+   "effect_event_id": "evt.gen_6.noah_builds_ark",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_6.yhwh_regrets_making_man.god_commands_ark",
+   "cause_event_id": "evt.gen_6.yhwh_regrets_making_man",
+   "effect_event_id": "evt.gen_6.god_commands_ark",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.humankind.lifespan_limit.1",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "allotted_days",
+   "value_code": "DAYS_SET_AT_120_YEARS",
+   "acquired_at_verse": "GEN.6.3",
+   "acquired_in_event": "evt.gen_6.lifespan_decree"
+  },
+  {
+   "component_id": "comp.humankind.moral_state.1",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "moral_state",
+   "value_code": "CORRUPT",
+   "acquired_at_verse": "GEN.6.5",
+   "acquired_in_event": "evt.gen_6.yhwh_regrets_making_man"
+  },
+  {
+   "component_id": "comp.noah.character.1",
+   "entity_id": "person.noah",
+   "category": "TRAIT",
+   "component_key": "character",
+   "value_code": "RIGHTEOUS_AND_BLAMELESS",
+   "acquired_at_verse": "GEN.6.9",
+   "acquired_in_event": "evt.gen_6.noah_sons_born"
+  },
+  {
+   "component_id": "comp.noah.favour_with.1",
+   "entity_id": "person.noah",
+   "category": "ALLEGIANCE",
+   "component_key": "favour_with",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.6.8",
+   "acquired_in_event": "evt.gen_6.yhwh_regrets_making_man"
+  },
+  {
+   "component_id": "comp.yhwh.mood.1",
+   "entity_id": "deity.yhwh",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "GRIEVED",
+   "acquired_at_verse": "GEN.6.6",
+   "acquired_in_event": "evt.gen_6.yhwh_regrets_making_man"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_6.ark_commanded",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_6.god_commands_ark",
+   "verse_start": "GEN.6.14",
+   "verse_end": "GEN.6.21",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "tags": [
+    "ark",
+    "animals",
+    "provisions"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_6.covenant_promised",
+   "system_id": "sys.covenant_promise",
+   "event_id": "evt.gen_6.god_commands_ark",
+   "verse_start": "GEN.6.18",
+   "verse_end": "GEN.6.18",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "covenant",
+    "family_of_noah"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_6.flood_announced_to_noah",
+   "system_id": "sys.divine_flood_judgment",
+   "event_id": "evt.gen_6.god_commands_ark",
+   "verse_start": "GEN.6.13",
+   "verse_end": "GEN.6.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind",
+    "person.noah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "flood",
+    "end_of_all_flesh"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_6.flood_resolved",
+   "system_id": "sys.divine_flood_judgment",
+   "event_id": "evt.gen_6.yhwh_regrets_making_man",
+   "verse_start": "GEN.6.7",
+   "verse_end": "GEN.6.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "blotting_out",
+    "regret"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_6.lifespan_decreed",
+   "system_id": "sys.divine_decree",
+   "event_id": "evt.gen_6.lifespan_decree",
+   "verse_start": "GEN.6.3",
+   "verse_end": "GEN.6.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "lifespan",
+    "spirit_withdrawn"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_6.god_commands_noah_build",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.6.14",
+   "event_id": "evt.gen_6.god_commands_ark"
+  },
+  {
+   "edge_id": "edge.gen_6.god_promises_covenant_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "PROMISES_COVENANT",
+   "verse_id": "GEN.6.18",
+   "event_id": "evt.gen_6.god_commands_ark"
+  },
+  {
+   "edge_id": "edge.gen_6.noah_fathers_ham",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.ham",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.6.10",
+   "event_id": "evt.gen_6.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_6.noah_fathers_japheth",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.japheth",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.6.10",
+   "event_id": "evt.gen_6.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_6.noah_fathers_shem",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.shem",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.6.10",
+   "event_id": "evt.gen_6.noah_sons_born"
+  },
+  {
+   "edge_id": "edge.gen_6.noah_obeys_god",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "OBEYS",
+   "verse_id": "GEN.6.22",
+   "event_id": "evt.gen_6.noah_builds_ark"
+  },
+  {
+   "edge_id": "edge.gen_6.sons_of_god_father_gibborim",
+   "source_entity_id": "group.sons_of_god",
+   "target_entity_id": "group.gibborim",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.6.4",
+   "event_id": "evt.gen_6.nephilim_heroes"
+  },
+  {
+   "edge_id": "edge.gen_6.sons_of_god_take_daughters",
+   "source_entity_id": "group.sons_of_god",
+   "target_entity_id": "group.daughters_of_men",
+   "interaction_type": "TAKES_AS_WIVES",
+   "verse_id": "GEN.6.2",
+   "event_id": "evt.gen_6.sons_of_god_take_wives"
+  },
+  {
+   "edge_id": "edge.gen_6.yhwh_favours_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "FAVOURS",
+   "verse_id": "GEN.6.8",
+   "event_id": "evt.gen_6.yhwh_regrets_making_man"
+  },
+  {
+   "edge_id": "edge.gen_6.yhwh_limits_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "LIMITS",
+   "verse_id": "GEN.6.3",
+   "event_id": "evt.gen_6.lifespan_decree"
+  },
+  {
+   "edge_id": "edge.gen_6.yhwh_resolves_to_destroy",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "THREATENS",
+   "verse_id": "GEN.6.7",
+   "event_id": "evt.gen_6.yhwh_regrets_making_man"
+  }
+ ]
+}

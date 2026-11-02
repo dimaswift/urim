@@ -1,0 +1,1149 @@
+{
+ "chapter_ref": "GEN.11",
+ "entities": [
+  {
+   "entity_id": "artifact.tower_of_babel",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מִגְדָּל",
+   "transliterated_name": "migdāl",
+   "first_mention_verse": "GEN.11.4"
+  },
+  {
+   "entity_id": "person.haran",
+   "tipnr_id": "Haran@Gen.11.26-",
+   "entity_type": "PERSON",
+   "source_script_name": "הָרָן",
+   "transliterated_name": "Hārān",
+   "first_mention_verse": "GEN.11.26"
+  },
+  {
+   "entity_id": "person.iscah",
+   "tipnr_id": "Iscah@Gen.11.29",
+   "entity_type": "PERSON",
+   "source_script_name": "יִסְכָּה",
+   "transliterated_name": "Yiskâ",
+   "first_mention_verse": "GEN.11.29"
+  },
+  {
+   "entity_id": "person.milcah",
+   "tipnr_id": "Milcah@Gen.11.29-",
+   "entity_type": "PERSON",
+   "source_script_name": "מִלְכָּה",
+   "transliterated_name": "Milkâ",
+   "first_mention_verse": "GEN.11.29"
+  },
+  {
+   "entity_id": "person.nahor.gen_11_22",
+   "tipnr_id": "Nahor@Gen.11.22-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "נָחוֹר",
+   "transliterated_name": "Nāḥôr",
+   "first_mention_verse": "GEN.11.22"
+  },
+  {
+   "entity_id": "person.reu",
+   "tipnr_id": "Reu@Gen.11.18-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "רְעוּ",
+   "transliterated_name": "Reʿu",
+   "first_mention_verse": "GEN.11.18"
+  },
+  {
+   "entity_id": "person.serug",
+   "tipnr_id": "Serug@Gen.11.20-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "שְׂרוּג",
+   "transliterated_name": "Śərûg",
+   "first_mention_verse": "GEN.11.20"
+  },
+  {
+   "entity_id": "person.terah",
+   "tipnr_id": "Terah@Gen.11.24-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "תֶּרַח",
+   "transliterated_name": "Teraḥ",
+   "first_mention_verse": "GEN.11.24"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_confusion_of_language",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_11.settle_shinar",
+   "parent_event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.1",
+   "verse_end": "GEN.11.2",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.babel",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.humankind",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.babylon",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.1",
+   "verse_end": "GEN.11.9",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.peleg_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 100.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 8.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tower_of_babel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.plan_city_tower",
+   "parent_event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.3",
+   "verse_end": "GEN.11.4",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.babel",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tower_of_babel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.yhwh_comes_down",
+   "parent_event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.5",
+   "verse_end": "GEN.11.6",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.babel",
+    "anchor_point": "START",
+    "offset": {
+     "value": 6.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tower_of_babel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.yhwh_decides_to_confuse",
+   "parent_event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.7",
+   "verse_end": "GEN.11.7",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.yhwh_comes_down",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.scatter_from_babel",
+   "parent_event_id": "evt.gen_11.babel",
+   "verse_start": "GEN.11.8",
+   "verse_end": "GEN.11.9",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_11.yhwh_decides_to_confuse",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tower_of_babel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.babylon",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.arpachshad_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.10",
+   "verse_end": "GEN.11.11",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.arpachshad",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.10",
+   "verse_end": "GEN.11.26",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "duration": {
+     "value": 293.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.arpachshad",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.eber",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nahor.gen_11_22",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.peleg",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reu",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.serug",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shelah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.terah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.shelah_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.12",
+   "verse_end": "GEN.11.13",
+   "time": {
+    "anchor": "evt.gen_11.arpachshad_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 35.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.arpachshad",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shelah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.eber_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.14",
+   "verse_end": "GEN.11.15",
+   "time": {
+    "anchor": "evt.gen_11.shelah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.eber",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shelah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.peleg_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.16",
+   "verse_end": "GEN.11.17",
+   "time": {
+    "anchor": "evt.gen_11.eber_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 34.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.eber",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.peleg",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.reu_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.18",
+   "verse_end": "GEN.11.19",
+   "time": {
+    "anchor": "evt.gen_11.peleg_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.peleg",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.reu",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.serug_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.20",
+   "verse_end": "GEN.11.21",
+   "time": {
+    "anchor": "evt.gen_11.reu_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 32.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.reu",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.serug",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.nahor_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.22",
+   "verse_end": "GEN.11.23",
+   "time": {
+    "anchor": "evt.gen_11.serug_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.nahor.gen_11_22",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.serug",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.terah_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.24",
+   "verse_end": "GEN.11.25",
+   "time": {
+    "anchor": "evt.gen_11.nahor_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 29.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.nahor.gen_11_22",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.terah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.abram_born",
+   "parent_event_id": "evt.gen_11.shem_line_genealogy",
+   "verse_start": "GEN.11.26",
+   "verse_end": "GEN.11.26",
+   "time": {
+    "anchor": "evt.gen_11.terah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 70.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.haran",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.terah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.haran_dies",
+   "verse_start": "GEN.11.28",
+   "verse_end": "GEN.11.28",
+   "location_entity_id": "loc.ur",
+   "time": {
+    "anchor": "evt.gen_11.abram_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 20.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.chaldea",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.haran",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.terah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.marriages_sarai_barren",
+   "verse_start": "GEN.11.29",
+   "verse_end": "GEN.11.30",
+   "time": {
+    "anchor": "evt.gen_11.abram_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.iscah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.milcah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.nahor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.terah_leaves_ur",
+   "verse_start": "GEN.11.31",
+   "verse_end": "GEN.11.31",
+   "location_entity_id": "loc.ur",
+   "time": {
+    "anchor": "evt.gen_11.abram_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 55.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 41.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.chaldea",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.terah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_11.terah_dies",
+   "verse_start": "GEN.11.32",
+   "verse_end": "GEN.11.32",
+   "location_entity_id": "loc.haran",
+   "time": {
+    "anchor": "evt.gen_11.terah_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 205.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.terah",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_11.plan_city_tower.yhwh_comes_down",
+   "cause_event_id": "evt.gen_11.plan_city_tower",
+   "effect_event_id": "evt.gen_11.yhwh_comes_down",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_11.yhwh_comes_down.yhwh_decides_to_confuse",
+   "cause_event_id": "evt.gen_11.yhwh_comes_down",
+   "effect_event_id": "evt.gen_11.yhwh_decides_to_confuse",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_11.yhwh_decides_to_confuse.scatter_from_babel",
+   "cause_event_id": "evt.gen_11.yhwh_decides_to_confuse",
+   "effect_event_id": "evt.gen_11.scatter_from_babel",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.wife.1",
+   "entity_id": "person.abraham",
+   "category": "ALLEGIANCE",
+   "component_key": "wife",
+   "target_entity_id": "person.sarah",
+   "acquired_at_verse": "GEN.11.29",
+   "acquired_in_event": "evt.gen_11.marriages_sarai_barren"
+  },
+  {
+   "component_id": "comp.babylon.babel_name.1",
+   "entity_id": "loc.babylon",
+   "category": "TRAIT",
+   "component_key": "babel_name",
+   "value_code": "BABEL",
+   "acquired_at_verse": "GEN.11.9",
+   "acquired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.babylon.construction.1",
+   "entity_id": "loc.babylon",
+   "category": "TRAIT",
+   "component_key": "construction",
+   "value_code": "ABANDONED_UNFINISHED",
+   "acquired_at_verse": "GEN.11.8",
+   "acquired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.haran.life.1",
+   "entity_id": "person.haran",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.11.28",
+   "acquired_in_event": "evt.gen_11.haran_dies"
+  },
+  {
+   "component_id": "comp.humankind.settlement.1",
+   "entity_id": "group.humankind",
+   "category": "LOCATION_STATE",
+   "component_key": "settlement",
+   "target_entity_id": "loc.babylon",
+   "acquired_at_verse": "GEN.11.2",
+   "acquired_in_event": "evt.gen_11.settle_shinar",
+   "expired_at_verse": "GEN.11.8",
+   "expired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.humankind.settlement.2",
+   "entity_id": "group.humankind",
+   "category": "LOCATION_STATE",
+   "component_key": "settlement",
+   "value_code": "SCATTERED_OVER_EARTH",
+   "supersedes_component_id": "comp.humankind.settlement.1",
+   "acquired_at_verse": "GEN.11.8",
+   "acquired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.humankind.speech.1",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "speech",
+   "value_code": "ONE_LANGUAGE",
+   "acquired_at_verse": "GEN.11.1",
+   "acquired_in_event": "evt.gen_11.settle_shinar",
+   "expired_at_verse": "GEN.11.9",
+   "expired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.humankind.speech.2",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "speech",
+   "value_code": "LANGUAGES_CONFUSED",
+   "supersedes_component_id": "comp.humankind.speech.1",
+   "acquired_at_verse": "GEN.11.9",
+   "acquired_in_event": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "component_id": "comp.nahor.wife.1",
+   "entity_id": "person.nahor",
+   "category": "ALLEGIANCE",
+   "component_key": "wife",
+   "target_entity_id": "person.milcah",
+   "acquired_at_verse": "GEN.11.29",
+   "acquired_in_event": "evt.gen_11.marriages_sarai_barren"
+  },
+  {
+   "component_id": "comp.sarah.childlessness.1",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "childlessness",
+   "value_code": "NO_CHILD",
+   "acquired_at_verse": "GEN.11.30",
+   "acquired_in_event": "evt.gen_11.marriages_sarai_barren"
+  },
+  {
+   "component_id": "comp.terah.dwelling.1",
+   "entity_id": "person.terah",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.haran",
+   "acquired_at_verse": "GEN.11.31",
+   "acquired_in_event": "evt.gen_11.terah_leaves_ur"
+  },
+  {
+   "component_id": "comp.terah.life.1",
+   "entity_id": "person.terah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.11.32",
+   "acquired_in_event": "evt.gen_11.terah_dies"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_11.abram_nahor_marry",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_11.marriages_sarai_barren",
+   "verse_start": "GEN.11.29",
+   "verse_end": "GEN.11.29",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "person.sarah",
+    "person.nahor",
+    "person.milcah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "marriage",
+    "brothers"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_11.language_confused",
+   "system_id": "sys.divine_confusion_of_language",
+   "event_id": "evt.gen_11.scatter_from_babel",
+   "verse_start": "GEN.11.9",
+   "verse_end": "GEN.11.9",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [
+    "artifact.tower_of_babel"
+   ],
+   "location_entity_id": "loc.babylon",
+   "tags": [
+    "babel",
+    "judgment",
+    "origin_of_nations"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_11.abram_takes_sarai",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.11.29",
+   "event_id": "evt.gen_11.marriages_sarai_barren"
+  },
+  {
+   "edge_id": "edge.gen_11.arpachshad_fathers_shelah",
+   "source_entity_id": "person.arpachshad",
+   "target_entity_id": "person.shelah",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.12",
+   "event_id": "evt.gen_11.shelah_born"
+  },
+  {
+   "edge_id": "edge.gen_11.eber_fathers_peleg",
+   "source_entity_id": "person.eber",
+   "target_entity_id": "person.peleg",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.16",
+   "event_id": "evt.gen_11.peleg_born"
+  },
+  {
+   "edge_id": "edge.gen_11.nahor_fathers_terah",
+   "source_entity_id": "person.nahor.gen_11_22",
+   "target_entity_id": "person.terah",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.24",
+   "event_id": "evt.gen_11.terah_born"
+  },
+  {
+   "edge_id": "edge.gen_11.nahor_takes_milcah",
+   "source_entity_id": "person.nahor",
+   "target_entity_id": "person.milcah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.11.29",
+   "event_id": "evt.gen_11.marriages_sarai_barren"
+  },
+  {
+   "edge_id": "edge.gen_11.peleg_fathers_reu",
+   "source_entity_id": "person.peleg",
+   "target_entity_id": "person.reu",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.18",
+   "event_id": "evt.gen_11.reu_born"
+  },
+  {
+   "edge_id": "edge.gen_11.reu_fathers_serug",
+   "source_entity_id": "person.reu",
+   "target_entity_id": "person.serug",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.20",
+   "event_id": "evt.gen_11.serug_born"
+  },
+  {
+   "edge_id": "edge.gen_11.serug_fathers_nahor",
+   "source_entity_id": "person.serug",
+   "target_entity_id": "person.nahor.gen_11_22",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.22",
+   "event_id": "evt.gen_11.nahor_born"
+  },
+  {
+   "edge_id": "edge.gen_11.shelah_fathers_eber",
+   "source_entity_id": "person.shelah",
+   "target_entity_id": "person.eber",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.14",
+   "event_id": "evt.gen_11.eber_born"
+  },
+  {
+   "edge_id": "edge.gen_11.shem_fathers_arpachshad",
+   "source_entity_id": "person.shem",
+   "target_entity_id": "person.arpachshad",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.10",
+   "event_id": "evt.gen_11.arpachshad_born"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_abram",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.26",
+   "event_id": "evt.gen_11.abram_born"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_haran",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.haran",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.26",
+   "event_id": "evt.gen_11.abram_born"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_nahor",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.nahor",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.11.26",
+   "event_id": "evt.gen_11.abram_born"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_abram",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "LEADS_AWAY",
+   "verse_id": "GEN.11.31",
+   "event_id": "evt.gen_11.terah_leaves_ur"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_lot",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.lot",
+   "interaction_type": "LEADS_AWAY",
+   "verse_id": "GEN.11.31",
+   "event_id": "evt.gen_11.terah_leaves_ur"
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_sarai",
+   "source_entity_id": "person.terah",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "LEADS_AWAY",
+   "verse_id": "GEN.11.31",
+   "event_id": "evt.gen_11.terah_leaves_ur"
+  },
+  {
+   "edge_id": "edge.gen_11.yhwh_confuses_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "CONFUSES",
+   "verse_id": "GEN.11.9",
+   "event_id": "evt.gen_11.scatter_from_babel"
+  },
+  {
+   "edge_id": "edge.gen_11.yhwh_scatters_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "SCATTERS",
+   "verse_id": "GEN.11.8",
+   "event_id": "evt.gen_11.scatter_from_babel"
+  }
+ ]
+}

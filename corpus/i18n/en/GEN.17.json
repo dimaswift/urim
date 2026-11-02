@@ -1,0 +1,255 @@
+{
+ "chapter_ref": "GEN.17",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_17.el_shaddai_appears",
+   "title": "The LORD appears to Abram at ninety-nine",
+   "narrative_summary": "When Abram is ninety-nine the LORD appears to him as God Almighty and tells him to walk before him and be blameless. He promises to make a covenant with him and multiply him greatly.",
+   "temporal_reasoning_note": "17:1 gives Abram's age, ninety-nine years: offset 99 years from anchor.abraham_birth, margin 1 year because an age covers a whole year, REGNAL_YEAR. Cross-check: Ishmael born at Abram's 86th year (Gen 16:16) plus 13 years (17:25). Radak places it near the end of the 99th year, a year before Isaac's birth; not used to shift the start.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.covenant_promises",
+   "title": "God promises Abram a multitude of nations and the land",
+   "narrative_summary": "Abram falls on his face and God speaks: his covenant is with him, Abram becomes Abraham, father of many nations and of kings, and the land of Canaan is an everlasting possession.",
+   "temporal_reasoning_note": "17:3 continues the same speech without a gap: starts at the end of the appearance, about ten minutes of speech. REGNAL_YEAR, the tier of the age framing the scene.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.circumcision_command",
+   "title": "God commands circumcision as the sign of the covenant",
+   "narrative_summary": "God tells Abraham and his seed to keep the covenant: every male is to be circumcised, at eight days old, including those born in the house or bought. The uncircumcised male will be cut off from his people.",
+   "temporal_reasoning_note": "17:9 'And God said' is a continuation of the same encounter with no marked gap, so it starts when the preceding speech ends; about ten minutes of speech. REGNAL_YEAR, the tier of the age framing the scene.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.sarai_renamed_sarah",
+   "title": "God renames Sarai Sarah and promises her a son",
+   "narrative_summary": "God tells Abraham that Sarai's name is now Sarah, that he will bless her and give Abraham a son by her, and that she will become nations and the mother of kings.",
+   "temporal_reasoning_note": "17:15 'And God said' continues the same encounter, so it starts at the end of the command; a few minutes of speech. REGNAL_YEAR, the tier of the scene's frame.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.abraham_laughs_pleads",
+   "title": "Abraham laughs and asks that Ishmael may live before God",
+   "narrative_summary": "Abraham falls on his face, laughs, and says in his heart that a man of a hundred and a woman of ninety cannot have a child. He then asks God that Ishmael might live before him.",
+   "temporal_reasoning_note": "17:17 is the immediate reaction to the promise, with no gap: starts at the end of the preceding speech, a few minutes. REGNAL_YEAR, the tier of the scene's frame.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "title": "God names Isaac, blesses Ishmael and goes up from Abraham",
+   "narrative_summary": "God says Sarah will bear a son to be named Isaac, with whom he will establish the covenant, at this set time next year. He has heard Abraham about Ishmael, whom he will bless and make a great nation with twelve princes. Then he finishes speaking and goes up from Abraham.",
+   "temporal_reasoning_note": "17:19 'And God said' answers 17:18 immediately: it starts at the end of Abraham's plea; about ten minutes of speech until God 'went up' (17:22). REGNAL_YEAR, the tier of the scene's frame. The birth 'at this set time in the next year' (17:21) is Isaac's, dated in Gen 21.",
+   "ancient_year_marker": "When Abram was ninety-nine years old"
+  },
+  {
+   "event_id": "evt.gen_17.circumcision_performed",
+   "title": "Abraham circumcises Ishmael and all the males of his house",
+   "narrative_summary": "On that very day Abraham takes Ishmael, who is thirteen, and all the males born in his house or bought with money, and circumcises them as God had said. Abraham, ninety-nine, is circumcised too.",
+   "temporal_reasoning_note": "17:23 and 17:26 say 'in the selfsame day': it starts at the end of the vision, with no offset, and lasts about four hours (an estimate for a large household; Ibn Ezra on 17:26 counts 318 born in the house). Margin 3 hours. Rashi (17:23): by day and not by night. Radak and Ramban: Abraham circumcised the others first and himself last. DAY_SEQUENCE, as the scene is dated by the day, not an hour.",
+   "ancient_year_marker": "When Abraham was ninety-nine years old",
+   "ancient_diurnal_marker": "In the selfsame day"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.abraham_laughs_pleads.isaac_and_ishmael_promised",
+   "causal_explanation": "God answers Abraham's plea for Ishmael and his doubt by naming Isaac and blessing Ishmael ('I have heard you', 17:19-20)."
+  },
+  {
+   "causal_id": "caus.gen_17.circumcision_command.circumcision_performed",
+   "causal_explanation": "Abraham circumcises every male of his house the same day because God had commanded it as the sign of the covenant (17:23, 'as God had said')."
+  },
+  {
+   "causal_id": "caus.gen_17.sarai_renamed_sarah.abraham_laughs_pleads",
+   "causal_explanation": "The promise of a son by Sarah, aged ninety, makes Abraham fall down and laugh at 17:17."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "group.household_of_abraham",
+   "canonical_name": "Men of Abraham's household",
+   "phonetic_name": "anshei veito",
+   "aliases": [
+    "those born in the house",
+    "those bought with silver"
+   ],
+   "etymology_meaning": "Not a name but a description: 'the men of his house', both those born in the household and those purchased from foreigners.",
+   "summary_bio": "The male members of Abraham's household, house-born servants and men bought from foreigners. They fall under the covenant sign alongside Abraham's own line (17:12–13) and are circumcised with him on the same day (17:23, 27)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.circumcision.1",
+   "label_key": "Circumcision",
+   "label_value": "Circumcised at ninety-nine",
+   "evidence_explanation": "17:24 Abraham was ninety-nine when the flesh of his foreskin was circumcised."
+  },
+  {
+   "component_id": "comp.abraham.name.1",
+   "label_key": "Name",
+   "label_value": "Abraham, father of a multitude",
+   "evidence_explanation": "17:5 God declares the name Abram will no longer be used; his name is Abraham."
+  },
+  {
+   "component_id": "comp.household_of_abraham.circumcision.1",
+   "label_key": "Circumcision",
+   "label_value": "All males circumcised",
+   "evidence_explanation": "17:27 all the men of his house, house-born and bought, were circumcised with him."
+  },
+  {
+   "component_id": "comp.isaac.covenant_heir.1",
+   "label_key": "Covenant role",
+   "label_value": "Promised heir of the covenant",
+   "evidence_explanation": "17:19, 21 God will establish his covenant with Isaac, the son Sarah will bear."
+  },
+  {
+   "component_id": "comp.ishmael.circumcision.1",
+   "label_key": "Circumcision",
+   "label_value": "Circumcised at thirteen",
+   "evidence_explanation": "17:25 Ishmael was thirteen years old when he was circumcised."
+  },
+  {
+   "component_id": "comp.ishmael.divine_blessing.1",
+   "label_key": "Blessing",
+   "label_value": "Blessed to become a great nation",
+   "evidence_explanation": "17:20 God has heard Abraham, blessed Ishmael and will make him a great nation with twelve princes."
+  },
+  {
+   "component_id": "comp.sarah.name.1",
+   "label_key": "Name",
+   "label_value": "Sarah",
+   "evidence_explanation": "17:15 God tells Abraham not to call his wife Sarai, for Sarah is her name."
+  },
+  {
+   "component_id": "comp.yhwh.abrahamic_covenant.1",
+   "label_key": "Covenant partner",
+   "label_value": "In covenant with Abraham",
+   "evidence_explanation": "17:4 'my covenant is with you'; 17:7 it is established as an everlasting covenant."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.circumcision",
+   "name": "Circumcision",
+   "ancient_near_east_context": "Removal of the foreskin was practised in Egypt and among several West Semitic peoples, often at puberty or marriage. In Genesis 17 it becomes the covenant sign performed on infants on the eighth day and extended to slaves of the household.",
+   "rules_and_mechanics": [
+    "Every male is circumcised, including house-born and purchased slaves (17:12–13).",
+    "Infants are circumcised at eight days old (17:12).",
+    "The head of the household performs or commands it for all his males (17:23).",
+    "An uncircumcised male is cut off from his people for breaking the covenant (17:14)."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_17.abram_renamed",
+   "outcome_summary": "Abram becomes Abraham, 'father of a multitude of nations'.",
+   "significance_note": "The new name embeds the promise in his identity."
+  },
+  {
+   "instance_id": "inst.gen_17.appearance_to_abram",
+   "outcome_summary": "The LORD appears to ninety-nine-year-old Abram, names himself El Shaddai and calls him to walk before him blamelessly.",
+   "significance_note": "Opens the covenant of circumcision after thirteen years of silence since Ishmael's birth (16:16)."
+  },
+  {
+   "instance_id": "inst.gen_17.circumcision_sign_given",
+   "outcome_summary": "God appoints circumcision of every male, on the eighth day, as the sign of the covenant, with exclusion for those who refuse.",
+   "significance_note": "Makes covenant membership physical and hereditary, extending to the household's slaves."
+  },
+  {
+   "instance_id": "inst.gen_17.covenant_promised",
+   "outcome_summary": "God promises Abram multitudes of descendants, kings, an everlasting covenant and all of Canaan as an eternal possession.",
+   "significance_note": "Widens the promises of chapters 12 and 15 into a covenant that also promises God himself as God to Abraham's line."
+  },
+  {
+   "instance_id": "inst.gen_17.household_circumcised",
+   "outcome_summary": "Abraham circumcises himself, Ishmael and every male of his house on that very day.",
+   "significance_note": "Immediate and complete obedience to the covenant command."
+  },
+  {
+   "instance_id": "inst.gen_17.isaac_named",
+   "outcome_summary": "God names the unborn son Isaac and sets the covenant with him.",
+   "significance_note": "The name, 'he laughs', echoes Abraham's laughter in verse 17."
+  },
+  {
+   "instance_id": "inst.gen_17.ishmael_blessed",
+   "outcome_summary": "God answers Abraham's plea: Ishmael is blessed, to father twelve princes and become a great nation.",
+   "significance_note": "Ishmael receives blessing but not the covenant, which goes to Isaac."
+  },
+  {
+   "instance_id": "inst.gen_17.plea_for_ishmael",
+   "outcome_summary": "Abraham asks that Ishmael may live before God.",
+   "significance_note": "Shows Abraham's concern for Ishmael as the heir he already has."
+  },
+  {
+   "instance_id": "inst.gen_17.sarah_blessed",
+   "outcome_summary": "God blesses Sarah, promises a son from her and that she will become nations.",
+   "significance_note": "Specifies that the covenant heir comes through Sarah, not Hagar."
+  },
+  {
+   "instance_id": "inst.gen_17.sarai_renamed",
+   "outcome_summary": "God renames Sarai as Sarah.",
+   "significance_note": "Sarah is given a share in the covenant identity alongside Abraham."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_17.abraham_circumcises_household",
+   "interaction_label": "circumcises",
+   "description": "Abraham circumcises every male of his house, born there or bought."
+  },
+  {
+   "edge_id": "edge.gen_17.abraham_circumcises_ishmael",
+   "interaction_label": "circumcises",
+   "description": "Abraham circumcises his thirteen-year-old son Ishmael."
+  },
+  {
+   "edge_id": "edge.gen_17.abraham_pleads_for_ishmael",
+   "interaction_label": "pleads for",
+   "description": "Abraham asks God that Ishmael might live before him."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_blesses_ishmael",
+   "interaction_label": "blesses",
+   "description": "God blesses Ishmael, promising fruitfulness, twelve princes and a great nation."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_blesses_sarah",
+   "interaction_label": "blesses",
+   "description": "God blesses Sarah and promises Abraham a son by her."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_commands_abraham_walk",
+   "interaction_label": "commands",
+   "description": "God tells Abram to walk before him and be blameless."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_commands_circumcision",
+   "interaction_label": "commands",
+   "description": "God commands Abraham and his line to circumcise every male as the covenant sign."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_covenant_with_isaac",
+   "interaction_label": "establishes his covenant with",
+   "description": "God declares that his everlasting covenant will be established with the unborn Isaac."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_promises_abraham_land",
+   "interaction_label": "promises the land to",
+   "description": "God promises Abraham and his offspring all the land of Canaan as an everlasting possession."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_renames_abraham",
+   "interaction_label": "renames",
+   "description": "God changes Abram's name to Abraham."
+  },
+  {
+   "edge_id": "edge.gen_17.yhwh_renames_sarah",
+   "interaction_label": "renames",
+   "description": "God tells Abraham that Sarai's name is now Sarah."
+  }
+ ]
+}

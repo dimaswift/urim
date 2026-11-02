@@ -1,0 +1,1454 @@
+{
+ "chapter_ref": "GEN.9",
+ "items": {
+  "causal:caus.gen_8.yhwh_resolves_no_more_curse.covenant_declared": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_9.covenant_declared.rainbow_sign": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_9.ham_sees_and_tells.noah_curses_canaan_blesses_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": "[consider] Consider an edge from evt.gen_9.shem_japheth_cover_noah to the curse-and-blessing event and keep this one at full confidence for the curse. (GEN.9.23-26: the brothers \"covered the nakedness of their father\", then \"Blessed be the LORD God of Shem\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_9.ham_sees_and_tells.shem_japheth_cover_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_9.noah_drunk.ham_sees_and_tells": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.canaan.curse.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.canaan.servitude.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Noah's curse is a pronouncement over Canaan, not Ham, as the text has it; 'to his brethren' / 'to them' is read as Shem and Japheth (v26-27). Whether it is a prediction or a decree is left open."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider folding the servitude into comp.canaan.curse.1 (e.g. label 'Cursed by Noah to servitude'). Or keep it, and make the label say 'to his brethren (Shem and Japheth, 9:26-27)'. (GEN.9.25: \"a servant of servants shall he be unto his brethren\"; GEN.9.26-27: \"Canaan shall be his servant\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.exposure.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.intoxication.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.occupation.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.rainbow_bow.placement.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.shem.god.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.yhwh.covenant_partner.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.god_blesses_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider adding BLESSES edges to Shem, Ham and Japheth, or mention the sons in this edge's description (already done). (GEN.9.1: \"And God blessed Noah and his sons\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.god_establishes_covenant_with_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.god_gives_sign_to_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.ham_sees_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.ham_tells_japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.ham_tells_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.japheth_covers_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.noah_blesses_japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.noah_blesses_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.noah_curses_canaan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_9.shem_covers_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.noahs_garment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "'The garment' (haśśimlah) is read as Noah's own cloak or a cloth taken from the tent; the text does not say whose. Id kept neutral about the owner."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider an owner-neutral id such as artifact.garment.gen_9, or correct the note. (GEN.9.23: \"took a garment\" (hassimlah, 'the garment', with no owner).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.rainbow_bow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "The Hebrew qeshet is the ordinary word for a bow (weapon); the rainbow reading is traditional. Made an artifact because the covenant sign turns on it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.noahs_tent": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Unnamed location, no coordinates and none invented. Used as the place of the drunkenness scenes (9:21-27); the tent's position is unknown."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.canaan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Registry id Canaan@Gen.9.18-1Ch is the son of Ham, a person; the land is already loc.canaan with a different TIPNR id. Kept apart. First mention is 9:18 (no event covers it); he is first acted on in 9:25."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider 'a servant of servants to his brethren', following the verse. (GEN.9.25: \"a servant of servants shall he be unto his brethren\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.wine": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.blessing_and_ordinances": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [
+    "9:1-7 treated as one speech; 9:1 and 9:7 repeat the command to be fruitful. The ordinances (food, blood, murder) could be a child event; not split because the text marks no gap."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": "[consider] Consider rewording the note to 'follows the offering scene', or check the GEN.8 resolve's timing so the scene stays on one day. (GEN.8.20-9.1: the offering, the LORD's resolve and \"And God blessed Noah\" follow without a time word.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.covenant_declared": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [
+    "9:8-17 is a single speech with three 'And God said' markers (9:8, 9:12, 9:17); I split it into the covenant (8-11) and the sign (12-17), with 9:17 closing the sign. Links from the 8:21 resolve are ENABLES with confidence 0.6 (inferred)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.ham_sees_and_tells": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": "[consider] Consider choosing the tier from the text's time words for these three scene events, and let the anchor carry the uncertainty of the scene's date. (GEN.9.24: \"And Noah awoke from his wine\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.noah_curses_canaan_blesses_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": "[consider] Consider a title such as 'Noah wakes, curses Canaan and blesses the God of Shem', matching the summary. (GEN.9.26: \"Blessed be the LORD God of Shem\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.noah_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [
+    "Noah dies 350 years after the flood began, i.e. about 58 years into Abram's life by the Gen 11 chain (Abram born 292 years after the flood). Gen 11 births are anchored from the flood in a later chapter; no conflict with the anchor."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.noah_drunk": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.noah_plants_vineyard": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:12+00:00",
+   "agent_notes": [
+    "Dating of the vineyard is an estimate (offset 10 years after the covenant, margin 10 years, widened at the reviewer's request); the text gives no date. The only fixed bounds are the exit from the ark and Canaan's birth (Ham's fourth son, born after the flood, 10:1, 10:6) before, and Noah's death 350 years after the flood after. The drunkenness (locked) follows by a further 3 years (first vintage), an approximation inside that window."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": "[should_fix] Make the margin match what the text allows: the episode can only be bounded as after the exit from the ark and Canaan's birth (Ham's fourth son, born after the flood, 10:1, 10:6) and before Noah's death 350 years after the flood. Widen the planting's margin to tens of years (for example offset 10 years, margin 10 years, or wider) and say in the note that the offset is an estimate, not a date the text gives. (GEN.9.20: \"And Noah began to be an husbandman, and he planted a vineyard\" (no time word); GEN.9.25: \"Cursed be Canaan\"; GEN.10.1: \"unto them were sons born after the flood\"; GEN.10.6: \"Cush, and Mizraim, and Phut, and Canaan\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:48:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.rainbow_sign": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [
+    "God's statements 'I will remember... the waters shall no more become a flood' (9:11, 9:15) are fulfilled by absence over time, not by a narrated event, so no FULFILLS_PROPHECY link. Noah's curse of Canaan (9:25) and blessing of Japheth (9:27) are prophetic; later chapters (Gen 10, Josh 9, etc.) may fulfil them, and that session writes the link."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_9.shem_japheth_cover_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.blessing_and_ordinances": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Place set to loc.ararat by carry-over from GEN.8 (Noah's whereabouts, comp.noah.whereabouts.2); GEN.9 does not restate it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.covenant_declared": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Place carried over from GEN.8 (Ararat); not restated in the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.ham_sees_and_tells": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.noah_curses_canaan_blesses_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.noah_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "No place given; left out."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.noah_drunk": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.noah_plants_vineyard": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "No place given and a decade or more has passed since the ark; left out rather than guessed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.rainbow_sign": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Place carried over from GEN.8 (Ararat); not restated in the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider the role MENTIONED for artifact.rainbow_bow. (GEN.9.14: \"when I bring a cloud over the earth, that the bow shall be seen in the cloud\" (future).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_9.shem_japheth_cover_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.blessing_of_shem_and_japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.blood_reckoning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.bow_in_cloud": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.curse_on_canaan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.fertility_blessing": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.garment_laid_over_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider recording Japheth in the instance as well (e.g. in the outcome or tags, if the schema has no co-initiator field). (GEN.9.23: \"And Shem and Japheth took a garment, and laid it upon both their shoulders\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.meat_ordinance": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_9.noahic_covenant": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:23+00:00",
+   "agent_notes": [
+    "Targets include group.animals_in_ark as the 'every living creature' of 9:10; the 'seed after you' (all later humanity) is not a separate entity."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[should_fix] Rewrite the significance_note so that it says this establishes the covenant first promised to Noah in 6:18 (inst.gen_6.covenant_promised), and drop 'the first covenant named in the Bible'. (GEN.6.18: \"But with thee will I establish my covenant\"; GEN.9.9: \"I establish my covenant with you\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:55:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.blood_reckoning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Defined new for 9:5-6: God requires the blood of a slain human from beast and human."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.covenant_sign": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Defined new for the bow as the sign; sys.covenant_promise (GEN.6) reused for the covenant itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.covering_nakedness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Defined new for Shem and Japheth's act in 9:23; the manner (walking backward) is an essential part of the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": "[consider] Consider dropping that rule, or marking it as this episode's outcome rather than a custom. (GEN.9.23-26: the covering, then \"Blessed be the LORD God of Shem\", with no stated reason.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.food_ordinance": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Defined new, covering the grant of animals as food and the blood prohibition (9:3-4)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.patriarchal_pronouncement": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:21+00:00",
+   "agent_notes": [
+    "Defined new: Noah's curse and blessing are not covered by sys.divine_curse (God cursing) or sys.priestly_blessing; a father's prophetic utterance over descendants, reusable for Isaac and Jacob later."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:54:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 9:18-19 (the sons of Noah named, Ham father of Canaan, the earth overspread from them) are left out of any event as framing/genealogical introduction to the vineyard story.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:45:45+00:00"
+  },
+  {
+   "note": "Verses 9:18-19 (the sons of Noah named, Ham father of Canaan, the earth overspread from them) are left out of any event as framing/genealogical introduction to the vineyard story.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_9.blessing_and_ordinances] 9:1-7 treated as one speech; 9:1 and 9:7 repeat the command to be fruitful. The ordinances (food, blood, murder) could be a child event; not split because the text marks no gap.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_9.rainbow_sign] God's statements 'I will remember... the waters shall no more become a flood' (9:11, 9:15) are fulfilled by absence over time, not by a narrated event, so no FULFILLS_PROPHECY link. Noah's curse of Canaan (9:25) and blessing of Japheth (9:27) are prophetic; later chapters (Gen 10, Josh 9, etc.) may fulfil them, and that session writes the link.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_9.noah_dies] Noah dies 350 years after the flood began, i.e. about 58 years into Abram's life by the Gen 11 chain (Abram born 292 years after the flood). Gen 11 births are anchored from the flood in a later chapter; no conflict with the anchor.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_9.covenant_declared] 9:8-17 is a single speech with three 'And God said' markers (9:8, 9:12, 9:17); I split it into the covenant (8-11) and the sign (12-17), with 9:17 closing the sign. Links from the 8:21 resolve are ENABLES with confidence 0.6 (inferred).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:12+00:00"
+  },
+  {
+   "note": "[entity:person.ham] 'His younger son' (9:24) is taken to be Ham, the father of Canaan, since 9:22 names him as the one who saw; Shem and Japheth acted rightly. The text does not name the offender in 9:24, and the exact nature of Ham's act (merely seeing, or something more) is debated; only what the text states is modelled.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:21+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Elohim in 9:1-17, 27 and YHWH in 9:26 are the same deity, per registry practice (the packet glosses both as deity.yhwh).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:21+00:00"
+  },
+  {
+   "note": "[entity:person.canaan] Registry id Canaan@Gen.9.18-1Ch is the son of Ham, a person; the land is already loc.canaan with a different TIPNR id. Kept apart. First mention is 9:18 (no event covers it); he is first acted on in 9:25.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[entity:person.ham] 'His younger son' (9:24) is taken to be Ham, the father of Canaan, since 9:22 names him as the one who saw; Shem and Japheth acted rightly. The text does not name the offender in 9:24, and the exact nature of Ham's act (merely seeing, or something more) is debated; only what the text states is modelled.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_9.blessing_and_ordinances] Place set to loc.ararat by carry-over from GEN.8 (Noah's whereabouts, comp.noah.whereabouts.2); GEN.9 does not restate it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_9.covenant_declared] Place carried over from GEN.8 (Ararat); not restated in the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_9.rainbow_sign] Place carried over from GEN.8 (Ararat); not restated in the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_9.noah_plants_vineyard] No place given and a decade or more has passed since the ark; left out rather than guessed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_9.noah_dies] No place given; left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[entity:loc.noahs_tent] Unnamed location, no coordinates and none invented. Used as the place of the drunkenness scenes (9:21-27); the tent's position is unknown.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[entity:artifact.rainbow_bow] The Hebrew qeshet is the ordinary word for a bow (weapon); the rainbow reading is traditional. Made an artifact because the covenant sign turns on it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[entity:artifact.noahs_garment] 'The garment' (haśśimlah) is read as Noah's own cloak or a cloth taken from the tent; the text does not say whose. Id kept neutral about the owner.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[instance:inst.gen_9.blessing_of_shem_and_japheth] Per reviewer request, comp.japheth.expansion.1 is removed: 9:27 is a jussive wish (yapht), not a state that holds in the narrative, and it is already carried by edge.gen_9.noah_blesses_japheth and this instance. The reviewer also asked for the wish's wording in this instance's outcome_summary, but the instance is approved and locked, so its text is left as it was; reopen it to add the wording. The subject of 'let him dwell' is ambiguous (God or Japheth).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[component:comp.canaan.servitude.1] Noah's curse is a pronouncement over Canaan, not Ham, as the text has it; 'to his brethren' / 'to them' is read as Shem and Japheth (v26-27). Whether it is a prediction or a decree is left open.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[system:sys.patriarchal_pronouncement] Defined new: Noah's curse and blessing are not covered by sys.divine_curse (God cursing) or sys.priestly_blessing; a father's prophetic utterance over descendants, reusable for Isaac and Jacob later.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[system:sys.covenant_sign] Defined new for the bow as the sign; sys.covenant_promise (GEN.6) reused for the covenant itself.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[system:sys.food_ordinance] Defined new, covering the grant of animals as food and the blood prohibition (9:3-4).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[system:sys.blood_reckoning] Defined new for 9:5-6: God requires the blood of a slain human from beast and human.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[system:sys.covering_nakedness] Defined new for Shem and Japheth's act in 9:23; the manner (walking backward) is an essential part of the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Elohim in 9:1-17, 27 and YHWH in 9:26 are the same deity, per registry practice (the packet glosses both as deity.yhwh).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:23+00:00"
+  }
+ ]
+}

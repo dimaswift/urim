@@ -1,0 +1,879 @@
+{
+ "chapter_ref": "GEN.42",
+ "entities": [
+  {
+   "entity_id": "artifact.returned_silver",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כֶּסֶף",
+   "transliterated_name": "kesef",
+   "first_mention_verse": "GEN.42.25"
+  },
+  {
+   "entity_id": "person.benjamin",
+   "tipnr_id": "Benjamin@Gen.35.18-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "בִּנְיָמִין",
+   "transliterated_name": "Binyamin",
+   "first_mention_verse": "GEN.42.4"
+  },
+  {
+   "entity_id": "person.interpreter_of_joseph",
+   "entity_type": "PERSON",
+   "source_script_name": "הַמֵּלִיץ",
+   "transliterated_name": "ham-melits",
+   "first_mention_verse": "GEN.42.23"
+  },
+  {
+   "entity_id": "person.simeon",
+   "tipnr_id": "Simeon@Gen.29.33-Rev",
+   "entity_type": "PERSON",
+   "source_script_name": "שִׁמְעוֹן",
+   "transliterated_name": "Shim'on",
+   "first_mention_verse": "GEN.42.24"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.espionage_accusation",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.famine_grain_sale",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.hostage_surety",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.obeisance",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_42.jacob_urges_descent",
+   "verse_start": "GEN.42.1",
+   "verse_end": "GEN.42.2",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_41.joseph_sells_grain",
+    "anchor_point": "START",
+    "offset": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.brothers_go_down",
+   "verse_start": "GEN.42.3",
+   "verse_end": "GEN.42.5",
+   "time": {
+    "anchor": "evt.gen_42.jacob_urges_descent",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.brothers_bow_to_joseph",
+   "verse_start": "GEN.42.6",
+   "verse_end": "GEN.42.8",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.brothers_go_down",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.spy_accusation",
+   "verse_start": "GEN.42.9",
+   "verse_end": "GEN.42.16",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.brothers_bow_to_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.interpreter_of_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.three_days_in_ward",
+   "verse_start": "GEN.42.17",
+   "verse_end": "GEN.42.17",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.spy_accusation",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.joseph_offers_terms",
+   "verse_start": "GEN.42.18",
+   "verse_end": "GEN.42.20",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.three_days_in_ward",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.brothers_confess_guilt",
+   "verse_start": "GEN.42.21",
+   "verse_end": "GEN.42.23",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.joseph_offers_terms",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.interpreter_of_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.simeon_bound",
+   "verse_start": "GEN.42.24",
+   "verse_end": "GEN.42.24",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.brothers_confess_guilt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.sacks_filled_and_departure",
+   "verse_start": "GEN.42.25",
+   "verse_end": "GEN.42.26",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_42.simeon_bound",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.money_found_at_lodging",
+   "verse_start": "GEN.42.27",
+   "verse_end": "GEN.42.28",
+   "time": {
+    "anchor": "evt.gen_42.sacks_filled_and_departure",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.report_to_jacob",
+   "verse_start": "GEN.42.29",
+   "verse_end": "GEN.42.34",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_42.sacks_filled_and_departure",
+    "anchor_point": "END",
+    "offset": {
+     "value": 15.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.sacks_emptied_bundles_found",
+   "verse_start": "GEN.42.35",
+   "verse_end": "GEN.42.35",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_42.report_to_jacob",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_42.jacob_refuses_benjamin",
+   "verse_start": "GEN.42.36",
+   "verse_end": "GEN.42.38",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_42.sacks_emptied_bundles_found",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.sheol",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "MENTIONED"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_37.sheaf_dream.brothers_bow_to_joseph",
+   "cause_event_id": "evt.gen_37.sheaf_dream",
+   "effect_event_id": "evt.gen_42.brothers_bow_to_joseph",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_41.joseph_sells_grain.jacob_urges_descent",
+   "cause_event_id": "evt.gen_41.joseph_sells_grain",
+   "effect_event_id": "evt.gen_42.jacob_urges_descent",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_42.brothers_bow_to_joseph.spy_accusation",
+   "cause_event_id": "evt.gen_42.brothers_bow_to_joseph",
+   "effect_event_id": "evt.gen_42.spy_accusation",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_42.jacob_urges_descent.brothers_go_down",
+   "cause_event_id": "evt.gen_42.jacob_urges_descent",
+   "effect_event_id": "evt.gen_42.brothers_go_down",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_42.joseph_offers_terms.simeon_bound",
+   "cause_event_id": "evt.gen_42.joseph_offers_terms",
+   "effect_event_id": "evt.gen_42.simeon_bound",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_42.report_to_jacob.jacob_refuses_benjamin",
+   "cause_event_id": "evt.gen_42.report_to_jacob",
+   "effect_event_id": "evt.gen_42.jacob_refuses_benjamin",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_42.sacks_filled_and_departure.money_found_at_lodging",
+   "cause_event_id": "evt.gen_42.sacks_filled_and_departure",
+   "effect_event_id": "evt.gen_42.money_found_at_lodging",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_42.sacks_filled_and_departure.sacks_emptied_bundles_found",
+   "cause_event_id": "evt.gen_42.sacks_filled_and_departure",
+   "effect_event_id": "evt.gen_42.sacks_emptied_bundles_found",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_42.spy_accusation.three_days_in_ward",
+   "cause_event_id": "evt.gen_42.spy_accusation",
+   "effect_event_id": "evt.gen_42.three_days_in_ward",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.benjamin.dwelling.1",
+   "entity_id": "person.benjamin",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.42.4",
+   "acquired_in_event": "evt.gen_42.brothers_go_down"
+  },
+  {
+   "component_id": "comp.israel.protectiveness.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "protectiveness",
+   "value_code": "FEARS_FOR_BENJAMIN",
+   "target_entity_id": "person.benjamin",
+   "acquired_at_verse": "GEN.42.4",
+   "acquired_in_event": "evt.gen_42.brothers_go_down"
+  },
+  {
+   "component_id": "comp.joseph.identity.1",
+   "entity_id": "person.joseph",
+   "category": "TRAIT",
+   "component_key": "identity",
+   "value_code": "UNRECOGNIZED_BY_BROTHERS",
+   "acquired_at_verse": "GEN.42.7",
+   "acquired_in_event": "evt.gen_42.brothers_bow_to_joseph"
+  },
+  {
+   "component_id": "comp.joseph_brothers.conscience.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "conscience",
+   "value_code": "GUILTY_OVER_JOSEPH",
+   "acquired_at_verse": "GEN.42.21",
+   "acquired_in_event": "evt.gen_42.brothers_confess_guilt"
+  },
+  {
+   "component_id": "comp.joseph_brothers.custody.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "LOCATION_STATE",
+   "component_key": "custody",
+   "value_code": "IN_WARD",
+   "acquired_at_verse": "GEN.42.17",
+   "acquired_in_event": "evt.gen_42.three_days_in_ward",
+   "expired_at_verse": "GEN.42.18",
+   "expired_in_event": "evt.gen_42.joseph_offers_terms"
+  },
+  {
+   "component_id": "comp.returned_silver.holder.1",
+   "entity_id": "artifact.returned_silver",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "group.joseph_brothers",
+   "acquired_at_verse": "GEN.42.25",
+   "acquired_in_event": "evt.gen_42.sacks_filled_and_departure"
+  },
+  {
+   "component_id": "comp.simeon.custody.1",
+   "entity_id": "person.simeon",
+   "category": "LOCATION_STATE",
+   "component_key": "custody",
+   "value_code": "BOUND_HOSTAGE",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.42.24",
+   "acquired_in_event": "evt.gen_42.simeon_bound"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_42.brothers_bow",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_42.brothers_bow_to_joseph",
+   "verse_start": "GEN.42.6",
+   "verse_end": "GEN.42.6",
+   "initiator_entity_id": "group.joseph_brothers",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "sheaf_dream",
+    "prostration"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_42.grain_sold",
+   "system_id": "sys.famine_grain_sale",
+   "event_id": "evt.gen_42.sacks_filled_and_departure",
+   "verse_start": "GEN.42.25",
+   "verse_end": "GEN.42.26",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [
+    "artifact.returned_silver"
+   ],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "silver_returned",
+    "provisions"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_42.oath_by_pharaoh",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_42.spy_accusation",
+   "verse_start": "GEN.42.15",
+   "verse_end": "GEN.42.16",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "life_of_pharaoh"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_42.simeon_held_hostage",
+   "system_id": "sys.hostage_surety",
+   "event_id": "evt.gen_42.simeon_bound",
+   "verse_start": "GEN.42.24",
+   "verse_end": "GEN.42.24",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.simeon"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "surety_for_benjamin"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_42.spies_accused",
+   "system_id": "sys.espionage_accusation",
+   "event_id": "evt.gen_42.spy_accusation",
+   "verse_start": "GEN.42.9",
+   "verse_end": "GEN.42.16",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "pretext",
+    "test"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_42.ward_three_days",
+   "system_id": "sys.imprisonment",
+   "event_id": "evt.gen_42.three_days_in_ward",
+   "verse_start": "GEN.42.17",
+   "verse_end": "GEN.42.17",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "custody",
+    "three_days"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_42.brothers_report_to_jacob",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.israel",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.42.29",
+   "event_id": "evt.gen_42.report_to_jacob"
+  },
+  {
+   "edge_id": "edge.gen_42.jacob_blames_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.42.36",
+   "event_id": "evt.gen_42.jacob_refuses_benjamin"
+  },
+  {
+   "edge_id": "edge.gen_42.jacob_refuses_reuben",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.reuben",
+   "interaction_type": "REFUSES",
+   "verse_id": "GEN.42.38",
+   "event_id": "evt.gen_42.jacob_refuses_benjamin"
+  },
+  {
+   "edge_id": "edge.gen_42.jacob_sends_sons_to_egypt",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.42.2",
+   "event_id": "evt.gen_42.jacob_urges_descent"
+  },
+  {
+   "edge_id": "edge.gen_42.joseph_accuses_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.42.9",
+   "event_id": "evt.gen_42.spy_accusation"
+  },
+  {
+   "edge_id": "edge.gen_42.joseph_binds_simeon",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.simeon",
+   "interaction_type": "BINDS",
+   "verse_id": "GEN.42.24",
+   "event_id": "evt.gen_42.simeon_bound"
+  },
+  {
+   "edge_id": "edge.gen_42.joseph_demands_benjamin",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "DEMANDS",
+   "verse_id": "GEN.42.15",
+   "event_id": "evt.gen_42.spy_accusation"
+  },
+  {
+   "edge_id": "edge.gen_42.joseph_imprisons_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "IMPRISONS",
+   "verse_id": "GEN.42.17",
+   "event_id": "evt.gen_42.three_days_in_ward"
+  },
+  {
+   "edge_id": "edge.gen_42.joseph_provisions_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.42.25",
+   "event_id": "evt.gen_42.sacks_filled_and_departure"
+  },
+  {
+   "edge_id": "edge.gen_42.reuben_pledges_sons",
+   "source_entity_id": "person.reuben",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PLEDGES_TO",
+   "verse_id": "GEN.42.37",
+   "event_id": "evt.gen_42.jacob_refuses_benjamin"
+  },
+  {
+   "edge_id": "edge.gen_42.reuben_rebukes_brothers",
+   "source_entity_id": "person.reuben",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.42.22",
+   "event_id": "evt.gen_42.brothers_confess_guilt"
+  }
+ ]
+}

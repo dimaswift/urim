@@ -1,0 +1,1764 @@
+{
+ "chapter_ref": "GEN.6",
+ "items": {
+  "causal:caus.gen_6.earth_corrupt.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_6.god_commands_ark.noah_builds_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_6.yhwh_regrets_making_man.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[consider] Consider ENABLES for this link, or keep TRIGGERS and say in the explanation why a 42-year-old resolve counts as the immediate cause. (GEN.6.13: \"for the earth is filled with violence through them\"; timeline: 'TRIGGERS: 42 y after the cause'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.humankind.lifespan_limit.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:15+00:00",
+   "agent_notes": [
+    "Revised per reviewer request: neutral value DAYS_SET_AT_120_YEARS, key allotted_days. The id keeps its old slot name to stay stable; the key is the new one. 6:3 is left open between lifespan and pre-Flood term."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[should_fix] Replace value_code LIMITED_TO_120_YEARS with a neutral value that follows the words of the verse (e.g. key 'allotted_days', value DAYS_SET_AT_120_YEARS). Set label_value to 'Days set at 120 years', and say in evidence_explanation that 6:3 is read either as a lifespan or as a 120-year term before the Flood (Onkelos). Alternatively, model it as the term before the Flood, which the chronology adopts. (GEN.6.3: \"his days shall be an hundred and twenty years\"; Onkelos: \"a respite was given them, 120 years, if they repent\"; GEN.9.29: \"all the days of Noah were nine hundred and fifty years\"; GEN.11.11: Shem lived 500 years after begetting Arpachshad.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:38:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.humankind.moral_state.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.character.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "From 6:9 (righteous, blameless). Placed in the event for 6:9–10; the verse is the toledot formula opening of Noah's account."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.noah.favour_with.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Read from 6:8 (found favour in the LORD's eyes). Opens in the regret event, which covers 6:5–8."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Consider a category that describes standing or status rather than allegiance, or keep only the edge. (GEN.6.8: \"Noah found grace in the eyes of the Lord\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.yhwh.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.god_commands_noah_build": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.god_promises_covenant_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.noah_fathers_ham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.noah_fathers_japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.noah_fathers_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.noah_obeys_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.sons_of_god_father_gibborim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Inferred from the syntax of 6:4 ('they bore children to them, they were the mighty men'); the identity of the heroes with the offspring is the common but not the only reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.sons_of_god_take_daughters": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.yhwh_favours_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.yhwh_limits_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_6.yhwh_resolves_to_destroy": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Consider a type such as RESOLVES_TO_DESTROY, or drop the edge in favour of the instance. (GEN.6.7: \"And the Lord said, I will destroy man whom I have created\" (no addressee).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.ark_of_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Defined because the plot turns on it. No coordinates or location; no place is stated for any event of the chapter, so event_locations are left empty."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.daughters_of_men": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.gibborim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Kept separate from group.nephilim: the text of 6:4 may identify the Nephilim with the heroes or distinguish them, and the second clause ties the heroes to the union of sons of God with daughters of men. TIPNR only registers the Nephilim."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.nephilim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.sons_of_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "בְּנֵי הָאֱלֹהִים is ambiguous (divine beings, sons of Seth, or royal figures). Modelled as a GROUP of unspecified beings, not as deity.yhwh (the word-gloss tag {deity.yhwh} on הָאֱלֹהִים in 6:2 and 6:4 was not followed: the phrase is a collective title, not the LORD). The interpretation is left open in the bio."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.wives_of_noahs_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "TIPNR spelling Japheth; the Hebrew text of 6:10 reads יָפֶת."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Write the root once (pātâ, 'to be wide, enlarge'), or give the second form you meant. (GEN.6.10: \"Shem, Ham, and Japheth\" (יָפֶת).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "The registry mentions Noah, Shem, Ham and Japheth already in GEN.5.29–32, but GEN.5 is not in the corpus, so they are defined here at their first mention within a modelled chapter; the linker's first-mention warnings are expected."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.noahs_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Unnamed wife of Noah, mentioned in 6:18. Modelled as an unnamed person; the sons' wives as one group."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.earth_corrupt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "6:11–12 describe a state rather than a moment. Placed ten years after the sons' birth (so that 'your sons' of 6:18 exist) and lasting ten years until the command. The text gives no date; MACRO_ERA."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[consider] Consider modelling 6:11–12 as God's look at the earth just before the command (short duration, the same position as the command). Or say in the note that the start and length of the state are placeholders. (GEN.6.12: \"And God looked upon the earth, and, behold, it was corrupt\"; GEN.6.5: \"the wickedness of man was great in the earth\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "The command presupposes sons and their wives (6:18), so it must fall after the sons' birth (Noah ~500) and well before the Flood (Noah 600). I place it about 20 years after the sons' birth (Noah ~520), margin 15 years. The rabbinic tradition (Sforno on 6:13, Sanh. 108b) has Noah warning for 120 years while building, which would put the command at Noah 480, before the sons' birth, and conflicts with 6:18; I do not adopt it for the command but keep the 120-year term for the decree."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.lifespan_decree": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "Date derived: the Flood is at Noah 600 (creation + 1655 y), so a 120-year term announced here begins at creation + 1535 y (Noah 480), twenty years before the sons are born. This follows Targum Onkelos / Pseudo-Jonathan and Sforno (the 120 years are a grace period for repentance, Sanh. 108b), against the reading 'man's lifespan will be 120 years'. Under the lifespan reading the dating would be unconstrained (MACRO_ERA). Tier is MACRO_ERA because the text gives a term, not a date; the position is inferred."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[consider] Consider a title that keeps the ambiguity or matches the dating (e.g. 'The LORD sets humankind's days at 120 years'). Say in the note that the margin covers only the Masoretic count, not the choice of interpretation. (GEN.6.3: \"yet his days shall be an hundred and twenty years\"; Onkelos: \"a respite was given them, 120 years, if they repent\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.nephilim_heroes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "6:4 'in those days and also after that' is a state spanning several generations. Anchored shortly after the marriages (MACRO_ERA). Ibn Ezra and Ramban's report of Rabbi Abraham read 'afterwards' as after the Flood; I follow Rashi/Ramban (the days of Enosh's generation, before the Flood) because the narrative frame of 6:1–5 is antediluvian."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[consider] Consider saying explicitly that only the antediluvian frame is taken from Rashi/Ramban and that the placement does not follow their Enosh dating. (Rashi on GEN.6.4: \"in those days: in the days of the generation of Enosh and the sons of Cain\"; GEN.5.11: \"all the days of Enosh were nine hundred and five years\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.noah_builds_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:01+00:00",
+   "agent_notes": [
+    "The text states no duration. 73 years (the command ends at creation + 1577 y, so this ends at creation + 1650 y, five years before the Flood) is an estimate between the command (Noah ~520) and the entry into the ark in Gen 7; a later chapter's session may re-anchor the loading on this event's END. 6:22 compresses the whole construction and preparation (including gathering food, 6:21) into one verse."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[should_fix] Make the note and the numbers agree: either shorten the duration to 73 years so that it ends at creation + 1650 y, five years before the Flood, or keep 75 years and say it ends three years before the Flood (creation + 1652 y). Also drop or fix the dangling 'see reviewer note'. (GEN.7.6: \"Noah was six hundred years old when the flood of waters was upon the earth\" (anchor.flood = creation + 1655 y); timeline: evt.gen_6.noah_builds_ark ends 2461 BCE-01-01.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.noah_sons_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "Gen 5:32 says 'five hundred years old' for the first of the three; Gen 11:10 (Shem 100 two years after the Flood, i.e. born when Noah was 502) shows Shem was not the eldest-born at 500 (Japheth, or the verse names the three together from the age of 500). I use 500 with a margin of 3 years; the Gen 5 session may refine."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.sons_of_god_take_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:32+00:00",
+   "agent_notes": [
+    "Entirely undated: 'when mankind began to multiply'. Placed about 1450 y after creation with a ±300-year margin, before the decree so no causal order is violated. Who the 'sons of God' are (Sethites, angels, rulers: Onkelos 'sons of the great', Ps-Jonathan Shamhazai and Uzziel, Ramban) is for the ontologist, not the chronology."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_6.yhwh_regrets_making_man": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:32:21+00:00",
+     "note": "[should_fix] Remove ancient_diurnal_marker from this event, because the text gives no time of day for it. While you are there, fix 'a inner act' to 'an inner act' in the note. (GEN.6.5: \"every imagination of the thoughts of his heart was only evil continually [kol-hayyom]\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.earth_corrupt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Consider adding group.humankind as MENTIONED. (GEN.6.13: \"The end of all flesh is come before me ... I will destroy them with the earth\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.lifespan_decree": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.nephilim_heroes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.noah_builds_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "The text of 6:22 says only that Noah did all God commanded, so the ark appears as PATIENT of the event, not as a finished object."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.noah_sons_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Consider MENTIONED for deity.yhwh in this event. (GEN.6.9: \"Noah walked with God\"; GEN.6.10: \"And Noah begat three sons\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.sons_of_god_take_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "No place stated; no event of this chapter has a location."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_6.yhwh_regrets_making_man": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:15+00:00",
+   "agent_notes": [
+    "group.humankind changed from AGENT to PATIENT per reviewer request (6:6-7: the LORD regrets having made man and resolves to wipe him out). Noah stays PATIENT as the one who finds favour (6:8)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[should_fix] Change the role of group.humankind in evt.gen_6.yhwh_regrets_making_man from AGENT to PATIENT. (GEN.6.6: \"it repented the Lord that he had made man on the earth\"; GEN.6.7: \"I will destroy man whom I have created\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:38:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_6.ark_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_6.covenant_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_6.flood_announced_to_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_6.flood_resolved": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_6.lifespan_decreed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": "[consider] Consider 'sets their days at 120 years' so that both readings stay open, and keep it in line with the revised component. (GEN.6.3: \"yet his days shall be an hundred and twenty years\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.covenant_promise": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Defined for the covenant promised in 6:18, which is only announced here and established later (Gen 9)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_command": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Defined, not reused: sys.divine_word_to_prophet concerns sending a prophet, not a direct command to an individual."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_decree": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Defined for the pronouncement of 6:3."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_flood_judgment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:52+00:00",
+   "agent_notes": [
+    "Defined for the announced flood (6:7, 6:13, 6:17); the flood itself falls in later chapters."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [
+    "The Hebrew uses the 'et' object marker three times in the list, glossed [obj] each time. The sons are listed in the order Shem, Ham, Japheth, which Ramban argues is by rank not birth; cited."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:44+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: the root shachat returns twice in verse 12 (nishchatah, hishchit) and again in verse 13 (mashchitam); what repeats in verse 11 is the noun 'the earth', not a verb. In the packet 'ha-elohim' is tagged deity.yhwh by the entity linker; the glosses stay neutral ('God'), and the ontologist owns that tagging."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[should_fix] Change 'will return in verse 12 three times and in verse 13' to 'returns twice in verse 12 (nishchatah, hishchit) and again in verse 13 (mashchitam)', and change 'The verb repeats twice' to 'The noun repeats: the earth... the earth'. (GEN.6.12: \"וְהִנֵּה נִשְׁחָתָה כִּי־הִשְׁחִית כָּל־בָּשָׂר\" (two forms); GEN.6.11: \"וַתִּשָּׁחֵת הָאָרֶץ ... וַתִּמָּלֵא הָאָרֶץ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [
+    "'Darko' (his/its way) is singular though 'kol basar' is collective; KJV 'his way' kept in the literal layer as 'its way'. Rashi and Ramban's reading that animals too corrupted their way is cited as one view; Ramban prefers 'all flesh' = humankind."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "'et ha'aretz after mashchitam: the five English versions split between 'with the earth' (KJV, YLT, ASV, Webster) and 'together with'/'and the earth' (BBE drops the object). I kept the literal 'the earth' in Layer 1 with the marker bracketed, and the dramatic layer follows 'with the earth' (Rashi's second reading, Radak; STEPBible also glosses 'with'). Rashi/Ibn Ezra/Radak also offer 'from the earth' and 'and the earth'; the text is genuinely ambiguous.",
+    "STEPBible glosses אֶת (pos 16) 'with'. I glossed it [obj] as the skill directs, and noted the alternative in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[consider] Consider dropping the added narration from the dramatic layer and citing Genesis Rabbah for Radak. (GEN.6.13: \"וַיֹּאמֶר אֱלֹהִים לְנֹחַ\"; packet Radak 6:13: \"וְאָמְרוּ רַבּוֹתֵינוּ ... (בראשית רבה לא)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "gopher is a hapax legomenon; I did not identify the tree. Onkelos (kadrom) and Radak's 'a light wood, a kind of cedar' are cited only as in the packet. Whether 'qinnim' means 'nests' or 'compartments/cells' is a judgment: Layer 1 keeps 'nests'.",
+    "The cubit conversion in v15 and the claims about Babylonian parallels (Atrahasis, Gilgamesh XI) are my own reading of the ancient Near Eastern background, not from the packet commentaries; left unsourced."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[consider] Consider softening the atonement remark to 'a Hebrew reader may hear', and marking it as your own observation rather than something Rashi and Radak say. (Packet GEN.6.14, Rashi: \"בכפר. זֶפֶת בְלָשׁוֹן אֲרַמִּי\"; Radak: \"מֵעִנְיַן כֹּפֶר, וְהוּא הַזֶּפֶת\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:05:38+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary no longer says '1:6:10'. It gives the dimensions as 300 x 50 x 30 cubits, the ratio 30:5:3, and the proportions in words (breadth a sixth of the length, height a tenth), following Radak and Ibn Ezra.",
+    "The cubit converts to about 45 cm (a common cubit of roughly 17.5 in; royal cubits ran longer), so the modern figures are approximate: about 135 m x 22.5 m x 13.5 m. The Hebrew gives no unit beyond 'ammah', and the length of the cubit is my own estimate, not stated in the text or the packet's sources.",
+    "Corrected STEPBible '[is] how' for אֲשֶׁר to 'which'; the clause is 'this [is that] which you shall make'. The five English versions agree on the numbers and differ only in word order and in 'fashion' / 'way' for the opening clause.",
+    "Genesis Rabbah (parashah 31) is mentioned only as Radak quotes it; I have not checked it independently."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[should_fix] Replace 'the 1:6:10 proportions' with 'the proportions (breadth a sixth of the length, height a tenth)', or with the ratio 30:5:3. (GEN.6.15: \"שְׁלֹשׁ מֵאוֹת אַמָּה ... חֲמִשִּׁים אַמָּה ... וּשְׁלֹשִׁים אַמָּה\"; Radak: \"הָרֹחַב שִׁשִּׁית הָאֹרֶךְ וְהַקּוֹמָה עֲשִׂירִית הָאֹרֶךְ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:07:34+00:00",
+     "note": "[consider] Consider 'And thirty cubits high, its height' in the dramatic layer, and drop or mark as your own the sentence about no ancient family thinking of it. (GEN.6.15: \"וּשְׁלֹשִׁים אַמָּה קוֹמָתָהּ\" (\"and thirty cubits its height\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "tzohar occurs only here. STEPBible glosses it 'a roof'; KJV/ASV/BBE say 'window'/'light'. Rashi and Radak record both the 'window' and the 'shining gem' readings (compare 8:6, challon). I left the word transliterated in Layer 1 rather than choose, and glossed it 'a tzohar (light-opening)'. 've'el-ammah tekhalennah' is also obscure: five versions give three different readings (finish within a cubit of the top / narrow it to a cubit / a cubit from the roof).",
+    "Ibn Ezra and Radak discuss the unusual spelling tachtiyim/sheniyim/shelishim; I mention it in the notes only briefly. Targum Pseudo-Jonathan's addition of a gem from Pishon is not used."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "'mabbul mayim' - Radak reads 'a flood, a flood of waters'. Layer 1 gives 'the flood, water' keeping the appositional structure; KJV 'a flood of waters' is smoother. I consider this a reasonable choice and flag it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "Rashi's 'even demons' (ומכל החי: אפילו שדים) and the Ramban discussion of a miracle in the ark's capacity are mentioned only in passing; I did not rely on them for any claim in the layers."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:44+00:00",
+   "agent_notes": [
+    "Revised per the reviewer. The angelic reading is now cited to Targum Pseudo-Jonathan on 6:4 (Shamhazai and Uzziel, 'fallen from heaven'); TPJ on 6:2 reads 'sons of the great' (bene rabrevaya), like Onkelos. The Sethite reading is presented as one Ibn Ezra reports ('some say'), and his own preference is given: those who knew the Most High. Rashi's second reading (princes, or those who go on the Place's errand) is added. 'Sons of God' stays literal in the translation layers. The Job 1:6 divine-council remark is my own context, not a source claim."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[should_fix] In the commentary and the bene ha'elohim note, cite the angelic reading to Targum Pseudo-Jonathan on 6:4, not 6:2, and say that TPJ on 6:2 has 'sons of the great'. Present the Sethite reading as one Ibn Ezra reports ('some say'), with his own preference: those who knew the higher knowledge. Add Rashi's second reading, the princes or angels sent on God's errand. Update the note's sources to match. (Packet GEN.6.2, Targum Pseudo-Jonathan: \"וְחָמוֹן בְּנֵי רַבְרְבַיָא\"; GEN.6.4 TPJ: \"שַׁמְחַזָאֵי וְעוּזִיאֵל הִינוּן נְפִילִין מִן שְׁמַיָא\"; Ibn Ezra 6:2: \"וי\"א כי בני האלהים בני שת ... והישר בעיני להיות בני האלהים היודעים דעת עליון\"; Rashi 6:2: \"דָּבָר אַחֵר ... הֵם הַשָּׂרִים הַהוֹלְכִים בִּשְׁלִיחוּתוֹ שֶׁל מָקוֹם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [
+    "Ibn Ezra and Ramban connect 'two of each' to the later 7:2-3 instruction for seven pairs of clean animals; I note that harmonization in the commentary because it is the main place where KJV-era readers smooth the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [
+    "Yadon is a crux. STEPBible glosses 'will remain' (from a root otherwise unattested); I kept 'contend/abide' open in the gloss and translated 'shall not abide' in the dramatic layer, with 'contend' noted. Ancient versions and commentators differ: Rashi/Radak 'strive', Ibn Ezra 'sheath' (nadan), Targums 'be established'. The 120 years is read as a grace period (Targums, Rashi, Radak, Sforno) rather than a new human lifespan; Ibn Ezra rejects the lifespan reading as contradicted by later lifespans. The prefix-form 'beshagam' is glossed 'in that also' following Rashi/Radak (be-she-gam)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:44+00:00",
+   "agent_notes": [
+    "Revised per the reviewer. The verse states no size; Rashi, Ibn Ezra and Radak all understand the Nephilim as giants, so KJV 'giants' follows an old reading and is not an addition. I dropped the Septuagint remark, which I did not check against a source. The link to Numbers 13:33 is my own observation. 'Nephilim' stays untranslated in the dramatic layer, and 'fallen ones' is kept as the etymology. 'Also after that' is disputed (Rashi: after Enosh's generation was drowned; Ibn Ezra: after the flood); I kept it neutral."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[should_fix] Say that the verse itself states no size, but that Rashi, Ibn Ezra and Radak all understand the Nephilim as giants, so KJV 'giants' follows an old reading and is not an addition. Keep 'fallen ones' as the etymology. Either mark the Septuagint 'gigantes' remark as your own observation or drop it, and revise the han-nefilim note the same way. (Packet GEN.6.4, Rashi: \"וּבְלָשׁוֹן עִבְרִית לְשׁוֹן עֲנָקִים הוּא\"; Ibn Ezra: \"שיפול לב הרואה אותם, שיתמה מגובה קומתם\"; Radak: \"הַנְּפִלִים הֵם הָעֲנָקִים ... גְּבוֹהִים מְאֹד\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [
+    "Vayinnachem: STEPBible gives 'regretted'. I used 'was sorry / relented' range in the commentary and kept 'regretted' in the literal layer, with the same root rendered 'regret' in v.7 so the repetition (niham ... nihamti) stays visible. Medieval commentators (Rashi, Ibn Ezra, Radak, Ramban) all say Torah speaks in human language; I cite that rather than assert a theology."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": "[consider] Say that Radak leaves it open, while Ibn Ezra prefers that God speaks to himself, continuing 'to his heart' of 6:6. (Packet GEN.6.7, Ibn Ezra: \"אל לבו או אמירה למלאכים, וי\"א לנח והנכון בעיני שהוא דבוק עם לבו הכתוב למעלה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.6.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:15+00:00",
+   "agent_notes": [
+    "Hitallekh with 'et ha-elohim' (rather than 'lifnei' as for Abraham) is noted by Rashi as a weaker walking; cited as Rashi's view only. 'Perfect' of KJV changed to 'blameless/whole' in the glosses. 'In his generations' is the famous crux (praise vs. relative praise, Rashi on 6:9); I kept the plural."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:04:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Coverage: every verse 6:1–22 belongs to an event (6:9 'these are the generations of Noah' is folded into the sons event). Nothing is left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:32+00:00"
+  },
+  {
+   "note": "Chronology of the chapter is reconstructed from Gen 5:32 (Noah 500 when he fathered Shem, Ham and Japheth), 7:6 (Noah 600 at the Flood) and the 120 years of 6:3. On the Masoretic count Noah was born AM 1056, so the sons' birth is AM 1555 (anchor.creation + 1555 y) and the Flood AM 1656, which matches anchor.flood = creation + 1655 y. All events here are anchored on anchor.creation or on each other because no earlier event exists in the corpus and offsets cannot be negative (anchor.flood cannot be used for dates before the Flood).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:32+00:00"
+  },
+  {
+   "note": "Divine words in the chapter and their fulfilment: 6:3 (120 years) and 6:7, 6:13, 6:17 (the Flood) and 6:18 (the covenant, and Noah's entering the ark) are fulfilled in Gen 7–9; the sessions for those chapters write the FULFILLS_PROPHECY links. Within this chapter, only the command of 6:14–21 is carried out (6:22), linked below. 6:9's characterisation of Noah as righteous is not an event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:32+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_6.sons_of_god_take_wives.lifespan_decree] Considered and dropped: 6:3 follows the marriages in the narrative, but the stated reason is 'because he is flesh', not the marriages. No link written.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:32+00:00"
+  },
+  {
+   "note": "Coverage: every verse 6:1–22 belongs to an event (6:9 'these are the generations of Noah' is folded into the sons event). Nothing is left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "Chronology of the chapter is reconstructed from Gen 5:32 (Noah 500 when he fathered Shem, Ham and Japheth), 7:6 (Noah 600 at the Flood) and the 120 years of 6:3. On the Masoretic count Noah was born AM 1056, so the sons' birth is AM 1555 (anchor.creation + 1555 y) and the Flood AM 1656, which matches anchor.flood = creation + 1655 y. All events here are anchored on anchor.creation or on each other because no earlier event exists in the corpus and offsets cannot be negative (anchor.flood cannot be used for dates before the Flood).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "Divine words in the chapter and their fulfilment: 6:3 (120 years) and 6:7, 6:13, 6:17 (the Flood) and 6:18 (the covenant, and Noah's entering the ark) are fulfilled in Gen 7–9; the sessions for those chapters write the FULFILLS_PROPHECY links. Within this chapter, only the command of 6:14–21 is carried out (6:22), linked below. 6:9's characterisation of Noah as righteous is not an event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.noah_sons_born] Gen 5:32 says 'five hundred years old' for the first of the three; Gen 11:10 (Shem 100 two years after the Flood, i.e. born when Noah was 502) shows Shem was not the eldest-born at 500 (Japheth, or the verse names the three together from the age of 500). I use 500 with a margin of 3 years; the Gen 5 session may refine.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.lifespan_decree] Date derived: the Flood is at Noah 600 (creation + 1655 y), so a 120-year term announced here begins at creation + 1535 y (Noah 480), twenty years before the sons are born. This follows Targum Onkelos / Pseudo-Jonathan and Sforno (the 120 years are a grace period for repentance, Sanh. 108b), against the reading 'man's lifespan will be 120 years'. Under the lifespan reading the dating would be unconstrained (MACRO_ERA). Tier is MACRO_ERA because the text gives a term, not a date; the position is inferred.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.sons_of_god_take_wives] Entirely undated: 'when mankind began to multiply'. Placed about 1450 y after creation with a ±300-year margin, before the decree so no causal order is violated. Who the 'sons of God' are (Sethites, angels, rulers: Onkelos 'sons of the great', Ps-Jonathan Shamhazai and Uzziel, Ramban) is for the ontologist, not the chronology.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.nephilim_heroes] 6:4 'in those days and also after that' is a state spanning several generations. Anchored shortly after the marriages (MACRO_ERA). Ibn Ezra and Ramban's report of Rabbi Abraham read 'afterwards' as after the Flood; I follow Rashi/Ramban (the days of Enosh's generation, before the Flood) because the narrative frame of 6:1–5 is antediluvian.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.earth_corrupt] 6:11–12 describe a state rather than a moment. Placed ten years after the sons' birth (so that 'your sons' of 6:18 exist) and lasting ten years until the command. The text gives no date; MACRO_ERA.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[event:evt.gen_6.god_commands_ark] The command presupposes sons and their wives (6:18), so it must fall after the sons' birth (Noah ~500) and well before the Flood (Noah 600). I place it about 20 years after the sons' birth (Noah ~520), margin 15 years. The rabbinic tradition (Sforno on 6:13, Sanh. 108b) has Noah warning for 120 years while building, which would put the command at Noah 480, before the sons' birth, and conflicts with 6:18; I do not adopt it for the command but keep the 120-year term for the decree.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_6.sons_of_god_take_wives.lifespan_decree] Considered and dropped: 6:3 follows the marriages in the narrative, but the stated reason is 'because he is flesh', not the marriages. No link written.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:01+00:00"
+  },
+  {
+   "note": "[entity:group.humankind] הָאָדָם is collective humankind here, not the individual Adam; the existing group.humankind from GEN.1 is reused, not redefined.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:52+00:00"
+  },
+  {
+   "note": "All other items are LOCKED and omitted. No event has a place: the text does not name one, and loc.earth would be too coarse to help.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:15+00:00"
+  },
+  {
+   "note": "Quotations from the commentaries are paraphrases of the packet's Hebrew, not verbatim translations. No lexicon citation was added beyond what the packet's commentators say; BDB/HALOT are not cited because I did not check them here. Reading of 'sons of God' as a divine-council term, the Mesopotamian flood-story parallels and the climate/economy remarks in the commentary are my own background, with sources left empty.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:41:15+00:00"
+  },
+  {
+   "note": "Verses 3 and 5-10 are LOCKED and left out of this fragment. Quotations from the commentaries paraphrase the packet's Hebrew. The remarks on ancient Near Eastern background are my own, with sources left empty; BDB and HALOT were not consulted.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:44+00:00"
+  }
+ ]
+}

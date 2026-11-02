@@ -1,0 +1,2096 @@
+{
+ "chapter_ref": "GEN.2",
+ "items": {
+  "causal:caus.gen_2.alone_decision.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [
+    "God's own 'I will make him a helper' (2:18) is fulfilled by the building of the woman (2:21-22), inside this chapter; written as FULFILLS_PROPHECY per the skill rule for divine words, though the speech is a resolution rather than a prediction."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": "[consider] Optional: keep as is, or use ENABLES if the project reserves FULFILLS_PROPHECY for predictions. (GEN.2.18: \"I will make him a helper corresponding to him\"; GEN.2.22: \"he built the rib ... into a woman\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_2.animals_named.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [
+    "The failure to find a counterpart among the animals (2:20) is the stated reason for the deep sleep, but the text does not use a causal word; confidence 0.7."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_2.garden_planted.man_placed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_2.woman_formed.man_speaks_one_flesh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.companionship.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Inferred from 'not good to be alone' (2:18), a state God names rather than the man himself. Closed at 2:22 when the woman is brought."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[consider] Optional: open the dwelling state at GEN.2.8 in evt.gen_2.garden_planted, or say in the note why 2:15 was chosen. (GEN.2.8: \"and there he put the man whom he had formed\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.occupation.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.shame.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.adam.wife.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "The text first calls her 'his wife' at 2:25 (and 2:24 speaks generally); I opened the state at 2:22, when she is brought to him, which is an inference."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.tree_of_knowledge.access.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.woman_of_eden.husband.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.woman_of_eden.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.woman_of_eden.shame.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.yhwh.work.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Inferred state: it records the rest after creation. Its category TRAIT is the closest fit."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.adam_names_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[consider] Optional: add a second NAMES edge to group.birds. (GEN.2.20: \"Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.adam_names_woman": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.yhwh_brings_woman_to_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.yhwh_builds_woman": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.yhwh_commands_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.yhwh_forms_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_2.yhwh_places_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.tree_of_knowledge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.tree_of_life": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Modelled as an ARTIFACT because the plot turns on both trees; no better entity type exists."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.cush": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Registry coordinates point to the African Cush; some scholars read the Cush of 2:13 as a Mesopotamian land (Kassite). Check the pin."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "The registry tags the word Eden (2:8, 2:10, 2:15) with person.eran (Eran/Edem, a grandson of Ephraim). That is a wrong match; Eden is a place. I defined loc.eden and loc.garden_of_eden with no tipnr_id and left person.eran undefined. No coordinates: the location of Eden is not known."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.euphrates": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.garden_of_eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Split from loc.eden: the region is Eden (2:8), the garden is planted in it. Events after the planting use the garden as the place; the planting itself uses Eden."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.gihon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:43:45+00:00",
+   "agent_notes": [
+    "tipnr_id left unpinned, as for loc.eden. The registry entry Gihon@Gen.2.13-2Ch is the Jerusalem spring (1 Kgs 1:33), not this river of Eden that encircles Cush; a later chapter should model the spring as its own entity. No coordinates."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[should_fix] Drop tipnr_id from loc.gihon and leave it unpinned, as you did for loc.eden. Say in the note that the registry entry Gihon@Gen.2.13-2Ch is the Jerusalem spring (1 Kgs 1:33), which a later chapter should model as its own entity. (GEN.2.13: \"the name of the second river is Gihon: the same is it that compasseth the whole land of Cush\"; GEN.2.10: \"a river went out of Eden ... and became into four heads\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:44:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.havilah.gen_2_11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Kept apart from the existing loc.havilah (Gen 25:18, Ishmael's sons) as the registry proposes. Scholars differ on whether they are the same land. No coordinates."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[consider] Optional: say 'it may or may not be the Havilah of Gen 25:18' instead of 'likely a different place'. (GEN.2.11: \"the whole land of Havilah, where there is gold\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.pishon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[consider] Optional: consider leaving loc.pishon unpinned like loc.eden, or have the summary say the site is unknown. (GEN.2.11: \"The name of the first is Pison: that is it which compasseth the whole land of Havilah\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.tigris": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "'The man' (ha-adam) is used with the article through the chapter and becomes the personal name Adam only later. I used the registry's person.adam, first mentioned in the text at 2:5 ('there was no man') and acting from 2:7."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.woman_of_eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Unnamed in Genesis 2; she is named Eve at 3:20. Ids are by who she is, so I used a descriptive id. The chapter that names her may add an alias or an entity_text update."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.alone_decision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.animals_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.command_trees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [
+    "'In the day that you eat of it you shall surely die' (2:17) is a warning whose fulfilment, if any, is in Gen 3 (the eating and the sentence). No FULFILLS_PROPHECY link is written here; the Gen 3 session writes it. Ramban in the packet reads 'in the day' as 'at the time you become liable to death', not death within 24 hours."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.garden_planted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [
+    "The river and its four heads (2:10-14) are geography, not action; they are included in the planting event's verse span. The rivers have no time. Places are for the ontologist."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": "[consider] Optional: mention the Ps-J reading in the note, and say that 2:15 resumes the placing already told in 2:8. (GEN.2.8 (Ps-J): \"גִינוּנִיתָא מֵעֵדֶן לְצַדִיקַיָא קֳדָם בְּרִיַית עוֹלָם\"; GEN.2.8: \"and there he put the man whom he had formed\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.man_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [
+    "Gen 2 retells the sixth day from the man's side; the text gives no clock. I read the scenes of 2:5-25 as occurring on day 6 (1:26-31), anchored on the start of evt.gen_1.day6_humankind, and chain them with short durations. This is a harmonizing choice: Gen 2 states no day and a reader may take the sequence (man, garden, animals, woman) as a different order from Gen 1 (animals before man). The animals of 2:19 are already created on day 6 in Gen 1:24-25; I date only their being brought to the man. The whole chain is DAY_SEQUENCE and the margins are hours.",
+    "2:5-6 (no plant yet, no rain, a mist) describes the state before the man and is carried inside this event, not made its own. It sits uneasily with Gen 1 day 3 (plants made before the man); the packet's commentaries do not address it, so I flag it only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": "[consider] Optional: say in each Gen 2 scene's note that the day comes from the Gen 1 sequence, or consider whether 2:4b ('in the day that the LORD God made earth and heaven') belongs at the head of this event's span, as many readers start the scene there. (GEN.2.4: \"in the day that the LORD God made\" is the only day word in 2:4-25, and the agent reads it as 'when'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.man_placed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.man_speaks_one_flesh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.sabbath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:36:20+00:00",
+   "agent_notes": [
+    "Day 7 is dated like the days of Gen 1: on the END of evt.gen_1.day6_land_life, no offset, margin 0 (reviewer request applied). Verses 2:1-3 are one event: completion, rest, blessing. Rashi/Sforno/Radak differ on whether God finished 'on' the seventh day (at its very start, 'like a hair's breadth') or at its end; I take the day as the span and do not split it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": "[should_fix] Give the seventh day the same precision as days 1-6: anchor it on the END of evt.gen_1.day6_land_life with no offset (or keep anchor.creation + 6 days EREV) and set the margin to 0, matching the Gen 1 days; drop the 'sunset-to-midnight' margin reasoning from the note. (GEN.2.2: \"and he rested on the seventh day\" (בַּיּוֹם הַשְּׁבִיעִי); GEN.1.31: \"the sixth day\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:36:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_2.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:34:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:35:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.alone_decision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "God speaks to no one in particular (the 'I' of v18); Adam is PRESENT, an inference from the context in 2:15–19."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[consider] Optional: make person.adam MENTIONED rather than PRESENT. (GEN.2.18: \"It is not good that the man should be alone; I will make him an help meet for him.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.animals_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.command_trees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.garden_planted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Mention-only places (the four rivers, Havilah, Cush, Assyria) are MENTIONED. Assyria reuses loc.assyria (GEN.25)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.man_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "No place: the text sets this before the garden and gives none. Left out rather than guessed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.man_placed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.man_speaks_one_flesh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.sabbath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "No place: it is a cosmic event. loc.heaven and loc.earth are PATIENT because verse 1 says they were completed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_2.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.animals_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.animals_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.first_marriage": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.man_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.sabbath_sanctified": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.tree_prohibition": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_2.woman_built": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_formation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:43:45+00:00",
+   "agent_notes": [
+    "Defined new rather than reusing sys.creation_by_word (GEN.1): here God shapes by hand from material, not by speech."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": "[should_fix] Change the fourth rule to what the text shows, e.g. 'The animals and the woman, once formed, are brought to the man (2:19, 2:22)', or drop the rule. (GEN.2.19: \"and brought them unto Adam to see what he would call them\"; GEN.2.22: \"made he a woman, and brought her unto the man\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:44:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.marriage": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Defined new. 2:24 is the narrator's comment on the practice, not an event with actors; the instance is anchored to the man's speech in 2:23."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.naming_by_man": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Defined new; sys.divine_naming (GEN.1) is for God naming."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.sabbath_sanctification": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:41:18+00:00",
+   "agent_notes": [
+    "Defined new; no earlier system covers setting a day apart."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:43:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "Packet shows no previous verse (GEN.1.31 not in the corpus), so the dramatic voice starts fresh here and is set for the whole window: hushed, patient, concrete."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "The gloss for 'it' (hu') + hasoveb is 'it is the one that encircles'. STEPBible has 'the [one which] goes around' for the participle; I corrected it to 'the circling-one' to preserve the participle with article. Pishon and Havilah are not securely identified; I do not assert a location."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "Bdellium and shoham: identifications are uncertain (HALOT: bdellium a fragrant resin or pearl-like material; shoham perhaps onyx or carnelian). Radak (read in the packet) says bdellium is a small white round stone and shoham a large white one; I report this as Radak's view, and note the Num 11:7 simile he cites."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "KJV 'Ethiopia' renders Kush; I keep Cush. The identification of Gihon and Cush (Nubia? Kassite land east of Mesopotamia?) is disputed; the commentary says so and does not choose. Rashi's etymology (gush, 'burst forth') is cited from the packet; Rashi ties it to the root נגח, which I mention only as his reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "The packet tags 'Eden' (token 8) with entity person.eran, which is wrong: Eden here is the garden's place name, not Eran the grandson of Ephraim. Flagging for the ontology/linker reviewer; I did not touch it. 'לעבדה ולשמרה': the suffix is feminine, while גן is usually masculine (Ibn Ezra, Radak discuss this); I gloss 'it' and note the issue."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:12:44+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: literal and glosses now agree ('eating you shall eat'; pos 10 'eating', pos 11 'you shall eat'), and the commentary presents 'may' and 'shall' as two readings of the same imperfect, with Radak taking it as a command and the KJV/ASV as permission. I corrected the STEPBible gloss 'certainly <to eat>' to a literal 'eating' so the repetition stays visible."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] Make them agree. Either render the literal and gloss 'you shall eat' (literal: 'eating you shall eat'), or soften the commentary so it presents 'may' and 'shall' as two readings of the imperfect. (GEN.2.16: \"אָכֹל תֹּאכֵל\"; Radak: \"כי מצוה היא להחיות האדם את עצמו במותר לו, לפיכך אמר אכל תאכל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "Glossed 'מות תמות' as the infinitive absolute plus imperfect ('dying you shall die'). Whether 'on the day' means immediate physical death is disputed; I follow Ramban's reading in the commentary (liability to death, not instant death) and show it as one reading, not the only one. I did not use the 'sexual knowledge' view of Radak as my reading; it is mentioned as a medieval view."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "'עזר כנגדו': the five English versions split ('help meet', 'helper as his counterpart', 'one like himself as a help'). I gloss עזר 'a helper' and כנגדו 'corresponding to him / facing him'. The word עזר is used of God himself elsewhere (Ps 121:1-2), which I mention as my own reading, no citation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[consider] Say that Psalm 121:1-2 uses the same noun ('my help'). (GEN.2.18: \"עֵזֶר כְּנֶגְדּוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "ויצר: the narrative tense (wayyiqtol) is rendered literally as 'and he formed' in the literal layer; the pluperfect ('had formed') that harmonizes with chapter 1 is a possible reading (Radak) and is mentioned in the commentary. The dramatic layer keeps the sequential reading so no plot fact is added. The relative clause at the end is syntactically hard; I follow Rashi's reordering for the sense but keep the Hebrew order in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:12:40+00:00",
+   "agent_notes": [
+    "Addressed the request: the 'impersonal' remark is gone. Ibn Ezra reads 'and for Adam he did not find' as 'for himself he did not find': the finder is the man, and he thinks it far-fetched that the subject of 'found' is God. Radak and Ramban cite the same use of a name in place of a pronoun (1 Sam 12:11). I follow that reading and say so in the commentary.",
+    "The five English versions split on 'Adam' versus 'the man' for the two occurrences of אדם (the first has the article, the second does not, word 11 in the table). I keep 'the man' for the first and 'Adam' (unarticled, as in the Hebrew) in the literal layer for the second, since it is Npm in the morphology; the dramatic layer uses 'the man' throughout."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] Remove '(or the sentence is impersonal, as Ibn Ezra suggests)' or replace it with what Ibn Ezra says: 'for Adam' means 'for himself', and the man is the one who did not find. (Ibn Ezra on GEN.2.20: \"וטעם ולאדם לא מצא, ולנפשו לא מצא ... ורחוק הוא בעיני שישוב אל השם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "'צלע' as 'rib' versus 'side': Rashi, Ibn Ezra and Radak give both; the literal layer uses 'ribs' and the commentary gives the 'side' reading. The remark that the sleep kept the man from seeing the woman made is Rashi's and Radak's midrashic reading, offered as such."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:14:47+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the commentary now ends the KJV point at the threefold zot and no longer claims the KJV loses the passive; the KJV has 'she was taken'.",
+    "Glossed haphaam as 'this time at last' rather than STEPBible 'this time'; Rashi (Yevamot 63) and Radak both read it against the animals. The commentary's claim that 'bone and flesh' is kinship language is my reading from Gen 29:14 and 2 Sam 5:1."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] Drop 'the first wordplay in the Bible'. Say instead that this is the first pun spoken by a character, or simply call it a pun. (GEN.2.7: \"אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה\"; GEN.2.23: \"לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": "[should_fix] In directors_commentary, end the KJV sentence at the triple 'this': say the KJV loses the threefold zot. Drop the claim that it loses the passive of 'was taken'. The KJV has 'she was taken'. (GEN.2.23: \"כִּי מֵאִישׁ לֻקְחָה־זֹּאת\"; KJV: \"because she was taken out of Man\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:15:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:06:47+00:00",
+   "agent_notes": [
+    "The verse is generally taken as the narrator's comment, not the man's speech (Radak mentions both). My dramatic layer shifts to the narrator's voice without a speech marker. I avoided naming it 'marriage' since the Hebrew has no such term."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[consider] Write 'Sanhedrin 57-58' or give each commentator his own page. (Rashi on GEN.2.24: \"(סנהדרין נ\"ז)\"; Radak: \"(סנהדרין נח)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:12:40+00:00",
+   "agent_notes": [
+    "Addressed the request: 'BDB s.v. עָרוֹם' removed from sources; the note on עֲרוּמִּים now cites Ibn Ezra and Targum Pseudo-Jonathan only. The link between 'arom (naked) and 'arum (shrewd, Gen 3:1) is my own observation about consonants, and the note's sources cover only what they say: Ibn Ezra on the adjective form, Targum Pseudo-Jonathan on the reading 'wise'.",
+    "Targum Pseudo-Jonathan has 'wise' (חכימין) here where Onkelos has 'naked' (ערטילאין); I read this as the Targum hearing the shrewd/naked pun, but that is an inference. The second half of the Targum's verse (לא אמתינו ביקרהון) is not rendered in the commentary because I am not sure of its sense."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] Remove 'BDB s.v. עָרוֹם' from sources and keep Ibn Ezra and Targum Pseudo-Jonathan, which the packet does contain. (GEN.2.25 packet: commentaries are Rashi, Ibn Ezra, Radak, Sforno, Onkelos and Targum Pseudo-Jonathan only; no lexicon entry)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[consider] Gloss token 4 as 'the day'. (GEN.2.3: \"אֶת־י֣וֹם הַשְּׁבִיעִ֔י\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "The packet tags 'Eden' (be'Eden, 2:8 and me'Eden, 2:10) with entity person.eran (Eran, son of Shuthelah, Num 26:36). That looks like a registry mis-match: Eden is a place, not a person. I did not touch it (not my layer) but the ontologist/linker should check.",
+    "The five English versions split on how to carry 'bĕhibbārĕ'ām ... bĕyôm ʿăśôt': BBE drops the second clause, KJV/ASV keep it. I keep both clauses and the verbs bara' / 'asah distinct, and I treat the verse as the toledot heading that opens the second account (the source-critical seam is real but outside this layer).",
+    "Rashi's and Ramban's remark that the world was created 'with a hey' (bĕhibbārĕ'ām read as bĕ-hē bĕrā'ām) is a midrashic reading; I mention it as tradition, not as the plain sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "'Ed' (v.6) is glossed 'water-flow / mist'. It is rare (here and Job 36:27). Translations split: mist (KJV, ASV, BBE), streams/flood (some modern). I chose 'a mist-flow' in the literal and 'a mist' in the dramatic; this is a judgment call. I link it to Akkadian edû from my own reading and leave sources empty."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:12:44+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the sentence linking panim to 3:19 is dropped (3:19 has 'af', nostrils/face, a different word). 'ed' is a rare word (elsewhere only Job 36:27); 'mist' is a convention, not a certainty. Onkelos renders 'cloud'; Ibn Ezra compares smoke; the Gaon (in Ibn Ezra) reads the vav as a negative ('no mist went up'). I kept the usual reading and flagged the options in the commentary. The imperfect plus weqatal is read as habitual (kept in the literal layer as 'would')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] Drop the sentence linking 'face' (panim) to 3:19, or say that 3:19 uses a different word ('af', nostrils) that the KJV also renders 'face'. (GEN.2.6: \"אֶת־כָּל־פְּנֵי הָאֲדָמָה\"; GEN.3.19: \"בְּזֵעַת אַפֶּיךָ\" (KJV \"In the sweat of thy face\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "STEPBible glosses nefesh chayyah 'living creature'; KJV has 'living soul'. I kept 'living being' in the literal because the same phrase is used of animals (1:20, 2:19) and 'soul' imports a later dualism. The Hebrew vocalises vayyiTzer with one yod, not the doubled-yod wayyîṣer found in 2:19; some read a play on yetzer. I do not press this."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[consider] Optional: keep the gesture to what the verb implies. (GEN.2.7: \"וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:17+00:00",
+   "agent_notes": [
+    "miqqedem: 'in the east' (KJV, BBE, YLT) vs 'from of old / aforetime' (Vulgate a principio, some Jewish tradition). I follow 'in the east' as the plain sense and flag the alternative in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[consider] Drop the treasure image or mark it as an image, not a lexical sense. (GEN.2.8: \"וַיָּשֶׂם שָׁם אֶת־הָאָדָם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.2.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:12:44+00:00",
+   "agent_notes": [
+    "Reviewer requests addressed: 'beside it' removed from the dramatic layer; the KJV claim now says only that it adds 'also' (absent in Hebrew) and no longer says it moves a verb. By syntax, 'in the middle of the garden' attaches to the tree of life; the location of the tree of knowing is not stated here (Ramban reads both as central on the strength of 3:3). I left it unstated in both English layers."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:57+00:00",
+     "note": "[should_fix] In translation_dramatic, remove 'beside it' and just name the second tree, e.g. 'In the very middle of the garden stood the tree of life, and the tree of the knowing of good and evil.' (GEN.2.9: \"וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן וְעֵץ הַדַּעַת טוֹב וָרָע\") [should_fix] Rewrite the sentence: the KJV adds 'also', which the Hebrew lacks and which makes the tree of life sound like an addition. Drop the claim that the KJV moves a verb. (GEN.2.9: \"וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן\"; KJV: \"the tree of life also in the midst of the garden\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:14:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Gen 2:4 (the toledot formula and 'in the day that the LORD God made earth and heaven') is framing and is left out of every event. Its 'in the day' is idiomatic ('when'), as Ibn Ezra and Sforno read it, and does not add a dated day.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:34:25+00:00"
+  },
+  {
+   "note": "Ancient markers: the chapter gives no clock times. Verses covered: 2:1-3, 2:5-25. Only 2:4 is left out (framing).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:34:25+00:00"
+  },
+  {
+   "note": "Gen 2:4 (the toledot formula and 'in the day that the LORD God made earth and heaven') is framing and is left out of every event. Its 'in the day' is idiomatic ('when'), as Ibn Ezra and Sforno read it, and does not add a dated day.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "Ancient markers: the chapter gives no clock times. Verses covered: 2:1-3, 2:5-25. Only 2:4 is left out (framing).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[event:evt.gen_2.man_formed] Gen 2 retells the sixth day from the man's side; the text gives no clock. I read the scenes of 2:5-25 as occurring on day 6 (1:26-31), anchored on the start of evt.gen_1.day6_humankind, and chain them with short durations. This is a harmonizing choice: Gen 2 states no day and a reader may take the sequence (man, garden, animals, woman) as a different order from Gen 1 (animals before man). The animals of 2:19 are already created on day 6 in Gen 1:24-25; I date only their being brought to the man. The whole chain is DAY_SEQUENCE and the margins are hours.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[event:evt.gen_2.man_formed] 2:5-6 (no plant yet, no rain, a mist) describes the state before the man and is carried inside this event, not made its own. It sits uneasily with Gen 1 day 3 (plants made before the man); the packet's commentaries do not address it, so I flag it only.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[event:evt.gen_2.garden_planted] The river and its four heads (2:10-14) are geography, not action; they are included in the planting event's verse span. The rivers have no time. Places are for the ontologist.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[event:evt.gen_2.command_trees] 'In the day that you eat of it you shall surely die' (2:17) is a warning whose fulfilment, if any, is in Gen 3 (the eating and the sentence). No FULFILLS_PROPHECY link is written here; the Gen 3 session writes it. Ramban in the packet reads 'in the day' as 'at the time you become liable to death', not death within 24 hours.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_2.alone_decision.woman_formed] God's own 'I will make him a helper' (2:18) is fulfilled by the building of the woman (2:21-22), inside this chapter; written as FULFILLS_PROPHECY per the skill rule for divine words, though the speech is a resolution rather than a prediction.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_2.animals_named.woman_formed] The failure to find a counterpart among the animals (2:20) is the stated reason for the deep sleep, but the text does not use a causal word; confidence 0.7.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:36:20+00:00"
+  },
+  {
+   "note": "[entity:group.land_animals] Reused from GEN.1 for 'every beast of the field' and the livestock of 2:19–20; group.birds for the birds of the heavens. In this chapter they are formed after the man, a difference from chapter 1 that is not modelled here.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:41:18+00:00"
+  },
+  {
+   "note": "[entity:loc.eden] The registry tags the word Eden (2:8, 2:10, 2:15) with person.eran (Eran/Edem, a grandson of Ephraim). That is a wrong match; Eden is a place. I defined loc.eden and loc.garden_of_eden with no tipnr_id and left person.eran undefined. No coordinates: the location of Eden is not known.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:loc.garden_of_eden] Split from loc.eden: the region is Eden (2:8), the garden is planted in it. Events after the planting use the garden as the place; the planting itself uses Eden.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:loc.havilah.gen_2_11] Kept apart from the existing loc.havilah (Gen 25:18, Ishmael's sons) as the registry proposes. Scholars differ on whether they are the same land. No coordinates.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:loc.cush] Registry coordinates point to the African Cush; some scholars read the Cush of 2:13 as a Mesopotamian land (Kassite). Check the pin.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:person.woman_of_eden] Unnamed in Genesis 2; she is named Eve at 3:20. Ids are by who she is, so I used a descriptive id. The chapter that names her may add an alias or an entity_text update.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:person.adam] 'The man' (ha-adam) is used with the article through the chapter and becomes the personal name Adam only later. I used the registry's person.adam, first mentioned in the text at 2:5 ('there was no man') and acting from 2:7.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_2.man_formed] No place: the text sets this before the garden and gives none. Left out rather than guessed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_2.sabbath] No place: it is a cosmic event. loc.heaven and loc.earth are PATIENT because verse 1 says they were completed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_2.alone_decision] God speaks to no one in particular (the 'I' of v18); Adam is PRESENT, an inference from the context in 2:15–19.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[component:comp.adam.companionship.1] Inferred from 'not good to be alone' (2:18), a state God names rather than the man himself. Closed at 2:22 when the woman is brought.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[component:comp.adam.wife.1] The text first calls her 'his wife' at 2:25 (and 2:24 speaks generally); I opened the state at 2:22, when she is brought to him, which is an inference.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[component:comp.yhwh.work.1] Inferred state: it records the rest after creation. Its category TRAIT is the closest fit.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[system:sys.sabbath_sanctification] Defined new; no earlier system covers setting a day apart.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[system:sys.naming_by_man] Defined new; sys.divine_naming (GEN.1) is for God naming.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[system:sys.marriage] Defined new. 2:24 is the narrator's comment on the practice, not an event with actors; the instance is anchored to the man's speech in 2:23.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:group.land_animals] Reused from GEN.1 for 'every beast of the field' and the livestock of 2:19–20; group.birds for the birds of the heavens. In this chapter they are formed after the man, a difference from chapter 1 that is not modelled here.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[entity:artifact.tree_of_life] Modelled as an ARTIFACT because the plot turns on both trees; no better entity type exists.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_2.garden_planted] Mention-only places (the four rivers, Havilah, Cush, Assyria) are MENTIONED. Assyria reuses loc.assyria (GEN.25).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:43:45+00:00"
+  }
+ ]
+}

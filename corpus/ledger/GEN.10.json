@@ -1,0 +1,2171 @@
+{
+ "chapter_ref": "GEN.10",
+ "items": {
+  "component:comp.asshur.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:27+00:00",
+   "agent_notes": [
+    "Read from 'went forth ... Asshur'; if the verse is read as Nimrod going to Assyria (see event note) this state is wrong."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[should_fix] Rewrite evidence_explanation as 'Gen 10:11: Asshur went out from that land and built Nineveh and Calah, cities of Assyria (on the reading with Asshur as subject).' Change label_value to 'In Assyria (Nineveh, Calah)' and drop 'the land named for him'. (GEN.10.11: \"Out of that land went forth Asshur, and builded Nineveh, and the city Rehoboth, and Calah\" (KJV); YLT \"he hath gone out to Asshur\" is the alternative.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:03:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.canaanites.territory.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Inferred from the border description at 10:19 rather than a stated settlement, so the state is read from a boundary list."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.nimrod.occupation.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.nimrod.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_10.asshur_builds_calah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_10.asshur_builds_nineveh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_10.asshur_builds_resen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_10.eber_fathers_peleg": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_10.nimrod_rules_babel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.anamim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.arkites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Give the phonetic name of the English name (Ar-kites) or of the Hebrew singular (Ar-ki) for the arkites, arvadites, hamathites, hivites, sinites and zemarites. (GEN.10.17: \"and the Hivite, and the Arkite, and the Sinite\" (וְאֶת־הַחִוִּי וְאֶת־הָעַרְקִי וְאֶת־הַסִּינִי).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.arvadites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.caphtorim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.casluhim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.dodanim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.hamathites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.hivites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.kittim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.lehabim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.ludim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.naphtuhim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.pathrusim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.sinites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.zemarites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.accad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Registry gives Accad/Akkad only as 'probably Akkad'. No coordinates are set; the registry supplies them through tipnr_id if it has any."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Use the canonical 'Accad' in the ontology texts (nimrod bio, comp.nimrod.office.1). The chapter note tells the chronologist to do the same for the event title. (GEN.10.10: \"Babel, and Erech, and Accad, and Calneh\" (KJV).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.calah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.calneh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.erech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.gaza": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.lasha": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Lasha is unidentified (a suggestion: near the Dead Sea); no coordinates from me. Same for loc.mesha and loc.sephar (Joktanite territory, v.30), which are uncertain; location of Sephar is debated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.mesha": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Write 'One end of the dwelling of Joktan's sons, the other being Sephar in the east (10:30)'. (GEN.10.30: \"their dwelling was from Mesha, as thou goest unto Sephar a mount of the east\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.nineveh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "TIPNR merges 'Rehoboth-Ir' (rĕḥōḇōṯ ʿîr, 10:11) into Nineveh. It may be a separate city or 'the broad streets of the city'; kept inside loc.nineveh with no separate entity."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Either remove the alias and mention Rehoboth-Ir in the summary as possibly a separate city, or define loc.rehoboth_ir without a tipnr_id. (GEN.10.11: \"builded Nineveh, and the city Rehoboth, and Calah\" (KJV) vs YLT \"Nineveh, even the broad places of the city\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.resen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Write 'between Nineveh and Calah; 10:12 adds \"that is the great city\", referring to Resen or to the whole group'. (GEN.10.12: \"And Resen between Nineveh and Calah: the same is a great city.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.sephar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[should_fix] Set source_script_name to סְפָר, transliterated_name to Səp̄ār, phonetic_name to Se-far. (GEN.10.30: \"בֹּאֲכָה סְפָרָה\", glossed 'going you · Sephar towards'; KJV \"as thou goest unto Sephar\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:03:15+00:00",
+     "note": "[consider] Consider 'Towards Sephar, the mountain of the east: limit of the Joktanites' dwelling (10:30)'. (GEN.10.30: \"as thou goest unto Sephar a mount of the east\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.abimael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.almodad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.aram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.arpachshad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ashkenaz": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.asshur": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[should_fix] Set first_mention_verse to GEN.10.11, consistent with the reading chosen in event_links:evt.gen_10.asshur_builds_cities. (GEN.10.11: \"Out of that land went forth Asshur\" (the person is the subject, as the event_links note says).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:03:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.cush": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Write 'First-listed son of Ham' (and 'First-listed son of Japheth' for person.gomer). (GEN.10.6: \"the sons of Ham; Cush, and Mizraim, and Phut, and Canaan\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.dedan.gen_10_7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Dedan son of Raamah (Cushite). The existing person.dedan (Gen 25:3) has a different TIPNR id (Dedan@Gen.25.3-1Ch) and descends from Abraham through Keturah."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.diklah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.eber": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.elam.gen_10_22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Elam the son of Shem is a person; the existing loc.elam (GEN.14) is the land. Same split for person.cush vs loc.cush, person.asshur vs loc.assyria, person.canaan vs loc.canaan, person.sidon vs loc.sidon."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.elishah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[blocker] Change summary_bio to 'Son of Javan and grandson of Japheth (10:2, 4).', matching the wording used for Ashkenaz, Riphath and Togarmah. (GEN.10.2: \"The sons of Japheth; Gomer, ... and Javan\"; GEN.10.4: \"And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:03:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gether": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.gomer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hadoram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.havilah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.havilah.gen_10_7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Two Havilahs in the chapter: son of Cush (10:7) and son of Joktan (10:29). The existing loc.havilah and loc.havilah.gen_2_11 are land names; no identification is made between person and land."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hazarmaveth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.hul": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.javan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jerah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.jobab.gen_10_29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.joktan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Write 'Son of Eber and brother of Peleg' instead of 'Younger son of Eber'. (GEN.10.25: \"the name of one was Peleg ... and his brother's name was Joktan\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.lud": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.madai": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.magog": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.mash": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.meshech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.mizraim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "TIPNR id Egypt@Gen.10.6-1Ch (proposed person.egypt). Renamed person.mizraim to keep the eponymous ancestor apart from loc.egypt; the Hebrew is Miṣrayim, a dual form."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.nimrod": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.obal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.ophir": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.peleg": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.put": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.raamah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.riphath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sabtah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sabteca": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.seba": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sheba.gen_10_28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sheba.gen_10_7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Three namesakes are kept apart: Sheba son of Raamah (Cushite, 10:7), Sheba son of Joktan (Shemite, 10:28), and the existing person.sheba.gen_25_3 (Abrahamic). The text does not say whether they are related."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.shelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sheleph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.sidon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Hedge the claim ('traditionally linked with the city of Sidon, 10:19') or drop it; do the same for person.elam.gen_10_22. (GEN.10.15: \"Canaan begat Sidon his firstborn\"; the city appears at 10:19 without a stated link.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tarshish": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tiras": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.togarmah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.tubal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.uz": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.uzal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.asshur_builds_cities": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": "[consider] Mention in the note that Ps-J links the departure to the generation of the division, and correct the ledger note's attribution (Ps-J: Nimrod went out to Assyria). (GEN.10.11 Ps-J: \"מִן אַרְעָא הַהוּא נְפַק נִמְרוֹד וּמְלַךְ בְּאַתּוּר דְלָא בְּעָא לְמֶהֱוֵי בְּעֵטַת דָרָא דִפְלוֹגִתָּא\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.canaanite_clans_spread": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:07+00:00",
+   "agent_notes": [
+    "10:18 'afterward the families of the Canaanites were spread abroad', with 10:19 describing their territory. Dated after the earth's division with a wide margin; 10:19 (the border) is a description of the resulting territory, not a separate event. Gen 12-14 will show these peoples already in the land."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": "[consider] Add to the note that נָפֹצוּ is the verb of the Babel scattering, as the reason for anchoring on the division. (GEN.10.18: \"and afterward were the families of the Canaanites spread abroad\" (וְאַחַר נָפֹצוּ).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.earth_divided": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:38+00:00",
+   "agent_notes": [
+    "'In his days the earth was divided' (10:25) is read as the dispersal of nations at Babel (Gen 11:1-9), the common reading, but the text does not say so; some read a division of land among Noah's sons. Peleg lived 239 years (Gen 11:16-19), so 'his days' spans about 101-340 years after the Flood; per the reviewer's request the start is 120 years after his birth with a 120-year margin (his whole life), the midpoint being a convention, not a reading. The Gen 11 session should link the Babel episode and this event."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": "[should_fix] Make the start cover Peleg's whole life: anchor on evt.gen_10.peleg_born START with offset about 120 years and margin about 120 years (0 to 239), keep MACRO_ERA, and say in the note that the midpoint is a convention, not a reading. (GEN.10.25: \"for in his days was the earth divided\" (בְיָמָיו נִפְלְגָה הָאָרֶץ), with no year; the event's own note: 'Peleg lived 239 years'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:53:12+00:00",
+     "note": "[consider] If touched again, write 'about 0 to 239 years' (or offset 119.5, margin 119.5) so the window ends at Peleg's death. (GEN.10.25: \"for in his days was the earth divided\"; Gen 11:16-19 gives Peleg 30 + 209 = 239 years.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.nimrod_kingdom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.nimrod_mighty_hunter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:07+00:00",
+   "agent_notes": [
+    "Nimrod is undated; he is Noah's great-grandson through Ham and Cush. The start 60 years after the Flood (margin 40 years) is a plausible placement after Noah's grandsons' generation and before the dispersal in Peleg's days; it is an estimate, not a textual date. Noah's curse event is c. 14 years after the Flood in the corpus, so Nimrod comes after it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_10.peleg_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:50:07+00:00",
+   "agent_notes": [
+    "Peleg's birth is not given in this chapter; it is the chain of Gen 11:10-16 (MT): Arpachshad 2 years after the Flood, Shelah 35 later, Eber 30 later, Peleg 34 later = 101 years after the Flood began. I anchor on anchor.flood with offset 101 years rather than on Gen 11 events, which are not in the corpus yet; the Gen 11 session should anchor those births on this chain and compare. Note 10:21 and 10:24-25 only give the order of fathers, not ages."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:51:58+00:00",
+     "note": "[consider] When Gen 11 is written, keep one Peleg birth: either re-anchor this event on Eber's birth there or have the Gen 11 event refer to this one rather than duplicate it. (GEN.10.25: \"unto Eber were born two sons: the name of one was Peleg\" (no age); the age is Gen 11:16.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.asshur_builds_cities": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Hebrew mn-h'rṣ hhw' yṣ' 'šwr can be read 'Asshur went forth' (as here, subject Asshur the Shemite) or 'he [Nimrod] went forth to Assyria' (YLT, KJV margin). I followed the first, which matches the chronologist's event title. The alternative would make Nimrod the builder of Nineveh, Calah and Resen."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Drop the loc.assyria MENTIONED participant, or keep it and say in the note that it stands for the alternative reading. (GEN.10.11: \"Out of that land went forth Asshur, and builded Nineveh\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.canaanite_clans_spread": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Place is loc.canaan, the territory the verse defines. The cities of v.19 are MENTIONED boundary points, not scenes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Remove person.sidon and person.heth from this event's participants. (GEN.10.19: \"the border of the Canaanites was from Sidon\" (the place); the persons are named at GEN.10.15.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.earth_divided": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "No place; the earth itself is the patient. The division is left uninterpreted (language dispersal as in Gen 11 vs. land division as in v.25 'in his days'); no link to the Babel event is asserted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.nimrod_kingdom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Place set to loc.babylon (Babel, first city of the kingdom). The four cities are PATIENTs because they become his realm. The verse says 'the beginning of his kingdom', so Nimrod's later holdings are not claimed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.nimrod_mighty_hunter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "No place: the text says only 'in the earth'. Cush is MENTIONED (father), YHWH MENTIONED ('before the LORD')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_10.peleg_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:59:10+00:00",
+   "agent_notes": [
+    "Peleg's brother Joktan is MENTIONED."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:01:31+00:00",
+     "note": "[consider] Make person.joktan a PATIENT, and add an Eber→Joktan BEGETS edge to match edge.gen_10.eber_fathers_peleg. (GEN.10.25: \"unto Eber were born two sons ... and his brother's name was Joktan\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Gen 10 is an undated genealogy of nations (the Table of Nations); by the skill's rule undated genealogies are framing. Verses left out of any event: 10:1-7, 10:13-17, 10:20-24, 10:26-32 (name lists, family and territorial summaries). 10:1 and 10:32 say only that the sons were born and the nations spread 'after the flood'; no event could be dated from them beyond what the Peleg and dispersal events already carry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:07+00:00"
+  },
+  {
+   "note": "The narrative-like items (Nimrod, Asshur's cities, Peleg, the Canaanite spread) carry no stated date. Their placement is by relation to the Flood anchor and to each other, all MACRO_ERA with wide margins; the order Nimrod, Asshur, Peleg's days, Canaanite scattering is the text's order, not a proven sequence (10:11 'from that land' puts Asshur's building after Nimrod's kingdom; the Targum Pseudo-Jonathan says Asshur left to avoid the counsel of the generation of the division, i.e. the Babel episode, which is Gen 11 and may fall in Peleg's days).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:07+00:00"
+  },
+  {
+   "note": "No causal links written: there is no divine or prophetic speech in the chapter, so nothing to check for fulfilment; a possible link from Noah's words 'Canaan be a servant' (9:25) concerns later chapters. The sequence between the Nimrod and Asshur events is recorded in the timeline, and 'because' is not stated in the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:50:07+00:00"
+  },
+  {
+   "note": "Gen 10 is an undated genealogy of nations (the Table of Nations); by the skill's rule undated genealogies are framing. Verses left out of any event: 10:1-7, 10:13-17, 10:20-24, 10:26-32 (name lists, family and territorial summaries). 10:1 and 10:32 say only that the sons were born and the nations spread 'after the flood'; no event could be dated from them beyond what the Peleg and dispersal events already carry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "The narrative-like items (Nimrod, Asshur's cities, Peleg, the Canaanite spread) carry no stated date. Their placement is by relation to the Flood anchor and to each other, all MACRO_ERA with wide margins; the order Nimrod, Asshur, Peleg's days, Canaanite scattering is the text's order, not a proven sequence (10:11 'from that land' puts Asshur's building after Nimrod's kingdom; the Targum Pseudo-Jonathan says Asshur left to avoid the counsel of the generation of the division, i.e. the Babel episode, which is Gen 11 and may fall in Peleg's days).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "No causal links written: there is no divine or prophetic speech in the chapter, so nothing to check for fulfilment; a possible link from Noah's words 'Canaan be a servant' (9:25) concerns later chapters. The sequence between the Nimrod and Asshur events is recorded in the timeline, and 'because' is not stated in the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "[event:evt.gen_10.peleg_born] Peleg's birth is not given in this chapter; it is the chain of Gen 11:10-16 (MT): Arpachshad 2 years after the Flood, Shelah 35 later, Eber 30 later, Peleg 34 later = 101 years after the Flood began. I anchor on anchor.flood with offset 101 years rather than on Gen 11 events, which are not in the corpus yet; the Gen 11 session should anchor those births on this chain and compare. Note 10:21 and 10:24-25 only give the order of fathers, not ages.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "[event:evt.gen_10.nimrod_mighty_hunter] Nimrod is undated; he is Noah's great-grandson through Ham and Cush. The start 60 years after the Flood (margin 40 years) is a plausible placement after Noah's grandsons' generation and before the dispersal in Peleg's days; it is an estimate, not a textual date. Noah's curse event is c. 14 years after the Flood in the corpus, so Nimrod comes after it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "[event:evt.gen_10.canaanite_clans_spread] 10:18 'afterward the families of the Canaanites were spread abroad', with 10:19 describing their territory. Dated after the earth's division with a wide margin; 10:19 (the border) is a description of the resulting territory, not a separate event. Gen 12-14 will show these peoples already in the land.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:52:38+00:00"
+  },
+  {
+   "note": "GEN.10 is a genealogy (Table of Nations). Only six events exist, none of them begettings, so most of the ~75 new entities have no participant row or state: they are defined for later chapters (Gen 11 Shem line, Gen 25 Dedan/Sheba, Gen 14 Elam) and for the registry. Begetting relations are not modelled as edges, only Eber→Peleg, which sits in an event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:59:10+00:00"
+  },
+  {
+   "note": "[entity:group.philistines] TIPNR proposes person.philistine for 'Philistim' (v.14), but the text names a people, not an individual. Reused the existing group.philistines (GEN.26, no tipnr_id) rather than defining a person; the TIPNR id Philistine@Gen.10.14-1Ch is therefore unassigned.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:59:10+00:00"
+  },
+  {
+   "note": "[entity:loc.babylon] 10:10 gives 'Babel' and the 'land of Shinar'. Babel maps to the existing loc.babylon; Shinar has no entity and is not modelled.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:59:10+00:00"
+  },
+  {
+   "note": "GEN.10 is a genealogy (Table of Nations). Only six events exist, none of them begettings, so most of the ~75 new entities have no participant row or state: they are defined for later chapters (Gen 11 Shem line, Gen 25 Dedan/Sheba, Gen 14 Elam) and for the registry. Begetting relations are not modelled as edges, only Eber→Peleg, which sits in an event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:person.mizraim] TIPNR id Egypt@Gen.10.6-1Ch (proposed person.egypt). Renamed person.mizraim to keep the eponymous ancestor apart from loc.egypt; the Hebrew is Miṣrayim, a dual form.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:group.philistines] TIPNR proposes person.philistine for 'Philistim' (v.14), but the text names a people, not an individual. Reused the existing group.philistines (GEN.26, no tipnr_id) rather than defining a person; the TIPNR id Philistine@Gen.10.14-1Ch is therefore unassigned.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:person.sheba.gen_10_7] Three namesakes are kept apart: Sheba son of Raamah (Cushite, 10:7), Sheba son of Joktan (Shemite, 10:28), and the existing person.sheba.gen_25_3 (Abrahamic). The text does not say whether they are related.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:person.havilah.gen_10_7] Two Havilahs in the chapter: son of Cush (10:7) and son of Joktan (10:29). The existing loc.havilah and loc.havilah.gen_2_11 are land names; no identification is made between person and land.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:person.dedan.gen_10_7] Dedan son of Raamah (Cushite). The existing person.dedan (Gen 25:3) has a different TIPNR id (Dedan@Gen.25.3-1Ch) and descends from Abraham through Keturah.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:person.elam.gen_10_22] Elam the son of Shem is a person; the existing loc.elam (GEN.14) is the land. Same split for person.cush vs loc.cush, person.asshur vs loc.assyria, person.canaan vs loc.canaan, person.sidon vs loc.sidon.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:loc.nineveh] TIPNR merges 'Rehoboth-Ir' (rĕḥōḇōṯ ʿîr, 10:11) into Nineveh. It may be a separate city or 'the broad streets of the city'; kept inside loc.nineveh with no separate entity.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:loc.babylon] 10:10 gives 'Babel' and the 'land of Shinar'. Babel maps to the existing loc.babylon; Shinar has no entity and is not modelled.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:loc.accad] Registry gives Accad/Akkad only as 'probably Akkad'. No coordinates are set; the registry supplies them through tipnr_id if it has any.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[entity:loc.lasha] Lasha is unidentified (a suggestion: near the Dead Sea); no coordinates from me. Same for loc.mesha and loc.sephar (Joktanite territory, v.30), which are uncertain; location of Sephar is debated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.nimrod_mighty_hunter] No place: the text says only 'in the earth'. Cush is MENTIONED (father), YHWH MENTIONED ('before the LORD').",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.nimrod_kingdom] Place set to loc.babylon (Babel, first city of the kingdom). The four cities are PATIENTs because they become his realm. The verse says 'the beginning of his kingdom', so Nimrod's later holdings are not claimed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.asshur_builds_cities] Hebrew mn-h'rṣ hhw' yṣ' 'šwr can be read 'Asshur went forth' (as here, subject Asshur the Shemite) or 'he [Nimrod] went forth to Assyria' (YLT, KJV margin). I followed the first, which matches the chronologist's event title. The alternative would make Nimrod the builder of Nineveh, Calah and Resen.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.canaanite_clans_spread] Place is loc.canaan, the territory the verse defines. The cities of v.19 are MENTIONED boundary points, not scenes.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.earth_divided] No place; the earth itself is the patient. The division is left uninterpreted (language dispersal as in Gen 11 vs. land division as in v.25 'in his days'); no link to the Babel event is asserted.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_10.peleg_born] Peleg's brother Joktan is MENTIONED.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  },
+  {
+   "note": "[component:comp.canaanites.territory.1] Inferred from the border description at 10:19 rather than a stated settlement, so the state is read from a boundary list.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:02:27+00:00"
+  }
+ ]
+}

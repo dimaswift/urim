@@ -1,0 +1,259 @@
+{
+ "chapter_ref": "GEN.22",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_22.god_tests_abraham",
+   "verse_start": "GEN.22.1",
+   "verse_end": "GEN.22.2",
+   "time": {
+    "anchor": "evt.gen_21.ishmael_grows_and_marries",
+    "anchor_point": "END",
+    "offset": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.abraham_sets_out",
+   "verse_start": "GEN.22.3",
+   "verse_end": "GEN.22.3",
+   "time": {
+    "anchor": "evt.gen_22.god_tests_abraham",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.abraham_sees_the_place",
+   "verse_start": "GEN.22.4",
+   "verse_end": "GEN.22.4",
+   "time": {
+    "anchor": "evt.gen_22.abraham_sets_out",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.servants_left_behind",
+   "verse_start": "GEN.22.5",
+   "verse_end": "GEN.22.5",
+   "time": {
+    "anchor": "evt.gen_22.abraham_sees_the_place",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.abraham_and_isaac_climb",
+   "verse_start": "GEN.22.6",
+   "verse_end": "GEN.22.8",
+   "time": {
+    "anchor": "evt.gen_22.servants_left_behind",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.altar_and_binding",
+   "verse_start": "GEN.22.9",
+   "verse_end": "GEN.22.10",
+   "time": {
+    "anchor": "evt.gen_22.abraham_and_isaac_climb",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.angel_stops_sacrifice",
+   "verse_start": "GEN.22.11",
+   "verse_end": "GEN.22.12",
+   "time": {
+    "anchor": "evt.gen_22.altar_and_binding",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.ram_offered",
+   "verse_start": "GEN.22.13",
+   "verse_end": "GEN.22.14",
+   "time": {
+    "anchor": "evt.gen_22.angel_stops_sacrifice",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.oath_and_blessing",
+   "verse_start": "GEN.22.15",
+   "verse_end": "GEN.22.18",
+   "time": {
+    "anchor": "evt.gen_22.ram_offered",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.return_to_beersheba",
+   "verse_start": "GEN.22.19",
+   "verse_end": "GEN.22.19",
+   "time": {
+    "anchor": "evt.gen_22.oath_and_blessing",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_22.news_of_milcahs_sons",
+   "verse_start": "GEN.22.20",
+   "verse_end": "GEN.22.24",
+   "time": {
+    "anchor": "evt.gen_22.return_to_beersheba",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_22.abraham_and_isaac_climb.ram_offered",
+   "cause_event_id": "evt.gen_22.abraham_and_isaac_climb",
+   "effect_event_id": "evt.gen_22.ram_offered",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_22.altar_and_binding.angel_stops_sacrifice",
+   "cause_event_id": "evt.gen_22.altar_and_binding",
+   "effect_event_id": "evt.gen_22.angel_stops_sacrifice",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_22.altar_and_binding.oath_and_blessing",
+   "cause_event_id": "evt.gen_22.altar_and_binding",
+   "effect_event_id": "evt.gen_22.oath_and_blessing",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_22.god_tests_abraham.abraham_sets_out",
+   "cause_event_id": "evt.gen_22.god_tests_abraham",
+   "effect_event_id": "evt.gen_22.abraham_sets_out",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

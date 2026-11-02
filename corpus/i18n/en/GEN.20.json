@@ -1,0 +1,77 @@
+{
+ "chapter_ref": "GEN.20",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_20.abraham_moves_to_gerar",
+   "title": "Abraham journeys to the Negev and settles at Gerar",
+   "narrative_summary": "Abraham sets out from there toward the Negev and lives between Kadesh and Shur, then sojourns in Gerar.",
+   "temporal_reasoning_note": "'From there' (20:1) follows Abraham's view of Sodom's smoke (19:27-28) from near Mamre, so it is anchored on that event's END; the text gives no gap, hence a margin of two months. Mamre to Gerar is about 64 km by road: 1.5 days by donkey at 32 km a day (urim travel); with flocks and household I take 2 days. The dwelling between Kadesh and Shur is an open-ended stay not dated by the text, so the tier is MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_takes_sarah",
+   "title": "Abraham calls Sarah his sister and Abimelech takes her",
+   "narrative_summary": "Abraham says of Sarah that she is his sister, and Abimelech king of Gerar sends and takes her.",
+   "temporal_reasoning_note": "The text gives no interval after arrival (20:2). I place the taking about a month after the settling, margin one month, since the claim was made once Abraham was known in Gerar. Duration one hour is nominal. No time word, so MACRO_ERA. It falls before Isaac's birth (21:2), which the chronology keeps within the year after Gen 18."
+  },
+  {
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "title": "God warns Abimelech in a night dream to return Sarah",
+   "narrative_summary": "God comes to Abimelech in a dream and tells him he will die for taking a married woman. Abimelech, who had not touched her, pleads his innocence, and God says he restrained him, bids him return the wife of the prophet Abraham, who will pray for him, or die with all his household.",
+   "temporal_reasoning_note": "'In a dream of the night' (20:3). Abimelech had not yet approached Sarah (20:4), so the dream is the first night after the taking: anchored on the taking's END with time_of_day ASHMORET_HATICHONAH (22:00), the first such time at or after the anchor. Duration 5 hours of night, ending about 03:00, before the morning of 20:8. Tier DAY_SEQUENCE: the night is given, not an hour.",
+   "ancient_diurnal_marker": "In a dream by night"
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_tells_his_servants",
+   "title": "Abimelech rises early and tells his servants, who are afraid",
+   "narrative_summary": "Abimelech rises early in the morning, calls all his servants and tells them everything; the men are very afraid.",
+   "temporal_reasoning_note": "'Rose early in the morning' (20:8): anchored on the dream's END with time_of_day BOKER (06:00), offset 0. Duration half an hour for the speech. DIURNAL_HOUR because the text gives the part of the day.",
+   "ancient_diurnal_marker": "In the morning"
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_confronts_abraham",
+   "title": "Abimelech rebukes Abraham, who explains why he said 'sister'",
+   "narrative_summary": "Abimelech summons Abraham and asks what he has done and why. Abraham answers that he thought there was no fear of God in the place, that Sarah is also his half-sister, and that they agreed to say this wherever they went.",
+   "temporal_reasoning_note": "Continuous with the morning assembly (20:9 'then Abimelech called Abraham'): START at the END of the servants' event, no offset. The exchange takes about an hour. DAY_SEQUENCE: same day, no hour given."
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+   "title": "Abimelech returns Sarah with livestock, servants and silver",
+   "narrative_summary": "Abimelech gives Abraham sheep, cattle and servants, restores Sarah, offers him his land, and tells Sarah he has given her brother a thousand pieces of silver as her vindication.",
+   "temporal_reasoning_note": "Directly follows the conversation (20:14), same day; two hours to gather the gifts, margin four hours. No time word beyond the sequence: DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "title": "Abraham prays and God heals Abimelech's household",
+   "narrative_summary": "Abraham prays to God, and God heals Abimelech, his wife and his female slaves so that they bear children, for the LORD had closed every womb of his house because of Sarah.",
+   "temporal_reasoning_note": "Follows the restoration (20:17); God's word said Abraham would pray once she was returned (20:7). I anchor at the END of the restoration with a one-day margin because the healing may have followed hours or a day after. The closing of the wombs (20:18) is explanatory and began with the taking; the births themselves ('they bore') come later and are not dated here. DAY_SEQUENCE."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_20.abimelech_restores_sarah_with_gifts.abraham_prays_and_god_heals",
+   "causal_explanation": "Sarah's return is the condition God set for the prayer and the healing, which follow it (20:7, 17)."
+  },
+  {
+   "causal_id": "caus.gen_20.abimelech_takes_sarah.god_warns_abimelech_in_dream",
+   "causal_explanation": "Because Abimelech takes Sarah, a married woman, God warns him in a dream that he will die (20:2-3)."
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abimelech_restores_sarah_with_gifts",
+   "causal_explanation": "God's command to return the man's wife on pain of death leads Abimelech to restore Sarah with gifts (20:7, 14)."
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abimelech_tells_his_servants",
+   "causal_explanation": "The warning in the dream moves Abimelech to rise early and tell his servants everything (20:6-8)."
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abraham_prays_and_god_heals",
+   "causal_explanation": "God said that Abraham the prophet would pray for Abimelech and he would live; Abraham prays and God heals him (20:7, 17)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

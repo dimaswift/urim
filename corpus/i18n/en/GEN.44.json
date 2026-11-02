@@ -1,0 +1,223 @@
+{
+ "chapter_ref": "GEN.44",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_44.steward_commanded",
+   "title": "Joseph orders his steward to plant the cup",
+   "narrative_summary": "Joseph tells the steward of his house to fill the men's sacks with food, return each man's silver, and put his silver cup in the youngest's sack with his grain money. The steward does as told.",
+   "temporal_reasoning_note": "No time word. It follows the banquet of 43:31-34 (same day, evening or night), so it starts when the banquet ends; a few minutes for the speech, margin 3 hours for the banquet's unknown length. 'The morning' of 44:3 follows."
+  },
+  {
+   "event_id": "evt.gen_44.brothers_sent_away",
+   "title": "At first light the brothers are sent off with their donkeys",
+   "narrative_summary": "When the morning is light, the men are sent away with their donkeys.",
+   "temporal_reasoning_note": "'The morning was light' (44:3) is BOKER; the first morning at or after the end of the night's preparations, i.e. the next day. Duration one hour for assembling and leaving; margin 1 hour.",
+   "ancient_diurnal_marker": "The morning was light"
+  },
+  {
+   "event_id": "evt.gen_44.steward_pursues",
+   "title": "Joseph sends his steward after the brothers",
+   "narrative_summary": "The brothers have left the city but not gone far. Joseph tells his steward to chase and overtake them and ask why they repaid good with evil, and the steward overtakes them and repeats the words, including the charge about the divining cup.",
+   "temporal_reasoning_note": "'Gone out of the city, not far' (44:4): about one hour after the departure begins, with the pursuit taking about an hour on horse or donkey at a short distance. No distance is stated, so the margin is 1 hour. Tier DAY_SEQUENCE because the hours are estimated."
+  },
+  {
+   "event_id": "evt.gen_44.brothers_protest_and_pledge",
+   "title": "The brothers deny the theft and stake their lives",
+   "narrative_summary": "The brothers protest, recalling that they brought back the silver found earlier, and propose that whoever has the cup die and the rest become slaves. The steward amends it: the guilty one becomes a slave and the rest are blameless.",
+   "temporal_reasoning_note": "Immediate dialogue on the road after the steward overtakes them (44:6); starts when the pursuit ends, about 15 minutes."
+  },
+  {
+   "event_id": "evt.gen_44.sacks_searched_cup_found",
+   "title": "The sacks are searched and the cup is found in Benjamin's",
+   "narrative_summary": "Each man quickly lowers and opens his sack. The steward searches from the eldest to the youngest, and the cup is found in Benjamin's sack.",
+   "temporal_reasoning_note": "Follows the steward's terms at once (44:11 'they hurried'); eleven sacks take about half an hour."
+  },
+  {
+   "event_id": "evt.gen_44.return_to_city",
+   "title": "The brothers tear their clothes and return to the city",
+   "narrative_summary": "The brothers tear their garments, load their donkeys again and go back to the city.",
+   "temporal_reasoning_note": "They were 'not far' from the city (44:4), so the return on loaded donkeys takes about two hours; margin 1 hour. No travel tool run, as the place has no stated distance."
+  },
+  {
+   "event_id": "evt.gen_44.brothers_fall_before_joseph",
+   "title": "Judah and his brothers fall before Joseph at his house",
+   "narrative_summary": "Judah and his brothers come to Joseph's house, where he still is, and fall to the ground. Joseph asks what they have done and says that a man like him divines. Judah confesses that God has found their guilt and offers all as slaves, but Joseph says only the one with the cup will be his slave.",
+   "temporal_reasoning_note": "Arrival follows the return (44:13) directly; 'he was still there' shows it is the same morning. A short exchange of half an hour."
+  },
+  {
+   "event_id": "evt.gen_44.judah_pleads",
+   "title": "Judah pleads to take Benjamin's place as Joseph's slave",
+   "narrative_summary": "Judah steps forward and retells the story: the old father and his youngest son, the brother who died, Joseph's demand to bring Benjamin and the father's fear. He offers himself as a slave in place of the boy, as he is surety to his father.",
+   "temporal_reasoning_note": "A speech continuous with the previous scene (44:17-18), lasting some minutes; allowed half an hour."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_43.judah_pledges_surety.gen_44_judah_pleads",
+   "causal_explanation": "Judah's earlier pledge to be surety for Benjamin (43:9) is what he cites to offer himself in the boy's place (44:32-33)."
+  },
+  {
+   "causal_id": "caus.gen_44.brothers_fall_before_joseph.judah_pleads",
+   "causal_explanation": "Joseph's verdict that only the one with the cup will stay (44:17) prompts Judah to step forward and plead (44:18)."
+  },
+  {
+   "causal_id": "caus.gen_44.return_to_city.brothers_fall_before_joseph",
+   "causal_explanation": "Their return brings Judah and his brothers to Joseph's house (44:13-14)."
+  },
+  {
+   "causal_id": "caus.gen_44.sacks_searched_cup_found.return_to_city",
+   "causal_explanation": "Finding the cup in Benjamin's sack makes the brothers tear their clothes and turn back (44:12-13)."
+  },
+  {
+   "causal_id": "caus.gen_44.steward_commanded.sacks_searched_cup_found",
+   "causal_explanation": "The cup Joseph had planted (44:2) is the very thing found when the steward searches (44:12)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.joseph_silver_cup",
+   "canonical_name": "Joseph's silver cup",
+   "phonetic_name": "gevia hakkesef",
+   "aliases": [
+    "my cup",
+    "the silver cup",
+    "the cup"
+   ],
+   "etymology_meaning": "Hebrew gavia' is a goblet or bowl; it is also used of the temple menorah's cups, and is the same word used for the silver cup here.",
+   "summary_bio": "Joseph's own silver drinking cup, which he has his steward plant in Benjamin's sack as a test of the brothers. The steward claims Joseph also uses it for divination; its discovery turns the brothers' departure into an accusation of theft."
+  },
+  {
+   "entity_id": "loc.road_outside_city",
+   "canonical_name": "Road outside the city",
+   "phonetic_name": "derekh ha'ir",
+   "aliases": [],
+   "etymology_meaning": "No name in the text; the label is descriptive.",
+   "summary_bio": "The unnamed stretch outside the Egyptian city where Joseph's steward overtakes the departing brothers, searches their sacks and finds the cup. The brothers turn back from here to Joseph's house."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.benjamin.legal_status.1",
+   "label_key": "Legal status",
+   "label_value": "Accused of theft",
+   "evidence_explanation": "GEN.44.12 the cup is found with him, and GEN.44.17 names him as the one who will be a slave."
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.1",
+   "label_key": "Mood",
+   "label_value": "Distraught",
+   "evidence_explanation": "GEN.44.13 says they tore their clothes."
+  },
+  {
+   "component_id": "comp.joseph_silver_cup.placement.1",
+   "label_key": "Placement",
+   "label_value": "Hidden in Benjamin's sack",
+   "evidence_explanation": "GEN.44.2 orders the cup put in the mouth of the youngest's sack, and v12 shows it there."
+  },
+  {
+   "component_id": "comp.joseph_silver_cup.placement.2",
+   "label_key": "Placement",
+   "label_value": "Found in Benjamin's sack",
+   "evidence_explanation": "GEN.44.12 says the cup is found in Benjamin's sack after the search."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divination_by_cup",
+   "name": "Divination by cup",
+   "ancient_near_east_context": "Mesopotamian and Egyptian texts attest lecanomancy and hydromancy, reading omens from oil or water in a cup or bowl. Whether Joseph actually practised it is left open; the claim is part of his ruse and gives the cup its weight.",
+   "rules_and_mechanics": [
+    "A special vessel is kept by the diviner.",
+    "Omens are read from liquid in the vessel.",
+    "The practice presumes a high-ranking owner with court knowledge.",
+    "In this chapter it is stated, not shown."
+   ]
+  },
+  {
+   "system_id": "sys.enslavement_for_theft",
+   "name": "Enslavement as penalty for theft",
+   "ancient_near_east_context": "Ancient Near Eastern law often made a thief repay or serve; Exodus 22:2-3 allows a thief unable to pay to be sold. Here the terms are negotiated on the spot: the brothers offer more than the law requires, and the steward lowers it.",
+   "rules_and_mechanics": [
+    "The finder of the stolen object is held responsible.",
+    "The thief becomes the slave of the owner.",
+    "The brothers offer death for the thief and slavery for the rest (v9), softened to slavery for the thief alone (v10, 17).",
+    "The innocent are released."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_44.brothers_pledge",
+   "outcome_summary": "The brothers offer death for the thief and slavery for the rest; the steward reduces it to slavery for the thief alone.",
+   "significance_note": "It stakes Benjamin's freedom on a hidden plant and sets up Judah's later offer to take his place."
+  },
+  {
+   "instance_id": "inst.gen_44.cup_divination_claim",
+   "outcome_summary": "The steward is to tell the brothers that Joseph divines with the cup they took; Joseph repeats the claim himself in v15.",
+   "significance_note": "The claim of divination raises the stakes: the cup is worth more than silver, and Joseph appears to know everything, which keeps his identity hidden."
+  },
+  {
+   "instance_id": "inst.gen_44.garments_torn",
+   "outcome_summary": "The brothers tear their clothes and load their donkeys, then return to the city.",
+   "significance_note": "Echoes Jacob's mourning over Joseph's coat in Genesis 37; the brothers now respond to a loss that is not yet final."
+  },
+  {
+   "instance_id": "inst.gen_44.judah_surety_claim",
+   "outcome_summary": "Judah recalls his pledge for Benjamin and offers himself as Joseph's slave in the boy's place.",
+   "significance_note": "The turning point of the story: the brother who proposed selling Joseph now gives himself up to spare Benjamin and their father."
+  },
+  {
+   "instance_id": "inst.gen_44.obeisance_to_joseph",
+   "outcome_summary": "Judah and his brothers fall to the ground before Joseph in his house.",
+   "significance_note": "Fulfils Joseph's boyhood dreams once more and shows Judah stepping forward as the brothers' speaker."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_44.israel_loves_benjamin",
+   "interaction_label": "loves",
+   "description": "Judah tells Joseph that their father loves Benjamin, the one remaining son of his mother."
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_accuses_brothers",
+   "interaction_label": "accuses",
+   "description": "Joseph asks what deed they have done and says a man like him can divine."
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_commands_steward",
+   "interaction_label": "commands",
+   "description": "Joseph orders his steward to fill the sacks, return the silver and put his cup in Benjamin's sack."
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_sends_steward",
+   "interaction_label": "sends after",
+   "description": "Joseph sends his steward after the brothers to overtake them and accuse them."
+  },
+  {
+   "edge_id": "edge.gen_44.judah_offers_self",
+   "interaction_label": "offers to take the place of",
+   "description": "Judah asks to stay as Joseph's slave in place of Benjamin."
+  },
+  {
+   "edge_id": "edge.gen_44.judah_pleads_with_joseph",
+   "interaction_label": "pleads with",
+   "description": "Judah draws near and asks to speak in Joseph's hearing, comparing him to Pharaoh."
+  },
+  {
+   "edge_id": "edge.gen_44.judah_stands_surety",
+   "interaction_label": "stands surety for",
+   "description": "Judah reminds Joseph that he pledged himself to their father for the boy."
+  },
+  {
+   "edge_id": "edge.gen_44.steward_accuses_brothers",
+   "interaction_label": "accuses",
+   "description": "The steward overtakes the brothers and charges them with repaying good with evil."
+  },
+  {
+   "edge_id": "edge.gen_44.steward_searches_sacks",
+   "interaction_label": "searches",
+   "description": "The steward searches the sacks from the eldest to the youngest until the cup is found."
+  }
+ ]
+}

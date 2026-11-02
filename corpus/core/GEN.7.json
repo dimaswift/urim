@@ -1,0 +1,676 @@
+{
+ "chapter_ref": "GEN.7",
+ "entities": [
+  {
+   "entity_id": "group.animals_in_ark",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.7.2"
+  },
+  {
+   "entity_id": "substance.floodwaters",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "הַמַּבּוּל",
+   "transliterated_name": "ha-mabbul",
+   "first_mention_verse": "GEN.7.6"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.clean_and_unclean_animals",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_7.god_commands_entry",
+   "verse_start": "GEN.7.1",
+   "verse_end": "GEN.7.4",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "offset": {
+     "value": 38.53,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.noah_obeys",
+   "verse_start": "GEN.7.5",
+   "verse_end": "GEN.7.5",
+   "time": {
+    "anchor": "evt.gen_7.god_commands_entry",
+    "anchor_point": "END",
+    "duration": {
+     "value": 167.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.noah_enters_ark",
+   "verse_start": "GEN.7.6",
+   "verse_end": "GEN.7.9",
+   "time": {
+    "anchor": "evt.gen_7.noah_obeys",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.wives_of_noahs_sons",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noahs_wife",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.flood_begins",
+   "verse_start": "GEN.7.10",
+   "verse_end": "GEN.7.11",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.all_enter_selfsame_day",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.rain_forty_days",
+   "verse_start": "GEN.7.12",
+   "verse_end": "GEN.7.12",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.flood_begins",
+    "anchor_point": "START",
+    "duration": {
+     "value": 40.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.all_enter_selfsame_day",
+   "verse_start": "GEN.7.13",
+   "verse_end": "GEN.7.16",
+   "time": {
+    "anchor": "evt.gen_7.noah_enters_ark",
+    "anchor_point": "START",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.wives_of_noahs_sons",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noahs_wife",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.ark_lifted",
+   "verse_start": "GEN.7.17",
+   "verse_end": "GEN.7.17",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.rain_forty_days",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.waters_prevail",
+   "verse_start": "GEN.7.18",
+   "verse_end": "GEN.7.24",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.flood_begins",
+    "anchor_point": "START",
+    "duration": {
+     "value": 150.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.mountains_covered",
+   "parent_event_id": "evt.gen_7.waters_prevail",
+   "verse_start": "GEN.7.19",
+   "verse_end": "GEN.7.20",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.waters_prevail",
+    "anchor_point": "START",
+    "offset": {
+     "value": 40.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 20.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.floodwaters",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_7.all_flesh_dies",
+   "parent_event_id": "evt.gen_7.waters_prevail",
+   "verse_start": "GEN.7.21",
+   "verse_end": "GEN.7.23",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_7.waters_prevail",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ark_of_noah",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_6.god_commands_ark.flood_begins",
+   "cause_event_id": "evt.gen_6.god_commands_ark",
+   "effect_event_id": "evt.gen_7.flood_begins",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_6.god_commands_ark.noah_enters_ark",
+   "cause_event_id": "evt.gen_6.god_commands_ark",
+   "effect_event_id": "evt.gen_7.noah_enters_ark",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_6.noah_builds_ark.gen_7.god_commands_entry",
+   "cause_event_id": "evt.gen_6.noah_builds_ark",
+   "effect_event_id": "evt.gen_7.god_commands_entry",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_7.flood_begins.ark_lifted",
+   "cause_event_id": "evt.gen_7.flood_begins",
+   "effect_event_id": "evt.gen_7.ark_lifted",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_7.god_commands_entry.all_flesh_dies",
+   "cause_event_id": "evt.gen_7.god_commands_entry",
+   "effect_event_id": "evt.gen_7.all_flesh_dies",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_7.god_commands_entry.noah_enters_ark",
+   "cause_event_id": "evt.gen_7.god_commands_entry",
+   "effect_event_id": "evt.gen_7.noah_enters_ark",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_7.god_commands_entry.rain_forty_days",
+   "cause_event_id": "evt.gen_7.god_commands_entry",
+   "effect_event_id": "evt.gen_7.rain_forty_days",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.ark_of_noah.door.1",
+   "entity_id": "artifact.ark_of_noah",
+   "category": "TRAIT",
+   "component_key": "door",
+   "value_code": "SHUT_BY_YHWH",
+   "acquired_at_verse": "GEN.7.16",
+   "acquired_in_event": "evt.gen_7.all_enter_selfsame_day"
+  },
+  {
+   "component_id": "comp.ark_of_noah.position.1",
+   "entity_id": "artifact.ark_of_noah",
+   "category": "LOCATION_STATE",
+   "component_key": "position",
+   "value_code": "AFLOAT_ABOVE_EARTH",
+   "acquired_at_verse": "GEN.7.17",
+   "acquired_in_event": "evt.gen_7.ark_lifted"
+  },
+  {
+   "component_id": "comp.earth.condition.3",
+   "entity_id": "loc.earth",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "FLOODED",
+   "supersedes_component_id": "comp.earth.condition.2",
+   "acquired_at_verse": "GEN.7.10",
+   "acquired_in_event": "evt.gen_7.flood_begins"
+  },
+  {
+   "component_id": "comp.humankind.survival.1",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "survival",
+   "value_code": "ALL_PERISHED_EXCEPT_ARK",
+   "acquired_at_verse": "GEN.7.21",
+   "acquired_in_event": "evt.gen_7.all_flesh_dies"
+  },
+  {
+   "component_id": "comp.noah.whereabouts.1",
+   "entity_id": "person.noah",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "artifact.ark_of_noah",
+   "acquired_at_verse": "GEN.7.7",
+   "acquired_in_event": "evt.gen_7.noah_enters_ark"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.earth.condition.2",
+   "expired_at_verse": "GEN.7.10",
+   "expired_in_event": "evt.gen_7.flood_begins"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_7.all_flesh_wiped_out",
+   "system_id": "sys.divine_flood_judgment",
+   "event_id": "evt.gen_7.all_flesh_dies",
+   "verse_start": "GEN.7.21",
+   "verse_end": "GEN.7.23",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind",
+    "group.land_animals",
+    "group.birds"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "destruction",
+    "remnant"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_7.clean_animals_by_sevens",
+   "system_id": "sys.clean_and_unclean_animals",
+   "event_id": "evt.gen_7.god_commands_entry",
+   "verse_start": "GEN.7.2",
+   "verse_end": "GEN.7.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.animals_in_ark",
+    "person.noah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "clean",
+    "unclean",
+    "sevens"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_7.command_to_enter",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_7.god_commands_entry",
+   "verse_start": "GEN.7.1",
+   "verse_end": "GEN.7.4",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ark_of_noah"
+   ],
+   "tags": [
+    "ark",
+    "household",
+    "seven_days_warning"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_7.flood_unleashed",
+   "system_id": "sys.divine_flood_judgment",
+   "event_id": "evt.gen_7.flood_begins",
+   "verse_start": "GEN.7.10",
+   "verse_end": "GEN.7.11",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "deep",
+    "windows_of_heaven"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_7.noah_obeys_yhwh",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "OBEYS",
+   "verse_id": "GEN.7.5",
+   "event_id": "evt.gen_7.noah_obeys"
+  },
+  {
+   "edge_id": "edge.gen_7.waters_lift_ark",
+   "source_entity_id": "substance.floodwaters",
+   "target_entity_id": "artifact.ark_of_noah",
+   "interaction_type": "LIFTS",
+   "verse_id": "GEN.7.17",
+   "event_id": "evt.gen_7.ark_lifted"
+  },
+  {
+   "edge_id": "edge.gen_7.yhwh_commands_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.7.1",
+   "event_id": "evt.gen_7.god_commands_entry"
+  },
+  {
+   "edge_id": "edge.gen_7.yhwh_shuts_noah_in",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "SHUTS_IN",
+   "verse_id": "GEN.7.16",
+   "event_id": "evt.gen_7.all_enter_selfsame_day"
+  },
+  {
+   "edge_id": "edge.gen_7.yhwh_wipes_out_life",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "DESTROYS",
+   "verse_id": "GEN.7.23",
+   "event_id": "evt.gen_7.all_flesh_dies"
+  }
+ ]
+}

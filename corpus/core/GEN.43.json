@@ -1,0 +1,746 @@
+{
+ "chapter_ref": "GEN.43",
+ "entities": [
+  {
+   "entity_id": "artifact.gift_for_joseph",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מִנְחָה",
+   "transliterated_name": "minḥâ",
+   "first_mention_verse": "GEN.43.11"
+  },
+  {
+   "entity_id": "loc.house_of_joseph",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית יוֹסֵף",
+   "transliterated_name": "bêt Yôsēp̄",
+   "first_mention_verse": "GEN.43.16"
+  },
+  {
+   "entity_id": "person.steward_of_joseph",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲשֶׁר עַל־בֵּיתוֹ",
+   "transliterated_name": "ʾăšer ʿal-bêtô",
+   "first_mention_verse": "GEN.43.16"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.gift_of_homage",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.hospitality_meal",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_43.grain_runs_out",
+   "verse_start": "GEN.43.1",
+   "verse_end": "GEN.43.2",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_42.jacob_refuses_benjamin",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.5,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.2,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.judah_pledges_surety",
+   "verse_start": "GEN.43.3",
+   "verse_end": "GEN.43.10",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_43.grain_runs_out",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.israel_consents",
+   "verse_start": "GEN.43.11",
+   "verse_end": "GEN.43.14",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_43.judah_pledges_surety",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.brothers_set_out",
+   "verse_start": "GEN.43.15",
+   "verse_end": "GEN.43.15",
+   "time": {
+    "anchor": "evt.gen_43.israel_consents",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "time_of_day": "SHACHAR",
+    "duration": {
+     "value": 15.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.brothers_stand_before_joseph",
+   "verse_start": "GEN.43.15",
+   "verse_end": "GEN.43.17",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_43.brothers_set_out",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.brothers_fear_and_steward",
+   "verse_start": "GEN.43.18",
+   "verse_end": "GEN.43.23",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_43.brothers_stand_before_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.brothers_prepare_gift",
+   "verse_start": "GEN.43.24",
+   "verse_end": "GEN.43.25",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_43.brothers_fear_and_steward",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.joseph_receives_brothers",
+   "verse_start": "GEN.43.26",
+   "verse_end": "GEN.43.30",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_43.brothers_stand_before_joseph",
+    "anchor_point": "START",
+    "time_of_day": "TZOHORAYIM",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_43.banquet_at_josephs_house",
+   "verse_start": "GEN.43.31",
+   "verse_end": "GEN.43.34",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_43.joseph_receives_brothers",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.hebrews",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_42.sacks_filled_and_departure.brothers_fear_and_steward",
+   "cause_event_id": "evt.gen_42.sacks_filled_and_departure",
+   "effect_event_id": "evt.gen_43.brothers_fear_and_steward",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_43.brothers_stand_before_joseph.banquet_at_josephs_house",
+   "cause_event_id": "evt.gen_43.brothers_stand_before_joseph",
+   "effect_event_id": "evt.gen_43.banquet_at_josephs_house",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_43.grain_runs_out.judah_pledges_surety",
+   "cause_event_id": "evt.gen_43.grain_runs_out",
+   "effect_event_id": "evt.gen_43.judah_pledges_surety",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_43.israel_consents.brothers_set_out",
+   "cause_event_id": "evt.gen_43.israel_consents",
+   "effect_event_id": "evt.gen_43.brothers_set_out",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_43.judah_pledges_surety.israel_consents",
+   "cause_event_id": "evt.gen_43.judah_pledges_surety",
+   "effect_event_id": "evt.gen_43.israel_consents",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.gift_for_joseph.holder.1",
+   "entity_id": "artifact.gift_for_joseph",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "group.joseph_brothers",
+   "acquired_at_verse": "GEN.43.15",
+   "acquired_in_event": "evt.gen_43.brothers_set_out",
+   "expired_at_verse": "GEN.43.26",
+   "expired_in_event": "evt.gen_43.joseph_receives_brothers"
+  },
+  {
+   "component_id": "comp.gift_for_joseph.holder.2",
+   "entity_id": "artifact.gift_for_joseph",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.joseph",
+   "supersedes_component_id": "comp.gift_for_joseph.holder.1",
+   "acquired_at_verse": "GEN.43.26",
+   "acquired_in_event": "evt.gen_43.joseph_receives_brothers"
+  },
+  {
+   "component_id": "comp.israel.protectiveness.2",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "protectiveness",
+   "value_code": "YIELDS_BENJAMIN_TO_JUDAH",
+   "supersedes_component_id": "comp.israel.protectiveness.1",
+   "acquired_at_verse": "GEN.43.13",
+   "acquired_in_event": "evt.gen_43.israel_consents"
+  },
+  {
+   "component_id": "comp.joseph_brothers.fear.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "AFRAID_OF_ENSLAVEMENT",
+   "acquired_at_verse": "GEN.43.18",
+   "acquired_in_event": "evt.gen_43.brothers_fear_and_steward",
+   "expired_at_verse": "GEN.43.23",
+   "expired_in_event": "evt.gen_43.brothers_fear_and_steward"
+  },
+  {
+   "component_id": "comp.judah.surety.1",
+   "entity_id": "person.judah",
+   "category": "ROLE_TITLE",
+   "component_key": "surety",
+   "target_entity_id": "person.benjamin",
+   "acquired_at_verse": "GEN.43.9",
+   "acquired_in_event": "evt.gen_43.judah_pledges_surety"
+  },
+  {
+   "component_id": "comp.simeon.custody.2",
+   "entity_id": "person.simeon",
+   "category": "LOCATION_STATE",
+   "component_key": "custody",
+   "value_code": "RELEASED",
+   "supersedes_component_id": "comp.simeon.custody.1",
+   "acquired_at_verse": "GEN.43.23",
+   "acquired_in_event": "evt.gen_43.brothers_fear_and_steward"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.protectiveness.1",
+   "expired_at_verse": "GEN.43.13",
+   "expired_in_event": "evt.gen_43.israel_consents"
+  },
+  {
+   "component_id": "comp.simeon.custody.1",
+   "expired_at_verse": "GEN.43.23",
+   "expired_in_event": "evt.gen_43.brothers_fear_and_steward"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_43.banquet",
+   "system_id": "sys.hospitality_meal",
+   "event_id": "evt.gen_43.banquet_at_josephs_house",
+   "verse_start": "GEN.43.31",
+   "verse_end": "GEN.43.34",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers",
+    "person.benjamin"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "seating_by_age",
+    "separate_tables",
+    "portions"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.brothers_obeisance",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_43.joseph_receives_brothers",
+   "verse_start": "GEN.43.26",
+   "verse_end": "GEN.43.28",
+   "initiator_entity_id": "group.joseph_brothers",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "bowing",
+    "dream_fulfilment"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.foot_washing",
+   "system_id": "sys.hospitality_meal",
+   "event_id": "evt.gen_43.brothers_prepare_gift",
+   "verse_start": "GEN.43.24",
+   "verse_end": "GEN.43.24",
+   "initiator_entity_id": "person.steward_of_joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "water",
+    "fodder",
+    "reception"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.gift_prepared",
+   "system_id": "sys.gift_of_homage",
+   "event_id": "evt.gen_43.israel_consents",
+   "verse_start": "GEN.43.11",
+   "verse_end": "GEN.43.12",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [
+    "artifact.gift_for_joseph"
+   ],
+   "location_entity_id": "loc.canaan",
+   "tags": [
+    "gift",
+    "double_silver"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.gift_presented",
+   "system_id": "sys.gift_of_homage",
+   "event_id": "evt.gen_43.joseph_receives_brothers",
+   "verse_start": "GEN.43.26",
+   "verse_end": "GEN.43.26",
+   "initiator_entity_id": "group.joseph_brothers",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [
+    "artifact.gift_for_joseph"
+   ],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "gift",
+    "presentation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.judah_surety",
+   "system_id": "sys.hostage_surety",
+   "event_id": "evt.gen_43.judah_pledges_surety",
+   "verse_start": "GEN.43.9",
+   "verse_end": "GEN.43.9",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.israel",
+    "person.benjamin"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.canaan",
+   "tags": [
+    "surety",
+    "pledge_of_self"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_43.simeon_released",
+   "system_id": "sys.hostage_surety",
+   "event_id": "evt.gen_43.brothers_fear_and_steward",
+   "verse_start": "GEN.43.23",
+   "verse_end": "GEN.43.23",
+   "initiator_entity_id": "person.steward_of_joseph",
+   "target_entity_ids": [
+    "person.simeon"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "release"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_43.brothers_bow_to_joseph",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "BOWS_TO",
+   "verse_id": "GEN.43.26",
+   "event_id": "evt.gen_43.joseph_receives_brothers"
+  },
+  {
+   "edge_id": "edge.gen_43.israel_commissions_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.43.11",
+   "event_id": "evt.gen_43.israel_consents"
+  },
+  {
+   "edge_id": "edge.gen_43.israel_prays_for_mercy",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAYS_TO",
+   "verse_id": "GEN.43.14",
+   "event_id": "evt.gen_43.israel_consents"
+  },
+  {
+   "edge_id": "edge.gen_43.israel_rebukes_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.43.6",
+   "event_id": "evt.gen_43.judah_pledges_surety"
+  },
+  {
+   "edge_id": "edge.gen_43.joseph_blesses_benjamin",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.43.29",
+   "event_id": "evt.gen_43.joseph_receives_brothers"
+  },
+  {
+   "edge_id": "edge.gen_43.joseph_honors_benjamin",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "FAVOURS",
+   "verse_id": "GEN.43.34",
+   "event_id": "evt.gen_43.banquet_at_josephs_house"
+  },
+  {
+   "edge_id": "edge.gen_43.joseph_orders_feast",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.steward_of_joseph",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.43.16",
+   "event_id": "evt.gen_43.brothers_stand_before_joseph"
+  },
+  {
+   "edge_id": "edge.gen_43.judah_pledges_for_benjamin",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "PLEDGES_SURETY_FOR",
+   "verse_id": "GEN.43.9",
+   "event_id": "evt.gen_43.judah_pledges_surety"
+  },
+  {
+   "edge_id": "edge.gen_43.steward_frees_simeon",
+   "source_entity_id": "person.steward_of_joseph",
+   "target_entity_id": "person.simeon",
+   "interaction_type": "RELEASES",
+   "verse_id": "GEN.43.23",
+   "event_id": "evt.gen_43.brothers_fear_and_steward"
+  },
+  {
+   "edge_id": "edge.gen_43.steward_hosts_brothers",
+   "source_entity_id": "person.steward_of_joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "HOSTS",
+   "verse_id": "GEN.43.24",
+   "event_id": "evt.gen_43.brothers_prepare_gift"
+  },
+  {
+   "edge_id": "edge.gen_43.steward_reassures_brothers",
+   "source_entity_id": "person.steward_of_joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "REASSURES",
+   "verse_id": "GEN.43.23",
+   "event_id": "evt.gen_43.brothers_fear_and_steward"
+  }
+ ]
+}

@@ -1,0 +1,731 @@
+{
+ "chapter_ref": "GEN.18",
+ "entities": [
+  {
+   "entity_id": "group.three_visitors",
+   "entity_type": "GROUP",
+   "source_script_name": "שְׁלֹשָׁה אֲנָשִׁים",
+   "transliterated_name": "shelosha anashim",
+   "first_mention_verse": "GEN.18.2"
+  },
+  {
+   "entity_id": "group.two_visitors_to_sodom",
+   "entity_type": "GROUP",
+   "source_script_name": "הָאֲנָשִׁים",
+   "transliterated_name": "ha-anashim",
+   "first_mention_verse": "GEN.18.16"
+  },
+  {
+   "entity_id": "person.servant_of_abraham",
+   "entity_type": "PERSON",
+   "source_script_name": "הַנַּעַר",
+   "transliterated_name": "ha-na'ar",
+   "first_mention_verse": "GEN.18.7"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.birth_announcement",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.divine_judicial_inquiry",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_18.lord_appears_at_mamre",
+   "verse_start": "GEN.18.1",
+   "verse_end": "GEN.18.1",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_17.circumcision_performed",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "time_of_day": "TZOHORAYIM",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.abraham_welcomes_three_men",
+   "verse_start": "GEN.18.2",
+   "verse_end": "GEN.18.5",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.lord_appears_at_mamre",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.three_visitors",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.meal_prepared_and_served",
+   "verse_start": "GEN.18.6",
+   "verse_end": "GEN.18.8",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.abraham_welcomes_three_men",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.three_visitors",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.servant_of_abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.son_promised_to_sarah",
+   "verse_start": "GEN.18.9",
+   "verse_end": "GEN.18.10",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.meal_prepared_and_served",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.three_visitors",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.sarah_laughs",
+   "verse_start": "GEN.18.11",
+   "verse_end": "GEN.18.12",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.son_promised_to_sarah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.lord_questions_laughter",
+   "verse_start": "GEN.18.13",
+   "verse_end": "GEN.18.15",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.sarah_laughs",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.men_rise_toward_sodom",
+   "verse_start": "GEN.18.16",
+   "verse_end": "GEN.18.16",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.lord_questions_laughter",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.three_visitors",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan",
+   "verse_start": "GEN.18.17",
+   "verse_end": "GEN.18.21",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.men_rise_toward_sodom",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.men_go_to_sodom",
+   "verse_start": "GEN.18.22",
+   "verse_end": "GEN.18.22",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.lord_reveals_sodom_plan",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.abraham_intercedes_for_sodom",
+   "verse_start": "GEN.18.23",
+   "verse_end": "GEN.18.32",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.lord_reveals_sodom_plan",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_18.lord_departs_abraham_returns",
+   "verse_start": "GEN.18.33",
+   "verse_end": "GEN.18.33",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_18.abraham_intercedes_for_sodom",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.circumcision_performed.lord_appears_at_mamre",
+   "cause_event_id": "evt.gen_17.circumcision_performed",
+   "effect_event_id": "evt.gen_18.lord_appears_at_mamre",
+   "causal_type": "ENABLES",
+   "confidence": 0.4
+  },
+  {
+   "causal_id": "caus.gen_18.lord_reveals_sodom_plan.abraham_intercedes_for_sodom",
+   "cause_event_id": "evt.gen_18.lord_reveals_sodom_plan",
+   "effect_event_id": "evt.gen_18.abraham_intercedes_for_sodom",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_18.lord_reveals_sodom_plan.men_go_to_sodom",
+   "cause_event_id": "evt.gen_18.lord_reveals_sodom_plan",
+   "effect_event_id": "evt.gen_18.men_go_to_sodom",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_18.sarah_laughs.lord_questions_laughter",
+   "cause_event_id": "evt.gen_18.sarah_laughs",
+   "effect_event_id": "evt.gen_18.lord_questions_laughter",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.election.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "election",
+   "value_code": "CHOSEN_TO_TEACH_JUSTICE",
+   "acquired_at_verse": "GEN.18.19",
+   "acquired_in_event": "evt.gen_18.lord_reveals_sodom_plan"
+  },
+  {
+   "component_id": "comp.abraham.intercession.1",
+   "entity_id": "person.abraham",
+   "category": "ROLE_TITLE",
+   "component_key": "intercession",
+   "value_code": "INTERCESSOR_FOR_SODOM",
+   "acquired_at_verse": "GEN.18.23",
+   "acquired_in_event": "evt.gen_18.abraham_intercedes_for_sodom",
+   "expired_at_verse": "GEN.18.33",
+   "expired_in_event": "evt.gen_18.lord_departs_abraham_returns"
+  },
+  {
+   "component_id": "comp.sarah.mood.1",
+   "entity_id": "person.sarah",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "INWARD_DOUBT",
+   "acquired_at_verse": "GEN.18.12",
+   "acquired_in_event": "evt.gen_18.sarah_laughs",
+   "expired_at_verse": "GEN.18.15",
+   "expired_in_event": "evt.gen_18.lord_questions_laughter"
+  },
+  {
+   "component_id": "comp.sarah.mood.2",
+   "entity_id": "person.sarah",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "AFRAID",
+   "supersedes_component_id": "comp.sarah.mood.1",
+   "acquired_at_verse": "GEN.18.15",
+   "acquired_in_event": "evt.gen_18.lord_questions_laughter",
+   "expired_at_verse": "GEN.18.15",
+   "expired_in_event": "evt.gen_18.lord_questions_laughter"
+  },
+  {
+   "component_id": "comp.sarah.son_promise.1",
+   "entity_id": "person.sarah",
+   "category": "TRAIT",
+   "component_key": "son_promise",
+   "value_code": "SON_PROMISED_WITHIN_A_YEAR",
+   "acquired_at_verse": "GEN.18.10",
+   "acquired_in_event": "evt.gen_18.son_promised_to_sarah"
+  },
+  {
+   "component_id": "comp.yhwh.inquiry.1",
+   "entity_id": "deity.yhwh",
+   "category": "PSYCH_STATE",
+   "component_key": "inquiry",
+   "value_code": "INVESTIGATING_OUTCRY",
+   "acquired_at_verse": "GEN.18.20",
+   "acquired_in_event": "evt.gen_18.lord_reveals_sodom_plan"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_18.abraham_bargains",
+   "system_id": "sys.petition_prayer",
+   "event_id": "evt.gen_18.abraham_intercedes_for_sodom",
+   "verse_start": "GEN.18.23",
+   "verse_end": "GEN.18.32",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "deity.yhwh",
+    "loc.sodom"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "intercession",
+    "descending_numbers"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_18.birth_announced",
+   "system_id": "sys.birth_announcement",
+   "event_id": "evt.gen_18.son_promised_to_sarah",
+   "verse_start": "GEN.18.10",
+   "verse_end": "GEN.18.10",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.sarah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "son",
+    "appointed_time"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_18.bowing_to_guests",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_18.abraham_welcomes_three_men",
+   "verse_start": "GEN.18.2",
+   "verse_end": "GEN.18.2",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "group.three_visitors"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "bowing",
+    "hospitality"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_18.feast_for_visitors",
+   "system_id": "sys.hospitality_meal",
+   "event_id": "evt.gen_18.meal_prepared_and_served",
+   "verse_start": "GEN.18.6",
+   "verse_end": "GEN.18.8",
+   "initiator_entity_id": "person.abraham",
+   "target_entity_ids": [
+    "group.three_visitors"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "calf",
+    "curds",
+    "milk",
+    "bread_cakes"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_18.lord_appears",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_18.lord_appears_at_mamre",
+   "verse_start": "GEN.18.1",
+   "verse_end": "GEN.18.1",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "human_form",
+    "midday"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_18.sodom_outcry_inquiry",
+   "system_id": "sys.divine_judicial_inquiry",
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan",
+   "verse_start": "GEN.18.20",
+   "verse_end": "GEN.18.21",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.sodom",
+    "loc.gomorrah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mamre",
+   "tags": [
+    "outcry",
+    "descent_to_verify"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_18.abraham_commands_sarah",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.18.6",
+   "event_id": "evt.gen_18.meal_prepared_and_served"
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_commands_servant",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "person.servant_of_abraham",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.18.7",
+   "event_id": "evt.gen_18.meal_prepared_and_served"
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_escorts_visitors",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.three_visitors",
+   "interaction_type": "ESCORTS",
+   "verse_id": "GEN.18.16",
+   "event_id": "evt.gen_18.men_rise_toward_sodom"
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_invites_visitors",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.three_visitors",
+   "interaction_type": "INVITES",
+   "verse_id": "GEN.18.3",
+   "event_id": "evt.gen_18.abraham_welcomes_three_men"
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_pleads_with_yhwh",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PLEADS_WITH",
+   "verse_id": "GEN.18.23",
+   "event_id": "evt.gen_18.abraham_intercedes_for_sodom"
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_serves_visitors",
+   "source_entity_id": "person.abraham",
+   "target_entity_id": "group.three_visitors",
+   "interaction_type": "SERVES",
+   "verse_id": "GEN.18.8",
+   "event_id": "evt.gen_18.meal_prepared_and_served"
+  },
+  {
+   "edge_id": "edge.gen_18.sarah_denies_laughing",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.18.15",
+   "event_id": "evt.gen_18.lord_questions_laughter"
+  },
+  {
+   "edge_id": "edge.gen_18.sarah_doubts_promise",
+   "source_entity_id": "person.sarah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "DOUBTS",
+   "verse_id": "GEN.18.12",
+   "event_id": "evt.gen_18.sarah_laughs"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_chooses_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "CHOOSES",
+   "verse_id": "GEN.18.19",
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_confides_in_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "CONFIDES_IN",
+   "verse_id": "GEN.18.17",
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_confronts_sarah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "CONFRONTS",
+   "verse_id": "GEN.18.15",
+   "event_id": "evt.gen_18.lord_questions_laughter"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_judges_sodom",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.sodom",
+   "interaction_type": "INVESTIGATES",
+   "verse_id": "GEN.18.21",
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_promises_mercy",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.sodom",
+   "interaction_type": "PROMISES_MERCY_TO",
+   "verse_id": "GEN.18.26",
+   "event_id": "evt.gen_18.abraham_intercedes_for_sodom"
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_promises_son_to_sarah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.sarah",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.18.10",
+   "event_id": "evt.gen_18.son_promised_to_sarah"
+  }
+ ]
+}

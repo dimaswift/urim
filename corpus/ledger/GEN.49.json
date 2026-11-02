@@ -1,0 +1,200 @@
+{
+ "chapter_ref": "GEN.49",
+ "items": {
+  "event:evt.gen_49.benjamin_and_summary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.burial_charge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.jacob_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [
+    "Jacob's death at 147 by the age count is c. 1859 BCE, against c. 1860 BCE in the scene chain. Kept the chain and noted the difference."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": "[consider] Reword the note: the chain date is about two months before the age-derived date, which is within the unknown birth month, so the two agree. (GEN.47.28: \"so the whole age of Jacob was an hundred forty and seven years\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.jacob_summons_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [
+    "'In the last days' (49:1) is a prophetic horizon, not a date. Ramban and Sforno read it as the days of the Messiah; I have not turned it into a time offset."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.oracles_first_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [
+    "Jacob's oracles about Simeon and Levi (49:7), Judah (49:10) and the others are prophecies; they are fulfilled in later books (tribal allotments, Joshua and following), not in Genesis, so no FULFILLS_PROPHECY link is written here. Gen 48:21 ('God will bring you back') and the burial charge are fulfilled in Gen 50, whose session should link them to this chapter's burial_charge."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_49.oracles_other_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:05:39+00:00",
+     "note": "[consider] Add a few words to the summary for Jacob's interjection after Dan's oracle, saying he waits for the LORD's salvation. (GEN.49.18: \"I have waited for thy salvation, O LORD.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Every verse 1-33 is covered. The oracles are grouped by blocks (Reuben-Judah, six later sons, Joseph, Benjamin) rather than one event per son; the ontologist can attach each son as a participant. All sub-events are sequential rather than parent/child, since each is a stage of one speech.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:04:18+00:00"
+  },
+  {
+   "note": "Every verse 1-33 is covered. The oracles are grouped by blocks (Reuben-Judah, six later sons, Joseph, Benjamin) rather than one event per son; the ontologist can attach each son as a participant. All sub-events are sequential rather than parent/child, since each is a stage of one speech.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:09+00:00"
+  },
+  {
+   "note": "[event:evt.gen_49.oracles_first_sons] Jacob's oracles about Simeon and Levi (49:7), Judah (49:10) and the others are prophecies; they are fulfilled in later books (tribal allotments, Joshua and following), not in Genesis, so no FULFILLS_PROPHECY link is written here. Gen 48:21 ('God will bring you back') and the burial charge are fulfilled in Gen 50, whose session should link them to this chapter's burial_charge.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:09+00:00"
+  },
+  {
+   "note": "[event:evt.gen_49.jacob_dies] Jacob's death at 147 by the age count is c. 1859 BCE, against c. 1860 BCE in the scene chain. Kept the chain and noted the difference.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:09+00:00"
+  },
+  {
+   "note": "[event:evt.gen_49.burial_charge] Per reviewer request the ENABLES link from the oath of 47:29-31 and the link to jacob_dies are removed: the two burial requests are one wish stated twice, and the order of the charge and the death is already in the time chain. The earlier oath (47:29-31) is only recorded here; the locked event text is unchanged.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:09+00:00"
+  },
+  {
+   "note": "[event:evt.gen_49.jacob_summons_sons] 'In the last days' (49:1) is a prophetic horizon, not a date. Ramban and Sforno read it as the days of the Messiah; I have not turned it into a time offset.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:06:09+00:00"
+  }
+ ]
+}

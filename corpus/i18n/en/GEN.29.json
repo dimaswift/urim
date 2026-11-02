@@ -1,0 +1,506 @@
+{
+ "chapter_ref": "GEN.29",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_29.journey_to_haran",
+   "title": "Jacob travels on to the land of the east",
+   "narrative_summary": "Jacob sets out from Bethel and goes to the land of the people of the east.",
+   "temporal_reasoning_note": "Anchored on Jacob's birth, not on the vow at Bethel: offset 76.83 years (76 years 10 months), margin 1 year. The text gives no age here, but the second seven years must end at about Jacob 91, Joseph's birth (30:25; 31:41; 41:46 with 45:6; 47:9). Working back, the wedding request (29:21) falls at about Jacob 84, as Rashi says on 29:21, so arrival is at about 77. The journey itself: Bethel to Haran is about 813 km by road, 29 days on foot at 28 km a day (urim travel, walk, 4 km/h)."
+  },
+  {
+   "event_id": "evt.gen_29.shepherds_at_well",
+   "title": "Jacob questions the shepherds at the well",
+   "narrative_summary": "Jacob finds a well in the field with three flocks lying by it and a great stone on its mouth. The shepherds say they are from Haran and know Laban, and that Rachel is coming. Jacob tells them it is still high day, and they answer that they must wait until all the flocks are gathered.",
+   "temporal_reasoning_note": "Starts when the journey ends. 'It is still high day' (29:7) shows it is daytime but gives no hour, so the tier stays DAY_SEQUENCE. A short conversation of about an hour; margin 12 hours for the arrival time.",
+   "ancient_diurnal_marker": "Still the high day"
+  },
+  {
+   "event_id": "evt.gen_29.rachel_arrives",
+   "title": "Rachel arrives and Jacob waters her flock",
+   "narrative_summary": "While Jacob is still speaking, Rachel comes with her father's sheep. Jacob rolls the stone from the well and waters Laban's flock, kisses Rachel and weeps, and tells her he is her father's kinsman and Rebekah's son. She runs and tells her father.",
+   "temporal_reasoning_note": "'While he was yet speaking with them' (29:9): begins as the previous scene ends, about half an hour, margin 15 minutes.",
+   "ancient_diurnal_marker": "While he was still speaking"
+  },
+  {
+   "event_id": "evt.gen_29.laban_welcomes",
+   "title": "Laban embraces Jacob and takes him home",
+   "narrative_summary": "When Laban hears the news of his sister's son, he runs to meet him, embraces and kisses him, and brings him to his house. Jacob tells him everything, and Laban says he is his bone and flesh.",
+   "temporal_reasoning_note": "Rachel ran to tell her father (29:12), so Laban hears within an hour of the well scene; offset 1 hour, then the greeting and the account take about 2 hours."
+  },
+  {
+   "event_id": "evt.gen_29.month_stay",
+   "title": "Jacob stays with Laban a month",
+   "narrative_summary": "Jacob lives with Laban for a month of days.",
+   "temporal_reasoning_note": "'A month of days' (29:14), taken as about one synodic month (29.53 days); margin 3 days. Ibn Ezra refers to an earlier comment on the phrase, which does not change the length.",
+   "ancient_season_marker": "A month of days"
+  },
+  {
+   "event_id": "evt.gen_29.wages_bargain",
+   "title": "Laban asks Jacob's wages and Jacob offers seven years for Rachel",
+   "narrative_summary": "Laban says Jacob should not serve him for nothing and asks his wages. Jacob, who loves Rachel, the younger and more beautiful of Laban's two daughters, offers seven years of service for her, and Laban agrees.",
+   "temporal_reasoning_note": "Follows the month of 29:14, so it is anchored on its end. A conversation of about an hour; margin 3 days because the text does not say the talk came right at the month's end. 29:16-17 describe Leah and Rachel as background."
+  },
+  {
+   "event_id": "evt.gen_29.seven_years_service",
+   "title": "Jacob serves Laban seven years for Rachel",
+   "narrative_summary": "Jacob serves seven years for Rachel, and they seem to him only a few days because of his love for her.",
+   "temporal_reasoning_note": "The text states seven years (29:18, 20). They run from the agreement; margin 1 month.",
+   "ancient_year_marker": "Seven years"
+  },
+  {
+   "event_id": "evt.gen_29.demand_wife",
+   "title": "Jacob asks Laban for his wife",
+   "narrative_summary": "Jacob tells Laban to give him his wife, since his days are fulfilled, so that he may go in to her.",
+   "temporal_reasoning_note": "'My days are fulfilled' (29:21): the end of the seven years. Rashi and Ramban add the sense of Jacob's age and the twelve tribes; Ramban gives other readings, including that the service was nearly complete. A short speech, margin 1 day.",
+   "ancient_year_marker": "My days are fulfilled"
+  },
+  {
+   "event_id": "evt.gen_29.wedding_feast",
+   "title": "Laban gathers the men of the place for a feast",
+   "narrative_summary": "Laban gathers all the men of the place and makes a feast.",
+   "temporal_reasoning_note": "Follows Jacob's demand; the text gives no hour, so it is set at midday (12:00, the first midday after the demand) for a few hours, margin 1 day, so that it ends before the evening scene (29:23), which starts at EREV that day."
+  },
+  {
+   "event_id": "evt.gen_29.leah_wedding_night",
+   "title": "Laban brings Leah to Jacob in the evening",
+   "narrative_summary": "In the evening Laban takes his daughter Leah and brings her to Jacob, who goes in to her. Laban gives her Zilpah as her maid.",
+   "temporal_reasoning_note": "'In the evening' (29:23), EREV, 18:00; the night lasts about 12 hours. It is anchored on the feast's start so the EREV is that day's sunset.",
+   "ancient_diurnal_marker": "In the evening"
+  },
+  {
+   "event_id": "evt.gen_29.morning_discovery",
+   "title": "Jacob finds it is Leah and Laban excuses himself",
+   "narrative_summary": "In the morning Jacob sees that it is Leah and asks Laban why he has deceived him. Laban says it is not done in their place to give the younger before the firstborn, and offers Rachel too if Jacob completes Leah's week and serves seven more years.",
+   "temporal_reasoning_note": "'In the morning' (29:25): the first BOKER after the wedding night starts, 06:00. About an hour of talk.",
+   "ancient_diurnal_marker": "In the morning"
+  },
+  {
+   "event_id": "evt.gen_29.rachel_given",
+   "title": "Jacob completes Leah's week and receives Rachel",
+   "narrative_summary": "Jacob does as Laban says and completes Leah's week, and Laban gives him Rachel as a wife, with Bilhah as her maid. Jacob goes in to Rachel and loves her more than Leah.",
+   "temporal_reasoning_note": "'Fulfil her week' (29:27, 28) is the seven days of the feast (Rashbam, Ibn Ezra, Ramban, Pseudo-Jonathan). Counting from the evening of Leah's wedding night, Rachel is given 7 days later in the evening; margin 1 day for the inclusive count.",
+   "ancient_season_marker": "Her week"
+  },
+  {
+   "event_id": "evt.gen_29.second_service",
+   "title": "Jacob serves seven more years for Rachel",
+   "narrative_summary": "Jacob serves Laban another seven years.",
+   "temporal_reasoning_note": "'Yet seven other years' (29:27, 30), after receiving Rachel; stated in the text. Margin 1 month.",
+   "ancient_year_marker": "Seven other years"
+  },
+  {
+   "event_id": "evt.gen_29.reuben_born",
+   "title": "The LORD sees Leah is hated and she bears Reuben",
+   "narrative_summary": "The LORD sees that Leah is hated and opens her womb, while Rachel is barren. Leah conceives and bears a son, Reuben, saying the LORD has seen her affliction.",
+   "temporal_reasoning_note": "No time word. A birth about 9 months after the wedding night, margin 3 months. REGNAL_YEAR because it falls in the stated seven years of Rachel's second service."
+  },
+  {
+   "event_id": "evt.gen_29.simeon_born",
+   "title": "Leah bears Simeon",
+   "narrative_summary": "Leah conceives again and bears Simeon, saying the LORD has heard that she is hated.",
+   "temporal_reasoning_note": "'Again' (29:33): about 11 months after Reuben's birth, margin 3 months; an estimate."
+  },
+  {
+   "event_id": "evt.gen_29.levi_born",
+   "title": "Leah bears Levi",
+   "narrative_summary": "Leah conceives again and bears Levi, hoping her husband will be joined to her because she has borne three sons.",
+   "temporal_reasoning_note": "'Again' (29:34): about 11 months after Simeon's birth, margin 3 months; an estimate."
+  },
+  {
+   "event_id": "evt.gen_29.judah_born",
+   "title": "Leah bears Judah and stops bearing",
+   "narrative_summary": "Leah conceives again and bears Judah, saying she will praise the LORD. Then she stops bearing for a time.",
+   "temporal_reasoning_note": "'Again' (29:35): about 11 months after Levi's birth, margin 3 months; an estimate."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_29.demand_wife.wedding_feast",
+   "causal_explanation": "Jacob's request leads Laban to gather the men of the place and make a feast (29:22)."
+  },
+  {
+   "causal_id": "caus.gen_29.leah_wedding_night.morning_discovery",
+   "causal_explanation": "Jacob sees in the morning that the woman he went in to is Leah (29:25)."
+  },
+  {
+   "causal_id": "caus.gen_29.morning_discovery.rachel_given",
+   "causal_explanation": "Jacob's protest leads Laban to offer Rachel after Leah's week and seven more years of service (29:26-28)."
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_arrives.laban_welcomes",
+   "causal_explanation": "Rachel runs and tells her father who Jacob is, and Laban runs to meet him (29:12-13)."
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_given.reuben_born",
+   "causal_explanation": "Jacob's greater love for Rachel makes Leah hated, and the LORD opens her womb (29:30-31)."
+  },
+  {
+   "causal_id": "caus.gen_29.rachel_given.second_service",
+   "causal_explanation": "Rachel is given on condition of another seven years of service, which Jacob serves (29:27, 30)."
+  },
+  {
+   "causal_id": "caus.gen_29.seven_years_service.demand_wife",
+   "causal_explanation": "When the seven years are complete, Jacob claims his wife (29:21)."
+  },
+  {
+   "causal_id": "caus.gen_29.wages_bargain.seven_years_service",
+   "causal_explanation": "Laban accepts Jacob's offer of seven years for Rachel, and Jacob serves them (29:18-20)."
+  },
+  {
+   "causal_id": "caus.gen_29.wedding_feast.leah_wedding_night",
+   "causal_explanation": "The feast gives Laban the occasion to bring Leah to Jacob in the evening (29:22-23)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.well_stone",
+   "canonical_name": "The stone on the well",
+   "phonetic_name": "ha-EH-ven",
+   "aliases": [
+    "great stone"
+   ],
+   "etymology_meaning": "Hebrew 'even, 'stone'.",
+   "summary_bio": "A great stone over the mouth of the well, normally moved by the shepherds together. Jacob rolls it away alone when he sees Rachel."
+  },
+  {
+   "entity_id": "group.men_of_the_place",
+   "canonical_name": "The men of the place",
+   "phonetic_name": "an-SHAY ham-ma-KOME",
+   "aliases": [],
+   "etymology_meaning": "Hebrew 'anshe hammaqom, 'the men of the place'.",
+   "summary_bio": "The local men whom Laban gathers for a feast before Jacob's wedding night."
+  },
+  {
+   "entity_id": "group.shepherds_of_haran",
+   "canonical_name": "The shepherds of Haran",
+   "phonetic_name": "ro-EEM",
+   "aliases": [
+    "the shepherds at the well"
+   ],
+   "etymology_meaning": "Named for their place of origin.",
+   "summary_bio": "Shepherds waiting with three flocks at the well, who tell Jacob they are from Haran and know Laban. They explain they cannot water the sheep until all the flocks have gathered."
+  },
+  {
+   "entity_id": "loc.well_of_haran",
+   "canonical_name": "The well in the field",
+   "phonetic_name": "be-AIR",
+   "aliases": [
+    "the well"
+   ],
+   "etymology_meaning": "Hebrew be'er, 'well'.",
+   "summary_bio": "A well in open country in the land of the east, near Haran, where three flocks lie waiting. A great stone covers its mouth and is rolled off only when all the flocks have gathered. Jacob meets Rachel here."
+  },
+  {
+   "entity_id": "person.leah",
+   "canonical_name": "Leah",
+   "phonetic_name": "Lay-AH",
+   "aliases": [],
+   "etymology_meaning": "Uncertain; perhaps 'wild cow' or 'weary' (probably).",
+   "summary_bio": "Elder daughter of Laban, described as having weak or tender eyes. Laban gives her to Jacob in place of Rachel. Unloved, she is given children by the LORD and bears Reuben, Simeon, Levi and Judah."
+  },
+  {
+   "entity_id": "person.levi",
+   "canonical_name": "Levi",
+   "phonetic_name": "Lay-VEE",
+   "aliases": [],
+   "etymology_meaning": "Leah links the name to 'joined' (yillaveh); folk etymology.",
+   "summary_bio": "Third son of Jacob and Leah, born in Haran. Leah names him in the hope that her husband will be joined to her now she has borne three sons."
+  },
+  {
+   "entity_id": "person.nahor",
+   "canonical_name": "Nahor",
+   "phonetic_name": "Nah-KHOHR",
+   "aliases": [],
+   "etymology_meaning": "Uncertain; possibly 'snorer' or 'piercer' (probably).",
+   "summary_bio": "Brother of Abraham and father of Bethuel, hence grandfather of Laban and Rebekah. Named in 29.5, where Jacob asks the shepherds whether they know Laban son of Nahor; 'son of Nahor' there means grandson, since Laban's father was Bethuel (24.29)."
+  },
+  {
+   "entity_id": "person.rachel",
+   "canonical_name": "Rachel",
+   "phonetic_name": "Rah-KHEL",
+   "aliases": [],
+   "etymology_meaning": "Hebrew for 'ewe', a sheep (a fitting name for a shepherdess).",
+   "summary_bio": "Younger daughter of Laban and Jacob's cousin, who comes to the well with her father's flock. Jacob loves her at first sight and serves seven years for her, then seven more. She is barren at first while her sister Leah bears sons."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.bilhah.serves.1",
+   "label_key": "Serves",
+   "label_value": "Maidservant to Rachel",
+   "evidence_explanation": "29.29: Laban gave Bilhah to Rachel 'for a maidservant'."
+  },
+  {
+   "component_id": "comp.israel.beloved.1",
+   "label_key": "Beloved",
+   "label_value": "Loves Rachel",
+   "evidence_explanation": "29.18: 'Jacob loved Rachel'."
+  },
+  {
+   "component_id": "comp.israel.serves.1",
+   "label_key": "Serves",
+   "label_value": "Serving Laban",
+   "evidence_explanation": "29.20: 'Jacob served seven years for Rachel'; renewed at 29.30."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.2",
+   "label_key": "Whereabouts",
+   "label_value": "At Haran",
+   "evidence_explanation": "29.4: the shepherds say 'We are from Haran', and Jacob is among them in the land of the east."
+  },
+  {
+   "component_id": "comp.leah.fertility.1",
+   "label_key": "Fertility",
+   "label_value": "Womb opened",
+   "evidence_explanation": "29.31: the LORD 'opened her womb'; she bears four sons by 29.35."
+  },
+  {
+   "component_id": "comp.leah.fertility.2",
+   "label_key": "Fertility",
+   "label_value": "Stopped bearing",
+   "evidence_explanation": "29.35: 'she stopped bearing'."
+  },
+  {
+   "component_id": "comp.leah.husband.1",
+   "label_key": "Husband",
+   "label_value": "Wife of Jacob",
+   "evidence_explanation": "29.23: Laban brings Leah to Jacob 'and he went in to her'."
+  },
+  {
+   "component_id": "comp.leah.standing.1",
+   "label_key": "Standing",
+   "label_value": "Hated (unloved)",
+   "evidence_explanation": "29.31: 'the LORD saw that Leah was hated'; 29.33 repeats it."
+  },
+  {
+   "component_id": "comp.rachel.fertility.1",
+   "label_key": "Fertility",
+   "label_value": "Barren",
+   "evidence_explanation": "29.31: 'Rachel was barren'."
+  },
+  {
+   "component_id": "comp.rachel.husband.1",
+   "label_key": "Husband",
+   "label_value": "Wife of Jacob",
+   "evidence_explanation": "29.28: Laban gave Jacob 'Rachel his daughter to wife'."
+  },
+  {
+   "component_id": "comp.zilpah.serves.1",
+   "label_key": "Serves",
+   "label_value": "Maidservant to Leah",
+   "evidence_explanation": "29.24: Laban gave Zilpah to Leah 'for a maidservant'."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.bridal_maidservant",
+   "name": "Maidservant given with the bride",
+   "ancient_near_east_context": "Fathers commonly gave a maidservant to a daughter at marriage as part of her dowry; the maid stayed her mistress's property. Marriage contracts from Nuzi and elsewhere mention such gifts.",
+   "rules_and_mechanics": [
+    "The father gives the maidservant to his daughter.",
+    "The maid serves the bride, not the husband.",
+    "Her status stays with the mistress (later a surrogate in Gen 30)."
+   ]
+  },
+  {
+   "system_id": "sys.bride_service",
+   "name": "Service in place of bridewealth",
+   "ancient_near_east_context": "Where a groom lacked wealth, he could work for the bride's father for a set term in place of a bridewealth payment (mohar). Mesopotamian and Nuzi texts attest similar arrangements, including adoptive or live-in sons-in-law.",
+   "rules_and_mechanics": [
+    "The suitor and the bride's father agree a term of labour.",
+    "The bride is given when the term is complete.",
+    "The father controls the bride's marriage."
+   ]
+  },
+  {
+   "system_id": "sys.wedding_feast",
+   "name": "Wedding feast",
+   "ancient_near_east_context": "Marriages in the ancient Near East were marked by a feast hosted by the bride's family, with the community as witnesses. The text of Genesis 29 does not state the feast's duration; later texts (Judg 14) mention a seven-day feast.",
+   "rules_and_mechanics": [
+    "The bride's father hosts and invites the men of the community.",
+    "The community witnesses the marriage.",
+    "The bride is brought to the groom in the evening."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_29.bilhah_given",
+   "outcome_summary": "Laban gives Bilhah to Rachel as her maidservant.",
+   "significance_note": "Bilhah later bears Dan and Naphtali (Gen 30)."
+  },
+  {
+   "instance_id": "inst.gen_29.judah_named",
+   "outcome_summary": "Leah names her fourth son Judah and says she will praise the LORD.",
+   "significance_note": "Her focus turns from her husband to the LORD; ancestor of the tribe of Judah and the kings."
+  },
+  {
+   "instance_id": "inst.gen_29.leah_substituted",
+   "outcome_summary": "Laban brings Leah instead of Rachel, and Jacob finds out only in the morning.",
+   "significance_note": "The deceiver (Gen 27) is deceived; the younger-before-elder reversal is repaid by Laban's custom of the firstborn."
+  },
+  {
+   "instance_id": "inst.gen_29.levi_named",
+   "outcome_summary": "Leah names her third son Levi, hoping her husband will now be joined to her.",
+   "significance_note": "Wordplay on 'yillaveh' (be joined); anticipates the tribe of Levi."
+  },
+  {
+   "instance_id": "inst.gen_29.marriage_leah",
+   "outcome_summary": "Jacob goes in to Leah and she becomes his wife.",
+   "significance_note": "Leah becomes the mother of Judah and Levi, tribes of priestly and royal importance."
+  },
+  {
+   "instance_id": "inst.gen_29.marriage_rachel",
+   "outcome_summary": "After Leah's week Jacob receives Rachel as his wife.",
+   "significance_note": "He has the wife he worked for, but two sisters in one household sets up the rivalry."
+  },
+  {
+   "instance_id": "inst.gen_29.reuben_named",
+   "outcome_summary": "Leah names her firstborn Reuben ('see, a son'), saying the LORD has seen her affliction.",
+   "significance_note": "Wordplay on 'ra'ah' (see); she hopes for her husband's love."
+  },
+  {
+   "instance_id": "inst.gen_29.second_service",
+   "outcome_summary": "After marrying Rachel, Jacob serves Laban another seven years.",
+   "significance_note": "The price of the unequal bargain; Laban gains fourteen years of labour."
+  },
+  {
+   "instance_id": "inst.gen_29.service_for_rachel",
+   "outcome_summary": "Jacob serves Laban seven years for Rachel, and the years feel like a few days.",
+   "significance_note": "Mirrors the exile that began in flight; Jacob pays with labour for the marriage and begins to be deceived in turn."
+  },
+  {
+   "instance_id": "inst.gen_29.simeon_named",
+   "outcome_summary": "Leah names her second son Simeon, because the LORD has heard she is hated.",
+   "significance_note": "Wordplay on 'shama' (hear); the LORD answers the unloved wife."
+  },
+  {
+   "instance_id": "inst.gen_29.wedding_feast",
+   "outcome_summary": "Laban gathers the men of the place and holds a feast.",
+   "significance_note": "The public setting makes it harder to undo the substitution that follows."
+  },
+  {
+   "instance_id": "inst.gen_29.womb_opened",
+   "outcome_summary": "The LORD sees that Leah is hated and opens her womb; Rachel stays barren.",
+   "significance_note": "Divine care for the unloved wife; begins the childbearing rivalry."
+  },
+  {
+   "instance_id": "inst.gen_29.zilpah_given",
+   "outcome_summary": "Laban gives Zilpah to Leah as her maidservant.",
+   "significance_note": "Zilpah later bears Gad and Asher (Gen 30)."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_29.jacob_confronts_laban",
+   "interaction_label": "confronts",
+   "description": "Jacob asks Laban what he has done and why he deceived him."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_demands_wife",
+   "interaction_label": "demands his wife from",
+   "description": "Jacob asks Laban for his wife, since his days are fulfilled."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_kisses_rachel",
+   "interaction_label": "kisses",
+   "description": "Jacob kisses Rachel and weeps aloud on meeting her."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_loves_rachel",
+   "interaction_label": "loves",
+   "description": "Jacob loves Rachel."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_offers_service",
+   "interaction_label": "proposes seven years to",
+   "description": "Jacob offers to serve Laban seven years for Rachel."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_tells_rachel",
+   "interaction_label": "tells",
+   "description": "Jacob tells Rachel he is her father's kinsman and Rebekah's son."
+  },
+  {
+   "edge_id": "edge.gen_29.jacob_waters_flock",
+   "interaction_label": "waters the flock of",
+   "description": "Jacob rolls the stone from the well alone and waters Laban's sheep for Rachel."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_accepts",
+   "interaction_label": "agrees with",
+   "description": "Laban says it is better to give Rachel to Jacob than to another man."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_asks_wages",
+   "interaction_label": "asks to name wages",
+   "description": "Laban says Jacob should not serve for nothing and asks what his wages should be."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_deceives_jacob",
+   "interaction_label": "deceives",
+   "description": "Laban brings Leah to Jacob in the evening instead of Rachel."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_embraces_jacob",
+   "interaction_label": "embraces",
+   "description": "Laban runs to meet Jacob, embraces and kisses him and brings him to his house."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_excuses_himself",
+   "interaction_label": "answers",
+   "description": "Laban says it is not done to give the younger before the firstborn and proposes seven more years."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_bilhah",
+   "interaction_label": "gives",
+   "description": "Laban gives his maidservant Bilhah to Rachel."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_rachel",
+   "interaction_label": "gives in marriage",
+   "description": "Laban gives Rachel to Jacob as wife after Leah's week."
+  },
+  {
+   "edge_id": "edge.gen_29.laban_gives_zilpah",
+   "interaction_label": "gives",
+   "description": "Laban gives his maidservant Zilpah to Leah."
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_judah",
+   "interaction_label": "names",
+   "description": "Leah names her son Judah."
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_levi",
+   "interaction_label": "names",
+   "description": "Leah names her son Levi."
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_reuben",
+   "interaction_label": "names",
+   "description": "Leah names her son Reuben."
+  },
+  {
+   "edge_id": "edge.gen_29.leah_names_simeon",
+   "interaction_label": "names",
+   "description": "Leah names her son Simeon."
+  },
+  {
+   "edge_id": "edge.gen_29.leah_praises_yhwh",
+   "interaction_label": "praises",
+   "description": "Leah says she will praise the LORD for her fourth son."
+  },
+  {
+   "edge_id": "edge.gen_29.yhwh_hears_leah",
+   "interaction_label": "hears",
+   "description": "The LORD hears that Leah is hated and gives her another son."
+  },
+  {
+   "edge_id": "edge.gen_29.yhwh_sees_leah",
+   "interaction_label": "opens the womb of",
+   "description": "The LORD sees that Leah is hated and opens her womb."
+  }
+ ]
+}

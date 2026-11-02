@@ -1,0 +1,323 @@
+{
+ "chapter_ref": "GEN.28",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_28.isaac_charges_jacob",
+   "title": "Isaac blesses Jacob and sends him to Laban",
+   "narrative_summary": "Isaac calls Jacob, blesses him and forbids him a Canaanite wife. He tells him to go to Bethuel's house in Paddan-aram and take a daughter of Laban, and prays that God Almighty will give him the blessing of Abraham.",
+   "temporal_reasoning_note": "Follows directly on Rebekah's complaint in 27:46 ('Then Isaac called'), no gap marked. Anchored on that event's END with no offset; margin one day for counting. The speech takes about half an hour. DAY_SEQUENCE: the scene continues the sequence of days begun in ch. 27."
+  },
+  {
+   "event_id": "evt.gen_28.jacob_departs",
+   "title": "Jacob leaves Beersheba for Haran",
+   "narrative_summary": "Isaac sends Jacob away and he obeys his father and mother, setting out from Beersheba toward Paddan-aram and Laban the Aramean.",
+   "temporal_reasoning_note": "Departure day not stated; set one day after the charge (preparation), margin two days. Duration is the walk to Bethel: ~106 km by road, on foot ~28 km a day, ~3 days (urim travel Beersheba to Bethel, walk). Targum Pseudo-Jonathan shortens this to a single day by miracle (see reviewer note). DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_28.esau_marries_mahalath",
+   "title": "Esau marries Ishmael's daughter Mahalath",
+   "narrative_summary": "Esau sees that Isaac blessed Jacob, sent him to Paddan-aram and forbade Canaanite wives, and that the Canaanite women displease Isaac. He goes to Ishmael and takes Mahalath, Ishmael's daughter and Nebaioth's sister, as a further wife.",
+   "temporal_reasoning_note": "No time given; Esau acts after seeing that Jacob has been sent and has gone (28:6–7). Anchored on the departure END with offset 20 days and margin 20 days, so the whole window (0 to 40 days) falls after Jacob has left; about five days for the errand. Ishmael's death is dated c. 1944 BCE (25:17, evt.gen_25.ishmael_death), so 'went to Ishmael' (28:9) must mean his house or family, with Nebaioth presumably giving the sister; the tension is left to the reviewer. An estimate within the sequence, DAY_SEQUENCE (no finer cue)."
+  },
+  {
+   "event_id": "evt.gen_28.night_at_bethel",
+   "title": "Jacob stops at a place at sunset and sleeps on a stone",
+   "narrative_summary": "Jacob reaches a certain place and stays the night because the sun has set. He takes one of its stones for his head and lies down there.",
+   "temporal_reasoning_note": "'Because the sun had set' (28:11): EREV, snapped to the first evening at or after the departure start plus two days (the walk is about three days, so he arrives on the third day at sunset). Margin 12 hours. Rashbam on 28:11 says he had no time to enter the town by day. Duration three hours until he sleeps. DIURNAL_HOUR for the stated sunset.",
+   "ancient_diurnal_marker": "For the sun had set"
+  },
+  {
+   "event_id": "evt.gen_28.ladder_dream",
+   "title": "Jacob dreams of a ladder with angels",
+   "narrative_summary": "Jacob dreams of a stairway set on the earth, its top reaching heaven, with God's angels going up and down on it.",
+   "temporal_reasoning_note": "Follows his lying down at night; placed directly after the camp event ends, margin two hours. The text gives no hour, so DAY_SEQUENCE (the night belongs to the day sequence of the journey)."
+  },
+  {
+   "event_id": "evt.gen_28.promise_at_bethel",
+   "title": "The LORD stands above the ladder and promises Jacob land and offspring",
+   "narrative_summary": "The LORD stands above the stairway and says He is the God of Abraham and Isaac. He promises Jacob the land, offspring like dust, blessing for all families through him, His presence, protection and his return to the land.",
+   "temporal_reasoning_note": "Part of the same dream, 'and behold' (28:13), directly after the sight of the ladder. Ten minutes for the speech. DAY_SEQUENCE like the dream."
+  },
+  {
+   "event_id": "evt.gen_28.jacob_awakes",
+   "title": "Jacob wakes in awe: this is the house of God",
+   "narrative_summary": "Jacob wakes and says the LORD is in this place and he did not know it. Afraid, he calls it the house of God and the gate of heaven.",
+   "temporal_reasoning_note": "He wakes from the dream, before the 'early morning' of 28:18. Offset of two hours after the promise (the rest of the night's sleep) is my estimate, margin two hours. DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_28.pillar_bethel",
+   "title": "Jacob sets up the stone as a pillar and names the place Bethel",
+   "narrative_summary": "Jacob rises early, sets up the stone he slept on as a pillar, pours oil on it, and names the place Bethel; the city was formerly Luz.",
+   "temporal_reasoning_note": "'Rose early in the morning' (28:18): BOKER, snapped to the first morning after he wakes; margin one hour. Rises at dawn rather than when he woke from the dream, which was earlier in the night. Half an hour for the acts. DIURNAL_HOUR.",
+   "ancient_diurnal_marker": "Early in the morning"
+  },
+  {
+   "event_id": "evt.gen_28.jacob_vow",
+   "title": "Jacob vows to serve the LORD if He brings him home",
+   "narrative_summary": "Jacob vows that if God is with him, keeps him, gives him bread and clothing and brings him back in peace, the LORD will be his God, the stone will be God's house, and he will tithe all God gives him.",
+   "temporal_reasoning_note": "Follows the pillar and naming immediately (no break marked), so anchored on its END; the speech takes a few minutes. DAY_SEQUENCE, a continuation of the morning scene without a time word of its own."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_27.rebekah_complains_to_isaac.isaac_charges_jacob",
+   "causal_explanation": "Rebekah's complaint about the Hittite women (27:46) leads Isaac to send Jacob to her kin with a charge against a Canaanite wife (28:1–2)."
+  },
+  {
+   "causal_id": "caus.gen_27.rebekah_warns_jacob.jacob_departs",
+   "causal_explanation": "Rebekah's warning that Esau means to kill him and her order to flee to Laban (27:42–45) is what Jacob obeys when he is gone to Paddan-aram (28:7)."
+  },
+  {
+   "causal_id": "caus.gen_28.isaac_charges_jacob.esau_marries_mahalath",
+   "causal_explanation": "Esau sees Isaac's blessing, charge and sending of Jacob, and that Canaanite wives displease his father, and so marries Ishmael's daughter (28:6–9)."
+  },
+  {
+   "causal_id": "caus.gen_28.isaac_charges_jacob.jacob_departs",
+   "causal_explanation": "Isaac's command to go to Paddan-aram (28:2) is carried out when he sends Jacob away and Jacob obeys (28:5, 7)."
+  },
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_awakes",
+   "causal_explanation": "The dream and the LORD's words end with Jacob waking and recognising the LORD's presence in the place (28:16)."
+  },
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_vow",
+   "causal_explanation": "God's promise of presence, protection and return (28:15) is what Jacob's conditional vow answers (28:20–21)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.ladder_of_bethel",
+   "canonical_name": "Jacob's ladder",
+   "phonetic_name": "Su-lam",
+   "aliases": [
+    "stairway",
+    "ladder"
+   ],
+   "etymology_meaning": "Hebrew 'sullam' occurs only here; it probably means a ramp or stairway rather than a rung ladder.",
+   "summary_bio": "A stairway set on the earth with its top in the heavens, seen in Jacob's dream. The angels of God go up and down on it and the LORD stands at its top."
+  },
+  {
+   "entity_id": "artifact.stone_of_bethel",
+   "canonical_name": "Stone of Bethel",
+   "phonetic_name": "E-ven",
+   "aliases": [
+    "the pillar"
+   ],
+   "etymology_meaning": "Hebrew 'even' means 'stone'; the set-up stone is a matsevah, a standing pillar.",
+   "summary_bio": "One of the stones of the place, which Jacob uses as a headrest for the night. In the morning he sets it up as a pillar, pours oil on it, and vows that it will be God's house."
+  },
+  {
+   "entity_id": "group.angels_of_god",
+   "canonical_name": "Angels of God",
+   "phonetic_name": "Mal-a-khe E-lo-him",
+   "aliases": [
+    "messengers of God"
+   ],
+   "etymology_meaning": "Hebrew 'mal'akh' means 'messenger'.",
+   "summary_bio": "The heavenly messengers whom Jacob sees going up and down the stairway in his dream at Bethel."
+  },
+  {
+   "entity_id": "person.mahalath",
+   "canonical_name": "Mahalath",
+   "phonetic_name": "Ma-kha-lat",
+   "aliases": [
+    "Basemath"
+   ],
+   "etymology_meaning": "Probably 'lyre' or 'sickness', the meaning is uncertain.",
+   "summary_bio": "Daughter of Ishmael and sister of Nebaioth. Esau takes her as a further wife after seeing that Canaanite women displease his father Isaac (Gen 28:9)."
+  },
+  {
+   "entity_id": "substance.oil",
+   "canonical_name": "Oil",
+   "phonetic_name": "Še-men",
+   "aliases": [],
+   "etymology_meaning": "Hebrew 'shemen' means oil, usually olive oil.",
+   "summary_bio": "Oil that Jacob pours over the top of the stone he has set up as a pillar, marking it as set apart."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.bethel.name.1",
+   "label_key": "Name",
+   "label_value": "Called Bethel, 'house of God'",
+   "evidence_explanation": "Gen 28:19: Jacob calls the place Bethel; its earlier name was Luz."
+  },
+  {
+   "component_id": "comp.esau.wife_mahalath.1",
+   "label_key": "Wife",
+   "label_value": "Married to Mahalath, daughter of Ishmael",
+   "evidence_explanation": "Gen 28:9: Esau takes Mahalath, Ishmael's daughter, as a wife in addition to his others."
+  },
+  {
+   "component_id": "comp.israel.awe.1",
+   "label_key": "Mood",
+   "label_value": "Awestruck at the sacred place",
+   "evidence_explanation": "Gen 28:17: Jacob is afraid and says 'How awesome is this place!'"
+  },
+  {
+   "component_id": "comp.israel.covenant_promise.1",
+   "label_key": "Promise",
+   "label_value": "Land and offspring promised",
+   "evidence_explanation": "Gen 28:13-14: the LORD promises Jacob the land he lies on and offspring like the dust of the earth."
+  },
+  {
+   "component_id": "comp.israel.divine_presence.1",
+   "label_key": "Divine presence",
+   "label_value": "The LORD pledged to be with him",
+   "evidence_explanation": "Gen 28:15: 'I am with you and will keep you wherever you go.'"
+  },
+  {
+   "component_id": "comp.israel.vow.1",
+   "label_key": "Vow",
+   "label_value": "Conditional vow awaiting fulfilment",
+   "evidence_explanation": "Gen 28:20-22: Jacob vows that if God is with him and brings him home in peace, the LORD will be his God and he will give a tenth."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.1",
+   "label_key": "Whereabouts",
+   "label_value": "Sleeping at Bethel, on the way to Haran",
+   "evidence_explanation": "Gen 28:11: Jacob reaches the place, stays the night there and lies down."
+  },
+  {
+   "component_id": "comp.stone_of_bethel.status.1",
+   "label_key": "Use",
+   "label_value": "Serving as Jacob's headrest",
+   "evidence_explanation": "Gen 28:11: Jacob takes one of the stones and puts it at his head."
+  },
+  {
+   "component_id": "comp.stone_of_bethel.status.2",
+   "label_key": "Use",
+   "label_value": "Set up as an anointed pillar",
+   "evidence_explanation": "Gen 28:18: Jacob sets the stone up as a pillar and pours oil on its top."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.conditional_vow",
+   "name": "Conditional vow",
+   "ancient_near_east_context": "Vows to a deity were common across the Near East: a worshipper promised a gift or service if the god granted a petition. In Israel they were voluntary but, once spoken, binding.",
+   "rules_and_mechanics": [
+    "The speaker names a condition on the deity's action.",
+    "The speaker states what he will do in return.",
+    "The vow is spoken aloud, often at a sacred place.",
+    "Once the condition is met the vow must be paid."
+   ]
+  },
+  {
+   "system_id": "sys.pillar_consecration",
+   "name": "Setting up and anointing a pillar",
+   "ancient_near_east_context": "Standing stones (matsevot) marked theophanies, covenants and boundaries across Canaan and the wider region. Anointing with oil set the object apart as holy.",
+   "rules_and_mechanics": [
+    "A stone is set upright at the site of a divine encounter.",
+    "Oil is poured over its top to consecrate it.",
+    "The place is given a name that records the encounter."
+   ]
+  },
+  {
+   "system_id": "sys.revelatory_dream",
+   "name": "Revelatory dream",
+   "ancient_near_east_context": "Across the Near East the gods were thought to speak to kings, priests and seekers in dreams, often when sleeping at a sacred site. In Genesis the dream is a means by which God appears and speaks directly, without needing an interpreter.",
+   "rules_and_mechanics": [
+    "The dreamer is asleep, often away from home or at a holy place.",
+    "The dream shows a scene (here a stairway with angels) and God appears in it.",
+    "God speaks in the dream, giving a promise or command.",
+    "The dreamer wakes and responds, here by recognising the place as holy."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_28.bethel_named",
+   "outcome_summary": "Jacob names the place Bethel; the city was formerly called Luz.",
+   "significance_note": "Fixes the name of a place that recurs in later patriarchal narratives."
+  },
+  {
+   "instance_id": "inst.gen_28.esau_takes_mahalath",
+   "outcome_summary": "Esau goes to Ishmael's household and takes Mahalath, Ishmael's daughter, as another wife.",
+   "significance_note": "Esau answers his father's displeasure with Canaanite wives by marrying within Abraham's line, through Ishmael, while keeping his earlier wives (\"unto the wives which he had\")."
+  },
+  {
+   "instance_id": "inst.gen_28.isaac_blesses_jacob",
+   "outcome_summary": "Isaac calls Jacob, blesses him, forbids a Canaanite wife and prays that God Almighty give him the blessing of Abraham.",
+   "significance_note": "Transfers the Abrahamic blessing to Jacob openly and with full consent, after the deception of chapter 27."
+  },
+  {
+   "instance_id": "inst.gen_28.jacobs_vow",
+   "outcome_summary": "Jacob vows that if God is with him, protects him, gives bread and clothing and brings him home in peace, the LORD will be his God.",
+   "significance_note": "Jacob's first personal response to the covenant; the conditions are echoed when he returns."
+  },
+  {
+   "instance_id": "inst.gen_28.ladder_dream",
+   "outcome_summary": "Jacob dreams of a stairway between earth and heaven with angels going up and down on it.",
+   "significance_note": "Shows heaven opened to a fugitive in the open country, before the LORD speaks."
+  },
+  {
+   "instance_id": "inst.gen_28.pillar_anointed",
+   "outcome_summary": "Jacob rises early, sets up the stone as a pillar and pours oil on it.",
+   "significance_note": "Marks the place as holy and turns the headrest into a memorial of the encounter."
+  },
+  {
+   "instance_id": "inst.gen_28.promise_to_jacob",
+   "outcome_summary": "The LORD promises Jacob the land, offspring like dust, blessing for all families of the earth, protection and a return.",
+   "significance_note": "Restates the Abrahamic covenant to Jacob and answers his flight with a promise of presence."
+  },
+  {
+   "instance_id": "inst.gen_28.tithe_vowed",
+   "outcome_summary": "Jacob promises that the stone will be God's house and that he will give a tenth of all God gives him.",
+   "significance_note": "Links worship at Bethel to the later practice of tithing."
+  },
+  {
+   "instance_id": "inst.gen_28.yhwh_stands_above_ladder",
+   "outcome_summary": "The LORD stands at the stairway and identifies himself as the God of Abraham and Isaac.",
+   "significance_note": "The first time the LORD appears to Jacob; it ties him to the God of his fathers."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_28.esau_marries_mahalath",
+   "interaction_label": "marries",
+   "description": "Esau takes Mahalath, daughter of Ishmael, as a wife."
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_blesses_jacob",
+   "interaction_label": "blesses",
+   "description": "Isaac calls Jacob and blesses him before sending him to Paddan-aram."
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_forbids_canaanite_wife",
+   "interaction_label": "commands",
+   "description": "Isaac charges Jacob not to take a wife from the daughters of Canaan."
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_sends_jacob",
+   "interaction_label": "sends away",
+   "description": "Isaac sends Jacob off to Paddan-aram, to Laban son of Bethuel."
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_consecrates_stone",
+   "interaction_label": "consecrates",
+   "description": "Jacob sets up the stone as a pillar and pours oil on it."
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_names_bethel",
+   "interaction_label": "names",
+   "description": "Jacob names the place Bethel, 'house of God'."
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_vows_to_yhwh",
+   "interaction_label": "vows to",
+   "description": "Jacob makes a conditional vow to the LORD."
+  },
+  {
+   "edge_id": "edge.gen_28.yhwh_pledges_protection",
+   "interaction_label": "protects",
+   "description": "The LORD pledges to be with Jacob, keep him wherever he goes and bring him back."
+  },
+  {
+   "edge_id": "edge.gen_28.yhwh_promises_land",
+   "interaction_label": "promises the land to",
+   "description": "The LORD promises Jacob and his offspring the land on which he lies."
+  }
+ ]
+}

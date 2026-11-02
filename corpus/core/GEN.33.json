@@ -1,0 +1,235 @@
+{
+ "chapter_ref": "GEN.33",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_33.esau_approaches",
+   "verse_start": "GEN.33.1",
+   "verse_end": "GEN.33.2",
+   "time": {
+    "anchor": "evt.gen_32.sunrise_limping",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces",
+   "verse_start": "GEN.33.3",
+   "verse_end": "GEN.33.4",
+   "time": {
+    "anchor": "evt.gen_33.esau_approaches",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.family_presented",
+   "verse_start": "GEN.33.5",
+   "verse_end": "GEN.33.7",
+   "time": {
+    "anchor": "evt.gen_33.jacob_bows_esau_embraces",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.gift_accepted",
+   "verse_start": "GEN.33.8",
+   "verse_end": "GEN.33.11",
+   "time": {
+    "anchor": "evt.gen_33.family_presented",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.escort_declined",
+   "verse_start": "GEN.33.12",
+   "verse_end": "GEN.33.15",
+   "time": {
+    "anchor": "evt.gen_33.gift_accepted",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.esau_returns_to_seir",
+   "verse_start": "GEN.33.16",
+   "verse_end": "GEN.33.16",
+   "time": {
+    "anchor": "evt.gen_33.escort_declined",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.jacob_settles_succoth",
+   "verse_start": "GEN.33.17",
+   "verse_end": "GEN.33.17",
+   "time": {
+    "anchor": "evt.gen_33.escort_declined",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.jacob_arrives_shechem",
+   "verse_start": "GEN.33.18",
+   "verse_end": "GEN.33.18",
+   "time": {
+    "anchor": "evt.gen_33.jacob_settles_succoth",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.field_bought",
+   "verse_start": "GEN.33.19",
+   "verse_end": "GEN.33.19",
+   "time": {
+    "anchor": "evt.gen_33.jacob_arrives_shechem",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_33.altar_el_elohe_israel",
+   "verse_start": "GEN.33.20",
+   "verse_end": "GEN.33.20",
+   "time": {
+    "anchor": "evt.gen_33.field_bought",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_arrives_shechem",
+   "cause_event_id": "evt.gen_28.promise_at_bethel",
+   "effect_event_id": "evt.gen_33.jacob_arrives_shechem",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_32.jacob_prays.esau_embraces",
+   "cause_event_id": "evt.gen_32.jacob_prays",
+   "effect_event_id": "evt.gen_33.jacob_bows_esau_embraces",
+   "causal_type": "ENABLES",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_32.servants_instructed.gift_accepted",
+   "cause_event_id": "evt.gen_32.servants_instructed",
+   "effect_event_id": "evt.gen_33.gift_accepted",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_33.field_bought.altar_el_elohe_israel",
+   "cause_event_id": "evt.gen_33.field_bought",
+   "effect_event_id": "evt.gen_33.altar_el_elohe_israel",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

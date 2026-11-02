@@ -1,0 +1,228 @@
+{
+ "chapter_ref": "GEN.48",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_48.joseph_told_of_illness",
+   "verse_start": "GEN.48.1",
+   "verse_end": "GEN.48.1",
+   "time": {
+    "anchor": "evt.gen_47.jacob_makes_joseph_swear",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.joseph_arrives_jacob_sits_up",
+   "verse_start": "GEN.48.2",
+   "verse_end": "GEN.48.2",
+   "time": {
+    "anchor": "evt.gen_48.joseph_told_of_illness",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_recounts_promise",
+   "verse_start": "GEN.48.3",
+   "verse_end": "GEN.48.4",
+   "time": {
+    "anchor": "evt.gen_48.joseph_arrives_jacob_sits_up",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_adopts_joseph_sons",
+   "verse_start": "GEN.48.5",
+   "verse_end": "GEN.48.7",
+   "time": {
+    "anchor": "evt.gen_48.jacob_recounts_promise",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_embraces_grandsons",
+   "verse_start": "GEN.48.8",
+   "verse_end": "GEN.48.12",
+   "time": {
+    "anchor": "evt.gen_48.jacob_adopts_joseph_sons",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.hands_crossed",
+   "verse_start": "GEN.48.13",
+   "verse_end": "GEN.48.14",
+   "time": {
+    "anchor": "evt.gen_48.jacob_embraces_grandsons",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_blesses_joseph",
+   "verse_start": "GEN.48.15",
+   "verse_end": "GEN.48.16",
+   "time": {
+    "anchor": "evt.gen_48.hands_crossed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.joseph_objects",
+   "verse_start": "GEN.48.17",
+   "verse_end": "GEN.48.19",
+   "time": {
+    "anchor": "evt.gen_48.jacob_blesses_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_blesses_boys",
+   "verse_start": "GEN.48.20",
+   "verse_end": "GEN.48.20",
+   "time": {
+    "anchor": "evt.gen_48.joseph_objects",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_48.jacob_foretells_return",
+   "verse_start": "GEN.48.21",
+   "verse_end": "GEN.48.22",
+   "time": {
+    "anchor": "evt.gen_48.jacob_blesses_boys",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_48.hands_crossed.joseph_objects",
+   "cause_event_id": "evt.gen_48.hands_crossed",
+   "effect_event_id": "evt.gen_48.joseph_objects",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_48.joseph_objects.jacob_blesses_boys",
+   "cause_event_id": "evt.gen_48.joseph_objects",
+   "effect_event_id": "evt.gen_48.jacob_blesses_boys",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_48.joseph_told_of_illness.joseph_arrives_jacob_sits_up",
+   "cause_event_id": "evt.gen_48.joseph_told_of_illness",
+   "effect_event_id": "evt.gen_48.joseph_arrives_jacob_sits_up",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

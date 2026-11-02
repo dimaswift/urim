@@ -1,0 +1,1345 @@
+{
+ "chapter_ref": "GEN.28",
+ "items": {
+  "causal:caus.gen_27.rebekah_complains_to_isaac.isaac_charges_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_27.rebekah_warns_jacob.jacob_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_28.isaac_charges_jacob.esau_marries_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_28.isaac_charges_jacob.jacob_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_28.promise_at_bethel.jacob_awakes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": "[consider] Consider rewording: the vision of the LORD leads Jacob, once awake, to recognise His presence and fear the place. (GEN.28.16–17: \"Surely the LORD is in this place… And he was afraid\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_28.promise_at_bethel.jacob_vow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.bethel.name.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.esau.wife_mahalath.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.awe.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": "[consider] Consider using the key 'mood' and expiring it at the end of the Bethel scene (GEN.28.22, evt.gen_28.jacob_vow). (GEN.28.17: \"And he was afraid, and said, How dreadful is this place!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.covenant_promise.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.divine_presence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Inferred from the promise 'I am with you' (28:15); a promised state, parallel to comp.isaac.divine_presence.1. Left open."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.vow.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.whereabouts.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Slot 'whereabouts' used instead of 'dwelling' because comp.israel.dwelling.1 (Canaan, from GEN.37.1) is already open and would clash. Left open: the chapter does not say when Jacob leaves Bethel."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.stone_of_bethel.status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.stone_of_bethel.status.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.esau_marries_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.isaac_blesses_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.isaac_forbids_canaanite_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.isaac_sends_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.jacob_consecrates_stone": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.jacob_names_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.jacob_vows_to_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.yhwh_pledges_protection": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": "[consider] Consider PROMISES (as for the land) with the description 'pledges to be with Jacob and keep him'. (GEN.28.15: \"I am with thee, and will keep thee in all places whither thou goest\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_28.yhwh_promises_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.ladder_of_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Hebrew sullam, a stairway or ramp, here a dream object only. Included because the LORD stands on/above it and it marks the 'gate of heaven' in 28:17."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.stone_of_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.angels_of_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Defined as a group (the 'angels of God' ascending and descending); no individual angel is named or acts alone."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Mahalath (28:9) is Ishmael's daughter and Nebaioth's sister. Gen 36:3 calls the same woman Basemath, while Gen 26:34 gives the name Basemath to a Hittite wife (corpus: person.adah, daughter of Elon). I kept Mahalath as a separate entity with the registry id; the Basemath tangle is the text's own."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.oil": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.esau_marries_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:23+00:00",
+   "agent_notes": [
+    "The text gives no time. 28:6–9 are in pluperfect/flashback form ('Esau saw that Isaac had blessed Jacob and sent him'), so I place the marriage after the departure ends, offset 20 days with margin 20 days so the window lies wholly after Jacob has left, as a sequence estimate. Ishmael is already dead per evt.gen_25.ishmael_death (c. 1944 BCE); 'went to Ishmael' is read as to Ishmael's house/family, and Mahalath was given by her family. Chronology of Ishmael's death against Esau's marriage is a tension for the reviewer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": "[should_fix] In narrative_summary write 'He goes to Ishmael and takes Mahalath…' as the verse says, and keep the question of Ishmael's death (25:17) in temporal_reasoning_note. (GEN.28.9: \"וַיֵּלֶךְ עֵשָׂו אֶל־יִשְׁמָעֵאל\" (\"Then went Esau unto Ishmael\")) [should_fix] Make the offset at least as large as the margin (for example offset 20 days, margin 20 days), or anchor on the departure END, so that the whole window falls after Jacob has left. (GEN.28.6–7: \"Esau saw that Isaac had blessed Jacob, and sent him away… and that Jacob… was gone to Padan-aram\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.isaac_charges_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": "[consider] Consider a small offset or a time_of_day so that the charge does not fall in the middle of the night, or check the hour of evt.gen_27.rebekah_complains_to_isaac. (GEN.28.1: \"וַיִּקְרָא יִצְחָק אֶל־יַעֲקֹב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.jacob_awakes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [
+    "The night: sunset camp, the dream some hours later, waking before dawn is my inference; only 'evening' (sun set) and 'early in the morning' (28:18) are given. Hence DAY_SEQUENCE for the dream and its sequels."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.jacob_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [
+    "Journey Beersheba–Bethel is 84 km straight, ~106 km by road; `urim travel` on foot gives ~3 days. The text has Jacob reach the place at sunset ('the sun had set'). Targum Pseudo-Jonathan 28:10 says the day was shortened and he arrived the very day he left (a miracle); I follow the ordinary walking count and keep the Targum as a variant. Isaac's home is taken as Beersheba (26:23, 26:33). The departure day is not stated: I put it one day after the charge, margin two days."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": "[should_fix] Add a causal edge from evt.gen_27.rebekah_warns_jacob to evt.gen_28.jacob_departs (TRIGGERS or ENABLES), whose explanation cites 27:43 and 28:7. (GEN.28.7: \"וַיִּשְׁמַע יַעֲקֹב אֶל־אָבִיו וְאֶל־אִמּוֹ\" (\"Jacob obeyed his father and his mother, and was gone to Padan-aram\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "draft",
+     "at": "2026-11-02T13:48:34+00:00",
+     "note": "The agent kept it unchanged after the request; back to the critic.",
+     "by": "urim run"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:49:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.jacob_vow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [
+    "The vow's 'if God will be with me' is conditional on the promise just given; the vow itself is spoken after the pillar. Link from the promise is ENABLES at confidence 0.8, since the text does not say 'because'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.ladder_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.night_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.pillar_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": "[consider] Consider adding jacob_awakes → pillar_bethel and pillar_bethel → jacob_vow (ENABLES). (GEN.28.17: \"אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים\"; GEN.28.19: \"he called the name of that place Beth-el\"; GEN.28.22: \"this stone, which I have set for a pillar\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_28.promise_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:45:56+00:00",
+   "agent_notes": [
+    "God's promise (land, offspring, 'I will bring you back', 28:13–15) is fulfilled in later chapters (return in Gen 31–33, 35). Those chapters' sessions write FULFILLS_PROPHECY. No fulfilment within this chapter. Isaac's blessing (28:3–4) likewise is fulfilled later."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.esau_marries_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "No place: the text says Esau 'went to Ishmael' without naming where. Ishmael is already dead in the corpus (comp.ishmael.life.1, Gen 25.17), so he is MENTIONED only; the verse speaks of his household in retrospect."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.isaac_charges_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Place Beersheba is inferred: Isaac dwells there (comp.isaac.dwelling.4) and Jacob leaves from there in 28:10. The text does not restate it in 28:1-4."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.jacob_awakes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.jacob_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.jacob_vow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.ladder_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.night_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.pillar_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_28.promise_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Hebrew nitsav 'alayw is ambiguous: standing 'above it' (KJV) or 'beside him'. I model the LORD's presence on the ladder as in the English text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.bethel_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.esau_takes_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": "[should_fix] Rewrite the significance_note without the evaluation, e.g. 'Esau answers his father's displeasure with Canaanite wives by marrying within Abraham's line, through Ishmael, while keeping his earlier wives (\"unto the wives which he had\").' (GEN.28.8–9: \"Esau seeing that the daughters of Canaan pleased not Isaac his father; Then went Esau unto Ishmael, and took… Mahalath\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.isaac_blesses_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.jacobs_vow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.ladder_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:18+00:00",
+   "agent_notes": [
+    "Initiator given as the LORD (the dream is a divine revelation) although the text only says Jacob dreamed; inferred. Moved from sys.symbolic_dream to the new sys.revelatory_dream, per reviewer request."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": "[should_fix] Do not use sys.symbolic_dream here. Either define a system for a revelatory dream in which God appears and speaks (for example sys.revelatory_dream) and move this instance to it, or drop this instance and extend inst.gen_28.yhwh_stands_above_ladder to GEN.28.12–15 with the stairway as its artifact. (GEN.28.12–13: \"and he dreamed, and behold a ladder… And, behold, the LORD stood above it, and said, I am the LORD God of Abraham\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:02+00:00",
+     "note": "[consider] Consider extending verse_end to GEN.28.15 so the revelatory-dream instance spans the whole dream, sight and speech. (GEN.28.12–13: \"and he dreamed, and behold a ladder… And, behold, the LORD stood above it, and said\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.pillar_anointed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.promise_to_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.tithe_vowed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": "[consider] Consider leaving artifact_entity_ids empty here, or moving the stone to inst.gen_28.jacobs_vow with its range extended to 28:22. (GEN.28.22: \"this stone… shall be God's house: and of all that thou shalt give me I will surely give the tenth unto thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_28.yhwh_stands_above_ladder": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.conditional_vow": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Defined here rather than reused: no vow system existed yet. Jacob's vow is conditional on God's presence, protection, provision and return."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.pillar_consecration": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:33+00:00",
+   "agent_notes": [
+    "Defined here: setting up a standing stone (matsevah) and pouring oil on it. Named for the general practice, not for Jacob's one occasion."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.revelatory_dream": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:01:18+00:00",
+   "agent_notes": [
+    "Defined here rather than reused: sys.symbolic_dream (GEN.37) covers dreams needing interpretation; this one is a dream in which God appears and speaks."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verse coverage: 28:1–4 charge; 28:5, 7, 10 departure; 28:6, 8–9 Esau; 28:11 night camp; 28:12 ladder; 28:13–15 promise; 28:16–17 awakening; 28:18–19 pillar and name; 28:20–22 vow. All verses covered. Vv. 5 and 7 are merged with 28:10 as one departure and journey.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:45:56+00:00"
+  },
+  {
+   "note": "Verse coverage: 28:1–4 charge; 28:5, 7, 10 departure; 28:6, 8–9 Esau; 28:11 night camp; 28:12 ladder; 28:13–15 promise; 28:16–17 awakening; 28:18–19 pillar and name; 28:20–22 vow. All verses covered. Vv. 5 and 7 are merged with 28:10 as one departure and journey.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:23+00:00"
+  },
+  {
+   "note": "[event:evt.gen_28.promise_at_bethel] God's promise (land, offspring, 'I will bring you back', 28:13–15) is fulfilled in later chapters (return in Gen 31–33, 35). Those chapters' sessions write FULFILLS_PROPHECY. No fulfilment within this chapter. Isaac's blessing (28:3–4) likewise is fulfilled later.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:23+00:00"
+  },
+  {
+   "note": "[event:evt.gen_28.jacob_vow] The vow's 'if God will be with me' is conditional on the promise just given; the vow itself is spoken after the pillar. Link from the promise is ENABLES at confidence 0.8, since the text does not say 'because'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:23+00:00"
+  },
+  {
+   "note": "[event:evt.gen_28.jacob_awakes] The night: sunset camp, the dream some hours later, waking before dawn is my inference; only 'evening' (sun set) and 'early in the morning' (28:18) are given. Hence DAY_SEQUENCE for the dream and its sequels.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:23+00:00"
+  },
+  {
+   "note": "[entity:loc.bethel] Luz (28:19) is the earlier name of the city; the registry tags it with Bethel's id, so no separate entity. Whether the 'place' of 28:11 is the city itself or a spot near it is left open; the events use loc.bethel as the place. Coordinates come from the registry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:58:33+00:00"
+  },
+  {
+   "note": "[entity:person.mahalath] Mahalath (28:9) is Ishmael's daughter and Nebaioth's sister. Gen 36:3 calls the same woman Basemath, while Gen 26:34 gives the name Basemath to a Hittite wife (corpus: person.adah, daughter of Elon). I kept Mahalath as a separate entity with the registry id; the Basemath tangle is the text's own.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_28.esau_marries_mahalath] No place: the text says Esau 'went to Ishmael' without naming where. Ishmael is already dead in the corpus (comp.ishmael.life.1, Gen 25.17), so he is MENTIONED only; the verse speaks of his household in retrospect.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_28.isaac_charges_jacob] Place Beersheba is inferred: Isaac dwells there (comp.isaac.dwelling.4) and Jacob leaves from there in 28:10. The text does not restate it in 28:1-4.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[entity:loc.bethel] Luz (28:19) is the earlier name of the city; the registry tags it with Bethel's id, so no separate entity. Whether the 'place' of 28:11 is the city itself or a spot near it is left open; the events use loc.bethel as the place. Coordinates come from the registry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[entity:group.angels_of_god] Defined as a group (the 'angels of God' ascending and descending); no individual angel is named or acts alone.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[entity:artifact.ladder_of_bethel] Hebrew sullam, a stairway or ramp, here a dream object only. Included because the LORD stands on/above it and it marks the 'gate of heaven' in 28:17.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[system:sys.conditional_vow] Defined here rather than reused: no vow system existed yet. Jacob's vow is conditional on God's presence, protection, provision and return.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[system:sys.pillar_consecration] Defined here: setting up a standing stone (matsevah) and pouring oil on it. Named for the general practice, not for Jacob's one occasion.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[component:comp.israel.divine_presence.1] Inferred from the promise 'I am with you' (28:15); a promised state, parallel to comp.isaac.divine_presence.1. Left open.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[component:comp.israel.whereabouts.1] Slot 'whereabouts' used instead of 'dwelling' because comp.israel.dwelling.1 (Canaan, from GEN.37.1) is already open and would clash. Left open: the chapter does not say when Jacob leaves Bethel.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_28.promise_at_bethel] Hebrew nitsav 'alayw is ambiguous: standing 'above it' (KJV) or 'beside him'. I model the LORD's presence on the ladder as in the English text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:01:18+00:00"
+  }
+ ]
+}

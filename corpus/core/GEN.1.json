@@ -1,0 +1,972 @@
+{
+ "chapter_ref": "GEN.1",
+ "entities": [
+  {
+   "entity_id": "artifact.greater_luminary",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הַמָּאוֹר הַגָּדֹל",
+   "transliterated_name": "ham-māʾôr haggādōl",
+   "first_mention_verse": "GEN.1.16"
+  },
+  {
+   "entity_id": "artifact.lesser_luminary",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הַמָּאוֹר הַקָּטֹן",
+   "transliterated_name": "ham-māʾôr haqqāṭōn",
+   "first_mention_verse": "GEN.1.16"
+  },
+  {
+   "entity_id": "group.birds",
+   "entity_type": "GROUP",
+   "source_script_name": "עוֹף הַשָּׁמַיִם",
+   "transliterated_name": "ʿôp haš-šāmayim",
+   "first_mention_verse": "GEN.1.20"
+  },
+  {
+   "entity_id": "group.humankind",
+   "entity_type": "GROUP",
+   "source_script_name": "הָאָדָם",
+   "transliterated_name": "hā-ʾādām",
+   "first_mention_verse": "GEN.1.26"
+  },
+  {
+   "entity_id": "group.land_animals",
+   "entity_type": "GROUP",
+   "source_script_name": "חַיַּת הָאָרֶץ",
+   "transliterated_name": "ḥayyat hā-ʾāreṣ",
+   "first_mention_verse": "GEN.1.24"
+  },
+  {
+   "entity_id": "group.sea_and_air_creatures",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.1.20"
+  },
+  {
+   "entity_id": "loc.earth",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָאָרֶץ",
+   "transliterated_name": "ha-ʾāreṣ",
+   "first_mention_verse": "GEN.1.1"
+  },
+  {
+   "entity_id": "loc.heaven",
+   "entity_type": "LOCATION",
+   "source_script_name": "הַשָּׁמַיִם",
+   "transliterated_name": "ha-šāmayim",
+   "first_mention_verse": "GEN.1.1"
+  },
+  {
+   "entity_id": "loc.seas",
+   "entity_type": "LOCATION",
+   "source_script_name": "יַמִּים",
+   "transliterated_name": "yammîm",
+   "first_mention_verse": "GEN.1.10"
+  },
+  {
+   "entity_id": "substance.darkness",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "חֹשֶׁךְ",
+   "transliterated_name": "ḥōšek",
+   "first_mention_verse": "GEN.1.2"
+  },
+  {
+   "entity_id": "substance.light",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "אוֹר",
+   "transliterated_name": "ʾôr",
+   "first_mention_verse": "GEN.1.3"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.creation_by_word",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.divine_blessing_fertility",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.divine_naming",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_1.beginning",
+   "verse_start": "GEN.1.1",
+   "verse_end": "GEN.1.2",
+   "time": {
+    "anchor": "anchor.creation",
+    "anchor_point": "START",
+    "duration": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.darkness",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day1_light",
+   "verse_start": "GEN.1.3",
+   "verse_end": "GEN.1.5",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.beginning",
+    "anchor_point": "END",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.darkness",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.light",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day2_firmament",
+   "verse_start": "GEN.1.6",
+   "verse_end": "GEN.1.8",
+   "location_entity_id": "loc.heaven",
+   "time": {
+    "anchor": "evt.gen_1.day1_light",
+    "anchor_point": "END",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day3_waters_gathered",
+   "parent_event_id": "evt.gen_1.day3_land_sea",
+   "verse_start": "GEN.1.9",
+   "verse_end": "GEN.1.10",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day3_land_sea",
+    "anchor_point": "START",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.seas",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day3_land_sea",
+   "verse_start": "GEN.1.9",
+   "verse_end": "GEN.1.13",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day2_firmament",
+    "anchor_point": "END",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.seas",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day3_vegetation",
+   "parent_event_id": "evt.gen_1.day3_land_sea",
+   "verse_start": "GEN.1.11",
+   "verse_end": "GEN.1.12",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day3_waters_gathered",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day4_luminaries",
+   "verse_start": "GEN.1.14",
+   "verse_end": "GEN.1.19",
+   "location_entity_id": "loc.heaven",
+   "time": {
+    "anchor": "evt.gen_1.day3_land_sea",
+    "anchor_point": "END",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.greater_luminary",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.lesser_luminary",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day5_sea_and_sky",
+   "verse_start": "GEN.1.20",
+   "verse_end": "GEN.1.23",
+   "location_entity_id": "loc.seas",
+   "time": {
+    "anchor": "evt.gen_1.day4_luminaries",
+    "anchor_point": "END",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.sea_and_air_creatures",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day6_land_animals",
+   "parent_event_id": "evt.gen_1.day6_land_life",
+   "verse_start": "GEN.1.24",
+   "verse_end": "GEN.1.25",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day6_land_life",
+    "anchor_point": "START",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day6_land_life",
+   "verse_start": "GEN.1.24",
+   "verse_end": "GEN.1.31",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day5_sea_and_sky",
+    "anchor_point": "END",
+    "duration": {
+     "value": 24.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 0.0,
+     "unit": "seconds"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day6_humankind",
+   "parent_event_id": "evt.gen_1.day6_land_life",
+   "verse_start": "GEN.1.26",
+   "verse_end": "GEN.1.28",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day6_land_animals",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sea_and_air_creatures",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day6_food_given",
+   "parent_event_id": "evt.gen_1.day6_land_life",
+   "verse_start": "GEN.1.29",
+   "verse_end": "GEN.1.30",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day6_humankind",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_1.day6_very_good",
+   "parent_event_id": "evt.gen_1.day6_land_life",
+   "verse_start": "GEN.1.31",
+   "verse_end": "GEN.1.31",
+   "location_entity_id": "loc.earth",
+   "time": {
+    "anchor": "evt.gen_1.day6_land_life",
+    "anchor_point": "START",
+    "offset": {
+     "value": 23.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_1.day2_firmament.day3_waters_gathered",
+   "cause_event_id": "evt.gen_1.day2_firmament",
+   "effect_event_id": "evt.gen_1.day3_waters_gathered",
+   "causal_type": "ENABLES",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_1.day3_vegetation.day6_food_given",
+   "cause_event_id": "evt.gen_1.day3_vegetation",
+   "effect_event_id": "evt.gen_1.day6_food_given",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_1.day6_humankind.day6_food_given",
+   "cause_event_id": "evt.gen_1.day6_humankind",
+   "effect_event_id": "evt.gen_1.day6_food_given",
+   "causal_type": "ENABLES",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_1.day6_land_animals.day6_humankind",
+   "cause_event_id": "evt.gen_1.day6_land_animals",
+   "effect_event_id": "evt.gen_1.day6_humankind",
+   "causal_type": "ENABLES",
+   "confidence": 0.5
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.earth.condition.1",
+   "entity_id": "loc.earth",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "FORMLESS_AND_VOID",
+   "acquired_at_verse": "GEN.1.2",
+   "acquired_in_event": "evt.gen_1.beginning",
+   "expired_at_verse": "GEN.1.10",
+   "expired_in_event": "evt.gen_1.day3_waters_gathered"
+  },
+  {
+   "component_id": "comp.earth.condition.2",
+   "entity_id": "loc.earth",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "ORDERED",
+   "supersedes_component_id": "comp.earth.condition.1",
+   "acquired_at_verse": "GEN.1.10",
+   "acquired_in_event": "evt.gen_1.day3_waters_gathered"
+  },
+  {
+   "component_id": "comp.greater_luminary.office.1",
+   "entity_id": "artifact.greater_luminary",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "RULER_OF_DAY",
+   "acquired_at_verse": "GEN.1.16",
+   "acquired_in_event": "evt.gen_1.day4_luminaries"
+  },
+  {
+   "component_id": "comp.humankind.nature.1",
+   "entity_id": "group.humankind",
+   "category": "TRAIT",
+   "component_key": "nature",
+   "value_code": "IMAGE_OF_GOD",
+   "acquired_at_verse": "GEN.1.27",
+   "acquired_in_event": "evt.gen_1.day6_humankind"
+  },
+  {
+   "component_id": "comp.humankind.office.1",
+   "entity_id": "group.humankind",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "RULER_OF_CREATURES",
+   "acquired_at_verse": "GEN.1.28",
+   "acquired_in_event": "evt.gen_1.day6_humankind"
+  },
+  {
+   "component_id": "comp.lesser_luminary.office.1",
+   "entity_id": "artifact.lesser_luminary",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "RULER_OF_NIGHT",
+   "acquired_at_verse": "GEN.1.16",
+   "acquired_in_event": "evt.gen_1.day4_luminaries"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_1.day_and_night_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_1.day1_light",
+   "verse_start": "GEN.1.5",
+   "verse_end": "GEN.1.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "substance.light",
+    "substance.darkness"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "day1",
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.dry_land_appears",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day3_waters_gathered",
+   "verse_start": "GEN.1.9",
+   "verse_end": "GEN.1.9",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.earth",
+    "loc.seas"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day3",
+    "speech"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.earth_and_seas_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_1.day3_waters_gathered",
+   "verse_start": "GEN.1.10",
+   "verse_end": "GEN.1.10",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.earth",
+    "loc.seas"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day3",
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.firmament_made",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day2_firmament",
+   "verse_start": "GEN.1.6",
+   "verse_end": "GEN.1.7",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.heaven"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.heaven",
+   "tags": [
+    "day2",
+    "speech"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.heaven_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_1.day2_firmament",
+   "verse_start": "GEN.1.8",
+   "verse_end": "GEN.1.8",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.heaven"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "day2",
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.humankind_blessed",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_1.day6_humankind",
+   "verse_start": "GEN.1.28",
+   "verse_end": "GEN.1.28",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day6",
+    "blessing",
+    "dominion"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.humankind_created",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day6_humankind",
+   "verse_start": "GEN.1.26",
+   "verse_end": "GEN.1.27",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day6",
+    "image_of_god",
+    "male_and_female"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.land_animals_made",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day6_land_animals",
+   "verse_start": "GEN.1.24",
+   "verse_end": "GEN.1.25",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.land_animals"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day6",
+    "speech"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.let_there_be_light",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day1_light",
+   "verse_start": "GEN.1.3",
+   "verse_end": "GEN.1.3",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "substance.light"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "day1",
+    "speech"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.luminaries_made",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day4_luminaries",
+   "verse_start": "GEN.1.14",
+   "verse_end": "GEN.1.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "artifact.greater_luminary",
+    "artifact.lesser_luminary"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.heaven",
+   "tags": [
+    "day4",
+    "speech",
+    "signs_and_seasons"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.plants_commanded",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day3_vegetation",
+   "verse_start": "GEN.1.11",
+   "verse_end": "GEN.1.12",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.earth"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.earth",
+   "tags": [
+    "day3",
+    "speech",
+    "vegetation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.sea_and_sky_life_blessed",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_1.day5_sea_and_sky",
+   "verse_start": "GEN.1.22",
+   "verse_end": "GEN.1.22",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.sea_and_air_creatures"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.seas",
+   "tags": [
+    "day5",
+    "blessing",
+    "fertility"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_1.sea_and_sky_life_made",
+   "system_id": "sys.creation_by_word",
+   "event_id": "evt.gen_1.day5_sea_and_sky",
+   "verse_start": "GEN.1.20",
+   "verse_end": "GEN.1.21",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.sea_and_air_creatures"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.seas",
+   "tags": [
+    "day5",
+    "speech"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_1.blesses_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.1.28",
+   "event_id": "evt.gen_1.day6_humankind"
+  },
+  {
+   "edge_id": "edge.gen_1.blesses_sea_and_air_creatures",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.sea_and_air_creatures",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.1.22",
+   "event_id": "evt.gen_1.day5_sea_and_sky"
+  },
+  {
+   "edge_id": "edge.gen_1.commands_earth_to_sprout",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.earth",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.1.11",
+   "event_id": "evt.gen_1.day3_vegetation"
+  },
+  {
+   "edge_id": "edge.gen_1.commands_humankind_to_rule",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.1.28",
+   "event_id": "evt.gen_1.day6_humankind"
+  },
+  {
+   "edge_id": "edge.gen_1.creates_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.27",
+   "event_id": "evt.gen_1.day6_humankind"
+  },
+  {
+   "edge_id": "edge.gen_1.creates_light",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "substance.light",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.3",
+   "event_id": "evt.gen_1.day1_light"
+  },
+  {
+   "edge_id": "edge.gen_1.gathers_waters",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.seas",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.1.9",
+   "event_id": "evt.gen_1.day3_waters_gathered"
+  },
+  {
+   "edge_id": "edge.gen_1.gives_plants_to_animals",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.land_animals",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.1.30",
+   "event_id": "evt.gen_1.day6_food_given"
+  },
+  {
+   "edge_id": "edge.gen_1.gives_plants_to_birds",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.birds",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.1.30",
+   "event_id": "evt.gen_1.day6_food_given"
+  },
+  {
+   "edge_id": "edge.gen_1.gives_plants_to_humankind",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.humankind",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.1.29",
+   "event_id": "evt.gen_1.day6_food_given"
+  },
+  {
+   "edge_id": "edge.gen_1.makes_firmament",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.heaven",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.7",
+   "event_id": "evt.gen_1.day2_firmament"
+  },
+  {
+   "edge_id": "edge.gen_1.makes_greater_luminary",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "artifact.greater_luminary",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.16",
+   "event_id": "evt.gen_1.day4_luminaries"
+  },
+  {
+   "edge_id": "edge.gen_1.makes_land_animals",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.land_animals",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.25",
+   "event_id": "evt.gen_1.day6_land_animals"
+  },
+  {
+   "edge_id": "edge.gen_1.makes_lesser_luminary",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "artifact.lesser_luminary",
+   "interaction_type": "CREATES",
+   "verse_id": "GEN.1.16",
+   "event_id": "evt.gen_1.day4_luminaries"
+  },
+  {
+   "edge_id": "edge.gen_1.separates_light_from_darkness",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "substance.darkness",
+   "interaction_type": "SEPARATES",
+   "verse_id": "GEN.1.4",
+   "event_id": "evt.gen_1.day1_light"
+  }
+ ]
+}

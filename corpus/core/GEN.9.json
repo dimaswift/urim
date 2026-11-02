@@ -1,0 +1,802 @@
+{
+ "chapter_ref": "GEN.9",
+ "entities": [
+  {
+   "entity_id": "artifact.noahs_garment",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "שִׂמְלָה",
+   "transliterated_name": "śimlāh",
+   "first_mention_verse": "GEN.9.23"
+  },
+  {
+   "entity_id": "artifact.rainbow_bow",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "קֶשֶׁת",
+   "transliterated_name": "qešet",
+   "first_mention_verse": "GEN.9.13"
+  },
+  {
+   "entity_id": "loc.noahs_tent",
+   "entity_type": "LOCATION",
+   "source_script_name": "אָהֳלוֹ",
+   "transliterated_name": "ʾohŏlô",
+   "first_mention_verse": "GEN.9.21"
+  },
+  {
+   "entity_id": "person.canaan",
+   "tipnr_id": "Canaan@Gen.9.18-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "כְּנַעַן",
+   "transliterated_name": "Kənaʿan",
+   "first_mention_verse": "GEN.9.18"
+  },
+  {
+   "entity_id": "substance.wine",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "יַיִן",
+   "transliterated_name": "yayin",
+   "first_mention_verse": "GEN.9.21"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blood_reckoning",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.covenant_sign",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.covering_nakedness",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.food_ordinance",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.patriarchal_pronouncement",
+   "category": "PROPHETIC_ORACLE"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_9.blessing_and_ordinances",
+   "verse_start": "GEN.9.1",
+   "verse_end": "GEN.9.7",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_8.yhwh_resolves_no_more_curse",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.birds",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.land_animals",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sea_and_air_creatures",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.covenant_declared",
+   "verse_start": "GEN.9.8",
+   "verse_end": "GEN.9.11",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_9.blessing_and_ordinances",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.rainbow_sign",
+   "verse_start": "GEN.9.12",
+   "verse_end": "GEN.9.17",
+   "location_entity_id": "loc.ararat",
+   "time": {
+    "anchor": "evt.gen_9.covenant_declared",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.rainbow_bow",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.animals_in_ark",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.noah_plants_vineyard",
+   "verse_start": "GEN.9.20",
+   "verse_end": "GEN.9.20",
+   "time": {
+    "anchor": "evt.gen_9.rainbow_sign",
+    "anchor_point": "END",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.noah_drunk",
+   "verse_start": "GEN.9.21",
+   "verse_end": "GEN.9.21",
+   "location_entity_id": "loc.noahs_tent",
+   "time": {
+    "anchor": "evt.gen_9.noah_plants_vineyard",
+    "anchor_point": "END",
+    "offset": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.wine",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.ham_sees_and_tells",
+   "verse_start": "GEN.9.22",
+   "verse_end": "GEN.9.22",
+   "location_entity_id": "loc.noahs_tent",
+   "time": {
+    "anchor": "evt.gen_9.noah_drunk",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.shem_japheth_cover_noah",
+   "verse_start": "GEN.9.23",
+   "verse_end": "GEN.9.23",
+   "location_entity_id": "loc.noahs_tent",
+   "time": {
+    "anchor": "evt.gen_9.ham_sees_and_tells",
+    "anchor_point": "END",
+    "offset": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.noahs_garment",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem",
+   "verse_start": "GEN.9.24",
+   "verse_end": "GEN.9.27",
+   "location_entity_id": "loc.noahs_tent",
+   "time": {
+    "anchor": "evt.gen_9.shem_japheth_cover_noah",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.canaan",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.ham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.japheth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.noah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shem",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_9.noah_dies",
+   "verse_start": "GEN.9.28",
+   "verse_end": "GEN.9.29",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "offset": {
+     "value": 350.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.noah",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_8.yhwh_resolves_no_more_curse.covenant_declared",
+   "cause_event_id": "evt.gen_8.yhwh_resolves_no_more_curse",
+   "effect_event_id": "evt.gen_9.covenant_declared",
+   "causal_type": "ENABLES",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_9.covenant_declared.rainbow_sign",
+   "cause_event_id": "evt.gen_9.covenant_declared",
+   "effect_event_id": "evt.gen_9.rainbow_sign",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_9.ham_sees_and_tells.noah_curses_canaan_blesses_shem",
+   "cause_event_id": "evt.gen_9.ham_sees_and_tells",
+   "effect_event_id": "evt.gen_9.noah_curses_canaan_blesses_shem",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_9.ham_sees_and_tells.shem_japheth_cover_noah",
+   "cause_event_id": "evt.gen_9.ham_sees_and_tells",
+   "effect_event_id": "evt.gen_9.shem_japheth_cover_noah",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_9.noah_drunk.ham_sees_and_tells",
+   "cause_event_id": "evt.gen_9.noah_drunk",
+   "effect_event_id": "evt.gen_9.ham_sees_and_tells",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.canaan.curse.1",
+   "entity_id": "person.canaan",
+   "category": "TRAIT",
+   "component_key": "curse",
+   "value_code": "CURSED",
+   "acquired_at_verse": "GEN.9.25",
+   "acquired_in_event": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "component_id": "comp.canaan.servitude.1",
+   "entity_id": "person.canaan",
+   "category": "ALLEGIANCE",
+   "component_key": "servitude",
+   "value_code": "SERVANT_OF_SERVANTS",
+   "acquired_at_verse": "GEN.9.25",
+   "acquired_in_event": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "component_id": "comp.noah.exposure.1",
+   "entity_id": "person.noah",
+   "category": "TRAIT",
+   "component_key": "exposure",
+   "value_code": "UNCOVERED",
+   "acquired_at_verse": "GEN.9.21",
+   "acquired_in_event": "evt.gen_9.noah_drunk",
+   "expired_at_verse": "GEN.9.23",
+   "expired_in_event": "evt.gen_9.shem_japheth_cover_noah"
+  },
+  {
+   "component_id": "comp.noah.intoxication.1",
+   "entity_id": "person.noah",
+   "category": "PSYCH_STATE",
+   "component_key": "intoxication",
+   "value_code": "DRUNK",
+   "acquired_at_verse": "GEN.9.21",
+   "acquired_in_event": "evt.gen_9.noah_drunk",
+   "expired_at_verse": "GEN.9.24",
+   "expired_in_event": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "component_id": "comp.noah.life.1",
+   "entity_id": "person.noah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.9.29",
+   "acquired_in_event": "evt.gen_9.noah_dies"
+  },
+  {
+   "component_id": "comp.noah.occupation.1",
+   "entity_id": "person.noah",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "FARMER",
+   "acquired_at_verse": "GEN.9.20",
+   "acquired_in_event": "evt.gen_9.noah_plants_vineyard"
+  },
+  {
+   "component_id": "comp.rainbow_bow.placement.1",
+   "entity_id": "artifact.rainbow_bow",
+   "category": "LOCATION_STATE",
+   "component_key": "placement",
+   "value_code": "SET_IN_THE_CLOUD",
+   "acquired_at_verse": "GEN.9.13",
+   "acquired_in_event": "evt.gen_9.rainbow_sign"
+  },
+  {
+   "component_id": "comp.shem.god.1",
+   "entity_id": "person.shem",
+   "category": "ALLEGIANCE",
+   "component_key": "god",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.9.26",
+   "acquired_in_event": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "component_id": "comp.yhwh.covenant_partner.1",
+   "entity_id": "deity.yhwh",
+   "category": "ALLEGIANCE",
+   "component_key": "covenant_partner",
+   "target_entity_id": "person.noah",
+   "acquired_at_verse": "GEN.9.9",
+   "acquired_in_event": "evt.gen_9.covenant_declared"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_9.blessing_of_shem_and_japheth",
+   "system_id": "sys.patriarchal_pronouncement",
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem",
+   "verse_start": "GEN.9.26",
+   "verse_end": "GEN.9.27",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "person.shem",
+    "person.japheth"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.noahs_tent",
+   "tags": [
+    "blessing",
+    "praise_of_yhwh"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.blood_reckoning",
+   "system_id": "sys.blood_reckoning",
+   "event_id": "evt.gen_9.blessing_and_ordinances",
+   "verse_start": "GEN.9.5",
+   "verse_end": "GEN.9.6",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.humankind",
+    "group.land_animals"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "murder",
+    "image_of_god",
+    "capital_justice"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.bow_in_cloud",
+   "system_id": "sys.covenant_sign",
+   "event_id": "evt.gen_9.rainbow_sign",
+   "verse_start": "GEN.9.12",
+   "verse_end": "GEN.9.17",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah",
+    "group.animals_in_ark"
+   ],
+   "artifact_entity_ids": [
+    "artifact.rainbow_bow"
+   ],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "sign",
+    "remembrance",
+    "perpetual"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.curse_on_canaan",
+   "system_id": "sys.patriarchal_pronouncement",
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem",
+   "verse_start": "GEN.9.25",
+   "verse_end": "GEN.9.25",
+   "initiator_entity_id": "person.noah",
+   "target_entity_ids": [
+    "person.canaan"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.noahs_tent",
+   "tags": [
+    "curse",
+    "servitude"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.fertility_blessing",
+   "system_id": "sys.divine_blessing_fertility",
+   "event_id": "evt.gen_9.blessing_and_ordinances",
+   "verse_start": "GEN.9.1",
+   "verse_end": "GEN.9.1",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah",
+    "person.shem",
+    "person.ham",
+    "person.japheth"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "blessing",
+    "be_fruitful",
+    "renewed_mandate"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.garment_laid_over_noah",
+   "system_id": "sys.covering_nakedness",
+   "event_id": "evt.gen_9.shem_japheth_cover_noah",
+   "verse_start": "GEN.9.23",
+   "verse_end": "GEN.9.23",
+   "initiator_entity_id": "person.shem",
+   "target_entity_ids": [
+    "person.noah"
+   ],
+   "artifact_entity_ids": [
+    "artifact.noahs_garment"
+   ],
+   "location_entity_id": "loc.noahs_tent",
+   "tags": [
+    "filial_respect",
+    "walking_backward"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.meat_ordinance",
+   "system_id": "sys.food_ordinance",
+   "event_id": "evt.gen_9.blessing_and_ordinances",
+   "verse_start": "GEN.9.3",
+   "verse_end": "GEN.9.4",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah",
+    "person.shem",
+    "person.ham",
+    "person.japheth"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "food",
+    "blood_prohibition"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_9.noahic_covenant",
+   "system_id": "sys.covenant_promise",
+   "event_id": "evt.gen_9.covenant_declared",
+   "verse_start": "GEN.9.9",
+   "verse_end": "GEN.9.11",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.noah",
+    "person.shem",
+    "person.ham",
+    "person.japheth",
+    "group.animals_in_ark"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.ararat",
+   "tags": [
+    "covenant",
+    "no_more_flood",
+    "universal"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_9.god_blesses_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.9.1",
+   "event_id": "evt.gen_9.blessing_and_ordinances"
+  },
+  {
+   "edge_id": "edge.gen_9.god_establishes_covenant_with_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "ESTABLISHES_COVENANT_WITH",
+   "verse_id": "GEN.9.9",
+   "event_id": "evt.gen_9.covenant_declared"
+  },
+  {
+   "edge_id": "edge.gen_9.god_gives_sign_to_noah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.noah",
+   "interaction_type": "GIVES_SIGN_TO",
+   "verse_id": "GEN.9.17",
+   "event_id": "evt.gen_9.rainbow_sign"
+  },
+  {
+   "edge_id": "edge.gen_9.ham_sees_noah",
+   "source_entity_id": "person.ham",
+   "target_entity_id": "person.noah",
+   "interaction_type": "SEES_NAKEDNESS_OF",
+   "verse_id": "GEN.9.22",
+   "event_id": "evt.gen_9.ham_sees_and_tells"
+  },
+  {
+   "edge_id": "edge.gen_9.ham_tells_japheth",
+   "source_entity_id": "person.ham",
+   "target_entity_id": "person.japheth",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.9.22",
+   "event_id": "evt.gen_9.ham_sees_and_tells"
+  },
+  {
+   "edge_id": "edge.gen_9.ham_tells_shem",
+   "source_entity_id": "person.ham",
+   "target_entity_id": "person.shem",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.9.22",
+   "event_id": "evt.gen_9.ham_sees_and_tells"
+  },
+  {
+   "edge_id": "edge.gen_9.japheth_covers_noah",
+   "source_entity_id": "person.japheth",
+   "target_entity_id": "person.noah",
+   "interaction_type": "COVERS",
+   "verse_id": "GEN.9.23",
+   "event_id": "evt.gen_9.shem_japheth_cover_noah"
+  },
+  {
+   "edge_id": "edge.gen_9.noah_blesses_japheth",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.japheth",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.9.27",
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "edge_id": "edge.gen_9.noah_blesses_yhwh",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAISES",
+   "verse_id": "GEN.9.26",
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "edge_id": "edge.gen_9.noah_curses_canaan",
+   "source_entity_id": "person.noah",
+   "target_entity_id": "person.canaan",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.9.25",
+   "event_id": "evt.gen_9.noah_curses_canaan_blesses_shem"
+  },
+  {
+   "edge_id": "edge.gen_9.shem_covers_noah",
+   "source_entity_id": "person.shem",
+   "target_entity_id": "person.noah",
+   "interaction_type": "COVERS",
+   "verse_id": "GEN.9.23",
+   "event_id": "evt.gen_9.shem_japheth_cover_noah"
+  }
+ ]
+}

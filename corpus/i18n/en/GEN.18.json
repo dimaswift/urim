@@ -1,0 +1,291 @@
+{
+ "chapter_ref": "GEN.18",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_18.lord_appears_at_mamre",
+   "title": "The LORD appears to Abraham at the oaks of Mamre",
+   "narrative_summary": "The LORD appears to Abraham by the oaks of Mamre as he sits at the door of his tent in the heat of the day.",
+   "temporal_reasoning_note": "No date is stated beyond 'the heat of the day' (18:1). Ramban (citing Rabbi Hama bar Hanina) reads it as the third day after Abraham's circumcision (17:23-27, same day as 17:26), when the LORD visits the sick. Anchored on the START of the circumcision with offset 2 days (first day counted as day one), snapped to TZOHORAYIM; margin 12 hours for the day count. Rashbam and Radak read 'heat of the day' as midday/morning; noon chosen.",
+   "ancient_diurnal_marker": "In the heat of the day"
+  },
+  {
+   "event_id": "evt.gen_18.abraham_welcomes_three_men",
+   "title": "Abraham runs to greet three men and offers hospitality",
+   "narrative_summary": "Abraham sees three men standing near, runs to meet them, bows, and presses them to rest under the tree, wash their feet and take bread. They agree.",
+   "temporal_reasoning_note": "Immediate continuation of the appearance (18:1-2); starts when the appearance ends. Speech and running take minutes; margin 10 minutes."
+  },
+  {
+   "event_id": "evt.gen_18.meal_prepared_and_served",
+   "title": "Abraham and Sarah prepare a feast and he serves the guests",
+   "narrative_summary": "Abraham hurries to Sarah for cakes of fine flour, runs to the herd for a tender calf, which a servant prepares, and sets curds, milk and the calf before the men, standing by while they eat.",
+   "temporal_reasoning_note": "The text gives 'hurried' and 'ran' at each step but no hours; two hours for baking, dressing the calf and serving, estimated, margin 30 minutes. Starts when the welcome ends."
+  },
+  {
+   "event_id": "evt.gen_18.son_promised_to_sarah",
+   "title": "The guest promises Abraham that Sarah will have a son",
+   "narrative_summary": "The men ask where Sarah is; Abraham says she is in the tent. One promises to return at the time of life, and Sarah will have a son, while Sarah listens at the tent door behind him.",
+   "temporal_reasoning_note": "During/after the meal (18:8-9): anchored on the end of the meal. The promised return is 'about the time of life' next year (Rashi: Passover next year; Radak: 'next year at this appointed time', 17:21); that is a later event, not dated here.",
+   "ancient_season_marker": "About the time of life"
+  },
+  {
+   "event_id": "evt.gen_18.sarah_laughs",
+   "title": "Sarah laughs to herself at the promise",
+   "narrative_summary": "Both are old and Sarah is past childbearing; Sarah laughs within herself, doubting that she could have pleasure with an old husband.",
+   "temporal_reasoning_note": "Reaction to the promise she overhears, directly after (18:10-12); a moment, anchored on the end of the promise."
+  },
+  {
+   "event_id": "evt.gen_18.lord_questions_laughter",
+   "title": "The LORD asks why Sarah laughed and she denies it",
+   "narrative_summary": "The LORD asks Abraham why Sarah laughed, asks if anything is too wonderful for him, and repeats the promise. Sarah denies laughing from fear; he insists she did.",
+   "temporal_reasoning_note": "Immediate response to the laughter (18:13-15); minutes. Anchored on the end of the laughter."
+  },
+  {
+   "event_id": "evt.gen_18.men_rise_toward_sodom",
+   "title": "The men rise and look toward Sodom as Abraham walks with them",
+   "narrative_summary": "The men rise from the meal and look down toward Sodom, and Abraham walks with them to see them off.",
+   "temporal_reasoning_note": "Follows the conversation (18:16); a short walk to send them off, estimated 20 minutes, margin 30 minutes. Sodom is about 51 km (about 2 days on foot per urim travel) away, so the men's own journey is dated in Gen 19, where they arrive at evening."
+  },
+  {
+   "event_id": "evt.gen_18.lord_reveals_sodom_plan",
+   "title": "The LORD resolves to tell Abraham of Sodom's judgment",
+   "narrative_summary": "The LORD decides not to hide his plan from Abraham, who will become a great nation, says the outcry against Sodom and Gomorrah is great, and that he will go down to see.",
+   "temporal_reasoning_note": "Spoken as the men set out (18:16-17); a speech of minutes, anchored on the end of the farewell walk."
+  },
+  {
+   "event_id": "evt.gen_18.men_go_to_sodom",
+   "title": "The men turn from there and go toward Sodom",
+   "narrative_summary": "The men turn from there and go toward Sodom while Abraham still stands before the LORD.",
+   "temporal_reasoning_note": "Gen 19:1 speaks of two angels arriving, so one of the three stays with Abraham (18:22). Verse 22 is simultaneous with the intercession; the departure is dated at the end of the LORD's speech. Their journey (about 2 days on foot, but arrival at evening in 19:1) belongs to Gen 19."
+  },
+  {
+   "event_id": "evt.gen_18.abraham_intercedes_for_sodom",
+   "title": "Abraham bargains with the LORD to spare Sodom",
+   "narrative_summary": "Abraham draws near and asks whether the LORD will destroy the righteous with the wicked, and gets him to agree to spare the city for fifty, forty-five, forty, thirty, twenty and finally ten righteous.",
+   "temporal_reasoning_note": "Begins as the speech ends and the men leave (18:22-23). Six rounds of exchange; one hour estimated, margin 30 minutes."
+  },
+  {
+   "event_id": "evt.gen_18.lord_departs_abraham_returns",
+   "title": "The LORD departs and Abraham returns to his place",
+   "narrative_summary": "When he has finished speaking with Abraham, the LORD goes and Abraham returns to his place.",
+   "temporal_reasoning_note": "Immediately after the last answer (18:33), anchored on the end of the intercession."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.circumcision_performed.lord_appears_at_mamre",
+   "causal_explanation": "On the tradition (Ramban, Bava Metzia 86b) the LORD appears to visit Abraham recovering from circumcision (18:1)."
+  },
+  {
+   "causal_id": "caus.gen_18.lord_reveals_sodom_plan.abraham_intercedes_for_sodom",
+   "causal_explanation": "Abraham, told of Sodom's coming judgment, draws near to plead for the righteous (18:17-23)."
+  },
+  {
+   "causal_id": "caus.gen_18.lord_reveals_sodom_plan.men_go_to_sodom",
+   "causal_explanation": "Having said he will go down and see Sodom, the men go toward the city (18:21-22)."
+  },
+  {
+   "causal_id": "caus.gen_18.sarah_laughs.lord_questions_laughter",
+   "causal_explanation": "The LORD asks Abraham why Sarah laughed because her inward laughter in the tent was known to him (18:12-13)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "group.three_visitors",
+   "canonical_name": "The Three Visitors",
+   "phonetic_name": "shelosha anashim",
+   "aliases": [
+    "three men"
+   ],
+   "etymology_meaning": "Hebrew 'three men'; a descriptive label, not a name.",
+   "summary_bio": "Three men who stand near Abraham at Mamre in the midday heat after the LORD appears to him. Abraham treats them as honoured guests and they eat his meal. One of them speaks as the LORD and the other two leave for Sodom, so the text blends divine and human visitors."
+  },
+  {
+   "entity_id": "group.two_visitors_to_sodom",
+   "canonical_name": "The Two Men Bound for Sodom",
+   "phonetic_name": "ha-anashim",
+   "aliases": [
+    "the men"
+   ],
+   "etymology_meaning": "Hebrew 'the men'; a descriptive label for the two visitors who go on to Sodom.",
+   "summary_bio": "The two of the three visitors who turn from Mamre toward Sodom while Abraham remains standing before the LORD. The text calls them simply 'the men'; reading them as the two companions of the LORD is an inference from verse 22."
+  },
+  {
+   "entity_id": "person.servant_of_abraham",
+   "canonical_name": "Abraham's Young Man",
+   "phonetic_name": "ha-na'ar",
+   "aliases": [
+    "the young man",
+    "the servant"
+   ],
+   "etymology_meaning": "Hebrew na'ar, 'young man' or 'servant'; an unnamed household attendant.",
+   "summary_bio": "An unnamed young man of Abraham's household. Abraham hands him the tender calf and he hurries to prepare it for the guests."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.election.1",
+   "label_key": "Election",
+   "label_value": "Chosen to teach righteousness and justice",
+   "evidence_explanation": "GEN.18.19: the LORD has known Abraham so that he will command his household to keep the way of the LORD."
+  },
+  {
+   "component_id": "comp.abraham.intercession.1",
+   "label_key": "Role",
+   "label_value": "Intercessor for Sodom",
+   "evidence_explanation": "GEN.18.23–32: Abraham draws near and bargains with the LORD to spare the city."
+  },
+  {
+   "component_id": "comp.sarah.mood.1",
+   "label_key": "Mood",
+   "label_value": "Doubting in secret",
+   "evidence_explanation": "GEN.18.12: Sarah laughs within herself at the thought of bearing a son in old age."
+  },
+  {
+   "component_id": "comp.sarah.mood.2",
+   "label_key": "Mood",
+   "label_value": "Afraid",
+   "evidence_explanation": "GEN.18.15: Sarah denies laughing because she was afraid."
+  },
+  {
+   "component_id": "comp.sarah.son_promise.1",
+   "label_key": "Promise",
+   "label_value": "A son promised within a year",
+   "evidence_explanation": "GEN.18.10, 14: the LORD says he will return at the appointed time and Sarah will have a son."
+  },
+  {
+   "component_id": "comp.yhwh.inquiry.1",
+   "label_key": "Inquiry",
+   "label_value": "Investigating Sodom's outcry",
+   "evidence_explanation": "GEN.18.20–21: the LORD says he will go down and see whether the deeds match the outcry."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.birth_announcement",
+   "name": "Announcement of a birth",
+   "ancient_near_east_context": "In the ancient Near East and in Israelite tradition a divine messenger could announce the birth of a child, often to a childless or aged couple, naming a time and sometimes the child's destiny. Such announcements marked the child as a gift of the deity.",
+   "rules_and_mechanics": [
+    "The announcement comes from the deity or his messenger.",
+    "It names a set time for the birth.",
+    "It is often given to an apparently barren or aged parent.",
+    "A hearer's doubt may be met with an assertion of divine power."
+   ]
+  },
+  {
+   "system_id": "sys.divine_judicial_inquiry",
+   "name": "Divine judicial inquiry",
+   "ancient_near_east_context": "A cry (za'aqah) of the wronged was understood to rise to the deity as the judge who investigates before sentencing. Gods and kings alike were pictured as 'going down' to examine a case.",
+   "rules_and_mechanics": [
+    "An outcry or complaint reaches the deity.",
+    "The deity investigates before acting.",
+    "Verdict follows from what is found.",
+    "A trusted human may be told in advance."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_18.abraham_bargains",
+   "outcome_summary": "Abraham asks whether the LORD will spare Sodom for fifty, forty-five, forty, thirty, twenty and finally ten righteous, and the LORD agrees each time.",
+   "significance_note": "Raises the question of how the Judge of all the earth treats the righteous and the wicked."
+  },
+  {
+   "instance_id": "inst.gen_18.birth_announced",
+   "outcome_summary": "The guest says he will return at the time of life and Sarah will have a son, while Sarah listens at the tent door.",
+   "significance_note": "Announces the birth of the covenant heir in a year."
+  },
+  {
+   "instance_id": "inst.gen_18.bowing_to_guests",
+   "outcome_summary": "Abraham runs to meet the three men and bows to the ground.",
+   "significance_note": "Shows Abraham's eager respect for guests, one of whom is the LORD."
+  },
+  {
+   "instance_id": "inst.gen_18.feast_for_visitors",
+   "outcome_summary": "Abraham, Sarah and a servant prepare cakes and a calf, and Abraham serves it with curds and milk under the tree while the guests eat.",
+   "significance_note": "A model of generous hospitality that sets the scene for the promise."
+  },
+  {
+   "instance_id": "inst.gen_18.lord_appears",
+   "outcome_summary": "The LORD appears to Abraham at the oaks of Mamre as he sits at his tent door in the midday heat.",
+   "significance_note": "Opens the chapter and frames the visitors as a divine visit."
+  },
+  {
+   "instance_id": "inst.gen_18.sodom_outcry_inquiry",
+   "outcome_summary": "The LORD says the outcry of Sodom and Gomorrah is great and he will go down to see whether they have done as the outcry says.",
+   "significance_note": "Frames the coming judgment as the result of a fair examination."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_18.abraham_commands_sarah",
+   "interaction_label": "commands",
+   "description": "Abraham tells Sarah to quickly make cakes from three seahs of fine flour."
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_commands_servant",
+   "interaction_label": "commands",
+   "description": "Abraham gives the young man the calf to prepare quickly."
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_escorts_visitors",
+   "interaction_label": "escorts",
+   "description": "Abraham walks with the men to send them on their way."
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_invites_visitors",
+   "interaction_label": "invites",
+   "description": "Abraham begs the visitors not to pass by his tent and offers water and rest."
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_pleads_with_yhwh",
+   "interaction_label": "pleads with",
+   "description": "Abraham asks whether the LORD will sweep away the righteous with the wicked."
+  },
+  {
+   "edge_id": "edge.gen_18.abraham_serves_visitors",
+   "interaction_label": "serves",
+   "description": "Abraham sets curds, milk and the calf before the visitors and stands by them while they eat."
+  },
+  {
+   "edge_id": "edge.gen_18.sarah_denies_laughing",
+   "interaction_label": "denies laughing to",
+   "description": "Sarah says she did not laugh, because she was afraid."
+  },
+  {
+   "edge_id": "edge.gen_18.sarah_doubts_promise",
+   "interaction_label": "doubts",
+   "description": "Sarah laughs within herself at the promise, thinking of her age and her husband's."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_chooses_abraham",
+   "interaction_label": "chooses",
+   "description": "The LORD says he has known Abraham so that he will instruct his household in righteousness and justice."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_confides_in_abraham",
+   "interaction_label": "confides in",
+   "description": "The LORD decides not to hide from Abraham what he is about to do."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_confronts_sarah",
+   "interaction_label": "confronts",
+   "description": "The LORD answers that she did laugh."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_judges_sodom",
+   "interaction_label": "investigates",
+   "description": "The LORD says the outcry against Sodom is great and their sin very grievous, and he will go down to see whether it is so; the sentence itself is carried out in Genesis 19."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_promises_mercy",
+   "interaction_label": "promises mercy to",
+   "description": "The LORD agrees to spare the whole place for fifty righteous."
+  },
+  {
+   "edge_id": "edge.gen_18.yhwh_promises_son_to_sarah",
+   "interaction_label": "promises a son to",
+   "description": "The LORD says Sarah will have a son at the appointed time."
+  }
+ ]
+}

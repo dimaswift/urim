@@ -1,0 +1,87 @@
+{
+ "chapter_ref": "GEN.48",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_48.joseph_told_of_illness",
+   "title": "Joseph hears Jacob is ill and takes his sons",
+   "narrative_summary": "After these things someone tells Joseph that his father is sick. Joseph takes his two sons, Manasseh and Ephraim, and goes to him.",
+   "temporal_reasoning_note": "'After these things' (48:1) gives no interval. Anchored on the END of the oath scene (47:29-31, c. 1860 BCE, in Jacob's 17th year in Egypt) with an offset of about one month and a margin of three months; Jacob dies at 147 (47:28), so the visit falls within his last year. Duration one day for the message and the short trip to Goshen, an estimate. Tier REGNAL_YEAR from the age framing of 47:28.",
+   "ancient_year_marker": "After these things"
+  },
+  {
+   "event_id": "evt.gen_48.joseph_arrives_jacob_sits_up",
+   "title": "Jacob rallies and sits up on the bed as Joseph arrives",
+   "narrative_summary": "Jacob is told that Joseph is coming, and Israel strengthens himself and sits up on the bed.",
+   "temporal_reasoning_note": "Starts the moment the journey of the previous event ends: the text gives no gap. A few minutes for the announcement and for Jacob to sit up; margin a day inherited from the uncertain travel time."
+  },
+  {
+   "event_id": "evt.gen_48.jacob_recounts_promise",
+   "title": "Jacob tells Joseph of God Almighty's promise at Luz",
+   "narrative_summary": "Jacob tells Joseph that God Almighty appeared to him at Luz in Canaan, blessed him, and promised fruitfulness, many peoples and the land as an everlasting possession for his seed.",
+   "temporal_reasoning_note": "A speech continuous with Jacob sitting up (48:2-3); no gap marked. Taken as a few minutes right after the previous event."
+  },
+  {
+   "event_id": "evt.gen_48.jacob_adopts_joseph_sons",
+   "title": "Jacob claims Ephraim and Manasseh as his own sons",
+   "narrative_summary": "Jacob declares that Joseph's two Egyptian-born sons are his, like Reuben and Simeon; later sons of Joseph will be Joseph's and share their brothers' inheritance. He recalls Rachel's death on the road to Ephrath.",
+   "temporal_reasoning_note": "The same speech continues ('and now', 48:5) with no gap; a few minutes after the previous event."
+  },
+  {
+   "event_id": "evt.gen_48.jacob_embraces_grandsons",
+   "title": "Jacob sees Joseph's sons, kisses and embraces them",
+   "narrative_summary": "Israel sees the boys and asks who they are. Joseph says they are the sons God gave him, and Jacob, nearly blind, kisses and embraces them, saying he never expected to see Joseph's face and now sees his offspring too. Joseph draws them from his knees and bows.",
+   "temporal_reasoning_note": "Continuous scene in the same sitting; ten minutes for the exchange and the embrace."
+  },
+  {
+   "event_id": "evt.gen_48.hands_crossed",
+   "title": "Joseph seats the boys; Jacob crosses his hands",
+   "narrative_summary": "Joseph places Ephraim at Israel's left and Manasseh at his right. Israel crosses his hands, laying the right on the younger Ephraim and the left on the firstborn Manasseh.",
+   "temporal_reasoning_note": "A moment within the same sitting, immediately after Joseph's bowing; two minutes."
+  },
+  {
+   "event_id": "evt.gen_48.jacob_blesses_joseph",
+   "title": "Jacob blesses Joseph and invokes God over the boys",
+   "narrative_summary": "Jacob blesses Joseph, calling on the God before whom Abraham and Isaac walked and who has shepherded him, and on the angel who redeemed him, to bless the lads and make them multiply.",
+   "temporal_reasoning_note": "Follows the laying on of hands with no gap (48:15); a few minutes."
+  },
+  {
+   "event_id": "evt.gen_48.joseph_objects",
+   "title": "Joseph objects to the hand placement; Jacob refuses",
+   "narrative_summary": "Displeased, Joseph tries to move his father's right hand to Manasseh's head. Jacob refuses, saying he knows: Manasseh will be great, but the younger brother will be greater and his seed a multitude of nations.",
+   "temporal_reasoning_note": "Immediate reaction of Joseph on seeing the hand (48:17); a few minutes."
+  },
+  {
+   "event_id": "evt.gen_48.jacob_blesses_boys",
+   "title": "Jacob blesses the boys and puts Ephraim before Manasseh",
+   "narrative_summary": "That day Jacob blesses them: by you Israel will bless, saying, God make you like Ephraim and Manasseh. He sets Ephraim before Manasseh.",
+   "temporal_reasoning_note": "'That day' (48:20) ties it to the same day as the scene; Ramban reads it as Jacob repeating his preference in Joseph's presence. Placed after the objection.",
+   "ancient_diurnal_marker": "That day"
+  },
+  {
+   "event_id": "evt.gen_48.jacob_foretells_return",
+   "title": "Jacob tells Joseph he is dying and gives him Shechem",
+   "narrative_summary": "Israel says he is about to die, God will be with them and bring them back to the land of their fathers, and he gives Joseph one portion above his brothers, taken from the Amorite with sword and bow.",
+   "temporal_reasoning_note": "Closing words of the same visit; no gap marked, a few minutes after the blessing."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_48.hands_crossed.joseph_objects",
+   "causal_explanation": "Joseph objects because he sees his father lay the right hand on Ephraim (48:17)."
+  },
+  {
+   "causal_id": "caus.gen_48.joseph_objects.jacob_blesses_boys",
+   "causal_explanation": "Jacob, having refused to switch his hands, blesses them and sets Ephraim first (48:19-20)."
+  },
+  {
+   "causal_id": "caus.gen_48.joseph_told_of_illness.joseph_arrives_jacob_sits_up",
+   "causal_explanation": "Joseph goes to his father because he is told Jacob is sick (48:1-2)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

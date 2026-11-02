@@ -1,0 +1,1465 @@
+{
+ "chapter_ref": "GEN.13",
+ "items": {
+  "causal:caus.gen_13.herdsmen_strife.separation_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_13.lot_chooses_plain.promise_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": "[consider] Optionally cite Rashi's reading in the explanation or lower the confidence to about 0.5. (GEN.13.14: \"And the LORD said unto Abram, after that Lot was separated from him\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_13.separation_proposal.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.lot.travels_with.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.dwelling.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Numbered 3 and 4 because GEN.12 already holds dwelling.1 and .2. Inferred from 'Abram dwelt in the land of Canaan' (v12); a coarse state replaced at v18 by dwelling at Mamre."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[consider] Optionally acquire dwelling.3 at GEN.13.3 in evt.gen_13.ascent_from_egypt with supersedes_component_id comp.abraham.dwelling.2, citing 13:3 and 13:12. (GEN.13.3: \"unto the place where his tent had been at the beginning, between Beth-el and Hai\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.dwelling.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.offspring_promise.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.lot.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.lot.wealth.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.men_of_sodom.moral_state.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_13.abram_proposes_parting": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_13.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_13.yhwh_commands_walk": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_13.yhwh_promises_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.herdsmen_of_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Unnamed herdsmen, modelled as groups because they are the parties to the quarrel."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[consider] Optionally drop 'and water', or write 'over the land that could not support both households'. (GEN.13.6–7: \"the land was not able to bear them … And there was a strife between the herdmen\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.herdsmen_of_lot": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.men_of_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Defined as a group because the text states their moral state in v13. Not the same as loc.sodom."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.perizzites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.gomorrah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Same as loc.sodom: the request for GEN.10.19 conflicts with the merge rule and is left at GEN.13.10 until GEN.10 is modelled."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[should_fix] Set first_mention_verse of loc.gomorrah to GEN.10.19. (GEN.10.19: \"unto Sodom, and Gomorrah\"; validate: \"loc.gomorrah: mentioned at GEN.10.19, before its first_mention_verse GEN.13.10\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "draft",
+     "at": "2026-11-02T13:42:19+00:00",
+     "note": "The agent kept it unchanged after the request; back to the critic.",
+     "by": "urim run"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:51+00:00",
+     "note": "[consider] When GEN.10 is modelled, define loc.gomorrah there with first_mention_verse GEN.10.19 and drop it from GEN.13. (GEN.10.19: \"unto Sodom, and Gomorrah\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.hebron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "New entity from the registry (Hebron@Gen.13.18-Neh), distinct from the existing loc.hebron_valley (Gen 37:14). The text says Mamre's trees are 'at Hebron' (in the KJV, 'in Hebron'); the Hebrew name is the later name of the town, Kiriath-arba. Coordinates come from the registry."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Reviewer asked for first_mention_verse GEN.10.19, where Sodom and Gomorrah are first named in a list. Not applied: urim ir merge rejects an entity whose first mention is outside the chapter that defines it, and GEN.10 has no events or ontology yet, so the entity cannot be defined there. First_mention_verse stays GEN.13.10, the first mention in this book's modelled chapters. Should be fixed when GEN.10 is done (define both there, drop from GEN.13) or by a merge-rule change."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[should_fix] Set first_mention_verse of loc.sodom to GEN.10.19. (GEN.10.19: \"as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim\"; validate: \"loc.sodom: mentioned at GEN.10.19, before its first_mention_verse GEN.13.10\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "draft",
+     "at": "2026-11-02T13:42:19+00:00",
+     "note": "The agent kept it unchanged after the request; back to the critic.",
+     "by": "urim run"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:42:51+00:00",
+     "note": "[consider] When GEN.10 is modelled, define loc.sodom there with first_mention_verse GEN.10.19 and drop it from GEN.13. (GEN.10.19: \"as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.zoar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.altar_worship_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.ascent_from_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [
+    "Duration: urim travel Egypt–Negeb–Bethel gives ~555 km by road, 17 days for a laden donkey (32 km/day). Abram has flocks, herds, servants and Lot's company (12:16; 13:2, 5), so I doubled it to about a month, margin a week. The text gives no duration; 'journeys' (13:3) implies stages through the Negeb."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.herdsmen_strife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [
+    "The text says only that strife arose, with no interval. I placed it about half a year after the altar worship, margin six months, because the flocks of both men had to outgrow the land. Any value from a few weeks to a few years fits."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": "[consider] Optionally align the notes: either anchor the proposal on the strife's START with an offset, or reword its note to speak of the strife's end. (GEN.13.6–7: \"the land was not able to bear them … And there was a strife\" (no interval given))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:30+00:00",
+   "agent_notes": [
+    "Lot's journey from Bethel's east side down to the Jordan plain (about 35 km straight, 1–2 days) is not separately evented. 'Lot journeyed east' (13:11) is read as the departure; the settlement event starts after it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": "[should_fix] Set precision_tier to REGNAL_YEAR and change the note's 'DAY_SEQUENCE as the scene is continuous with the proposal' to say the scene follows the proposal directly but carries no time word. (GEN.13.10–11: \"And Lot lifted up his eyes … Then Lot chose him all the plain of Jordan; and Lot journeyed east\" (no time word))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:36:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.lot_settles_by_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": "[should_fix] Re-derive the offset with `urim travel Bethel Sodom --mode donkey` (~3 days, ~102 km by road), adjust it for the flocks as you did in evt.gen_13.ascent_from_egypt (about 4–6 days), and replace the straight-line reasoning in the temporal note with that figure. (GEN.13.12: \"Lot dwelled in the cities of the plain, and pitched his tent toward Sodom\"; GEN.13.5: \"Lot also … had flocks, and herds, and tents\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:36:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.promise_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [
+    "13:14 says the LORD spoke 'after Lot was separated from him'. Rashi reads this as the divine word being withheld while the wicked one was with Abram; Sforno reads that Lot's presence would have made Lot and his herdsmen claim a share of the promise. I started it after the departure, with a margin of days, not at the same moment.",
+    "Vv. 15–17 promise the land and seed 'for ever', and tell Abram to walk through it. The fulfilment lies in later chapters (Gen 15, 17, 21, Joshua), and no event within this chapter fulfils it; the later chapters' sessions should write FULFILLS_PROPHECY from here. The command 'arise, walk' of 13:17 is followed by the move to Hebron in 13:18, but the text does not say that Abram walked the whole land, so I wrote no link."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.separation_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:30+00:00",
+   "agent_notes": [
+    "13:8–9 and 13:10–11 are consecutive; I did not merge Abram's speech with Lot's choice because Lot's looking and choosing is the response, and the move east then marks a change of place. The length of Lot's deliberation is unknown, so I gave it a few hours."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": "[should_fix] Set precision_tier to REGNAL_YEAR, like the rest of the chapter, and say in the note that the speech has no time word and falls under the chapter's year frame. Timing values may stay. (GEN.13.8: \"And Abram said unto Lot, Let there be no strife\" (no time word; the preceding 13:7 \"there was a strife\" has none either))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:36:06+00:00",
+     "note": "[consider] Optionally reword the margin sentence to speak of the strife's end, matching the anchor. (GEN.13.8: \"And Abram said unto Lot, Let there be no strife\" (no interval given after 13:7))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_13.settles_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:33:19+00:00",
+   "agent_notes": [
+    "Hebron–Bethel is about 58 km by road, 1.5 days by donkey. The text says nothing about the interval after the promise. I set offset 1 week, margin 2 weeks, an estimate. It counts as REGNAL_YEAR because no time word is given for this one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:34:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.altar_worship_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.ascent_from_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Place given as the Negeb, where the journey is headed in v1; the event runs on to Bethel (v3), but Bethel is the next event's place. Bethel and Ai appear in v3 only as the end point and landmark, so they are MENTIONED."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[consider] Optionally add a wealth state at GEN.13.2 (livestock, silver, gold) that supersedes comp.abraham.wealth.1. (GEN.13.2: \"And Abram was very rich in cattle, in silver, and in gold\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.herdsmen_strife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "The text does not restate where the quarrel happens; place carried over from the Bethel camp of v3-4. The Canaanite and Perizzite are listed as PRESENT (dwelling in the land). The registry tags 'the Canaanite' with the place id loc.canaan; the people are the existing group.canaanites."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Lot's viewpoint is the Bethel hill (carried over); the text does not name it. The Jordan plain is the existing loc.jordan (river and region); no separate entity for 'the circuit of the Jordan'. Gomorrah and Zoar are named only as landmarks, so MENTIONED. Registry gives Jordan's id to the river; here it stands for the whole valley."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.lot_settles_by_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "'Cities of the plain' have no entity of their own; loc.sodom is the place, since Lot's tent is pitched toward it. Abram's dwelling in Canaan is paired with Lot's in the same verse, so Abram is an AGENT here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.promise_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [
+    "Place carried over from the Bethel area ('from the place where you are'); not restated in the text. Defined no new system: the speech is an instance of the existing sys.divine_call_and_promise."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.separation_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_13.settles_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_13.altar_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": "[consider] Optionally limit the note to what 13:18 shows, or mark the later role as looking ahead. (GEN.13.18: \"came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the Lord\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_13.invoking_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_13.promise_of_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:39:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:41:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [
+    "STEPBible glosses the final word 'the Negev towards'; I render it 'to the Negev' (directional he). Ramban's reading that 'he and his wife and all that he had' shows nothing was taken back is cited as his, not stated by the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[consider] Attribute the miracle to Ramban, and give Radak 'nothing was missing'. (GEN.13.1: \"he, and his wife, and all that he had, and Lot with him\"; Ramban: 'and this is a miracle'; Radak: 'nothing of his was missing')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [
+    "The clause 'before YHWH destroyed Sodom and Gomorrah' is the narrator's aside looking back. 'bo'akha Tzo'ar' is literally 'your going [to] Zoar' (second person); the KJV 'as thou comest' keeps this; I keep it in the literal layer and bracket the preposition."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:01+00:00",
+   "agent_notes": [
+    "Last sentence of the commentary rewritten as requested. Miqqedem is genuinely disputed: Rashi, Ibn Ezra and Sforno read 'from the east' (Lot travelling west, away from Abram); Radak reads it as movement toward the east, taking the mem like the one in mi-negev (13:3). The KJV 'journeyed east' follows the second view. Ibn Ezra's comment as printed in the packet says Sodom lies west of Bethel; I report his reading as his and do not adopt his geography as my own claim. The literal layer keeps 'from the east'; the dramatic layer stays with 'from the east' as well."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[should_fix] Rewrite the last sentence of the commentary: Rashi and Ibn Ezra take miqqedem as 'from the east', with Lot moving westward away from Abram, and Rashi's midrash reads it as 'he removed himself from the Ancient One of the world'. Drop 'a departure from the old home'. (GEN.13.11: \"and Lot journeyed east\"; Rashi: 'he journeyed from beside Abram and went to Abram's west; so he travelled from east to west'; Ibn Ezra: 'for Sodom is west of Bethel')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:53:02+00:00",
+     "note": "[consider] Optionally reword to 'The verse ends with the word brother again, now that the parting is done', or similar, so the tense belongs to the verb. (GEN.13.11: \"and they separated themselves the one from the other\" (vayyipparedu ish me'al achiv))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[consider] Optionally follow Ramban: the contrast is between Abram roaming the whole land and Lot settling in one district. (GEN.13.12: \"Abram dwelled in the land of Canaan, and Lot dwelled in the cities of the plain\"; Ramban: 'for the cities of the plain are part of the land of Canaan')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [
+    "Hebrew לַיהוָה is a bare lamed ('to/toward/against YHWH'). KJV and BBE 'before', ASV 'against'. I kept 'against YHWH' in the literal layer as the sense most natural after 'sinners' (cf. Rashi, 'they know their Master and intend to rebel against him'), and noted the ambiguity in the commentary.",
+    "STEPBible glosses 'wicked' and 'sinful' as predicates with an added 'were'; the Hebrew has no verb, so the literal layer brackets it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [
+    "STEPBible renders מֵעִמּוֹ 'from with <the> him'; I glossed it 'from with him' and dropped the stray article."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[consider] Say that the KJV renders na as 'now', which loses its courtesy, rather than that it omits it. The added scene in the dramatic layer ('the last of his herds had wound away down the slope') could also be trimmed. (GEN.13.14 KJV: \"Lift up now thine eyes\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [
+    "The Hebrew verb is imperfect with a nun-energic suffix (אֶתְּנֶנָּה). The English versions split between 'will I give' (KJV, ASV) and 'I give' (YLT); I chose the future in both layers, and left the 'already given' reading of Radak to the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [
+    "The last clause (אֲשֶׁר אִם־יוּכַל … גַּם־זַרְעֲךָ יִמָּנֶה) is a conditional of impossibility; KJV 'then shall' reads the second half as a result, ASV 'then may' as a possibility. I kept it neutral in the literal layer and followed Rashi and Onkelos's sense (the seed cannot be counted) in the dramatic one. Radak's note is the same logic."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:28+00:00",
+   "agent_notes": [
+    "אֵלֹנֵי is plural construct 'great trees' (oaks or terebinths; BDB). KJV 'plain' follows Onkelos's מֵישְׁרֵי (plains), which Radak also cites for Mamre as a place of plains. I rendered 'oaks' as the standard reading and flagged the tradition in a note. The identification of Mamre as a person, per Rashi, is cited as such; Radak adds that he is the brother of Eshkol and Aner (from Gen 14:13, which is not in this window).",
+    "In the Hebrew, Abram 'tented' is a denominative verb (וַיֶּאֱהַל from אֹהֶל, tent). STEPBible's 'moved tent' is acceptable; the literal layer shows 'tented' with a bracket."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:01+00:00",
+   "agent_notes": [
+    "Only the verses with change requests (3, 6, 11) are carried; 4, 5, 7, 8, 9, 10 are LOCKED and left out. Revised as asked: the same-lodgings reading is attributed to Rashi (citing Genesis Rabbah) alone, Radak is given only the short stages, and the dramatic layer now uses the slow stages instead of 'every night's camp'. Qere/Ketiv: written אהלה (Radak quotes this form, 'ohalo), read אָהֳלוֹ; the verse means the same either way."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[should_fix] Attribute the same-lodgings reading to Rashi (Genesis Rabbah) alone, and give Radak only the short stages. In the dramatic layer, drop 'every night's camp was one he had slept in before' or replace it with something the verse says, such as the slow stages. (GEN.13.3: \"And he went on his journeys from the south even to Beth-el\"; Rashi: 'he lodged in the inns he had lodged in on the way to Egypt'; Radak: 'stage after short stage, because he was very heavy in livestock')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:53:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:52:01+00:00",
+   "agent_notes": [
+    "rekhush list corrected: 14:11–12, 14:16 and 15:14. I also added 12:5 (the substance Abram gathered before leaving Haran), which I am confident of from the text; drop it if the reviewer wants only the requested verses. The five English versions split on how to carry 'nasa' (bear / suffer / be wide enough); I kept 'bear' in the literal layer to keep the lifting image."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[should_fix] Correct the note: rekhush recurs in 14:11–12 (the goods of Sodom and Gomorrah, and Lot's goods), 14:16 (the goods Abram brings back) and 15:14 (the substance his seed will take from the land of bondage). (Gen 14:11: \"they took all the goods of Sodom and Gomorrah\"; Gen 15:14: \"afterward shall they come out with great substance\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:53:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [
+    "Rashi's account of Lot's herdsmen grazing on others' fields is midrash (Genesis Rabbah) and is marked as such in the commentary; Ramban disputes it. The text itself only says there was strife."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": "[consider] Optionally replace the well with the pasture, and keep the Canaanite and Perizzite simply dwelling in the land. (GEN.13.7: \"And there was a strife between the herdmen … and the Canaanite and the Perizzite dwelled then in the land\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.13.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:52+00:00",
+   "agent_notes": [
+    "'ve'eiMinah' and 've'asme'Ilah' are Hiphil cohortatives from denominative roots (y-m-n, s-m-'-l): 'let me take the right/left'. STEPBible gives 'so let me go right'; I gloss 'then let me go right'. Rashi (not Radak) explains the vocalization; the compass-direction reading (left = north, right = south, facing east) is the standard orientation but is my gloss, not stated in the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:50:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "All 18 verses are covered. 13:2 (Abram's wealth) and 13:5–6 (Lot's flocks, the land too small) are scene-setting and sit inside the ascent and the strife events; 13:13 (Sodom's wickedness) is the narrator's aside and is covered by the settlement event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:19+00:00"
+  },
+  {
+   "note": "The chain is anchored on the end of evt.gen_12.pharaoh_sends_away, which carries the 75th-year indication of ch. 12. Gen 13 itself gives no year or age; Abram is therefore at c. 75–77 across the chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:33:19+00:00"
+  },
+  {
+   "note": "All 18 verses are covered. 13:2 (Abram's wealth) and 13:5–6 (Lot's flocks, the land too small) are scene-setting and sit inside the ascent and the strife events; 13:13 (Sodom's wickedness) is the narrator's aside and is covered by the settlement event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "The chain is anchored on the end of evt.gen_12.pharaoh_sends_away, which carries the 75th-year indication of ch. 12. Gen 13 itself gives no year or age; Abram is therefore at c. 75–77 across the chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[event:evt.gen_13.ascent_from_egypt] Duration: urim travel Egypt–Negeb–Bethel gives ~555 km by road, 17 days for a laden donkey (32 km/day). Abram has flocks, herds, servants and Lot's company (12:16; 13:2, 5), so I doubled it to about a month, margin a week. The text gives no duration; 'journeys' (13:3) implies stages through the Negeb.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[event:evt.gen_13.herdsmen_strife] The text says only that strife arose, with no interval. I placed it about half a year after the altar worship, margin six months, because the flocks of both men had to outgrow the land. Any value from a few weeks to a few years fits.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[event:evt.gen_13.promise_to_abram] 13:14 says the LORD spoke 'after Lot was separated from him'. Rashi reads this as the divine word being withheld while the wicked one was with Abram; Sforno reads that Lot's presence would have made Lot and his herdsmen claim a share of the promise. I started it after the departure, with a margin of days, not at the same moment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[event:evt.gen_13.promise_to_abram] Vv. 15–17 promise the land and seed 'for ever', and tell Abram to walk through it. The fulfilment lies in later chapters (Gen 15, 17, 21, Joshua), and no event within this chapter fulfils it; the later chapters' sessions should write FULFILLS_PROPHECY from here. The command 'arise, walk' of 13:17 is followed by the move to Hebron in 13:18, but the text does not say that Abram walked the whole land, so I wrote no link.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[event:evt.gen_13.settles_at_mamre] Hebron–Bethel is about 58 km by road, 1.5 days by donkey. The text says nothing about the interval after the promise. I set offset 1 week, margin 2 weeks, an estimate. It counts as REGNAL_YEAR because no time word is given for this one.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:30+00:00"
+  },
+  {
+   "note": "[entity:loc.mamre] Already defined in GEN.25 with its tipnr id, but Gen 13:18 is its first appearance in the text (the corpus entry carries the later chapter). Used as is.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:39:49+00:00"
+  },
+  {
+   "note": "[component:comp.lot.travels_with.1] Closed at 13:11 by 'they separated, each from his brother'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:39:49+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.promised_land.1] Left open: the promise of 12:7 is restated and widened here (13:15 all the land seen, 'for ever'), not replaced.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:39:49+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_13.ascent_from_egypt] Place given as the Negeb, where the journey is headed in v1; the event runs on to Bethel (v3), but Bethel is the next event's place. Bethel and Ai appear in v3 only as the end point and landmark, so they are MENTIONED.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_13.herdsmen_strife] The text does not restate where the quarrel happens; place carried over from the Bethel camp of v3-4. The Canaanite and Perizzite are listed as PRESENT (dwelling in the land). The registry tags 'the Canaanite' with the place id loc.canaan; the people are the existing group.canaanites.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_13.lot_chooses_plain] Lot's viewpoint is the Bethel hill (carried over); the text does not name it. The Jordan plain is the existing loc.jordan (river and region); no separate entity for 'the circuit of the Jordan'. Gomorrah and Zoar are named only as landmarks, so MENTIONED. Registry gives Jordan's id to the river; here it stands for the whole valley.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_13.lot_settles_by_sodom] 'Cities of the plain' have no entity of their own; loc.sodom is the place, since Lot's tent is pitched toward it. Abram's dwelling in Canaan is paired with Lot's in the same verse, so Abram is an AGENT here.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_13.promise_to_abram] Place carried over from the Bethel area ('from the place where you are'); not restated in the text. Defined no new system: the speech is an instance of the existing sys.divine_call_and_promise.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[entity:loc.hebron] New entity from the registry (Hebron@Gen.13.18-Neh), distinct from the existing loc.hebron_valley (Gen 37:14). The text says Mamre's trees are 'at Hebron' (in the KJV, 'in Hebron'); the Hebrew name is the later name of the town, Kiriath-arba. Coordinates come from the registry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[entity:loc.mamre] Already defined in GEN.25 with its tipnr id, but Gen 13:18 is its first appearance in the text (the corpus entry carries the later chapter). Used as is.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[entity:group.herdsmen_of_abram] Unnamed herdsmen, modelled as groups because they are the parties to the quarrel.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[entity:group.men_of_sodom] Defined as a group because the text states their moral state in v13. Not the same as loc.sodom.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[component:comp.lot.travels_with.1] Closed at 13:11 by 'they separated, each from his brother'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.dwelling.3] Numbered 3 and 4 because GEN.12 already holds dwelling.1 and .2. Inferred from 'Abram dwelt in the land of Canaan' (v12); a coarse state replaced at v18 by dwelling at Mamre.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  },
+  {
+   "note": "[component:comp.abraham.promised_land.1] Left open: the promise of 12:7 is restated and widened here (13:15 all the land seen, 'for ever'), not replaced.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:42:09+00:00"
+  }
+ ]
+}

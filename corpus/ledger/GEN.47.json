@@ -1,0 +1,1177 @@
+{
+ "chapter_ref": "GEN.47",
+ "items": {
+  "causal:caus.gen_46.joseph_instructs_brothers.pharaoh_grants_goshen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[consider] Consider adding a TRIGGERS link from evt.gen_47.brothers_before_pharaoh to evt.gen_47.pharaoh_grants_goshen, alongside this one. (GEN.47.4: \"let thy servants dwell in the land of Goshen\"; GEN.47.6: \"in the land of Goshen let them dwell\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_46.vision_at_beersheba.israel_prospers_in_goshen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_47.cattle_for_bread.egyptians_sell_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_47.egyptians_sell_land.joseph_decrees_fifth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_47.joseph_gathers_money.cattle_for_bread": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_47.pharaoh_grants_goshen.joseph_settles_family": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.egyptians.servitude.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Opened at 47:23, where Joseph says 'I have bought you', rather than 47:19 where they only offer. The people accept at 47:25."
+   ],
+   "history": [],
+   "source": null
+  },
+  "component:comp.israel.life.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "component:comp.jacobs_family.holdings.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Inferred from 47:11 and 47:27 ('they had possessions'); not closed."
+   ],
+   "history": [],
+   "source": null
+  },
+  "component:comp.jacobs_family.population.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "component:comp.joseph.burial_oath.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "component:comp.pharaoh.land_of_egypt.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "component:comp.priests_of_egypt.land_tenure.1": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.brothers_petition_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.egyptians_plead_joseph": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.egyptians_submit_to_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.israel_binds_joseph_by_oath": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.israel_blesses_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.israel_summons_joseph": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_buys_land_for_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_feeds_egyptians": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_feeds_family": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_gathers_silver": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_informs_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_moves_people": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_presents_brothers": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_sets_fifth": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_settles_israel": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.joseph_swears_to_israel": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.pharaoh_commands_joseph": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.pharaoh_provides_priests": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.pharaoh_questions_brothers": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "edge:edge.gen_47.pharaoh_questions_israel": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "entity:group.five_brothers_of_joseph": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Unnamed 'five men' from among the brothers. Which five is not stated. Kept apart from group.joseph_brothers so the five at the audience are not confused with all eleven."
+   ],
+   "history": [],
+   "source": null
+  },
+  "entity:group.priests_of_egypt": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Defined for the exemption in 47:22 and 47:26. Egyptian priests, not Israelite."
+   ],
+   "history": [],
+   "source": null
+  },
+  "entity:loc.rameses": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "TIPNR id Rameses@Gen.47.11-Num taken from the registry line; no coordinates in the registry for it at first mention, so geo left empty. The text treats 'land of Rameses' as the best of the land, matching the Goshen region of v.6; I kept Goshen as the family's dwelling (comp.israel.dwelling.2 left open) and recorded Rameses as the holding."
+   ],
+   "history": [],
+   "source": null
+  },
+  "event:evt.gen_47.brothers_before_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.cattle_for_bread": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [
+    "Famine-year numbering is from Sforno and the 45:6 'two years'; offsets are estimates with a one-year margin. 'Years' here are the famine years counted from the start; I assume the famine started about two years before Jacob's arrival."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.egyptians_sell_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.israel_prospers_in_goshen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [
+    "Anchored on the meeting at Goshen (gen_46.joseph_meets_israel), cross-checked with anchor.jacob_birth + 147 years; the dwelling event overlaps the others in the chapter."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.jacob_blesses_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [
+    "Jacob's age (130) falls at his arrival; anchor.jacob_birth (2006 BCE) + 130 = 1876 BCE, matching the chain from gen_46. Not anchored twice."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.jacob_makes_joseph_swear": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [
+    "Joseph's promise and Jacob's wish to be buried at Machpelah will be taken up in Gen 49–50; those chapters' sessions should write the links. Also God's word in 46:4 ('Joseph shall put his hand upon thine eyes') is for ch. 50."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.joseph_decrees_fifth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:02+00:00",
+   "agent_notes": [
+    "Anchored on the end of the sale (47:23, 'this day'); the move to the cities (47:21) is concurrent, not before."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[should_fix] Anchor the decree on the END of evt.gen_47.egyptians_sell_land (the day of the purchase) instead of on evt.gen_47.people_moved_to_cities, and let the relocation run alongside or after it. Change the temporal note to match. (GEN.47.23: \"Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.joseph_feeds_family": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.joseph_gathers_money": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:02+00:00",
+   "agent_notes": [
+    "Starts with the famine (Gen 41:56–57) and ends where the cattle exchange begins, per Ramban on 47:18 (money lasted five years). Considered a FULFILLS_PROPHECY from the famine dream interpretation in Gen 41 to the famine's severity here (47:13); not written, since I do not have the ids of that chapter's events in the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[should_fix] Start the event at the settlement (offset 0, or from the famine's start in Gen 41 if you anchor there) and run it up to the start of evt.gen_47.cattle_for_bread (3 years from the settlement). Cite Ramban on 47:18 for the money lasting until the sixth year. (GEN.47.14: \"Joseph gathered up all the money that was found in the land of Egypt ... for the corn which they bought\"; GEN.47.15: \"And when money failed ...\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:53+00:00",
+     "note": "[consider] Optionally round the duration so the money's end meets the start of the cattle exchange, or say in the note that the small gap is within the margin. (GEN.47.15: \"And when money failed in the land of Egypt ... all the Egyptians came unto Joseph\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.joseph_reports_to_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:00:02+00:00",
+   "agent_notes": [
+    "The journey from Goshen to the court is not stated in the text; one day is the chariot figure from urim travel."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[should_fix] Add an offset of about 1 day (from `urim travel loc.goshen loc.egypt --mode chariot`) between the end of evt.gen_46.joseph_instructs_brothers and the report, with a margin of about a day. Say in the temporal note that the journey from Goshen to the court is not stated. (GEN.46.31: \"I will go up, and shew Pharaoh\"; GEN.47.1: \"Then Joseph came and told Pharaoh ... behold, they are in the land of Goshen\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.joseph_settles_family": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[consider] Say in the note that the family is already in Goshen and that the week covers the return from the court and the granting of the possession, not a 90 km move of the whole household. (GEN.47.1: \"behold, they are in the land of Goshen\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.land_sale_second_year": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [
+    "Rashi takes 'the second year' as the second year of the famine; Sforno as the year after the money ran out (the seventh). I follow Sforno. Rashi's reading would put it before Jacob's arrival, which the text contradicts."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": "[consider] Optionally add Ramban on 47:18 alongside Sforno, and note that Rashi's reading rests on the midrash that the famine ended at Jacob's arrival. (GEN.47.18: \"When that year was ended, they came unto him the second year\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.people_moved_to_cities": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_47.pharaoh_grants_goshen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_47.brothers_before_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.cattle_for_bread": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.egyptians_sell_land": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.israel_prospers_in_goshen": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.jacob_blesses_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Pharaoh is AGENT (he asks the question at 47:8); the blessing itself is on the edge, so Pharaoh is its target there."
+   ],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.jacob_makes_joseph_swear": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.joseph_decrees_fifth": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.joseph_feeds_family": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.joseph_gathers_money": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "group.canaanites is a PATIENT because Canaan's silver is also gathered (47:14). Canaan here is the land; the people are inferred."
+   ],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.joseph_reports_to_pharaoh": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Place of the audience scenes in vv.1–10 is not stated. I used loc.pharaohs_house (from Gen 45) as the best fit; the text only says they stand 'before Pharaoh'."
+   ],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.joseph_settles_family": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.land_sale_second_year": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "This event overlaps egyptians_sell_land and joseph_decrees_fifth in the chronology. Its participants repeat theirs; the instances and edges are attached to the narrower events to avoid duplicates."
+   ],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.people_moved_to_cities": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "event_links:evt.gen_47.pharaoh_grants_goshen": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.burial_requested": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.cattle_for_bread": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.fifth_decreed": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.grain_money_gathered": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.land_bought": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.oath_to_bury": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.pharaoh_blessed": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "instance:inst.gen_47.settlement_offered": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [],
+   "history": [],
+   "source": null
+  },
+  "system:sys.blessing_of_ruler": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Defined here. patriarchal_blessing (Gen 27) is a father's blessing of a son and priestly_blessing is Melchizedek's, so neither fits a patriarch blessing a king. Reviewer may prefer to reuse one."
+   ],
+   "history": [],
+   "source": null
+  },
+  "system:sys.land_purchase_for_crown": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Defined here, not reused: no existing system covers buying land into royal ownership. sale_of_person (Gen 37) is a different act."
+   ],
+   "history": [],
+   "source": null
+  },
+  "system:sys.royal_tax_fifth": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:13:49+00:00",
+   "agent_notes": [
+    "Defined here. A statute of a fifth of the harvest is a distinct legal custom."
+   ],
+   "history": [],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses all covered: 47:1–31. 47:22 is a parenthetical on the priests and is folded into the decree event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:00+00:00"
+  },
+  {
+   "note": "Verses all covered: 47:1–31. 47:22 is a parenthetical on the priests and is folded into the decree event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[event:evt.gen_47.jacob_blesses_pharaoh] Jacob's age (130) falls at his arrival; anchor.jacob_birth (2006 BCE) + 130 = 1876 BCE, matching the chain from gen_46. Not anchored twice.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[event:evt.gen_47.land_sale_second_year] Rashi takes 'the second year' as the second year of the famine; Sforno as the year after the money ran out (the seventh). I follow Sforno. Rashi's reading would put it before Jacob's arrival, which the text contradicts.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[event:evt.gen_47.cattle_for_bread] Famine-year numbering is from Sforno and the 45:6 'two years'; offsets are estimates with a one-year margin. 'Years' here are the famine years counted from the start; I assume the famine started about two years before Jacob's arrival.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[event:evt.gen_47.israel_prospers_in_goshen] Anchored on the meeting at Goshen (gen_46.joseph_meets_israel), cross-checked with anchor.jacob_birth + 147 years; the dwelling event overlaps the others in the chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[event:evt.gen_47.jacob_makes_joseph_swear] Joseph's promise and Jacob's wish to be buried at Machpelah will be taken up in Gen 49–50; those chapters' sessions should write the links. Also God's word in 46:4 ('Joseph shall put his hand upon thine eyes') is for ch. 50.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:00:02+00:00"
+  },
+  {
+   "note": "[entity:person.israel] The text uses 'Jacob' and 'Israel' for the same person; both map to person.israel. TIPNR tags 'Jacob' in 47:7–10 with the same id.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:13:49+00:00"
+  }
+ ]
+}

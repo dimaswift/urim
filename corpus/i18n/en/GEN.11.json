@@ -1,0 +1,420 @@
+{
+ "chapter_ref": "GEN.11",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_11.settle_shinar",
+   "title": "The people journey from the east and settle in Shinar",
+   "narrative_summary": "The whole earth has one language and one set of words. As the people travel from the east they find a plain in the land of Shinar and settle there.",
+   "temporal_reasoning_note": "Starts at the start of the Babel episode; the text gives no time, so a year with a margin of one year is an estimate. 'From the east' (or 'eastward') describes the journey, not a date. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.babel",
+   "title": "The whole earth builds at Babel and is scattered",
+   "narrative_summary": "The whole earth has one language and settles in a plain in Shinar, where the people plan a city and a tower. The Lord comes down, confuses their language and scatters them, and the city is named Babel.",
+   "temporal_reasoning_note": "No date in the text. I place the whole episode about 100 years after Peleg's birth (evt.gen_11.peleg_born, ±30 years), because 10:25 says the earth was divided 'in his days' (the division event stands about 120 years after his birth). The span is 8 years in total: about a year of settling, a gap for building, and a year for the scattering. All durations are estimates; MACRO_ERA because the text offers only 'the whole earth was of one language'."
+  },
+  {
+   "event_id": "evt.gen_11.plan_city_tower",
+   "title": "The people plan to build a city and a tower",
+   "narrative_summary": "They tell one another to make bricks and burn them, using brick for stone and bitumen for mortar. They then decide to build a city and a tower with its top in the heavens, to make a name for themselves lest they be scattered over the whole earth.",
+   "temporal_reasoning_note": "A speech of minutes to an hour, about a year after they settled in Shinar (offset 1 year from the episode's start, margin 1 year); no time word in the text. Both speeches (11:3 and 11:4) are one continuous planning scene. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.yhwh_comes_down",
+   "title": "The Lord comes down to see the city and the tower",
+   "narrative_summary": "The Lord comes down to see the city and the tower the people have built. He observes that they are one people with one language, that this is only the beginning of what they do, and that nothing they plan will be beyond them.",
+   "temporal_reasoning_note": "About five years after the plan (offset 6 years from the episode's start, margin 2 years), time enough for the city and the tower to have been built ('which they had built', 11:5). The descent and the observation are one short scene of about an hour. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.yhwh_decides_to_confuse",
+   "title": "The Lord resolves to confuse their language",
+   "narrative_summary": "The Lord says, 'Let us go down and there confuse their language, so that they will not understand one another's speech.'",
+   "temporal_reasoning_note": "Spoken straight after his observation in 11:6, so it starts when evt.gen_11.yhwh_comes_down ends; a few minutes. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.scatter_from_babel",
+   "title": "The Lord confuses their speech and scatters them from Babel",
+   "narrative_summary": "The Lord scatters the people from there over the whole earth, and they stop building the city. It is called Babel, because there the Lord confused the language of all the earth and from there scattered them.",
+   "temporal_reasoning_note": "Follows the resolution of 11:7 at once (starts when it ends); the dispersal takes a span the text does not give, estimated at a year. The naming in 11:9 is an aetiological comment, not a later event. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.arpachshad_born",
+   "title": "Shem, aged a hundred, fathers Arpachshad",
+   "narrative_summary": "Two years after the Flood, when Shem is a hundred years old, he fathers Arpachshad. Shem lives five hundred years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:10: 'two years after the flood', which I count from the Flood's start year (anchor.flood), offset 2 years, as the anchor's own basis does; margin 1 year for the year-counting. REGNAL_YEAR.",
+   "ancient_year_marker": "Two years after the flood"
+  },
+  {
+   "event_id": "evt.gen_11.shem_line_genealogy",
+   "title": "The generations from Shem to Abram",
+   "narrative_summary": "The text lists ten generations from Shem through Arpachshad, Shelah, Eber, Peleg, Reu, Serug and Nahor to Terah and his son Abram, giving each father's age at the birth of the next and the years he lived afterward.",
+   "temporal_reasoning_note": "Groups the dated births of 11:10–26. Starts at the Flood's start (anchor.flood) and runs 293 years, to cover Abram's birth at Flood + 292 years (2 + 35 + 30 + 34 + 30 + 32 + 30 + 29 + 70). Masoretic ages. REGNAL_YEAR because ages are numbered years.",
+   "ancient_year_marker": "Two years after the flood"
+  },
+  {
+   "event_id": "evt.gen_11.shelah_born",
+   "title": "Arpachshad, aged thirty-five, fathers Shelah",
+   "narrative_summary": "When Arpachshad is thirty-five he fathers Shelah. He lives 403 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:12: age 35 at the birth, so 35 years from Arpachshad's birth START; margin 1 year because an age covers the whole year. REGNAL_YEAR.",
+   "ancient_year_marker": "Arpachshad lived thirty-five years"
+  },
+  {
+   "event_id": "evt.gen_11.eber_born",
+   "title": "Shelah, aged thirty, fathers Eber",
+   "narrative_summary": "When Shelah is thirty he fathers Eber. He lives 403 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:14: age 30 at the birth, so 30 years from Shelah's birth START; margin 1 year. REGNAL_YEAR.",
+   "ancient_year_marker": "Shelah lived thirty years"
+  },
+  {
+   "event_id": "evt.gen_11.peleg_born",
+   "title": "Eber, aged thirty-four, fathers Peleg",
+   "narrative_summary": "When Eber is thirty-four he fathers Peleg. He lives 430 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:16: age 34 at the birth, so 34 years from Eber's birth START; margin 1 year. The same birth is dated by evt.gen_10.peleg_born (10:25); the two should agree. REGNAL_YEAR.",
+   "ancient_year_marker": "Eber lived thirty-four years"
+  },
+  {
+   "event_id": "evt.gen_11.reu_born",
+   "title": "Peleg, aged thirty, fathers Reu",
+   "narrative_summary": "When Peleg is thirty he fathers Reu. He lives 209 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:18: age 30 at the birth, so 30 years from Peleg's birth START; margin 1 year. REGNAL_YEAR.",
+   "ancient_year_marker": "Peleg lived thirty years"
+  },
+  {
+   "event_id": "evt.gen_11.serug_born",
+   "title": "Reu, aged thirty-two, fathers Serug",
+   "narrative_summary": "When Reu is thirty-two he fathers Serug. He lives 207 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:20: age 32 at the birth, so 32 years from Reu's birth START; margin 1 year. REGNAL_YEAR.",
+   "ancient_year_marker": "Reu lived thirty-two years"
+  },
+  {
+   "event_id": "evt.gen_11.nahor_born",
+   "title": "Serug, aged thirty, fathers Nahor",
+   "narrative_summary": "When Serug is thirty he fathers Nahor. He lives 200 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:22: age 30 at the birth, so 30 years from Serug's birth START; margin 1 year. REGNAL_YEAR.",
+   "ancient_year_marker": "Serug lived thirty years"
+  },
+  {
+   "event_id": "evt.gen_11.terah_born",
+   "title": "Nahor, aged twenty-nine, fathers Terah",
+   "narrative_summary": "When Nahor is twenty-nine he fathers Terah. He lives 119 years more and has other sons and daughters.",
+   "temporal_reasoning_note": "11:24: age 29 at the birth, so 29 years from Nahor's birth START; margin 1 year. REGNAL_YEAR.",
+   "ancient_year_marker": "Nahor lived twenty-nine years"
+  },
+  {
+   "event_id": "evt.gen_11.abram_born",
+   "title": "Terah, aged seventy, fathers Abram, Nahor and Haran",
+   "narrative_summary": "When Terah is seventy he fathers Abram, Nahor and Haran.",
+   "temporal_reasoning_note": "11:26: Terah's age 70 at the first of the sons, so 70 years from Terah's birth START; margin 1 year. The result is Flood + 292 years, the same as anchor.abraham_birth. The text does not say all three were born in that year or that Abram was the eldest. REGNAL_YEAR.",
+   "ancient_year_marker": "Terah lived seventy years"
+  },
+  {
+   "event_id": "evt.gen_11.haran_dies",
+   "title": "Haran dies in Ur before his father Terah",
+   "narrative_summary": "Haran, the father of Lot, dies in the presence of his father Terah in his native land, Ur of the Chaldeans.",
+   "temporal_reasoning_note": "The text gives no date, only that it happened in Ur, before the departure and before Nahor married Haran's daughter Milcah. I put it 20 years after Abram's birth, margin 15 years; an estimate. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.marriages_sarai_barren",
+   "title": "Abram and Nahor marry; Sarai is barren",
+   "narrative_summary": "Abram marries Sarai and Nahor marries Milcah, the daughter of Haran. Sarai is barren and has no child.",
+   "temporal_reasoning_note": "No age or date is given. I place the marriages about 30 years after Abram's birth, margin 15 years, after Haran's death in 11:28 and before the departure in 11:31. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.terah_leaves_ur",
+   "title": "Terah takes his family from Ur and settles in Haran",
+   "narrative_summary": "Terah takes his son Abram, his grandson Lot and his daughter-in-law Sarai out of Ur of the Chaldeans to go to Canaan. They come to Haran and settle there.",
+   "temporal_reasoning_note": "The text gives no date for the departure. I keep the whole window before Abram's 75th year: 55 years after Abram's birth with a margin of 15 years (40–70 years), after the marriages. Abram's leaving Haran at 75 (12:4) is the upper bound: the stay in Haran (11:31 'dwelt there') and the 41-day journey must fit before it. Journey: Ur to Haran, about 1156 km by road, on foot at 4 km/h and about 28 km a day, 41 days (`urim travel`); a family with flocks would walk rather than ride. The text states neither the route nor the duration. MACRO_ERA."
+  },
+  {
+   "event_id": "evt.gen_11.terah_dies",
+   "title": "Terah dies in Haran at two hundred and five",
+   "narrative_summary": "The days of Terah are 205 years, and he dies in Haran.",
+   "temporal_reasoning_note": "11:32: age at death 205, so 205 years from Terah's birth START (evt.gen_11.terah_born); margin 1 year. The result is 135 years after Abram's birth on the 70-year reading, which conflicts with Abram's leaving Haran at 75 (12:4); see the reviewer note. REGNAL_YEAR.",
+   "ancient_year_marker": "The days of Terah were two hundred and five years"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_11.plan_city_tower.yhwh_comes_down",
+   "causal_explanation": "The Lord comes down to see the city and the tower the people had built in their plan (11:5)."
+  },
+  {
+   "causal_id": "caus.gen_11.yhwh_comes_down.yhwh_decides_to_confuse",
+   "causal_explanation": "What the Lord sees of one people and one language leads him to resolve to confuse their speech (11:6–7)."
+  },
+  {
+   "causal_id": "caus.gen_11.yhwh_decides_to_confuse.scatter_from_babel",
+   "causal_explanation": "The Lord's words 'let us go down and confuse their language' come true when he confuses the speech and scatters them (11:8–9)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.tower_of_babel",
+   "canonical_name": "Tower of Babel",
+   "phonetic_name": "Migdal",
+   "aliases": [
+    "the city and the tower"
+   ],
+   "etymology_meaning": "Hebrew migdal means 'tower'; the city is named Babel, popularly linked to the verb balal, 'to confuse'.",
+   "summary_bio": "The tower, with its top 'in the heavens', that the people of Shinar plan beside a city to make themselves a name and avoid being scattered. The Lord comes down to see it; the building stops when the people are scattered."
+  },
+  {
+   "entity_id": "person.haran",
+   "canonical_name": "Haran (son of Terah)",
+   "phonetic_name": "Hah-rahn",
+   "aliases": [],
+   "etymology_meaning": "Uncertain; possibly 'mountain-dweller' or related to a place name.",
+   "summary_bio": "Youngest-named son of Terah, father of Lot, Milcah and Iscah. He dies in Ur of the Chaldeans while his father is still alive. Distinct from the city of Haran."
+  },
+  {
+   "entity_id": "person.iscah",
+   "canonical_name": "Iscah",
+   "phonetic_name": "Yis-kah",
+   "aliases": [
+    "Iskah"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'one who looks on'.",
+   "summary_bio": "Daughter of Haran and sister of Milcah. She is named only in this verse."
+  },
+  {
+   "entity_id": "person.milcah",
+   "canonical_name": "Milcah",
+   "phonetic_name": "Mil-kah",
+   "aliases": [],
+   "etymology_meaning": "Probably 'queen'.",
+   "summary_bio": "Daughter of Haran and sister of Iscah and Lot, she marries her uncle Nahor."
+  },
+  {
+   "entity_id": "person.nahor.gen_11_22",
+   "canonical_name": "Nahor (son of Serug)",
+   "phonetic_name": "Nah-khor",
+   "aliases": [
+    "Nachor"
+   ],
+   "etymology_meaning": "Probably 'snorer' or 'snorting'; uncertain.",
+   "summary_bio": "Son of Serug and grandfather of Abram, in the line of Shem. He fathers Terah at twenty-nine and lives one hundred and nineteen years more. Distinct from his grandson Nahor, Abram's brother."
+  },
+  {
+   "entity_id": "person.reu",
+   "canonical_name": "Reu",
+   "phonetic_name": "Reh-oo",
+   "aliases": [
+    "Ragau"
+   ],
+   "etymology_meaning": "Probably 'friend' or 'companion'.",
+   "summary_bio": "Son of Peleg in the line of Shem. He fathers Serug at thirty-two and lives two hundred and seven years more."
+  },
+  {
+   "entity_id": "person.serug",
+   "canonical_name": "Serug",
+   "phonetic_name": "Seh-roog",
+   "aliases": [
+    "Saruch"
+   ],
+   "etymology_meaning": "Meaning uncertain; possibly 'branch' or 'tendril'.",
+   "summary_bio": "Son of Reu in the line of Shem. He fathers Nahor at thirty and lives two hundred years more."
+  },
+  {
+   "entity_id": "person.terah",
+   "canonical_name": "Terah",
+   "phonetic_name": "Teh-rakh",
+   "aliases": [
+    "Thara"
+   ],
+   "etymology_meaning": "Meaning uncertain; sometimes linked to 'ibex' or to the moon.",
+   "summary_bio": "Son of Nahor and father of Abram, Nahor and Haran. He leaves Ur of the Chaldeans with Abram, Lot and Sarai toward Canaan, settles in Haran, and dies there at two hundred and five."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abraham.wife.1",
+   "label_key": "Wife",
+   "label_value": "Married to Sarai",
+   "evidence_explanation": "Gen 11:29 says Abram took a wife named Sarai."
+  },
+  {
+   "component_id": "comp.babylon.babel_name.1",
+   "label_key": "Name",
+   "label_value": "Called Babel",
+   "evidence_explanation": "Gen 11:9 says the place was called Babel because the Lord confused the language of all the earth there."
+  },
+  {
+   "component_id": "comp.babylon.construction.1",
+   "label_key": "Construction",
+   "label_value": "City building abandoned",
+   "evidence_explanation": "Gen 11:8 says they left off to build the city."
+  },
+  {
+   "component_id": "comp.haran.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 11:28 says Haran died in Ur before his father Terah."
+  },
+  {
+   "component_id": "comp.humankind.settlement.1",
+   "label_key": "Settlement",
+   "label_value": "Dwelling together in Shinar",
+   "evidence_explanation": "Gen 11:2 says they found a plain in Shinar and settled there."
+  },
+  {
+   "component_id": "comp.humankind.settlement.2",
+   "label_key": "Settlement",
+   "label_value": "Scattered over the face of the earth",
+   "evidence_explanation": "Gen 11:8 says the Lord scattered them from there over all the earth."
+  },
+  {
+   "component_id": "comp.humankind.speech.1",
+   "label_key": "Speech",
+   "label_value": "One language and the same words",
+   "evidence_explanation": "Gen 11:1 says the whole earth had one language and the same words."
+  },
+  {
+   "component_id": "comp.humankind.speech.2",
+   "label_key": "Speech",
+   "label_value": "Languages confused",
+   "evidence_explanation": "Gen 11:9 says the Lord confused the language of all the earth there."
+  },
+  {
+   "component_id": "comp.nahor.wife.1",
+   "label_key": "Wife",
+   "label_value": "Married to Milcah",
+   "evidence_explanation": "Gen 11:29 says Nahor took Milcah, daughter of Haran."
+  },
+  {
+   "component_id": "comp.sarah.childlessness.1",
+   "label_key": "Children",
+   "label_value": "Without a child",
+   "evidence_explanation": "Gen 11:30 says Sarai was barren and had no child."
+  },
+  {
+   "component_id": "comp.terah.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "Settled in Haran",
+   "evidence_explanation": "Gen 11:31 says Terah's party came to Haran and settled there."
+  },
+  {
+   "component_id": "comp.terah.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "Gen 11:32 says Terah died in Haran at two hundred and five."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_confusion_of_language",
+   "name": "Divine confusion of language",
+   "ancient_near_east_context": "Mesopotamian tradition knows a time of one language, and a Sumerian tale (Enmerkar and the Lord of Aratta) speaks of the gods changing human speech. Genesis 11 sets it in Shinar, among brick-and-bitumen builders, with a pun on Babel and balal.",
+   "rules_and_mechanics": [
+    "The deity acts in response to a human project, after coming down to see it.",
+    "Speech is altered so that people no longer understand each other.",
+    "The result is dispersal and the end of the project.",
+    "The place is named for the act (Babel / balal)."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_11.abram_nahor_marry",
+   "outcome_summary": "Abram marries Sarai and his brother Nahor marries Milcah, their niece.",
+   "significance_note": "Sets up Sarai's barrenness and the Nahorite family (Milcah, later Bethuel and Rebekah) that Abraham's line will marry into."
+  },
+  {
+   "instance_id": "inst.gen_11.language_confused",
+   "outcome_summary": "The Lord confuses the speech of the builders so they cannot understand each other, and scatters them from the city, which is called Babel.",
+   "significance_note": "Explains the diversity of languages and peoples after the Table of Nations, and frames the call of Abram that follows."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_11.abram_takes_sarai",
+   "interaction_label": "marries",
+   "description": "Abram takes Sarai as his wife."
+  },
+  {
+   "edge_id": "edge.gen_11.arpachshad_fathers_shelah",
+   "interaction_label": "fathers",
+   "description": "Arpachshad fathers Shelah at thirty-five."
+  },
+  {
+   "edge_id": "edge.gen_11.eber_fathers_peleg",
+   "interaction_label": "fathers",
+   "description": "Eber fathers Peleg at thirty-four."
+  },
+  {
+   "edge_id": "edge.gen_11.nahor_fathers_terah",
+   "interaction_label": "fathers",
+   "description": "Nahor fathers Terah at twenty-nine."
+  },
+  {
+   "edge_id": "edge.gen_11.nahor_takes_milcah",
+   "interaction_label": "marries",
+   "description": "Nahor takes Milcah, daughter of his brother Haran, as his wife."
+  },
+  {
+   "edge_id": "edge.gen_11.peleg_fathers_reu",
+   "interaction_label": "fathers",
+   "description": "Peleg fathers Reu at thirty."
+  },
+  {
+   "edge_id": "edge.gen_11.reu_fathers_serug",
+   "interaction_label": "fathers",
+   "description": "Reu fathers Serug at thirty-two."
+  },
+  {
+   "edge_id": "edge.gen_11.serug_fathers_nahor",
+   "interaction_label": "fathers",
+   "description": "Serug fathers Nahor at thirty."
+  },
+  {
+   "edge_id": "edge.gen_11.shelah_fathers_eber",
+   "interaction_label": "fathers",
+   "description": "Shelah fathers Eber at thirty."
+  },
+  {
+   "edge_id": "edge.gen_11.shem_fathers_arpachshad",
+   "interaction_label": "fathers",
+   "description": "Shem, aged a hundred, fathers Arpachshad two years after the flood."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_abram",
+   "interaction_label": "fathers",
+   "description": "Terah, at seventy, begins to father Abram."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_haran",
+   "interaction_label": "fathers",
+   "description": "Terah fathers Haran, who will father Lot and die in Ur."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_fathers_nahor",
+   "interaction_label": "fathers",
+   "description": "Terah fathers Nahor, named after his own father."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_abram",
+   "interaction_label": "takes along",
+   "description": "Terah takes his son Abram out of Ur toward Canaan."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_lot",
+   "interaction_label": "takes along",
+   "description": "Terah takes his grandson Lot, son of the dead Haran, with him."
+  },
+  {
+   "edge_id": "edge.gen_11.terah_takes_sarai",
+   "interaction_label": "takes along",
+   "description": "Terah takes his daughter-in-law Sarai, Abram's wife."
+  },
+  {
+   "edge_id": "edge.gen_11.yhwh_confuses_humankind",
+   "interaction_label": "confuses the language of",
+   "description": "The Lord confuses the speech of all the earth at Babel."
+  },
+  {
+   "edge_id": "edge.gen_11.yhwh_scatters_humankind",
+   "interaction_label": "scatters",
+   "description": "The Lord scatters the builders from Babel over the face of all the earth."
+  }
+ ]
+}

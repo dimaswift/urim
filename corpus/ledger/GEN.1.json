@@ -1,0 +1,2520 @@
+{
+ "chapter_ref": "GEN.1",
+ "items": {
+  "causal:caus.gen_1.day2_firmament.day3_waters_gathered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_1.day3_vegetation.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_1.day6_humankind.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_1.day6_land_animals.day6_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "Inferred (confidence 0.5): 1:26 names dominion over cattle and creeping things, which presupposes that they exist; the text does not say it is why they were made first."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": "[consider] Either drop the edge, or keep it and add the parallel evt.gen_1.day5_sea_and_sky → evt.gen_1.day6_humankind link so the presupposition is applied consistently. (GEN.1.26: \"let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.earth.condition.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Inferred state: the earth is 'formless and void' (1:2) until the waters are gathered and dry land appears (1:9-10). The second value ORDERED is an inference."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.earth.condition.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Use a value the verse shows, such as DRY_LAND_APPEARED, and say in the evidence that the earth is still empty of life at 1:10. (GEN.1.2: \"the earth was without form, and void\"; GEN.1.10: \"God called the dry land Earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.greater_luminary.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.humankind.nature.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.humankind.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.lesser_luminary.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.blesses_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.blesses_sea_and_air_creatures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.commands_earth_to_sprout": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.commands_humankind_to_rule": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.creates_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.creates_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.gathers_waters": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Model it as a gathering or separating act on loc.seas rather than a command to them, or relabel it 'gathers'. (GEN.1.9: \"Let the waters under the heaven be gathered together unto one place\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.gives_plants_to_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.gives_plants_to_birds": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.gives_plants_to_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.makes_firmament": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.makes_greater_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.makes_land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.makes_lesser_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_1.separates_light_from_darkness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.greater_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Entity type ARTIFACT is the nearest fit for the two luminaries (the text never names them 'sun' and 'moon'). Stars are left out as a mass of objects."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.lesser_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.birds": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:07+00:00",
+   "agent_notes": [
+    "Added in answer to the request on evt.gen_1.day6_food_given: 1:30 names birds but not fish. The approved group.sea_and_air_creatures is kept unchanged because the approved day-5 instances, edge and participants point to it; no separate sea-creatures group was created because nothing in the plot targets one alone. The reviewer may want to split the day-5 items too."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:39:03+00:00",
+     "note": "[consider] If the user reopens the day-5 items, split group.sea_and_air_creatures into a sea-creatures group and group.birds and point the day-5 instances and edge at both; otherwise leave as is. (GEN.1.21: \"every winged fowl after his kind\"; GEN.1.30: \"to every fowl of the air … every green herb for meat\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Hebrew adam is collective (male and female, 1:27); modelled as one group, not as the individual Adam of Gen 2. Do not merge it with a later person.adam."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.sea_and_air_creatures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Sea creatures and winged birds are one group because they are created and blessed together on day 5 (1:20-22)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Say 'sherets, swarming things, from the verb sharats used of the waters teeming in 1:20–21'. (GEN.1.20: \"Let the waters bring forth abundantly (yishretsu … sherets) the moving creature\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.earth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Created world features (earth, heaven, seas) are modelled as LOCATION entities with no tipnr_id and no coordinates; they are cosmic, not geographic. Events are placed in them only as the setting of each act."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.heaven": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "'The heavens' (1:1) and the firmament called Heaven (1:8) are merged into one entity, loc.heaven. Whether Gen 1:1 'heavens' is the same as the day-2 firmament is debated; the merge is a convenience."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.seas": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Entity for the gathered waters, named at 1:10. The primeval deep/waters of 1:2 are not a separate entity."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.darkness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:substance.light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Light, darkness, luminaries and the creature groups are included because later acts of naming, separating, ruling and blessing target them. This goes slightly beyond 'objects the plot turns on'; the reviewer may prune."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.beginning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "1:1–2 is the state before day one (the earth waste and dark, the spirit hovering). It is given zero duration at the anchor. 1:1 may be read as a summary of the whole week (Rashi/YLT 'in the beginning of God's preparing'); I treat it as the opening scene, a judgment call."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day1_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "Day one begins at EREV on the creation date, not with the light of 1:3: the formula 'evening and morning' counts the day from the evening. Rashi on 1:5 notes the text says 'one day', not 'first day'. Sforno and Ramban: before the luminaries (day 4) the alternation of light and darkness is not by the sun's circuit; I give it the same 24-hour frame."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": "[consider] Either say in the note that the 18 hours are an artefact of the anchor's nominal midnight, not a gap in the text, or give the opening scene a duration that ends at that evening. (GEN.1.2–3: \"and darkness was upon the face of the deep … And God said, Let there be light\" — no interval between the verses.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day2_firmament": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day3_land_sea": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "Day three has two acts with no stated gap: the waters gather, the plants sprout (1:9–12). I split them as children of the day, each about six hours with a 12-hour margin; their order is the text's, their lengths are an estimate and the tier stays DAY_SEQUENCE."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day3_vegetation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day3_waters_gathered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day4_luminaries": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day5_sea_and_sky": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day6_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "1:26 (the decision) and 1:27–28 (creation, blessing and command) are one event: the text marks no gap. The blessing's 'be fruitful and multiply, fill the earth' and the dominion of 1:26 are likely fulfilled in later chapters (Gen 4–10); the session of those chapters writes the link. Likewise 1:22's blessing of the sea creatures and birds (see 8:17, 9:1)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": "[consider] Say 'to rule over the fish, the birds, the cattle, all the earth and every creeping thing' or 'over all living creatures'. (GEN.1.26: \"over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day6_land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day6_land_life": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:30:34+00:00",
+   "agent_notes": [
+    "Day six is a parent with four beats (animals, humankind, food, the verdict). Their lengths are estimates; only the order and the day are in the text. 1:31 'very good' is at the end of the day, before the formula."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_1.day6_very_good": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:32:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:31:56+00:00",
+     "note": "[should_fix] Place the verdict at the close of day six: anchor it on evt.gen_1.day6_land_life END with a negative offset of one hour (duration 1 hour), keeping a margin that covers the gap after the food speech; or, if you keep the chain, rewrite the note so it no longer says 'just before the closing formula'. (GEN.1.31: \"And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.\" Radak on 1:31 (in the packet), citing Bereshit Rabbah 9:14: the work of the world was completed in the extra hour at the close of the sixth day.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:33:07+00:00",
+     "note": "[consider] Drop the margin clause from the note, or say the margin is about the verdict's own hour, and that the hours after the food speech are open. (GEN.1.31: \"And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.beginning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "No place is given for the beginning event: the earth does not exist yet as a setting."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day1_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day2_firmament": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day3_land_sea": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day3_vegetation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "The earth is marked AGENT because the text makes it the subject of 'brought forth' (1:12), though God's word commands it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day3_waters_gathered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "The chronology has overlapping events for day 3 and day 6 (an umbrella event plus detail events). Participants are given to all of them alike, so umbrella events duplicate the detail rows."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day4_luminaries": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Add substance.light, substance.darkness and loc.earth as MENTIONED. (GEN.1.17–18: \"to give light upon the earth … and to divide the light from the darkness\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day5_sea_and_sky": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Add loc.heaven and loc.earth as PRESENT rows, or say in a note why the seas alone stand for the setting. (GEN.1.20: \"fowl that may fly above the earth in the open firmament of heaven\"; GEN.1.22: \"let fowl multiply in the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:07+00:00",
+   "agent_notes": [
+    "Participants now list humankind, land animals and birds; the fish are left out because 1:29-30 gives plants to no creature of the water. edge.gen_1.gives_plants_to_birds was added. The description of the approved, locked edge.gen_1.gives_plants_to_animals still says 'animals and birds' although its target is only the land animals; it needs a reopen to change, which is the user's call."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[should_fix] Split group.sea_and_air_creatures into a sea-creatures group and a birds group (both created and blessed in evt.gen_1.day5_sea_and_sky), and give only the birds, with group.land_animals, the PATIENT row in evt.gen_1.day6_food_given. Then add a PROVIDES_FOR edge to the birds, or make the description of edge.gen_1.gives_plants_to_animals match its target. (GEN.1.30: \"to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth … I have given every green herb for meat\" (no fish; contrast 1:26 and 1:28, \"the fish of the sea, and … the fowl of the air\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day6_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day6_land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Add loc.earth with the same role as in evt.gen_1.day3_vegetation, or explain why 1:25 'God made' outweighs 1:24. (GEN.1.24: \"Let the earth bring forth the living creature after his kind\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day6_land_life": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Add the sea-creature and bird group(s) as MENTIONED so the umbrella matches its children. (GEN.1.26: \"dominion over the fish of the sea, and over the fowl of the air\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_1.day6_very_good": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.day_and_night_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.dry_land_appears": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.earth_and_seas_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.firmament_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.heaven_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.humankind_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.humankind_created": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.land_animals_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.let_there_be_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.luminaries_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.plants_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.sea_and_sky_life_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Write 'be fruitful, multiply and fill the waters in the seas, and let the birds multiply on the earth', here and in the group's summary_bio. (GEN.1.22: \"fill the waters in the seas, and let fowl multiply in the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_1.sea_and_sky_life_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.creation_by_word": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:38:07+00:00",
+   "agent_notes": [
+    "Rules revised as requested: the verb rule is limited to bara, and the formula rule says each day, not each act, is closed by evening and morning.",
+    "Defined here: creation by divine speech, followed by 'and it was so'. Gen 1 also has acts of making/creating without a spoken command (1:1, 1:21, 1:27); these are grouped in the same system."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[should_fix] Limit the verb rule to bara ('bara has only God as its subject'), and change the formula rule to 'Each day, not each act, is closed by evening and morning'. (GEN.1.11–12: עֵץ פְּרִי עֹשֶׂה פְּרִי, \"the fruit tree yielding (making) fruit\"; GEN.1.10–13: \"God saw that it was good … Let the earth bring forth grass … And the evening and the morning were the third day\" (one formula after two acts))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:39:03+00:00",
+     "note": "[consider] Write 'asah (make) is also used of the fruit tree making fruit (1:11–12)', or drop the asah clause. (GEN.1.11–12: עֵץ פְּרִי עֹשֶׂה פְּרִי, \"the fruit tree yielding fruit\"; וַתּוֹצֵא הָאָרֶץ, \"and the earth brought forth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_blessing_fertility": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_naming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:35:10+00:00",
+   "agent_notes": [
+    "Defined here, SOCIAL_CUSTOM category, since naming asserts authority over what is named; the text itself does not say so."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:37:07+00:00",
+     "note": "[consider] Move the authority claim into ancient_near_east_context and keep the rules to what the verses show: God calls (qara) the thing by a name. (GEN.1.5: \"And God called the light Day, and the darkness he called Night\" (no statement of authority))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:09+00:00",
+   "agent_notes": [
+    "Revised after review: the commentary now sets the two readings of bereshit side by side. Construct ('In the beginning of God's creating', YLT; Rashi, Rashbam, Ibn Ezra) makes v.1 a dependent clause that opens the story; absolute (KJV/ASV; Radak, Ramban) makes it a first act. The line 'either way not a separate prior event' is dropped because it held only for the construct reading. The literal layer keeps the absolute reading as the more neutral rendering; the Hebrew consonants allow both."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Present the construct reading as one option (Rashi, Rashbam, Ibn Ezra) and the absolute reading as the other (Radak, Ramban, with 1:1 as a first act). Drop 'either way … not a separate prior event', because that is true only of the construct reading. (GEN.1.1: \"בְּרֵאשִׁית בָּרָא אֱלֹהִים\"; packet, Radak: \"בְּרֵאשִׁית. אֵינֶנּוּ סָמוּךְ ... בַּתְּחִלָּה בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ, אַחַר כָּךְ תּוֹצְאוֹתֵיהֶם\"; Ramban: \"בַּתְּחִלָּה בָּרָא אֱלֹהִים מֵאַיִן אֶת הַשָּׁמַיִם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:09+00:00",
+   "agent_notes": [
+    "Revised after review: the 'BDB' source on tadshe' deshe' is emptied; the note is my own reading of the cognate construction."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Empty the sources of this note, or cite a packet commentary that supports it. (GEN.1.11: \"תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא\"; there is no BDB in the packet)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [
+    "Qere/variant note 'LAH(b)' on the token 'oseh is a manuscript-tradition marker and was ignored for glossing. Suffix lemineihu (vs lemino in v11) is glossed 'to its kind' in both."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:03:29+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary now says the ordinal stands without the article on days two to five (day one is the cardinal 'yom echad' in 1:5; day six has the article, 'yom hashishi', in 1:31). I counted 'days two to five' from the pattern in the text: sheni, shlishi, revi'i, chamishi, all anarthrous."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Say 'days two to five' (with day one a cardinal, and day six carrying the article in 1:31). (GEN.1.31: \"יוֹם הַשִּׁשִּׁי\"; GEN.1.5: \"יוֹם אֶחָד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:03:29+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the unnamed sun and moon are now presented as 'a common modern reading', not as the writer's stated reason. None of the packet's commentaries (Rashi, Ibn Ezra, Ramban, Radak, Sforno) gives that reason; the commentary says so.",
+    "STEPBible glosses H3974 as 'luminaries'; I kept 'luminaries' in the literal layer to show it is a different word from 'or' (light) of 1:3. 'Appointed times' for מועדים corrects the KJV's 'seasons'; the five English versions split (KJV, ASV, Webster and YLT 'seasons'; BBE 'marking the changes of the year'). I chose the sense that the same word names the festivals and the Tent of Meeting elsewhere; this is my own reading, not a packet citation.",
+    "Rashi's remark that מארת is written defectively (without vav) is cited as Rashi reports it; the pointing in the packet shows מְאֹרֹת, and the Rashi lemma is spelled מארת. I did not verify the written consonants independently beyond the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Present the avoidance of 'sun' and 'moon' as a modern interpretation ('a common modern reading is …'), not as the writer's stated intent. (GEN.1.14: \"יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם\"; the packet commentaries on 1:14 do not give this reason)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[consider] Say that the form continues the command of 1:14, rather than calling the KJV's 'let' an addition. (GEN.1.14–15: \"יְהִי מְאֹרֹת ... וְהָיוּ לִמְאוֹרֹת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "KJV 'he made the stars also' adds 'also' and 'he made' as a separate clause; the Hebrew has only וְאֵת הַכּוֹכָבִים, a bare object after the two luminaries. I kept it bare in the literal layer. Rashi (on 1:16) and Radak read 'great' as great in light, not in size; Rashi's story of the moon's diminishing is midrash and is mentioned only as such."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "Targum Pseudo-Jonathan's סדר 'arranged' differs from Onkelos יהב 'gave'; I translate נתן as 'set', as ASV and KJV do."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "The form וּֽלֲהַבְדִּיל is pointed unusually (ulahavdil, with a hataf-patach under the lamed instead of the usual shewa); Ramban quotes it with that pointing but does not explain it. I glossed it simply as 'and to separate'. Ramban and Ibn Ezra disagree on what 'the light' and 'the darkness' are here (day and night versus sun- and moonlight); I followed the plain sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:09+00:00",
+   "agent_notes": [
+    "Revised after review: the Tiamat link is now framed as a modern scholarly proposal, and the 'BDB' source on merachefet is replaced by the packet's Radak and Ibn Ezra, who both compare Deut 32:11. 'Spirit' vs 'wind' stays open: Radak on 1:2 gives 'wind' with Elohim as an intensifier as one of two readings, and the layers keep 'Spirit'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Mark the Tiamat link and the polemic reading as a modern scholarly proposal ('many scholars connect …'). Empty the 'BDB' source on merachefet, or cite only what the packet contains. (GEN.1.2: \"וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם\"; nothing in the packet's commentaries or lexicon mentions Tiamat or BDB)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": "[consider] Say in the note that Radak gives the sense 'place of many waters', and that the Tiamat comparison is modern and has no source in the packet. (Packet, Radak on 1:2: \"תְהוֹם. לְשׁוֹן נְקֵבָה ... וְהוּא מְקוֹם הַמַּיִם הָרַבִּים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "The five English versions split on שֶׁרֶץ: 'bring forth abundantly' (KJV), 'swarm with swarms' (ASV), 'be full' (BBE). I kept the repeated root visible in the literal layer ('swarm ... swarming'). עַל־פְּנֵי רְקִיעַ is literally 'on the face of the firmament'; KJV 'open firmament' has no Hebrew word behind 'open'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "הַתַּנִּינִם: STEPBible 'sea monsters'. KJV 'whales' is too narrow and too specific; the word is used elsewhere for serpents and for chaos monsters, so I kept 'sea monsters' and left the identification with Leviathan (Rashi, Ramban, Targum Pseudo-Jonathan) as a rabbinic tradition. רֹמֶשֶׂת: Ibn Ezra raises the possibility of a samekh/sin variant; I took it as 'creeping/stirring'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:28+00:00",
+   "agent_notes": [
+    "וְחַיְתוֹ־אֶרֶץ has an old genitive ending (-o); Ibn Ezra and Radak compare it to בְּנוֹ בְעֹר (Num 24:3). Verse 1:24 appears in two events in the packet (1:24–1:25 and 1:24–1:31); I did not need to resolve this for the verse text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[consider] Make the literal layer 'living creature(s) to its kind', to match the gloss and the Hebrew. (GEN.1.24: \"נֶפֶשׁ חַיָּה לְמִינָהּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:07:37+00:00",
+   "agent_notes": [
+    "Addressed the reviewer request: the note on lemino now says the form occurs twice as lemina (feminine suffix, for chayyah and behemah) and once as lemineihu (masculine, for remes); the commentary says the same.",
+    "STEPBible glosses 'to kind its' for all three; I reordered to English ('to its kind') and kept the feminine/masculine suffix distinction in the notes. Pos 14 is written lemineihu in the packet's pointing; the transliteration lemiNehu is the packet's.",
+    "The five English versions split on the suffix: KJV/Webster 'his kind' for the beast and creeping thing but 'their kind' for cattle; ASV/YLT/BBE use 'its'/'their'. The Hebrew has singular suffixes throughout (feminine for chayyah and behemah, masculine for remes), so I render 'its kind' each time.",
+    "Radak's remark on the order (beast, livestock, creeping thing) and on why these were not blessed is paraphrased from the packet; the theory that predators were kept from settled land is his, and I cite it as his, not as established.",
+    "The claim that the verse reverses the order of GEN.1.24 (livestock, creeping thing, beast) is read directly from the two verses in the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Delete that sentence from translation_dramatic. The threefold 'each after its kind' already carries the idea. (GEN.1.25: \"וַיַּעַשׂ אֱלֹהִים אֶת־חַיַּת הָאָרֶץ לְמִינָהּ ... וַיַּרְא אֱלֹהִים כִּי־טוֹב\": nothing about kinds not being confused)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": "[should_fix] In the note on לְמִינָהּ, replace 'Used three times in the verse in one fixed form' with 'Twice lemina (feminine suffix, for chayyah and behemah), once lemineihu (masculine, for remes)'. In the commentary, change 'lemino with a feminine ending for the first two and a masculine ending for the third' to 'lemina for the first two and lemineihu for the third'. (GEN.1.25: \"אֶת־חַיַּת הָאָרֶץ לְמִינָהּ וְאֶת־הַבְּהֵמָה לְמִינָהּ וְאֵת כָּל־רֶמֶשׂ הָאֲדָמָה לְמִינֵהוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:08:35+00:00",
+     "note": "[consider] Drop the HALOT source or replace it with a packet source, and say 'used mainly in the creation and flood accounts and the food laws' rather than 'rare'. (GEN.1.25: \"לְמִינָהּ ... לְמִינָהּ ... לְמִינֵהוּ\" (the packet gives only STEPBible glosses and the commentaries of Rashi, Radak, Sforno and the Targums))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:05:24+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the audit no longer says the KJV loses the plural 'them'. It says the KJV's 'man' hides that adam is generic and collective, a name for the species, and that the Hebrew has no article. The identity of the 'us' is disputed (court, plural of majesty, God with the earth); I report the options from the commentaries and do not choose.",
+    "uvekhol ha'aretz ('and over all the earth') breaks the list of animals. Radak reads it as the wild animals (chayyat ha'aretz); Ramban reads it as the earth itself. I kept the literal 'all the earth' and gave Radak's reading in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Correct the audit: the KJV keeps 'them'. What its 'man' obscures is the generic, collective sense of adam, not the plural. (GEN.1.26 KJV: \"Let us make man in our image, after our likeness: and let them have dominion\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:49+00:00",
+   "agent_notes": [
+    "אֹתוֹ (singular 'him/it') then אֹתָם (plural 'them'): I keep both in the literal layer rather than harmonizing. The STEPBible gloss for אֹתוֹ is 'it'; I glossed 'him' because the referent is the human."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:05:24+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the claim that the KJV softens 'subdue' is dropped. The KJV keeps 'subdue it' for kivshuha; what it softens is radu to 'have dominion', which is milder than 'rule' (YLT, STEPBible). The commentary now says so.",
+    "kivshuha is written without a vav (the form would regularly be kivshuha with a vav, kivshuhu in the plural). Rashi and Radak read the singular as addressed to the man (Yevamot 65b per Radak). I mention this only as a traditional reading, not as the plain sense."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Drop the claim, or restate it: the KJV keeps 'subdue it' and renders radah as 'have dominion', which is milder than 'rule'. (GEN.1.28 KJV: \"replenish the earth, and subdue it: and have dominion over the fish of the sea\"; Hebrew \"וְכִבְשֻׁהָ וּרְדוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:49+00:00",
+   "agent_notes": [
+    "STEPBible glosses לְאָכְלָה 'to food'. I keep 'for food' and use 'food' rather than the KJV's 'meat'. The Ramban quotation in the packet is partly a quotation of Rashi; I cite them separately only where each says something distinct."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[consider] Cite it as Genesis 23:11, 13. (Packet, Radak on 1:29: \"״הַשָּׂדֶה נָתַתִּי לָךְ״, ״נָתַתִּי כֶּסֶף הַשָּׂדֶה״ (בראשית כג:יג)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:05:24+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary now says 'and it was so' follows most of the commands and is missing on day five (Gen 1:20-22), citing Radak on 1:21 as the packet gave it. I did not see Radak on 1:21 in this packet, so I do not quote him on this point and leave 'sources' empty.",
+    "The verse has no verb; 'I have given' is carried over from v. 29. I bracket it in the literal layer. nefesh chayyah is rendered 'living being (nefesh)' in the literal layer; the KJV's 'wherein there is life' drops the word nefesh."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Replace 'as in every other act of the six days' with 'as after most of the commands (it is missing on day five)'. (GEN.1.20–21 contain no \"וַיְהִי־כֵן\"; packet, Radak on 1:21: \"וְלֹא נֶאֱמַר בְּפָרָשָׁה זוֹ וַיְהִי כֵן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:58:49+00:00",
+   "agent_notes": [
+    "STEPBible glosses טוֹב in v25 as H2895 and in v31 as H2896A, an editorial distinction in the data, not a Hebrew difference; I treat them as the same word.",
+    "Radak's long comment on טוֹב מְאֹד quotes the midrashic readings (death, the evil impulse, suffering). I mention only that these readings exist, citing Radak, and do not endorse them. Radak's story about a Torah scroll in Rome reading 'tov mot' is his report; I do not repeat it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[consider] Drop the claim about the KJV, or limit the audit to the doubled 'between', which the KJV does not show. (GEN.1.4 KJV: \"God divided the light from the darkness\"; GEN.1.5: \"the darkness he called Night\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [
+    "'yom echad' is rendered 'day one' (cardinal), against KJV/BBE 'the first day'. Whether this signals a different kind of first day is debated; I only note the grammatical fact."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:04:09+00:00",
+   "agent_notes": [
+    "Revised after review: 'BDB' removed. The dome picture is stated as a common reading, not as a fact about the audience; Radak and Ibn Ezra in the packet understand raqia as air or something stretched out, so the commentary notes that readers differ."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": "[should_fix] Remove 'BDB' from the sources (the verse references can stay as plain cross-references). Phrase the dome picture as a common reading ('is usually understood as'), not as a fact about the audience. (GEN.1.6: \"יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם\"; there is no BDB in the packet)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:06:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [
+    "The Masoretic text lacks 'and God saw that it was good' on day two; the Septuagint has it. Noted in the commentary; no emendation made."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:GEN.1.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:02:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verse coverage: Gen 1:1–31 are all covered. The seventh day (Gen 2:1–3) belongs to chapter 2 and is not written here; its session should anchor on evt.gen_1.day6_land_life END.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:34+00:00"
+  },
+  {
+   "note": "The six days are chained one after another, each starting at EREV (the Hebrew day runs sunset to sunset: 'there was evening and there was morning', 1:5) and lasting 24 hours, all from anchor.creation (Anno Mundi 1). The chain is exact as the text tells it; the commentaries raise the debate about what a day is (Ramban: the first light served three days, Ibn Ezra: a day is a turn of the sphere; Radak/Rashi: days of the Torah's reckoning). I do not resolve it: the dates show the text's six-day order, not the age of the earth.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:34+00:00"
+  },
+  {
+   "note": "Divine speeches checked for fulfilment: each 'Let there be … and it was so' (1:3, 6–7, 9, 11–12, 14–17, 20–21, 24–25) is fulfilled in the same event, so no FULFILLS_PROPHECY link is written between events. 1:29–30 'I have given' is a gift in the present, not a prediction. 'Let us make' (1:26) is fulfilled at 1:27 in the same event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:30:34+00:00"
+  },
+  {
+   "note": "Verse coverage: Gen 1:1–31 are all covered. The seventh day (Gen 2:1–3) belongs to chapter 2 and is not written here; its session should anchor on evt.gen_1.day6_land_life END.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "The six days are chained one after another, each starting at EREV (the Hebrew day runs sunset to sunset: 'there was evening and there was morning', 1:5) and lasting 24 hours, all from anchor.creation (Anno Mundi 1). The chain is exact as the text tells it; the commentaries raise the debate about what a day is (Ramban: the first light served three days, Ibn Ezra: a day is a turn of the sphere; Radak/Rashi: days of the Torah's reckoning). I do not resolve it: the dates show the text's six-day order, not the age of the earth.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "Divine speeches checked for fulfilment: each 'Let there be … and it was so' (1:3, 6–7, 9, 11–12, 14–17, 20–21, 24–25) is fulfilled in the same event, so no FULFILLS_PROPHECY link is written between events. 1:29–30 'I have given' is a gift in the present, not a prediction. 'Let us make' (1:26) is fulfilled at 1:27 in the same event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[event:evt.gen_1.day1_light] Day one begins at EREV on the creation date, not with the light of 1:3: the formula 'evening and morning' counts the day from the evening. Rashi on 1:5 notes the text says 'one day', not 'first day'. Sforno and Ramban: before the luminaries (day 4) the alternation of light and darkness is not by the sun's circuit; I give it the same 24-hour frame.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[event:evt.gen_1.beginning] 1:1–2 is the state before day one (the earth waste and dark, the spirit hovering). It is given zero duration at the anchor. 1:1 may be read as a summary of the whole week (Rashi/YLT 'in the beginning of God's preparing'); I treat it as the opening scene, a judgment call.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[event:evt.gen_1.day3_land_sea] Day three has two acts with no stated gap: the waters gather, the plants sprout (1:9–12). I split them as children of the day, each about six hours with a 12-hour margin; their order is the text's, their lengths are an estimate and the tier stays DAY_SEQUENCE.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[event:evt.gen_1.day6_land_life] Day six is a parent with four beats (animals, humankind, food, the verdict). Their lengths are estimates; only the order and the day are in the text. 1:31 'very good' is placed in the last hour of the day (Radak citing Bereshit Rabbah 9:14), at offset 23 hours from the day's start, since a negative offset is not allowed; a gap of some hours after the food speech is left open by its margin.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[event:evt.gen_1.day6_humankind] 1:26 (the decision) and 1:27–28 (creation, blessing and command) are one event: the text marks no gap. The blessing's 'be fruitful and multiply, fill the earth' and the dominion of 1:26 are likely fulfilled in later chapters (Gen 4–10); the session of those chapters writes the link. Likewise 1:22's blessing of the sea creatures and birds (see 8:17, 9:1).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_1.day6_land_animals.day6_humankind] Inferred (confidence 0.5): 1:26 names dominion over cattle and creeping things, which presupposes that they exist; the text does not say it is why they were made first.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:32:34+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Gen 1 uses Elohim, not the name YHWH. The registry and the corpus already hold one deity entity (defined in 1KGS.17, first mention there), so Elohim is treated as the same deity and no new entity is made. Its first_mention_verse is later than this chapter; the reviewer may want to move it to GEN.1.1. I did not rewrite its text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:10+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] The 'spirit of God' hovering over the waters (1:2) is not a separate entity: it is read as God's own presence and recorded only in the beginning event. The plural 'let us make' (1:26) is not modelled as multiple agents.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:35:10+00:00"
+  },
+  {
+   "note": "[urim-critic@3 · claude-opus-5-5, consider] event:evt.gen_1.day4_luminaries: Cross-layer (chronology, already approved): the title says 'sun, moon and stars', while the entities rightly note that the text never names the sun or the moon. (GEN.1.16: \"the greater light to rule the day, and the lesser light to rule the night: he made the stars also\")",
+   "produced_by": {
+    "model": "claude-opus-5-5",
+    "skill": "urim-critic@3",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:37:07+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] Gen 1 uses Elohim, not the name YHWH. The registry and the corpus already hold one deity entity (defined in 1KGS.17, first mention there), so Elohim is treated as the same deity and no new entity is made. Its first_mention_verse is later than this chapter; the reviewer may want to move it to GEN.1.1. I did not rewrite its text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:deity.yhwh] The 'spirit of God' hovering over the waters (1:2) is not a separate entity: it is read as God's own presence and recorded only in the beginning event. The plural 'let us make' (1:26) is not modelled as multiple agents.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:loc.earth] Created world features (earth, heaven, seas) are modelled as LOCATION entities with no tipnr_id and no coordinates; they are cosmic, not geographic. Events are placed in them only as the setting of each act.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:loc.heaven] 'The heavens' (1:1) and the firmament called Heaven (1:8) are merged into one entity, loc.heaven. Whether Gen 1:1 'heavens' is the same as the day-2 firmament is debated; the merge is a convenience.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:loc.seas] Entity for the gathered waters, named at 1:10. The primeval deep/waters of 1:2 are not a separate entity.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:substance.light] Light, darkness, luminaries and the creature groups are included because later acts of naming, separating, ruling and blessing target them. This goes slightly beyond 'objects the plot turns on'; the reviewer may prune.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:artifact.greater_luminary] Entity type ARTIFACT is the nearest fit for the two luminaries (the text never names them 'sun' and 'moon'). Stars are left out as a mass of objects.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:group.sea_and_air_creatures] Sea creatures and winged birds are one group because they are created and blessed together on day 5 (1:20-22).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[entity:group.humankind] Hebrew adam is collective (male and female, 1:27); modelled as one group, not as the individual Adam of Gen 2. Do not merge it with a later person.adam.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_1.day3_vegetation] The earth is marked AGENT because the text makes it the subject of 'brought forth' (1:12), though God's word commands it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_1.day3_waters_gathered] The chronology has overlapping events for day 3 and day 6 (an umbrella event plus detail events). Participants are given to all of them alike, so umbrella events duplicate the detail rows.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[component:comp.earth.condition.1] Inferred state: the earth is 'formless and void' (1:2) until the waters are gathered and dry land appears (1:9-10). The second value ORDERED is an inference.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[system:sys.divine_naming] Defined here, SOCIAL_CUSTOM category, since naming asserts authority over what is named; the text itself does not say so.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_1.beginning] No place is given for the beginning event: the earth does not exist yet as a setting.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:38:07+00:00"
+  }
+ ]
+}

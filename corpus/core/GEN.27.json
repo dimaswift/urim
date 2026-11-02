@@ -1,0 +1,798 @@
+{
+ "chapter_ref": "GEN.27",
+ "entities": [
+  {
+   "entity_id": "artifact.esaus_garments",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "בִּגְדֵי עֵשָׂו הַחֲמֻדֹת",
+   "transliterated_name": "bigdê ʿĒśāw haḥămudōt",
+   "first_mention_verse": "GEN.27.15"
+  },
+  {
+   "entity_id": "artifact.kid_skins_on_jacob",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "עֹרֹת גְּדָיֵי הָעִזִּים",
+   "transliterated_name": "ʿōrōt gĕdāyê hāʿizzîm",
+   "first_mention_verse": "GEN.27.16"
+  },
+  {
+   "entity_id": "person.heth",
+   "tipnr_id": "Heth@Gen.10.15-Ezk",
+   "entity_type": "PERSON",
+   "source_script_name": "חֵת",
+   "transliterated_name": "Ḥēt",
+   "first_mention_verse": "GEN.27.46"
+  },
+  {
+   "entity_id": "substance.savory_food",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "מַטְעַמִּים",
+   "transliterated_name": "maṭʿammîm",
+   "first_mention_verse": "GEN.27.4"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.deceptive_impersonation",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.patriarchal_blessing",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_27.isaac_commissions_esau",
+   "verse_start": "GEN.27.1",
+   "verse_end": "GEN.27.4",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "anchor.isaac_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 123.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.esau_hunts",
+   "verse_start": "GEN.27.5",
+   "verse_end": "GEN.27.5",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.isaac_commissions_esau",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.rebekah_plan",
+   "verse_start": "GEN.27.6",
+   "verse_end": "GEN.27.13",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.isaac_commissions_esau",
+    "anchor_point": "END",
+    "offset": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.kids_prepared",
+   "verse_start": "GEN.27.14",
+   "verse_end": "GEN.27.17",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.rebekah_plan",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.esaus_garments",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.kid_skins_on_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.savory_food",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.jacob_deceives_isaac",
+   "verse_start": "GEN.27.18",
+   "verse_end": "GEN.27.25",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.kids_prepared",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.esaus_garments",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "artifact.kid_skins_on_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.savory_food",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.isaac_blesses_jacob",
+   "verse_start": "GEN.27.26",
+   "verse_end": "GEN.27.29",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.jacob_deceives_isaac",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.esaus_garments",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.esau_returns",
+   "verse_start": "GEN.27.30",
+   "verse_end": "GEN.27.33",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.isaac_blesses_jacob",
+    "anchor_point": "END",
+    "offset": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 90.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 60.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.esau_begs_blessing",
+   "verse_start": "GEN.27.34",
+   "verse_end": "GEN.27.40",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.esau_returns",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.esau_grudge",
+   "verse_start": "GEN.27.41",
+   "verse_end": "GEN.27.41",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.esau_begs_blessing",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.rebekah_warns_jacob",
+   "verse_start": "GEN.27.42",
+   "verse_end": "GEN.27.45",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.esau_grudge",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_27.rebekah_complains_to_isaac",
+   "verse_start": "GEN.27.46",
+   "verse_end": "GEN.27.46",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.rebekah_warns_jacob",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_27.esau_grudge.rebekah_warns_jacob",
+   "cause_event_id": "evt.gen_27.esau_grudge",
+   "effect_event_id": "evt.gen_27.rebekah_warns_jacob",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.isaac_blesses_jacob.esau_begs_blessing",
+   "cause_event_id": "evt.gen_27.isaac_blesses_jacob",
+   "effect_event_id": "evt.gen_27.esau_begs_blessing",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.isaac_blesses_jacob.esau_grudge",
+   "cause_event_id": "evt.gen_27.isaac_blesses_jacob",
+   "effect_event_id": "evt.gen_27.esau_grudge",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.isaac_commissions_esau.esau_hunts",
+   "cause_event_id": "evt.gen_27.isaac_commissions_esau",
+   "effect_event_id": "evt.gen_27.esau_hunts",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.isaac_commissions_esau.rebekah_plan",
+   "cause_event_id": "evt.gen_27.isaac_commissions_esau",
+   "effect_event_id": "evt.gen_27.rebekah_plan",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.kids_prepared.jacob_deceives_isaac",
+   "cause_event_id": "evt.gen_27.kids_prepared",
+   "effect_event_id": "evt.gen_27.jacob_deceives_isaac",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.rebekah_plan.kids_prepared",
+   "cause_event_id": "evt.gen_27.rebekah_plan",
+   "effect_event_id": "evt.gen_27.kids_prepared",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_27.rebekah_warns_jacob.rebekah_complains_to_isaac",
+   "cause_event_id": "evt.gen_27.rebekah_warns_jacob",
+   "effect_event_id": "evt.gen_27.rebekah_complains_to_isaac",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.esau.allegiance.1",
+   "entity_id": "person.esau",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.27.40",
+   "acquired_in_event": "evt.gen_27.esau_begs_blessing"
+  },
+  {
+   "component_id": "comp.esau.mood.1",
+   "entity_id": "person.esau",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "BITTER_ANGUISH",
+   "acquired_at_verse": "GEN.27.34",
+   "acquired_in_event": "evt.gen_27.esau_begs_blessing",
+   "expired_at_verse": "GEN.27.41",
+   "expired_in_event": "evt.gen_27.esau_grudge"
+  },
+  {
+   "component_id": "comp.esau.mood.2",
+   "entity_id": "person.esau",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "VENGEFUL_HATRED",
+   "supersedes_component_id": "comp.esau.mood.1",
+   "acquired_at_verse": "GEN.27.41",
+   "acquired_in_event": "evt.gen_27.esau_grudge"
+  },
+  {
+   "component_id": "comp.esaus_garments.holder.1",
+   "entity_id": "artifact.esaus_garments",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.27.15",
+   "acquired_in_event": "evt.gen_27.kids_prepared"
+  },
+  {
+   "component_id": "comp.isaac.sight.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "sight",
+   "value_code": "DIM_EYED",
+   "acquired_at_verse": "GEN.27.1",
+   "acquired_in_event": "evt.gen_27.isaac_commissions_esau"
+  },
+  {
+   "component_id": "comp.israel.disguise.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "disguise",
+   "value_code": "DISGUISED_AS_ESAU",
+   "acquired_at_verse": "GEN.27.16",
+   "acquired_in_event": "evt.gen_27.kids_prepared",
+   "expired_at_verse": "GEN.27.30",
+   "expired_in_event": "evt.gen_27.esau_returns"
+  },
+  {
+   "component_id": "comp.israel.lordship.1",
+   "entity_id": "person.israel",
+   "category": "ROLE_TITLE",
+   "component_key": "lord_over",
+   "target_entity_id": "person.esau",
+   "acquired_at_verse": "GEN.27.29",
+   "acquired_in_event": "evt.gen_27.isaac_blesses_jacob"
+  },
+  {
+   "component_id": "comp.israel.paternal_blessing.1",
+   "entity_id": "person.israel",
+   "category": "POSSESSION",
+   "component_key": "paternal_blessing",
+   "value_code": "FIRSTBORN_BLESSING",
+   "acquired_at_verse": "GEN.27.27",
+   "acquired_in_event": "evt.gen_27.isaac_blesses_jacob"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_27.blessing_of_jacob",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_27.isaac_blesses_jacob",
+   "verse_start": "GEN.27.26",
+   "verse_end": "GEN.27.29",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [
+    "substance.savory_food"
+   ],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "firstborn_blessing",
+    "kiss",
+    "dew_and_fatness",
+    "lordship"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_27.disguise_prepared",
+   "system_id": "sys.deceptive_impersonation",
+   "event_id": "evt.gen_27.kids_prepared",
+   "verse_start": "GEN.27.15",
+   "verse_end": "GEN.27.17",
+   "initiator_entity_id": "person.rebekah",
+   "target_entity_ids": [
+    "person.israel",
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [
+    "artifact.esaus_garments",
+    "artifact.kid_skins_on_jacob",
+    "substance.savory_food"
+   ],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "disguise",
+    "preparation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_27.impersonation_of_esau",
+   "system_id": "sys.deceptive_impersonation",
+   "event_id": "evt.gen_27.jacob_deceives_isaac",
+   "verse_start": "GEN.27.18",
+   "verse_end": "GEN.27.25",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [
+    "artifact.esaus_garments",
+    "artifact.kid_skins_on_jacob",
+    "substance.savory_food"
+   ],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "lie",
+    "touch_test",
+    "blind_isaac"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_27.lesser_blessing_of_esau",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_27.esau_begs_blessing",
+   "verse_start": "GEN.27.39",
+   "verse_end": "GEN.27.40",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "lesser_blessing",
+    "sword",
+    "yoke"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_27.esau_pleads_with_isaac",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "PLEADS_WITH",
+   "verse_id": "GEN.27.34",
+   "event_id": "evt.gen_27.esau_begs_blessing"
+  },
+  {
+   "edge_id": "edge.gen_27.esau_plots_against_jacob",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PLOTS_AGAINST",
+   "verse_id": "GEN.27.41",
+   "event_id": "evt.gen_27.esau_grudge"
+  },
+  {
+   "edge_id": "edge.gen_27.isaac_blesses_esau",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.esau",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.27.39",
+   "event_id": "evt.gen_27.esau_begs_blessing"
+  },
+  {
+   "edge_id": "edge.gen_27.isaac_blesses_jacob",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.27.27",
+   "event_id": "evt.gen_27.isaac_blesses_jacob"
+  },
+  {
+   "edge_id": "edge.gen_27.isaac_commands_esau",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.esau",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.27.3",
+   "event_id": "evt.gen_27.isaac_commissions_esau"
+  },
+  {
+   "edge_id": "edge.gen_27.jacob_deceives_isaac",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.27.19",
+   "event_id": "evt.gen_27.jacob_deceives_isaac"
+  },
+  {
+   "edge_id": "edge.gen_27.rebekah_appeals_to_isaac",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "APPEALS_TO",
+   "verse_id": "GEN.27.46",
+   "event_id": "evt.gen_27.rebekah_complains_to_isaac"
+  },
+  {
+   "edge_id": "edge.gen_27.rebekah_commands_jacob",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.27.8",
+   "event_id": "evt.gen_27.rebekah_plan"
+  },
+  {
+   "edge_id": "edge.gen_27.rebekah_disguises_jacob",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.israel",
+   "interaction_type": "DISGUISES",
+   "verse_id": "GEN.27.16",
+   "event_id": "evt.gen_27.kids_prepared"
+  },
+  {
+   "edge_id": "edge.gen_27.rebekah_sends_jacob_away",
+   "source_entity_id": "person.rebekah",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.27.43",
+   "event_id": "evt.gen_27.rebekah_warns_jacob"
+  }
+ ]
+}

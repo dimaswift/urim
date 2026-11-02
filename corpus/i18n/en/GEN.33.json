@@ -1,0 +1,90 @@
+{
+ "chapter_ref": "GEN.33",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_33.esau_approaches",
+   "title": "Jacob sees Esau coming and arranges his family",
+   "narrative_summary": "Jacob looks up and sees Esau coming with four hundred men. He divides the children among Leah, Rachel and the two maidservants, putting the maidservants first and Rachel and Joseph last.",
+   "temporal_reasoning_note": "No time word. Follows the morning after the wrestling (32:31-32), so anchored on the END of the sunrise scene; a short arrangement of the camp, 20 minutes, margin 3 hours since the text does not say how soon Esau appears. Tier DAY_SEQUENCE: the continuous day of the encounter."
+  },
+  {
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces",
+   "title": "Jacob bows seven times and Esau embraces him",
+   "narrative_summary": "Jacob goes ahead of his family and bows to the ground seven times as he nears his brother. Esau runs to meet him, embraces and kisses him, and they weep.",
+   "temporal_reasoning_note": "Continuous with the arrangement of the camp (33:3 'he passed on before them'); anchored on its END. Seven prostrations plus a run take about 20 minutes."
+  },
+  {
+   "event_id": "evt.gen_33.family_presented",
+   "title": "Jacob presents his wives and children to Esau",
+   "narrative_summary": "Esau asks who the women and children are, and Jacob answers that God has graciously given them. The maidservants, then Leah, then Joseph and Rachel come forward and bow.",
+   "temporal_reasoning_note": "Continuous after the embrace; anchored on its END, 20 minutes for the three groups to approach and bow."
+  },
+  {
+   "event_id": "evt.gen_33.gift_accepted",
+   "title": "Esau accepts Jacob's gift after urging",
+   "narrative_summary": "Esau asks about the droves he met; Jacob says they are to find favor with him. Esau says he has enough, but Jacob urges him and he takes the gift.",
+   "temporal_reasoning_note": "Continuous conversation, anchored on the END of the presentation; 30 minutes."
+  },
+  {
+   "event_id": "evt.gen_33.escort_declined",
+   "title": "Jacob declines Esau's company and says he will follow to Seir",
+   "narrative_summary": "Esau proposes that they travel on together; Jacob pleads that the children and nursing flocks cannot be driven hard and says he will come to Seir at their pace. Esau offers to leave some of his men, and Jacob declines.",
+   "temporal_reasoning_note": "Continuous conversation, anchored on the END of the gift scene; 30 minutes."
+  },
+  {
+   "event_id": "evt.gen_33.esau_returns_to_seir",
+   "title": "Esau turns back toward Seir",
+   "narrative_summary": "Esau returns that same day on his way to Seir.",
+   "temporal_reasoning_note": "'On that day' (33:16): starts at the end of the conversation the same day. Duration 6 hours is an estimate for the day's departure; Seir is about 287 km away in a straight line, so the journey itself is far longer and is not counted.",
+   "ancient_diurnal_marker": "On that day"
+  },
+  {
+   "event_id": "evt.gen_33.jacob_settles_succoth",
+   "title": "Jacob journeys to Succoth and builds a house and shelters",
+   "narrative_summary": "Jacob travels to Succoth, builds himself a house and makes shelters for his livestock, and the place is named Succoth.",
+   "temporal_reasoning_note": "No time word. Starts a day after the parting (margin 1 day) to allow Jacob to break camp. The text gives no duration; building a house and booths implies months, and Targum Pseudo-Jonathan says he stayed there twelve months, so duration is 1 year. Shechem is about 32 km from Succoth, within a day's travel, so the length comes only from the stay."
+  },
+  {
+   "event_id": "evt.gen_33.jacob_arrives_shechem",
+   "title": "Jacob arrives safe at Shechem and camps before the city",
+   "narrative_summary": "Jacob comes safely to the city of Shechem in Canaan, on his return from Paddan-aram, and camps before the city.",
+   "temporal_reasoning_note": "Anchored on the END of the Succoth stay. Succoth to Shechem is 32 km straight, about 40 km by road; by donkey about 1 day (urim travel, 4 km/h, 10 h moving). Margin 3 months because the length of the Succoth stay is uncertain."
+  },
+  {
+   "event_id": "evt.gen_33.field_bought",
+   "title": "Jacob buys a field from the sons of Hamor",
+   "narrative_summary": "Jacob buys the plot where he pitched his tent from the sons of Hamor, Shechem's father, for a hundred kesitah.",
+   "temporal_reasoning_note": "No time word; a purchase made after pitching the tent, estimated within days of arrival: anchored on the END of the arrival, margin 7 days, 2 hours for the transaction."
+  },
+  {
+   "event_id": "evt.gen_33.altar_el_elohe_israel",
+   "title": "Jacob sets up an altar called El-Elohe-Israel",
+   "narrative_summary": "Jacob erects an altar on the purchased land and calls it El-Elohe-Israel.",
+   "temporal_reasoning_note": "No time word; follows the purchase on the same land, anchored on its END with a margin of 7 days and about a day for the building."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_arrives_shechem",
+   "causal_explanation": "God promised Jacob at Bethel 'I will keep thee ... and will bring thee again into this land' (28:15); Jacob 'came safe' to Shechem 'in the land of Canaan, when he came from Paddan-aram' (33:18), the return the promise foretold."
+  },
+  {
+   "causal_id": "caus.gen_32.jacob_prays.esau_embraces",
+   "causal_explanation": "Jacob prayed to be delivered from the hand of Esau (32:11), and at the meeting he credits God's grace for Esau's friendly welcome: 'thou wast pleased with me' (33:10) and 'God hath dealt graciously with me' (33:11); the embrace in place of an attack (33:4) is the answer he recognizes."
+  },
+  {
+   "causal_id": "caus.gen_32.servants_instructed.gift_accepted",
+   "causal_explanation": "Jacob sent the droves to appease Esau and 'find favor' (32:20), and Esau takes the gift after urging (33:11)."
+  },
+  {
+   "causal_id": "caus.gen_33.field_bought.altar_el_elohe_israel",
+   "causal_explanation": "Owning the plot where he had pitched his tent (33:19) lets Jacob set up an altar there (33:20)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

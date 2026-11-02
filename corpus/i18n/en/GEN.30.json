@@ -1,0 +1,457 @@
+{
+ "chapter_ref": "GEN.30",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_30.rachel_demands_children",
+   "title": "Rachel envies Leah and demands children of Jacob",
+   "narrative_summary": "Rachel, seeing she has borne Jacob no children, envies her sister and says 'Give me children, or I die.' Jacob is angry and asks if he is in God's place, who has withheld the fruit of the womb.",
+   "temporal_reasoning_note": "No time word. Rachel's envy follows the births of Leah's four sons (29:31-35), so the event is anchored on Judah's birth END, 3 months later, with a 1-year margin because the envy may have begun earlier. Speech and answer last about 30 minutes. Tier REGNAL_YEAR, the span of the years of service."
+  },
+  {
+   "event_id": "evt.gen_30.bilhah_given",
+   "title": "Rachel gives Bilhah to Jacob as a wife",
+   "narrative_summary": "Rachel offers her maid Bilhah so that she may bear on Rachel's knees and Rachel be built up through her. She gives Bilhah to Jacob as a wife and he goes in to her.",
+   "temporal_reasoning_note": "Rachel proposes it straight after the quarrel (30:3), so the event starts when the previous scene ends. Duration 1 day for the proposal and the union; margin 3 months for the unstated interval."
+  },
+  {
+   "event_id": "evt.gen_30.dan_born",
+   "title": "Bilhah bears Dan and Rachel names him",
+   "narrative_summary": "Bilhah conceives and bears Jacob a son. Rachel says God has vindicated her and heard her voice, and names him Dan.",
+   "temporal_reasoning_note": "Start: conception, 1 month after the union (offset 1 month from bilhah_given END). Duration: a 9-month pregnancy, so the event ends with the birth. Margin 3 months. No time word in the text; tier REGNAL_YEAR, the span of the years."
+  },
+  {
+   "event_id": "evt.gen_30.naphtali_born",
+   "title": "Bilhah bears Naphtali and Rachel names him",
+   "narrative_summary": "Bilhah conceives again and bears Jacob a second son. Rachel says she has wrestled with her sister and prevailed, and names him Naphtali.",
+   "temporal_reasoning_note": "'Conceived again' (30:7): conception 1 month after Dan's birth, then a 9-month pregnancy. Margin 4 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.zilpah_given",
+   "title": "Leah gives Zilpah to Jacob as a wife",
+   "narrative_summary": "Leah sees she has stopped bearing and gives her maid Zilpah to Jacob as a wife.",
+   "temporal_reasoning_note": "She 'stopped bearing' after Judah (29:35). Anchored on Judah's birth END with a 6-month offset and a 1-year margin, because the text only says she saw she had stopped. The competition with Rachel suggests overlap with the Bilhah events. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.gad_born",
+   "title": "Zilpah bears Gad and Leah names him",
+   "narrative_summary": "Zilpah bears Jacob a son. Leah says 'good fortune has come' and names him Gad.",
+   "temporal_reasoning_note": "Conception 1 month after the gift of Zilpah, then 9 months of pregnancy. Margin 3 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.asher_born",
+   "title": "Zilpah bears Asher and Leah names him",
+   "narrative_summary": "Zilpah bears Jacob a second son. Leah says she is happy, for women will call her blessed, and names him Asher.",
+   "temporal_reasoning_note": "'A second son' (30:12): conception 1 month after Gad's birth, then 9 months of pregnancy. Margin 4 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.mandrakes_bargain",
+   "title": "Rachel bargains with Leah for Reuben's mandrakes",
+   "narrative_summary": "In the days of wheat harvest Reuben finds mandrakes in the field and brings them to Leah. Rachel asks for some. Leah answers that Rachel has taken her husband and wants the mandrakes too, and Rachel offers Jacob's company that night in exchange.",
+   "temporal_reasoning_note": "'In the days of wheat harvest' (30:14): about May-June (Sivan, Pseudo-Jonathan). Gad is born about 8 Sep; 8.5 months after his birth (one month = 29.53 days, 251 days) gives about 16 May, in the harvest, during Zilpah's second pregnancy (Asher). Verse 14 has no 'after', so the order allows it. Margin 2 months, which keeps the date within the harvest season. Duration 2 hours. Tier SEASONAL_MONTH because of the harvest.",
+   "ancient_season_marker": "In the days of wheat harvest"
+  },
+  {
+   "event_id": "evt.gen_30.mandrakes_night",
+   "title": "Jacob lies with Leah for the mandrakes",
+   "narrative_summary": "Jacob comes from the field in the evening and Leah goes out to meet him. She says he must come in to her, for she has hired him with her son's mandrakes, and he lies with her that night.",
+   "temporal_reasoning_note": "'In the evening' (30:16): the same day as the bargain, from EREV (18:00). 'That night' is the 12 hours that follow. Tier DIURNAL_HOUR.",
+   "ancient_diurnal_marker": "In the evening"
+  },
+  {
+   "event_id": "evt.gen_30.issachar_born",
+   "title": "Leah bears Issachar",
+   "narrative_summary": "God listens to Leah and she conceives and bears Jacob a fifth son. She says God has given her her hire for giving her maid to her husband, and names him Issachar.",
+   "temporal_reasoning_note": "Conception that night, so the event starts at the end of the night and lasts a 9-month pregnancy. Margin 2 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.zebulun_born",
+   "title": "Leah bears Zebulun",
+   "narrative_summary": "Leah conceives again and bears Jacob a sixth son. She says God has endowed her with a good dowry and her husband will now honor her, and names him Zebulun.",
+   "temporal_reasoning_note": "'Again' (30:19): conception right after Issachar's birth (no offset, so that he is born before Joseph, 30:25-26: Jacob asks leave after Joseph's birth with Zebulun already named), then 9 months of pregnancy. Margin 4 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.dinah_born",
+   "title": "Leah bears a daughter, Dinah",
+   "narrative_summary": "Afterwards Leah bears a daughter and names her Dinah.",
+   "temporal_reasoning_note": "'Afterwards' (30:21) puts it after Zebulun. Conception 1 month after his birth, then 9 months of pregnancy. Margin 6 months because the interval is not stated. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.joseph_born",
+   "title": "God remembers Rachel and she bears Joseph",
+   "narrative_summary": "God remembers Rachel, listens to her and opens her womb. She bears a son, says God has taken away her reproach, and names him Joseph, asking that the LORD add another son.",
+   "temporal_reasoning_note": "Anchored on the START of the second seven years (Gen 29:30): 14 years of service end about when Joseph is born (30:25), so 7 years minus a 9-month pregnancy gives 6.25 years. Margin 1 year, since the end of the 14 years is itself loosely dated (cf. Gen 31:41). Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.jacob_asks_leave",
+   "title": "Jacob asks Laban to send him home",
+   "narrative_summary": "When Rachel has borne Joseph, Jacob asks Laban to send him away to his own place and land and to give him his wives and children, for whom he has served.",
+   "temporal_reasoning_note": "'When Rachel had borne Joseph' (30:25): starts right after the birth. Duration 20 minutes; margin 3 months for how long after the birth he asked. Tier REGNAL_YEAR, the year frame of the service."
+  },
+  {
+   "event_id": "evt.gen_30.laban_wage_terms",
+   "title": "Laban asks Jacob to stay and they agree his wages",
+   "narrative_summary": "Laban says he has learned that the LORD blessed him for Jacob's sake and asks him to name his wages. Jacob recalls how the flock grew in his care and proposes that the speckled, spotted and dark animals be his hire. Laban agrees.",
+   "temporal_reasoning_note": "Laban answers in the same conversation as the request, so the event starts when the request ends. Duration about 1 hour. Jacob offers to pass through the flock 'today' (30:32). Margin 3 days. Tier DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_30.laban_removes_flock",
+   "title": "Laban removes the marked animals and puts distance between the flocks",
+   "narrative_summary": "That same day Laban removes the striped, spotted, speckled and dark animals and gives them to his sons. He puts a three days' journey between himself and Jacob, who keeps tending the rest of Laban's flock.",
+   "temporal_reasoning_note": "'On that day' (30:35): same day as the agreement, begun about 2 hours after its start. The text gives 'three days' journey' (30:36) as the distance the flock was taken, so the duration is 3 days, with the text overriding any travel calculation. Margin 12 hours. Tier DAY_SEQUENCE.",
+   "ancient_diurnal_marker": "That same day"
+  },
+  {
+   "event_id": "evt.gen_30.peeled_rods",
+   "title": "Jacob peels rods and sets them at the troughs",
+   "narrative_summary": "Jacob takes fresh rods of poplar, almond and plane, peels white strips in them and sets them in the watering troughs before the flock. The animals mate at the rods and bear striped, speckled and spotted young.",
+   "temporal_reasoning_note": "The first scene of the scheme, starting with it. The 1-year duration covers the first breeding season and the birth of the young (30:39). Margin 1 week. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.breeding_scheme",
+   "title": "Jacob builds his flocks with peeled rods",
+   "narrative_summary": "Jacob uses peeled branches at the watering troughs and sets apart his own flocks. The animals bear streaked, speckled and spotted young, the strong animals become Jacob's and the weak Laban's, and Jacob grows exceedingly rich.",
+   "temporal_reasoning_note": "Parent event for 30:37-43. The text gives no span. Gen 31:41 says Jacob served six years for the flock, so I use 6 years, starting as Laban's removal of the flock ends. Margin 1 week for the start. Tier REGNAL_YEAR, the span of the years."
+  },
+  {
+   "event_id": "evt.gen_30.flocks_separated",
+   "title": "Jacob separates the lambs and breeds only the strong ones",
+   "narrative_summary": "Jacob separates the lambs, turns the flock toward the striped and dark animals and keeps his own flocks apart from Laban's. He lays the rods only for the strong animals, so the weak are Laban's and the strong are Jacob's.",
+   "temporal_reasoning_note": "A continuing practice (30:41, 'whenever'). It starts 6 months into the scheme, once the first marked young exist, and lasts the remaining 5 years inside the parent. Margin 6 months. Tier REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_30.jacob_prospers",
+   "title": "Jacob grows very rich in flocks, servants and animals",
+   "narrative_summary": "The man increases exceedingly and comes to have many flocks, maidservants, menservants, camels and donkeys.",
+   "temporal_reasoning_note": "A summary of the result over the years. It is set at the second half of the parent: 3 years in, lasting 3 years, with a 1-year margin. Tier REGNAL_YEAR."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_30.bilhah_given.dan_born",
+   "causal_explanation": "Jacob goes in to Bilhah and she conceives and bears Dan (30:4-5)."
+  },
+  {
+   "causal_id": "caus.gen_30.joseph_born.jacob_asks_leave",
+   "causal_explanation": "After Joseph's birth Jacob asks to be sent away (30:25)."
+  },
+  {
+   "causal_id": "caus.gen_30.laban_removes_flock.breeding_scheme",
+   "causal_explanation": "With the marked animals removed, Jacob is left with the unmarked flock and uses the rods to breed marked young (30:36-37)."
+  },
+  {
+   "causal_id": "caus.gen_30.laban_wage_terms.laban_removes_flock",
+   "causal_explanation": "Having agreed to Jacob's terms, Laban removes the marked animals that day (30:34-35)."
+  },
+  {
+   "causal_id": "caus.gen_30.mandrakes_bargain.mandrakes_night",
+   "causal_explanation": "Rachel's offer of the night for the mandrakes sends Leah out to meet Jacob (30:15-16)."
+  },
+  {
+   "causal_id": "caus.gen_30.mandrakes_night.issachar_born",
+   "causal_explanation": "The text says God heard Leah and she conceived (30:17), so Issachar follows from that night."
+  },
+  {
+   "causal_id": "caus.gen_30.rachel_demands_children.bilhah_given",
+   "causal_explanation": "Rachel's demand for children is met by her offer of Bilhah to Jacob (30:1-4)."
+  },
+  {
+   "causal_id": "caus.gen_30.zilpah_given.gad_born",
+   "causal_explanation": "Leah gives Zilpah to Jacob and Zilpah bears Gad (30:9-10)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.peeled_rods",
+   "canonical_name": "Peeled Rods",
+   "phonetic_name": "mak-LOHT",
+   "aliases": [
+    "streaked rods"
+   ],
+   "etymology_meaning": "From Hebrew maqqel, 'staff, rod'; here branches of poplar, almond and plane, stripped to show white.",
+   "summary_bio": "Branches Jacob strips in white bands and sets in the watering troughs where the flocks mate (Gen 30:37-41). The flock he tends for Laban bears striped, speckled and spotted young, which fall to him under the wage agreement."
+  },
+  {
+   "entity_id": "group.flock_of_jacob",
+   "canonical_name": "Flock of Jacob",
+   "phonetic_name": "a-da-REEM",
+   "aliases": [
+    "Jacob's flocks"
+   ],
+   "etymology_meaning": "Hebrew adarim, 'herds, droves'.",
+   "summary_bio": "The flocks Jacob builds from the marked young of Laban's flock and keeps apart from Laban's animals. He breeds them from the strong animals only (Gen 30:40-43)."
+  },
+  {
+   "entity_id": "group.flock_of_laban",
+   "canonical_name": "Flock of Laban",
+   "phonetic_name": "tson la-VAN",
+   "aliases": [
+    "Laban's flock"
+   ],
+   "etymology_meaning": "Hebrew tson, 'small livestock, flock'.",
+   "summary_bio": "The sheep and goats Jacob tends for Laban. After Laban removes the marked animals, the remaining plain flock is what Jacob pastures, and from it his marked young are born (Gen 30:36-39)."
+  },
+  {
+   "entity_id": "group.marked_animals",
+   "canonical_name": "Marked Animals",
+   "phonetic_name": "na-KOHD ve-ta-LOO",
+   "aliases": [
+    "speckled and spotted",
+    "striped and dark animals"
+   ],
+   "etymology_meaning": "Hebrew naqod, 'speckled', and talu, 'spotted'; the animals Jacob asks as his wage.",
+   "summary_bio": "The speckled, spotted and dark animals of Laban's flock that Jacob proposes as his wages (Gen 30:32). Laban removes them the same day and gives them to his sons (v. 35)."
+  },
+  {
+   "entity_id": "group.sons_of_laban",
+   "canonical_name": "Sons of Laban",
+   "phonetic_name": "ba-NAV",
+   "aliases": [],
+   "etymology_meaning": "Hebrew banim, 'sons'; the text gives no individual names here.",
+   "summary_bio": "Laban's own sons, to whom he hands the marked animals he removes from the flock (Gen 30:35). They are first named as a group here, before Gen 31:1 shows them resenting Jacob."
+  },
+  {
+   "entity_id": "substance.mandrakes",
+   "canonical_name": "Mandrakes",
+   "phonetic_name": "doo-da-EEM",
+   "aliases": [
+    "love-apples"
+   ],
+   "etymology_meaning": "Hebrew dudaʾim, probably from dod, 'love'; traditionally a plant believed to aid fertility and desire.",
+   "summary_bio": "Plants Reuben finds in the wheat harvest and brings to Leah. Rachel, who is childless, asks for some, and Leah trades them for a night with Jacob (Gen 30:14-16)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.bilhah.marital_status.1",
+   "label_key": "Marital status",
+   "label_value": "Wife of Jacob",
+   "evidence_explanation": "Gen 30:4: Rachel gave Bilhah to Jacob as a wife."
+  },
+  {
+   "component_id": "comp.israel.wage_agreement.1",
+   "label_key": "Wage agreement",
+   "label_value": "Bound to Laban by the wage terms",
+   "evidence_explanation": "Gen 30:34: Laban agrees to Jacob's terms, so Jacob continues in Laban's service for the marked animals."
+  },
+  {
+   "component_id": "comp.israel.wealth.1",
+   "label_key": "Wealth",
+   "label_value": "Very rich in flocks, servants and animals",
+   "evidence_explanation": "Gen 30:43: the man grew exceedingly rich, with large flocks, maidservants, menservants, camels and donkeys."
+  },
+  {
+   "component_id": "comp.leah.fertility.3",
+   "label_key": "Fertility",
+   "label_value": "Bearing again",
+   "evidence_explanation": "Gen 30:17: God listened to Leah and she conceived and bore a fifth son, after she had stopped bearing."
+  },
+  {
+   "component_id": "comp.rachel.fertility.2",
+   "label_key": "Fertility",
+   "label_value": "Womb opened",
+   "evidence_explanation": "Gen 30:22: God remembered Rachel and opened her womb; she bore Joseph."
+  },
+  {
+   "component_id": "comp.rachel.mood.1",
+   "label_key": "Mood",
+   "label_value": "Envious of her sister",
+   "evidence_explanation": "Gen 30:1 says Rachel envied her sister; the state ends with her reproach removed in 30:23."
+  },
+  {
+   "component_id": "comp.zilpah.marital_status.1",
+   "label_key": "Marital status",
+   "label_value": "Wife of Jacob",
+   "evidence_explanation": "Gen 30:9: Leah gave Zilpah to Jacob as a wife."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.conjugal_night_exchange",
+   "name": "Trading a conjugal night",
+   "ancient_near_east_context": "A husband with several wives was expected to apportion his nights among them. A wife could give up a claim to her night in return for goods; here Leah pays in mandrakes, plants regarded as helping conception.",
+   "rules_and_mechanics": [
+    "A wife could pay for the right to a night with the shared husband.",
+    "Payment could be goods rather than money.",
+    "The husband was told, not asked, which wife he would visit that night.",
+    "Conception after such a night was read as divine favour."
+   ]
+  },
+  {
+   "system_id": "sys.sympathetic_breeding",
+   "name": "Breeding by sympathetic sight",
+   "ancient_near_east_context": "A widely held folk belief, attested in classical and later sources, said that what animals saw at mating marked their offspring. Herders used visual cues at the watering place, where flocks gathered and mated.",
+   "rules_and_mechanics": [
+    "Marked objects are set before the animals at mating.",
+    "The placing is timed to when the flock comes to drink.",
+    "Only vigorous animals are bred with the rods, so the strong young fall to the breeder.",
+    "The text credits the method; 31:10-12 gives a different, divine explanation."
+   ]
+  },
+  {
+   "system_id": "sys.wage_agreement",
+   "name": "Wage agreement in livestock",
+   "ancient_near_east_context": "Herdsmen in the ancient Near East were often paid in animals rather than coin, with contracts naming which animals went to the herder. The outcome could be checked later, as the deal here is checked 'on the day to come'.",
+   "rules_and_mechanics": [
+    "The employer asks the worker to name his wage.",
+    "The worker names which animals count as his share.",
+    "Animals outside that definition are treated as the owner's, and any found with the herder as stolen.",
+    "The agreement is stated openly in the presence of both parties."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_30.asher_naming",
+   "outcome_summary": "Leah names Zilpah's second son Asher, 'happy'.",
+   "significance_note": "She expects other women to call her happy; the name reverses her earlier standing as the hated wife."
+  },
+  {
+   "instance_id": "inst.gen_30.bilhah_surrogacy",
+   "outcome_summary": "Rachel gives her maid Bilhah to Jacob, and Bilhah conceives.",
+   "significance_note": "Rachel copies Sarah's route to a child (Gen 16) and claims the child as her own, to be born on her knees."
+  },
+  {
+   "instance_id": "inst.gen_30.dan_naming",
+   "outcome_summary": "Rachel names Bilhah's son Dan, 'he judged', saying God has vindicated her.",
+   "significance_note": "The name states Rachel's claim that God has decided her case in the rivalry."
+  },
+  {
+   "instance_id": "inst.gen_30.dinah_naming",
+   "outcome_summary": "Leah names her daughter Dinah.",
+   "significance_note": "The only daughter of Jacob named in the list; no reason for the name is given."
+  },
+  {
+   "instance_id": "inst.gen_30.gad_naming",
+   "outcome_summary": "Leah names Zilpah's first son Gad, for good fortune.",
+   "significance_note": "Leah counts the child as her own good luck."
+  },
+  {
+   "instance_id": "inst.gen_30.god_remembers_rachel",
+   "outcome_summary": "God remembers Rachel, listens to her and opens her womb.",
+   "significance_note": "Rachel's barrenness ends only by God's act, the same turn as for Sarah and Rebekah."
+  },
+  {
+   "instance_id": "inst.gen_30.issachar_naming",
+   "outcome_summary": "Leah names the boy Issachar, 'man of hire', taking him as her reward for giving Zilpah to Jacob.",
+   "significance_note": "The name plays on the hire of Jacob in verse 16 and on God's reward."
+  },
+  {
+   "instance_id": "inst.gen_30.joseph_naming",
+   "outcome_summary": "Rachel names her son Joseph, praying that the LORD will add another son.",
+   "significance_note": "The name states her request for a second son; it points ahead to Benjamin and to Joseph's later place in the story."
+  },
+  {
+   "instance_id": "inst.gen_30.mandrake_night",
+   "outcome_summary": "Leah meets Jacob at evening and tells him she has hired him with the mandrakes; he lies with her that night.",
+   "significance_note": "The trade reverses the usual order of favour, since Leah gains a night with Jacob, and leads to Issachar."
+  },
+  {
+   "instance_id": "inst.gen_30.naphtali_naming",
+   "outcome_summary": "Rachel names Bilhah's second son Naphtali, 'my wrestling', from her struggle with her sister.",
+   "significance_note": "The name makes the rivalry between the sisters the keynote of this section."
+  },
+  {
+   "instance_id": "inst.gen_30.rods_at_troughs",
+   "outcome_summary": "Jacob strips rods of poplar, almond and plane, sets them at the troughs, and the flock bears striped, speckled and spotted young.",
+   "significance_note": "The marked young fall under Jacob's wage, so Laban's flock produces Jacob's share."
+  },
+  {
+   "instance_id": "inst.gen_30.strong_flock_selection",
+   "outcome_summary": "Jacob uses the rods only when the strong animals mate, so the strong young are his and the feeble are Laban's.",
+   "significance_note": "Jacob outwits Laban, matching Laban's earlier trick of the wedding night with Leah."
+  },
+  {
+   "instance_id": "inst.gen_30.wage_agreement",
+   "outcome_summary": "Laban asks Jacob to name his wage; Jacob asks for the speckled, spotted and dark animals, and Laban agrees.",
+   "significance_note": "The agreement sets up Jacob's wealth and Laban's later resentment in chapter 31."
+  },
+  {
+   "instance_id": "inst.gen_30.zebulun_naming",
+   "outcome_summary": "Leah names her sixth son Zebulun, hoping her husband will now honour her.",
+   "significance_note": "The name voices her wish for lasting standing in her marriage after six sons."
+  },
+  {
+   "instance_id": "inst.gen_30.zilpah_surrogacy",
+   "outcome_summary": "Leah gives her maid Zilpah to Jacob and Zilpah conceives.",
+   "significance_note": "Leah answers Rachel by doing the same, and the contest for children grows to four mothers."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_30.god_hears_leah",
+   "interaction_label": "hears",
+   "description": "God listens to Leah, and she conceives her fifth son."
+  },
+  {
+   "edge_id": "edge.gen_30.god_remembers_rachel",
+   "interaction_label": "remembers",
+   "description": "God remembers Rachel, listens to her and opens her womb."
+  },
+  {
+   "edge_id": "edge.gen_30.jacob_asks_release",
+   "interaction_label": "asks to be released by",
+   "description": "After Joseph's birth Jacob asks Laban to send him home with his wives and children."
+  },
+  {
+   "edge_id": "edge.gen_30.jacob_lies_with_bilhah",
+   "interaction_label": "lies with",
+   "description": "Jacob goes in to Bilhah, who conceives."
+  },
+  {
+   "edge_id": "edge.gen_30.jacob_outwits_laban",
+   "interaction_label": "outwits",
+   "description": "Jacob breeds only the strong animals with the rods, so the strong are his and the feeble Laban's."
+  },
+  {
+   "edge_id": "edge.gen_30.jacob_rebukes_rachel",
+   "interaction_label": "rebukes",
+   "description": "Jacob grows angry with Rachel and asks whether he stands in God's place, who has withheld children."
+  },
+  {
+   "edge_id": "edge.gen_30.jacob_separates_flocks",
+   "interaction_label": "separates from",
+   "description": "Jacob sets his own droves apart and does not put them with Laban's flock."
+  },
+  {
+   "edge_id": "edge.gen_30.laban_asks_jacob_stay",
+   "interaction_label": "asks to stay",
+   "description": "Laban asks Jacob to stay, since he has learned the LORD blessed him for Jacob's sake."
+  },
+  {
+   "edge_id": "edge.gen_30.laban_distances_jacob",
+   "interaction_label": "puts distance between himself and",
+   "description": "Laban sets three days' journey between himself and Jacob, who keeps the rest of the flock."
+  },
+  {
+   "edge_id": "edge.gen_30.laban_removes_animals",
+   "interaction_label": "removes",
+   "description": "That day Laban takes out the marked goats and sheep and gives them to his sons."
+  },
+  {
+   "edge_id": "edge.gen_30.leah_gives_zilpah",
+   "interaction_label": "gives to her husband",
+   "description": "Leah takes Zilpah and gives her to Jacob as a wife."
+  },
+  {
+   "edge_id": "edge.gen_30.leah_hires_jacob",
+   "interaction_label": "hires",
+   "description": "Leah meets Jacob and says she has hired him with her son's mandrakes."
+  },
+  {
+   "edge_id": "edge.gen_30.rachel_bargains_leah",
+   "interaction_label": "bargains with",
+   "description": "Rachel offers Leah a night with Jacob in exchange for Reuben's mandrakes."
+  },
+  {
+   "edge_id": "edge.gen_30.rachel_gives_bilhah",
+   "interaction_label": "gives to her husband",
+   "description": "Rachel gives her maid Bilhah to Jacob as a wife."
+  },
+  {
+   "edge_id": "edge.gen_30.reuben_brings_mandrakes",
+   "interaction_label": "brings to",
+   "description": "Reuben finds mandrakes in the field and brings them to his mother Leah."
+  }
+ ]
+}

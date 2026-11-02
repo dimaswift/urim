@@ -1,0 +1,145 @@
+{
+ "chapter_ref": "GEN.49",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_49.jacob_summons_sons",
+   "verse_start": "GEN.49.1",
+   "verse_end": "GEN.49.2",
+   "time": {
+    "anchor": "evt.gen_48.jacob_foretells_return",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.oracles_first_sons",
+   "verse_start": "GEN.49.3",
+   "verse_end": "GEN.49.12",
+   "time": {
+    "anchor": "evt.gen_49.jacob_summons_sons",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.oracles_other_sons",
+   "verse_start": "GEN.49.13",
+   "verse_end": "GEN.49.21",
+   "time": {
+    "anchor": "evt.gen_49.oracles_first_sons",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.blesses_joseph",
+   "verse_start": "GEN.49.22",
+   "verse_end": "GEN.49.26",
+   "time": {
+    "anchor": "evt.gen_49.oracles_other_sons",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.benjamin_and_summary",
+   "verse_start": "GEN.49.27",
+   "verse_end": "GEN.49.28",
+   "time": {
+    "anchor": "evt.gen_49.blesses_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.burial_charge",
+   "verse_start": "GEN.49.29",
+   "verse_end": "GEN.49.32",
+   "time": {
+    "anchor": "evt.gen_49.benjamin_and_summary",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_49.jacob_dies",
+   "verse_start": "GEN.49.33",
+   "verse_end": "GEN.49.33",
+   "time": {
+    "anchor": "evt.gen_49.burial_charge",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

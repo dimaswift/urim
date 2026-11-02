@@ -1,0 +1,401 @@
+{
+ "chapter_ref": "GEN.21",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_21.sarah_bears_isaac",
+   "verse_start": "GEN.21.1",
+   "verse_end": "GEN.21.2",
+   "time": {
+    "anchor": "anchor.isaac_birth",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_names_isaac",
+   "verse_start": "GEN.21.3",
+   "verse_end": "GEN.21.3",
+   "time": {
+    "anchor": "evt.gen_21.sarah_bears_isaac",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_circumcises_isaac",
+   "verse_start": "GEN.21.4",
+   "verse_end": "GEN.21.5",
+   "time": {
+    "anchor": "evt.gen_21.sarah_bears_isaac",
+    "anchor_point": "START",
+    "offset": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.sarah_laughs_with_joy",
+   "verse_start": "GEN.21.6",
+   "verse_end": "GEN.21.7",
+   "time": {
+    "anchor": "evt.gen_21.abraham_circumcises_isaac",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.isaac_weaned_feast",
+   "verse_start": "GEN.21.8",
+   "verse_end": "GEN.21.8",
+   "time": {
+    "anchor": "evt.gen_21.sarah_bears_isaac",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.sarah_demands_expulsion",
+   "verse_start": "GEN.21.9",
+   "verse_end": "GEN.21.11",
+   "time": {
+    "anchor": "evt.gen_21.isaac_weaned_feast",
+    "anchor_point": "START",
+    "offset": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.god_reassures_abraham",
+   "verse_start": "GEN.21.12",
+   "verse_end": "GEN.21.13",
+   "time": {
+    "anchor": "evt.gen_21.sarah_demands_expulsion",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_sends_hagar_away",
+   "verse_start": "GEN.21.14",
+   "verse_end": "GEN.21.14",
+   "time": {
+    "anchor": "evt.gen_21.god_reassures_abraham",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.hagar_leaves_ishmael_to_die",
+   "verse_start": "GEN.21.15",
+   "verse_end": "GEN.21.16",
+   "time": {
+    "anchor": "evt.gen_21.abraham_sends_hagar_away",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael",
+   "verse_start": "GEN.21.17",
+   "verse_end": "GEN.21.19",
+   "time": {
+    "anchor": "evt.gen_21.hagar_leaves_ishmael_to_die",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.ishmael_grows_and_marries",
+   "verse_start": "GEN.21.20",
+   "verse_end": "GEN.21.21",
+   "time": {
+    "anchor": "evt.gen_21.angel_rescues_hagar_and_ishmael",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abimelech_proposes_oath",
+   "verse_start": "GEN.21.22",
+   "verse_end": "GEN.21.24",
+   "time": {
+    "anchor": "evt.gen_21.sarah_bears_isaac",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 18.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_reproves_over_well",
+   "verse_start": "GEN.21.25",
+   "verse_end": "GEN.21.26",
+   "time": {
+    "anchor": "evt.gen_21.abimelech_proposes_oath",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.covenant_at_beersheba",
+   "verse_start": "GEN.21.27",
+   "verse_end": "GEN.21.32",
+   "time": {
+    "anchor": "evt.gen_21.abraham_reproves_over_well",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_plants_tamarisk",
+   "verse_start": "GEN.21.33",
+   "verse_end": "GEN.21.33",
+   "time": {
+    "anchor": "evt.gen_21.covenant_at_beersheba",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_21.abraham_sojourns_in_philistia",
+   "verse_start": "GEN.21.34",
+   "verse_end": "GEN.21.34",
+   "time": {
+    "anchor": "evt.gen_20.abraham_moves_to_gerar",
+    "anchor_point": "START",
+    "duration": {
+     "value": 26.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.circumcision_command.abraham_circumcises_isaac",
+   "cause_event_id": "evt.gen_17.circumcision_command",
+   "effect_event_id": "evt.gen_21.abraham_circumcises_isaac",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_17.isaac_and_ishmael_promised.sarah_bears_isaac",
+   "cause_event_id": "evt.gen_17.isaac_and_ishmael_promised",
+   "effect_event_id": "evt.gen_21.sarah_bears_isaac",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_18.son_promised_to_sarah.sarah_bears_isaac",
+   "cause_event_id": "evt.gen_18.son_promised_to_sarah",
+   "effect_event_id": "evt.gen_21.sarah_bears_isaac",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_21.abimelech_proposes_oath.covenant_at_beersheba",
+   "cause_event_id": "evt.gen_21.abimelech_proposes_oath",
+   "effect_event_id": "evt.gen_21.covenant_at_beersheba",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_21.abraham_reproves_over_well.covenant_at_beersheba",
+   "cause_event_id": "evt.gen_21.abraham_reproves_over_well",
+   "effect_event_id": "evt.gen_21.covenant_at_beersheba",
+   "causal_type": "ENABLES",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_21.abraham_sends_hagar_away.hagar_leaves_ishmael_to_die",
+   "cause_event_id": "evt.gen_21.abraham_sends_hagar_away",
+   "effect_event_id": "evt.gen_21.hagar_leaves_ishmael_to_die",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_21.god_reassures_abraham.abraham_sends_hagar_away",
+   "cause_event_id": "evt.gen_21.god_reassures_abraham",
+   "effect_event_id": "evt.gen_21.abraham_sends_hagar_away",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_21.hagar_leaves_ishmael_to_die.angel_rescues_hagar_and_ishmael",
+   "cause_event_id": "evt.gen_21.hagar_leaves_ishmael_to_die",
+   "effect_event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_21.sarah_demands_expulsion.god_reassures_abraham",
+   "cause_event_id": "evt.gen_21.sarah_demands_expulsion",
+   "effect_event_id": "evt.gen_21.god_reassures_abraham",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

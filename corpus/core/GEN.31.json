@@ -1,0 +1,389 @@
+{
+ "chapter_ref": "GEN.31",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_31.laban_sons_complain",
+   "verse_start": "GEN.31.1",
+   "verse_end": "GEN.31.2",
+   "time": {
+    "anchor": "evt.gen_30.joseph_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 6.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.yhwh_commands_return",
+   "verse_start": "GEN.31.3",
+   "verse_end": "GEN.31.3",
+   "time": {
+    "anchor": "evt.gen_31.laban_sons_complain",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.jacob_calls_wives",
+   "verse_start": "GEN.31.4",
+   "verse_end": "GEN.31.16",
+   "time": {
+    "anchor": "evt.gen_31.yhwh_commands_return",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.jacob_flees",
+   "verse_start": "GEN.31.17",
+   "verse_end": "GEN.31.21",
+   "time": {
+    "anchor": "evt.gen_31.jacob_calls_wives",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.laban_told",
+   "verse_start": "GEN.31.22",
+   "verse_end": "GEN.31.22",
+   "time": {
+    "anchor": "evt.gen_31.jacob_flees",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.laban_pursues",
+   "verse_start": "GEN.31.23",
+   "verse_end": "GEN.31.23",
+   "time": {
+    "anchor": "evt.gen_31.laban_told",
+    "anchor_point": "END",
+    "duration": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.god_warns_laban",
+   "verse_start": "GEN.31.24",
+   "verse_end": "GEN.31.24",
+   "time": {
+    "anchor": "evt.gen_31.laban_pursues",
+    "anchor_point": "START",
+    "offset": {
+     "value": 6.0,
+     "unit": "days"
+    },
+    "time_of_day": "ASHMORET_HATICHONAH",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.laban_overtakes",
+   "verse_start": "GEN.31.25",
+   "verse_end": "GEN.31.25",
+   "time": {
+    "anchor": "evt.gen_31.laban_pursues",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.laban_accuses",
+   "verse_start": "GEN.31.26",
+   "verse_end": "GEN.31.30",
+   "time": {
+    "anchor": "evt.gen_31.laban_overtakes",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.jacob_answers_laban",
+   "verse_start": "GEN.31.31",
+   "verse_end": "GEN.31.32",
+   "time": {
+    "anchor": "evt.gen_31.laban_accuses",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.tents_searched",
+   "verse_start": "GEN.31.33",
+   "verse_end": "GEN.31.35",
+   "time": {
+    "anchor": "evt.gen_31.jacob_answers_laban",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.jacob_rebukes_laban",
+   "verse_start": "GEN.31.36",
+   "verse_end": "GEN.31.42",
+   "time": {
+    "anchor": "evt.gen_31.tents_searched",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.covenant_proposed",
+   "verse_start": "GEN.31.43",
+   "verse_end": "GEN.31.44",
+   "time": {
+    "anchor": "evt.gen_31.jacob_rebukes_laban",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.covenant_made",
+   "verse_start": "GEN.31.45",
+   "verse_end": "GEN.31.53",
+   "time": {
+    "anchor": "evt.gen_31.covenant_proposed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_31.covenant_feast",
+   "verse_start": "GEN.31.54",
+   "verse_end": "GEN.31.54",
+   "time": {
+    "anchor": "evt.gen_31.covenant_made",
+    "anchor_point": "END",
+    "duration": {
+     "value": 13.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_31.covenant_proposed.covenant_made",
+   "cause_event_id": "evt.gen_31.covenant_proposed",
+   "effect_event_id": "evt.gen_31.covenant_made",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_31.god_warns_laban.laban_accuses",
+   "cause_event_id": "evt.gen_31.god_warns_laban",
+   "effect_event_id": "evt.gen_31.laban_accuses",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_calls_wives.jacob_flees",
+   "cause_event_id": "evt.gen_31.jacob_calls_wives",
+   "effect_event_id": "evt.gen_31.jacob_flees",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_flees.laban_told",
+   "cause_event_id": "evt.gen_31.jacob_flees",
+   "effect_event_id": "evt.gen_31.laban_told",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_31.jacob_rebukes_laban.covenant_proposed",
+   "cause_event_id": "evt.gen_31.jacob_rebukes_laban",
+   "effect_event_id": "evt.gen_31.covenant_proposed",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_31.laban_accuses.tents_searched",
+   "cause_event_id": "evt.gen_31.laban_accuses",
+   "effect_event_id": "evt.gen_31.tents_searched",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_31.laban_pursues.laban_overtakes",
+   "cause_event_id": "evt.gen_31.laban_pursues",
+   "effect_event_id": "evt.gen_31.laban_overtakes",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_31.laban_sons_complain.jacob_calls_wives",
+   "cause_event_id": "evt.gen_31.laban_sons_complain",
+   "effect_event_id": "evt.gen_31.jacob_calls_wives",
+   "causal_type": "ENABLES",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_31.laban_told.laban_pursues",
+   "cause_event_id": "evt.gen_31.laban_told",
+   "effect_event_id": "evt.gen_31.laban_pursues",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_31.yhwh_commands_return.jacob_flees",
+   "cause_event_id": "evt.gen_31.yhwh_commands_return",
+   "effect_event_id": "evt.gen_31.jacob_flees",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.9
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

@@ -1,0 +1,1017 @@
+{
+ "chapter_ref": "GEN.44",
+ "items": {
+  "causal:caus.gen_43.judah_pledges_surety.gen_44_judah_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [
+    "Inferred link, confidence 0.8. Judah cites his surety to Jacob (44:32), which echoes 43:9."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_44.brothers_fall_before_joseph.judah_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_44.return_to_city.brothers_fall_before_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_44.sacks_searched_cup_found.return_to_city": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_44.steward_commanded.sacks_searched_cup_found": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:48:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": "[should_fix] Change causal_type from TRIGGERS to ENABLES; keep the explanation (the planted cup is what the search finds). (GEN.44.2: \"and he did according to the word that Joseph had spoken\"; GEN.44.11: \"Then they speedily took down every man his sack\" (right after the terms of 44:10))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:48:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.benjamin.legal_status.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Accused-thief status is the framing of the scene (v12, 16-17); Joseph's own knowledge that it is staged is carried by the existing Joseph identity state."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph_brothers.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph_silver_cup.placement.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Inferred from v2 plus v12: the cup is planted at the commanding scene; the text reports the act only in the summary of v2."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph_silver_cup.placement.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.israel_loves_benjamin": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.joseph_accuses_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.joseph_commands_steward": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.joseph_sends_steward": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.judah_offers_self": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.judah_pleads_with_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.judah_stands_surety": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.steward_accuses_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_44.steward_searches_sacks": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:artifact.joseph_silver_cup": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "New artifact distinct from artifact.pharaohs_cup (Gen 40): this is Joseph's own silver cup (gevia), the object the whole plot turns on. Not the same vessel as the cupbearer's cup of Pharaoh."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": "[consider] Change 'temple menorah' to 'tabernacle lampstand' and drop the circular clause. Say that Joseph claims, through the steward and then in person, that he divines with the cup. (GEN.44.5: \"whereby indeed he divineth\" (Joseph's words to the steward); GEN.44.15: \"wot ye not that such a man as I can certainly divine?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:loc.road_outside_city": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "The text never names the city Joseph rules from (v4, 13) nor the road; I created an unnamed place for the stretch just outside the city where the steward overtakes the brothers. No coordinates: not in the registry."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.brothers_fall_before_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": "[consider] Consider basing the same-morning reasoning on 'not far' (44:4) and reading 44:14 as Joseph still being at home. (GEN.44.14: \"for he was yet there\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.brothers_protest_and_pledge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.brothers_sent_away": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [
+    "The text implies night between the banquet and the departure (44:3 'the morning'), so the command precedes dawn. I placed it as the next BOKER after the banquet's end, which relies on the banquet ending before midnight."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.judah_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": "[consider] Consider a duration of about 10 minutes with a margin that reaches up to half an hour. (GEN.44.18-34: one continuous speech of seventeen verses)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.return_to_city": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.sacks_searched_cup_found": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.steward_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": "[consider] Consider rewording the note: the order follows the noon banquet at some unstated hour before the next morning (44:3). (GEN.43.16: \"these men shall dine with me at noon\"; GEN.44.1 has no time word)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_44.steward_pursues": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:46:09+00:00",
+   "agent_notes": [
+    "I merged Joseph's order (44:4-5) with the overtaking (44:6), since the order and its execution are continuous. The hour delay is an estimate; the text only says 'not far'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:47:31+00:00",
+     "note": "[consider] Consider adding TRIGGERS links steward_pursues → brothers_protest_and_pledge and brothers_protest_and_pledge → sacks_searched_cup_found, and dropping 'horse' from the note. (GEN.44.7: \"Wherefore saith my lord these words?\"; GEN.44.10-11: \"he with whom it is found shall be my servant ... Then they speedily took down every man his sack\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.brothers_fall_before_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "God (v16) is listed as MENTIONED: Judah says 'God has found out our guilt', an invocation, not an acting role, and probably a reference to the old guilt over Joseph."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.brothers_protest_and_pledge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.brothers_sent_away": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Place set to loc.house_of_joseph as the departure point (the city itself has no entity); loosely placed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": "[consider] Consider giving the steward PRESENT rather than AGENT, or adding Joseph, and saying in a note that the text does not name who sends them. (GEN.44.3: \"the men were sent away, they and their asses\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.judah_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "The wife and dead 'brother' of v27-28 (Rachel and Joseph) are not given participants: Rachel has no entity yet and Joseph is present in his unrecognised role. Reuse of person.israel for 'our father' follows earlier chapters."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.return_to_city": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.sacks_searched_cup_found": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.steward_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:56:51+00:00",
+   "agent_notes": [
+    "Per reviewer request, artifact.returned_silver is no longer a participant here: the money of v1 is left without an artifact (it is not the silver of Gen 42). The MENTIONED link in brothers_protest_and_pledge (v8) stays."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": "[should_fix] Remove artifact.returned_silver from the participants of evt.gen_44.steward_commanded. Leave the money of 44:1 without an artifact, or give it a new one if you need it. Keep the MENTIONED link in brothers_protest_and_pledge (44:8), which is correct. (GEN.44.8: \"the money, which we found in our sacks' mouths, we brought again unto thee out of the land of Canaan\"; GEN.44.1: \"put every man's money in his sack's mouth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:57:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_44.steward_pursues": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_44.brothers_pledge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Initiator is the steward because he states the agreed terms in v10; the brothers propose the harsher terms in v9."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_44.cup_divination_claim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_44.garments_torn": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_44.judah_surety_claim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_44.obeisance_to_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": "[consider] Consider making group.joseph_brothers the initiator, or keeping Judah and noting that the whole group bows. (GEN.44.14: \"And Judah and his brethren came to Joseph's house ... and they fell before him on the ground\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divination_by_cup": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Defined, not reused. Joseph's claim to divine by the cup (v5, 15) is part of the ruse and the narrative never confirms he actually practiced it; the instance records the claim, hence the 'claimed' tag."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": "[consider] If the schema has a category that better fits a human divination practice, consider using it. (GEN.44.5: \"whereby indeed he divineth\" (nachesh yenachesh))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.enslavement_for_theft": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:54:38+00:00",
+   "agent_notes": [
+    "Defined, not reused. The brothers' self-imposed penalty (death for the thief, slavery for the rest, v9) and the steward's/Joseph's softened terms (slavery for the thief only, v10, 17) are modelled as one custom."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "All 34 verses are covered. Verses 18-34 are one speech and kept as a single event rather than split into beats.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:46:09+00:00"
+  },
+  {
+   "note": "No FULFILLS_PROPHECY link: Joseph's command to the steward (44:1-2) and its execution are inside one event. Joseph's dreams (Gen 37) are fulfilled in the bowing at 44:14; the link may be written by a session that covers that earlier chapter's dreams, or later by a reviewer.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:46:09+00:00"
+  },
+  {
+   "note": "All 34 verses are covered. Verses 18-34 are one speech and kept as a single event rather than split into beats.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:04+00:00"
+  },
+  {
+   "note": "No FULFILLS_PROPHECY link: Joseph's command to the steward (44:1-2) and its execution are inside one event. Joseph's dreams (Gen 37) are fulfilled in the bowing at 44:14; the link may be written by a session that covers that earlier chapter's dreams, or later by a reviewer.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:04+00:00"
+  },
+  {
+   "note": "[event:evt.gen_44.brothers_sent_away] The text implies night between the banquet and the departure (44:3 'the morning'), so the command precedes dawn. I placed it as the next BOKER after the banquet's end, which relies on the banquet ending before midnight.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:04+00:00"
+  },
+  {
+   "note": "[event:evt.gen_44.steward_pursues] I merged Joseph's order (44:4-5) with the overtaking (44:6), since the order and its execution are continuous. The hour delay is an estimate; the text only says 'not far'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:04+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_43.judah_pledges_surety.gen_44_judah_pleads] Inferred link, confidence 0.8. Judah cites his surety to Jacob (44:32), which echoes 43:9.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:48:04+00:00"
+  },
+  {
+   "note": "[entity:artifact.joseph_silver_cup] New artifact distinct from artifact.pharaohs_cup (Gen 40): this is Joseph's own silver cup (gevia), the object the whole plot turns on. Not the same vessel as the cupbearer's cup of Pharaoh.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[entity:loc.road_outside_city] The text never names the city Joseph rules from (v4, 13) nor the road; I created an unnamed place for the stretch just outside the city where the steward overtakes the brothers. No coordinates: not in the registry.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_44.brothers_sent_away] Place set to loc.house_of_joseph as the departure point (the city itself has no entity); loosely placed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[system:sys.divination_by_cup] Defined, not reused. Joseph's claim to divine by the cup (v5, 15) is part of the ruse and the narrative never confirms he actually practiced it; the instance records the claim, hence the 'claimed' tag.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[system:sys.enslavement_for_theft] Defined, not reused. The brothers' self-imposed penalty (death for the thief, slavery for the rest, v9) and the steward's/Joseph's softened terms (slavery for the thief only, v10, 17) are modelled as one custom.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[instance:inst.gen_44.brothers_pledge] Initiator is the steward because he states the agreed terms in v10; the brothers propose the harsher terms in v9.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_44.judah_pleads] The wife and dead 'brother' of v27-28 (Rachel and Joseph) are not given participants: Rachel has no entity yet and Joseph is present in his unrecognised role. Reuse of person.israel for 'our father' follows earlier chapters.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[component:comp.joseph_silver_cup.placement.1] Inferred from v2 plus v12: the cup is planted at the commanding scene; the text reports the act only in the summary of v2.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[component:comp.benjamin.legal_status.1] Accused-thief status is the framing of the scene (v12, 16-17); Joseph's own knowledge that it is staged is carried by the existing Joseph identity state.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_44.brothers_fall_before_joseph] God (v16) is listed as MENTIONED: Judah says 'God has found out our guilt', an invocation, not an acting role, and probably a reference to the old guilt over Joseph.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:56:51+00:00"
+  }
+ ]
+}

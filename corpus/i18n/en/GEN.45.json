@@ -1,0 +1,324 @@
+{
+ "chapter_ref": "GEN.45",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_45.joseph_clears_room",
+   "title": "Joseph sends his attendants out and weeps aloud",
+   "narrative_summary": "Joseph can no longer restrain himself before those standing by and orders everyone out. With no one else present he weeps so loudly that the Egyptians and Pharaoh's house hear it.",
+   "temporal_reasoning_note": "Continues Judah's plea (44:18-34) without a break, so it starts at that event's end. Minutes: an order and a burst of weeping. DAY_SEQUENCE: same scene as the preceding day."
+  },
+  {
+   "event_id": "evt.gen_45.joseph_reveals_himself",
+   "title": "Joseph tells his brothers, 'I am Joseph'",
+   "narrative_summary": "Joseph says 'I am Joseph; is my father still alive?' and the terrified brothers cannot answer. He asks them to come near and repeats that he is the brother they sold into Egypt.",
+   "temporal_reasoning_note": "Continuous with the clearing of the room (45:1 'when Joseph made himself known'), so it begins when that scene ends; a few minutes of speech."
+  },
+  {
+   "event_id": "evt.gen_45.joseph_explains_providence",
+   "title": "Joseph tells his brothers God sent him to preserve life",
+   "narrative_summary": "Joseph tells them not to be grieved: God sent him ahead to preserve life, two years of famine are past and five remain, and God made him father to Pharaoh and ruler over Egypt.",
+   "temporal_reasoning_note": "One continuous speech following the self-disclosure, no gap marked. 'These two years' (45:6) places it in the second year of the famine, consistent with the chain in the earlier chapters.",
+   "ancient_year_marker": "These two years the famine has been in the land"
+  },
+  {
+   "event_id": "evt.gen_45.joseph_sends_word_to_jacob",
+   "title": "Joseph tells his brothers to fetch Jacob to Goshen",
+   "narrative_summary": "Joseph tells his brothers to hurry up to his father with his message, and to bring Jacob and all his household to live in Goshen near him, where Joseph will provide for them through the remaining five years of famine.",
+   "temporal_reasoning_note": "The same speech continues (the 'and now' of 45:9 follows on 45:8), minutes after the explanation, no gap."
+  },
+  {
+   "event_id": "evt.gen_45.joseph_embraces_brothers",
+   "title": "Joseph weeps on Benjamin's neck and kisses all his brothers",
+   "narrative_summary": "Joseph falls on Benjamin's neck and weeps, and Benjamin weeps too. He kisses all his brothers and weeps over them, and afterwards they talk with him.",
+   "temporal_reasoning_note": "Follows the speech ('and after that', 45:15), the same scene, so it starts when the speech ends; duration about 20 minutes."
+  },
+  {
+   "event_id": "evt.gen_45.pharaohs_house_hears",
+   "title": "Pharaoh's house hears that Joseph's brothers have come",
+   "narrative_summary": "The report goes through Pharaoh's house that Joseph's brothers have come, and it pleases Pharaoh and his servants.",
+   "temporal_reasoning_note": "The weeping (45:2) is heard, and the news follows: about half an hour after the room is cleared, margin 1 hour. Anchored on the weeping so the cause precedes the effect; it runs in parallel with the scene between Joseph and his brothers."
+  },
+  {
+   "event_id": "evt.gen_45.pharaoh_invites_jacobs_house",
+   "title": "Pharaoh tells Joseph to send for Jacob's household",
+   "narrative_summary": "Pharaoh tells Joseph to have his brothers load their animals, go to Canaan and bring their father and households to Egypt, where he will give them the good of the land. They are to take wagons for their children and wives and not to regret their goods.",
+   "temporal_reasoning_note": "Responds to the report in Pharaoh's house (45:16). I place it two hours after the report is heard, margin 2 hours, for the news to reach Pharaoh and a message to go back; the text gives no hour."
+  },
+  {
+   "event_id": "evt.gen_45.brothers_depart_with_provisions",
+   "title": "Joseph gives wagons, clothes and provisions and sends his brothers off",
+   "narrative_summary": "The sons of Israel do as Pharaoh said. Joseph gives them wagons and provisions for the way, a change of clothing each, and Benjamin three hundred silver pieces and five changes. He sends ten donkeys of Egypt's goods and ten she-donkeys of grain and food for his father, and tells his brothers not to quarrel on the way.",
+   "temporal_reasoning_note": "No gap is stated. Gathering wagons, clothing and loads for twenty donkeys takes time, so I start it one day after Pharaoh's command, margin 1 day. Lasts about four hours (the loading and farewell)."
+  },
+  {
+   "event_id": "evt.gen_45.brothers_travel_to_canaan",
+   "title": "The brothers go up from Egypt to Canaan",
+   "narrative_summary": "The brothers go up out of Egypt and come to their father Jacob in the land of Canaan.",
+   "temporal_reasoning_note": "`urim travel loc.egypt loc.canaan --mode hurry`: 481 km straight, about 602 km by road, 5 km/h, about 12 days elapsed. Joseph urged haste (45:9, 13). The wagons and pack animals may slow them, so the margin is 4 days."
+  },
+  {
+   "event_id": "evt.gen_45.brothers_tell_jacob",
+   "title": "The brothers tell Jacob that Joseph lives, and Jacob's spirit revives",
+   "narrative_summary": "They tell Jacob that Joseph is alive and ruler over all Egypt, and his heart goes numb because he does not believe them. When they repeat Joseph's words and he sees the wagons Joseph sent, the spirit of Jacob revives.",
+   "temporal_reasoning_note": "Begins on their arrival (45:25-26), so at the end of the journey; the telling and the sight of the wagons take about an hour."
+  },
+  {
+   "event_id": "evt.gen_45.jacob_resolves_to_go",
+   "title": "Israel resolves to go and see Joseph before he dies",
+   "narrative_summary": "Israel says 'It is enough; my son Joseph is still alive. I will go and see him before I die.'",
+   "temporal_reasoning_note": "Immediate response in the same scene (45:28), so it begins when the telling ends."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_44.judah_pleads.joseph_clears_room",
+   "causal_explanation": "Judah's offer to stay as a slave in Benjamin's place breaks Joseph's control, so that he cannot restrain himself (45:1)."
+  },
+  {
+   "causal_id": "caus.gen_45.brothers_depart_with_provisions.jacob_resolves_to_go",
+   "causal_explanation": "The sight of the wagons Joseph sent revives Jacob's spirit and moves him to decide to go (45:27-28)."
+  },
+  {
+   "causal_id": "caus.gen_45.joseph_clears_room.pharaohs_house_hears",
+   "causal_explanation": "Joseph's loud weeping is heard by the Egyptians and Pharaoh's house, and the news of his brothers' coming spreads there (45:2, 16)."
+  },
+  {
+   "causal_id": "caus.gen_45.joseph_sends_word_to_jacob.brothers_tell_jacob",
+   "causal_explanation": "The brothers carry out Joseph's charge and tell Jacob all the words Joseph had spoken to them (45:27)."
+  },
+  {
+   "causal_id": "caus.gen_45.pharaoh_invites_jacobs_house.brothers_depart_with_provisions",
+   "causal_explanation": "The brothers do as Pharaoh commanded, and Joseph gives wagons and provisions on Pharaoh's word (45:21)."
+  },
+  {
+   "causal_id": "caus.gen_45.pharaohs_house_hears.pharaoh_invites_jacobs_house",
+   "causal_explanation": "Pharaoh is pleased by the news that Joseph's brothers have come, and so tells Joseph to send for their father and households (45:16-18)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "artifact.wagons_from_pharaoh",
+   "canonical_name": "Wagons from Egypt",
+   "phonetic_name": "a-ga-LOT",
+   "aliases": [
+    "carts",
+    "wagons"
+   ],
+   "etymology_meaning": "Hebrew 'agalot', wheeled carts, probably ox-drawn.",
+   "summary_bio": "Carts that Pharaoh commands and Joseph supplies to carry the women, children and Jacob to Egypt. When Jacob sees them, he believes his sons' report and his spirit revives."
+  },
+  {
+   "entity_id": "group.attendants_of_joseph",
+   "canonical_name": "Joseph's attendants",
+   "phonetic_name": "han-nitz-tsa-VIM",
+   "aliases": [
+    "those standing by him"
+   ],
+   "etymology_meaning": "From the Hebrew 'those stationed', the officials standing in attendance.",
+   "summary_bio": "The Egyptian attendants who stand by Joseph while he receives his brothers. He orders them all out before he reveals himself, so that no outsider witnesses the scene."
+  },
+  {
+   "entity_id": "loc.goshen",
+   "canonical_name": "Goshen",
+   "phonetic_name": "Go-shen",
+   "aliases": [
+    "Land of Goshen"
+   ],
+   "etymology_meaning": "Meaning uncertain; possibly Egyptian in origin.",
+   "summary_bio": "A region in Egypt, in the eastern Nile Delta, which Joseph offers to his father's household as their place of settlement. Near Joseph, it suits their flocks and herds during the remaining years of famine."
+  },
+  {
+   "entity_id": "loc.pharaohs_house",
+   "canonical_name": "House of Pharaoh",
+   "phonetic_name": "Bet Par-oh",
+   "aliases": [
+    "Pharaoh's house",
+    "the royal household"
+   ],
+   "etymology_meaning": "Hebrew 'house of Pharaoh', meaning both the palace and the household.",
+   "summary_bio": "The royal court of Egypt, where Pharaoh and his servants hear that Joseph's brothers have come. From here Pharaoh issues his own invitation to Jacob's household."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.israel.mood.2",
+   "label_key": "Mood",
+   "label_value": "Heart numb, not believing",
+   "evidence_explanation": "GEN.45.26: his heart grew numb, for he did not believe them."
+  },
+  {
+   "component_id": "comp.israel.mood.3",
+   "label_key": "Mood",
+   "label_value": "Spirit revived",
+   "evidence_explanation": "GEN.45.27: seeing the wagons, the spirit of Jacob their father revived."
+  },
+  {
+   "component_id": "comp.israel.resolve.1",
+   "label_key": "Resolve",
+   "label_value": "Determined to go and see Joseph",
+   "evidence_explanation": "GEN.45.28: 'I will go and see him before I die.'"
+  },
+  {
+   "component_id": "comp.joseph.identity.2",
+   "label_key": "Identity",
+   "label_value": "Revealed to his brothers",
+   "evidence_explanation": "GEN.45.3: 'I am Joseph.'"
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.2",
+   "label_key": "Mood",
+   "label_value": "Terrified and unable to answer",
+   "evidence_explanation": "GEN.45.3: they could not answer him, for they were terrified before him."
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.3",
+   "label_key": "Mood",
+   "label_value": "Reconciled, speaking with Joseph",
+   "evidence_explanation": "GEN.45.15: after the kisses and weeping, his brothers spoke with him."
+  },
+  {
+   "component_id": "comp.pharaoh.attitude_to_brothers.1",
+   "label_key": "Attitude to Joseph's brothers",
+   "label_value": "Well pleased at their coming",
+   "evidence_explanation": "GEN.45.16: it was good in the eyes of Pharaoh and his servants."
+  },
+  {
+   "component_id": "comp.wagons_from_pharaoh.holder.1",
+   "label_key": "Holder",
+   "label_value": "Held by Joseph's brothers",
+   "evidence_explanation": "GEN.45.21: Joseph gave them wagons at Pharaoh's command."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_providence",
+   "name": "Divine providence",
+   "ancient_near_east_context": "Across the ancient Near East, gods were thought to steer the fortunes of kings and peoples; here a single God works through human acts, even wrong ones, toward a good end, and the person involved reads it afterwards.",
+   "rules_and_mechanics": [
+    "God sends a person ahead to prepare deliverance.",
+    "Human wrongdoing is not excused, but it is turned to preservation of life.",
+    "The purpose is stated in hindsight by the one sent."
+   ]
+  },
+  {
+   "system_id": "sys.provision_for_journey",
+   "name": "Provision for a journey",
+   "ancient_near_east_context": "Hosts equipped departing guests with transport, clothing and food; changes of garments were valued gifts.",
+   "rules_and_mechanics": [
+    "Transport is supplied for those who cannot walk.",
+    "Gifts of clothing and silver mark favour.",
+    "A parting charge is given to the travellers."
+   ]
+  },
+  {
+   "system_id": "sys.reconciliation_embrace",
+   "name": "Reconciliation embrace",
+   "ancient_near_east_context": "Weeping, embracing and kissing were the normal gestures of reunion and restored kinship among relatives in the region.",
+   "rules_and_mechanics": [
+    "The wronged party initiates the embrace.",
+    "Weeping on the neck marks deep kinship.",
+    "Speech follows only after the embrace."
+   ]
+  },
+  {
+   "system_id": "sys.royal_invitation",
+   "name": "Royal invitation to settle",
+   "ancient_near_east_context": "Rulers in the region granted land and rations to foreign groups, especially herders in times of famine; Egyptian records show Asiatic herders allowed into the eastern Delta.",
+   "rules_and_mechanics": [
+    "The ruler names the place of settlement.",
+    "Provision is promised for the duration of the famine.",
+    "The invitation is carried by kin of the host."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_45.brothers_embraced",
+   "outcome_summary": "Joseph and Benjamin weep on each other's necks, and Joseph kisses and weeps over all his brothers; only then do they speak with him.",
+   "significance_note": "It marks the restoration of the broken brotherhood."
+  },
+  {
+   "instance_id": "inst.gen_45.goshen_offered",
+   "outcome_summary": "Joseph invites his father, with his sons, grandsons and livestock, to settle in Goshen near him.",
+   "significance_note": "It begins the move of Jacob's family into Egypt."
+  },
+  {
+   "instance_id": "inst.gen_45.journey_provisioned",
+   "outcome_summary": "Joseph gives the brothers wagons, provisions and changes of clothing, gives Benjamin silver and extra garments, sends gifts to Jacob, and tells his brothers not to quarrel on the way.",
+   "significance_note": "The gifts and wagons are the proof that win Jacob's belief."
+  },
+  {
+   "instance_id": "inst.gen_45.pharaoh_invitation",
+   "outcome_summary": "Pharaoh tells Joseph to have his brothers load their animals, fetch their father and households, and take wagons from Egypt, with the promise of the good of the land.",
+   "significance_note": "The king's own backing makes the family's move legitimate and secure."
+  },
+  {
+   "instance_id": "inst.gen_45.providence_declared",
+   "outcome_summary": "Joseph tells his brothers that God, not they, sent him to Egypt to preserve life during the famine.",
+   "significance_note": "It reframes the sale of Joseph as part of God's plan and removes the grounds for the brothers' guilt and fear."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_45.brothers_tell_jacob",
+   "interaction_label": "tell",
+   "description": "The brothers tell Jacob that Joseph is alive and rules all Egypt, and relay all his words."
+  },
+  {
+   "edge_id": "edge.gen_45.god_sends_joseph",
+   "interaction_label": "sends",
+   "description": "According to Joseph, God sent him ahead of his family to preserve a remnant and save lives."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_embraces_benjamin",
+   "interaction_label": "embraces",
+   "description": "Joseph falls on Benjamin's neck and weeps, and Benjamin weeps on his."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_equips_brothers",
+   "interaction_label": "provides for",
+   "description": "Joseph gives his brothers wagons at Pharaoh's order and provisions for the way."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_gives_benjamin_silver",
+   "interaction_label": "gives silver to",
+   "description": "Joseph gives Benjamin three hundred pieces of silver and five changes of clothing."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_kisses_brothers",
+   "interaction_label": "kisses",
+   "description": "Joseph kisses all his brothers and weeps over them."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_orders_attendants_out",
+   "interaction_label": "commands out",
+   "description": "Joseph orders every attendant to leave so he can reveal himself to his brothers in private."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_reassures_brothers",
+   "interaction_label": "reassures",
+   "description": "Joseph tells his brothers not to be grieved or angry with themselves for having sold him."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_reveals_to_brothers",
+   "interaction_label": "reveals his identity to",
+   "description": "Joseph tells his brothers, 'I am Joseph.'"
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_sends_brothers_for_jacob",
+   "interaction_label": "commands to fetch Jacob",
+   "description": "Joseph tells his brothers to hurry up to his father and bring him down to Egypt."
+  },
+  {
+   "edge_id": "edge.gen_45.joseph_sends_gifts_to_jacob",
+   "interaction_label": "sends provisions to",
+   "description": "Joseph sends his father ten donkeys with Egypt's goods and ten female donkeys with grain and food."
+  },
+  {
+   "edge_id": "edge.gen_45.pharaoh_commands_joseph",
+   "interaction_label": "commands",
+   "description": "Pharaoh tells Joseph what to say to his brothers: fetch your father and households and come."
+  }
+ ]
+}

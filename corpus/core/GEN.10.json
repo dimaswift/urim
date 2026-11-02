@@ -1,0 +1,994 @@
+{
+ "chapter_ref": "GEN.10",
+ "entities": [
+  {
+   "entity_id": "group.anamim",
+   "tipnr_id": "Anamim@Gen.10.13-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "עֲנָמִים",
+   "transliterated_name": "ʿĂnāmîm",
+   "first_mention_verse": "GEN.10.13"
+  },
+  {
+   "entity_id": "group.arkites",
+   "tipnr_id": "Arkites@Gen.10.17-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "עַרְקִי",
+   "transliterated_name": "ʿArqî",
+   "first_mention_verse": "GEN.10.17"
+  },
+  {
+   "entity_id": "group.arvadites",
+   "tipnr_id": "Arvadites@Gen.10.18-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "אַרְוָדִי",
+   "transliterated_name": "ʾArwāḏî",
+   "first_mention_verse": "GEN.10.18"
+  },
+  {
+   "entity_id": "group.caphtorim",
+   "tipnr_id": "Caphtorim@Gen.10.14-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "כַּפְתֹּרִים",
+   "transliterated_name": "Kaptōrîm",
+   "first_mention_verse": "GEN.10.14"
+  },
+  {
+   "entity_id": "group.casluhim",
+   "tipnr_id": "Casluhim@Gen.10.14-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "כַּסְלֻחִים",
+   "transliterated_name": "Kasluḥîm",
+   "first_mention_verse": "GEN.10.14"
+  },
+  {
+   "entity_id": "group.dodanim",
+   "tipnr_id": "Dodanim@Gen.10.4-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "דֹּדָנִים",
+   "transliterated_name": "Dōḏānîm",
+   "first_mention_verse": "GEN.10.4"
+  },
+  {
+   "entity_id": "group.hamathites",
+   "tipnr_id": "Hamathites@Gen.10.18-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "חֲמָתִי",
+   "transliterated_name": "Ḥămāṯî",
+   "first_mention_verse": "GEN.10.18"
+  },
+  {
+   "entity_id": "group.hivites",
+   "tipnr_id": "Hivites@Gen.10.17-2Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "חִוִּי",
+   "transliterated_name": "Ḥiwwî",
+   "first_mention_verse": "GEN.10.17"
+  },
+  {
+   "entity_id": "group.kittim",
+   "tipnr_id": "Kittim@Gen.10.4-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "כִּתִּים",
+   "transliterated_name": "Kittîm",
+   "first_mention_verse": "GEN.10.4"
+  },
+  {
+   "entity_id": "group.lehabim",
+   "tipnr_id": "Lehabim@Gen.10.13-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "לְהָבִים",
+   "transliterated_name": "Ləhāḇîm",
+   "first_mention_verse": "GEN.10.13"
+  },
+  {
+   "entity_id": "group.ludim",
+   "tipnr_id": "Ludim@Gen.10.13-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "לוּדִים",
+   "transliterated_name": "Lûḏîm",
+   "first_mention_verse": "GEN.10.13"
+  },
+  {
+   "entity_id": "group.naphtuhim",
+   "tipnr_id": "Naphtuhim@Gen.10.13-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "נַפְתֻּחִים",
+   "transliterated_name": "Napṭuḥîm",
+   "first_mention_verse": "GEN.10.13"
+  },
+  {
+   "entity_id": "group.pathrusim",
+   "tipnr_id": "Pathrusim@Gen.10.14-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "פַּתְרֻסִים",
+   "transliterated_name": "Patrusîm",
+   "first_mention_verse": "GEN.10.14"
+  },
+  {
+   "entity_id": "group.sinites",
+   "tipnr_id": "Sinites@Gen.10.17-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "סִינִי",
+   "transliterated_name": "Sînî",
+   "first_mention_verse": "GEN.10.17"
+  },
+  {
+   "entity_id": "group.zemarites",
+   "tipnr_id": "Zemarites@Gen.10.18-1Ch",
+   "entity_type": "GROUP",
+   "source_script_name": "צְמָרִי",
+   "transliterated_name": "Ṣəmārî",
+   "first_mention_verse": "GEN.10.18"
+  },
+  {
+   "entity_id": "loc.accad",
+   "tipnr_id": "Accad@Gen.10.10",
+   "entity_type": "LOCATION",
+   "source_script_name": "אַכַּד",
+   "transliterated_name": "ʾAkkaḏ",
+   "first_mention_verse": "GEN.10.10"
+  },
+  {
+   "entity_id": "loc.calah",
+   "tipnr_id": "Calah@Gen.10.11-",
+   "entity_type": "LOCATION",
+   "source_script_name": "כָּלַח",
+   "transliterated_name": "Kālaḥ",
+   "first_mention_verse": "GEN.10.11"
+  },
+  {
+   "entity_id": "loc.calneh",
+   "tipnr_id": "Calneh@Gen.10.10-Amo",
+   "entity_type": "LOCATION",
+   "source_script_name": "כַּלְנֵה",
+   "transliterated_name": "Kalnēh",
+   "first_mention_verse": "GEN.10.10"
+  },
+  {
+   "entity_id": "loc.erech",
+   "tipnr_id": "Erech@Gen.10.10-Ezr",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֶרֶךְ",
+   "transliterated_name": "ʾEreḵ",
+   "first_mention_verse": "GEN.10.10"
+  },
+  {
+   "entity_id": "loc.gaza",
+   "tipnr_id": "Gaza@Gen.10.19-Act",
+   "entity_type": "LOCATION",
+   "source_script_name": "עַזָּה",
+   "transliterated_name": "ʿAzzāh",
+   "first_mention_verse": "GEN.10.19"
+  },
+  {
+   "entity_id": "loc.lasha",
+   "tipnr_id": "Lasha@Gen.10.19-Num",
+   "entity_type": "LOCATION",
+   "source_script_name": "לָשַׁע",
+   "transliterated_name": "Lāšaʿ",
+   "first_mention_verse": "GEN.10.19"
+  },
+  {
+   "entity_id": "loc.mesha",
+   "tipnr_id": "Mesha@Gen.10.30",
+   "entity_type": "LOCATION",
+   "source_script_name": "מֵשָׁא",
+   "transliterated_name": "Mēšāʾ",
+   "first_mention_verse": "GEN.10.30"
+  },
+  {
+   "entity_id": "loc.nineveh",
+   "tipnr_id": "Nineveh@Gen.10.11-Luk",
+   "entity_type": "LOCATION",
+   "source_script_name": "נִינְוֵה",
+   "transliterated_name": "Nînəwēh",
+   "first_mention_verse": "GEN.10.11"
+  },
+  {
+   "entity_id": "loc.resen",
+   "tipnr_id": "Resen@Gen.10.12",
+   "entity_type": "LOCATION",
+   "source_script_name": "רֶסֶן",
+   "transliterated_name": "Resen",
+   "first_mention_verse": "GEN.10.12"
+  },
+  {
+   "entity_id": "loc.sephar",
+   "tipnr_id": "Sephar@Gen.10.30",
+   "entity_type": "LOCATION",
+   "source_script_name": "סְפָר",
+   "transliterated_name": "Səp̄ār",
+   "first_mention_verse": "GEN.10.30"
+  },
+  {
+   "entity_id": "person.abimael",
+   "tipnr_id": "Abimael@Gen.10.28-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲבִימָאֵל",
+   "transliterated_name": "ʾĂḇîmāʾēl",
+   "first_mention_verse": "GEN.10.28"
+  },
+  {
+   "entity_id": "person.almodad",
+   "tipnr_id": "Almodad@Gen.10.26-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אַלְמוֹדָד",
+   "transliterated_name": "ʾAlmôḏāḏ",
+   "first_mention_verse": "GEN.10.26"
+  },
+  {
+   "entity_id": "person.aram",
+   "tipnr_id": "Aram@Gen.10.22-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲרָם",
+   "transliterated_name": "ʾĂrām",
+   "first_mention_verse": "GEN.10.22"
+  },
+  {
+   "entity_id": "person.arpachshad",
+   "tipnr_id": "Arpachshad@Gen.10.22-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "אַרְפַּכְשַׁד",
+   "transliterated_name": "ʾArpaḵšaḏ",
+   "first_mention_verse": "GEN.10.22"
+  },
+  {
+   "entity_id": "person.ashkenaz",
+   "tipnr_id": "Ashkenaz@Gen.10.3-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אַשְׁכֲּנַז",
+   "transliterated_name": "ʾAškənaz",
+   "first_mention_verse": "GEN.10.3"
+  },
+  {
+   "entity_id": "person.asshur",
+   "tipnr_id": "Asshur@Gen.10.22-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אַשּׁוּר",
+   "transliterated_name": "ʾAššûr",
+   "first_mention_verse": "GEN.10.11"
+  },
+  {
+   "entity_id": "person.cush",
+   "tipnr_id": "Cush@Gen.10.6-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "כּוּשׁ",
+   "transliterated_name": "Kûš",
+   "first_mention_verse": "GEN.10.6"
+  },
+  {
+   "entity_id": "person.dedan.gen_10_7",
+   "tipnr_id": "Dedan@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "דְּדָן",
+   "transliterated_name": "Dəḏān",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.diklah",
+   "tipnr_id": "Diklah@Gen.10.27-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "דִּקְלָה",
+   "transliterated_name": "Diqlāh",
+   "first_mention_verse": "GEN.10.27"
+  },
+  {
+   "entity_id": "person.eber",
+   "tipnr_id": "Eber@Gen.10.21-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "עֵבֶר",
+   "transliterated_name": "ʿĒḇer",
+   "first_mention_verse": "GEN.10.21"
+  },
+  {
+   "entity_id": "person.elam.gen_10_22",
+   "tipnr_id": "Elam@Gen.10.22-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "עֵילָם",
+   "transliterated_name": "ʿÊlām",
+   "first_mention_verse": "GEN.10.22"
+  },
+  {
+   "entity_id": "person.elishah",
+   "tipnr_id": "Elishah@Gen.10.4-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אֱלִישָׁה",
+   "transliterated_name": "ʾĔlîšāh",
+   "first_mention_verse": "GEN.10.4"
+  },
+  {
+   "entity_id": "person.gether",
+   "tipnr_id": "Gether@Gen.10.23-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "גֶּתֶר",
+   "transliterated_name": "Geṯer",
+   "first_mention_verse": "GEN.10.23"
+  },
+  {
+   "entity_id": "person.gomer",
+   "tipnr_id": "Gomer@Gen.10.2-Ezk",
+   "entity_type": "PERSON",
+   "source_script_name": "גֹּמֶר",
+   "transliterated_name": "Gōmer",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.hadoram",
+   "tipnr_id": "Hadoram@Gen.10.27-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "הֲדוֹרָם",
+   "transliterated_name": "Hădôrām",
+   "first_mention_verse": "GEN.10.27"
+  },
+  {
+   "entity_id": "person.havilah",
+   "tipnr_id": "Havilah@Gen.10.29-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲוִילָה",
+   "transliterated_name": "Ḥăwîlāh",
+   "first_mention_verse": "GEN.10.29"
+  },
+  {
+   "entity_id": "person.havilah.gen_10_7",
+   "tipnr_id": "Havilah@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲוִילָה",
+   "transliterated_name": "Ḥăwîlāh",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.hazarmaveth",
+   "tipnr_id": "Hazarmaveth@Gen.10.26-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲצַרְמָוֶת",
+   "transliterated_name": "Ḥăṣarmāweṯ",
+   "first_mention_verse": "GEN.10.26"
+  },
+  {
+   "entity_id": "person.hul",
+   "tipnr_id": "Hul@Gen.10.23-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "חוּל",
+   "transliterated_name": "Ḥûl",
+   "first_mention_verse": "GEN.10.23"
+  },
+  {
+   "entity_id": "person.javan",
+   "tipnr_id": "Javan@Gen.10.2-Col",
+   "entity_type": "PERSON",
+   "source_script_name": "יָוָן",
+   "transliterated_name": "Yāwān",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.jerah",
+   "tipnr_id": "Jerah@Gen.10.26-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יֶרַח",
+   "transliterated_name": "Yeraḥ",
+   "first_mention_verse": "GEN.10.26"
+  },
+  {
+   "entity_id": "person.jobab.gen_10_29",
+   "tipnr_id": "Jobab@Gen.10.29-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יוֹבָב",
+   "transliterated_name": "Yôḇāḇ",
+   "first_mention_verse": "GEN.10.29"
+  },
+  {
+   "entity_id": "person.joktan",
+   "tipnr_id": "Joktan@Gen.10.25-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יָקְטָן",
+   "transliterated_name": "Yoqṭān",
+   "first_mention_verse": "GEN.10.25"
+  },
+  {
+   "entity_id": "person.lud",
+   "tipnr_id": "Lud@Gen.10.22-Ezk",
+   "entity_type": "PERSON",
+   "source_script_name": "לוּד",
+   "transliterated_name": "Lûḏ",
+   "first_mention_verse": "GEN.10.22"
+  },
+  {
+   "entity_id": "person.madai",
+   "tipnr_id": "Madai@Gen.10.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מָדַי",
+   "transliterated_name": "Māday",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.magog",
+   "tipnr_id": "Magog@Gen.10.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מָגוֹג",
+   "transliterated_name": "Māgōg",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.mash",
+   "tipnr_id": "Mash@Gen.10.23-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מַשׁ",
+   "transliterated_name": "Maš",
+   "first_mention_verse": "GEN.10.23"
+  },
+  {
+   "entity_id": "person.meshech",
+   "tipnr_id": "Meshech@Gen.10.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מֶשֶׁךְ",
+   "transliterated_name": "Mešeḵ",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.mizraim",
+   "tipnr_id": "Egypt@Gen.10.6-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מִצְרַיִם",
+   "transliterated_name": "Miṣrayim",
+   "first_mention_verse": "GEN.10.6"
+  },
+  {
+   "entity_id": "person.nimrod",
+   "tipnr_id": "Nimrod@Gen.10.8-Mic",
+   "entity_type": "PERSON",
+   "source_script_name": "נִמְרֹד",
+   "transliterated_name": "Nimrōḏ",
+   "first_mention_verse": "GEN.10.8"
+  },
+  {
+   "entity_id": "person.obal",
+   "tipnr_id": "Obal@Gen.10.28-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "עוֹבָל",
+   "transliterated_name": "ʿÔḇāl",
+   "first_mention_verse": "GEN.10.28"
+  },
+  {
+   "entity_id": "person.ophir",
+   "tipnr_id": "Ophir@Gen.10.29-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אוֹפִר",
+   "transliterated_name": "ʾÔp̄îr",
+   "first_mention_verse": "GEN.10.29"
+  },
+  {
+   "entity_id": "person.peleg",
+   "tipnr_id": "Peleg@Gen.10.25-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "פֶּלֶג",
+   "transliterated_name": "Peleg",
+   "first_mention_verse": "GEN.10.25"
+  },
+  {
+   "entity_id": "person.put",
+   "tipnr_id": "Put@Gen.10.6-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "פּוּט",
+   "transliterated_name": "Pûṭ",
+   "first_mention_verse": "GEN.10.6"
+  },
+  {
+   "entity_id": "person.raamah",
+   "tipnr_id": "Raamah@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "רַעְמָה",
+   "transliterated_name": "Raʿmāh",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.riphath",
+   "tipnr_id": "Riphath@Gen.10.3-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "רִיפַת",
+   "transliterated_name": "Rîp̄aṯ",
+   "first_mention_verse": "GEN.10.3"
+  },
+  {
+   "entity_id": "person.sabtah",
+   "tipnr_id": "Sabtah@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "סַבְתָּה",
+   "transliterated_name": "Sabtāh",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.sabteca",
+   "tipnr_id": "Sabteca@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "סַבְתְּכָא",
+   "transliterated_name": "Sabtəkāʾ",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.seba",
+   "tipnr_id": "Seba@Gen.10.7-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "סְבָא",
+   "transliterated_name": "Səḇāʾ",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.sheba.gen_10_28",
+   "tipnr_id": "Sheba@Gen.10.28-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "שְׁבָא",
+   "transliterated_name": "Šəḇāʾ",
+   "first_mention_verse": "GEN.10.28"
+  },
+  {
+   "entity_id": "person.sheba.gen_10_7",
+   "tipnr_id": "Sheba@Gen.10.7-Jol",
+   "entity_type": "PERSON",
+   "source_script_name": "שְׁבָא",
+   "transliterated_name": "Šəḇāʾ",
+   "first_mention_verse": "GEN.10.7"
+  },
+  {
+   "entity_id": "person.shelah",
+   "tipnr_id": "Shelah@Gen.10.24-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "שֶׁלַח",
+   "transliterated_name": "Šelaḥ",
+   "first_mention_verse": "GEN.10.24"
+  },
+  {
+   "entity_id": "person.sheleph",
+   "tipnr_id": "Sheleph@Gen.10.26-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "שֶׁלֶף",
+   "transliterated_name": "Šelep̄",
+   "first_mention_verse": "GEN.10.26"
+  },
+  {
+   "entity_id": "person.sidon",
+   "tipnr_id": "Sidon@Gen.10.15-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "צִידֹן",
+   "transliterated_name": "Ṣîḏōn",
+   "first_mention_verse": "GEN.10.15"
+  },
+  {
+   "entity_id": "person.tarshish",
+   "tipnr_id": "Tarshish@Gen.10.4-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "תַּרְשִׁישׁ",
+   "transliterated_name": "Taršîš",
+   "first_mention_verse": "GEN.10.4"
+  },
+  {
+   "entity_id": "person.tiras",
+   "tipnr_id": "Tiras@Gen.10.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "תִּירָס",
+   "transliterated_name": "Tîrās",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.togarmah",
+   "tipnr_id": "Togarmah@Gen.10.3-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "תֹּגַרְמָה",
+   "transliterated_name": "Tōgarmāh",
+   "first_mention_verse": "GEN.10.3"
+  },
+  {
+   "entity_id": "person.tubal",
+   "tipnr_id": "Tubal@Gen.10.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "תֻּבָל",
+   "transliterated_name": "Tuḇāl",
+   "first_mention_verse": "GEN.10.2"
+  },
+  {
+   "entity_id": "person.uz",
+   "tipnr_id": "Uz@Gen.10.23-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "עוּץ",
+   "transliterated_name": "ʿÛṣ",
+   "first_mention_verse": "GEN.10.23"
+  },
+  {
+   "entity_id": "person.uzal",
+   "tipnr_id": "Uzal@Gen.10.27-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אוּזָל",
+   "transliterated_name": "ʾÛzāl",
+   "first_mention_verse": "GEN.10.27"
+  }
+ ],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_10.nimrod_mighty_hunter",
+   "verse_start": "GEN.10.8",
+   "verse_end": "GEN.10.9",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "offset": {
+     "value": 60.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 40.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.cush",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.nimrod",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_10.nimrod_kingdom",
+   "verse_start": "GEN.10.10",
+   "verse_end": "GEN.10.10",
+   "location_entity_id": "loc.babylon",
+   "time": {
+    "anchor": "evt.gen_10.nimrod_mighty_hunter",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.accad",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.babylon",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.calneh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.erech",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.nimrod",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_10.asshur_builds_cities",
+   "verse_start": "GEN.10.11",
+   "verse_end": "GEN.10.12",
+   "location_entity_id": "loc.assyria",
+   "time": {
+    "anchor": "evt.gen_10.nimrod_kingdom",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.assyria",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.calah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.nineveh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.resen",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.asshur",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_10.canaanite_clans_spread",
+   "verse_start": "GEN.10.18",
+   "verse_end": "GEN.10.19",
+   "location_entity_id": "loc.canaan",
+   "time": {
+    "anchor": "evt.gen_10.earth_divided",
+    "anchor_point": "START",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 50.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.amorites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.arkites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.arvadites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.canaanites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.girgashite",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.hamathites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.hivites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.jebusites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.sinites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.zemarites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.admah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gaza",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gerar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.lasha",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.sidon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.zeboiim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sidon",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_10.earth_divided",
+   "verse_start": "GEN.10.25",
+   "verse_end": "GEN.10.25",
+   "time": {
+    "anchor": "evt.gen_10.peleg_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 120.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 120.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.earth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.peleg",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_10.peleg_born",
+   "verse_start": "GEN.10.25",
+   "verse_end": "GEN.10.25",
+   "time": {
+    "anchor": "anchor.flood",
+    "anchor_point": "START",
+    "offset": {
+     "value": 101.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.eber",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joktan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.peleg",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [],
+ "components": [
+  {
+   "component_id": "comp.asshur.dwelling.1",
+   "entity_id": "person.asshur",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.assyria",
+   "acquired_at_verse": "GEN.10.11",
+   "acquired_in_event": "evt.gen_10.asshur_builds_cities"
+  },
+  {
+   "component_id": "comp.canaanites.territory.1",
+   "entity_id": "group.canaanites",
+   "category": "LOCATION_STATE",
+   "component_key": "territory",
+   "target_entity_id": "loc.canaan",
+   "acquired_at_verse": "GEN.10.19",
+   "acquired_in_event": "evt.gen_10.canaanite_clans_spread"
+  },
+  {
+   "component_id": "comp.nimrod.occupation.1",
+   "entity_id": "person.nimrod",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "MIGHTY_HUNTER",
+   "acquired_at_verse": "GEN.10.9",
+   "acquired_in_event": "evt.gen_10.nimrod_mighty_hunter"
+  },
+  {
+   "component_id": "comp.nimrod.office.1",
+   "entity_id": "person.nimrod",
+   "category": "ROLE_TITLE",
+   "component_key": "office",
+   "value_code": "KING",
+   "acquired_at_verse": "GEN.10.10",
+   "acquired_in_event": "evt.gen_10.nimrod_kingdom"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": [
+  {
+   "edge_id": "edge.gen_10.asshur_builds_calah",
+   "source_entity_id": "person.asshur",
+   "target_entity_id": "loc.calah",
+   "interaction_type": "BUILDS",
+   "verse_id": "GEN.10.11",
+   "event_id": "evt.gen_10.asshur_builds_cities"
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_nineveh",
+   "source_entity_id": "person.asshur",
+   "target_entity_id": "loc.nineveh",
+   "interaction_type": "BUILDS",
+   "verse_id": "GEN.10.11",
+   "event_id": "evt.gen_10.asshur_builds_cities"
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_resen",
+   "source_entity_id": "person.asshur",
+   "target_entity_id": "loc.resen",
+   "interaction_type": "BUILDS",
+   "verse_id": "GEN.10.12",
+   "event_id": "evt.gen_10.asshur_builds_cities"
+  },
+  {
+   "edge_id": "edge.gen_10.eber_fathers_peleg",
+   "source_entity_id": "person.eber",
+   "target_entity_id": "person.peleg",
+   "interaction_type": "BEGETS",
+   "verse_id": "GEN.10.25",
+   "event_id": "evt.gen_10.peleg_born"
+  },
+  {
+   "edge_id": "edge.gen_10.nimrod_rules_babel",
+   "source_entity_id": "person.nimrod",
+   "target_entity_id": "loc.babylon",
+   "interaction_type": "RULES",
+   "verse_id": "GEN.10.10",
+   "event_id": "evt.gen_10.nimrod_kingdom"
+  }
+ ]
+}

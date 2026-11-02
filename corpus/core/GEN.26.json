@@ -1,0 +1,1443 @@
+{
+ "chapter_ref": "GEN.26",
+ "entities": [
+  {
+   "entity_id": "group.herdsmen_of_gerar",
+   "entity_type": "GROUP",
+   "source_script_name": "רֹעֵי גְרָר",
+   "transliterated_name": "rōʿê Gĕrār",
+   "first_mention_verse": "GEN.26.20"
+  },
+  {
+   "entity_id": "group.herdsmen_of_isaac",
+   "entity_type": "GROUP",
+   "source_script_name": "רֹעֵי יִצְחָק",
+   "transliterated_name": "rōʿê Yiṣḥāq",
+   "first_mention_verse": "GEN.26.20"
+  },
+  {
+   "entity_id": "group.men_of_gerar",
+   "entity_type": "GROUP",
+   "source_script_name": "אַנְשֵׁי הַמָּקוֹם",
+   "transliterated_name": "ʾanšê hammāqôm",
+   "first_mention_verse": "GEN.26.7"
+  },
+  {
+   "entity_id": "group.people_of_abimelech",
+   "entity_type": "GROUP",
+   "source_script_name": "הָעָם",
+   "transliterated_name": "hāʿām",
+   "first_mention_verse": "GEN.26.10"
+  },
+  {
+   "entity_id": "group.philistines",
+   "entity_type": "GROUP",
+   "source_script_name": "פְּלִשְׁתִּים",
+   "transliterated_name": "Pĕlištîm",
+   "first_mention_verse": "GEN.26.1"
+  },
+  {
+   "entity_id": "group.servants_of_isaac",
+   "entity_type": "GROUP",
+   "source_script_name": "עַבְדֵי יִצְחָק",
+   "transliterated_name": "ʿabdê Yiṣḥāq",
+   "first_mention_verse": "GEN.26.14"
+  },
+  {
+   "entity_id": "loc.beersheba",
+   "tipnr_id": "Beersheba@Gen.21.14-Amo",
+   "entity_type": "LOCATION",
+   "source_script_name": "בְּאֵר שָׁבַע",
+   "transliterated_name": "Bĕʾēr Šebaʿ",
+   "first_mention_verse": "GEN.26.23"
+  },
+  {
+   "entity_id": "loc.esek",
+   "tipnr_id": "Esek@Gen.26.20",
+   "entity_type": "LOCATION",
+   "source_script_name": "עֵשֶׂק",
+   "transliterated_name": "ʿĒśeq",
+   "first_mention_verse": "GEN.26.20"
+  },
+  {
+   "entity_id": "loc.gerar",
+   "tipnr_id": "Gerar@Gen.10.19-2Ch",
+   "entity_type": "LOCATION",
+   "source_script_name": "גְּרָר",
+   "transliterated_name": "Gĕrār",
+   "first_mention_verse": "GEN.26.1"
+  },
+  {
+   "entity_id": "loc.philistia",
+   "tipnr_id": "Philistia@Gen.21.32-Zec",
+   "entity_type": "LOCATION",
+   "source_script_name": "פְּלִשְׁתִּים",
+   "transliterated_name": "Pĕlištîm",
+   "first_mention_verse": "GEN.26.1"
+  },
+  {
+   "entity_id": "loc.rehoboth.gen_26_22",
+   "tipnr_id": "Rehoboth@Gen.26.22",
+   "entity_type": "LOCATION",
+   "source_script_name": "רְחֹבוֹת",
+   "transliterated_name": "Rĕḥōbôt",
+   "first_mention_verse": "GEN.26.22"
+  },
+  {
+   "entity_id": "loc.sitnah",
+   "tipnr_id": "Sitnah@Gen.26.21",
+   "entity_type": "LOCATION",
+   "source_script_name": "שִׂטְנָה",
+   "transliterated_name": "Śiṭnâ",
+   "first_mention_verse": "GEN.26.21"
+  },
+  {
+   "entity_id": "loc.wadi_of_gerar",
+   "entity_type": "LOCATION",
+   "source_script_name": "נַחַל גְּרָר",
+   "transliterated_name": "Naḥal Gĕrār",
+   "first_mention_verse": "GEN.26.17"
+  },
+  {
+   "entity_id": "person.abimelech.gen_20_2",
+   "tipnr_id": "Abimelech@Gen.20.2-",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲבִימֶלֶךְ",
+   "transliterated_name": "ʾAbîmelek",
+   "first_mention_verse": "GEN.26.1"
+  },
+  {
+   "entity_id": "person.adah",
+   "tipnr_id": "Adah@Gen.26.34-",
+   "entity_type": "PERSON",
+   "source_script_name": "בָּשְׂמַת",
+   "transliterated_name": "Bāśmat",
+   "first_mention_verse": "GEN.26.34"
+  },
+  {
+   "entity_id": "person.ahuzzath",
+   "tipnr_id": "Ahuzzath@Gen.26.26",
+   "entity_type": "PERSON",
+   "source_script_name": "אֲחֻזַּת",
+   "transliterated_name": "ʾAḥuzzat",
+   "first_mention_verse": "GEN.26.26"
+  },
+  {
+   "entity_id": "person.beeri",
+   "tipnr_id": "Beeri@Gen.26.34",
+   "entity_type": "PERSON",
+   "source_script_name": "בְּאֵרִי",
+   "transliterated_name": "Bĕʾērî",
+   "first_mention_verse": "GEN.26.34"
+  },
+  {
+   "entity_id": "person.elon",
+   "tipnr_id": "Elon@Gen.26.34-",
+   "entity_type": "PERSON",
+   "source_script_name": "אֵילֹן",
+   "transliterated_name": "ʾÊlōn",
+   "first_mention_verse": "GEN.26.34"
+  },
+  {
+   "entity_id": "person.judith",
+   "tipnr_id": "Judith@Gen.26.34",
+   "entity_type": "PERSON",
+   "source_script_name": "יְהוּדִית",
+   "transliterated_name": "Yĕhûdît",
+   "first_mention_verse": "GEN.26.34"
+  },
+  {
+   "entity_id": "person.phicol",
+   "tipnr_id": "Phicol@Gen.21.22-",
+   "entity_type": "PERSON",
+   "source_script_name": "פִיכֹל",
+   "transliterated_name": "Pîkōl",
+   "first_mention_verse": "GEN.26.26"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.covenant_feast",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.royal_edict_of_protection",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.well_digging_water_rights",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_26.famine_to_gerar",
+   "verse_start": "GEN.26.1",
+   "verse_end": "GEN.26.1",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_25.birthright_sold",
+    "anchor_point": "END",
+    "offset": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.theophany_stay",
+   "verse_start": "GEN.26.2",
+   "verse_end": "GEN.26.5",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_26.famine_to_gerar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.sister_claim",
+   "verse_start": "GEN.26.6",
+   "verse_end": "GEN.26.7",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_26.theophany_stay",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_gerar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.abimelech_window",
+   "verse_start": "GEN.26.8",
+   "verse_end": "GEN.26.11",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_26.sister_claim",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.people_of_abimelech",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.sowing_hundredfold",
+   "verse_start": "GEN.26.12",
+   "verse_end": "GEN.26.12",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_26.abimelech_window",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "SEASONAL_MONTH"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.prosperity_envy",
+   "verse_start": "GEN.26.13",
+   "verse_end": "GEN.26.15",
+   "location_entity_id": "loc.gerar",
+   "time": {
+    "anchor": "evt.gen_26.sowing_hundredfold",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.philistines",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.sent_away",
+   "verse_start": "GEN.26.16",
+   "verse_end": "GEN.26.17",
+   "location_entity_id": "loc.wadi_of_gerar",
+   "time": {
+    "anchor": "evt.gen_26.prosperity_envy",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.wells_esek",
+   "verse_start": "GEN.26.18",
+   "verse_end": "GEN.26.20",
+   "location_entity_id": "loc.wadi_of_gerar",
+   "time": {
+    "anchor": "evt.gen_26.sent_away",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.herdsmen_of_gerar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.herdsmen_of_isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.philistines",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.esek",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.well_sitnah",
+   "verse_start": "GEN.26.21",
+   "verse_end": "GEN.26.21",
+   "location_entity_id": "loc.sitnah",
+   "time": {
+    "anchor": "evt.gen_26.wells_esek",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "group.herdsmen_of_gerar",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.well_rehoboth",
+   "verse_start": "GEN.26.22",
+   "verse_end": "GEN.26.22",
+   "location_entity_id": "loc.rehoboth.gen_26_22",
+   "time": {
+    "anchor": "evt.gen_26.well_sitnah",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.move_to_beersheba",
+   "verse_start": "GEN.26.23",
+   "verse_end": "GEN.26.23",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.well_rehoboth",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.beersheba_vision",
+   "verse_start": "GEN.26.24",
+   "verse_end": "GEN.26.24",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.move_to_beersheba",
+    "anchor_point": "END",
+    "time_of_day": "00:00",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.altar_well_beersheba",
+   "verse_start": "GEN.26.25",
+   "verse_end": "GEN.26.25",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.beersheba_vision",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.servants_dig_well",
+   "verse_start": "GEN.26.25",
+   "verse_end": "GEN.26.25",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.altar_well_beersheba",
+    "anchor_point": "START",
+    "duration": {
+     "value": 18.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.abimelech_covenant",
+   "verse_start": "GEN.26.26",
+   "verse_end": "GEN.26.30",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.altar_well_beersheba",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "time_of_day": "TZOHORAYIM",
+    "duration": {
+     "value": 8.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ahuzzath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.phicol",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.oath_departure",
+   "verse_start": "GEN.26.31",
+   "verse_end": "GEN.26.31",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.abimelech_covenant",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abimelech.gen_20_2",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ahuzzath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.phicol",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.well_found_shibah",
+   "verse_start": "GEN.26.32",
+   "verse_end": "GEN.26.33",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_26.oath_departure",
+    "anchor_point": "START",
+    "offset": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.servants_of_isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_26.esau_marries",
+   "verse_start": "GEN.26.34",
+   "verse_end": "GEN.26.35",
+   "time": {
+    "anchor": "evt.gen_25.twins_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 40.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.beeri",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.elon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judith",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_26.famine_to_gerar.theophany_stay",
+   "cause_event_id": "evt.gen_26.famine_to_gerar",
+   "effect_event_id": "evt.gen_26.theophany_stay",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_26.prosperity_envy.sent_away",
+   "cause_event_id": "evt.gen_26.prosperity_envy",
+   "effect_event_id": "evt.gen_26.sent_away",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_26.servants_dig_well.well_found_shibah",
+   "cause_event_id": "evt.gen_26.servants_dig_well",
+   "effect_event_id": "evt.gen_26.well_found_shibah",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_26.sister_claim.abimelech_window",
+   "cause_event_id": "evt.gen_26.sister_claim",
+   "effect_event_id": "evt.gen_26.abimelech_window",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_26.sowing_hundredfold.abimelech_covenant",
+   "cause_event_id": "evt.gen_26.sowing_hundredfold",
+   "effect_event_id": "evt.gen_26.abimelech_covenant",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_26.sowing_hundredfold.prosperity_envy",
+   "cause_event_id": "evt.gen_26.sowing_hundredfold",
+   "effect_event_id": "evt.gen_26.prosperity_envy",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_26.theophany_stay.sister_claim",
+   "cause_event_id": "evt.gen_26.theophany_stay",
+   "effect_event_id": "evt.gen_26.sister_claim",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_26.theophany_stay.sowing_hundredfold",
+   "cause_event_id": "evt.gen_26.theophany_stay",
+   "effect_event_id": "evt.gen_26.sowing_hundredfold",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_26.well_sitnah.well_rehoboth",
+   "cause_event_id": "evt.gen_26.well_sitnah",
+   "effect_event_id": "evt.gen_26.well_rehoboth",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_26.wells_esek.well_sitnah",
+   "cause_event_id": "evt.gen_26.wells_esek",
+   "effect_event_id": "evt.gen_26.well_sitnah",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.esau.wife_basemath.1",
+   "entity_id": "person.esau",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_basemath",
+   "target_entity_id": "person.adah",
+   "acquired_at_verse": "GEN.26.34",
+   "acquired_in_event": "evt.gen_26.esau_marries"
+  },
+  {
+   "component_id": "comp.esau.wife_judith.1",
+   "entity_id": "person.esau",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_judith",
+   "target_entity_id": "person.judith",
+   "acquired_at_verse": "GEN.26.34",
+   "acquired_in_event": "evt.gen_26.esau_marries"
+  },
+  {
+   "component_id": "comp.isaac.covenant_promise.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "covenant_promise",
+   "value_code": "LAND_AND_SEED_PROMISED",
+   "acquired_at_verse": "GEN.26.3",
+   "acquired_in_event": "evt.gen_26.theophany_stay"
+  },
+  {
+   "component_id": "comp.isaac.divine_presence.1",
+   "entity_id": "person.isaac",
+   "category": "ALLEGIANCE",
+   "component_key": "divine_presence",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.26.3",
+   "acquired_in_event": "evt.gen_26.theophany_stay"
+  },
+  {
+   "component_id": "comp.isaac.dwelling.2",
+   "entity_id": "person.isaac",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.gerar",
+   "supersedes_component_id": "comp.isaac.dwelling.1",
+   "acquired_at_verse": "GEN.26.6",
+   "acquired_in_event": "evt.gen_26.sister_claim",
+   "expired_at_verse": "GEN.26.17",
+   "expired_in_event": "evt.gen_26.sent_away"
+  },
+  {
+   "component_id": "comp.isaac.dwelling.3",
+   "entity_id": "person.isaac",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.wadi_of_gerar",
+   "supersedes_component_id": "comp.isaac.dwelling.2",
+   "acquired_at_verse": "GEN.26.17",
+   "acquired_in_event": "evt.gen_26.sent_away",
+   "expired_at_verse": "GEN.26.22",
+   "expired_in_event": "evt.gen_26.well_rehoboth"
+  },
+  {
+   "component_id": "comp.isaac.dwelling.4",
+   "entity_id": "person.isaac",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.beersheba",
+   "supersedes_component_id": "comp.isaac.dwelling.5",
+   "acquired_at_verse": "GEN.26.23",
+   "acquired_in_event": "evt.gen_26.move_to_beersheba"
+  },
+  {
+   "component_id": "comp.isaac.dwelling.5",
+   "entity_id": "person.isaac",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.rehoboth.gen_26_22",
+   "supersedes_component_id": "comp.isaac.dwelling.3",
+   "acquired_at_verse": "GEN.26.22",
+   "acquired_in_event": "evt.gen_26.well_rehoboth",
+   "expired_at_verse": "GEN.26.23",
+   "expired_in_event": "evt.gen_26.move_to_beersheba"
+  },
+  {
+   "component_id": "comp.isaac.fear.1",
+   "entity_id": "person.isaac",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "AFRAID_FOR_HIS_LIFE",
+   "acquired_at_verse": "GEN.26.7",
+   "acquired_in_event": "evt.gen_26.sister_claim",
+   "expired_at_verse": "GEN.26.11",
+   "expired_in_event": "evt.gen_26.abimelech_window"
+  },
+  {
+   "component_id": "comp.isaac.grief.1",
+   "entity_id": "person.isaac",
+   "category": "PSYCH_STATE",
+   "component_key": "grief",
+   "value_code": "BITTERNESS_OF_SPIRIT",
+   "acquired_at_verse": "GEN.26.35",
+   "acquired_in_event": "evt.gen_26.esau_marries"
+  },
+  {
+   "component_id": "comp.isaac.wealth.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "wealth",
+   "value_code": "VERY_GREAT_FLOCKS_HERDS_SERVANTS",
+   "acquired_at_verse": "GEN.26.13",
+   "acquired_in_event": "evt.gen_26.prosperity_envy"
+  },
+  {
+   "component_id": "comp.philistines.attitude.1",
+   "entity_id": "group.philistines",
+   "category": "PSYCH_STATE",
+   "component_key": "attitude",
+   "value_code": "ENVY",
+   "acquired_at_verse": "GEN.26.14",
+   "acquired_in_event": "evt.gen_26.prosperity_envy",
+   "expired_at_verse": "GEN.26.28",
+   "expired_in_event": "evt.gen_26.abimelech_covenant"
+  },
+  {
+   "component_id": "comp.rebekah.claimed_relation.1",
+   "entity_id": "person.rebekah",
+   "category": "ROLE_TITLE",
+   "component_key": "claimed_relation",
+   "value_code": "SISTER",
+   "acquired_at_verse": "GEN.26.7",
+   "acquired_in_event": "evt.gen_26.sister_claim",
+   "expired_at_verse": "GEN.26.9",
+   "expired_in_event": "evt.gen_26.abimelech_window"
+  },
+  {
+   "component_id": "comp.rebekah.grief.1",
+   "entity_id": "person.rebekah",
+   "category": "PSYCH_STATE",
+   "component_key": "grief",
+   "value_code": "BITTERNESS_OF_SPIRIT",
+   "acquired_at_verse": "GEN.26.35",
+   "acquired_in_event": "evt.gen_26.esau_marries"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.isaac.dwelling.1",
+   "expired_at_verse": "GEN.26.6",
+   "expired_in_event": "evt.gen_26.sister_claim"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_26.altar_beersheba",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_26.altar_well_beersheba",
+   "verse_start": "GEN.26.25",
+   "verse_end": "GEN.26.25",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "altar"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.covenant_feast",
+   "system_id": "sys.covenant_feast",
+   "event_id": "evt.gen_26.abimelech_covenant",
+   "verse_start": "GEN.26.30",
+   "verse_end": "GEN.26.30",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.abimelech.gen_20_2",
+    "person.ahuzzath",
+    "person.phicol"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "feast",
+    "treaty"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.edict_of_protection",
+   "system_id": "sys.royal_edict_of_protection",
+   "event_id": "evt.gen_26.abimelech_window",
+   "verse_start": "GEN.26.11",
+   "verse_end": "GEN.26.11",
+   "initiator_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_ids": [
+    "group.people_of_abimelech"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "death_penalty",
+    "protection"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.hundredfold_blessing",
+   "system_id": "sys.divine_blessing_prosperity",
+   "event_id": "evt.gen_26.sowing_hundredfold",
+   "verse_start": "GEN.26.12",
+   "verse_end": "GEN.26.12",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "harvest",
+    "famine_year"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.invoking_name_beersheba",
+   "system_id": "sys.invoking_the_name",
+   "event_id": "evt.gen_26.altar_well_beersheba",
+   "verse_start": "GEN.26.25",
+   "verse_end": "GEN.26.25",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "worship"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.oath_of_peace",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_26.oath_departure",
+   "verse_start": "GEN.26.31",
+   "verse_end": "GEN.26.31",
+   "initiator_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "mutual_oath",
+    "peace"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.promise_renewed",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_26.theophany_stay",
+   "verse_start": "GEN.26.3",
+   "verse_end": "GEN.26.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "land",
+    "seed",
+    "nations_blessed",
+    "oath_to_abraham"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.sister_claim",
+   "system_id": "sys.wife_passed_as_sister",
+   "event_id": "evt.gen_26.sister_claim",
+   "verse_start": "GEN.26.7",
+   "verse_end": "GEN.26.7",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.rebekah",
+    "group.men_of_gerar"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "deception",
+    "fear"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.theophany_beersheba",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_26.beersheba_vision",
+   "verse_start": "GEN.26.24",
+   "verse_end": "GEN.26.24",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "night",
+    "reassurance"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.theophany_gerar",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_26.theophany_stay",
+   "verse_start": "GEN.26.2",
+   "verse_end": "GEN.26.2",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gerar",
+   "tags": [
+    "appearance",
+    "command"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.well_beersheba",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_26.servants_dig_well",
+   "verse_start": "GEN.26.25",
+   "verse_end": "GEN.26.25",
+   "initiator_entity_id": "group.servants_of_isaac",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "new_well"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.well_esek",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_26.wells_esek",
+   "verse_start": "GEN.26.18",
+   "verse_end": "GEN.26.20",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "group.herdsmen_of_gerar"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.wadi_of_gerar",
+   "tags": [
+    "redigging",
+    "dispute",
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.well_rehoboth",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_26.well_rehoboth",
+   "verse_start": "GEN.26.22",
+   "verse_end": "GEN.26.22",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.rehoboth.gen_26_22",
+   "tags": [
+    "undisputed",
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.well_shibah",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_26.well_found_shibah",
+   "verse_start": "GEN.26.32",
+   "verse_end": "GEN.26.33",
+   "initiator_entity_id": "group.servants_of_isaac",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "water_found",
+    "naming",
+    "oath_etiology"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_26.well_sitnah",
+   "system_id": "sys.well_digging_water_rights",
+   "event_id": "evt.gen_26.well_sitnah",
+   "verse_start": "GEN.26.21",
+   "verse_end": "GEN.26.21",
+   "initiator_entity_id": "group.servants_of_isaac",
+   "target_entity_ids": [
+    "group.herdsmen_of_gerar"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.sitnah",
+   "tags": [
+    "dispute",
+    "naming"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_26.abimelech_expels_isaac",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "EXPELS",
+   "verse_id": "GEN.26.16",
+   "event_id": "evt.gen_26.sent_away"
+  },
+  {
+   "edge_id": "edge.gen_26.abimelech_proposes_covenant",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "PROPOSES_COVENANT_TO",
+   "verse_id": "GEN.26.28",
+   "event_id": "evt.gen_26.abimelech_covenant"
+  },
+  {
+   "edge_id": "edge.gen_26.abimelech_protects_isaac",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "PROTECTS",
+   "verse_id": "GEN.26.11",
+   "event_id": "evt.gen_26.abimelech_window"
+  },
+  {
+   "edge_id": "edge.gen_26.abimelech_rebukes_isaac",
+   "source_entity_id": "person.abimelech.gen_20_2",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.26.10",
+   "event_id": "evt.gen_26.abimelech_window"
+  },
+  {
+   "edge_id": "edge.gen_26.esau_marries_basemath",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.adah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.26.34",
+   "event_id": "evt.gen_26.esau_marries"
+  },
+  {
+   "edge_id": "edge.gen_26.esau_marries_judith",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.judith",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.26.34",
+   "event_id": "evt.gen_26.esau_marries"
+  },
+  {
+   "edge_id": "edge.gen_26.herdsmen_of_gerar_quarrel_esek",
+   "source_entity_id": "group.herdsmen_of_gerar",
+   "target_entity_id": "group.herdsmen_of_isaac",
+   "interaction_type": "QUARRELS_WITH",
+   "verse_id": "GEN.26.20",
+   "event_id": "evt.gen_26.wells_esek"
+  },
+  {
+   "edge_id": "edge.gen_26.herdsmen_of_gerar_quarrel_sitnah",
+   "source_entity_id": "group.herdsmen_of_gerar",
+   "target_entity_id": "group.servants_of_isaac",
+   "interaction_type": "QUARRELS_WITH",
+   "verse_id": "GEN.26.21",
+   "event_id": "evt.gen_26.well_sitnah"
+  },
+  {
+   "edge_id": "edge.gen_26.isaac_deceives_men_of_gerar",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "group.men_of_gerar",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.26.7",
+   "event_id": "evt.gen_26.sister_claim"
+  },
+  {
+   "edge_id": "edge.gen_26.isaac_feasts_abimelech",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "FEASTS",
+   "verse_id": "GEN.26.30",
+   "event_id": "evt.gen_26.abimelech_covenant"
+  },
+  {
+   "edge_id": "edge.gen_26.isaac_swears_abimelech",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.abimelech.gen_20_2",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.26.31",
+   "event_id": "evt.gen_26.oath_departure"
+  },
+  {
+   "edge_id": "edge.gen_26.philistines_envy_isaac",
+   "source_entity_id": "group.philistines",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "ENVIES",
+   "verse_id": "GEN.26.14",
+   "event_id": "evt.gen_26.prosperity_envy"
+  },
+  {
+   "edge_id": "edge.gen_26.yhwh_blesses_isaac",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.26.12",
+   "event_id": "evt.gen_26.sowing_hundredfold"
+  },
+  {
+   "edge_id": "edge.gen_26.yhwh_commands_isaac_stay",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.26.2",
+   "event_id": "evt.gen_26.theophany_stay"
+  },
+  {
+   "edge_id": "edge.gen_26.yhwh_promises_isaac",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.26.3",
+   "event_id": "evt.gen_26.theophany_stay"
+  },
+  {
+   "edge_id": "edge.gen_26.yhwh_reassures_isaac",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "REASSURES",
+   "verse_id": "GEN.26.24",
+   "event_id": "evt.gen_26.beersheba_vision"
+  }
+ ]
+}

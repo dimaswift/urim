@@ -1,0 +1,999 @@
+{
+ "chapter_ref": "GEN.47",
+ "entities": [
+  {
+   "entity_id": "group.five_brothers_of_joseph",
+   "entity_type": "GROUP",
+   "source_script_name": "חֲמִשָּׁה אֲנָשִׁים",
+   "transliterated_name": "ḥămiššâ ʾănāšîm",
+   "first_mention_verse": "GEN.47.2"
+  },
+  {
+   "entity_id": "group.priests_of_egypt",
+   "entity_type": "GROUP",
+   "source_script_name": "כֹּהֲנִים",
+   "transliterated_name": "kōhănîm",
+   "first_mention_verse": "GEN.47.22"
+  },
+  {
+   "entity_id": "loc.rameses",
+   "tipnr_id": "Rameses@Gen.47.11-Num",
+   "entity_type": "LOCATION",
+   "source_script_name": "רַעְמְסֵס",
+   "transliterated_name": "Raʿamsēs",
+   "first_mention_verse": "GEN.47.11"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blessing_of_ruler",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.land_purchase_for_crown",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.royal_tax_fifth",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_47.joseph_reports_to_pharaoh",
+   "verse_start": "GEN.47.1",
+   "verse_end": "GEN.47.1",
+   "location_entity_id": "loc.pharaohs_house",
+   "time": {
+    "anchor": "evt.gen_46.joseph_instructs_brothers",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.goshen",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.brothers_before_pharaoh",
+   "verse_start": "GEN.47.2",
+   "verse_end": "GEN.47.4",
+   "location_entity_id": "loc.pharaohs_house",
+   "time": {
+    "anchor": "evt.gen_47.joseph_reports_to_pharaoh",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.five_brothers_of_joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.goshen",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.pharaoh_grants_goshen",
+   "verse_start": "GEN.47.5",
+   "verse_end": "GEN.47.6",
+   "location_entity_id": "loc.pharaohs_house",
+   "time": {
+    "anchor": "evt.gen_47.brothers_before_pharaoh",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.goshen",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.jacob_blesses_pharaoh",
+   "verse_start": "GEN.47.7",
+   "verse_end": "GEN.47.10",
+   "location_entity_id": "loc.pharaohs_house",
+   "time": {
+    "anchor": "evt.gen_47.pharaoh_grants_goshen",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.joseph_settles_family",
+   "verse_start": "GEN.47.11",
+   "verse_end": "GEN.47.11",
+   "location_entity_id": "loc.rameses",
+   "time": {
+    "anchor": "evt.gen_47.jacob_blesses_pharaoh",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "weeks"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.joseph_feeds_family",
+   "verse_start": "GEN.47.12",
+   "verse_end": "GEN.47.12",
+   "location_entity_id": "loc.rameses",
+   "time": {
+    "anchor": "evt.gen_47.joseph_settles_family",
+    "anchor_point": "START",
+    "duration": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.joseph_gathers_money",
+   "verse_start": "GEN.47.13",
+   "verse_end": "GEN.47.14",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_41.famine_begins",
+    "anchor_point": "START",
+    "duration": {
+     "value": 4.7,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.canaanites",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.egyptians",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.cattle_for_bread",
+   "verse_start": "GEN.47.15",
+   "verse_end": "GEN.47.17",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_47.joseph_settles_family",
+    "anchor_point": "START",
+    "offset": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.egyptians_sell_land",
+   "parent_event_id": "evt.gen_47.land_sale_second_year",
+   "verse_start": "GEN.47.18",
+   "verse_end": "GEN.47.20",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_47.land_sale_second_year",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.land_sale_second_year",
+   "verse_start": "GEN.47.18",
+   "verse_end": "GEN.47.26",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_47.cattle_for_bread",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.priests_of_egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.people_moved_to_cities",
+   "parent_event_id": "evt.gen_47.land_sale_second_year",
+   "verse_start": "GEN.47.21",
+   "verse_end": "GEN.47.21",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_47.egyptians_sell_land",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.joseph_decrees_fifth",
+   "parent_event_id": "evt.gen_47.land_sale_second_year",
+   "verse_start": "GEN.47.22",
+   "verse_end": "GEN.47.26",
+   "location_entity_id": "loc.egypt",
+   "time": {
+    "anchor": "evt.gen_47.egyptians_sell_land",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.priests_of_egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.israel_prospers_in_goshen",
+   "verse_start": "GEN.47.27",
+   "verse_end": "GEN.47.28",
+   "location_entity_id": "loc.goshen",
+   "time": {
+    "anchor": "evt.gen_46.joseph_meets_israel",
+    "anchor_point": "START",
+    "duration": {
+     "value": 17.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear",
+   "verse_start": "GEN.47.29",
+   "verse_end": "GEN.47.31",
+   "location_entity_id": "loc.goshen",
+   "time": {
+    "anchor": "evt.gen_47.israel_prospers_in_goshen",
+    "anchor_point": "START",
+    "offset": {
+     "value": 16.5,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_46.joseph_instructs_brothers.pharaoh_grants_goshen",
+   "cause_event_id": "evt.gen_46.joseph_instructs_brothers",
+   "effect_event_id": "evt.gen_47.pharaoh_grants_goshen",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_46.vision_at_beersheba.israel_prospers_in_goshen",
+   "cause_event_id": "evt.gen_46.vision_at_beersheba",
+   "effect_event_id": "evt.gen_47.israel_prospers_in_goshen",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_47.cattle_for_bread.egyptians_sell_land",
+   "cause_event_id": "evt.gen_47.cattle_for_bread",
+   "effect_event_id": "evt.gen_47.egyptians_sell_land",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_47.egyptians_sell_land.joseph_decrees_fifth",
+   "cause_event_id": "evt.gen_47.egyptians_sell_land",
+   "effect_event_id": "evt.gen_47.joseph_decrees_fifth",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_47.joseph_gathers_money.cattle_for_bread",
+   "cause_event_id": "evt.gen_47.joseph_gathers_money",
+   "effect_event_id": "evt.gen_47.cattle_for_bread",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_47.pharaoh_grants_goshen.joseph_settles_family",
+   "cause_event_id": "evt.gen_47.pharaoh_grants_goshen",
+   "effect_event_id": "evt.gen_47.joseph_settles_family",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.egyptians.servitude.1",
+   "entity_id": "group.egyptians",
+   "category": "ALLEGIANCE",
+   "component_key": "servitude",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "acquired_at_verse": "GEN.47.23",
+   "acquired_in_event": "evt.gen_47.joseph_decrees_fifth"
+  },
+  {
+   "component_id": "comp.israel.life.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "NEAR_DEATH",
+   "acquired_at_verse": "GEN.47.29",
+   "acquired_in_event": "evt.gen_47.jacob_makes_joseph_swear"
+  },
+  {
+   "component_id": "comp.jacobs_family.holdings.1",
+   "entity_id": "group.jacobs_family",
+   "category": "POSSESSION",
+   "component_key": "holdings",
+   "target_entity_id": "loc.rameses",
+   "acquired_at_verse": "GEN.47.11",
+   "acquired_in_event": "evt.gen_47.joseph_settles_family"
+  },
+  {
+   "component_id": "comp.jacobs_family.population.1",
+   "entity_id": "group.jacobs_family",
+   "category": "TRAIT",
+   "component_key": "population",
+   "value_code": "FRUITFUL_AND_MULTIPLYING",
+   "acquired_at_verse": "GEN.47.27",
+   "acquired_in_event": "evt.gen_47.israel_prospers_in_goshen"
+  },
+  {
+   "component_id": "comp.joseph.burial_oath.1",
+   "entity_id": "person.joseph",
+   "category": "TRAIT",
+   "component_key": "burial_oath",
+   "value_code": "SWORN_TO_BURY_ISRAEL_IN_CANAAN",
+   "acquired_at_verse": "GEN.47.31",
+   "acquired_in_event": "evt.gen_47.jacob_makes_joseph_swear"
+  },
+  {
+   "component_id": "comp.pharaoh.land_of_egypt.1",
+   "entity_id": "person.pharaoh.gen_37_36",
+   "category": "POSSESSION",
+   "component_key": "land_of_egypt",
+   "value_code": "ALL_LAND_EXCEPT_PRIESTS",
+   "acquired_at_verse": "GEN.47.20",
+   "acquired_in_event": "evt.gen_47.egyptians_sell_land"
+  },
+  {
+   "component_id": "comp.priests_of_egypt.land_tenure.1",
+   "entity_id": "group.priests_of_egypt",
+   "category": "TRAIT",
+   "component_key": "land_tenure",
+   "value_code": "LAND_RETAINED",
+   "acquired_at_verse": "GEN.47.22",
+   "acquired_in_event": "evt.gen_47.joseph_decrees_fifth"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_47.burial_requested",
+   "system_id": "sys.burial_in_family_tomb",
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear",
+   "verse_start": "GEN.47.29",
+   "verse_end": "GEN.47.30",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "with_the_fathers",
+    "not_in_egypt"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.cattle_for_bread",
+   "system_id": "sys.famine_grain_sale",
+   "event_id": "evt.gen_47.cattle_for_bread",
+   "verse_start": "GEN.47.16",
+   "verse_end": "GEN.47.17",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.egyptians"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "barter",
+    "livestock"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.fifth_decreed",
+   "system_id": "sys.royal_tax_fifth",
+   "event_id": "evt.gen_47.joseph_decrees_fifth",
+   "verse_start": "GEN.47.24",
+   "verse_end": "GEN.47.26",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.egyptians"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "statute",
+    "harvest",
+    "priests_exempt"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.grain_money_gathered",
+   "system_id": "sys.famine_grain_sale",
+   "event_id": "evt.gen_47.joseph_gathers_money",
+   "verse_start": "GEN.47.14",
+   "verse_end": "GEN.47.14",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.egyptians"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "silver",
+    "egypt_and_canaan",
+    "to_pharaohs_house"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.land_bought",
+   "system_id": "sys.land_purchase_for_crown",
+   "event_id": "evt.gen_47.egyptians_sell_land",
+   "verse_start": "GEN.47.19",
+   "verse_end": "GEN.47.20",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.egyptians",
+    "person.pharaoh.gen_37_36"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "land",
+    "famine",
+    "self_servitude"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.oath_to_bury",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear",
+   "verse_start": "GEN.47.29",
+   "verse_end": "GEN.47.31",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "hand_under_thigh",
+    "deathbed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.pharaoh_blessed",
+   "system_id": "sys.blessing_of_ruler",
+   "event_id": "evt.gen_47.jacob_blesses_pharaoh",
+   "verse_start": "GEN.47.7",
+   "verse_end": "GEN.47.10",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.pharaoh.gen_37_36"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.pharaohs_house",
+   "tags": [
+    "audience",
+    "greeting_and_farewell"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_47.settlement_offered",
+   "system_id": "sys.royal_invitation",
+   "event_id": "evt.gen_47.pharaoh_grants_goshen",
+   "verse_start": "GEN.47.5",
+   "verse_end": "GEN.47.6",
+   "initiator_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_ids": [
+    "person.joseph",
+    "group.jacobs_family"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.pharaohs_house",
+   "tags": [
+    "goshen",
+    "best_of_the_land",
+    "royal_herds"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_47.brothers_petition_pharaoh",
+   "source_entity_id": "group.five_brothers_of_joseph",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "PETITIONS",
+   "verse_id": "GEN.47.4",
+   "event_id": "evt.gen_47.brothers_before_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_47.egyptians_plead_joseph",
+   "source_entity_id": "group.egyptians",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PLEADS_WITH",
+   "verse_id": "GEN.47.15",
+   "event_id": "evt.gen_47.cattle_for_bread"
+  },
+  {
+   "edge_id": "edge.gen_47.egyptians_submit_to_pharaoh",
+   "source_entity_id": "group.egyptians",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "SUBMITS_TO",
+   "verse_id": "GEN.47.19",
+   "event_id": "evt.gen_47.egyptians_sell_land"
+  },
+  {
+   "edge_id": "edge.gen_47.israel_binds_joseph_by_oath",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "BINDS_BY_OATH",
+   "verse_id": "GEN.47.31",
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear"
+  },
+  {
+   "edge_id": "edge.gen_47.israel_blesses_pharaoh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.47.7",
+   "event_id": "evt.gen_47.jacob_blesses_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_47.israel_summons_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.47.29",
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_buys_land_for_pharaoh",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "ACQUIRES_FOR",
+   "verse_id": "GEN.47.20",
+   "event_id": "evt.gen_47.egyptians_sell_land"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_feeds_egyptians",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.47.17",
+   "event_id": "evt.gen_47.cattle_for_bread"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_feeds_family",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.jacobs_family",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.47.12",
+   "event_id": "evt.gen_47.joseph_feeds_family"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_gathers_silver",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "COLLECTS_FROM",
+   "verse_id": "GEN.47.14",
+   "event_id": "evt.gen_47.joseph_gathers_money"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_informs_pharaoh",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.pharaoh.gen_37_36",
+   "interaction_type": "INFORMS",
+   "verse_id": "GEN.47.1",
+   "event_id": "evt.gen_47.joseph_reports_to_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_moves_people",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "RESETTLES",
+   "verse_id": "GEN.47.21",
+   "event_id": "evt.gen_47.people_moved_to_cities"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_presents_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.five_brothers_of_joseph",
+   "interaction_type": "PRESENTS",
+   "verse_id": "GEN.47.2",
+   "event_id": "evt.gen_47.brothers_before_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_sets_fifth",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.egyptians",
+   "interaction_type": "OBLIGATES",
+   "verse_id": "GEN.47.26",
+   "event_id": "evt.gen_47.joseph_decrees_fifth"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_settles_israel",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.israel",
+   "interaction_type": "SETTLES",
+   "verse_id": "GEN.47.11",
+   "event_id": "evt.gen_47.joseph_settles_family"
+  },
+  {
+   "edge_id": "edge.gen_47.joseph_swears_to_israel",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.israel",
+   "interaction_type": "SWEARS_TO",
+   "verse_id": "GEN.47.31",
+   "event_id": "evt.gen_47.jacob_makes_joseph_swear"
+  },
+  {
+   "edge_id": "edge.gen_47.pharaoh_commands_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.47.6",
+   "event_id": "evt.gen_47.pharaoh_grants_goshen"
+  },
+  {
+   "edge_id": "edge.gen_47.pharaoh_provides_priests",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "group.priests_of_egypt",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.47.22",
+   "event_id": "evt.gen_47.joseph_decrees_fifth"
+  },
+  {
+   "edge_id": "edge.gen_47.pharaoh_questions_brothers",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "group.five_brothers_of_joseph",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.47.3",
+   "event_id": "evt.gen_47.brothers_before_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_47.pharaoh_questions_israel",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.israel",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.47.8",
+   "event_id": "evt.gen_47.jacob_blesses_pharaoh"
+  }
+ ]
+}

@@ -1,0 +1,1259 @@
+{
+ "chapter_ref": "GEN.19",
+ "entities": [
+  {
+   "entity_id": "group.ammonites",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.19.38"
+  },
+  {
+   "entity_id": "group.moabites",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.19.37"
+  },
+  {
+   "entity_id": "group.sons_in_law_of_lot",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.19.12"
+  },
+  {
+   "entity_id": "loc.cave_above_zoar",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.19.30"
+  },
+  {
+   "entity_id": "loc.gate_of_sodom",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.19.1"
+  },
+  {
+   "entity_id": "loc.house_of_lot",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.19.2"
+  },
+  {
+   "entity_id": "person.ben_ammi",
+   "tipnr_id": "Ben-ammi@Gen.19.38",
+   "entity_type": "PERSON",
+   "source_script_name": "בֶּן־עַמִּי",
+   "transliterated_name": "Ben-ʿAmmî",
+   "first_mention_verse": "GEN.19.38"
+  },
+  {
+   "entity_id": "person.lots_elder_daughter",
+   "entity_type": "PERSON",
+   "first_mention_verse": "GEN.19.8"
+  },
+  {
+   "entity_id": "person.lots_wife",
+   "entity_type": "PERSON",
+   "first_mention_verse": "GEN.19.15"
+  },
+  {
+   "entity_id": "person.lots_younger_daughter",
+   "entity_type": "PERSON",
+   "first_mention_verse": "GEN.19.8"
+  },
+  {
+   "entity_id": "person.moab",
+   "tipnr_id": "Moab@Gen.19.37a",
+   "entity_type": "PERSON",
+   "source_script_name": "מוֹאָב",
+   "transliterated_name": "Môʾāb",
+   "first_mention_verse": "GEN.19.37"
+  },
+  {
+   "entity_id": "substance.sulfur_and_fire",
+   "entity_type": "SUBSTANCE",
+   "first_mention_verse": "GEN.19.24"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.angelic_deliverance",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.divine_judgment_by_fire",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.guest_protection",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.seed_preservation_by_intoxication",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.supernatural_blinding",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_19.angels_welcomed_by_lot",
+   "verse_start": "GEN.19.1",
+   "verse_end": "GEN.19.3",
+   "location_entity_id": "loc.house_of_lot",
+   "time": {
+    "anchor": "evt.gen_18.lord_departs_abraham_returns",
+    "anchor_point": "END",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.mob_surrounds_house",
+   "verse_start": "GEN.19.4",
+   "verse_end": "GEN.19.9",
+   "location_entity_id": "loc.house_of_lot",
+   "time": {
+    "anchor": "evt.gen_19.angels_welcomed_by_lot",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.angels_blind_the_mob",
+   "verse_start": "GEN.19.10",
+   "verse_end": "GEN.19.11",
+   "location_entity_id": "loc.house_of_lot",
+   "time": {
+    "anchor": "evt.gen_19.mob_surrounds_house",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.men_of_sodom",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.angels_warn_lot",
+   "verse_start": "GEN.19.12",
+   "verse_end": "GEN.19.13",
+   "location_entity_id": "loc.house_of_lot",
+   "time": {
+    "anchor": "evt.gen_19.angels_blind_the_mob",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_in_law_of_lot",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.lot_warns_sons_in_law",
+   "verse_start": "GEN.19.14",
+   "verse_end": "GEN.19.14",
+   "location_entity_id": "loc.sodom",
+   "time": {
+    "anchor": "evt.gen_19.angels_warn_lot",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_in_law_of_lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.angels_hasten_lot_out",
+   "verse_start": "GEN.19.15",
+   "verse_end": "GEN.19.17",
+   "location_entity_id": "loc.sodom",
+   "time": {
+    "anchor": "evt.gen_19.lot_warns_sons_in_law",
+    "anchor_point": "END",
+    "time_of_day": "SHACHAR",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_wife",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.lot_pleads_for_zoar",
+   "verse_start": "GEN.19.18",
+   "verse_end": "GEN.19.22",
+   "time": {
+    "anchor": "evt.gen_19.angels_hasten_lot_out",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.two_visitors_to_sodom",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.zoar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_wife",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.lot_enters_zoar",
+   "verse_start": "GEN.19.23",
+   "verse_end": "GEN.19.23",
+   "location_entity_id": "loc.zoar",
+   "time": {
+    "anchor": "evt.gen_19.lot_pleads_for_zoar",
+    "anchor_point": "END",
+    "offset": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 90.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_wife",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.fire_rains_on_sodom",
+   "verse_start": "GEN.19.24",
+   "verse_end": "GEN.19.25",
+   "location_entity_id": "loc.sodom",
+   "time": {
+    "anchor": "evt.gen_19.lot_enters_zoar",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.men_of_sodom",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.lot_wife_pillar_of_salt",
+   "verse_start": "GEN.19.26",
+   "verse_end": "GEN.19.26",
+   "time": {
+    "anchor": "evt.gen_19.fire_rains_on_sodom",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lot",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_wife",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.abraham_sees_smoke",
+   "verse_start": "GEN.19.27",
+   "verse_end": "GEN.19.29",
+   "location_entity_id": "loc.mamre",
+   "time": {
+    "anchor": "evt.gen_19.fire_rains_on_sodom",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.gomorrah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.sodom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.lot_settles_in_cave",
+   "verse_start": "GEN.19.30",
+   "verse_end": "GEN.19.30",
+   "location_entity_id": "loc.cave_above_zoar",
+   "time": {
+    "anchor": "evt.gen_19.fire_rains_on_sodom",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.zoar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.daughters_first_night",
+   "verse_start": "GEN.19.31",
+   "verse_end": "GEN.19.33",
+   "location_entity_id": "loc.cave_above_zoar",
+   "time": {
+    "anchor": "evt.gen_19.lot_settles_in_cave",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 10.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.daughters_second_night",
+   "verse_start": "GEN.19.34",
+   "verse_end": "GEN.19.36",
+   "location_entity_id": "loc.cave_above_zoar",
+   "time": {
+    "anchor": "evt.gen_19.daughters_first_night",
+    "anchor_point": "END",
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 10.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.lot",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_19.moab_and_ben_ammi_born",
+   "verse_start": "GEN.19.37",
+   "verse_end": "GEN.19.38",
+   "location_entity_id": "loc.cave_above_zoar",
+   "time": {
+    "anchor": "evt.gen_19.daughters_second_night",
+    "anchor_point": "END",
+    "offset": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.ammonites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.moabites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ben_ammi",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lot",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lots_elder_daughter",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lots_younger_daughter",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.moab",
+     "role": "PATIENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_18.abraham_intercedes_for_sodom.angels_hasten_lot_out",
+   "cause_event_id": "evt.gen_18.abraham_intercedes_for_sodom",
+   "effect_event_id": "evt.gen_19.angels_hasten_lot_out",
+   "causal_type": "ENABLES",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_18.men_go_to_sodom.angels_welcomed_by_lot",
+   "cause_event_id": "evt.gen_18.men_go_to_sodom",
+   "effect_event_id": "evt.gen_19.angels_welcomed_by_lot",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.angels_blind_the_mob.angels_warn_lot",
+   "cause_event_id": "evt.gen_19.angels_blind_the_mob",
+   "effect_event_id": "evt.gen_19.angels_warn_lot",
+   "causal_type": "ENABLES",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_19.angels_hasten_lot_out.lot_pleads_for_zoar",
+   "cause_event_id": "evt.gen_19.angels_hasten_lot_out",
+   "effect_event_id": "evt.gen_19.lot_pleads_for_zoar",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.angels_warn_lot.fire_rains_on_sodom",
+   "cause_event_id": "evt.gen_19.angels_warn_lot",
+   "effect_event_id": "evt.gen_19.fire_rains_on_sodom",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.angels_warn_lot.lot_warns_sons_in_law",
+   "cause_event_id": "evt.gen_19.angels_warn_lot",
+   "effect_event_id": "evt.gen_19.lot_warns_sons_in_law",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.angels_welcomed_by_lot.mob_surrounds_house",
+   "cause_event_id": "evt.gen_19.angels_welcomed_by_lot",
+   "effect_event_id": "evt.gen_19.mob_surrounds_house",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.daughters_second_night.moab_and_ben_ammi_born",
+   "cause_event_id": "evt.gen_19.daughters_second_night",
+   "effect_event_id": "evt.gen_19.moab_and_ben_ammi_born",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.fire_rains_on_sodom.abraham_sees_smoke",
+   "cause_event_id": "evt.gen_19.fire_rains_on_sodom",
+   "effect_event_id": "evt.gen_19.abraham_sees_smoke",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.fire_rains_on_sodom.lot_settles_in_cave",
+   "cause_event_id": "evt.gen_19.fire_rains_on_sodom",
+   "effect_event_id": "evt.gen_19.lot_settles_in_cave",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_19.lot_enters_zoar.fire_rains_on_sodom",
+   "cause_event_id": "evt.gen_19.lot_enters_zoar",
+   "effect_event_id": "evt.gen_19.fire_rains_on_sodom",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.lot_pleads_for_zoar.lot_enters_zoar",
+   "cause_event_id": "evt.gen_19.lot_pleads_for_zoar",
+   "effect_event_id": "evt.gen_19.lot_enters_zoar",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_19.lot_settles_in_cave.daughters_first_night",
+   "cause_event_id": "evt.gen_19.lot_settles_in_cave",
+   "effect_event_id": "evt.gen_19.daughters_first_night",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_19.mob_surrounds_house.angels_blind_the_mob",
+   "cause_event_id": "evt.gen_19.mob_surrounds_house",
+   "effect_event_id": "evt.gen_19.angels_blind_the_mob",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.ben_ammi.progeny.1",
+   "entity_id": "person.ben_ammi",
+   "category": "ROLE_TITLE",
+   "component_key": "progeny",
+   "target_entity_id": "group.ammonites",
+   "acquired_at_verse": "GEN.19.38",
+   "acquired_in_event": "evt.gen_19.moab_and_ben_ammi_born"
+  },
+  {
+   "component_id": "comp.lot.descendants.1",
+   "entity_id": "person.lot",
+   "category": "TRAIT",
+   "component_key": "descendants",
+   "value_code": "FATHER_OF_MOAB_AND_BEN_AMMI",
+   "acquired_at_verse": "GEN.19.37",
+   "acquired_in_event": "evt.gen_19.moab_and_ben_ammi_born"
+  },
+  {
+   "component_id": "comp.lot.dwelling.2",
+   "entity_id": "person.lot",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.zoar",
+   "supersedes_component_id": "comp.lot.dwelling.1",
+   "acquired_at_verse": "GEN.19.23",
+   "acquired_in_event": "evt.gen_19.lot_enters_zoar",
+   "expired_at_verse": "GEN.19.30",
+   "expired_in_event": "evt.gen_19.lot_settles_in_cave"
+  },
+  {
+   "component_id": "comp.lot.dwelling.3",
+   "entity_id": "person.lot",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.cave_above_zoar",
+   "supersedes_component_id": "comp.lot.dwelling.2",
+   "acquired_at_verse": "GEN.19.30",
+   "acquired_in_event": "evt.gen_19.lot_settles_in_cave"
+  },
+  {
+   "component_id": "comp.lot.fear.1",
+   "entity_id": "person.lot",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "FEARS_ZOAR",
+   "acquired_at_verse": "GEN.19.30",
+   "acquired_in_event": "evt.gen_19.lot_settles_in_cave"
+  },
+  {
+   "component_id": "comp.lot.intoxication.1",
+   "entity_id": "person.lot",
+   "category": "TRAIT",
+   "component_key": "intoxication",
+   "value_code": "DRUNK",
+   "acquired_at_verse": "GEN.19.33",
+   "acquired_in_event": "evt.gen_19.daughters_first_night",
+   "expired_at_verse": "GEN.19.33",
+   "expired_in_event": "evt.gen_19.daughters_first_night"
+  },
+  {
+   "component_id": "comp.lot.intoxication.2",
+   "entity_id": "person.lot",
+   "category": "TRAIT",
+   "component_key": "intoxication",
+   "value_code": "DRUNK",
+   "supersedes_component_id": "comp.lot.intoxication.1",
+   "acquired_at_verse": "GEN.19.35",
+   "acquired_in_event": "evt.gen_19.daughters_second_night",
+   "expired_at_verse": "GEN.19.35",
+   "expired_in_event": "evt.gen_19.daughters_second_night"
+  },
+  {
+   "component_id": "comp.lots_wife.form.1",
+   "entity_id": "person.lots_wife",
+   "category": "TRAIT",
+   "component_key": "form",
+   "value_code": "PILLAR_OF_SALT",
+   "acquired_at_verse": "GEN.19.26",
+   "acquired_in_event": "evt.gen_19.lot_wife_pillar_of_salt"
+  },
+  {
+   "component_id": "comp.men_of_sodom.life.1",
+   "entity_id": "group.men_of_sodom",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DESTROYED",
+   "acquired_at_verse": "GEN.19.25",
+   "acquired_in_event": "evt.gen_19.fire_rains_on_sodom"
+  },
+  {
+   "component_id": "comp.moab.progeny.1",
+   "entity_id": "person.moab",
+   "category": "ROLE_TITLE",
+   "component_key": "progeny",
+   "target_entity_id": "group.moabites",
+   "acquired_at_verse": "GEN.19.37",
+   "acquired_in_event": "evt.gen_19.moab_and_ben_ammi_born"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.lot.dwelling.1",
+   "expired_at_verse": "GEN.19.23",
+   "expired_in_event": "evt.gen_19.lot_enters_zoar"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_19.angelic_rescue_from_sodom",
+   "system_id": "sys.angelic_deliverance",
+   "event_id": "evt.gen_19.angels_hasten_lot_out",
+   "verse_start": "GEN.19.15",
+   "verse_end": "GEN.19.17",
+   "initiator_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_ids": [
+    "person.lot",
+    "person.lots_wife",
+    "person.lots_elder_daughter",
+    "person.lots_younger_daughter"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.sodom",
+   "tags": [
+    "seized_by_the_hand",
+    "mercy_of_the_lord",
+    "do_not_look_back"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.blinding_of_the_mob",
+   "system_id": "sys.supernatural_blinding",
+   "event_id": "evt.gen_19.angels_blind_the_mob",
+   "verse_start": "GEN.19.11",
+   "verse_end": "GEN.19.11",
+   "initiator_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_ids": [
+    "group.men_of_sodom"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_lot",
+   "tags": [
+    "small_and_great"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.fire_on_the_cities",
+   "system_id": "sys.divine_judgment_by_fire",
+   "event_id": "evt.gen_19.fire_rains_on_sodom",
+   "verse_start": "GEN.19.24",
+   "verse_end": "GEN.19.25",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.sodom",
+    "loc.gomorrah",
+    "group.men_of_sodom"
+   ],
+   "artifact_entity_ids": [
+    "substance.sulfur_and_fire"
+   ],
+   "location_entity_id": "loc.sodom",
+   "tags": [
+    "cities_of_the_plain",
+    "overthrow"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.first_night_seed",
+   "system_id": "sys.seed_preservation_by_intoxication",
+   "event_id": "evt.gen_19.daughters_first_night",
+   "verse_start": "GEN.19.31",
+   "verse_end": "GEN.19.33",
+   "initiator_entity_id": "person.lots_elder_daughter",
+   "target_entity_ids": [
+    "person.lot"
+   ],
+   "artifact_entity_ids": [
+    "substance.wine"
+   ],
+   "location_entity_id": "loc.cave_above_zoar",
+   "tags": [
+    "incest",
+    "preserve_seed"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.god_remembers_abraham",
+   "system_id": "sys.divine_remembering",
+   "event_id": "evt.gen_19.abraham_sees_smoke",
+   "verse_start": "GEN.19.29",
+   "verse_end": "GEN.19.29",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.abraham",
+    "person.lot"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "lot_delivered_for_abrahams_sake"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.guest_protection_offer",
+   "system_id": "sys.guest_protection",
+   "event_id": "evt.gen_19.mob_surrounds_house",
+   "verse_start": "GEN.19.6",
+   "verse_end": "GEN.19.8",
+   "initiator_entity_id": "person.lot",
+   "target_entity_ids": [
+    "group.men_of_sodom",
+    "person.lots_elder_daughter",
+    "person.lots_younger_daughter"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_lot",
+   "tags": [
+    "shadow_of_my_roof",
+    "daughters_offered"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.hospitality_to_angels",
+   "system_id": "sys.hospitality_meal",
+   "event_id": "evt.gen_19.angels_welcomed_by_lot",
+   "verse_start": "GEN.19.2",
+   "verse_end": "GEN.19.3",
+   "initiator_entity_id": "person.lot",
+   "target_entity_ids": [
+    "group.two_visitors_to_sodom"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_lot",
+   "tags": [
+    "feast",
+    "unleavened_bread",
+    "foot_washing"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.lot_bows_to_visitors",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_19.angels_welcomed_by_lot",
+   "verse_start": "GEN.19.1",
+   "verse_end": "GEN.19.1",
+   "initiator_entity_id": "person.lot",
+   "target_entity_ids": [
+    "group.two_visitors_to_sodom"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.gate_of_sodom",
+   "tags": [
+    "bowing",
+    "face_to_ground"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.lots_wife_becomes_salt",
+   "system_id": "sys.divine_judgment_by_death",
+   "event_id": "evt.gen_19.lot_wife_pillar_of_salt",
+   "verse_start": "GEN.19.26",
+   "verse_end": "GEN.19.26",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.lots_wife"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "looking_back",
+    "pillar_of_salt"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_19.second_night_seed",
+   "system_id": "sys.seed_preservation_by_intoxication",
+   "event_id": "evt.gen_19.daughters_second_night",
+   "verse_start": "GEN.19.34",
+   "verse_end": "GEN.19.35",
+   "initiator_entity_id": "person.lots_younger_daughter",
+   "target_entity_ids": [
+    "person.lot"
+   ],
+   "artifact_entity_ids": [
+    "substance.wine"
+   ],
+   "location_entity_id": "loc.cave_above_zoar",
+   "tags": [
+    "incest",
+    "preserve_seed"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_19.angels_blind_mob",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "group.men_of_sodom",
+   "interaction_type": "BLINDS",
+   "verse_id": "GEN.19.11",
+   "event_id": "evt.gen_19.angels_blind_the_mob"
+  },
+  {
+   "edge_id": "edge.gen_19.angels_command_flight",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.19.17",
+   "event_id": "evt.gen_19.angels_hasten_lot_out"
+  },
+  {
+   "edge_id": "edge.gen_19.angels_grant_zoar",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "GRANTS_REQUEST",
+   "verse_id": "GEN.19.21",
+   "event_id": "evt.gen_19.lot_pleads_for_zoar"
+  },
+  {
+   "edge_id": "edge.gen_19.angels_lead_family_out",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "LEADS_OUT",
+   "verse_id": "GEN.19.16",
+   "event_id": "evt.gen_19.angels_hasten_lot_out"
+  },
+  {
+   "edge_id": "edge.gen_19.angels_order_family_out",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.19.12",
+   "event_id": "evt.gen_19.angels_warn_lot"
+  },
+  {
+   "edge_id": "edge.gen_19.angels_pull_lot_inside",
+   "source_entity_id": "group.two_visitors_to_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.19.10",
+   "event_id": "evt.gen_19.angels_blind_the_mob"
+  },
+  {
+   "edge_id": "edge.gen_19.elder_bears_moab",
+   "source_entity_id": "person.lots_elder_daughter",
+   "target_entity_id": "person.moab",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.19.37",
+   "event_id": "evt.gen_19.moab_and_ben_ammi_born"
+  },
+  {
+   "edge_id": "edge.gen_19.elder_intoxicates_lot",
+   "source_entity_id": "person.lots_elder_daughter",
+   "target_entity_id": "person.lot",
+   "interaction_type": "INTOXICATES",
+   "verse_id": "GEN.19.33",
+   "event_id": "evt.gen_19.daughters_first_night"
+  },
+  {
+   "edge_id": "edge.gen_19.elder_lies_with_lot",
+   "source_entity_id": "person.lots_elder_daughter",
+   "target_entity_id": "person.lot",
+   "interaction_type": "LIES_WITH",
+   "verse_id": "GEN.19.33",
+   "event_id": "evt.gen_19.daughters_first_night"
+  },
+  {
+   "edge_id": "edge.gen_19.elder_proposes_plan",
+   "source_entity_id": "person.lots_elder_daughter",
+   "target_entity_id": "person.lots_younger_daughter",
+   "interaction_type": "PROPOSES_TO",
+   "verse_id": "GEN.19.32",
+   "event_id": "evt.gen_19.daughters_first_night"
+  },
+  {
+   "edge_id": "edge.gen_19.god_delivers_lot",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.lot",
+   "interaction_type": "DELIVERS",
+   "verse_id": "GEN.19.29",
+   "event_id": "evt.gen_19.abraham_sees_smoke"
+  },
+  {
+   "edge_id": "edge.gen_19.god_remembers_abraham",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abraham",
+   "interaction_type": "REMEMBERS",
+   "verse_id": "GEN.19.29",
+   "event_id": "evt.gen_19.abraham_sees_smoke"
+  },
+  {
+   "edge_id": "edge.gen_19.lot_bows_to_visitors",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "group.two_visitors_to_sodom",
+   "interaction_type": "BOWS_TO",
+   "verse_id": "GEN.19.1",
+   "event_id": "evt.gen_19.angels_welcomed_by_lot"
+  },
+  {
+   "edge_id": "edge.gen_19.lot_hosts_angels",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "group.two_visitors_to_sodom",
+   "interaction_type": "HOSTS",
+   "verse_id": "GEN.19.3",
+   "event_id": "evt.gen_19.angels_welcomed_by_lot"
+  },
+  {
+   "edge_id": "edge.gen_19.lot_offers_daughters",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "group.men_of_sodom",
+   "interaction_type": "OFFERS",
+   "verse_id": "GEN.19.8",
+   "event_id": "evt.gen_19.mob_surrounds_house"
+  },
+  {
+   "edge_id": "edge.gen_19.lot_pleads_for_zoar",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "group.two_visitors_to_sodom",
+   "interaction_type": "PLEADS_WITH",
+   "verse_id": "GEN.19.20",
+   "event_id": "evt.gen_19.lot_pleads_for_zoar"
+  },
+  {
+   "edge_id": "edge.gen_19.lot_warns_sons_in_law",
+   "source_entity_id": "person.lot",
+   "target_entity_id": "group.sons_in_law_of_lot",
+   "interaction_type": "WARNS",
+   "verse_id": "GEN.19.14",
+   "event_id": "evt.gen_19.lot_warns_sons_in_law"
+  },
+  {
+   "edge_id": "edge.gen_19.mob_demands_guests",
+   "source_entity_id": "group.men_of_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "DEMANDS",
+   "verse_id": "GEN.19.5",
+   "event_id": "evt.gen_19.mob_surrounds_house"
+  },
+  {
+   "edge_id": "edge.gen_19.mob_threatens_lot",
+   "source_entity_id": "group.men_of_sodom",
+   "target_entity_id": "person.lot",
+   "interaction_type": "THREATENS",
+   "verse_id": "GEN.19.9",
+   "event_id": "evt.gen_19.mob_surrounds_house"
+  },
+  {
+   "edge_id": "edge.gen_19.yhwh_destroys_gomorrah",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.gomorrah",
+   "interaction_type": "DESTROYS",
+   "verse_id": "GEN.19.24",
+   "event_id": "evt.gen_19.fire_rains_on_sodom"
+  },
+  {
+   "edge_id": "edge.gen_19.yhwh_destroys_sodom",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.sodom",
+   "interaction_type": "DESTROYS",
+   "verse_id": "GEN.19.24",
+   "event_id": "evt.gen_19.fire_rains_on_sodom"
+  },
+  {
+   "edge_id": "edge.gen_19.younger_bears_ben_ammi",
+   "source_entity_id": "person.lots_younger_daughter",
+   "target_entity_id": "person.ben_ammi",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.19.38",
+   "event_id": "evt.gen_19.moab_and_ben_ammi_born"
+  },
+  {
+   "edge_id": "edge.gen_19.younger_lies_with_lot",
+   "source_entity_id": "person.lots_younger_daughter",
+   "target_entity_id": "person.lot",
+   "interaction_type": "LIES_WITH",
+   "verse_id": "GEN.19.35",
+   "event_id": "evt.gen_19.daughters_second_night"
+  }
+ ]
+}

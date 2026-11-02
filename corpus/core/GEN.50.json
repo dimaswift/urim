@@ -1,0 +1,317 @@
+{
+ "chapter_ref": "GEN.50",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_50.joseph_weeps",
+   "verse_start": "GEN.50.1",
+   "verse_end": "GEN.50.1",
+   "time": {
+    "anchor": "evt.gen_49.jacob_dies",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.embalming",
+   "verse_start": "GEN.50.2",
+   "verse_end": "GEN.50.3",
+   "time": {
+    "anchor": "evt.gen_50.joseph_weeps",
+    "anchor_point": "END",
+    "duration": {
+     "value": 40.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.egypt_mourns",
+   "verse_start": "GEN.50.3",
+   "verse_end": "GEN.50.3",
+   "time": {
+    "anchor": "evt.gen_49.jacob_dies",
+    "anchor_point": "START",
+    "duration": {
+     "value": 70.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.petition_to_pharaoh",
+   "verse_start": "GEN.50.4",
+   "verse_end": "GEN.50.6",
+   "time": {
+    "anchor": "evt.gen_50.egypt_mourns",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.funeral_procession",
+   "verse_start": "GEN.50.7",
+   "verse_end": "GEN.50.9",
+   "time": {
+    "anchor": "evt.gen_50.petition_to_pharaoh",
+    "anchor_point": "END",
+    "duration": {
+     "value": 16.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.lament_at_atad",
+   "verse_start": "GEN.50.10",
+   "verse_end": "GEN.50.11",
+   "time": {
+    "anchor": "evt.gen_50.funeral_procession",
+    "anchor_point": "END",
+    "duration": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.burial_at_machpelah",
+   "verse_start": "GEN.50.12",
+   "verse_end": "GEN.50.13",
+   "time": {
+    "anchor": "evt.gen_50.lament_at_atad",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.return_to_egypt",
+   "verse_start": "GEN.50.14",
+   "verse_end": "GEN.50.14",
+   "time": {
+    "anchor": "evt.gen_50.burial_at_machpelah",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.brothers_plead",
+   "verse_start": "GEN.50.15",
+   "verse_end": "GEN.50.18",
+   "time": {
+    "anchor": "evt.gen_50.return_to_egypt",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.joseph_reassures",
+   "verse_start": "GEN.50.19",
+   "verse_end": "GEN.50.21",
+   "time": {
+    "anchor": "evt.gen_50.brothers_plead",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.joseph_dwells_in_egypt",
+   "verse_start": "GEN.50.22",
+   "verse_end": "GEN.50.23",
+   "time": {
+    "anchor": "evt.gen_50.joseph_reassures",
+    "anchor_point": "END",
+    "duration": {
+     "value": 54.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.joseph_last_words",
+   "verse_start": "GEN.50.24",
+   "verse_end": "GEN.50.25",
+   "time": {
+    "anchor": "anchor.joseph_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 110.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_50.joseph_dies",
+   "verse_start": "GEN.50.26",
+   "verse_end": "GEN.50.26",
+   "time": {
+    "anchor": "evt.gen_50.joseph_last_words",
+    "anchor_point": "END",
+    "duration": {
+     "value": 40.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_49.burial_charge.burial_at_machpelah",
+   "cause_event_id": "evt.gen_49.burial_charge",
+   "effect_event_id": "evt.gen_50.burial_at_machpelah",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_49.burial_charge.petition_to_pharaoh",
+   "cause_event_id": "evt.gen_49.burial_charge",
+   "effect_event_id": "evt.gen_50.petition_to_pharaoh",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_49.jacob_dies.brothers_plead",
+   "cause_event_id": "evt.gen_49.jacob_dies",
+   "effect_event_id": "evt.gen_50.brothers_plead",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_49.jacob_dies.embalming",
+   "cause_event_id": "evt.gen_49.jacob_dies",
+   "effect_event_id": "evt.gen_50.embalming",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_49.jacob_dies.joseph_weeps",
+   "cause_event_id": "evt.gen_49.jacob_dies",
+   "effect_event_id": "evt.gen_50.joseph_weeps",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_50.brothers_plead.joseph_reassures",
+   "cause_event_id": "evt.gen_50.brothers_plead",
+   "effect_event_id": "evt.gen_50.joseph_reassures",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_50.petition_to_pharaoh.funeral_procession",
+   "cause_event_id": "evt.gen_50.petition_to_pharaoh",
+   "effect_event_id": "evt.gen_50.funeral_procession",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

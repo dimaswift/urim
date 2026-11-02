@@ -1,0 +1,153 @@
+{
+ "chapter_ref": "GEN.21",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_21.sarah_bears_isaac",
+   "title": "Sarah conceives and bears Isaac to Abraham",
+   "narrative_summary": "The LORD visits Sarah as he had said, and she conceives and bears Abraham a son in his old age, at the appointed time God had spoken of.",
+   "temporal_reasoning_note": "21:5 gives Abraham's age at Isaac's birth as one hundred, so the birth is anchor.isaac_birth with offset 0 (REGNAL_YEAR). Margin 1 year, since an age covers the whole year. The 'appointed time' (21:2) is 'at this time next year' of 18:10, the year after Gen 20 (2067 BCE, Abraham 99). The nine months of pregnancy are not a separate event.",
+   "ancient_year_marker": "At the appointed time, when Abraham was a hundred years old"
+  },
+  {
+   "event_id": "evt.gen_21.abraham_names_isaac",
+   "title": "Abraham names his newborn son Isaac",
+   "narrative_summary": "Abraham calls the name of the son Sarah bore him Isaac.",
+   "temporal_reasoning_note": "No time word; naming follows the birth. Anchored on the birth's END, offset 0, 10 minutes, margin 1 day (the name may have been given at the circumcision, 7 days later). Tier follows the age that frames the scene (REGNAL_YEAR)."
+  },
+  {
+   "event_id": "evt.gen_21.abraham_circumcises_isaac",
+   "title": "Abraham circumcises Isaac at eight days old",
+   "narrative_summary": "Abraham circumcises his son Isaac when he is eight days old, as God commanded. The narrator adds that Abraham was a hundred years old when Isaac was born.",
+   "temporal_reasoning_note": "'A son of eight days' is the eighth day of life, counted with the birth day as the first: offset 7 days from the birth's START, margin 1 day for the Hebrew-day counting (birth near evening could shift it). DAY_SEQUENCE: days counted.",
+   "ancient_year_marker": "When Abraham was a hundred years old",
+   "ancient_diurnal_marker": "On the eighth day"
+  },
+  {
+   "event_id": "evt.gen_21.sarah_laughs_with_joy",
+   "title": "Sarah says God has made her laugh",
+   "narrative_summary": "Sarah says God has made laughter for her and everyone who hears will laugh with her. She asks who would have told Abraham that Sarah would nurse children, since she has borne him a son in his old age.",
+   "temporal_reasoning_note": "The text gives no time; she speaks of nursing, so after the birth. Placed at the circumcision's END with margin 1 month. Tier follows the framing age (REGNAL_YEAR)."
+  },
+  {
+   "event_id": "evt.gen_21.isaac_weaned_feast",
+   "title": "Abraham holds a great feast when Isaac is weaned",
+   "narrative_summary": "The child grows and is weaned, and Abraham makes a great feast on the day Isaac is weaned.",
+   "temporal_reasoning_note": "No age is given. Offset 2 years from the birth's START (the usual nursing span; 1 Sam 1:22–24 per Rashbam; 2 Macc 7:27 says three), margin 1 year. Duration 1 day for the feast. REGNAL_YEAR since it falls under the framing age and has no finer time word.",
+   "ancient_year_marker": "When the child was weaned"
+  },
+  {
+   "event_id": "evt.gen_21.sarah_demands_expulsion",
+   "title": "Sarah sees Ishmael mocking and demands his expulsion",
+   "narrative_summary": "Sarah sees the son of Hagar the Egyptian mocking and tells Abraham to drive out the slave woman and her son, who must not inherit with Isaac. The matter is very grievous to Abraham because of his son.",
+   "temporal_reasoning_note": "Undated in the text; placed on the day of the feast, 3 hours after its start, with margin 7 days. Tier REGNAL_YEAR, because no time word is given and the scene falls under the framing age."
+  },
+  {
+   "event_id": "evt.gen_21.god_reassures_abraham",
+   "title": "God tells Abraham to listen to Sarah and promises Ishmael a nation",
+   "narrative_summary": "God tells Abraham not to be grieved about the boy and the slave woman, to heed all Sarah says, because Isaac's line will carry his name. God will also make a nation of the slave woman's son because he is Abraham's seed.",
+   "temporal_reasoning_note": "Follows Abraham's distress directly; the next verse has Abraham rising early in the morning, so this is the night before. Anchored on the demand's END, 10 minutes, margin 12 hours. REGNAL_YEAR (no time word of its own)."
+  },
+  {
+   "event_id": "evt.gen_21.abraham_sends_hagar_away",
+   "title": "Abraham rises early and sends Hagar and Ishmael away",
+   "narrative_summary": "Abraham rises early in the morning, gives Hagar bread and a skin of water on her shoulder together with the boy, and sends her away. She goes and wanders in the wilderness of Beer-sheba.",
+   "temporal_reasoning_note": "'Rose early in the morning': BOKER after the preceding night, anchored on the speech's END. DIURNAL_HOUR; margin 2 hours.",
+   "ancient_diurnal_marker": "In the morning, early"
+  },
+  {
+   "event_id": "evt.gen_21.hagar_leaves_ishmael_to_die",
+   "title": "The water runs out and Hagar sets Ishmael under a bush",
+   "narrative_summary": "The water in the skin is spent. Hagar casts the boy under one of the bushes, sits down a bowshot away so as not to see him die, and weeps aloud.",
+   "temporal_reasoning_note": "The text gives no time; a skin of water for two people in desert heat lasts about a day. Offset 1 day from the departure's END, margin 1 day. DAY_SEQUENCE, counted in days."
+  },
+  {
+   "event_id": "evt.gen_21.angel_rescues_hagar_and_ishmael",
+   "title": "God hears the boy and shows Hagar a well",
+   "narrative_summary": "God hears the boy's voice, and the angel of God calls to Hagar from heaven: do not fear, lift up the boy, for God will make him a great nation. God opens her eyes to a well of water, and she fills the skin and gives the boy a drink.",
+   "temporal_reasoning_note": "Immediate response to the weeping; no gap in the text. Anchored on the previous event's END, 1 hour, margin 2 hours. DAY_SEQUENCE: same day as the despair."
+  },
+  {
+   "event_id": "evt.gen_21.ishmael_grows_and_marries",
+   "title": "Ishmael grows up an archer in Paran and takes an Egyptian wife",
+   "narrative_summary": "God is with the boy; he grows, lives in the wilderness and becomes a bowman. He settles in the wilderness of Paran, and his mother takes him a wife from the land of Egypt.",
+   "temporal_reasoning_note": "No figure in the text. A span of about 10 years from the rescue (margin 5 years) is an estimate, hence MACRO_ERA. Paran to Egypt is about 334 km in a straight line; the marriage is not dated separately."
+  },
+  {
+   "event_id": "evt.gen_21.abimelech_proposes_oath",
+   "title": "Abimelech and Phicol ask Abraham to swear fidelity",
+   "narrative_summary": "At that time Abimelech and Phicol, his army commander, tell Abraham that God is with him in all he does. They ask him to swear by God not to deal falsely with them or their descendants, but to show the same loyalty; Abraham agrees to swear.",
+   "temporal_reasoning_note": "'At that time' (21:22) is vague: Rashbam links it to Isaac's birth, Radak to the birth or the weaning. Anchored on the birth's START with offset 1 year and margin 18 months, so the span runs from the birth (Rashbam) to about 2.5 years, past the weaning at about 2 years (Radak), and covers both readings. REGNAL_YEAR (the scene falls under Abraham's age at Isaac's birth).",
+   "ancient_year_marker": "At that time"
+  },
+  {
+   "event_id": "evt.gen_21.abraham_reproves_over_well",
+   "title": "Abraham reproves Abimelech about the seized well",
+   "narrative_summary": "Abraham reproves Abimelech about a well of water that Abimelech's servants seized. Abimelech says he did not know who did it, that Abraham had not told him, and that he heard of it only that day.",
+   "temporal_reasoning_note": "Direct continuation of the same conversation: anchored on the proposal's END, 30 minutes, margin 1 hour. REGNAL_YEAR, as the scene has no time word of its own.",
+   "ancient_diurnal_marker": "This day"
+  },
+  {
+   "event_id": "evt.gen_21.covenant_at_beersheba",
+   "title": "Abraham and Abimelech make a covenant at Beer-sheba",
+   "narrative_summary": "Abraham gives sheep and oxen to Abimelech and they make a covenant. He sets seven ewe lambs apart as a witness that he dug the well, and the place is named Beer-sheba, where both swore. Abimelech and Phicol then return to the land of the Philistines.",
+   "temporal_reasoning_note": "Continuous with the talks; anchored on the reproof's END. Duration 3 hours for the gifts, oath, lambs and the departure; margin 1 hour. REGNAL_YEAR. Beer-sheba to Philistia is about 54 km, but the return is not dated."
+  },
+  {
+   "event_id": "evt.gen_21.abraham_plants_tamarisk",
+   "title": "Abraham plants a tamarisk and calls on the LORD, the Everlasting God",
+   "narrative_summary": "Abraham plants a tamarisk tree at Beer-sheba and calls there on the name of the LORD, the Everlasting God.",
+   "temporal_reasoning_note": "After the covenant; no gap given. Anchored on the covenant's END, 2 hours, margin 1 month (a planting may follow later). REGNAL_YEAR."
+  },
+  {
+   "event_id": "evt.gen_21.abraham_sojourns_in_philistia",
+   "title": "Abraham lives in the land of the Philistines many days",
+   "narrative_summary": "Abraham sojourns in the land of the Philistines for many days.",
+   "temporal_reasoning_note": "'Many days' (21:34) is vague. Rashi counts 26 years here, one more than Abraham's 25 years at Hebron, ending 12 years before the binding of Isaac. Anchored on the start of the move to Gerar (Gen 20:1), duration 26 years, margin 10 years. MACRO_ERA.",
+   "ancient_year_marker": "Many days"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_17.circumcision_command.abraham_circumcises_isaac",
+   "causal_explanation": "God commanded that every male be circumcised on the eighth day (17:12), and Abraham circumcises Isaac at eight days as God had commanded (21:4)."
+  },
+  {
+   "causal_id": "caus.gen_17.isaac_and_ishmael_promised.sarah_bears_isaac",
+   "causal_explanation": "God promised Abraham that Sarah would bear Isaac at the set time (17:19, 21), and she bears him at that set time (21:2)."
+  },
+  {
+   "causal_id": "caus.gen_18.son_promised_to_sarah.sarah_bears_isaac",
+   "causal_explanation": "The LORD said he would return at the appointed time and Sarah would have a son (18:10, 14), and 21:1 says he did to Sarah as he had spoken."
+  },
+  {
+   "causal_id": "caus.gen_21.abimelech_proposes_oath.covenant_at_beersheba",
+   "causal_explanation": "Abimelech asks for an oath and Abraham agrees to swear (21:23–24), and they make the covenant (21:27, 32)."
+  },
+  {
+   "causal_id": "caus.gen_21.abraham_reproves_over_well.covenant_at_beersheba",
+   "causal_explanation": "Settling the dispute over the seized well leads to the seven lambs given as witness to Abraham's well (21:25–30)."
+  },
+  {
+   "causal_id": "caus.gen_21.abraham_sends_hagar_away.hagar_leaves_ishmael_to_die",
+   "causal_explanation": "Sent into the wilderness with a skin of water, Hagar runs out of water and despairs (21:14–15)."
+  },
+  {
+   "causal_id": "caus.gen_21.god_reassures_abraham.abraham_sends_hagar_away",
+   "causal_explanation": "God tells Abraham to listen to Sarah (21:12), and Abraham rises early the next morning to send Hagar away (21:14)."
+  },
+  {
+   "causal_id": "caus.gen_21.hagar_leaves_ishmael_to_die.angel_rescues_hagar_and_ishmael",
+   "causal_explanation": "God hears the boy's voice as he lies dying and answers by calling to Hagar and showing her a well (21:16–17)."
+  },
+  {
+   "causal_id": "caus.gen_21.sarah_demands_expulsion.god_reassures_abraham",
+   "causal_explanation": "Abraham's distress at Sarah's demand about his son (21:11) leads God to speak to him (21:12)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

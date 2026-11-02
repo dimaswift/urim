@@ -1,0 +1,715 @@
+{
+ "chapter_ref": "GEN.46",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_46.journey_to_beersheba",
+   "title": "Israel sets out with all he has for Beersheba",
+   "narrative_summary": "Israel sets out with everything that belongs to him and comes to Beersheba.",
+   "temporal_reasoning_note": "46:1 follows at once on Israel's resolve to go (45:28), so the journey starts at the end of that event. The text gives no starting point and no duration; Hebron (Gen 37:14) to Beersheba is about 50 km by road, and an army-mode caravan with flocks (18 km a day) takes about 2 days (urim travel). The margin of 3 days covers the packing and the gathering of the household, which the text does not time."
+  },
+  {
+   "event_id": "evt.gen_46.sacrifice_at_beersheba",
+   "title": "Israel offers sacrifices to the God of Isaac",
+   "narrative_summary": "At Beersheba Israel offers sacrifices to the God of his father Isaac.",
+   "temporal_reasoning_note": "Follows the arrival at Beersheba ('and came to Beersheba, and offered', 46:1), so it starts at the end of the journey. A sacrificial service takes a few hours; the margin of a day allows for a rest before the offering, which the text does not mention."
+  },
+  {
+   "event_id": "evt.gen_46.vision_at_beersheba",
+   "title": "God tells Jacob in a night vision not to fear going to Egypt",
+   "narrative_summary": "God calls 'Jacob, Jacob' in a vision of the night, and Jacob answers. God says He is the God of his father, tells him not to fear going down to Egypt, promises to make him a great nation there, to go down with him and bring him up again, and that Joseph will close his eyes.",
+   "temporal_reasoning_note": "The text says only 'in the visions of the night' (46:2) after the sacrifice. The night following the sacrifice is taken, snapped to the middle watch at 22:00 (offset 0 from the end of the sacrifice, so the first 22:00 at or after it). The margin of 4 hours reflects that the text names the night but no hour. The Targums (Onkelos 'in the visions of the night', Pseudo-Jonathan 'in prophecy in the night') add nothing about the time.",
+   "ancient_diurnal_marker": "In the visions of the night"
+  },
+  {
+   "event_id": "evt.gen_46.departure_from_beersheba",
+   "title": "Jacob's sons carry him and the household from Beersheba to Egypt",
+   "narrative_summary": "Jacob rises from Beersheba and his sons carry him, their little ones and their wives in the wagons Pharaoh had sent, with their livestock and goods from Canaan. Jacob brings all his offspring with him into Egypt.",
+   "temporal_reasoning_note": "Starts after the vision (46:5 'And Jacob rose up from Beersheba'); the morning start is inferred (BOKER), the first morning after the night vision. Duration: Beersheba to Goshen is about 363 km by road; army mode for a caravan with wagons, children and flocks gives about 18 km a day, so about 20 days (urim travel; donkey mode would give 11 days, walking 12.5). The text states no duration. Margin of 1 day for the start; the tier is DAY_SEQUENCE since the text gives no time word."
+  },
+  {
+   "event_id": "evt.gen_46.judah_sent_ahead",
+   "title": "Jacob sends Judah ahead to Joseph and they come into Goshen",
+   "narrative_summary": "Jacob sends Judah ahead to Joseph to show the way before him to Goshen, and they come into the land of Goshen.",
+   "temporal_reasoning_note": "The text gives no time for this. Judah goes ahead of the caravan, so he is placed in the final stretch of the journey: start 16 days after the departure, lasting 4 days, ending when the caravan reaches Goshen (46:28 'and they came into the land of Goshen'). The 4-day margin reflects that the point at which he was sent is unknown."
+  },
+  {
+   "event_id": "evt.gen_46.joseph_meets_israel",
+   "title": "Joseph rides to Goshen, meets his father and weeps on his neck",
+   "narrative_summary": "Joseph harnesses his chariot and goes up to Goshen to meet Israel his father. He appears to him, falls on his neck and weeps a long while. Israel says he can die now that he has seen Joseph's face and knows he is alive.",
+   "temporal_reasoning_note": "Anchored on the end of the caravan's journey, since the meeting is in Goshen when Jacob arrives; Joseph's own trip from his residence (Egypt to Goshen about 90 km, a chariot day at most) is covered by the margin of a day. An embrace and speech take a couple of hours. Tier DAY_SEQUENCE: no hour is given."
+  },
+  {
+   "event_id": "evt.gen_46.joseph_instructs_brothers",
+   "title": "Joseph tells his family what to say to Pharaoh about their trade",
+   "narrative_summary": "Joseph tells his brothers and his father's house that he will tell Pharaoh they have come. He instructs them to say, when Pharaoh asks their trade, that they have been keepers of livestock from their youth, so that they may live in Goshen, since shepherds are an abomination to the Egyptians.",
+   "temporal_reasoning_note": "A speech that follows directly on the meeting (46:31 'And Joseph said'), so it starts at the end of the meeting and takes about half an hour. The margin of 1 day allows that it may have been said later on the same journey to Goshen or the next day; the text marks no gap."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_45.brothers_depart_with_provisions.departure",
+   "causal_explanation": "Pharaoh's wagons, sent with the brothers (45:19-21), are the means in which Jacob and the little ones are carried (46:5)."
+  },
+  {
+   "causal_id": "caus.gen_45.jacob_resolves_to_go.journey_to_beersheba",
+   "causal_explanation": "Having resolved to go and see Joseph before he dies (45:28), Israel sets out (46:1)."
+  },
+  {
+   "causal_id": "caus.gen_46.joseph_meets_israel.joseph_instructs_brothers",
+   "causal_explanation": "Now that his father's house has come to him in Goshen (46:29-31), Joseph must announce them to Pharaoh, so he tells them how to answer about their trade (46:31-34)."
+  },
+  {
+   "causal_id": "caus.gen_46.judah_sent_ahead.joseph_meets_israel",
+   "causal_explanation": "Judah goes ahead to Joseph to give directions to Goshen (46:28), so that Joseph can go up to meet his father there (46:29)."
+  },
+  {
+   "causal_id": "caus.gen_46.vision_at_beersheba.departure",
+   "causal_explanation": "God's word 'fear not to go down into Egypt' (46:3-4) removes the hesitation and Jacob rises to go from Beersheba (46:5)."
+  }
+ ],
+ "entities": [
+  {
+   "entity_id": "person.ahiram",
+   "canonical_name": "Ehi",
+   "phonetic_name": "ay-KHEE",
+   "aliases": [
+    "Ahiram",
+    "Aharah"
+   ],
+   "etymology_meaning": "'My brother'; the longer form Ahiram means 'my brother is exalted'.",
+   "summary_bio": "Son of Benjamin written Ehi in 46:21 and Ahiram in Num 26:38."
+  },
+  {
+   "entity_id": "person.ard",
+   "canonical_name": "Ard",
+   "phonetic_name": "ARD",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'fugitive'.",
+   "summary_bio": "Listed last among the sons of Benjamin in 46:21; Num 26:40 makes him a son of Bela, so a grandson of Benjamin."
+  },
+  {
+   "entity_id": "person.areli",
+   "canonical_name": "Areli",
+   "phonetic_name": "ar-ay-LEE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'lion of God' or 'hero of God'.",
+   "summary_bio": "Youngest of Gad's seven sons named in 46:16."
+  },
+  {
+   "entity_id": "person.arod",
+   "canonical_name": "Arodi",
+   "phonetic_name": "ah-ro-DEE",
+   "aliases": [
+    "Arod"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'wild ass' or 'descendant'.",
+   "summary_bio": "Son of Gad in 46:16; the Arodites descend from him."
+  },
+  {
+   "entity_id": "person.ashbel",
+   "canonical_name": "Ashbel",
+   "phonetic_name": "ash-BALE",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'man of Baal' or 'fire of God'.",
+   "summary_bio": "Son of Benjamin in 46:21; ancestor of the Ashbelites."
+  },
+  {
+   "entity_id": "person.asher",
+   "canonical_name": "Asher",
+   "phonetic_name": "ah-SHAIR",
+   "aliases": [],
+   "etymology_meaning": "'Happy' or 'blessed' (Gen 30:13).",
+   "summary_bio": "Son of Jacob by Zilpah. The chapter names four sons, a daughter Serah and two grandsons (46:17)."
+  },
+  {
+   "entity_id": "person.becher",
+   "canonical_name": "Becher",
+   "phonetic_name": "BEH-kher",
+   "aliases": [
+    "Beker"
+   ],
+   "etymology_meaning": "'Young camel' or 'firstborn'.",
+   "summary_bio": "Son of Benjamin in 46:21."
+  },
+  {
+   "entity_id": "person.bela",
+   "canonical_name": "Belah",
+   "phonetic_name": "BEH-lah",
+   "aliases": [
+    "Bela"
+   ],
+   "etymology_meaning": "'Swallowing', perhaps 'destruction'.",
+   "summary_bio": "Benjamin's firstborn in 46:21; ancestor of the Belaites."
+  },
+  {
+   "entity_id": "person.beriah",
+   "canonical_name": "Beriah",
+   "phonetic_name": "beh-ree-AH",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'in evil' or 'gift'.",
+   "summary_bio": "Son of Asher and father of Heber and Malchiel (46:17)."
+  },
+  {
+   "entity_id": "person.canaanite_woman",
+   "canonical_name": "The Canaanite woman",
+   "phonetic_name": "ha-keh-nah-ah-NEET",
+   "aliases": [
+    "Canaanitess"
+   ],
+   "etymology_meaning": "Named only by origin: a woman of Canaan.",
+   "summary_bio": "An unnamed Canaanite wife of Simeon and mother of his son Shaul (46:10)."
+  },
+  {
+   "entity_id": "person.carmi",
+   "canonical_name": "Carmi",
+   "phonetic_name": "kar-MEE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'my vineyard'.",
+   "summary_bio": "Reuben's fourth son in the list (46:9)."
+  },
+  {
+   "entity_id": "person.dan",
+   "canonical_name": "Dan",
+   "phonetic_name": "DAHN",
+   "aliases": [],
+   "etymology_meaning": "'He judged', as in the folk etymology of Gen 30:6.",
+   "summary_bio": "Son of Jacob by Bilhah, Rachel's maid. In the Egypt list he has a single son, Hushim (46:23)."
+  },
+  {
+   "entity_id": "person.dinah",
+   "canonical_name": "Dinah",
+   "phonetic_name": "Dee-NAH",
+   "aliases": [],
+   "etymology_meaning": "Probably 'judged' or 'vindicated', from the root dyn.",
+   "summary_bio": "Jacob's daughter by Leah, the only daughter named in the list of those who entered Egypt (46:15)."
+  },
+  {
+   "entity_id": "person.elon.gen_46_14",
+   "canonical_name": "Elon",
+   "phonetic_name": "ay-LONE",
+   "aliases": [],
+   "etymology_meaning": "'Oak' or 'terebinth'.",
+   "summary_bio": "Son of Zebulun in the Egypt list (46:14); a different person from Esau's father-in-law Elon the Hittite."
+  },
+  {
+   "entity_id": "person.eri",
+   "canonical_name": "Eri",
+   "phonetic_name": "ay-REE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'my watcher' or 'awake'.",
+   "summary_bio": "Son of Gad in 46:16; ancestor of the Erites."
+  },
+  {
+   "entity_id": "person.ezbon",
+   "canonical_name": "Ezbon",
+   "phonetic_name": "ets-BONE",
+   "aliases": [
+    "Ozni"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Gad in 46:16; called Ozni in Num 26:16."
+  },
+  {
+   "entity_id": "person.gad",
+   "canonical_name": "Gad",
+   "phonetic_name": "GAHD",
+   "aliases": [],
+   "etymology_meaning": "'Fortune' or 'luck' (Gen 30:11).",
+   "summary_bio": "Son of Jacob by Zilpah, Leah's maid. Seven sons are listed for him in Gen 46:16."
+  },
+  {
+   "entity_id": "person.gera.gen_46_21",
+   "canonical_name": "Gera",
+   "phonetic_name": "gay-RAH",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'grain' or 'sojourner'.",
+   "summary_bio": "Listed in 46:21 as a son of Benjamin; other lists make him a grandson through Bela."
+  },
+  {
+   "entity_id": "person.gershon",
+   "canonical_name": "Gershon",
+   "phonetic_name": "gair-SHONE",
+   "aliases": [
+    "Gershom"
+   ],
+   "etymology_meaning": "Probably 'expulsion' or 'sojourner there'.",
+   "summary_bio": "Levi's firstborn, listed first in 46:11; ancestor of the Gershonite Levites."
+  },
+  {
+   "entity_id": "person.guni",
+   "canonical_name": "Guni",
+   "phonetic_name": "goo-NEE",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'my protection'.",
+   "summary_bio": "Son of Naphtali in 46:24; ancestor of the Gunites."
+  },
+  {
+   "entity_id": "person.haggi",
+   "canonical_name": "Haggi",
+   "phonetic_name": "khag-GEE",
+   "aliases": [],
+   "etymology_meaning": "'Festival', or 'born on a feast day'.",
+   "summary_bio": "Son of Gad in 46:16; ancestor of the Haggites."
+  },
+  {
+   "entity_id": "person.hamul",
+   "canonical_name": "Hamul",
+   "phonetic_name": "kha-MOOL",
+   "aliases": [],
+   "etymology_meaning": "'Spared' or 'pitied'.",
+   "summary_bio": "Son of Perez and grandson of Judah (46:12)."
+  },
+  {
+   "entity_id": "person.hanoch",
+   "canonical_name": "Hanoch",
+   "phonetic_name": "kha-NOKH",
+   "aliases": [
+    "Hanok"
+   ],
+   "etymology_meaning": "Probably 'dedicated' or 'initiated'.",
+   "summary_bio": "Reuben's eldest son, listed among those who went to Egypt (46:9); the Hanochite clan descends from him."
+  },
+  {
+   "entity_id": "person.heber.gen_46_17",
+   "canonical_name": "Heber",
+   "phonetic_name": "KHEH-ver",
+   "aliases": [],
+   "etymology_meaning": "'Companion' or 'associate'.",
+   "summary_bio": "Son of Beriah and grandson of Asher (46:17)."
+  },
+  {
+   "entity_id": "person.hezron",
+   "canonical_name": "Hezron",
+   "phonetic_name": "khets-RONE",
+   "aliases": [
+    "Esrom"
+   ],
+   "etymology_meaning": "Probably 'enclosure' or 'courtyard'.",
+   "summary_bio": "Son of Perez and grandson of Judah, listed in 46:12; ancestor of David's line."
+  },
+  {
+   "entity_id": "person.hezron.gen_46_9",
+   "canonical_name": "Hezron",
+   "phonetic_name": "khets-RONE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'enclosure' or 'courtyard'.",
+   "summary_bio": "Reuben's son, named in 46:9; not the same person as Perez's son of the same name in 46:12."
+  },
+  {
+   "entity_id": "person.huppim",
+   "canonical_name": "Huppim",
+   "phonetic_name": "khoop-PEEM",
+   "aliases": [
+    "Hupham",
+    "Huram"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'canopy'.",
+   "summary_bio": "Listed among the sons of Benjamin in 46:21; called Hupham in Num 26:39."
+  },
+  {
+   "entity_id": "person.hushim",
+   "canonical_name": "Hushim",
+   "phonetic_name": "khoo-SHEEM",
+   "aliases": [
+    "Shuham"
+   ],
+   "etymology_meaning": "Probably 'hasteners'; a plural-form name.",
+   "summary_bio": "The sole son of Dan in 46:23; called Shuham in Num 26:42."
+  },
+  {
+   "entity_id": "person.imnah.gen_46_17",
+   "canonical_name": "Jimnah",
+   "phonetic_name": "yim-NAH",
+   "aliases": [
+    "Imnah"
+   ],
+   "etymology_meaning": "'Right hand' or 'good fortune', probably.",
+   "summary_bio": "Eldest son of Asher in 46:17."
+  },
+  {
+   "entity_id": "person.ishvah",
+   "canonical_name": "Ishuah",
+   "phonetic_name": "yish-VAH",
+   "aliases": [
+    "Ishvah"
+   ],
+   "etymology_meaning": "'He is level', or 'he resembles', probably.",
+   "summary_bio": "Son of Asher in 46:17."
+  },
+  {
+   "entity_id": "person.ishvi",
+   "canonical_name": "Isui",
+   "phonetic_name": "yish-VEE",
+   "aliases": [
+    "Ishvi"
+   ],
+   "etymology_meaning": "Probably 'he is level', a form of the same root as Ishvah.",
+   "summary_bio": "Son of Asher in 46:17; the Ishvites descend from him."
+  },
+  {
+   "entity_id": "person.issachar",
+   "canonical_name": "Issachar",
+   "phonetic_name": "yis-sah-KHAR",
+   "aliases": [],
+   "etymology_meaning": "Probably 'man of hire', from Gen 30:18; the text plays on 'wages'.",
+   "summary_bio": "Son of Jacob and Leah, named with four sons among those who entered Egypt (46:13)."
+  },
+  {
+   "entity_id": "person.jachin",
+   "canonical_name": "Jachin",
+   "phonetic_name": "yah-KHEEN",
+   "aliases": [
+    "Jakin"
+   ],
+   "etymology_meaning": "'He establishes'.",
+   "summary_bio": "Son of Simeon in the Egypt list (46:10); ancestor of the Jachinites."
+  },
+  {
+   "entity_id": "person.jahleel",
+   "canonical_name": "Jahleel",
+   "phonetic_name": "yakh-leh-ALE",
+   "aliases": [],
+   "etymology_meaning": "'God waits' or 'wait for God', probably.",
+   "summary_bio": "Youngest of Zebulun's three sons named in 46:14."
+  },
+  {
+   "entity_id": "person.jahzeel",
+   "canonical_name": "Jahzeel",
+   "phonetic_name": "yakh-tseh-ALE",
+   "aliases": [
+    "Jahziel"
+   ],
+   "etymology_meaning": "'God apportions'.",
+   "summary_bio": "First of Naphtali's four sons in 46:24."
+  },
+  {
+   "entity_id": "person.jamin",
+   "canonical_name": "Jamin",
+   "phonetic_name": "yah-MEEN",
+   "aliases": [],
+   "etymology_meaning": "'Right hand', a word also meaning 'south'.",
+   "summary_bio": "Son of Simeon, named in 46:10."
+  },
+  {
+   "entity_id": "person.jashub",
+   "canonical_name": "Jashub",
+   "phonetic_name": "yahsh-OOV",
+   "aliases": [
+    "Job",
+    "Iob"
+   ],
+   "etymology_meaning": "'He returns', probably.",
+   "summary_bio": "Third son of Issachar, written Iob (Job) in this verse and Jashub in Num 26:24 (46:13)."
+  },
+  {
+   "entity_id": "person.jemuel",
+   "canonical_name": "Jemuel",
+   "phonetic_name": "yeh-moo-ALE",
+   "aliases": [
+    "Nemuel"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'day of God' or 'God is light'.",
+   "summary_bio": "Eldest son of Simeon in the Egypt list (46:10); called Nemuel in Num 26."
+  },
+  {
+   "entity_id": "person.jezer",
+   "canonical_name": "Jezer",
+   "phonetic_name": "YEH-tser",
+   "aliases": [],
+   "etymology_meaning": "'Form' or 'purpose', from the root for shaping.",
+   "summary_bio": "Son of Naphtali in 46:24; ancestor of the Jezerites."
+  },
+  {
+   "entity_id": "person.kohath",
+   "canonical_name": "Kohath",
+   "phonetic_name": "keh-HAHT",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'assembly'.",
+   "summary_bio": "Levi's second son, named in 46:11; ancestor of the Kohathites."
+  },
+  {
+   "entity_id": "person.malchiel",
+   "canonical_name": "Malchiel",
+   "phonetic_name": "mal-kee-ALE",
+   "aliases": [],
+   "etymology_meaning": "'My king is God'.",
+   "summary_bio": "Son of Beriah and grandson of Asher (46:17)."
+  },
+  {
+   "entity_id": "person.merari",
+   "canonical_name": "Merari",
+   "phonetic_name": "meh-rah-REE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'bitter' or 'gift'.",
+   "summary_bio": "Levi's third son, named in 46:11; ancestor of the Merarites."
+  },
+  {
+   "entity_id": "person.muppim",
+   "canonical_name": "Muppim",
+   "phonetic_name": "moop-PEEM",
+   "aliases": [
+    "Shephupham",
+    "Shupham"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Listed among the sons of Benjamin in 46:21; Num 26:39 gives the form Shephupham."
+  },
+  {
+   "entity_id": "person.naaman.gen_46_21",
+   "canonical_name": "Naaman",
+   "phonetic_name": "nah-ah-MAHN",
+   "aliases": [
+    "Nohah"
+   ],
+   "etymology_meaning": "'Pleasantness'.",
+   "summary_bio": "Listed in 46:21 as a son of Benjamin; Num 26:40 makes him a grandson through Bela."
+  },
+  {
+   "entity_id": "person.naphtali",
+   "canonical_name": "Naphtali",
+   "phonetic_name": "naf-tah-LEE",
+   "aliases": [],
+   "etymology_meaning": "'My wrestling', from Rachel's words in Gen 30:8.",
+   "summary_bio": "Son of Jacob by Bilhah. His four sons Jahzeel, Guni, Jezer and Shillem are listed in 46:24."
+  },
+  {
+   "entity_id": "person.ohad",
+   "canonical_name": "Ohad",
+   "phonetic_name": "OH-had",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'unity' or 'powerful'.",
+   "summary_bio": "Son of Simeon, named in 46:10 and not in later parallel lists."
+  },
+  {
+   "entity_id": "person.pallu",
+   "canonical_name": "Phallu",
+   "phonetic_name": "pal-LOO",
+   "aliases": [
+    "Pallu"
+   ],
+   "etymology_meaning": "Probably 'distinguished'.",
+   "summary_bio": "Son of Reuben, named in the Egypt list (46:9); ancestor of the Palluites."
+  },
+  {
+   "entity_id": "person.puah",
+   "canonical_name": "Phuvah",
+   "phonetic_name": "poo-VAH",
+   "aliases": [
+    "Puah",
+    "Puvah"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps a dye-plant (madder).",
+   "summary_bio": "Second son of Issachar in 46:13."
+  },
+  {
+   "entity_id": "person.rosh",
+   "canonical_name": "Rosh",
+   "phonetic_name": "ROHSH",
+   "aliases": [],
+   "etymology_meaning": "'Head' or 'chief'.",
+   "summary_bio": "Listed among the sons of Benjamin in 46:21."
+  },
+  {
+   "entity_id": "person.serah",
+   "canonical_name": "Serah",
+   "phonetic_name": "SEH-rakh",
+   "aliases": [
+    "Sarah"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'overflow'.",
+   "summary_bio": "The only daughter of Asher, named as 'their sister' in 46:17."
+  },
+  {
+   "entity_id": "person.sered",
+   "canonical_name": "Sered",
+   "phonetic_name": "SEH-red",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Eldest son of Zebulun in 46:14; ancestor of the Seredites."
+  },
+  {
+   "entity_id": "person.shaul.gen_46_10",
+   "canonical_name": "Shaul",
+   "phonetic_name": "shah-OOL",
+   "aliases": [
+    "Saul"
+   ],
+   "etymology_meaning": "'Asked for' or 'requested'.",
+   "summary_bio": "Simeon's son by a Canaanite woman, the only son of Simeon whose mother is given (46:10)."
+  },
+  {
+   "entity_id": "person.shillem",
+   "canonical_name": "Shillem",
+   "phonetic_name": "shil-LAYM",
+   "aliases": [
+    "Shallum"
+   ],
+   "etymology_meaning": "'Recompense' or 'retribution'.",
+   "summary_bio": "Youngest of Naphtali's four sons in 46:24; called Shallum in 1 Chr 7:13."
+  },
+  {
+   "entity_id": "person.shimron",
+   "canonical_name": "Shimron",
+   "phonetic_name": "shim-RONE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'watch' or 'guardian'.",
+   "summary_bio": "Fourth son of Issachar (46:13); ancestor of the Shimronites."
+  },
+  {
+   "entity_id": "person.shuni",
+   "canonical_name": "Shuni",
+   "phonetic_name": "shoo-NEE",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Gad in 46:16."
+  },
+  {
+   "entity_id": "person.tola",
+   "canonical_name": "Tola",
+   "phonetic_name": "toh-LAH",
+   "aliases": [],
+   "etymology_meaning": "'Crimson worm' or 'scarlet', the dye.",
+   "summary_bio": "Eldest son of Issachar in 46:13; ancestor of the Tolaites."
+  },
+  {
+   "entity_id": "person.zebulun",
+   "canonical_name": "Zebulun",
+   "phonetic_name": "zeh-voo-LOON",
+   "aliases": [
+    "Zebulon"
+   ],
+   "etymology_meaning": "Folk etymology in Gen 30:20: 'dwelling' or 'honour'.",
+   "summary_bio": "Sixth son of Jacob and Leah. Sered, Elon and Jahleel are his sons in the list (46:14)."
+  },
+  {
+   "entity_id": "person.zerah.gen_46_10",
+   "canonical_name": "Zohar",
+   "phonetic_name": "TSO-khar",
+   "aliases": [
+    "Zerah"
+   ],
+   "etymology_meaning": "'Whiteness' or 'reddish-brown', probably from a colour.",
+   "summary_bio": "Son of Simeon, written Zohar in this verse and Zerah in Num 26:13; the registry takes him as the Simeonite Zerah, distinct from Judah's son."
+  },
+  {
+   "entity_id": "person.ziphion",
+   "canonical_name": "Ziphion",
+   "phonetic_name": "tsif-YONE",
+   "aliases": [
+    "Zephon"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'watchtower' or 'north'.",
+   "summary_bio": "First of Gad's sons in 46:16; called Zephon in Num 26:15."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.israel.assurance.1",
+   "label_key": "Assurance",
+   "label_value": "Promised a great nation in Egypt",
+   "evidence_explanation": "46:3 God says: do not fear to go down to Egypt, for I will make you a great nation there."
+  },
+  {
+   "component_id": "comp.israel.dwelling.2",
+   "label_key": "Dwelling",
+   "label_value": "Arrived in the land of Goshen",
+   "evidence_explanation": "46:28 says they came into the land of Goshen; Joseph asks that they dwell there (46:34), and the settlement itself is granted later (47:6)."
+  },
+  {
+   "component_id": "comp.israel.mood.4",
+   "label_key": "Mood",
+   "label_value": "Content to die after seeing Joseph",
+   "evidence_explanation": "46:30 Israel says he can die now that he has seen Joseph's face."
+  },
+  {
+   "component_id": "comp.jacobs_family.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "Entered the land of Goshen",
+   "evidence_explanation": "46:28 the party comes to Goshen, where Joseph wants them to settle (46:34)."
+  },
+  {
+   "component_id": "comp.jacobs_family.trade.1",
+   "label_key": "Trade",
+   "label_value": "Shepherds and men of livestock",
+   "evidence_explanation": "46:32 and 46:34 Joseph tells them to say they have been men of livestock from their youth."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.sacrifice_offering",
+   "name": "Sacrificial meal offered to God",
+   "ancient_near_east_context": "Throughout the ancient Near East, sacrifices (zebahim) were slaughtered at an altar or sacred place and part was eaten by the worshippers, as a way of seeking the god's favour before an undertaking. The patriarchs offer them at places tied to earlier encounters.",
+   "rules_and_mechanics": [
+    "The offerer slaughters an animal at a sanctuary or altar",
+    "Part is shared in a meal before the deity",
+    "It is made to the God of the family's ancestors",
+    "It is fitting before a journey or a decision"
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_46.embrace_in_goshen",
+   "outcome_summary": "Joseph presents himself to his father, falls on his neck and weeps a long time.",
+   "significance_note": "It ends the long separation and prompts Israel's wish to die now that Joseph lives."
+  },
+  {
+   "instance_id": "inst.gen_46.night_vision",
+   "outcome_summary": "God calls 'Jacob, Jacob' in the visions of the night and Israel answers 'Here I am'.",
+   "significance_note": "The reply to the doubled call, as in Gen 22 and Ex 3, shows readiness; the vision makes the descent to Egypt something God commands."
+  },
+  {
+   "instance_id": "inst.gen_46.promise_of_nation",
+   "outcome_summary": "God promises to make Jacob a great nation in Egypt, to go down with him and bring him up again, and says Joseph will close his eyes.",
+   "significance_note": "It renews the covenant promise of nationhood in a foreign land and promises a return, linking the descent to the exodus."
+  },
+  {
+   "instance_id": "inst.gen_46.sacrifice_at_beersheba",
+   "outcome_summary": "Israel offers sacrifices at Beersheba to the God of his father Isaac before going down to Egypt.",
+   "significance_note": "Beersheba is where Isaac met God; the sacrifice asks for guidance at the first step outside the promised land."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_46.god_commands_not_to_fear",
+   "interaction_label": "commands",
+   "description": "God tells Jacob not to be afraid of going down to Egypt."
+  },
+  {
+   "edge_id": "edge.gen_46.god_promises_nation",
+   "interaction_label": "promises a nation to",
+   "description": "God promises to make Jacob a great nation in Egypt and to bring him up again."
+  },
+  {
+   "edge_id": "edge.gen_46.israel_sacrifices_to_god",
+   "interaction_label": "sacrifices to",
+   "description": "Israel offers sacrifices to the God of his father Isaac at Beersheba."
+  },
+  {
+   "edge_id": "edge.gen_46.israel_sends_judah",
+   "interaction_label": "sends ahead",
+   "description": "Jacob sends Judah ahead to Joseph to direct the way to Goshen."
+  },
+  {
+   "edge_id": "edge.gen_46.joseph_embraces_israel",
+   "interaction_label": "embraces",
+   "description": "Joseph falls on his father's neck and weeps for a long while."
+  },
+  {
+   "edge_id": "edge.gen_46.joseph_instructs_family",
+   "interaction_label": "instructs",
+   "description": "Joseph tells his brothers to say they are men of livestock when Pharaoh asks their occupation."
+  },
+  {
+   "edge_id": "edge.gen_46.pharaoh_sends_wagons",
+   "interaction_label": "provides wagons for",
+   "description": "Pharaoh sends wagons to carry Jacob and his household to Egypt."
+  },
+  {
+   "edge_id": "edge.gen_46.sons_carry_israel",
+   "interaction_label": "carries",
+   "description": "The sons of Israel carry their father Jacob, with the children and wives, in Pharaoh's wagons."
+  }
+ ]
+}

@@ -1,0 +1,832 @@
+{
+ "chapter_ref": "GEN.28",
+ "entities": [
+  {
+   "entity_id": "artifact.ladder_of_bethel",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "סֻלָּם",
+   "transliterated_name": "sullām",
+   "first_mention_verse": "GEN.28.12"
+  },
+  {
+   "entity_id": "artifact.stone_of_bethel",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אֶבֶן",
+   "transliterated_name": "ʾeven",
+   "first_mention_verse": "GEN.28.11"
+  },
+  {
+   "entity_id": "group.angels_of_god",
+   "entity_type": "GROUP",
+   "source_script_name": "מַלְאֲכֵי אֱלֹהִים",
+   "transliterated_name": "malʾăkê ʾĕlōhîm",
+   "first_mention_verse": "GEN.28.12"
+  },
+  {
+   "entity_id": "person.mahalath",
+   "tipnr_id": "Mahalath@Gen.28.9-",
+   "entity_type": "PERSON",
+   "source_script_name": "מָחֲלַת",
+   "transliterated_name": "Maḥălat",
+   "first_mention_verse": "GEN.28.9"
+  },
+  {
+   "entity_id": "substance.oil",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "שֶׁמֶן",
+   "transliterated_name": "šemen",
+   "first_mention_verse": "GEN.28.18"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.conditional_vow",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.pillar_consecration",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.revelatory_dream",
+   "category": "PROPHETIC_ORACLE"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_28.isaac_charges_jacob",
+   "verse_start": "GEN.28.1",
+   "verse_end": "GEN.28.4",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_27.rebekah_complains_to_isaac",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.jacob_departs",
+   "verse_start": "GEN.28.5",
+   "verse_end": "GEN.28.10",
+   "location_entity_id": "loc.beersheba",
+   "time": {
+    "anchor": "evt.gen_28.isaac_charges_jacob",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 2.5,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.beersheba",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.haran",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bethuel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.esau_marries_mahalath",
+   "verse_start": "GEN.28.6",
+   "verse_end": "GEN.28.9",
+   "time": {
+    "anchor": "evt.gen_28.jacob_departs",
+    "anchor_point": "END",
+    "offset": {
+     "value": 20.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 20.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.mahalath",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.nebaioth",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.night_at_bethel",
+   "verse_start": "GEN.28.11",
+   "verse_end": "GEN.28.11",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.jacob_departs",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "time_of_day": "EREV",
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.stone_of_bethel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.ladder_dream",
+   "verse_start": "GEN.28.12",
+   "verse_end": "GEN.28.12",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.night_at_bethel",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ladder_of_bethel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.angels_of_god",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.earth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.promise_at_bethel",
+   "verse_start": "GEN.28.13",
+   "verse_end": "GEN.28.15",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.ladder_dream",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.ladder_of_bethel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.jacob_awakes",
+   "verse_start": "GEN.28.16",
+   "verse_end": "GEN.28.17",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.promise_at_bethel",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.heaven",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.pillar_bethel",
+   "verse_start": "GEN.28.18",
+   "verse_end": "GEN.28.19",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.jacob_awakes",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.stone_of_bethel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.oil",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_28.jacob_vow",
+   "verse_start": "GEN.28.20",
+   "verse_end": "GEN.28.22",
+   "location_entity_id": "loc.bethel",
+   "time": {
+    "anchor": "evt.gen_28.pillar_bethel",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.stone_of_bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_27.rebekah_complains_to_isaac.isaac_charges_jacob",
+   "cause_event_id": "evt.gen_27.rebekah_complains_to_isaac",
+   "effect_event_id": "evt.gen_28.isaac_charges_jacob",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.85
+  },
+  {
+   "causal_id": "caus.gen_27.rebekah_warns_jacob.jacob_departs",
+   "cause_event_id": "evt.gen_27.rebekah_warns_jacob",
+   "effect_event_id": "evt.gen_28.jacob_departs",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_28.isaac_charges_jacob.esau_marries_mahalath",
+   "cause_event_id": "evt.gen_28.isaac_charges_jacob",
+   "effect_event_id": "evt.gen_28.esau_marries_mahalath",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_28.isaac_charges_jacob.jacob_departs",
+   "cause_event_id": "evt.gen_28.isaac_charges_jacob",
+   "effect_event_id": "evt.gen_28.jacob_departs",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_awakes",
+   "cause_event_id": "evt.gen_28.promise_at_bethel",
+   "effect_event_id": "evt.gen_28.jacob_awakes",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_28.promise_at_bethel.jacob_vow",
+   "cause_event_id": "evt.gen_28.promise_at_bethel",
+   "effect_event_id": "evt.gen_28.jacob_vow",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.bethel.name.1",
+   "entity_id": "loc.bethel",
+   "category": "TRAIT",
+   "component_key": "name",
+   "value_code": "BETHEL",
+   "acquired_at_verse": "GEN.28.19",
+   "acquired_in_event": "evt.gen_28.pillar_bethel"
+  },
+  {
+   "component_id": "comp.esau.wife_mahalath.1",
+   "entity_id": "person.esau",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_mahalath",
+   "target_entity_id": "person.mahalath",
+   "acquired_at_verse": "GEN.28.9",
+   "acquired_in_event": "evt.gen_28.esau_marries_mahalath"
+  },
+  {
+   "component_id": "comp.israel.awe.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "awe",
+   "value_code": "AWESTRUCK",
+   "acquired_at_verse": "GEN.28.17",
+   "acquired_in_event": "evt.gen_28.jacob_awakes"
+  },
+  {
+   "component_id": "comp.israel.covenant_promise.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "covenant_promise",
+   "value_code": "LAND_AND_SEED_PROMISED",
+   "acquired_at_verse": "GEN.28.13",
+   "acquired_in_event": "evt.gen_28.promise_at_bethel"
+  },
+  {
+   "component_id": "comp.israel.divine_presence.1",
+   "entity_id": "person.israel",
+   "category": "ALLEGIANCE",
+   "component_key": "divine_presence",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.28.15",
+   "acquired_in_event": "evt.gen_28.promise_at_bethel"
+  },
+  {
+   "component_id": "comp.israel.vow.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "vow",
+   "value_code": "CONDITIONAL_VOW_PENDING",
+   "acquired_at_verse": "GEN.28.20",
+   "acquired_in_event": "evt.gen_28.jacob_vow"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.1",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.bethel",
+   "acquired_at_verse": "GEN.28.11",
+   "acquired_in_event": "evt.gen_28.night_at_bethel"
+  },
+  {
+   "component_id": "comp.stone_of_bethel.status.1",
+   "entity_id": "artifact.stone_of_bethel",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "PILLOW",
+   "acquired_at_verse": "GEN.28.11",
+   "acquired_in_event": "evt.gen_28.night_at_bethel",
+   "expired_at_verse": "GEN.28.18",
+   "expired_in_event": "evt.gen_28.pillar_bethel"
+  },
+  {
+   "component_id": "comp.stone_of_bethel.status.2",
+   "entity_id": "artifact.stone_of_bethel",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "ANOINTED_PILLAR",
+   "supersedes_component_id": "comp.stone_of_bethel.status.1",
+   "acquired_at_verse": "GEN.28.18",
+   "acquired_in_event": "evt.gen_28.pillar_bethel"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_28.bethel_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_28.pillar_bethel",
+   "verse_start": "GEN.28.19",
+   "verse_end": "GEN.28.19",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "loc.bethel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "place name",
+    "Luz"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.esau_takes_mahalath",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_28.esau_marries_mahalath",
+   "verse_start": "GEN.28.9",
+   "verse_end": "GEN.28.9",
+   "initiator_entity_id": "person.esau",
+   "target_entity_ids": [
+    "person.mahalath"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "additional wife",
+    "kin marriage"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.isaac_blesses_jacob",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_28.isaac_charges_jacob",
+   "verse_start": "GEN.28.1",
+   "verse_end": "GEN.28.4",
+   "initiator_entity_id": "person.isaac",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.beersheba",
+   "tags": [
+    "blessing",
+    "abrahamic",
+    "send-off"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.jacobs_vow",
+   "system_id": "sys.conditional_vow",
+   "event_id": "evt.gen_28.jacob_vow",
+   "verse_start": "GEN.28.20",
+   "verse_end": "GEN.28.21",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "vow",
+    "presence",
+    "bread and clothing",
+    "return in peace"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.ladder_dream",
+   "system_id": "sys.revelatory_dream",
+   "event_id": "evt.gen_28.ladder_dream",
+   "verse_start": "GEN.28.12",
+   "verse_end": "GEN.28.12",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ladder_of_bethel"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "dream",
+    "stairway",
+    "angels"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.pillar_anointed",
+   "system_id": "sys.pillar_consecration",
+   "event_id": "evt.gen_28.pillar_bethel",
+   "verse_start": "GEN.28.18",
+   "verse_end": "GEN.28.18",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [
+    "artifact.stone_of_bethel",
+    "substance.oil"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "standing stone",
+    "oil",
+    "morning"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.promise_to_jacob",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_28.promise_at_bethel",
+   "verse_start": "GEN.28.13",
+   "verse_end": "GEN.28.15",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "land",
+    "offspring",
+    "blessing to nations",
+    "presence"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.tithe_vowed",
+   "system_id": "sys.tithe",
+   "event_id": "evt.gen_28.jacob_vow",
+   "verse_start": "GEN.28.22",
+   "verse_end": "GEN.28.22",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "artifact.stone_of_bethel"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "tithe",
+    "house of God"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_28.yhwh_stands_above_ladder",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_28.promise_at_bethel",
+   "verse_start": "GEN.28.13",
+   "verse_end": "GEN.28.13",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [
+    "artifact.ladder_of_bethel"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "theophany",
+    "dream"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_28.esau_marries_mahalath",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.mahalath",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.28.9",
+   "event_id": "evt.gen_28.esau_marries_mahalath"
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_blesses_jacob",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.28.1",
+   "event_id": "evt.gen_28.isaac_charges_jacob"
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_forbids_canaanite_wife",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.28.1",
+   "event_id": "evt.gen_28.isaac_charges_jacob"
+  },
+  {
+   "edge_id": "edge.gen_28.isaac_sends_jacob",
+   "source_entity_id": "person.isaac",
+   "target_entity_id": "person.israel",
+   "interaction_type": "SENDS",
+   "verse_id": "GEN.28.5",
+   "event_id": "evt.gen_28.jacob_departs"
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_consecrates_stone",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "artifact.stone_of_bethel",
+   "interaction_type": "CONSECRATES",
+   "verse_id": "GEN.28.18",
+   "event_id": "evt.gen_28.pillar_bethel"
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_names_bethel",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "loc.bethel",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.28.19",
+   "event_id": "evt.gen_28.pillar_bethel"
+  },
+  {
+   "edge_id": "edge.gen_28.jacob_vows_to_yhwh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "VOWS_TO",
+   "verse_id": "GEN.28.20",
+   "event_id": "evt.gen_28.jacob_vow"
+  },
+  {
+   "edge_id": "edge.gen_28.yhwh_pledges_protection",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PROTECTS",
+   "verse_id": "GEN.28.15",
+   "event_id": "evt.gen_28.promise_at_bethel"
+  },
+  {
+   "edge_id": "edge.gen_28.yhwh_promises_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.28.13",
+   "event_id": "evt.gen_28.promise_at_bethel"
+  }
+ ]
+}

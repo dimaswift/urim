@@ -1,0 +1,100 @@
+{
+ "chapter_ref": "GEN.22",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_22.god_tests_abraham",
+   "title": "God tests Abraham and tells him to offer Isaac",
+   "narrative_summary": "After these things God tests Abraham, calling him by name. He tells him to take Isaac, his only son whom he loves, to the land of Moriah and offer him there as a burnt offering on a mountain that God will show.",
+   "temporal_reasoning_note": "The text says only 'after these things'. No figure is given, so the event is anchored on the end of the last Gen 21 event with an offset of 5 years and a 5-year margin at MACRO_ERA; Isaac is a 'lad' (na'ar), and Targum Pseudo-Jonathan puts him at 36. The speech is brief, 10 minutes.",
+   "ancient_year_marker": "After these things"
+  },
+  {
+   "event_id": "evt.gen_22.abraham_sets_out",
+   "title": "Abraham rises early and sets out for Moriah",
+   "narrative_summary": "Abraham rises early in the morning, saddles his donkey, takes two young men and Isaac, splits the wood for the burnt offering, and goes toward the place God named.",
+   "temporal_reasoning_note": "'Rose early in the morning' is BOKER, taken as the first morning after the command, so the event starts at the end of the command with no offset and snaps to 06:00. Duration is the journey: `urim travel loc.beersheba loc.moriah_mount --mode donkey` gives 70 km straight, c. 88 km by road, 4 km/h, 21.9 h moving, elapsed about 2 days. This agrees with 'on the third day' in 22:4. Margin 2 hours.",
+   "ancient_diurnal_marker": "In the morning, early"
+  },
+  {
+   "event_id": "evt.gen_22.abraham_sees_the_place",
+   "title": "On the third day Abraham sees the place from afar",
+   "narrative_summary": "On the third day Abraham lifts up his eyes and sees the place in the distance.",
+   "temporal_reasoning_note": "'On the third day' counted inclusively: the day of departure is day 1, so the sighting falls at the departure START + 2 days; the first BOKER is already the start, so no time_of_day. Margin 12 hours for the Hebrew-day and inclusive-counting ambiguity. It matches the 2-day donkey journey from `urim travel`. Rashi: the delay was to avoid a sudden shock; Radak: the third day since leaving home.",
+   "ancient_diurnal_marker": "On the third day"
+  },
+  {
+   "event_id": "evt.gen_22.servants_left_behind",
+   "title": "Abraham tells his servants to wait with the donkey",
+   "narrative_summary": "Abraham tells his young men to stay here with the donkey while he and the boy go on to worship and then return to them.",
+   "temporal_reasoning_note": "Continuous with the sighting on the same day: starts when the sighting ends. A short speech, 10 minutes, margin 1 hour. Tier DAY_SEQUENCE, the day the third-day indication frames."
+  },
+  {
+   "event_id": "evt.gen_22.abraham_and_isaac_climb",
+   "title": "Abraham and Isaac go up together and speak of the lamb",
+   "narrative_summary": "Abraham lays the wood on Isaac and carries the fire and the knife, and they walk on together. Isaac asks where the lamb is, and Abraham answers that God will provide himself the lamb for the burnt offering.",
+   "temporal_reasoning_note": "Continuous after the servants stay behind, the same day. The remaining walk from the point of sighting to the mountain is estimated at 2 hours (the text gives no figure), margin 1 hour. Not an hour of the day, so DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_22.altar_and_binding",
+   "title": "Abraham builds the altar, binds Isaac and takes the knife",
+   "narrative_summary": "At the place, Abraham builds an altar, arranges the wood, binds Isaac and lays him on the altar above the wood. He stretches out his hand and takes the knife to slay his son.",
+   "temporal_reasoning_note": "Starts the moment the climb ends. Building an altar, arranging the wood and binding take about an hour; margin 30 minutes. The text names no hour; DAY_SEQUENCE."
+  },
+  {
+   "event_id": "evt.gen_22.angel_stops_sacrifice",
+   "title": "The angel of the LORD calls from heaven and stops Abraham",
+   "narrative_summary": "The angel of the LORD calls Abraham twice by name from heaven and tells him not to lay his hand on the boy, for now God knows that Abraham fears God, since he did not withhold his only son.",
+   "temporal_reasoning_note": "The call interrupts the raised knife, so the event starts when the binding ends, with no delay. Five minutes, margin 5 minutes."
+  },
+  {
+   "event_id": "evt.gen_22.ram_offered",
+   "title": "Abraham offers a ram in place of his son",
+   "narrative_summary": "Abraham lifts his eyes and sees a ram caught by its horns in a thicket. He takes it and offers it as a burnt offering instead of his son, and calls the place 'The LORD will provide'.",
+   "temporal_reasoning_note": "Follows the angel's words at once. Taking, killing and burning the ram, then naming the place, is estimated at 2 hours (a rite takes hours); margin 30 minutes. The text gives no hour."
+  },
+  {
+   "event_id": "evt.gen_22.oath_and_blessing",
+   "title": "The angel calls a second time and swears the blessing",
+   "narrative_summary": "The angel of the LORD calls to Abraham from heaven a second time. In the LORD's name he swears that because Abraham did not withhold his only son, he will bless and multiply his offspring like the stars and the sand, and all nations will be blessed through them.",
+   "temporal_reasoning_note": "'A second time' follows the first call and the offering; it starts when the ram offering ends. A short speech, 10 minutes, margin 1 hour. The text gives no hour.",
+   "ancient_diurnal_marker": "A second time"
+  },
+  {
+   "event_id": "evt.gen_22.return_to_beersheba",
+   "title": "Abraham returns to his servants and they go to Beersheba",
+   "narrative_summary": "Abraham returns to his young men, and they rise and go together to Beersheba, where Abraham lives.",
+   "temporal_reasoning_note": "Starts right after the oath. The return is the same distance as the way out: `urim travel loc.beersheba loc.moriah_mount --mode donkey` gave 70 km straight, c. 88 km by road, 4 km/h, elapsed about 2 days. The text gives no duration, so 2 days with a margin of a day. Isaac is not named in the verse."
+  },
+  {
+   "event_id": "evt.gen_22.news_of_milcahs_sons",
+   "title": "Abraham is told that Milcah has borne sons to Nahor",
+   "narrative_summary": "After these things Abraham is told that Milcah has also borne children to his brother Nahor: eight sons, among them Bethuel, who fathered Rebekah, and four more sons by Nahor's concubine Reumah.",
+   "temporal_reasoning_note": "'After these things' with no figure. Rashi has the news reach Abraham on his return from Moriah, so it starts at the end of the return with no offset; the margin is a year because the text gives no date and the births themselves are undated. MACRO_ERA.",
+   "ancient_year_marker": "After these things"
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_22.abraham_and_isaac_climb.ram_offered",
+   "causal_explanation": "Abraham's word 'God will provide himself a lamb' (22:8) comes true when he finds a ram caught in the thicket (22:13)."
+  },
+  {
+   "causal_id": "caus.gen_22.altar_and_binding.angel_stops_sacrifice",
+   "causal_explanation": "The angel calls out because Abraham has taken the knife to slay Isaac (22:10–11)."
+  },
+  {
+   "causal_id": "caus.gen_22.altar_and_binding.oath_and_blessing",
+   "causal_explanation": "The oath and blessing come 'because you have done this thing and have not withheld your son' (22:16)."
+  },
+  {
+   "causal_id": "caus.gen_22.god_tests_abraham.abraham_sets_out",
+   "causal_explanation": "Abraham sets out because God commanded him to take Isaac to Moriah (22:3 answers 22:2)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

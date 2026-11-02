@@ -1,0 +1,934 @@
+{
+ "chapter_ref": "GEN.3",
+ "entities": [
+  {
+   "entity_id": "artifact.flaming_sword",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "לַהַט הַחֶרֶב הַמִּתְהַפֶּכֶת",
+   "transliterated_name": "lahaṭ ha-ḥereb ham-mithappeket",
+   "first_mention_verse": "GEN.3.24"
+  },
+  {
+   "entity_id": "artifact.skin_garments",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "כָּתְנוֹת עוֹר",
+   "transliterated_name": "kotnôt ʿôr",
+   "first_mention_verse": "GEN.3.21"
+  },
+  {
+   "entity_id": "group.cherubim",
+   "entity_type": "GROUP",
+   "source_script_name": "הַכְּרֻבִים",
+   "transliterated_name": "hak-kərubîm",
+   "first_mention_verse": "GEN.3.24"
+  },
+  {
+   "entity_id": "loc.ground",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָאֲדָמָה",
+   "transliterated_name": "hā-ʾădāmâ",
+   "first_mention_verse": "GEN.3.17"
+  },
+  {
+   "entity_id": "person.serpent",
+   "entity_type": "PERSON",
+   "source_script_name": "הַנָּחָשׁ",
+   "transliterated_name": "han-nāḥāš",
+   "first_mention_verse": "GEN.3.1"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_curse",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_3.serpent_tempts_woman",
+   "verse_start": "GEN.3.1",
+   "verse_end": "GEN.3.5",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_2.man_speaks_one_flesh",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tree_of_knowledge",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.serpent",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.fruit_eaten",
+   "verse_start": "GEN.3.6",
+   "verse_end": "GEN.3.6",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.serpent_tempts_woman",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tree_of_knowledge",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.eyes_opened",
+   "verse_start": "GEN.3.7",
+   "verse_end": "GEN.3.7",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.fruit_eaten",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.hide_from_god",
+   "verse_start": "GEN.3.8",
+   "verse_end": "GEN.3.8",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.eyes_opened",
+    "anchor_point": "END",
+    "time_of_day": "BEIN_HAARBAYIM",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.god_questions_them",
+   "verse_start": "GEN.3.9",
+   "verse_end": "GEN.3.13",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.hide_from_god",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.serpent",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.curse_serpent",
+   "verse_start": "GEN.3.14",
+   "verse_end": "GEN.3.15",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.god_questions_them",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.serpent",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.sentence_woman",
+   "verse_start": "GEN.3.16",
+   "verse_end": "GEN.3.16",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.curse_serpent",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.sentence_man",
+   "verse_start": "GEN.3.17",
+   "verse_end": "GEN.3.19",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.sentence_woman",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.ground",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.eve_named",
+   "verse_start": "GEN.3.20",
+   "verse_end": "GEN.3.20",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.sentence_man",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.god_clothes_them",
+   "verse_start": "GEN.3.21",
+   "verse_end": "GEN.3.21",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.eve_named",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.skin_garments",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.tree_of_life_concern",
+   "verse_start": "GEN.3.22",
+   "verse_end": "GEN.3.22",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.god_clothes_them",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.tree_of_life",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_3.expelled_from_eden",
+   "verse_start": "GEN.3.23",
+   "verse_end": "GEN.3.24",
+   "location_entity_id": "loc.garden_of_eden",
+   "time": {
+    "anchor": "evt.gen_3.tree_of_life_concern",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.flaming_sword",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "artifact.tree_of_life",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.cherubim",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_3.eyes_opened.hide_from_god",
+   "cause_event_id": "evt.gen_3.eyes_opened",
+   "effect_event_id": "evt.gen_3.hide_from_god",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_3.fruit_eaten.eyes_opened",
+   "cause_event_id": "evt.gen_3.fruit_eaten",
+   "effect_event_id": "evt.gen_3.eyes_opened",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_3.fruit_eaten.sentence_man",
+   "cause_event_id": "evt.gen_3.fruit_eaten",
+   "effect_event_id": "evt.gen_3.sentence_man",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_3.fruit_eaten.sentence_woman",
+   "cause_event_id": "evt.gen_3.fruit_eaten",
+   "effect_event_id": "evt.gen_3.sentence_woman",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_3.fruit_eaten.tree_of_life_concern",
+   "cause_event_id": "evt.gen_3.fruit_eaten",
+   "effect_event_id": "evt.gen_3.tree_of_life_concern",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_3.hide_from_god.god_questions_them",
+   "cause_event_id": "evt.gen_3.hide_from_god",
+   "effect_event_id": "evt.gen_3.god_questions_them",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_3.serpent_tempts_woman.curse_serpent",
+   "cause_event_id": "evt.gen_3.serpent_tempts_woman",
+   "effect_event_id": "evt.gen_3.curse_serpent",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_3.serpent_tempts_woman.fruit_eaten",
+   "cause_event_id": "evt.gen_3.serpent_tempts_woman",
+   "effect_event_id": "evt.gen_3.fruit_eaten",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_3.tree_of_life_concern.expelled_from_eden",
+   "cause_event_id": "evt.gen_3.tree_of_life_concern",
+   "effect_event_id": "evt.gen_3.expelled_from_eden",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.adam.clothing.1",
+   "entity_id": "person.adam",
+   "category": "POSSESSION",
+   "component_key": "clothing",
+   "value_code": "FIG_LEAF_LOINCLOTH",
+   "acquired_at_verse": "GEN.3.7",
+   "acquired_in_event": "evt.gen_3.eyes_opened",
+   "expired_at_verse": "GEN.3.21",
+   "expired_in_event": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "component_id": "comp.adam.clothing.2",
+   "entity_id": "person.adam",
+   "category": "POSSESSION",
+   "component_key": "clothing",
+   "target_entity_id": "artifact.skin_garments",
+   "supersedes_component_id": "comp.adam.clothing.1",
+   "acquired_at_verse": "GEN.3.21",
+   "acquired_in_event": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "component_id": "comp.adam.dwelling.2",
+   "entity_id": "person.adam",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "value_code": "OUTSIDE_EDEN",
+   "supersedes_component_id": "comp.adam.dwelling.1",
+   "acquired_at_verse": "GEN.3.23",
+   "acquired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.adam.mood.1",
+   "entity_id": "person.adam",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "AFRAID",
+   "acquired_at_verse": "GEN.3.10",
+   "acquired_in_event": "evt.gen_3.god_questions_them"
+  },
+  {
+   "component_id": "comp.adam.occupation.2",
+   "entity_id": "person.adam",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "TILLER_OF_CURSED_GROUND",
+   "supersedes_component_id": "comp.adam.occupation.1",
+   "acquired_at_verse": "GEN.3.23",
+   "acquired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.adam.shame.2",
+   "entity_id": "person.adam",
+   "category": "PSYCH_STATE",
+   "component_key": "shame",
+   "value_code": "AWARE_OF_NAKEDNESS",
+   "supersedes_component_id": "comp.adam.shame.1",
+   "acquired_at_verse": "GEN.3.7",
+   "acquired_in_event": "evt.gen_3.eyes_opened"
+  },
+  {
+   "component_id": "comp.loc_ground.condition.1",
+   "entity_id": "loc.ground",
+   "category": "TRAIT",
+   "component_key": "condition",
+   "value_code": "CURSED",
+   "acquired_at_verse": "GEN.3.17",
+   "acquired_in_event": "evt.gen_3.sentence_man"
+  },
+  {
+   "component_id": "comp.serpent.status.1",
+   "entity_id": "person.serpent",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "CURSED",
+   "acquired_at_verse": "GEN.3.14",
+   "acquired_in_event": "evt.gen_3.curse_serpent"
+  },
+  {
+   "component_id": "comp.tree_of_life.access.1",
+   "entity_id": "artifact.tree_of_life",
+   "category": "TRAIT",
+   "component_key": "access",
+   "value_code": "GUARDED_BY_CHERUBIM",
+   "acquired_at_verse": "GEN.3.24",
+   "acquired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.woman_of_eden.clothing.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "POSSESSION",
+   "component_key": "clothing",
+   "value_code": "FIG_LEAF_LOINCLOTH",
+   "acquired_at_verse": "GEN.3.7",
+   "acquired_in_event": "evt.gen_3.eyes_opened",
+   "expired_at_verse": "GEN.3.21",
+   "expired_in_event": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "component_id": "comp.woman_of_eden.clothing.2",
+   "entity_id": "person.woman_of_eden",
+   "category": "POSSESSION",
+   "component_key": "clothing",
+   "target_entity_id": "artifact.skin_garments",
+   "supersedes_component_id": "comp.woman_of_eden.clothing.1",
+   "acquired_at_verse": "GEN.3.21",
+   "acquired_in_event": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "component_id": "comp.woman_of_eden.dwelling.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "value_code": "OUTSIDE_EDEN",
+   "acquired_at_verse": "GEN.3.23",
+   "acquired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.woman_of_eden.husband_authority.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "ALLEGIANCE",
+   "component_key": "husband_authority",
+   "target_entity_id": "person.adam",
+   "acquired_at_verse": "GEN.3.16",
+   "acquired_in_event": "evt.gen_3.sentence_woman"
+  },
+  {
+   "component_id": "comp.woman_of_eden.name.1",
+   "entity_id": "person.woman_of_eden",
+   "category": "ROLE_TITLE",
+   "component_key": "name",
+   "value_code": "EVE",
+   "acquired_at_verse": "GEN.3.20",
+   "acquired_in_event": "evt.gen_3.eve_named"
+  },
+  {
+   "component_id": "comp.woman_of_eden.shame.2",
+   "entity_id": "person.woman_of_eden",
+   "category": "PSYCH_STATE",
+   "component_key": "shame",
+   "value_code": "AWARE_OF_NAKEDNESS",
+   "supersedes_component_id": "comp.woman_of_eden.shame.1",
+   "acquired_at_verse": "GEN.3.7",
+   "acquired_in_event": "evt.gen_3.eyes_opened"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.adam.dwelling.1",
+   "expired_at_verse": "GEN.3.23",
+   "expired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.adam.occupation.1",
+   "expired_at_verse": "GEN.3.23",
+   "expired_in_event": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "component_id": "comp.adam.shame.1",
+   "expired_at_verse": "GEN.3.7",
+   "expired_in_event": "evt.gen_3.eyes_opened"
+  },
+  {
+   "component_id": "comp.woman_of_eden.shame.1",
+   "expired_at_verse": "GEN.3.7",
+   "expired_in_event": "evt.gen_3.eyes_opened"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_3.eve_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_3.eve_named",
+   "verse_start": "GEN.3.20",
+   "verse_end": "GEN.3.20",
+   "initiator_entity_id": "person.adam",
+   "target_entity_ids": [
+    "person.woman_of_eden"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "naming",
+    "mother_of_all_living"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_3.ground_cursed",
+   "system_id": "sys.divine_curse",
+   "event_id": "evt.gen_3.sentence_man",
+   "verse_start": "GEN.3.17",
+   "verse_end": "GEN.3.18",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "loc.ground"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "curse",
+    "thorns_and_thistles"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_3.judgment_on_man",
+   "system_id": "sys.divine_decree",
+   "event_id": "evt.gen_3.sentence_man",
+   "verse_start": "GEN.3.17",
+   "verse_end": "GEN.3.19",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.adam"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "toil",
+    "return_to_dust"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_3.judgment_on_woman",
+   "system_id": "sys.divine_decree",
+   "event_id": "evt.gen_3.sentence_woman",
+   "verse_start": "GEN.3.16",
+   "verse_end": "GEN.3.16",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.woman_of_eden"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "childbearing",
+    "consequence"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_3.serpent_cursed",
+   "system_id": "sys.divine_curse",
+   "event_id": "evt.gen_3.curse_serpent",
+   "verse_start": "GEN.3.14",
+   "verse_end": "GEN.3.15",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.serpent"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "curse",
+    "enmity"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_3.yhwh_walks_in_garden",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_3.hide_from_god",
+   "verse_start": "GEN.3.8",
+   "verse_end": "GEN.3.8",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.adam",
+    "person.woman_of_eden"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.garden_of_eden",
+   "tags": [
+    "walking",
+    "evening_breeze"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_3.adam_blames_woman",
+   "source_entity_id": "person.adam",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.3.12",
+   "event_id": "evt.gen_3.god_questions_them"
+  },
+  {
+   "edge_id": "edge.gen_3.adam_names_eve",
+   "source_entity_id": "person.adam",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.3.20",
+   "event_id": "evt.gen_3.eve_named"
+  },
+  {
+   "edge_id": "edge.gen_3.serpent_deceives_woman",
+   "source_entity_id": "person.serpent",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.3.4",
+   "event_id": "evt.gen_3.serpent_tempts_woman"
+  },
+  {
+   "edge_id": "edge.gen_3.serpent_questions_woman",
+   "source_entity_id": "person.serpent",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.3.1",
+   "event_id": "evt.gen_3.serpent_tempts_woman"
+  },
+  {
+   "edge_id": "edge.gen_3.woman_blames_serpent",
+   "source_entity_id": "person.woman_of_eden",
+   "target_entity_id": "person.serpent",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.3.13",
+   "event_id": "evt.gen_3.god_questions_them"
+  },
+  {
+   "edge_id": "edge.gen_3.woman_gives_fruit_to_adam",
+   "source_entity_id": "person.woman_of_eden",
+   "target_entity_id": "person.adam",
+   "interaction_type": "GIVES_TO",
+   "verse_id": "GEN.3.6",
+   "event_id": "evt.gen_3.fruit_eaten"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_calls_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "CALLS",
+   "verse_id": "GEN.3.9",
+   "event_id": "evt.gen_3.god_questions_them"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_clothes_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "CLOTHES",
+   "verse_id": "GEN.3.21",
+   "event_id": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_clothes_woman",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "CLOTHES",
+   "verse_id": "GEN.3.21",
+   "event_id": "evt.gen_3.god_clothes_them"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_curses_ground",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "loc.ground",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.3.17",
+   "event_id": "evt.gen_3.sentence_man"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_curses_serpent",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.serpent",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.3.14",
+   "event_id": "evt.gen_3.curse_serpent"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_expels_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "EXPELS",
+   "verse_id": "GEN.3.23",
+   "event_id": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_posts_cherubim",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.cherubim",
+   "interaction_type": "COMMISSIONS",
+   "verse_id": "GEN.3.24",
+   "event_id": "evt.gen_3.expelled_from_eden"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_sentences_adam",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.adam",
+   "interaction_type": "SENTENCES",
+   "verse_id": "GEN.3.19",
+   "event_id": "evt.gen_3.sentence_man"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_sentences_woman",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.woman_of_eden",
+   "interaction_type": "SENTENCES",
+   "verse_id": "GEN.3.16",
+   "event_id": "evt.gen_3.sentence_woman"
+  },
+  {
+   "edge_id": "edge.gen_3.yhwh_sets_enmity",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.serpent",
+   "interaction_type": "SETS_ENMITY_WITH",
+   "verse_id": "GEN.3.15",
+   "event_id": "evt.gen_3.curse_serpent"
+  }
+ ]
+}

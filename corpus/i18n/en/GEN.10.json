@@ -1,0 +1,752 @@
+{
+ "chapter_ref": "GEN.10",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_10.nimrod_mighty_hunter",
+   "title": "Nimrod, son of Cush, becomes a mighty hunter",
+   "narrative_summary": "Cush fathers Nimrod, who begins to be a mighty man on the earth. He is a mighty hunter before the LORD, which gives rise to a proverb.",
+   "temporal_reasoning_note": "No date in the text ('he began to be a mighty one on the earth'). Placed by estimate 60 years after the Flood began (anchor.flood), margin 40 years, after Noah's grandsons' generation and before the division of the earth in Peleg's days (about 101 years after the Flood in the MT chain). MACRO_ERA because the text gives no year, only the rise of a figure in the early post-Flood world."
+  },
+  {
+   "event_id": "evt.gen_10.nimrod_kingdom",
+   "title": "Nimrod's kingdom begins in Babel, Erech, Akkad and Calneh",
+   "narrative_summary": "The beginning of Nimrod's kingdom is Babel, Erech, Accad and Calneh in the land of Shinar.",
+   "temporal_reasoning_note": "'The beginning of his kingdom' follows his rise as a mighty man; 10 years after its start (margin 15 years) is an estimate with no textual date. MACRO_ERA. Babel here is the city; the Tower of Babel story of Gen 11 is not dated by this event."
+  },
+  {
+   "event_id": "evt.gen_10.asshur_builds_cities",
+   "title": "Asshur goes out from that land and builds Nineveh and other cities",
+   "narrative_summary": "From that land Asshur went out and built Nineveh, Rehoboth-Ir, Calah and Resen between Nineveh and Calah, which is the great city.",
+   "temporal_reasoning_note": "'From that land' (10:11) places it after Nimrod's kingdom in Shinar; 10 years after its start with a 15-year margin is an estimate. MACRO_ERA. Reading note: the Hebrew can mean Asshur (the person) went out, or that Nimrod went out to Assyria (so Targum Pseudo-Jonathan and KJV margin); I follow the plain reading of Asshur as subject, as Onkelos does. Travel times are not computed: the text gives no journey, only building (Accad to Nineveh is about 388 km straight line)."
+  },
+  {
+   "event_id": "evt.gen_10.canaanite_clans_spread",
+   "title": "The Canaanite clans scatter across their territory",
+   "narrative_summary": "After the Canaanite clans were born, they were spread abroad, and the Canaanite border ran from Sidon toward Gerar as far as Gaza, and toward Sodom, Gomorrah, Admah and Zeboiim as far as Lasha.",
+   "temporal_reasoning_note": "'Afterward' (10:18) places the scattering after the births of the Canaanite peoples; not tied by the text to the division of Peleg's days, which I use as a rough anchor: 10 years after its start, margin 30 years, duration 50 years. MACRO_ERA. Territory description in 10:19 is the result, not a separate event. No journey is recorded, so no travel time is used.",
+   "ancient_year_marker": "Afterward"
+  },
+  {
+   "event_id": "evt.gen_10.earth_divided",
+   "title": "The earth is divided in Peleg's days",
+   "narrative_summary": "In the days of Peleg the earth was divided, and the name Peleg records it.",
+   "temporal_reasoning_note": "'In his days' (10:25) with no year. Peleg lived 239 years (Gen 11:16-19), so 'his days' cover his whole life. The start is anchored on his birth with offset 120 years and margin 120 years (0 to 240 years after his birth, covering his full lifespan); the midpoint of 120 years is a convention, not a reading of the text. Duration 10 years is a nominal span. MACRO_ERA because the text sets it only in Peleg's days. Whether this is the Babel dispersal is a reading, not stated.",
+   "ancient_year_marker": "In his days"
+  },
+  {
+   "event_id": "evt.gen_10.peleg_born",
+   "title": "Eber's son Peleg is born",
+   "narrative_summary": "To Eber two sons are born; one is named Peleg, the other Joktan. Peleg is so named because in his days the earth was divided.",
+   "temporal_reasoning_note": "Not dated in this chapter. By the MT chain of Gen 11:10-16 from the Flood: Arpachshad 2 years after, Shelah 35 years after Arpachshad's birth, Eber 30 after Shelah, Peleg 34 after Eber: 2+35+30+34 = 101 years after the Flood began. Offset 101 years from anchor.flood, margin 3 years (age counted in whole years), REGNAL_YEAR since the date comes from numbered ages."
+  }
+ ],
+ "causal_edges": [],
+ "entities": [
+  {
+   "entity_id": "group.anamim",
+   "canonical_name": "Anamim",
+   "phonetic_name": "A-na-mim",
+   "aliases": [
+    "Anamites"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A people descended from Mizraim (10:13)."
+  },
+  {
+   "entity_id": "group.arkites",
+   "canonical_name": "Arkites",
+   "phonetic_name": "Ar-kim",
+   "aliases": [],
+   "etymology_meaning": "People of Arqa, a Phoenician city (probably).",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:17)."
+  },
+  {
+   "entity_id": "group.arvadites",
+   "canonical_name": "Arvadites",
+   "phonetic_name": "Ar-va-dim",
+   "aliases": [],
+   "etymology_meaning": "People of Arvad, a Phoenician island city.",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:18)."
+  },
+  {
+   "entity_id": "group.caphtorim",
+   "canonical_name": "Caphtorim",
+   "phonetic_name": "Kaf-to-rim",
+   "aliases": [
+    "Caphtorites"
+   ],
+   "etymology_meaning": "People of Caphtor, probably Crete (uncertain).",
+   "summary_bio": "A people descended from Mizraim (10:14)."
+  },
+  {
+   "entity_id": "group.casluhim",
+   "canonical_name": "Casluhim",
+   "phonetic_name": "Kas-lu-khim",
+   "aliases": [
+    "Casluhites"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A people descended from Mizraim; the Philistines came out from them (10:14)."
+  },
+  {
+   "entity_id": "group.dodanim",
+   "canonical_name": "Dodanim",
+   "phonetic_name": "Do-da-nim",
+   "aliases": [
+    "Rodanim"
+   ],
+   "etymology_meaning": "Meaning uncertain; some manuscripts read 'Rodanim'.",
+   "summary_bio": "A people counted among the sons of Javan (10:4)."
+  },
+  {
+   "entity_id": "group.hamathites",
+   "canonical_name": "Hamathites",
+   "phonetic_name": "Kha-ma-tim",
+   "aliases": [],
+   "etymology_meaning": "People of Hamath.",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:18)."
+  },
+  {
+   "entity_id": "group.hivites",
+   "canonical_name": "Hivites",
+   "phonetic_name": "Khi-vim",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:17)."
+  },
+  {
+   "entity_id": "group.kittim",
+   "canonical_name": "Kittim",
+   "phonetic_name": "Kit-tim",
+   "aliases": [
+    "Kittites"
+   ],
+   "etymology_meaning": "Probably from Kition on Cyprus.",
+   "summary_bio": "A people counted among the sons of Javan (10:4), listed in the coastlands of the nations."
+  },
+  {
+   "entity_id": "group.lehabim",
+   "canonical_name": "Lehabim",
+   "phonetic_name": "Le-ha-vim",
+   "aliases": [
+    "Lehabites"
+   ],
+   "etymology_meaning": "Probably related to Libya (uncertain).",
+   "summary_bio": "A people descended from Mizraim (10:13)."
+  },
+  {
+   "entity_id": "group.ludim",
+   "canonical_name": "Ludim",
+   "phonetic_name": "Lu-dim",
+   "aliases": [
+    "Ludites"
+   ],
+   "etymology_meaning": "Plural of a name, perhaps Lud (uncertain).",
+   "summary_bio": "A people descended from Mizraim (10:13)."
+  },
+  {
+   "entity_id": "group.naphtuhim",
+   "canonical_name": "Naphtuhim",
+   "phonetic_name": "Naf-tu-khim",
+   "aliases": [
+    "Naphtuhites"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A people descended from Mizraim (10:13)."
+  },
+  {
+   "entity_id": "group.pathrusim",
+   "canonical_name": "Pathrusim",
+   "phonetic_name": "Pat-ru-sim",
+   "aliases": [
+    "Pathrusites"
+   ],
+   "etymology_meaning": "Probably 'people of Upper Egypt' (Pathros).",
+   "summary_bio": "A people descended from Mizraim (10:14)."
+  },
+  {
+   "entity_id": "group.sinites",
+   "canonical_name": "Sinites",
+   "phonetic_name": "Si-nim",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:17)."
+  },
+  {
+   "entity_id": "group.zemarites",
+   "canonical_name": "Zemarites",
+   "phonetic_name": "Tse-ma-rim",
+   "aliases": [],
+   "etymology_meaning": "People of Zemar, probably Sumur (uncertain).",
+   "summary_bio": "A Canaanite clan descended from Canaan (10:18)."
+  },
+  {
+   "entity_id": "loc.accad",
+   "canonical_name": "Accad",
+   "phonetic_name": "Ak-kad",
+   "aliases": [
+    "Akkad"
+   ],
+   "etymology_meaning": "Probably Akkad, the Mesopotamian city or region.",
+   "summary_bio": "A city in Shinar in the beginning of Nimrod's kingdom (10:10)."
+  },
+  {
+   "entity_id": "loc.calah",
+   "canonical_name": "Calah",
+   "phonetic_name": "Ka-lakh",
+   "aliases": [
+    "Kalhu"
+   ],
+   "etymology_meaning": "Meaning uncertain; the Assyrian city Kalhu.",
+   "summary_bio": "City built by Asshur (10:11–12), south of Nineveh."
+  },
+  {
+   "entity_id": "loc.calneh",
+   "canonical_name": "Calneh",
+   "phonetic_name": "Kal-neh",
+   "aliases": [
+    "Kalneh"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A city in Shinar in the beginning of Nimrod's kingdom (10:10); identification is uncertain."
+  },
+  {
+   "entity_id": "loc.erech",
+   "canonical_name": "Erech",
+   "phonetic_name": "E-rekh",
+   "aliases": [
+    "Uruk"
+   ],
+   "etymology_meaning": "Meaning uncertain; the Mesopotamian city Uruk.",
+   "summary_bio": "A city in Shinar, one of the four beginnings of Nimrod's kingdom (10:10)."
+  },
+  {
+   "entity_id": "loc.gaza",
+   "canonical_name": "Gaza",
+   "phonetic_name": "Az-zah",
+   "aliases": [
+    "Azzah"
+   ],
+   "etymology_meaning": "Probably 'strong' (uncertain).",
+   "summary_bio": "City at the south-west corner of the Canaanite border (10:19)."
+  },
+  {
+   "entity_id": "loc.lasha",
+   "canonical_name": "Lasha",
+   "phonetic_name": "La-sha",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "A place marking the eastern or south-eastern end of the Canaanite border (10:19). Its location is unknown."
+  },
+  {
+   "entity_id": "loc.mesha",
+   "canonical_name": "Mesha",
+   "phonetic_name": "Me-sha",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Western limit of the dwelling of Joktan's sons (10:30). Its location is unknown."
+  },
+  {
+   "entity_id": "loc.nineveh",
+   "canonical_name": "Nineveh",
+   "phonetic_name": "Ni-ne-veh",
+   "aliases": [
+    "Rehoboth-Ir"
+   ],
+   "etymology_meaning": "Probably from an Assyrian city name, Ninua.",
+   "summary_bio": "City built by Asshur (10:11), and later the great capital of Assyria. The registry also reads 'Rehoboth-Ir' here."
+  },
+  {
+   "entity_id": "loc.resen",
+   "canonical_name": "Resen",
+   "phonetic_name": "Re-sen",
+   "aliases": [],
+   "etymology_meaning": "Probably 'bridle' or 'halter' (uncertain).",
+   "summary_bio": "A city built between Nineveh and Calah, described as 'the great city' (10:12)."
+  },
+  {
+   "entity_id": "loc.sephar",
+   "canonical_name": "Sephar",
+   "phonetic_name": "Se-far",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Hill country of the east, limit of the Joktanites' dwelling (10:30). Its location is debated."
+  },
+  {
+   "entity_id": "person.abimael",
+   "canonical_name": "Abimael",
+   "phonetic_name": "A-vi-ma-el",
+   "aliases": [],
+   "etymology_meaning": "Probably 'my father is El (God)'.",
+   "summary_bio": "Son of Joktan (10:28)."
+  },
+  {
+   "entity_id": "person.almodad",
+   "canonical_name": "Almodad",
+   "phonetic_name": "Al-mo-dad",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:26)."
+  },
+  {
+   "entity_id": "person.aram",
+   "canonical_name": "Aram",
+   "phonetic_name": "A-ram",
+   "aliases": [],
+   "etymology_meaning": "Probably 'highland'.",
+   "summary_bio": "Son of Shem and father of Uz, Hul, Gether and Mash (10:22–23)."
+  },
+  {
+   "entity_id": "person.arpachshad",
+   "canonical_name": "Arpachshad",
+   "phonetic_name": "Ar-pakh-shad",
+   "aliases": [
+    "Arphaxad"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Shem and father of Shelah, in the line that leads to Abraham (10:22, 24)."
+  },
+  {
+   "entity_id": "person.ashkenaz",
+   "canonical_name": "Ashkenaz",
+   "phonetic_name": "Ash-ke-naz",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Gomer and grandson of Japheth (10:3)."
+  },
+  {
+   "entity_id": "person.asshur",
+   "canonical_name": "Asshur",
+   "phonetic_name": "Ash-shur",
+   "aliases": [
+    "Ashur"
+   ],
+   "etymology_meaning": "The name of the Assyrian god and land; origin uncertain.",
+   "summary_bio": "Son of Shem (10:22). He went out from the land of Nimrod's kingdom and built Nineveh, Rehoboth-Ir, Calah and Resen (10:11–12, on one reading)."
+  },
+  {
+   "entity_id": "person.cush",
+   "canonical_name": "Cush",
+   "phonetic_name": "Koosh",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; later the name of the land south of Egypt.",
+   "summary_bio": "Eldest listed son of Ham. Father of Seba, Havilah, Sabtah, Raamah, Sabteca and Nimrod (10:6–8)."
+  },
+  {
+   "entity_id": "person.dedan.gen_10_7",
+   "canonical_name": "Dedan",
+   "phonetic_name": "De-dan",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Raamah, grandson of Cush (10:7). A different Dedan, a grandson of Abraham, appears in Genesis 25."
+  },
+  {
+   "entity_id": "person.diklah",
+   "canonical_name": "Diklah",
+   "phonetic_name": "Dik-lah",
+   "aliases": [],
+   "etymology_meaning": "'Palm grove' (probably).",
+   "summary_bio": "Son of Joktan (10:27)."
+  },
+  {
+   "entity_id": "person.eber",
+   "canonical_name": "Eber",
+   "phonetic_name": "E-ver",
+   "aliases": [],
+   "etymology_meaning": "Probably 'the region beyond' or 'one who crosses over'.",
+   "summary_bio": "Great-grandson of Shem through Arpachshad and Shelah. Ancestor of 'all the sons of Eber', and father of Peleg and Joktan (10:21, 24–25)."
+  },
+  {
+   "entity_id": "person.elam.gen_10_22",
+   "canonical_name": "Elam",
+   "phonetic_name": "E-lam",
+   "aliases": [],
+   "etymology_meaning": "Probably 'highland'.",
+   "summary_bio": "Son of Shem (10:22). The land of Elam is named after him."
+  },
+  {
+   "entity_id": "person.elishah",
+   "canonical_name": "Elishah",
+   "phonetic_name": "E-li-shah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Javan and grandson of Japheth (10:2, 4)."
+  },
+  {
+   "entity_id": "person.gether",
+   "canonical_name": "Gether",
+   "phonetic_name": "Ge-ter",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Aram (10:23)."
+  },
+  {
+   "entity_id": "person.gomer",
+   "canonical_name": "Gomer",
+   "phonetic_name": "Go-mer",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; possibly 'completion' (probably).",
+   "summary_bio": "Eldest listed son of Japheth. Father of Ashkenaz, Riphath and Togarmah (10:2–3)."
+  },
+  {
+   "entity_id": "person.hadoram",
+   "canonical_name": "Hadoram",
+   "phonetic_name": "Ha-do-ram",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:27)."
+  },
+  {
+   "entity_id": "person.havilah",
+   "canonical_name": "Havilah",
+   "phonetic_name": "Kha-vi-lah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:29), a namesake of the Cushite Havilah of 10:7."
+  },
+  {
+   "entity_id": "person.havilah.gen_10_7",
+   "canonical_name": "Havilah",
+   "phonetic_name": "Kha-vi-lah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'sandy land'.",
+   "summary_bio": "Son of Cush (10:7). A second Havilah is a son of Joktan (10:29)."
+  },
+  {
+   "entity_id": "person.hazarmaveth",
+   "canonical_name": "Hazarmaveth",
+   "phonetic_name": "Kha-tsar-ma-vet",
+   "aliases": [],
+   "etymology_meaning": "'Court of death' (probably); linked with Hadramawt.",
+   "summary_bio": "Son of Joktan (10:26)."
+  },
+  {
+   "entity_id": "person.hul",
+   "canonical_name": "Hul",
+   "phonetic_name": "Khul",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Aram (10:23)."
+  },
+  {
+   "entity_id": "person.javan",
+   "canonical_name": "Javan",
+   "phonetic_name": "Ya-van",
+   "aliases": [],
+   "etymology_meaning": "Probably the Ionians (Greeks).",
+   "summary_bio": "Son of Japheth and father of Elishah, Tarshish, Kittim and Dodanim (10:2, 4)."
+  },
+  {
+   "entity_id": "person.jerah",
+   "canonical_name": "Jerah",
+   "phonetic_name": "Ye-rakh",
+   "aliases": [],
+   "etymology_meaning": "'Moon' (probably).",
+   "summary_bio": "Son of Joktan (10:26)."
+  },
+  {
+   "entity_id": "person.jobab.gen_10_29",
+   "canonical_name": "Jobab",
+   "phonetic_name": "Yo-vav",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Last-named son of Joktan (10:29)."
+  },
+  {
+   "entity_id": "person.joktan",
+   "canonical_name": "Joktan",
+   "phonetic_name": "Yok-tan",
+   "aliases": [],
+   "etymology_meaning": "Probably 'he is small'.",
+   "summary_bio": "Younger son of Eber and father of thirteen sons, whose dwellings are listed from Mesha towards Sephar (10:25–30)."
+  },
+  {
+   "entity_id": "person.lud",
+   "canonical_name": "Lud",
+   "phonetic_name": "Lud",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Shem (10:22)."
+  },
+  {
+   "entity_id": "person.madai",
+   "canonical_name": "Madai",
+   "phonetic_name": "Ma-day",
+   "aliases": [],
+   "etymology_meaning": "Probably the name of the Medes.",
+   "summary_bio": "Third listed son of Japheth (10:2), a name later tied to the Medes."
+  },
+  {
+   "entity_id": "person.magog",
+   "canonical_name": "Magog",
+   "phonetic_name": "Ma-gog",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Second listed son of Japheth (10:2). The text says nothing more about him here."
+  },
+  {
+   "entity_id": "person.mash",
+   "canonical_name": "Mash",
+   "phonetic_name": "Mash",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Aram (10:23)."
+  },
+  {
+   "entity_id": "person.meshech",
+   "canonical_name": "Meshech",
+   "phonetic_name": "Me-shekh",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Japheth (10:2), listed after Tubal."
+  },
+  {
+   "entity_id": "person.mizraim",
+   "canonical_name": "Mizraim",
+   "phonetic_name": "Mits-ra-yim",
+   "aliases": [
+    "Egypt"
+   ],
+   "etymology_meaning": "The Hebrew name of Egypt; a dual form.",
+   "summary_bio": "Son of Ham, ancestor of Egypt and of the peoples listed in 10:13–14, including the line from which the Philistines came."
+  },
+  {
+   "entity_id": "person.nimrod",
+   "canonical_name": "Nimrod",
+   "phonetic_name": "Nim-rod",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; perhaps 'we will rebel' (a folk reading).",
+   "summary_bio": "Son of Cush. He began to be a mighty man on the earth and a mighty hunter before the LORD, which became a proverb. His kingdom began at Babel, Erech, Akkad and Calneh in Shinar (10:8–10)."
+  },
+  {
+   "entity_id": "person.obal",
+   "canonical_name": "Obal",
+   "phonetic_name": "O-val",
+   "aliases": [
+    "Ebal"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:28)."
+  },
+  {
+   "entity_id": "person.ophir",
+   "canonical_name": "Ophir",
+   "phonetic_name": "O-fir",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; also a gold-bearing land.",
+   "summary_bio": "Son of Joktan (10:29)."
+  },
+  {
+   "entity_id": "person.peleg",
+   "canonical_name": "Peleg",
+   "phonetic_name": "Pe-leg",
+   "aliases": [
+    "Phalec"
+   ],
+   "etymology_meaning": "'Division' (the text explains it by the earth being divided in his days).",
+   "summary_bio": "Son of Eber, brother of Joktan. The earth was divided in his days (10:25)."
+  },
+  {
+   "entity_id": "person.put",
+   "canonical_name": "Put",
+   "phonetic_name": "Poot",
+   "aliases": [
+    "Phut"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Ham (10:6)."
+  },
+  {
+   "entity_id": "person.raamah",
+   "canonical_name": "Raamah",
+   "phonetic_name": "Ra-a-mah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Cush and father of Sheba and Dedan (10:7)."
+  },
+  {
+   "entity_id": "person.riphath",
+   "canonical_name": "Riphath",
+   "phonetic_name": "Ri-fat",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Gomer and grandson of Japheth (10:3)."
+  },
+  {
+   "entity_id": "person.sabtah",
+   "canonical_name": "Sabtah",
+   "phonetic_name": "Sav-tah",
+   "aliases": [
+    "Sabta"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Cush (10:7)."
+  },
+  {
+   "entity_id": "person.sabteca",
+   "canonical_name": "Sabteca",
+   "phonetic_name": "Sav-te-ka",
+   "aliases": [
+    "Sabtecah"
+   ],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Cush (10:7)."
+  },
+  {
+   "entity_id": "person.seba",
+   "canonical_name": "Seba",
+   "phonetic_name": "Se-va",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "First listed son of Cush (10:7)."
+  },
+  {
+   "entity_id": "person.sheba.gen_10_28",
+   "canonical_name": "Sheba",
+   "phonetic_name": "She-va",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:28), of the Shemite line, unlike the Cushite Sheba of 10:7."
+  },
+  {
+   "entity_id": "person.sheba.gen_10_7",
+   "canonical_name": "Sheba",
+   "phonetic_name": "She-va",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Raamah, grandson of Cush (10:7). Two other men called Sheba appear in Genesis."
+  },
+  {
+   "entity_id": "person.shelah",
+   "canonical_name": "Shelah",
+   "phonetic_name": "She-lakh",
+   "aliases": [
+    "Salah"
+   ],
+   "etymology_meaning": "Meaning uncertain; possibly 'sprout' or 'request'.",
+   "summary_bio": "Son of Arpachshad and father of Eber (10:24)."
+  },
+  {
+   "entity_id": "person.sheleph",
+   "canonical_name": "Sheleph",
+   "phonetic_name": "She-lef",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:26)."
+  },
+  {
+   "entity_id": "person.sidon",
+   "canonical_name": "Sidon",
+   "phonetic_name": "Tsi-don",
+   "aliases": [
+    "Zidon"
+   ],
+   "etymology_meaning": "Meaning uncertain; perhaps 'fishery' (probably).",
+   "summary_bio": "Firstborn son of Canaan (10:15). The city of Sidon takes its name from him."
+  },
+  {
+   "entity_id": "person.tarshish",
+   "canonical_name": "Tarshish",
+   "phonetic_name": "Tar-shish",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; also the name of a distant seafaring place.",
+   "summary_bio": "Son of Javan (10:4)."
+  },
+  {
+   "entity_id": "person.tiras",
+   "canonical_name": "Tiras",
+   "phonetic_name": "Ti-ras",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Seventh and last listed son of Japheth (10:2)."
+  },
+  {
+   "entity_id": "person.togarmah",
+   "canonical_name": "Togarmah",
+   "phonetic_name": "To-gar-mah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Gomer and grandson of Japheth (10:3)."
+  },
+  {
+   "entity_id": "person.tubal",
+   "canonical_name": "Tubal",
+   "phonetic_name": "Tu-val",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Japheth (10:2), listed with his brother Meshech."
+  },
+  {
+   "entity_id": "person.uz",
+   "canonical_name": "Uz",
+   "phonetic_name": "Uts",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Aram (10:23)."
+  },
+  {
+   "entity_id": "person.uzal",
+   "canonical_name": "Uzal",
+   "phonetic_name": "U-zal",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain.",
+   "summary_bio": "Son of Joktan (10:27)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.asshur.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "In Assyria (Nineveh, Calah)",
+   "evidence_explanation": "Gen 10:11: Asshur went out from that land and built Nineveh and Calah, cities of Assyria (on the reading with Asshur as subject)."
+  },
+  {
+   "component_id": "comp.canaanites.territory.1",
+   "label_key": "Territory",
+   "label_value": "Canaan, from Sidon to Gaza and Lasha",
+   "evidence_explanation": "Gen 10:19 sets the border from Sidon towards Gerar to Gaza, and towards Sodom to Lasha."
+  },
+  {
+   "component_id": "comp.nimrod.occupation.1",
+   "label_key": "Occupation",
+   "label_value": "Mighty hunter before the LORD",
+   "evidence_explanation": "Gen 10:9: 'he was a mighty hunter before the LORD'."
+  },
+  {
+   "component_id": "comp.nimrod.office.1",
+   "label_key": "Office",
+   "label_value": "King, with his kingdom beginning in Shinar",
+   "evidence_explanation": "Gen 10:10: 'the beginning of his kingdom was Babel, Erech, Akkad and Calneh'."
+  }
+ ],
+ "systems": [],
+ "system_instances": [],
+ "edges": [
+  {
+   "edge_id": "edge.gen_10.asshur_builds_calah",
+   "interaction_label": "builds",
+   "description": "Asshur builds Calah (10:11)."
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_nineveh",
+   "interaction_label": "builds",
+   "description": "Asshur builds Nineveh after going out from that land (10:11)."
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_resen",
+   "interaction_label": "builds",
+   "description": "Asshur builds Resen between Nineveh and Calah, 'the great city' (10:12)."
+  },
+  {
+   "edge_id": "edge.gen_10.eber_fathers_peleg",
+   "interaction_label": "fathers",
+   "description": "Eber has two sons, Peleg and Joktan (10:25)."
+  },
+  {
+   "edge_id": "edge.gen_10.nimrod_rules_babel",
+   "interaction_label": "rules",
+   "description": "Babel is the first city of Nimrod's kingdom (10:10)."
+  }
+ ]
+}

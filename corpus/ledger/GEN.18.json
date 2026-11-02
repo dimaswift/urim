@@ -1,0 +1,1264 @@
+{
+ "chapter_ref": "GEN.18",
+ "items": {
+  "causal:caus.gen_17.circumcision_performed.lord_appears_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [
+    "ENABLES at confidence 0.4: the link rests only on the rabbinic reading of the visit as sick-visiting; the text does not state it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_18.lord_reveals_sodom_plan.abraham_intercedes_for_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_18.lord_reveals_sodom_plan.men_go_to_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": "[consider] Consider ENABLES at lower confidence, or an explanation saying that the speech announces the purpose of a journey already begun. (GEN.18.16: \"And the men rose up from thence, and looked toward Sodom\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_18.sarah_laughs.lord_questions_laughter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.election.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.abraham.intercession.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[consider] Consider dropping the component and leaving the intercession to the instance and the edge. (GEN.18.23: \"And Abraham drew near, and said\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.mood.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Opens and closes at 18.15, since the chapter gives no later state; it records a momentary fear."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.sarah.son_promise.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.yhwh.inquiry.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:11:15+00:00",
+   "agent_notes": [
+    "Inferred state: the LORD's inquiry into Sodom's outcry. Left open on reviewer request: the departure at 18.33 does not end the inquiry, so the Gen 19 session should close it when the outcome is found. The place (loc.sodom) is not a target here; the slot carries a value_code instead."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[should_fix] Remove expired_at_verse and expired_in_event so the state stays open for the Gen 19 session to close when the outcome is found. Consider adding a value_code (for example INVESTIGATING_OUTCRY) so that the slot has a value. (GEN.18.21: \"I will go down now, and see\"; GEN.18.33: \"And the LORD went his way, as soon as he had left communing with Abraham\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_commands_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_commands_servant": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_escorts_visitors": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_invites_visitors": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_pleads_with_yhwh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.abraham_serves_visitors": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.sarah_denies_laughing": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.sarah_doubts_promise": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_chooses_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_confides_in_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_confronts_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_judges_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:11:15+00:00",
+   "agent_notes": [
+    "Id kept for stability, but the type is now INVESTIGATES (reviewer request): v.21 announces an inquiry, not a sentence. JUDGES is for Gen 19. Anchored at v.21 ('I will go down now, and see')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[should_fix] Change interaction_type from JUDGES to a type that says he is investigating or announcing an inquiry (for example INVESTIGATES), and label it to match, or drop the edge, since inst.gen_18.sodom_outcry_inquiry already records the inquiry. Keep JUDGES for Gen 19, where the sentence is carried out. (GEN.18.21: \"I will go down now, and see whether they have done altogether according to the cry of it, which is come unto me; and if not, I will know\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:11:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_promises_mercy": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_18.yhwh_promises_son_to_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.three_visitors": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Identity judgment: the text moves between 'three men', 'they' and 'the LORD' (vv.1, 2, 9, 13). I treat the LORD as one of the three, speaking for them, and also list deity.yhwh in events 2–4 so he is not lost in the group. The traditional reading that the other two are angels is not stated in this chapter."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:group.two_visitors_to_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Defined separately because in vv.16 and 22 'the men' leave for Sodom while the LORD stays with Abraham. Inferred as the two companions of the LORD; check against chapter 19."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[consider] In the summary_bio, say that the count of two rests on 19:1 together with verse 22, where the LORD stays behind with Abraham. (GEN.18.22: \"And the men turned their faces from thence, and went toward Sodom\" (וַיִּפְנוּ מִשָּׁם הָאֲנָשִׁים); Gen 19:1: \"there came two angels to Sodom at even\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "entity:person.servant_of_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Unnamed 'young man' (na'ar) of v.7; not identified with Eliezer or Ishmael."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.abraham_intercedes_for_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.abraham_welcomes_three_men": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.lord_appears_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [
+    "The text has no date. I took the third day after circumcision (Ramban, Bava Metzia 86b) with a 12-hour margin; without that tradition the chapter would sit only 'later' in Abraham's 99th year. 'Heat of the day' read as noon (Rashbam suggests morning)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": "[consider] Consider widening the margin to about two days so that it covers the days of recovery, and keep the third day as the central value. (GEN.18.1: \"in the heat of the day\" (כְּחֹם הַיּוֹם); TPJ: וְהוּא מְרַע מִכֵּיבָא דִמְהוּלְתָּא)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.lord_departs_abraham_returns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.lord_questions_laughter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.lord_reveals_sodom_plan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [
+    "'I will go down and see' (18:21) and the pledge to spare Sodom for ten (18:32) are fulfilled or tested in Gen 19; no FULFILLS_PROPHECY edge written here. Abraham's becoming a great nation (18:18) is also later. I did not split 17-19 from 20-21: one continuous speech of the LORD."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": "[consider] Consider a title such as 'The LORD tells Abraham of the outcry against Sodom'. (GEN.18.21: \"I will go down now, and see whether they have done altogether according to the cry of it ... and if not, I will know\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.meal_prepared_and_served": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.men_go_to_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:57:43+00:00",
+   "agent_notes": [
+    "Verses 16 and 22 both describe the men leaving; I made 16 the farewell walk and 22 the turning to Sodom. The Mamre–Sodom journey (about 63 km by road, about 2 days on foot) is not dated here; Gen 19:1 has the angels arriving at evening, which strains a same-day arrival on foot. The place identifications (openbible, confidence 0.4-0.7) change that figure."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": "[should_fix] In the narrative_summary write 'The men turn from there and go toward Sodom' rather than 'The two men'. If you want to mention that 19:1 speaks of two angels, put it in the temporal_reasoning_note or reviewer_notes, not in the summary. (GEN.18.22: \"And the men turned their faces from thence, and went toward Sodom: but Abraham stood yet before the Lord\" (וַיִּפְנוּ מִשָּׁם הָאֲנָשִׁים); GEN.18.2: \"three men stood by him\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:58:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.men_rise_toward_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": "[consider] Consider 'rise from there' and quoting the road distance (about 63 km) so the two notes agree. (GEN.18.16: \"And the men rose up from thence\" (וַיָּקֻמוּ מִשָּׁם); urim travel loc.mamre loc.sodom: 51 km straight, ~63 km by road, ≈ 2 days on foot)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.sarah_laughs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_18.son_promised_to_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T13:55:03+00:00",
+   "agent_notes": [
+    "Divine promise (18:10, 14, 'at the appointed time I will return... Sarah shall have a son') is fulfilled in Gen 21 (birth of Isaac); that chapter's session writes FULFILLS_PROPHECY. The earlier promise at 17:19-21 is repeated, not fulfilled, here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T13:56:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.abraham_intercedes_for_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[consider] Add a reviewer note that Mamre is an approximation for an unnamed lookout near it, as on men_rise_toward_sodom. (GEN.18.16: \"Abraham went with them to bring them on the way\"; Gen 19:27: \"to the place where he stood before the LORD ... and he looked toward Sodom\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.abraham_welcomes_three_men": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.lord_appears_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.lord_departs_abraham_returns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "'His place' is not named; Abraham's dwelling at Mamre is assumed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.lord_questions_laughter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.lord_reveals_sodom_plan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.meal_prepared_and_served": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": "[consider] Either keep AGENT and note that her baking is inferred from the command, or give her a role for the one addressed (PATIENT). (GEN.18.6: \"Make ready quickly three measures of fine meal, knead it, and make cakes upon the hearth\"; GEN.18.7: \"and he hasted to dress it\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.men_go_to_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.men_rise_toward_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Place carried over from Mamre; the text says the men look down on Sodom, so the vantage point is somewhere near Mamre/Hebron, not given."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.sarah_laughs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_18.son_promised_to_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.abraham_bargains": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.birth_announced": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.bowing_to_guests": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.feast_for_visitors": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.lord_appears": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_18.sodom_outcry_inquiry": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.birth_announcement": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Defined rather than reused: no existing system covers announcement of a birth. sys.divine_call_and_promise was considered but concerns calls to a person."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.divine_judicial_inquiry": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:08:37+00:00",
+   "agent_notes": [
+    "Defined rather than reused: the LORD investigates before judging (vv.20–21)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:10:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "All verses 1-33 are covered. The three-fold rounds of the bargaining (fifty to ten) are kept as a single event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:55:03+00:00"
+  },
+  {
+   "note": "All verses 1-33 are covered. The three-fold rounds of the bargaining (fifty to ten) are kept as a single event.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:43+00:00"
+  },
+  {
+   "note": "[event:evt.gen_18.lord_appears_at_mamre] The text has no date. I took the third day after circumcision (Ramban, Bava Metzia 86b) with a 12-hour margin; without that tradition the chapter would sit only 'later' in Abraham's 99th year. 'Heat of the day' read as noon (Rashbam suggests morning).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:43+00:00"
+  },
+  {
+   "note": "[event:evt.gen_18.son_promised_to_sarah] Divine promise (18:10, 14, 'at the appointed time I will return... Sarah shall have a son') is fulfilled in Gen 21 (birth of Isaac); that chapter's session writes FULFILLS_PROPHECY. The earlier promise at 17:19-21 is repeated, not fulfilled, here.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:43+00:00"
+  },
+  {
+   "note": "[event:evt.gen_18.lord_reveals_sodom_plan] 'I will go down and see' (18:21) and the pledge to spare Sodom for ten (18:32) are fulfilled or tested in Gen 19; no FULFILLS_PROPHECY edge written here. Abraham's becoming a great nation (18:18) is also later. I did not split 17-19 from 20-21: one continuous speech of the LORD.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:43+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_17.circumcision_performed.lord_appears_at_mamre] ENABLES at confidence 0.4: the link rests only on the rabbinic reading of the visit as sick-visiting; the text does not state it.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T13:57:43+00:00"
+  },
+  {
+   "note": "[entity:group.three_visitors] Identity judgment: the text moves between 'three men', 'they' and 'the LORD' (vv.1, 2, 9, 13). I treat the LORD as one of the three, speaking for them, and also list deity.yhwh in events 2–4 so he is not lost in the group. The traditional reading that the other two are angels is not stated in this chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[entity:group.two_visitors_to_sodom] Defined separately because in vv.16 and 22 'the men' leave for Sodom while the LORD stays with Abraham. Inferred as the two companions of the LORD; check against chapter 19.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[entity:person.servant_of_abraham] Unnamed 'young man' (na'ar) of v.7; not identified with Eliezer or Ishmael.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[component:comp.sarah.mood.2] Opens and closes at 18.15, since the chapter gives no later state; it records a momentary fear.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[system:sys.birth_announcement] Defined rather than reused: no existing system covers announcement of a birth. sys.divine_call_and_promise was considered but concerns calls to a person.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[system:sys.divine_judicial_inquiry] Defined rather than reused: the LORD investigates before judging (vv.20–21).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_18.men_rise_toward_sodom] Place carried over from Mamre; the text says the men look down on Sodom, so the vantage point is somewhere near Mamre/Hebron, not given.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_18.lord_departs_abraham_returns] 'His place' is not named; Abraham's dwelling at Mamre is assumed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:11:15+00:00"
+  }
+ ]
+}

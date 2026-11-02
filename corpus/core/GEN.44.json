@@ -1,0 +1,592 @@
+{
+ "chapter_ref": "GEN.44",
+ "entities": [
+  {
+   "entity_id": "artifact.joseph_silver_cup",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "גָּבִיעַ",
+   "transliterated_name": "gāḇîaʿ",
+   "first_mention_verse": "GEN.44.2"
+  },
+  {
+   "entity_id": "loc.road_outside_city",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.44.4"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divination_by_cup",
+   "category": "PROPHETIC_ORACLE"
+  },
+  {
+   "system_id": "sys.enslavement_for_theft",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_44.steward_commanded",
+   "verse_start": "GEN.44.1",
+   "verse_end": "GEN.44.2",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_43.banquet_at_josephs_house",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.joseph_silver_cup",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.brothers_sent_away",
+   "verse_start": "GEN.44.3",
+   "verse_end": "GEN.44.3",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_44.steward_commanded",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.steward_pursues",
+   "verse_start": "GEN.44.4",
+   "verse_end": "GEN.44.6",
+   "location_entity_id": "loc.road_outside_city",
+   "time": {
+    "anchor": "evt.gen_44.brothers_sent_away",
+    "anchor_point": "START",
+    "offset": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.joseph_silver_cup",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.brothers_protest_and_pledge",
+   "verse_start": "GEN.44.7",
+   "verse_end": "GEN.44.10",
+   "location_entity_id": "loc.road_outside_city",
+   "time": {
+    "anchor": "evt.gen_44.steward_pursues",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.returned_silver",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.sacks_searched_cup_found",
+   "verse_start": "GEN.44.11",
+   "verse_end": "GEN.44.12",
+   "location_entity_id": "loc.road_outside_city",
+   "time": {
+    "anchor": "evt.gen_44.brothers_protest_and_pledge",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.joseph_silver_cup",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.return_to_city",
+   "verse_start": "GEN.44.13",
+   "verse_end": "GEN.44.13",
+   "location_entity_id": "loc.road_outside_city",
+   "time": {
+    "anchor": "evt.gen_44.sacks_searched_cup_found",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.steward_of_joseph",
+     "role": "PRESENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.brothers_fall_before_joseph",
+   "verse_start": "GEN.44.14",
+   "verse_end": "GEN.44.17",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_44.return_to_city",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "artifact.joseph_silver_cup",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_44.judah_pleads",
+   "verse_start": "GEN.44.18",
+   "verse_end": "GEN.44.34",
+   "location_entity_id": "loc.house_of_joseph",
+   "time": {
+    "anchor": "evt.gen_44.brothers_fall_before_joseph",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.sheol",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_43.judah_pledges_surety.gen_44_judah_pleads",
+   "cause_event_id": "evt.gen_43.judah_pledges_surety",
+   "effect_event_id": "evt.gen_44.judah_pleads",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_44.brothers_fall_before_joseph.judah_pleads",
+   "cause_event_id": "evt.gen_44.brothers_fall_before_joseph",
+   "effect_event_id": "evt.gen_44.judah_pleads",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_44.return_to_city.brothers_fall_before_joseph",
+   "cause_event_id": "evt.gen_44.return_to_city",
+   "effect_event_id": "evt.gen_44.brothers_fall_before_joseph",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_44.sacks_searched_cup_found.return_to_city",
+   "cause_event_id": "evt.gen_44.sacks_searched_cup_found",
+   "effect_event_id": "evt.gen_44.return_to_city",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_44.steward_commanded.sacks_searched_cup_found",
+   "cause_event_id": "evt.gen_44.steward_commanded",
+   "effect_event_id": "evt.gen_44.sacks_searched_cup_found",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.benjamin.legal_status.1",
+   "entity_id": "person.benjamin",
+   "category": "TRAIT",
+   "component_key": "legal_status",
+   "value_code": "ACCUSED_OF_THEFT",
+   "acquired_at_verse": "GEN.44.12",
+   "acquired_in_event": "evt.gen_44.sacks_searched_cup_found"
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "DISTRAUGHT",
+   "acquired_at_verse": "GEN.44.13",
+   "acquired_in_event": "evt.gen_44.return_to_city"
+  },
+  {
+   "component_id": "comp.joseph_silver_cup.placement.1",
+   "entity_id": "artifact.joseph_silver_cup",
+   "category": "POSSESSION",
+   "component_key": "placement",
+   "value_code": "HIDDEN_IN_BENJAMINS_SACK",
+   "acquired_at_verse": "GEN.44.2",
+   "acquired_in_event": "evt.gen_44.steward_commanded",
+   "expired_at_verse": "GEN.44.12",
+   "expired_in_event": "evt.gen_44.sacks_searched_cup_found"
+  },
+  {
+   "component_id": "comp.joseph_silver_cup.placement.2",
+   "entity_id": "artifact.joseph_silver_cup",
+   "category": "POSSESSION",
+   "component_key": "placement",
+   "value_code": "FOUND_IN_BENJAMINS_SACK",
+   "supersedes_component_id": "comp.joseph_silver_cup.placement.1",
+   "acquired_at_verse": "GEN.44.12",
+   "acquired_in_event": "evt.gen_44.sacks_searched_cup_found"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_44.brothers_pledge",
+   "system_id": "sys.enslavement_for_theft",
+   "event_id": "evt.gen_44.brothers_protest_and_pledge",
+   "verse_start": "GEN.44.9",
+   "verse_end": "GEN.44.10",
+   "initiator_entity_id": "person.steward_of_joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.road_outside_city",
+   "tags": [
+    "pledge",
+    "death_or_slavery"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_44.cup_divination_claim",
+   "system_id": "sys.divination_by_cup",
+   "event_id": "evt.gen_44.steward_pursues",
+   "verse_start": "GEN.44.5",
+   "verse_end": "GEN.44.5",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.joseph_brothers"
+   ],
+   "artifact_entity_ids": [
+    "artifact.joseph_silver_cup"
+   ],
+   "location_entity_id": "loc.road_outside_city",
+   "tags": [
+    "claimed",
+    "cup",
+    "accusation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_44.garments_torn",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_44.return_to_city",
+   "verse_start": "GEN.44.13",
+   "verse_end": "GEN.44.13",
+   "initiator_entity_id": "group.joseph_brothers",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.road_outside_city",
+   "tags": [
+    "torn_garments",
+    "distress"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_44.judah_surety_claim",
+   "system_id": "sys.hostage_surety",
+   "event_id": "evt.gen_44.judah_pleads",
+   "verse_start": "GEN.44.32",
+   "verse_end": "GEN.44.33",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.benjamin",
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "surety",
+    "substitution"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_44.obeisance_to_joseph",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_44.brothers_fall_before_joseph",
+   "verse_start": "GEN.44.14",
+   "verse_end": "GEN.44.14",
+   "initiator_entity_id": "person.judah",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.house_of_joseph",
+   "tags": [
+    "falling_to_ground",
+    "supplication"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_44.israel_loves_benjamin",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "LOVES",
+   "verse_id": "GEN.44.20",
+   "event_id": "evt.gen_44.judah_pleads"
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_accuses_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.44.15",
+   "event_id": "evt.gen_44.brothers_fall_before_joseph"
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_commands_steward",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.steward_of_joseph",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.44.1",
+   "event_id": "evt.gen_44.steward_commanded"
+  },
+  {
+   "edge_id": "edge.gen_44.joseph_sends_steward",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.steward_of_joseph",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.44.4",
+   "event_id": "evt.gen_44.steward_pursues"
+  },
+  {
+   "edge_id": "edge.gen_44.judah_offers_self",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "SUBSTITUTES_FOR",
+   "verse_id": "GEN.44.33",
+   "event_id": "evt.gen_44.judah_pleads"
+  },
+  {
+   "edge_id": "edge.gen_44.judah_pleads_with_joseph",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PLEADS_WITH",
+   "verse_id": "GEN.44.18",
+   "event_id": "evt.gen_44.judah_pleads"
+  },
+  {
+   "edge_id": "edge.gen_44.judah_stands_surety",
+   "source_entity_id": "person.judah",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "STANDS_SURETY_FOR",
+   "verse_id": "GEN.44.32",
+   "event_id": "evt.gen_44.judah_pleads"
+  },
+  {
+   "edge_id": "edge.gen_44.steward_accuses_brothers",
+   "source_entity_id": "person.steward_of_joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "ACCUSES",
+   "verse_id": "GEN.44.6",
+   "event_id": "evt.gen_44.steward_pursues"
+  },
+  {
+   "edge_id": "edge.gen_44.steward_searches_sacks",
+   "source_entity_id": "person.steward_of_joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "SEARCHES",
+   "verse_id": "GEN.44.12",
+   "event_id": "evt.gen_44.sacks_searched_cup_found"
+  }
+ ]
+}

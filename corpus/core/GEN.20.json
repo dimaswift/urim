@@ -1,0 +1,187 @@
+{
+ "chapter_ref": "GEN.20",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_20.abraham_moves_to_gerar",
+   "verse_start": "GEN.20.1",
+   "verse_end": "GEN.20.1",
+   "time": {
+    "anchor": "evt.gen_19.abraham_sees_smoke",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_takes_sarah",
+   "verse_start": "GEN.20.2",
+   "verse_end": "GEN.20.2",
+   "time": {
+    "anchor": "evt.gen_20.abraham_moves_to_gerar",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "verse_start": "GEN.20.3",
+   "verse_end": "GEN.20.7",
+   "time": {
+    "anchor": "evt.gen_20.abimelech_takes_sarah",
+    "anchor_point": "END",
+    "time_of_day": "ASHMORET_HATICHONAH",
+    "duration": {
+     "value": 5.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_tells_his_servants",
+   "verse_start": "GEN.20.8",
+   "verse_end": "GEN.20.8",
+   "time": {
+    "anchor": "evt.gen_20.god_warns_abimelech_in_dream",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_confronts_abraham",
+   "verse_start": "GEN.20.9",
+   "verse_end": "GEN.20.13",
+   "time": {
+    "anchor": "evt.gen_20.abimelech_tells_his_servants",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+   "verse_start": "GEN.20.14",
+   "verse_end": "GEN.20.16",
+   "time": {
+    "anchor": "evt.gen_20.abimelech_confronts_abraham",
+    "anchor_point": "END",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "verse_start": "GEN.20.17",
+   "verse_end": "GEN.20.18",
+   "time": {
+    "anchor": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_20.abimelech_restores_sarah_with_gifts.abraham_prays_and_god_heals",
+   "cause_event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+   "effect_event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "causal_type": "ENABLES",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_20.abimelech_takes_sarah.god_warns_abimelech_in_dream",
+   "cause_event_id": "evt.gen_20.abimelech_takes_sarah",
+   "effect_event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abimelech_restores_sarah_with_gifts",
+   "cause_event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "effect_event_id": "evt.gen_20.abimelech_restores_sarah_with_gifts",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abimelech_tells_his_servants",
+   "cause_event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "effect_event_id": "evt.gen_20.abimelech_tells_his_servants",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_20.god_warns_abimelech_in_dream.abraham_prays_and_god_heals",
+   "cause_event_id": "evt.gen_20.god_warns_abimelech_in_dream",
+   "effect_event_id": "evt.gen_20.abraham_prays_and_god_heals",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

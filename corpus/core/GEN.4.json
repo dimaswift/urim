@@ -1,0 +1,1366 @@
+{
+ "chapter_ref": "GEN.4",
+ "entities": [
+  {
+   "entity_id": "loc.city_of_enoch",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.4.17"
+  },
+  {
+   "entity_id": "loc.nod",
+   "tipnr_id": "Nod@Gen.4.16",
+   "entity_type": "LOCATION",
+   "source_script_name": "נוֹד",
+   "transliterated_name": "Nod",
+   "first_mention_verse": "GEN.4.16"
+  },
+  {
+   "entity_id": "person.abel",
+   "tipnr_id": "Abel@Gen.4.2-Heb",
+   "entity_type": "PERSON",
+   "source_script_name": "הֶבֶל",
+   "transliterated_name": "Hevel",
+   "first_mention_verse": "GEN.4.2"
+  },
+  {
+   "entity_id": "person.adah.gen_4_19",
+   "tipnr_id": "Adah@Gen.4.19-",
+   "entity_type": "PERSON",
+   "source_script_name": "עָדָה",
+   "transliterated_name": "ʿĀdâ",
+   "first_mention_verse": "GEN.4.19"
+  },
+  {
+   "entity_id": "person.cain",
+   "tipnr_id": "Cain@Gen.4.1-Jud",
+   "entity_type": "PERSON",
+   "source_script_name": "קַיִן",
+   "transliterated_name": "Qayin",
+   "first_mention_verse": "GEN.4.1"
+  },
+  {
+   "entity_id": "person.enoch.gen_4_17",
+   "tipnr_id": "Enoch@Gen.4.17-",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲנוֹךְ",
+   "transliterated_name": "Ḥănōk",
+   "first_mention_verse": "GEN.4.17"
+  },
+  {
+   "entity_id": "person.enosh",
+   "tipnr_id": "Enosh@Gen.4.26-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "אֱנוֹשׁ",
+   "transliterated_name": "ʾĔnôš",
+   "first_mention_verse": "GEN.4.26"
+  },
+  {
+   "entity_id": "person.irad",
+   "tipnr_id": "Irad@Gen.4.18",
+   "entity_type": "PERSON",
+   "source_script_name": "עִירָד",
+   "transliterated_name": "ʿÎrād",
+   "first_mention_verse": "GEN.4.18"
+  },
+  {
+   "entity_id": "person.jabal",
+   "tipnr_id": "Jabal@Gen.4.20",
+   "entity_type": "PERSON",
+   "source_script_name": "יָבָל",
+   "transliterated_name": "Yābāl",
+   "first_mention_verse": "GEN.4.20"
+  },
+  {
+   "entity_id": "person.jubal",
+   "tipnr_id": "Jubal@Gen.4.21",
+   "entity_type": "PERSON",
+   "source_script_name": "יוּבָל",
+   "transliterated_name": "Yûbāl",
+   "first_mention_verse": "GEN.4.21"
+  },
+  {
+   "entity_id": "person.lamech.gen_4_18",
+   "tipnr_id": "Lamech@Gen.4.18-",
+   "entity_type": "PERSON",
+   "source_script_name": "לֶמֶךְ",
+   "transliterated_name": "Lemekh",
+   "first_mention_verse": "GEN.4.18"
+  },
+  {
+   "entity_id": "person.mehujael",
+   "tipnr_id": "Mehujael@Gen.4.18",
+   "entity_type": "PERSON",
+   "source_script_name": "מְחוּיָאֵל",
+   "transliterated_name": "Məḥûyāʾēl",
+   "first_mention_verse": "GEN.4.18"
+  },
+  {
+   "entity_id": "person.methushael",
+   "tipnr_id": "Methushael@Gen.4.18",
+   "entity_type": "PERSON",
+   "source_script_name": "מְתוּשָׁאֵל",
+   "transliterated_name": "Mətûšāʾēl",
+   "first_mention_verse": "GEN.4.18"
+  },
+  {
+   "entity_id": "person.naamah.gen_4_22",
+   "tipnr_id": "Naamah@Gen.4.22",
+   "entity_type": "PERSON",
+   "source_script_name": "נַעֲמָה",
+   "transliterated_name": "Naʿămâ",
+   "first_mention_verse": "GEN.4.22"
+  },
+  {
+   "entity_id": "person.seth",
+   "tipnr_id": "Seth@Gen.4.25-Luk",
+   "entity_type": "PERSON",
+   "source_script_name": "שֵׁת",
+   "transliterated_name": "Šēt",
+   "first_mention_verse": "GEN.4.25"
+  },
+  {
+   "entity_id": "person.tubal_cain",
+   "tipnr_id": "Tubal-cain@Gen.4.22",
+   "entity_type": "PERSON",
+   "source_script_name": "תּוּבַל קַיִן",
+   "transliterated_name": "Tûbal Qayin",
+   "first_mention_verse": "GEN.4.22"
+  },
+  {
+   "entity_id": "person.wife_of_cain",
+   "entity_type": "PERSON",
+   "first_mention_verse": "GEN.4.17"
+  },
+  {
+   "entity_id": "person.zillah",
+   "tipnr_id": "Zillah@Gen.4.19-",
+   "entity_type": "PERSON",
+   "source_script_name": "צִלָּה",
+   "transliterated_name": "Ṣillâ",
+   "first_mention_verse": "GEN.4.19"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.blood_vengeance",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.gift_offering",
+   "category": "LITURGICAL_RITUAL"
+  },
+  {
+   "system_id": "sys.protective_sign",
+   "category": "SUPERNATURAL_ACT"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "evt.gen_4.cain_born",
+   "verse_start": "GEN.4.1",
+   "verse_end": "GEN.4.1",
+   "time": {
+    "anchor": "evt.gen_3.expelled_from_eden",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.abel_born",
+   "verse_start": "GEN.4.2",
+   "verse_end": "GEN.4.2",
+   "time": {
+    "anchor": "evt.gen_4.cain_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_offering",
+   "verse_start": "GEN.4.3",
+   "verse_end": "GEN.4.3",
+   "time": {
+    "anchor": "evt.gen_4.abel_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 25.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.abel_offering",
+   "verse_start": "GEN.4.4",
+   "verse_end": "GEN.4.4",
+   "time": {
+    "anchor": "evt.gen_4.cain_offering",
+    "anchor_point": "START",
+    "duration": {
+     "value": 2.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abel",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_rejected",
+   "verse_start": "GEN.4.5",
+   "verse_end": "GEN.4.5",
+   "time": {
+    "anchor": "evt.gen_4.abel_offering",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.god_warns_cain",
+   "verse_start": "GEN.4.6",
+   "verse_end": "GEN.4.7",
+   "time": {
+    "anchor": "evt.gen_4.cain_rejected",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_kills_abel",
+   "verse_start": "GEN.4.8",
+   "verse_end": "GEN.4.8",
+   "time": {
+    "anchor": "evt.gen_4.god_warns_cain",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.abel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.god_confronts_cain",
+   "verse_start": "GEN.4.9",
+   "verse_end": "GEN.4.12",
+   "time": {
+    "anchor": "evt.gen_4.cain_kills_abel",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.ground",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_plea",
+   "verse_start": "GEN.4.13",
+   "verse_end": "GEN.4.14",
+   "time": {
+    "anchor": "evt.gen_4.god_confronts_cain",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_sign",
+   "verse_start": "GEN.4.15",
+   "verse_end": "GEN.4.15",
+   "time": {
+    "anchor": "evt.gen_4.cain_plea",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_departs_to_nod",
+   "verse_start": "GEN.4.16",
+   "verse_end": "GEN.4.16",
+   "location_entity_id": "loc.nod",
+   "time": {
+    "anchor": "evt.gen_4.cain_sign",
+    "anchor_point": "END",
+    "duration": {
+     "value": 7.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.eden",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_builds_city",
+   "verse_start": "GEN.4.17",
+   "verse_end": "GEN.4.17",
+   "location_entity_id": "loc.city_of_enoch",
+   "time": {
+    "anchor": "evt.gen_4.enoch_born",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "loc.city_of_enoch",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.enoch.gen_4_17",
+     "role": "MENTIONED"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.enoch_born",
+   "verse_start": "GEN.4.17",
+   "verse_end": "GEN.4.17",
+   "location_entity_id": "loc.nod",
+   "time": {
+    "anchor": "evt.gen_4.cain_departs_to_nod",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.cain",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.enoch.gen_4_17",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.wife_of_cain",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.cain_line",
+   "verse_start": "GEN.4.18",
+   "verse_end": "GEN.4.18",
+   "time": {
+    "anchor": "evt.gen_4.enoch_born",
+    "anchor_point": "END",
+    "duration": {
+     "value": 320.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enoch.gen_4_17",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.irad",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.lamech.gen_4_18",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.mehujael",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.methushael",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.lamech_marries",
+   "verse_start": "GEN.4.19",
+   "verse_end": "GEN.4.19",
+   "time": {
+    "anchor": "evt.gen_4.cain_line",
+    "anchor_point": "END",
+    "offset": {
+     "value": 25.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 100.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adah.gen_4_19",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lamech.gen_4_18",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zillah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.lamech_children",
+   "verse_start": "GEN.4.20",
+   "verse_end": "GEN.4.22",
+   "time": {
+    "anchor": "evt.gen_4.lamech_marries",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 15.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adah.gen_4_19",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.jabal",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.jubal",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.lamech.gen_4_18",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.naamah.gen_4_22",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.tubal_cain",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zillah",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.lamech_song",
+   "verse_start": "GEN.4.23",
+   "verse_end": "GEN.4.24",
+   "time": {
+    "anchor": "evt.gen_4.lamech_children",
+    "anchor_point": "END",
+    "offset": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "person.adah.gen_4_19",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.lamech.gen_4_18",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zillah",
+     "role": "PATIENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.seth_born",
+   "verse_start": "GEN.4.25",
+   "verse_end": "GEN.4.25",
+   "time": {
+    "anchor": "evt.gen_2.man_formed",
+    "anchor_point": "START",
+    "offset": {
+     "value": 130.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adam",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.cain",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.seth",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.woman_of_eden",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.enosh_born",
+   "verse_start": "GEN.4.26",
+   "verse_end": "GEN.4.26",
+   "time": {
+    "anchor": "evt.gen_4.seth_born",
+    "anchor_point": "START",
+    "offset": {
+     "value": 105.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 9.0,
+     "unit": "months"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": [
+    {
+     "entity_id": "person.enosh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.seth",
+     "role": "AGENT"
+    }
+   ]
+  },
+  {
+   "event_id": "evt.gen_4.invocation_begins",
+   "verse_start": "GEN.4.26",
+   "verse_end": "GEN.4.26",
+   "time": {
+    "anchor": "evt.gen_4.enosh_born",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.humankind",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.enosh",
+     "role": "PRESENT"
+    }
+   ]
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_4.cain_kills_abel.god_confronts_cain",
+   "cause_event_id": "evt.gen_4.cain_kills_abel",
+   "effect_event_id": "evt.gen_4.god_confronts_cain",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_4.cain_kills_abel.seth_born",
+   "cause_event_id": "evt.gen_4.cain_kills_abel",
+   "effect_event_id": "evt.gen_4.seth_born",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_4.cain_offering.cain_rejected",
+   "cause_event_id": "evt.gen_4.cain_offering",
+   "effect_event_id": "evt.gen_4.cain_rejected",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_4.cain_plea.cain_sign",
+   "cause_event_id": "evt.gen_4.cain_plea",
+   "effect_event_id": "evt.gen_4.cain_sign",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_4.cain_rejected.cain_kills_abel",
+   "cause_event_id": "evt.gen_4.cain_rejected",
+   "effect_event_id": "evt.gen_4.cain_kills_abel",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_4.god_confronts_cain.cain_departs_to_nod",
+   "cause_event_id": "evt.gen_4.god_confronts_cain",
+   "effect_event_id": "evt.gen_4.cain_departs_to_nod",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.6
+  },
+  {
+   "causal_id": "caus.gen_4.god_confronts_cain.cain_plea",
+   "cause_event_id": "evt.gen_4.god_confronts_cain",
+   "effect_event_id": "evt.gen_4.cain_plea",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.abel.favour_with.1",
+   "entity_id": "person.abel",
+   "category": "ALLEGIANCE",
+   "component_key": "favour_with",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.4.4",
+   "acquired_in_event": "evt.gen_4.abel_offering",
+   "expired_at_verse": "GEN.4.8",
+   "expired_in_event": "evt.gen_4.cain_kills_abel"
+  },
+  {
+   "component_id": "comp.abel.life.1",
+   "entity_id": "person.abel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.4.8",
+   "acquired_in_event": "evt.gen_4.cain_kills_abel"
+  },
+  {
+   "component_id": "comp.abel.occupation.1",
+   "entity_id": "person.abel",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "HERDER_OF_FLOCKS",
+   "acquired_at_verse": "GEN.4.2",
+   "acquired_in_event": "evt.gen_4.abel_born",
+   "expired_at_verse": "GEN.4.8",
+   "expired_in_event": "evt.gen_4.cain_kills_abel"
+  },
+  {
+   "component_id": "comp.cain.dwelling.1",
+   "entity_id": "person.cain",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.nod",
+   "acquired_at_verse": "GEN.4.16",
+   "acquired_in_event": "evt.gen_4.cain_departs_to_nod"
+  },
+  {
+   "component_id": "comp.cain.fear.1",
+   "entity_id": "person.cain",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "FEARS_BEING_KILLED",
+   "acquired_at_verse": "GEN.4.14",
+   "acquired_in_event": "evt.gen_4.cain_plea",
+   "expired_at_verse": "GEN.4.15",
+   "expired_in_event": "evt.gen_4.cain_sign"
+  },
+  {
+   "component_id": "comp.cain.mood.1",
+   "entity_id": "person.cain",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "ANGRY",
+   "acquired_at_verse": "GEN.4.5",
+   "acquired_in_event": "evt.gen_4.cain_rejected",
+   "expired_at_verse": "GEN.4.8",
+   "expired_in_event": "evt.gen_4.cain_kills_abel"
+  },
+  {
+   "component_id": "comp.cain.occupation.1",
+   "entity_id": "person.cain",
+   "category": "ROLE_TITLE",
+   "component_key": "occupation",
+   "value_code": "TILLER_OF_GROUND",
+   "acquired_at_verse": "GEN.4.2",
+   "acquired_in_event": "evt.gen_4.abel_born"
+  },
+  {
+   "component_id": "comp.cain.protection.1",
+   "entity_id": "person.cain",
+   "category": "TRAIT",
+   "component_key": "protection",
+   "value_code": "MARKED_AND_AVENGED_SEVENFOLD",
+   "acquired_at_verse": "GEN.4.15",
+   "acquired_in_event": "evt.gen_4.cain_sign"
+  },
+  {
+   "component_id": "comp.cain.status.1",
+   "entity_id": "person.cain",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "CURSED_FROM_THE_GROUND",
+   "acquired_at_verse": "GEN.4.11",
+   "acquired_in_event": "evt.gen_4.god_confronts_cain"
+  },
+  {
+   "component_id": "comp.cain.wanderer.1",
+   "entity_id": "person.cain",
+   "category": "TRAIT",
+   "component_key": "wanderer",
+   "value_code": "FUGITIVE_AND_WANDERER",
+   "acquired_at_verse": "GEN.4.12",
+   "acquired_in_event": "evt.gen_4.god_confronts_cain",
+   "expired_at_verse": "GEN.4.16",
+   "expired_in_event": "evt.gen_4.cain_departs_to_nod"
+  },
+  {
+   "component_id": "comp.cain.wife.1",
+   "entity_id": "person.cain",
+   "category": "ALLEGIANCE",
+   "component_key": "wife",
+   "target_entity_id": "person.wife_of_cain",
+   "acquired_at_verse": "GEN.4.17",
+   "acquired_in_event": "evt.gen_4.enoch_born"
+  },
+  {
+   "component_id": "comp.humankind.worship.1",
+   "entity_id": "group.humankind",
+   "category": "ALLEGIANCE",
+   "component_key": "worship",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.4.26",
+   "acquired_in_event": "evt.gen_4.invocation_begins"
+  },
+  {
+   "component_id": "comp.lamech.manslayer.1",
+   "entity_id": "person.lamech.gen_4_18",
+   "category": "TRAIT",
+   "component_key": "manslayer",
+   "value_code": "HAS_KILLED_A_MAN",
+   "acquired_at_verse": "GEN.4.23",
+   "acquired_in_event": "evt.gen_4.lamech_song"
+  },
+  {
+   "component_id": "comp.lamech.wife_adah.1",
+   "entity_id": "person.lamech.gen_4_18",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_adah",
+   "target_entity_id": "person.adah.gen_4_19",
+   "acquired_at_verse": "GEN.4.19",
+   "acquired_in_event": "evt.gen_4.lamech_marries"
+  },
+  {
+   "component_id": "comp.lamech.wife_zillah.1",
+   "entity_id": "person.lamech.gen_4_18",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_zillah",
+   "target_entity_id": "person.zillah",
+   "acquired_at_verse": "GEN.4.19",
+   "acquired_in_event": "evt.gen_4.lamech_marries"
+  },
+  {
+   "component_id": "comp.seth.appointed_seed.1",
+   "entity_id": "person.seth",
+   "category": "ROLE_TITLE",
+   "component_key": "appointed_seed",
+   "value_code": "SEED_IN_PLACE_OF_ABEL",
+   "acquired_at_verse": "GEN.4.25",
+   "acquired_in_event": "evt.gen_4.seth_born"
+  }
+ ],
+ "component_closures": [],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_4.abel_gift",
+   "system_id": "sys.gift_offering",
+   "event_id": "evt.gen_4.abel_offering",
+   "verse_start": "GEN.4.4",
+   "verse_end": "GEN.4.4",
+   "initiator_entity_id": "person.abel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "firstlings",
+    "fat",
+    "accepted"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.cain_cursed",
+   "system_id": "sys.divine_curse",
+   "event_id": "evt.gen_4.god_confronts_cain",
+   "verse_start": "GEN.4.11",
+   "verse_end": "GEN.4.12",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.cain"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "bloodguilt",
+    "exile"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.cain_gift",
+   "system_id": "sys.gift_offering",
+   "event_id": "evt.gen_4.cain_offering",
+   "verse_start": "GEN.4.3",
+   "verse_end": "GEN.4.3",
+   "initiator_entity_id": "person.cain",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "grain",
+    "fruit_of_the_ground",
+    "rejected"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.cain_marked",
+   "system_id": "sys.protective_sign",
+   "event_id": "evt.gen_4.cain_sign",
+   "verse_start": "GEN.4.15",
+   "verse_end": "GEN.4.15",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.cain"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "sign",
+    "protection"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.cain_vengeance_decree",
+   "system_id": "sys.blood_vengeance",
+   "event_id": "evt.gen_4.cain_sign",
+   "verse_start": "GEN.4.15",
+   "verse_end": "GEN.4.15",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.cain"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "sevenfold",
+    "protection"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.city_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_4.cain_builds_city",
+   "verse_start": "GEN.4.17",
+   "verse_end": "GEN.4.17",
+   "initiator_entity_id": "person.cain",
+   "target_entity_ids": [
+    "loc.city_of_enoch"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.city_of_enoch",
+   "tags": [
+    "city",
+    "named_for_son"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.enosh_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_4.enosh_born",
+   "verse_start": "GEN.4.26",
+   "verse_end": "GEN.4.26",
+   "initiator_entity_id": "person.seth",
+   "target_entity_ids": [
+    "person.enosh"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.lamech_marriages",
+   "system_id": "sys.marriage",
+   "event_id": "evt.gen_4.lamech_marries",
+   "verse_start": "GEN.4.19",
+   "verse_end": "GEN.4.19",
+   "initiator_entity_id": "person.lamech.gen_4_18",
+   "target_entity_ids": [
+    "person.adah.gen_4_19",
+    "person.zillah"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "polygamy"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.lamech_vengeance",
+   "system_id": "sys.blood_vengeance",
+   "event_id": "evt.gen_4.lamech_song",
+   "verse_start": "GEN.4.23",
+   "verse_end": "GEN.4.24",
+   "initiator_entity_id": "person.lamech.gen_4_18",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "tags": [
+    "boast",
+    "seventy_sevenfold"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.name_invoked",
+   "system_id": "sys.invoking_the_name",
+   "event_id": "evt.gen_4.invocation_begins",
+   "verse_start": "GEN.4.26",
+   "verse_end": "GEN.4.26",
+   "initiator_entity_id": "group.humankind",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "worship",
+    "beginning"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_4.seth_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_4.seth_born",
+   "verse_start": "GEN.4.25",
+   "verse_end": "GEN.4.25",
+   "initiator_entity_id": "person.woman_of_eden",
+   "target_entity_ids": [
+    "person.seth"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "naming",
+    "wordplay"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_4.cain_appeals_to_yhwh",
+   "source_entity_id": "person.cain",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "APPEALS_TO",
+   "verse_id": "GEN.4.13",
+   "event_id": "evt.gen_4.cain_plea"
+  },
+  {
+   "edge_id": "edge.gen_4.cain_builds_city",
+   "source_entity_id": "person.cain",
+   "target_entity_id": "loc.city_of_enoch",
+   "interaction_type": "BUILDS",
+   "verse_id": "GEN.4.17",
+   "event_id": "evt.gen_4.cain_builds_city"
+  },
+  {
+   "edge_id": "edge.gen_4.cain_fathers_enoch",
+   "source_entity_id": "person.cain",
+   "target_entity_id": "person.enoch.gen_4_17",
+   "interaction_type": "FATHERS",
+   "verse_id": "GEN.4.17",
+   "event_id": "evt.gen_4.enoch_born"
+  },
+  {
+   "edge_id": "edge.gen_4.cain_kills_abel",
+   "source_entity_id": "person.cain",
+   "target_entity_id": "person.abel",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.4.8",
+   "event_id": "evt.gen_4.cain_kills_abel"
+  },
+  {
+   "edge_id": "edge.gen_4.eve_bears_abel",
+   "source_entity_id": "person.woman_of_eden",
+   "target_entity_id": "person.abel",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.4.2",
+   "event_id": "evt.gen_4.abel_born"
+  },
+  {
+   "edge_id": "edge.gen_4.eve_bears_cain",
+   "source_entity_id": "person.woman_of_eden",
+   "target_entity_id": "person.cain",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.4.1",
+   "event_id": "evt.gen_4.cain_born"
+  },
+  {
+   "edge_id": "edge.gen_4.eve_names_seth",
+   "source_entity_id": "person.woman_of_eden",
+   "target_entity_id": "person.seth",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.4.25",
+   "event_id": "evt.gen_4.seth_born"
+  },
+  {
+   "edge_id": "edge.gen_4.seth_names_enosh",
+   "source_entity_id": "person.seth",
+   "target_entity_id": "person.enosh",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.4.26",
+   "event_id": "evt.gen_4.enosh_born"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_curses_cain",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.cain",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.4.11",
+   "event_id": "evt.gen_4.god_confronts_cain"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_disregards_cain",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.cain",
+   "interaction_type": "REJECTS",
+   "verse_id": "GEN.4.5",
+   "event_id": "evt.gen_4.cain_rejected"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_protects_cain",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.cain",
+   "interaction_type": "PROTECTS",
+   "verse_id": "GEN.4.15",
+   "event_id": "evt.gen_4.cain_sign"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_questions_cain",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.cain",
+   "interaction_type": "QUESTIONS",
+   "verse_id": "GEN.4.9",
+   "event_id": "evt.gen_4.god_confronts_cain"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_regards_abel",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.abel",
+   "interaction_type": "FAVOURS",
+   "verse_id": "GEN.4.4",
+   "event_id": "evt.gen_4.abel_offering"
+  },
+  {
+   "edge_id": "edge.gen_4.yhwh_warns_cain",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.cain",
+   "interaction_type": "WARNS",
+   "verse_id": "GEN.4.7",
+   "event_id": "evt.gen_4.god_warns_cain"
+  }
+ ]
+}
