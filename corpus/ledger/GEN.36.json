@@ -1,0 +1,167 @@
+{
+ "chapter_ref": "GEN.36",
+ "items": {
+  "event:evt.gen_36.esau_marries_ishmaels_daughter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:54:21+00:00",
+   "agent_notes": [
+    "As the reviewer asked, anchored on evt.gen_28.esau_marries_mahalath (START, no offset, 1-year margin): 36:3 recalls that marriage. Basemath here is Mahalath of 28:9 (the packet maps her to person.mahalath). Whether Jacob's departure belongs at about 77 rather than where GEN.28 puts it is a question for that chapter, not dated again here."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:53:28+00:00",
+     "note": "[should_fix] Anchor this event on evt.gen_28.esau_marries_mahalath (START, no offset) and keep a small margin, since 36:3 recalls that marriage rather than dating it again. If you think Jacob's departure belongs at about 77 rather than where GEN.28 puts it, say so in a reviewer note instead of dating the marriage a second time. (GEN.36.3: \"Bashemath Ishmael's daughter, sister of Nebajoth\" (the packet maps her to person.mahalath); GEN.28.9: \"Mahalath the daughter of Ishmael Abraham's son, the sister of Nebajoth\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:55:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_36.esau_moves_to_seir": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:51:49+00:00",
+   "agent_notes": [
+    "The text gives no date for the move. I anchor on the end of Isaac's death (Gen 35:29, where Esau and Jacob bury him together), because 36:6 reads as Esau's departure after the two brothers are again in one land, and the tradition (Rashi on 36:6) links it to Isaac's death and Jacob's return. Margin 5 years either way. Gen 32:3 already has Esau in Seir before Jacob's return, so 36:6-8 may be a retrospective summary of a move that came earlier; the reader should weigh that. If so, the event would be earlier than the one here and the margin should widen. I kept the order the chapter gives.",
+    "No journey time is computed: Canaan (Hebron) to Seir is a move of a whole household with herds and the text gives no route or duration. Duration 3 weeks is a rough estimate for a herd-bound move over about 150-290 km (Seir is 287 km from the registry's Canaan point, which is a loose centre)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:53:28+00:00",
+     "note": "[consider] Consider basing the duration on urim travel Hebron Seir, slowed for herds and with the reason in the note, and widening the margin or saying plainly why the earlier move is left out of it. (GEN.35.27: \"Jacob came unto Isaac his father unto Mamre ... which is Hebron\"; GEN.32.3: \"unto Esau his brother unto the land of Seir\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_36.esau_takes_canaanite_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:51:49+00:00",
+   "agent_notes": [
+    "Esau's age of 40 at his Hittite marriages is stated in Gen 26:34, not here, so I take it from anchor.jacob_birth (Esau and Jacob are twins). Names differ from 26:34 and 28:9 (Judith/Basemath daughter of Beeri and Elon; Oholibamah daughter of Anah; Adah daughter of Elon; Basemath = Mahalath of 28:9). I did not reconcile them; the Ontologist may. 40 years +/- 3 is a loose cut because the verse gives no date."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:53:28+00:00",
+     "note": "[consider] Consider anchoring on evt.gen_26.esau_marries (START), with the name differences kept in the note. (GEN.26.34: \"Esau was forty years old when he took to wife Judith ... and Bashemath the daughter of Elon the Hittite\"; GEN.36.2: \"Adah the daughter of Elon the Hittite\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_36.sons_born_in_canaan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:54:21+00:00",
+   "agent_notes": [
+    "A span, not a point: the sons of the three wives are born 'in the land of Canaan' (36:5). As the reviewer asked, it starts one year after the END of the Canaanite marriages and runs 40 years (the Ishmaelite marriage falls about 22 years after the start, so 20 years would have ended before Reuel), past Reuel's birth (after the Ishmaelite marriage) and before the move to Seir. The sons' order of birth is not given. Eliphaz may be born near the start of the span; Reuel certainly later."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:53:28+00:00",
+     "note": "[should_fix] Anchor the span on evt.gen_36.esau_takes_canaanite_wives (END) with an offset of about one year, and set the duration so it runs past Reuel's birth after the Ishmaelite marriage and ends before the move to Seir. State in the note that the sons' order of birth is not given. (GEN.36.4: \"Adah bare to Esau Eliphaz; and Bashemath bare Reuel\"; GEN.36.2: Adah is among the wives taken from the daughters of Canaan.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:55:01+00:00",
+     "note": "[consider] On a later pass, describe the span's end relative to events (after the Ishmaelite marriage, before the move to Seir) instead of quoting a BCE year. (GEN.36.5: \"these are the sons of Esau, which were born unto him in the land of Canaan\" (the text gives no date; the number comes from the linker).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 36:1 and 36:9-43 (generations of Esau, Horite chiefs, kings of Edom, chiefs of Edom) are left out of the events: they are undated genealogies and lists, which the skill treats as framing. 36:31 ('before any king reigned over the children of Israel') is an editorial remark, not a datable point.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:51:49+00:00"
+  },
+  {
+   "note": "No causal links are written: the reason for the move (36:7, possessions too great) is inside the event itself, and no divine or prophetic speech occurs in this chapter. A later fulfilment of Isaac's blessing of Esau (Gen 27:39-40) in the settlement of Seir could be linked by the Ontologist or a later session; I did not, because the text does not say so.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:51:49+00:00"
+  },
+  {
+   "note": "Verses 36:1 and 36:9-43 (generations of Esau, Horite chiefs, kings of Edom, chiefs of Edom) are left out of the events: they are undated genealogies and lists, which the skill treats as framing. 36:31 ('before any king reigned over the children of Israel') is an editorial remark, not a datable point.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:54:21+00:00"
+  },
+  {
+   "note": "No causal links are written: the reason for the move (36:7, possessions too great) is inside the event itself, and no divine or prophetic speech occurs in this chapter. A later fulfilment of Isaac's blessing of Esau (Gen 27:39-40) in the settlement of Seir could be linked by the Ontologist or a later session; I did not, because the text does not say so.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:54:21+00:00"
+  },
+  {
+   "note": "[event:evt.gen_36.esau_takes_canaanite_wives] Esau's age of 40 at his Hittite marriages is stated in Gen 26:34, not here, so I take it from anchor.jacob_birth (Esau and Jacob are twins). Names differ from 26:34 and 28:9 (Judith/Basemath daughter of Beeri and Elon; Oholibamah daughter of Anah; Adah daughter of Elon; Basemath = Mahalath of 28:9). I did not reconcile them; the Ontologist may. 40 years +/- 3 is a loose cut because the verse gives no date.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:54:21+00:00"
+  },
+  {
+   "note": "[event:evt.gen_36.esau_moves_to_seir] The text gives no date for the move. I anchor on the end of Isaac's death (Gen 35:29, where Esau and Jacob bury him together), because 36:6 reads as Esau's departure after the two brothers are again in one land, and the tradition (Rashi on 36:6) links it to Isaac's death and Jacob's return. Margin 5 years either way. Gen 32:3 already has Esau in Seir before Jacob's return, so 36:6-8 may be a retrospective summary of a move that came earlier; the reader should weigh that. If so, the event would be earlier than the one here and the margin should widen. I kept the order the chapter gives.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:54:21+00:00"
+  },
+  {
+   "note": "[event:evt.gen_36.esau_moves_to_seir] No journey time is computed: Canaan (Hebron) to Seir is a move of a whole household with herds and the text gives no route or duration. Duration 3 weeks is a rough estimate for a herd-bound move over about 150-290 km (Seir is 287 km from the registry's Canaan point, which is a loose centre).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:54:21+00:00"
+  }
+ ]
+}

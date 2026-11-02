@@ -1,0 +1,464 @@
+{
+ "chapter_ref": "GEN.23",
+ "items": {
+  "causal:caus.gen_23.abraham_weighs_the_silver.field_confirmed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_23.ephron_names_the_price.abraham_weighs_the_silver": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_23.field_confirmed.abraham_buries_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_23.sarah_dies.abraham_asks_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:41:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_23.sarah_dies.abraham_mourns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_asks_hittites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:42:36+00:00",
+   "agent_notes": [
+    "The negotiation (vv3–18) is one continuous scene at the city gate (v10, v18); the speeches take minutes each, so the day is DAY_SEQUENCE without any hour marker. No travel time: Hebron and Machpelah are 1 km apart."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": "[should_fix] Keep the estimated hour if you like, but widen the margin to cover the hours of daylight (about 5–6 hours). Or drop time_of_day and leave the scene placed only within the day. (GEN.23.3, 23.10: \"Abraham stood up … and spake unto the sons of Heth\"; \"all that went in at the gate of his city\". The only clue is that this was daytime business at the gate, with no hour word.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:42:08+00:00",
+     "note": "[should_fix] Replace time_of_day HORA_TERTIA with TZOHORAYIM and set the margin to 6 hours, so the linked span covers the whole of daylight (06:00–18:00). In the temporal note, drop 'about 06:00–12:00' and say only that the gate business falls within daylight, the hour being unstated. (GEN.23.3: \"And Abraham stood up from before his dead, and spake unto the sons of Heth\"; GEN.23.10: \"all that went in at the gate of his city\" (daytime business at the gate, no hour word))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:43:11+00:00",
+     "note": "[consider] If this item is reopened, split the first sentence: 'Follows the mourning (\"and he rose\", v3). The business at the city gate (v10) falls within daylight; the hour is unstated.' (GEN.23.3: \"And Abraham stood up from before his dead\"; GEN.23.10: \"all that went in at the gate of his city\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_bows_and_asks_for_ephron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_buries_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:41:12+00:00",
+   "agent_notes": [
+    "'Afterward' (v19) gives no delay; placed right after the title is confirmed, with a margin of days. A burial of a day or a few days is the usual reading, the negotiation itself taking hours."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": "[should_fix] Extend verse_end to GEN.23.20. Add a clause to the summary saying that the field and cave are thereby made sure to Abraham as a burial possession from the sons of Heth. Remove 'Verse 20 restates this' from field_confirmed. (GEN.23.20: \"And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_insists_on_paying": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_mourns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [
+    "The text gives no length of mourning. One day is a placeholder with a wide margin; the Hittite negotiation follows when Abraham 'stood up from before his dead' (v3)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": "[consider] Mention the 'came' reading and the travel from Beersheba (≈1 day, urim travel) in the temporal note. Optionally offset the mourning by about 1 day with a margin that also allows 'came' to mean entering the tent. (GEN.23.2: \"and Abraham came to mourn for Sarah\"; GEN.22.19: \"Abraham dwelt at Beersheba\"; Targum Pseudo-Jonathan v2 has him come and find her dead.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.abraham_weighs_the_silver": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.ephron_names_the_price": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.ephron_offers_the_field": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.field_confirmed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.hittites_answer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_23.sarah_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:01+00:00",
+   "agent_notes": [
+    "Sarah's age (127, v1) is dated through Isaac: Sarah was 90 at his birth (Gen 17:17, 21:5 with Abraham 100), so she died when Isaac was 37, i.e. 37 years after anchor.isaac_birth. Gen 23 itself gives no age for Isaac. Rashi/Midrash link the death to the Akedah (Gen 22), which would put it soon after evt.gen_22 events (c. 2041 BCE); the date here (c. 2029 BCE) is about 12 years later than that, so the chain puts Isaac at 37 and Gen 22 at about 25. Kept the age arithmetic since the text states it; Isaac's age at Gen 22 is not stated.",
+    "evt.gen_11.terah_dies is dated c. 2032 BCE in the corpus, three years before Sarah's death here. Not touched; belongs to the Gen 11 reviewer, who may compare the Terah-at-70 or -130 chains."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:40:33+00:00",
+     "note": "[consider] Keep the date. Align the precision_tier with how other age-dated deaths in Genesis are tiered. (GEN.23.1: \"Sarah was an hundred and seven and twenty years old\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verse 20 restates 17–18 (the field and cave 'made sure' to Abraham) and is covered by evt.gen_23.field_confirmed, whose verse range stops at 18 so that it does not overlap the burial of v19. No verse is otherwise left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:39:01+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech occurs in this chapter, so no FULFILLS_PROPHECY link is written. The land promise (Gen 12:7, 17:8) is only indirectly touched (Ibn Ezra, Ramban on v19); a later chapter (Gen 25:9–10, 49:29–32, 50:13) refers back to this cave.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:39:01+00:00"
+  },
+  {
+   "note": "Verse 20 restates 17–18 (the field and cave 'made sure' to Abraham) and now belongs to evt.gen_23.abraham_buries_sarah (19–20), per the reviewer. evt.gen_23.field_confirmed is LOCKED, so its summary line 'Verse 20 restates this' was kept unchanged; the reviewer asked to remove it, which needs unlocking. No verse is left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:41:12+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech occurs in this chapter, so no FULFILLS_PROPHECY link is written. The land promise (Gen 12:7, 17:8) is only indirectly touched (Ibn Ezra, Ramban on v19); a later chapter (Gen 25:9–10, 49:29–32, 50:13) refers back to this cave.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:41:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.sarah_dies] Sarah's age (127, v1) is dated through Isaac: Sarah was 90 at his birth (Gen 17:17, 21:5 with Abraham 100), so she died when Isaac was 37, i.e. 37 years after anchor.isaac_birth. Gen 23 itself gives no age for Isaac. Rashi/Midrash link the death to the Akedah (Gen 22), which would put it soon after evt.gen_22 events (c. 2041 BCE); the date here (c. 2029 BCE) is about 12 years later than that, so the chain puts Isaac at 37 and Gen 22 at about 25. Kept the age arithmetic since the text states it; Isaac's age at Gen 22 is not stated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:41:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.sarah_dies] evt.gen_11.terah_dies is dated c. 2032 BCE in the corpus, three years before Sarah's death here. Not touched; belongs to the Gen 11 reviewer, who may compare the Terah-at-70 or -130 chains.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:41:12+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.abraham_mourns] The text gives no length of mourning. One day is a placeholder with a wide margin; the Hittite negotiation follows when Abraham 'stood up from before his dead' (v3).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:41:12+00:00"
+  },
+  {
+   "note": "[urim-critic@3 · claude-opus-5-5, consider] event:evt.gen_23.field_confirmed: The locked summary still ends 'Verse 20 restates this', while verse 20 now belongs to evt.gen_23.abraham_buries_sarah (19–20). The two items disagree about who covers v20; the line can go when the item is next reopened. (GEN.23.20: \"And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth.\")",
+   "produced_by": {
+    "model": "claude-opus-5-5",
+    "skill": "urim-critic@3",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:08+00:00"
+  },
+  {
+   "note": "Verse 20 restates 17–18 (the field and cave 'made sure' to Abraham) and now belongs to evt.gen_23.abraham_buries_sarah (19–20), per the reviewer. evt.gen_23.field_confirmed is LOCKED, so its summary line 'Verse 20 restates this' was kept unchanged; the reviewer asked to remove it, which needs unlocking. No verse is left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech occurs in this chapter, so no FULFILLS_PROPHECY link is written. The land promise (Gen 12:7, 17:8) is only indirectly touched (Ibn Ezra, Ramban on v19); a later chapter (Gen 25:9–10, 49:29–32, 50:13) refers back to this cave.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.sarah_dies] Sarah's age (127, v1) is dated through Isaac: Sarah was 90 at his birth (Gen 17:17, 21:5 with Abraham 100), so she died when Isaac was 37, i.e. 37 years after anchor.isaac_birth. Gen 23 itself gives no age for Isaac. Rashi/Midrash link the death to the Akedah (Gen 22), which would put it soon after evt.gen_22 events (c. 2041 BCE); the date here (c. 2029 BCE) is about 12 years later than that, so the chain puts Isaac at 37 and Gen 22 at about 25. Kept the age arithmetic since the text states it; Isaac's age at Gen 22 is not stated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.sarah_dies] evt.gen_11.terah_dies is dated c. 2032 BCE in the corpus, three years before Sarah's death here. Not touched; belongs to the Gen 11 reviewer, who may compare the Terah-at-70 or -130 chains.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.abraham_mourns] The text gives no length of mourning. One day is a placeholder with a wide margin; the Hittite negotiation follows when Abraham 'stood up from before his dead' (v3).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  },
+  {
+   "note": "[event:evt.gen_23.abraham_buries_sarah] 'Afterward' (v19) gives no delay; placed right after the title is confirmed, with a margin of days. A burial of a day or a few days is the usual reading, the negotiation itself taking hours.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:36+00:00"
+  }
+ ]
+}

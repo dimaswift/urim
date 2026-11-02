@@ -1,0 +1,487 @@
+{
+ "chapter_ref": "GEN.35",
+ "items": {
+  "causal:caus.gen_35.god_commands_bethel.altar_el_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:50:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[should_fix] Change causal_type to TRIGGERS (Jacob carries out God's command of 35:1 in 35:7); keep the explanation. (GEN.35.1: \"Arise, go up to Beth-el, and dwell there: and make there an altar\"; GEN.35.7: \"And he built there an altar\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:50:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_35.god_commands_bethel.purge_foreign_gods": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_35.rachel_dies_benjamin_born.pillar_rachel_grave": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_35.rachel_labor.rachel_dies_benjamin_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.altar_el_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[consider] Consider a link from evt.gen_28.jacob_vow to this event (the vow carried out). (GEN.35.3: \"unto God, who answered me in the day of my distress, and was with me in the way which I went\"; GEN.35.7: \"because there God appeared unto him, when he fled\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.deborah_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:50:16+00:00",
+   "agent_notes": [
+    "Verse 8 gives no time. Placed between the altar and the second theophany by verse order, 3 days after the altar, with a 3-day margin; DAY_SEQUENCE like the surrounding Bethel scenes (the text has no time word of its own, so the tier is that of the scene it falls in). Pseudo-Jonathan places the theophany after Rebekah's death (news arriving), which is not modelled."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[should_fix] Set precision_tier to DAY_SEQUENCE like the other Bethel events, keep the ±3-day margin, and change the temporal_reasoning_note so it no longer says MACRO_ERA. (GEN.35.8: \"But Deborah Rebekah's nurse died, and she was buried beneath Beth-el\" (no time word, placed between 35:7 and 35:9 at Bethel))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:50:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.god_appears_renames": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "Verse 9 says 'again, when he came from Paddan-aram'. Taken as a second theophany at Bethel itself, soon after the altar (v. 7), not as a later visit. The ordering after Deborah's burial follows verse order only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.god_commands_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "Anchored 1 day after the rebuke at Shechem with a 2-day margin; the text has no time word. Ch. 34 events are at day level, so the chain stays DAY_SEQUENCE."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.god_promise": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "The promise of kings and of the land (35:11-12) will likely be fulfilled in later chapters (Gen 46:3, Exod, Joshua, Samuel); those chapters' sessions write the links."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.isaac_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "Isaac's 180 years are dated from anchor.isaac_birth (180 years, c. 1886 BCE, 12 years after Joseph's sale at 17, Gen 37:2). Ramban on 35:28 (after Rashi): the Torah does not keep strict order here; Isaac's death follows the sale of Joseph in time, though it is told before it. So this event is told here but falls after the Joseph events of Gen 37-40 in time. Jacob was then 120, Joseph 29 (Gen 41:46 puts Joseph at 30 on standing before Pharaoh)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.israel_pitches_beyond_eder": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.jacob_comes_to_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "No interval stated. Jacob is at Hebron by Gen 37:14 (Joseph aged 17, c. 1898 BCE on the anchors), so the 6-month offset with a 6-month margin stays well before that. Travel Migdal-eder to Hebron is ~24 km straight, about a day by donkey. Joseph is about 12-13 at Gen 34 (c. 1903 BCE), so the chain fits."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[consider] Consider a tier that matches the margin, or a wider margin bounded by Gen 37:2 (Joseph at 17). (GEN.35.27: \"And Jacob came unto Isaac his father unto Mamre\" (no interval))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.journey_to_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[consider] Consider a morning time_of_day on the departure so the hours downstream don't fall at night. (GEN.35.5: \"And they journeyed\"; urim travel Shechem→Bethel: 41 km by road, donkey 10.2 h moving, ≈1 day)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.pillar_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.pillar_rachel_grave": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.purge_foreign_gods": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.rachel_dies_benjamin_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.rachel_labor": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "The text gives no pause length at Bethel. The route to Ephrath/Bethlehem is ~31 km by road (donkey ~7.5 h), 'a little way' short of it; I use 30 hours after the pillar (a day at Bethel plus ~6 h on the road) with a 2-day margin.",
+    "Considered a link from the divine promise of 35:11 (a nation, kings) to Benjamin's birth; dropped as not stated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_35.reuben_lies_with_bilhah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:47:59+00:00",
+   "agent_notes": [
+    "'When Israel dwelt in that land' gives no interval. 2 months after Migdal-eder with a 2-month margin is a guess to keep the order Eder, Reuben, Hebron. MACRO_ERA."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:49:33+00:00",
+     "note": "[consider] Consider matching the tier to the margin (SEASONAL_MONTH) or widening the margin if the span is meant to be truly open. (GEN.35.22: \"when Israel dwelt in that land\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 23-26 (the list of Jacob's twelve sons) are left out as an undated genealogical list; 22b ('the sons of Jacob were twelve') is covered by the Reuben event as framing.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:47:59+00:00"
+  },
+  {
+   "note": "Verses 23-26 (the list of Jacob's twelve sons) are left out as an undated genealogical list; 22b ('the sons of Jacob were twelve') is covered by the Reuben event as framing.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.god_appears_renames] Verse 9 says 'again, when he came from Paddan-aram'. Taken as a second theophany at Bethel itself, soon after the altar (v. 7), not as a later visit. The ordering after Deborah's burial follows verse order only.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.rachel_labor] The text gives no pause length at Bethel. The route to Ephrath/Bethlehem is ~31 km by road (donkey ~7.5 h), 'a little way' short of it; I use 30 hours after the pillar (a day at Bethel plus ~6 h on the road) with a 2-day margin.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.rachel_labor] Considered a link from the divine promise of 35:11 (a nation, kings) to Benjamin's birth; dropped as not stated.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.reuben_lies_with_bilhah] 'When Israel dwelt in that land' gives no interval. 2 months after Migdal-eder with a 2-month margin is a guess to keep the order Eder, Reuben, Hebron. MACRO_ERA.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.jacob_comes_to_isaac] No interval stated. Jacob is at Hebron by Gen 37:14 (Joseph aged 17, c. 1898 BCE on the anchors), so the 6-month offset with a 6-month margin stays well before that. Travel Migdal-eder to Hebron is ~24 km straight, about a day by donkey. Joseph is about 12-13 at Gen 34 (c. 1903 BCE), so the chain fits.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.isaac_dies] Isaac's 180 years are dated from anchor.isaac_birth (180 years, c. 1886 BCE, 12 years after Joseph's sale at 17, Gen 37:2). Ramban on 35:28 (after Rashi): the Torah does not keep strict order here; Isaac's death follows the sale of Joseph in time, though it is told before it. So this event is told here but falls after the Joseph events of Gen 37-40 in time. Jacob was then 120, Joseph 29 (Gen 41:46 puts Joseph at 30 on standing before Pharaoh).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.god_promise] The promise of kings and of the land (35:11-12) will likely be fulfilled in later chapters (Gen 46:3, Exod, Joshua, Samuel); those chapters' sessions write the links.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_35.god_commands_bethel] Anchored 1 day after the rebuke at Shechem with a 2-day margin; the text has no time word. Ch. 34 events are at day level, so the chain stays DAY_SEQUENCE.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:50:16+00:00"
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "chapter_ref": "GEN.23",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_23.sarah_dies",
+   "verse_start": "GEN.23.1",
+   "verse_end": "GEN.23.2",
+   "time": {
+    "anchor": "anchor.isaac_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 37.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_mourns",
+   "verse_start": "GEN.23.2",
+   "verse_end": "GEN.23.3",
+   "time": {
+    "anchor": "evt.gen_23.sarah_dies",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_asks_hittites",
+   "verse_start": "GEN.23.3",
+   "verse_end": "GEN.23.4",
+   "time": {
+    "anchor": "evt.gen_23.abraham_mourns",
+    "anchor_point": "END",
+    "time_of_day": "TZOHORAYIM",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.hittites_answer",
+   "verse_start": "GEN.23.5",
+   "verse_end": "GEN.23.6",
+   "time": {
+    "anchor": "evt.gen_23.abraham_asks_hittites",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_bows_and_asks_for_ephron",
+   "verse_start": "GEN.23.7",
+   "verse_end": "GEN.23.9",
+   "time": {
+    "anchor": "evt.gen_23.hittites_answer",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.ephron_offers_the_field",
+   "verse_start": "GEN.23.10",
+   "verse_end": "GEN.23.11",
+   "time": {
+    "anchor": "evt.gen_23.abraham_bows_and_asks_for_ephron",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_insists_on_paying",
+   "verse_start": "GEN.23.12",
+   "verse_end": "GEN.23.13",
+   "time": {
+    "anchor": "evt.gen_23.ephron_offers_the_field",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.ephron_names_the_price",
+   "verse_start": "GEN.23.14",
+   "verse_end": "GEN.23.15",
+   "time": {
+    "anchor": "evt.gen_23.abraham_insists_on_paying",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_weighs_the_silver",
+   "verse_start": "GEN.23.16",
+   "verse_end": "GEN.23.16",
+   "time": {
+    "anchor": "evt.gen_23.ephron_names_the_price",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.field_confirmed",
+   "verse_start": "GEN.23.17",
+   "verse_end": "GEN.23.18",
+   "time": {
+    "anchor": "evt.gen_23.abraham_weighs_the_silver",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_23.abraham_buries_sarah",
+   "verse_start": "GEN.23.19",
+   "verse_end": "GEN.23.20",
+   "time": {
+    "anchor": "evt.gen_23.field_confirmed",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_23.abraham_weighs_the_silver.field_confirmed",
+   "cause_event_id": "evt.gen_23.abraham_weighs_the_silver",
+   "effect_event_id": "evt.gen_23.field_confirmed",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_23.ephron_names_the_price.abraham_weighs_the_silver",
+   "cause_event_id": "evt.gen_23.ephron_names_the_price",
+   "effect_event_id": "evt.gen_23.abraham_weighs_the_silver",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_23.field_confirmed.abraham_buries_sarah",
+   "cause_event_id": "evt.gen_23.field_confirmed",
+   "effect_event_id": "evt.gen_23.abraham_buries_sarah",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_23.sarah_dies.abraham_asks_hittites",
+   "cause_event_id": "evt.gen_23.sarah_dies",
+   "effect_event_id": "evt.gen_23.abraham_asks_hittites",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_23.sarah_dies.abraham_mourns",
+   "cause_event_id": "evt.gen_23.sarah_dies",
+   "effect_event_id": "evt.gen_23.abraham_mourns",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

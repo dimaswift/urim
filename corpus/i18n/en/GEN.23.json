@@ -1,0 +1,100 @@
+{
+ "chapter_ref": "GEN.23",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_23.sarah_dies",
+   "title": "Sarah dies at Hebron aged 127",
+   "narrative_summary": "Sarah lives 127 years and dies in Kiriath-arba, which is Hebron, in the land of Canaan.",
+   "temporal_reasoning_note": "Sarah was 90 when Isaac was born (Gen 17:17; Abraham was 100, Gen 21:5), so at 127 she dies 37 years after anchor.isaac_birth. An age in years covers the whole year: margin 1 year, REGNAL_YEAR. The month and day are not given.",
+   "ancient_year_marker": "The years of the life of Sarah were a hundred and twenty-seven"
+  },
+  {
+   "event_id": "evt.gen_23.abraham_mourns",
+   "title": "Abraham mourns and weeps for Sarah",
+   "narrative_summary": "Abraham comes to mourn for Sarah and to weep for her, then rises from before his dead.",
+   "temporal_reasoning_note": "Starts when Sarah dies (anchor END, no delay). The text gives no length; one day is a placeholder with a margin of one day. Ends when Abraham 'rose from before his dead' (v3)."
+  },
+  {
+   "event_id": "evt.gen_23.abraham_asks_hittites",
+   "title": "Abraham asks the Hittites for a burial site",
+   "narrative_summary": "Abraham tells the sons of Heth he is a sojourner and asks for a burial possession among them.",
+   "temporal_reasoning_note": "Follows the mourning ('and he rose', v3), the business at the city gate (v10) falls within daylight, the hour being unstated. Noon is the midpoint and the margin of 6 hours spans the whole of daylight (06:00–18:00); the tier stays DAY_SEQUENCE. A short speech of minutes."
+  },
+  {
+   "event_id": "evt.gen_23.hittites_answer",
+   "title": "The Hittites offer Abraham their choicest tomb",
+   "narrative_summary": "The sons of Heth call Abraham a prince of God and say none will withhold a tomb from him.",
+   "temporal_reasoning_note": "A reply in the same scene ('and they answered', v5): starts as Abraham's request ends, lasts minutes."
+  },
+  {
+   "event_id": "evt.gen_23.abraham_bows_and_asks_for_ephron",
+   "title": "Abraham bows and asks them to plead with Ephron",
+   "narrative_summary": "Abraham stands, bows to the people of the land and asks them to entreat Ephron to sell him the cave of Machpelah for full silver.",
+   "temporal_reasoning_note": "Continuous with the Hittites' answer (v7 'and Abraham rose'); minutes."
+  },
+  {
+   "event_id": "evt.gen_23.ephron_offers_the_field",
+   "title": "Ephron offers Abraham the field and cave as a gift",
+   "narrative_summary": "Ephron, sitting among the Hittites at the gate, publicly gives Abraham the field and the cave and tells him to bury his dead.",
+   "temporal_reasoning_note": "Ephron answers within the same hearing (v10); no delay is stated, so it starts at the end of Abraham's request."
+  },
+  {
+   "event_id": "evt.gen_23.abraham_insists_on_paying",
+   "title": "Abraham bows again and insists on paying",
+   "narrative_summary": "Abraham bows before the people of the land and tells Ephron he will pay the price of the field.",
+   "temporal_reasoning_note": "Immediate reply in the same scene (vv12–13); minutes."
+  },
+  {
+   "event_id": "evt.gen_23.ephron_names_the_price",
+   "title": "Ephron names four hundred shekels of silver",
+   "narrative_summary": "Ephron answers that the land is worth four hundred shekels of silver, which is little between them, and again tells Abraham to bury his dead.",
+   "temporal_reasoning_note": "Immediate reply (vv14–15); minutes."
+  },
+  {
+   "event_id": "evt.gen_23.abraham_weighs_the_silver",
+   "title": "Abraham weighs out four hundred shekels to Ephron",
+   "narrative_summary": "Abraham agrees and weighs out to Ephron the four hundred shekels of silver he named, current among merchants, before the Hittites.",
+   "temporal_reasoning_note": "Follows the price at once (v16); weighing silver takes some minutes, taken as 20."
+  },
+  {
+   "event_id": "evt.gen_23.field_confirmed",
+   "title": "The field and cave are made sure to Abraham",
+   "narrative_summary": "Ephron's field at Machpelah before Mamre, with the cave and all its trees, passes to Abraham as a possession before all who entered the gate. Verse 20 restates this.",
+   "temporal_reasoning_note": "The transfer completes with the payment (v17 'was made sure'); witnessed at the gate, so minutes after the weighing."
+  },
+  {
+   "event_id": "evt.gen_23.abraham_buries_sarah",
+   "title": "Abraham buries Sarah in the cave of Machpelah",
+   "narrative_summary": "Afterward Abraham buries his wife Sarah in the cave of the field of Machpelah before Mamre, which is Hebron. The field and the cave are thereby made sure to Abraham as a burial possession from the sons of Heth.",
+   "temporal_reasoning_note": "'And after this' (v19) gives no delay; it starts when the title is confirmed. Machpelah is 1 km from Hebron, so no travel time. Margin of two days for the unstated interval."
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_23.abraham_weighs_the_silver.field_confirmed",
+   "causal_explanation": "The payment of the silver secures the field and cave to Abraham (23:16–17)."
+  },
+  {
+   "causal_id": "caus.gen_23.ephron_names_the_price.abraham_weighs_the_silver",
+   "causal_explanation": "Ephron's stated price is what Abraham accepts and weighs out (23:15–16)."
+  },
+  {
+   "causal_id": "caus.gen_23.field_confirmed.abraham_buries_sarah",
+   "causal_explanation": "Owning the cave makes the burial of Sarah there possible (23:19)."
+  },
+  {
+   "causal_id": "caus.gen_23.sarah_dies.abraham_asks_hittites",
+   "causal_explanation": "Sarah's death creates the need to bury his dead, which is why Abraham asks the Hittites for a burial possession (23:3–4)."
+  },
+  {
+   "causal_id": "caus.gen_23.sarah_dies.abraham_mourns",
+   "causal_explanation": "Sarah's death is why Abraham comes to mourn and weep for her (23:2)."
+  }
+ ],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

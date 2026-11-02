@@ -1,0 +1,96 @@
+{
+ "chapter_ref": "GEN.36",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_36.esau_takes_canaanite_wives",
+   "verse_start": "GEN.36.2",
+   "verse_end": "GEN.36.2",
+   "time": {
+    "anchor": "anchor.jacob_birth",
+    "anchor_point": "START",
+    "offset": {
+     "value": 40.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "REGNAL_YEAR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_36.esau_marries_ishmaels_daughter",
+   "verse_start": "GEN.36.3",
+   "verse_end": "GEN.36.3",
+   "time": {
+    "anchor": "evt.gen_28.esau_marries_mahalath",
+    "anchor_point": "START",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_36.sons_born_in_canaan",
+   "verse_start": "GEN.36.4",
+   "verse_end": "GEN.36.5",
+   "time": {
+    "anchor": "evt.gen_36.esau_takes_canaanite_wives",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 40.0,
+     "unit": "years"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_36.esau_moves_to_seir",
+   "verse_start": "GEN.36.6",
+   "verse_end": "GEN.36.8",
+   "time": {
+    "anchor": "evt.gen_35.isaac_dies",
+    "anchor_point": "END",
+    "duration": {
+     "value": 3.0,
+     "unit": "weeks"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

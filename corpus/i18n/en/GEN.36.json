@@ -1,0 +1,36 @@
+{
+ "chapter_ref": "GEN.36",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_36.esau_takes_canaanite_wives",
+   "title": "Esau takes wives from the daughters of Canaan",
+   "narrative_summary": "Esau takes his wives from the daughters of Canaan: Adah daughter of Elon the Hittite, and Oholibamah daughter of Anah, daughter of Zibeon the Hivite.",
+   "temporal_reasoning_note": "The chapter gives no date. Gen 26:34 says Esau was forty when he took Hittite wives, and he is Jacob's twin, so the event is 40 years from anchor.jacob_birth. The tier is REGNAL_YEAR because an age is the cue, though it comes from another chapter. Margin of 3 years because the names here differ from 26:34 and the marriages may not have been in one year. Duration of a day is a nominal span for a marriage."
+  },
+  {
+   "event_id": "evt.gen_36.esau_marries_ishmaels_daughter",
+   "title": "Esau marries Basemath, Ishmael's daughter",
+   "narrative_summary": "Esau also takes Basemath, the daughter of Ishmael and sister of Nebaioth.",
+   "temporal_reasoning_note": "No time is given here: 36:3 recalls the marriage that Gen 28:8-9 already dates (Mahalath, Ishmael's daughter and Nebaioth's sister, taken after Jacob left for Paddan-aram). So the event starts at the START of evt.gen_28.esau_marries_mahalath with no offset and a one-year margin, rather than dating the marriage a second time. The tier is MACRO_ERA because this chapter gives no number."
+  },
+  {
+   "event_id": "evt.gen_36.sons_born_in_canaan",
+   "title": "Esau's wives bear him sons in Canaan",
+   "narrative_summary": "Adah bears Eliphaz, Basemath bears Reuel, and Oholibamah bears Jeush, Jalam and Korah. These are the sons of Esau born to him in the land of Canaan.",
+   "temporal_reasoning_note": "The text says only that the sons were born in Canaan, before Esau's move; the order of their births is not given. The span starts about one year after the END of the marriages to the Canaanite wives (36:2; Adah and Oholibamah are among them) and runs 40 years (to about 1925 BCE on the anchor chain), long enough to pass Reuel's birth, which follows the later marriage to Ishmael's daughter, and to end before the move to Seir. Margin 3 years. The tier is MACRO_ERA because the span is my estimate."
+  },
+  {
+   "event_id": "evt.gen_36.esau_moves_to_seir",
+   "title": "Esau takes his household to Mount Seir away from Jacob",
+   "narrative_summary": "Esau takes his wives, children, household and livestock away from his brother Jacob, because their possessions are too great for the land to hold them together. He settles in the hill country of Seir; Esau is Edom.",
+   "temporal_reasoning_note": "No date is given. I anchor on the end of Isaac's death and burial (Gen 35:29), where both brothers are together, and let the move follow it. The margin of 5 years allows for an earlier or later move. Gen 32:3 shows Esau already in Seir before Jacob's return, so the verses may summarize an earlier move; see the reviewer note. Duration of 3 weeks is a rough estimate for moving a herd-bound household, not a computed travel time."
+  }
+ ],
+ "causal_edges": [],
+ "entities": [],
+ "components": [],
+ "systems": [],
+ "system_instances": [],
+ "edges": []
+}

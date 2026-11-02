@@ -1,0 +1,547 @@
+{
+ "chapter_ref": "GEN.24",
+ "items": {
+  "causal:caus.gen_24.charge_and_oath.journey_to_nahor": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.charge_and_oath.rebekah_gives_water": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "Abraham's word at v.7 (and the servant's retelling at v.40) that God 'will send his angel before you' is taken as a prophetic promise; the servant confesses at v.27 that 'the LORD led me'. Linked to the meeting at the well (confidence 0.7) rather than to the later consent, which v.50 also credits to the LORD."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": "[consider] Consider a second FULFILLS_PROPHECY link from charge_and_oath to rebekah_departs (or isaac_marries_rebekah) for the 'take a wife from there' half. (GEN.24.7: \"he shall send his angel before thee, and thou shalt take a wife unto my son from thence\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.rebekah_consents.rebekah_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.rebekah_meets_isaac.isaac_marries_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.rebekah_tells_her_household.laban_welcomes_the_servant": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.servant_asks_leave.rebekah_consents": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.servant_prays.rebekah_gives_water": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "The servant's prayer names the sign (the girl who offers to water the camels); Rebekah does exactly that. Typed TRIGGERS rather than FULFILLS_PROPHECY because it is a petition, not a word of God; confidence 0.8."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_24.servant_tells_his_errand.laban_and_bethuel_consent": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.charge_and_oath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "The chapter gives no date. It is placed after Sarah's burial (Gen 23) and before Isaac's marriage at forty (Gen 25:20). Radak on v.67 says Sarah had been dead three years when Isaac took Rebekah; Sarah died when Isaac was 37 (she was 127, he was born when she was 90), which agrees. So the charge is anchored 2.75 years after the burial (3 years less the ~80 days of travel and the stay), margin 6 months. Alternative rejected: anchoring on anchor.isaac_birth + 40 years, because the age of 40 is stated in Gen 25:20, not in this chapter. The check against that age is in the marriage event."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": "[consider] Correct '2.5 months' to 'about 2 months' (offset about 2.8 years). Consider widening the margin toward a year, or say in the note that the 6 months follows Radak and not the ages. (GEN.24.67 (Radak): \"אף על פי שהיה כבר שלש שנים שמתה כשלקח רבקה\"; GEN.24.10: no duration stated.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.gifts_and_lodging_question": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.isaac_marries_rebekah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "Gen 25:20 puts Isaac's marriage at forty, i.e. anchor.isaac_birth + 40 years. The date this chain produces should be compared with that in review; the corpus text for Gen 23 dates the burial from the Terah-based anchor chain and may differ by a year or two. Neither is changed here. A later chapter (Gen 25:20) will carry the explicit age."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.journey_home": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "Haran to Beer-lahai-roi by donkey pace is ~1015 km by road, ~31 days (the party includes Rebekah, her nurse and her maids, so a donkey pace is reasonable). Isaac is both said to have come from Beer-lahai-roi and to dwell in the Negeb (v.62); the destination is taken to be his camp in the Negeb near Beer-lahai-roi."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.journey_to_nahor": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "The text states no duration. Hebron to Haran by `urim travel --mode donkey` is ~869 km by road, ~27 days. Camels are not a listed mode, so donkey pace is used, margin 5 days. Haran is the usual identification of the 'city of Nahor' in Aram-Naharaim; if it is a town nearer the Euphrates bend the time is a few days shorter. Targum Pseudo-Jonathan on v.61 says the road was miraculously shortened, which would give days rather than weeks; not adopted, since the text itself says nothing of it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.laban_and_bethuel_consent": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.laban_welcomes_the_servant": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.night_at_bethuels_house": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "Hebrew day counting: the arrival, welcome, speech and agreement all fall in the evening after sunset begins the new Hebrew day, but the clock count here runs midnight to midnight and the morning of v.54 is the next calendar morning."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.rebekah_consents": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.rebekah_departs": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.rebekah_gives_water": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.rebekah_meets_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.rebekah_tells_her_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_asks_leave": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "The family asks for 'days or ten' (v.55). Rashi and Radak read 'days' as a year and 'ten' as ten months (the 12 months a betrothed girl is given to prepare, Ketubot 57b); Onkelos has a season or ten months; Sforno says it is a gradual adjustment. The servant refuses and they leave the next morning, so no such delay enters the timeline."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_halts_at_the_well": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_prays": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_tells_his_errand": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [
+    "The servant's long speech (vv.34-49) is one event: it retells the oath, the prayer and the meeting and adds nothing new in time. Its refusal to eat first (v.33) is folded in; the meal he eventually shares is in the night event (v.54)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_worships": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_24.servant_worships_and_gives_gifts": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:47:38+00:00",
+     "note": "[consider] Consider adding TRIGGERS links laban_and_bethuel_consent → servant_worships_and_gives_gifts (24:52) and gifts_and_lodging_question → servant_worships (24:26-27). (GEN.24.52: \"when Abraham's servant heard their words, he worshipped the LORD\"; GEN.24.27: \"the LORD led me to the house of my master's brethren\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "All 67 verses are covered. v.1 (Abraham old, blessed) is folded into the charge event as its setting; no verse is left out.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:51+00:00"
+  }
+ ]
+}

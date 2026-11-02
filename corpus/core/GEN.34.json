@@ -1,0 +1,382 @@
+{
+ "chapter_ref": "GEN.34",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_34.dinah_taken",
+   "verse_start": "GEN.34.1",
+   "verse_end": "GEN.34.2",
+   "time": {
+    "anchor": "evt.gen_33.altar_el_elohe_israel",
+    "anchor_point": "END",
+    "offset": {
+     "value": 5.0,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "years"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.shechem_asks_wife",
+   "verse_start": "GEN.34.3",
+   "verse_end": "GEN.34.4",
+   "time": {
+    "anchor": "evt.gen_34.dinah_taken",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.jacob_hears_silent",
+   "verse_start": "GEN.34.5",
+   "verse_end": "GEN.34.5",
+   "time": {
+    "anchor": "evt.gen_34.dinah_taken",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.hamor_goes_to_jacob",
+   "verse_start": "GEN.34.6",
+   "verse_end": "GEN.34.6",
+   "time": {
+    "anchor": "evt.gen_34.jacob_hears_silent",
+    "anchor_point": "START",
+    "offset": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.sons_return_angry",
+   "verse_start": "GEN.34.7",
+   "verse_end": "GEN.34.7",
+   "time": {
+    "anchor": "evt.gen_34.hamor_goes_to_jacob",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.hamor_proposal",
+   "verse_start": "GEN.34.8",
+   "verse_end": "GEN.34.10",
+   "time": {
+    "anchor": "evt.gen_34.sons_return_angry",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.shechem_offer",
+   "verse_start": "GEN.34.11",
+   "verse_end": "GEN.34.12",
+   "time": {
+    "anchor": "evt.gen_34.hamor_proposal",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.sons_circumcision_terms",
+   "verse_start": "GEN.34.13",
+   "verse_end": "GEN.34.17",
+   "time": {
+    "anchor": "evt.gen_34.shechem_offer",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.terms_accepted",
+   "verse_start": "GEN.34.18",
+   "verse_end": "GEN.34.19",
+   "time": {
+    "anchor": "evt.gen_34.sons_circumcision_terms",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.city_gate_speech",
+   "verse_start": "GEN.34.20",
+   "verse_end": "GEN.34.23",
+   "time": {
+    "anchor": "evt.gen_34.terms_accepted",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.males_circumcised",
+   "verse_start": "GEN.34.24",
+   "verse_end": "GEN.34.24",
+   "time": {
+    "anchor": "evt.gen_34.city_gate_speech",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.massacre",
+   "verse_start": "GEN.34.25",
+   "verse_end": "GEN.34.26",
+   "time": {
+    "anchor": "evt.gen_34.males_circumcised",
+    "anchor_point": "START",
+    "offset": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "duration": {
+     "value": 3.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 12.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.city_plundered",
+   "verse_start": "GEN.34.27",
+   "verse_end": "GEN.34.29",
+   "time": {
+    "anchor": "evt.gen_34.massacre",
+    "anchor_point": "END",
+    "duration": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_34.jacob_rebukes_sons",
+   "verse_start": "GEN.34.30",
+   "verse_end": "GEN.34.31",
+   "time": {
+    "anchor": "evt.gen_34.city_plundered",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 2.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_34.city_gate_speech.males_circumcised",
+   "cause_event_id": "evt.gen_34.city_gate_speech",
+   "effect_event_id": "evt.gen_34.males_circumcised",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.city_plundered",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.city_plundered",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.jacob_hears_silent",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.jacob_hears_silent",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.massacre",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.massacre",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.shechem_asks_wife",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.shechem_asks_wife",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.sons_circumcision_terms",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.sons_circumcision_terms",
+   "causal_type": "RETALIATES_FOR",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_34.dinah_taken.sons_return_angry",
+   "cause_event_id": "evt.gen_34.dinah_taken",
+   "effect_event_id": "evt.gen_34.sons_return_angry",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_34.males_circumcised.massacre",
+   "cause_event_id": "evt.gen_34.males_circumcised",
+   "effect_event_id": "evt.gen_34.massacre",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.massacre.city_plundered",
+   "cause_event_id": "evt.gen_34.massacre",
+   "effect_event_id": "evt.gen_34.city_plundered",
+   "causal_type": "ENABLES",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.massacre.jacob_rebukes_sons",
+   "cause_event_id": "evt.gen_34.massacre",
+   "effect_event_id": "evt.gen_34.jacob_rebukes_sons",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.shechem_asks_wife.hamor_goes_to_jacob",
+   "cause_event_id": "evt.gen_34.shechem_asks_wife",
+   "effect_event_id": "evt.gen_34.hamor_goes_to_jacob",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.sons_circumcision_terms.terms_accepted",
+   "cause_event_id": "evt.gen_34.sons_circumcision_terms",
+   "effect_event_id": "evt.gen_34.terms_accepted",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_34.terms_accepted.city_gate_speech",
+   "cause_event_id": "evt.gen_34.terms_accepted",
+   "effect_event_id": "evt.gen_34.city_gate_speech",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}

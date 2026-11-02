@@ -1,0 +1,665 @@
+{
+ "chapter_ref": "GEN.34",
+ "items": {
+  "causal:caus.gen_34.city_gate_speech.males_circumcised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.city_plundered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:42:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:44:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.jacob_hears_silent": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.massacre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:42:53+00:00",
+   "agent_notes": [
+    "RETALIATES_FOR is stated by the text (34:27 'because they had defiled their sister'); the immediate means is the circumcision ruse, linked separately as ENABLES."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": "[should_fix] Re-cite this link's explanation from the killing's own verses: 34:25 'Dinah's brethren' and the brothers' justification in 34:31. Add a RETALIATES_FOR link from evt.gen_34.dinah_taken to evt.gen_34.city_plundered citing 34:27. Also add an ENABLES link from evt.gen_34.massacre to evt.gen_34.city_plundered ('came upon the slain'). (GEN.34.27: 'The sons of Jacob came upon the slain, and spoiled the city, because they had defiled their sister'; GEN.34.31: 'Should he deal with our sister as with an harlot?')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:44:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.shechem_asks_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.sons_circumcision_terms": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.dinah_taken.sons_return_angry": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:42:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:44:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.males_circumcised.massacre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.massacre.city_plundered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:42:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:44:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.massacre.jacob_rebukes_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.shechem_asks_wife.hamor_goes_to_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.sons_circumcision_terms.terms_accepted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "causal:caus.gen_34.terms_accepted.city_gate_speech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.city_gate_speech": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.city_plundered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.dinah_taken": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:45:16+00:00",
+   "agent_notes": [
+    "The text gives no date for Dinah's outing. I anchored it on the altar at Shechem (33:20) with an offset of 5 years and a margin of 3 years (so 2 to 8 years after it), at MACRO_ERA because the gap is an estimate. Revised at the reviewer's request (first from 6 months to 3 years ± 2, now later): the age arithmetic was redone on the linked dates. Dinah is about Joseph's age (both about 8 at the altar) and Simeon and Levi 4-5 years older; the earlier window gave Dinah only about 9-13, so I moved it later, keeping the upper end (about 1900 BCE) before Joseph's 17th year (37:2, about 1899 BCE). The window stays inside the period before ch. 35 (Jacob leaves Shechem at Bethel's command) and Joseph's 17th year (37:2). The packet offers no commentary on the length of the stay."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": "[should_fix] Widen the timing to fit the open window: for example an offset of a few years after the altar (33:20), with a margin that stays inside the period before ch. 35 and 37:2 and never reaches back before the arrival at Shechem. In the note, show the age arithmetic (Dinah born before Joseph; Simeon and Levi born from year 8 of Jacob's service on) so the reader can see why the placement allows a marriageable Dinah and sword-bearing brothers. (GEN.30.21-25: Dinah is born before Joseph, and Jacob asks to leave after Joseph's birth; GEN.31.41: 'fourteen years for thy two daughters, and six years for thy cattle'; GEN.34.4: 'Get me this damsel to wife'; GEN.34.7: 'the men were grieved'; GEN.34.25: 'took each man his sword')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-02T14:44:26+00:00",
+     "note": "[should_fix] Redo the age arithmetic in the note: Leah marries after year 7 (29:20-23), Simeon and Levi are born about years 9-10, and Dinah after six sons (30:21), about years 13-14, close to Joseph's age. Then give the ages that the chosen window really implies on the linked birth dates. Either keep offset 3 years ± 2 and say plainly that Dinah is then about 8-13 (the text gives no age, only 'damsel', 34:3), or move the window later, keeping its upper end before 37:2 (Joseph 17, about 9 years after the altar on the linked dates). Also correct 'Joseph about 7 at the arrival' and 'Joseph's 17th year about 1898 BCE' to match evt.gen_30.joseph_born. (GEN.29.20-23: 'Jacob served seven years for Rachel… and it came to pass in the evening, that he took Leah'; GEN.30.19-21: 'Leah… bare Jacob the sixth son… And afterwards she bare a daughter, and called her name Dinah'; GEN.30.25: 'when Rachel had born Joseph'; GEN.31.41: 'fourteen years for thy two daughters, and six years for thy cattle')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:46:15+00:00",
+     "note": "[consider] If the note is touched again, say that the linked dates place Dinah's birth just after Joseph's (the narrative order in 30:21-22 puts her just before), and give the gap to Joseph's 17th year as about 10 years on the linked dates. (GEN.30.21-22: 'And afterwards she bare a daughter, and called her name Dinah. And God remembered Rachel'; GEN.37.2: 'Joseph, being seventeen years old')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.hamor_goes_to_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": "[consider] Say in the note that the gap between Jacob's hearing and Hamor's visit is not stated (Shechem keeps Dinah in his house, 34:26). Consider a margin of a day or more, and drop the walking rationale. (GEN.33.18: 'pitched his tent before the city'; GEN.34.6: 'Hamor ... went out unto Jacob to commune with him' (no time word))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.hamor_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.jacob_hears_silent": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [
+    "Jacob's hearing is placed right after the assault (no stated delay), with a margin of a day. The sons are in the field with the livestock (34:5), so the interval until they return is open; I kept it short because Hamor sets out at once and the sons arrive while he is speaking (34:6–7)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": "[consider] Make the duration run until the sons' arrival, or say in the note that the two are meant to meet. (GEN.34.5: 'Jacob held his peace until they were come')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.jacob_rebukes_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.males_circumcised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.massacre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [
+    "'On the third day' is counted from the circumcision day as day 1 (Radak, Ibn Ezra: the third day is when the wound is most painful), so offset 2 days from the start of the circumcision. If the circumcision took place over a day, the margin of 12 hours covers it. Hebrew day (sunset to sunset) versus civil day is not resolved by the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": "[consider] Use a neutral phrase such as 'come upon the city, which was off its guard' only if you mean Onkelos's reading, or else 'come boldly upon the city'. Either is fine; a short note on the ambiguity is enough. (GEN.34.25: 'came upon the city boldly' (KJV); YLT 'come in against the city confidently'; Onkelos 'the city that dwelt in security')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.shechem_asks_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.shechem_offer": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.sons_circumcision_terms": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.sons_return_angry": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [
+    "The sons come 'when they heard', so the event begins shortly after Hamor leaves; the text does not say whether they arrived before or during Hamor's speech. I placed it before the proposal (8) as the sons are addressed in 34:8 ('with them')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event:evt.gen_34.terms_accepted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "produced_at": "2026-11-02T14:39:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-02T14:41:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "All 31 verses are covered. Verses 18–19 are one event (the brothers' terms please Hamor and Shechem), verses 27–29 one event (the plunder). Verse 31 (the brothers' reply) is folded into Jacob's rebuke.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:39:15+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech in this chapter, so there are no FULFILLS_PROPHECY links. Jacob's fear of attack in 34:30 is not fulfilled in this chapter; ch. 35:5 (terror of God on the cities) is the likely counterpoint, and that chapter's session may link it. The chapter also is the cause of Jacob's later words about Simeon and Levi (Gen 49:5–7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:39:15+00:00"
+  },
+  {
+   "note": "All 31 verses are covered. Verses 18–19 are one event (the brothers' terms please Hamor and Shechem), verses 27–29 one event (the plunder). Verse 31 (the brothers' reply) is folded into Jacob's rebuke.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:53+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech in this chapter, so there are no FULFILLS_PROPHECY links. Jacob's fear of attack in 34:30 is not fulfilled in this chapter; ch. 35:5 (terror of God on the cities) is the likely counterpoint, and that chapter's session may link it. The chapter also is the cause of Jacob's later words about Simeon and Levi (Gen 49:5–7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:53+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.massacre] 'On the third day' is counted from the circumcision day as day 1 (Radak, Ibn Ezra: the third day is when the wound is most painful), so offset 2 days from the start of the circumcision. If the circumcision took place over a day, the margin of 12 hours covers it. Hebrew day (sunset to sunset) versus civil day is not resolved by the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:53+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.jacob_hears_silent] Jacob's hearing is placed right after the assault (no stated delay), with a margin of a day. The sons are in the field with the livestock (34:5), so the interval until they return is open; I kept it short because Hamor sets out at once and the sons arrive while he is speaking (34:6–7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:53+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.sons_return_angry] The sons come 'when they heard', so the event begins shortly after Hamor leaves; the text does not say whether they arrived before or during Hamor's speech. I placed it before the proposal (8) as the sons are addressed in 34:8 ('with them').",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:42:53+00:00"
+  },
+  {
+   "note": "All 31 verses are covered. Verses 18–19 are one event (the brothers' terms please Hamor and Shechem), verses 27–29 one event (the plunder). Verse 31 (the brothers' reply) is folded into Jacob's rebuke.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  },
+  {
+   "note": "No divine or prophetic speech in this chapter, so there are no FULFILLS_PROPHECY links. Jacob's fear of attack in 34:30 is not fulfilled in this chapter; ch. 35:5 (terror of God on the cities) is the likely counterpoint, and that chapter's session may link it. The chapter also is the cause of Jacob's later words about Simeon and Levi (Gen 49:5–7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.massacre] 'On the third day' is counted from the circumcision day as day 1 (Radak, Ibn Ezra: the third day is when the wound is most painful), so offset 2 days from the start of the circumcision. If the circumcision took place over a day, the margin of 12 hours covers it. Hebrew day (sunset to sunset) versus civil day is not resolved by the text.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.jacob_hears_silent] Jacob's hearing is placed right after the assault (no stated delay), with a margin of a day. The sons are in the field with the livestock (34:5), so the interval until they return is open; I kept it short because Hamor sets out at once and the sons arrive while he is speaking (34:6–7).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  },
+  {
+   "note": "[event:evt.gen_34.sons_return_angry] The sons come 'when they heard', so the event begins shortly after Hamor leaves; the text does not say whether they arrived before or during Hamor's speech. I placed it before the proposal (8) as the sons are addressed in 34:8 ('with them').",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  },
+  {
+   "note": "[causal:caus.gen_34.dinah_taken.massacre] RETALIATES_FOR is stated by the text (34:27 'because they had defiled their sister'); the immediate means is the circumcision ruse, linked separately as ENABLES.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-chronologist@5",
+    "run": "main"
+   },
+   "at": "2026-11-02T14:45:16+00:00"
+  }
+ ]
+}

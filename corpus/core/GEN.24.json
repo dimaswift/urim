@@ -1,0 +1,445 @@
+{
+ "chapter_ref": "GEN.24",
+ "entities": [],
+ "systems": [],
+ "events": [
+  {
+   "event_id": "evt.gen_24.charge_and_oath",
+   "verse_start": "GEN.24.1",
+   "verse_end": "GEN.24.9",
+   "time": {
+    "anchor": "evt.gen_23.abraham_buries_sarah",
+    "anchor_point": "END",
+    "offset": {
+     "value": 2.75,
+     "unit": "years"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 6.0,
+     "unit": "months"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.journey_to_nahor",
+   "verse_start": "GEN.24.10",
+   "verse_end": "GEN.24.10",
+   "time": {
+    "anchor": "evt.gen_24.charge_and_oath",
+    "anchor_point": "END",
+    "duration": {
+     "value": 27.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_halts_at_the_well",
+   "verse_start": "GEN.24.11",
+   "verse_end": "GEN.24.11",
+   "time": {
+    "anchor": "evt.gen_24.journey_to_nahor",
+    "anchor_point": "END",
+    "time_of_day": "BEIN_HAARBAYIM",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_prays",
+   "verse_start": "GEN.24.12",
+   "verse_end": "GEN.24.14",
+   "time": {
+    "anchor": "evt.gen_24.servant_halts_at_the_well",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.rebekah_gives_water",
+   "verse_start": "GEN.24.15",
+   "verse_end": "GEN.24.21",
+   "time": {
+    "anchor": "evt.gen_24.servant_prays",
+    "anchor_point": "START",
+    "offset": {
+     "value": 4.0,
+     "unit": "minutes"
+    },
+    "duration": {
+     "value": 60.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.gifts_and_lodging_question",
+   "verse_start": "GEN.24.22",
+   "verse_end": "GEN.24.25",
+   "time": {
+    "anchor": "evt.gen_24.rebekah_gives_water",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_worships",
+   "verse_start": "GEN.24.26",
+   "verse_end": "GEN.24.27",
+   "time": {
+    "anchor": "evt.gen_24.gifts_and_lodging_question",
+    "anchor_point": "END",
+    "duration": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.rebekah_tells_her_household",
+   "verse_start": "GEN.24.28",
+   "verse_end": "GEN.24.28",
+   "time": {
+    "anchor": "evt.gen_24.gifts_and_lodging_question",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.laban_welcomes_the_servant",
+   "verse_start": "GEN.24.29",
+   "verse_end": "GEN.24.32",
+   "time": {
+    "anchor": "evt.gen_24.rebekah_tells_her_household",
+    "anchor_point": "END",
+    "duration": {
+     "value": 60.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_tells_his_errand",
+   "verse_start": "GEN.24.33",
+   "verse_end": "GEN.24.49",
+   "time": {
+    "anchor": "evt.gen_24.laban_welcomes_the_servant",
+    "anchor_point": "END",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.laban_and_bethuel_consent",
+   "verse_start": "GEN.24.50",
+   "verse_end": "GEN.24.51",
+   "time": {
+    "anchor": "evt.gen_24.servant_tells_his_errand",
+    "anchor_point": "END",
+    "duration": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_worships_and_gives_gifts",
+   "verse_start": "GEN.24.52",
+   "verse_end": "GEN.24.53",
+   "time": {
+    "anchor": "evt.gen_24.laban_and_bethuel_consent",
+    "anchor_point": "END",
+    "duration": {
+     "value": 20.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 10.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.night_at_bethuels_house",
+   "verse_start": "GEN.24.54",
+   "verse_end": "GEN.24.54",
+   "time": {
+    "anchor": "evt.gen_24.servant_worships_and_gives_gifts",
+    "anchor_point": "END",
+    "duration": {
+     "value": 4.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.servant_asks_leave",
+   "verse_start": "GEN.24.54",
+   "verse_end": "GEN.24.56",
+   "time": {
+    "anchor": "evt.gen_24.night_at_bethuels_house",
+    "anchor_point": "END",
+    "time_of_day": "BOKER",
+    "duration": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.rebekah_consents",
+   "verse_start": "GEN.24.57",
+   "verse_end": "GEN.24.58",
+   "time": {
+    "anchor": "evt.gen_24.servant_asks_leave",
+    "anchor_point": "END",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.rebekah_departs",
+   "verse_start": "GEN.24.59",
+   "verse_end": "GEN.24.61",
+   "time": {
+    "anchor": "evt.gen_24.rebekah_consents",
+    "anchor_point": "END",
+    "offset": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.journey_home",
+   "verse_start": "GEN.24.61",
+   "verse_end": "GEN.24.61",
+   "time": {
+    "anchor": "evt.gen_24.rebekah_departs",
+    "anchor_point": "END",
+    "duration": {
+     "value": 31.0,
+     "unit": "days"
+    },
+    "margin": {
+     "value": 5.0,
+     "unit": "days"
+    },
+    "precision_tier": "MACRO_ERA"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.rebekah_meets_isaac",
+   "verse_start": "GEN.24.62",
+   "verse_end": "GEN.24.65",
+   "time": {
+    "anchor": "evt.gen_24.journey_home",
+    "anchor_point": "END",
+    "time_of_day": "BEIN_HAARBAYIM",
+    "duration": {
+     "value": 15.0,
+     "unit": "minutes"
+    },
+    "margin": {
+     "value": 30.0,
+     "unit": "minutes"
+    },
+    "precision_tier": "DIURNAL_HOUR"
+   },
+   "participants": []
+  },
+  {
+   "event_id": "evt.gen_24.isaac_marries_rebekah",
+   "verse_start": "GEN.24.66",
+   "verse_end": "GEN.24.67",
+   "time": {
+    "anchor": "evt.gen_24.rebekah_meets_isaac",
+    "anchor_point": "END",
+    "duration": {
+     "value": 1.0,
+     "unit": "hours"
+    },
+    "margin": {
+     "value": 1.0,
+     "unit": "days"
+    },
+    "precision_tier": "DAY_SEQUENCE"
+   },
+   "participants": []
+  }
+ ],
+ "causal_edges": [
+  {
+   "causal_id": "caus.gen_24.charge_and_oath.journey_to_nahor",
+   "cause_event_id": "evt.gen_24.charge_and_oath",
+   "effect_event_id": "evt.gen_24.journey_to_nahor",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_24.charge_and_oath.rebekah_gives_water",
+   "cause_event_id": "evt.gen_24.charge_and_oath",
+   "effect_event_id": "evt.gen_24.rebekah_gives_water",
+   "causal_type": "FULFILLS_PROPHECY",
+   "confidence": 0.7
+  },
+  {
+   "causal_id": "caus.gen_24.rebekah_consents.rebekah_departs",
+   "cause_event_id": "evt.gen_24.rebekah_consents",
+   "effect_event_id": "evt.gen_24.rebekah_departs",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_24.rebekah_meets_isaac.isaac_marries_rebekah",
+   "cause_event_id": "evt.gen_24.rebekah_meets_isaac",
+   "effect_event_id": "evt.gen_24.isaac_marries_rebekah",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_24.rebekah_tells_her_household.laban_welcomes_the_servant",
+   "cause_event_id": "evt.gen_24.rebekah_tells_her_household",
+   "effect_event_id": "evt.gen_24.laban_welcomes_the_servant",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  },
+  {
+   "causal_id": "caus.gen_24.servant_asks_leave.rebekah_consents",
+   "cause_event_id": "evt.gen_24.servant_asks_leave",
+   "effect_event_id": "evt.gen_24.rebekah_consents",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.9
+  },
+  {
+   "causal_id": "caus.gen_24.servant_prays.rebekah_gives_water",
+   "cause_event_id": "evt.gen_24.servant_prays",
+   "effect_event_id": "evt.gen_24.rebekah_gives_water",
+   "causal_type": "TRIGGERS",
+   "confidence": 0.8
+  },
+  {
+   "causal_id": "caus.gen_24.servant_tells_his_errand.laban_and_bethuel_consent",
+   "cause_event_id": "evt.gen_24.servant_tells_his_errand",
+   "effect_event_id": "evt.gen_24.laban_and_bethuel_consent",
+   "causal_type": "TRIGGERS",
+   "confidence": 1.0
+  }
+ ],
+ "components": [],
+ "component_closures": [],
+ "system_instances": [],
+ "edges": []
+}
