@@ -203,3 +203,11 @@ def test_the_torah_and_the_prophets_have_their_own_commentaries():
         "Targum Jonathan on I Kings"
     ]
     assert {"Onkelos", "Targum Pseudo-Jonathan", "Targum Jonathan"} <= TARGUMS
+
+
+def test_the_psalms_have_the_commentaries_written_on_them():
+    psalms = BOOKS_BY_CODE["PS"]
+    titles = {w.name: w.sefaria_title(psalms) for w in works_for(psalms)}
+    assert titles["Ibn Ezra"] == "Ibn Ezra on Psalms" and titles["Meiri"] == "Meiri on Psalms"
+    assert "Ralbag" not in titles and "Targum Jonathan" not in titles
+    assert titles["Targum"] == "Aramaic Targum to Psalms" and "Targum" in TARGUMS

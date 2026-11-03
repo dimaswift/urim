@@ -3,6 +3,10 @@
 Sessions run on your Claude subscription, exactly as if you had typed the skill command, with
 the same project skills and CLAUDE.md. The run adds a short system note (nobody will answer,
 never decide reviews), the tools the skills need, and a wall around the gold.
+
+Fast mode is opt-in per session (`--settings '{"fastMode": true}'`) and exists only on Opus. On
+a subscription it is billed to usage credits at twice the price; when they run out, Claude Code
+says so in a notification and carries on at standard speed, which the result records.
 """
 
 from __future__ import annotations
@@ -38,6 +42,7 @@ _LIMIT = re.compile(
     re.I,
 )
 _LIMIT_WAIT = timedelta(minutes=30)
+FAST_SETTINGS = '{"fastMode": true}'
 _API_ERROR = re.compile(r"API Error\b", re.I)
 _OWN_REQUEST = re.compile(r"\b(?:400|413)\b|invalid_request|prompt is too long", re.I)
 
@@ -56,9 +61,15 @@ class SessionResult:
     tokens_in: int = 0
     tokens_out: int = 0
     cache_read: int = 0
+    fast: bool = False  # ran in fast mode to the end
+    slowed: str | None = None  # why fast mode turned off mid-session, as Claude Code said it
 
 
-def claude_command(executable: str, prompt: str, model: str) -> list[str]:
+def supports_fast(model: str) -> bool:
+    return model.startswith("claude-opus")
+
+
+def claude_command(executable: str, prompt: str, model: str, *, fast: bool = False) -> list[str]:
     return [
         executable,
         "-p",
@@ -74,6 +85,7 @@ def claude_command(executable: str, prompt: str, model: str) -> list[str]:
         *TOOLS,
         "--disallowedTools",
         *GOLD,
+        *(("--settings", FAST_SETTINGS) if fast and supports_fast(model) else ()),
     ]
 
 
@@ -101,6 +113,15 @@ def api_failure(text: str) -> str | None:
     if m is None or _OWN_REQUEST.search(text):
         return None
     return text[m.start() :].splitlines()[0][:300]
+
+
+def fast_notice(event: dict) -> str | None:
+    """Claude Code's notice that fast mode turned off ("Fast mode disabled · usage credits
+    exhausted"); the session goes on at standard speed."""
+    if event.get("type") == "system" and event.get("subtype") == "notification":
+        text = str(event.get("text") or "")
+        return text if text.lower().startswith("fast mode") else None
+    return None
 
 
 def activity_of(event: dict) -> str | None:
@@ -133,6 +154,7 @@ class HeadlessSession:
         self.on_activity, self.timeout_s = on_activity, timeout_s
         self._proc: subprocess.Popen | None = None
         self._stopped = self._timed_out = False
+        self._slowed: str | None = None
 
     def stop(self) -> None:
         self._stopped = True
@@ -174,6 +196,8 @@ class HeadlessSession:
                         continue
                     if event.get("type") == "result":
                         final = event
+                    elif fast_notice(event):
+                        self._slowed = fast_notice(event)
                     elif (what := activity_of(event)) is not None:
                         self.on_activity(what)
             code = self._proc.wait()
@@ -200,7 +224,9 @@ class HeadlessSession:
             + (usage.get("cache_creation_input_tokens") or 0),
             tokens_out=usage.get("output_tokens") or 0,
             cache_read=usage.get("cache_read_input_tokens") or 0,
+            slowed=self._slowed,
         )
+        result.fast = (final or {}).get("fast_mode_state") == "on" and not self._slowed
         if not result.ok:
             if self._timed_out:
                 result.error = f"timed out after {self.timeout_s / 60:.0f} min"

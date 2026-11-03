@@ -422,7 +422,7 @@ computes them, so results match the server's), similar items over the exported v
 and the SQL console in sql.js over the bundles without their search tables. It is read-only:
 Learn, Campaign, review decisions and search by meaning need the server and are left out. The
 Pages workflow (`.github/workflows/pages.yml`) ingests the pinned sources, links with vectors and
-publishes on every push to the default branch.
+publishes on every push to master.
 
 ### 7.2 Learning
 

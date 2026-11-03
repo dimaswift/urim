@@ -51,7 +51,8 @@ urim model fetch                     the pinned bge-m3 for semantic search (need
 Checks: `uv run pytest -q`, `uv run ruff check urim tests`, `uv run ruff format urim tests`.
 Frontend: `npm run build` in `review/` (the server serves `review/dist`). The static copy:
 `npm run build:site` in `review/`, then `uv run urim site`; `.github/workflows/pages.yml` does
-both on every push to the default branch and publishes to GitHub Pages. A screen that needs a
+both on every push to master and publishes to GitHub Pages; a newly ingested book goes into
+its Ingest step too. A screen that needs a
 new GET gets it from `urim/review/site.py` too, or from `review/src/static.ts` when it depends
 on what the reader types.
 

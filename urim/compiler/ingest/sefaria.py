@@ -54,12 +54,29 @@ PROPHETS_WORKS = (
     Work("Malbim"),
     Work("Targum Jonathan", targum=True),
 )
-TARGUMS = frozenset(w.name for w in TORAH_WORKS + PROPHETS_WORKS if w.targum)
+# Job to Song of Songs: Ibn Ezra and Meiri commented here, Ralbag and Targum Jonathan did not,
+# and Sefaria files the Targum of the Writings as "Aramaic Targum to …". Not every work covers
+# every book; the missing ones are skipped like a work's missing chapters.
+POETRY_WORKS = (
+    Work("Rashi"),
+    Work("Ibn Ezra"),
+    Work("Radak"),
+    Work("Meiri"),
+    Work("Metzudat David"),
+    Work("Metzudat Zion"),
+    Work("Malbim"),
+    Work("Targum", "Aramaic Targum to {book}", targum=True),
+)
+POETRY_BOOKS = frozenset({"JOB", "PS", "PROV", "ECCL", "SONG"})
+TARGUMS = frozenset(w.name for w in TORAH_WORKS + PROPHETS_WORKS + POETRY_WORKS if w.targum)
 
 
 def works_for(book: Book) -> tuple[Work, ...]:
-    """The commentaries ingested for a book: the Torah has its own classical set and Onkelos."""
-    return TORAH_WORKS if book.book_id <= 5 else PROPHETS_WORKS
+    """The commentaries ingested for a book: the Torah has its own classical set and Onkelos,
+    the poetic books theirs, and the rest the commentators of the Prophets."""
+    if book.book_id <= 5:
+        return TORAH_WORKS
+    return POETRY_WORKS if book.code in POETRY_BOOKS else PROPHETS_WORKS
 
 
 _TAG = re.compile(r"<[^>]+>")

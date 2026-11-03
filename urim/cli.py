@@ -549,9 +549,24 @@ def run_cmd(
     plan_only: Annotated[
         bool, typer.Option("--plan", help="Show where each chapter stands and what runs next")
     ] = False,
+    finish: Annotated[
+        bool,
+        typer.Option(
+            "--finish",
+            help="Ask the run that is going to start nothing new and stop once its running"
+            " sessions are done",
+        ),
+    ] = False,
     name: Annotated[str | None, typer.Option(help="Run name [default: the scope]")] = None,
     claude: Annotated[str, typer.Option(help="Claude Code executable")] = "claude",
     timeout: Annotated[float, typer.Option(help="Minutes before a session is stopped")] = 60,
+    fast: Annotated[
+        bool,
+        typer.Option(
+            "--fast",
+            help="Opus sessions in fast mode: billed to usage credits at twice the price",
+        ),
+    ] = False,
     notify: Annotated[
         bool, typer.Option(help="Desktop notification at the end, and when the API fails")
     ] = True,
@@ -562,15 +577,24 @@ def run_cmd(
     the critic reviews every layer and its report is applied in its name. Ctrl-C stops, and
     running the same command again resumes, retrying layers that failed. Progress: the War
     Room's Campaign view. With --lang, each chapter also gets a translation layer once its
-    English is settled, and the language's interface and bundle are translated too.
+    English is settled, and the language's interface and bundle are translated too. From
+    another terminal, --finish lets the sessions under way end before the run stops.
     """
     from urim.compiler.ingest.build import IngestError
     from urim.conductor.plan import LAYERS
-    from urim.conductor.run import Conductor, RunError, scope_chapters
+    from urim.conductor.run import Conductor, RunError, request_finish, scope_chapters
     from urim.conductor.run import notify as notify_user
     from urim.workbench.critique import is_language
 
     p = _paths()
+    if finish:
+        try:
+            pid = request_finish(p, name or scope)
+        except RunError as e:
+            raise _fail(str(e)) from e
+        typer.echo(f"run {name or scope} (pid {pid}) starts nothing new and stops once its")
+        typer.echo("running sessions are done; `urim run` again resumes")
+        return
     chosen = tuple(x.strip() for x in layers.split(",") if x.strip()) + tuple(lang or ())
     if unknown := {x for x in chosen if x not in LAYERS and not is_language(x)}:
         raise _fail(f"unknown layer(s): {', '.join(sorted(unknown))}")
@@ -594,6 +618,7 @@ def run_cmd(
             layers=chosen,
             claude=claude,
             timeout_min=timeout,
+            fast=fast,
             echo=typer.echo,
             alert=(lambda text: notify_user("URIM", text)) if notify else (lambda _: None),
         )

@@ -13,8 +13,9 @@ from pathlib import Path
 import pytest
 
 from urim.conductor.plan import Step, windows
-from urim.conductor.run import Conductor, RunError, load_state
+from urim.conductor.run import Conductor, RunError, finish_path, load_state, request_finish
 from urim.conductor.session import (
+    FAST_SETTINGS,
     HeadlessSession,
     SessionResult,
     activity_of,
@@ -517,3 +518,63 @@ def test_a_second_conductor_will_not_start_on_a_live_run(paths):
     conductor.save()
     with pytest.raises(RunError, match="already going"):
         world.conductor("1KGS.17", layers=("chronology",))
+
+
+def test_a_finish_request_lets_running_sessions_end_and_starts_nothing_new(paths):
+    world = World(paths)
+    conductor = world.conductor("1KGS.17", layers=("chronology",))
+    with pytest.raises(RunError, match="no run"):
+        request_finish(paths, "1KGS.17")  # nothing is going yet
+    real_run = FakeSession.run
+
+    def asked_midway(session):  # the request comes while the first session works
+        finish_path(paths, "1KGS.17").parent.mkdir(parents=True, exist_ok=True)
+        finish_path(paths, "1KGS.17").write_text("now")
+        return real_run(session)
+
+    FakeSession.run = asked_midway
+    try:
+        state = conductor.run()
+    finally:
+        FakeSession.run = real_run
+    assert [s.action for s in world.calls] == ["write"]  # it ended; nothing new started
+    assert state.status == "stopped" and state.steps[0].status == "done"
+    assert not finish_path(paths, "1KGS.17").exists()
+    assert any("starting nothing new" in line for line in state.log)
+
+    again = world.conductor("1KGS.17", layers=("chronology",)).run()
+    assert again.status == "finished" and again.chapters[0].layers["chronology"].phase == "done"
+
+
+def test_fast_mode_is_asked_of_opus_and_its_fallback_is_noticed(tmp_path):
+    opus = claude_command("claude", "/urim-critic PS.3 philology", "claude-opus-5-5", fast=True)
+    assert opus[-2:] == ["--settings", FAST_SETTINGS]
+    sonnet = claude_command("claude", "/urim-philologist PS.3.1-9", "claude-sonnet-5-5", fast=True)
+    assert "--settings" not in sonnet  # fast mode exists only on Opus
+    assert "--settings" not in claude_command("claude", "/x", "claude-opus-5-5")
+
+    fake = tmp_path / "claude"
+
+    def run_with(*events):
+        result = {"type": "result", "is_error": False, "result": "ok", "fast_mode_state": "on"}
+        script = "import json\n" + "".join(f"print(json.dumps({e!r}))\n" for e in (*events, result))
+        fake.write_text(f"#!{sys.executable}\n{script}")
+        fake.chmod(fake.stat().st_mode | stat.S_IEXEC)
+        command = claude_command(str(fake), "/x", "claude-opus-5-5", fast=True)
+        return HeadlessSession(command, cwd=tmp_path, transcript=tmp_path / "t.jsonl").run()
+
+    assert run_with().fast
+    note = "Fast mode disabled · usage credits exhausted"
+    slowed = run_with({"type": "system", "subtype": "notification", "text": note})
+    assert slowed.ok and not slowed.fast and slowed.slowed == note
+
+
+def test_a_run_resumed_by_name_takes_its_new_scope(paths):
+    world = World(paths)
+    world.conductor("1KGS.17", name="kings", layers=("chronology",)).run()
+    state = world.conductor("1KGS.17-18", name="kings", layers=("chronology",)).run()
+    assert state.scope == "1KGS.17-18" and [c.chapter for c in state.chapters] == [
+        "1KGS.17",
+        "1KGS.18",
+    ]
+    assert [s.chapter for s in world.calls if s.action == "write"] == ["1KGS.17", "1KGS.18"]

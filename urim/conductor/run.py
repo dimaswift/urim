@@ -38,7 +38,12 @@ from urim.conductor.plan import (
     outside_pending,
     plan,
 )
-from urim.conductor.session import HeadlessSession, SessionResult, claude_command
+from urim.conductor.session import (
+    HeadlessSession,
+    SessionResult,
+    claude_command,
+    supports_fast,
+)
 from urim.config import Paths
 from urim.workbench.critique import (
     CritiqueError,
@@ -86,6 +91,7 @@ class StepRecord(BaseModel):
     tokens_in: int = 0
     tokens_out: int = 0
     cache_read: int = 0
+    fast: bool = False  # ran in fast mode to the end
 
 
 class LayerRow(BaseModel):
@@ -111,6 +117,7 @@ class RunState(BaseModel):
     models: dict[str, str]
     parallel: int
     max_rounds: int
+    fast: bool = False  # Opus sessions asked to run in fast mode
     status: Literal["running", "waiting", "finished", "stopped"] = "running"
     started: str
     updated: str
@@ -146,6 +153,20 @@ def iso(at: datetime) -> str:
 
 def state_path(paths: Paths, name: str) -> Path:
     return Path(paths.work) / "run" / f"{name}.json"
+
+
+def finish_path(paths: Paths, name: str) -> Path:
+    return Path(paths.work) / "run" / f"{name}.finish"
+
+
+def request_finish(paths: Paths, name: str) -> int:
+    """Ask a live run to start nothing new and stop once its running sessions are done; the
+    run sees the request on its next turn. Returns the run's pid."""
+    state = load_state(paths, name)
+    if not state or state.status not in ("running", "waiting") or not alive(state.pid):
+        raise RunError(f"no run {name!r} is going")
+    finish_path(paths, name).write_text(iso(datetime.now(UTC)))
+    return state.pid
 
 
 def load_state(paths: Paths, name: str) -> RunState | None:
@@ -196,6 +217,7 @@ class Conductor:
         sessions: SessionFactory | None = None,
         claude: str = "claude",
         timeout_min: float = 60,
+        fast: bool = False,
         root: Path | None = None,
         echo: Callable[[str], None] = print,
         alert: Callable[[str], None] = lambda _: None,
@@ -218,7 +240,7 @@ class Conductor:
         root = root or Path.cwd()
         self.sessions = sessions or (
             lambda step, model, transcript, on_activity: HeadlessSession(
-                claude_command(claude, step.command, model),
+                claude_command(claude, step.command, model, fast=fast),
                 cwd=root,
                 transcript=transcript,
                 on_activity=on_activity,
@@ -229,6 +251,8 @@ class Conductor:
         prior = load_state(paths, self.name)
         if prior and prior.status in ("running", "waiting") and alive(prior.pid):
             raise RunError(f"run {self.name!r} is already going (pid {prior.pid})")
+        finish_path(paths, self.name).unlink(missing_ok=True)  # meant for a run that has ended
+        self._finish_asked = False
         self._retrying = []
         if prior:
             # Running again is the go-ahead: failed layers start over, a pause is tried at once.
@@ -252,11 +276,14 @@ class Conductor:
         )
         self.state.models = DEFAULT_MODELS | (models or {})
         self.state.parallel, self.state.max_rounds = parallel, max_rounds
+        self.state.fast = fast
         self.state.layers = list(self.layers)
+        self.state.scope = scope  # a run resumed by name may take a wider or narrower scope
         self._lock = threading.RLock()
         self._dirty = True
         self._before: dict[str, set[str]] = {}
         self._outages = 0
+        self._slowed = False
 
     # --- state ---------------------------------------------------------------------------------
 
@@ -326,6 +353,9 @@ class Conductor:
         )
         if self._retrying:
             self.log(f"retrying what failed: {', '.join(self._retrying)}")
+        if self.state.fast:
+            fast = sorted(a for a, m in self.state.models.items() if supports_fast(m))
+            self.log(f"fast mode for the Opus sessions: {', '.join(fast) or 'none'}")
         running: dict[Future, tuple[Step, Session, StepRecord]] = {}
         steps: list[Step] = []
         replan = True
@@ -335,7 +365,10 @@ class Conductor:
                 for future in [f for f in running if f.done()]:
                     self._finish(*running.pop(future), future.result())
                     replan = True
-                if self._waiting():
+                if self._finishing(len(running)):
+                    if not running:
+                        break
+                elif self._waiting():
                     if not running:
                         self.save()
                         self.sleep(min(60.0, self._wait_left()))
@@ -364,6 +397,10 @@ class Conductor:
             self.log("stopped; `urim run` again resumes")
         finally:
             pool.shutdown(wait=True, cancel_futures=True)
+        if self._finish_asked and self.state.status != "stopped":
+            self.state.status = "stopped"
+            self.log("stopped once the running sessions were done; `urim run` again resumes")
+        finish_path(self.paths, self.name).unlink(missing_ok=True)
         if self.state.status != "stopped":
             self.state.status, self.state.finished = "finished", iso(self.clock())
             self.plan()
@@ -372,6 +409,13 @@ class Conductor:
         self.save()
         self.write_report()
         return self.state
+
+    def _finishing(self, running: int) -> bool:
+        """True once a finish request (`urim run … --finish`) has come: nothing new starts."""
+        if not self._finish_asked and finish_path(self.paths, self.name).exists():
+            self._finish_asked = True
+            self.log(f"finishing: starting nothing new, waiting for {running} running session(s)")
+        return self._finish_asked
 
     def _waiting(self) -> bool:
         if self.state.waiting_until and self._wait_left() <= 0:
@@ -428,8 +472,12 @@ class Conductor:
             record.summary = result.summary[-3000:]
             for field in ("turns", "duration_s", "cost_usd", "tokens_in", "tokens_out"):
                 setattr(record, field, getattr(result, field))
-            record.cache_read = result.cache_read
+            record.cache_read, record.fast = result.cache_read, result.fast
             record.activity = None
+        if result.slowed and not self._slowed:
+            self._slowed = True  # said once: every session after it slows down the same way
+            self.log(f"{result.slowed}: sessions go on at standard speed")
+            self.alert(f"Run {self.name}: {result.slowed}")
         if result.limited_until is not None:
             record.status, record.error = "limited", result.error
             self._pause(result.limited_until, "usage limit")
