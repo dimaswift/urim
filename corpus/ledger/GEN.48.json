@@ -58,6 +58,354 @@
    ],
    "source": null
   },
+  "component:comp.ephraim.blessing_rank.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "Inferred from 48:19–20: Ephraim is set before Manasseh. The comp.ephraim.birth_order.1 from chapter 41 (second son) is not closed; birth order is unchanged."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.ephraim.sonship.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.health.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "Read from 48:1 'your father is sick'; left open because Israel dies only in chapter 49."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.sight.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.portion.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "The 'shoulder' (shekhem, 48:22) is read as a double portion at or including Shechem, Joseph's burial place later (Josh 24:32); the word play is ambiguous. Recorded as POSSESSION targeting loc.shechem."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": "[consider] Write the label value as 'One portion (shekhem) above his brothers', keeping loc.shechem as the target as the agent's note explains. (GEN.48.22: \"שְׁכֶם אַחַד עַל־אַחֶיךָ\" (Onkelos \"חוּלַק חַד\", one portion; TgPsJ \"קַרְתָּא דִשְׁכֶם\", the city of Shechem))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.manasseh.blessing_rank.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.manasseh.sonship.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_adopts_ephraim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_adopts_manasseh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_blesses_ephraim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_blesses_manasseh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_embraces_ephraim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:15:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:16:44+00:00",
+     "note": "[consider] Write 'Jacob, whose eyes were heavy with age so that he could not see, draws Ephraim close…' in place of 'nearly blind'. (GEN.48.10: \"וְעֵינֵי יִשְׂרָאֵל כָּבְדוּ מִזֹּקֶן לֹא יוּכַל לִרְאוֹת\" (\"he was not able to see\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_embraces_manasseh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:15:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:16:44+00:00",
+     "note": "[consider] Write 'Jacob, whose eyes were heavy with age so that he could not see, draws Manasseh close…' in place of 'nearly blind'. (GEN.48.10: \"לֹא יוּכַל לִרְאוֹת\" (\"he was not able to see\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_gives_shechem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.israel_refuses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.joseph_bows_to_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_48.joseph_objects_to_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_48.hands_crossed": {
    "status": "approved",
    "produced_by": {
@@ -254,6 +602,348 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_48.hands_crossed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_adopts_joseph_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": "[consider] Add loc.canaan as MENTIONED. (GEN.48.7: \"מֵתָה עָלַי רָחֵל בְּאֶרֶץ כְּנַעַן בַּדֶּרֶךְ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_blesses_boys": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "'The angel who redeemed me' (48:16) is read as spirit.angel_of_yhwh (cf. 31:11, 32:25–30) and recorded as MENTIONED; the parallel with 'the God who shepherded me' in 48:15 may equally mean a title of God himself.",
+    "Verse 15 says Jacob 'blessed Joseph' but the content of 15–16 blesses the boys; Joseph is recorded as blessed through his sons. Both edges target as the text states: Joseph at 48:15, the boys at 48:20."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_embraces_grandsons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_foretells_return": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": "[consider] Add loc.canaan as MENTIONED. (GEN.48.21: \"וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.jacob_recounts_promise": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "God's appearance at Luz is a recollection, so deity.yhwh is MENTIONED here, not AGENT; Luz is Bethel (loc.bethel, cf. 35:6)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.joseph_arrives_jacob_sits_up": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "Events 48:2 to 48:22 are placed at loc.goshen, where Israel dwells since 46:28 (comp.israel.dwelling.2); the text does not restate the place."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.joseph_objects": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_48.joseph_told_of_illness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "The place is loc.egypt, inferred: Joseph is somewhere in Egypt when he is told, and the text names no city. The unnamed informant of 48:1–2 is not made an entity because he does not act beyond reporting."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_48.boys_adopted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_48.boys_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_48.hands_laid": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_48.joseph_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_48.joseph_bows": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:15:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": "[should_fix] Drop the 'thanks' tag and rewrite the significance note without a stated motive, e.g. 'Joseph, ruler over Egypt, bows to the ground before his father before presenting the boys for the blessing'; if you keep a motive, mark it as a reading. (GEN.48.12: \"וַיּוֹצֵא יוֹסֵף אֹתָם מֵעִם בִּרְכָּיו וַיִּשְׁתַּחוּ לְאַפָּיו אָרְצָה\" (no reason given))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:16:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.adoption_by_grandfather": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "Defined here rather than reused: no catalogue entry covers a patriarch taking grandsons as his own sons. The formula 'they are mine, like Reuben and Simeon' (48:5) is read as legal adoption with inheritance share, a common scholarly reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "system:sys.laying_on_hands": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:13:40+00:00",
+   "agent_notes": [
+    "Defined here rather than reused: first transmission of blessing by hand placement. Reused sys.patriarchal_blessing for the speech itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:15:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -283,6 +973,132 @@
     "run": "main"
    },
    "at": "2026-11-02T14:02:07+00:00"
+  },
+  {
+   "note": "No new named individuals or places: every name in the chapter (Joseph, Israel, Ephraim, Manasseh, Rachel, Reuben, Simeon, Abraham, Isaac, Luz=Bethel, Ephrath=Bethlehem, Paddan, Shechem, the Amorites) is already in the corpus, so the fragment defines no entities.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:13:40+00:00"
+  },
+  {
+   "note": "[entity:person.israel] Jacob and Israel are the one entity person.israel; the text switches between the two names (48:2 'Jacob' told, 'Israel' strengthened himself).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:13:40+00:00"
+  },
+  {
+   "note": "No new named individuals or places: every name in the chapter (Joseph, Israel, Ephraim, Manasseh, Rachel, Reuben, Simeon, Abraham, Isaac, Luz=Bethel, Ephrath=Bethlehem, Paddan, Shechem, the Amorites) is already in the corpus, so the fragment defines no entities.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[entity:person.israel] Jacob and Israel are the one entity person.israel; the text switches between the two names (48:2 'Jacob' told, 'Israel' strengthened himself).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_48.joseph_told_of_illness] The place is loc.egypt, inferred: Joseph is somewhere in Egypt when he is told, and the text names no city. The unnamed informant of 48:1–2 is not made an entity because he does not act beyond reporting.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_48.joseph_arrives_jacob_sits_up] Events 48:2 to 48:22 are placed at loc.goshen, where Israel dwells since 46:28 (comp.israel.dwelling.2); the text does not restate the place.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_48.jacob_recounts_promise] God's appearance at Luz is a recollection, so deity.yhwh is MENTIONED here, not AGENT; Luz is Bethel (loc.bethel, cf. 35:6).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_48.jacob_blesses_joseph] 'The angel who redeemed me' (48:16) is read as spirit.angel_of_yhwh (cf. 31:11, 32:25–30) and recorded as MENTIONED; the parallel with 'the God who shepherded me' in 48:15 may equally mean a title of God himself.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_48.jacob_blesses_joseph] Verse 15 says Jacob 'blessed Joseph' but the content of 15–16 blesses the boys; Joseph is recorded as blessed through his sons. Both edges target as the text states: Joseph at 48:15, the boys at 48:20.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[system:sys.adoption_by_grandfather] Defined here rather than reused: no catalogue entry covers a patriarch taking grandsons as his own sons. The formula 'they are mine, like Reuben and Simeon' (48:5) is read as legal adoption with inheritance share, a common scholarly reading.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[system:sys.laying_on_hands] Defined here rather than reused: first transmission of blessing by hand placement. Reused sys.patriarchal_blessing for the speech itself.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[component:comp.joseph.portion.1] The 'shoulder' (shekhem, 48:22) is read as a double portion at or including Shechem, Joseph's burial place later (Josh 24:32); the word play is ambiguous. Recorded as POSSESSION targeting loc.shechem.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[component:comp.israel.health.1] Read from 48:1 'your father is sick'; left open because Israel dies only in chapter 49.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
+  },
+  {
+   "note": "[component:comp.ephraim.blessing_rank.1] Inferred from 48:19–20: Ephraim is set before Manasseh. The comp.ephraim.birth_order.1 from chapter 41 (second son) is not closed; birth order is unchanged.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:15:51+00:00"
   }
  ]
 }

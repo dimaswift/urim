@@ -1,12 +1,84 @@
 {
  "chapter_ref": "GEN.50",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.coffin_of_joseph",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אָרוֹן",
+   "transliterated_name": "ʾārôn",
+   "first_mention_verse": "GEN.50.26"
+  },
+  {
+   "entity_id": "group.chariots_and_horsemen",
+   "entity_type": "GROUP",
+   "source_script_name": "רֶכֶב פָּרָשִׁים",
+   "transliterated_name": "reḵeḇ pārāšîm",
+   "first_mention_verse": "GEN.50.9"
+  },
+  {
+   "entity_id": "group.children_of_israel",
+   "entity_type": "GROUP",
+   "source_script_name": "בְּנֵי יִשְׂרָאֵל",
+   "transliterated_name": "bᵊnê yiśrāʾēl",
+   "first_mention_verse": "GEN.50.25"
+  },
+  {
+   "entity_id": "group.descendants_of_joseph",
+   "entity_type": "GROUP",
+   "source_script_name": "בְּנֵי שִׁלֵּשִׁים",
+   "transliterated_name": "bᵊnê šillēšîm",
+   "first_mention_verse": "GEN.50.23"
+  },
+  {
+   "entity_id": "group.elders_of_egypt",
+   "entity_type": "GROUP",
+   "source_script_name": "זִקְנֵי אֶרֶץ־מִצְרָיִם",
+   "transliterated_name": "ziqnê ʾereṣ-miṣrāyim",
+   "first_mention_verse": "GEN.50.7"
+  },
+  {
+   "entity_id": "group.household_of_pharaoh",
+   "entity_type": "GROUP",
+   "source_script_name": "בֵּית פַּרְעֹה",
+   "transliterated_name": "bêt par‘ōh",
+   "first_mention_verse": "GEN.50.4"
+  },
+  {
+   "entity_id": "group.physicians_of_joseph",
+   "entity_type": "GROUP",
+   "source_script_name": "הָרֹפְאִים",
+   "transliterated_name": "hārōpʾîm",
+   "first_mention_verse": "GEN.50.2"
+  },
+  {
+   "entity_id": "loc.atad",
+   "tipnr_id": "Atad@Gen.50.10-",
+   "entity_type": "LOCATION",
+   "source_script_name": "אָטָד",
+   "transliterated_name": "ʾĀṭād",
+   "first_mention_verse": "GEN.50.10"
+  },
+  {
+   "entity_id": "person.machir",
+   "tipnr_id": "Machir@Gen.50.23-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "מָכִיר",
+   "transliterated_name": "Mākîr",
+   "first_mention_verse": "GEN.50.23"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.embalming",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_50.joseph_weeps",
    "verse_start": "GEN.50.1",
    "verse_end": "GEN.50.1",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_49.jacob_dies",
     "anchor_point": "END",
@@ -20,12 +92,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.embalming",
    "verse_start": "GEN.50.2",
    "verse_end": "GEN.50.3",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.joseph_weeps",
     "anchor_point": "END",
@@ -39,12 +121,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.physicians_of_joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.egypt_mourns",
    "verse_start": "GEN.50.3",
    "verse_end": "GEN.50.3",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_49.jacob_dies",
     "anchor_point": "START",
@@ -58,12 +154,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.petition_to_pharaoh",
    "verse_start": "GEN.50.4",
    "verse_end": "GEN.50.6",
+   "location_entity_id": "loc.pharaohs_house",
    "time": {
     "anchor": "evt.gen_50.egypt_mourns",
     "anchor_point": "END",
@@ -77,12 +183,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.household_of_pharaoh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.funeral_procession",
    "verse_start": "GEN.50.7",
    "verse_end": "GEN.50.9",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.petition_to_pharaoh",
     "anchor_point": "END",
@@ -96,12 +224,50 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.chariots_and_horsemen",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.elders_of_egypt",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.servants_of_pharaoh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.goshen",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.pharaoh.gen_37_36",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.lament_at_atad",
    "verse_start": "GEN.50.10",
    "verse_end": "GEN.50.11",
+   "location_entity_id": "loc.atad",
    "time": {
     "anchor": "evt.gen_50.funeral_procession",
     "anchor_point": "END",
@@ -115,12 +281,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.canaanites",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.egyptians",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.jordan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.burial_at_machpelah",
    "verse_start": "GEN.50.12",
    "verse_end": "GEN.50.13",
+   "location_entity_id": "loc.machpelah",
    "time": {
     "anchor": "evt.gen_50.lament_at_atad",
     "anchor_point": "END",
@@ -138,12 +326,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.mamre",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.return_to_egypt",
    "verse_start": "GEN.50.14",
    "verse_end": "GEN.50.14",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.burial_at_machpelah",
     "anchor_point": "END",
@@ -157,12 +371,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.brothers_plead",
    "verse_start": "GEN.50.15",
    "verse_end": "GEN.50.18",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.return_to_egypt",
     "anchor_point": "END",
@@ -176,12 +404,30 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.joseph_reassures",
    "verse_start": "GEN.50.19",
    "verse_end": "GEN.50.21",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.brothers_plead",
     "anchor_point": "END",
@@ -195,12 +441,26 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.joseph_dwells_in_egypt",
    "verse_start": "GEN.50.22",
    "verse_end": "GEN.50.23",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.joseph_reassures",
     "anchor_point": "END",
@@ -214,12 +474,38 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.descendants_of_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.machir",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.joseph_last_words",
    "verse_start": "GEN.50.24",
    "verse_end": "GEN.50.25",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "anchor.joseph_birth",
     "anchor_point": "START",
@@ -237,12 +523,42 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.children_of_israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.joseph_brothers",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_50.joseph_dies",
    "verse_start": "GEN.50.26",
    "verse_end": "GEN.50.26",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_50.joseph_last_words",
     "anchor_point": "END",
@@ -256,7 +572,20 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.coffin_of_joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.physicians_of_joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -310,8 +639,308 @@
    "confidence": 1.0
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.children_of_israel.bones_oath.1",
+   "entity_id": "group.children_of_israel",
+   "category": "TRAIT",
+   "component_key": "bones_oath",
+   "value_code": "SWORN_TO_CARRY_JOSEPHS_BONES",
+   "acquired_at_verse": "GEN.50.25",
+   "acquired_in_event": "evt.gen_50.joseph_last_words"
+  },
+  {
+   "component_id": "comp.israel.remains.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "remains",
+   "value_code": "EMBALMED",
+   "acquired_at_verse": "GEN.50.2",
+   "acquired_in_event": "evt.gen_50.embalming",
+   "expired_at_verse": "GEN.50.13",
+   "expired_in_event": "evt.gen_50.burial_at_machpelah"
+  },
+  {
+   "component_id": "comp.israel.remains.2",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "remains",
+   "target_entity_id": "loc.machpelah",
+   "supersedes_component_id": "comp.israel.remains.1",
+   "acquired_at_verse": "GEN.50.13",
+   "acquired_in_event": "evt.gen_50.burial_at_machpelah"
+  },
+  {
+   "component_id": "comp.joseph.life.1",
+   "entity_id": "person.joseph",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.50.26",
+   "acquired_in_event": "evt.gen_50.joseph_dies"
+  },
+  {
+   "component_id": "comp.joseph.remains.1",
+   "entity_id": "person.joseph",
+   "category": "LOCATION_STATE",
+   "component_key": "remains",
+   "target_entity_id": "artifact.coffin_of_joseph",
+   "acquired_at_verse": "GEN.50.26",
+   "acquired_in_event": "evt.gen_50.joseph_dies"
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.4",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "FEARFUL_OF_REPRISAL",
+   "supersedes_component_id": "comp.joseph_brothers.mood.3",
+   "acquired_at_verse": "GEN.50.15",
+   "acquired_in_event": "evt.gen_50.brothers_plead",
+   "expired_at_verse": "GEN.50.21",
+   "expired_in_event": "evt.gen_50.joseph_reassures"
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.5",
+   "entity_id": "group.joseph_brothers",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "COMFORTED",
+   "supersedes_component_id": "comp.joseph_brothers.mood.4",
+   "acquired_at_verse": "GEN.50.21",
+   "acquired_in_event": "evt.gen_50.joseph_reassures"
+  },
+  {
+   "component_id": "comp.joseph_brothers.serves.1",
+   "entity_id": "group.joseph_brothers",
+   "category": "ALLEGIANCE",
+   "component_key": "serves",
+   "target_entity_id": "person.joseph",
+   "acquired_at_verse": "GEN.50.18",
+   "acquired_in_event": "evt.gen_50.brothers_plead",
+   "expired_at_verse": "GEN.50.19",
+   "expired_in_event": "evt.gen_50.joseph_reassures"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.burial_wish.1",
+   "expired_at_verse": "GEN.50.13",
+   "expired_in_event": "evt.gen_50.burial_at_machpelah"
+  },
+  {
+   "component_id": "comp.joseph.burial_oath.1",
+   "expired_at_verse": "GEN.50.13",
+   "expired_in_event": "evt.gen_50.burial_at_machpelah"
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.3",
+   "expired_at_verse": "GEN.50.15",
+   "expired_in_event": "evt.gen_50.brothers_plead"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_50.brothers_obeisance",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_50.brothers_plead",
+   "verse_start": "GEN.50.18",
+   "verse_end": "GEN.50.18",
+   "initiator_entity_id": "group.joseph_brothers",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "offer_of_servitude"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.burial_of_israel",
+   "system_id": "sys.burial_in_family_tomb",
+   "event_id": "evt.gen_50.burial_at_machpelah",
+   "verse_start": "GEN.50.12",
+   "verse_end": "GEN.50.13",
+   "initiator_entity_id": "group.sons_of_jacob",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.machpelah",
+   "tags": [
+    "fulfils_oath",
+    "cave_of_machpelah"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.egypt_mourning",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_50.egypt_mourns",
+   "verse_start": "GEN.50.3",
+   "verse_end": "GEN.50.3",
+   "initiator_entity_id": "group.egyptians",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "seventy_days",
+    "state_mourning"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.good_from_evil",
+   "system_id": "sys.divine_providence",
+   "event_id": "evt.gen_50.joseph_reassures",
+   "verse_start": "GEN.50.20",
+   "verse_end": "GEN.50.20",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.joseph_brothers",
+    "group.egyptians"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "preserving_a_people"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.israel_embalmed",
+   "system_id": "sys.embalming",
+   "event_id": "evt.gen_50.embalming",
+   "verse_start": "GEN.50.2",
+   "verse_end": "GEN.50.3",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "forty_days",
+    "physicians"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.joseph_embalmed",
+   "system_id": "sys.embalming",
+   "event_id": "evt.gen_50.joseph_dies",
+   "verse_start": "GEN.50.26",
+   "verse_end": "GEN.50.26",
+   "initiator_entity_id": "group.physicians_of_joseph",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [
+    "artifact.coffin_of_joseph"
+   ],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "coffin"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.lament_at_atad",
+   "system_id": "sys.mourning_rites",
+   "event_id": "evt.gen_50.lament_at_atad",
+   "verse_start": "GEN.50.10",
+   "verse_end": "GEN.50.11",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.atad",
+   "tags": [
+    "seven_days",
+    "great_lament"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_50.oath_for_bones",
+   "system_id": "sys.binding_oath",
+   "event_id": "evt.gen_50.joseph_last_words",
+   "verse_start": "GEN.50.25",
+   "verse_end": "GEN.50.25",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "group.children_of_israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.egypt",
+   "tags": [
+    "bones",
+    "exodus_foreshadowed"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_50.brothers_plead_with_joseph",
+   "source_entity_id": "group.joseph_brothers",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "BEGS_PARDON_OF",
+   "verse_id": "GEN.50.17",
+   "event_id": "evt.gen_50.brothers_plead"
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_adjures_israelites",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.children_of_israel",
+   "interaction_type": "ADJURES",
+   "verse_id": "GEN.50.25",
+   "event_id": "evt.gen_50.joseph_last_words"
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_comforts_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "COMFORTS",
+   "verse_id": "GEN.50.21",
+   "event_id": "evt.gen_50.joseph_reassures"
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_commands_physicians",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.physicians_of_joseph",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.50.2",
+   "event_id": "evt.gen_50.embalming"
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_mourns_israel",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.israel",
+   "interaction_type": "MOURNS",
+   "verse_id": "GEN.50.1",
+   "event_id": "evt.gen_50.joseph_weeps"
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_provides_for_brothers",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "group.joseph_brothers",
+   "interaction_type": "PROVIDES_FOR",
+   "verse_id": "GEN.50.21",
+   "event_id": "evt.gen_50.joseph_reassures"
+  },
+  {
+   "edge_id": "edge.gen_50.pharaoh_permits_joseph",
+   "source_entity_id": "person.pharaoh.gen_37_36",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "PERMITS",
+   "verse_id": "GEN.50.6",
+   "event_id": "evt.gen_50.petition_to_pharaoh"
+  },
+  {
+   "edge_id": "edge.gen_50.sons_bury_israel",
+   "source_entity_id": "group.sons_of_jacob",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BURIES",
+   "verse_id": "GEN.50.13",
+   "event_id": "evt.gen_50.burial_at_machpelah"
+  }
+ ]
 }

@@ -82,9 +82,205 @@
    "causal_explanation": "Owning the plot where he had pitched his tent (33:19) lets Jacob set up an altar there (33:20)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.altar_el_elohe_israel",
+   "canonical_name": "Altar El-Elohe-Israel",
+   "phonetic_name": "ayl eh-loh-HAY yis-rah-AYL",
+   "aliases": [
+    "El-elohe-Israel"
+   ],
+   "etymology_meaning": "'El, the God of Israel', or 'God is the God of Israel'; Israel here is Jacob's new name (Gen 32:28).",
+   "summary_bio": "The altar Jacob sets up on the field he bought at Shechem and names with a title of God (Gen 33:20). The name claims the God of his new name as his God."
+  },
+  {
+   "entity_id": "group.sons_of_hamor",
+   "canonical_name": "Sons of Hamor",
+   "phonetic_name": "b'NAY kha-MOHR",
+   "aliases": [
+    "children of Hamor"
+   ],
+   "etymology_meaning": "Hebrew 'bene Hamor', 'sons of Hamor'; a collective for his family and household.",
+   "summary_bio": "The family of Hamor of Shechem, from whom Jacob buys a parcel of field for a hundred qesitah (Gen 33:19). They are the landowners who sell to the newcomer."
+  },
+  {
+   "entity_id": "loc.field_at_shechem",
+   "canonical_name": "Field at Shechem",
+   "phonetic_name": "KHEL-kat hah-sah-DEH",
+   "aliases": [
+    "parcel of the field"
+   ],
+   "etymology_meaning": "Hebrew 'helqat hassadeh', 'the portion of the field'.",
+   "summary_bio": "The plot before the city of Shechem where Jacob pitched his tent and which he bought from the sons of Hamor for a hundred qesitah (Gen 33:19). It is the first piece of land in Canaan the text shows him owning."
+  },
+  {
+   "entity_id": "loc.succoth",
+   "canonical_name": "Succoth",
+   "phonetic_name": "soo-KOHT",
+   "aliases": [
+    "Sukkoth"
+   ],
+   "etymology_meaning": "'Booths' or 'shelters', which the text itself gives as the reason for the name.",
+   "summary_bio": "A place east of the Jordan where Jacob goes after parting from Esau. He builds a house for himself and shelters for his livestock there, and names the place for them (Gen 33:17)."
+  },
+  {
+   "entity_id": "person.hamor",
+   "canonical_name": "Hamor",
+   "phonetic_name": "khah-MOHR",
+   "aliases": [
+    "Emmor"
+   ],
+   "etymology_meaning": "Hebrew for 'donkey' (a name probably linked to the Hivite/Hurrian setting; donkeys were used in covenant rites at Shechem).",
+   "summary_bio": "Father of Shechem, named in Gen 33:19 as the man whose sons sold Jacob a field. In Genesis 34 he rules the city of Shechem."
+  },
+  {
+   "entity_id": "person.shechem",
+   "canonical_name": "Shechem",
+   "phonetic_name": "sheh-KHEM",
+   "aliases": [],
+   "etymology_meaning": "Probably 'shoulder' or 'ridge', the same word as the name of the city.",
+   "summary_bio": "Son of Hamor, mentioned only as his father's son in Gen 33:19. He shares his name with the city, which stands near where Jacob camps."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.altar_el_elohe_israel.dedicated_to.1",
+   "label_key": "Dedicated to",
+   "label_value": "Dedicated to the God of Israel",
+   "evidence_explanation": "Gen 33:20: Jacob sets up the altar and calls it El-Elohe-Israel, 'El, the God of Israel'."
+  },
+  {
+   "component_id": "comp.esau.mood.3",
+   "label_key": "Mood",
+   "label_value": "Reconciled with Jacob",
+   "evidence_explanation": "Gen 33:4: Esau runs to meet Jacob, embraces him, falls on his neck, kisses him, and they weep."
+  },
+  {
+   "component_id": "comp.esau.whereabouts.1",
+   "label_key": "Whereabouts",
+   "label_value": "On his way back to Seir",
+   "evidence_explanation": "Gen 33:16: Esau returns that day on his way to Seir."
+  },
+  {
+   "component_id": "comp.gift_for_esau.holder.2",
+   "label_key": "Holder",
+   "label_value": "Held by Esau",
+   "evidence_explanation": "Gen 33:11: Jacob urges Esau and 'he took it'."
+  },
+  {
+   "component_id": "comp.israel.land_holding.1",
+   "label_key": "Land holding",
+   "label_value": "Owns the field at Shechem",
+   "evidence_explanation": "Gen 33:19: Jacob buys the parcel of the field where he had pitched his tent."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.6",
+   "label_key": "Whereabouts",
+   "label_value": "At Succoth",
+   "evidence_explanation": "Gen 33:17: Jacob journeys to Succoth, builds a house for himself and shelters for his livestock."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.7",
+   "label_key": "Whereabouts",
+   "label_value": "Camped before Shechem",
+   "evidence_explanation": "Gen 33:18: Jacob arrives at the city of Shechem in Canaan and camps before it."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.land_purchase",
+   "name": "Purchase of land from its owners",
+   "ancient_near_east_context": "In the ancient Near East land was held by families and sold by agreement, with a price in silver by weight or in a local unit. Foreigners and sojourners could own land only by a purchase from the landholders, which gave a claim recognized by neighbours. Genesis shows the pattern in 23 (Machpelah, at the gate) and here (a field before Shechem).",
+   "rules_and_mechanics": [
+    "The buyer deals with the landholding family, here 'the hand of the sons of Hamor'.",
+    "The price is stated and paid: a hundred qesitah, a unit of silver of uncertain weight.",
+    "The land bought is a defined plot, 'the portion of the field' where the buyer's tent already stands.",
+    "Purchase turns a sojourner's camp into a holding that others recognize."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_33.altar_set_up",
+   "outcome_summary": "Jacob sets up an altar on the field at Shechem and calls it El-Elohe-Israel.",
+   "significance_note": "Marks his return to the land with worship and gives God a title that includes his own new name."
+  },
+  {
+   "instance_id": "inst.gen_33.bowing_seven_times",
+   "outcome_summary": "Jacob goes ahead of his family and bows to the ground seven times as he draws near his brother.",
+   "significance_note": "A vassal's greeting to a lord, used by Jacob to show submission after twenty years of estrangement; it prepares Esau's warm answer."
+  },
+  {
+   "instance_id": "inst.gen_33.embrace",
+   "outcome_summary": "Esau runs to Jacob, embraces him, falls on his neck, kisses him, and they weep.",
+   "significance_note": "Esau's welcome answers the fear of 32:7-8, 11 and ends the feud that began with the stolen blessing."
+  },
+  {
+   "instance_id": "inst.gen_33.family_bows",
+   "outcome_summary": "The maidservants with their children, then Leah with hers, then Joseph and Rachel, come forward in turn and bow to Esau.",
+   "significance_note": "The order shows who stands where in Jacob's household, with Rachel and Joseph last and most protected."
+  },
+  {
+   "instance_id": "inst.gen_33.field_bought",
+   "outcome_summary": "Jacob buys the parcel of the field where he had pitched his tent from the sons of Hamor for a hundred qesitah.",
+   "significance_note": "The first land Jacob owns in Canaan; the setting of the events of Genesis 34 and of later burial traditions."
+  },
+  {
+   "instance_id": "inst.gen_33.gift_accepted",
+   "outcome_summary": "Esau first declines, saying he has enough; Jacob urges him, and Esau takes the gift.",
+   "significance_note": "Accepting the gift confirms the peace; Jacob compares Esau's welcome to seeing the face of God, recalling Peniel."
+  },
+  {
+   "instance_id": "inst.gen_33.succoth_named",
+   "outcome_summary": "Jacob builds a house and shelters at Succoth and calls the place Succoth, 'booths'.",
+   "significance_note": "The name keeps his stay in memory; the stop east of the Jordan delays his arrival in the land."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_33.esau_embraces_jacob",
+   "interaction_label": "embraces",
+   "description": "Esau runs to meet Jacob, embraces him, falls on his neck and kisses him."
+  },
+  {
+   "edge_id": "edge.gen_33.esau_offers_escort",
+   "interaction_label": "offers to travel with",
+   "description": "Esau proposes that they journey together, with himself going ahead of Jacob."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_bows_to_esau",
+   "interaction_label": "bows to",
+   "description": "Jacob bows to the ground seven times as he draws near his brother."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_buys_field",
+   "interaction_label": "buys land from",
+   "description": "Jacob buys the parcel of field where he had pitched his tent from the sons of Hamor for a hundred qesitah."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_declines_escort",
+   "interaction_label": "declines the company of",
+   "description": "Jacob says the children are tender and the flocks nursing, and asks Esau to go ahead while he follows slowly to Seir."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_divides_children",
+   "interaction_label": "divides his household",
+   "description": "Seeing Esau come with four hundred men, Jacob divides the children among Leah, Rachel and the two maidservants."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_gives_gift",
+   "interaction_label": "gives a gift to",
+   "description": "Jacob presses his gift on Esau, who first refuses and then accepts."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_presents_family",
+   "interaction_label": "presents his family to",
+   "description": "Asked who the women and children are, Jacob answers that they are the children God has graciously given his servant."
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_worships_god",
+   "interaction_label": "worships",
+   "description": "Jacob sets up an altar and names it for El, the God of Israel."
+  }
+ ]
 }

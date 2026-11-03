@@ -653,25 +653,6 @@
    ],
    "source": null
   },
-  "edge:edge.gen_31.yhwh_rebukes_laban": {
-   "status": "changes_requested",
-   "produced_by": {
-    "model": "claude-sonnet-5-5",
-    "skill": "urim-ontologist@1",
-    "run": "main"
-   },
-   "produced_at": "2026-11-02T15:34:33+00:00",
-   "agent_notes": [],
-   "history": [
-    {
-     "status": "changes_requested",
-     "at": "2026-11-02T15:37:10+00:00",
-     "note": "[should_fix] Remove edge.gen_31.yhwh_rebukes_laban; the dream's interaction is already edge.gen_31.yhwh_warns_laban in evt.gen_31.god_warns_laban (GEN.31.24). If you want Jacob's reading of it as a rebuke, put it in that edge's description, not in a second edge. (GEN.31.42: \"God hath seen mine affliction ... and rebuked thee yesternight\" (אמש); GEN.31.29: \"the God of your father spake unto me yesternight\"; GEN.31.24: \"God came to Laban ... in a dream by night\".)",
-     "by": "urim-critic@3 · claude-opus-5-5"
-    }
-   ],
-   "source": null
-  },
   "edge:edge.gen_31.yhwh_warns_laban": {
    "status": "approved",
    "produced_by": {
@@ -1149,19 +1130,27 @@
    "source": null
   },
   "event_links:evt.gen_31.covenant_feast": {
-   "status": "changes_requested",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-ontologist@1",
     "run": "main"
    },
-   "produced_at": "2026-11-02T15:34:33+00:00",
-   "agent_notes": [],
+   "produced_at": "2026-11-03T10:39:05+00:00",
+   "agent_notes": [
+    "Laban is PRESENT: 31:54 has them eat and stay the night on the mountain, and Laban leaves the next morning (32:1 Heb). 'His brethren' (31:54) is read as Jacob's kinsmen, who are the agents, matching the sacrifice and the call to eat. Laban's kinsmen are added as PRESENT because they were with Laban at the meal and the night; Targum Pseudo-Jonathan instead reads 'his brethren' as Laban's companions, so the line between the two groups here is uncertain."
+   ],
    "history": [
     {
      "status": "changes_requested",
      "at": "2026-11-02T15:37:10+00:00",
      "note": "[should_fix] Add person.laban as PRESENT to evt.gen_31.covenant_feast. Add group.kinsmen_of_laban as PRESENT too, or say in a note why 'his brethren' of 31:54 are Jacob's kinsmen only (TgPsJ reads them as those who came with Laban). (GEN.31.54: \"and they did eat bread, and tarried all night in the mount\" (וילינו בהר); GEN.32.1 (Hebrew; English 31:55): \"And early in the morning Laban rose up, and kissed his sons and his daughters\"; Targum Pseudo-Jonathan 31:54 reads 'his kinsmen who had come with Laban'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T10:44:09+00:00",
+     "note": null,
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -1848,6 +1837,15 @@
     "run": "main"
    },
    "at": "2026-11-02T15:34:33+00:00"
+  },
+  {
+   "note": "[edge:edge.gen_31.yhwh_rebukes_laban] Removed as requested: the dream's act toward Laban is the approved edge.gen_31.yhwh_warns_laban (31:24). Jacob's reading of it as a rebuke (31:42) is left to that locked edge's description; a reviewer may add it there.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T10:39:05+00:00"
   }
  ]
 }

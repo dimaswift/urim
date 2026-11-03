@@ -740,8 +740,16 @@
      "role": "AGENT"
     },
     {
+     "entity_id": "group.kinsmen_of_laban",
+     "role": "PRESENT"
+    },
+    {
      "entity_id": "person.israel",
      "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "PRESENT"
     }
    ]
   }
@@ -1240,14 +1248,6 @@
    "interaction_type": "COMMANDS",
    "verse_id": "GEN.31.3",
    "event_id": "evt.gen_31.yhwh_commands_return"
-  },
-  {
-   "edge_id": "edge.gen_31.yhwh_rebukes_laban",
-   "source_entity_id": "deity.yhwh",
-   "target_entity_id": "person.laban",
-   "interaction_type": "REBUKES",
-   "verse_id": "GEN.31.42",
-   "event_id": "evt.gen_31.jacob_rebukes_laban"
   },
   {
    "edge_id": "edge.gen_31.yhwh_warns_laban",

@@ -1,12 +1,22 @@
 {
  "chapter_ref": "GEN.48",
  "entities": [],
- "systems": [],
+ "systems": [
+  {
+   "system_id": "sys.adoption_by_grandfather",
+   "category": "LEGAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.laying_on_hands",
+   "category": "LITURGICAL_RITUAL"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_48.joseph_told_of_illness",
    "verse_start": "GEN.48.1",
    "verse_end": "GEN.48.1",
+   "location_entity_id": "loc.egypt",
    "time": {
     "anchor": "evt.gen_47.jacob_makes_joseph_swear",
     "anchor_point": "END",
@@ -24,12 +34,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.joseph_arrives_jacob_sits_up",
    "verse_start": "GEN.48.2",
    "verse_end": "GEN.48.2",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.joseph_told_of_illness",
     "anchor_point": "END",
@@ -43,12 +71,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.ephraim",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_recounts_promise",
    "verse_start": "GEN.48.3",
    "verse_end": "GEN.48.4",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.joseph_arrives_jacob_sits_up",
     "anchor_point": "END",
@@ -62,12 +108,34 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_adopts_joseph_sons",
    "verse_start": "GEN.48.5",
    "verse_end": "GEN.48.7",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_recounts_promise",
     "anchor_point": "END",
@@ -81,12 +149,54 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.bethlehem",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.egypt",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_embraces_grandsons",
    "verse_start": "GEN.48.8",
    "verse_end": "GEN.48.12",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_adopts_joseph_sons",
     "anchor_point": "END",
@@ -100,12 +210,34 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.hands_crossed",
    "verse_start": "GEN.48.13",
    "verse_end": "GEN.48.14",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_embraces_grandsons",
     "anchor_point": "END",
@@ -119,12 +251,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_blesses_joseph",
    "verse_start": "GEN.48.15",
    "verse_end": "GEN.48.16",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.hands_crossed",
     "anchor_point": "END",
@@ -138,12 +288,46 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "spirit.angel_of_yhwh",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.joseph_objects",
    "verse_start": "GEN.48.17",
    "verse_end": "GEN.48.19",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_blesses_joseph",
     "anchor_point": "END",
@@ -157,12 +341,30 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_blesses_boys",
    "verse_start": "GEN.48.20",
    "verse_end": "GEN.48.20",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.joseph_objects",
     "anchor_point": "END",
@@ -176,12 +378,34 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephraim",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.manasseh",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_48.jacob_foretells_return",
    "verse_start": "GEN.48.21",
    "verse_end": "GEN.48.22",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_blesses_boys",
     "anchor_point": "END",
@@ -195,7 +419,28 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.amorites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.shechem",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -221,8 +466,257 @@
    "confidence": 1.0
   }
  ],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.ephraim.blessing_rank.1",
+   "entity_id": "person.ephraim",
+   "category": "ROLE_TITLE",
+   "component_key": "blessing_rank",
+   "value_code": "FIRST_IN_BLESSING",
+   "acquired_at_verse": "GEN.48.20",
+   "acquired_in_event": "evt.gen_48.jacob_blesses_boys"
+  },
+  {
+   "component_id": "comp.ephraim.sonship.1",
+   "entity_id": "person.ephraim",
+   "category": "ROLE_TITLE",
+   "component_key": "sonship",
+   "value_code": "ADOPTED_SON_OF_ISRAEL",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.48.5",
+   "acquired_in_event": "evt.gen_48.jacob_adopts_joseph_sons"
+  },
+  {
+   "component_id": "comp.israel.health.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "health",
+   "value_code": "ILL",
+   "acquired_at_verse": "GEN.48.1",
+   "acquired_in_event": "evt.gen_48.joseph_told_of_illness"
+  },
+  {
+   "component_id": "comp.israel.sight.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "sight",
+   "value_code": "DIM_WITH_AGE",
+   "acquired_at_verse": "GEN.48.10",
+   "acquired_in_event": "evt.gen_48.jacob_embraces_grandsons"
+  },
+  {
+   "component_id": "comp.joseph.portion.1",
+   "entity_id": "person.joseph",
+   "category": "POSSESSION",
+   "component_key": "portion",
+   "target_entity_id": "loc.shechem",
+   "acquired_at_verse": "GEN.48.22",
+   "acquired_in_event": "evt.gen_48.jacob_foretells_return"
+  },
+  {
+   "component_id": "comp.manasseh.blessing_rank.1",
+   "entity_id": "person.manasseh",
+   "category": "ROLE_TITLE",
+   "component_key": "blessing_rank",
+   "value_code": "SECOND_IN_BLESSING",
+   "acquired_at_verse": "GEN.48.20",
+   "acquired_in_event": "evt.gen_48.jacob_blesses_boys"
+  },
+  {
+   "component_id": "comp.manasseh.sonship.1",
+   "entity_id": "person.manasseh",
+   "category": "ROLE_TITLE",
+   "component_key": "sonship",
+   "value_code": "ADOPTED_SON_OF_ISRAEL",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.48.5",
+   "acquired_in_event": "evt.gen_48.jacob_adopts_joseph_sons"
+  }
+ ],
  "component_closures": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_48.boys_adopted",
+   "system_id": "sys.adoption_by_grandfather",
+   "event_id": "evt.gen_48.jacob_adopts_joseph_sons",
+   "verse_start": "GEN.48.5",
+   "verse_end": "GEN.48.6",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.ephraim",
+    "person.manasseh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "adoption",
+    "inheritance",
+    "tribal_status"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_48.boys_blessed",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_48.jacob_blesses_boys",
+   "verse_start": "GEN.48.20",
+   "verse_end": "GEN.48.20",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.ephraim",
+    "person.manasseh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "blessing_formula",
+    "ephraim_first"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_48.hands_laid",
+   "system_id": "sys.laying_on_hands",
+   "event_id": "evt.gen_48.hands_crossed",
+   "verse_start": "GEN.48.13",
+   "verse_end": "GEN.48.14",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.ephraim",
+    "person.manasseh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "crossed_hands",
+    "right_hand",
+    "younger_before_elder"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_48.joseph_blessed",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_48.jacob_blesses_joseph",
+   "verse_start": "GEN.48.15",
+   "verse_end": "GEN.48.16",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph",
+    "person.ephraim",
+    "person.manasseh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "invocation",
+    "name_of_fathers",
+    "angel"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_48.joseph_bows",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_48.jacob_embraces_grandsons",
+   "verse_start": "GEN.48.12",
+   "verse_end": "GEN.48.12",
+   "initiator_entity_id": "person.joseph",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "bowing",
+    "face_to_ground"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_48.israel_adopts_ephraim",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.ephraim",
+   "interaction_type": "ADOPTS",
+   "verse_id": "GEN.48.5",
+   "event_id": "evt.gen_48.jacob_adopts_joseph_sons"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_adopts_manasseh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.manasseh",
+   "interaction_type": "ADOPTS",
+   "verse_id": "GEN.48.5",
+   "event_id": "evt.gen_48.jacob_adopts_joseph_sons"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_ephraim",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.ephraim",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.48.20",
+   "event_id": "evt.gen_48.jacob_blesses_boys"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.48.15",
+   "event_id": "evt.gen_48.jacob_blesses_joseph"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_manasseh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.manasseh",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.48.20",
+   "event_id": "evt.gen_48.jacob_blesses_boys"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_embraces_ephraim",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.ephraim",
+   "interaction_type": "EMBRACES",
+   "verse_id": "GEN.48.10",
+   "event_id": "evt.gen_48.jacob_embraces_grandsons"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_embraces_manasseh",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.manasseh",
+   "interaction_type": "EMBRACES",
+   "verse_id": "GEN.48.10",
+   "event_id": "evt.gen_48.jacob_embraces_grandsons"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_gives_shechem",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "GRANTS_TO",
+   "verse_id": "GEN.48.22",
+   "event_id": "evt.gen_48.jacob_foretells_return"
+  },
+  {
+   "edge_id": "edge.gen_48.israel_refuses_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "REFUSES",
+   "verse_id": "GEN.48.19",
+   "event_id": "evt.gen_48.joseph_objects"
+  },
+  {
+   "edge_id": "edge.gen_48.joseph_bows_to_israel",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BOWS_TO",
+   "verse_id": "GEN.48.12",
+   "event_id": "evt.gen_48.jacob_embraces_grandsons"
+  },
+  {
+   "edge_id": "edge.gen_48.joseph_objects_to_israel",
+   "source_entity_id": "person.joseph",
+   "target_entity_id": "person.israel",
+   "interaction_type": "OBJECTS_TO",
+   "verse_id": "GEN.48.18",
+   "event_id": "evt.gen_48.joseph_objects"
+  }
+ ]
 }

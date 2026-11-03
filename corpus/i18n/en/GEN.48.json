@@ -80,8 +80,154 @@
   }
  ],
  "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.ephraim.blessing_rank.1",
+   "label_key": "Rank in the blessing",
+   "label_value": "First",
+   "evidence_explanation": "GEN.48.20: 'he set Ephraim before Manasseh'."
+  },
+  {
+   "component_id": "comp.ephraim.sonship.1",
+   "label_key": "Sonship",
+   "label_value": "Adopted as Jacob's own son",
+   "evidence_explanation": "GEN.48.5: 'Ephraim and Manasseh shall be mine, like Reuben and Simeon'."
+  },
+  {
+   "component_id": "comp.israel.health.1",
+   "label_key": "Health",
+   "label_value": "Sick",
+   "evidence_explanation": "GEN.48.1: 'your father is sick'."
+  },
+  {
+   "component_id": "comp.israel.sight.1",
+   "label_key": "Sight",
+   "label_value": "Dim with age",
+   "evidence_explanation": "GEN.48.10: 'the eyes of Israel were heavy with age; he could not see'."
+  },
+  {
+   "component_id": "comp.joseph.portion.1",
+   "label_key": "Portion",
+   "label_value": "Holds the portion at Shechem",
+   "evidence_explanation": "GEN.48.22: 'I have given you one portion (shekhem) above your brothers, which I took from the Amorite'."
+  },
+  {
+   "component_id": "comp.manasseh.blessing_rank.1",
+   "label_key": "Rank in the blessing",
+   "label_value": "Second",
+   "evidence_explanation": "GEN.48.19–20: his younger brother shall be greater, and Ephraim is set before Manasseh."
+  },
+  {
+   "component_id": "comp.manasseh.sonship.1",
+   "label_key": "Sonship",
+   "label_value": "Adopted as Jacob's own son",
+   "evidence_explanation": "GEN.48.5: 'Ephraim and Manasseh shall be mine, like Reuben and Simeon'."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.adoption_by_grandfather",
+   "name": "Adoption of grandsons by the patriarch",
+   "ancient_near_east_context": "Adoption formulas such as 'they are mine' appear in Near Eastern law texts, where a childless or senior head of family could confer son's rights, including an inheritance share, on another person. Here Jacob gives Joseph's two sons the rank of full sons, so that Joseph's line receives two tribal portions.",
+   "rules_and_mechanics": [
+    "The patriarch declares the child his own by a spoken formula naming existing sons as the model.",
+    "The adopted sons share the inheritance and stand as heads of their own lines.",
+    "Children born to the natural father afterwards stay his, and are counted under the adopted brothers' names."
+   ]
+  },
+  {
+   "system_id": "sys.laying_on_hands",
+   "name": "Laying on of hands",
+   "ancient_near_east_context": "Placing hands on a person's head marks the transfer of blessing, authority or status in many Near Eastern and biblical settings. The right hand carries the greater weight.",
+   "rules_and_mechanics": [
+    "The blessing giver places hands on the head of the one blessed.",
+    "The right hand conventionally goes on the firstborn and carries the chief blessing.",
+    "The placement itself conveys the intention, even before the spoken words."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_48.boys_adopted",
+   "outcome_summary": "Jacob declares Ephraim and Manasseh his own sons, equal to Reuben and Simeon; any later sons of Joseph will count under their names.",
+   "significance_note": "It gives Joseph two tribal portions and raises both boys from grandsons to heirs."
+  },
+  {
+   "instance_id": "inst.gen_48.boys_blessed",
+   "outcome_summary": "Jacob blesses both boys and makes their names a pattern of blessing for Israel, putting Ephraim before Manasseh.",
+   "significance_note": "It fixes Ephraim's precedence among the tribes, over Joseph's protest."
+  },
+  {
+   "instance_id": "inst.gen_48.hands_laid",
+   "outcome_summary": "Jacob crosses his arms, laying his right hand on the younger Ephraim and his left on the elder Manasseh.",
+   "significance_note": "The crossed hands enact the reversal of birth order before any words are spoken."
+  },
+  {
+   "instance_id": "inst.gen_48.joseph_blessed",
+   "outcome_summary": "Jacob invokes the God of his fathers and the angel who redeemed him to bless the boys and carry his name and the names of Abraham and Isaac.",
+   "significance_note": "It ties the adopted boys to the patriarchal promise of increase."
+  },
+  {
+   "instance_id": "inst.gen_48.joseph_bows",
+   "outcome_summary": "Joseph takes the boys from between Jacob's knees and bows with his face to the ground.",
+   "significance_note": "Joseph, ruler over Egypt, bows to the ground before his father before presenting the boys for the blessing."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_48.israel_adopts_ephraim",
+   "interaction_label": "adopts",
+   "description": "Jacob claims Ephraim as his own son, equal to Reuben and Simeon."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_adopts_manasseh",
+   "interaction_label": "adopts",
+   "description": "Jacob claims Manasseh as his own son, equal to Reuben and Simeon."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_ephraim",
+   "interaction_label": "blesses",
+   "description": "Jacob blesses Ephraim and sets him before Manasseh."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_joseph",
+   "interaction_label": "blesses",
+   "description": "Jacob blesses Joseph by invoking the God of Abraham and Isaac over his sons."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_blesses_manasseh",
+   "interaction_label": "blesses",
+   "description": "Jacob blesses Manasseh, who is placed second."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_embraces_ephraim",
+   "interaction_label": "kisses and embraces",
+   "description": "Jacob, nearly blind, draws Ephraim close and kisses and embraces him."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_embraces_manasseh",
+   "interaction_label": "kisses and embraces",
+   "description": "Jacob, nearly blind, draws Manasseh close and kisses and embraces him."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_gives_shechem",
+   "interaction_label": "grants a portion to",
+   "description": "Jacob gives Joseph one portion above his brothers, taken from the Amorite with sword and bow."
+  },
+  {
+   "edge_id": "edge.gen_48.israel_refuses_joseph",
+   "interaction_label": "refuses",
+   "description": "Jacob refuses to move his hand, saying he knows and that the younger will be greater."
+  },
+  {
+   "edge_id": "edge.gen_48.joseph_bows_to_israel",
+   "interaction_label": "bows to",
+   "description": "Joseph bows with his face to the ground before his father."
+  },
+  {
+   "edge_id": "edge.gen_48.joseph_objects_to_israel",
+   "interaction_label": "objects to",
+   "description": "Joseph is displeased by the hand placement and tries to move Jacob's right hand to Manasseh."
+  }
+ ]
 }

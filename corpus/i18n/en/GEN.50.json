@@ -118,9 +118,244 @@
    "causal_explanation": "Pharaoh's leave, 'Go up and bury your father' (50:6), makes the journey possible, and 50:7 follows it."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.coffin_of_joseph",
+   "canonical_name": "Joseph's coffin",
+   "phonetic_name": "Aron",
+   "aliases": [],
+   "etymology_meaning": "Hebrew aron, 'chest' or 'box'; the same word later names the Ark of the Covenant.",
+   "summary_bio": "The Egyptian coffin in which Joseph's embalmed body is placed at his death. It keeps his bones ready for the oath that they will be carried up to Canaan."
+  },
+  {
+   "entity_id": "group.chariots_and_horsemen",
+   "canonical_name": "Chariots and horsemen",
+   "phonetic_name": "Rekhev Parashim",
+   "aliases": [
+    "chariotry",
+    "the company"
+   ],
+   "etymology_meaning": "Hebrew rekhev, 'chariotry', and parashim, 'horsemen' or 'cavalry'.",
+   "summary_bio": "An Egyptian military escort accompanying the funeral procession, making a very heavy company."
+  },
+  {
+   "entity_id": "group.children_of_israel",
+   "canonical_name": "Children of Israel",
+   "phonetic_name": "Bnei Yisra'el",
+   "aliases": [
+    "sons of Israel",
+    "Israelites"
+   ],
+   "etymology_meaning": "Hebrew 'sons of Israel', the descendants of Jacob; the name Israel is 'God strives' (probably).",
+   "summary_bio": "Jacob's descendants as a people, the party to whom Joseph addresses his oath. They are bound to carry his bones out of Egypt."
+  },
+  {
+   "entity_id": "group.descendants_of_joseph",
+   "canonical_name": "Joseph's great-grandchildren",
+   "phonetic_name": "Bnei Shilleshim",
+   "aliases": [
+    "children of the third generation"
+   ],
+   "etymology_meaning": "Hebrew shilleshim, 'third generation'.",
+   "summary_bio": "Ephraim's children of the third generation and Machir's sons, whom Joseph lives to see. Their birth on his knees marks them as his own heirs."
+  },
+  {
+   "entity_id": "group.elders_of_egypt",
+   "canonical_name": "Elders of Egypt",
+   "phonetic_name": "Ziknei Eretz Mitzrayim",
+   "aliases": [
+    "elders of Pharaoh's house",
+    "elders of the land of Egypt"
+   ],
+   "etymology_meaning": "Hebrew ziqnei, 'elders', senior officials.",
+   "summary_bio": "The senior officials of Pharaoh's house and of the whole land who go up with Joseph to bury Jacob. Their presence makes the funeral a state occasion."
+  },
+  {
+   "entity_id": "group.household_of_pharaoh",
+   "canonical_name": "Pharaoh's household",
+   "phonetic_name": "Beit Par'oh",
+   "aliases": [
+    "house of Pharaoh"
+   ],
+   "etymology_meaning": "Hebrew 'house of Pharaoh', the royal court.",
+   "summary_bio": "The royal court through which Joseph sends his petition to Pharaoh once the days of weeping are past. Joseph addresses them rather than Pharaoh directly."
+  },
+  {
+   "entity_id": "group.physicians_of_joseph",
+   "canonical_name": "Joseph's physicians",
+   "phonetic_name": "Ha-Rofim",
+   "aliases": [
+    "physicians",
+    "servants the physicians"
+   ],
+   "etymology_meaning": "Hebrew rofe'im, 'healers'; here the court physicians who do the embalming.",
+   "summary_bio": "Egyptian medical servants in Joseph's household whom he commands to embalm Israel. They carry out the forty-day embalming."
+  },
+  {
+   "entity_id": "loc.atad",
+   "canonical_name": "Atad",
+   "phonetic_name": "Ha-Atad",
+   "aliases": [
+    "Abel-mizraim",
+    "threshing floor of Atad"
+   ],
+   "etymology_meaning": "Atad means 'thornbush' (probably). The local Canaanites rename the place Abel-mizraim, 'mourning of Egypt', with a pun on abel ('meadow'/'mourning').",
+   "summary_bio": "A threshing floor beyond the Jordan where Jacob's funeral party halts for seven days of lament. The name Abel-mizraim commemorates the Egyptians' grief."
+  },
+  {
+   "entity_id": "person.machir",
+   "canonical_name": "Machir",
+   "phonetic_name": "Makhir",
+   "aliases": [],
+   "etymology_meaning": "Probably 'sold' or 'salesman', from the root mkr, 'to sell'.",
+   "summary_bio": "Son of Manasseh and so Joseph's grandson. His children are born on Joseph's knees, an act of acknowledgment as a legitimate heir."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.children_of_israel.bones_oath.1",
+   "label_key": "Oath",
+   "label_value": "Sworn to carry up Joseph's bones",
+   "evidence_explanation": "GEN.50.25: Joseph made the sons of Israel swear to carry up his bones from Egypt."
+  },
+  {
+   "component_id": "comp.israel.remains.1",
+   "label_key": "Remains",
+   "label_value": "Embalmed",
+   "evidence_explanation": "GEN.50.2: the physicians embalmed Israel."
+  },
+  {
+   "component_id": "comp.israel.remains.2",
+   "label_key": "Remains",
+   "label_value": "Buried at Machpelah",
+   "evidence_explanation": "GEN.50.13: his sons buried him in the cave of the field of Machpelah."
+  },
+  {
+   "component_id": "comp.joseph.life.1",
+   "label_key": "Life",
+   "label_value": "Dead at 110",
+   "evidence_explanation": "GEN.50.26: Joseph died, a son of 110 years."
+  },
+  {
+   "component_id": "comp.joseph.remains.1",
+   "label_key": "Remains",
+   "label_value": "Embalmed in a coffin in Egypt",
+   "evidence_explanation": "GEN.50.26: they embalmed him and he was put in a coffin in Egypt."
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.4",
+   "label_key": "Mood",
+   "label_value": "Afraid of Joseph's revenge",
+   "evidence_explanation": "GEN.50.15: they fear Joseph will hate them and repay all the harm they did him."
+  },
+  {
+   "component_id": "comp.joseph_brothers.mood.5",
+   "label_key": "Mood",
+   "label_value": "Comforted by Joseph",
+   "evidence_explanation": "GEN.50.21: Joseph comforted them and spoke to their hearts."
+  },
+  {
+   "component_id": "comp.joseph_brothers.serves.1",
+   "label_key": "Serves",
+   "label_value": "Offering themselves as Joseph's slaves",
+   "evidence_explanation": "GEN.50.18: they fall before him and say 'we are your slaves'; Joseph declines in 50:19."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.embalming",
+   "name": "Embalming",
+   "ancient_near_east_context": "Egyptians preserved the bodies of the elite with natron and aromatic resins over about forty days, followed by a total mourning period of about seventy days. A Semitic patriarch embalmed by Egyptian physicians shows how deeply Joseph's household was integrated into Egyptian court practice.",
+   "rules_and_mechanics": [
+    "Specialist physicians perform the embalming at the command of the family head.",
+    "The embalming takes forty days.",
+    "A longer public mourning period follows, here seventy days.",
+    "The embalmed body may be placed in a coffin for later transport."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_50.brothers_obeisance",
+   "outcome_summary": "The brothers fall before Joseph and offer to be his slaves.",
+   "significance_note": "It echoes the dreams of Genesis 37 yet Joseph refuses the position of master."
+  },
+  {
+   "instance_id": "inst.gen_50.burial_of_israel",
+   "outcome_summary": "Israel's sons bury him in the cave of Machpelah as he had commanded.",
+   "significance_note": "It fulfils Jacob's charge and Joseph's oath, and returns him to Abraham's burial property."
+  },
+  {
+   "instance_id": "inst.gen_50.egypt_mourning",
+   "outcome_summary": "The Egyptians weep for Israel seventy days.",
+   "significance_note": "A royal-scale mourning period shows how highly Joseph's family is regarded."
+  },
+  {
+   "instance_id": "inst.gen_50.good_from_evil",
+   "outcome_summary": "Joseph says that what the brothers planned as evil God planned for good, to keep a numerous people alive.",
+   "significance_note": "It is Genesis's summary statement of providence."
+  },
+  {
+   "instance_id": "inst.gen_50.israel_embalmed",
+   "outcome_summary": "Joseph's physicians embalm Israel over forty days.",
+   "significance_note": "Joseph has his father preserved in the Egyptian way so the body can be taken to Canaan for burial."
+  },
+  {
+   "instance_id": "inst.gen_50.joseph_embalmed",
+   "outcome_summary": "Joseph is embalmed and placed in a coffin in Egypt.",
+   "significance_note": "The body is prepared to await removal; the closing verse of Genesis leaves Israel waiting in Egypt with Joseph's bones."
+  },
+  {
+   "instance_id": "inst.gen_50.lament_at_atad",
+   "outcome_summary": "A great and heavy lament is held at the threshing floor of Atad, with seven days of mourning.",
+   "significance_note": "The Canaanites' reaction renames the place Abel-mizraim."
+  },
+  {
+   "instance_id": "inst.gen_50.oath_for_bones",
+   "outcome_summary": "Joseph makes the sons of Israel swear to carry up his bones when God visits them.",
+   "significance_note": "It links Genesis to the Exodus and to the land promised to the patriarchs."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_50.brothers_plead_with_joseph",
+   "interaction_label": "plead with",
+   "description": "The brothers send word asking Joseph to forgive their transgression, citing their father's charge."
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_adjures_israelites",
+   "interaction_label": "makes swear",
+   "description": "Joseph makes the sons of Israel swear to carry up his bones."
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_comforts_brothers",
+   "interaction_label": "comforts",
+   "description": "Joseph comforts the brothers and speaks to their hearts."
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_commands_physicians",
+   "interaction_label": "commands",
+   "description": "Joseph orders his physicians to embalm his father."
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_mourns_israel",
+   "interaction_label": "mourns",
+   "description": "Joseph falls on his father's face, weeps and kisses him."
+  },
+  {
+   "edge_id": "edge.gen_50.joseph_provides_for_brothers",
+   "interaction_label": "provides for",
+   "description": "Joseph promises to sustain the brothers and their little ones."
+  },
+  {
+   "edge_id": "edge.gen_50.pharaoh_permits_joseph",
+   "interaction_label": "permits",
+   "description": "Pharaoh tells Joseph to go up and bury his father as he swore."
+  },
+  {
+   "edge_id": "edge.gen_50.sons_bury_israel",
+   "interaction_label": "bury",
+   "description": "Jacob's sons carry him to Canaan and bury him at Machpelah."
+  }
+ ]
 }

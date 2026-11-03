@@ -28,9 +28,147 @@
   }
  ],
  "causal_edges": [],
- "entities": [],
- "components": [],
+ "entities": [
+  {
+   "entity_id": "person.anah",
+   "canonical_name": "Anah",
+   "phonetic_name": "Ah-nah",
+   "aliases": [],
+   "etymology_meaning": "Meaning uncertain; sometimes linked to 'answer' or 'hurried'.",
+   "summary_bio": "Father of Oholibamah, Esau's wife, and called a son of Zibeon the Hivite. Later in the chapter he is the one who found the hot springs in the wilderness while pasturing his father's donkeys."
+  },
+  {
+   "entity_id": "person.eliphaz",
+   "canonical_name": "Eliphaz",
+   "phonetic_name": "El-ee-FAHZ",
+   "aliases": [],
+   "etymology_meaning": "Probably 'God is fine gold' or 'my God is strength'.",
+   "summary_bio": "Esau's firstborn son, born in Canaan to his wife Adah. He later fathers a line of Edomite chiefs."
+  },
+  {
+   "entity_id": "person.jalam",
+   "canonical_name": "Jalam",
+   "phonetic_name": "Yah-LAHM",
+   "aliases": [
+    "Jaalam"
+   ],
+   "etymology_meaning": "Probably 'he hides' or 'mountain goat'.",
+   "summary_bio": "Son of Esau and Oholibamah, born in Canaan. He is listed among the chiefs of Edom."
+  },
+  {
+   "entity_id": "person.jeush",
+   "canonical_name": "Jeush",
+   "phonetic_name": "Yeh-OOSH",
+   "aliases": [
+    "Jeish"
+   ],
+   "etymology_meaning": "Probably 'he comes to help' or 'he has hurried'.",
+   "summary_bio": "Son of Esau and Oholibamah, born in Canaan. He is listed among the chiefs of Edom."
+  },
+  {
+   "entity_id": "person.korah.gen_36_5",
+   "canonical_name": "Korah",
+   "phonetic_name": "KOH-rakh",
+   "aliases": [],
+   "etymology_meaning": "Probably 'bald' or 'ice'.",
+   "summary_bio": "Son of Esau and Oholibamah, born in Canaan. Not to be confused with the Levite Korah of Numbers 16."
+  },
+  {
+   "entity_id": "person.oholibamah",
+   "canonical_name": "Oholibamah",
+   "phonetic_name": "Oh-hol-ee-vah-MAH",
+   "aliases": [
+    "Aholibamah"
+   ],
+   "etymology_meaning": "Probably 'tent of the high place'.",
+   "summary_bio": "A Canaanite (Hivite) woman, daughter of Anah, whom Esau took as a wife. She bore him Jeush, Jalam and Korah in Canaan."
+  },
+  {
+   "entity_id": "person.reuel",
+   "canonical_name": "Reuel",
+   "phonetic_name": "Reh-oo-ALE",
+   "aliases": [],
+   "etymology_meaning": "Probably 'friend of God'.",
+   "summary_bio": "Son of Esau and Basemath daughter of Ishmael, born in Canaan. He is the ancestor of four Edomite clans."
+  },
+  {
+   "entity_id": "person.zibeon",
+   "canonical_name": "Zibeon",
+   "phonetic_name": "Tsiv-ohn",
+   "aliases": [
+    "Zibeon the Hivite"
+   ],
+   "etymology_meaning": "Probably 'little hyena' or 'coloured one'; scholars differ.",
+   "summary_bio": "A Hivite, grandfather (through Anah) of Esau's wife Oholibamah. Later in the chapter a Zibeon is listed among the sons of Seir the Horite; the text may mean the same man."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.esau.dwelling.1",
+   "label_key": "Dwelling",
+   "label_value": "Settled in the hill country of Seir",
+   "evidence_explanation": "36:8 says Esau dwelt in the hill country of Seir; Esau is Edom."
+  },
+  {
+   "component_id": "comp.esau.wealth.1",
+   "label_key": "Wealth",
+   "label_value": "Possessions too great to share the land with Jacob",
+   "evidence_explanation": "36:7 says their possessions were too many to dwell together and the land could not support their livestock."
+  },
+  {
+   "component_id": "comp.esau.wife_oholibamah.1",
+   "label_key": "Wife",
+   "label_value": "Married to Oholibamah",
+   "evidence_explanation": "36:2 says Esau took Oholibamah, daughter of Anah, as one of his wives."
+  }
+ ],
  "systems": [],
  "system_instances": [],
- "edges": []
+ "edges": [
+  {
+   "edge_id": "edge.gen_36.adah_bears_eliphaz",
+   "interaction_label": "bears",
+   "description": "Adah bears Eliphaz to Esau."
+  },
+  {
+   "edge_id": "edge.gen_36.esau_leaves_jacob",
+   "interaction_label": "withdraws from",
+   "description": "Esau takes his household and goods and goes to another land away from his brother Jacob."
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_adah",
+   "interaction_label": "marries",
+   "description": "Esau takes Adah, daughter of Elon the Hittite, as a wife."
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_mahalath",
+   "interaction_label": "marries",
+   "description": "Esau takes Basemath (Mahalath), Ishmael's daughter and Nebaioth's sister, as a wife."
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_oholibamah",
+   "interaction_label": "marries",
+   "description": "Esau takes Oholibamah, daughter of Anah the Hivite, as a wife."
+  },
+  {
+   "edge_id": "edge.gen_36.mahalath_bears_reuel",
+   "interaction_label": "bears",
+   "description": "Basemath (Mahalath) bears Reuel to Esau."
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_jalam",
+   "interaction_label": "bears",
+   "description": "Oholibamah bears Jalam to Esau."
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_jeush",
+   "interaction_label": "bears",
+   "description": "Oholibamah bears Jeush to Esau."
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_korah",
+   "interaction_label": "bears",
+   "description": "Oholibamah bears Korah to Esau."
+  }
+ ]
 }

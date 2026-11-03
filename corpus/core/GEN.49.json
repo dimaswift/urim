@@ -7,6 +7,7 @@
    "event_id": "evt.gen_49.jacob_summons_sons",
    "verse_start": "GEN.49.1",
    "verse_end": "GEN.49.2",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_48.jacob_foretells_return",
     "anchor_point": "END",
@@ -20,12 +21,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.oracles_first_sons",
    "verse_start": "GEN.49.3",
    "verse_end": "GEN.49.12",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.jacob_summons_sons",
     "anchor_point": "END",
@@ -39,12 +50,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.oracles_other_sons",
    "verse_start": "GEN.49.13",
    "verse_end": "GEN.49.21",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.oracles_first_sons",
     "anchor_point": "END",
@@ -58,12 +95,54 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.sidon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.asher",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.dan",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.gad",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.issachar",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.naphtali",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zebulun",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.blesses_joseph",
    "verse_start": "GEN.49.22",
    "verse_end": "GEN.49.26",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.oracles_other_sons",
     "anchor_point": "END",
@@ -77,12 +156,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.benjamin_and_summary",
    "verse_start": "GEN.49.27",
    "verse_end": "GEN.49.28",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.blesses_joseph",
     "anchor_point": "END",
@@ -96,12 +193,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.burial_charge",
    "verse_start": "GEN.49.29",
    "verse_end": "GEN.49.32",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.benjamin_and_summary",
     "anchor_point": "END",
@@ -115,12 +226,66 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.machpelah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.mamre",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.ephron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.heth",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.sarah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_49.jacob_dies",
    "verse_start": "GEN.49.33",
    "verse_end": "GEN.49.33",
+   "location_entity_id": "loc.goshen",
    "time": {
     "anchor": "evt.gen_49.burial_charge",
     "anchor_point": "END",
@@ -134,12 +299,287 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.israel.burial_wish.1",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "burial_wish",
+   "target_entity_id": "loc.machpelah",
+   "acquired_at_verse": "GEN.49.29",
+   "acquired_in_event": "evt.gen_49.burial_charge"
+  },
+  {
+   "component_id": "comp.israel.life.2",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "supersedes_component_id": "comp.israel.life.1",
+   "acquired_at_verse": "GEN.49.33",
+   "acquired_in_event": "evt.gen_49.jacob_dies"
+  },
+  {
+   "component_id": "comp.joseph.blessing.1",
+   "entity_id": "person.joseph",
+   "category": "TRAIT",
+   "component_key": "blessing",
+   "value_code": "BLESSED_ABOVE_PROGENITORS",
+   "acquired_at_verse": "GEN.49.26",
+   "acquired_in_event": "evt.gen_49.blesses_joseph"
+  },
+  {
+   "component_id": "comp.judah.sovereignty.1",
+   "entity_id": "person.judah",
+   "category": "ROLE_TITLE",
+   "component_key": "sovereignty",
+   "value_code": "SCEPTER_BEARER",
+   "acquired_at_verse": "GEN.49.10",
+   "acquired_in_event": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "component_id": "comp.leah.life.1",
+   "entity_id": "person.leah",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.49.31",
+   "acquired_in_event": "evt.gen_49.burial_charge"
+  },
+  {
+   "component_id": "comp.levi.dispersal.1",
+   "entity_id": "person.levi",
+   "category": "TRAIT",
+   "component_key": "dispersal",
+   "value_code": "TO_BE_SCATTERED",
+   "acquired_at_verse": "GEN.49.7",
+   "acquired_in_event": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "component_id": "comp.reuben.preeminence.1",
+   "entity_id": "person.reuben",
+   "category": "ROLE_TITLE",
+   "component_key": "preeminence",
+   "value_code": "FORFEITED",
+   "acquired_at_verse": "GEN.49.4",
+   "acquired_in_event": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "component_id": "comp.simeon.dispersal.1",
+   "entity_id": "person.simeon",
+   "category": "TRAIT",
+   "component_key": "dispersal",
+   "value_code": "TO_BE_SCATTERED",
+   "acquired_at_verse": "GEN.49.7",
+   "acquired_in_event": "evt.gen_49.oracles_first_sons"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.health.1",
+   "expired_at_verse": "GEN.49.33",
+   "expired_in_event": "evt.gen_49.jacob_dies"
+  },
+  {
+   "component_id": "comp.israel.life.1",
+   "expired_at_verse": "GEN.49.33",
+   "expired_in_event": "evt.gen_49.jacob_dies"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_49.benjamin_oracle",
+   "system_id": "sys.patriarchal_pronouncement",
+   "event_id": "evt.gen_49.benjamin_and_summary",
+   "verse_start": "GEN.49.27",
+   "verse_end": "GEN.49.28",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.benjamin",
+    "group.sons_of_jacob"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "deathbed",
+    "tribal_forecast",
+    "twelve_tribes"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_49.blessing_of_joseph",
+   "system_id": "sys.patriarchal_blessing",
+   "event_id": "evt.gen_49.blesses_joseph",
+   "verse_start": "GEN.49.22",
+   "verse_end": "GEN.49.26",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.joseph"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "deathbed",
+    "fruitfulness",
+    "divine_help"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_49.burial_charge",
+   "system_id": "sys.burial_in_family_tomb",
+   "event_id": "evt.gen_49.burial_charge",
+   "verse_start": "GEN.49.29",
+   "verse_end": "GEN.49.32",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "group.sons_of_jacob"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "deathbed",
+    "burial_charge",
+    "ancestral_tomb"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_49.oracles_first_sons",
+   "system_id": "sys.patriarchal_pronouncement",
+   "event_id": "evt.gen_49.oracles_first_sons",
+   "verse_start": "GEN.49.3",
+   "verse_end": "GEN.49.12",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.reuben",
+    "person.simeon",
+    "person.levi",
+    "person.judah"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "deathbed",
+    "rebuke",
+    "curse",
+    "royal_promise"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_49.oracles_other_sons",
+   "system_id": "sys.patriarchal_pronouncement",
+   "event_id": "evt.gen_49.oracles_other_sons",
+   "verse_start": "GEN.49.13",
+   "verse_end": "GEN.49.21",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.zebulun",
+    "person.issachar",
+    "person.dan",
+    "person.gad",
+    "person.asher",
+    "person.naphtali"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.goshen",
+   "tags": [
+    "deathbed",
+    "tribal_forecast"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_49.israel_blesses_joseph",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.49.25",
+   "event_id": "evt.gen_49.blesses_joseph"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_blesses_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.sons_of_jacob",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.49.28",
+   "event_id": "evt.gen_49.benjamin_and_summary"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_buried_leah",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.leah",
+   "interaction_type": "BURIES",
+   "verse_id": "GEN.49.31",
+   "event_id": "evt.gen_49.burial_charge"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_charges_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.sons_of_jacob",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.49.29",
+   "event_id": "evt.gen_49.burial_charge"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_curses_levi",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.levi",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.49.7",
+   "event_id": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_curses_simeon",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.simeon",
+   "interaction_type": "CURSES",
+   "verse_id": "GEN.49.7",
+   "event_id": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_exalts_judah",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.judah",
+   "interaction_type": "EXALTS",
+   "verse_id": "GEN.49.8",
+   "event_id": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_rebukes_reuben",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.reuben",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.49.4",
+   "event_id": "evt.gen_49.oracles_first_sons"
+  },
+  {
+   "edge_id": "edge.gen_49.israel_summons_sons",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.sons_of_jacob",
+   "interaction_type": "SUMMONS",
+   "verse_id": "GEN.49.1",
+   "event_id": "evt.gen_49.jacob_summons_sons"
+  },
+  {
+   "edge_id": "edge.gen_49.yhwh_helps_joseph",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.joseph",
+   "interaction_type": "HELPS",
+   "verse_id": "GEN.49.24",
+   "event_id": "evt.gen_49.blesses_joseph"
+  }
+ ]
 }

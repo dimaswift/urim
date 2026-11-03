@@ -47,8 +47,134 @@
  ],
  "causal_edges": [],
  "entities": [],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.israel.burial_wish.1",
+   "label_key": "Burial wish",
+   "label_value": "To be buried in the cave of Machpelah",
+   "evidence_explanation": "49:29–30: 'bury me with my fathers in the cave in the field of Machpelah.'"
+  },
+  {
+   "component_id": "comp.israel.life.2",
+   "label_key": "Life",
+   "label_value": "Dead, gathered to his people",
+   "evidence_explanation": "49:33: he 'expired and was gathered to his people.'"
+  },
+  {
+   "component_id": "comp.joseph.blessing.1",
+   "label_key": "Blessing",
+   "label_value": "Blessed above his fathers' blessings",
+   "evidence_explanation": "49:26: the father's blessings 'shall be on the head of Joseph', the one set apart from his brothers."
+  },
+  {
+   "component_id": "comp.judah.sovereignty.1",
+   "label_key": "Sovereignty",
+   "label_value": "Holder of the sceptre",
+   "evidence_explanation": "49:8–10: brothers bow to him; 'the sceptre shall not depart from Judah.'"
+  },
+  {
+   "component_id": "comp.leah.life.1",
+   "label_key": "Life",
+   "label_value": "Dead and buried at Machpelah",
+   "evidence_explanation": "49:31: 'there I buried Leah.'"
+  },
+  {
+   "component_id": "comp.levi.dispersal.1",
+   "label_key": "Destiny",
+   "label_value": "To be divided and scattered in Israel",
+   "evidence_explanation": "49:7: 'I will divide them in Jacob and scatter them in Israel.'"
+  },
+  {
+   "component_id": "comp.reuben.preeminence.1",
+   "label_key": "Preeminence",
+   "label_value": "Forfeited as firstborn",
+   "evidence_explanation": "49:3–4: though firstborn and 'excellency of dignity', he is 'unstable as water' and 'shall not excel' for defiling his father's couch."
+  },
+  {
+   "component_id": "comp.simeon.dispersal.1",
+   "label_key": "Destiny",
+   "label_value": "To be divided and scattered in Israel",
+   "evidence_explanation": "49:7: 'I will divide them in Jacob and scatter them in Israel.'"
+  }
+ ],
  "systems": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_49.benjamin_oracle",
+   "outcome_summary": "Jacob calls Benjamin a ravening wolf, and the narrator sums up the twelve tribes, each blessed according to his blessing.",
+   "significance_note": "It completes the twelve sayings and names the sons collectively as the tribes of Israel."
+  },
+  {
+   "instance_id": "inst.gen_49.blessing_of_joseph",
+   "outcome_summary": "Jacob calls Joseph a fruitful bough, recalls the archers who attacked him, and invokes God's help and a blessing above his ancestors' on his head.",
+   "significance_note": "It confirms Joseph's pre-eminence among the brothers, the one set apart, and echoes his earlier suffering."
+  },
+  {
+   "instance_id": "inst.gen_49.burial_charge",
+   "outcome_summary": "Jacob charges his sons to bury him with his fathers in the cave of Machpelah bought from Ephron the Hittite, where Abraham, Sarah, Isaac, Rebekah and Leah lie.",
+   "significance_note": "It ties the family's future to the promised land and sets up the burial journey from Egypt."
+  },
+  {
+   "instance_id": "inst.gen_49.oracles_first_sons",
+   "outcome_summary": "Jacob rebukes Reuben for defiling his bed, curses the anger of Simeon and Levi and foretells their dispersal, and exalts Judah as a lion with the sceptre.",
+   "significance_note": "The pronouncements turn the sons' past deeds into tribal destinies and give Judah the leading place."
+  },
+  {
+   "instance_id": "inst.gen_49.oracles_other_sons",
+   "outcome_summary": "Jacob gives short sayings for Zebulun, Issachar, Dan, Gad, Asher and Naphtali, each with an image of the tribe's future.",
+   "significance_note": "They map the later tribal settlement and character in animal and landscape imagery."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_49.israel_blesses_joseph",
+   "interaction_label": "blesses",
+   "description": "Jacob pronounces blessings of heaven, deep, breast and womb on Joseph's head."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_blesses_sons",
+   "interaction_label": "blesses",
+   "description": "The narrator sums up that Jacob blessed each of the twelve tribes according to his own blessing."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_buried_leah",
+   "interaction_label": "buried",
+   "description": "Jacob says that he himself buried Leah in the cave of Machpelah."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_charges_sons",
+   "interaction_label": "commands",
+   "description": "Jacob commands his sons to bury him with his fathers at Machpelah."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_curses_levi",
+   "interaction_label": "curses the anger of",
+   "description": "Jacob curses Levi's fierce anger and says he will be divided and scattered in Israel."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_curses_simeon",
+   "interaction_label": "curses the anger of",
+   "description": "Jacob curses Simeon's fierce anger and says he will be divided and scattered in Israel."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_exalts_judah",
+   "interaction_label": "exalts",
+   "description": "Jacob declares that Judah's brothers will praise him and bow to him."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_rebukes_reuben",
+   "interaction_label": "rebukes",
+   "description": "Jacob reproaches Reuben for going up to his father's bed and takes away his excellence."
+  },
+  {
+   "edge_id": "edge.gen_49.israel_summons_sons",
+   "interaction_label": "summons",
+   "description": "Jacob calls his sons together to hear what will befall them in the days to come."
+  },
+  {
+   "edge_id": "edge.gen_49.yhwh_helps_joseph",
+   "interaction_label": "strengthens",
+   "description": "Joseph's bow stays firm and his arms agile through the hands of the Mighty One of Jacob."
+  }
+ ]
 }

@@ -112,9 +112,378 @@
    "causal_explanation": "Rachel's hard labour ends in her death as she bears Benjamin (35:16-18)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.altar_el_bethel",
+   "canonical_name": "Altar of El-Bethel",
+   "phonetic_name": "mizbeach el beyt el",
+   "aliases": [
+    "altar at Bethel"
+   ],
+   "etymology_meaning": "Mizbeach means 'place of slaughter or offering'; the place is named El-Bethel, 'the God of Bethel'.",
+   "summary_bio": "The altar Jacob builds at Bethel in obedience to God's command (35:1). He names the place El-Bethel because God revealed himself there when he fled from Esau."
+  },
+  {
+   "entity_id": "artifact.earrings_of_household",
+   "canonical_name": "Earrings of the household",
+   "phonetic_name": "hanezamim",
+   "aliases": [
+    "rings in their ears"
+   ],
+   "etymology_meaning": "Hebrew nezamim, rings worn in the ear or nose; in the ancient Near East such rings often carried amuletic or cultic meaning.",
+   "summary_bio": "The rings the household wore in their ears, handed to Jacob together with the foreign gods. He buries them under the oak by Shechem, which suggests they were connected with the idolatry being given up."
+  },
+  {
+   "entity_id": "artifact.foreign_gods_of_household",
+   "canonical_name": "Foreign gods of the household",
+   "phonetic_name": "elohey hanekhar",
+   "aliases": [
+    "gods of the foreigner",
+    "strange gods"
+   ],
+   "etymology_meaning": "Hebrew 'the gods of the foreign (land)'; nekhar means what is alien or foreign.",
+   "summary_bio": "The idols that Jacob's household and the people with him carried out of Paddan-aram and picked up at Shechem. At Jacob's command they hand them over and he buries them under the oak by Shechem before the journey to Bethel."
+  },
+  {
+   "entity_id": "artifact.pillar_of_bethel_35",
+   "canonical_name": "Jacob's pillar at Bethel",
+   "phonetic_name": "matsevet even",
+   "aliases": [
+    "pillar of stone"
+   ],
+   "etymology_meaning": "Hebrew matsevah, a standing stone set up as a memorial or cultic marker.",
+   "summary_bio": "The stone pillar Jacob sets up at Bethel where God spoke with him, pouring a drink offering and oil on it. It echoes the pillar he anointed on his flight (28:18), though the text does not say it is the same stone."
+  },
+  {
+   "entity_id": "artifact.pillar_of_rachels_grave",
+   "canonical_name": "Pillar of Rachel's grave",
+   "phonetic_name": "matsevet kevurat rachel",
+   "aliases": [
+    "Rachel's tomb pillar"
+   ],
+   "etymology_meaning": "Hebrew 'pillar of the grave of Rachel'.",
+   "summary_bio": "The memorial stone Jacob sets up over Rachel's grave on the road to Ephrath. The narrator says it stood 'to this day', so the monument was known to the later audience."
+  },
+  {
+   "entity_id": "group.cities_round_about",
+   "canonical_name": "The cities round about",
+   "phonetic_name": "ha-arim asher sevivoteyhem",
+   "aliases": [
+    "the surrounding cities"
+   ],
+   "etymology_meaning": "Hebrew 'the cities which are around them'; a collective for the Canaanite towns near Shechem.",
+   "summary_bio": "The Canaanite towns around Shechem who might have avenged the massacre of Shechem. Terror from God falls on them as Jacob's company leaves, and they do not pursue."
+  },
+  {
+   "entity_id": "loc.allon_bacuth",
+   "canonical_name": "Allon-bacuth",
+   "phonetic_name": "alon bakhut",
+   "aliases": [
+    "Oak of Weeping"
+   ],
+   "etymology_meaning": "Hebrew 'oak of weeping'.",
+   "summary_bio": "The oak below Bethel where Deborah, Rebekah's nurse, was buried. It took its name from the mourning for her."
+  },
+  {
+   "entity_id": "loc.bethlehem",
+   "canonical_name": "Bethlehem (Ephrath)",
+   "phonetic_name": "beyt lachem",
+   "aliases": [
+    "Ephrath",
+    "Ephrathah"
+   ],
+   "etymology_meaning": "Hebrew 'house of bread'; Ephrath probably means 'fruitful'.",
+   "summary_bio": "The town on whose approach Rachel gave birth and died; the text glosses the way to Ephrath as Bethlehem. Rachel was buried by the road and Jacob set a pillar over her grave."
+  },
+  {
+   "entity_id": "loc.oak_by_shechem",
+   "canonical_name": "The oak by Shechem",
+   "phonetic_name": "ha-ela",
+   "aliases": [
+    "the terebinth near Shechem"
+   ],
+   "etymology_meaning": "Hebrew elah, a large tree, traditionally rendered oak or terebinth; the definite article marks a well-known tree.",
+   "summary_bio": "A tree near Shechem where Jacob hides the household's foreign gods and earrings. It is probably the same landmark as the oak of Moreh, where Abraham first built an altar in Canaan."
+  },
+  {
+   "entity_id": "loc.tower_of_eder",
+   "canonical_name": "Tower of Eder",
+   "phonetic_name": "migdal eder",
+   "aliases": [
+    "Migdal-eder",
+    "Tower of the Flock"
+   ],
+   "etymology_meaning": "Hebrew 'tower of the flock', probably a shepherds' watchtower.",
+   "summary_bio": "A watchtower south of Bethlehem near which Israel pitches his tent after burying Rachel. Micah 4:8 later uses the name of a place for Jerusalem's future."
+  },
+  {
+   "entity_id": "person.midwife_of_rachel",
+   "canonical_name": "Rachel's midwife",
+   "phonetic_name": "ha-meyaledet",
+   "aliases": [
+    "the midwife"
+   ],
+   "etymology_meaning": "Hebrew meyaledet, 'one who helps in birth'; no personal name is given.",
+   "summary_bio": "The unnamed midwife who attends Rachel in her hard labour near Ephrath. She tells Rachel not to fear because she is bearing another son."
+  },
+  {
+   "entity_id": "substance.drink_offering",
+   "canonical_name": "Drink offering",
+   "phonetic_name": "nesekh",
+   "aliases": [
+    "libation"
+   ],
+   "etymology_meaning": "Hebrew nesekh, from the root 'to pour out'.",
+   "summary_bio": "A liquid poured out in worship. Jacob pours it on the pillar at Bethel together with oil; this is the first libation recorded in the Bible."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.altar_el_bethel.dedicated_to.1",
+   "label_key": "Dedicated to",
+   "label_value": "The God who appeared at Bethel",
+   "evidence_explanation": "GEN.35.1,7: the altar is built for the God who appeared to Jacob there when he fled from Esau."
+  },
+  {
+   "component_id": "comp.benjamin.name.1",
+   "label_key": "Name",
+   "label_value": "Benjamin (Ben-oni to his mother)",
+   "evidence_explanation": "GEN.35.18: Rachel called him Ben-oni, but his father called him Benjamin."
+  },
+  {
+   "component_id": "comp.earrings_of_household.hidden_at.1",
+   "label_key": "Hidden at",
+   "label_value": "Buried under the oak by Shechem",
+   "evidence_explanation": "GEN.35.4: Jacob hides the earrings together with the gods under the oak by Shechem."
+  },
+  {
+   "component_id": "comp.foreign_gods_of_household.hidden_at.1",
+   "label_key": "Hidden at",
+   "label_value": "Buried under the oak by Shechem",
+   "evidence_explanation": "GEN.35.4: Jacob hides them under the oak which was by Shechem."
+  },
+  {
+   "component_id": "comp.isaac.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "GEN.35.29: Isaac breathes his last, dies and is gathered to his people."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.10",
+   "label_key": "Whereabouts",
+   "label_value": "With Isaac at Mamre",
+   "evidence_explanation": "GEN.35.27: Jacob comes to his father Isaac at Mamre, that is Hebron."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.8",
+   "label_key": "Whereabouts",
+   "label_value": "At Luz, that is Bethel",
+   "evidence_explanation": "GEN.35.6: Jacob comes to Luz, which is Bethel, with all the people with him."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.9",
+   "label_key": "Whereabouts",
+   "label_value": "Tent beyond the tower of Eder",
+   "evidence_explanation": "GEN.35.21: Israel journeys on and pitches his tent beyond Migdal-eder."
+  },
+  {
+   "component_id": "comp.jacobs_family.purity.1",
+   "label_key": "Purity",
+   "label_value": "Cleansed of foreign gods",
+   "evidence_explanation": "GEN.35.2-4: the household hands over the foreign gods and earrings after Jacob's command to purify themselves."
+  },
+  {
+   "component_id": "comp.pillar_of_bethel_35.status.1",
+   "label_key": "Status",
+   "label_value": "Anointed pillar",
+   "evidence_explanation": "GEN.35.14: Jacob pours a drink offering and oil on the stone pillar."
+  },
+  {
+   "component_id": "comp.pillar_of_rachels_grave.status.1",
+   "label_key": "Status",
+   "label_value": "Grave marker",
+   "evidence_explanation": "GEN.35.20: the pillar is set over Rachel's grave and stands to this day."
+  },
+  {
+   "component_id": "comp.rachel.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "GEN.35.18-19: Rachel dies in childbirth and is buried on the way to Ephrath."
+  },
+  {
+   "component_id": "comp.rebekahs_nurse.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "GEN.35.8: Deborah, Rebekah's nurse, dies and is buried under the oak."
+  },
+  {
+   "component_id": "comp.reuben.transgression.1",
+   "label_key": "Transgression",
+   "label_value": "Lay with his father's concubine",
+   "evidence_explanation": "GEN.35.22: Reuben goes and lies with Bilhah, his father's concubine, and Israel hears of it."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_terror",
+   "name": "Terror from God",
+   "ancient_near_east_context": "Texts of the region often describe a god casting terror or panic on enemies, so that an army or a population flees or fails to fight. In Israel's tradition this is a way that God fights or protects without an army (Exod 15:16; 23:27; 2 Chr 14:14).",
+   "rules_and_mechanics": [
+    "God causes fear to fall on a people.",
+    "The terror acts in place of a military defence.",
+    "The people afraid refrain from attack or pursuit.",
+    "It protects God's people while they carry out his command."
+   ]
+  },
+  {
+   "system_id": "sys.ritual_purification",
+   "name": "Ritual purification",
+   "ancient_near_east_context": "Throughout the ancient Near East, approaching a deity or a holy place required washing and clean clothing. The practice marks the transition from ordinary life to sacred space, and in Israel it is later regulated in the Priestly law.",
+   "rules_and_mechanics": [
+    "Items or practices tied to other gods are removed first.",
+    "The participants wash or cleanse themselves.",
+    "They change their garments before approaching the sacred place.",
+    "The head of the household gives the command and the whole household obeys."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_35.altar_built",
+   "outcome_summary": "Jacob builds an altar at Bethel.",
+   "significance_note": "It carries out God's command (35:1) and Jacob's own promise at 35:3."
+  },
+  {
+   "instance_id": "inst.gen_35.ben_oni_named",
+   "outcome_summary": "As she dies, Rachel names her newborn Ben-oni, 'son of my sorrow'.",
+   "significance_note": "It records the cost of the birth and the last act of Rachel's life."
+  },
+  {
+   "instance_id": "inst.gen_35.benjamin_named",
+   "outcome_summary": "Jacob changes the child's name to Benjamin.",
+   "significance_note": "It turns a name of grief into one of strength or favour, 'son of the right hand'."
+  },
+  {
+   "instance_id": "inst.gen_35.command_to_go_up",
+   "outcome_summary": "God tells Jacob to arise, go up to Bethel, live there and build an altar.",
+   "significance_note": "It ends the unsettled years after Shechem and recalls the vow Jacob made at Bethel."
+  },
+  {
+   "instance_id": "inst.gen_35.el_bethel_named",
+   "outcome_summary": "Jacob names the place El-Bethel, 'the God of Bethel'.",
+   "significance_note": "The name honours the God who revealed himself there when Jacob fled from Esau."
+  },
+  {
+   "instance_id": "inst.gen_35.god_appears_again",
+   "outcome_summary": "God appears to Jacob once more, on his return from Paddan-aram, and blesses him.",
+   "significance_note": "It confirms the vision of 28:12-15 now that Jacob has returned to the land."
+  },
+  {
+   "instance_id": "inst.gen_35.household_purification",
+   "outcome_summary": "The household gives up its foreign gods and earrings and Jacob buries them under the oak by Shechem.",
+   "significance_note": "It shows Jacob's family putting away idolatry before meeting the God of Bethel."
+  },
+  {
+   "instance_id": "inst.gen_35.isaac_buried",
+   "outcome_summary": "Esau and Jacob together bury Isaac after his death at 180.",
+   "significance_note": "The brothers, who went separate ways after their meeting in ch. 33 (33:16-17), bury their father together."
+  },
+  {
+   "instance_id": "inst.gen_35.jacob_renamed_israel",
+   "outcome_summary": "God tells Jacob that he will no longer be called Jacob but Israel.",
+   "significance_note": "It reaffirms the name given at Peniel (32:28) and makes it official before the covenant promise."
+  },
+  {
+   "instance_id": "inst.gen_35.pillar_anointed",
+   "outcome_summary": "Jacob sets up a stone pillar, pours a drink offering and oil on it, and names the place Bethel.",
+   "significance_note": "It marks the place of God's speaking and echoes the pillar of 28:18."
+  },
+  {
+   "instance_id": "inst.gen_35.promise_of_nations_and_land",
+   "outcome_summary": "As God Almighty, God promises Israel a nation, a company of nations, kings, and the land given to Abraham and Isaac.",
+   "significance_note": "It passes the Abrahamic promises of offspring and land on to Jacob."
+  },
+  {
+   "instance_id": "inst.gen_35.terror_on_cities",
+   "outcome_summary": "A terror from God falls on the surrounding cities and no one pursues Jacob's sons.",
+   "significance_note": "It shows God protecting Jacob after the Shechem massacre, in the way he said he would."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_35.esau_buries_isaac",
+   "interaction_label": "buries",
+   "description": "Esau buries his father Isaac."
+  },
+  {
+   "edge_id": "edge.gen_35.god_blesses_jacob",
+   "interaction_label": "blesses",
+   "description": "God blesses Jacob when he appears to him again on his return from Paddan-aram."
+  },
+  {
+   "edge_id": "edge.gen_35.god_commands_jacob",
+   "interaction_label": "commands",
+   "description": "God commands Jacob to go up to Bethel, settle there and make an altar."
+  },
+  {
+   "edge_id": "edge.gen_35.god_promises_land",
+   "interaction_label": "promises the land to",
+   "description": "God promises Israel and his offspring the land he gave to Abraham and Isaac."
+  },
+  {
+   "edge_id": "edge.gen_35.god_renames_jacob",
+   "interaction_label": "renames",
+   "description": "God says Jacob's name will be Israel and no longer Jacob."
+  },
+  {
+   "edge_id": "edge.gen_35.god_terrifies_cities",
+   "interaction_label": "terrifies",
+   "description": "A terror from God falls on the cities round about so they do not pursue Jacob's sons."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_anoints_pillar",
+   "interaction_label": "consecrates",
+   "description": "Jacob pours a drink offering and oil on the stone pillar at Bethel."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_buries_isaac",
+   "interaction_label": "buries",
+   "description": "Jacob buries his father Isaac beside Esau."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_commands_household",
+   "interaction_label": "commands",
+   "description": "Jacob orders his household to put away foreign gods, purify themselves and change clothes."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_hides_idols",
+   "interaction_label": "buries",
+   "description": "Jacob buries the household's foreign gods under the oak by Shechem."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_marks_rachels_grave",
+   "interaction_label": "honours",
+   "description": "Jacob sets up a pillar over Rachel's grave."
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_names_benjamin",
+   "interaction_label": "names",
+   "description": "Jacob calls the baby Benjamin instead."
+  },
+  {
+   "edge_id": "edge.gen_35.midwife_comforts_rachel",
+   "interaction_label": "comforts",
+   "description": "The midwife tells Rachel not to fear, for she has another son."
+  },
+  {
+   "edge_id": "edge.gen_35.rachel_names_ben_oni",
+   "interaction_label": "names",
+   "description": "Dying, Rachel calls the baby Ben-oni."
+  },
+  {
+   "edge_id": "edge.gen_35.reuben_lies_with_bilhah",
+   "interaction_label": "lies with",
+   "description": "Reuben lies with Bilhah, his father's concubine, an affront to his father."
+  }
+ ]
 }

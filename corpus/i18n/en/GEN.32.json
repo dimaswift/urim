@@ -124,9 +124,284 @@
    "causal_explanation": "The dislocated thigh socket makes Jacob limp as the sun rises (32:26, 32:32)."
   }
  ],
- "entities": [],
- "components": [],
- "systems": [],
- "system_instances": [],
- "edges": []
+ "entities": [
+  {
+   "entity_id": "artifact.gift_for_esau",
+   "canonical_name": "Gift for Esau",
+   "phonetic_name": "Minkha",
+   "aliases": [
+    "present"
+   ],
+   "etymology_meaning": "Hebrew 'minkha', a gift or tribute offered to a superior.",
+   "summary_bio": "Jacob selects 550 animals from his herds as a gift to appease Esau: goats, sheep, camels, cattle and donkeys, in separate droves with a space between them."
+  },
+  {
+   "entity_id": "group.men_of_esau",
+   "canonical_name": "Esau's four hundred men",
+   "phonetic_name": "Arba me'ot ish",
+   "aliases": [
+    "four hundred men"
+   ],
+   "etymology_meaning": "Hebrew 'four hundred men'.",
+   "summary_bio": "The company of 400 men that, according to Jacob's messengers, accompanies Esau as he comes to meet Jacob. Their purpose is not stated, and Jacob fears the worst."
+  },
+  {
+   "entity_id": "group.messengers_of_jacob",
+   "canonical_name": "Jacob's messengers",
+   "phonetic_name": "Mal'akhim",
+   "aliases": [
+    "messengers"
+   ],
+   "etymology_meaning": "Hebrew 'mal'akhim' means 'messengers'; the same word is used for the angels of God in 32:2.",
+   "summary_bio": "Messengers Jacob sends to Esau in Seir with a placating message. They return with the news that Esau is coming with 400 men."
+  },
+  {
+   "entity_id": "group.servants_of_jacob",
+   "canonical_name": "Jacob's servants",
+   "phonetic_name": "Avadim",
+   "aliases": [
+    "servants"
+   ],
+   "etymology_meaning": "Hebrew 'avadim', 'servants'.",
+   "summary_bio": "The male and female servants of Jacob's household. Some are given the droves of the gift for Esau and told what to say to him."
+  },
+  {
+   "entity_id": "loc.edom",
+   "canonical_name": "Edom",
+   "phonetic_name": "Edom",
+   "aliases": [
+    "field of Edom"
+   ],
+   "etymology_meaning": "'Red', from the red stew Esau ate and his ruddy appearance (Gen 25:30).",
+   "summary_bio": "The region southeast of Canaan associated with Esau, called 'the field of Edom' in the land of Seir. Jacob sends his messengers there to Esau."
+  },
+  {
+   "entity_id": "loc.jabbok",
+   "canonical_name": "Jabbok",
+   "phonetic_name": "Yabbok",
+   "aliases": [
+    "Wadi Jabbok"
+   ],
+   "etymology_meaning": "Probably related to a root meaning 'to empty out' or 'to wrestle', a likely wordplay with 'he wrestled' (vayye'avek).",
+   "summary_bio": "A river east of the Jordan flowing into it from the east. Jacob sends his family and possessions across its ford by night before his wrestling at the crossing."
+  },
+  {
+   "entity_id": "loc.mahanaim",
+   "canonical_name": "Mahanaim",
+   "phonetic_name": "Makhanayim",
+   "aliases": [
+    "Two Camps"
+   ],
+   "etymology_meaning": "Dual form of 'camp': 'two camps', probably after the camp of God's angels and Jacob's own camp.",
+   "summary_bio": "A place east of the Jordan, in Gilead, where angels of God meet Jacob as he returns from Haran. Jacob names it Mahanaim, and he sends messengers to Esau from here."
+  },
+  {
+   "entity_id": "loc.peniel",
+   "canonical_name": "Peniel",
+   "phonetic_name": "Peni-el",
+   "aliases": [
+    "Penuel"
+   ],
+   "etymology_meaning": "'Face of God', from Jacob's words 'I have seen God face to face'.",
+   "summary_bio": "A place by the Jabbok where Jacob wrestles with a man until dawn and is renamed Israel. Jacob names it Peniel and passes on from it limping at sunrise."
+  },
+  {
+   "entity_id": "spirit.man_of_peniel",
+   "canonical_name": "The man who wrestled with Jacob",
+   "phonetic_name": "Ish",
+   "aliases": [
+    "the man",
+    "God",
+    "angel"
+   ],
+   "etymology_meaning": "Hebrew 'ish', simply 'a man'; he refuses to give his name.",
+   "summary_bio": "An unnamed 'man' who wrestles with Jacob at night by the Jabbok. He wrenches Jacob's hip, renames him Israel and blesses him; Jacob concludes he has seen God face to face. The text does not name him, and later tradition (Hosea 12) speaks of an angel."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.gift_for_esau.holder.1",
+   "label_key": "Held by",
+   "label_value": "Jacob",
+   "evidence_explanation": "GEN.32.14: Jacob takes the gift for Esau from what he has with him."
+  },
+  {
+   "component_id": "comp.israel.fear.1",
+   "label_key": "Fear",
+   "label_value": "Terrified of Esau",
+   "evidence_explanation": "GEN.32.8: 'Jacob was greatly afraid and distressed' when he hears that Esau is coming with 400 men."
+  },
+  {
+   "component_id": "comp.israel.hip.1",
+   "label_key": "Hip",
+   "label_value": "Dislocated",
+   "evidence_explanation": "GEN.32.26: the man touches the socket of Jacob's thigh and it is dislocated; 32.32 shows him limping."
+  },
+  {
+   "component_id": "comp.israel.name.1",
+   "label_key": "Name",
+   "label_value": "Israel",
+   "evidence_explanation": "GEN.32.29: 'Your name shall no longer be called Jacob, but Israel.'"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.4",
+   "label_key": "Whereabouts",
+   "label_value": "At Mahanaim",
+   "evidence_explanation": "GEN.32.3: Jacob names the place Mahanaim after the angels meet him, and sends messengers from there."
+  },
+  {
+   "component_id": "comp.israel.whereabouts.5",
+   "label_key": "Whereabouts",
+   "label_value": "At Peniel",
+   "evidence_explanation": "GEN.32.25–32.31: Jacob remains alone at the Jabbok, wrestles, and names the place Peniel."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.appeasement_gift",
+   "name": "Gift to appease an offended party",
+   "ancient_near_east_context": "Gifts (minkha) were offered to superiors or offended parties to secure favour, as with tribute and diplomatic gifts. Hebrew uses the verb 'to cover the face' (kipper) for placating anger by gift.",
+   "rules_and_mechanics": [
+    "The gift is sent ahead of the giver so that it reaches the recipient first.",
+    "It is presented as belonging to the giver ('your servant Jacob's').",
+    "The giver hopes the recipient will 'lift up his face', that is, receive him favourably."
+   ]
+  },
+  {
+   "system_id": "sys.divine_wrestling",
+   "name": "Wrestling with a divine being",
+   "ancient_near_east_context": "Physical contests between a mortal and a god or divine messenger are told in other traditions as well, and the Hebrew Bible looks back on this one in Hosea 12:3–5. Here the text itself ties the contest to a night at the Jabbok crossing, a blessing and a change of name; whether that pattern recurs is not attested in the text.",
+   "rules_and_mechanics": [
+    "The contest runs from night until the dawn rises (32:25).",
+    "The being cannot prevail over the mortal, and strikes his thigh socket so that it is dislocated (32:26).",
+    "The being declares that the mortal has struggled with God and with men and has prevailed (32:29).",
+    "The mortal refuses to release the being until he is blessed (32:27), and receives a new name and a blessing (32:28–30).",
+    "The mortal is left limping at sunrise (32:32)."
+   ]
+  },
+  {
+   "system_id": "sys.messenger_embassy",
+   "name": "Sending an embassy of messengers",
+   "ancient_near_east_context": "In the ancient Near East parties in conflict or distance exchanged messengers who recited a message in the sender's voice, as seen in the Mari and Amarna letters. The messenger formula 'thus says your servant' also appears in diplomatic letters.",
+   "rules_and_mechanics": [
+    "The sender instructs the messengers on the exact words to say.",
+    "The message uses deferential titles ('my lord', 'your servant').",
+    "Messengers return with a report of the recipient's response or movements."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_32.angels_encounter",
+   "outcome_summary": "Angels of God meet Jacob on his way, and he recognises them as God's camp.",
+   "significance_note": "Marks God's protection at the threshold of the land and prepares for the fear of meeting Esau."
+  },
+  {
+   "instance_id": "inst.gen_32.embassy_to_esau",
+   "outcome_summary": "Messengers go to Esau in Seir with Jacob's deferential greeting, calling Esau 'my lord' and Jacob 'your servant'.",
+   "significance_note": "The first approach to Esau after twenty years; the messengers return with the news that Esau comes with 400 men."
+  },
+  {
+   "instance_id": "inst.gen_32.gift_to_appease_esau",
+   "outcome_summary": "Jacob sends droves of animals in succession, each led by a servant who says the animals are Jacob's gift to 'my lord Esau'.",
+   "significance_note": "Jacob aims to 'cover Esau's face' with the gift before meeting him and hopes Esau will receive him."
+  },
+  {
+   "instance_id": "inst.gen_32.israel_named",
+   "outcome_summary": "The man asks Jacob's name and renames him Israel, because he has struggled with God and men and prevailed.",
+   "significance_note": "Gives Jacob the name of the nation and marks the end of 'the supplanter'."
+  },
+  {
+   "instance_id": "inst.gen_32.mahanaim_named",
+   "outcome_summary": "Jacob names the place Mahanaim, 'two camps'.",
+   "significance_note": "The name recalls God's camp, and echoes Jacob's own two camps in 32:8, 32:11."
+  },
+  {
+   "instance_id": "inst.gen_32.peniel_named",
+   "outcome_summary": "Jacob names the place Peniel, 'face of God', because he has seen God face to face and lived.",
+   "significance_note": "Interprets the night as an encounter with God and sets up the face-to-face meeting with Esau in GEN.33."
+  },
+  {
+   "instance_id": "inst.gen_32.prayer_for_deliverance",
+   "outcome_summary": "Jacob asks God to deliver him and his family from Esau, recalling God's promises of return and of descendants.",
+   "significance_note": "Jacob's first recorded prayer; he confesses his unworthiness and claims the promise."
+  },
+  {
+   "instance_id": "inst.gen_32.wrestling_match",
+   "outcome_summary": "A man wrestles with Jacob until dawn and, unable to prevail, wrenches Jacob's hip.",
+   "significance_note": "The turning point of Jacob's life: he is left alone, wounded and blessed before meeting Esau."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_32.angels_meet_jacob",
+   "interaction_label": "meet",
+   "description": "Angels of God meet Jacob on his way."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_appeases_esau",
+   "interaction_label": "appeases",
+   "description": "Jacob plans to cover Esau's face with the gift sent before him."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_commands_messengers",
+   "interaction_label": "commands",
+   "description": "Jacob tells his messengers exactly what to say to Esau."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_commands_servants",
+   "interaction_label": "commands",
+   "description": "Jacob gives his servants the droves and tells them what to say to Esau."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_demands_blessing",
+   "interaction_label": "demands a blessing from",
+   "description": "Jacob refuses to let the man go unless he blesses him."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_fears_esau",
+   "interaction_label": "fears",
+   "description": "Jacob is terrified when he hears that Esau is coming with 400 men."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_prays_to_god",
+   "interaction_label": "prays to",
+   "description": "Jacob prays to the God of Abraham and Isaac to deliver him from Esau."
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_sends_messengers",
+   "interaction_label": "sends messengers to",
+   "description": "Jacob sends messengers ahead to his brother Esau in Seir."
+  },
+  {
+   "edge_id": "edge.gen_32.laban_blesses_leah",
+   "interaction_label": "blesses",
+   "description": "Laban kisses and blesses his daughter Leah before returning home."
+  },
+  {
+   "edge_id": "edge.gen_32.laban_blesses_rachel",
+   "interaction_label": "blesses",
+   "description": "Laban kisses and blesses his daughter Rachel before returning home."
+  },
+  {
+   "edge_id": "edge.gen_32.man_blesses_jacob",
+   "interaction_label": "blesses",
+   "description": "The man declines to give his name and blesses Jacob there."
+  },
+  {
+   "edge_id": "edge.gen_32.man_renames_jacob",
+   "interaction_label": "renames",
+   "description": "The man says Jacob's name will be Israel, because he has struggled with God and men and prevailed."
+  },
+  {
+   "edge_id": "edge.gen_32.man_wounds_jacob",
+   "interaction_label": "wounds",
+   "description": "Unable to prevail, the man touches Jacob's hip socket and dislocates it."
+  },
+  {
+   "edge_id": "edge.gen_32.man_wrestles_jacob",
+   "interaction_label": "wrestles",
+   "description": "A man wrestles with Jacob at night until dawn."
+  }
+ ]
 }

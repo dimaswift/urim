@@ -1,12 +1,94 @@
 {
  "chapter_ref": "GEN.32",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.gift_for_esau",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מִנְחָה",
+   "transliterated_name": "minḥâ",
+   "first_mention_verse": "GEN.32.14"
+  },
+  {
+   "entity_id": "group.men_of_esau",
+   "entity_type": "GROUP",
+   "source_script_name": "אַרְבַּע מֵאוֹת אִישׁ",
+   "transliterated_name": "ʾarbaʿ mēʾôt ʾîš",
+   "first_mention_verse": "GEN.32.7"
+  },
+  {
+   "entity_id": "group.messengers_of_jacob",
+   "entity_type": "GROUP",
+   "source_script_name": "מַלְאָכִים",
+   "transliterated_name": "malʾākîm",
+   "first_mention_verse": "GEN.32.4"
+  },
+  {
+   "entity_id": "group.servants_of_jacob",
+   "entity_type": "GROUP",
+   "source_script_name": "עֲבָדָיו",
+   "transliterated_name": "ʿăbādāyw",
+   "first_mention_verse": "GEN.32.6"
+  },
+  {
+   "entity_id": "loc.edom",
+   "tipnr_id": "Edom@Gen.32.3-Mal",
+   "entity_type": "LOCATION",
+   "source_script_name": "אֱדוֹם",
+   "transliterated_name": "ʾĔdôm",
+   "first_mention_verse": "GEN.32.4"
+  },
+  {
+   "entity_id": "loc.jabbok",
+   "tipnr_id": "Jabbok@Gen.32.22-Jdg",
+   "entity_type": "LOCATION",
+   "source_script_name": "יַבֹּק",
+   "transliterated_name": "Yabbōq",
+   "first_mention_verse": "GEN.32.23"
+  },
+  {
+   "entity_id": "loc.mahanaim",
+   "tipnr_id": "Mahanaim@Gen.32.2-1Ch",
+   "entity_type": "LOCATION",
+   "source_script_name": "מַחֲנַיִם",
+   "transliterated_name": "Maḥănayim",
+   "first_mention_verse": "GEN.32.3"
+  },
+  {
+   "entity_id": "loc.peniel",
+   "tipnr_id": "Peniel@Gen.32.30-1Ki",
+   "entity_type": "LOCATION",
+   "source_script_name": "פְּנִיאֵל",
+   "transliterated_name": "Pĕnîʾēl",
+   "first_mention_verse": "GEN.32.31"
+  },
+  {
+   "entity_id": "spirit.man_of_peniel",
+   "entity_type": "SPIRIT_BEING",
+   "source_script_name": "אִישׁ",
+   "transliterated_name": "ʾîš",
+   "first_mention_verse": "GEN.32.25"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.appeasement_gift",
+   "category": "SOCIAL_CUSTOM"
+  },
+  {
+   "system_id": "sys.divine_wrestling",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.messenger_embassy",
+   "category": "SOCIAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_32.laban_departs",
    "verse_start": "GEN.32.1",
    "verse_end": "GEN.32.1",
+   "location_entity_id": "loc.galeed",
    "time": {
     "anchor": "evt.gen_31.covenant_feast",
     "anchor_point": "END",
@@ -21,12 +103,30 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_laban",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.angels_meet_jacob",
    "verse_start": "GEN.32.2",
    "verse_end": "GEN.32.3",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.laban_departs",
     "anchor_point": "END",
@@ -44,12 +144,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.angels_of_god",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.messengers_sent",
    "verse_start": "GEN.32.4",
    "verse_end": "GEN.32.6",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.angels_meet_jacob",
     "anchor_point": "END",
@@ -63,12 +177,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.messengers_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.edom",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.seir",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.laban",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.messengers_return",
    "verse_start": "GEN.32.7",
    "verse_end": "GEN.32.7",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.messengers_sent",
     "anchor_point": "END",
@@ -86,12 +226,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_of_esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.messengers_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.camps_divided",
    "verse_start": "GEN.32.8",
    "verse_end": "GEN.32.9",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.messengers_return",
     "anchor_point": "END",
@@ -105,12 +263,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.camels_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.flock_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.jacob_prays",
    "verse_start": "GEN.32.10",
    "verse_end": "GEN.32.13",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.camps_divided",
     "anchor_point": "END",
@@ -124,12 +304,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.jordan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.gift_chosen",
    "verse_start": "GEN.32.14",
    "verse_end": "GEN.32.16",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.jacob_prays",
     "anchor_point": "END",
@@ -144,12 +350,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.servants_instructed",
    "verse_start": "GEN.32.17",
    "verse_end": "GEN.32.21",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.gift_chosen",
     "anchor_point": "END",
@@ -163,12 +383,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.servants_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.gift_sent_ahead",
    "verse_start": "GEN.32.22",
    "verse_end": "GEN.32.22",
+   "location_entity_id": "loc.mahanaim",
    "time": {
     "anchor": "evt.gen_32.servants_instructed",
     "anchor_point": "END",
@@ -182,12 +420,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.servants_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.jacob_crosses_jabbok",
    "verse_start": "GEN.32.23",
    "verse_end": "GEN.32.24",
+   "location_entity_id": "loc.jabbok",
    "time": {
     "anchor": "evt.gen_32.gift_sent_ahead",
     "anchor_point": "END",
@@ -205,12 +457,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.wrestling",
    "verse_start": "GEN.32.25",
    "verse_end": "GEN.32.26",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_32.jacob_crosses_jabbok",
     "anchor_point": "END",
@@ -224,12 +502,22 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "spirit.man_of_peniel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.blessing_and_new_name",
    "verse_start": "GEN.32.27",
    "verse_end": "GEN.32.30",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_32.wrestling",
     "anchor_point": "END",
@@ -244,12 +532,26 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "spirit.man_of_peniel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.peniel_named",
    "verse_start": "GEN.32.31",
    "verse_end": "GEN.32.31",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_32.blessing_and_new_name",
     "anchor_point": "END",
@@ -263,12 +565,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.peniel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_32.sunrise_limping",
    "verse_start": "GEN.32.32",
    "verse_end": "GEN.32.32",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_32.peniel_named",
     "anchor_point": "END",
@@ -283,7 +599,12 @@
     },
     "precision_tier": "DIURNAL_HOUR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -337,8 +658,324 @@
    "confidence": 1.0
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.gift_for_esau.holder.1",
+   "entity_id": "artifact.gift_for_esau",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.israel",
+   "acquired_at_verse": "GEN.32.14",
+   "acquired_in_event": "evt.gen_32.gift_chosen"
+  },
+  {
+   "component_id": "comp.israel.fear.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "fear",
+   "value_code": "TERRIFIED_OF_ESAU",
+   "acquired_at_verse": "GEN.32.8",
+   "acquired_in_event": "evt.gen_32.camps_divided"
+  },
+  {
+   "component_id": "comp.israel.hip.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "hip",
+   "value_code": "DISLOCATED",
+   "acquired_at_verse": "GEN.32.26",
+   "acquired_in_event": "evt.gen_32.wrestling"
+  },
+  {
+   "component_id": "comp.israel.name.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "name",
+   "value_code": "ISRAEL",
+   "acquired_at_verse": "GEN.32.29",
+   "acquired_in_event": "evt.gen_32.blessing_and_new_name"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.4",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.mahanaim",
+   "supersedes_component_id": "comp.israel.whereabouts.3",
+   "acquired_at_verse": "GEN.32.3",
+   "acquired_in_event": "evt.gen_32.angels_meet_jacob",
+   "expired_at_verse": "GEN.32.25",
+   "expired_in_event": "evt.gen_32.wrestling"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.5",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.peniel",
+   "supersedes_component_id": "comp.israel.whereabouts.4",
+   "acquired_at_verse": "GEN.32.25",
+   "acquired_in_event": "evt.gen_32.wrestling"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.whereabouts.3",
+   "expired_at_verse": "GEN.32.3",
+   "expired_in_event": "evt.gen_32.angels_meet_jacob"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_32.angels_encounter",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_32.angels_meet_jacob",
+   "verse_start": "GEN.32.2",
+   "verse_end": "GEN.32.3",
+   "initiator_entity_id": "group.angels_of_god",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mahanaim",
+   "tags": [
+    "angels",
+    "camp_of_god"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.embassy_to_esau",
+   "system_id": "sys.messenger_embassy",
+   "event_id": "evt.gen_32.messengers_sent",
+   "verse_start": "GEN.32.4",
+   "verse_end": "GEN.32.6",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mahanaim",
+   "tags": [
+    "reconciliation",
+    "deference"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.gift_to_appease_esau",
+   "system_id": "sys.appeasement_gift",
+   "event_id": "evt.gen_32.servants_instructed",
+   "verse_start": "GEN.32.17",
+   "verse_end": "GEN.32.21",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [
+    "artifact.gift_for_esau"
+   ],
+   "location_entity_id": "loc.mahanaim",
+   "tags": [
+    "droves",
+    "cover_the_face"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.israel_named",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_32.blessing_and_new_name",
+   "verse_start": "GEN.32.28",
+   "verse_end": "GEN.32.29",
+   "initiator_entity_id": "spirit.man_of_peniel",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.peniel",
+   "tags": [
+    "renaming",
+    "blessing"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.mahanaim_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_32.angels_meet_jacob",
+   "verse_start": "GEN.32.3",
+   "verse_end": "GEN.32.3",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "loc.mahanaim"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mahanaim",
+   "tags": [
+    "place_name"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.peniel_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_32.peniel_named",
+   "verse_start": "GEN.32.31",
+   "verse_end": "GEN.32.31",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "loc.peniel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.peniel",
+   "tags": [
+    "place_name",
+    "seen_God"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.prayer_for_deliverance",
+   "system_id": "sys.petition_prayer",
+   "event_id": "evt.gen_32.jacob_prays",
+   "verse_start": "GEN.32.10",
+   "verse_end": "GEN.32.13",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.mahanaim",
+   "tags": [
+    "deliverance",
+    "promise_recalled"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_32.wrestling_match",
+   "system_id": "sys.divine_wrestling",
+   "event_id": "evt.gen_32.wrestling",
+   "verse_start": "GEN.32.25",
+   "verse_end": "GEN.32.26",
+   "initiator_entity_id": "spirit.man_of_peniel",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.peniel",
+   "tags": [
+    "night",
+    "dislocated_hip"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_32.angels_meet_jacob",
+   "source_entity_id": "group.angels_of_god",
+   "target_entity_id": "person.israel",
+   "interaction_type": "MEETS",
+   "verse_id": "GEN.32.2",
+   "event_id": "evt.gen_32.angels_meet_jacob"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_appeases_esau",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "APPEASES",
+   "verse_id": "GEN.32.21",
+   "event_id": "evt.gen_32.servants_instructed"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_commands_messengers",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.messengers_of_jacob",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.32.5",
+   "event_id": "evt.gen_32.messengers_sent"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_commands_servants",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.servants_of_jacob",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.32.17",
+   "event_id": "evt.gen_32.servants_instructed"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_demands_blessing",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "spirit.man_of_peniel",
+   "interaction_type": "PETITIONS",
+   "verse_id": "GEN.32.27",
+   "event_id": "evt.gen_32.blessing_and_new_name"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_fears_esau",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "FEARS",
+   "verse_id": "GEN.32.8",
+   "event_id": "evt.gen_32.camps_divided"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_prays_to_god",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "PRAYS_TO",
+   "verse_id": "GEN.32.10",
+   "event_id": "evt.gen_32.jacob_prays"
+  },
+  {
+   "edge_id": "edge.gen_32.jacob_sends_messengers",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "SENDS_MESSAGE_TO",
+   "verse_id": "GEN.32.4",
+   "event_id": "evt.gen_32.messengers_sent"
+  },
+  {
+   "edge_id": "edge.gen_32.laban_blesses_leah",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.leah",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.32.1",
+   "event_id": "evt.gen_32.laban_departs"
+  },
+  {
+   "edge_id": "edge.gen_32.laban_blesses_rachel",
+   "source_entity_id": "person.laban",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.32.1",
+   "event_id": "evt.gen_32.laban_departs"
+  },
+  {
+   "edge_id": "edge.gen_32.man_blesses_jacob",
+   "source_entity_id": "spirit.man_of_peniel",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.32.30",
+   "event_id": "evt.gen_32.blessing_and_new_name"
+  },
+  {
+   "edge_id": "edge.gen_32.man_renames_jacob",
+   "source_entity_id": "spirit.man_of_peniel",
+   "target_entity_id": "person.israel",
+   "interaction_type": "RENAMES",
+   "verse_id": "GEN.32.29",
+   "event_id": "evt.gen_32.blessing_and_new_name"
+  },
+  {
+   "edge_id": "edge.gen_32.man_wounds_jacob",
+   "source_entity_id": "spirit.man_of_peniel",
+   "target_entity_id": "person.israel",
+   "interaction_type": "WOUNDS",
+   "verse_id": "GEN.32.26",
+   "event_id": "evt.gen_32.wrestling"
+  },
+  {
+   "edge_id": "edge.gen_32.man_wrestles_jacob",
+   "source_entity_id": "spirit.man_of_peniel",
+   "target_entity_id": "person.israel",
+   "interaction_type": "WRESTLES",
+   "verse_id": "GEN.32.25",
+   "event_id": "evt.gen_32.wrestling"
+  }
+ ]
 }

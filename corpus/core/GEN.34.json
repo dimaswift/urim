@@ -1,12 +1,39 @@
 {
  "chapter_ref": "GEN.34",
- "entities": [],
+ "entities": [
+  {
+   "entity_id": "group.daughters_of_the_land",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.34.1"
+  },
+  {
+   "entity_id": "group.dependents_of_shechem",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.34.29"
+  },
+  {
+   "entity_id": "group.men_of_shechem",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.34.20"
+  },
+  {
+   "entity_id": "group.sons_of_jacob",
+   "entity_type": "GROUP",
+   "first_mention_verse": "GEN.34.5"
+  },
+  {
+   "entity_id": "loc.gate_of_shechem",
+   "entity_type": "LOCATION",
+   "first_mention_verse": "GEN.34.20"
+  }
+ ],
  "systems": [],
  "events": [
   {
    "event_id": "evt.gen_34.dinah_taken",
    "verse_start": "GEN.34.1",
    "verse_end": "GEN.34.2",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_33.altar_el_elohe_israel",
     "anchor_point": "END",
@@ -24,12 +51,42 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.daughters_of_the_land",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hivites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.shechem_asks_wife",
    "verse_start": "GEN.34.3",
    "verse_end": "GEN.34.4",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.dinah_taken",
     "anchor_point": "END",
@@ -43,12 +100,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.dinah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.jacob_hears_silent",
    "verse_start": "GEN.34.5",
    "verse_end": "GEN.34.5",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.dinah_taken",
     "anchor_point": "END",
@@ -62,12 +133,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.hamor_goes_to_jacob",
    "verse_start": "GEN.34.6",
    "verse_end": "GEN.34.6",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.jacob_hears_silent",
     "anchor_point": "START",
@@ -85,12 +174,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.hamor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.sons_return_angry",
    "verse_start": "GEN.34.7",
    "verse_end": "GEN.34.7",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.hamor_goes_to_jacob",
     "anchor_point": "END",
@@ -104,12 +207,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.hamor_proposal",
    "verse_start": "GEN.34.8",
    "verse_end": "GEN.34.10",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.sons_return_angry",
     "anchor_point": "END",
@@ -123,12 +244,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.shechem_offer",
    "verse_start": "GEN.34.11",
    "verse_end": "GEN.34.12",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.hamor_proposal",
     "anchor_point": "END",
@@ -142,12 +285,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.sons_circumcision_terms",
    "verse_start": "GEN.34.13",
    "verse_end": "GEN.34.17",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.shechem_offer",
     "anchor_point": "END",
@@ -161,12 +326,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.terms_accepted",
    "verse_start": "GEN.34.18",
    "verse_end": "GEN.34.19",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.sons_circumcision_terms",
     "anchor_point": "END",
@@ -180,12 +363,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.city_gate_speech",
    "verse_start": "GEN.34.20",
    "verse_end": "GEN.34.23",
+   "location_entity_id": "loc.gate_of_shechem",
    "time": {
     "anchor": "evt.gen_34.terms_accepted",
     "anchor_point": "END",
@@ -199,12 +400,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_of_shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.males_circumcised",
    "verse_start": "GEN.34.24",
    "verse_end": "GEN.34.24",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.city_gate_speech",
     "anchor_point": "END",
@@ -218,12 +437,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_of_shechem",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.massacre",
    "verse_start": "GEN.34.25",
    "verse_end": "GEN.34.26",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.males_circumcised",
     "anchor_point": "START",
@@ -241,12 +474,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_of_shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.city_plundered",
    "verse_start": "GEN.34.27",
    "verse_end": "GEN.34.29",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.massacre",
     "anchor_point": "END",
@@ -260,12 +519,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.dependents_of_shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.men_of_shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PRESENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_34.jacob_rebukes_sons",
    "verse_start": "GEN.34.30",
    "verse_end": "GEN.34.31",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.city_plundered",
     "anchor_point": "END",
@@ -279,7 +564,36 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.canaanites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.perizzites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.dinah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -375,8 +689,319 @@
    "confidence": 1.0
   }
  ],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.dependents_of_shechem.captor.1",
+   "entity_id": "group.dependents_of_shechem",
+   "category": "ALLEGIANCE",
+   "component_key": "captor",
+   "target_entity_id": "group.sons_of_jacob",
+   "acquired_at_verse": "GEN.34.29",
+   "acquired_in_event": "evt.gen_34.city_plundered"
+  },
+  {
+   "component_id": "comp.dinah.confinement.1",
+   "entity_id": "person.dinah",
+   "category": "LOCATION_STATE",
+   "component_key": "confinement",
+   "target_entity_id": "loc.shechem",
+   "acquired_at_verse": "GEN.34.2",
+   "acquired_in_event": "evt.gen_34.dinah_taken",
+   "expired_at_verse": "GEN.34.26",
+   "expired_in_event": "evt.gen_34.massacre"
+  },
+  {
+   "component_id": "comp.dinah.defilement.1",
+   "entity_id": "person.dinah",
+   "category": "TRAIT",
+   "component_key": "defilement",
+   "value_code": "DEFILED",
+   "acquired_at_verse": "GEN.34.2",
+   "acquired_in_event": "evt.gen_34.dinah_taken"
+  },
+  {
+   "component_id": "comp.hamor.life.1",
+   "entity_id": "person.hamor",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.34.26",
+   "acquired_in_event": "evt.gen_34.massacre"
+  },
+  {
+   "component_id": "comp.israel.reputation.1",
+   "entity_id": "person.israel",
+   "category": "TRAIT",
+   "component_key": "reputation",
+   "value_code": "ODIOUS_TO_NEIGHBOURS",
+   "acquired_at_verse": "GEN.34.30",
+   "acquired_in_event": "evt.gen_34.jacob_rebukes_sons"
+  },
+  {
+   "component_id": "comp.israel.silence.1",
+   "entity_id": "person.israel",
+   "category": "PSYCH_STATE",
+   "component_key": "silence",
+   "value_code": "SILENT",
+   "acquired_at_verse": "GEN.34.5",
+   "acquired_in_event": "evt.gen_34.jacob_hears_silent",
+   "expired_at_verse": "GEN.34.7",
+   "expired_in_event": "evt.gen_34.sons_return_angry"
+  },
+  {
+   "component_id": "comp.men_of_shechem.circumcision.1",
+   "entity_id": "group.men_of_shechem",
+   "category": "TRAIT",
+   "component_key": "circumcision",
+   "value_code": "CIRCUMCISED",
+   "acquired_at_verse": "GEN.34.24",
+   "acquired_in_event": "evt.gen_34.males_circumcised"
+  },
+  {
+   "component_id": "comp.men_of_shechem.life.1",
+   "entity_id": "group.men_of_shechem",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.34.25",
+   "acquired_in_event": "evt.gen_34.massacre"
+  },
+  {
+   "component_id": "comp.shechem.devotion.1",
+   "entity_id": "person.shechem",
+   "category": "PSYCH_STATE",
+   "component_key": "devotion",
+   "target_entity_id": "person.dinah",
+   "acquired_at_verse": "GEN.34.3",
+   "acquired_in_event": "evt.gen_34.shechem_asks_wife",
+   "expired_at_verse": "GEN.34.26",
+   "expired_in_event": "evt.gen_34.massacre"
+  },
+  {
+   "component_id": "comp.shechem.life.1",
+   "entity_id": "person.shechem",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.34.26",
+   "acquired_in_event": "evt.gen_34.massacre"
+  },
+  {
+   "component_id": "comp.sons_of_jacob.mood.1",
+   "entity_id": "group.sons_of_jacob",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "INDIGNANT",
+   "acquired_at_verse": "GEN.34.7",
+   "acquired_in_event": "evt.gen_34.sons_return_angry"
+  }
+ ],
  "component_closures": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_34.bride_price_offer",
+   "system_id": "sys.bridewealth_gifts",
+   "event_id": "evt.gen_34.shechem_offer",
+   "verse_start": "GEN.34.11",
+   "verse_end": "GEN.34.12",
+   "initiator_entity_id": "person.shechem",
+   "target_entity_ids": [
+    "person.israel",
+    "group.sons_of_jacob"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "bride_price",
+    "open_ended"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_34.massacre_of_shechem",
+   "system_id": "sys.blood_vengeance",
+   "event_id": "evt.gen_34.massacre",
+   "verse_start": "GEN.34.25",
+   "verse_end": "GEN.34.26",
+   "initiator_entity_id": "person.simeon",
+   "target_entity_ids": [
+    "group.men_of_shechem",
+    "person.hamor",
+    "person.shechem"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "reprisal",
+    "third_day",
+    "breach_of_agreement"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_34.sack_of_shechem",
+   "system_id": "sys.plunder_and_captivity",
+   "event_id": "evt.gen_34.city_plundered",
+   "verse_start": "GEN.34.27",
+   "verse_end": "GEN.34.29",
+   "initiator_entity_id": "group.sons_of_jacob",
+   "target_entity_ids": [
+    "group.dependents_of_shechem",
+    "group.men_of_shechem"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "plunder",
+    "captives"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_34.shechem_proposal",
+   "system_id": "sys.marriage_negotiation",
+   "event_id": "evt.gen_34.hamor_proposal",
+   "verse_start": "GEN.34.8",
+   "verse_end": "GEN.34.10",
+   "initiator_entity_id": "person.hamor",
+   "target_entity_ids": [
+    "person.israel",
+    "group.sons_of_jacob"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "intermarriage",
+    "after_the_fact"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_34.shechemites_circumcised",
+   "system_id": "sys.circumcision",
+   "event_id": "evt.gen_34.males_circumcised",
+   "verse_start": "GEN.34.24",
+   "verse_end": "GEN.34.24",
+   "initiator_entity_id": "person.hamor",
+   "target_entity_ids": [
+    "group.men_of_shechem"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "covenant_condition",
+    "deceit"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_34.hamor_persuades_men",
+   "source_entity_id": "person.hamor",
+   "target_entity_id": "group.men_of_shechem",
+   "interaction_type": "PERSUADES",
+   "verse_id": "GEN.34.20",
+   "event_id": "evt.gen_34.city_gate_speech"
+  },
+  {
+   "edge_id": "edge.gen_34.hamor_proposes_to_jacob",
+   "source_entity_id": "person.hamor",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PROPOSES_TO",
+   "verse_id": "GEN.34.8",
+   "event_id": "evt.gen_34.hamor_proposal"
+  },
+  {
+   "edge_id": "edge.gen_34.jacob_rebukes_levi",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.levi",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.34.30",
+   "event_id": "evt.gen_34.jacob_rebukes_sons"
+  },
+  {
+   "edge_id": "edge.gen_34.jacob_rebukes_simeon",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.simeon",
+   "interaction_type": "REBUKES",
+   "verse_id": "GEN.34.30",
+   "event_id": "evt.gen_34.jacob_rebukes_sons"
+  },
+  {
+   "edge_id": "edge.gen_34.levi_kills_hamor",
+   "source_entity_id": "person.levi",
+   "target_entity_id": "person.hamor",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.34.26",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.levi_kills_males",
+   "source_entity_id": "person.levi",
+   "target_entity_id": "group.men_of_shechem",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.34.25",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.levi_takes_dinah",
+   "source_entity_id": "person.levi",
+   "target_entity_id": "person.dinah",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.34.26",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.shechem_asks_hamor",
+   "source_entity_id": "person.shechem",
+   "target_entity_id": "person.hamor",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.34.4",
+   "event_id": "evt.gen_34.shechem_asks_wife"
+  },
+  {
+   "edge_id": "edge.gen_34.shechem_violates_dinah",
+   "source_entity_id": "person.shechem",
+   "target_entity_id": "person.dinah",
+   "interaction_type": "VIOLATES",
+   "verse_id": "GEN.34.2",
+   "event_id": "evt.gen_34.dinah_taken"
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_kills_males",
+   "source_entity_id": "person.simeon",
+   "target_entity_id": "group.men_of_shechem",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.34.25",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_kills_shechem",
+   "source_entity_id": "person.simeon",
+   "target_entity_id": "person.shechem",
+   "interaction_type": "KILLS",
+   "verse_id": "GEN.34.26",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_levi_take_dinah",
+   "source_entity_id": "person.simeon",
+   "target_entity_id": "person.dinah",
+   "interaction_type": "RESCUES",
+   "verse_id": "GEN.34.26",
+   "event_id": "evt.gen_34.massacre"
+  },
+  {
+   "edge_id": "edge.gen_34.sons_deceive_shechem",
+   "source_entity_id": "group.sons_of_jacob",
+   "target_entity_id": "person.shechem",
+   "interaction_type": "DECEIVES",
+   "verse_id": "GEN.34.13",
+   "event_id": "evt.gen_34.sons_circumcision_terms"
+  },
+  {
+   "edge_id": "edge.gen_34.sons_take_captives",
+   "source_entity_id": "group.sons_of_jacob",
+   "target_entity_id": "group.dependents_of_shechem",
+   "interaction_type": "CAPTURES",
+   "verse_id": "GEN.34.29",
+   "event_id": "evt.gen_34.city_plundered"
+  }
+ ]
 }

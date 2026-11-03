@@ -1,12 +1,77 @@
 {
  "chapter_ref": "GEN.36",
- "entities": [],
+ "entities": [
+  {
+   "entity_id": "person.anah",
+   "tipnr_id": "Anah@Gen.36.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "עֲנָה",
+   "transliterated_name": "ʿĂnâ",
+   "first_mention_verse": "GEN.36.2"
+  },
+  {
+   "entity_id": "person.eliphaz",
+   "tipnr_id": "Eliphaz@Gen.36.4-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אֱלִיפָז",
+   "transliterated_name": "ʾĔlîpāz",
+   "first_mention_verse": "GEN.36.4"
+  },
+  {
+   "entity_id": "person.jalam",
+   "tipnr_id": "Jalam@Gen.36.5-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יַעְלָם",
+   "transliterated_name": "Yaʿlām",
+   "first_mention_verse": "GEN.36.5"
+  },
+  {
+   "entity_id": "person.jeush",
+   "tipnr_id": "Jeush@Gen.36.5-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "יְעוּשׁ",
+   "transliterated_name": "Yəʿûš",
+   "first_mention_verse": "GEN.36.5"
+  },
+  {
+   "entity_id": "person.korah.gen_36_5",
+   "tipnr_id": "Korah@Gen.36.5-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "קֹרַח",
+   "transliterated_name": "Qōraḥ",
+   "first_mention_verse": "GEN.36.5"
+  },
+  {
+   "entity_id": "person.oholibamah",
+   "tipnr_id": "Oholibamah@Gen.36.2-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "אָהֳלִיבָמָה",
+   "transliterated_name": "ʾOholîbāmâ",
+   "first_mention_verse": "GEN.36.2"
+  },
+  {
+   "entity_id": "person.reuel",
+   "tipnr_id": "Reuel@Gen.36.4-1Ch",
+   "entity_type": "PERSON",
+   "source_script_name": "רְעוּאֵל",
+   "transliterated_name": "Rəʿûʾēl",
+   "first_mention_verse": "GEN.36.4"
+  },
+  {
+   "entity_id": "person.zibeon",
+   "entity_type": "PERSON",
+   "source_script_name": "צִבְעוֹן",
+   "transliterated_name": "Ṣibʿôn",
+   "first_mention_verse": "GEN.36.2"
+  }
+ ],
  "systems": [],
  "events": [
   {
    "event_id": "evt.gen_36.esau_takes_canaanite_wives",
    "verse_start": "GEN.36.2",
    "verse_end": "GEN.36.2",
+   "location_entity_id": "loc.canaan",
    "time": {
     "anchor": "anchor.jacob_birth",
     "anchor_point": "START",
@@ -24,7 +89,40 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.hittites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.hivites",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.adah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.anah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.elon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.oholibamah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zibeon",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_36.esau_marries_ishmaels_daughter",
@@ -43,12 +141,30 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.ishmael",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.mahalath",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.nebaioth",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_36.sons_born_in_canaan",
    "verse_start": "GEN.36.4",
    "verse_end": "GEN.36.5",
+   "location_entity_id": "loc.canaan",
    "time": {
     "anchor": "evt.gen_36.esau_takes_canaanite_wives",
     "anchor_point": "END",
@@ -66,12 +182,50 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.adah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.eliphaz",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.jalam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.jeush",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.korah.gen_36_5",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.mahalath",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.oholibamah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.reuel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_36.esau_moves_to_seir",
    "verse_start": "GEN.36.6",
    "verse_end": "GEN.36.8",
+   "location_entity_id": "loc.seir",
    "time": {
     "anchor": "evt.gen_35.isaac_dies",
     "anchor_point": "END",
@@ -85,12 +239,154 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.adah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.eliphaz",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.jalam",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.jeush",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.korah.gen_36_5",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.mahalath",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.oholibamah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.reuel",
+     "role": "PATIENT"
+    }
+   ]
   }
  ],
  "causal_edges": [],
- "components": [],
+ "components": [
+  {
+   "component_id": "comp.esau.dwelling.1",
+   "entity_id": "person.esau",
+   "category": "LOCATION_STATE",
+   "component_key": "dwelling",
+   "target_entity_id": "loc.seir",
+   "acquired_at_verse": "GEN.36.8",
+   "acquired_in_event": "evt.gen_36.esau_moves_to_seir"
+  },
+  {
+   "component_id": "comp.esau.wealth.1",
+   "entity_id": "person.esau",
+   "category": "TRAIT",
+   "component_key": "wealth",
+   "value_code": "POSSESSIONS_TOO_GREAT_TO_SHARE_LAND",
+   "acquired_at_verse": "GEN.36.7",
+   "acquired_in_event": "evt.gen_36.esau_moves_to_seir"
+  },
+  {
+   "component_id": "comp.esau.wife_oholibamah.1",
+   "entity_id": "person.esau",
+   "category": "ALLEGIANCE",
+   "component_key": "wife_oholibamah",
+   "target_entity_id": "person.oholibamah",
+   "acquired_at_verse": "GEN.36.2",
+   "acquired_in_event": "evt.gen_36.esau_takes_canaanite_wives"
+  }
+ ],
  "component_closures": [],
  "system_instances": [],
- "edges": []
+ "edges": [
+  {
+   "edge_id": "edge.gen_36.adah_bears_eliphaz",
+   "source_entity_id": "person.adah",
+   "target_entity_id": "person.eliphaz",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.36.4",
+   "event_id": "evt.gen_36.sons_born_in_canaan"
+  },
+  {
+   "edge_id": "edge.gen_36.esau_leaves_jacob",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.israel",
+   "interaction_type": "WITHDRAWS_FROM",
+   "verse_id": "GEN.36.6",
+   "event_id": "evt.gen_36.esau_moves_to_seir"
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_adah",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.adah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.36.2",
+   "event_id": "evt.gen_36.esau_takes_canaanite_wives"
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_mahalath",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.mahalath",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.36.3",
+   "event_id": "evt.gen_36.esau_marries_ishmaels_daughter"
+  },
+  {
+   "edge_id": "edge.gen_36.esau_marries_oholibamah",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.oholibamah",
+   "interaction_type": "MARRIES",
+   "verse_id": "GEN.36.2",
+   "event_id": "evt.gen_36.esau_takes_canaanite_wives"
+  },
+  {
+   "edge_id": "edge.gen_36.mahalath_bears_reuel",
+   "source_entity_id": "person.mahalath",
+   "target_entity_id": "person.reuel",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.36.4",
+   "event_id": "evt.gen_36.sons_born_in_canaan"
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_jalam",
+   "source_entity_id": "person.oholibamah",
+   "target_entity_id": "person.jalam",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.36.5",
+   "event_id": "evt.gen_36.sons_born_in_canaan"
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_jeush",
+   "source_entity_id": "person.oholibamah",
+   "target_entity_id": "person.jeush",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.36.5",
+   "event_id": "evt.gen_36.sons_born_in_canaan"
+  },
+  {
+   "edge_id": "edge.gen_36.oholibamah_bears_korah",
+   "source_entity_id": "person.oholibamah",
+   "target_entity_id": "person.korah.gen_36_5",
+   "interaction_type": "BEARS",
+   "verse_id": "GEN.36.5",
+   "event_id": "evt.gen_36.sons_born_in_canaan"
+  }
+ ]
 }

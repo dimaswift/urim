@@ -1,12 +1,110 @@
 {
  "chapter_ref": "GEN.35",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.altar_el_bethel",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מִזְבֵּחַ",
+   "transliterated_name": "mizbēaḥ",
+   "first_mention_verse": "GEN.35.7"
+  },
+  {
+   "entity_id": "artifact.earrings_of_household",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "הַנְּזָמִים",
+   "transliterated_name": "hannĕzāmîm",
+   "first_mention_verse": "GEN.35.4"
+  },
+  {
+   "entity_id": "artifact.foreign_gods_of_household",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אֱלֹהֵי הַנֵּכָר",
+   "transliterated_name": "ʾĕlōhê hannēkār",
+   "first_mention_verse": "GEN.35.2"
+  },
+  {
+   "entity_id": "artifact.pillar_of_bethel_35",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מַצֶּבֶת אָבֶן",
+   "transliterated_name": "maṣṣebet ʾāben",
+   "first_mention_verse": "GEN.35.14"
+  },
+  {
+   "entity_id": "artifact.pillar_of_rachels_grave",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "מַצֶּבֶת קְבֻרַת רָחֵל",
+   "transliterated_name": "maṣṣebet qĕburat Rāḥēl",
+   "first_mention_verse": "GEN.35.20"
+  },
+  {
+   "entity_id": "group.cities_round_about",
+   "entity_type": "GROUP",
+   "source_script_name": "הֶעָרִים אֲשֶׁר סְבִיבֹתֵיהֶם",
+   "transliterated_name": "hāʿārîm ʾăšer sĕbîbōtêhem",
+   "first_mention_verse": "GEN.35.5"
+  },
+  {
+   "entity_id": "loc.allon_bacuth",
+   "tipnr_id": "Allon-bacuth@Gen.35.8",
+   "entity_type": "LOCATION",
+   "source_script_name": "אַלּוֹן בָּכוּת",
+   "transliterated_name": "ʾAllôn Bākût",
+   "first_mention_verse": "GEN.35.8"
+  },
+  {
+   "entity_id": "loc.bethlehem",
+   "tipnr_id": "Bethlehem@Gen.35.16-Jhn",
+   "entity_type": "LOCATION",
+   "source_script_name": "בֵּית לָחֶם",
+   "transliterated_name": "Bêt Leḥem",
+   "first_mention_verse": "GEN.35.16"
+  },
+  {
+   "entity_id": "loc.oak_by_shechem",
+   "entity_type": "LOCATION",
+   "source_script_name": "הָאֵלָה",
+   "transliterated_name": "hāʾēlâ",
+   "first_mention_verse": "GEN.35.4"
+  },
+  {
+   "entity_id": "loc.tower_of_eder",
+   "tipnr_id": "Tower_of_Eder@Gen.35.21-Mic",
+   "entity_type": "LOCATION",
+   "source_script_name": "מִגְדַּל־עֵדֶר",
+   "transliterated_name": "Migdal ʿĒder",
+   "first_mention_verse": "GEN.35.21"
+  },
+  {
+   "entity_id": "person.midwife_of_rachel",
+   "entity_type": "PERSON",
+   "source_script_name": "הַמְיַלֶּדֶת",
+   "transliterated_name": "hamyalledet",
+   "first_mention_verse": "GEN.35.17"
+  },
+  {
+   "entity_id": "substance.drink_offering",
+   "entity_type": "SUBSTANCE",
+   "source_script_name": "נֶסֶךְ",
+   "transliterated_name": "nesek",
+   "first_mention_verse": "GEN.35.14"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_terror",
+   "category": "SUPERNATURAL_ACT"
+  },
+  {
+   "system_id": "sys.ritual_purification",
+   "category": "LITURGICAL_RITUAL"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_35.god_commands_bethel",
    "verse_start": "GEN.35.1",
    "verse_end": "GEN.35.1",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_34.jacob_rebukes_sons",
     "anchor_point": "END",
@@ -24,12 +122,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.purge_foreign_gods",
    "verse_start": "GEN.35.2",
    "verse_end": "GEN.35.4",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_35.god_commands_bethel",
     "anchor_point": "END",
@@ -43,12 +155,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.earrings_of_household",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "artifact.foreign_gods_of_household",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.journey_to_bethel",
    "verse_start": "GEN.35.5",
    "verse_end": "GEN.35.6",
+   "location_entity_id": "loc.bethel",
    "time": {
     "anchor": "evt.gen_35.purge_foreign_gods",
     "anchor_point": "END",
@@ -62,12 +200,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.cities_round_about",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "group.sons_of_jacob",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.altar_el_bethel",
    "verse_start": "GEN.35.7",
    "verse_end": "GEN.35.7",
+   "location_entity_id": "loc.bethel",
    "time": {
     "anchor": "evt.gen_35.journey_to_bethel",
     "anchor_point": "END",
@@ -81,12 +245,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.altar_el_bethel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.deborah_dies",
    "verse_start": "GEN.35.8",
    "verse_end": "GEN.35.8",
+   "location_entity_id": "loc.allon_bacuth",
    "time": {
     "anchor": "evt.gen_35.altar_el_bethel",
     "anchor_point": "END",
@@ -104,12 +290,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rebekahs_nurse",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.god_appears_renames",
    "verse_start": "GEN.35.9",
    "verse_end": "GEN.35.10",
+   "location_entity_id": "loc.bethel",
    "time": {
     "anchor": "evt.gen_35.deborah_dies",
     "anchor_point": "END",
@@ -127,12 +327,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.god_promise",
    "verse_start": "GEN.35.11",
    "verse_end": "GEN.35.13",
+   "location_entity_id": "loc.bethel",
    "time": {
     "anchor": "evt.gen_35.god_appears_renames",
     "anchor_point": "END",
@@ -146,12 +360,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.pillar_at_bethel",
    "verse_start": "GEN.35.14",
    "verse_end": "GEN.35.15",
+   "location_entity_id": "loc.bethel",
    "time": {
     "anchor": "evt.gen_35.god_promise",
     "anchor_point": "END",
@@ -165,12 +397,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.pillar_of_bethel_35",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "substance.drink_offering",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "substance.oil",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.rachel_labor",
    "verse_start": "GEN.35.16",
    "verse_end": "GEN.35.17",
+   "location_entity_id": "loc.bethlehem",
    "time": {
     "anchor": "evt.gen_35.pillar_at_bethel",
     "anchor_point": "END",
@@ -188,12 +442,34 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.bethel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.midwife_of_rachel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.rachel_dies_benjamin_born",
    "verse_start": "GEN.35.18",
    "verse_end": "GEN.35.19",
+   "location_entity_id": "loc.bethlehem",
    "time": {
     "anchor": "evt.gen_35.rachel_labor",
     "anchor_point": "END",
@@ -207,12 +483,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.benjamin",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.midwife_of_rachel",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.pillar_rachel_grave",
    "verse_start": "GEN.35.20",
    "verse_end": "GEN.35.20",
+   "location_entity_id": "loc.bethlehem",
    "time": {
     "anchor": "evt.gen_35.rachel_dies_benjamin_born",
     "anchor_point": "END",
@@ -230,12 +524,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.pillar_of_rachels_grave",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.israel_pitches_beyond_eder",
    "verse_start": "GEN.35.21",
    "verse_end": "GEN.35.21",
+   "location_entity_id": "loc.tower_of_eder",
    "time": {
     "anchor": "evt.gen_35.pillar_rachel_grave",
     "anchor_point": "END",
@@ -253,12 +561,18 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.reuben_lies_with_bilhah",
    "verse_start": "GEN.35.22",
    "verse_end": "GEN.35.22",
+   "location_entity_id": "loc.tower_of_eder",
    "time": {
     "anchor": "evt.gen_35.israel_pitches_beyond_eder",
     "anchor_point": "END",
@@ -276,12 +590,86 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.asher",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.benjamin",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.dan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.gad",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.issachar",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.judah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.levi",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.naphtali",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.reuben",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.simeon",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.zebulun",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.jacob_comes_to_isaac",
    "verse_start": "GEN.35.27",
    "verse_end": "GEN.35.27",
+   "location_entity_id": "loc.mamre",
    "time": {
     "anchor": "evt.gen_35.reuben_lies_with_bilhah",
     "anchor_point": "END",
@@ -299,12 +687,30 @@
     },
     "precision_tier": "MACRO_ERA"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "loc.hebron",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.abraham",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_35.isaac_dies",
    "verse_start": "GEN.35.28",
    "verse_end": "GEN.35.29",
+   "location_entity_id": "loc.hebron",
    "time": {
     "anchor": "anchor.isaac_birth",
     "anchor_point": "START",
@@ -322,7 +728,20 @@
     },
     "precision_tier": "REGNAL_YEAR"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.isaac",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -355,8 +774,486 @@
    "confidence": 0.9
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.altar_el_bethel.dedicated_to.1",
+   "entity_id": "artifact.altar_el_bethel",
+   "category": "ALLEGIANCE",
+   "component_key": "dedicated_to",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.35.7",
+   "acquired_in_event": "evt.gen_35.altar_el_bethel"
+  },
+  {
+   "component_id": "comp.benjamin.name.1",
+   "entity_id": "person.benjamin",
+   "category": "TRAIT",
+   "component_key": "name",
+   "value_code": "BENJAMIN",
+   "acquired_at_verse": "GEN.35.18",
+   "acquired_in_event": "evt.gen_35.rachel_dies_benjamin_born"
+  },
+  {
+   "component_id": "comp.earrings_of_household.hidden_at.1",
+   "entity_id": "artifact.earrings_of_household",
+   "category": "LOCATION_STATE",
+   "component_key": "hidden_at",
+   "target_entity_id": "loc.oak_by_shechem",
+   "acquired_at_verse": "GEN.35.4",
+   "acquired_in_event": "evt.gen_35.purge_foreign_gods"
+  },
+  {
+   "component_id": "comp.foreign_gods_of_household.hidden_at.1",
+   "entity_id": "artifact.foreign_gods_of_household",
+   "category": "LOCATION_STATE",
+   "component_key": "hidden_at",
+   "target_entity_id": "loc.oak_by_shechem",
+   "acquired_at_verse": "GEN.35.4",
+   "acquired_in_event": "evt.gen_35.purge_foreign_gods"
+  },
+  {
+   "component_id": "comp.isaac.life.1",
+   "entity_id": "person.isaac",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.35.29",
+   "acquired_in_event": "evt.gen_35.isaac_dies"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.10",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.mamre",
+   "supersedes_component_id": "comp.israel.whereabouts.9",
+   "acquired_at_verse": "GEN.35.27",
+   "acquired_in_event": "evt.gen_35.jacob_comes_to_isaac"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.8",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.bethel",
+   "supersedes_component_id": "comp.israel.whereabouts.7",
+   "acquired_at_verse": "GEN.35.6",
+   "acquired_in_event": "evt.gen_35.journey_to_bethel",
+   "expired_at_verse": "GEN.35.16",
+   "expired_in_event": "evt.gen_35.rachel_labor"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.9",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.tower_of_eder",
+   "supersedes_component_id": "comp.israel.whereabouts.8",
+   "acquired_at_verse": "GEN.35.21",
+   "acquired_in_event": "evt.gen_35.israel_pitches_beyond_eder",
+   "expired_at_verse": "GEN.35.27",
+   "expired_in_event": "evt.gen_35.jacob_comes_to_isaac"
+  },
+  {
+   "component_id": "comp.jacobs_family.purity.1",
+   "entity_id": "group.jacobs_family",
+   "category": "TRAIT",
+   "component_key": "purity",
+   "value_code": "PURIFIED_FROM_FOREIGN_GODS",
+   "acquired_at_verse": "GEN.35.4",
+   "acquired_in_event": "evt.gen_35.purge_foreign_gods"
+  },
+  {
+   "component_id": "comp.pillar_of_bethel_35.status.1",
+   "entity_id": "artifact.pillar_of_bethel_35",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "ANOINTED_PILLAR",
+   "acquired_at_verse": "GEN.35.14",
+   "acquired_in_event": "evt.gen_35.pillar_at_bethel"
+  },
+  {
+   "component_id": "comp.pillar_of_rachels_grave.status.1",
+   "entity_id": "artifact.pillar_of_rachels_grave",
+   "category": "TRAIT",
+   "component_key": "status",
+   "value_code": "GRAVE_MARKER",
+   "acquired_at_verse": "GEN.35.20",
+   "acquired_in_event": "evt.gen_35.pillar_rachel_grave"
+  },
+  {
+   "component_id": "comp.rachel.life.1",
+   "entity_id": "person.rachel",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.35.18",
+   "acquired_in_event": "evt.gen_35.rachel_dies_benjamin_born"
+  },
+  {
+   "component_id": "comp.rebekahs_nurse.life.1",
+   "entity_id": "person.rebekahs_nurse",
+   "category": "TRAIT",
+   "component_key": "life",
+   "value_code": "DEAD",
+   "acquired_at_verse": "GEN.35.8",
+   "acquired_in_event": "evt.gen_35.deborah_dies"
+  },
+  {
+   "component_id": "comp.reuben.transgression.1",
+   "entity_id": "person.reuben",
+   "category": "TRAIT",
+   "component_key": "transgression",
+   "value_code": "LAY_WITH_FATHERS_CONCUBINE",
+   "acquired_at_verse": "GEN.35.22",
+   "acquired_in_event": "evt.gen_35.reuben_lies_with_bilhah"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.israel.vow.1",
+   "expired_at_verse": "GEN.35.7",
+   "expired_in_event": "evt.gen_35.altar_el_bethel"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.7",
+   "expired_at_verse": "GEN.35.5",
+   "expired_in_event": "evt.gen_35.journey_to_bethel"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_35.altar_built",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_35.altar_el_bethel",
+   "verse_start": "GEN.35.7",
+   "verse_end": "GEN.35.7",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [
+    "artifact.altar_el_bethel"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "vow_fulfilment",
+    "place_naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.ben_oni_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_35.rachel_dies_benjamin_born",
+   "verse_start": "GEN.35.18",
+   "verse_end": "GEN.35.18",
+   "initiator_entity_id": "person.rachel",
+   "target_entity_ids": [
+    "person.benjamin"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethlehem",
+   "tags": [
+    "child_name",
+    "dying_words"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.benjamin_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_35.rachel_dies_benjamin_born",
+   "verse_start": "GEN.35.18",
+   "verse_end": "GEN.35.18",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.benjamin"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethlehem",
+   "tags": [
+    "child_name",
+    "father_renames"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.command_to_go_up",
+   "system_id": "sys.divine_command",
+   "event_id": "evt.gen_35.god_commands_bethel",
+   "verse_start": "GEN.35.1",
+   "verse_end": "GEN.35.1",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "command",
+    "return_to_bethel"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.el_bethel_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_35.altar_el_bethel",
+   "verse_start": "GEN.35.7",
+   "verse_end": "GEN.35.7",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "loc.bethel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "place_name"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.god_appears_again",
+   "system_id": "sys.theophanic_appearance",
+   "event_id": "evt.gen_35.god_appears_renames",
+   "verse_start": "GEN.35.9",
+   "verse_end": "GEN.35.9",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "second_appearance",
+    "blessing"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.household_purification",
+   "system_id": "sys.ritual_purification",
+   "event_id": "evt.gen_35.purge_foreign_gods",
+   "verse_start": "GEN.35.2",
+   "verse_end": "GEN.35.4",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "group.jacobs_family"
+   ],
+   "artifact_entity_ids": [
+    "artifact.foreign_gods_of_household",
+    "artifact.earrings_of_household"
+   ],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "idols",
+    "washing_and_garments",
+    "pilgrimage_preparation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.isaac_buried",
+   "system_id": "sys.burial_in_family_tomb",
+   "event_id": "evt.gen_35.isaac_dies",
+   "verse_start": "GEN.35.29",
+   "verse_end": "GEN.35.29",
+   "initiator_entity_id": "person.esau",
+   "target_entity_ids": [
+    "person.isaac"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.hebron",
+   "tags": [
+    "gathered_to_his_people",
+    "sons_together"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.jacob_renamed_israel",
+   "system_id": "sys.divine_naming",
+   "event_id": "evt.gen_35.god_appears_renames",
+   "verse_start": "GEN.35.10",
+   "verse_end": "GEN.35.10",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "renaming",
+    "confirmation"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.pillar_anointed",
+   "system_id": "sys.pillar_consecration",
+   "event_id": "evt.gen_35.pillar_at_bethel",
+   "verse_start": "GEN.35.14",
+   "verse_end": "GEN.35.15",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [
+    "artifact.pillar_of_bethel_35",
+    "substance.drink_offering",
+    "substance.oil"
+   ],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "libation",
+    "oil",
+    "place_naming"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.promise_of_nations_and_land",
+   "system_id": "sys.divine_call_and_promise",
+   "event_id": "evt.gen_35.god_promise",
+   "verse_start": "GEN.35.11",
+   "verse_end": "GEN.35.12",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.bethel",
+   "tags": [
+    "el_shaddai",
+    "nations",
+    "kings",
+    "land"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_35.terror_on_cities",
+   "system_id": "sys.divine_terror",
+   "event_id": "evt.gen_35.journey_to_bethel",
+   "verse_start": "GEN.35.5",
+   "verse_end": "GEN.35.5",
+   "initiator_entity_id": "deity.yhwh",
+   "target_entity_ids": [
+    "group.cities_round_about"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "protection",
+    "no_pursuit"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_35.esau_buries_isaac",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "BURIES",
+   "verse_id": "GEN.35.29",
+   "event_id": "evt.gen_35.isaac_dies"
+  },
+  {
+   "edge_id": "edge.gen_35.god_blesses_jacob",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "BLESSES",
+   "verse_id": "GEN.35.9",
+   "event_id": "evt.gen_35.god_appears_renames"
+  },
+  {
+   "edge_id": "edge.gen_35.god_commands_jacob",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.35.1",
+   "event_id": "evt.gen_35.god_commands_bethel"
+  },
+  {
+   "edge_id": "edge.gen_35.god_promises_land",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "PROMISES",
+   "verse_id": "GEN.35.12",
+   "event_id": "evt.gen_35.god_promise"
+  },
+  {
+   "edge_id": "edge.gen_35.god_renames_jacob",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "person.israel",
+   "interaction_type": "RENAMES",
+   "verse_id": "GEN.35.10",
+   "event_id": "evt.gen_35.god_appears_renames"
+  },
+  {
+   "edge_id": "edge.gen_35.god_terrifies_cities",
+   "source_entity_id": "deity.yhwh",
+   "target_entity_id": "group.cities_round_about",
+   "interaction_type": "TERRIFIES",
+   "verse_id": "GEN.35.5",
+   "event_id": "evt.gen_35.journey_to_bethel"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_anoints_pillar",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "artifact.pillar_of_bethel_35",
+   "interaction_type": "CONSECRATES",
+   "verse_id": "GEN.35.14",
+   "event_id": "evt.gen_35.pillar_at_bethel"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_buries_isaac",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.isaac",
+   "interaction_type": "BURIES",
+   "verse_id": "GEN.35.29",
+   "event_id": "evt.gen_35.isaac_dies"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_commands_household",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.jacobs_family",
+   "interaction_type": "COMMANDS",
+   "verse_id": "GEN.35.2",
+   "event_id": "evt.gen_35.purge_foreign_gods"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_hides_idols",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "artifact.foreign_gods_of_household",
+   "interaction_type": "HIDES",
+   "verse_id": "GEN.35.4",
+   "event_id": "evt.gen_35.purge_foreign_gods"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_marks_rachels_grave",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "HONORS",
+   "verse_id": "GEN.35.20",
+   "event_id": "evt.gen_35.pillar_rachel_grave"
+  },
+  {
+   "edge_id": "edge.gen_35.jacob_names_benjamin",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.35.18",
+   "event_id": "evt.gen_35.rachel_dies_benjamin_born"
+  },
+  {
+   "edge_id": "edge.gen_35.midwife_comforts_rachel",
+   "source_entity_id": "person.midwife_of_rachel",
+   "target_entity_id": "person.rachel",
+   "interaction_type": "COMFORTS",
+   "verse_id": "GEN.35.17",
+   "event_id": "evt.gen_35.rachel_labor"
+  },
+  {
+   "edge_id": "edge.gen_35.rachel_names_ben_oni",
+   "source_entity_id": "person.rachel",
+   "target_entity_id": "person.benjamin",
+   "interaction_type": "NAMES",
+   "verse_id": "GEN.35.18",
+   "event_id": "evt.gen_35.rachel_dies_benjamin_born"
+  },
+  {
+   "edge_id": "edge.gen_35.reuben_lies_with_bilhah",
+   "source_entity_id": "person.reuben",
+   "target_entity_id": "person.bilhah",
+   "interaction_type": "LIES_WITH",
+   "verse_id": "GEN.35.22",
+   "event_id": "evt.gen_35.reuben_lies_with_bilhah"
+  }
+ ]
 }

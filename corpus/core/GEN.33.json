@@ -1,12 +1,64 @@
 {
  "chapter_ref": "GEN.33",
- "entities": [],
- "systems": [],
+ "entities": [
+  {
+   "entity_id": "artifact.altar_el_elohe_israel",
+   "entity_type": "ARTIFACT",
+   "source_script_name": "אֵל אֱלֹהֵי יִשְׂרָאֵל",
+   "transliterated_name": "ʾĒl ʾĕlōhê Yiśrāʾēl",
+   "first_mention_verse": "GEN.33.20"
+  },
+  {
+   "entity_id": "group.sons_of_hamor",
+   "entity_type": "GROUP",
+   "source_script_name": "בְּנֵי־חֲמוֹר",
+   "transliterated_name": "bənê-Ḥămôr",
+   "first_mention_verse": "GEN.33.19"
+  },
+  {
+   "entity_id": "loc.field_at_shechem",
+   "entity_type": "LOCATION",
+   "source_script_name": "חֶלְקַת הַשָּׂדֶה",
+   "transliterated_name": "ḥelqat haśśādeh",
+   "first_mention_verse": "GEN.33.19"
+  },
+  {
+   "entity_id": "loc.succoth",
+   "tipnr_id": "Succoth@Gen.33.17-Psa",
+   "entity_type": "LOCATION",
+   "source_script_name": "סֻכּוֹת",
+   "transliterated_name": "Sukkôt",
+   "first_mention_verse": "GEN.33.17"
+  },
+  {
+   "entity_id": "person.hamor",
+   "tipnr_id": "Hamor@Gen.33.19-Act",
+   "entity_type": "PERSON",
+   "source_script_name": "חֲמוֹר",
+   "transliterated_name": "Ḥămôr",
+   "first_mention_verse": "GEN.33.19"
+  },
+  {
+   "entity_id": "person.shechem",
+   "tipnr_id": "Shechem@Gen.33.19-",
+   "entity_type": "PERSON",
+   "source_script_name": "שְׁכֶם",
+   "transliterated_name": "Šəḵem",
+   "first_mention_verse": "GEN.33.19"
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.land_purchase",
+   "category": "LEGAL_CUSTOM"
+  }
+ ],
  "events": [
   {
    "event_id": "evt.gen_33.esau_approaches",
    "verse_start": "GEN.33.1",
    "verse_end": "GEN.33.2",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_32.sunrise_limping",
     "anchor_point": "END",
@@ -20,12 +72,50 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.men_of_esau",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "PATIENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.jacob_bows_esau_embraces",
    "verse_start": "GEN.33.3",
    "verse_end": "GEN.33.4",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_33.esau_approaches",
     "anchor_point": "END",
@@ -39,12 +129,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "group.men_of_esau",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.family_presented",
    "verse_start": "GEN.33.5",
    "verse_end": "GEN.33.7",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_33.jacob_bows_esau_embraces",
     "anchor_point": "END",
@@ -58,12 +166,50 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.bilhah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.joseph",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.leah",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.rachel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.zilpah",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.gift_accepted",
    "verse_start": "GEN.33.8",
    "verse_end": "GEN.33.11",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_33.family_presented",
     "anchor_point": "END",
@@ -77,12 +223,30 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.gift_for_esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.escort_declined",
    "verse_start": "GEN.33.12",
    "verse_end": "GEN.33.15",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_33.gift_accepted",
     "anchor_point": "END",
@@ -96,12 +260,38 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.flock_of_jacob",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "group.men_of_esau",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "loc.seir",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.esau_returns_to_seir",
    "verse_start": "GEN.33.16",
    "verse_end": "GEN.33.16",
+   "location_entity_id": "loc.peniel",
    "time": {
     "anchor": "evt.gen_33.escort_declined",
     "anchor_point": "END",
@@ -115,12 +305,26 @@
     },
     "precision_tier": "DAY_SEQUENCE"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.men_of_esau",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.seir",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.esau",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.jacob_settles_succoth",
    "verse_start": "GEN.33.17",
    "verse_end": "GEN.33.17",
+   "location_entity_id": "loc.succoth",
    "time": {
     "anchor": "evt.gen_33.escort_declined",
     "anchor_point": "END",
@@ -138,12 +342,26 @@
     },
     "precision_tier": "SEASONAL_MONTH"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.flock_of_jacob",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.jacob_arrives_shechem",
    "verse_start": "GEN.33.18",
    "verse_end": "GEN.33.18",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_33.jacob_settles_succoth",
     "anchor_point": "END",
@@ -157,12 +375,30 @@
     },
     "precision_tier": "SEASONAL_MONTH"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.jacobs_family",
+     "role": "PRESENT"
+    },
+    {
+     "entity_id": "loc.canaan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "loc.paddan",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.field_bought",
    "verse_start": "GEN.33.19",
    "verse_end": "GEN.33.19",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_33.jacob_arrives_shechem",
     "anchor_point": "END",
@@ -176,12 +412,34 @@
     },
     "precision_tier": "SEASONAL_MONTH"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "group.sons_of_hamor",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "loc.field_at_shechem",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "person.hamor",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    },
+    {
+     "entity_id": "person.shechem",
+     "role": "MENTIONED"
+    }
+   ]
   },
   {
    "event_id": "evt.gen_33.altar_el_elohe_israel",
    "verse_start": "GEN.33.20",
    "verse_end": "GEN.33.20",
+   "location_entity_id": "loc.shechem",
    "time": {
     "anchor": "evt.gen_33.field_bought",
     "anchor_point": "END",
@@ -195,7 +453,20 @@
     },
     "precision_tier": "SEASONAL_MONTH"
    },
-   "participants": []
+   "participants": [
+    {
+     "entity_id": "artifact.altar_el_elohe_israel",
+     "role": "PATIENT"
+    },
+    {
+     "entity_id": "deity.yhwh",
+     "role": "MENTIONED"
+    },
+    {
+     "entity_id": "person.israel",
+     "role": "AGENT"
+    }
+   ]
   }
  ],
  "causal_edges": [
@@ -228,8 +499,295 @@
    "confidence": 0.8
   }
  ],
- "components": [],
- "component_closures": [],
- "system_instances": [],
- "edges": []
+ "components": [
+  {
+   "component_id": "comp.altar_el_elohe_israel.dedicated_to.1",
+   "entity_id": "artifact.altar_el_elohe_israel",
+   "category": "ALLEGIANCE",
+   "component_key": "dedicated_to",
+   "target_entity_id": "deity.yhwh",
+   "acquired_at_verse": "GEN.33.20",
+   "acquired_in_event": "evt.gen_33.altar_el_elohe_israel"
+  },
+  {
+   "component_id": "comp.esau.mood.3",
+   "entity_id": "person.esau",
+   "category": "PSYCH_STATE",
+   "component_key": "mood",
+   "value_code": "RECONCILED_WITH_JACOB",
+   "supersedes_component_id": "comp.esau.mood.2",
+   "acquired_at_verse": "GEN.33.4",
+   "acquired_in_event": "evt.gen_33.jacob_bows_esau_embraces"
+  },
+  {
+   "component_id": "comp.esau.whereabouts.1",
+   "entity_id": "person.esau",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.seir",
+   "acquired_at_verse": "GEN.33.16",
+   "acquired_in_event": "evt.gen_33.esau_returns_to_seir"
+  },
+  {
+   "component_id": "comp.gift_for_esau.holder.2",
+   "entity_id": "artifact.gift_for_esau",
+   "category": "POSSESSION",
+   "component_key": "holder",
+   "target_entity_id": "person.esau",
+   "supersedes_component_id": "comp.gift_for_esau.holder.1",
+   "acquired_at_verse": "GEN.33.11",
+   "acquired_in_event": "evt.gen_33.gift_accepted"
+  },
+  {
+   "component_id": "comp.israel.land_holding.1",
+   "entity_id": "person.israel",
+   "category": "POSSESSION",
+   "component_key": "land_holding",
+   "target_entity_id": "loc.field_at_shechem",
+   "acquired_at_verse": "GEN.33.19",
+   "acquired_in_event": "evt.gen_33.field_bought"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.6",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.succoth",
+   "supersedes_component_id": "comp.israel.whereabouts.5",
+   "acquired_at_verse": "GEN.33.17",
+   "acquired_in_event": "evt.gen_33.jacob_settles_succoth",
+   "expired_at_verse": "GEN.33.18",
+   "expired_in_event": "evt.gen_33.jacob_arrives_shechem"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.7",
+   "entity_id": "person.israel",
+   "category": "LOCATION_STATE",
+   "component_key": "whereabouts",
+   "target_entity_id": "loc.shechem",
+   "supersedes_component_id": "comp.israel.whereabouts.6",
+   "acquired_at_verse": "GEN.33.18",
+   "acquired_in_event": "evt.gen_33.jacob_arrives_shechem"
+  }
+ ],
+ "component_closures": [
+  {
+   "component_id": "comp.esau.mood.2",
+   "expired_at_verse": "GEN.33.4",
+   "expired_in_event": "evt.gen_33.jacob_bows_esau_embraces"
+  },
+  {
+   "component_id": "comp.gift_for_esau.holder.1",
+   "expired_at_verse": "GEN.33.11",
+   "expired_in_event": "evt.gen_33.gift_accepted"
+  },
+  {
+   "component_id": "comp.israel.fear.1",
+   "expired_at_verse": "GEN.33.4",
+   "expired_in_event": "evt.gen_33.jacob_bows_esau_embraces"
+  },
+  {
+   "component_id": "comp.israel.whereabouts.5",
+   "expired_at_verse": "GEN.33.17",
+   "expired_in_event": "evt.gen_33.jacob_settles_succoth"
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_33.altar_set_up",
+   "system_id": "sys.altar_building",
+   "event_id": "evt.gen_33.altar_el_elohe_israel",
+   "verse_start": "GEN.33.20",
+   "verse_end": "GEN.33.20",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "deity.yhwh"
+   ],
+   "artifact_entity_ids": [
+    "artifact.altar_el_elohe_israel"
+   ],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "named_altar",
+    "El_God_of_Israel"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.bowing_seven_times",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces",
+   "verse_start": "GEN.33.3",
+   "verse_end": "GEN.33.3",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "seven_times",
+    "to_the_ground",
+    "approach"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.embrace",
+   "system_id": "sys.reconciliation_embrace",
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces",
+   "verse_start": "GEN.33.4",
+   "verse_end": "GEN.33.4",
+   "initiator_entity_id": "person.esau",
+   "target_entity_ids": [
+    "person.israel"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "running",
+    "falling_on_neck",
+    "kiss",
+    "weeping"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.family_bows",
+   "system_id": "sys.obeisance",
+   "event_id": "evt.gen_33.family_presented",
+   "verse_start": "GEN.33.6",
+   "verse_end": "GEN.33.7",
+   "initiator_entity_id": "group.jacobs_family",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [],
+   "tags": [
+    "maidservants_first",
+    "leah_next",
+    "joseph_and_rachel_last"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.field_bought",
+   "system_id": "sys.land_purchase",
+   "event_id": "evt.gen_33.field_bought",
+   "verse_start": "GEN.33.19",
+   "verse_end": "GEN.33.19",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "group.sons_of_hamor",
+    "loc.field_at_shechem"
+   ],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.shechem",
+   "tags": [
+    "hundred_qesitah",
+    "first_land_in_canaan"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.gift_accepted",
+   "system_id": "sys.appeasement_gift",
+   "event_id": "evt.gen_33.gift_accepted",
+   "verse_start": "GEN.33.10",
+   "verse_end": "GEN.33.11",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [
+    "person.esau"
+   ],
+   "artifact_entity_ids": [
+    "artifact.gift_for_esau"
+   ],
+   "tags": [
+    "urged",
+    "accepted_after_refusal"
+   ]
+  },
+  {
+   "instance_id": "inst.gen_33.succoth_named",
+   "system_id": "sys.naming_by_man",
+   "event_id": "evt.gen_33.jacob_settles_succoth",
+   "verse_start": "GEN.33.17",
+   "verse_end": "GEN.33.17",
+   "initiator_entity_id": "person.israel",
+   "target_entity_ids": [],
+   "artifact_entity_ids": [],
+   "location_entity_id": "loc.succoth",
+   "tags": [
+    "place_name",
+    "from_shelters"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_33.esau_embraces_jacob",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.israel",
+   "interaction_type": "EMBRACES",
+   "verse_id": "GEN.33.4",
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces"
+  },
+  {
+   "edge_id": "edge.gen_33.esau_offers_escort",
+   "source_entity_id": "person.esau",
+   "target_entity_id": "person.israel",
+   "interaction_type": "OFFERS_ESCORT",
+   "verse_id": "GEN.33.12",
+   "event_id": "evt.gen_33.escort_declined"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_bows_to_esau",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "BOWS_TO",
+   "verse_id": "GEN.33.3",
+   "event_id": "evt.gen_33.jacob_bows_esau_embraces"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_buys_field",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.sons_of_hamor",
+   "interaction_type": "BUYS_FROM",
+   "verse_id": "GEN.33.19",
+   "event_id": "evt.gen_33.field_bought"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_declines_escort",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "DECLINES",
+   "verse_id": "GEN.33.13",
+   "event_id": "evt.gen_33.escort_declined"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_divides_children",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "group.jacobs_family",
+   "interaction_type": "DIVIDES",
+   "verse_id": "GEN.33.1",
+   "event_id": "evt.gen_33.esau_approaches"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_gives_gift",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "GIVES_TO",
+   "verse_id": "GEN.33.11",
+   "event_id": "evt.gen_33.gift_accepted"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_presents_family",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "person.esau",
+   "interaction_type": "PRESENTS_FAMILY_TO",
+   "verse_id": "GEN.33.5",
+   "event_id": "evt.gen_33.family_presented"
+  },
+  {
+   "edge_id": "edge.gen_33.jacob_worships_god",
+   "source_entity_id": "person.israel",
+   "target_entity_id": "deity.yhwh",
+   "interaction_type": "WORSHIPS",
+   "verse_id": "GEN.33.20",
+   "event_id": "evt.gen_33.altar_el_elohe_israel"
+  }
+ ]
 }

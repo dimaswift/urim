@@ -1,6 +1,394 @@
 {
  "chapter_ref": "GEN.49",
  "items": {
+  "closure:comp.israel.health.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "closure:comp.israel.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.burial_wish.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Left open: the wish is carried out in Genesis 50."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.israel.life.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Closes comp.israel.life.1 (NEAR_DEATH) and comp.israel.health.1 (ILL) at 49:33. Jacob remains the patriarch Israel (person.israel); 'Jacob' in the text is the same entity."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.joseph.blessing.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.judah.sovereignty.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.leah.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Inferred: Leah's death is not narrated; 49:31 says Jacob buried her at Machpelah, so the state opens here as DEAD (first evidence), not at the unreported time of death."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.levi.dispersal.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.reuben.preeminence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "component:comp.simeon.dispersal.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Prospective states from a prophetic utterance (Reuben, Simeon, Levi, Judah, Joseph) are recorded as the status the oracle assigns, not as accomplished facts."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": "[consider] Anchor the edge at GEN.49.26 and describe it as Jacob setting his blessings, greater than his forefathers', on Joseph's head; optionally add a BLESSES edge from deity.yhwh at GEN.49.25. (GEN.49.25: \"by the Almighty, who shall bless thee with blessings of heaven above\"; GEN.49.26: \"The blessings of thy father ... shall be on the head of Joseph\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_blesses_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_buried_leah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_charges_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_curses_levi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": "[consider] As for Simeon's edge. (GEN.49.7: \"Cursed be their anger, for it was fierce\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_curses_simeon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": "[consider] Keep the label 'curses the anger of'; consider REBUKES or a description that states the curse falls on their anger. (GEN.49.7: \"Cursed be their anger, for it was fierce; and their wrath, for it was cruel\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_exalts_judah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_rebukes_reuben": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.israel_summons_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "edge:edge.gen_49.yhwh_helps_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
   "event:evt.gen_49.benjamin_and_summary": {
    "status": "approved",
    "produced_by": {
@@ -139,6 +527,250 @@
     }
    ],
    "source": null
+  },
+  "event_links:evt.gen_49.benjamin_and_summary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "The 'archers' of 49:23 are not named; I left them out of participants and edges (the brothers? Egyptians? unclear). God's help in 49:24-25 is recorded as an edge from deity.yhwh ('Mighty One of Jacob', 'God of your father', Shaddai) and as MENTIONED, since the speech invokes him rather than showing him act."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.burial_charge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:20:33+00:00",
+   "agent_notes": [
+    "Per reviewer request: group.hittites added as MENTIONED (the sellers of 49:32, 'children of Heth', and the people of Ephron the Hittite, 49:29-30); person.heth kept as MENTIONED for the ancestor's name, as in GEN.23."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": "[should_fix] Add group.hittites as a MENTIONED participant of evt.gen_49.burial_charge (the sellers of 49:32 and the people of 'Ephron the Hittite', 49:29-30); keep person.heth as MENTIONED for the name, as GEN.23 does. (GEN.49.32: \"The purchase of the field and of the cave that is therein was from the children of Heth.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:21:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.jacob_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.jacob_summons_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Place is Goshen, carried over from 46.28 and 47.27 (Jacob dwells there); chapter 49 itself names no place. Same for all events of the chapter."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.oracles_first_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Jacob speaks to the sons as individuals but the sayings are tribal forecasts; entities are the sons (person.*), not tribe groups. No tribe-group entities exist in the corpus."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "event_links:evt.gen_49.oracles_other_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_49.benjamin_oracle": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_49.blessing_of_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": "[consider] Optionally mention in the significance note that 49:28 counts all the sayings as blessings. (GEN.49.28: \"every one according to his blessing he blessed them\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_49.burial_charge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_49.oracles_first_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [
+    "Reused sys.patriarchal_pronouncement (GEN.9) for all the deathbed sayings and sys.patriarchal_blessing (GEN.27) for Joseph; no system defined here. The blessing of Joseph is the only saying framed as a blessing; v.28 calls all of them blessings."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "instance:inst.gen_49.oracles_other_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T11:18:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T11:19:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
   }
  },
  "notes": [
@@ -195,6 +827,96 @@
     "run": "main"
    },
    "at": "2026-11-02T14:06:09+00:00"
+  },
+  {
+   "note": "No new entities. 'Shiloh' (49:10) is not made a person.shiloh entity, although the registry proposes one: the word is disputed (a place, a name, 'he to whom it belongs', 'tribute') and a messianic reading would be an interpretive claim. The philologist can treat it in commentary.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:18:20+00:00"
+  },
+  {
+   "note": "No new entities. 'Shiloh' (49:10) is not made a person.shiloh entity, although the registry proposes one: the word is disputed (a place, a name, 'he to whom it belongs', 'tribute') and a messianic reading would be an interpretive claim. The philologist can treat it in commentary.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_49.jacob_summons_sons] Place is Goshen, carried over from 46.28 and 47.27 (Jacob dwells there); chapter 49 itself names no place. Same for all events of the chapter.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_49.oracles_first_sons] Jacob speaks to the sons as individuals but the sayings are tribal forecasts; entities are the sons (person.*), not tribe groups. No tribe-group entities exist in the corpus.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[event_links:evt.gen_49.blesses_joseph] The 'archers' of 49:23 are not named; I left them out of participants and edges (the brothers? Egyptians? unclear). God's help in 49:24-25 is recorded as an edge from deity.yhwh ('Mighty One of Jacob', 'God of your father', Shaddai) and as MENTIONED, since the speech invokes him rather than showing him act.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[component:comp.leah.life.1] Inferred: Leah's death is not narrated; 49:31 says Jacob buried her at Machpelah, so the state opens here as DEAD (first evidence), not at the unreported time of death.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[component:comp.israel.life.2] Closes comp.israel.life.1 (NEAR_DEATH) and comp.israel.health.1 (ILL) at 49:33. Jacob remains the patriarch Israel (person.israel); 'Jacob' in the text is the same entity.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[component:comp.israel.burial_wish.1] Left open: the wish is carried out in Genesis 50.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[component:comp.simeon.dispersal.1] Prospective states from a prophetic utterance (Reuben, Simeon, Levi, Judah, Joseph) are recorded as the status the oracle assigns, not as accomplished facts.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
+  },
+  {
+   "note": "[instance:inst.gen_49.oracles_first_sons] Reused sys.patriarchal_pronouncement (GEN.9) for all the deathbed sayings and sys.patriarchal_blessing (GEN.27) for Joseph; no system defined here. The blessing of Joseph is the only saying framed as a blessing; v.28 calls all of them blessings.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-ontologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T11:20:33+00:00"
   }
  ]
 }

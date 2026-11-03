@@ -142,9 +142,223 @@
    "causal_explanation": "Having accepted, Shechem and Hamor go to the gate to persuade the men (34:19–20)."
   }
  ],
- "entities": [],
- "components": [],
+ "entities": [
+  {
+   "entity_id": "group.daughters_of_the_land",
+   "canonical_name": "Daughters of the Land",
+   "phonetic_name": "benot ha'arets",
+   "aliases": [],
+   "etymology_meaning": "A descriptive name: the young women of the local population.",
+   "summary_bio": "The local women Dinah goes out to see, whose society she seeks just before Shechem seizes her."
+  },
+  {
+   "entity_id": "group.dependents_of_shechem",
+   "canonical_name": "Women and Children of Shechem",
+   "phonetic_name": "nashim ve-taf",
+   "aliases": [
+    "their little ones and their wives"
+   ],
+   "etymology_meaning": "A descriptive name: the families of the slain men.",
+   "summary_bio": "The wives and little ones of the men of Shechem, taken captive by Jacob's sons together with the city's wealth."
+  },
+  {
+   "entity_id": "group.men_of_shechem",
+   "canonical_name": "Men of Shechem",
+   "phonetic_name": "anshei ir",
+   "aliases": [
+    "those who went out of the gate of his city"
+   ],
+   "etymology_meaning": "A descriptive name: the adult men of Hamor's city.",
+   "summary_bio": "The male citizens of the city of Shechem. They accept Hamor and Shechem's argument, are circumcised, and are killed on the third day while still in pain."
+  },
+  {
+   "entity_id": "group.sons_of_jacob",
+   "canonical_name": "Sons of Jacob",
+   "phonetic_name": "benei ya'aqov",
+   "aliases": [
+    "Jacob's sons",
+    "Dinah's brothers"
+   ],
+   "etymology_meaning": "A descriptive group name: the sons of Jacob (Israel).",
+   "summary_bio": "Jacob's sons, Dinah's brothers, tend the livestock in the field when Dinah is violated. They return furious, answer Hamor and Shechem with deceit, and after their massacre of Shechem they plunder the city."
+  },
+  {
+   "entity_id": "loc.gate_of_shechem",
+   "canonical_name": "Gate of Shechem",
+   "phonetic_name": "sha'ar ir",
+   "aliases": [
+    "the gate of their city"
+   ],
+   "etymology_meaning": "The city gate, the ancient place of public assembly and business.",
+   "summary_bio": "The gate of the city of Shechem, where Hamor and Shechem put the circumcision terms to the assembled men."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.dependents_of_shechem.captor.1",
+   "label_key": "Captivity",
+   "label_value": "Captives of Jacob's sons",
+   "evidence_explanation": "34:29 says the sons of Jacob took captive all the little ones and wives of the city."
+  },
+  {
+   "component_id": "comp.dinah.confinement.1",
+   "label_key": "Confinement",
+   "label_value": "Held in Shechem's house",
+   "evidence_explanation": "34:2 says Shechem took her; 34:26 says her brothers took her out of Shechem's house."
+  },
+  {
+   "component_id": "comp.dinah.defilement.1",
+   "label_key": "Standing",
+   "label_value": "Defiled",
+   "evidence_explanation": "34:2 says Shechem took her, lay with her and humiliated her; 34:5, 34:13 and 34:27 call her 'defiled'."
+  },
+  {
+   "component_id": "comp.hamor.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "34:26 says Hamor was killed with the edge of the sword."
+  },
+  {
+   "component_id": "comp.israel.reputation.1",
+   "label_key": "Reputation",
+   "label_value": "Odious among the land's inhabitants",
+   "evidence_explanation": "34:30 has Jacob say his sons have made him a stench among the Canaanites and Perizzites."
+  },
+  {
+   "component_id": "comp.israel.silence.1",
+   "label_key": "Mood",
+   "label_value": "Silent",
+   "evidence_explanation": "34:5 says Jacob kept silent until his sons came."
+  },
+  {
+   "component_id": "comp.men_of_shechem.circumcision.1",
+   "label_key": "Circumcision",
+   "label_value": "Every male circumcised",
+   "evidence_explanation": "34:24 says every male who went out of the city gate was circumcised."
+  },
+  {
+   "component_id": "comp.men_of_shechem.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "34:25 says Simeon and Levi came upon the city and slew all the males; 34:27 says the sons of Jacob came upon the slain."
+  },
+  {
+   "component_id": "comp.shechem.devotion.1",
+   "label_key": "Devotion",
+   "label_value": "Cleaving to Dinah",
+   "evidence_explanation": "34:3 says his soul clung to Dinah and he loved the girl; 34:19 says he delighted in her."
+  },
+  {
+   "component_id": "comp.shechem.life.1",
+   "label_key": "Life",
+   "label_value": "Dead",
+   "evidence_explanation": "34:26 says Simeon and Levi killed Shechem with the edge of the sword."
+  },
+  {
+   "component_id": "comp.sons_of_jacob.mood.1",
+   "label_key": "Mood",
+   "label_value": "Indignant and furious",
+   "evidence_explanation": "34:7 says the men were grieved and 'it burned to them exceedingly' over the folly done in Israel."
+  }
+ ],
  "systems": [],
- "system_instances": [],
- "edges": []
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_34.bride_price_offer",
+   "outcome_summary": "Shechem offers any bride-price and gift the family names for Dinah.",
+   "significance_note": "The open-ended offer shows his willingness to pay, which the sons turn into a demand for circumcision."
+  },
+  {
+   "instance_id": "inst.gen_34.massacre_of_shechem",
+   "outcome_summary": "Simeon and Levi kill every male of Shechem, including Hamor and Shechem, and take Dinah out of Shechem's house.",
+   "significance_note": "The reprisal breaks the agreement and draws Jacob's condemnation here and, later, his curse of their anger (Gen 49:5-7)."
+  },
+  {
+   "instance_id": "inst.gen_34.sack_of_shechem",
+   "outcome_summary": "Jacob's sons plunder the city's flocks, herds, wealth and houses and take the women and children captive.",
+   "significance_note": "The sons' justification is the wrong done to their sister, but the plunder extends well beyond that wrong."
+  },
+  {
+   "instance_id": "inst.gen_34.shechem_proposal",
+   "outcome_summary": "Hamor asks Jacob's family to give Dinah to Shechem and to intermarry freely, offering the land to live and trade in.",
+   "significance_note": "The proposal comes after the rape, turning violation into a marriage offer; it sets the terms of the sons' deception."
+  },
+  {
+   "instance_id": "inst.gen_34.shechemites_circumcised",
+   "outcome_summary": "All the males of the city are circumcised, as the sons of Jacob demanded.",
+   "significance_note": "The covenant sign of Gen 17 is used as a trap: the men are in pain and defenceless on the third day."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_34.hamor_persuades_men",
+   "interaction_label": "persuades",
+   "description": "Hamor persuades the men at the city gate to be circumcised, pointing to the wealth they would gain."
+  },
+  {
+   "edge_id": "edge.gen_34.hamor_proposes_to_jacob",
+   "interaction_label": "proposes marriage to",
+   "description": "Hamor asks Jacob and his sons to give Dinah to Shechem and to intermarry with his people."
+  },
+  {
+   "edge_id": "edge.gen_34.jacob_rebukes_levi",
+   "interaction_label": "rebukes",
+   "description": "Jacob tells Levi he has troubled him and made him odious among the Canaanites and Perizzites."
+  },
+  {
+   "edge_id": "edge.gen_34.jacob_rebukes_simeon",
+   "interaction_label": "rebukes",
+   "description": "Jacob tells Simeon he has troubled him and made him odious among the Canaanites and Perizzites."
+  },
+  {
+   "edge_id": "edge.gen_34.levi_kills_hamor",
+   "interaction_label": "kills",
+   "description": "Levi kills Hamor with the edge of the sword."
+  },
+  {
+   "edge_id": "edge.gen_34.levi_kills_males",
+   "interaction_label": "kills",
+   "description": "Levi takes his sword and kills every male of the city."
+  },
+  {
+   "edge_id": "edge.gen_34.levi_takes_dinah",
+   "interaction_label": "rescues",
+   "description": "Levi takes Dinah out of Shechem's house."
+  },
+  {
+   "edge_id": "edge.gen_34.shechem_asks_hamor",
+   "interaction_label": "commands",
+   "description": "Shechem tells his father Hamor to get him Dinah as a wife."
+  },
+  {
+   "edge_id": "edge.gen_34.shechem_violates_dinah",
+   "interaction_label": "violates",
+   "description": "Shechem seizes Dinah, lies with her and humiliates her."
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_kills_males",
+   "interaction_label": "kills",
+   "description": "Simeon takes his sword and kills every male of the city."
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_kills_shechem",
+   "interaction_label": "kills",
+   "description": "Simeon kills Shechem with the edge of the sword."
+  },
+  {
+   "edge_id": "edge.gen_34.simeon_levi_take_dinah",
+   "interaction_label": "rescues",
+   "description": "Simeon takes Dinah out of Shechem's house."
+  },
+  {
+   "edge_id": "edge.gen_34.sons_deceive_shechem",
+   "interaction_label": "deceives",
+   "description": "Jacob's sons answer Shechem and Hamor with deceit, making circumcision the condition."
+  },
+  {
+   "edge_id": "edge.gen_34.sons_take_captives",
+   "interaction_label": "captures",
+   "description": "Jacob's sons take the women and little ones of Shechem captive."
+  }
+ ]
 }
