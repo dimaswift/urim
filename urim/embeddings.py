@@ -4,6 +4,11 @@ bge-m3 runs through ONNX Runtime from pinned files (`urim model fetch`). The int
 bge-m3's own CLS pooling and normalization, so a text goes in and a unit vector comes out. The
 linker caches vectors by text hash, so a relink embeds only what changed. Each bundle records
 the model it was built with, and a query is embedded only by that same model.
+
+The export quantizes activations dynamically, one scale per tensor, so in a batch a text's
+vector would shift with its batch mates and padding (cosine about 0.99 to itself alone). Texts
+therefore run one at a time: the same text always gets the same vector, whatever else is
+embedded with it, and a cache filled over many relinks matches one filled at once.
 """
 
 from __future__ import annotations
@@ -17,12 +22,12 @@ from functools import cache
 from pathlib import Path
 from typing import Protocol
 
-MODEL_ID = "bge-m3-int8@4de1325"
+# "+unbatched": vectors from before texts ran one at a time differ, so they get their own cache.
+MODEL_ID = "bge-m3-int8@4de1325+unbatched"
 MODEL_DIR = "models/bge-m3"
 MODEL_FILE = "sentence_transformers_int8.onnx"
 TOKENIZER_FILE = "tokenizer.json"
 MAX_TOKENS = 1024  # bge-m3 reads 8192, but verses and dossiers fit in far less
-BATCH = 8
 
 
 class Embedder(Protocol):
@@ -44,8 +49,6 @@ class OnnxEmbedder:
         self.model_id = MODEL_ID
         self.tokenizer = Tokenizer.from_file(str(model_dir / TOKENIZER_FILE))
         self.tokenizer.enable_truncation(MAX_TOKENS)
-        pad = self.tokenizer.token_to_id("<pad>")
-        self.tokenizer.enable_padding(pad_id=pad, pad_token="<pad>")
         options = ort.SessionOptions()
         options.log_severity_level = 3
         self.session = ort.InferenceSession(
@@ -59,15 +62,12 @@ class OnnxEmbedder:
 
     def embed(self, texts: Sequence[str]) -> list[bytes]:
         np = self._np
-        vectors: list[bytes] = [b""] * len(texts)
-        order = sorted(range(len(texts)), key=lambda i: len(texts[i]))  # less padding
-        for start in range(0, len(order), BATCH):
-            batch = order[start : start + BATCH]
-            encoded = self.tokenizer.encode_batch([texts[i] for i in batch])
-            ids = np.array([e.ids for e in encoded], dtype=np.int64)
+        vectors: list[bytes] = []
+        for encoded in self.tokenizer.encode_batch(list(texts)):  # one text per run, no padding
+            ids = np.array([encoded.ids], dtype=np.int64)
             feed = {
                 "input_ids": ids,
-                "attention_mask": np.array([e.attention_mask for e in encoded], dtype=np.int64),
+                "attention_mask": np.array([encoded.attention_mask], dtype=np.int64),
             }
             if "token_type_ids" in self.inputs:
                 feed["token_type_ids"] = np.zeros_like(ids)
@@ -75,9 +75,8 @@ class OnnxEmbedder:
                 out = self.session.run([self.output], feed)[0]
             if out.ndim == 3:  # token states: bge-m3 pools on the CLS token
                 out = out[:, 0]
-            out = out / np.linalg.norm(out, axis=1, keepdims=True)
-            for i, v in zip(batch, out, strict=True):
-                vectors[i] = v.astype("<f4").tobytes()
+            v = out[0] / np.linalg.norm(out[0])
+            vectors.append(v.astype("<f4").tobytes())
         return vectors
 
 

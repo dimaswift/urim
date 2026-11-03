@@ -369,6 +369,15 @@ A public, read-only copy of both apps, rebuilt from the corpus on every push (20
 - [x] Relative asset URLs (`base: "./"`), so the same build serves at `/` and under `/urim/`
 - [x] `.github/workflows/pages.yml`: pinned sources and embeddings cached, ingest without
       commentaries, model fetch, build, `urim site --vectors`, deploy
+- [x] Vectors that depend only on their text. The int8 export quantizes activations per batch
+      tensor (96 `DynamicQuantizeLinear` nodes), so batch mates and padding each moved a vector
+      (cosine about 0.99 to itself alone), and the Pages copy, embedded cold in CI, disagreed
+      with the local cache filled over many relinks: top-8 similar items matched only 86%.
+      Texts now run one at a time (`bge-m3-int8@4de1325+unbatched`, a fresh cache): identical
+      bytes in any batch, no slower (cold corpus of 3,533 texts within 5%; interleaved
+      samples 17% faster, with no padding), and English finds its Russian twin first as often
+      (96.7%). Padding to a fixed length alone would not help; an fp32 model would need a
+      re-pin and a 2.2 GB download
 - [ ] Later: a CI job for the tests; Learn on the static copy with answers kept in the browser
 
 ## Open questions

@@ -393,7 +393,9 @@ entities of the item's type. The model is **bge-m3** (int8 ONNX, 1024 dimensions
 multilingual, so a Russian query finds English text), pinned in `sources.lock.json` and
 installed with `urim model fetch`; its runtime (ONNX Runtime, tokenizers, sqlite-vec) is the
 optional extra `urim[search]`. Linking caches vectors by text hash, so relinks embed only
-what changed.
+what changed. Texts are embedded one at a time: the int8 model scales its activations per
+batch, so batching would make a text's vector depend on what was embedded with it, and a
+cache filled over many relinks would disagree with one filled at once (as on Pages).
 
 REST routes: `/languages`, `/verses/{ref}`, `/chapters/{book}/{ch}`, `/entities/{id}`,
 `/systems/{id}`, `/timeline`, `/events/{id}/causal-chain`, `/search`,

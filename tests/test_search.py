@@ -112,9 +112,12 @@ def test_review_app_serves_similar_items_and_a_console_schema(vector_bundles):
     assert not any("vectors" in t["table"] for t in schema.json())
 
 
-@pytest.mark.skipif(
+needs_bge_m3 = pytest.mark.skipif(
     unavailable(load_paths().sources) is not None, reason="bge-m3 not installed (urim model fetch)"
 )
+
+
+@needs_bge_m3
 def test_bge_m3_puts_paraphrases_and_translations_close():
     embedder = load_embedder(load_paths().sources)
     texts = [
@@ -127,3 +130,20 @@ def test_bge_m3_puts_paraphrases_and_translations_close():
     cos = [sum(a * b for a, b in zip(v[0], x, strict=True)) for x in v]
     assert embedder.dims == 1024 and abs(cos[0] - 1) < 1e-3
     assert cos[3] > cos[1] > cos[2]  # translation, then paraphrase, then another scene
+
+
+@needs_bge_m3
+def test_bge_m3_embeds_a_text_the_same_alone_and_in_a_batch():
+    # The int8 export scales activations per tensor, so batch mates and padding could move a
+    # vector; the cache and the Pages copy rely on a text always getting the same one.
+    embedder = load_embedder(load_paths().sources)
+    text = "The ravens brought him bread and meat in the morning and in the evening."
+    mates = [
+        "Rain.",
+        "And it came to pass after a while, that the brook dried up, because there had been no"
+        " rain in the land. And the word of the LORD came unto him, saying, Arise.",
+        "Ахав пересказал Иезавели всё, что сделал Илия.",
+    ]
+    alone = embedder.embed([text])[0]
+    assert embedder.embed([*mates, text])[-1] == alone
+    assert embedder.embed([text, *reversed(mates)])[0] == alone
