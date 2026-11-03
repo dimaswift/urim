@@ -1,0 +1,451 @@
+{
+ "chapter_ref": "PS.72",
+ "items": {
+  "verse.en:PS.72.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 carries both the superscription and the first petition; KJV splits them as 72:0 and 72:1. I translated the whole Hebrew verse. The lamed in lishlomoh is ambiguous (for / of / concerning Solomon); I kept the neutral 'Of Solomon' in the literal layer and noted the options in the commentary.",
+    "The jussive reading of the petitions (give / may he judge) follows the imperative 'ten' in verse 1; verbs in vv. 2-17 are imperfects that can be read as wishes or as promises. Four of the five English versions split (KJV/ASV/Webster future, BBE jussive). I chose a wishing voice in the dramatic layer and kept the literal layer tense-neutral ('he judges / will judge')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [
+    "yashivu (he returns) in the sense 'render, pay back' is why ASV and YLT use 'render/send back'; KJV 'bring' loses the verb. The gloss follows 'they will pay (back)'. Radak and Metzudat David explain it as repeated tribute."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:17:09+00:00",
+   "agent_notes": [
+    "Revised per the request: both verbs are shown to serve for homage to a king and for worship of God. The messianic reading is attributed to the Targum (v. 1) and Radak, not to these verbs. I cite the Radak comments in the packet (on v. 5 and v. 7), since his comment on v. 1 is not in the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[should_fix] Say that both verbs are used for homage to kings and for worship of God. Attribute the messianic reading to the Targum and Radak on v. 1, not to these verbs. (PS.72.11 Targum: \"וְיִסְגְדוּן לֵיהּ כָּל מַלְכַיָא כָּל עַמְמַיָא יִשְׁתַּעְבְּדוּן לֵיהּ\"; PS.72.1 Targum: \"לְמַלְכָּא מְשִׁיחָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:06+00:00",
+     "note": "[consider] Soften to 'the context of tribute favours political subjection' so that the note agrees with the commentary. (PS.72.11: \"כָּל־גּוֹיִם יַעַבְדוּהוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Say that the root 'zr gives God's title 'ezer (Ps 33:20; 121:1), rather than 'ozer. (PS.72.12: \"וְאֵין־עֹזֵר לוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [
+    "STEPBible glosses tokh as 'oppression' with a 'from' prefix, but the word is mitokh, 'from the midst of'. Here (per Rashi, Ibn Ezra, Radak, Metzudat Zion) tokh is read as 'deceit', a hidden harm, in contrast with open 'violence'. I glossed 'from deceit' and noted it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Say plainly that tokh here is the noun 'oppression, fraud' (root tkk), distinct from tokh 'midst', and give Rashi's two readings. (PS.72.14 Rashi: \"מִמַּכּוֹת וּמִגָּזֵל. מָצָאתִי מִתּוֹךְ לְשׁוֹן תּוֹךְ תּוֹכוֹת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:17:09+00:00",
+   "agent_notes": [
+    "Revised per the request: only 'viChi' is morphologically jussive. The imperfects that follow carry on the wish (BBE) or are read as futures (KJV, ASV). Also split: the subject of 'and he will give' is impersonal or God (Rashi); the subject of 'may he live' is the king (Rashi, Solomon) or the poor man (Radak, Meiri, Malbim). I keep the king as the subject of the first verb and mark the other reading in the commentary. ASV 'they shall live' has no support in the Hebrew, which is singular."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[should_fix] Rephrase: 'and may he live' is jussive, and the following imperfects carry on that wish (as BBE reads them), though KJV and ASV take them as futures. Do not call all four verbs jussives. (PS.72.15 morph: וִיחִי HVqj3ms (jussive); וְיִתֶּן HVqu3ms; וְיִתְפַּלֵּל HVtu3ms; יְבָרֲכֶנְהוּ HVpi3ms)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:06+00:00",
+     "note": "[consider] Make the note's gloss match the token gloss, or give both readings ('will / may [one] bless him'). (PS.72.15 morph: יְבָרֲכֶנְהוּ HVpi3ms (imperfect))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [
+    "pissat (פִסַּת) is a hapax and its sense is disputed: 'abundance' (Rashi, Metzudat Zion, from pasah/pasyon), 'handful' (KJV, Radak, Meiri), 'cake' (Talmudic reading, Rashi quoting Ketubot 111b). I rendered 'abundance' in the literal layer and left the handful reading to the commentary. The last clause is also disputed: 'from the city' may be 'in the city' (Ibn Ezra) or 'out of the city'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Write 'Rashi and the Targum both read Jerusalem'. (PS.72.16 Rashi: \"מֵעִיר. מִתּוֹךְ יְרוּשָׁלַיִם\"; Targum: \"מִן קַרְתָּא דִירוּשְׁלֶם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:40+00:00",
+   "agent_notes": [
+    "Reviewer request 1: the hitpael 'bless themselves' is now tied to Genesis 22:18 and 26:4 (both hitpael, as here); Genesis 12:3 is cited only as the niphal variant of the same promise. Request 2: the invented quotation is gone from the dramatic layer; the blessing-formula idea stays only in the commentary, attributed to Rashi and Metzudat David, whose wording ('May God make you like Solomon') is a present wish.",
+    "yinnon (H5125, from nin 'offspring'): Rashi, Metzudat Zion and one view in Meiri take it as 'rule, lordship' (cf. Prov 29:21 manon); Ibn Ezra, Radak, Meiri and Malbim take it from nin 'offspring', a niphal 'be propagated, sprout'. I follow the offspring sense, which the Hebrew 'son/grandson' pair nin and neked supports (Gen 21:23 uses them together), and render 'be continued/sprout' with the 'rule' reading in the commentary. The cross-reference to Ps 74:8 'ninam' is Rashi's, which I could not verify as the same root.",
+    "The five English versions split on verb 8: KJV/ASV/Webster 'be blessed in him' (passive, niphal sense), YLT/BBE 'bless themselves' (reflexive). The Hebrew is hitpael, so I choose the reflexive. Likewise the final verb is a piel of 'ashar, 'call happy/fortunate', not a plain 'bless'; KJV 'call him blessed' blurs it with barak."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[should_fix] Cite Genesis 22:18 (and 26:4) for the hitpael 'bless themselves', and drop Genesis 12:3 or mark it as the niphal variant of the same promise. (PS.72.17: \"וְיִתְבָּרְכוּ בוֹ\" (morph HC/Vtu3mp, hitpael)) [should_fix] Remove the invented quotation from the dramatic layer ('Let people bless themselves by him'), or, if a formula is kept, make it the present wish 'May God make you like him'. (PS.72.17: \"וְיִתְבָּרְכוּ בוֹ\"; Metzudat David: \"ישימך אלהים כשלמה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:18:06+00:00",
+     "note": "[should_fix] Replace 'every verb is a jussive' with: only yehi is a jussive form, and the imperfects that follow carry on the wish (as in v. 15). In the yinnon note, write 'a rare niphal imperfect' rather than 'niphal jussive'. (PS.72.17 morph: יְהִי HVqj3ms (jussive); יִנּוֹן HVNi3ms (niphal imperfect); יְאַשְּׁרוּהוּ HVpi3mp (piel imperfect))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:19:20+00:00",
+     "note": "[consider] Add that the Targum reads 'before the sun came to be, his name was prepared', against Radak's and Meiri's 'while the sun exists'. (PS.72.17 Targum: \"וּקְדָם מֶהֱוֵי שִׁמְשָׁא מְזַמָן הֲוָה שְׁמֵיהּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Present the congregational 'amen' as a staging choice, and mention Radak's view that the compiler speaks. (PS.72.18 Radak: \"הם דברי המחבר הודה לאל שזכה להשלים הספר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:12:24+00:00",
+   "agent_notes": [
+    "The colophon closes Book II, not just the psalm. Rashi and Metzudat David say David spoke this psalm at the end of his life; Ibn Ezra reports Judah Halevi's view that this is a scribal closing. The Psalter has later Davidic psalms, which I note in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:17:09+00:00",
+   "agent_notes": [
+    "Revised per the request: 'livnei evyon' is read as a class idiom ('the needy, the weakest', Metzudat David), not as a next generation. The criticism of BBE is removed. Whether the verbs are wishes or futures is open; the literal layer keeps a plain future, as the Hebrew imperfects allow either."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[should_fix] In the commentary, replace the 'next generation / beggar's children' reading with the class idiom ('sons of the needy' = the needy, the weakest, per Metzudat David), and remove the criticism of BBE for 'dropping the family'. (PS.72.4: \"yoshia' livnei 'evyon\"; Metzudat David: \"לבני אביון. החלושים ביותר בעבור העוני והקוטן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:17:09+00:00",
+   "agent_notes": [
+    "Revised per the request: the comparison of lifnei yareach with 'lifnei ash' is credited to Meiri and Ibn Ezra. The verse is Job 4:19; Meiri's printed reference reads 3:9. The addressee of 'they will fear you' is disputed: God (Rashi, Radak, Meiri) or the king (BBE, and the Septuagint tradition, which reads 'he will abide')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[should_fix] Correct the note: Meiri and Ibn Ezra compare lifnei 'ash, 'before the moth' (Job 4:19; Meiri's printed reference is 3:9), and add Ibn Ezra to the sources. (PS.72.5 Meiri: \"וכמוהו לפני עש (איוב ג ט)\"; Ibn Ezra: \"כדרך: ידכאום לפני עש\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [
+    "gez is 'mown/shorn grass' (cf. Amos 7:1 gizzei hamelekh, 'the king's mowings'); zarzif is a hapax, glossed 'drops, downpour' on Aramaic and Talmudic evidence (Rashi, Ibn Ezra, Metzudat Zion). I did not adopt Meiri's alternate 'dryness of the earth'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Mark the tax reading as a suggestion, or drop it. (PS.72.6 Rashi: \"כְּמָטָר הַיּוֹרֵד עַל יֶרֶק הַגָּזוּז, שֶׁהוּא צָרִיךְ לִגְשָׁמִים לְאַחַר שֶׁגְּזָזוּהוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [
+    "STEPBible tags 'the River' with loc.euphrates; the Targum and Ibn Ezra's first reading agree. Ibn Ezra's second, messianic reading (Eden's river) is mentioned but not followed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Use the form in the verse (מִנָּהָר) as the term, and give the sound-play the same hedge in the commentary as in the note. (PS.72.8: \"וּמִנָּהָר עַד־אַפְסֵי־אָרֶץ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.72.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:09:40+00:00",
+   "agent_notes": [
+    "tziyim: STEPBible and KJV 'desert-dwellers'; Ibn Ezra, Metzudat David and Metzudat Zion read 'ships'; Rashi 'bands of nobles'; the Targum 'governors'. Gloss follows STEPBible, the alternatives are in the note. The related tzi is 'ship' in Num 24:24 and Isa 33:21."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:15:10+00:00",
+     "note": "[consider] Call it the reading of Radak, Ibn Ezra's first reading and the KJV rather than 'the oldest'. (PS.72.9 Targum: \"קֳדָמוֹי יִגְחֲנוּן אֵיפַרְכַיָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

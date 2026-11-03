@@ -1,0 +1,253 @@
+{
+ "chapter_ref": "PS.75",
+ "items": {
+  "verse.en:PS.75.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [
+    "The Hebrew verse is the superscription, which the KJV leaves as verse 0 of the psalm (75:0 in the packet's numbering; the KJV prints it unnumbered). 'Al-tashchet' is left untranslated in the literal layer because it is probably a tune or setting name (as in Pss 57-59, 75); 'Do not destroy' is the sense of the words and the layer-two gloss. Rashi's reading, 'Do not destroy Israel', is quoted but is a reading, not the plain sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[consider] Separate the two: the heading addresses the choirmaster, and attributes the psalm to Asaph, the Levitical singers' family. (PS.75.1: \"לַמְנַצֵּ֥חַ ... מִזְמ֖וֹר לְאָסָ֣ף\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:20:43+00:00",
+   "agent_notes": [
+    "The speaker of 'I will cut off' is disputed, and I present it as such. Radak and Metzudat David read Israel as the speaker, the 'I' of v. 10, cutting off the horns with God's strength (Radak: Israel will cut them off in the wars of Gog and Magog; Metzudat David: 'then he will give strength into my hand'). Rashi likewise has Israel cutting off Amalek's horn (Ezek 25:14). The other reading, God as speaker continuing vv. 3-4 and 8, is the plain continuation of the first-person voice of the psalm's middle; I did not find a commentary in this packet that states it, so it is my own reading. Malbim makes the speaker 'uprightness' personified. The Hebrew has no quotation marks."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[should_fix] Present the speaker of v. 11 as disputed. Radak and Metzudat David read Israel (the 'I' of v. 10), cutting off the horns with God's strength; God as the speaker, continuing vv. 3-4, is the other reading. Drop the citation of these two for God, and drop the flat claim that the 'I' is the one who set the pillars. (PS.75.11: Radak \"אגדע. כי ישראל יגדעו אותם במלחמות גוג מגוג\", \"שלא תשאר מלכות כי אם לה'\"; Metzudat David \"אז יתן הכח בידי ואכרית כל ממשלות הרשעים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:16+00:00",
+     "note": "[consider] Replace 'see the reviewer note' with 'see the commentary' or a one-line summary: Israel (Radak, Metzudat David, Rashi) or God. (PS.75.11: \"וְֽכָל־קַרְנֵ֣י רְשָׁעִ֣ים אֲגַדֵּ֑עַ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:20:43+00:00",
+   "agent_notes": [
+    "Revised after review. The KJV 'for that thy name is near thy wondrous works declare' makes 'thy wondrous works' the subject of 'declare'. The Hebrew sipperu nifle'otekha is a perfect, 'they recounted', with an unnamed 'they' as subject and 'your wonders' as object (STEPBible: HVpp3cp). Ibn Ezra takes the 'they' to be the prophets, Metzudat David the fathers; Malbim reads the wonders as the witness that the name is near."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[should_fix] Replace 'turns the verb into a command' with: the KJV makes 'thy wondrous works' the subject of 'declare', where the Hebrew has an unnamed 'they' who recount the wonders as the object. (PS.75.2 KJV: \"for that thy name is near thy wondrous works declare\"; Hebrew \"סִ֝פְּר֗וּ נִפְלְאוֹתֶֽיךָ\" (HVpp3cp, 'they recount', with 'your wonders' as object).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [
+    "The speaker of vv. 3-6, 8 and 11 is disputed. I read God as the speaker of vv. 3-6 (the 'I' who takes the appointed time and steadies the pillars) and the psalmist/people as the speaker again from v. 2 and v. 10. The Hebrew has no quotation marks. Rashi, Radak and Meiri read the first-person as Israel in v. 3 (Rashi: 'when we have a festival') or God (Radak, Metzudat David); I follow Radak. The KJV 'congregation' for mo'ed is a mistranslation of 'appointed time', although the word can mean an assembly elsewhere."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [
+    "tikkanti (Strong's H8505, 'to measure, regulate, weigh') is glossed by STEPBible as 'put in order'. The KJV 'bear up' is a guess from context and ASV 'set up' is close. I chose 'I have set in order/measured'; Metzudat Zion links it to ken 'base', which supports a sense of 'making firm'. The literal layer uses 'I have regulated'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[consider] Keep the wax image in the commentary, where it is already explained, and let the dramatic layer stop at the pillars being set true. (PS.75.4: \"נְֽמֹגִ֗ים אֶ֥רֶץ ... אָנֹכִ֨י תִכַּ֖נְתִּי עַמּוּדֶ֣יהָ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[consider] Say that the KJV follows the sense of folly found in Metzudat Zion, and keep 'boast' as the preferred reading (YLT, ASV). (PS.75.5: Metzudat Zion \"להוללים אל תהולו. ענין סכלות ורשע\"; Radak \"אל תעסקו בדברי הוללות\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[consider] Say 'against the righteous' (Ps 31:19). Bracket the carried-over negative in the literal layer: '[do not] speak'. (PS.75.6: \"תְּדַבְּר֖וּ בְצַוָּ֣אר עָתָֽק\" (no 'al); YLT \"(Ye speak with a stiff neck.)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:20:43+00:00",
+   "agent_notes": [
+    "The five English versions split on harim. KJV and ASV add 'south', following the Targum, which reads midbar harim as the southern desert of mountains ('and from the south, the place of the mountains'). YLT ('Nor from the wilderness -- is elevation'), BBE and the commentators Radak, Meiri and Metzudat Zion read harim as a verbal noun 'lifting', from the root r-w-m of vv. 5-8. Radak and Meiri support this from the vowel of the preposition: 'mimmidbar with a qamets, not a construct'. The pointing in our text is patah under the bet (STEPBible morph: construct, HR/Ncmsc), so that argument rests on their text, not on ours. I adopt the 'lifting' reading in the literal layer and glosses, and give the Targum's reading in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[should_fix] Make the literal layer and token glosses follow the reading you adopt: 'nor from the wilderness [is] lifting up' (gloss 7 'lifting up', not 'of lifting up'). In the commentary and the note, attribute the qamets to Radak and Meiri's text ('under the bet'), and say that the pointing in our text is patah (construct). Replace 'no basis in the text' with a statement that the KJV's 'south' follows the Targum's reading of midbar harim as the southern desert of mountains. (PS.75.7: \"וְ֝לֹ֗א מִמִּדְבַּ֥ר הָרִֽים\" (patah under bet; morph HR/Ncmsc). Radak: \"כי ממדבר קמו\"ץ ואינו סמוך\"; Meiri: \"מלת ממדבר קמוצה תחת לבית\". Targum: \"ומן דרומא אתר טוריא\". YLT: \"Nor from the wilderness-- is elevation\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:16:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.75.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:20:43+00:00",
+   "agent_notes": [
+    "chamar (H2560A) is glossed 'it is foaming' by STEPBible and rendered 'red' in KJV and BBE; Radak's 'red' comes from Arabic ahmar. I keep 'foams'. For yimtzu the root m-ts-h has two attested senses, 'drain, suck out' (Metzudat Zion: from mitzitzah) and 'wring out' (Judg 6:38, the fleece); the KJV 'wring out' is therefore possible, but 'drain' fits drinking dregs better, and YLT also has 'wring out'. Rashi calls the cup 'the cup of reeling' (tar'elah); the Targum has 'a mixture of bitterness' (meziggat merirta). The vayyager waw-consecutive is rendered as a present-habitual 'he pours'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:18:50+00:00",
+     "note": "[should_fix] Say that Rashi calls it the cup of reeling (tar'elah) and that the Targum adds bitterness. Change 'is a mistake' to say that m-ts-h means both to drain or suck out (Metzudat Zion) and to wring out (Judg 6:38), and that 'drain' fits drinking dregs better. (PS.75.9: Rashi \"כִּי כוֹס. הַתַּרְעֵלָה בְּיָדוֹ\"; Targum \"מְזִיגַת מְרֵרְתָּא\"; YLT \"Only its dregs wring out, and drink\"; Metzudat Zion \"ימצו. מל׳ מציצה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

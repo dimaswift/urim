@@ -1,0 +1,299 @@
+{
+ "chapter_ref": "PS.30",
+ "items": {
+  "verse.en:PS.30.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 is the superscription; the KJV leaves it unnumbered (30:0) and so the KJV verse numbers run one behind the Hebrew throughout. 'Of David' (ledavid) is read as attribution, not authorship proven; the lamed is ambiguous. 'The house' is unspecified: Rashi and Metzudat David say the Temple, Ibn Ezra prefers David's own cedar house, Malbim reads the body. I kept the Hebrew's bare 'the house'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:35+00:00",
+   "agent_notes": [
+    "Only hodah ('give thanks') is said to repeat hodu of verse 5; the earlier claim that higgid echoes verse 2 is dropped, since verse 2 has no form of the root ngd. 'In my blood': Ibn Ezra and Radak equate blood with life; Metzudat David reads 'when my blood is shed'. I read 'pit' for shachat as my own reading; YLT 'corruption' reflects the other derivation."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[should_fix] Say only that 'give thanks' (hodah) repeats the hodu of verse 5. Drop the claim that higgid echoes verse 2. (PS.30.2: \"אֲרוֹמִמְךָ יְהוָה כִּי דִלִּיתָנִי\" (no form of נגד); PS.30.10: \"הֲיַגִּיד אֲמִתֶּךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:04:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:35+00:00",
+   "agent_notes": [
+    "Corrected: the verse is not 'the shortest in the psalm' (verse 3 has five words, this one seven, and verses 9 and 7 are no longer). The divine name stands once in each half. 'Ozer is a participle used as a title, from the same root as the noun 'ezer in Genesis 2:18; it is not the same word."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[should_fix] Delete 'It is the shortest verse in the psalm' (or say 'one of the shortest'). Replace 'so the divine name opens and closes the plea' with an accurate description, e.g. 'the divine name stands in each half'. (PS.30.3: \"יְהוָה אֱלֹהָי שִׁוַּעְתִּי אֵלֶיךָ וַתִּרְפָּאֵנִי\" (5 words); PS.30.11: \"שְׁמַע־יְהוָה וְחָנֵּנִי יְהוָה הֱיֵה־עֹזֵר לִי\" (7 words)) [should_fix] Rewrite the note as 'from the same root as the noun 'ezer that names the woman in Genesis 2:18', keeping 'a participle, used as a title'. (PS.30.11: \"עֹזֵר\" (STEPBible morph HVqrmsa, a participle); Gen 2:18 \"עֵזֶר כְּנֶגְדּוֹ\" (a noun))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:04:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "Rashi's remark that the rabbis read the whole psalm of Mordecai, Esther and Haman is cited from the packet (Rashi on Ps 30:12, attributed to Pesikta Zutarta); I did not use it in the dramatic layer. The 'dance' reading of machol is common to all five versions except BBE ('sorrow turned to dancing' vs. mourning)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[consider] End with a reader-facing sentence, e.g. 'a midrashic reading, not the plain sense'. (PS.30.12 commentary: \"reads the whole psalm as the voices of Haman, Esther and Mordecai; leave that for the review.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:35+00:00",
+   "agent_notes": [
+    "The 'BDB s.v. זָמַר' citation is removed from the yezamerkha note; the claim is now my own reading, with Metzudat David on Psalms 30:13 cited only for 'not be silent from the song'. kavod is read as the self or soul (Radak, Meiri, Metzudat Zion; compare Ps 16:9). The Hebrew has no 'my'; I keep the bare noun in the literal layer with [my] in brackets. I corrected the STEPBible gloss 'it may sing praises to you' to 'it may make music to you'. The midrash on David and the Temple cited by Radak is not used."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[should_fix] Remove 'BDB s.v. זָמַר' from the sources of the יְזַמֶּרְךָ note. Leave the sources empty, or cite Metzudat David on Psalms 30:13 ('יזמר לך ... ולא ישתוק מן הזמר') if the note is reworded to fit it. (PS.30.13 packet: commentaries are Ibn Ezra, Radak, Meiri, Metzudat David, Metzudat Zion and the Targum; no BDB)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:04:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "STEPBible glosses diliTani as 'drawn up'; I kept it, since the verb is the bucket-from-a-well verb (dalah), and the KJV 'lifted up' loses the image. The final 'li' is rendered 'over me' following Rashi (like 'alay); the plain 'to me' would be the strictly literal sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:35+00:00",
+   "agent_notes": [
+    "Healing as forgiveness is sourced to Rashi (citing Isaiah 6:10) and Metzudat David ('forgiveness of sin, which is the healing of the soul'); the Targum has only 'you healed me' and is not cited for it. Ibn Ezra and Malbim stress the cry to God alone, not a physician."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[should_fix] In the note on וַתִּרְפָּאֵנִי, replace 'in the Targum and Rashi' with 'in Rashi and Metzudat David', and add 'Metzudat David on Psalms 30:3' to its sources. (PS.30.3 Targum: \"יְיָ אֱלָהִי צַלֵיתִי קֳדָמָךְ וַאֲסֵתַנִי\" (only 'you healed me'); Metzudat David: \"ותרפאני. הוא מחילת העון שהיא רפואת הנפש\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:04:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "Ketiv/Qere: the written form is miyordei ('from those who go down', a participle, cf. Ps 28:1, 143:7), the reading is miyyeredi, an infinitive ('from my going down'). Rashi and Radak read the Qere as an infinitive. The packet glosses the Qere; I follow it in the literal layer and mention the Ketiv in a note. Nephesh is rendered 'my life' in the literal layer and 'my soul' in the drama, where the English is better served by it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "'Weeping' and 'a shout of joy' have no verb or preposition of their own in the second half: 'in the evening it lodges, weeping; and at the morning, a ringing cry'. Ibn Ezra and Meiri note the missing bet ('in weeping', 'in joy'), Meiri comparing 2 Kings 12:11. I follow the plain reading, weeping as the overnight guest. The first half: 'a moment in his anger, life in his favor' is elliptical; the KJV supplied verbs ('endureth', 'is') and the ASV 'a life-time' for chayyim is an interpretation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[consider] Write 'compare 2 Kings 12:11, \"found [in] the house of the LORD\"'. (Ibn Ezra: \"כמו: הנמצא בבית ה'\"; Meiri: \"כמו הנמצא בית ה׳ (מ״ב יב יא)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "'My mountain' (leharri) is a crux. Ibn Ezra reports three views, among them a yod-suffix reading and one by Judah Halevi. Radak takes the mountain as the intellect, Malbim as the body, Meiri as the soul. I keep 'my mountain' in both layers and leave interpretation to the commentary. Five English versions agree on 'mountain'; they split only on 'made stand strong' (KJV, ASV, Webster) vs. 'kept strong' (BBE)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.30.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:57+00:00",
+   "agent_notes": [
+    "STEPBible glosses adonai as '[the] Lord' tagged to deity.yhwh; the entity link is as in the packet. The second colon deliberately varies the divine title (YHWH, then Adonai); the packet's KJV text renders both as 'Lord', and the YLT, which gives 'Jehovah' twice, loses the contrast as well."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:02:38+00:00",
+     "note": "[consider] Say in the commentary that the forms are imperfects read as a report of the past, and that the YLT and Rashi read them otherwise. (PS.30.9 morph HVqi1cs / HVti1cs; YLT: \"Unto Thee, O Jehovah, I call\"; Rashi: \"תָּמִיד לֵאמֹר לְפָנֶיךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

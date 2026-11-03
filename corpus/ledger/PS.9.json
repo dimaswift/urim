@@ -1,0 +1,486 @@
+{
+ "chapter_ref": "PS.9",
+ "items": {
+  "verse.en:PS.9.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [
+    "The title עַלְמוּת לַבֵּן is of unknown meaning. I kept 'alumoth labben' in the literal layer instead of choosing among the readings the commentators offer (Rashi/Ibn Ezra/Radak: 'on the death of Laban/the son', a tune, a person named Ben, Goliath 'the man between', Nabal reversed). The Masoretic pointing is one word, עַלְמוּת, as in Ps 48:15; the KJV 'Muth-labben' follows the split עַל־מוּת. STEPBible glosses 'alumoth' and 'labben' as names; I glossed them as transliterations with the traditional readings in the notes.",
+    "In the packet the verse map puts this title as KJV 9:0, so every later verse is KJV n-1 (PS.9.2 = KJV 9:1). I translated the Hebrew verses as they stand. The Rashi quotation about 'purified youth' (הכתוב עלמות ... כשיתלבן) is a midrashic reading; I cite it only as a reading, not as the sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[consider] Cite a packet source or none for the נצח note. Consider 'almut labben' in the literal layer, and say that עלמות is one word, not the whole phrase. (PS.9.1: token 2 עַלְמ֥וּת, translit 'alMut; token 3 לַבֵּ֗ן is a separate word.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [
+    "STEPBible glosses דַּךְ as 'oppressed'. The word is 'crushed' (from דכא, Rashi cites Ps 90:3 דַּכָּא); I used 'the crushed' in the literal layer. The Masoretic form of 'in trouble' is בַּצָּרָה, a single word which the KJV reads as 'in times of trouble' by taking בְּ with צָרָה."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:28:04+00:00",
+   "agent_notes": [
+    "Reviewer request taken: וְיִבְטְחוּ follows the jussive וִיהִי of 9:10, so the literal layer reads 'And may they trust in you', and the dramatic layer no longer predicts. The commentary no longer faults the KJV for a prediction in the dramatic sense, only says the KJV 'will put their trust' flattens a wish into a forecast. 'Israel of that day' is credited to Radak alone; Ibn Ezra is cited only for the reading that trust follows seeing God as refuge."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Make the literal layer render the purpose or jussive ('And may they trust in you' or 'so that they trust in you') and take the prediction out of the dramatic layer, or else drop the commentary's criticism of the KJV. Credit the 'Israel of that day' reading to Radak alone. (PS.9.11: וְיִבְטְחוּ, STEPBible 'so they may trust'; Ibn Ezra: \"כאשר יראו שהיה השם משגב לדך אז יהיו לבטח\"; Radak: \"יודעי שמך כישראל היום\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [
+    "The commentaries (Radak, Meiri) note that Zion was still Jebusite when the psalm is supposed to have been composed, so they read the line as prophetic. I did not decide the date; the commentary only records the tension."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:28:04+00:00",
+   "agent_notes": [
+    "Reviewer blocker taken: Ketiv/Qere reversed. Written עניים ('afflicted'), read ענוים ('humble'); the printed vowels and the KJV 'humble' follow the Qere. Radak on 9:13 says כתיב ביו\"ד וקרי בוא\"ו; at 9:19 the pair is the opposite (his note there: written with vav, read with yod). The STEPBible gloss 'humble [people]' is the Qere only, so gloss 9 names both readings."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[blocker] Reverse the Ketiv/Qere in the commentary, the note on עֲנָוִים and gloss 9: written עניים 'afflicted', read ענוים 'humble' (the printed vowels and the KJV 'humble' follow the Qere). Cite Radak on 9:13 for it, and say that 9:19 has the opposite pair. (PS.9.13: Hebrew pointed עֲנָוִֽים; Radak on 9:13: \"כתיב ביו\"ד וקרי בוא\"ו\" (written with yod, read with vav), the reverse of his note on 9:19: \"ענוים כתיב בוא\"ו וקרי עניים ביו\"ד\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:50+00:00",
+   "agent_notes": [
+    "'Hanneni' is a prayer imperative; the five English versions all say 'have mercy'. I used 'show me favor' in the literal layer to keep the root chanan (grace). The participle 'meromemi' (one lifting me) is vocative-like; KJV, ASV and Webster make it a relative clause ('thou that liftest me up'), BBE turns it into a wish. I kept it as an address to YHWH."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[consider] Say that Radak read a patach, and that the printed text has a qamets according to the editors. (PS.9.14: Radak: \"חננני יהוה פתחו\"ת החי\"ת * לפנינו החי\"ת בקמץ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:28:04+00:00",
+   "agent_notes": [
+    "Reviewer request taken: the break follows the atnach on צִיּוֹן, so 'in the gates of the daughter of Zion' belongs with 'so that I may recount', and 'I will rejoice in your deliverance' is the second half. The ASV moves the break and so changes the sense; the KJV and YLT keep it.",
+    "Radak's remark that תהלתיך is written defectively as a plural (תהלותיך) is cited from the packet; the parallels he gives (Isa 47:13, Ezek 16:55) I have not checked beyond what the packet quotes, so I leave them out."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Move the break: 'So that I may recount all your praises in [the] gates of [the] daughter of Zion; I will rejoice in your deliverance.' (PS.9.15: \"לְמַעַן אֲסַפְּרָה כָּל־תְּהִלָּתֶיךָ בְּשַׁעֲרֵי בַת־צִיּ֑וֹן אָגִילָה בִּישׁוּעָתֶךָ\"; KJV and Webster keep the same division.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:50+00:00",
+   "agent_notes": [
+    "Radak glosses 'zu' as 'asher' (which), and so do all five English versions; Ibn Ezra reads it as 'eleh' (these, who hid it). I translate 'which' in the literal layer, keeping the Hebrew word 'zu' visible in the notes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[consider] Present the etymology as your own or drop it, and consider 'the net they hid'. (PS.9.16: Metzudat David: \"בשחת. בהבור אשר עשו\"; Hebrew \"בְּרֶשֶׁת־זוּ טָמָנוּ\" (in the net which they hid).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:50+00:00",
+   "agent_notes": [
+    "Disputed: 'noqesh' is a Niphal participle of yaqosh (to be snared) in Radak and Meiri; Ibn Ezra and Radak's alternative see a root nqsh. I translate 'snared' in both layers. 'Higgaion' and 'Selah' are kept as untranslated markers in the literal layer; the dramatic layer keeps only a pause. The meaning of both terms is uncertain and I do not claim a certain one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:50+00:00",
+   "agent_notes": [
+    "'lish'olah' carries a directional he as well as the lamed (to Sheol-ward). Rashi and Radak cite the Talmudic reading (Yevamot 13b, Sanhedrin 105a, as the commentaries give it) that the doubling points to the lowest level of Sheol or Gehinnom. I report this as a tradition; it is not in the plain sense of the verse. 'yashuvu' is imperfect; the commentaries disagree whether it is a prediction or a wish (Radak: a prayer); I translate it as a plain future."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:48+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the 'as in 9.13' remark is replaced by a note that the Ketiv/Qere pair here is the reverse of 9:13. Here the written form is ענוים ('anavim, 'humble') and the read form is עניים ('aniyyim, 'afflicted'); at 9:13 it is written עניים and read ענוים (Radak on Psalms 9:13 and 9:19, as quoted in the packet). The packet's word table shows only the Qere, with the transliteration 'anavim' that belongs to the Ketiv; I glossed the reading and named the written form in the note. I did not check the Ketiv/Qere of 9:13 against the manuscript, only Radak's report of it.",
+    "Radak (and Metzudat David) explain that the single 'not' (לֹא) of the first line also governs 'will be lost' in the second, so the line reads 'not ... will be lost'. I followed that in the literal layer by letting the first 'not' carry over, without adding a second one."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Replace 'as in 9.13' with a note that 9:13 has the reverse pair (written עניים, read ענוים). (PS.9.19: Radak \"ענוים כתיב בוא\"ו וקרי עניים ביו\"ד\"; PS.9.13: Radak \"כתיב ביו\"ד וקרי בוא\"ו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": "[consider] Change the reference to 9:7 for 'their memory has perished'. (PS.9.7: \"אָבַד זִכְרָם הֵמָּה\" (their memory has perished); PS.9.6: \"אִבַּדְתָּ רָשָׁע\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:50+00:00",
+   "agent_notes": [
+    "'al-panekha' is rendered 'before your face' in the dramatic layer, as Radak and Meiri take it (as lifnekha). Rashi and Metzudat David read 'face' as 'anger'; I mention it in the commentary but do not follow it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[consider] Cite Radak on Psalms 9:21 for the Jeremiah 30:12 derivation. (PS.9.21: Radak: \"כי אנוש נגזר מענין אנוש לשברך (ירמיהו ל יב)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:48+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the predicate is now given first, as in the Hebrew: 'enosh hemmah', 'human [are] they'. The STEPBible gloss '[are] human being[s]' for אֱנוֹשׁ is kept in spirit; the word is a noun used as predicate, with no verb in the Hebrew.",
+    "מוֹרָה is disputed. Ibn Ezra, Radak and Meiri read it as a spelling of מוֹרָא 'fear' (ה for א), which is what KJV, ASV, BBE and Webster follow ('put them in fear'). Rashi and Metzudat Zion give 'throwing/casting' (as in יָרָה, Exodus 15:4), and Rashi also 'mastery, yoke'. YLT has 'a director' (from the root ירה 'teach', as in מוֹרֶה). I chose 'fear' for both layers, since it is the majority reading and fits 'let the nations know that they are human'; the alternatives are in the commentary. The packet's STEPBible gloss 'terror' agrees.",
+    "סֶלָה is left untranslated in all layers; Ibn Ezra's gloss 'truly' (באמת) is quoted as one traditional guess and not adopted. The word-gloss for it is 'Selah'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Correct it to 'enosh hemmah': the predicate 'human' first, then the pronoun 'they'. (PS.9.21: \"יֵדְעוּ גוֹיִם אֱנוֹשׁ הֵמָּה סֶּלָה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:28:04+00:00",
+   "agent_notes": [
+    "Reviewer request taken: the dramatic layer now keeps the presence of God ('from before your face') as the cause of the stumbling, instead of 'they never faced you'. Literal: מִפָּנֶיךָ is 'from before your face'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Replace 'and they never faced you' with a line that keeps the presence as the cause, e.g. 'they stumbled and perished before your face'. (PS.9.4: \"יִכָּשְׁלוּ וְיֹאבְדוּ מִפָּנֶיךָ\", 'they stumble and perish from before your face'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:28:04+00:00",
+   "agent_notes": [
+    "Reviewer request taken: the KJV 'satest' keeps the past tense of יָשַׁבְתָּ; the commentary now faults the ASV 'sittest' for the present, and says so."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[should_fix] Fix the sentence: the KJV 'satest' keeps the past tense of יָשַׁבְתָּ; if a version is faulted for the present, it is the ASV 'sittest'. (PS.9.5: KJV 9:4 \"thou satest in the throne judging right\"; ASV 9:4 \"Thou sittest in the throne judging righteously\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": "[consider] Say that Rashi reads the nations as Amalek. (PS.9.6: Rashi: \"גָּעַרְתָּ גוֹיִם. עֲמָלֵק... אִבַּדְתָּ רָשָׁע. אֲבוֹתָיו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [
+    "A famously difficult verse. Syntax of הָאוֹיֵב is disputed: a vocative (Radak, Meiri: ה of address, as in Num 15:15 and Jer 2:31) or a collective subject. Also disputed is whose 'ruins' and whose 'memory' are meant (the enemy's own cities, or the cities the enemy destroyed). I followed the vocative reading with the ruins as the ruins the enemy made and the cities as the cities he uprooted; the dramatic layer stays close to that. Ibn Ezra's alternate reading (with a punctuated וְעָרִים נָתַשְׁתָּ as a separate clause) is also reasonable. The final הֵמָּה ('they', even them) is left as a closing emphatic and I did not try to resolve whether it is rhetorical question (Radak's second reading)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [
+    "STEPBible glosses כּוֹנֵן as a perfect 'he has established'; the form is a polel perfect 3ms (or participle with unusual pointing). I kept the perfect in the literal layer. ASV/Webster's 'sitteth as king' vs. KJV 'endure' both reflect the sense of יֵשֵׁב; the literal layer keeps 'sits'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.9.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:26:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,520 @@
+{
+ "chapter_ref": "PS.55",
+ "items": {
+  "verse.en:PS.55.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 55:0). מַשְׂכִּיל is left untranslated in the literal layer because its meaning is disputed (instruction, skillful song, contemplative poem). STEPBible's 'a poem' is changed to 'a maskil'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:49:03+00:00",
+   "agent_notes": [
+    "Revised after review. Rashi (after Menachem; he notes another reading omits this), Meiri and both Metzudot read בַּלַּע as 'destroy, undo'; Radak says 'destroy them so that their counsel is confounded'. 'Confuse' is STEPBible's gloss (a Piel of בלע) and I keep it in the glosses, but the commentaries do not support it as their reading. I also dropped the earlier claim that the KJV's 'Destroy' flattens the verb: it follows the commentators, and the 'confusion' sense is carried by the next verb, פַּלַּג. Whether the verb is 'swallow' (YLT) or 'confound' is a real split among the five English versions; I chose 'swallow up' in the literal layer to keep the Hebrew root visible."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[should_fix] Report Rashi (after Menachem), Meiri and the Metzudot as reading 'destroy, undo', and leave 'confuse' to STEPBible (Radak: destroy them so that their counsel is confounded); drop the claim that the KJV's 'Destroy' flattens the verb, or say that it follows the commentators. (PS.55.10: Rashi 'בָּלַע. דפא״יי בְּלַעַ״ז, כְּמוֹ הֵשִׁיב יָדוֹ מִבַּלֵּעַ (איכה ב:ח)'; Metzudat Zion 'בלע. השחת'; Meiri 'בלע ה׳ ר״ל השחת עצתם'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:49:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [
+    "תֹּךְ is glossed 'oppression' by STEPBible; Rashi derives it from 'striking', Radak from 'speaking with the mouth what is not in the heart'. I kept 'oppression' and mention Radak's view in the note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider 'This verse finishes the portrait of the city'. (PS.55.12 directors_commentary: 'The last verse of this window finishes the portrait of the city'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [
+    "Verb forms yechareFeni and ve'esa' are imperfects of repeated or habitual action; the literal layer keeps the 'for not... then I could' conditional sense implied by the paired clauses, which the KJV supplies with 'it was not... then I could have'. YLT's 'or I bear it' reads the vav as 'or'; I follow the majority (KJV/ASV/Webster) conditional reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider citing Meiri rather than Rashi for the 'intimate friend' reading. (PS.55.14: Rashi 'וּמְיֻדָּעִי. כְּמוֹ אַלּוּפִי ... דִּמְתַרְגְּמִינָן וְרַבִּיתָךְ'; Meiri 'אלופי ומיודעי ר״ל רעי וחברי'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:49:12+00:00",
+   "agent_notes": [
+    "Ketiv yashi (no aleph) / Qere yashi' (with aleph). The literal layer and gloss now commit to one reading, 'let death be a creditor upon them' (Ibn Ezra citing R. Moshe, Metzudat Zion, Malbim), from nasha 'to lend, be a creditor'. Rashi's reading ('let him incite death upon them', cf. Gen 3:13), Radak's ('let death be made to fall on them') and Menachem's ('there is') are kept in the commentary and the note only. The Hebrew text carries a Ketiv/Qere, so the Qere is what is translated."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[should_fix] Choose one reading for the literal layer and gloss of pos 1, e.g. 'Let death be a creditor upon them' (Ibn Ezra's R. Moshe, Metzudat Zion, Malbim) or 'May he bring death deceitfully upon them' (Rashi), and keep the other in the commentary and note; do not combine 'incite' with '[a debt]'. (PS.55.16: יַשִּׁי מָוֶת עָלֵימוֹ; Rashi: 'יַשִּׁיא הקב\"ה עליהם את מלאך המות ... לשון הנחש השיאני'; Ibn Ezra (R. Moshe): 'שיהיה המות נושה להם'; Metzudat Zion: 'ענין חוב'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:49:57+00:00",
+     "note": "[consider] Consider 'The literal layer reads it as the language of debt' in place of 'I read it as the language of debt'. (PS.55.16 directors_commentary: 'I read it as the language of debt: death as a creditor')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider citing 'cf. שִׂיחִי, v.3' and using the same English in the literal layer and the gloss. (PS.55.3: בְּשִׂיחִי; PS.55.18: אָשִׂיחָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [
+    "Hardest verse of the window: miqqerav-li (from battle/nearness to me), 'in peace', and the beth in birabbim are all disputed. Meiri and Ibn Ezra differ on whether the many were with David (angels, supporters) or against him. I keep 'for in many [ways/hosts] they were with me' as the literal, and in the dramatic layer lean to 'many stood with me', following Rashi, Radak's reading is the opposite (many fought me). Flagged for review."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider dropping the 'only slip' sentence and saying that the KJV is accurate here. (PS.55.2 KJV: 'hide not thyself from my supplication'; Hebrew תִּתְעַלַּם (hitpael).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:49:12+00:00",
+   "agent_notes": [
+    "וְיַעֲנֵם: the literal layer keeps 'answer' (anah I), while Radak, Meiri, Metzudat Zion and Ibn Ezra's first view take 'humble, subdue' or 'afflict' (anah III); Ibn Ezra prefers 'deal with them'. חֲלִיפוֹת has three readings in the commentators, given in the note; the dramatic layer does not choose among them. Rashi on ויענם only names the subject (the king who sits of old), he does not discuss the root."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[should_fix] In the וְיַעֲנֵם note, replace 'Rashi's alternative' with Ibn Ezra's first view, Radak, Meiri and Metzudat Zion. For חֲלִיפוֹת, give three readings: no change of conduct (Meiri), no turn of fortune (Ibn Ezra), and no thought of their own passing or death (Rashi, Metzudat David). (PS.55.20: Rashi 'אֵין נוֹתְנִים לִבָּם אֶל יוֹם חֲלִיפָתָם, אֵין חֲרֵדִים מִיּוֹם הַמִּיתָה'; Ibn Ezra 'ויענם - מגזרת עני ידלדלם'; Meiri 'שלעולם לא יחליפו מידותיהם'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:49:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [
+    "The subject is a single 'he' after the plural 'them' of vv.16 and 20; the commentators (Rashi, Radak, Meiri, Malbim) identify him as Ahithophel, an identification the psalm itself does not make. I did not name him in the translations."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [
+    "Machma'ot is a hapax; KJV and Rashi read 'butter/curds' (chem'ah). The pointing machma'ot with an a-vowel in the mem has led many to emend to mehem'ot or 'than curds' (mi-chem'ah) giving 'smoother than butter'. YLT's 'sweeter than honey' follows a different tradition. I keep 'creamy things' in the literal layer. Pitchot: 'drawn swords' (Ibn Ezra, Radak, Metzudat Zion citing Mic 5:5), against Rashi's alternative reading as an Aramaic curse-writ."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:46+00:00",
+   "agent_notes": [
+    "Yehav is a hapax, 'what has been given you' (Ibn Ezra, citing a view that it comes from yahav 'give'), the KJV 'burden' follows the Talmudic rendering (Rashi, Radak, Metzudat Zion). I give both in the literal layer and the note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:49:12+00:00",
+   "agent_notes": [
+    "The dramatic layer now says 'will not live out half their days' (Metzudat David: 'will not reach half of their days'; Ibn Ezra: their number of days will not be filled). Ibn Ezra offers a second reading of the last clause, 'I trust you to fill my days'; I keep 'I trust in you' without an object clause."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[should_fix] Rephrase the dramatic clause without ambiguity, e.g. 'Men of blood and of lies will not live out half their days.' (PS.55.24: לֹא־יֶחֱצוּ יְמֵיהֶם; Metzudat David 'לא יגיעו לחיות חצי ימיהם'; Ibn Ezra 'שלא תמלא מספר ימיהם'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:49:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [
+    "אָרִיד and וְאָהִימָה are rare. Rashi and Ibn Ezra tie אָרִיד to a root meaning 'to be restless, to wander' (Lam 3:19, Judg 11:37); Menachem takes it as 'rule', which I did not follow. I read אָהִימָה as 'I moan, I am in uproar' (hum, cf. 'tumult'). The five English versions split between 'mourn', 'am restless' and 'am made low'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider saying in the note that the commentators read 'I lament, I wail', and that 'restless' follows the lexicon and the ASV; give the root of וְאָהִימָה as הום. (PS.55.3: Rashi 'אֶתְאוֹנֵן בְּצַעֲרִי'; Ibn Ezra 'אריד - אצעק'; Metzudat Zion 'ענין גניחה ויללה'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:49:03+00:00",
+   "agent_notes": [
+    "Revised after review. The root of יָמִיטוּ is credited to Ibn Ezra (via Lev 25:35, 'his hand falters'); 'incline' to Radak and Meiri; Metzudat David is listed with 'trouble' (עמל ויגיעה), not with the KJV. Rashi's own reading ('they tip the scales against me with iniquities') is a fourth option; I rendered the literal layer 'make [iniquity] totter down upon me' as the nearest to the Hiphil of מוט and to Ibn Ezra. Sources cite the commentators on Psalms 55:4, not on 1 Kings."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[should_fix] In the יָמִיטוּ note, attribute the root מוט to Ibn Ezra (via Lev 25:35, 'to falter') and the 'incline' reading to Radak and Meiri; in the commentary, list Metzudat David with the 'trouble' reading, not with the KJV; correct the sources to 'on Psalms 55:4'. (PS.55.4 packet: Ibn Ezra 'ימיטו - מגזרת ומטה ידו עמך'; Radak 'ופירושו יטו שקר'; Meiri 'וי״מ יטו'; Metzudat David 'מטים עלי און ר״ל עמל ויגיעה'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:49:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [
+    "The superscription link to Absalom's revolt is in Radak, Meiri and Malbim. I mention it as their reading, not as a fact of the text, and do not put Absalom or Ahithophel into the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": "[consider] Consider 'a pinion like the dove' in the literal layer, fixing the typo, and describing Malbim's reading as the speaker's indecision. (PS.55.7: אֵבֶר (HNcmsa); Malbim 'כאלו רציתי לעוף ושלא לעוף ... פוסח על שתי הסעיפים'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.55.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:43:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,164 @@
+{
+ "chapter_ref": "PS.53",
+ "items": {
+  "verse.en:PS.53.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:38:17+00:00",
+   "agent_notes": [
+    "Hebrew verse 1 is the superscription (KJV 53:0). I give it all three layers like any verse. מַחֲלַת is untranslated by most versions; YLT 'On a disease' follows the root חלה, Rashi and Metzudat Zion take it as an instrument. I leave it as a transliterated term and say the meaning is uncertain."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:42:06+00:00",
+   "agent_notes": [
+    "Revised after the critic's request: the KJV commentary now says that only the first verb (הִשְׁחִיתוּ) becomes an adjective ('Corrupt are they') and that the second is rendered 'have done abominable iniquity', with עָוֶל taken as a direct object, where Ibn Ezra and Radak supply a missing ב. The claim that the KJV turns both verbs into adjectives is gone.",
+    "אֵין אֱלֹהִים is rendered 'there is no God' in both layers. Metzudat David and the Targum make it a denial of God's involvement or judgment rather than of his existence; I kept the plain words and said so in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": "[should_fix] In the directors_commentary, say that the KJV turns only the first verb הִשְׁחִיתוּ into an adjective ('Corrupt are they') and renders the second as 'have done abominable iniquity', reading עָוֶל as a direct object where Ibn Ezra and Radak supply a missing ב ('abominable in wrong'). Drop the claim that the KJV turns both verbs into adjectives. (PS.53.2 KJV (53:1): \"Corrupt are they, and have done abominable iniquity\"; Hebrew הִשְׁחִיתוּ וְהִתְעִיבוּ עָוֶל.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:42:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:38:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": "[consider] Present the tense as a choice ('the perfect can be read as a timeless present') rather than as an error in the KJV. (PS.53.3: הִשְׁקִיף morph HVhp3ms; KJV/YLT/ASV/Webster \"looked down\", BBE \"was looking down\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:38:17+00:00",
+   "agent_notes": [
+    "סג is a verb of turning back; Rashi derives it from סִיגִים 'dross' (Ezekiel 22:18) instead. I translate 'has turned back' and note the alternative. 'Filthy' for נֶאֱלָחוּ is the lexical sense of אלח (only here, Ps 14:3 and Job 15:16; the last I cite from Metzudat Zion)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:38:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": "[consider] Mark the economic reading as interpretation, or cite the Targum and Malbim for the bread-and-blessing point. (PS.53.5 Targum: \"שְׁמָא דַייָ לָא בָּרֵכוּ\"; Malbim: \"שלא קראו וברכו את ה' על הלחם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:42:06+00:00",
+   "agent_notes": [
+    "Revised after the critic's request: 'such a fear as never was before' now belongs to Ibn Ezra, Meiri and Metzudat David. Rashi's own reading (the fear that came on Belshazzar, with this redemption scattering the bones of those encamped against Jerusalem, Zech 14:12) is given separately. Titus is credited to Metzudat David on הֱבִישׁוֹתָה (Rashi's Titus is on verse 2), and Rashi's verse 6 is tied to the future redemption.",
+    "The five English versions agree on 'great fear, where no fear was', which adds 'where' and 'great'. I kept the Hebrew's bare 'feared a fear' in the literal layer. The dramatic layer takes לֹא־הָיָה פַחַד as 'no fear like it had ever been', which is Ibn Ezra's and Meiri's reading; Ps 14:5 reads differently, so this verse should not be harmonized with it.",
+    "Rashi mentions Menahem and Dunash on the form חֹנָךְ (from חנה 'encamp' or from חנך 'train'). I did not use Dunash's reading: Ibn Ezra, Radak and Metzudat David all take 'those who encamp against you'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": "[should_fix] Attribute 'such a fear as never was before' to Ibn Ezra, Meiri and Metzudat David, not Rashi, and give Rashi's own reading (a fear like the one that fell on Belshazzar). In the list of historical settings, credit Titus here to Metzudat David (Rashi's Titus is on verse 2) and Rashi's reading of verse 6 to the future redemption. (PS.53.6 Rashi: \"לֹא הָיָה פַחַד. זֶה כַּפַּחַד הָרִאשׁוֹן שֶׁאֵרַע לְבֵלְשַׁצַּר\"; Metzudat David: \"ומה שאתה טיטוס ביישת את ישראל\"; Ibn Ezra: \"כמוהו כמו זה העם לא היה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:42:57+00:00",
+     "note": "[consider] Say that Meiri reads the parallel psalm as Nebuchadnezzar and his son but reads this verse as Gog and Magog, and credit the Isa 23:13 parallel to Ibn Ezra and Meiri only. (PS.53.6 Meiri: \"פירשנוהו על נבוכדנאצר ובנו אבל כאן ביאורו על אחרית הימים בביאת גוג ומגוג\"; Metzudat David: \"פחדו פחד אשר לא היה כפחד הזה מעולם\" (no verse cited).) [consider] Shorten the added image to what the verb gives (the bones scattered), and leave 'unburied' to the commentary. (PS.53.6: \"כִּי־אֱלֹהִים פִּזַּר עַצְמוֹת חֹנָךְ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.53.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:38:17+00:00",
+   "agent_notes": [
+    "STEPBible glosses 6 בְּשׁוּב as 'when turns back'; I keep 'when God returns' because שׁוּב שְׁבוּת is an idiom: either 'return the captivity' (restore fortunes) or 'bring back the captives'. I render it 'returns the captivity of' in both layers and leave the 'restore fortunes' reading to the commentary. Metzudat Zion derives שבות from the root of 'return'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

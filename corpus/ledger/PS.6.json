@@ -1,0 +1,274 @@
+{
+ "chapter_ref": "PS.6",
+ "items": {
+  "verse.en:PS.6.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 6:0, unnumbered title). Hebrew numbering runs one ahead of the KJV through the whole psalm. 'Sheminith' is rendered 'the Eighth' in the literal layer, a transliteration kept in the dramatic one; whether it is an eight-stringed lyre, an octave, or a mode is unresolved, and I say so rather than choose.",
+    "Rashi, Ibn Ezra and the Targum take Sheminith as an eight-stringed instrument; Radak reports that too, and also the midrashic link to circumcision on the eighth day (b. Menachot 43b), which he calls far-fetched. I cite only what the packet shows."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[consider] Consider 'with stringed instruments' in the literal layer. (PS.6.1: \"בִּ֭נְגִינוֹת\" (Ncfpa).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:25:05+00:00",
+   "agent_notes": [
+    "Revised per request: the word order is a chiasm (verb–YHWH … YHWH–verb), not two halves each opening with the name."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[should_fix] Correct the word-order claim. For example: the first half opens with the verb 'has heard', the second with the name, so the two halves form a chiasm (verb–YHWH … YHWH–verb). (PS.6.10: \"שָׁמַ֣ע יְ֭הוָה תְּחִנָּתִ֑י יְ֝הוָ֗ה תְּֽפִלָּתִ֥י יִקָּֽח\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:25:05+00:00",
+   "agent_notes": [
+    "Revised per request: the forms can be read as jussive (wishes: KJV, BBE, Webster) or imperfect (predictions: YLT, ASV); I chose the wish, as in the dramatic layer. Ibn Ezra's 'turn back' is rendered 'they will relent, or seek my peace'; Radak and Metzudat David take it as seeking peace; Meiri as turning back from their schemes."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[should_fix] Say that the forms can be read as jussive (wishes, KJV) or as imperfect (predictions, YLT/ASV), and that the wish is the chosen reading. Render Ibn Ezra as 'they will relent, or seek my peace'. Attribute the peace reading to Radak and Metzudat David, and give Meiri's as 'they turn back from their schemes'. (PS.6.11 morph: יֵבֹשׁוּ HVqi3mp, וְיִבָּהֲלוּ HC/VNu3mp, יָשֻׁבוּ HVqi3mp; Ibn Ezra: \"ישובו - ינחמו או יבקשו שלומי\"; Meiri: \"ישובו ממחשבותם\"; Metzudat David: \"חוזרים מרעתם לבקש שלומי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [
+    "STEPBible glosses אֻמְלַל as '[am] frail'. Rashi, Radak and Meiri relate it to cutting off / withering (Rashi and Radak cite Neh 3:34; Radak also 1 Sam 2:5), so I glossed 'withered, spent' and kept 'frail' out of the literal layer. Ibn Ezra and Radak discuss whether the pataḥ-pointed form is an adjective or a shortened verb; I follow Radak (adjective)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[consider] Split the citation: Rashi cites Neh 3:34; Radak cites 1 Sam 2:5, Neh 3:34 and Jer 15:9. (PS.6.3, Rashi: \"כְּמוֹ ״הַיְּהוּדִים הָאֲמֵלָלִים״ (נחמיה ג:לד)\"; Radak: \"ורבת בנים אמללה (שמואל א ב ה), היהודים האמללים (נחמיה ג לד); אמללה ילדת השבעה (ירמיהו טו ט)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:25:05+00:00",
+   "agent_notes": [
+    "Revised per request: 'until when will you strike me and not heal me?' is now credited to Radak and Meiri only; Rashi's completion ('will you look on and not heal?') and Ibn Ezra's own ('until when will my soul be terrified, having no strength to bear it?') are given separately."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[should_fix] Attribute 'until when will you strike me and not heal me?' to Radak and Meiri only. Give Ibn Ezra's own completion: 'until when will my soul be terrified, having no strength to bear it?'. (PS.6.4, Ibn Ezra: \"עד מתי - תהיה נפשי נבהלת שאין כח בה לסבול\"; Radak: \"תדכאני בחליים ולא תרפאני\"; Meiri: \"עד מתי תאריך חליי ותדכאני ביסורין אלו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:25:05+00:00",
+   "agent_notes": [
+    "Revised per request: 'and for no other reason' removed from the dramatic layer; the not-by-merit reading stays in the commentary, credited to Radak."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[should_fix] Drop 'and for no other reason' from translation_dramatic, and leave the not-by-merit reading in the commentary, credited to Radak. (PS.6.5: \"ה֝וֹשִׁיעֵ֗נִי לְמַ֣עַן חַסְדֶּֽךָ\"; Radak: \"לא בצדקתי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[consider] Mark the liturgical reading as an interpretation. Cite Radak only for what he says about the body descending to Sheol. (PS.6.6, Radak: \"כי הגוף אחר צאת הנשמה כאבן דומם, והוא יורד השאול\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [
+    "אַשְׂחֶה: the verb is the Hiphil of שׂחה 'to swim' (cf. Isa 25:11, cited by Rashi, Radak and Metzudat Zion), 'make swim'. Rashi alternatively derives it from סחי 'filth'; Ibn Ezra reports an Aramaic 'wash' reading. I follow Radak/Meiri/Metzudat Zion (swim, flood). YLT 'meditate' is an error."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[consider] Either mark the register claim as your own reading or drop it. Keep Metzudat Zion only for the gloss 'my bed'. (PS.6.7, Metzudat Zion: \"ערשי. מטתי כמו ערש יצועי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:25:05+00:00",
+   "agent_notes": [
+    "Revised per request: 'grown old' is credited to Rashi, Metzudat Zion and Metzudat David; Radak prefers 'moved from its place' (Job 14:18); Meiri reports both. Ibn Ezra is cited only for the root of 'ashshah and for the anger of v. 8a, not for either reading of 'atqah (his remark on it is cryptic). The literal layer keeps 'grown old' because the lemma and four of five English versions take it so; this is the less certain half of the verse."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[should_fix] Attribute 'grown old' to Rashi (and Metzudat Zion, Metzudat David). Say that Radak prefers 'moved from its place' (Job 14:18) and that Meiri reports both readings. Do not cite Ibn Ezra for either reading. (PS.6.8, Radak: \"עתקה מן וצור יעתק ממקומו (איוב יד יח)... ויש מפרשים (תרגום ורשי במקומו): עתקה נתישנה\"; Rashi: \"עָתְקָה. נִתְיַשְּׁנָה וְנִזְדַּקְּנָה\"; Ibn Ezra: \"ומלת עתקה – שבה אל עיני מרוב הבכי\"; Meiri gives both readings.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.6.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:21:23+00:00",
+   "agent_notes": [
+    "פֹּעֲלֵי אָוֶן: 'workers of iniquity' is the standard rendering. אָוֶן has a sense of emptiness/nothingness as well as harm; I mention it in the commentary only as a possibility and do not source it to the packet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:23:48+00:00",
+     "note": "[consider] Call Isa 38:5 a parallel, not the same phrase. (PS.6.9: \"ק֣וֹל בִּכְיִֽי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Commentary claims about ancient Near Eastern context (Mesopotamian lament psalms, Egyptian medical practice) are my own reading and carry no source citation unless a commentary in the packet supports them.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:21:23+00:00"
+  }
+ ]
+}

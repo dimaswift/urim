@@ -1,0 +1,254 @@
+{
+ "chapter_ref": "PS.32",
+ "items": {
+  "verse.en:PS.32.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "Hebrew verse 1 is the superscription plus the first beatitude; the KJV counts the title as verse 0 and the beatitude as verse 1. The Hebrew numbering is kept here, so Hebrew 32:n is KJV 32:n only from verse 2 onward. נְשׂוּי is a form of נשא 'lift, carry' (Ibn Ezra and Radak read it as a lamed-he style form, comparing Ezek 39:26); 'forgiven' is the sense, 'lifted' the image, and the literal layer keeps 'lifted'.",
+    "Maskil: meaning uncertain. Ibn Ezra and Meiri tie it to 'I will instruct (אַשְׂכִּילְךָ)' in v. 8 or to a musical instrument; Rashi (Pesachim 117a) says it was spoken through an interpreter. I left it transliterated and flagged the instruction link in the commentary as my own reading of the shared root."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[consider] Consider wording it as a contrast with the speaker's silence in v. 3 and his refusal to cover in v. 5. (PS.32.5: \"וַעֲוֹנִי לֹא כִסִּיתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "מַכְאוֹבִים: Ibn Ezra's comment about Asa is unrelated to the plain sense and is not used. No other doubts."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:06:43+00:00",
+   "agent_notes": [
+    "Revised after review: the sentence saying the KJV reverses the order of the verbs is removed. The KJV renders שִׂמְחוּ 'be glad' and גִילוּ 'rejoice', in the same order as the Hebrew. The commentary now points to the real echo, הַרְנִינוּ here and רָנֵּי in v. 7."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[should_fix] Remove the sentence saying the KJV reverses the order of the verbs. If you keep a KJV remark, say only that it renders שמחו 'be glad' and גילו 'rejoice', and that the order is the same. (PS.32.11: \"שִׂמְחוּ בַיהוָה וְגִילוּ\"; KJV: \"Be glad in the Lord, and rejoice\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:07:42+00:00",
+     "note": "[consider] In the יִשְׁרֵי־לֵב note, change 'of v. 1' to 'of v. 2'. (PS.32.2: \"וְאֵין בְּרוּחוֹ רְמִיָּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "The STEPBible gloss 'if' for כִּי is corrected to 'when': Radak and Meiri both read it as 'when' (like Deut 4:25), and all five English versions agree."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "לְשַׁדִּי: STEPBible 'juice'; I kept 'my moisture/sap' (Rashi, Ibn Ezra, Radak all link it to לְשַׁד הַשֶּׁמֶן, Num 11:8). Rashi also records Menahem's alternative from שדד 'plunder' (not adopted)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[consider] Consider rewriting the sentence so that it says the ASV makes explicit a comparison that the Hebrew's בְּ only implies, as the literal layer's '[as]' also does. (PS.32.4: \"נֶהְפַּךְ לְשַׁדִּי בְּחַרְבֹנֵי קַיִץ\"; ASV: \"was changed as with the drought of summer\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:06:43+00:00",
+   "agent_notes": [
+    "Revised after review: the claim that the ידה root returns at the end of the psalm is gone. The echo that is really there, הַרְנִינוּ (v. 11) picking up רָנֵּי (v. 7), is noted at v. 11. In the אוֹדֶה note the confess/thank double sense is given as a lexical point (BDB, HALOT), and Ibn Ezra is cited only for 'to confess'. אוֹדִיעֲךָ is glossed as hiphil of ידע ('I make known'), not ידה, per STEPBible H3045.",
+    "The five English versions split on נָשָׂאתָ: KJV/ASV/Webster 'forgavest', YLT 'taken away', BBE 'took away'. I kept the literal 'lifted' and let the commentary carry 'forgave'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[should_fix] Remove the claim that the ידה root returns at the end of the psalm, or replace it with the echo that is really there: v. 11 הַרְנִינוּ picks up רָנֵּי of v. 7. In the אוֹדֶה note, present the confess/thank double sense as a lexical point, and cite Ibn Ezra only for 'to confess'. (PS.32.11: \"שִׂמְחוּ בַיהוָה וְגִילוּ צַדִּיקִים וְהַרְנִינוּ\"; Ibn Ezra on 32:5: \"וטעם אודה – להתודות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:07:42+00:00",
+     "note": "[consider] Either drop the BDB and HALOT citations and present the confess/thank double sense as your own lexical note, or keep them only if a lexicon is available to verify them. (PS.32.5 packet: the commentaries given are Rashi, Ibn Ezra, Radak, Meiri, Metzudat David, Malbim and the Targum, with no lexicon entries)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "Verse 6 is difficult. רַק is rendered 'surely' (KJV, ASV), though Metzudat David reads it restrictively ('only that the floods not come all at once') and Malbim ties it to the rainstorm. עֵת מְצֹא ('a time of finding') is left open: when God may be found (Isa 55:6), or when the heart is found whole (Radak, Metzudat David). My choices are noted in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:03:16+00:00",
+   "agent_notes": [
+    "The speaker of vv. 8-9 is unmarked in the Hebrew. Most traditional readers hear God (Targum, Rashi, Malbim); Radak and Metzudat David hear David teaching from his own experience. I wrote the dramatic layer so that it works as either, keeping the voice ambiguous, but spoke it in a divine register. אִיעֲצָה עָלֶיךָ עֵינִי is hard: 'I will counsel, my eye upon you' (KJV, ASV) versus Rashi's 'I will signal with my eye'. The literal layer keeps the grammar unresolved."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[consider] Consider dropping the Targum from the list of readers who hear God speaking, or say that it leaves the speaker unmarked. (Targum PS.32.8: \"אֶמְלְכִנָךְ וַאֲשַׁוֵי עֲלָךְ לְטָבָא עַיְנָי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.32.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:06:43+00:00",
+   "agent_notes": [
+    "Revised after review (blocker): the claim that the KJV mistranslates בַּל קְרֹב is removed. KJV ('lest they come near'), Rashi, Radak, Ibn Ezra and Meiri agree: the animal is restrained so that it does not come near to bite. The real divide is with the ASV ('else they will not come near'), which reads that without the bridle the animal will not come at all; Ibn Ezra also reports a third reading, 'far be it from you'. I follow the first reading.",
+    "עֶדְיוֹ is disputed: 'its trapping/ornament' (Rashi, STEPBible, YLT, ASV) or 'its mouth/jaws' (Radak, Meiri, Metzudat Zion, Ibn Ezra citing R. Moshe, with Ps 103:5 as parallel). The literal layer keeps 'its trappings'; the dramatic layer follows the 'mouth' sense, which is also the KJV's."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:05:25+00:00",
+     "note": "[blocker] Remove the claim that the KJV mistranslates בַּל קְרֹב in both the commentary and the בַּל note. Say instead that the KJV ('lest they come near'), Rashi, Radak, Ibn Ezra and Meiri agree: restrained so that it does not come near to bite. The real divide is with the ASV ('else they will not come near'), which reads that without the bridle the animal will not come at all. (PS.32.9: \"בַּל קְרֹב אֵלֶיךָ\"; Rashi: \"שֶׁלֹּא יִקְרַב אֵלֶיךָ, לְהַזִּיקְךָ\"; Radak: \"שלא תקרב אליך לנשוך אותך\"; KJV: \"lest they come near unto thee\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:07:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

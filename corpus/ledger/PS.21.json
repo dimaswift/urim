@@ -1,0 +1,309 @@
+{
+ "chapter_ref": "PS.21",
+ "items": {
+  "verse.en:PS.21.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "The Hebrew text counts the superscription as verse 1, so every verse here is one higher than the KJV (KJV 21:0 is this verse). Verse 12 is KJV 21:11; the Hebrew psalm has 14 verses, KJV 13."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[consider] Prefer the packet's commentators as sources where they say the same thing; keep lexicon citations only where the claim really rests on them. (PS.21.1 note on לַמְנַצֵּחַ: sources \"HALOT s.v. נצח\"; the packet lists only Rashi, Ibn Ezra, Radak, Meiri, the Metzudot, Malbim and the Targum.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "'At the time of your face' (le'et paneikha): Rashi, Radak and Meiri all read panim as anger (cf. Lam 4:16), which I cite. The Targum's 'fire of Gehenna' is the Targum's expansion and is not in the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[consider] Either use 'you will make perish' in the literal layer and gloss, or drop the claim that 'destroy' is too weak. (PS.21.11: פִּ֭רְיָמוֹ מֵאֶ֣רֶץ תְּאַבֵּ֑ד.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "The sources attach several different referents to the enemies (Titus in Rashi, Gog and Magog in Radak and Meiri, Amalek at v11). I did not choose between these and describe only what the Hebrew says."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:46:22+00:00",
+   "agent_notes": [
+    "שֶׁכֶם (shekhem) is literally 'shoulder'. The five English versions split: KJV, ASV, Webster and BBE read 'turn the back' (cf. Ex 23:27); YLT reads 'a butt', a target. The medieval commentators go another way: Rashi (a portion, the spoil Israel divides), Ibn Ezra (one band, joined together), Radak ('one portion, all of them'), Meiri ('one portion before you'), Metzudat David (set apart in one corner as a target for the arrow), Metzudat Zion (portion, as in Gen 48:22) and Malbim (a measuring line, tied to 2 Sam 8:2) all read 'portion' or 'one'; the Targum has 'one shoulder'. I keep 'shoulder' in the literal layer and the glosses, and the dramatic layer follows the 'turn the back' reading, against the medieval commentators; the commentary says so. Ibn Ezra adds that the accent (etnachta) falls on shekhem, so it pairs with 'one', as in shekhem echad.",
+    "STEPBible glosses מֵיתָרֶיךָ as 'bowstrings'; the literal sense is 'your cords/strings'. The verb תְּכוֹנֵן has no stated object: the arrows are understood (Ibn Ezra, Radak both call this an ellipsis). I put the supplied object in brackets in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[should_fix] Rewrite the paragraph on shekhem so it reports the sources accurately: the 'turn the back' reading is that of the KJV, ASV and BBE (with Ex 23:27 as a parallel), while Rashi, Ibn Ezra, Radak, Meiri, both Metzudot and Malbim read 'one portion/one band' (gathered together as a single target, or Rashi's share of spoil). Keep your choice for the literal layer if you like, but say it is against the medieval commentators. Add Radak, Meiri and Ibn Ezra to the sources of the shekhem note. (PS.21.13, Radak: \"כי אתה תשים אותם לחלק אחד כלם\"; Meiri: \"כי אתה תשים אותם חלק אחד לפניך\"; Metzudat David: \"תשית אותם לחלק אחד שיעמדו מובדל בפאה אחת להיות למטרא לחץ\"; Ibn Ezra: \"שכם אחד והטעם להיותם נחברים\"; Targum: \"כְּתַף חַד\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:47:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:46:22+00:00",
+   "agent_notes": [
+    "בְּעֻזֶּךָ can be 'in your strength' (the ground of the exaltation) or 'by your strength' (the means). The five English versions read 'in your strength'; I keep that. נָשִׁירָה is cohortative: 'let us sing', not a flat future as STEPBible has it. Rashi's comment in the packet is the single line 'over those who rise up'; the further words in the packet are garbled and I did not use them."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[should_fix] Replace 'Rashi's comment in the packet is only a line, but Radak says the point' with a sentence about what the sources say, e.g. 'Rashi adds only that God is to rise over those who rise against him; Radak spells out the point: ...'. (PS.21.14, Rashi: \"רוּמָה ה׳ בְּעֻזֶּךָ. עַל הַקָּמִים\" (Rashi says 'over those who rise up [against you]').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:47:03+00:00",
+     "note": "[consider] Make the literal layer match the glosses: 'let us sing and let us make music [of] your might'. Also prefer a packet source over 'HALOT s.v. זמר' in the nezamerah note. (PS.21.14: \"נָשִׁ֥ירָה וּֽ֝נְזַמְּרָ֗ה גְּבוּרָתֶֽךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "Qere/Ketiv at word 7: the packet shows the reading יָגֵל (yagel) from גִּיל; Radak says it is written with a yod (יגיל, like יגיד in Eccl 10:20). I glossed the reading and mention the written form in a note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[consider] Say 'the second adds an exclamation' and cite Meiri for mah ... me'od. (PS.21.2, Meiri: \"ומלת מה עם מלת מאד תוספת רבוי על רבוי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:46:22+00:00",
+   "agent_notes": [
+    "Radak and Metzudat David take the perfect verbs (nathatta, manata) as prophetic perfects standing for the future; the KJV, ASV and YLT read them as past. I kept the perfect in the literal layer and read it as thanksgiving in the dramatic layer. Revised after review: 'Aramaic' is removed; the comparison with rishyon (Ezra 3:7) is attributed to Menachem as cited by Rashi, and to Ibn Ezra. I dropped the claim that the KJV's 'request' derives from it, since no source in the packet says so."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[should_fix] In the commentary and the note on אֲרֶשֶׁת, drop 'Aramaic': say the comparison is with rishyon, 'grant, permission', in Ezra 3:7, brought by Menachem (cited by Rashi) and by Ibn Ezra. Remove or source the sentence that the KJV's 'request' is a guess derived from it. (PS.21.3, Rashi: \"וּמְנַחֵם הֵבִיא לוֹ חָבֵר: כְּרִשְׁיוֹן כּוֹרֶשׁ מֶלֶךְ פָּרַס (עזרא ג:ז), וּשְׁנֵיהֶם לְשׁוֹן מִבְטָא שְׂפָתַיִם\"; Ibn Ezra: \"וכמוה: כרשיון מלך פרס\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:47:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[consider] Drop 'and heavy' or replace it with something paz supports ('of finest gold'). (PS.21.4: \"עֲטֶ֣רֶת פָּֽז\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "STEPBible lists the lemma of gadol as גַּל (H1419A), which is evidently an error for גָּדוֹל. The gloss is unaffected."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": "[consider] Describe the shift as God moving from 'you' to the third person ('in YHWH', 'the Most High'). (PS.21.2: \"יִשְׂמַח־מֶ֑לֶךְ\"; PS.21.8: \"כִּֽי־הַ֭מֶּלֶךְ בֹּטֵ֣חַ בַּיהוָ֑ה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.21.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:57+00:00",
+   "agent_notes": [
+    "The five English versions split on timmetsa: 'find out' (KJV, ASV, Webster), 'cometh to' (YLT), 'make a search' (BBE). Radak reads it as 'suffice' (cf. Num 11:22) and as 'reach'; I kept 'find' and put the alternatives in the commentary. Ibn Ezra's remark that the hand is the left is a medieval reading and I did not use it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

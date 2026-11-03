@@ -1,0 +1,301 @@
+{
+ "chapter_ref": "PS.79",
+ "items": {
+  "verse.en:PS.79.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 carries the superscription 'A psalm of Asaph' (KJV 79:0) together with the first line of the poem. I translated both in one verse as the packet's verse map does. 'Asaph' is the guild name of the temple singers (cf. 1 Chr 25), not necessarily the man of David's time; the psalm itself speaks of the destroyed temple, so a date after 587 BCE is the common reading (though 2 Kings 25 / Jer 52 are my own association, not sourced).",
+    "STEPBible glosses 'לעיים' as 'into heaps of ruins'. Literal layer keeps 'into heaps' (plural of ʿi, a ruin-mound); Rashi and Radak read 'gelim' (piles of stones). Micah 3:12 / Jer 26:18 use the same word, but the verse text in the packet does not quote them, so I cite only the commentators."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[consider] Drop 'a wordplay on sound' or name it; consider trimming the added 'feet and hands' and 'city of your name' from the dramatic layer. (PS.79.1: \"טִ֭מְּאוּ אֶת־הֵיכַ֣ל קָדְשֶׁ֑ךָ שָׂ֖מוּ אֶת־יְרוּשָׁלִַ֣ם לְעִיִּֽים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "The packet shows a Qere/Ketiv mark on 'bagoyim' (Q(k)). I glossed the reading as it stands and found nothing that changes the sense, so no note on the written form."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[consider] Either cite Radak only for what he says, or mark the 'legal redress' reading as the agent's own. (PS.79.10 Radak: \"יודע בגוים. בנקום נקמת דם עבדיך\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "'bnei temutah' ('sons of death'): the five English versions split (KJV 'appointed to die', YLT 'sons of death', BBE 'children of death'). I kept 'sons of dying' in the literal layer. Rashi's Talmudic comparison with 'basar temutah' (Qiddushin 21b-22a) is as quoted in the packet. 'hoter' is a hiphil of yatar, 'leave over / let remain', which Ibn Ezra and the Metzudot read instead as 'loose' (hatter); both are cited as alternatives."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:48+00:00",
+   "agent_notes": [
+    "Revised after review: Adonai is described as a new title after Elohim (v1) and YHWH (v5), and the claim about a final prayer is removed, since v13 follows. STEPBible tags Adonai as deity.yhwh; I left that to the ontology."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[should_fix] Replace 'the second divine title of the psalm' with an accurate statement, e.g. that Adonai, 'my Lord', is a new title after Elohim (v1) and YHWH (v5); also drop 'the final prayer of this window', since verse 13 follows. (PS.79.1: \"אֱֽלֹהִ֡ים בָּ֤אוּ גוֹיִ֨ם\"; PS.79.5: \"עַד־מָ֣ה יְ֭הוָה\"; PS.79.12: \"חֵרְפ֣וּךָ אֲדֹנָֽי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:32:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:48+00:00",
+   "agent_notes": [
+    "Revised after review: the BDB citation is removed from the nesapper note, which now cites Malbim and the Targum, both in the packet. The Targum's own verb netanei is cited only for what it renders."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[should_fix] Remove 'BDB on סָפַר' from the sources of the נְסַפֵּר note; leave sources empty or cite something in the packet (Malbim: \"ע\"י ההילול שהוא ספור שבחך\"). (PS.79.13 packet: commentaries are Ibn Ezra, Radak, Meiri, Metzudat David, Malbim and the Targum only; the Targum renders the verb \"נְתַנֵי תּוּשְׁבַּחְתָּךְ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:32:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "Rashi on 'chasidim' (Talmudic reading that they became 'faithful' once they received their punishment) is reported as the commentator's view; I do not endorse it. The plain sense is that the dead are the Lord's devoted ones."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:48+00:00",
+   "agent_notes": [
+    "Revised after review: the 'appears only in' count for qeles is dropped. The noun and its relatives are cited only as parallels (Jer 20:8, Ps 44:14, Ezek 22:4 as Metzudat Zion cites it)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[should_fix] In the וָקֶלֶס note, drop the 'appears only in…' count, or correct it: the noun qeles in Jer 20:8, Ps 44:14 and Ps 79:4, the related qallasah in Ezek 22:4 (Metzudat Zion's parallel), the verb in 2 Kgs 2:23, Ezek 16:31 and Hab 1:10. (Jer 20:8: \"לְחֶרְפָּה וּלְקֶלֶס\"; 2 Kgs 2:23: \"וַיִּתְקַלְּסוּ־בוֹ\"; Ezek 22:4: \"וְקַלָּסָה לְכָל־הָאֲרָצוֹת\" (the form Metzudat Zion cites on PS.79.4))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:32:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "KJV renders 'tiv'ar' as a question ('shall thy jealousy burn'); YLT as a statement. Hebrew has no question particle: the interrogative carries over from 'ad-mah'. I kept it a question."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:48+00:00",
+   "agent_notes": [
+    "Revised after review: the 'el' = 'al' parallel is now 'el heharim lo akhal' (Ezek 18:6), attributed to Meiri; 'el yesod hamizbeach' is attributed to Ibn Ezra. The resemblance to Jer 10:25 is my own observation and carries no source.",
+    "The five English versions split on goyim: KJV and Webster 'heathen', the others 'nations'. I kept 'nations' in both layers, because 'heathen' reads the word as religious contempt, while the verse defines the nations by their not knowing YHWH."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[should_fix] Correct the parallel to 'el heharim lo akhal' (Ezek 18:6) and attribute it to Meiri; attribute 'el yesod hamizbeach' to Ibn Ezra, or drop the parallels. (PS.79.6 Meiri: \"ואל הגוים כמו על הגוים כדרך אל ההרים לא אכל (יחזק׳ יח ו)\"; Ibn Ezra: \"כמו אל הממלכות, כמו: אל יסוד המזבח\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:32:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "'akhal' is singular ('it/he has devoured'), 'hesham-mu' is plural. KJV, ASV and Webster harmonize both to 'they'. Literal layer keeps the number shift; Meiri reads the singular as the wicked king leading the enemy. Some manuscripts and versions read plural 'akhlu'; I translated the text as it stands."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [
+    "'avonot rishonim' is genuinely ambiguous: 'iniquities of former ones' (ancestors, so ASV/BBE 'forefathers') or 'former iniquities' (KJV, Radak, Meiri's 'sins of youth'). I kept 'former ones' in the literal layer with a bracket-free ambiguity-preserving rendering 'iniquities of the former [ones]' and explained both in the commentary. Ibn Ezra prefers the ancestors reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": "[consider] Keep the image to what yeqaddemunu gives: mercies that go out ahead to meet the people. (PS.79.8 Radak: \"יקדמונו. ענין הזמנת הדבר והביא אותו לפני אדם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.79.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:28:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

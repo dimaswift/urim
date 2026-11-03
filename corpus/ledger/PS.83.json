@@ -1,0 +1,414 @@
+{
+ "chapter_ref": "PS.83",
+ "items": {
+  "verse.en:PS.83.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering (KJV 83:0), so every later verse here is one higher than the KJV. 'Of Asaph' is lamed-auctoris or dedication; I kept 'of Asaph' in the literal layer and did not decide between authorship, guild or collection."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[consider] Leave the 57-count unsourced or source it properly; make the le'asaf note say what Malbim says (the Asaphite Levite Jahaziel in 2 Chr 20). (Targum on PS.83.1: \"שִׁיר וּשְׁבָחָא עַל יְדָא דְאָסָף\"; Malbim: \"ויחזיאל מן בני אסף\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:38:47+00:00",
+   "agent_notes": [
+    "Revised after the critic: the commentators split on which victory took place at En-dor. Midian/Gideon: Ibn Ezra, Radak (first reading), Metzudat David. Jabin and Sisera/Barak: Meiri, Malbim, and Radak's 'some explain'. Rashi says he does not know. I follow the Hebrew order (verse 10 ends on Kishon, verse 11 reaches back) without choosing; the 'dung' note stays as it was."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[should_fix] Correct the attribution in directors_commentary: Rashi undecided; Ibn Ezra, Radak and Metzudat David refer En-dor to Midian (Gideon); Meiri and Malbim to Jabin and Sisera (Barak). (Radak on PS.83.11: \"נשמדו בעין דאר. על מדין אמר ... ויש מפרשים כי על מלחמת סיסרא\"; Metzudat David: \"על מדין הוא חוזר\"; Meiri: \"מוסב על יבין מלך כנען\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:39:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "שיתמו נדיבמו carries a pronominal suffix and a direct noun object, 'make them, their nobles'. Ibn Ezra and Radak compare 'she saw him, the child' (Exod 2:6). I kept this as 'make them, their nobles' in the literal layer and smoothed it in the dramatic layer. Oreb and Zeeb mean 'raven' and 'wolf', which the literal layer keeps visible with a bracket."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:38:47+00:00",
+   "agent_notes": [
+    "Revised after the critic: 'verses 6–8' corrected to 'verses 7–9', the roll call itself (the covenant of verse 6 is the pact, not the list). 'Pastures' for ne'ot is my choice over KJV 'houses' and YLT 'comely places'; Ibn Ezra's note that ne'ot stands for newot supports it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[should_fix] Change 'verses 6–8' to 'verses 7–9' (or 'verses 6–9' if the covenant verse is meant to be included). (PS.83.7: \"אָהֳלֵי אֱדוֹם\" … PS.83.9: \"גַּם־אַשּׁוּר נִלְוָה עִמָּם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:39:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [
+    "גַּלְגַּל: the five English versions split (wheel, rolling thing, whirling dust, rolling dust). I chose 'tumbling thing' in the literal layer and 'tumbleweed' as the image in the dramatic layer, following Rashi, Radak and Meiri (a thing that rolls before the wind, cf. Isa 17:13); this is a judgment call between thistle-head and dust-whirl."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[consider] Attribute the thorn-head reading to Rashi and Metzudat David; Radak and Meiri to rolling stubble. (Radak on PS.83.14: \"כגלגל. הוא הקש המתגלגל מפני הרוח\"; Metzudat David: \"הוא הגדל בראש הקוצים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [
+    "STEPBible parses תִּבְעַר as intransitive-looking with יער as object; Ibn Ezra and Radak discuss whether יער lacks the preposition ב. I render 'burns a forest' as a plain transitive, the way most versions do."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [
+    "Radak (as quoted in the packet) gives his father's etymology of קלון from קלי 'roasted, scorched' (face burning with shame). I mention it as a medieval proposal; I did not verify it against a lexicon.",
+    "The sense of וְיבקשו is disputed: Metzudat David and Radak read a sincere turning to God; Malbim reads that they seek too late; Meiri applies it to Israel. I render it as a purpose clause 'that they may seek' and flag the ambiguity in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:02+00:00",
+   "agent_notes": [
+    "The clause כי אתה שמך יהוה לבדך is awkward: the KJV 'whose name alone is Jehovah' and YLT's parenthesis show the split. Ibn Ezra sees an omitted relative (אשר). I render literally and keep the two possible readings of 'alone' (qualifying 'you' or 'your name') visible."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "STEPBible glosses דמי as 'silence' and the pointing domi is unusual (usually domi, 'stillness'); BDB takes it from דֳּמִי 'silence, rest'. Ibn Ezra notes it is from a different root than וידום (Lev 10:3). I glossed the three verbs of silence with three distinct English words (silence/keep silent/be still) to keep Hebrew's triple synonym visible."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[consider] Paraphrase Rashi as 'do not be silent over the wrongs our enemies do to us'. (Rashi on PS.83.2: \"אַל תִּתֵּן שְׁתִיקָה לְעַוּוֹתָתֵינוּ שֶׁאוֹיְבֵינוּ מְרֵיעִים לָנוּ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[consider] Optional: let 'roaring' stand without the added sea image, or keep it but know it is an addition. (PS.83.3: \"אוֹיְבֶיךָ יֶהֱמָיוּן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "STEPBible glosses יערימו as 'they make crafty'. Hiphil of ערם, 'to act shrewdly, craftily'; I rendered it as an adjective-causative ('make crafty their counsel'), as YLT and KJV do. צפוניך is a passive participle of צפן 'hidden, treasured'; KJV 'hidden ones' keeps the double sense of protected and prized, and I have kept both in the gloss."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:38:47+00:00",
+   "agent_notes": [
+    "Revised after the critic: removed the unsupported 'as in Babel' and the loose Rashi/Malbim paraphrase. Rashi (on 83:6, his comment on the covenant clause) argues that God is called God only through Israel, so if Israel's name is forgotten his own name goes with it; Malbim says the name Israel marks a people guided above nature. The Gen 37:20 parallel (lekhu ve-nahargehu) is my own comparison, not a commentator's, so it carries no source."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[should_fix] Drop 'as in Babel' (or cite a real lekhu + cohortative parallel, e.g. Gen 37:20 'lekhu ve-nahargehu'), and restate the Rashi/Malbim point as they make it: God is known as the God of Israel, so erasing Israel's name erases his; Malbim: the name marks a people guided above nature. (PS.83.5: \"אָמְרוּ לְכוּ וְנַכְחִידֵם\"; Rashi on 83:6: \"שֶׁאֵין אַתָּה קָרוּי אֱלֹהִים אֶלָּא לָנוּ אֱלֹהֵי יִשְׂרָאֵל, וּמֵאַחַר שֶׁלֹּא יִזָּכֵר שֵׁם יִשְׂרָאֵל אַף שִׁמְךָ הַגָּדוֹל אֵינוֹ נִזְכָּר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:39:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "In the Hebrew 'יכרתו' (present-imperfect) means they are in the act of cutting a covenant; KJV 'confederate' and ASV 'make a covenant' both flatten the idiom 'cut a covenant', which I kept literal."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "STEPBible tags הגרים to person.hagri (the Gadite of 1 Chr 5:10), but here it is the Hagrite tribe (cf. 1 Chr 5:10, 19-20), probably descendants of Hagar. The entity link is the registry's; I flag it for the reviewer, not for me to change."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": "[consider] Say 'six of the ten' or 'most of the first names' instead of 'almost all'. (PS.83.8: \"גְּבָל ... פְּלֶשֶׁת עִם־יֹשְׁבֵי צוֹר\"; PS.83.9: \"גַּם־אַשּׁוּר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.83.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:35:27+00:00",
+   "agent_notes": [
+    "Targum has Sennacherib king of Assyria joined; Rashi and Radak read 'also' as moral surprise. I did not date the coalition: the psalm lists peoples that never all fought Israel at once, so the commentary says the list is a roll-call, not a single known campaign. That is my own reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

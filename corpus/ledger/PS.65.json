@@ -1,0 +1,325 @@
+{
+ "chapter_ref": "PS.65",
+ "items": {
+  "verse.en:PS.65.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:02:11+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the note on פֶּלֶג now credits Rashi and the Targum with the heavenly-reservoir reading and gives Radak's reading (streams left on the ground; 'of God' = 'great') as the alternative. The commentary says that כון occurs twice in this verse, echoing מֵכִין in v.7. I did not choose between the readings; the literal keeps 'stream of God' and leaves the sense open."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[should_fix] Say that כון occurs twice in v.10, echoing מֵכִין in v.7. In the פֶּלֶג note, credit the sky or heavenly-reservoir reading to Rashi and the Targum, and give Radak's reading (streams left on the ground; 'of God' = 'great') as the alternative. (PS.65.10: \"תָּכִין דְּגָנָם כִּי־כֵן תְּכִינֶהָ\"; PS.65.11 has no form of כון; Radak: \"ישארו מהמטר פלגים גדולים מלאים מים להשקות אדם ובהמה\"; Targum: \"מִן קוּבְתָא דֶאֱלָהָא דִי בִשְׁמַיָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "Both תְּלָמִים and גְּדוּדִים are ploughing terms, and English versions swap them (KJV: ridges/furrows; ASV: furrows/ridges). I follow Radak: תלם is the ploughed row, גדוד the cut or ridge/trench between. Two sources (Rashi, Meiri) read רַוֵּה and נַחֵת as infinitives or imperatives ('drench', 'level'); I render them as imperatival-participial forms in the literal layer. נַחֵת is also uncertain (from נחת 'come down', so 'press down', per STEPBible)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[consider] Cite Rashi (and Metzudat Zion) for 'furrows', and present Radak as the reading that reverses the two nouns. (Radak: \"תלמי הארץ והם גבשושית הארץ\" ... \"גדוד הארץ והם העמקים שבין תלם לתלם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:02:11+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the claim that דֶּשֶׁן is 'the same word as oil' is removed. The note cites Rashi and Metzudat Zion, who gloss it שׁוּמָן, 'fat, richness'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[should_fix] Drop 'it is the same word as \"oil\"'. Say instead that Rashi and Metzudat Zion gloss it שׁוּמָן, 'fat, richness'. (PS.65.12: \"יִרְעֲפוּן דָּשֶׁן\"; Rashi: \"דשן. שומן\"; Metzudat Zion: \"דשן. שומן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:02:11+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the subject of יִרְעֲפוּ is 'your tracks' (מַעְגָּלֶיךָ, v.12), with 'upon' implied, as Rashi, Radak and Meiri read it. The pastures-as-subject reading is grammatically strained, because the verb is masculine plural and נְאוֹת is feminine plural, so the commentary says so. The literal marks the implied preposition in brackets."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[should_fix] Rewrite the first paragraph so that 'your tracks' (the clouds of v.12) are the ones dripping, onto the pastures of the wilderness, with 'upon' implied. Mention that the pastures-as-subject reading is grammatically strained, or drop it. In the literal, mark the implied preposition: 'They drip [on] the pastures of [the] wilderness'. (PS.65.13: \"יִרְעֲפוּ נְאוֹת מִדְבָּר\"; Rashi: \"השמים בנאות המדבר\"; Meiri: \"חסר מלת על ... ירעפו ג״כ על נאות מדבר\"; PS.65.12: \"וּמַעְגָּלֶיךָ יִרְעֲפוּן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:02:11+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the literal now reads 'The pastures have put on the flock', with Metzudat David's alternative in brackets (the rams among the flock are clothed with fat), and pos 3 is glossed 'the flock'. כָרִים is ambiguous (pastures or meadows; rams or lambs; STEPBible chose 'pastures'). The five English versions split, and the dramatic layer keeps the pastures reading, which Rashi, Radak, Ibn Ezra and the KJV share."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[should_fix] Render the literal as 'The pastures have put on the flock [or: the rams among the flock are clothed (with fat), Metzudat David]' and gloss pos 3 as 'the flock', not 'of the flock'. (PS.65.14: \"לָבְשׁוּ כָרִים הַצֹּאן\"; Rashi: \"יתלבשו השרון והערבה מן הצאן\"; Radak: \"הכרים הם מלאים צאן כאלו מלובשים בצאן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "דֻמִיָּה is the crux. I keep 'silence' in the literal layer (as YLT does) and let the dramatic layer carry the Rashi/Ibn Ezra-Malbim reading (silence as the only adequate praise), with the waiting/trust reading (Radak, Meiri, Ibn Ezra via 1 Sam 14:9) in the commentary. KJV/ASV/Webster 'waiteth' follows the second; BBE paraphrases away the word. The Rashi quotation in the packet contains an embedded parenthetical in the printed text; I cite only the clear first and last comments.",
+    "Gloss of pos 1 and 6 corrected from STEPBible 'to <the> you' to 'to you'; pos 3 'is praise' kept bracket-free as 'praise' because Hebrew has no verb."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[consider] Drop 'in the voice of a royal courtier'. (Radak: \"מלך בשר ודם יכול לשמוע מן שנים או מן שלשה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "The verb switches from first person singular (מֶנִּי 'than me') to plural (פְּשָׁעֵינוּ 'our transgressions'). Radak and Meiri read the 'I' as the people speaking as one; I keep the switch visible. STEPBible glosses מֶנִּי as 'for me'; I corrected it to 'than me' (comparative min after גבר, 'too strong for me'). Malbim's reading that the iniquities themselves 'speak' (דברי as 'words/things of') is noted, not adopted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "The syntax of תִּבְחַר וּתְקָרֵב is a relative clause without אשר (Ibn Ezra); the switch to 'we' in נִשְׂבְּעָה is the congregation answering. I render the cohortative 'may we be satisfied' per the STEPBible morphology (Vqc1cp); KJV 'we shall be satisfied' reads it as a future. Targum differs sharply (the righteous say 'we are satisfied')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "מִבְטָח 'trust' is in apposition to אֱלֹהֵי יִשְׁעֵנוּ; KJV 'who art the confidence' adds a relative. Malbim's historical gloss tying נוראות to the Gibeonite affair (2 Sam 21) is his own and I mention it only as a minority reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[consider] Drop the pun, or say that the two senses come from distinct homonymous roots. (PS.65.6: \"תַּעֲנֵנוּ\" (STEPBible H6030B, 'answer'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:02:11+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary says that תָּכִין and תְּכִינֶהָ both occur in verse 10 (not in verse 11). I rendered נֶאְזָר in the literal as a passive participle, 'being girded', following the Niphal."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[should_fix] Change 'in verses 10 and 11 (תָּכִין)' to 'twice in verse 10 (תָּכִין, תְּכִינֶהָ)'. (PS.65.10: \"תָּכִין דְּגָנָם כִּי־כֵן תְּכִינֶהָ\"; PS.65.11: \"תְּלָמֶיהָ רַוֵּה נַחֵת גְּדוּדֶיהָ בִּרְבִיבִים תְּמֹגְגֶנָּה צִמְחָהּ תְּבָרֵךְ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": "[consider] Say that the BBE leaves out 'the tumult of the peoples' altogether. (BBE 65:7: \"Who makes the loud voice of the sea quiet, and puts an end to the sound of its waves.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.65.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:21+00:00",
+   "agent_notes": [
+    "מוֹצָאֵי־בֹקֶר וָעֶרֶב: the 'goings-out' of morning and evening is read either as the east and west (Malbim), as the sun/moon/stars rising (Radak, Meiri) or as the people greeting dawn and dusk (Rashi). Rashi's blessing reading is attested in the packet; the east-west reading is my paraphrase of Malbim."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:00:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

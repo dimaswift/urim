@@ -1,0 +1,278 @@
+{
+ "chapter_ref": "PS.97",
+ "items": {
+  "verse.en:PS.97.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "מָלָךְ is a perfect verb. I render it 'reigns' in the dramatic layer and 'has reigned / is king' in the literal layer; the enthronement-shout reading ('YHWH has become king!') is a scholarly choice, not stated in the packet's commentaries. Meiri reads the perfect as prophetic ('past for future'); the plain sense here follows the surrounding present-tense hymn."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[consider] Present the enthronement reading as one view and add the packet's future/prophetic reading; fix the word-order sentence. (PS.97.1: יְהוָה מָלָךְ (name, then verb); Rashi: בנטלו המלוכה מעמלק; Metzudat David: לעתיד כאשר תתגלה מלכותו.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "זָרֻעַ 'is sown' is the reading of the Masoretic text. Meiri notes it may be a variant of זָרַח 'dawns' (his letters ח/ע exchange); I do not rely on this and keep 'sown', which Rashi and Ibn Ezra support in the packet. I did not cite the ancient versions, which are not in the packet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "Radak glosses זֵכֶר קָדְשׁוֹ simply as 'his name'. ASV 'holy memorial name' follows that line; I keep 'remembrance of his holiness' literally and flag the name reading in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:46+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: the commentary now says the KJV pluralizes עָנָן only, and that its plain 'darkness' loses the specific sense of עֲרָפֶל; the claim that both nouns are pluralized is gone."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[should_fix] In directors_commentary, say that the KJV pluralizes עָנָן ('clouds', singular in Hebrew) and that its plain 'darkness' loses the specific sense of עֲרָפֶל, 'thick darkness, dense cloud'; remove 'pluralizes both nouns'. (PS.97.2 KJV: 'Clouds and darkness are round about him'; Hebrew עָנָן וַעֲרָפֶל, both singular (HNcmsa).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:46+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: the 'blade' comparison is dropped; the verb is tied to לַהַט, 'flame' (Gen 3:24), and to Metzudat Zion's 'flaming fire'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[should_fix] In directors_commentary, replace 'the same root as \"blade\" and \"flame\"' with 'the root of לַהַט, \"flame\" (as in the flaming sword of Gen 3:24)', or drop the 'blade' comparison. (PS.97.3: וּתְלַהֵט, lemma לָהַט (H3857); Metzudat Zion links it to אֵשׁ לוֹהֵט, 'flaming fire', not to a blade.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "STEPBible glosses רָאֲתָה as 'it sees' and וַתָּחֵל as 'it trembled'. I kept 'saw' and 'writhed' for the pair, because the sequence (perfect, then wayyiqtol) is narrative-past. חוּל is the verb of labour pains and of whirling; Rashi cites the birth sense (Ps 48:7; Mic 4:9)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[consider] Soften the ground/world contrast and mention Radak's reading of 'the earth' as its inhabitants. (PS.97.4: רָאֲתָה וַתָּחֵל הָאָרֶץ; Radak: הארץ. ר\"ל יושבי הארץ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[consider] Drop 'lamps' and 'candle', or say only that wax melts at a flame or in the sun. (PS.97.5: הָרִים כַּדּוֹנַג נָמַסּוּ; Rashi, Radak, Metzudat Zion only gloss כדונג as שעוה, 'wax'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:46+00:00",
+   "agent_notes": [
+    "Tense: הִגִּידוּ is a perfect and וְרָאוּ a waw + perfect, so past ('declared ... saw': YLT, ASV 'have seen') and present (KJV) are both possible. I kept the literal past and the dramatic present; the commentary no longer says the KJV flattens the tenses."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[should_fix] Rewrite the tense sentence of directors_commentary: say that הִגִּידוּ is a perfect and וְרָאוּ a waw + perfect, that the past ('declared ... saw', YLT/ASV 'have seen') and the present (KJV) are both possible readings, and drop the claim that the KJV flattens the tenses. Keep the literal 'saw' if you wish, and keep the valid point about 'the people' vs 'the peoples'. (PS.97.6 word table: וְרָאוּ morph Hc/Vqq3cp, STEPBible 'and they see'; PS.97.4: וַתָּחֵל Hc/Vqw3fs (wayyiqtol). KJV 'all the people see'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "אֱלֹהִים in 'all gods' is disputed: the packet's Radak, Metzudat David and Meiri read it as the host of heaven; Ibn Ezra records some who take it as angels; the Targum reads 'all peoples who serve idols'. I translate 'gods' and discuss the options in the commentary. The perfect/imperative form הִשְׁתַּחֲווּ is formally imperative (STEPBible morph), though Radak and Meiri take it as past-for-future."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[consider] Mark the pun as a scholarly observation and add the plural/singular point to the KJV audit. (PS.97.7: עֹבְדֵי פֶסֶל (singular), KJV 'serve graven images'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:46+00:00",
+   "agent_notes": [
+    "Literal now separates the two verbs as in v.1: שָׂמַח 'rejoiced', גִּיל 'were glad'. Glosses 2 and 4 follow."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": "[should_fix] Distinguish the two verbs in translation_literal, consistent with v.1: 'Zion heard and rejoiced, and the daughters of Judah were glad, because of your judgments, YHWH.' Align token glosses 2 and 4 with that choice (2 'and it rejoiced', 4 'and they were glad'). (PS.97.8: שָׁמְעָה וַתִּשְׂמַח צִיּוֹן וַתָּגֵלְנָה בְּנוֹת יְהוּדָה; literal has 'Zion heard and was glad, and the daughters of Judah were glad'. PS.97.1: תָּגֵל ... 'be glad', יִשְׂמְחוּ ... 'rejoice'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.97.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:49+00:00",
+   "agent_notes": [
+    "STEPBible glosses נַעֲלֵיתָ as 'you are exalted' (Niphal perfect); I render it 'you are raised high' in the dramatic layer and keep the perfect sense 'you have been exalted' literally."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

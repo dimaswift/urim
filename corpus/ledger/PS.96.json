@@ -1,0 +1,282 @@
+{
+ "chapter_ref": "PS.96",
+ "items": {
+  "verse.en:PS.96.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "Rashi and Malbim read 'new song' as a song for the future or for a renewed creation; Radak ties it to the return from Babylon. I kept the commentary to the plain sense (a song not yet sung, because the LORD has just acted or is about to) and mention the traditional readings briefly."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "The Hebrew has 'the LORD has become king / reigns' (yhwh malak) with the verb in the perfect. I translate it as a proclamation of enthronement ('reigns') and note the alternative 'has become king' in the commentary; the five versions split between 'reigneth' and 'hath reigned'. Per the Qere-less text, the written form is unchanged."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[consider] Either cite what the claim about the accent rests on (the disjunctive on מָלָ֗ךְ), or keep the sources only for what they say (Rashi: for the future; Metzudat David: he has now shown his kingship). (PS.96.10 Rashi: \"ה׳ מָלָךְ. לֶעָתִיד לָבוֹא יְהֵא שִׁיר זֶה\"; Metzudat David: \"ה׳ מלך ר״ל עתה הראה מלכותו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "The packet's ordering shows the verse ending at 'and its fullness'. The Hebrew verb for the sea is ra'am ('thunder'); the KJV 'roar' is acceptable but loses the thunder image. Radak's gloss of 'its fullness' as fish and Metzudat David's as creatures are both cited only as their readings."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[consider] Drop 'no metaphor to the ancients' or present it as a contrast with the commentators' reading. (PS.96.11 Radak: \"הכל דרך משל על שמחה הגדולה\"; Metzudat David: \"ענין מליצה הוא על רוב השמחה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:59:15+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary no longer says anything about the KJV's verse division. It says only that the Hebrew sentence runs on into verse 13 ('before YHWH'), and that Webster, not the KJV, carries the phrase back into verse 12.",
+    "STEPBible glosses the verb of word 1 as 'let it exult' and word 7 as 'they will shout for joy'. I kept 'let it exult' for the jussive-colored imperfect and 'then they will sing out' for the second verb, because the five English versions split between wish ('let') and statement ('then shall'). The Hebrew has the same unmarked imperfect form in both clauses, so the literal layer keeps a modal 'let' for the first and a plain future for the second, as in ASV.",
+    "Word 2 is the poetic plural-form שָׂדַי ('fields'), STEPBible 'field[s]'. Radak and Metzudat Zion read it as equal to שדה; I render it 'the field' (collective), as all five English versions do.",
+    "Rashi's allegory (trees = rulers of the nations) is reported as his reading only; the literal and dramatic layers keep the trees as trees."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[should_fix] In the second paragraph of the commentary, drop the claim about the KJV's verse division. Either say that Webster (not the KJV) moves 'before the LORD' into verse 12, or simply say that the Hebrew sentence runs on into verse 13 ('before YHWH'). Keep the rest. (PS.96.12 KJV: \"then shall all the trees of the wood rejoice\" (it stops there); PS.96.13 KJV: \"Before the Lord: for he cometh\"; PS.96.12 Webster: \"then shall all the trees of the wood rejoice before the LORD:\"; PS.96.13 Webster begins \"For he cometh\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:59:56+00:00",
+     "note": "[consider] Say instead that the KJV's 'be joyful' and 'rejoice' are milder than 'exult' and 'sing out', not that it uses one word for both verbs. (PS.96.12 KJV: \"Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice\") [consider] Keep the dramatic line closer to the verse: the field and what is in it exult, then all the trees of the forest sing out. (PS.96.12: \"אָז יְרַנְּנוּ כָּל־עֲצֵי־יָעַר\" (then all the trees of the forest will sing out))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:55:55+00:00",
+   "agent_notes": [
+    "The five English versions split on the tense of בָּא: KJV 'cometh', YLT 'hath come', BBE 'is come'. The form is a perfect (qatal), which can be a prophetic perfect, so the coming is announced as already under way. I kept 'he has come' in the literal layer and 'he is coming' in the dramatic one, and explained the choice in the commentary.",
+    "The packet gives no text for PS.96.12, so the dramatic voice continues from the psalm's call that the sea, the field and the trees shout (my reading of the context, not from the packet).",
+    "Glosses 'in faithfulness his' and 'peoples' follow STEPBible. I kept 'the world' for תֵּבֵל and 'the earth' for הָאָרֶץ, so that the two parallel nouns stay distinct. Meiri's remark on 1 Chronicles 16 is cited as he gives it; I did not check the Chronicles text against it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[consider] Add that בָּא can be read as a participle ('is coming') as well as a perfect, and that the versions split on that, not on whether the KJV errs. (PS.96.13 token 4: morph HVqp3ms, STEPBible gloss \"[he is] coming\"; KJV/ASV \"for he cometh\"; YLT \"for He hath come\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[consider] Drop the 'unusual object' remark or frame it as the name standing for the person; mark the 'wide space' sense of ישׁע as a modern etymology. (PS.96.2: \"בָּרֲכוּ שְׁמוֹ\"; Ibn Ezra on the verse: \"שמו הנכבד שהוא שם העצם\" (the name as the proper name).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "'elohim' is glossed 'gods', as STEPBible and all five English versions do. Ibn Ezra and Radak take it as angels, Metzudat David as sun, moon and stars; the next verse (elilim, 'worthless things') supports 'gods of the nations' and I say so in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "Metzudat Zion and Ibn Ezra derive elilim from 'al ('not') or 'el plus lo'. This is a folk etymology cited in the packet, which I mention as an ancient reading and not as established; HALOT treats the word as a pejorative formed in assonance with elohim. I did not cite HALOT for a specific page."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "Ibn Ezra reads 'sanctuary' (miqdash) as heaven or the Temple; the setting of Ps 96 as a processional psalm for the Temple is my reading and is marked as such. The STEPBible glosses 'to before him' and 'in sanctuary his' were simplified to 'before him' and 'in his sanctuary'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": "[consider] Say 'the first word of each pair is what he is, the second what shows'. (PS.96.6 Malbim: \"ההוד הוא ענין פנימי... וההדר הוא היופי החיצוני... העז הוא ענין פנימי... והתפארת הוא ענין חיצוני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.96.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:56:41+00:00",
+   "agent_notes": [
+    "hadrat-qodesh: KJV 'the beauty of holiness' versus ASV 'holy array'. The five versions split. I kept 'in the splendor of holiness' in the literal layer, which can carry either 'holy attire' or 'holy appearance', and say in the commentary that the Hebrew is ambiguous. STEPBible's 'adornment' is kept for the gloss."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

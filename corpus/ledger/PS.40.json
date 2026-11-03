@@ -1,0 +1,418 @@
+{
+ "chapter_ref": "PS.40",
+ "items": {
+  "verse.en:PS.40.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:37+00:00",
+   "agent_notes": [
+    "Removed the HALOT citation as requested; the title note now rests on the Targum's rendering lishabbacha ('for praising') and is otherwise my own reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] Remove 'HALOT' from the sources. Either leave the note unsourced or add the Targum's rendering לְשַׁבָּחָא ('for praising') with 'Targum on Psalm 40:1' as its source. (PS.40.1 packet: the commentaries are Radak, Meiri, Malbim and Targum ('לְשַׁבָּחָא'); there is no lexicon.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:37+00:00",
+   "agent_notes": [
+    "tzedek has no suffix. The first reading takes it as God's righteousness, as v. 11 'your righteousness' suggests; Malbim reads it as the speaker's own (tzidki). The dramatic layer now says only 'justice', and the commentary names the choice."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] Rewrite the tzedek sentence to give both readings: God's righteousness, as v.11 'your righteousness' suggests, or the speaker's own, as Malbim reads it ('tzidki'). Either drop 'your' from the dramatic layer or say in the commentary that it is a choice. (PS.40.10: \"בִּשַּׂרְתִּי צֶדֶק\" (no suffix); Malbim: \"שמה שבשרתי צדק (היינו צדקי) לקהל רב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:37+00:00",
+   "agent_notes": [
+    "Literal layer now has 'to the great assembly' and the gloss at pos 13 is 'to the assembly', following the Hebrew le- and STEPBible. The dramatic layer keeps 'from', with the commentary explaining the attachment."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] In translation_literal, change 'from the great assembly' to 'to the great assembly', and gloss pos 13 as 'to the assembly'. The dramatic layer may keep its choice, and the commentary already explains the attachment. (PS.40.11: \"לֹא־כִחַדְתִּי חַסְדְּךָ וַאֲמִתְּךָ לְקָהָל רָב\" (STEPBible: 'to [the] assembly'; YLT: 'To the great assembly'); Radak: \"אם היתה נקשרת עם כחדתי היה אומר מקהל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "lo tikhla and yitzeruni are imperfects and can be read as a plea (KJV, ASV, Webster: 'withhold not', 'let ... preserve') or as a confident statement (YLT, which reads 'restrainest not'). Meiri and Radak read a plea for the future. The literal layer stays neutral ('You, YHWH, will not withhold'), the dramatic layer renders it as a plea and the commentary says why."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[consider] Describe Metzudat David's reading as a request for repayment, and mark the tamid/olat tamid link as your own reading. (Metzudat David on PS.40.12: \"לכן גם אתה ה׳ השב גמול ולא תמנע רחמיך ממני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:46+00:00",
+   "agent_notes": [
+    "Addressed the reviewer request: the note on 'afefu now reads 'the waves of death surrounded me' (2 Sam 22:5, cited by Radak) with the parallel 'cords of death' (Ps 18:5 in Hebrew numbering, cited by Metzudat Zion).",
+    "STEPBible glosses 'ra'ot' as 'troubles'; I keep 'evils' in the literal layer because the same word is 'harm' in v. 15 (ra'ati) and the repetition across the two verses is part of the sound of the passage. 'azavani is glossed 'it has abandoned me' with 'heart' as subject, a masculine singular verb with lev as subject (lev is masculine).",
+    "The five English versions split on la-ra'ot: KJV/ASV/Webster 'look up', YLT 'see', BBE 'bent down with their weight'. I keep the plain verb 'see'. Ibn Ezra reads it as either physical sight or seeing with the heart's perception; Metzudat David reads dimmed eyes."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] Change the parenthesis to read: 'the waves of death surrounded me' (2 Sam 22:5, cited by Radak), with the parallel 'cords of death' in Psalm 18:5 (18:4 in English, cited by Metzudat Zion). (Radak on PS.40.13: \"כי אפפוני משברי מות (שמואל ב כב ה)\"; Metzudat Zion: \"אפפוני חבלי מות (לעיל י״ח)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": "[consider] Separate the two parallels in the note: 'the waves of death surrounded me' (2 Sam 22:5) and 'the cords of death surrounded me' (Ps 18:5, 18:4 in English). (Radak on PS.40.13: \"כי אפפוני משברי מות (שמואל ב כב ה)\"; Metzudat Zion: \"אפפוני חבלי מות (לעיל י״ח)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:46+00:00",
+   "agent_notes": [
+    "Addressed the reviewer request: Ibn Ezra is removed from the sources of the chushah note, which is now unsourced as a grammatical remark. Ibn Ezra is cited only for le'ezrati ('to be my help, or an adjective, like le'ezreni').",
+    "Verses 14-18 of Ps 40 recur almost verbatim as Psalm 70. I mention this in the commentary as general knowledge; no source in the packet states it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] Remove 'Ibn Ezra on Psalms 40:14' from the sources of the חוּשָׁה note and leave the grammatical remark unsourced. Or, if you want to cite Ibn Ezra, cite him for his actual point about le'ezrati ('to be my help'). (Ibn Ezra on PS.40.14: \"רצה, לעזרתי חושה - להיות עזרתי, או שם התאר, כמו לעזרני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:24:46+00:00",
+   "agent_notes": [
+    "Addressed the reviewer request: the Gen 18:23 parallel ('ha'af tispeh') is attributed to Radak and Ibn Ezra; Rashi is cited for glossing lispotah as 'to finish it' via the Targum of Deut 2:14 ('ad desaf kol dara'). Commentary and note text and sources are changed to match.",
+    "In the packet text Metzudat Zion cites Jeremiah 'ספתה בהמות (ירמיה י״ב)', the chapter only. I cite it as given and give no verse number."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[should_fix] Attribute the Genesis 18:23 parallel to Radak and Ibn Ezra. Say that Rashi glosses 'to finish it' from the Targum of Deut 2:14 ('ad desaf kol dara'). Fix the commentary and the note's text and sources to match. (Rashi on PS.40.15: \"לְכַלּוֹתָהּ, כְּדִמְתַרְגְּמִינָן (דברים ב:יד) ... עַד דְּסָף כָּל דָּרָא\"; Radak and Ibn Ezra: \"האף תספה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:20:58+00:00",
+   "agent_notes": [
+    "עֵקֶב is 'heel' as well as 'consequence, reward'. Rashi takes it as 'heel' (measure for measure, the path they walked against me); Radak, Metzudat David and Ibn Ezra take it as 'reward, recompense'. I kept 'on the heel of their shame' in the literal layer to hold both and gave the dramatic layer the sense of consequence.",
+    "Rashi's closing remark that every 'poor and needy' in the Psalms stands for Israel is a collective reading I did not carry into the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:20:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:20:58+00:00",
+   "agent_notes": [
+    "יַחֲשָׁב לִי is difficult and the five English versions split: KJV/ASV 'thinketh upon me', YLT 'doth devise for me', BBE 'has me in mind'. Rashi, Radak and Metzudat David read it as 'may he reckon/credit (my humility) to me' or 'may he count me worthy'. I read it as a jussive, 'may the Lord reckon [it] to me', and kept the object open in the literal layer; the dramatic layer follows the sense 'take account of me'. The form is imperfect, not participle, so KJV's present-tense 'thinketh' is an assertion the verb does not make.",
+    "STEPBible's entity tag for אֱלֹהַי is deity.yhwh; I treated it as the vocative 'my God' and did not alter the tag."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "The infinitive absolute qavveh qiviti is rendered 'waiting, I waited'. KJV/ASV 'patiently' and YLT 'diligently' add an adverb the Hebrew does not have; the root qvh also means to be stretched, twisted like a cord toward something, which I mention only as a general lexical point."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[consider] Let the repetition carry the emphasis without the added clauses. (PS.40.2: \"קַוֹּה קִוִּיתִי יְהוָה וַיֵּט אֵלַי וַיִּשְׁמַע שַׁוְעָתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "bor sha'on: STEPBible has 'roaring'; KJV/ASV 'horrible pit' follows an old reading of sha'on as desolation (from sho'ah), which Ibn Ezra mentions and rejects in favour of 'roaring of many waters'. I follow Ibn Ezra, Radak and Meiri (water, noise). 'yaven' is glossed 'mire' (Ps 69:3 is the only other use)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[consider] Cite it as 'Rashi on Psalm 40:4'. (PS.40.4 packet: \"Rashi: שִׁיר חָדָשׁ. שִׁירַת הַיָּם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": "[consider] Render it as 'or in its plain sense, \"to us\"'. (Ibn Ezra on PS.40.6: \"אלינו - בעבורנו, או הוא כמשמעו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "'ears you dug for me': kara 'to dig' is the standard sense (cf. Ex 21:33, cited by Radak and Metzudat Zion), so 'opened' (KJV, ASV, Webster) is an interpretation, and BBE/YLT 'made/prepared' are another. The Greek of Hebrews 10:5 reads 'a body you prepared'; I do not treat this as a Hebrew variant, only mention the fact. Interpretations of the line (Sinai, obedience over sacrifice, 1 Sam 15:22) are listed from Rashi, Ibn Ezra and Radak."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "Meaning of 'in the scroll of the book it is written of me' is disputed among the commentators: Torah of Moses (Rashi, Radak, Meiri), a vow written down in distress (Ibn Ezra), or the law written on the heart (Malbim). The literal layer keeps 'on me' (alay), which can also mean 'for me / about me / upon me as an obligation'; the dramatic layer chooses 'about me', which the commentators share."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.40.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:19+00:00",
+   "agent_notes": [
+    "me'ai is the bowels or inner organs, not the heart as in KJV. Radak, Rashi and Metzudat David all explain it as the inward self, with Radak noting that the heart is included among the me'im. I keep the bodily word in the literal layer and explain in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:23:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

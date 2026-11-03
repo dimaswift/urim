@@ -1,0 +1,486 @@
+{
+ "chapter_ref": "PS.77",
+ "items": {
+  "verse.en:PS.77.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "The Hebrew verse is the psalm's title, which the KJV numbers as verse 0 of chapter 77 (its 77:1 is our verse 2). I translated the title as a title; 'al Yeduthun is read as 'in the manner of / for Jeduthun' (Radak, Meiri), but Rashi and Metzudat David take 'al as 'concerning', and Ibn Ezra takes Jeduthun as a melody. I left the preposition literal."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[consider] Credit the Hannah comparison to Meiri alone. The Asaph token link should be corrected in the ontology layer. (PS.77.1 Radak: \"כמו לידותון\" (no Hannah); Meiri: \"כמו ותתפלל חנה על ה׳\"; names list: \"Asaph (Asaph@2Ki.18.18-Isa): Recorder during King Hezekiah's reign\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[consider] Present the womb as the root's background rather than as what the word says here. (PS.77.10 \"קָפַץ בְּאַף רַחֲמָיו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "challoti is the hardest word in the psalm. The commentaries offer: from חלה 'be sick' (my sickness, Rashi, Metzudat David), from חלל 'pierce/die' (Radak and Meiri, 'my dying'), from חיל 'trembling' (Metzudat Zion), and from חלה 'to entreat' by Ibn Ezra. shenot is read as 'years' (from שנה) or as 'change' (from שנה 'alter', Rashi, Metzudat David, Targum, Ibn Ezra's 'others'). KJV, ASV, Webster supply 'but I will remember' and read 'years', borrowing from v. 12; the Hebrew has no such verb. My literal layer keeps the fragment verbless; the dramatic layer chooses 'my sickness' and 'years' while keeping the ambiguity audible. The Radak reference reads 'shenit' for shenot; I took it as the same word."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "Qere ezkor ('I will remember') against Ketiv ezkir ('I will mention / cause to be remembered'), as Radak reports. STEPBible follows the Qere and so do I. The shift from third person (Yah) to second person (your wonder) inside one verse is original, and I kept it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:27:32+00:00",
+   "agent_notes": [
+    "Revised after the request: the note now reports Metzudat Zion's gloss correctly (ענין מחשבה, 'thought') and gives 'murmur, mutter' as the lexical range of הגה (BDB), without attributing it to Metzudat Zion. The commentary and the dramatic layer both keep the sense 'turn over in thought', which is what Rashi, Radak and the Metzudot take, with the speaking sense carried by אשיחה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[should_fix] Make the note report Metzudat Zion's gloss correctly ('thought'). Present the murmuring sense as the lexical meaning of הגה without citing Metzudat Zion for it. Make the dramatic layer agree with whichever sense the commentary keeps. (PS.77.13 Metzudat Zion: \"והגיתי. ענין מחשבה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:28:47+00:00",
+     "note": "[consider] Say that Radak reads 'your works', a plural written without its yod. (PS.77.13 Radak: \"ופעלך. חסר יו\"ד הרבים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:21:52+00:00",
+   "agent_notes": [
+    "Elohistic Psalter: the divine name here is Elohim, not YHWH. The literal layer says 'God', not YHWH; the dramatic layer follows with 'God' for the same reason, since 'the LORD' would misrepresent the word. STEPBible tags it deity.yhwh.",
+    "'baqodesh' is read 'in holiness' (or 'in the holy place'). The versions split: KJV and ASV 'in the sanctuary', BBE 'holy', YLT 'in holiness'. Ibn Ezra and Meiri take it as 'in heaven', Rashi as 'sanctity' in the sense of sanctifying his name. I kept the literal 'in the holy' with the ambiguity in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:21:52+00:00",
+   "agent_notes": [
+    "STEPBible glosses אל גדול as 'a god' in verse 14 but the sense is 'a great god' with a comparison to Elohim. Kept as 'a great god' in the literal layer; KJV 'our God' adds a pronoun that the Hebrew does not have."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:29:37+00:00",
+   "agent_notes": [
+    "Revision per reviewer request: in the directors_commentary only, 'why the great-grandson stands next to the patriarch' became 'why the son stands next to his father as a father of the tribes'. Everything else is carried over unchanged from the merged text."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[should_fix] Cite a lexicon (BDB) for the go'el sense, or report what Radak actually says (redemption by force, not by the masters' consent). Remove 'owing them the debt of blood'. (PS.77.16 Radak: \"גאלת. עמך לא ברצון מעבידיהם אלא בהכרח גדול ובזרוע נטויה גאלתם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:28:47+00:00",
+     "note": "[should_fix] In the directors_commentary, replace 'why the great-grandson stands next to the patriarch' with 'why the son stands next to his father as a father of the tribes'. Change nothing else. (PS.77.16 \"בְּנֵי־יַעֲקֹב וְיוֹסֵף\"; Metzudat David: \"כי יעקב ילדם ויוסף כלכלם ברעב\"; Gen 30:24 (Joseph born to Rachel and Jacob))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:30:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:21:52+00:00",
+   "agent_notes": [
+    "Morphology gives zoremu as Pual (they were poured out), so 'clouds' can be the agent ('clouds poured out') or an apposition ('waters were poured out, clouds'). KJV, ASV and BBE all make clouds the subject. I follow that in the dramatic layer and keep the Hebrew order in the literal layer. Malbim's reading that God appeared to the waters as water is quoted only as his view."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:21:52+00:00",
+   "agent_notes": [
+    "The form חֲצָצֶיךָ is a rare doubled plural of 'arrow' (khets); Rashi says it equals חִצֶּיךָ. Radak and Meiri offer 'small stones / gravel' (khatsats) instead. I follow Rashi and Metzudat David in 'arrows' = lightning."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[consider] Render it 'water was poured out, clouds' or 'clouds poured out water', without '[as]'. (PS.77.18 \"זֹרְמוּ מַיִם עָבוֹת\"; Rashi: \"שחקים נטפו זרם מים עבים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:27:16+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: Rashi reads בגלגל as כגלגל, the voice of the thunder like a wheel over the sea, after Exod 14:24; the chariot-wheel reading (Exod 14:25) is now credited to Metzudat David, Metzudat Zion and Meiri. Radak and Ibn Ezra take the word as the sphere or air, which is the KJV 'heaven' and YLT 'spheres'. I kept 'wheel' in the literal layer and 'whirlwind' (ASV) only as a gloss option in the commentary.",
+    "STEPBible glosses בגלגל as 'in the whirlwind'. I glossed it 'in the wheel' because the lemma is גלגל (wheel) and every medieval commentator in the packet reads a wheel, a sphere or a rolling."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[should_fix] Attribute the chariot-wheel reading (Exod 14:25) to Metzudat David, Metzudat Zion and Meiri. Give Rashi's own reading: thunder rolling like a wheel over the sea, after Exod 14:24. Fix both the commentary and the note's source list. (PS.77.19 Rashi: \"בגלגל. כמו כגלגל, קול רעמך כגלגל על הים להום את מחנה מצרים (שמות יד:כד)\"; Metzudat David: \"בגלגלי מרכבות פרעה ... (שמות י״ד:כ״ה)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:28:47+00:00",
+     "note": "[consider] Credit 'the wheel of a cart' to Metzudat Zion alone, and say 'to the God of Israel' instead of 'to YHWH'. (PS.77.19 Metzudat Zion: \"בגלגל. אופן העגלה\"; Metzudat David: \"בגלגלי מרכבות פרעה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:21:52+00:00",
+   "agent_notes": [
+    "Ketiv/Qere: the written form of 'and your path' is shown in the packet as Q(K); the gloss follows the reading ushevilekha (singular). Radak notes that a plural 'shevilekha' is written, and uses it for twelve paths in the sea. I mention the plural reading in the note on the word."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:27:16+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: dropped 'to water' and the Ps 23:3 claim. nachah is described as a shepherd leading and guarding, following Radak and Metzudat David. Ibn Ezra offers a second reading (the descent of beasts into a valley, at the crossing of the sea); I mention it only as a variant."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[should_fix] Drop 'to water' and the Ps 23:3 claim, or cite Ps 23:3 for what it says (leading in paths). Describe nachah as a shepherd leading and guarding, as Radak and Metzudat David have it. (PS.77.21 Radak: \"כמו שהרועה נוחה את צאנו ושמרו\"; Metzudat Zion: \"נחית. נהגת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:28:47+00:00",
+     "note": "[consider] Credit the sea-crossing reading to Rabbi Moshe, as Ibn Ezra reports it, and the wilderness reading to Ibn Ezra. (PS.77.21 Ibn Ezra: \"על דעת רבי משה: על עת עבור הים ... ויתכן על נחותם במדבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "STEPBible glosses nigerah as 'stretched out'. I glossed 'was poured out' (root נגר, 'flow', as in 2 Sam 14:14 and Ps 75:9 per Metzudat Zion) because the verb is Niphal of the root for pouring and the following verb 'did not grow numb/slack' fits a flow that does not stop. ASV, YLT and BBE read 'my hand was stretched out'; KJV and Webster read 'my sore ran', following Rashi. This is a real split among the five versions; I kept 'hand' literal and explained both."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[consider] Call 'stretched out' an interpretive gloss of the same verb, and put Malbim with Rashi's wound reading. (PS.77.3 table: \"נִגְּרָה | נָגַר | H5064 | it was stretched out\"; Malbim: \"מכה טריה זבה ליחה ודם על היד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "The cohortative forms (ezkerah, ve'ehemayah, 'asichah) are rendered as 'let me / I would'; KJV and Webster turn them into past narrative. 'ehemayah is the written yod-ending form of the root המה (Ibn Ezra, Radak), not a separate root."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:27:32+00:00",
+   "agent_notes": [
+    "שמורות עיני is read three ways in the commentaries: watches of the night (Radak, Meiri's second reading), eyelids held open (Ibn Ezra, Metzudat David, Meiri's first reading), and eyelids held shut in stupor or near death (Rashi, Malbim, Meiri's second reading). The dramatic layer 'hold my eyelids open' is one choice among these, taken because the context (vv. 3-7: night, brooding, remembering) fits a sleepless vigil. The literal layer 'watches' keeps both the night-watch and the guard-of-the-eye senses.",
+    "STEPBible glosses שמרות as 'eyelids of'; I keep 'watches' in the gloss and literal layer because the word is plural feminine of the same root as the night 'watches' (אשמרות), and the sense is disputed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[should_fix] In the commentary, attribute the sleepless-vigil reading to Radak (with Ibn Ezra and Metzudat David for the eyelids held open). Add that Rashi, Malbim and Meiri's second reading have the eyes held shut, in stupor or near death. Keep or flag the dramatic 'hold my eyes open' as one choice among these readings. (PS.77.5 Rashi: \"ואני אינו כן בלילה זו של גלות: תמיד עיני נדבקות, כאדם נרדם מאטם לב\"; Radak: \"שיהיו עירות תמיד ולא אישן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:28:47+00:00",
+     "note": "[consider] Say that the KJV follows Ibn Ezra's and Metzudat David's causal reading, which the bare 'and' allows but does not require. (PS.77.5 Ibn Ezra: \"כל כך הוכיתי עד שלא יכלתי לדבר\"; Metzudat David: \"אני נשבר ומוכה עד שלא אוכל לדבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [
+    "The Targum and Malbim hear the questions in vv. 8-10 as rhetorical, expecting 'no'. The Hebrew form is the interrogative he-; I kept the questions open in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": "[consider] Pick one count of the questions and use it in vv. 8-10, and render Adonai the same way in vv. 3 and 8. (PS.77.8 \"הַלְעוֹלָמִים יִזְנַח אֲדֹנָי\" (no object); Malbim counts five pleas)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.77.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:22:15+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.77.20] Locked verse, not touched. Verse 19 opens with the sea-crossing storm and verse 20 continues it, so the dramatic layer of 19 is written to flow into 'Your way was in the sea'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:27:16+00:00"
+  }
+ ]
+}

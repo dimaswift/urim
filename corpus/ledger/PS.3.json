@@ -1,0 +1,213 @@
+{
+ "chapter_ref": "PS.3",
+ "items": {
+  "verse.en:PS.3.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [
+    "In the Hebrew text the superscription is verse 1 (KJV 3:0, unnumbered); every later verse is one higher than the KJV. I translated the heading as a verse. The heading is a later editorial note, not part of David's speech; the dramatic layer renders it as a spoken title.",
+    "בְּבָרְחוֹ: STEPBible has 'when fled he'; I glossed 'in his fleeing' (infinitive with prefix and suffix). The commentary on the Berakhot 7b tradition (Rashi, Radak) is paraphrased from the packet, not quoted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[consider] Consider 'A psalm of David, from the time he fled ...' so the dramatic layer does not settle a question the commentary leaves open. (PS.3.1, Radak: \"המזמורים לא היו נקראים בשעת מעשה ... אלא לאחר שנצל מכלם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [
+    "יְשׁוּעָתָה: STEPBible glosses it as a plain noun. I kept the archaic -ah ending visible in the commentary (Ibn Ezra and Radak both treat it as an emphatic or doubled form). 'Selah' is left untranslated in all layers; its sense is disputed among Ibn Ezra, Radak and Meiri, as the commentary notes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:12+00:00",
+   "agent_notes": [
+    "בַּעֲדִי: the sources split. KJV 'for me' (on my behalf), ASV 'about me', STEPBible 'behind me', Metzudat Zion 'facing me' (kenegdi). I kept 'about me' in the literal layer and the dramatic layer's 'wrapped around me' as my preference, and the commentary now says so instead of presenting it as a correction of the KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[should_fix] Rewrite the ba'ad sentence so it agrees with the note and the sources: ba'ad can mean 'for, on behalf of' (KJV) and also 'around, behind' (ASV 'about me'; STEPBible 'behind me'), and Metzudat Zion reads 'facing me'. The 'surrounding shield' image is then a preference, not a correction of the KJV. (PS.3.4: \"מָגֵן בַּעֲדִי\"; STEPBible gloss \"behind me\"; Metzudat Zion: \"בעדי. כנגדי\"; ASV \"a shield about me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:18:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [
+    "וַיַּעֲנֵנִי is a wayyiqtol (narrative past) after a yiqtol 'I call'. Radak and Meiri read it as past-for-future (prophetic perfect). I rendered it as a plain 'and he answers me' in the literal layer to keep the tense ambiguity open, and 'he answers' in the dramatic layer. Alternative: 'he answered me'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [
+    "וָאִישָׁנָה: STEPBible parses it as a cohortative-shaped wayyiqtol with a paragogic he. I glossed 'and I slept' with the emphatic nuance in the note. The Hebrew has no 'me' after 'laid', so the KJV 'laid me down' is an archaism, not a reflexive in the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[consider] Either present the 'deliberate act' sense as a guess or drop it, and give the commentators' readings: secure sleep (Radak, Meiri), or sleep weighed down by worry (Rashi, Metzudat David). (PS.3.6, Radak: \"שכבתי בבטח ואישן בשלום\"; Rashi: \"לִבִּי אָטוּם בִּדְאָגָה וָפַחַד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:12+00:00",
+   "agent_notes": [
+    "שָׁתוּ: Rashi's first reading derives it from שְׁאִיָּה 'desolation' (Isa 24:12), 'they laid waste'; he gives 'set' (like שָׂמוּ, Exod 10:1) only as a second opinion. 'Set their faces to fight me' is Metzudat David. The Isa 22:7 and Job 38:11 parallels are cited by Radak and Meiri; Metzudat Zion adds Ps 73:9. I follow the 'set' reading, which Radak, Meiri, Metzudat David and Metzudat Zion share."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[should_fix] In the commentary, credit 'they set their faces (to fight me)' to Metzudat David, and say that Rashi gives 'set' only as a second opinion after his reading 'laid waste' (from שְׁאִיָּה). In the שָׁתוּ note, take Rashi off the list that cites Isa 22:7 and Job 38:11, which leaves Radak, Meiri and Metzudat Zion. (PS.3.7, Rashi: \"שָׁתוּ. לְשׁוֹן ״שְׁאִיָּה״ ... וְיֵשׁ אוֹמְרִים: שָׁתוּ כְּמוֹ שָׂמוּ\"; Metzudat David: \"אשר שמו פניהם להלחם בי\"; Metzudat Zion: \"שתו. שמו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:18:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:13:22+00:00",
+   "agent_notes": [
+    "כִּי הִכִּיתָ: the perfect after a petition can be read as a past (God has done this before, so do it now: Radak, Meiri, Metzudat David) or as a prophetic perfect (it is already done). The English versions split too (all take it as past). I chose the reading 'for you have struck', which leaves both open. I could not trace the claim in Radak that every other 'קומה' in Psalms is accented on the last syllable beyond the packet's own wording; I left it out of the commentary.",
+    "לֶחִי: KJV and ASV 'cheek bone' is the old word for jaw; BBE 'face-bones'. The Hebrew is the jaw or cheek, and the blow is a public insult (Lam 3:30; Mic 4:14, cited by Rashi and Metzudat David). I stayed with 'jaw'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[consider] Credit both readings to Radak, and the past reading to Meiri and Metzudat David. (PS.3.8, Meiri: \"כי כמה הושעתני והכית את כל אויבי בלחי\"; Radak: \"פעמים רבות הושעתני ... או פרושו על זאת המלחמה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.3.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:12+00:00",
+   "agent_notes": [
+    "The verse has no verb in Hebrew: 'to YHWH the deliverance; on your people your blessing'. Translators supply 'belongeth' and 'is' (or a wish: ASV 'be'). I put the supplied words in brackets; the dramatic layer reads it as an assertion, not a wish. The yeshuʿah echo points back to verse 3; the superscription (verse 1) does not contain the word."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:21+00:00",
+     "note": "[should_fix] In the directors_commentary, replace 'the psalm ends where the first verse began, with the word yeshuʿah' with wording that points to verse 3, e.g. 'the psalm ends on the word the crowd denied him in verse 3, yeshuʿah'. (PS.3.1: \"מִזְמוֹר לְדָוִד בְּבָרְחוֹ מִפְּנֵי אַבְשָׁלוֹם בְּנוֹ\" (no yeshuʿah); PS.3.3: \"אֵין יְשׁוּעָתָה לּוֹ בֵאלֹהִים\"; PS.3.9: \"לַיהוָה הַיְשׁוּעָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:18:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

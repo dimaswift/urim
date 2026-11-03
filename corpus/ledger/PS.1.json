@@ -1,0 +1,146 @@
+{
+ "chapter_ref": "PS.1",
+ "items": {
+  "verse.en:PS.1.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:28+00:00",
+   "agent_notes": [
+    "Revised after the critic's request. The closing sentence now gives the commentators' reading of לֵצִים (Radak, Meiri, Malbim: idle men sitting at street corners, trading gossip and ridicule). The 'council' sense of מוֹשָׁב is kept but marked as my own reading beside theirs. 'BDB' is dropped from the רְשָׁעִים note, and the 'opposite of צַדִּיק' point is left without a source (own reading).",
+    "אַשְׁרֵי is a plural construct ('the happinesses of'), so the literal layer keeps 'Oh the blessednesses of'; Radak and Meiri both note that the word only occurs in the plural. The five English versions split on רְשָׁעִים (ungodly / wicked) and לֵצִים (scornful / scorners / scoffers); I follow the Hebrew roots and render 'wicked' and 'mockers'. BBE's 'those who do not give honour to the Lord' is a paraphrase. The perfect verbs are rendered as habitual 'has not walked / stood / sat'. Ibn Ezra and Meiri disagree on whether the verbs climb or descend in gravity; I report both and do not choose."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": "[should_fix] Replace the closing 'standing assembly, not an idle bench' sentence with the commentators' reading (Radak, Meiri, Malbim: idle men sitting at street corners, trading gossip and ridicule), or mark the council reading as your own beside theirs. In the רְשָׁעִים note, drop 'BDB' from sources or attribute the צַדִּיק-opposition point to no source. (PS.1.1: Radak: \"והענין הזה לאנשים בטלים יושבי קרנות; ומפני זה אמר: ובמושב לצים\"; Meiri: \"ומעבירים עתותיהם בהבל ובישיבת קרנות\"; Malbim: \"הלצים הם יושבי קרנות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:28+00:00",
+     "note": "[consider] Attribute 'neither good nor harm, chasing wind' to Malbim alone, and add Radak's point that they speak ill of others and spread secrets. (PS.1.1: Malbim: \"הלצים הם יושבי קרנות אינם פועלים רע אבל גם לא יעשו טוב רק רודפים רוח והבל\"; Radak: \"ומדברים רעות על בני אדם ונותנים דופי ומום בהם ומגלים סוד זה לזה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.1.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:40+00:00",
+   "agent_notes": [
+    "'his law' (וּבְתוֹרָתוֹ) is read by Rashi, Radak and Meiri (citing b. Avodah Zarah 19a) as the man's own, not the LORD's. The Hebrew pronoun is ambiguous; the literal layer keeps 'his law' and the commentary gives both readings. Rendering of יֶהְגֶּה as 'murmurs' rests on Metzudat Zion (speech) and Rashi (heart/thought) pointing both ways; I chose the sound-bearing sense for the dramatic layer because the verb is used of animal moaning (Isa 31:4) in my own reading, left unsourced."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": "[consider] Change translit to 'cheftso'. (PS.1.2: חֶ֫פְצ֥וֹ, translit chefTzo, morph HNcmsc/Sp3ms)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.1.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:28+00:00",
+   "agent_notes": [
+    "Revised after the critic's request. וְהָיָה (Hc/Vqq3ms) is a sequential perfect that states the consequence of verses 1-2; I render 'And he will be' and no longer claim the KJV turned it into a future. YLT's 'he hath been' is the outlier. STEPBible's 'and he is' is corrected in the gloss to 'and he will be'.",
+    "עָלֵהוּ is an old suffix form (-הוּ) on a singular collective noun: 'its leaf' is a collective, 'leafage'. Ibn Ezra, Radak and Meiri give several readings of וְכֹל אֲשֶׁר יַעֲשֶׂה יַצְלִיחַ (subject is the man / the tree / the leaf); I leave the English open ('whatever he does, it succeeds') as the Hebrew does."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": "[should_fix] In directors_commentary, remove the claim that the KJV wrongly turns vehayah into a future promise. Explain instead that וְהָיָה is a sequential (waw-consecutive) perfect: 'and so he is / will be', the consequence of v.1-2, which the KJV's 'shall be' and Meiri's 'then he will be' both reflect. Keep the literal 'And he is' only if the commentary says it is gnomic, or render it 'And he will be'. (PS.1.3: וְֽהָיָ֗ה, morph Hc/Vqq3ms; Meiri: \"ואז יהיה כעץ שתול\"; YLT's wooden \"he hath been\" is the outlier)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:28+00:00",
+     "note": "[consider] Say 'a tree planted where it stands' instead of 'a tree that simply grew where it fell'. (PS.1.3: Malbim: \"הנטוע הוא הנטוע במקומו, והשתול הוא הצמח שנעקר ממקומו ונשתל במקום אחר\") [consider] Consider the gloss 'by, beside' for pos 4, or a sentence in the commentary that עַל here means 'next to'. (PS.1.3: Metzudat Zion: \"על. סמוך עמו והחונים עליו\"; Meiri: \"ר״ל סמוך לפלגי מים כדרך ועליו מטה מנשה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.1.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:40+00:00",
+   "agent_notes": [
+    "תִּדְּפֶנּוּ is feminine because רוּחַ is feminine; 'wind' is the subject. כִּי אִם here means 'but rather' (adversative), as in v.2, not 'if'. The doubled 'they are not so' structure echoes לֹא ... לֹא ... לֹא of v.1."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": "[consider] Consider 'like the chaff' in the literal layer and the gloss for pos 6. (PS.1.4: כַּ֝מֹּ֗ץ, morph HRd/Ncmsa; YLT \"as chaff\", KJV \"like the chaff\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.1.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:40+00:00",
+   "agent_notes": [
+    "בַּמִּשְׁפָּט: the commentators divide between a post-mortem judgment (Radak, Ibn Ezra) and a this-worldly reckoning (Metzudat David, Meiri). I render 'in the judgment' and leave the timing open. יָקֻמוּ is literally 'rise / stand up', with a forensic sense (to stand in court) that 'stand' preserves. The line has no verb in the second half; 'will [stand]' is bracketed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.1.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:40+00:00",
+   "agent_notes": [
+    "יוֹדֵעַ is a participle: ongoing 'knowing'. Radak glosses it as 'recognizes and attends to for good'; Metzudat Zion cites וידע אלהים (Exod 2:25). I render 'knows' literally and unpack the covenantal sense in the commentary. The final verb תֹּאבֵד is feminine singular agreeing with the second דֶּרֶךְ ('way') — the way, not the people, perishes. No claim here about the afterlife; Radak and Malbim read it that way, Meiri and Metzudat David do not."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

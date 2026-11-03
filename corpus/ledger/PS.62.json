@@ -1,0 +1,315 @@
+{
+ "chapter_ref": "PS.62",
+ "items": {
+  "verse.en:PS.62.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "The Hebrew verse is the superscription, which the KJV leaves unnumbered (62:0 here, so every later KJV number is one lower). 'al yedutun is glossed 'on/according to Jeduthun'. Rashi and Metzudat Zion take it as an instrument, Radak and Meiri as the Levite to whom the psalm was handed (Meiri reads 'al as 'el), and Rashi's midrash as 'on the decrees'. I kept the preposition literal and listed the readings in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "bene 'adam and bene 'ish are a merism of low and high (KJV 'low degree' and 'high degree', YLT 'the low' and 'the high'). The packet's gloss for 'adam and 'ish does not make the contrast, so I explained it in the commentary. 'in the balances to go up' is idiomatic: the last clause 'they are lighter than breath together' is Metzudat David's inverted reading, and I kept the Hebrew order literal."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "hevel is the same root in v. 10 ('breath') and here as a verb tehbalu ('do not become breath', a denominative). The KJV 'become not vain' loses the echo with v. 10; The literal layer uses 'become breath' to keep the echo; the dramatic layer 'breathe yourselves thin' is looser. 'oshek and gazel are two different offenses (Radak: withholding what is owed vs forcible seizure; Ibn Ezra: by deceit vs by force)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "The numerical proverb 'once ... twice' (x, x+1) is a standard Hebrew device (cf. Job 33:14, Prov 30:15); this citation is from my own knowledge and not from the packet. Rashi's two things (power and loving-kindness) come from the next verse (v. 13); Metzudat David and Malbim use the same pair. Radak instead reads 'once, twice' as 'many times'. I kept the literal sense and said the text itself names only 'strength belongs to God'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[consider] Write 'Lord' and use the same term for chesed as v. 13 ('steadfast love'). (PS.62.13: \"וּלְךָ־אֲדֹנָי חָסֶד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "Corrected after review. The BDB citations are removed. The lexical claims about chesed (loyalty inside a relationship, acted on) and shillem (Piel of shalem, 'make whole, pay in full') are my own reading, with the STEPBible gloss 'covenant loyalty' for chesed; the shalom link to the root is my own knowledge, not from the packet. Rashi's citations of Ezra 9:13 and Midrash Tehillim 62:4 are taken from the packet unchecked. The Hebrew has Adonai, not YHWH, so the literal layer says 'Lord' and the dramatic layer 'Lord' too."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] Replace the BDB sources with what the packet gives (STEPBible gloss 'covenant loyalty' for חֶסֶד; Rashi or Metzudat David for the sense of repayment), or drop the source and mark the lexical claim as the philologist's own in reviewer_notes. (PS.62.13 packet: sources are STEPBible ('covenant loyalty', 'you repay'), Rashi, Ibn Ezra, Radak, Meiri, Metzudat David, Targum; no lexicon)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": "[consider] Write 'chesed', 'teshallem' and 'kema'asehu' to match the rest of the chapter. (PS.62.13 packet: \"Chased\", \"teshaLem\", \"Kema'aSehu\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "Count corrected after review: 'akh opens verses 2, 3, 5, 6, 7 and 10, six times in all, so 'five more times' after this verse. The plotters who bless with the mouth and curse inwardly are in verse 5, not verse 4."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] Change 'six more times' to 'five more times' (six in all) and 'the plotters in verse 4, who will speak blessings' to 'verse 5'. (PS.62.3/5/6/7/10 each open with אַךְ; PS.62.5: \"בְּפִיו יְבָרֵכוּ וּבְקִרְבָּם יְקַלְלוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "The KJV clause about 'only' is corrected: the KJV keeps 'only' ('He only is my rock') but attaches it to 'He', not to the opening of the line as the Hebrew has it. The Rashi midrash on 'rabbah' ('Gehenna the great') and Ibn Ezra's 'abyss' are quoted from the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] In the commentary replace 'The KJV also drops the first only' with an accurate statement (the KJV keeps 'only' but attaches it to 'He' rather than opening the line with it), or remove the clause. (PS.62.3 KJV (62:2): \"He only is my rock and my salvation; he is my defence\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "Hapax-like verbs. tehotetu is read as from hawwot ('ruin, destruction') with Rashi's own view, Meiri and Metzudat Zion; Rashi also cites Menachem, who ties it to 'assemble' (cf. Jer 12:9), and a further view 'lengthen your tongues'. The Hebrew of 'terotzechu' is passive-voiced (Ibn Ezra, Radak, Meiri on the Ben Asher reading with qamets) or active with patah (Ben Naphtali), so 'you will be murdered' (STEPBible) and 'you are all out to murder' are both defensible; I follow the passive qamets reading because the word is pointed that way in the packet. Rashi's 'ha-dechuyah' is a passive participle 'the thrust-down'. The KJV 'imagine mischief' and 'ye shall be slain' reflect the same split. The wall/fence image is syntactically open: Malbim's reading (a leaning wall that topples the shaky fence beneath it) is his own and I used it only as a possibility."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[consider] Consider letting the dramatic line carry the murder word, e.g. 'May you all be cut down, a leaning wall, a fence shoved to its fall.' (PS.62.4: \"תְּרָצְּחוּ כֻלְּכֶם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "Corrected after review. lehadiach (from nadach, H5080) and hadechuyah (v. 4, from dachah, H1760) are different roots, so I say they echo in sound, as Ibn Ezra links the two ('and he mentioned lehadiach after the fence hadechuyah'). For mise'eto, Radak and Meiri read the suffix as God's loftiness; Metzudat David reads the plotters' own pride and loftiness as the motive. I follow the reading that the man under attack is the one who is being cast down from his height."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] Say that lehadiach (נדח) echoes hadechuyah (דחה) in sound, a play Ibn Ezra points to, not that they share a root; and in the mise'eto note attribute to Metzudat David the plotters' own pride, not the speaker's. (PS.62.5 word 4 לְהַדִּיחַ lemma נָדַח H5080; PS.62.4 word 11 הַדְּחוּיָה lemma דָּחָה H1760; Ibn Ezra: \"והזכיר להדיח – אותו בכזב אחר גדר הדחויה\"; Metzudat David: \"כל אחד מהם בעבור רוממתו וגאותו יעצו ביניהם להדיחני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "Verse 6 repeats v. 2 with the vocative 'be silent, O my soul' (imperative) in place of the statement 'my soul is silence'; the packet gives dumi as an imperative feminine singular and I follow it. dumiyah in v. 2 is a noun (silence), as Meiri notes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "Corrected after review. The KJV and ASV do keep the difference between verse 3 ('greatly moved') and verse 7 ('moved'); it is the BBE that renders both 'I will not be greatly moved'. Radak explains the dropped 'rabbah' as growing assurance; that is his reading, not the text's own claim."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] Remove the claim that the KJV and ASV smooth the difference away; if a version is to be named, BBE is the one that loses it (\"I will not be greatly moved\" in both verses). (PS.62.7 KJV (62:6): \"I shall not be moved\"; PS.62.3 KJV (62:2): \"I shall not be greatly moved\"; ASV likewise)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:57:15+00:00",
+   "agent_notes": [
+    "Corrected after review. The comparison of the KJV on 'the rock of my strength' is deleted; KJV and BBE both have it right. The point about 'al versus be- stays: the KJV has 'In God' for both halves, while the Hebrew has 'al, 'upon', then be-, 'in'; the ASV ('With God' ... 'in God') and YLT ('On God' ... 'in God') mark the difference."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[should_fix] Delete the sentence faulting the KJV on 'the rock of my strength'; keep the point about the construct chain without the KJV contrast (BBE 'the Rock of my strength' agrees too). (PS.62.8 KJV (62:7): \"the rock of my strength, and my refuge, is in God\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:58:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.62.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:09+00:00",
+   "agent_notes": [
+    "'am is vocative 'O people' (all five versions agree). Targum specifies the house of Israel; Radak and Meiri hear the exiles; Metzudat David simply 'my people'. I kept it unspecified. The pointing bo is the STEPBible 'in him'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:52+00:00",
+     "note": "[consider] Attribute prayer to Metzudat David and repentance to Radak, and drop or re-source the Meiri 'prosperity' gloss. (Meiri on 62:9: \"שלא יבהילכם תוקף הצרות\"; Radak: \"בתשובה שלימה\"; Metzudat David: \"בתפלה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,141 @@
+{
+ "chapter_ref": "PS.23",
+ "items": {
+  "verse.en:PS.23.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:48:01+00:00",
+   "agent_notes": [
+    "The packet's verse 1 includes the superscription (KJV 23:0); the title is translated here together with the first line. Gloss of pos 4 (rō'î): STEPBible gives '[is] shepherd my'; I kept it as 'my shepherd' because the participle with suffix is a noun phrase, 'the one who shepherds me'. The five English versions agree on 'shepherd' except BBE, which paraphrases; I followed the Hebrew.",
+    "'lō' eḥsār' is imperfect: 'I will not lack' / 'I do not lack'. KJV's 'shall not want' is correct for its century but 'want' no longer means 'lack'. The literal layer keeps the future-or-habitual ambiguity with 'I will not lack'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": "[consider] Attribute the 'my leader' sense to Meiri (with Ezek 34:31) and present the Egyptian/Mesopotamian royal title as general background, not as something these sources say. (PS.23.1 Meiri: \"ה׳ רעי, ע״ד צאן מרעיתי אדם אתם ... ור״ל מנהיגי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.23.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:48:01+00:00",
+   "agent_notes": [
+    "Pos 4 'al: STEPBible 'at'; glossed 'beside' ('upon, by'). Versions split between 'beside' and 'by'; the sense is 'at the edge of'. Rashi (packet) and Meiri/Radak treat ne'ot as 'abode' (nāweh), the shepherd's encampment; 'pastures' is the traditional sense and I kept it in the dramatic layer while the literal layer says 'abodes of grass'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.23.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:48:01+00:00",
+   "agent_notes": [
+    "yešōvēv is Polel of šûv. STEPBible 'he restores'; Rashi reads 'brings back to former state', Radak and Metzudat Zion read 'sets at rest' (cf. Isa 30:15 'in šûvâ and naḥat'). I glossed 'he brings back' and left the layers to carry both senses. nafšî translated 'my soul/self/life'; the literal layer uses 'my soul' since the Hebrew nefesh is the whole living self, and the commentary says so."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.23.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:50:17+00:00",
+   "agent_notes": [
+    "Revised after the review: the sentence about the KJV leaving out the resumptive 'they' is gone; the commentary now says the KJV keeps it (as YLT and ASV do) while BBE drops it. 'Shadow of death' versus 'deep darkness' is now presented as two readings, each with its sources, and the advice to the actors no longer contradicts Radak.",
+    "Gloss of token 5 (צַלְמָוֶת): STEPBible has 'deep darkness'; I kept it as the gloss but the literal layer says 'shadow-of-death' to keep the compound visible, since the Masoretic vowels and the Targum (טוּלָא דְמוֹתָא) read it so. The choice between the two readings is left open in the commentary.",
+    "Tokens 14-15: הֵמָּה is plural and resumptive, 'they, they comfort me'. Radak explains the plural verb with the two named objects (rod and staff). Rashi and Metzudat David read the rod as affliction and the staff as support; Malbim reads both as the shepherd's tools. I presented the pastoral reading as the primary image and mentioned the other as a tradition, without choosing."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": "[blocker] Delete the sentence 'The KJV leaves it out.' at the end of the directors_commentary. If you want to say something about the KJV here, say that it keeps the resumptive 'they' (as YLT and ASV do) while BBE drops it ('your rod and your support are my comfort'). (PS.23.4 KJV: \"thy rod and thy staff they comfort me\"; Hebrew שִׁבְטְךָ וּמִשְׁעַנְתֶּךָ הֵמָּה יְנַחֲמֻנִי) [should_fix] Replace 'is a famous harmonization' with wording that presents two readings: 'shadow of death' (the Masoretic vowels, the Targum, Radak and Metzudat Zion, who take it as the darkness of the grave) and 'deep darkness' (Dunash via Rashi, Metzudat David, modern lexicons). Soften 'Do not play the corpse-road' so that it does not contradict Radak's reading, which the packet gives. (PS.23.4 Metzudat Zion: \"צלמות. צלו של מות רצה לומר חשכת הקבר\"; Radak: \"גיא וצלמות הוא הקבר\"; Targum: \"טוּלָא דְמוֹתָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:51:03+00:00",
+     "note": "[consider] Either cite Lev 27:32 for the counting use or drop it, and replace 'BDB' with Malbim on Psalms 23:4, which the packet does give for the shepherd's rod and staff. (PS.23.4 Malbim: \"שבט קטן בו יכה את השה להטותו אל דרך הנכונה ... משענתו שהוא מטה עז שבו יבריח כל טורף\"; the packet gives no counting use and no BDB entry)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.23.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:48:01+00:00",
+   "agent_notes": [
+    "dišannātā is a perfect (not KJV's present 'anointest'). Commentators in the packet (Rashi, Metzudat David) take it as a reference to the past anointing as king; Radak and Meiri read it as a figure of prosperity. I rendered it as a perfect and did not choose between these readings. 'dšn' means literally 'make fat', hence 'refresh' in STEPBible; the literal layer keeps 'made fat'. Radak's gloss that Psalm 23:5 'returns from the metaphor' is noted in the commentary only briefly."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": "[consider] Present the battle-line overtone as a possible echo of the verb ('arakh milchamah), not as what the verse means. (PS.23.5 Radak: \"שיראו בכבודי וירקב עצמם לקנאתם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.23.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:48:01+00:00",
+   "agent_notes": [
+    "wešavtî: the Masoretic pointing is from šûv 'return' ('and I will return to the house of YHWH'), which is what the Hebrew word-for-word gives, whereas KJV, following the Septuagint and Vulgate, read yšb 'dwell' (so 'dwell'). Ibn Ezra, Radak and Meiri (packet) note both: 'repeatedly come back' or 'be at rest' (from šûvâ). I kept 'return' in the literal layer and said 'dwell' in the commentary. Also 'for ever' in KJV for le'orek yamim is 'for length of days', not forever in the strict sense; Radak (packet) takes it as a long life in line with 'all the days of my life'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:49:34+00:00",
+     "note": "[consider] Mention that the Targum and Radak in the packet also support 'dwell', so the KJV is not alone in reading it that way. (PS.23.6 Targum: \"כַּד אֵתֵב בְּבֵית מַקְדְשָׁא דַייָ\"; Radak: \"או הוא פרושו: ישבתי, כמשמעו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

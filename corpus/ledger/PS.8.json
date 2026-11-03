@@ -1,0 +1,245 @@
+{
+ "chapter_ref": "PS.8",
+ "items": {
+  "verse.en:PS.8.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:30+00:00",
+   "agent_notes": [
+    "In the Hebrew numbering the superscription is verse 1 (KJV 8:0), so every later verse is one higher than in the KJV. The meaning of 'al-haggittith is unknown; I give the two main ancient guesses (an instrument or tune from Gath, per Rashi/Metzudat Zion; a vintage/winepress song, per the 'treaders' reading in Rashi and Ibn Ezra) and commit to neither.",
+    "STEPBible glosses lamnatsea'h 'to the choirmaster'; I kept 'to the choirmaster' and say in the commentary that the sense of the root (to lead, to be pre-eminent) is a liturgical role, not a title we can fix."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[consider] Write 'led by the choirmaster' instead of 'led by a named musician'. (PS.8.1: \"לַמְנַצֵּחַ עַל־הַגִּתִּית\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:16+00:00",
+   "agent_notes": [
+    "Revised per the reviewer request. tenah is a crux: Radak, Ibn Ezra and Meiri take it as an infinitive standing for the past (Meiri also reads asher as 'if', which I did not follow); Metzudat Zion takes it as an imperfect used for the past ('you gave'). I render it as a past act in the dramatic layer and keep the oddity of the form in the literal layer.",
+    "Gloss for token 9 (teNah) corrected from STEPBible 'set !' to 'to set / you set' to reflect the infinitive-or-past reading. Token 8 'asher' is glossed 'which', since English 'who' would settle whether it refers to God or to the name."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[should_fix] In the commentary, name only Radak, Ibn Ezra and Meiri for the infinitive reading, and add that Metzudat Zion takes tenah as an imperfect used for the past ('you gave'). In the tenah note, either drop Metzudat Zion from the sources or describe its different reading. (PS.8.2, Metzudat Zion: \"תנה. כמו נתת עתיד במקום עבר\"; Radak: \"ומלת תנה הוא מקור במקום נתת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:16+00:00",
+   "agent_notes": [
+    "Revised per the reviewer request: Rashi's reading is restated as the priests and Levites, who grow up in dirt like infants (olelim from 'olalti be'afar, Job 16:15). The other commentators (Radak, Ibn Ezra, Metzudat David, Meiri) read the infants as ordinary babies; the five English versions all follow that."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[should_fix] Restate Rashi's reading: the Temple's praise comes from the priests and Levites, people who grow up in dirt like infants and sucklings (olelim from 'olalti be'afar', Job 16:15). Drop 'small and dependent before God'. (PS.8.3, Rashi: \"מִפִּי הַלְוִיִּם וְהַכֹּהֲנִים, שֶׁהֵם בְּנֵי אָדָם גְּדֵלִים בְּלִכְלוּךְ, כְּעוֹלְלִים וְיוֹנְקֵי שָׁדַיִם. עוֹלְלִים לְשׁוֹן ״וְעוֹלַלְתִּי בֶעָפָר קַרְנִי״\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:16+00:00",
+   "agent_notes": [
+    "Revised per the reviewer request: the 'finger of God' comparison now includes Deuteronomy 9:10 and no longer says 'the only'. Exodus references use the Hebrew numbering."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[should_fix] Add Deuteronomy 9:10 to the list of other 'finger of God' texts, or write 'Compare Exodus 8:15, 31:18 and Deuteronomy 9:10' without 'the only'. (PS.8.4: \"מַעֲשֵׂי אֶצְבְּעֹתֶיךָ\"; the note: \"The only other 'finger of God' texts are Exodus 8:15 and 31:18.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:16+00:00",
+   "agent_notes": [
+    "Revised per the reviewer request: the 'smallness' reading of enosh is attributed to Malbim, with Radak's contrast to 'mah adir' (v. 2) added; Meiri is cited only for the 'attention / providence' sense of the verbs."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[should_fix] Attribute the 'smallness' reading of enosh to Malbim alone (Radak's contrast with 'mah adir' in verse 2 could be added), and remove Meiri from that sentence. (PS.8.5, Meiri: \"ואמ׳ מה אנוש כי תזכרנו כלומ׳ להשפיע השגחתך עליו\"; Malbim: \"שם אנוש מורה על ההקטנה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:17+00:00",
+     "note": "[consider] Cite the Malbim passage by the verse under which the source gives it (Malbim on Psalms 8:2), or say that his comment on verses 2-5 is one passage. (PS.8.2, Malbim: \"מה אנוש כי תזכרנו, שם אנוש מורה על ההקטנה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:27:16+00:00",
+   "agent_notes": [
+    "Revised per the reviewer request: kavod and hadar are described as royal words of the same family as the hod set above the heavens in verse 2, not as the same attributes. The claim that hod and hadar are a stock pair rests on Psalm 96:6 and 104:1, which I am confident of but have not given as a source.",
+    "elohim: the five English versions split (KJV and Webster 'angels', ASV 'God', BBE 'the gods', YLT 'Godhead'). Rashi, Ibn Ezra, Radak, Meiri, Metzudat David and the Targum all take it as angels. I keep 'God' in the literal layer because the word is the plural-form divine title, and note the traditional reading in the commentary. STEPBible tags the token as deity.yhwh; I left that to the entity layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[should_fix] Rephrase so that the claim matches the text: kavod and hadar are royal words of the same family as the hod that verse 2 sets above the heavens (hod and hadar are a stock pair), so the human is crowned with regalia like God's. Do not say they are the same attributes or that verse 2 gave them to God's name. (PS.8.2: \"אֲשֶׁר תְּנָה הוֹדְךָ עַל־הַשָּׁמָיִם\"; PS.8.6: \"וְכָבוֹד וְהָדָר תְּעַטְּרֵהוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:28:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:30+00:00",
+   "agent_notes": [
+    "STEPBible glosses elaphim as 'cattle' and has the lemma H0504; Radak and Rashi both read it as oxen. Tsoneh is a by-form of tso'n 'flock' (Rashi, Radak, Metzudat Zion). Final 'sadai' is a poetic form of sadeh; STEPBible tags it H7704M with an unusual lemma form; the sense is 'field'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[consider] Consider 'found also in Deuteronomy 7:13 (sheger alafekha)' rather than 'otherwise found'. (PS.8.8: \"צֹנֶה וַאֲלָפִים כֻּלָּם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.8.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:23:30+00:00",
+   "agent_notes": [
+    "Targum adds Leviathan ('and Leviathan who passes the paths of the sea'), which the Hebrew does not have. I did not use it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:25:57+00:00",
+     "note": "[consider] Consider citing Radak and Metzudat David for the ship reading, and leave the 'elevated plural' point unsourced or give it a source. (PS.8.9, Radak: \"שעושה ספינות ועובר בהם ארחות ימים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

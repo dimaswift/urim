@@ -1,0 +1,141 @@
+{
+ "chapter_ref": "PS.13",
+ "items": {
+  "verse.en:PS.13.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:46+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering, so every later verse is one ahead of the KJV (Hebrew 13:2 = KJV 13:1). The verse map handles it; the commentary does not belabour it.",
+    "לַמְנַצֵּחַ is glossed 'to the choirmaster' following STEPBible and the usual rendering (HALOT, BDB: piel participle of נצח, 'to be preeminent, to oversee'). The precise liturgical sense is uncertain; I say so in the commentary. The Targum's 'to praise' is a different reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.13.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:46+00:00",
+   "agent_notes": [
+    "נֶצַח is glossed 'perpetuity' and in the translations 'for ever' / 'to the end'. Meiri notes it can mean any long time; the Aramaic-influenced 'finally, utterly' is also possible. I kept 'for ever' in the dramatic layer but 'unto the end' in the literal.",
+    "Rashi's and Radak's reading of the four 'how long' as four exiles is quoted as tradition only. It is a later midrashic reading (Radak cites it from Midrash Shocher Tov), not the plain sense, and I flag it as such."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": "[consider] Reword the KJV remark: it reads netzach as its own question, which the dramatic layer also allows. Consider keeping the dramatic layer to two 'how long' cries, so the four-fold count the commentary builds on stays clear. (PS.13.2: \"תִּשְׁכָּחֵנִי נֶ֑צַח עַד־אָנָה\" (atnach on netzach); two עַד־אָנָה in the verse) [consider] Give the lemmas as 'עַד + אָן' rather than as a root 'עדה / אנ'. (PS.13.2 word table: עַד H5704 (HR), אָנָה lemma אָן H0575 (HTi))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.13.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:46+00:00",
+   "agent_notes": [
+    "עֵצוֹת: Ketiv/Qere not at issue, but STEPBible's אָשִׁית is tagged H7896K. 'Set counsels in my soul' is the literal; all five English versions take it as 'take counsel', and BBE reads it as 'be in doubt'. I follow the literal and explain in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": "[consider] Drop the sentence about night, or mark it as the director's own image rather than the commentators' reading. (Radak on PS.13.3: \"אפילו היום שאדם מתעסק בצרכי העולם ושוכח יגונו אני לא כן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.13.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:32:26+00:00",
+   "agent_notes": [
+    "Addressed the reviewer request: 'the first time the speaker says \"my\"' is now limited to the address to God ('my God'), since verse 3 already has 'my soul', 'my heart' and 'my enemy'. Layers, glosses and notes are otherwise unchanged."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": "[should_fix] In the directors_commentary, replace 'it is the first time the speaker says \"my\"' with 'it is the first time the speaker calls God \"my\" God', or similar wording that is limited to the address to God. (PS.13.3: \"בְּנַפְשִׁי ... בִּלְבָבִי ... אֹיְבִי\" (in my soul, in my heart, my enemy); PS.13.4: \"יְהוָה אֱלֹהָי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.13.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:46+00:00",
+   "agent_notes": [
+    "STEPBible glosses כִּי אֶמּוֹט with 'if'; I take it as 'when/for', with all five versions (when I am moved). The second 'lest' in ASV (Lest mine adversaries rejoice) reads יגילו as a jussive, which the Hebrew form does not show; KJV, Webster and YLT take it as an indicative. I take it as indicative under the governing 'lest'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": "[consider] Render Meiri as 'I have prevailed over their God, so as to enslave his children for ever', and drop 'both are watching' from the Malbim summary. (Meiri on PS.13.5: \"יכלתי לאלהיהם להשתעבד בבניו לעולם\"; Malbim: \"שהצר הוא המציר בפועל, והאויב דורש רעה ואינו מציר בפועל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.13.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:46+00:00",
+   "agent_notes": [
+    "יָגֵל is vocalized as a jussive/short form (H1523, morph Vqj3ms) so 'may it rejoice' is literal; the English versions have 'shall rejoice'. I keep the wish form in the literal layer. Hebrew verse 6 is KJV 5 and 6 together.",
+    "גָּמַל is glossed 'dealt bountifully'. The root means to deal fully with someone, for good or ill (weaning in 1 Sam 1:22 also uses it); here the object is left unstated and the sense is good. BBE's 'given me my reward' pushes toward recompense and I do not follow it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

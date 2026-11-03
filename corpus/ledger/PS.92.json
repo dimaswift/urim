@@ -1,0 +1,345 @@
+{
+ "chapter_ref": "PS.92",
+ "items": {
+  "verse.en:PS.92.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [
+    "The Hebrew text counts the superscription as verse 1, so every verse is one higher than in the KJV (92:0 is this verse). I follow the Hebrew numbering throughout."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [
+    "STEPBible glosses יִתְפָּרְדוּ as a plain future 'they will be scattered'. The Hebrew is the hithpael, so 'they will break apart' or 'scatter themselves' is also possible (YLT: 'separate themselves'). I keep the passive sense in the gloss and note the reflexive in the commentary. Malbim's reading that they fall apart of their own accord supports it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [
+    "בַּלֹּתִי is a hapax, and the form is difficult: from בלל 'to mix, anoint' (Radak, Metzudat Zion, Rashi comparing בְּלוּלָה בַּשֶּׁמֶן), reading 'I have been anointed' or 'I have been mixed with'. Some modern scholars emend the text, but I follow the transmitted text. The tenses are perfect and imperfect side by side; I render the verbs as present results, since the KJV's futures are its own choice."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": "[consider] Consider glossing pos 4 as 'I have been soaked/mixed' and citing Rashi's 'oil of rulership'. (Rashi on PS.92.11: \"לְבַלּוֹתִי בְּשֶׁמֶן שֶׁל שְׂרָרָה, בַּלֹּתִי כְּמוֹ בָּלוּל בַּשֶּׁמֶן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:54:33+00:00",
+   "agent_notes": [
+    "The packet's Metzudat Zion cites the Balaam verse as 'Numbers 32'; the clause אֲשׁוּרֶנּוּ וְלֹא קָרוֹב is Numbers 24:17, which I cite. The old commentary's 'I see him, but not now' is replaced by the literal 'I behold him, but not near'. בְּשׁוּרָי is rare: from שׁוּר 'to watch, gaze' (Metzudat Zion), linked by Rashi, Ibn Ezra and Radak to שׁוֹרְרַי 'my foes' (Ps 5:9). The Hebrew has no 'my desire'; KJV and ASV insert it twice."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": "[should_fix] Quote the clause with the root שור: 'I behold him, but not near' (אֲשׁוּרֶנּוּ וְלֹא קָרוֹב, Numbers 24:17), in both the commentary and the philological note if it repeats the citation. (Metzudat Zion on PS.92.12 in the packet: \"בשורי. ענין הבטה כמו אשורנו ולא קרוב\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:55:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:50:57+00:00",
+   "agent_notes": [
+    "The verb יִפְרָח (yifrach) is imperfect and can be read as a habitual present or a future; I kept 'will flourish' in the literal layer and a timeless present in the dramatic one. BBE ('a tall tree in his strength') drops the palm altogether; I followed the Hebrew, where the palm (tamar) and the cedar are two distinct images.",
+    "Glossed שָׂגָה (H7685B) as 'he will grow tall', following Radak's reading of the root as 'great, abundant' (cf. שַׂגִּיא). STEPBible has the flatter 'he will grow'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": "[consider] Rewrite that sentence to make only the point about the article ('in the Lebanon'), and consider keeping the dramatic layer to the growth the verb states. (PS.92.13: \"כְּאֶ֖רֶז בַּלְּבָנ֣וֹן יִשְׂגֶּֽה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:50:57+00:00",
+   "agent_notes": [
+    "STEPBible glosses the first word as 'they are planted'; the participle has no verb 'to be' in Hebrew, so I rendered it 'planted ones' and kept it as the sentence's subject. The Hebrew has no pronoun-free 'those': 'the planted' is a bare passive participle."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:50:57+00:00",
+   "agent_notes": [
+    "The STEPBible gloss for יְנוּבוּן shows 'they will bear fruit !' with a flag; the root נוב is rare (Prov 10:31 'the mouth of the righteous bears wisdom') and means to sprout or yield. Dramatic layer says 'bear fruit' as all five English versions do. The subject is the plural 'planted ones' of v.14, not the singular 'righteous' of v.13."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:50:57+00:00",
+   "agent_notes": [
+    "Ketiv/Qere: the text is written עלתה (without vav) and read עולתה, the normal spelling of עַוְלָה 'injustice'. Radak and Meiri both note it; the sense is the same, so I glossed the reading. I did not take up Radak's remark about the weak-middle root beyond mentioning it.",
+    "Rashi, Radak, Meiri and Malbim differ on what 'to declare' attaches to (Malbim: the old age of v.15 lasts so that they can declare; Radak: in messianic times all will declare). I translated the infinitive without choosing, as a purpose clause continuing v.15."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:54:33+00:00",
+   "agent_notes": [
+    "Instrument names are now fixed everywhere in this verse: עָשׂוֹר 'ten-stringed instrument', נֵבֶל 'harp', כִּנּוֹר 'lyre'. STEPBible has 'lyre' for nevel and 'harp' for kinor; I reversed them to the usual scholarly pairing (kinnor = lyre, nevel = harp, the larger, jar-shaped instrument). Meiri compares the nevel to a wineskin (נאד), which fits. The KJV sentence no longer faults it for three instruments; only 'solemn sound' is criticised.",
+    "עָשׂוֹר could also be read as 'on the tenth' (a day or a string-count); I followed the instrument reading of Rashi, Radak and Metzudat David. הִגָּיוֹן is disputed: sweetness of the song (Ibn Ezra, Radak), speech (Metzudat Zion), or a solemn sound (KJV). I keep 'murmur' in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": "[should_fix] Make the instrument names agree across glosses, literal layer and commentary (choose one rendering each for נבל and כנור and use it everywhere), and rewrite the KJV sentence so it does not fault the KJV for three instruments; keep the critique of 'solemn sound'. While there, the Levites are not a 'musician-priest class': call them Levite singers. (PS.92.4: \"עֲֽלֵי־עָ֭שׂוֹר וַעֲלֵי־נָ֑בֶל עֲלֵ֖י הִגָּי֣וֹן בְּכִנּֽוֹר\"; KJV 92:3 \"Upon an instrument of ten strings, and upon the psaltery; upon the harp with a solemn sound.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:55:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [
+    "The final clause לְהִשָּׁמְדָם עֲדֵי־עַד is ambiguous between purpose ('so that they be destroyed') and result or consequence ('only to be destroyed'). I render it as a purpose-or-outcome clause; BBE and Rashi read it as purpose, the KJV as a bare outcome."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.92.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:51:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:53:37+00:00",
+     "note": "[consider] Gloss מָרוֹם as 'height' (or '[are] height') to match the literal layer and the commentary. (PS.92.9: \"וְאַתָּ֥ה מָר֗וֹם\"; STEPBible gloss \"[are] height\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

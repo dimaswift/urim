@@ -1,0 +1,172 @@
+{
+ "chapter_ref": "PS.87",
+ "items": {
+  "verse.en:PS.87.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:44:19+00:00",
+   "agent_notes": [
+    "Revised after the request: the dramatic layer now reads 'His foundation'. The suffix on yesudato is masculine (STEPBible Sp3ms), so it cannot agree with feminine Zion (cf. v.5 bah, yekhonneha). I give both readings the suffix allows (God as founder; the psalm's theme) and cite Rashi and Metzudat David only for the second. 'The plainer reading is the city' is dropped.",
+    "KJV numbers the superscription as v.0 and begins at 87:1 with 'His foundation'; the Hebrew verse 1 contains both, so this verse carries the title and the first clause."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[should_fix] Render the dramatic layer 'His foundation' (or 'Its foundation'), not 'Her'. In the commentary and the note, say that the suffix is masculine and give the readings it allows: God as founder (KJV and the English versions), or the psalm's theme (Rashi, Radak, Meiri, Metzudat David). Drop 'the plainer reading is the city', and cite Rashi and Metzudat David only for the psalm reading. (PS.87.1: יְסוּדָתוֹ (3ms suffix, STEPBible 'foundation his'); PS.87.5: יֻלַּד־בָּהּ ... יְכוֹנְנֶהָ (Zion feminine); Rashi: 'יְסוּדַת מִזְמוֹר זֶה'; Metzudat David: 'יסוד השיר הזה'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:45:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:08+00:00",
+   "agent_notes": [
+    "STEPBible glosses the preposition ב in בָּךְ as 'in you'; I render 'in you' literally and 'of you' in the dramatic layer, as KJV/ASV do. YLT keeps 'in'. The sense 'about you' is the standard one for דבר ב-, but 'in you' may also be local (spoken within the city)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[consider] Drop the rival-shrines clause or support it. (PS.87.3: עִיר הָאֱלֹהִים, 'city of God'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:44:19+00:00",
+   "agent_notes": [
+    "Revised after the request: the literal layer now reads 'to those who know me', matching the gloss and the note (preposition lamed). The speaker of 'I' is disputed and both readings are presented: the poet (Ibn Ezra, Radak) or God (Metzudat David). The antecedent of 'there' is also disputed (Zion, or the nations named); I give both without choosing.",
+    "STEPBible glosses Cush as 'Cush' and KJV has 'Ethiopia'; I keep Cush in all layers, since the biblical Kush is the Nile region south of Egypt (Nubia), not the modern state."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[should_fix] In translation_literal, change 'among those who know me' to 'to those who know me', in line with the gloss and the note. (PS.87.4: לְיֹדְעָי, preposition ל: 'to [those who] know me' (STEPBible; KJV 'to them that know me').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:45:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:08+00:00",
+   "agent_notes": [
+    "אִישׁ וְאִישׁ is literally 'a man and a man'; most read distributive 'this one and that one' or 'each and every one'. Ibn Ezra reads 'not this one only'. The Targum identifies them as David and Solomon: not adopted, cited only as a reading. The final clause is a pronoun plus verb plus adjective; 'the Most High' may be a noun in apposition (he, the Most High) or a predicate. Ibn Ezra and Radak both note it stands for 'and he, the Most High, will establish it'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[consider] Say the verb echoes the foundation of verse 1 without calling it the psalm's close, and source or soften the Canaanite claim. (PS.87.5: וְהוּא יְכוֹנְנֶהָ עֶלְיוֹן; the psalm continues to PS.87.7.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:44:19+00:00",
+   "agent_notes": [
+    "Revised after the request: bikhtov is treated as an infinitive construct of katav ('in the writing of / when he writes'), and the earlier claim that the two verbs share a root family is removed. The verse 4 commentary and this one now agree: the 'I' of v.4 is the poet (Ibn Ezra, Radak) or God (Metzudat David), and YHWH here is named in the third person.",
+    "Rashi calls the verse a transposed text (mikra mesoras) and moves Selah back to follow 'peoples'; I keep the Hebrew order and mention his reading in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[should_fix] Remove the claim that the two words share a root family and call bikhtov an infinitive ('in the writing of / when he writes'), not a noun. Make the speaker of the verse 4 refrain agree with what the verse 4 commentary says (or present both readings: Ibn Ezra and Radak take the poet as the 'I' of verse 4, Metzudat David takes God). (PS.87.6: יִסְפֹּר (סָפַר, H5608) and בִּכְתוֹב (כָּתַב, H3789, HR/Vqcc, infinitive construct).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:45:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.87.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:08+00:00",
+   "agent_notes": [
+    "חֹלְלִים is the hard word. STEPBible and KJV take it as pipers (חלל II, 'pierce, play the flute', cf. Isa 5:12 as cited by Metzudat Zion); ASV and BBE read 'dancers' (חול, as Rashi does with מְחוֹלְלִים, Judg 21:23). Both are defensible; I chose 'pipers' for the literal layer and mention dancing in the commentary. The verse has no verb, so 'they sing' or 'there will be' is supplied in brackets. מַעְיָנַי: 'my springs', a hapax-like form; Rashi 'all my innards', Radak 'all my thoughts/attention', Malbim 'springs of salvation'. I kept 'springs' and flagged the ambiguity."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:47+00:00",
+     "note": "[consider] Leave the owner of 'my springs' open, or give the commentators' readings; credit Isa 5:12 to Metzudat Zion alone. (PS.87.7: כָּל־מַעְיָנַי בָּךְ; no pilgrims are named in the psalm.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

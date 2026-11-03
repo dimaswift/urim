@@ -1,0 +1,343 @@
+{
+ "chapter_ref": "PS.48",
+ "items": {
+  "verse.en:PS.48.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 48:0). The lamed in livnei Korach can mean 'for', 'of' or 'by'; the literal layer keeps the neutral 'to/for' and the commentary names the options."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [
+    "dimminu: STEPBible 'reflected on'. Rashi and Metzudat Zion read 'we waited/hoped' (cf. Ps 37:7 dom), Rashi also cites Menachem for 'thought' (Esth 4:13). I kept 'we have pondered' with the double sense noted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:42+00:00",
+   "agent_notes": [
+    "Right hand is the grammatical subject, as requested: מָלְאָה is feminine, agreeing with יְמִינֶךָ (feminine) and not with צֶדֶק (masculine). That is why YLT's 'righteousness hath filled thy right hand' is less likely. I read צֶדֶק as adverbial or accusative of fullness, '[with] righteousness'. Meiri takes צדק as 'uprightness' (cf. Deut 16:20); Metzudat David as power that does not come by violence."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[should_fix] Render the last clause with the right hand as subject, keeping the Hebrew order if you wish: '[with] righteousness your right hand is full'. (PS.48.11: \"צֶדֶק מָלְאָה יְמִינֶךָ\" (מָלְאָה HVqp3fs; יְמִינֶךָ Ncfsc); KJV/ASV/BBE \"thy right hand is full of righteousness\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[consider] Say the towns-and-women image is a double sense, and trim the dramatic addition. (PS.48.12: \"תָּגֵלְנָה בְּנוֹת יְהוּדָה לְמַעַן מִשְׁפָּטֶיךָ\"; Rashi: \"כָּל שְׁאָר עָרֵי יְהוּדָה הֵם לְצִיּוֹן בָּנוֹת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:31:29+00:00",
+   "agent_notes": [
+    "STEPBible glosses סֹבּוּ as 'go around' and הַקִּיפוּהָ as 'and go round it'. Both are kept; the two verbs are near-synonyms (sabab and naqaf) and I kept the pair visible in English as 'circle' and 'go around' rather than collapsing them."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:31:29+00:00",
+   "agent_notes": [
+    "פַּסְּגוּ is a hapax. The STEPBible gloss 'walk through' follows the lemma פָּסַג; I glossed it 'pass through' (literal) and mention Rashi and Radak's link to פִּסְגָּה 'summit' (Deut 3:17, 27), which gives 'go up to the heights of'. Radak and Ibn Ezra take it as 'look at, see as a peak'. My dramatic layer uses 'climb among' because that keeps both senses. The sense of חֵיל as the low outer wall is from Radak and Metzudat Zion (citing Lam 2:8); I corrected the STEPBible gloss 'rampart' only by adding 'outer'.",
+    "In the packet's Targum the verse is rendered with 'its inhabitants' and 'its palaces' glossed as buildings; I did not use it as a source for any claim, only the named medieval commentators."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:34:15+00:00",
+   "agent_notes": [
+    "Revised after the reviewer's request. Attribution now follows the packet: Ibn Ezra reports that the Masorete reads two words ('until our death'), while the one-word 'almut' is the reading of the other commentators. 'Forever' is credited to Menachem (cited by Rashi), Metzudat Zion and Malbim. Radak gives both readings, 'until our death' first. Ibn Ezra's own first gloss is 'like olamit', so he also lists the one-word reading before the Masorete's.",
+    "The five English versions agree on 'even unto death' except BBE, which drops the phrase, and YLT, which has 'over death'. I kept the two-word Hebrew as written in the text (al-mut) in the literal layer and in the glosses, and gave the one-word reading in the commentary. The Targum's 'like the days of our youth' is a third reading (from 'alumim'), and I mention it without taking it up. The Meiri passage on the 'after death' reading is not cited in the note, because I could not reconcile its wording with the other readings."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[should_fix] Correct the commentary: per Ibn Ezra the Masorete reads two words ('until our death'), and the one-word עלמות is the reading of the other commentators. Attribute 'forever' to Menachem (cited by Rashi), Metzudat Zion and Malbim, and in the note give Radak both readings, 'until our death' first. (PS.48.15, Ibn Ezra: \"ובעל המסורת אומר: כי הם שתי מלות והטעם עד מותנו\"; Rashi: \"כְּאָדָם הַמַּנְהִיג אֶת בְּנוֹ קָטָן לְאַט, וּמְנַחֵם פָּתַר אוֹתוֹ לְשׁוֹן עוֹלָם\"; Radak: \"כמו עד מות כלומר עד מותינו... וי\"ל כמו מלה אחת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:36:27+00:00",
+     "note": "[consider] Make the gloss of pos 9 and the literal layer agree: either 'on' in both (with 'until' explained in the note) or 'until' in both. (PS.48.15: \"הוּא יְנַהֲגֵנוּ עַל־מוּת\" (עַל, STEPBible 'on'); Radak: \"כמו עד מות כלומר עד מותינו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[consider] Drop the Artemis parallel or mark it as a later illustration. (PS.48.2: \"גָּדוֹל יְהוָה וּמְהֻלָּל מְאֹד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:42+00:00",
+   "agent_notes": [
+    "Revised after the request. The note on ירכתי צפון now attributes to Meiri (north of Jerusalem, with Isa 14:13) and Metzudat Zion ('side') only what they say; the Zaphon/Baal sense and the Assyrian-title parallel are marked in the text as modern scholarship, with no source in the packet. STEPBible glosses 'the king'; the Hebrew מֶלֶךְ רָב has no article, so I glossed 'a king' and kept 'a great king' in the literal layer. The dramatic layer keeps 'the great King' as the title English readers know."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[should_fix] In the note, attribute only what the sources say (Meiri: north of Jerusalem, Isa 14:13; Metzudat Zion: 'side') and mark the Baal/Ugaritic sense as modern scholarship without a source in the packet; in the commentary, hedge the Zaphon polemic and the Assyrian-title claim as a modern reading rather than settled fact. (PS.48.3, Meiri: \"וקראו ירכתי צפון כי הוא נוטה אל צפון ירושלים כדכתי׳ ואשב בהר מועד בירכתי צפון\"; Metzudat Zion: \"ירכתי. ענין צד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[consider] Present 'made himself known' as the preferred reading rather than calling the KJV wrong. (PS.48.4: \"נוֹדַע לְמִשְׂגָּב\"; KJV \"God is known in her palaces for a refuge\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [
+    "The five English versions agree on 'passed by'; I kept the literal 'passed on'/'crossed over'. The Malbim/Meiri/Radak readings (Gog and Magog, the Tarshish storm) are eschatological or historicizing and are mentioned only as the tradition's reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[consider] Say instead that 'hasted' loses the panic that Metzudat Zion's 'haste and alarm' keeps. (PS.48.6: \"נִבְהֲלוּ נֶחְפָּזוּ\"; KJV \"they were troubled, and hasted away\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:42+00:00",
+   "agent_notes": [
+    "Layers now agree: both render 'with the east wind you shatter', God as the agent and the wind as his instrument. The simile is Ibn Ezra's and Radak's reading (the terror of v.7 is like an east wind on ships); the Hebrew has no kaf. BBE's 'as by an east wind' follows that reading. The verb תְּשַׁבֵּר is 2nd person masculine (Piel); the Targum reads it as passive, 'the ships are broken'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[should_fix] Make the two layers agree: either drop 'As' from the dramatic ('With the east wind you shatter the ships of Tarshish') or keep it and say in the commentary that the simile is Ibn Ezra's and Radak's reading, not something BBE invented. Rewrite the garbled sentence about 'by' and 'with'. (PS.48.8: \"בְּרוּחַ קָדִים תְּשַׁבֵּר\"; Ibn Ezra: \"דמה החיל שאחזם כמו רוח קדים\"; Radak: \"כאלו הוכו ברוח קדים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.48.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:42+00:00",
+   "agent_notes": [
+    "'Twofold' replaces 'threefold': בְּעִיר occurs twice in this verse, and the psalm as a whole names the city again in v.2 (קִרְיַת מֶלֶךְ רָב)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:33:22+00:00",
+     "note": "[should_fix] Say 'twofold' (or, if you mean the psalm as a whole, say so and count across verses 2 and 9). (PS.48.9: \"בְּעִיר־יְהוָה צְבָאוֹת בְּעִיר אֱלֹהֵינוּ\" (two occurrences of בְּעִיר))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

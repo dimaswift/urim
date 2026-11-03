@@ -1,0 +1,212 @@
+{
+ "chapter_ref": "PS.4",
+ "items": {
+  "verse.en:PS.4.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [
+    "The Hebrew text counts the superscription as verse 1, so every verse of this psalm is one higher than in the KJV (4:0 to 4:8). I translated the Hebrew verses as they stand. 'Choirmaster' for lamnaTzeach follows the tradition (Ibn Ezra, Radak: the one set over the musicians); the root is uncertain and the Targum reads it differently, so I gloss it 'to the leader' and say so in the note.",
+    "The Malbim's reading (a psalm composed in the famine of David's days) and Meiri's (the time of Absalom) are mutually exclusive occasions. The commentary treats the occasion as traditional and unprovable, and does not choose."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [
+    "hirChavta is a perfect ('you have made wide'). Radak reads it as a prophetic perfect; Rashi and Metzudat David read it as past deliverances. I kept the perfect in the literal layer and let the dramatic layer follow the past-experience reading, which most English versions share."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[consider] Consider keeping the legal reading on Radak's own words ('you are the judge between us') and dropping the unsourced social-history sentence. (PS.4.2 commentaries: Radak gives only 'אתה אלהים שופט עלינו' and Ibn Ezra 'בצר - שם דבר'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:50+00:00",
+   "agent_notes": [
+    "The five English versions split on whether 'my glory' is David's honor or God ('my Glory'). I kept 'my glory' as honor and reputation, as Rashi and Radak do. 'ad-meh' is read as 'until when', following Metzudat Zion; the BBE drops the question. Per the reviewer request, the Selah note now says it occurs twice in the psalm (Hebrew 4:3 and 4:5) and that Malbim divides the psalm into three parts by these markers."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[blocker] In the Selah note, say it appears twice in this psalm (end of Hebrew 4:3 and 4:5) and that Malbim uses these two markers to divide the psalm into three parts. (PS.4.3 ends 'כָזָב סֶלָה'; PS.4.5 ends 'וְדֹמּוּ סֶלָה'; no other verse has it. Malbim on 4:1: 'ומזמור זה נחלק לג' חלקים המצוינים במלת סלה'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:50+00:00",
+   "agent_notes": [
+    "BBE renders 'see how the Lord has made great his mercy for me' (reading hifLah as from pl', 'to be wonderful', rather than 'to set apart'). I follow the majority, 'set apart' (Rashi: hivdil); the two senses sound alike and the wordplay may be intended. The STEPBible gloss 'for himself' for lo is right and kept. chaSid is the singular 'faithful one' and here is David himself (Radak, Meiri); the Targum names David. Per the reviewer request, the Metzudat Zion citation is now what he quotes: 'and I will set apart on that day' (Exodus 8:18 in the Hebrew numbering; his text labels it chapter 32)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[should_fix] Replace 'compares Exodus 33:16' with what Metzudat Zion actually quotes: 'and I will set apart on that day' (Exodus 8:18; his text labels it chapter 32). (Metzudat Zion on 4:4: 'הפלה. הפריש כמו והפליתי ביום ההוא (שמות ל״ב)'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [
+    "rigZu is ambiguous between 'tremble (in awe/fear)' and 'be angry'; the Hebrew root covers both. The KJV 'stand in awe' (Rashi, Radak) takes the first. The ancient Greek translation, quoted in the New Testament, takes the second ('be angry and do not sin'). I do not cite that because it is not in the packet; I mention only that the root carries both senses, which is lexicon knowledge (BDB), and chose 'tremble'. Malbim's reading (sins on the bed alluding to Bathsheba) is a minority and is not used."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[consider] Consider dropping 'if you must' so the dramatic layer keeps the imperative: 'Tremble, and do not sin.' (PS.4.5: 'רִגְזוּ וְאַל־תֶּחֱטָאוּ'; Rashi: 'חִרְדוּ מִלִּפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[consider] Consider addressing the line to the same accusers as vv. 3-5, and restate Radak's note on el as 'el here works as al does'. (Radak on 4:6: 'מאשר הרעותם הנה צריכים אתם כפרה'; 'וקשר הבטח עם מלת אל כמו עם מלת על'. Meiri: 'זבחו על מה שמרדתם בו'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [
+    "nesah is an unusual form: STEPBible parses it as an imperative of nsh with h for aleph, i.e. 'lift' (Radak: the same as nasa; Ibn Ezra discusses the form). It is not the root nsh 'to forget' or nsh 'test'. I gloss 'lift up'. The Hebrew is 'light of your face'; the 'lifting' recalls the Aaronic blessing (Num 6:25-26), which is my own observation and unsourced."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:18:50+00:00",
+   "agent_notes": [
+    "me'Et is the hard point: KJV and ASV read comparatively ('more than ...'); YLT reads temporally ('from the time'). Ibn Ezra reports Judah ibn Bal'am's emendation (reversing the word order, 'from the time their grain and wine increased') and rejects the need for it. I keep the ambiguous 'from the time' in the literal layer and take the comparative in the dramatic layer, with Metzudat David. Per the reviewer request, the comparative is attributed to Metzudat David, and Radak and Meiri are given correctly: David rejoiced in their prosperity while they rejoiced at his trouble. Rashi on 4:7 reads the verse as the speaker's calm in the face of the wicked's prosperity, which I do not use."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": "[should_fix] Attribute the comparative reading ('more than their joy at the harvest') to Metzudat David, and give Radak's (and Meiri's) reading correctly: David rejoiced in their prosperity while they rejoiced at his trouble. (Radak on 4:8: 'כי אני היתה לי שמחה בלבי בטובתם; וזהו מעת דגנם ותירושם רבו: והם שמחים לרעתי'. Metzudat David: 'להיות שמח בחלקי יותר מהרבים ההם השמחים מעת שרבו דגנם ותירושם'. Meiri agrees with Radak: 'ואני שמח בטובם'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.4.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:15:58+00:00",
+   "agent_notes": [
+    "levaDad can modify 'you' ('you alone, YHWH') or 'me' ('make me dwell alone'). Rashi, citing Deut 33:28, takes it as 'alone, secure' (needing no garrison); Radak takes it with YHWH; Meiri discusses both. The KJV 'only' sides with YHWH. I keep the ambiguity in the literal layer ('you, YHWH, alone') and choose in the dramatic layer. The adverb yachDav ('together') is also unresolved: Rashi and Radak read it as together with the people, Metzudat David as 'at once'. I took 'at once' in the dramatic layer and glossed it 'together'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:17:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

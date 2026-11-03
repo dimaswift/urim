@@ -1,0 +1,256 @@
+{
+ "chapter_ref": "PS.64",
+ "items": {
+  "verse.en:PS.64.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering; the KJV counts it as verse 0 of its own chapter and starts verse 1 at the Hebrew verse 2. Every KJV number in this chapter is therefore one lower than the Hebrew.",
+    "The Rashi, Metzudat David and Meiri readings apply the psalm to Daniel in the lions' den. These commentaries are traditions about the psalm and are not found in the Hebrew text. I mention them in the commentary on verses 2, 6 and 8 only as the tradition, and I do not use them to shape the translation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[consider] Cite only sources in the packet, or leave the sources list empty for lexical common knowledge. (PS.64.1 note sources: 'BDB נָצַח')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [
+    "הִשְׂכִּילוּ is a perfect form, glossed by STEPBible as 'they will consider'. The sequence from וַיִּירְאוּ onward is past in form and future in sense; I rendered it as past in the literal layer and as the certain outcome in the dramatic one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:58+00:00",
+   "agent_notes": [
+    "Reviewer request taken: יִשְׂמַח is an imperfect that may be read as a wish ('let the righteous rejoice', STEPBible) or as a prediction ('will rejoice'); וְחָסָה is a vav-perfect that continues it, not a separate wish. Token glosses 1, 4 and 6 now say 'will rejoice', 'and will take refuge', 'and will boast', matching the literal layer; the commentary names the jussive reading. I chose the predictive reading because the verse follows God's act in v. 8-10 as its result, and the vav-perfect continuation reads naturally as a statement; this is my own reading.",
+    "Radak's remark that the vav of וְחָסָה stands for 'when / because' (כי או כאשר) is an alternative construction; reported in the note on the verb and not adopted in the translations.",
+    "Rashi (Daniel) and Meiri identify the righteous man with Daniel, Meiri also saying the plain sense speaks of David himself. Mentioned as tradition, not asserted."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[should_fix] Correct the sentence: יִשְׂמַח is an imperfect that may be read as a wish (hence STEPBible 'let him rejoice'), וְחָסָה is a vav-perfect continuing it; and make token glosses 1 and 6 agree with the literal layer, or say in the commentary why they differ. (PS.64.11: 'יִשְׂמַ֬ח צַדִּ֣יק ... וְחָ֣סָה ב֑וֹ' (morph HVqi3ms, HVqq3ms))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [
+    "STEPBible glosses אֱלֹהִים as 'O God' and the entity table links it to deity.yhwh. I kept 'God' in the literal layer, since the word is a plain vocative with no divine name in it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[consider] Acknowledge that Meiri and the Targum support 'prayer' and present 'complaint' as the sharper reading (Radak, Metzudat Zion), and clarify the dread sentence. (PS.64.2: Meiri 'בשיחי ר״ל בתפלתי ויש לועזים אותו כמו בקינתי'; Targum 'בְּעִדָן צְלוֹתִי')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [
+    "STEPBible glosses תָּם as 'the blameless' and the KJV says 'the perfect'. The word is singular, so it reads 'an innocent man'. The pronoun 'him' in יֹרֻהוּ is singular too, and its antecedent is that same man. I follow Malbim's understanding that the singular points to the psalmist."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[consider] Drop or rephrase the KJV remark; the singular object is visible in the KJV too. (PS.64.5 KJV: 'suddenly do they shoot at him')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:58+00:00",
+   "agent_notes": [
+    "Reviewer request taken: תַּמְנוּ is read as the commentators read it (Radak, Meiri, Metzudat Zion: תַּמּוּ, 'they have completed'), third person, so no quoted speech in the literal layer. The plotters' 'we have finished' (YLT, ASV with 'say they') is given in the commentary as the other reading. I did not choose the 'we' reading because the Hebrew has no verb of saying; ASV's 'say they' is an addition.",
+    "Gloss 1 corrected from STEPBible 'they plot' to 'they search out' so it agrees with the literal layer and with glosses 4-5 (same root חפשׂ, three times).",
+    "The Ibn Ezra passage in the packet is long and partly about Lam 3:22; I cite none of it as a source in the notes, only the commentators Radak, Meiri and Metzudat Zion for תַּמּוּ. Ibn Ezra's own remark that the Spanish grammarians read תמנו as תממו is consistent with them."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[should_fix] In the commentary and the תַּמְנוּ note, say that the commentators read תמנו as תַּמּוּ 'they have completed (the search)', third person, which removes the quoted speech; present the plotters' 'we have finished' as the other reading (YLT, ASV), not as settled fact. (PS.64.7: Radak 'תמנו כמו תממו ... כולו חפשו מחפש'; Metzudat David 'וכאשר תמו את החיפוש'; Metzudat Zion 'תמנו. כמו תממו') [should_fix] Change token gloss pos 1 to 'they search out', matching the literal layer and glosses 4-5. (PS.64.7: 'יַֽחְפְּֽשׂוּ־עוֹלֹ֗ת ... חֵ֣פֶשׂ מְחֻפָּ֑שׂ'; literal: 'They search out injustices')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:58+00:00",
+   "agent_notes": [
+    "Reviewer request taken: the commentary now says that פִּתְאֹם (v. 5, defective) and פִּתְאוֹם (v. 8, full vav) are the same adverb, both with alef. The earlier text had it wrong.",
+    "וַיֹּרֵם is a vav-consecutive imperfect ('and he shot'). Radak and Meiri say the past stands for the future, the usual manner of prophecy; the English versions (KJV, ASV, BBE, Webster) use the future or present. The literal layer keeps the Hebrew past form; the dramatic layer also uses the past, and the commentary notes the dispute. Rashi and Metzudat David read it as a past event (Daniel and the lions); I leave that midrashic frame to the commentary and do not build it into the translations.",
+    "STEPBible 'they will be' for הָיוּ is a perfect; I glossed 'they have become'. 'Wounds' (מַכּוֹתָם) is plural; Hebrew has no verb 'to be wounded', so KJV's 'shall they be wounded' recasts a noun clause as a verb."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[should_fix] Rewrite the clause: the same adverb, spelled defectively in verse 5 (פִּתְאֹם) and with a full vav in verse 8 (פִּתְאוֹם), both with alef. (PS.64.5: 'פִּתְאֹ֥ם'; PS.64.8: 'פִּתְא֑וֹם')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.64.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:22+00:00",
+   "agent_notes": [
+    "The text is hard: וַיַּכְשִׁילוּהוּ has a plural verb with a singular object suffix ('and they made him stumble'), and the antecedent of 'him' is the tongue (Radak, Meiri). The KJV 'shall make their own tongue to fall upon themselves' reverses the roles. I follow the Hebrew: they, i.e. the plotters, are made to stumble, and their tongue is upon them. יִתְנֹדְדוּ is from נדד 'to wander, flee', which the KJV follows ('flee away'). The ASV 'wag the head' follows Rashi's and Metzudat David's gloss of shaking the head. I kept the Hebrew's single image of shuddering and shaking, and flagged both readings."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:57:27+00:00",
+     "note": "[consider] Gloss pos 4 as 'they shake' or 'they shudder' and leave the head-shaking to the note; mention that Rashi and Metzudat David read mockery. (PS.64.9: Rashi 'לְהָנִיעַ רֹאשׁ וְלִשְׂחוֹק עֲלֵיהֶם'; Radak 'יתנודדו ויחרדו')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

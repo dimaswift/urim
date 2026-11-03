@@ -1,0 +1,287 @@
+{
+ "chapter_ref": "PS.84",
+ "items": {
+  "verse.en:PS.84.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [
+    "Verse 1 is the superscription (KJV 84:0). The meaning of הַגִּתִּית is unknown (a Gittite instrument, a tune from Gath, or a winepress-season song); I gloss it as a transliteration and say so."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": "[consider] Fix 'subject' to 'object', mention the Temple reading of 'our shield', and present Radak's two readings of 'your anointed' accurately. (Rashi on PS.84.10: \"מָגִנֵּנוּ. הוּא בֵּית הַמִּקְדָּשׁ הַמֵּגִין עָלֵינוּ\"; Radak: \"שתביא המשיח במהרה בימינו ... ואם המזמור על דוד אמר משיחך על עצמו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [
+    "הִסְתּוֹפֵף is a hapax (Hithpael of סַף, 'threshold'). 'Doorkeeper' (KJV) is an interpretation; the literal sense is 'to stand/linger at the threshold'. The Rashi quotation I used is in the packet; I did not source the claim about Egyptian or Mesopotamian threshold custom and left it out."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [
+    "שֶׁמֶשׁ is a sun; the packet cites Rashi's reading of שמש as 'battlement' (from Midrash Tehillim, Isa 54:12). I mention it as a minority reading only. 'Sun' as a title of a god is well attested in the Near East (e.g. the sun-god Shamash), which gives the line its polemic edge; that is my own reading, so no source is cited."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:18+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: translation_literal renders אַשְׁרֵי as 'happinesses' (H0835 אֶשֶׁר), not blessing (H1293 בְּרָכָה). BDB citations dropped; sources are Radak and Meiri from the packet, plus Ibn Ezra on the connection to v. 12."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": "[should_fix] Change translation_literal to render אַשְׁרֵי as happiness, e.g. 'YHWH of hosts, O the happinesses of [the] human trusting in you' (or 'how fortunate [is] a human trusting in you'), matching the gloss. Drop the BDB citations or replace them with sources in the packet (Radak and Meiri comment on this verse). (PS.84.13: \"אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ\"; STEPBible gloss for אַשְׁרֵי: 'how blessed!' (H0835 אֶשֶׁר, happiness, not H1293 בְּרָכָה).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:05+00:00",
+     "note": "[consider] Write 'after the threshold of v. 11 and the sun and shield of v. 12'. (PS.84.11: \"בָּחַרְתִּי הִסְתּוֹפֵף בְּבֵית אֱלֹהַי\"; PS.84.12: \"כִּי שֶׁמֶשׁ וּמָגֵן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": "[consider] Use one rendering of אַשְׁרֵי across vv. 5, 6 and 13 (e.g. 'How fortunate'), and limit the residents to priests and Levites as the cited commentators do. (PS.84.5: \"אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ\"; Ibn Ezra: \"הם הכהנים והלוים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:18+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the pilgrim-road reading is now attributed to Ibn Ezra and Metzudat David, and Radak is given as the packet has him (paths of knowledge of God in the heart, a reading he reports from his father). Rashi's reading (reckoning the ways of one's own conduct) is mentioned too. The five English versions split: KJV 'the ways of them', ASV/BBE 'the highways to Zion'. The Hebrew has neither 'to Zion' nor a clear referent; I kept 'highways' bare.",
+    "The gloss for עוֹז-לוֹ בָךְ follows STEPBible's structure but drops its bracketed relative clauses; 'strength for him is in you' keeps the Hebrew dative of possession."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": "[should_fix] Attribute the pilgrim-road reading to Ibn Ezra and Metzudat David, and if Radak is kept, give his reading correctly (paths of knowledge of God in the heart). (Radak on PS.84.6: \"יש להם בלבבם מידיעתך ועוברים ושבים על אותם המסילות\"; Ibn Ezra: \"שאין בלבם חפץ ולא מחשבה, רק המסלות שהולכים שם בית השם\"; Metzudat David: \"חושבים בלבבם המסילות העולות לבית ה׳\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:05+00:00",
+     "note": "[consider] Say that Radak, building on his father's reading of 'strength in you' as wisdom in knowing God, takes the highways as paths of knowledge of God in the heart, and calls this the right reading. (Radak on PS.84.6: \"אשרי. פירוש אדוני אבי ז\"ל שיש להם עוז וחכמה בדעת יחודך\"; \"מסלות בלבבם. יש להם בלבבם מידיעתך ועוברים ושבים על אותם המסילות ... ונכון הוא הפירוש\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [
+    "The packet links הַבָּכָא to loc.topheth; I do not think that is right. Baca is an otherwise unknown valley (a place name, or a valley of baca-shrubs, or 'weeping' by wordplay on בכה). I left the entity to the registry and did not rely on it.",
+    "מוֹרֶה is split between 'early rain' (KJV 'rain', ASV, Radak) and 'teacher' (YLT, Rashi, Metzudat David). The word is the same as the autumn rain in Joel 2:23 and Deut 11:14 (יוֹרֶה/מוֹרֶה); I chose 'early rain' for the dramatic layer and kept the pun on 'teacher' in the commentary. Also 'blessings' (בְּרָכוֹת) can be 'pools' (בְּרֵכוֹת) with other vowels, as the KJV took it; the Masoretic vocalization gives 'blessings'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:37:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.84.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:41:18+00:00",
+   "agent_notes": [
+    "Reviewer blocker addressed: the commentary no longer claims a change of address at v. 9 (God has been 'you' since v. 2) and the invented quotation 'his courts' is gone. The shift described is from praise and description to petition: the first imperatives of the psalm."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:40:03+00:00",
+     "note": "[blocker] Rewrite the opening of the commentary: the psalm has addressed God as 'you' since v. 2; what changes in v. 9 is from praise and description (exclamations about God's house and its pilgrims) to petition, the first imperatives ('hear', 'give ear'). Remove the invented quotation 'his courts'. (PS.84.2: \"מִשְׁכְּנוֹתֶיךָ יְהוָה צְבָאוֹת\" (your dwellings, YHWH of hosts); PS.84.4: \"מִזְבְּחוֹתֶיךָ\" (your altars); PS.84.5: \"יוֹשְׁבֵי בֵיתֶךָ ... יְהַלְלוּךָ\" (your house ... they praise you); PS.84.6: \"עוֹז לוֹ בָךְ\" (in you).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

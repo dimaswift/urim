@@ -1,0 +1,511 @@
+{
+ "chapter_ref": "PS.38",
+ "items": {
+  "verse.en:PS.38.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "Hebrew verse 1 is the superscription; the KJV counts it as verse 0, so every KJV number in this psalm is one lower than the Hebrew. 'Lehazkir' is rendered 'to bring to remembrance' in the literal layer, with the main readings (liturgical or musical term; 'to confess/give thanks'; 'to call sins to mind') laid out in the commentary. I commit to none of them in the dramatic layer beyond 'for remembrance'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[consider] Attribute the musical-term reading to Radak, 'to give thanks' to 'some' (as Radak and Meiri report), and Meiri's own reading as 'to make known'. (PS.38.1, Meiri: \"ומלת להזכיר י״מ כמו להודות ... ואין נראה לי\"; Radak: \"אפשר כי מלת להזכיר הוא אחד מטעמי הנגינות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:02+00:00",
+   "agent_notes": [
+    "Request addressed: the dramatic layer now opens as a return to direct address after the description of verses 5 to 9, not as a first address. The psalm has addressed God since verse 2 (v. 3 'your arrows', v. 4 'your indignation').",
+    "Here the divine name is אֲדֹנָי (Adonai), not YHWH: the literal layer says 'My Lord' (the packet's entity link points to the LORD), the dramatic layer 'Lord'. Ibn Ezra reads תאותי as the desire to live, 'not before the physicians'; Radak repeats this. Meiri reads it differently, as the desire to serve God. I give both and commit to neither in the translation."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[should_fix] Rephrase the opening as a return to direct address after the description of verses 5 to 9, not as the first time the speaker addresses God. (PS.38.3: \"כִּי־חִצֶּיךָ נִחֲתוּ בִי וַתִּנְחַת עָלַי יָדֶךָ\"; PS.38.4: \"מִפְּנֵי זַעְמֶךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:20:14+00:00",
+     "note": "[consider] Optionally trim 'after all I have told' to keep the dramatic layer to the turn of address the text shows. (PS.38.10: \"אֲדֹנָי נֶגְדְּךָ כָל־תַּאֲוָתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "Secharchar is glossed 'it palpitates' by STEPBible; the root is sochar / sachar (to go around), reduplicated (Rashi, Radak, Metzudat Zion). 'Throbs' (ASV) and 'panteth' (KJV) are interpretive; the literal layer keeps the circling image."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "STEPBible glosses ohavai as 'friends'; the participle is 'my lovers' in the older English versions. I render 'those who love me' literally and 'friends' only in the dramatic layer. Nega' is the word used in Leviticus 13 for the skin-affliction diagnosed by the priest; I do not claim the psalmist has that disease, only that the word carries that echo."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[consider] Hedge the Leviticus reading as a possible echo and add Ibn Ezra's reason. (PS.38.12, Ibn Ezra: \"מנגד נגעי יעמדו - בעבור שהבאישו חבורותי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "Radak glosses 'seek my life' as 'seek to destroy it' (citing 1 Sam 22:23); Malbim reads the enemies as people at the sickbed who try to hasten death. I kept the plain sense (hostile pursuers) and left Malbim's medical reading out of the commentary as too specific for the Hebrew.",
+    "הַוּוֹת (havvot) glossed 'ruin' rather than STEPBible's 'destruction' to keep it distinct from 'destroy'; the KJV 'mischievous things' is a weak rendering of a noun whose sense is calamity."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "KJV and Webster add 'Hear me' after 'I said'; the Hebrew has no such words. Treated as an interpolation, not a variant."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "מוֹט רַגְלִי: the five versions agree on 'foot slips'. I kept 'slip' for the verb and 'foot' singular as in the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "צֶלַע (tsela') is 'limp' in Ps 35:15 and Jer 20:10 and 'rib/side' elsewhere; I take 'limp' here as the sense and mention Ibn Ezra's cross-reference to Ps 35:15 only through its own wording. Not cited in sources because the packet shows his text only as 'ובצלעי שמחו'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[consider] Present 'to God' as one reading among those of Ibn Ezra, Radak and Malbim. (PS.38.19, Ibn Ezra: \"אני מודה לאנשים וזה טעם אגיד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:02+00:00",
+   "agent_notes": [
+    "Request addressed: the elided negative is now bracketed in the literal layer, as '[not]' before 'in your wrath'. Radak and Meiri both read אל as serving both halves (cf. Num 4:20, Ps 9:19 as Radak cites it); Metzudat David says the same.",
+    "The five English versions split on 'rebuke/reprove/correct' for יכח (hiphil) against 'chasten/chastise/discipline' for יסר. I kept the pair distinct in the literal layer ('rebuke', 'chasten'). Malbim (on this verse and Ps 6:2) distinguishes the two, but his distinction is his own reading and I give it only as his."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[should_fix] Mark the elided negative in the literal layer with brackets, as the glosses already do for supplied words: 'YHWH, not in your anger may you rebuke me, and in your wrath [not] may you chasten me' (or '...and [not] in your wrath...'). (PS.38.2: \"אַל־בְּקֶצְפְּךָ תוֹכִיחֵנִי וּבַחֲמָתְךָ תְיַסְּרֵנִי\"; Metzudat David: \"מלת אל משמשת בשתים כאלו אמר אל בחמתך תיסרני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:20:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "חַיִּים עָצֵמוּ is a known difficulty: MT reads 'being alive, they are mighty'. Rashi, Radak and Meiri all take 'alive' as vigorous life. Some ancient and modern readers emend to חִנָּם ('without cause'); I did not rely on any emendation and say so in the commentary only as an open question."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:21:09+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the sentence claiming irony with those who 'pursue' him in v.20 is removed. The commentary now contrasts the enemies who 'seek' his life and harm (v.13) and the haters who multiply (v.20) with his own 'pursuing' (radaf) of good.",
+    "Ketiv/Qere: the written form is רדופי (radofi, with a vav), the reading is רדפי (radefi, infinitive construct with suffix, 'my pursuing'). Radak and Meiri both take the Qere as an infinitive with the resh lengthened, like יורדי בור (Ps 30:4). I glossed the reading.",
+    "The five English versions agree on the sense; YLT keeps 'accuse', KJV/ASV/Webster use 'adversaries' and BBE 'haters'. I kept the verb force of yisteNuni ('they act as satan/accuser against me') in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[should_fix] Remove the 'same root as the enemies' pursuit' sentence, or restate it accurately: the enemies 'seek' (biqqesh / darash, v.13) while he 'pursues' (radaf) good. (PS.38.13: \"מְבַקְשֵׁי נַפְשִׁי וְדֹרְשֵׁי רָעָתִי\"; PS.38.21: \"תַּחַת רָדְפִי טוֹב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:20:14+00:00",
+     "note": "[should_fix] In the directors_commentary, delete 'so the irony is sharp for an audience who has just heard of those who \"pursue\" him in v.20', or replace it with an accurate contrast: the enemies of v.13 'seek' his life and his harm, the haters of v.20 multiply, while he 'pursues' (radaf) good. (PS.38.20: \"וְאֹיְבַי חַיִּים עָצֵמוּ וְרַבּוּ שֹׂנְאַי שָׁקֶר\"; PS.38.13: \"מְבַקְשֵׁי נַפְשִׁי ... וְדֹרְשֵׁי רָעָתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:21:50+00:00",
+     "note": "[consider] Optionally soften to 'and they set themselves against me because I went after what is good', and write the transliteration as 'yistenuni'. (PS.38.21: \"יִשְׂטְנוּנִי תַּחַת רָדְפִי טוֹב\"; Radak: \"ולא אדע דבר למה ישטנוני, אם לא שמקנאים בי שאני רודף הטוב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:15:12+00:00",
+   "agent_notes": [
+    "Radak mentions that the last words of this psalm may be misplaced from the next psalm's first verse; I did not follow this and left it out of the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[consider] Replace it with the observation that 'hurry to my help' is a stock closing plea in the Psalms of lament. (PS.38.23: \"חוּשָׁה לְעֶזְרָתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "STEPBible parses both nichatu (Niphal) and vatinchat (Qal) under one lemma, nachat. Rashi and Ibn Ezra debate whether the first is a Niphal with an assimilated nun; I follow the sense 'came down / sank in' for both and keep the repetition of the root visible in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "STEPBible glosses shalom as 'health'; I keep 'peace' in the literal layer because the sound-play with the 'soundness' of the first colon matters, and explain the range in the commentary. 'Metom' is glossed 'soundness'; Radak records a second derivation (from metim, 'few'), which I mention in a note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[consider] Say that Exodus 16:24 uses the same Hiphil form, of the manna that did not stink, or cite 16:20 for the manna that did. (PS.38.6, Radak: \"וכן: ולא הבאיש (שמות טז כד)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:14:43+00:00",
+   "agent_notes": [
+    "Nikleh is a hapax-like form (Niphal participle of qalah, 'to roast, scorch'). KJV 'loathsome disease' follows the other root (qalah / qalal, 'be despised'), which Radak and Meiri also record. I follow the 'burning' reading, which Radak attributes to his father, Metzudat Zion and the Targum, and flag the split."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.38.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:19:02+00:00",
+   "agent_notes": [
+    "Request addressed: the reference is now Isa 38:13, Hezekiah's prayer in his sickness. The text is quoted as in the Hebrew, 'shiwwiti ad-boqer ka'ari', and I do not make it a roar: the verb שִׁוִּיתִי is disputed ('I composed myself', 'I waited', 'I set') and I leave it open. Ibn Ezra cites it only for the lion image; his claim is that שאגתי here comes from the multitude of pains.",
+    "STEPBible glosses נפוגותי 'I am numb' and ונדכיתי 'and I am crushed'. I kept 'crushed' but glossed נפוגותי 'I am faint', following Rashi and Radak (weakness, slackening) over 'numb'. The verb is attested in Gen 45:26 (ויפג לבו), which both commentators cite."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:17:50+00:00",
+     "note": "[should_fix] Correct the reference to Isaiah 38:13 (Hezekiah's prayer in his sickness) and quote it accurately, e.g. 'I waited (or: composed myself) until morning; like a lion...', without making it a roar. (PS.38.9, Ibn Ezra: \"שאגתי - ברוב מכאובי על דרך שויתי עד בקר כארי\" (Isa 38:13))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:20:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

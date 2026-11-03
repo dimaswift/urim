@@ -1,0 +1,199 @@
+{
+ "chapter_ref": "PS.67",
+ "items": {
+  "verse.en:PS.67.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering and verse 0 in the KJV, so every later verse is offset by one. I translated the Hebrew verse as it stands. 'The choirmaster' for lamnatseach follows the usual reading of the root n-ts-ch. Its exact sense (leader, overseer, or something to do with 'perpetuity') is disputed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": "[consider] Consider 'a pairing found in a dozen or so headings' instead of 'rare'. (PS.67.1: \"מִזְמוֹר שִׁיר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [
+    "The preposition 'itanu is 'with us', not 'upon us' as in the KJV and ASV. YLT has 'with us'. I kept 'with' in the literal layer and used 'upon' only in the dramatic layer. The verbs are imperfects read as wishes (jussive sense), which is how KJV, ASV and BBE take them. YLT reads them as plain statements ('God doth favour us').",
+    "Elohim here is glossed 'God', not YHWH. The Elohistic Psalter (Pss 42-83) replaces the divine name with Elohim, so the echo of the priestly blessing (Num 6:24-26), which has YHWH as subject, appears here with Elohim. I mention the echo in the commentary as my own reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": "[consider] Consider dropping the 'adds upon earth' sentence and keeping only the 'saving health' point. (PS.67.3: \"לָדַעַת בָּאָרֶץ דַּרְכֶּךָ\"; KJV 67:2: \"That thy way may be known upon earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:03:12+00:00",
+   "agent_notes": [
+    "Replaced the chiasm sentence, as requested, with the order the Hebrew has: nations glad, peoples judged on level ground, nations on the earth led. Only the pairing of 'judge' and 'lead' remains. Tanchem is from nachah 'to lead', not nacham 'to comfort', so YLT's 'comfortest' is the wrong root. The verbs are imperfects; I read the first two as wishes (as KJV, ASV, BBE do, 'let the nations be glad') and the two after 'for' as statements, which all five versions share."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": "[should_fix] Replace the chiasm sentence with the order the Hebrew actually has: nations (glad), peoples (judged on level ground), nations on the earth (led). The pairing of 'judge' with 'lead' can stay. Or delete the sentence. (PS.67.5: \"יִשְׂמְחוּ וִירַנְּנוּ לְאֻמִּים כִּי־תִשְׁפֹּט עַמִּים מִישׁוֹר וּלְאֻמִּים בָּאָרֶץ תַּנְחֵם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:04:05+00:00",
+     "note": "[consider] Optionally attribute the war setting to Radak (Gog and Magog) alone, and drop 'for the first time'. (Malbim on PS.67.5: \"כי בארץ תנחם ... ושאתה משגיח בארץ\"; Malbim on PS.67.6: \"עתה בקש שירד הגשם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:58+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the literal layer now reads 'may he bless us, God, our God', carrying exactly the two words אֱלֹהִים אֱלֹהֵינוּ with no extra 'God'.",
+    "Tense of נָתְנָה: a plain perfect, 'has given'. Translations split between past (ASV, YLT), future (KJV, Webster) and a wish. I kept the perfect in the literal layer and let the dramatic layer read it as a harvest already in hand, the ground for the blessing asked in the next clause. The tense of יְבָרְכֵנוּ is also ambiguous (imperfect: 'will bless' or 'may he bless'); I took it as a jussive-flavoured wish, matching the refrain of verse 2 (יְבָרְכֵנוּ). This is my reading; the commentaries in the packet do not settle it.",
+    "Glosses 5 and 6: STEPBible tags both אֱלֹהִים and אֱלֹהֵינוּ as deity.yhwh. The word here is Elohim, not the name YHWH, so I rendered 'God' in both layers, not 'LORD'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": "[should_fix] In the commentary and in the note on נָתְנָה, drop the Targum from the future or promise reading. Attribute that reading to Radak and Metzudat David (both have 'אז תתן'). You may add that the Targum keeps the perfect (יַהֲבַת) and so sides with YLT and ASV. (PS.67.7 Targum: \"אַרְעָא יַהֲבַת אִבָּהּ\" (perfect, 'the earth gave its fruit'); Radak: \"ואז תתן הארץ יבולה\"; Metzudat David: \"אז תתן הארץ את יבולה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:04:05+00:00",
+     "note": "[should_fix] In translation_literal, change 'may God bless us, God our God' to 'may he bless us, God, our God' (or 'may God, our God, bless us'), so the literal layer carries exactly the two words אֱלֹהִים אֱלֹהֵינוּ. Nothing else needs to change. (PS.67.7: \"יְבָרְכֵנוּ אֱלֹהִים אֱלֹהֵינוּ\" (yevarekhenu Elohim Eloheinu: one verb, two divine words))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:05:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.67.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:00:59+00:00",
+   "agent_notes": [
+    "Verse 7 ends with 'God, our God', and verse 8 opens with the same verb, yevarekhenu, so the three 'bless' verbs (vv. 2, 7, 8) frame the psalm. That observation, and the reading of the final fear as awe drawn by the blessing rather than dread, are my own; the commentaries (Rashi, Metzudat David) do not say it in these terms. Verses 4 and 6 are word-for-word identical in the Hebrew, and I translated them identically."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:02:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.67.6] Verse 6 is approved and locked; it is not carried in this fragment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:03:12+00:00"
+  }
+ ]
+}

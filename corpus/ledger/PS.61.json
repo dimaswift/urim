@@ -1,0 +1,235 @@
+{
+ "chapter_ref": "PS.61",
+ "items": {
+  "verse.en:PS.61.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:51:37+00:00",
+   "agent_notes": [
+    "The Hebrew verse is the superscription, which the KJV leaves unnumbered (61:0) and runs into its 'A Psalm of David'. The Hebrew has no word for 'psalm' (mizmor); the KJV and ASV supply it. I kept it out of the literal layer and marked it in brackets only in the dramatic layer.",
+    "negînat: the vowel is pointed as a construct (patach) but the form is read as a plain singular of neginah (Ibn Ezra, Radak, Meiri). The 'stringed instrument' sense follows Metzudat Zion and the versions; 'melody' or 'song' is equally possible, and the Targum takes it as 'praises'. I glossed it 'stringed music' to keep both."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:27+00:00",
+   "agent_notes": [
+    "Revised after the reviewer request: the literal layer says 'wrapped [in faintness]' and the note on בַּעֲטֹף no longer says 'darkness'. 'Faintness' rests on the Targum (אִשְׁתַּלְהֲיוּת) and on Metzudat Zion's 'wrapping, clothing'; Radak instead reads the wrapping as the heaping up of prayer in distress. I follow the first reading.",
+    "STEPBible glosses בְּצוּר יָרוּם מִמֶּנִּי as 'on a rock [which] it is high more than me'. I keep the ב as 'on/to' and take מִמֶּנִּי as comparative, 'too high for me', as the five English versions all do. The sense is a rock beyond my own reach, which only God can set me on."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[should_fix] In the literal layer write 'when my heart is wrapped [in faintness]' or 'when my heart grows faint', without 'darkness'; in the note on בַּעֲטֹף drop 'darkness' (keep 'faintness', which the Targum supports). (PS.61.3: \"בַּעֲטֹף לִבִּי\" (STEPBible: 'when grows faint'; Metzudat Zion: \"מלשון עטיפה ולבישה\"; Targum: \"בְּאִשְׁתַּלְהֲיוֹת לִבִּי\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[consider] Drop the sentence or ground it in the text. (PS.61.4: \"מִפְּנֵי אוֹיֵב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[consider] Say that אָגוּרָה is cohortative and אֶחֱסֶה, an imperfect, is read as a wish in parallel with it. (PS.61.5: אָגוּרָה (HVqc1cs), אֶחֱסֶה (HVqi1cs))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:56:16+00:00",
+   "agent_notes": [
+    "Reviewer request applied: Deut 2:9 concerns Moab (the 'Ar' of Lot's sons), not Edom, so the commentary now says Moab. Nothing else in the verse changed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[should_fix] Remove the Num 24:18 parallel or replace it with a verse that actually has יְרֻשָּׁה (for example Deut 2:9, \"לֹא אֶתֵּן לְךָ מֵאַרְצוֹ יְרֻשָּׁה\"). (PS.61.6: \"יְרֻשַּׁת\" (lemma יְרֻשָּׁה, H3425); Num 24:18: \"וְהָיָה אֱדוֹם יְרֵשָׁה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:29+00:00",
+     "note": "[should_fix] In the directors_commentary change \"God refuses Israel any of Edom's land as a יְרֻשָּׁה\" to \"God refuses Israel any of Moab's land as a יְרֻשָּׁה\". Leave the rest of the verse as it is. (Deut 2:9: \"אַל־תָּצַר אֶת־מוֹאָב ... כִּי לֹא־אֶתֵּן לְךָ מֵאַרְצוֹ יְרֻשָּׁה כִּי לִבְנֵי־לוֹט נָתַתִּי אֶת־עָר יְרֻשָּׁה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:56:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:54:27+00:00",
+   "agent_notes": [
+    "Revised as requested. The 'each year as a generation of seventy years' hyperbole is Malbim's alone. Rashi and Metzudat David read the verse as a prayer to live out a full seventy years rather than die young; Radak reads 'two generations'. The note on דֹּר וָדֹר now says Rashi's seventy is the total."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[should_fix] Attribute the 'each year becomes a seventy-year generation' hyperbole to Malbim alone, and state that Rashi and Metzudat David read the verse as a prayer to live out a full seventy years rather than die young (Radak: two generations); fix the note on דֹּר וָדֹר so Rashi's seventy is the total, not 'each'. (PS.61.7 Rashi: \"אִם נִגְזַר עָלַי לָמוּת בָּחוּר ... עַד שֶׁשְּׁנוֹתַי יִהְיוּ שִׁבְעִים שָׁנָה\"; Metzudat David: \"ושנותי יהיו כשני כל הדורות והם שבעים שנה\"; Malbim: \"עד שכל שנה ושנה ... יתארך כמו דור שהוא שבעים שנה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:55:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:56:16+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the Ibn Ezra sentence now says he parses מַן as an imperative on the pattern of צַו ('Command the children of Israel') and that the missing אשר before יִנְצְרֻהוּ is like the one dropped in 'with your heart whole' (עם לבבכם שלם). Nothing else changed. PS.61.7 is locked and left out of the fragment."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": "[should_fix] Count Ibn Ezra with Rashi, Radak and Meiri for the imperative, explaining that his missing אשר stands before יִנְצְרֻהוּ ('appoint ... that they guard him'); if you keep an alternative reading, attribute 'who appointed his loyalty and faithfulness' to Malbim. (PS.61.8 Ibn Ezra: \"מן - על משקל צו את בני ישראל ותחסר מלת אשר ... חסד ואמת מנה שיצרוהו\"; Malbim: \"אשר מן והכין חסדו ואמתו לנצור את המלך\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:55:29+00:00",
+     "note": "[should_fix] Rewrite the Ibn Ezra sentence in the directors_commentary to say that he parses מַן as an imperative on the pattern of צַו ('Command the children of Israel') and that the missing אשר before יִנְצְרֻהוּ is like the one dropped in 'with your heart whole' (עם לבבכם שלם). Change nothing else. (PS.61.8 Ibn Ezra: \"מן - על משקל צו את בני ישראל ותחסר מלת אשר, כמו עם לבבכם שלם ורבים כמוהו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:56:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.61.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:53:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "PS.61.4 and PS.61.5 are LOCKED and are not in this fragment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T13:54:27+00:00"
+  }
+ ]
+}

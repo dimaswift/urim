@@ -1,0 +1,835 @@
+{
+ "chapter_ref": "PS.69",
+ "items": {
+  "verse.en:PS.69.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:28+00:00",
+   "agent_notes": [
+    "Reviewer request applied: 'a tune' is now credited to Ibn Ezra (\"a poem whose beginning is so\"), and Meiri is listed with Metzudat Zion under 'an instrument'. Rashi's reading (Israel as a lily among thorns, Song 2:2) is given as a third option. The Hebrew verse 1 is the superscription, which the KJV numbers 69:0."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] In the shoshannim note, credit 'a tune' to Ibn Ezra on Psalm 69:1 and add him to the sources; list Meiri with Metzudat Zion under 'an instrument'. (PS.69.1 Meiri: \"שושנים במזמור מ״ה שהוא כלי ניגון\"; Ibn Ezra: \"פיוט תחלתו כן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:28+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the 'house in foreign hands' reading is now credited to Radak and Meiri, Rashi gets his own reading (the nations saw the love God showed Israel while the Temple stood, and envied), and Metzudat David's reading (envy of the Temple's splendour) is added. The verb 'consumed' for אכלתני is literal 'ate me'; the KJV 'eaten me up' keeps this, but the BBE 'on fire with passion' loses the eating."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Attribute the 'house in foreign hands' reading to Meiri and Radak, and either drop Rashi or give his own reading: the nations envied the love God showed Israel while the Temple stood. (PS.69.10 Rashi: \"רָאוּ הַחִבָּה שֶׁנָּהַגְתָּ בָּנוּ בְּעוֹד בֵּיתְךָ קַיָּם, וְנִתְקַנְּאוּ בִי\"; Radak: \"שהם מושלים בני ואני בחוץ\"; Meiri: \"היותי מקנא על ראותי אותו בידם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "The syntax of 'va'evkeh vatzom nafshi' is disputed (Meiri lists three readings, Radak a missing waw). I rendered 'and I wept with the fasting of my soul'; the 'nefesh' is the fasting person, not the object of weeping. STEPBible's 'self my' agrees."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Rephrase the audit: the KJV adds 'chastened' and makes the soul the object of fasting. (KJV 69:10: \"When I wept, and chastened my soul with fasting\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [
+    "KJV/ASV/Webster say 'I was the song of the drunkards'; the Hebrew has no verb or 'I', only 'and songs of drinkers of strong drink'. YLT and BBE read the line differently again (musicians playing; 'those given to strong drink'). I kept the Hebrew's own noun phrase and let the dramatic layer supply the sense. STEPBible glosses נְגִינוֹת as 'taunt songs'; the word is plain 'stringed music, songs', and the taunt is context."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Cite a packet source, such as Metzudat Zion on Psalm 69:3, or leave the sources empty. (PS.69.3 Metzudat Zion: \"ושבולת. היא מרוצת המים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Leave the sources empty for the lexical point, or cite Radak on Psalm 69:17 for 'by your compassion, not by my deeds'. (PS.69.17: the packet has only Ibn Ezra and Radak on this verse.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Leave the sources empty, or cite Radak on Psalm 69:18 ('since it is very narrow for me, answer me quickly'). (PS.69.18: the packet has Ibn Ezra, Radak, Metzudat David and Malbim.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [
+    "גְאָלָהּ has a final he with mappiq: imperative plus 'it' (the nefesh). Ibn Ezra offers several readings, including 'its redemption'; I took the plain imperative-plus-object reading. No gold or other fragments consulted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "nefesh glossed 'throat/neck' (STEPBible '[the] neck', BBE 'neck'; Radak and Metzudat David read the water at the neck). KJV, ASV and YLT keep 'soul'. The word is genuinely double (throat, breath, life); I chose the bodily sense in both layers because the verse is about water rising."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Either drop 'rising scale' or mark it as your own reading, separate from Radak. (PS.69.20 Radak: \"זכר החרפה בשלש לשונות כלומר בכל מיני חרפה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [
+    "The form וָאָנוּשָׁה is a rare shape; Rashi, Radak and Meiri read it as 'and I am sick/incurable' from אנש, with the alef of the root doing double duty. I glossed it so and did not adopt Malbim's 'a deathblow' reading beyond a mention."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [
+    "Corrected STEPBible 'poison' for רֹאשׁ to 'bitter herb (rosh)': the commentaries (Rashi 'bitter'; Metzudat Zion with Deut 29:17) read a bitter plant, and 'poison' is a later extension. KJV 'gall' is a traditional rendering, acceptable but vague."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:04:46+00:00",
+   "agent_notes": [
+    "שְׁלוֹמִים is unclear. Options: 'allies' (STEPBible, from שָׁלוֹם 'peace/friend'), 'well-being, security' (Rashi, Radak, Meiri: when they hope for peace), 'peace-offerings' (שְׁלָמִים with other vocalisation), or 'recompense' (YLT). I chose 'well-being' for the literal layer, as the commentaries do, and mention the others in the notes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:40+00:00",
+   "agent_notes": [
+    "Addressed the request: the curse is no longer called 'the only direct command'. Verse 24 is the first imperative addressed to God (hamʿad, 'make shake'); verses 25 and 28 follow with further imperatives. Everything before is third-person jussive wishes.",
+    "STEPBible glosses hamʿad as 'make to shake'. Metzudat Zion and Meiri take the root as slipping or dislodging (hashmaṭah, 'making them slip'), so I glossed 'make them totter'. The loins are the seat of strength (Radak)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Change 'the only direct command in the curse' to 'the first direct command in the curse', or say that the curse moves from wishes to imperatives addressed to God here. (PS.69.25: \"שְׁפָךְ־עֲלֵיהֶם זַעְמֶךָ\"; PS.69.28: \"תְּנָה־עָוֺן עַל־עֲוֺנָם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [
+    "The verb is the imperative שְׁפָךְ (with maqqef), 'pour out'. BBE's 'Let your curse come' renders זַעַם as 'curse'; Malbim reads זעם as the curse and חרון אף as the wrath, but I keep 'indignation' and 'burning of your anger'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [
+    "טִירָה is a walled encampment or stone-built enclosure (also 'turret' in Song 8:9, Ezek 46:23); YLT's 'tower' is a narrower guess. I chose 'encampment' in the literal layer and 'stronghold' in the dramatic one. The jussive 'let it be' follows the Hebrew; YLT turns it into a statement of fact."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:40+00:00",
+   "agent_notes": [
+    "Addressed the request: removed 'Radak says the same'. The pity-and-help point (Zech 1:15) is now credited to Meiri and Rashi, and Radak is cited for his own point, that the enemies have power only because God struck first. Radak also reads 'ḥalalekha' as 'near death', not dead.",
+    "The five English versions split on yesapperu ('they recount'): KJV and Webster 'talk to the grief', ASV 'tell of the sorrow', BBE 'make bitter the grief'. Ibn Ezra, Radak and Meiri hear gossip or counsel about how to add pain. I kept 'recount' literally and put the sense in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Replace 'Radak says the same' with Meiri (they should have pitied and helped, citing Zech 1:15). If you keep Radak, give his actual point: the enemies have power only because God struck first. (PS.69.27 Radak: \"כי אם היית חפץ לא הי' בם כח להרע לי אלא מה ש'הכית אתה רדפי הם\"; Meiri: \"והיה להם לרחם ולעזור כענין אני קצפתי מעט והמה עזרו לרעה (זכריה א טו)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [
+    "סֵפֶר חַיִּים is 'scroll of life' or 'of the living' (KJV 'book of the living', ASV 'book of life'). Ibn Ezra, Radak, Meiri and Metzudat David differ on whether it means this life or the world to come; I did not decide and kept 'the scroll of life' in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[consider] Say 'disputed among the commentators' instead. (PS.69.29 directors_commentary: \"Whether the book is this life or the next is disputed in the notes in the packet\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "shibbolet is 'flood' here, as in Isa 27:12 (cited by Metzudat Zion for the river sense), not 'ear of grain'. Rashi glosses it with an Old French word that the packet gives only as an abbreviation, so I do not quote it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:40+00:00",
+   "agent_notes": [
+    "Addressed the request: the KJV 'or' is not a mistranslation; Ibn Ezra, Radak and Meiri read two animals with the mem serving both ('than an ox, than a bull'), and the KJV follows them. Metzudat Zion reads one phrase, two synonyms. I chose the two-animal reading for the literal layer by bracketing the 'than', and say so in the note.",
+    "Rashi's and the Targum's story that this is Adam's ox, created with horns before hooves, is midrash and is not used for the translation; it is mentioned only briefly in the commentary, with its source."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Rewrite the KJV remark: the Hebrew has no conjunction, but Ibn Ezra, Radak and Meiri read two animals (the mem serves both, 'than an ox or a bull'), so the KJV's 'or' follows them. Credit the one-phrase, synonym reading to Metzudat Zion, and fix the shor par note to match. (PS.69.32 Ibn Ezra: \"מ\"ם משור ישרת אחר, כאילו הוא כתוב: משור מפר\"; Radak: \"משור ומפר ומ\"ם במקום שנים עומדת, והשור הוא הגדול והפר קטן ממנו\"; Meiri: \"ר״ל שור או פר\"; Metzudat Zion: \"כפל המלה בשמות נרדפים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [
+    "רָאוּ is a perfect, which STEPBible glosses as future ('they will see'). Meiri takes it as a perfect used for the future; Ibn Ezra reads it as an imperative-like address ('see this'), which would explain the shift to 'you who seek God'. YLT and ASV keep a past or present. I rendered a plain perfect literally and the dramatic layer carries the sense of foreseen joy."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:38+00:00",
+   "agent_notes": [
+    "The verbs after 'Judah' are suffix-conjugation with waw, which I glossed as futures ('and they will dwell', 'and they will take possession of it'). The suffix of וִירֵשׁוּהָ is feminine singular; Radak takes its antecedent to be Zion or the whole land of Israel. The 'creeping thing' link of v. 35 to Genesis 1 is my own observation, not from the commentaries."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:11:05+00:00",
+   "agent_notes": [
+    "Addressed the request: the callback to 69:26 now quotes אַל־יְהִי יֹשֵׁב in full. The KJV 'that they may dwell' (purpose clause) is my reading of the Hebrew chain of waw-perfects; YLT and ASV keep a plain sequence."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Replace (לֹא יֹשֵׁב) with (אַל־יְהִי יֹשֵׁב), or quote just יֹשֵׁב. (PS.69.26: \"בְּאָהֳלֵיהֶם אַל־יְהִי יֹשֵׁב\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:11:05+00:00",
+   "agent_notes": [
+    "Addressed the request: 'thirty-six verses' and the flood language now cites 69:2 and 69:16 (אַל־תִּשְׁטְפֵנִי שִׁבֹּלֶת מַיִם); BDB sources removed, only Metzudat David and Malbim from the packet are cited. The link of shakan to the later Shekhinah is my own gloss and is left unsourced."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Change 'sixty-odd verses in the flood' to something true, such as 'thirty-six verses, much of it in the flood'. In the notes on yinchaluha and yishkenu, remove the BDB sources or replace them with packet sources (Malbim on Psalms 69:37 is already there). (PS.69.37 is the last verse of the psalm; the flood language is in PS.69.2-3 and PS.69.15-16: \"אַל־תִּשְׁטְפֵנִי שִׁבֹּלֶת מַיִם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": "[consider] Say 'the last line of the psalm, thirty-five verses after the singer first went under the water', or drop the number. (PS.69.2: \"כִּי בָאוּ מַיִם עַד־נָפֶשׁ\"; PS.69.37 is the last verse.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:28+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the nichar note now cites Rashi and Metzudat Zion on Psalm 69:4, the Hebrew numbering, which the packet gives under this verse (KJV 69:3). The gloss 'is parched' follows Rashi and the Jeremiah 17:6 parallel."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Change the nichar note's sources to 'Rashi on Psalm 69:4' and 'Metzudat Zion on Psalm 69:4', and the same references inside the note text. (PS.69.4 Hebrew \"יָגַעְתִּי בְקָרְאִי נִחַר גְּרוֹנִי\"; the packet places Rashi \"נִחַר. יָבֵשׁ\" and Metzudat Zion \"נחר. ענין יובש\" under PS.69.4.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:10:28+00:00",
+   "agent_notes": [
+    "Reviewer request applied: every citation in the notes on matzmitai, chinnam and az ashiv now reads 'on Psalm 69:5' (Hebrew numbering; KJV 69:4). The last clause is the hardest in the verse: the five English versions split between 'then I restored' (KJV, Webster), 'I bring back' (YLT), 'I have to restore' (ASV) and 'I gave back' (BBE). The Hebrew is an imperfect, so I read it as 'I must then return', a forced restitution, as Metzudat David does. Rashi's bribery reading is a separate and more specific claim, and is kept in the note as his."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": "[should_fix] Change every 'on Psalm 69:4' source and in-note reference in the notes on matzmitai, chinnam and az ashiv to 'on Psalm 69:5'. (PS.69.5 Hebrew \"רַבּוּ מִשַּׂעֲרוֹת רֹאשִׁי ... אֲשֶׁר לֹא־גָזַלְתִּי אָז אָשִׁיב\"; the packet gives Rashi \"אָז אָשִׁיב\", Metzudat David \"שונאי חנם\" and Metzudat Zion \"מצמיתי\" under PS.69.5.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:11:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "ivvalti, 'my folly', is a rare noun (Strong's H200). Malbim and Metzudat Zion read it as sin or doubt, and Radak and Metzudat David as plain folly. I kept 'folly' and left the debate to the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "The packet gives 'Yahweh' for the written YHWH under 'adonai; the text is the usual Adonai YHWH, 'Lord YHWH'. Radak's note on the construct form is about this combination. I did not repeat his grammar claim in my own words beyond what he says."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.69.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:05:06+00:00",
+   "agent_notes": [
+    "Rashi and Radak read 'brothers' and 'my mother's sons' as nations (Esau, Ishmael); I treated that as one reading among others. John 2:17 and Rom 15:3 quote this verse, which I mention in the commentary of verse 10 only as a fact of the New Testament and do not rely on."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:09:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "The packet gave no previous-verse dramatic text (verse 12 is outside this window), so the dramatic voice starts fresh as a first-person lament and may need harmonizing with PS.69.1-12.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:04:46+00:00"
+  },
+  {
+   "note": "The verse numbering here is the Hebrew's. The confession in verse 6 and the claim of innocence in verse 5 are a standing tension in this psalm, and I drew no resolution in the commentary beyond what the commentators say.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:05:06+00:00"
+  }
+ ]
+}

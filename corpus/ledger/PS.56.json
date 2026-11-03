@@ -1,0 +1,319 @@
+{
+ "chapter_ref": "PS.56",
+ "items": {
+  "verse.en:PS.56.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 56:0). 'Jonath-elem-rechokim' is rendered as a tune title ('The Dove of Silence among Strangers' in the dramatic layer) following the traditional reading 'dove of silence of the distant ones'; the vocalization אֵלֶם 'silence' versus אֵלִים 'gods/mighty ones' (an old emendation) is uncertain, so the literal layer keeps the transliteration plus a bracketed gloss. Miktam is left untranslated; 'inscription/engraving' (from כתם 'gold') is a guess, not a settled meaning."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] Say 'two words' or 'four syllables'. (PS.56.10: אֱלֹהִים לִי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "The refrain ends with אָדָם 'man/anyone' where verse 5 has בָשָׂר 'flesh' (so Radak: 'adam and basar are one'). The KJV renders both with different verbs of anxiety; I keep the contrast flesh/man visible."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:48:08+00:00",
+   "agent_notes": [
+    "Revised after review: 'and wine' is dropped. BDB/HALOT citations are replaced by Radak (zivchei toda) and the Targum (qurbanei todan). Malbim's reading is given as the alternative to 'vows owed to you': that God made the vows to David through the prophets. The five English versions split between 'praises' (KJV, Webster), 'thank-offerings' (YLT, ASV) and BBE's paraphrase; I follow YLT/ASV because Radak and the Targum both read sacrifice."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[should_fix] Drop 'and wine' (or say 'animal and bread'). Replace the BDB/HALOT sources with packet sources (Radak, Targum 'קורבני תודן') or remove them. Mention Malbim's subjective reading as the alternative to 'vows owed to you'. (PS.56.13 Malbim: 'אתה נדרת נדר עבורי כי הבטחת ה׳ ע\"י נביא הוא כנדר'; Radak: 'זבחי תודה'; Targum: 'קורבני תודן')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:25+00:00",
+   "agent_notes": [
+    "הֲלֹא is read as an emphatic rhetorical question ('Have you not…?') with the verb of the first clause carried over (ellipsis), as Radak takes it ('הלא לשון חוזק'). KJV's 'wilt not thou deliver' turns it into a future petition, which the Hebrew perfect הִצַּלְתָּ in the first clause makes less natural. The Qere/Ketiv is not at issue. 'Light of the living' (so KJV, YLT, ASV) kept over BBE 'light of life'; the plural חַיִּים is retained.",
+    "Malbim's identification of the two vows with the Samuel and Gad promises, and Rashi's 'return to the Land of Israel', are Davidic-biographical readings from the superscription tradition; I cite them but do not build the translation on them."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] Cite a packet source (YLT 'walk habitually' supports the Hithpael point), or leave the sources empty and mark the sense as your own. (PS.56.14: the packet has Radak, Meiri, Metzudat David and Targum, but no lexicon)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "שָׁאַף is glossed 'trample/crush' by STEPBible but Rashi, Metzudat Zion and the KJV read 'swallow up' (cf. Jer 2:24 'snuffed the wind'). I use 'gasp after/pant for' in the literal layer to keep the sense of hungry snapping, and say so in the commentary; the sense is disputed between 'snap at', 'swallow' and 'trample'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] Drop the claim that the KJV softens enosh and keep the frailty observation. (PS.56.2 KJV: 'for man would swallow me up')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "מָרוֹם at the end is read as a divine epithet (vocative, 'O Height/Most High') by Rashi, Radak, Meiri, Metzudat David and the KJV; the alternative is adverbial 'proudly' (ASV, 'from on high'). I follow the vocative reading but note the alternative."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] End the dramatic line on the vocative ('…fighting against me, O Most High'), or base it on Radak's 'you see, O Height'. (PS.56.3: כִּי־רַבִּים לֹחֲמִים לִי מָרוֹם)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:48:08+00:00",
+   "agent_notes": [
+    "Revised after review: the verse has five words, not seven. The 'el = 'al' equivalence is Radak's, Ibn Ezra's and Meiri's; only Ibn Ezra's quotation (1 Samuel 1:27, 'el hanna'ar hazeh hitpallalti') and only Meiri's Proverbs 3:5 are credited to them. The packet shows no verse number for Radak, so none is given."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[should_fix] Change 'Seven words' to 'Five words'. Attribute the 1 Samuel 1:27 parallel to Ibn Ezra alone and the Proverbs 3:5 parallel to Meiri. (PS.56.4: יוֹם אִירָא אֲנִי אֵלֶיךָ אֶבְטָח (5 tokens); Radak: 'אליך אבטח. כמו עליך' with no verse cited)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:55+00:00",
+     "note": "[consider] Say 'taken up in the refrain of verses 5 and 11-12'. (PS.56.5: בֵּאלֹהִים בָּטַחְתִּי לֹא אִירָא; PS.56.12: בֵּאלֹהִים בָּטַחְתִּי לֹא אִירָא)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:48:08+00:00",
+   "agent_notes": [
+    "Revised after review: Malbim's sentence now says that the Philistines, not believing the madness was real, tried to make Achish resentful of David's words so that he would take him for a spy. The KJV 'wrest' (twist) is not what the commentators say; they read 'pain, grieve, anger'. I keep 'hurt' in the literal layer and mention 'twist' only as the KJV's reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[should_fix] Rewrite the Malbim sentence: the Philistines, not believing his madness, tried to turn Achish against David's words so that he would take him for a spy. (PS.56.6 Malbim: 'והשתדלו שיתעצב המלך מדבריו וענינו ויחשוב שבא לרגל את הארץ')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "The text has a Qere/Ketiv at יִצְפּוֹנוּ; the packet gives the reading, and Radak mentions the written form יצפינו (hiphil, 'they make [others] lie in wait'). I glossed the reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] Say that Metzudat Zion reads it as 'steps' while the literal sense is 'heels', and mark the Jacob/Genesis 3:15 echo as your own reading. (PS.56.7 Metzudat Zion: 'עקבי. מהלך רגלי')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:58+00:00",
+   "agent_notes": [
+    "The Hebrew string for this verse ends with a stray word אֵין (token 9, marked X), which belongs to no sense in this verse (it is a Masoretic/Sefaria artefact, likely a verse-end marker or a misplaced word from the following text). I glossed it '[stray: not]' and left it out of both translations. The verse is also hard: the first clause 'because of wickedness, deliverance for them' is usually taken as a question ('Shall they escape because of their wickedness?', KJV, ASV, Radak) but could be a statement (YLT) or emended. I follow the question reading in the dramatic layer and keep the elliptical Hebrew in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[consider] Attribute the Philistine reading to Rashi and give Radak's alternative. (PS.56.8 Radak: 'עמים. על אויביו ישראל')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.56.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:48:08+00:00",
+   "agent_notes": [
+    "Revised after review: the root ספר occurs twice (safarta, sifratekha). Ibn Ezra and Meiri are credited only with the nodi/no'dekha pun; the safarta/sifratekha pair is my own observation, and the sources field for that note is empty. Rashi's closing remark, that Menachem takes sifra to mean a real book, is cited as it stands."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:46:45+00:00",
+     "note": "[should_fix] Say that the root ספר occurs twice, and credit Ibn Ezra and Meiri only with the nodi/no'dekha pun; present the safarta/sifratekha pair as your own observation. (PS.56.9: נֹדִי סָפַרְתָּה … הֲלֹא בְּסִפְרָתֶךָ; Ibn Ezra: 'והיה דרך צחות נודי עם בנאדך')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:48:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

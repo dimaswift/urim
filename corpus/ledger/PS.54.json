@@ -1,0 +1,225 @@
+{
+ "chapter_ref": "PS.54",
+ "items": {
+  "verse.en:PS.54.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:16+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering and KJV 54:0. The dramatic layer now says the cry was first made 'in hiding among the Ziphites', which the heading and verse 2 support; the earlier 'cave' is gone.",
+    "STEPBible glosses מַשְׂכִּיל 'a poem'. I keep 'maskil' untranslated in the literal layer because its meaning (instruction, skilful or contemplative song) is disputed; the Targum reads שִׂכְלָא טָבָא 'good insight'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[should_fix] Replace 'a cry first made in a cave' with something the heading supports, such as 'a cry first made in hiding in the wilderness of Ziph'. (PS.54.2: \"בְּבוֹא הַזִּיפִים וַיֹּאמְרוּ לְשָׁאוּל הֲלֹא דָוִד מִסְתַּתֵּר עִמָּנוּ\"; Meiri: \"הזיפים הם אנשי זיף שהיה דוד מסתתר עמהם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:44:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:16+00:00",
+   "agent_notes": [
+    "The dramatic layer keeps only the leading question. The informers' motive is discussed in the commentary as interpretation, flagged as such; the Hebrew states no motive."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[should_fix] Remove 'said it plainly, as men who thought they were doing a favour' from the dramatic layer. Keep the leading question; the commentary may discuss the informers' motive as interpretation. (PS.54.2: \"וַיֹּאמְרוּ לְשָׁאוּל הֲלֹא דָוִד מִסְתַּתֵּר עִמָּנוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:44:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:16+00:00",
+   "agent_notes": [
+    "תְדִינֵנִי: the literal layer now reads 'judge me' (the literal sense of דין); STEPBible's 'vindicate me' is kept as the token gloss, with the sense given. Rashi and Radak read it as 'take up my cause, obtain redress'; the dramatic layer renders that sense. The remark that the KJV adds 'thy' is removed; the note on בְּ says only that it can be 'by' or 'in' and is the same word in both lines."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[should_fix] Remove the sentence saying the KJV adds 'thy'. If you keep the remark on ASV 'in thy might', say only that בְּ can be 'by' or 'in' and that the Hebrew uses the same preposition in both lines. While revising, note that the literal layer gives 'you will vindicate me', although your reviewer note says the literal layer keeps 'judge me'. Make the two agree; 'judge me' is the literal sense. (PS.54.3: \"וּבִגְבוּרָתְךָ\" (STEPBible: 'and by strength your'); KJV 54:1 \"judge me by thy strength\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:44:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:41:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:41:41+00:00",
+   "agent_notes": [
+    "The text has זָרִים 'strangers'; some Hebrew manuscripts read זֵדִים 'arrogant' (as in Ps 86:14). I follow the Masoretic text as in the packet, and do not rely on the variant."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[consider] Consider resting the irony on Ibn Ezra's and Metzudat David's readings rather than on a covenant definition. (Ibn Ezra on PS.54.5: \"כי זרים - שאינם מעמו\"; Metzudat David: \"זרים משאול ואינם מבני משפחתו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:16+00:00",
+   "agent_notes": [
+    "The Masoretic reading of בְּסֹמְכֵי is disputed: 'among those who sustain me', 'the one who sustains me', or 'with those who uphold me'. Ibn Ezra, Radak, Malbim and Metzudat David differ. I kept 'among' in the literal layer. Rabbi Moses' reading is now rendered as 'worth all the supporters together'; the name 'ibn Chiquitilla' is given only as the common identification, which the packet does not state."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[should_fix] In the commentary, render Rabbi Moses' reading as 'the Lord alone is worth (equal to) all the supporters', not 'against all the supporters'. The '(ibn Chiquitilla)' identification is not in the packet; mark it as a common identification or drop it. (Ibn Ezra on PS.54.6: \"אין טעם אדני בסמכי נפשי שהוא אחד מהסומכים, רק טעמו הוא לבדו כנגד כל הסומכים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:44:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:41:41+00:00",
+   "agent_notes": [
+    "Ketiv יָשׁוּב ('the evil will return') versus Qere יָשִׁיב ('he will bring back the evil'), per Radak on this verse. I glossed the Qere as the packet shows, and noted the Ketiv. The sense is nearly the same either way.",
+    "Rashi's gloss of שׁוֹרְרַי as 'those who watch me' (cf. Num 24:17) and Metzudat Zion's 'looking, seeing' both tie the word to שׁוּר 'to watch'. I render it 'my watchers' in the literal layer, to keep the root visible. The KJV 'enemies' is the sense, not the word."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[consider] Consider 'cut them off' or 'destroy them' in the dramatic layer too. (Metzudat Zion on PS.54.7: \"הצמיתם. ענין כריתה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:44:16+00:00",
+   "agent_notes": [
+    "The earlier 'cave' and 'month's wages' are removed. The commentary says only that a freewill animal offering was a real cost to a man with nothing, without a figure, and without citing the commentators for it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[should_fix] Change 'from the cave to the altar' to 'from hiding to the altar' (or similar), and drop the 'month's wages' figure, or say only that a freewill animal offering was a real cost to a fugitive, without a number. (PS.54.2: the Ziphites report David 'hiding himself with us', with no cave; PS.54.8 commentaries (Radak, Metzudat David, Malbim) say nothing of cost)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:44:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.54.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:41:41+00:00",
+   "agent_notes": [
+    "The Hebrew has no object for 'looked': 'my eye has looked on my enemies'. KJV and ASV supply 'his/my desire', which is an interpretation (Radak: 'what I desired'). I keep the Hebrew bare in the literal layer and put the implication in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:43:18+00:00",
+     "note": "[consider] Consider presenting the two readings (prophetic perfect, Malbim's past event) as alternatives, and noting the Targum's supplied object. (Malbim on PS.54.8-9: \"ועי\"כ מכל צרה הצילני\"; Targum PS.54.9: \"חֲמָת עֵינָי נִקְמָתָא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

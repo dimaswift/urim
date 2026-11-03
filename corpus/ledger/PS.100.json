@@ -1,0 +1,118 @@
+{
+ "chapter_ref": "PS.100",
+ "items": {
+  "verse.en:PS.100.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:02:30+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the commentary now says todah comes back in verse 4 only (betodah), with its root again in hodu in the same verse; verse 3 has no todah.",
+    "The superscription 'mizmor letodah' is verse 1 in the Hebrew numbering; the KJV counts it as verse 0 and starts its verse 1 at 'Make a joyful noise'. The verse map handles this; the commentary mentions it in one sentence.",
+    "KJV 'Psalm of praise' translates letodah, which is thanksgiving (todah), not praise (tehillah). Corrected in the literal layer; YLT and ASV agree with 'thanksgiving'.",
+    "Glossed הָרִיעוּ as 'shout in acclamation' rather than STEPBible's 'shout for joy': the root ruaʿ is the war-cry and the trumpet blast with which a king is acclaimed. The Malbim passage in the packet (quoting Ps 47:2) supports this reading; the lexicon nuance (BDB) is my own recollection and not cited."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T15:01:50+00:00",
+     "note": "[should_fix] In the directors_commentary of PS.100.1, change 'the same word comes back in verses 3 and 4' to 'the same word comes back in verse 4' (optionally: 'and its root again in hodu, in the same verse'). (PS.100.3: \"דְּעוּ כִּי־יְהוָה הוּא אֱלֹהִים ... וְצֹאן מַרְעִיתוֹ\" (no תּוֹדָה); PS.100.4: \"בֹּאוּ שְׁעָרָיו בְּתוֹדָה ... הוֹדוּ־לוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.100.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.100.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:54+00:00",
+   "agent_notes": [
+    "Ketiv/Qere: written וְלֹא ('and not'), read וְלוֹ ('and to him'). The packet's tokens carry the reading. The KJV follows the Ketiv ('and not we ourselves'); ASV, YLT and BBE follow the Qere ('and we are his'). I follow the Qere in all layers and give the Ketiv in the note and commentary. Radak and Meiri in the packet discuss the Ketiv; Ibn Ezra notes the Gaon's variant reading.",
+    "The STEPBible entity tag deity.yhwh on אֱלֹהִים is correct here; the word has a plural form but takes singular predicates (hu', ʿasanu).",
+    "Whether 'amo / we-tzon' is a second predicate ('we are his people') or an apposition to the object ('his people, the flock of his pasture') is not settled by the text; I render it as a clause with 'we are' carried over from the previous phrase, following the translations unanimously."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:50+00:00",
+     "note": "[consider] Mark the Carmel link as an echo of the same formula (1 Kgs 18:39) rather than a claim about how the verse is stressed. (PS.100.3: \"כִּי־יְהוָה הוּא אֱלֹהִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.100.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:50+00:00",
+     "note": "[consider] Say instead that the KJV supplies 'into' before both nouns, where the Hebrew has the bare verb 'come' with 'his gates' and 'his courts' as direct objects. (PS.100.4 KJV: \"Enter into his gates with thanksgiving, and into his courts with praise\"; Hebrew \"בֹּאוּ שְׁעָרָיו בְּתוֹדָה חֲצֵרֹתָיו בִּתְהִלָּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.100.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:54+00:00",
+   "agent_notes": [
+    "chesed glossed 'covenant loyalty' (STEPBible); 'mercy' (KJV) is too soft and loses the relational bond. In the dramatic layer I use 'steadfast love'. emunah as 'faithfulness', not 'truth' (KJV), though Hebrew 'emet shares the root 'mn."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:01:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

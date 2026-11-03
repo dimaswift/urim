@@ -1,0 +1,141 @@
+{
+ "chapter_ref": "PS.15",
+ "items": {
+  "verse.en:PS.15.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:36:01+00:00",
+   "agent_notes": [
+    "The packet's verse map puts the superscription (mizmor leDavid) inside Hebrew verse 1, where the KJV numbers it 15:0; I translate it as part of the verse, as the Hebrew has it. The dramatic layer no longer adds a threshold or courtyard, as the reviewer asked.",
+    "STEPBible glosses yagur 'will he sojourn'. I kept 'sojourn' in the literal layer to preserve the resident-alien sense of the root gur, and used 'be a guest' in the dramatic layer. The KJV 'abide' flattens this."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:35:06+00:00",
+     "note": "[should_fix] Drop 'It opens with a name spoken at the threshold, and then a question that hangs in the air of the courtyard:' from translation_dramatic, so it reads e.g. 'A psalm, of David. LORD, who may be a guest in your tent? Who may settle on the mountain that is yours and holy?' (PS.15.1: \"מִזְמוֹר לְדָוִד יְהוָה מִי־יָגוּר בְּאָהֳלֶךָ\" (a psalm of David; YHWH, who will sojourn in your tent) — no threshold, courtyard or speaker is named.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:36:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.15.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:36:01+00:00",
+   "agent_notes": [
+    "The three-step reading (toward God, toward the neighbor, inward faith) is now attributed to Malbim alone; Meiri is given his own reading (humble about his deeds; heart and mouth agree)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:35:06+00:00",
+     "note": "[should_fix] Attribute the three-step reading (toward God, toward the neighbor, inward faith) to Malbim alone; if Meiri stays, give his own reading (blameless = humble, not proud of his deeds; heart and mouth agree). (PS.15.2, Malbim: \"במצות שבין אדם למקום ... ובמצות שבין אדם לחברו ... ובענין האמונה\"; Meiri: \"הולך תמים ר״ל לא שיתגאה וישתרר ... לבו ופיו שוים בכל דבר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:36:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.15.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:33:35+00:00",
+   "agent_notes": [
+    "STEPBible glosses ragal 'he takes slander'. The verb is a denominative from regel 'foot' (to go about on foot, to spy). I glossed it as 'he has gone about' and rendered it 'he has not gone about' in the literal layer. The lexical derivation is my own reading; Rashi and Ibn Ezra tie it only to the same verb in 2 Samuel 19:28."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:35:06+00:00",
+     "note": "[consider] Cut or soften the aside, or tie it to a source. (PS.15.3 commentaries (Rashi, Ibn Ezra, Radak, Meiri, Malbim) say nothing of reputation as property.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.15.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:33:35+00:00",
+   "agent_notes": [
+    "The five English versions split on nivzeh ... nim'as. KJV, ASV and Webster take 'a vile person' as the one despised; BBE turns it into the man who gives honour. Both nivzeh and nim'as are Niphal participles with no noun, so 'a despised one' could also be read as the man himself (so Ibn Ezra, Radak, Meiri: he is lowly in his own eyes). I follow the grammar and the parallel with the next clause: the despised, rejected one is the person he rejects, set against those who fear YHWH.",
+    "I could not source the claim that 'to do harm' (lehara') means harm to himself; the Hebrew has no 'his own'. Rashi and Radak supply it, and the KJV adds 'his own' in italics. I mark it in brackets in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:35:06+00:00",
+     "note": "[consider] Rephrase to say the KJV takes nim'as as a noun ('a vile person') and nivzeh as its predicate; consider 'He has sworn' in the literal layer to match the gloss. (PS.15.4 KJV: \"In whose eyes a vile person is contemned\"; Hebrew \"נִשְׁבַּע\" (HVNp3ms).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.15.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:36:01+00:00",
+   "agent_notes": [
+    "'Coin' is gone from the commentary: kesef is silver, weighed out, with no reference to coinage. The commentary on the price of loans in a farm economy is my own reading, not a cited source; Radak's view that interest is forbidden only between Israelites is reported as his."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:35:06+00:00",
+     "note": "[should_fix] Replace 'a coin of weighed metal' with 'silver weighed out by the shekel, not coin' (or simply 'silver, weighed out'). (PS.15.5: \"כַּסְפּוֹ לֹא־נָתַן בְּנֶשֶׁךְ\" (his silver he has not given for interest); the word is kesef, silver, with no reference to coinage.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:36:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "PS.15.3 and PS.15.4 are LOCKED (approved) and are left out of this fragment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:36:01+00:00"
+  }
+ ]
+}

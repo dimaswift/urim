@@ -1,0 +1,384 @@
+{
+ "chapter_ref": "PS.86",
+ "items": {
+  "verse.en:PS.86.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:43:11+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the commentary now says the KJV weakens ענני to 'hear me' (ASV and YLT keep 'answer me'). It no longer claims 'hear me' is absent from the Hebrew or that the numbering is off: the title is part of Hebrew verse 1 and the KJV leaves it unnumbered, so the verse numbers agree.",
+    "Token 10 אָנִי is the independent pronoun 'I', repeated after עָנִי וְאֶבְיוֹן for emphasis; the literal layer keeps it ('I [am]'). Ibn Ezra's 'derekh tzahut' is read as 'in elegant style'; I cite him only for the comment on the opening phrase."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[should_fix] In the commentary, say that the KJV renders ענני 'answer me' more weakly as 'hear me' (ASV and YLT have 'answer me'). Delete the claim that 'hear me' is a word the Hebrew lacks, and the claim that the numbering is off by one: in Psalm 86 the title is part of verse 1 in the Hebrew and unnumbered in the KJV, and the verse numbers agree. (PS.86.1: Hebrew הַטֵּה... אָזְנְךָ עֲנֵנִי, KJV 'Bow down thine ear, O Lord, hear me'; the packet's KJV 86:17 matches Hebrew 86:17.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:44:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [
+    "STEPBible gives lemma גַּל for גָּדוֹל, apparently an error for גָּדוֹל (H1419). I glossed by the actual word 'great'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [
+    "יַחֵד (Piel imperative of יחד) is rendered 'unite'/'make one' following Ibn Ezra and Metzudat Zion's derivation from חד/אחד. YLT's 'rejoice' follows the Syriac/Vulgate-type reading (יֶחַד from חדה) and is not what the pointing gives."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[consider] Give Meiri on v. 11 as 'a heart that turns to nothing else', and leave the two inclinations to v. 12. (PS.86.11 Meiri: 'ויחד לבבי ר״ל שלא יפנה בשום דבר אחר'; PS.86.12 Meiri: 'רומז לשתי הלבבות יצר הרע ויצר הטוב'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:43:40+00:00",
+   "agent_notes": [
+    "Revised after the reviewer's request: the BDB citation is gone from the חַסְדְּךָ note, which now cites Metzudat David on 86:13 and Malbim on 86:13, both in the packet.",
+    "STEPBible glosses חסד as 'covenant loyalty'; I keep that in the word gloss. The five English versions split between 'mercy' (KJV, BBE, Webster) and 'kindness/lovingkindness' (YLT, ASV), and none carries the covenant sense.",
+    "The commentators divide on the time and the place: Radak reads the deliverance as past rescue from enemies and Saul, or as the grave, Meiri as future, and Rashi and Metzudat David as Gehinnom (Rashi: the adulterers' place; Metzudat David: the pardon for Bathsheba). I keep the text's plain 'Sheol, the lowest' and mention these readings in the commentary without choosing among them."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[should_fix] Remove 'BDB on חֶסֶד' from the sources of the חַסְדְּךָ note. Either leave the sources empty or cite a packet source that supports the note (Metzudat David on 86:13, 'הגדלת עמי חסד'). (PS.86.13 packet: the commentaries are Rashi, Ibn Ezra, Radak, Meiri, Metzudat David, Metzudat Zion, Malbim and the Targum; there is no BDB.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:44:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:50+00:00",
+   "agent_notes": [
+    "The psalm's other copy of this verse, Ps 54:5, reads זרים ('strangers') for זדים ('arrogant'); the Hebrew here is זדים and I followed it. The KJV 'assemblies of violent men' pluralizes עֲדַת, which is singular ('a company of')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:43:40+00:00",
+   "agent_notes": [
+    "Revised after the reviewer's request: both BDB citations are gone, and the וֶאֱמֶת note now reports what Radak on 86:15 says about God's truth toward David. The וְרַב־חֶסֶד note has no citation.",
+    "I gloss אֲדֹנָי as 'my Lord' in the literal layer. The STEPBible entity tag links it to YHWH, but the written word is Adonai. The verse echoes Exod 34:6; that link is my own observation and is not cited."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[should_fix] Remove the two BDB citations, leaving those sources empty. In the וֶאֱמֶת note, either report what Radak actually says (God's emet toward David is fulfilling the promise of kingship) or drop Radak from its sources. (PS.86.15 Radak: 'והאמת עם דוד הוא לקיים לו דברי המלוכה'; the packet's commentaries are Radak, Malbim and the Targum only.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:44:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:50+00:00",
+   "agent_notes": [
+    "STEPBible glosses פנה as 'turn' with אלי; I kept 'turn to me' (the face turns toward the petitioner), following Radak's image of a man turning from his business to attend to another matter. For ben-amatekha, the five English versions mostly agree; BBE spells out 'son of her who is your servant'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[consider] Render Rashi as 'humbles himself before his master more than one bought with money'. (PS.86.16 Rashi: 'בן האמה משפיל את עצמו לפני אדוניו יותר ממקנת כסף'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:50+00:00",
+   "agent_notes": [
+    "The sign (אוֹת) is read by Rashi, Malbim and the Targum as a public vindication, linked to Solomon bringing the Ark into the Temple; Radak reads it as kingship. These are traditional attributions of the psalm to David and I left them to the commentary as traditions, not as claims about the text. The psalm heading in the Hebrew attributes it to David."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [
+    "חָסִיד is disputed: KJV/Webster 'holy', ASV 'godly', YLT 'pious', BBE 'true to you'. I chose 'one loyal to you' / 'devoted' because the word is the covenant-loyalty adjective from חֶסֶד, not ritual holiness (that would be קָדוֹשׁ). Rashi and Meiri record the rabbinic discomfort with David calling himself חסיד; I cite only their words in the packet.",
+    "Qere/accent: Radak and Meiri note שָׁמְרָה is an imperative with a long qamets (like 'שמרה זאת לעולם', 1 Chr 29:18), not a perfect 'my soul has kept'. I follow them; Ibn Ezra lists the perfect reading as a minority view."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [
+    "Meiri reads נפשי אשא as an offering (מנחה), Metzudat David as leaning on God; I kept the literal 'I lift up my life' and let the commentary mention the range."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": "[consider] Write חָנֵּנִי, and either let the note reflect Meiri's point (the plural means many pleas) or drop him from its sources. (PS.86.3: 'חָנֵּנִי אֲדֹנָי'; PS.86.6 Meiri: 'ותחנונותי מורה הפלגת רוב תחנות'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [
+    "Radak, Meiri and Metzudat David take the 'gods' (אלהים) as lesser powers, heavenly beings or the objects of other nations' worship, rather than as real rivals. I kept 'among the gods' literal and explained in commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.86.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:40:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:42:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.86.14] Locked and approved; not carried in this fragment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:43:40+00:00"
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "chapter_ref": "PS.42",
+ "items": {
+  "verse.en:PS.42.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:22:59+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering (KJV 42:0, unnumbered). Everything below is shifted by one against the KJV: Hebrew 2 = KJV 1, up to Hebrew 12 = KJV 11."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change every source in this verse's notes from 'on Psalms 42:9' to 'on Psalms 42:10'. (PS.42.10: \"לָמָּה־קֹדֵר אֵלֵךְ\". Rashi's 'קודר. לשון שחרות' is given under PS.42.10 in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change every source in this verse's notes from 'on Psalms 42:10' to 'on Psalms 42:11'. (PS.42.11: \"בְּרֶצַח בְּעַצְמוֹתַי\". Radak's 'ברצח. הוא שם תואר לחרב' is given under PS.42.11 in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change every source in this verse's notes from 'on Psalms 42:11' to 'on Psalms 42:12'. (PS.42.12: \"יְשׁוּעֹת פָּנַי וֵאלֹהָי\". Rashi's 'שהוא אור פני ואלהי' is given under PS.42.12 in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [
+    "Revised after review: the dramatic layer no longer says 'dry', and the commentary no longer claims a dried-up wadi. The note on אֲפִיקֵי מָיִם now follows Metzudat Zion (places where water runs with force), with Ibn Ezra ('strong waters') and Radak ('running waters'). Verses are numbered as in the Hebrew: Hebrew 2 = KJV 1, up to Hebrew 12 = KJV 11."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Remove 'dry' from the dramatic layer (e.g. 'As a deer cries out for the running streams'), drop the dried-wadi claim from the commentary or mark it explicitly as a modern conjecture without a packet source, and reword the אֲפִיקֵי מָיִם note to what Metzudat Zion says: channels where water runs with force. (PS.42.2: \"כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם\"; Metzudat Zion: \"אפיקי. הם המקומות הנגרים בהם המים בחוזק\"; Ibn Ezra: \"בקש אפיקי מים חזקים\"; Radak: \"אפיקי מים שהם מים הנגרים שם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:22:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:22:59+00:00",
+   "agent_notes": [
+    "The packet's STEPBible gloss for לִּי is 'of me'; I used 'to me' ('has been to me food'). Corrected."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[consider] Gloss pos 3 as 'my tear', and attribute the at-the-meal reading to Radak. (PS.42.4: \"הָיְתָה־לִּי דִמְעָתִי לֶחֶם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:22:59+00:00",
+   "agent_notes": [
+    "The verse is hard and the versions split: אֶדַּדֵּם is 'I led them' (ASV, from דדה), 'I went softly' (YLT, KJV 'I went with them'), and בַּסָּךְ is 'in the crowd' or 'in the booth/tent'. I kept 'in the throng' and 'I walked slowly with them' and set out the alternatives in the commentary and notes. Rashi's alternative (אדדם from דמם, 'be silent') I mention only in the note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [
+    "The YLT reads 'the salvation of my countenance -- My God' here too, which matches the Hebrew of v. 12 (פָּנַי וֵאלֹהָי), not the פָּנָיו of this verse; the commentary now says so. All sources are cited as 'on Psalms 42:6'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change the sources to 'Rashi on Psalms 42:6', 'Metzudat Zion on Psalms 42:6', 'Ibn Ezra on Psalms 42:6', 'Meiri on Psalms 42:6'. Correct the YLT sentence: the YLT reads 'the salvation of my countenance -- My God' here too, which matches the v. 12 wording (פָּנַי וֵאלֹהָי) rather than the Hebrew of this verse (פָּנָיו). (PS.42.6: Rashi's comment on תִּשְׁתּוֹחֲחִי sits under this verse in the packet; YLT (42:5): \"Wait for God, for still I confess Him: The salvation of my countenance--My God!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [
+    "חֶרְמוֹנִים is a plural of Hermon (the several peaks), and הַר מִצְעָר is 'the little mountain'; its identity is unknown. The packet's entity link (loc.mizar_mount) is the registry's, not a claim I could verify. Radak himself says the mountain 'is not found'. Sources corrected to 'on Psalms 42:7'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change every source in this verse's notes from 'on Psalms 42:6' to 'on Psalms 42:7'. (PS.42.7: \"מֵאֶרֶץ יַרְדֵּן וְחֶרְמוֹנִים מֵהַר מִצְעָר\". The packet gives Ibn Ezra's 'חרמונים הרים' and Radak's 'הר מצער לא נמצא' under PS.42.7.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [
+    "I took the verse as the speaker's image of being overwhelmed (the traditional reading, with 'deep' as the chaos waters), not as the praise-of-nature reading some moderns prefer. The commentaries split between 'troubles calling to troubles' (Rashi, Radak, Metzudat David) and a literal waterfall scene (Ibn Ezra, Meiri)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change every source in this verse's notes from 'on Psalms 42:7' to 'on Psalms 42:8'. (PS.42.8: \"תְּהוֹם־אֶל־תְּהוֹם קוֹרֵא\". Rashi's 'צרה קוראה לחברתה' is given under PS.42.8 in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.42.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:27:14+00:00",
+   "agent_notes": [
+    "Ketiv שִׁירָה ('his song', with a final ה) against Qere שִׁירוֹ: I glossed the reading. Rashi on this verse reads the written form as 'his encampment' (שִׁירָה = lodging), citing the Masorah; I report that as a note and followed the 'song' reading, which the parallel 'prayer' and the five English versions all take."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:04+00:00",
+     "note": "[should_fix] Change the source to 'Rashi on Psalms 42:9'. (PS.42.9: \"וּבַלַּיְלָה שִׁירֹה עִמִּי\". Rashi's 'שירה לשון חניה' is given under PS.42.9 in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:27:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,210 @@
+{
+ "chapter_ref": "PS.98",
+ "items": {
+  "verse.en:PS.98.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [
+    "In the Hebrew numbering the superscription 'mizmor' is part of verse 1 (KJV 98:0 and 98:1 are merged here), so the verse carries the heading as its first word.",
+    "הוֹשִׁיעָה is a feminine perfect with a feminine subject 'right hand' (yamin, fem.) and 'arm' (zeroa', fem.) following; the verb agrees with the nearer/first subject and the second is added. The literal layer renders it as singular 'has saved' with both subjects after it. KJV 'gotten him the victory' and BBE 'overcome' are looser than 'saved for him'; ASV and YLT are closest.",
+    "STEPBible glosses 'it has given victory'; I kept the root yasha' as 'saved' in the literal layer so the tie to yeshu'ah (v.2) and yeshu'at (v.3) stays visible."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[consider] Consider dropping 'bared'. (PS.98.1: וּזְרוֹעַ קָדְשׁוֹ; Ibn Ezra: \"שהיא נטויה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:59:59+00:00",
+   "agent_notes": [
+    "Revised after the review: Radak on Psalm 98:2 is cited for the near-synonym reading (the last half-verse explains the first); Malbim is cited separately for his distinction, in which righteousness is the attribute that moves God to act and salvation is the act it produces. The commentary now presents the two as different views.",
+    "הוֹדִיעַ and גִּלָּה are Hebrew perfects, and Ibn Ezra glosses הודיע as 'past tense'. I translated them as present-perfect ('has made known', 'has uncovered'), as STEPBible and all five English versions do."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[should_fix] Either attribute the near-synonym reading to Radak on Psalm 98:2, or keep the Malbim source and state his view correctly: righteousness is the attribute that moves God to save, salvation the act it produces. (PS.98.2 Malbim: \"והצדקה תציין המדה שבעבורה יפעל את התשועה\"; Radak: \"חצי הפסוק האחרון הוא פירוש חצי הפסוק הראשון\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:00:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [
+    "STEPBible tags 'eloheinu' as deity.yhwh; the gloss is 'our God' as written. The Ibn Ezra comment on 'ends of the earth' (seven borders, six north and one south) I did not use, since I cannot source or explain the claim."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[consider] Consider letting 'He remembered' stand without the added silence. (PS.98.3: \"זָכַר חַסְדּוֹ וֶאֱמוּנָתוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:59:59+00:00",
+   "agent_notes": [
+    "Revised after the review: Malbim on Psalm 98:4 is cited for the great shout that greets the king when he appears. Ibn Ezra is kept only for 'to make the voice heard'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[should_fix] Replace or add the source: cite Malbim on Psalm 98:4 for the shout that greets the king's appearance, and keep Ibn Ezra only for 'to make the voice heard'. (PS.98.4 Ibn Ezra: \"הריעו - להשמיע הקול\"; Malbim: \"בעת יצא מהיכלו ויתראה אל העם יריעו כולם תרועה גדולה וזה האות כי בא מלכם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:00:44+00:00",
+     "note": "[consider] Drop the closing sentence about 'before', or point it to verse 6 and say the change is from 'to' (לַיהוָה) here to 'before the king' there. (PS.98.6: \"הָרִיעוּ לִפְנֵי הַמֶּלֶךְ יְהוָה\"; KJV PS.98.6 \"make a joyful noise before the Lord, the King\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [
+    "Yir'am is from ra'am 'to thunder', used of the sea in Ps 96:11 as 'roar' (yir'am). KJV 'roar' is acceptable but loses that the verb is the verb for thunder; the ancient audience hears the sea as storm-thunder. Chosen: 'thunder' in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:57:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[consider] Rewrite as e.g. 'the order runs from the lowest, moving water to the highest, still mountains'. (PS.98.8: נְהָרוֹת … הָרִים)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.98.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:59:59+00:00",
+   "agent_notes": [
+    "Revised after the review: בָא is morphologically ambiguous between perfect ('has come': STEPBible's tagging, YLT, BBE) and participle ('is coming': KJV, ASV). The translation chooses the participle, because the verse sets it against the future יִשְׁפֹּט, and says so. The Targum's אֲתָא looks like a perfect, which supports the other reading, so this is a judgment call."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:58:51+00:00",
+     "note": "[should_fix] In the בָּא note and the commentary, say the form can be read as a perfect ('has come', so STEPBible's tagging, YLT, BBE) or a participle ('is coming', KJV, ASV), and that the translation chooses the participle; drop the claim that BBE 'flattens' it. (PS.98.9: בָא֮, morph HVqp3ms; YLT \"For He hath come to judge the earth\"; Targum אֲתָא)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:00:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

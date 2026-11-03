@@ -1,0 +1,121 @@
+{
+ "chapter_ref": "PS.43",
+ "items": {
+  "verse.en:PS.43.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:23:18+00:00",
+   "agent_notes": [
+    "STEPBible glosses shafeTeni 'vindicate me' and the second riv-form as 'conduct!'. I keep 'judge me' for the literal layer (the same root as 'judge') and 'plead my cause' for riv, so the lawsuit image stays visible. The KJV, ASV and Webster read tefalleteni as an imperative ('O deliver me'); YLT reads it as an indicative ('Thou dost deliver me'). The form is imperfect 2ms with a suffix, which in a prayer after two imperatives most naturally reads as a wish, so I follow the imperative sense and show the verb form in the literal layer as 'you will deliver me'.",
+    "The commentaries disagree on who the 'nation not faithful' is. Rashi names Edom (citing Sanhedrin 39b), Radak names the Babylonians, Malbim reads it as philosophers who attack faith. The psalm names no one, so the commentary only lays out the range."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:35+00:00",
+     "note": "[consider] Consider dropping the added clauses, or leaving Radak's reading to the commentary, where it is already explained. (PS.43.1: \"וְרִיבָה רִיבִי ... תְפַלְּטֵנִי\"; Radak: \"כי אין בי יכולת לריב את ריבי\") [consider] Consider glossing pos 5 as 'from a nation', to match the word and the literal layer. (PS.43.1: \"מִגּוֹי\" (HR/Ncmsa, STEPBible 'from a nation'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.43.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:23:18+00:00",
+   "agent_notes": [
+    "Radak's remark on the vocalization of lamah (the first is accented on the last syllable and not doubled, the second is doubled and accented on the penult) is a note on the cantillation, not on sense. I left it out of the commentary.",
+    "qoder: STEPBible has 'mourning', and the five English versions agree. The root qdr means 'be dark, be dusky'. I keep 'in dark mourning' in the dramatic layer and 'darkened' in the literal layer, which keeps the contrast with 'light' in verse 3 that Ibn Ezra points to."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.43.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:26:18+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary now says hemmah is a single independent pronoun ('they') placed before a verb that already carries 'they' in its ending, which is what makes it emphatic; YLT's 'They--they' is cited as a rendering of that effect, not as a doubled Hebrew word.",
+    "yanchuni and yevi'uni are imperfects, read here as wishes after the imperative 'send'. KJV, ASV and Webster add 'let them'; BBE 'let them be my guide'. I kept 'may they' in the literal layer and bracketed nothing, since the volitive sense is in the verb form and the context. STEPBible's 'may they' agrees.",
+    "Rashi's identification of the light with the messiah and of truth with Elijah is cited as a traditional reading, not as the plain sense. Ibn Ezra's reading of 'holy mountain' as Moriah and of the dwelling places as the courts of a future third temple is reported from the packet as given."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:25:35+00:00",
+     "note": "[should_fix] In the directors_commentary, replace \"the emphatic pronoun 'they, they' (hemmah)\" with wording that matches the Hebrew: a single independent pronoun hemmah ('they') placed before a verb that already carries 'they', which makes it emphatic (YLT renders it 'They--they'). (PS.43.3: \"הֵ֣מָּה יַנְח֑וּנִי\" (one pronoun, then the verb with its own 3mp subject); YLT: \"They--they lead me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:26:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.43.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:23:18+00:00",
+   "agent_notes": [
+    "Rashi's 'ואודך בכנור: על שהוצאתני' (because you brought me out) is given in the commentary as his reading; the packet attaches it to this verse and I rely on that. Targum's 'to offer his sacrifices' is a Targumic expansion not in the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.43.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:23:18+00:00",
+   "agent_notes": [
+    "STEPBible glosses yeshuot as 'salvations' (plural). The KJV 'health of my countenance' is archaic; ASV 'help of my countenance'. I keep the plural and the Hebrew 'face' in the literal layer. Verse 5 is the refrain also found at Ps 42:6 and 42:12; I mention this because it changes the sense of the verse (it is not new here), and I did not compare wording with the Ps 42 fragments, which are outside this window."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:25:35+00:00",
+     "note": "[consider] Consider 'the refrain of Psalm 42 (42:6 and 42:12, which closes it)', and give the yeshu'ot panai note a source (BDB or the plural as STEPBible marks it). (PS.43.5: \"יְשׁוּעֹת פָּנַי וֵאלֹהָי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

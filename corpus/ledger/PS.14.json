@@ -1,0 +1,173 @@
+{
+ "chapter_ref": "PS.14",
+ "items": {
+  "verse.en:PS.14.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:30:26+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 includes the superscription (KJV 14:0), so the token table carries 'to the choirmaster, of David' as words 1-2. I glossed them as words and put the title in the first sentence of the translations.",
+    "אֵין אֱלֹהִים is a verbless clause, 'there is no God / God is not'. I read it as practical denial (God does not act or judge), following Radak ('no judge and no justice in the world') and not as speculative atheism. This is my reading, and the BBE 'God will not do anything' goes the same way. The literal layer keeps the bare Hebrew.",
+    "The commentators read the psalm as prophecy about Nebuchadnezzar (Rashi, Meiri) or Sennacherib (Malbim). I did not bring those identifications into the translations. The commentary mentions them only briefly."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": "[consider] Consider 'has said' (or note the gnomic perfect), say 'which English Bibles print as a heading' instead of 'the KJV numbers them 14:0', and gloss עֲלִילָה simply as 'deed, action'. (PS.14.1: \"אָ֘מַ֤ר נָבָ֣ל\"; Metzudat Zion: \"עלילה. פעולה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:30:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:33:45+00:00",
+   "agent_notes": [
+    "נֶאֱלָחוּ (H444): STEPBible 'they are corrupt'. The verb occurs only here, in Ps 53:4 and in Job 15:16. I glossed it 'they are befouled'. The link to חֶלְאָה in Ezek 24:6 (metathesis) is Radak's and Meiri's; the image of something gone sour is my own reading, not sourced to a lexicon.",
+    "סָר: Radak records an alternative reading as סַג ('turned back', cf. Ps 53:4 כֻּלּוֹ סָג). I translated the written text סָר, 'has turned aside'. Revised after review: the 'turned from the road' reading is now credited to Ibn Ezra, Radak and Metzudat David; Rashi is given his own reading (no one in the army protests)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": "[should_fix] Replace 'Rashi and Metzudat David' with 'Ibn Ezra, Radak and Metzudat David' for the turning-from-the-road reading (and drop the odd phrase 'a statement of the Hebrew scope of the failure'); if Rashi is kept, give his own reading: not one man in the army protested. (PS.14.3, Rashi: \"אֵין אִישׁ בְּחֵילוֹתָיו מוֹחֶה בְּיָדוֹ\"; Metzudat David: \"כולם סרו מדרך הטובה\"; Ibn Ezra: \"מהדרך הישר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:34:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:33:45+00:00",
+   "agent_notes": [
+    "The syntax of אֹכְלֵי עַמִּי אָכְלוּ לֶחֶם is disputed: simile ('as they eat bread': KJV, ASV, with 'as' added; Radak, Meiri, Ibn Ezra) or a separate statement ('they eat bread', a feast: Rashi, who cites Belshazzar). Malbim reads 'they ate bread' as referring to Israel, who ate without blessing God. I kept the bare parataxis in the literal layer and the simile in the dramatic layer. Revised after review: Ibn Ezra moved to the simile reading, Rashi alone for the feast, Malbim given his own view."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": "[should_fix] Move Ibn Ezra to the simile reading with Radak and Meiri, in both the directors_commentary and the note on אֹכְלֵי עַמִּי (keep Rashi alone for the feast reading). Either drop Malbim from the feast reading or state his actual view: 'they ate bread' refers to Israel eating without blessing God. (PS.14.4, Ibn Ezra: \"בעוד שאכלו עמי כאילו אכלו לחם\" (while they ate my people as if they ate bread); Malbim: \"ומ\"ש אכלו לחם מוסב על ישראל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:34:39+00:00",
+     "note": "[consider] Consider dropping 'tearing off a mouthful, and then another' and keeping 'as if it were nothing more than a meal', which already carries the simile. (PS.14.4: \"אֹכְלֵי עַמִּי אָכְלוּ לֶחֶם\"; Radak: \"ואכלים עמי כמו שיאכלו הלחם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:30:26+00:00",
+   "agent_notes": [
+    "שָׁם is read by Ibn Ezra and Metzudat David as a place (where they ate; Jerusalem), and by Radak as the place of their pride. I kept it as the deictic 'there' and did not decide whether it is a place or a moment."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:30:26+00:00",
+   "agent_notes": [
+    "תָבִישׁוּ: YLT 'cause to stink' confuses בוש (be ashamed, hiphil 'put to shame') with בָּאַשׁ (stink). The five English versions split between 'put to shame' and 'frustrate'. I chose 'put to shame' as the standard lexical sense of the hiphil. The tense is open (habitual or present): 'you shame / keep shaming'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": "[consider] Cite Deuteronomy 32:37-38, or 32:38 as Radak does. (PS.14.6, Radak: \"איה אלהיכם יקומו ויעזרכם (דברים לב לח)\".) [consider] Consider 'because the LORD is his refuge' in the dramatic layer, so it keeps the causal sense the commentary explains. (PS.14.6: \"כִּ֖י יְהוָ֣ה מַחְסֵֽהוּ\"; Rashi: \"עַל שֶׁהֵם בּוֹטְחִים בַּה׳\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.14.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:33:45+00:00",
+   "agent_notes": [
+    "שְׁבוּת/שְׁבִית: 'return the captivity' or 'restore the fortunes' is debated. I kept 'captivity' in the literal layer and 'bring home the captives' in the dramatic layer. בְּשׁוּב: Radak reads it first as transitive, 'in bringing back' (like behashiv), and offers 'in the quieting' (Isa 30:15) as an alternative; Metzudat David and Metzudat Zion read 'quieting' only. I followed Radak's first reading.",
+    "יָגֵל is jussive in form (HVqj3ms); יִשְׂמַח has the same shape as the imperfect and may be read either way. The literal layer says 'will' because the pair is parallel and the second verb is not marked; the commentary says the tone is jussive ('let'), so the two agree that the Hebrew allows a wish."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:32:33+00:00",
+     "note": "[should_fix] Say that Metzudat David and Metzudat Zion read beshuv as 'quieting' (Isa 30:15), while Radak reads it first as transitive 'bringing back' and gives 'quieting' as an alternative. Say that יָגֵל is jussive in form and יִשְׂמַח may be read either way, so the literal 'will' and the commentary's 'let' agree. (PS.14.7, Radak: \"ופרוש בשוב: פעל יוצא, כמו בהשיב, או פרושו: בהניח, מן בשובה ונחת\"; Metzudat Zion: \"בשוב. ענין ההשקט\"; morph: יָגֵל HVqj3ms, יִשְׂמַח HVqi3ms.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:34:39+00:00",
+     "note": "[consider] Consider saying plainly that shevut comes from shavah, 'take captive', and the echo with shuv is one of sound, as the philological note already does. (PS.14.7: שְׁבוּת lemma שְׁבִית H7622; Metzudat Zion: \"שבות. מלשון שבי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

@@ -1,0 +1,184 @@
+{
+ "chapter_ref": "PS.11",
+ "items": {
+  "verse.en:PS.11.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:31:50+00:00",
+   "agent_notes": [
+    "Superscription and first verse are one Hebrew verse (KJV 11:0 and 11:1). The Qere נוּדִי (fem. sing. 'flee, you') is glossed; the Ketiv נוּדוּ is plural ('flee, you all'). Rashi and Radak read both, so the note records the written form.",
+    "הַרְכֶם צִפּוֹר has no 'as': 'flee, [to] your mountain, [O] bird'. KJV, ASV and Webster supply 'as a bird'; YLT reads it differently ('for the bird'). Ibn Ezra and Radak say a kaf is missing (like 'a lion's whelp Judah'). I kept the bare apposition in the literal layer and the simile in the dramatic one. The word הרכם is also read as 'mountain-ward' (Radak: like 'from your mountain')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[should_fix] Drop 'well-meaning' and 'the people closest to him', or give the friendly-advisers framing as one reading only. State that Ibn Ezra, Radak and Meiri take the speakers to be his enemies and informers. (PS.11.1 Ibn Ezra: \"טעם איך תאמרו לנכח שונאיו הרשעים ולהם ידבר\"; Radak: \"ואמר זה כנגד אויביו המגידים לשאול מקומו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:58+00:00",
+     "note": "[consider] If revisited, carry the lasting force in the verb ('I have taken my refuge') rather than in an added clause. (PS.11.1: \"בַּיהוָה חָסִיתִי אֵיךְ תֹּאמְרוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[consider] List Radak among the sources for 'in secret', and cite Metzudat Zion for 'darkness'. (PS.11.2 Metzudat Zion: \"אופל. חשך\"; Radak: \"לירות במו אפל כלומר בהסתר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:03+00:00",
+   "agent_notes": [
+    "הַשָּׁתוֹת is rare. Foundations is the usual reading, and Ibn Ezra and Radak also give 'nets/traps'. I took 'foundations' with 'torn down' (הָרַס is used of walls and structures). The perfect פָּעָל is rendered 'what has he done / accomplished', because the five versions split between 'can do' and 'has done'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[consider] Attribute Isa 19:10 correctly: Ibn Ezra's first sense is 'nets', with 'foundations' from Isa 20:4 given as 'some say'. Radak and Metzudat Zion use Isa 19:10 for 'foundations'. (PS.11.3 Ibn Ezra: \"כי השתות - מצודות, כמו: והיו שתותיה מדוכאים. ויש אומרים: יסודות, כמו וחשופי שת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:29:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:31:50+00:00",
+   "agent_notes": [
+    "The subject of שָׂנְאָה נַפְשׁוֹ is YHWH's own 'soul' (feminine verb with נפש). KJV 'his soul hateth' is ambiguous. Rashi and Radak both take it as God's own soul, but differ on the sense: Rashi, that God hates the wicked and stores up their reward; Radak, that God's soul refuses to reprove them, since they would not accept it, and lets them be until their time comes. I kept the literal verb 'hates' and put Radak's reading in the note."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[should_fix] In the note on שָׂנְאָה נַפְשׁוֹ, give Radak's reading correctly: God's soul hates (refuses) to reprove the wicked, who would not accept reproof, and he lets them be until their time comes. Do not present it as a reading in which the wicked is the subject. (PS.11.5 Radak: \"אבל הרשע ואהב חמס שנאה נפשו מלהוכיח, כי לא יקבל תוכחות עד בא עתו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:58+00:00",
+     "note": "[consider] Say that the objects stand first and the line ends on 'his soul' (the subject), and drop 'the verb comes last' in both places. (PS.11.5: \"וְרָשָׁע וְאֹהֵב חָמָס שָׂנְאָה נַפְשׁוֹ\" (verb at pos 7, subject at pos 8))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:31:50+00:00",
+   "agent_notes": [
+    "פַּחִים 'snares' is retained, with Rashi's 'coals' (פחמים) and Ibn Ezra's 'plates' (Num 17:3, רקועי פחים) as alternatives noted in the commentary. זִלְעָפוֹת: 'burning heat/raging', with Radak's trembling as an alternative, from Ps 119:53 and Lam 5:10. I give 'scorching wind' in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[should_fix] Hedge the commentary on זִלְעָפוֹת to match the note: 'burning' (Rashi) or 'trembling' (Ibn Ezra, Metzudat Zion), with Radak giving both. Remove the unsourced 'dry, hot wind off the desert'. The criticism of the KJV's 'horrible tempest' can stay. (PS.11.6 Ibn Ezra: \"זלעפות - כמו: זלעפה אחזתני כמו רעדה\"; Radak: \"ענין רעדה, או ענין שרפה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:58+00:00",
+     "note": "[consider] Add 'Ibn Ezra on Psalms 11:6' to the sources of the זִלְעָפוֹת note. Meiri can go beside Radak as giving both senses. (PS.11.6 Ibn Ezra: \"זלעפות - כמו: זלעפה אחזתני כמו רעדה\"; Meiri: \"ורוח זלעפות ר״ל רעדות או שרפות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.11.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:31:50+00:00",
+   "agent_notes": [
+    "יֶחֱזוּ is plural and פָנֵימוֹ has the archaic -מוֹ suffix, which Ibn Ezra, Radak and Meiri read as simply 'his face' (like עלימו). The literal layer shows the plural. The subject of 'see' is ambiguous: 'the upright' may be the subject or the object, and Radak lists both. The dramatic layer takes the upright to see his face, as ASV and BBE do."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:31:02+00:00",
+     "note": "[should_fix] Gloss pos 8 as 'his face (-מוֹ; or: their faces)'. In the commentary, replace 'the commonly preferred one' with the actual split. Meiri and Radak's first reading: God's face watches the upright, as the KJV has it. Metzudat David and Radak's alternative: the upright see God's face, as ASV and BBE have it. (PS.11.7 Meiri: \"ישר יחזו פנימו כלומ׳ שפניו ישגיחו על הישר\"; Radak: \"ואיש ישר יחזו פניו על דרך ופניתי אליכם ... או פרוש ... אני בצדק אחזה פניך\"; Metzudat David: \"איש ישר יראה פני ה׳\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:32:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.11.3] הַשָּׁתוֹת is rare. Foundations is the usual reading, and Ibn Ezra and Radak also give 'nets/traps'. I took 'foundations' with 'torn down' (הָרַס is used of walls and structures). The perfect פָּעָל is rendered 'what has he done / accomplished', because the five versions split between 'can do' and 'has done'.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:31:50+00:00"
+  }
+ ]
+}

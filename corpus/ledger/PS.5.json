@@ -1,0 +1,291 @@
+{
+ "chapter_ref": "PS.5",
+ "items": {
+  "verse.en:PS.5.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:20:46+00:00",
+   "agent_notes": [
+    "הַנְּחִילוֹת is unresolved. STEPBible says 'flutes'; I did not adopt it as fact. The packet's sources offer an instrument name (Rashi after Menahem), 'swarms' (Rashi's own proposal, after b. Bava Kamma, for enemy hosts), a bee-like sound (Radak after Rav Hai; Metzudat Zion), quick close notes (Meiri), and an aggadic 'inheritance' reading that Rashi rejects. The gloss keeps the transliteration 'the Nehiloth'. Reviewer request addressed: Rashi's rejection of the 'inheritance' reading is stated, the 'close, quick notes' image is credited to Meiri, the bee-hiss comparison to Radak and Metzudat Zion, and Meiri is added to the note's sources.",
+    "The superscription is verse 1 in the Hebrew; the KJV counts it as an unnumbered heading (5:0), so every KJV number in this psalm is one lower than the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": "[should_fix] In the הַנְּחִילוֹת note, say that Rashi records the aggadic 'inheritance' reading and rejects it as not the word's meaning. In the commentary, credit the 'close, quick notes' image to Meiri and the bee-hiss comparison to Radak (after Rav Hai) and Metzudat Zion, and add Meiri to the note's sources. (Rashi on PS.5.1: \"ומדרש אגדה יש מפרשים נחילות לשון נחלה; ואין זה משמעות התיבה\"; Meiri on PS.5.1: \"בקולות תכופים זה לזה מלשון נחיל של דבורים\"; Radak: \"נגונו היה דומה לשריקת הדבורים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:21:37+00:00",
+     "note": "[consider] Say 'Metzudat Zion makes it an instrument with that sound', and if strings are mentioned, credit them to Meiri. (Metzudat Zion on PS.5.1: \"שם כלי זמר אשר קולו נשמע כשריקת הדבורים\"; Meiri: \"הנגון הבא מצד הנימין שבו בקולות תכופים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "בְּפִיהוּ is singular ('his mouth') while the rest of the verse is plural ('their'). Ibn Ezra and Radak read it distributively: in the mouth of each one. Kept visible in the literal layer.",
+    "הַוּוֹת: Metzudat Zion and Meiri read 'ruin, calamity' (as in Ps 57:2), Rashi 'deceit'. I render 'ruin' literally and mention both in the commentary. The KJV 'very wickedness' is a loose rendering."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": "[consider] Drop 'as oil' or replace it with an image the verse supports. (PS.5.10: \"לְשׁוֹנָם יַחֲלִיקוּן\" ('their tongue they make smooth').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "הַאֲשִׁימֵם: the verb is from אשם 'be guilty', so 'hold them guilty' (ASV, YLT), not the KJV and Webster 'Destroy'. Radak also gives a reading from שמם 'desolate'; I follow the guilt reading. The BBE and KJV 'destroy' is a softening of a legal verb into a general one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "תָסֵךְ is glossed 'you shelter' (root סכך, to cover as a booth does). Ibn Ezra notes the missing dagesh; Rashi gives תגונן. The KJV 'defendest' is a legitimate sense but loses the booth image. I could not source the claim that סֻכָּה is built of the same root from the packet, so I leave that note unsourced.",
+    "The commentary at 5:10 in Malbim and the Targum lines are not cited as direct support for any English reading; I used them only for the traditional contrast of speech and heart where it was explicitly stated."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": "[consider] Note that the KJV's 'because' is supplied (the Hebrew has 'and'), and soften the 'defence' criticism, since Rashi pairs defend and shelter. 'And you may cover' in the literal layer could read as permission; 'and may you cover' or 'and you cover' is clearer. The ledger note says the booth link is unsourced, but Radak (\"כסכה\") and Metzudat Zion (\"מלשון סכך\") support it. (PS.5.12: \"וְתָסֵךְ עָלֵימוֹ\"; Rashi: \"תגונן ותסוכך עלימו\"; KJV 5:11: \"because thou defendest them\"; YLT: \"and Thou coverest them over\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:17:57+00:00",
+   "agent_notes": [
+    "Word order: YHWH comes after 'the righteous'; Metzudat David rearranges it as 'You, YHWH, will bless the righteous'. I read tzaddiq as the object of 'bless' and YHWH as a vocative, as all five English versions do.",
+    "תעטרנו: Ibn Ezra, Radak and Rashi differ on the stem (qal 'surround', as in 1 Sam 23:26, or a hiphil-type 'crown/enrich' with two objects). I rendered 'surround' in the literal layer, which fits the shield image, and kept 'crown' as a possible echo in the note. The BBE ('you will be his strength') paraphrases and drops the shield; I did not follow it.",
+    "The imperfect verbs תברך and תעטרנו are rendered as a general present-future ('You bless... you surround'), a reading that fits the 'for' clause giving the ground of the joy in v. 12. YLT chooses the present, KJV/ASV the future; the Hebrew allows both."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": "[consider] Present the legal sense of tzaddiq as an interpretation, or ground it in the psalm's own court language. Describe Ibn Ezra's view as a two-object stem like יעשרנו. (Ibn Ezra on PS.5.13: \"מבנין הנוסף על דרך: יעשרנו המלך ... יוצא לשנים פעולים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:20:46+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the literal layer now supplies the object in brackets, '[my prayer]', as Rashi, Ibn Ezra and Radak do; the Hebrew has none. The legal-case sense of עָרַךְ (Job 13:18, 'set out a case') is offered only as a possible overtone, not as the reading. The KJV remark no longer says it invents the object.",
+    "Rashi takes 'morning' as the hour of judgment on the wicked and reads the verb as 'I call upon you against them'; Radak and Metzudat David take it as the hour of prayer before the day's business. The dramatic layer follows the second, simpler reading and keeps the first in the commentary.",
+    "Malbim's reading (the morning as an image of God's light driving out the wicked) is a later homiletic reading and is only mentioned in passing in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": "[should_fix] In the literal layer, leave the object unstated ('I lay out [it] for you', or 'I set in order for you') or supply '[my prayer]' as the commentators do. Rewrite the KJV remark: 'prayer' is the object the tradition supplies (Rashi, Ibn Ezra, Radak), so 'direct' loses the arranging sense but does not invent the object. If you keep the legal-case reading, present it as a possible sense, not as the reading. (PS.5.4: \"בֹּקֶר אֶעֱרָךְ־לְךָ\"; Radak: \"בקר אערך-לך תפלתי\"; Ibn Ezra: \"כאילו אמר אערוך לך תפלתי\"; Rashi: \"תפלתי על זאת\"; Metzudat David: \"אסדר לפניך תפלתי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:21:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "הוֹלְלִים: YLT 'boastful', ASV 'arrogant', KJV 'foolish'. I chose 'boasters' for the literal layer because the root is הלל (to praise or boast oneself) and the commentators (Radak, Metzudat Zion) give both 'fool' and 'wicked' as senses; the dramatic layer uses 'the swaggering'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "בֵיתֶךָ and הֵיכַל־קָדְשְׁךָ: the sanctuary at Jerusalem did not yet exist in David's lifetime as a built temple. Radak identifies the house with the sanctuary that held the ark. I translate 'house' and 'temple' without deciding the date, and say in the commentary that the word היכל also means palace."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.5.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:16:14+00:00",
+   "agent_notes": [
+    "Qere/Ketiv on הַיְשַׁר: the written form is הושר (Radak notes the ketiv with vav and the qere with yod). Glossed the reading (qere) as 'make straight' and mentioned the form in a note.",
+    "שׁוֹרְרָי: I follow Rashi, Radak and Ibn Ezra in deriving it from שׁוּר 'to watch, to lie in wait' (Num 24:17), hence 'my watchers'. The English versions say 'enemies'; YLT 'those observing me' is closest. Not a corrected gloss, a deliberate retention of the root image."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:19:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

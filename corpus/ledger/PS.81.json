@@ -1,0 +1,409 @@
+{
+ "chapter_ref": "PS.81",
+ "items": {
+  "verse.en:PS.81.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: Ibn Ezra only refers back to his earlier explanation of 'Gittith' (the text says 'I have explained the word Gittith'); he does not admit failure."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Replace 'Ibn Ezra admits he has not solved it' with a statement that Ibn Ezra refers back to his explanation of the word at Psalm 8. (PS.81.1, Ibn Ezra: \"למנצח על הגתית - מלה הגתית פרשתיה\" ('the word Gittith, I have explained it').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: Rashi, Radak (on 81:9) and Metzudat David read 'open your mouth' as asking for whatever one wants; Meiri and the Targum read it as learning, with the Targum's 'in words of Torah'; Meiri says the first reading is the main one. Ibn Ezra also reads it as asking."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Change 'Radak and the Targum make it Torah' to 'Meiri and the Targum make it Torah, to learn', and put Radak with Rashi and Metzudat David on the asking reading. (PS.81.9, Radak: \"הרחב פיך לשאול וכל משאלך אמלא\"; PS.81.11, Meiri: \"שתכין עצמך ללמוד ולידע\"; Targum: \"בְּפִתְגָמֵי אוֹרַיְתָא\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:32+00:00",
+   "agent_notes": [
+    "The five English versions split on the verb: KJV/Webster 'gave them up', ASV 'let them go', YLT 'send them away', BBE 'gave them up'. I keep the root's plain sense, 'I sent him off', because the Piel of שׁלח is the verb of releasing a slave or driving out, and the commentaries (Radak, Metzudat David) split between 'withdrew my guarding' and 'sent them into exile'. STEPBible's 'and I gave over it' is an artifact of the suffix; the suffix is a masculine singular 'him', Israel as one.",
+    "Meiri says singular 'him' with plural 'their heart' is the usual way scripture speaks of the assembly of Israel. I rendered the shift literally and let the dramatic layer smooth it.",
+    "Rashi's gloss of שרירות as 'appearance' ties it to שׁוּרָי (Ps 5:9, 'my watchers'); Ibn Ezra ties it to שריר 'firm'. I follow the standard sense 'stubbornness', which also fits Jer 3:17 (my own cross-reference, not from the packet)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:32+00:00",
+   "agent_notes": [
+    "STEPBible glosses לוּ as 'if'; in the optative 'if only' use (BDB 'O that') the sense is a wish, not a condition. KJV 'had hearkened' (past) and ASV 'would hearken' (future) are both defensible; the participle שֹׁמֵעַ is tenseless, so I kept it present in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:32+00:00",
+   "agent_notes": [
+    "כִּמְעַט is read by Ibn Ezra, Radak, Meiri and Metzudat David as 'in a little while'. Radak and Meiri explicitly call the כ a true kaph of time ('like a little'). KJV 'I should soon have subdued' is a sound rendering of the conditional that follows from לוּ; the verbs are imperfect and the conditional is implied by v.14. Literal layer keeps the simple future."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[consider] Bring the glosses and the literal layer into line. (PS.81.15: \"אַכְנִיעַ… אָשִׁיב\" (imperfects).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:32+00:00",
+   "agent_notes": [
+    "יכחשו is the crux: YLT 'feign obedience' is the Piel sense 'to lie, to deny' with ל (Ps 18:45, 66:3 'your enemies shall cringe to you'); KJV 'submitted themselves' is the same idea rendered by its effect. BBE 'broken' loses the verb. I take the subject as the enemies of the LORD, with Radak and Metzudat David. Malbim reads the lying as denying God's existence; I do not follow him. 'Their time' (עתם) is ambiguous between the enemies' doom (Rashi, Malbim) and Israel's time of blessing (Radak, Metzudat David). I keep the Hebrew ambiguity in the literal layer and choose the doom reading in the dramatic layer; flag for the reviewer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[consider] If the doom reading is meant, make it explicit (for example 'and their doom would stand for ever'), or keep the dramatic layer as ambiguous as the literal one. (PS.81.16: \"וִיהִי עִתָּם לְעוֹלָם\"; Rashi: \"פּוּרְעָנוּתָם לְעוֹלָם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:32+00:00",
+   "agent_notes": [
+    "The verb ויאכילהו is formally a wayyiqtol ('and he fed him'); the speaker shifts from third person 'he fed him' to first person 'I satisfy you'. Ibn Ezra and Meiri treat this as the ordinary prophetic alternation of voice, and Meiri reads the wayyiqtol as standing for a future. The English versions all render it as a conditional 'would feed', dependent on v.14. I keep the Hebrew's own shifts in the literal layer and treat the whole as conditional on v.14; whether 'he' is God or the enemy-subject of v.16 is argued by Ibn Ezra (who says 'all the commentators' take it as God, with Israel as the object)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: רוע is the root of תרועה, the festival blast; v.4 itself uses תקע, not רוע."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Say instead that רוע is the root of תרועה, the festival horn blast, and that v.4 itself uses תקע. Do not claim that v.4 uses רוע. (PS.81.4: \"תִּקְעוּ בַחֹדֶשׁ שׁוֹפָר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: 'give your hand to the drum' is credited to Radak alone; Ibn Ezra's point is that the verb 'give' also governs the lyre and harp."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Credit the 'hand to the drum' reading to Radak alone. If you mention Ibn Ezra, give his point that the verb governs the lyre and harp as well. (PS.81.3, Radak: \"ותנו ידכם בתוף\"; Ibn Ezra: \"ומלת תנו – תשרת בעבור אחרת ותנו כנור נעים עם נבל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: Ibn Ezra mentions the moon 'being covered' but prefers 'a fixed time' with Rashi, Radak and Metzudat Zion/David. The full-moon reading is credited to the Targum ('the month in which the moon is covered') and modern versions (ASV, BBE). I keep 'covering' in the literal layer because it is the most literal form of the word and both readings can start from it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] In the commentary, remove Ibn Ezra from the full-moon side. Say that he mentions the moon 'being covered' but prefers 'a fixed, appointed time' with Rashi, Radak and Metzudat Zion/David. Credit the full-moon reading to the Targum's 'covered month' and to modern translators (ASV, BBE). (PS.81.4, Ibn Ezra: \"וטעם בכסה – שהלבנה מתכסה בו... ולפי דעתי: שמלת כסה, כמו זמן קבוע או מועד ידוע\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:21+00:00",
+   "agent_notes": [
+    "The packet files Radak's comments on עדות ביהוסף and שפת לא ידעתי under this verse, but they belong to the next verse (Hebrew 81:6); I cited them under PS.81.6 only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[consider] Name Malbim and Meiri for the contrast, and Metzudat David (with Rashi) for the day-of-judgment reading. (PS.81.5, Metzudat David: \"התקיעה ההיא היא חק גזרת המקום על ישראל כי הוא יום המשפט\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:31:21+00:00",
+   "agent_notes": [
+    "The speaker shifts mid-verse from the psalmist to a voice the psalmist 'hears' (שפת לא ידעתי אשמע). Who 'I' is, and whose language it is, is disputed: Joseph hearing Egyptian (Rashi, Metzudat David via Sotah 36b), Israel hearing Egyptian, or the psalmist hearing an unfamiliar divine voice (Malbim). I translate the Hebrew as it stands and keep both readings open in the commentary. I could not source the claim that the form יהוסף is a deliberate honorific longer spelling beyond Ibn Ezra's own remark, which I cite."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: 'pot' (Rashi, Radak, Metzudat Zion, Targum) and 'carrying basket' (Ibn Ezra, ASV, BBE, YLT) are both old readings. I keep 'basket' for one reason: the verb 'pass away from' pairs with the hands carrying clay and bricks, and Ibn Ezra's reading links the word to the brickwork of Exod 1:14. It is my choice, not a correction of the KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Keep 'basket' as your choice if you like, but do not call the KJV's 'pots' an error or Rashi's reading the minority one. Say that the commentators and the Targum read 'pot', that Ibn Ezra and the modern versions read a carrying basket, and give your reason for preferring basket. (PS.81.7, Metzudat Zion: \"מדוד. כלי בישול כקדרה\"; Radak: \"הדודים והם הקדירות\"; Targum: \"לְקִדְרָא\"; Ibn Ezra: \"החומר והלבנים ולנשאם בדוד\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: Radak reads the ח of אבחנך with a qamets ḥatuf (short o); Meiri reports that some grammarians read it so and others with a full qamets. I follow neither claim about pointing in the translations; the layers are unaffected."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Correct the commentary and the note: Radak reads the ח with a qamets ḥatuf (short o), and Meiri reports that some grammarians read it so while others read a full qamets. (PS.81.8, Radak: \"אבחנך. החי\"ת נקראת בקמ\"ץ חט\"ף\"; Meiri: \"ואבחנך בקמץ החי״ת וקצת מדקדקים קוראים אותו בקמץ חטף\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.81.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:36:21+00:00",
+   "agent_notes": [
+    "Revised per request: the closing 'if you will listen to me' can be read as a broken-off wish (ASV 'if… !') or as the protasis of the next verses (Radak, Malbim, Metzudat David; the KJV's semicolon). The dramatic layer follows the wish reading, the literal layer leaves the clause open; both are noted in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:34:28+00:00",
+     "note": "[should_fix] Present the wish reading (ASV 'if…!') as one option and the continuing conditional (Radak, Malbim; KJV's semicolon) as the other. Drop the claim that the KJV 'pretends' the sentence continues. (PS.81.9, Malbim: \"ישראל אם תשמע לי שלא יהיה בך אל זר אז הרחב פיך ואמלאהו\"; Radak: \"שאם תשמע אלי ולא יהיה בך אל זר\"; Metzudat David: \"כי אם תשמע לי אתה ישראל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:37:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

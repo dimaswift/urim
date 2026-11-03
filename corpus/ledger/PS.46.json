@@ -1,0 +1,284 @@
+{
+ "chapter_ref": "PS.46",
+ "items": {
+  "verse.en:PS.46.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew and verse 0 in the KJV, so every later verse here is one number higher than the KJV's. I translated it as a heading and kept 'alamoth' as a transliteration. The meaning of 'alamoth' is uncertain: 'maidens', 'high voices' or an instrument. The packet's Rashi and Meiri both take it as an instrument, citing 1 Chr 15:20."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:18+00:00",
+   "agent_notes": [
+    "Literal layer keeps 'carts' (agalot). Rashi and Malbim read war chariots and Metzudat David wagons made for war; the commentary and note now present 'chariot' as a supported interpretation, not an error. I removed my earlier claim about changing verb tenses, which the forms do not support (imperfect, weqatal, imperfect). The Targum reading 'round shields' is taken from the packet's Aramaic text (עֲגִילִין) and is my own reading of it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[should_fix] Keep 'carts' in the literal layer, but in the commentary and the note say that Rashi and Malbim read the word as war chariots and Metzudat David as wagons made for war. Present 'chariot' as an interpretation with support, not as a mistake. (PS.46.10, Rashi: \"עֲגָלוֹת יִשְׂרֹף בָּאֵשׁ. רִכְבֵי מִלְחָמוֹת\"; Malbim: \"ואת העגלות (שהם המרכבות שבם נלחם)\"; Metzudat David: \"עגלות. העשויות לצורך המלחמה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [
+    "הַרְפּוּ is plural and addressed to the nations (Rashi, Radak, Ibn Ezra, Metzudat David all agree). The popular reading 'be still' as personal calm is a later reuse; I kept 'let go' in the literal layer and the nations' context in the commentary, since the KJV 'Be still' hides the military sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:18+00:00",
+   "agent_notes": [
+    "Literal layer now 'a high refuge', exactly as in verse 8. I also removed the claim that the refrain is 'left out after verse 4'; I describe only what the text has."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[should_fix] Render מִשְׂגָּב in the literal layer exactly as in the revised verse 8 ('a high refuge' or 'a stronghold'). (PS.46.12: \"מִשְׂגָּֽב־לָ֝נוּ אֱלֹהֵ֖י יַעֲקֹ֣ב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [
+    "STEPBible glosses בְּהָמִיר as 'when changes' and lists the lemma as מוּר (hiphil infinitive). I read it as 'when the earth changes places', from מוּר 'to exchange'. The KJV 'be removed' is a fair guess; YLT and ASV render 'changing / change'. Rashi's Isaiah 51:6 parallel is his end-of-days reading of the psalm, not a lexical point; I cite him only for Metzudat Zion's link with תמורה."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[consider] Give Ibn Ezra's natural reading here (land and sea exchanging) and keep the parable reading for Radak. Consider writing 'changes [place]' in brackets in the literal layer. (PS.46.3, Ibn Ezra: \"יבא זמן שתשוב היבשה ים והים יבשה\"; Radak: \"דרך משל על המלחמות החזקות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:18+00:00",
+   "agent_notes": [
+    "Revised after the review. Rashi (with Metzudat Zion and Meiri) reads yechmeru as casting up mud; Menachem, cited by Rashi, ties it to Lam 1:20 (chamarmaru, 'churn, be in turmoil'), which supports the KJV 'be troubled'. The dramatic layer keeps 'mud' because Rashi, Ibn Ezra and Meiri give it, but the literal layer stays neutral ('foam')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[should_fix] Credit the mud reading to Rashi (with Metzudat Zion and Meiri) and Menachem's reading to Lam 1:20, 'churn, be in turmoil'. In both the commentary and the note, say that Menachem's reading supports the KJV 'be troubled', and drop 'faint paraphrase'. (PS.46.4, Rashi: \"יְגָרְשׁוּ רֶפֶשׁ וְחֹמֶר וָטִיט (ישעיהו נז:כ) כְּמִשְׁפָּטָם, וּמְנַחֵם חִבְּרוֹ כְּמוֹ ״מֵעַי חֳמַרְמָרוּ״ (איכה א:כ)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:18+00:00",
+   "agent_notes": [
+    "Revised: the verb is an imperfect (HVpi3mp), so present or future is grammatical. Literal layer takes the present, the KJV the future; the commentary no longer calls the KJV future an addition."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[should_fix] Replace the claim with an accurate one: the verb is an imperfect, so it can be present ('make glad') or future ('shall make glad'). The KJV chose the future and the literal layer the present. (PS.46.5: \"יְשַׂמְּח֥וּ\" (morph HVpi3mp, imperfect))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [
+    "לִפְנוֹת בֹּקֶר is literally 'at the turning of morning'. The KJV 'right early' and BBE 'at the dawn' are interpretations. Ibn Ezra reads 'the time close to day, or every day'; Meiri compares 'when the day turns' (Jer 6:4). I kept 'at the turning of morning' in the literal layer and 'when morning turns' in the dramatic one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[consider] Quote only the word that is in the verse (bal timmot), and render Rashi as 'at the time of the redemption'. (PS.46.6: \"בַּל־תִּמּ֑וֹט\"; Rashi: \"לִפְנוֹת בֹּקֶר. לְקֵץ הַגְּאֻלָּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[consider] Add Dunash's alternative, 'totter, sway', to the note on תָּמוּג. (PS.46.7, Rashi: \"אֲבָל דּוּנָשׁ פָּתַר אוֹתָם לְשׁוֹן הֲנָעָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:18+00:00",
+   "agent_notes": [
+    "Literal layer now 'a high refuge' (misgav), matching the gloss, so it differs from 'refuge' (machaseh) in verse 2."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[should_fix] In the literal layer, render מִשְׂגָּב as 'a high refuge' or 'a stronghold' to match the gloss and the commentary, so that it differs from 'refuge' (מַחֲסֶה) in verse 2. (PS.46.8: \"מִשְׂגָּֽב־לָ֝נוּ\" against PS.46.2: \"מַחֲסֶ֣ה וָעֹ֑ז\". Commentary: \"'high tower' (YLT, BBE) is nearer\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.46.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:28:55+00:00",
+   "agent_notes": [
+    "שַׁמּוֹת: STEPBible 'desolations'. The KJV 'desolations' is correct; the YLT 'astonishing things' and the JPS 'wonders' follow the other meaning of the root שמם 'to be appalled'. The two senses are both present in the root; I kept 'desolations' and explained the second in the note."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:05+00:00",
+     "note": "[consider] Soften the KJV audit: לְכוּ can be the interjection 'come', and the KJV rendering is legitimate. (PS.46.9: \"לְֽכוּ־חֲ֭זוּ\" (STEPBible gloss: \"come\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

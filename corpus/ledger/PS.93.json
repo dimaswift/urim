@@ -1,0 +1,131 @@
+{
+ "chapter_ref": "PS.93",
+ "items": {
+  "verse.en:PS.93.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:55:23+00:00",
+   "agent_notes": [
+    "מָלָךְ is a perfect (qatal). I render 'has become king' in the literal layer (the inceptive sense: the enthronement acclamation) and 'is king' in the dramatic one. Rashi and Radak read it as a future acclamation ('they will say'), which I mention only in passing. STEPBible glosses 'he reigns'; I changed it to 'has become king'. KJV audit corrected per review: the KJV keeps both 'clothed' but turns the perfects into statives and subordinates hit'azzar as a relative clause. The Targum claim about tense is dropped; its מְלִיךְ is itself a perfect.",
+    "'Majesty' for גֵּאוּת: the root is גאה 'to rise, be exalted', and it can be negative (pride) when said of humans. I kept 'majesty' but said so in the commentary. Ibn Ezra's reading of the perfect לבש as a metaphor from royal robes is cited from the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:54:18+00:00",
+     "note": "[should_fix] Correct the KJV audit: the KJV keeps both 'clothed' but renders the perfects as statives ('is clothed') and subordinates hit'azzar as 'wherewith he hath girded himself', so a third act becomes a relative clause. Drop the claim that the Targum's tense leans future, or replace it with what the Targum actually has (מְלִיךְ, a perfect). (PS.93.1 KJV: \"the Lord is clothed with strength, wherewith he hath girded himself\"; Targum: \"יְיָ מְלִיךְ גֵיוְתָנוּתָא אַלְבֵּשׁ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:56:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.93.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:55:23+00:00",
+   "agent_notes": [
+    "Per review: it is God, addressed as 'you', who is 'from olam'. The Baal–Yam contrast is kept; the yearly renewal of Baal's kingship is marked as one scholarly reading, not a fact."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:54:18+00:00",
+     "note": "[should_fix] Change 'the speaker himself is \"from olam\"' to say that God, addressed as 'you', is from olam. Either drop 'has to be renewed each year' or mark it as one scholarly reading; the Baal–Yam battle itself may stay. (PS.93.2: \"מֵֽעוֹלָ֣ם אָֽתָּה\" ('from long ago [are] you'); Radak: \"קודם העולם ואתה בראת העולם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:56:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.93.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:52:46+00:00",
+   "agent_notes": [
+    "דָּכְיָם is a hapax (דֳּכִי). Rashi derives it from דכא 'low, deep', Ibn Ezra and Metzudat Zion read it as 'breakers/pounding', and Radak ties it to דכה 'crush'. I rendered it 'their pounding' in the literal layer and 'crashing' in the dramatic one. The five English versions split between 'waves', 'breakers' and BBE's 'loud cry'.",
+    "The tense shifts from perfect (נשאו) to imperfect (ישאו) in the third colon. I kept this visible as 'have lifted … lift' rather than flattening it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:54:18+00:00",
+     "note": "[consider] Mark the Ugaritic parallel as a modern scholarly comparison; trim the dramatic ending to one 'crashing'. (PS.93.3: \"יִשְׂא֖וּ נְהָר֣וֹת דָּכְיָֽם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.93.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:52:46+00:00",
+   "agent_notes": [
+    "The verse is hard to parse: the min in מִקֹּלוֹת governs both 'sounds of many waters' and 'breakers of the sea', and אַדִּירִים may modify the waters or stand as a separate noun ('the mighty ones'). I took 'mighty' with the waters; the literal layer keeps the word order, so the ambiguity is visible. The KJV and ASV reverse the word order and the BBE puts 'in heaven' for בַּמָּרוֹם."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:54:18+00:00",
+     "note": "[consider] Say the KJV makes 'adirim an adjective of the waves; consider 'Mightier than the thunder of the great waters' in the dramatic layer. (PS.93.4 KJV: \"than the mighty waves of the sea\"; Hebrew: \"אַדִּ֖יר בַּמָּר֣וֹם יְהוָֽה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.93.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:55:23+00:00",
+   "agent_notes": [
+    "נַאֲוָה is a perfect (or a form of נָאָה 'be fitting') with a vocal-shewa oddity that Radak discusses (the aleph carries a hataf-patah). I rendered 'befitting' with the Hebrew's own word order (to your house, befits holiness). The Hebrew has no 'for ever': לְאֹרֶךְ יָמִים is literally 'for length of days', which I preserve. Per review, 'never again destroyed' is attributed only to Radak and Metzudat David; Rashi's own reading is that the prophets' testimonies about the house stay faithful however long the days. The dramatic layer no longer adds an image for na'avah."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:54:18+00:00",
+     "note": "[should_fix] Name only Radak and Metzudat David for 'never again destroyed', and give Rashi's own reading (the prophets' testimonies about the house stay faithful however long the days). In the dramatic layer remove 'as beauty belongs to a bride'; render na'avah as befitting/beautiful without an added image. (PS.93.5 Radak: \"שלא יחרב עוד\"; Metzudat David: \"ולא תחרב עוד\"; Rashi: \"וְאַף עַל פִּי שֶׁאָרְכוּ הַיָּמִים, נֶאֱמָנִים הֵם\"; Hebrew: \"לְבֵיתְךָ֥ נַאֲוָה־קֹ֑דֶשׁ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:56:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

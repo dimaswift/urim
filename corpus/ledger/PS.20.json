@@ -1,0 +1,292 @@
+{
+ "chapter_ref": "PS.20",
+ "items": {
+  "verse.en:PS.20.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:45:14+00:00",
+   "agent_notes": [
+    "The Hebrew verse numbering counts the superscription as verse 1, so KJV 20:1 is Hebrew 20:2 and the KJV has 9 verses to the Hebrew 10. I translated the Hebrew verses as they stand.",
+    "lamnatseach is glossed 'for the choirmaster/leader' following the traditional sense; the root נצח can also mean 'to be eminent, to excel', and the exact musical office is uncertain. The preposition ל before David is deliberately left ambiguous ('of / for / by / concerning David'); Radak and Ibn Ezra both treat it as 'for the sake of David' or 'about David'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[should_fix] Remove 'to be taken up before the battle' from translation_dramatic, for example 'For the leader of the singers: a song of David.' Keep the war setting in the commentary, where it is attributed. (PS.20.1 Hebrew: \"לַמְנַצֵּחַ מִזְמוֹר לְדָוִד\", three words: to the leader, a psalm, of/for David.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:45:14+00:00",
+   "agent_notes": [
+    "The verse can be divided two ways: 'LORD, save the king; he answers us' (YLT joins 'the king' to 'save') or 'LORD, save! May the King answer us' (KJV, ASV and BBE follow the accent and break after 'save'; their lowercase 'the king' leaves open who answers). Ibn Ezra (as his preferred reading), Radak and Meiri read the King as God; Malbim has King David answering. The atnach after hoshiah supports the break. I followed the accent: 'O YHWH, save! May the King answer us...' and noted the alternatives in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[blocker] Rewrite the KJV discussion in the commentary and the reviewer note. KJV, ASV and BBE follow the accent and break after 'save'; YLT is the version that reads 'save the king'. The KJV's lowercase 'the king' leaves open who answers. Attribute the King-as-God reading to Ibn Ezra (as his preferred reading), Radak and Meiri, not Malbim. In the hammelekh note, replace 'Malbim' with 'Meiri' and '(KJV)' with '(YLT, and Malbim, who has King David answering)'. (PS.20.10 KJV: \"Save, Lord: let the king hear us when we call.\" ASV: \"Save, Jehovah: Let the King answer us when we call.\" BBE: \"Come to our help, Lord: let the king give ear to our cry.\" YLT: \"O Jehovah, save the king, He doth answer us\". Malbim: \"ענני המלך דוד לאמר ה' הושיעה\". Ibn Ezra: \"יש אומרים כי המלך דבק עם הושיעה וזה איננו נכון בעבור האתנח ... והנכון ... והמלך הוא השם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:52+00:00",
+     "note": "[consider] Either attribute the battle-shout sense to a lexicon or commentary in the packet, or say simply that 'call' is the word for crying out in prayer. (PS.20.10: \"בְיוֹם־קָרְאֵנוּ\" (in the day of our calling); only Radak's remark that the cry was shouted in battle is cited.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:22+00:00",
+   "agent_notes": [
+    "The verbs of vv. 2-6a are jussive-or-imperfect forms with no 'may' in the Hebrew. I rendered them as wishes ('may he answer you') in both layers, as KJV, ASV and BBE do; YLT reads them as plain statements. The context (blessing before battle) and the parallel wish in v. 6b favour the wish.",
+    "Rashi's remark that 'God of Jacob' recalls the promise at Haran and Radak's midrash on Jacob's distress (Gen 35:3) are reported as the commentators' claims; I did not check the Talmudic and midrashic attributions Radak cites."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[consider] Mention Rashi's alternative staging, with the king at home and the army in the field, as a second option for the director. (PS.20.2 Rashi: \"שֶׁהָיָה שׁוֹלֵחַ אֶת יוֹאָב ... וְהוּא הָיָה עוֹמֵד בִּירוּשָׁלַיִם וּמִתְפַּלֵּל עֲלֵיהֶן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[consider] Consider 'from Zion, where his ark rests' or simply 'from Zion'. (PS.20.3 Radak: \"והוא הבית שהיה שם הארון\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:22+00:00",
+   "agent_notes": [
+    "yedashsheneh is read as 'turn to ash / find fat and rich (acceptable)', from דשן. The five English versions split: KJV 'accept', YLT 'reduce to ashes', BBE 'be pleased with the fat'. I kept the literal 'make fat / reduce to ash' in layer 1 and 'accept' in the drama. The STEPBible gloss 'may he accept' is too far from the root, so I corrected it. The ending -eh is irregular (Ibn Ezra and Radak compare 've'ekra'ah' in 1 Sam 28:15).",
+    "Selah is left as a transliterated word in layer 1 and as a pause in the dramatic layer, since its meaning is unknown."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[consider] Move 'Hold the silence' to the commentary and leave 'Selah' (or a pause mark) in the dramatic text. (PS.20.4 Hebrew ends \"יְדַשְּׁנֶה סֶלָה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:45:14+00:00",
+   "agent_notes": [
+    "nidgol: STEPBible and the five versions agree on 'raise a banner' (דגל). Rashi connects it to Ps 60:14 (KJV 60:12), glossing it 'we gather and become an army', as quoted in the packet; I did not check the cited verse myself. The Tiberian pointing of 'beshuatekha' (with a reading mark) is a cantillation matter and does not change the sense."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[should_fix] Change 'Ps 60:6' and 'Psalm 60:6' to 'Ps 60:14 (KJV 60:12)' in the commentary and the nidgol note. In translation_dramatic, render the last clause as a wish: 'May the LORD fill all that you have asked.' (PS.20.6 Rashi: \"וּבִשְׁמוֹ נִדְגֹּל. נִתְאַסֵּף וְנַעֲשֶׂה חַיִל (תהלים ס:יד)\"; Hebrew \"יְמַלֵּא יְהוָה כָּל־מִשְׁאֲלוֹתֶיךָ\" (morph HVpi3ms, glossed 'may he fulfill').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:52+00:00",
+     "note": "[consider] Soften to a suggestion or drop the comparison with the neighbours' standards unless a source in the packet supports it. (PS.20.6: \"וּבְשֵׁם־אֱלֹהֵינוּ נִדְגֹּל\"; Rashi and Radak, the cited commentators, say nothing about foreign standards.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:45:14+00:00",
+   "agent_notes": [
+    "The speaker changes at 'now I know': a single voice, singular ('I know') after the plural wishes. Ibn Ezra takes it as the psalmist speaking in the Holy Spirit, Radak as each Israelite, Malbim as the head of the singers. I left it open in the translation.",
+    "meshicho 'his anointed' is rendered literally. BBE 'his king' interprets. A messianic reading is mentioned by Ibn Ezra, who also allows David; I did not add either reading to the translation layers."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[should_fix] Drop the claim that the KJV 'holy heaven' is off. If you keep the plural, call it a plural of form that YLT reproduces ('holy heavens'). In the note, set the root to שמים (or leave a lexicon-backed root) instead of שמה. (PS.20.7 table: \"מִשְּׁמֵי | ... | שָׁמַיִם | H8064 | HR/Ncmpc\"; ASV: \"from his holy heaven\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:45:14+00:00",
+   "agent_notes": [
+    "The verb nazkir (hiphil of זכר) lacks an object: 'we cause to be remembered / we invoke'. The five versions split: KJV 'remember', ASV 'make mention', YLT 'make mention', BBE 'we will be strong in' (a paraphrase). I chose 'we make mention' in layer 1, with no object, as YLT and ASV do. Rashi links it to the incense and prayer sense of the hiphil (Is 66:3, Lev 2:2). 'In the chariotry / in the horses' has no verb; the 'trust' of the KJV is supplied from context, and I put it in brackets in layer 1."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[should_fix] In the commentary write 'KJV and ASV supply \"trust\"; YLT supplies nothing, and the Webster brackets it'. In translation_literal replace 'we invoke [him]' with 'we make mention' or 'we invoke', with no object, or else '[it]', to match the reviewer note. (PS.20.8 ASV: \"Some trust in chariots, and some in horses\"; YLT: \"Some of chariots, and some of horses\"; Hebrew: \"בְּשֵׁם־יְהוָה אֱלֹהֵינוּ נַזְכִּיר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:45:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.20.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:42:22+00:00",
+   "agent_notes": [
+    "The Hebrew word-initial form in 'kamnu' carries a dagesh (קַּמְנוּ) that STEPBible keeps; I treat it as the ordinary perfect 'we rose', not a separate verb. The last verb vanit'odad is a hithpolel of עוד (rooted by STEPBible at H5749A); its sense 'we were set upright / we stood firm' is standard and Rashi ties it to 'me'oded anavim' in Ps 147:6."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:44:20+00:00",
+     "note": "[consider] Consider 'and we stand firm' or 'we are still standing'. (PS.20.9 Metzudat Zion: \"ונתעודד. ענין רוממות וחזוק\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.20.2] The verbs of vv. 2-6a are jussive-or-imperfect forms with no 'may' in the Hebrew. I rendered them as wishes ('may he answer you') in both layers, as KJV, ASV and BBE do; YLT reads them as plain statements. The context (blessing before battle) and the parallel wish in v. 6b favour the wish.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:45:14+00:00"
+  },
+  {
+   "note": "[verse.en:PS.20.2] Rashi's remark that 'God of Jacob' recalls the promise at Haran and Radak's midrash on Jacob's distress (Gen 35:3) are reported as the commentators' claims; I did not check the Talmudic and midrashic attributions Radak cites.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:45:14+00:00"
+  },
+  {
+   "note": "[verse.en:PS.20.4] yedashsheneh is read as 'turn to ash / find fat and rich (acceptable)', from דשן. The five English versions split: KJV 'accept', YLT 'reduce to ashes', BBE 'be pleased with the fat'. I kept the literal 'make fat / reduce to ash' in layer 1 and 'accept' in the drama. The STEPBible gloss 'may he accept' is too far from the root, so I corrected it. The ending -eh is irregular (Ibn Ezra and Radak compare 've'ekra'ah' in 1 Sam 28:15).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:45:14+00:00"
+  },
+  {
+   "note": "[verse.en:PS.20.4] Selah is left as a transliterated word in layer 1 and as a pause in the dramatic layer, since its meaning is unknown.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:45:14+00:00"
+  },
+  {
+   "note": "[verse.en:PS.20.9] The Hebrew word-initial form in 'kamnu' carries a dagesh (קַּמְנוּ) that STEPBible keeps; I treat it as the ordinary perfect 'we rose', not a separate verb. The last verb vanit'odad is a hithpolel of עוד (rooted by STEPBible at H5749A); its sense 'we were set upright / we stood firm' is standard and Rashi ties it to 'me'oded anavim' in Ps 147:6.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T12:45:14+00:00"
+  }
+ ]
+}

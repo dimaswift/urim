@@ -1,0 +1,208 @@
+{
+ "chapter_ref": "PS.28",
+ "items": {
+  "verse.en:PS.28.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 includes the superscription 'of David' (KJV numbers it 28:0). I translated it as part of the verse, in the literal layer as 'Of David' and in the dramatic layer as a spoken dedication.",
+    "STEPBible glosses אַל־תֶּחֱרַשׁ as 'may not you be deaf' but צוּרִי as 'O rock my'. I kept 'deaf' for חרש and 'silent' for חשה, because the two verbs are different roots. The ASV also separates them; the KJV, YLT and Webster flatten both to 'silent'. Ibn Ezra, Radak and Meiri all take חרש as 'be silent' or 'make yourself deaf'; Meiri argues for 'deaf'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:20+00:00",
+   "agent_notes": [
+    "דביר is rendered 'innermost room' (the back chamber of the sanctuary), following Metzudat Zion, who says only that it is the house of the holy of holies. The restriction of entry to the high priest once a year comes from Leviticus 16, not from the commentaries; revised per the reviewer's request. KJV 'oracle' is a Latin-derived term (Vulgate oraculum). Radak also allows that it means heaven."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[should_fix] In directors_commentary, change 'the place the priests entered only once a year' to 'the place only the high priest entered, once a year', or drop the clause. (PS.28.2: \"אֶל־דְּבִיר קָדְשֶׁךָ\"; Metzudat Zion: \"דביר. הוא בית קדשי הקדשים\" (nothing about who entered it). Leviticus 16 limits entry to the high priest.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:59:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [
+    "The KJV 'draw me not away' for אל תמשכני is acceptable; Radak reads it as being dragged to death with the wicked (Job 21:33), Rashi as 'do not make me familiar with the wicked'. I kept the literal 'drag'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[consider] Leave the definition unsourced, or cite Meiri for the repetition he does describe. (Meiri PS.28.4: \"והשב גמולם להם כפל ענין במלות שונות\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[consider] Say that the imperfect can be read as prediction or as a wish, and leave the choice to the performer, or give a reason for choosing certainty. (Radak: \"יהרסם דרך תפלה\"; Meiri: \"הוא תפלה לאל שיהרסם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[consider] Make the literal layer and the note agree: either 'Blessed is YHWH' in the literal layer, or soften the note. (PS.28.6: \"בָּרוּךְ יְהוָה\" (Qal passive participle, no verb); YLT \"Blessed is Jehovah\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:20+00:00",
+   "agent_notes": [
+    "ונעזרתי is a perfect with waw, and ויעלז is a waw-consecutive imperfect; I read the first as past ('I was helped') because it follows a perfect 'trusted', and the second as its result. The KJV 'therefore' for the waw is an interpretation and is not in the Hebrew.",
+    "The עזי note is rewritten: Radak reads the ayin with a shureq; the comparison with other exact copies (qubbutz, dagesh in the zayin) is an editor's note in the printed Radak, not Radak's own, and is credited that way. Both spellings are the same u-vowel, so the sense is unaffected."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[should_fix] Rewrite the עזי note: Radak reads the ayin with a shureq; an editor's note in the printed Radak adds that other exact copies have qubbutz with a dagesh in the zayin (the same u-vowel, written differently). Do not credit the manuscript comparison to Radak. (Radak on PS.28.7: \"יהוה עזי בשור\"ק העי\"ן *בכתב יד שלפנינו, ובשאר ספרים מדיקים, העי\"ן בקבו\"ץ שפתים והזי\"ן בדג\"ש.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:59:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:59:20+00:00",
+   "agent_notes": [
+    "The Hebrew lamo 'to them' is plural. The STEPBible gloss 'of them' is corrected to 'to them'. Radak and Malbim read the plural as Israel; the Targum keeps the plain 'to them' (להון) without naming Israel, so it is no longer listed with them. Ibn Ezra reads the helpers; he also rejects a singular reading of למו. I kept the Masoretic text as it stands.",
+    "משיחו 'his anointed' is singular, so I kept 'anointed' in both layers rather than BBE 'king'. The dramatic layer says 'his anointed one' and leaves the identity to the commentary: Radak says David speaks of himself."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": "[should_fix] In directors_commentary, drop the Targum from the list ('Radak and Malbim read Israel'), or say that the Targum keeps the plain 'to them' (להון). (Targum PS.28.8: \"יְיָ תְּקוֹף לְהוֹן\"; Radak: \"יי' יהיה עז למו לישראל\"; Malbim: \"ה' עז למו לישראל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:59:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.28.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T12:56:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T12:58:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

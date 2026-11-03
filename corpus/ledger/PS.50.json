@@ -1,0 +1,519 @@
+{
+ "chapter_ref": "PS.50",
+ "items": {
+  "verse.en:PS.50.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:39:16+00:00",
+   "agent_notes": [
+    "Per the reviewer's request the glosses now agree with the literal layer: tokens 3 and 4 are both 'God' (a triple divine title, not YLT's 'God of gods'), token 9 is 'from [the] rising of'. KJV 'mighty God' renders אֵל; ASV 'the Mighty One' does the same. I kept the three names as three separate words."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Make the glosses agree with the literal layer: gloss token 3 'God' and token 4 'God' (or, if you prefer YLT's 'God of gods', change the literal translation and commentary to match), and gloss token 9 'from [the] rising of'. (PS.50.1: אֵ֤ל אֱֽלֹהִ֡ים יְֽהוָ֗ה ... מִמִּזְרַח־שֶׁ֝֗מֶשׁ; literal: 'God, God, YHWH has spoken ... from [the] rising of [the] sun')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:39:16+00:00",
+   "agent_notes": [
+    "Replaced 'Maimonides' with 'Rabbi Moshe (cited by Ibn Ezra)'; Rashi gives the same reading anonymously ('יש מפרשים'). 'Mountains of a thousand' is a genuinely disputed construction; I kept it literal and listed the readings in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Replace 'Maimonides' with 'Rabbi Moshe (cited by Ibn Ezra)' in both the commentary and the philological note; Rashi gives the same reading anonymously ('יש מפרשים'). (Ibn Ezra on PS.50.10: 'ורבי משה אמר: שהוא כמו שגר אלפיך, הרים מלאים בקר')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [
+    "Token 7 'imadi is 'with me', rendered 'are with me' (YLT) in the literal layer; KJV/ASV 'are mine' is an interpretive harmonisation with v. 10. Token 5 ziz: the packet gives 'moving creature'; Rashi derives it from zaz 'to move'. Radak preserves a midrash on a giant bird; I do not use it as a gloss. The Targum's 'rooster' and the midrash of the huge bird are noted in the commentary as later readings. I do not assert a modern identification of ziz (BDB: 'moving things, creeping things; perhaps wild beasts')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [
+    "Metzudat David glosses 'omar lakh' as a figure of speech (militsah); I translate it directly: 'I would not tell you'. STEPBible 'what fills it' for melo'ah keeps the Hebrew root 'to fill', which KJV preserves with 'fulness'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [
+    "אַבִּירִים is glossed 'mighty ones' in the literal layer, with [bulls] in brackets: the word means 'strong, mighty', and the sense 'bulls' comes from context and from Ibn Ezra, Radak and Meiri, who all read it as bulls. KJV, ASV and Webster say 'bulls'; BBE says 'ox'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [
+    "STEPBible parses לְּךָ as a bare preposition phrase; I glossed it 'to you' and let מַה־לְּךָ carry the idiom 'what [business is it] to you'. The verse has two clauses linked by 'and', and the second (וַתִּשָּׂא) is read as a continuation of the question, so the literal layer keeps the 'and'. YLT and ASV also keep the second clause dependent on the question; KJV turns it into 'or that thou shouldest'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[consider] Rephrase: Nehemiah 9:26 says the people cast God's Torah behind their backs and killed the prophets. (Neh 9:26 (as commonly read): 'cast thy law behind their backs, and slew thy prophets')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [
+    "וַתִּרֶץ is from רצה 'be pleased, consent' (Rashi, Radak, Meiri, Metzudat Zion). Ibn Ezra and Meiri also note a possible reading from רוץ 'run', which the Targum follows ('you ran after him'). I took the first reading, which is the one STEPBible and the five English versions share, and mention the second in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:41:17+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the sentence on polygamous households and the Gen 27:29 / Ps 69:9 comparison is removed, and Rashi is described as reading a particular kind of brother. The three readings (Rashi, Radak, Metzudat David) are kept.",
+    "STEPBible glosses בְּ as 'on' (the preposition of speaking against); glossed here as 'against' where it follows דבר and as 'at' for the sitting. KJV and ASV link the two clauses; YLT and BBE show the clauses are parallel. The literal layer keeps the parallel structure."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Rewrite the sentence: for Rashi and Radak the 'son of your mother' is a maternal half-brother who does not share your father's inheritance, so there is no quarrel to explain the slander; Metzudat David instead reads him as 'certainly your brother'. Drop the 'full brother' claim. (Rashi on PS.50.20: 'בְּבֶן אִמְּךָ. שֶׁאֵין לְךָ דִּין וְרִיב עִמּוֹ, שֶׁאֵינוֹ יוֹרֵשׁ עִמְּךָ'; Radak: 'ואף על פי שאין בינך ובינו דבר כי אין ירושתם אחת')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": "[should_fix] Delete the sentence \"In a polygamous household 'son of your mother' picks out the full-blooded tie as against 'son of your father' (compare Gen 27:29, Ps 69:9).\" and change \"Rashi nonetheless reads it as the opposite kind of brother\" to \"Rashi reads it as a particular kind of brother\"; keep the three readings (Rashi, Radak, Metzudat David) as they are. (PS.50.20 commentary: \"In a polygamous household 'son of your mother' picks out the full-blooded tie as against 'son of your father' (compare Gen 27:29, Ps 69:9). Rashi nonetheless reads it as the opposite\"; Rashi: 'שֶׁאֵינוֹ יוֹרֵשׁ עִמְּךָ'; Metzudat David: 'בבן אמך שהוא ודאי אחיך')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:41:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [
+    "הֱיוֹת אֶהְיֶה כָמוֹךָ: an infinitive absolute with its finite verb ('being, I will be like you'), after דִּמִּיתָ 'you imagined'. STEPBible glosses הֱיוֹת 'exactly be'; I read it as an emphatic form (KJV 'altogether such an one'). The verb וְהֶחֱרַשְׁתִּי is the hiphil perfect of חרש 'be silent'. Ibn Ezra and Meiri read 'you imagined I do not know the hidden things'; Radak cites an elder who understood it as a charge about imagining God to have a body like theirs. These are readings of the commentators and not of the word, so I kept to the text's 'like you'. The word-for-word sequence of the last clause is 'I will rebuke you and I will arrange [it] before your eyes'; the object of אֶעֶרְכָה is left unspoken, and KJV supplies 'them'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:31+00:00",
+   "agent_notes": [
+    "אֱלוֹהַּ (Eloah) is the rarer, singular form of the divine title; STEPBible glosses it 'God'. I kept 'Eloah' in the literal layer. אֶטְרֹף is a verb of a predator tearing prey; Ibn Ezra reads it as a lion's tearing. This is the only place in these verses where the speaker is plainly the divine 'I' threatening in the first person."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:39:34+00:00",
+   "agent_notes": [
+    "Revised after the reviewer's request: Radak cites a midrash that reads וְשָׂם with shin (שׂ/שׁ), from שׁוּמָא 'estimation, assessment': one who weighs his ways so that they are upright. The Masoretic pointing is with sin, שָׂם 'set, place'. I follow the MT and mention the midrash as a variant reading.",
+    "The KJV 'ordereth his conversation aright' reflects the Hebrew word דֶּרֶךְ ('way') plus an 'aright' that is not in the Hebrew. 'Conversation' here is the archaic sense 'conduct'. The Hebrew has no adverb. I translate the MT as it stands."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Correct the note: Radak cites a midrash that reads וְשָׂם as with shin, from 'estimation' (שומא), 'one who weighs his ways' so that they are upright; the MT pointing is with sin, 'sets'. (Radak on PS.50.23: 'ובדרש ושם דרך כתוב בשי\"ן לשון שומא מי ששם אורחותיו שיהיו ביושר')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": "[consider] Consider 'the one who sets his way' or 'who weighs his way', without 'straight'. (PS.50.23: 'וְשָׂם דֶּרֶךְ' (no adjective))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [
+    "Token 9 nis'arah is a Niphal of se'ar 'to storm' (HALOT); Ibn Ezra's remark that it is written with shin but sounds like sa'ar 'storm' is the known sin/shin merger. Token 4 yecheRash: STEPBible H2790B 'be silent'; the jussive 'al yecherash' is a negative wish ('let him not be silent'), not a bare future. KJV 'shall come ... shall not keep silence' flattens this."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[consider] Gloss token 1 'he comes' to match the literal layer, or render the literal 'Let our God come'. (PS.50.3: יָ֤בֹ֥א אֱלֹהֵ֗ינוּ (STEPBible 'he comes'); literal 'Our God comes')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[consider] Let the dramatic layer describe the summons without quoting words: for example, 'he calls them as witnesses'. (PS.50.4: יִקְרָ֣א אֶל־הַשָּׁמַ֣יִם מֵעָ֑ל וְאֶל־הָ֝אָ֗רֶץ לָדִ֥ין עַמּֽוֹ)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [
+    "'alei zavach' is rendered 'over a sacrifice' in the literal layer; the preposition 'al can mean 'by means of' (KJV), 'over' (YLT) or 'on the ground of' (Ibn Ezra, 'because of a sacrifice'). I chose 'over', which keeps all three open and matches the Sinai scene of Exod 24:5-8 that Rashi, Radak and Meiri cite."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:39:16+00:00",
+   "agent_notes": [
+    "Corrected the description of הוּא: there is a single pronoun, a resumptive 'he' after 'God ... judge', as the reviewer said."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Replace 'the pronoun \"he\" is doubled' with an accurate description: the clause ends with the pronoun הוּא after 'God ... judge', a resumptive 'he' that gives the emphasis KJV renders 'judge himself'. (PS.50.6: כִּֽי־אֱלֹהִ֓ים שֹׁפֵ֖ט ה֣וּא סֶֽלָה — one הוּא (token 7))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [
+    "STEPBible glosses token 6 bakh '<in> <the> you'; with 'a'idah 'to bear witness' the sense is 'against you' (KJV, Webster, BBE) rather than 'to you' (ASV). I take it as 'against you', following Meiri and Malbim (warning with the threat of penalty). Verse begins with the same pair 'hear, my people / Israel' as Deut 6:4 (shema Yisrael); this is my own observation, not sourced."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:39:16+00:00",
+   "agent_notes": [
+    "Attributed the concessive reading ('your burnt offerings are indeed always before me') to Malbim alone. Rashi, Ibn Ezra, Radak, Meiri and Metzudat David read 'your burnt offerings' as still under the 'not'. The Radak citation is to his note on the burnt offerings (the packet files it under verse 7). The five English versions split here (KJV/Webster 'not ... for thy burnt offerings'; YLT/ASV concessive); I kept the Hebrew's unmarked parataxis in the literal layer and let the dramatic layer carry the negative-governed reading, which most medieval commentators prefer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": "[should_fix] Attribute the concessive reading to Malbim only, and list Rashi and Ibn Ezra with Radak, Meiri and Metzudat David among those who read 'your burnt offerings' as still governed by 'not'. (Rashi on PS.50.8: 'אִם אֵינְךָ מֵבִיא לִי זְבָחֶיךָ וְלֹא עוֹלֹתֶיךָ נֶגְדִּי תָמִיד, אֵינִי שָׂם עֵינִי וְלִבִּי עַל כָּךְ'; Ibn Ezra: 'ועולותיך - להיותם נגדי תמיד'; Malbim: 'כי הלא עולותיך לנגדי תמיד, שאתה מתמיד')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:40:37+00:00",
+     "note": "[consider] Consider making the dramatic layer follow one reading, e.g. 'nor for your burnt offerings, always before me'. (PS.50.8: 'וְעוֹלֹתֶיךָ לְנֶגְדִּי תָמִיד'; Malbim: 'כי הלא עולותיך לנגדי תמיד')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.50.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:35:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:37:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

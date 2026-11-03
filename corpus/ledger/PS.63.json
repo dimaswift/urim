@@ -1,0 +1,309 @@
+{
+ "chapter_ref": "PS.63",
+ "items": {
+  "verse.en:PS.63.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:01+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew numbering and verse 0 in the KJV, so every KJV verse number in this psalm is one lower than the Hebrew. I translated the Hebrew verses as they stand."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "Sources renumbered to Psalms 63:10 as requested. Shoah is glossed 'ruin'; the five English versions split between 'destroy it' (KJV, ASV, Webster, BBE) and 'desolation' (YLT), and the Hebrew has the noun, not a verb."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change every 'Psalms 63:9' source in this verse's notes (Radak, Metzudat Zion, Rashi, Malbim) to 'Psalms 63:10'. (PS.63.10 (KJV 63:9): Radak: \"לשואה. כלומר לעשותה שואה ומשואה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "Sources renumbered to Psalms 63:11. Yagiruhu is a plural verb with a singular object: the commentators split between a singular victim (Radak, Meiri: Saul) and a collective. The literal layer keeps 'him' and 'they'. Shu'alim is the ordinary word for foxes, though jackals are possible in carrion contexts; I keep 'foxes' as all five versions do."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change every 'Psalms 63:10' source in this verse's notes (Metzudat Zion, Radak, Rashi) to 'Psalms 63:11'. (PS.63.11 (KJV 63:10): Metzudat Zion: \"יגירוהו. ענין הזלה ושפיכה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "Sources renumbered to Psalms 63:12. The antecedent of 'by him' (bo) is disputed: God (Rashi, Radak, Metzudat David), or the king (Meiri, Malbim's second option). Ibn Ezra reports that some say the oath was Saul's. The literal layer keeps 'by him'; the dramatic layer chooses God, which the next clause (liars silenced) supports as an oath-keeping contrast. Radak attributes the lying oath to Saul's oath to the LORD not to kill David; this is the commentator's reading, not the text's."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change every 'Psalms 63:11' source in this verse's notes (Radak, Ibn Ezra, Rashi, Metzudat Zion) to 'Psalms 63:12'. (PS.63.12 (KJV 63:11): Rashi: \"כִּי יִסָּכֵר. יִסָּתֵם, כְּמוֹ וַיִּסָּכְרוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:01+00:00",
+   "agent_notes": [
+    "STEPBible glosses אֵלִי as 'God my' and אֲשַׁחֲרֶךָּ as 'I am seeking earnestly'. I kept 'my God' and 'I seek you' and noted the dawn-root pun (shachar) in the notes. The KJV, ASV and Webster say 'early', and YLT says 'earnestly'; the pun is possible but not certain, so I flagged it as such.",
+    "The line 've'ayef beli-mayim' is not a clause but a noun phrase: 'a land of dryness and weariness, without water'. Radak, Ibn Ezra and Meiri read 'ayef' as an adjective on 'eretz' (feminine noun used as masculine), while Metzudat Zion glosses it as 'dry'. I kept 'weary' in the literal layer and 'parched' in the dramatic one."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[consider] Present the KJV's 'thirsty' as Radak's reading rather than a softening, align the dawn claim with the note's hedge, and drop or source the survival figure. (PS.63.2 packet: Radak: \"ועיף. כמו צמא כלומר בארץ הצמאה למים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:55:01+00:00",
+   "agent_notes": [
+    "The Hebrew 'ken baqodesh chazitikha' puts the sanctuary vision first, and the KJV reverses the order ('to see thy power... so as I have seen thee'). Rashi reads 'ken' as 'ka'asher' (as/just as). I follow the Hebrew order and take 'ken' as 'so, thus'. Whether the sanctuary vision is memory (past perfect) or a present inner vision (Malbim) is open."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "Sources for the chesed note are now commentaries in the packet (Metzudat David, Malbim on Psalms 63:4); the BDB/HALOT citations are dropped. The gloss 'covenant loyalty' for chesed is my own reading, flagged as such in the note."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Replace the BDB/HALOT sources with commentaries in the packet, or leave the sources empty and present the chesed gloss as your own reading. Change 'Malbim on Psalms 63:3' to 'Malbim on Psalms 63:4' and add Metzudat David, whom the note names. (PS.63.4 packet: commentaries are Ibn Ezra, Radak, Meiri, Metzudat David, Malbim and Targum; no lexicon entry)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change the sources to 'Rashi on Psalms 63:5' and 'Radak on Psalms 63:5'. (PS.63.5 (KJV 63:4): Rashi: \"בְּשִׁמְךָ אֶשָּׂא כַפָּי. לְהִתְפַּלֵּל וּלְהַלֵּל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "The earlier sentence that two of the psalm's body words recur was wrong. Verse 2 has soul and flesh, verse 6 has soul and mouth, so only 'soul' (nefesh) recurs, and the commentary now says only that. The five English versions split on 'marrow and fatness' (KJV, ASV, Webster), 'milk and fatness' (YLT, a misreading of chelev as chalav) and 'good food' (BBE); I keep 'fat and fatness'. For 'my mouth' (pi), the literal layer keeps the Hebrew third-person verb 'it will praise' without a bracketed object, since the Hebrew has none."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Correct the sentence: verse 2 has soul and flesh, verse 6 has soul and mouth, so only the soul recurs. Change the note sources from 'Psalms 63:5' to 'Psalms 63:6' (Rashi, Radak, Metzudat Zion). (PS.63.2: \"צָמְאָה לְךָ נַפְשִׁי כָּמַהּ לְךָ בְשָׂרִי\" (my soul thirsts, my flesh longs); PS.63.6: \"תִּשְׂבַּע נַפְשִׁי ... יְהַלֶּל־פִּי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "'im' is read as 'when/whenever' following Radak and Ibn Ezra; Metzudat Zion and Metzudat David read it as 'truly', which is noted. The literal layer keeps the ambiguous 'if' and the commentary explains both readings."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Attribute 'when/whenever' to Radak and Ibn Ezra, and add that Metzudat Zion and Metzudat David read 'im' as 'truly'. Change the note sources from 'Psalms 63:6' to 'Psalms 63:7'. (PS.63.7 packet: Metzudat Zion: \"אם. ר״ל באמת\"; Ibn Ezra: \"אם - כאשר אזכרך\"; Radak: \"ויש אם במקום כאשר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [
+    "Targum 'in the shadow of your Shekhinah' for 'in the shadow of your wings' is cited from the packet text (ובטלל שכנתך). 'ezrah' with final he is rendered 'for help', after the form's old accusative ending; this is my reading and carries no source."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change the source to 'Targum on Psalms 63:8'. (PS.63.8 (KJV 63:7): Targum: \"וּבִטְלַל שְׁכִנְתָּךְ אֲבוּעַ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.63.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:58:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:56:54+00:00",
+     "note": "[should_fix] Change 'Rashi on Psalms 63:8' and 'Radak on Psalms 63:8' to 63:9. (PS.63.9 (KJV 63:8): Rashi: \"בִּי תָּמְכָה יְמִינֶךָ. שֶׁלֹּא אֶפּוֹל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:59:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}

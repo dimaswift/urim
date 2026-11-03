@@ -1,0 +1,249 @@
+{
+ "chapter_ref": "PS.47",
+ "items": {
+  "verse.en:PS.47.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:45+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 47:0), so every KJV verse number in this psalm is one lower than the Hebrew. I translated the Hebrew verses as they stand."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[should_fix] Change 'comes back four times in verses 7 and 8' to 'comes back five times in verses 7 and 8 (four in verse 7, once in verse 8)'. (PS.47.7: \"זַמְּרוּ אֱלֹהִים זַמֵּרוּ זַמְּרוּ לְמַלְכֵּנוּ זַמֵּרוּ\"; PS.47.8: \"זַמְּרוּ מַשְׂכִּיל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:45+00:00",
+   "agent_notes": [
+    "מָגִנֵּי־אֶרֶץ 'shields of the earth' is read as rulers (Ibn Ezra, Radak, Metzudat David). I added the parallel from Hosea 4:18, which Meiri cites. I did not source the claim that shields are a royal image in other ancient Near Eastern texts, so the commentary does not make it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[should_fix] Say that Rashi reads the nedivim as those who offered themselves to be killed for the sanctification of God's name, and that he names Abraham as the first of the converts; attribute the nobles-as-converts reading to Malbim. (Rashi on PS.47.10: \"נְדִיבֵי עַמִּים. שֶׁהִתְנַדְּבוּ עַצְמָם לִטְבֹּחַ וְלַהֲרֹג עַל קְדֻשַּׁת שְׁמוֹ\"; \"עַם אֱלֹהֵי אַבְרָהָם. שֶׁהָיָה ... תְּחִלָּה לַגֵּרִים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[consider] Consider 'For the LORD Most High is to be feared' in the dramatic, and mark the 'great king' title claim as background without a packet source. (PS.47.3: \"עֶלְיוֹן נוֹרָא מֶלֶךְ גָּדוֹל\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [
+    "יַדְבֵּר is read as a hiphil of דבר II 'to lead, subdue' (as Ibn Ezra, Radak and Metzudat Zion take it). Rashi and the Targum read it as 'put a plague (dever) on' the nations, which is why the Targum has 'kill'. The five English versions split between 'subdue' and YLT 'leadeth'; I kept 'subdues' in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[consider] Consider 'He leads/drives [subdues]' in the literal, and either source or drop the monument claim. (PS.47.4: \"יַדְבֵּר\"; Ibn Ezra: \"ינהג כעדר\"; YLT 47:3: \"He leadeth peoples under us\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:45+00:00",
+   "agent_notes": [
+    "STEPBible glosses אֶת before גְּאוֹן as an object marker. Radak notes the odd pointing of this אֶת (seghol, with a meteg and no maqqef). I gloss it [obj] and do not build anything on the pointing."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[should_fix] Replace 'the one thing he has loved' with 'which he loves' (or 'whom he loved'), without the exclusive 'one thing'. (PS.47.5: \"אֶת גְּאוֹן יַעֲקֹב אֲשֶׁר־אָהֵב\" (the pride of Jacob, whom/which he loved).) [should_fix] In the note and the commentary, say that Radak reads the pride of Jacob as the land (and 'whom he loved' as Jerusalem), while Meiri, Metzudat David and the Targum read it as the Temple. (Radak on PS.47.5: \"והארץ הזאת היא גאון יעקב ותפארתם\" and \"אשר אהב. המקום הזה אהבו האל והוא ירושלים\"; Meiri: \"וגאון יעקב רמז לבית המקדש\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[consider] Drop 'most likely into the Temple on its hill' or soften the closing sentence so they agree. (PS.47.6: \"עָלָה אֱלֹהִים בִּתְרוּעָה\" (no destination stated).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:32:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[should_fix] Change the literal to 'Sing praises [to] God, sing praises; sing praises to our king, sing praises.' (or 'Sing praises God' without the vocative commas), and gloss pos 2 as '[to] God'. (PS.47.7: \"זַמְּרוּ אֱלֹהִים זַמֵּרוּ\"; Radak: \"זמרו אלהים. כמו לאלהים\"; Metzudat David: \"זמרו לאלהים\"; KJV 47:6 \"Sing praises to God\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:33:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.47.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T13:29:44+00:00",
+   "agent_notes": [
+    "עַם אֱלֹהֵי אַבְרָהָם is ambiguous: 'together with the people of Abraham's God' (YLT, BBE) or 'as the people of Abraham's God' (ASV). The Hebrew has no preposition, so the literal layer leaves it bare and the dramatic layer takes the 'as' reading, which is the one the Targum, Radak and Meiri support. The text is not certain here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T13:31:52+00:00",
+     "note": "[consider] Consider 'God has become king over nations; God has sat down on the throne of his holiness' in the literal, or say in the commentary why the present is kept. (PS.47.9: \"מָלַךְ אֱלֹהִים ... יָשַׁב\" (qal perfects); YLT 47:8: \"God hath reigned over nations, God hath sat\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.47.4] יַדְבֵּר is read as a hiphil of דבר II 'to lead, subdue' (as Ibn Ezra, Radak and Metzudat Zion take it). Rashi and the Targum read it as 'put a plague (dever) on' the nations, which is why the Targum has 'kill'. The five English versions split between 'subdue' and YLT 'leadeth'; I kept 'subdues' in the literal layer.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T13:32:45+00:00"
+  },
+  {
+   "note": "[verse.en:PS.47.9] עַם אֱלֹהֵי אַבְרָהָם is ambiguous: 'together with the people of Abraham's God' (YLT, BBE) or 'as the people of Abraham's God' (ASV). The Hebrew has no preposition, so the literal layer leaves it bare and the dramatic layer takes the 'as' reading, which is the one the Targum, Radak and Meiri support. The text is not certain here.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T13:32:45+00:00"
+  }
+ ]
+}

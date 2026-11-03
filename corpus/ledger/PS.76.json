@@ -1,0 +1,307 @@
+{
+ "chapter_ref": "PS.76",
+ "items": {
+  "verse.en:PS.76.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "In the Hebrew numbering the superscription is verse 1 (KJV 76:0), so every later verse is one higher than the KJV number. The Septuagint adds 'against the Assyrian' to the title; that is not in the Hebrew, and I left it out."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:23:04+00:00",
+   "agent_notes": [
+    "Revised: the version comparison is corrected (KJV, ASV and Webster have 'meek', YLT 'humble', BBE 'poor'). The universal sense of 'all the humble of the earth' now stands beside Radak's and Rashi's identification of the humble with Israel (Rashi: Hezekiah and his company). The Targum's 'all the humble of the land for ever' leans universal; Metzudat David is explicitly universal."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[should_fix] Correct the version comparison (only the YLT has 'humble'; KJV and ASV have 'meek', BBE 'poor'), and present the universal sense of 'all the humble of the earth' as one reading beside Radak's and Rashi's, who take them to be Israel. (ASV (76:9): \"To save all the meek of the earth\"; Radak on Ps 76:10: \"להושיע את ישראל מהם שהם ענוי ארץ\"; Rashi: \"להושיע חזקיהו וסיעתו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "The most disputed verse of the window. תַּחְגֹּר is either 'you gird on' (wear as a belt, as KJV's margin and ASV read it) or 'you restrain' (KJV and Webster; Rashi cites a Mishnah usage from Bekhorot 37b). The Targum has the sense of 'the remnant of anger you keep back'. Layer 1 keeps 'gird on'; layer 2 lets the reader hear both. Likewise תּוֹדֶךָּ may be from ידה 'to praise' or 'to confess', with 'by force' as an added reading in Radak. I kept 'praise'. BBE is truncated in the packet ('The... will give you praise') and gave no usable text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "לַמּוֹרָא: Ibn Ezra and Meiri take it as a divine title, 'the Fearsome One' (Isa 8:13), and I follow them. I did not assign a Qere/Ketiv here, because the packet shows none."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[consider] Attribute the title reading to Meiri and to Rabbi Moshe as reported by Ibn Ezra, and give Ibn Ezra's own 'for the sake of the fear'. (Ibn Ezra on Ps 76:12: \"למורא - בעבור המורא. ורבי משה אמר: כי הוא תאר, כמו הוא מוראכם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:23:04+00:00",
+   "agent_notes": [
+    "Revised: the tie to Sennacherib now rests on Malbim, with Rashi and Metzudat David for the psalm as a whole; the Targum is no longer cited for it (its 'diminishes the haughtiness of spirit of the rulers' names no one). Radak is reported as having read the psalm of Assyria in the Michlol and, on reflection, of Gog and Magog; Meiri allows Gog and Magog as well and calls it the correct view because of the psalm before. The sense of בצר is split between 'cut off' (Ibn Ezra, from בציר, vintage) and 'restrain, diminish' (Rashi, Metzudat Zion, Meiri); I kept 'cuts off' in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[should_fix] Tie the verse to Sennacherib through Malbim (and Rashi and Metzudat David for the psalm as a whole), drop the Targum from that claim, and say that Radak, having once read it of Assyria, now reads it of Gog and Magog, as Meiri also allows. (Targum on 76:13: \"יַזְעֵר גַסוֹת רוּחֲהוֹן דְרַבְרְבָנַיָא\" (no Sennacherib); Radak: \"כבר במכלול ... פירשתי זה המזמור על מחנה אשור ... אבל עתה נראה לי ... לפרש אותו על גוג מגוג\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:10+00:00",
+     "note": "[consider] Put Radak beside Ibn Ezra for 'cut off' and note that Meiri allows both. (Meiri on 76:13: \"יבצור ר״ל ימעט ... או כמו יכרות מלשון בציר\"; Radak: \"יקטף האל יתברך ויכרית ראש נגידים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[consider] Rephrase: the verse says Elohim, as the Elohistic Psalter (Pss 42-83) generally does; YHWH appears only in v. 12. (PS.76.2: \"נוֹדָע בִּיהוּדָה אֱלֹהִים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "STEPBible glosses סֻכּוֹ as 'lair' and מְעוֹנָתוֹ as 'den', which is the animal-lair sense of both words. I glossed them 'booth' and 'dwelling' and kept the lion image in the commentary as the probable undertone. This is my own reading, so no source is cited for it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "רִשְׁפֵי־קָשֶׁת is rendered 'flashes of the bow'. Rashi, Ibn Ezra, Radak and Meiri all read the phrase as 'arrows', and Rashi explicitly separates the pe here (rafe) from the pe in 'resheph of fire' (dagesh). The five English versions agree on 'arrows'. I kept the literal 'flashes' in layer 1 for the wordplay on fire, and put 'arrows' in layer 2."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[consider] Mark the Resheph-deity polemic as a modern reading or as your own, rather than as what the line means. (Rashi, Radak, Meiri and Metzudat Zion on Ps 76:4 read רשפי קשת as arrows (\"חצים שהקשת מעופף\").)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:23:04+00:00",
+   "agent_notes": [
+    "Revised after the reviewer request. The commentary now attributes the comparative reading ('more majestic than the mountains of prey') to the KJV, Rashi and Metzudat David, and places Radak with Meiri and Malbim on the reading in which the lion comes out of the mountains of prey to hunt. The prefix מן is genuinely ambiguous; the literal layer keeps 'from' and the dramatic layer keeps both senses open."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[should_fix] In the commentary, attribute the comparative reading to the KJV, Rashi and Metzudat David, and move Radak to the 'from the mountains of prey' reading (the lion going out to hunt), with Malbim and Meiri. (Radak on Ps 76:5 (packet): \"ואתה אדיר על האויבים כמו האריה היוצא מהררי טרף לטרוף\"; the comparative is Metzudat David: \"ויותר חזק מההרים אשר בהם חיות הטורפים\" and Rashi: \"חזק מענקים טורפים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:10+00:00",
+     "note": "[consider] Drop 'LORD' from the dramatic layer (or use 'God'), and either let the line hold the 'from the mountains of prey' sense too or correct the note. (PS.76.5: \"נָאוֹר אַתָּה אַדִּיר מֵהַרְרֵי־טָרֶף\" (no divine name))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:23:04+00:00",
+   "agent_notes": [
+    "Revised: the commentary no longer claims the KJV flattens the cognate accusative (it keeps 'slept their sleep'). The point about the sleep of death rests on Meiri, who cites Jer 51:39. The gloss for אשתוללו follows Rashi and Ibn Ezra (aleph for he, a hithpolel with the t dropped) and keeps both Rashi's 'made fools of themselves' and Radak's 'were plundered'. The BBE 'wealth' is a paraphrase I did not follow."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": "[should_fix] Rewrite the sentence: the KJV keeps the cognate accusative 'slept their sleep'; then make the point about the sleep of death (Meiri, Jer 51:39) without claiming the KJV flattens it. (PS.76.6 KJV (76:5): \"they have slept their sleep\"; Hebrew נָמוּ שְׁנָתָם.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:24:10+00:00",
+     "note": "[consider] Rephrase as 'Rashi ties it to שׁוֹלָל, \"led away in folly\" (Job 12:17): they acted like fools', and credit Ibn Ezra only with the grammar of the aleph. (Rashi on 76:6: \"מוליך יועצים שולל ... והוא לשון משגה ... כשוטים שוגים\"; Ibn Ezra: \"האל\"ף תחת ה\"א התפעל כמו אתחבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [
+    "The singular נִרְדָּם governs a compound subject, 'chariot and horse'. Rashi and Meiri treat the waw of וְרֶכֶב as redundant (cf. Gen 36:24), and Ibn Ezra reads the verb as distributive. I translate 'were dead asleep, both chariot and horse' in layer 2 and keep the Hebrew construction in layer 1. YLT's 'rider' for רֶכֶב is a stretch, since the word means chariotry or the chariot team. I did not follow it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.76.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T14:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T14:21:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": [
+  {
+   "note": "Several commentators read the psalm as about Sennacherib's army in 701 BCE (Rashi, Malbim, Metzudat David, citing 2 Kgs 19:35), and others as about Gog and Magog (Radak, Ibn Ezra's report of Rabbi Moses). The text itself names neither, so the dramatic layer stays with the Hebrew's own images and puts the Assyrian reading in the commentary, where it is attributed.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-03T14:18:21+00:00"
+  }
+ ]
+}

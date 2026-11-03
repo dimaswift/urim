@@ -1,0 +1,208 @@
+{
+ "chapter_ref": "PS.99",
+ "items": {
+  "verse.en:PS.99.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [
+    "מָלָךְ is a perfect, and the verse has no verbs of being: 'YHWH reigns' can be a state ('is king') or an act ('has become king'). YLT takes it as past, KJV/ASV as present. I kept the present state in the literal layer. יִרְגְּזוּ and תָּנוּט are imperfects that can be jussive ('let them') or plain future/present ('they tremble'); KJV/ASV/BBE read a wish, YLT a fact. I glossed them as jussive in the word table and kept 'let' in the literal layer because the parallel opening of Ps 97:1 and 93:1 has no such mood, so the choice is mine."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": "[consider] Write 'that opens Psalms 93 and 97 (and is heard in 96:10)'. (PS.99.1 Radak cites the parallels \"ה' מלך תגל הארץ\" (97:1) and \"ה' מלך אף תכון תבל בל תמוט\" (93:1 / 96:10).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": "[consider] Drop 'BDB' from the sources, or leave the sources list empty for those standard lexical notes. (PS.99.3, 99.4, 99.7 packet commentaries: Rashi, Ibn Ezra, Radak, Meiri, Metzudat David/Zion, Malbim, Targum; no BDB.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [
+    "The verse is syntactically hard. 'And the strength of a king loves justice' (עֹז as subject, אָהֵב as perfect) is the plain reading; KJV/ASV follow it. Rashi takes 'strength' as God's own, tied to 'the Most High' of the previous psalm. I translated literally and kept the doubled 'you' (אַתָּה … אַתָּה), which YLT also keeps. Rashi's reading of מֵישָׁרִים as 'compromise, peace between people' is quoted as his, not adopted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:03:05+00:00",
+   "agent_notes": [
+    "Revised after the review: literal layer and gloss 11 now render the imperfect יַעֲנֵם as habitual ('he would answer them'), matching the participle 'calling' before it. The commentary no longer ranks YLT above the others; it says the past is also defensible (the imperfect after a participle can be past-habitual), as in KJV/ASV, and that the habitual sense is the one the Hebrew grammar suggests.",
+    "בכהניו: STEPBible glosses 'among priests his'; I keep the preposition ב as 'among' (in the company of). Moses as 'priest' rests on Exod 24 and the seven days of ordination (Lev 8), which Ibn Ezra and Radak cite; the Psalm itself does not say it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": "[should_fix] Make the two agree. Either render the literal layer and gloss 11 as habitual ('and he answers them' / 'and he would answer them'), or soften the commentary to say that the imperfect after a participle can be past-habitual, so the past is defensible, and drop the claim that YLT is better. (PS.99.6: \"קֹרִאים אֶל־יְהוָה וְהוּא יַעֲנֵם\" (participle + imperfect, HVqi3ms); literal: \"calling to YHWH, and he answered them\"; commentary: \"so it describes a habit, and YLT's 'doth answer' catches that better\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:03:58+00:00",
+     "note": "[consider] Attribute the forgiveness reading to Meiri alone, or say that Metzudat David makes a related point on verse 8. (PS.99.6 Meiri: \"הוצרכו למחילה, אהרן במעשה העגל ומשה ואהרן במי מריבה ושמואל...\"; Metzudat David on 99:6 only: \"ראו גודל קדושתו ... ושמואל היה מהגדולים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [
+    "The singular 'he spoke' and the plural 'to them' have no stated antecedent. Ibn Ezra and Radak refer them to Moses and Aaron; Rashi and Meiri (citing a midrash) extend the cloud to Samuel (1 Sam 9:11-12). The 'testimonies' and 'decree' follow in the perfect. Nothing in the Hebrew narrates a cloud for Samuel, so the dramatic layer keeps the pronoun vague."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": "[consider] Either attribute the 'only to them' reason to yourself, or give Ibn Ezra's own argument (the pronoun refers to only part of the list, like Joab in 1 Kgs 2:5). (PS.99.7 Ibn Ezra: \"ישוב אל משה ואהרן ואין שמואל עמהם, כמו וישם דמי מלחמה בשלום, שב אל יואב לבדו\"; Radak: \"טעמו על משה ואהרן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.8": {
+   "status": "draft",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:04:43+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary no longer says 'for the first time in the psalm'. It says that after the third-person narrative of vv. 6-7 the psalm returns to addressing God as 'you', as in vv. 3-4.",
+    "STEPBible glosses אֵל as 'a God' and נֹשֵׂא as 'forgiving'. I kept 'forgiving' in the gloss and the dramatic layer, and used 'lifting [up sin]' in the literal layer to show the root. The five English versions split on 'inventions' (KJV, Webster), 'doings' (ASV), 'actions' (YLT) and 'wrongdoing' (BBE) for עֲלִילוֹתָם. I chose 'deeds', the neutral sense of the word, which can be bad or good depending on context.",
+    "Who 'them' and the avenged 'deeds' are is disputed. Rashi, Ibn Ezra, Radak and Metzudat David read the deeds as the sins of the people or of Moses, Aaron and Samuel; Ibn Ezra and Radak link the vengeance to Korah's party. The Hebrew does not say, and I left the referents open in the translations and gave both readings in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": "[should_fix] Split the last sentence into two readings. (1) Rashi and Metzudat David: the leaders themselves were punished (Meribah, Num 20:10-12; Samuel's sons, 1 Sam 8:3). (2) Radak and Ibn Ezra: God took vengeance on Korah's company for their deeds against Moses and Aaron. Do not say the Korah case shows the leaders paying. (PS.99.8 Radak: \"ונוקם על עלילותם. על העלילות שעשו להם קרח וכל עדתו\"; Ibn Ezra: \"ונוקם על עלילותם - בדבר השרופים והבלועים\"; Rashi and Metzudat David: Moses and Aaron at Meribah, Samuel and his sons.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-03T15:03:58+00:00",
+     "note": "[should_fix] Drop 'for the first time in the psalm' and say instead that after the third-person narrative of vv. 6-7 the psalm returns to addressing God as 'you', as it did in vv. 3-4. (PS.99.3: \"יוֹדוּ שִׁמְךָ\" ('your name'); PS.99.4: \"אַתָּה כּוֹנַנְתָּ מֵישָׁרִים ... אַתָּה עָשִׂיתָ\". PS.99.8 commentary: \"The speaker turns from \\\"he\\\" to \\\"you\\\" for the first time in the psalm.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "draft",
+     "at": "2026-11-03T15:05:30+00:00",
+     "note": "Escalated: still disputed after the last round. [should_fix] In the third paragraph, replace 'Rashi and Ibn Ezra think of Moses and Aaron…' with 'Rashi and Metzudat David think of Moses and Aaron…'. Keep Ibn Ezra only with Radak on Korah's party, and adjust the following sentence about Metzudat David so it is not repeated. (PS.99.8 Ibn Ezra: \"ונוקם על עלילותם - בדבר השרופים והבלועים\"; Rashi: \"משה ואהרן 'שמעו נא המורים' ... שמואל על שלא הדריך בניו\"; Metzudat David: \"משה ואהרן מתו על מי מריבה ושמואל לא האריך ימים על אשר לא הדריך את בניו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.99.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-03T15:00:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-03T15:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  }
+ },
+ "notes": []
+}
