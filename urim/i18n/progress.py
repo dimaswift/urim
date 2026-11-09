@@ -11,6 +11,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
+from urim.canon import parse_ref
 from urim.i18n.messages import english
 from urim.ir.load import read_model
 from urim.ir.models import I18nBundleIR
@@ -44,7 +45,7 @@ def language_progress(corpus: Path, lang: str) -> dict[str, Any]:
     files = CorpusFiles(corpus)
     bundle = read_model(corpus / "i18n" / lang / "_bundle.json", I18nBundleIR)
     chapters = []
-    for ch in files.chapters():
+    for ch in _chapters(corpus, files):
         led = load_ledger(corpus, ch)
         chapters.append(
             {
@@ -67,6 +68,13 @@ def language_progress(corpus: Path, lang: str) -> dict[str, Any]:
         | {"namespaces": {ns: counts(states) for ns, states in sorted(by_ns.items())}},
         "bundle": counts(bundle_states(corpus, lang)),
     }
+
+
+def _chapters(corpus: Path, files: CorpusFiles) -> list[str]:
+    """Chapters with something to translate, in canonical order: those with events, and those
+    with English verses only (the Psalms have no events)."""
+    verses_only = (p.stem for p in (corpus / "i18n" / "en").glob("*.json") if p.stem[0] != "_")
+    return sorted({*files.chapters(), *verses_only}, key=lambda c: parse_ref(f"{c}.1")[1].ordinal)
 
 
 def all_progress(corpus: Path) -> list[dict[str, Any]]:

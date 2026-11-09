@@ -12,7 +12,7 @@ import pytest
 from urim.config import load_paths
 from urim.i18n.messages import Translator, english, plural_categories, plural_category
 from urim.i18n.progress import language_progress
-from urim.ir.models import BookName, VerseText
+from urim.ir.models import BookName, I18nChapterIR, VerseText
 from urim.workbench import gold
 from urim.workbench.fragments import (
     BundleTexts,
@@ -308,6 +308,21 @@ def test_progress_counts_a_languages_work(paths):
     }
     assert progress["interface"]["total"] == len(english())
     assert progress["bundle"]["total"] > 0 and progress["lang_name"] == "Русский"
+
+
+def test_progress_counts_chapters_that_have_only_verses(paths):
+    """The Psalms have no events, so no core file; their verses still have to be translated."""
+    verse = VerseText(
+        verse_id="PS.1.1",
+        translation_literal="literal",
+        translation_dramatic="dramatic",
+        directors_commentary="commentary",
+    )
+    psalm = I18nChapterIR(chapter_ref="PS.1", verses=[verse])
+    (paths.corpus / "i18n" / "en" / "PS.1.json").write_text(psalm.model_dump_json())
+    rows = language_progress(paths.corpus, "ru")["chapters"]
+    assert [r["chapter"] for r in rows] == ["1KGS.17", CH, "PS.1"]  # canonical order
+    assert rows[-1]["verses"]["missing"] == 1 and rows[-1]["texts"]["total"] == 0
 
 
 def test_the_review_app_serves_translations_and_progress(paths):
