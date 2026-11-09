@@ -360,6 +360,387 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.90.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:26+00:00",
+   "agent_notes": [
+    "Убрано утверждение о сдвиге нумерации: в стихе 1 счёт KJV совпадает с ивритским, речь только о заглавии, которое KJV печатает отдельной строкой."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] Replace «так что нумерация KJV во всём псалме сдвинута на единицу» with a plain statement such as «но счёт стихов от этого не меняется: стих 1 и в KJV начинается с «Господи»». Do not claim a shift across the psalm. (PS.90.1 English: \"so the KJV numbers are one off for the whole psalm in the first verse\"; KJV 90:1 'Lord, thou hast been our dwelling place' and 90:17 'establish thou the work of our hands' match the Hebrew numbering.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0b5bfeed3fa3"
+  },
+  "verse.ru:PS.90.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [
+    "rahbam — «спесь» (не «самая лучшая пора» Синодального): так сохранён горький оттенок корня «чваниться»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f40efa47978d"
+  },
+  "verse.ru:PS.90.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[consider] Quote «по мере страха Твоего» exactly. (Synodal Ps 89:11: «Кто знает силу гнева Твоего, и ярость Твою по мере страха Твоего?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d99af58465e7"
+  },
+  "verse.ru:PS.90.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [
+    "Комментарий упоминает числовую игру kaf-nun = 70 (Раши); в русском она не воспроизводима, оставлена как сообщение об иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cdce07c7c428"
+  },
+  "verse.ru:PS.90.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:44+00:00",
+   "agent_notes": [
+    "Комментарий: фраза про KJV теперь передаёт английское «let it repent thee» как цитату из KJV и даёт её смысл («да раскаешься Ты», буквально «пусть Тебе станет жаль»); итоговое замечание о Синодальном «умилосердись» сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] In the directors_commentary, replace «Да умилосердится над тобой» (KJV: «let it repent thee») звучит по-старинному with a faithful rendering such as: Старинное «let it repent thee» в KJV («да раскаешься Ты», буквально «пусть Тебе станет жаль») звучит странно. That keeps the 'repent / каяться' point the paragraph builds on. (PS.90.13 English commentary: \"The KJV's 'let it repent thee' is the quaint part. 'Repent' in 1611 meant 'feel regret and change course'…\"; KJV 90:13 \"let it repent thee concerning thy servants\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f81e2550aca7"
+  },
+  "verse.ru:PS.90.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:41+00:00",
+   "agent_notes": [
+    "chesed в комментарии оставлено как «верность завету»; Синодальный перевод, как и KJV, выбирает «милость», и это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[consider] Use one form for sources across the chapter, preferably the packet's English citation. (PS.90.14 note sources: \"Раши на Псалмы 90:14\"; PS.90.1: \"Rashi on Psalms 90:1\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "27c780c49a84"
+  },
+  "verse.ru:PS.90.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[consider] Quote the Synodal wording exactly («за дни, в которые… за лета, в которые…»). (Synodal Ps 89:15: «Возвесели нас за дни, в которые Ты поражал нас, за лета, в которые мы видели бедствие».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d18f07d6493"
+  },
+  "verse.ru:PS.90.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b5ca583da83"
+  },
+  "verse.ru:PS.90.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:44+00:00",
+   "agent_notes": [
+    "Комментарий: Синодальный перевод процитирован точно («в деле рук наших споспешествуй нам»); сказано, что глагол кун передан как «помогать, давать успех» и что «нам» сохраняет аленю, теряя образ прочного основания. Придуманная формулировка убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («в деле рук наших споспешествуй нам») and say that it renders the verb kun as 'help, give success' and keeps «нам» for 'alenu, losing the image of setting firm. Do not put invented wording in quotation marks. (Synodal Ps 89:17: «И да будет благоволение Господа Бога нашего на нас, и в деле рук наших споспешествуй нам, в деле рук наших споспешествуй». PS.90.17 Hebrew: וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": "[consider] If the English dramatic layer is revised to 'upon us' or 'for us', follow it with «для нас» or «на нас» instead of «у нас под ногами». (PS.90.17: כּוֹנְנָה עָלֵינוּ, KJV 'establish thou the work of our hands upon us')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4197e60e8a05"
+  },
+  "verse.ru:PS.90.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:26+00:00",
+   "agent_notes": [
+    "Перекрёстная отсылка к Пс 51:7 дана как «в беззаконии я рождён» (холалти); отмечено, что Синодальное «зачат» тоже скрывает глагол рождения."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] Render the cross-reference as «в беззаконии я рождён» (холалти). If you keep the Synodal «зачат», add that the Synodal there hides the birth verb too. (PS.90.2 English: \"it is the verb in Metzudat Zion's cross-reference to Psalm 51, 'in iniquity I was brought forth', hololti\"; Ps 51:7 Hebrew הֵן־בְּעָווֹן חוֹלָלְתִּי וּבְחֵטְא יֶחֱמַתְנִי אִמִּי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2faf2f516111"
+  },
+  "verse.ru:PS.90.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [
+    "dakka' — «раздавленное [состояние]» в буквальном слое, «растёртый в прах» в драматическом; Синодальный «в тление» — такая же абстракция, как KJV «destruction». Игру tashev / shuvu передаёт пара «Ты возвращаешь» / «возвратитесь»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d6d23feea9e"
+  },
+  "verse.ru:PS.90.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e76dd5940c43"
+  },
+  "verse.ru:PS.90.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:26+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно (Пс 89:5); отмечено, что он тоже добавляет «как наводнением» и читает яхалоф как «вырастает», а не «расцветает»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Ты как наводнением уносишь их; они — как сон, как трава, которая утром вырастает»). Say that it too adds «как наводнением» and takes yachalof as 'grows up' («вырастает»), not 'blossoms'. (Synodal Ps 89:5: «Ты как наводнением уносишь их; они — как сон, как трава, которая утром вырастает». English commentary: \"The KJV and ASV 'as with a flood' adds a simile the Hebrew has not got\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "548e2c744865"
+  },
+  "verse.ru:PS.90.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c601f5b4f51f"
+  },
+  "verse.ru:PS.90.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5da9beda8fe1"
+  },
+  "verse.ru:PS.90.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:54:26+00:00",
+   "agent_notes": [
+    "Исправлена фраза «где Бог не может их не увидеть»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": "[should_fix] Change to «так что грехи поставлены там, где Бог не может их не увидеть». (PS.90.8 English: \"so the sins are set where God cannot fail to see them\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:55:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d43cfe67ec5"
+  },
+  "verse.ru:PS.90.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:26+00:00",
+   "agent_notes": [
+    "hegeh — «вздох»; Синодальный «как звук» ближе к плоскому смыслу, чем KJV «tale», но тоже не называет вздох."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "376bcca8e0df"
   }
  },
  "notes": [

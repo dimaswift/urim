@@ -1,6 +1,139 @@
 {
  "chapter_ref": "GEN.50",
  "items": {
+  "causal.ru:caus.gen_49.burial_charge.burial_at_machpelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef92628a8fb9"
+  },
+  "causal.ru:caus.gen_49.burial_charge.petition_to_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df31ffe73bf6"
+  },
+  "causal.ru:caus.gen_49.jacob_dies.brothers_plead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "575f8400ecd1"
+  },
+  "causal.ru:caus.gen_49.jacob_dies.embalming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de114ce15e36"
+  },
+  "causal.ru:caus.gen_49.jacob_dies.joseph_weeps": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "280e5120fb67"
+  },
+  "causal.ru:caus.gen_50.brothers_plead.joseph_reassures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "89e5462b1c18"
+  },
+  "causal.ru:caus.gen_50.petition_to_pharaoh.funeral_procession": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "760577342512"
+  },
   "causal:caus.gen_49.burial_charge.burial_at_machpelah": {
    "status": "approved",
    "produced_by": {
@@ -193,6 +326,158 @@
    ],
    "source": null
   },
+  "component.ru:comp.children_of_israel.bones_oath.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": "[consider] Consider «Связаны клятвой вынести кости Иосифа» or «Поклялись вынести кости Иосифа» for label_value. (GEN.50.25: «И заклял Иосиф сынов Израилевых... вынесите кости мои отсюда»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cdcb82610787"
+  },
+  "component.ru:comp.israel.remains.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10c82d3d9922"
+  },
+  "component.ru:comp.israel.remains.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10c704a645c3"
+  },
+  "component.ru:comp.joseph.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "69ccbbaa2437"
+  },
+  "component.ru:comp.joseph.remains.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59bc5a97e62a"
+  },
+  "component.ru:comp.joseph_brothers.mood.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36b0943421ec"
+  },
+  "component.ru:comp.joseph_brothers.mood.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7826df552999"
+  },
+  "component.ru:comp.joseph_brothers.serves.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0cc612fb2de7"
+  },
   "component:comp.children_of_israel.bones_oath.1": {
    "status": "approved",
    "produced_by": {
@@ -349,6 +634,158 @@
    ],
    "source": null
   },
+  "edge.ru:edge.gen_50.brothers_plead_with_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d78320c339a9"
+  },
+  "edge.ru:edge.gen_50.joseph_adjures_israelites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "37b27d8f8237"
+  },
+  "edge.ru:edge.gen_50.joseph_comforts_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f744794133a"
+  },
+  "edge.ru:edge.gen_50.joseph_commands_physicians": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8fa45c059e69"
+  },
+  "edge.ru:edge.gen_50.joseph_mourns_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dee5ad4402ce"
+  },
+  "edge.ru:edge.gen_50.joseph_provides_for_brothers": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "269f1a62506c"
+  },
+  "edge.ru:edge.gen_50.pharaoh_permits_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "50da1124114d"
+  },
+  "edge.ru:edge.gen_50.sons_bury_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e0873bf92d5"
+  },
   "edge:edge.gen_50.brothers_plead_with_joseph": {
    "status": "approved",
    "produced_by": {
@@ -500,6 +937,183 @@
     }
    ],
    "source": null
+  },
+  "entity.ru:artifact.coffin_of_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [
+    "В Синодальном переводе иврит ʼarōn передан как «ковчег» (GEN.50.26), как и Ковчег завета; в тексте оставлено «Гроб Иосифа», чтобы современный читатель не принял его за ковчег Ноя, а «ковчег» дано среди других названий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc5ec0e745d4"
+  },
+  "entity.ru:group.chariots_and_horsemen": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": "[consider] Consider «отчего сонм становится весьма великим» in summary_bio and «Рехев у-Парашим» or «Рехев Парашим» as phonetic_name. (GEN.50.9: «С ним отправились также колесницы и всадники, так что сонм был весьма велик»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "074ee45802c4"
+  },
+  "entity.ru:group.children_of_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd0bd9d9be15"
+  },
+  "entity.ru:group.descendants_of_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "635af943d2e5"
+  },
+  "entity.ru:group.elders_of_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec408dfea2c1"
+  },
+  "entity.ru:group.household_of_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "03eaccdef47c"
+  },
+  "entity.ru:group.physicians_of_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [
+    "«Врачи» — как в Синодальном (50:2): врачи, бальзамировавшие Израиля."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d8fbcef5b450"
+  },
+  "entity.ru:loc.atad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [
+    "Синодальный перевод пишет «Горен-гаатад» (Горен — «гумно», ха-Атад — «Атад»), а название, данное хананеями, передаёт как «плач Египтян». Каноническое имя оставлено «Горен-гаатад», «Авел-Мицраим» дано среди других названий, чтобы сохранить игру слов авель («луг»/«плач»), которой в синодальном тексте нет."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f89c0d592ca"
+  },
+  "entity.ru:person.machir": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f07e2c5d5bc"
   },
   "entity:artifact.coffin_of_joseph": {
    "status": "approved",
@@ -683,6 +1297,255 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_50.brothers_plead": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2bde5cee8a12"
+  },
+  "event.ru:evt.gen_50.burial_at_machpelah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4977aee6dc68"
+  },
+  "event.ru:evt.gen_50.egypt_mourns": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e07fac2f8244"
+  },
+  "event.ru:evt.gen_50.embalming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e8925c1044ea"
+  },
+  "event.ru:evt.gen_50.funeral_procession": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "863d05fe9256"
+  },
+  "event.ru:evt.gen_50.joseph_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [
+    "«Гроб» вместо синодального «ковчег»: так яснее для современного читателя; слово «ковчег» — в названии сущности и в её описании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e4b9cf9dd644"
+  },
+  "event.ru:evt.gen_50.joseph_dwells_in_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b83d762bf203"
+  },
+  "event.ru:evt.gen_50.joseph_last_words": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a3ddb53a82cf"
+  },
+  "event.ru:evt.gen_50.joseph_reassures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4974a207f453"
+  },
+  "event.ru:evt.gen_50.joseph_weeps": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0282c9806f03"
+  },
+  "event.ru:evt.gen_50.lament_at_atad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "550431f8ccb4"
+  },
+  "event.ru:evt.gen_50.petition_to_pharaoh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e04ed3f650f"
+  },
+  "event.ru:evt.gen_50.return_to_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "db7a211d5910"
   },
   "event:evt.gen_50.brothers_plead": {
    "status": "approved",
@@ -1209,6 +2072,158 @@
    ],
    "source": null
   },
+  "instance.ru:inst.gen_50.brothers_obeisance": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bd40dcf02b09"
+  },
+  "instance.ru:inst.gen_50.burial_of_israel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4e34b453088a"
+  },
+  "instance.ru:inst.gen_50.egypt_mourning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc6e1e42cbb2"
+  },
+  "instance.ru:inst.gen_50.good_from_evil": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ae7068d056e"
+  },
+  "instance.ru:inst.gen_50.israel_embalmed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2466281597f2"
+  },
+  "instance.ru:inst.gen_50.joseph_embalmed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3abd3fdd4f61"
+  },
+  "instance.ru:inst.gen_50.lament_at_atad": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c122cac7c7e7"
+  },
+  "instance.ru:inst.gen_50.oath_for_bones": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e60d31a93df"
+  },
   "instance:inst.gen_50.brothers_obeisance": {
    "status": "approved",
    "produced_by": {
@@ -1362,6 +2377,25 @@
     }
    ],
    "source": null
+  },
+  "system.ru:sys.embalming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:37:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:38:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c40256973c5"
   },
   "system:sys.embalming": {
    "status": "approved",

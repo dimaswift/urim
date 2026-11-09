@@ -198,6 +198,192 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.82.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:01+00:00",
+   "agent_notes": [
+    "В Синодальном переводе этот псалом стоит под номером 81, а надписание не входит в стих 1 (Синодальный: «Бог стал в сонме богов; среди богов произносит суд»). Здесь сохранена еврейская нумерация, как во всём корпусе. Эль в «собрании Эля» оставлен именем собственным (Синодальный: «в сонме богов»), чтобы был виден отзвук божественного совета."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": "[consider] Either use «стоит» in the literal or reword the note; say the Synodal «в сонме богов» turns 'Эль' into 'боги' rather than into a modifier. (PS.82.1: «אֱלֹהִים נִצָּב בַּעֲדַת־אֵל»; ru literal: «Элохим стал [на место своё] в собрании Эля»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "423a9d533479"
+  },
+  "verse.ru:PS.82.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:01+00:00",
+   "agent_notes": [
+    "Идиому «поднимать лица» передаю как «возвышать лица» в буквальном слое и пояснением в комментарии; Синодальный: «оказывать лицеприятие нечестивым»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ce7a408530c"
+  },
+  "verse.ru:PS.82.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:31+00:00",
+   "agent_notes": [
+    "Комментарий о Синодальном переводе переписан по замечанию рецензента: «давайте суд бедному» сохраняет зал суда, «оказывайте справедливость» размывает провозглашение невиновности, «оправдайте» вернее передаёт «хацдику»; «защищайте» убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": "[should_fix] Rewrite the Synodal sentence in the commentary: «Синодальное „давайте суд бедному“ сохраняет зал суда, но „оказывайте справедливость“ превращает провозглашение невиновности в расплывчатую справедливость; „оправдайте“ вернее передаёт „хацдику“». Drop «защищайте». (PS.82.3 (Синодальный, Пс 81:3): «Давайте суд бедному и сироте; угнетенному и нищему оказывайте справедливость»; Hebrew: «שִׁפְטוּ־דַל וְיָתוֹם ... הַצְדִּיקוּ»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9a8e378e0df0"
+  },
+  "verse.ru:PS.82.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:31+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно («избавляйте бедного и нищего; исторгайте его из руки нечестивых») и признано, что «исторгайте» сохраняет силу еврейского «хацилу»; прежнее утверждение об «отвлечённом избавлении» снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («избавляйте бедного и нищего; исторгайте его из руки нечестивых») and either say it keeps the force of the Hebrew or drop the comparison; do not claim it is an abstract deliverance. (PS.82.4 (Синодальный, Пс 81:4): «избавляйте бедного и нищего; исторгайте его из руки нечестивых»; Hebrew: «מִיַּד רְשָׁעִים הַצִּילוּ»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:39:07+00:00",
+     "note": "[consider] Optionally keep a short clause that the Hebrew itself is plain and violent after the Synodal comparison. (PS.82.4: «מִיַּד רְשָׁעִים הַצִּילוּ»; English commentary: \"the Hebrew is plain and violent\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ee2fa00416d"
+  },
+  "verse.ru:PS.82.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:31+00:00",
+   "agent_notes": [
+    "Ссылка «Пс 17:16» заменена на «Пс 18:16 (в Синодальном 17:16)»: в главе принята еврейская нумерация."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": "[should_fix] Change «Пс 17:16» to «Пс 18:16» (Hebrew numbering, as elsewhere in the chapter), or write «Пс 18:16 (в Синодальном 17:16)». (English note on PS.82.5: \"a standard image (Ps 18:16, Prov 8:29, Isa 24:18)\"; Russian: «(Пс 17:16, Притч 8:29, Ис 24:18)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d059ec74d344"
+  },
+  "verse.ru:PS.82.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:01+00:00",
+   "agent_notes": [
+    "«Вы — боги, и сыны Всевышнего все вы» (Синодальный: «Я сказал: вы — боги, и сыны Всевышнего — все вы»). Для 'Элйон' взято «Всевышний» по Синодальному переводу."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e146f547818c"
+  },
+  "verse.ru:PS.82.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:01+00:00",
+   "agent_notes": [
+    "Синодальный: «Но вы, как человеки, умрёте и, как один из князей, падёте». Для 'адам' в комментарии и заметках оставлено «Адам / человек» — две традиции чтения в самом тексте."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6eb6d52167fa"
+  },
+  "verse.ru:PS.82.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:01+00:00",
+   "agent_notes": [
+    "В комментарии про Втор 32:8–9 в Синодальном переводе стоит «по числу сынов Израилевых» (масоретский текст), а Кумранские свитки и Септуагинта читают «по числу сынов Божиих»; перевод сохраняет это уточнение."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "15136fbdfeff"
   }
  },
  "notes": [

@@ -207,7 +207,231 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.3.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:17+00:00",
+   "agent_notes": [
+    "В Синодальном переводе надписание тоже стоит как стих 1, так что нумерация совпадает с еврейской (в отличие от KJV)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "037a370512da"
+  },
+  "verse.ru:PS.3.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[consider] «…а не как молитву — пока ещё нет». (English PS.3.2 commentary: \"Say it as a complaint addressed to God by name, not a prayer yet.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "872bbc6ef9b0"
+  },
+  "verse.ru:PS.3.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:17+00:00",
+   "agent_notes": [
+    "«Села» оставлено транслитерацией, как в Синодальном переводе; в буквальном слое и в переводе для чтения вслух это пометка, а не слово."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[consider] Quote it as «нет ему спасения в Боге». (Synodal Пс 3:3: «многие говорят душе моей: \"нет ему спасения в Боге\"»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "da9746b30429"
+  },
+  "verse.ru:PS.3.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "248fe4105384"
+  },
+  "verse.ru:PS.3.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[consider] Say that the KJV 'he heard me' reads the answer as already given, while the Synodal «слышит» keeps it in the present. (Synodal Пс 3:5: «и Он слышит меня со святой горы Своей»; PS.3.5: \"וַיַּעֲנֵנִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "76cdd32253db"
+  },
+  "verse.ru:PS.3.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:13:49+00:00",
+   "agent_notes": [
+    "Синодальный («Ложусь я, сплю и встаю») передаёт три совершенных глагола настоящим временем; в комментарии это сказано, а буквальный слой сохраняет прошедшее."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[should_fix] Rewrite the sentence: «I laid me down» (KJV) — старинное «я лёг»; «me» в еврейском тексте нет. If the Synodal is kept, quote it exactly («Ложусь я, сплю и встаю») and say what it does: it renders the three perfects in the present tense. (PS.3.6: \"אֲנִי שָׁכַבְתִּי וָאִישָׁנָה הֱקִיצוֹתִי\"; Synodal Пс 3:6: «Ложусь я, сплю и встаю, ибо Господь защищает меня»; English: \"The KJV 'I laid me down' is old English for 'I lay down'; 'me' is not in the Hebrew.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59749c9c0794"
+  },
+  "verse.ru:PS.3.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:13:49+00:00",
+   "agent_notes": [
+    "Синодальное «тем» — славянская «тьма», то есть десять тысяч; пояснено в комментарии. Транслитерация «шату» исправлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[should_fix] In the directors_commentary replace «шаму, от шит» with «шату, от шит». Quote the Synodal exactly as «Не убоюсь тем народа, которые со всех сторон ополчились на меня» (тьмы = десятки тысяч), and drop the unattributed «Десятков тысяч народа, которые ополчились» before it. (PS.3.7: \"לֹא־אִירָא מֵרִבְבוֹת עָם אֲשֶׁר סָבִיב שָׁתוּ עָלָי\"; English commentary: \"shatu, from shit, 'to place'\"; Synodal Пс 3:7: «Не убоюсь тем народа, которые со всех сторон ополчились на меня»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e3c5424d1bb"
+  },
+  "verse.ru:PS.3.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:13:49+00:00",
+   "agent_notes": [
+    "Синодальное «в ланиту» смягчает еврейское лехи («челюсть»); в литературном слое оставлено «по челюсти»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[should_fix] Replace «Поразил в щёку» (Синодальный; ...) with «Поражаешь в ланиту» (Синодальный; KJV: «smitten upon the cheek bone») смягчает и архаизирует «челюсть». (PS.3.8: \"כִּי־הִכִּיתָ אֶת־כָּל־אֹיְבַי לֶחִי\"; Synodal Пс 3:8: «ибо Ты поражаешь в ланиту всех врагов моих; сокрушаешь зубы нечестивых»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7d1f0229b0fb"
+  },
+  "verse.ru:PS.3.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:06+00:00",
+   "agent_notes": [
+    "По просьбе рецензента в буквальном слое «[да будет]» заменено на «[есть]», как в английском «[is]» и в комментарии: стих у Бога не пожелание, а утверждение.",
+    "В пакете строка RusSynodal относится к другому стиху; цитату Синодального перевода в комментарии («От Господа спасение. И на народе Твоём благословение Твоё») я оставил как есть."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:12:50+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: («От Господа спасение. И на народе Твоём благословение Твоё»). (PS.3.9: \"עַל־עַמְּךָ בִרְכָתֶךָ\"; Synodal Пс 3:9: «От Господа спасение. И на народе Твоем благословение Твое»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:34+00:00",
+     "note": "[should_fix] In translation_literal replace «на народе Твоём [да будет] благословение Твоё» with «на народе Твоём [есть] благословение Твоё» (or drop the bracket), so it matches the English '[is]' and the commentary. (PS.3.9: \"עַל־עַמְּךָ בִרְכָתֶךָ\" (no verb); English literal: \"upon your people [is] your blessing\"; ru commentary: «„да будет“ у ASV превращает стих в пожелание, чего еврейский текст не требует»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:39+00:00",
+     "note": "[consider] When the Synodal text can be checked, quote it exactly («От Господа спасение. Над народом Твоим благословение Твоё.»). (PS.3.9: \"עַל־עַמְּךָ בִרְכָתֶךָ\"; Synodal Пс 3:9 (from memory): «От Господа спасение. Над народом Твоим благословение Твоё.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5feb39b7fbc2"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.3.1–9 не относятся к Псалму 3 (это текст из Товита: Сарра, Асмодей и т. д.), поэтому я не опирался на них. Ссылки на Синодальный перевод в комментариях даны по моему знанию синодального текста Пс 3 и требуют сверки.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:11:17+00:00"
+  }
+ ]
 }

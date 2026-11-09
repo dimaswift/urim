@@ -397,6 +397,432 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.45.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Spell the name «Меири», as in the other Russian chapters. (PS.45.1 commentary: «Мейри понимает её как…»; PS.45.13: «(Меири, Мальбим)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": "[consider] If the verse is touched again, quote the Synodal heading as it reads («На Шошанниме… Песнь любви») or drop the sentence. (PS.45.1 (Синод. Пс 44:1, по памяти): «Начальнику хора. На Шошанниме. Учение. Сынов Кореевых. Песнь любви.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f865f9b6f137"
+  },
+  "verse.ru:PS.45.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:12+00:00",
+   "agent_notes": [
+    "«шегаль» передано как «царица» (Синодальный) с «супруга-царица» в буквальном слое; «ибн Эзра и Радак» выводят слово из корня «лежать с»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f92e2a0c8ef4"
+  },
+  "verse.ru:PS.45.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36eb200d6c47"
+  },
+  "verse.ru:PS.45.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Change «множественное числа величия» to «множественное число величия». (PS.45.12 commentary: «Адонайих» — множественное числа величия)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c2662270f90"
+  },
+  "verse.ru:PS.45.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:22:48+00:00",
+   "agent_notes": [
+    "В Синодальном переводе «дочь Тира» читается как «дочь Тира с дарами»; в буквальном слое сохранено «дочь Тира» как личное олицетворение города. Глагол «смягчат лицо» (хилла паним) передан дословно, «умолять» из Синодального вынесено в комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[consider] Quote the Synodal exactly: «И дочь Тира с дарами, и богатейшие из народа будут умолять лице твое». (Синод. Пс 44:13: «И дочь Тира с дарами, и богатейшие из народа будут умолять лице твое»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "628ffab65ef9"
+  },
+  "verse.ru:PS.45.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:22:48+00:00",
+   "agent_notes": [
+    "Синодальное «Вся слава дочери царя — внутри» соответствует прочтению KJV; в комментарии добавлено одно предложение об этом. «Оправы» для мишбецот выбрано ради связи с эфодом (Исх 28)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[consider] Quote «Вся слава дщери Царя внутри» and add that the Synodal, like the reading the commentary rejects, takes the word as the noun «слава». (PS.45.14: כָּל־כְּבוּדָּה (HAcfsa); Синод. Пс 44:14: «Вся слава дщери Царя внутри; одежда ее шита золотом»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21656620f580"
+  },
+  "verse.ru:PS.45.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:20+00:00",
+   "agent_notes": [
+    "Ссылка на Пс 68:30 в примечании к תּוּבַל дана как в английском, с синодальной нумерацией в скобках (Синод. 67:31)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Write «Пс 68:30» in the note on תּוּבַל, as in the English (optionally add «Синод. 67:31» in brackets). (English note on תּוּבַל: \"(Isa 18:7, Ps 68:30)\"; ru: «(Ис 18:7, Пс 67:30)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "86f6f99eb335"
+  },
+  "verse.ru:PS.45.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:20+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено дословной цитатой Синодального перевода («приводятся с весельем и ликованием, входят в чертог Царя»), настоящее время, как у еврейского несовершенного, прочитанного как описание."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary with the Synodal as it reads, «приводятся с весельем и ликованием, входят в чертог Царя» (present tense, like the Hebrew imperfect read as description), or remove it. (PS.45.16 (Синод. Пс 44:16): «Приводятся с весельем и ликованием, входят в чертог Царя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1177ddfa9432"
+  },
+  "verse.ru:PS.45.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:22:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "26bb31320b00"
+  },
+  "verse.ru:PS.45.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:20+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно; отмечено, что он сохраняет каузатив («Сделаю имя Твое памятным») и множественное «народы». Игра слов йеходука / Йехуда в русском не передаётся, она объяснена в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Quote the Synodal as «Сделаю имя Твое памятным в роды и роды» and say it keeps the causative (and the plural 'народы'). Change «в конце возвращается от первого лица» to «в конце снова говорит от первого лица». (PS.45.18 (Синод. Пс 44:18): «Сделаю имя Твое памятным в роды и роды; посему народы будут славить Тебя во веки и веки»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4e00bba7b345"
+  },
+  "verse.ru:PS.45.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Spell the name «Меири», as in the other Russian chapters. (PS.45.2 commentary: «Раши и Мейри связывают его…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": "[consider] If the verse is touched again, quote «песнь моя о Царе». (PS.45.2 (Синод. Пс 44:2, по памяти): «Излилось из сердца моего слово благое; я говорю: песнь моя о Царе; язык мой — трость скорописца»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7d50687e9ab8"
+  },
+  "verse.ru:PS.45.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Spell the name «Меири» in the commentary and the note. (PS.45.3: «Ибн Эзра и Мейри спорят об этом»; note: «Ибн Эзра и Мейри обсуждают…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ea02573c6124"
+  },
+  "verse.ru:PS.45.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [
+    "Синодальную цитату привёл дословно по замечанию рецензента; «славою и красотою» в Синодальном стоят как обстоятельство при «Препояшь», как и в KJV («with thy glory»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Spell the name «Меири». Quote the Synodal exactly: «Препояшь Себя по бедру мечом Твоим, Сильный, славою Твоею и красотою Твоею». (PS.45.4: «Мейри говорит, что меч на бедре…»; Синод. Пс 44:4: «Препояшь Себя по бедру мечом Твоим, Сильный, славою Твоею и красотою Твоею»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa167a176f76"
+  },
+  "verse.ru:PS.45.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария переписано: Синодальный («ради истины и кротости и правды») передаёт נוֹרָאוֹת как «дивные дела»; латинская «e» в «ве-анва» заменена кириллической."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Correct the last sentence of the commentary: quote the Synodal as «ради истины и кротости и правды» and say it renders נוֹרָאוֹת as «дивные дела» (or remove the sentence). Replace the Latin 'e' in «вe-анва» with a Cyrillic «е». (PS.45.5 (Синод. Пс 44:5): «садись на колесницу ради истины и кротости и правды, и десница Твоя покажет Тебе дивные дела Твои»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b8d7436c0106"
+  },
+  "verse.ru:PS.45.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[consider] Quote the Synodal exactly: «Остры стрелы Твои, — народы падут пред Тобою, — в сердце врагов Царя». (Синод. Пс 44:6: «Остры стрелы Твои, — народы падут пред Тобою, — в сердце врагов Царя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aad7494fbdff"
+  },
+  "verse.ru:PS.45.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Spell the name «Меири» in the commentary and the note. (PS.45.7: «(Ибн Эзра, Мейри, который сравнивает…)»; note: «Ибн Эзра и Мейри сравнивают…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ee9862db76b"
+  },
+  "verse.ru:PS.45.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "67469e845058"
+  },
+  "verse.ru:PS.45.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:29+00:00",
+   "agent_notes": [
+    "Синодальное чтение («из чертогов слоновой кости увеселяют Тебя», без «струн») отнесено ближе ко второму смыслу, «из которых»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:43+00:00",
+     "note": "[should_fix] Rewrite the last sentence of the commentary: the Synodal reads «из чертогов слоновой кости увеселяют Тебя», with no 'струны', which is nearer to the second ('из которых') sense than to the musical one. (PS.45.9 (Синод. Пс 44:9): «Все одежды Твои, как смирна и алой и касия; из чертогов слоновой кости увеселяют Тебя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "33423db60d18"
   }
  },
  "notes": [
@@ -408,6 +834,15 @@
     "run": "main"
    },
    "at": "2026-11-03T13:27:54+00:00"
+  },
+  {
+   "note": "Имя Меири (Meiri) везде написано «Меири», как в других русских главах.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T18:27:29+00:00"
   }
  ]
 }

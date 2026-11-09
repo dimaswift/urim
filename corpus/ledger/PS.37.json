@@ -817,6 +817,874 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.37.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [
+    "Глагол תִּתְחַר передан «не досадуй» в буквальном слое и «не горячись» в драматическом: русское «досадуй» у Синодального перевода («не ревнуй злодеям») теряет жар, а «горячись» сохраняет оба значения — гнев и соперничество. Синодальный перевод читает «не ревнуй», т. е. выбирает второе значение."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] Pick one spelling for each commentator and one name for the KJV across the chapter. Add a Synodal remark only when you can quote it exactly. (PS.37.9 «Ибн-Эзра» vs PS.37.13 «Ибн Эзра»; PS.37.2 «Король-Яковском переводе» vs PS.37.14 «KJV»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ab2c7ba6ccd"
+  },
+  "verse.ru:PS.37.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe8d58d48c47"
+  },
+  "verse.ru:PS.37.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [
+    "עֲנָוִים — «кроткие» в Синодальном переводе и у Мф 5:5; в буквальном слое оставлено «смиренные», в драматическом — «согбенные, незамеченные», чтобы передать оттенок угнетённости. Слово אָרֶץ везде «земля» (в Синодальном — «землю»), как и в стихах 3 и 9; «землёй» в комментарии разведено с «Землёй обетованной» только по контексту."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] For consistency with vv. 9, 29 and 34, consider «овладеют землёй» in the literal layer and the gloss. (PS.37.11: וַעֲנָוִים יִירְשׁוּ־אָרֶץ; English literal: \"the humble will possess [the] land\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a29babfb2e37"
+  },
+  "verse.ru:PS.37.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "893e7642f378"
+  },
+  "verse.ru:PS.37.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:12:24+00:00",
+   "agent_notes": [
+    "О КЖВ сказано, что «shall laugh» — будущее, как в английском; добавлено, что Синодальное «посмевается» сохраняет настоящее."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Make the sentence about the KJV ('shall laugh', future), as the English has it. You may add that the Synodal «посмевается» keeps the present. (PS.37.13: אֲדֹנָי יִשְׂחַק־לוֹ; English commentary: \"The KJV 'shall laugh at him' reads as a prediction\"; Synodal Пс 36:13 «Господь же посмевается над ним»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "94462c29cb1c"
+  },
+  "verse.ru:PS.37.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:12:24+00:00",
+   "agent_notes": [
+    "Синодальное «пронзить», как и KJV 'slay', теряет глагол забоя (טבח); «идущих прямым путём» оставлено как синодальная формула."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Write that the Synodal «пронзить», like the KJV 'slay', loses the slaughter verb, or drop the Synodal remark. Keep «идущих прямым путём» as the Synodal phrase. (PS.37.14: לִטְבוֹחַ יִשְׁרֵי־דָרֶךְ; Synodal Пс 36:14 «чтобы пронзить идущих прямым путем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": "[consider] Use one spelling of Ibn Ezra (and of Metzudat David/Zion) across the chapter. (PS.37.14 commentary «Ибн Эзра, Радак и Меири»; PS.37.9 «Ибн-Эзра»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d50cd61b3eb8"
+  },
+  "verse.ru:PS.37.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f7431ac01d4"
+  },
+  "verse.ru:PS.37.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3215c93fd1e7"
+  },
+  "verse.ru:PS.37.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [
+    "Английский комментарий здесь критикует KJV за «Lord» вместо имени. В русском добавлена одна фраза: Синодальный тоже пишет «Господь» и тоже ставит подлежащее в конец, но глагол «подкрепляет» передаёт причастие как действие, а не как состояние."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e36608c766ae"
+  },
+  "verse.ru:PS.37.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [
+    "Для 'тамим' выбрано «непорочные» (так в Синодальном), что сохраняет жертвенный образ."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "811ab1ea7649"
+  },
+  "verse.ru:PS.37.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0864fde8d069"
+  },
+  "verse.ru:PS.37.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] Correct the quotation or drop it. (Synodal Пс 36:2 «ибо они, как трава, скоро будут подкошены и, как зеленеющий злак, увянут»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c967cb09b3af"
+  },
+  "verse.ru:PS.37.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "Синодальный выбирает «как тук агнцев» (Пс 36:20), то есть то же чтение, что и KJV, Радак и Мецудат Давид; в комментарии это сказано одной фразой."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Replace the sentence with «Синодальный перевод выбирает «как тук агнцев»», or drop it. The English commentary does not mention the Synodal. (PS.37.20: כִּיקַר כָּרִים; Synodal Пс 36:20 «и враги Господа, как тук агнцев, исчезнут, в дыме исчезнут»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0fe202450bfb"
+  },
+  "verse.ru:PS.37.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "20ec8abbb52e"
+  },
+  "verse.ru:PS.37.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] Consider «овладеют землёй» in the literal layer and the gloss, as in v. 34. (PS.37.22: מְבֹרָכָיו יִירְשׁוּ אָרֶץ; English literal: \"his blessed ones will possess the land\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7fc00953ea8b"
+  },
+  "verse.ru:PS.37.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c6521dc1c72"
+  },
+  "verse.ru:PS.37.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "Синодальное «не упадёт» теряет «будет брошен» так же, как KJV 'utterly'; сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Replace the sentence with the real Synodal reading («не упадёт», which, like the KJV 'utterly', loses 'hurled down'), or drop it. (PS.37.24: כִּי־יִפֹּל לֹא־יוּטָל; Synodal Пс 36:24 «когда он будет падать, не упадет, ибо Господь поддерживает его за руку»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5bcd8df5ba2f"
+  },
+  "verse.ru:PS.37.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "В буквальном слое «и семя его ищет хлеба», в глоссе «ищущее»: нейтральный глагол, а не «просит». Синодальное в комментарии не упоминается, как и в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Use «и семя его ищет хлеба» in translation_literal and «ищущее» in token pos 10. In the commentary keep only the KJV 'now am old' point, as in the English, and drop the Synodal from that sentence. (PS.37.25: וְזַרְעוֹ מְבַקֶּשׁ־לָחֶם; English literal: \"and his seed seeking bread\"; ru commentary: «в иврите нейтральное «ищут»»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9366ff80e61d"
+  },
+  "verse.ru:PS.37.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "Критика страдательного чтения направлена только на KJV; Синодальный сохраняет «в благословение», это отмечено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Make the passive-reading criticism about the KJV only, as the English does. If you name the Synodal, say it keeps «в благословение». Remove «Синодальный» from the note on לִבְרָכָה. (PS.37.26: וְזַרְעוֹ לִבְרָכָה; Synodal Пс 36:26 «и потомство его будет в благословение»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d3aad7d94a7"
+  },
+  "verse.ru:PS.37.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] Say that the Synodal «будешь жить вовек» spells out the future the imperative implies, or drop the sentence. (PS.37.27: וּשְׁכֹן לְעוֹלָם; Synodal Пс 36:27 «Уклоняйся от зла и делай добро, и будешь жить вовек»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e028dccb041"
+  },
+  "verse.ru:PS.37.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "Синодальный читает חֲסִידָיו как «святых Своих», что, как KJV 'saints', делает их священным разрядом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Change «в Синодальном «преподобные»» to «в Синодальном «святых Своих»»; the point (a holy class, like KJV 'saints') then holds. (PS.37.28: וְלֹא־יַעֲזֹב אֶת־חֲסִידָיו; Synodal Пс 36:28 «и не оставляет святых Своих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "998286685046"
+  },
+  "verse.ru:PS.37.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:58+00:00",
+   "agent_notes": [
+    "Буквальный слой теперь «овладеют землёй», в согласии с глоссой и примечанием; «наследуют» остаётся в комментарии как чтение KJV и Синодального."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Make translation_literal «Праведные овладеют землёй и будут жить вовек на ней», matching the gloss and the note. (PS.37.29: צַדִּיקִים יִירְשׁוּ־אָרֶץ; English literal: \"Righteous ones will possess [the] land\"; ru gloss pos 2 «овладеют»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fd6d8bbfbc7"
+  },
+  "verse.ru:PS.37.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [
+    "אֱמוּנָה в литературном слое — «питайся верностью»: Синодальный перевод («и пользуйся верностью») тоже оставляет слово существительным, но теряет пастушеский глагол רְעֵה."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66fd0118ef8b"
+  },
+  "verse.ru:PS.37.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0446cfee1073"
+  },
+  "verse.ru:PS.37.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [
+    "תּוֹרָה в драматическом слое «наставление» (как в английском «teaching»), в литеральном «закон», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fbbbbdab871"
+  },
+  "verse.ru:PS.37.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6ade258efb6"
+  },
+  "verse.ru:PS.37.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [
+    "יַרְשִׁיעֶנּוּ: в литеральном слое «признает его виновным» (юридический глагол, противоположность «оправдать»); Синодальный перевод «не допустит обвинить его». Игра слов «нечестивый (рашá) — признать нечестивым (ярши‘ену)» сохранена в комментарии, но не в самом тексте."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3bae47321f4d"
+  },
+  "verse.ru:PS.37.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de90194b583f"
+  },
+  "verse.ru:PS.37.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [
+    "אֶזְרָח: двойное чтение «дерево» и «коренной житель» сохранено в литеральном слое как «коренное [дерево]»; Синодальный перевод выбирает «укоренившееся многоветвистое дерево». KJV «green bay tree» в комментарии передан как «зелёный лавр»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d6f6a34e84f8"
+  },
+  "verse.ru:PS.37.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[consider] Correct the quotation. The point then becomes that the Synodal makes 'not found' active and first person too. (PS.37.36: וָאֲבַקְשֵׁהוּ וְלֹא נִמְצָא; Synodal Пс 36:36 «Но он прошел, и вот, нет его; ищу его и не нахожу»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a9a3b79e458f"
+  },
+  "verse.ru:PS.37.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:52+00:00",
+   "agent_notes": [
+    "«Будущность» для 'acharit' и «человек мирный» для 'ish shalom' следуют Синодальному переводу; в комментарии отмечено, что синодальное «будущность» сохраняет надежду, которую теряет «конец»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a5e1206c83b"
+  },
+  "verse.ru:PS.37.38": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4be7c1de34e"
+  },
+  "verse.ru:PS.37.39": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:05:52+00:00",
+   "agent_notes": [
+    "'Ma'oz' передано «оплот» (крепость, куда спасаются); Синодальный переводит «защита»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a839f986c13e"
+  },
+  "verse.ru:PS.37.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d11e4fec703"
+  },
+  "verse.ru:PS.37.40": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:25+00:00",
+   "agent_notes": [
+    "По запросу рецензента исправлено предложение о Синодальном переводе: он сохраняет оба глагола («избавит… избавит»), но ставит их в будущее время, а вместо укрытия читает «уповают» (доверие). Совпадение с KJV по сути: «chasu» передано как доверие, а не как бегство в укрытие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] Say the Synodal keeps both verbs but puts both in the future («избавит… избавит») and has «уповают», trust rather than shelter. Or drop the Synodal sentence, which is not in the English. (PS.37.40: וַיְפַלְּטֵם יְפַלְּטֵם ... כִּי־חָסוּ בוֹ; Synodal Пс 36:40 «и избавит их; избавит их от нечестивых и спасет их, ибо они на Него уповают»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6fad38ef0af8"
+  },
+  "verse.ru:PS.37.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e862b52e1a9"
+  },
+  "verse.ru:PS.37.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "301c8aa0e81d"
+  },
+  "verse.ru:PS.37.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:12:24+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: «и ожидай [с надеждой] его», в глоссе «и ожидай (корчись)». Замечание о Синодальном переводе сведено к «покорись» вместо молчания; я не цитирую его конец («человеку…») и не утверждаю, что там добавлено «злые»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] In translation_literal write «и ожидай [с надеждой] его» (or just «и ожидай его»), and in token pos 3 put «и ожидай (корчись)». Correct the Synodal quote to «человеку лукавствующему» and drop the claim that it adds «злые». (PS.37.7: וְהִתְחוֹלֵל לוֹ; English literal: \"wait longingly [for] him\"; Synodal Пс 36:7 «Не ревнуй успевающему в пути своем, человеку лукавствующему»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad60fe817005"
+  },
+  "verse.ru:PS.37.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a7c2d13c13d"
+  },
+  "verse.ru:PS.37.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:12:24+00:00",
+   "agent_notes": [
+    "«Овладеют [этой] землёй» в буквальном слое и в глоссе; в комментарии «земля, семейный надел» строчными. Сказано прямо, что Синодальный тоже имеет «наследуют землю»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:08:54+00:00",
+     "note": "[should_fix] In translation_literal and token pos 7 write «овладеют [этой] землёй». In the commentary write «земля, семейный надел» in lower case (or «Земля обетованная, семейный надел»). Drop «без «всей»», or say plainly that the Synodal also has «наследуют землю». (PS.37.9: הֵמָּה יִירְשׁוּ־אָרֶץ; English literal: \"they will possess [the] land\"; English commentary: \"'Inherit' is also a little soft: יָרַשׁ is to take possession\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:30+00:00",
+     "note": "[consider] Quote the Synodal exactly («уповающие же на Господа наследуют землю») or drop the quotation and keep only the remark. (PS.37.9: קֹוֵי יְהוָה הֵמָּה יִירְשׁוּ־אָרֶץ; Synodal Пс 36:9 «ибо делающие зло истребятся, уповающие же на Господа наследуют землю»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e877c9e0bedc"
   }
  },
  "notes": [

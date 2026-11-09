@@ -39,6 +39,168 @@
    ],
    "source": null
   },
+  "component.ru:comp.israel.burial_wish.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8ded1c07960"
+  },
+  "component.ru:comp.israel.life.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ab09719df758"
+  },
+  "component.ru:comp.joseph.blessing.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c2992f27376e"
+  },
+  "component.ru:comp.judah.sovereignty.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [
+    "«Скипетр» как в Синодальном переводе (Быт 49:10); «Держатель скипетра» выбрано для краткости ярлыка."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6076ad6b542f"
+  },
+  "component.ru:comp.leah.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acbfffb98748"
+  },
+  "component.ru:comp.levi.dispersal.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "625a3b7c89c6"
+  },
+  "component.ru:comp.reuben.preeminence.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:38:40+00:00",
+   "agent_notes": [
+    "Значение ярлыка сокращено до «Утрачено, хотя он первенец», чтобы оно читалось как короткая метка состояния и сохраняло смысл английского «Forfeited as firstborn»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": "[should_fix] Rephrase as a clean label, e.g. «Утрачено, хотя он первенец» or «Первенство утрачено». (GEN.49.3-4: \"Reuben, thou art my firstborn ... thou shalt not excel\" (Synodal: «Рувим, первенец мой ... не будешь преимуществовать»))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:39:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f2f544cfdb29"
+  },
+  "component.ru:comp.simeon.dispersal.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "995742d8af73"
+  },
   "component:comp.israel.burial_wish.1": {
    "status": "approved",
    "produced_by": {
@@ -198,6 +360,198 @@
     }
    ],
    "source": null
+  },
+  "edge.ru:edge.gen_49.israel_blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a1fc302d0d15"
+  },
+  "edge.ru:edge.gen_49.israel_blesses_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "197b752a0891"
+  },
+  "edge.ru:edge.gen_49.israel_buried_leah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "25181a1b97da"
+  },
+  "edge.ru:edge.gen_49.israel_charges_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0c3bbb29c38e"
+  },
+  "edge.ru:edge.gen_49.israel_curses_levi": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "77ce79214c89"
+  },
+  "edge.ru:edge.gen_49.israel_curses_simeon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f6a0e6f8c8f0"
+  },
+  "edge.ru:edge.gen_49.israel_exalts_judah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9b03579ce02"
+  },
+  "edge.ru:edge.gen_49.israel_rebukes_reuben": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4d7c0bcfcc2"
+  },
+  "edge.ru:edge.gen_49.israel_summons_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d9abc9540389"
+  },
+  "edge.ru:edge.gen_49.yhwh_helps_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [
+    "«Мощный Бог Иаковлев» — по Синодальному переводу (49:24); ярлык связи «укрепляет» оставлен коротким."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e491250607a9"
   },
   "edge:edge.gen_49.israel_blesses_joseph": {
    "status": "approved",
@@ -388,6 +742,149 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_49.benjamin_and_summary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [
+    "«Хищный волк» взято из Синодального перевода (49:27); английское «ravening» передано тем же словом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": "[consider] Consider «…; итог: двенадцать колен Израилевых» or «рассказчик называет двенадцать колен». (GEN.49.28: \"All these are the twelve tribes of Israel\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "45e875a3e582"
+  },
+  "event.ru:evt.gen_49.blesses_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e49cc1b024f"
+  },
+  "event.ru:evt.gen_49.burial_charge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a71e2d6e8064"
+  },
+  "event.ru:evt.gen_49.jacob_dies": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:38:40+00:00",
+   "agent_notes": [
+    "Оба глагола в заголовке и в кратком изложении поставлены в настоящее время («полагает» и «умирает»), как в английском; Синодальный перевод (49:33) использует прошедшее («положил… и скончался»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": "[should_fix] Put both verbs in the same tense, e.g. «Иаков полагает ноги на постель и умирает» (or past, as the Synodal: «…положил ноги на постель и скончался»). (GEN.49.33: \"he gathered up his feet into the bed, and yielded up the ghost\" (Synodal: «положил ноги свои на постель и скончался»))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:39:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "578dbc1ead15"
+  },
+  "event.ru:evt.gen_49.jacob_summons_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6b631ec2de43"
+  },
+  "event.ru:evt.gen_49.oracles_first_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "331f0ec9711b"
+  },
+  "event.ru:evt.gen_49.oracles_other_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa4f21d6ce24"
   },
   "event:evt.gen_49.benjamin_and_summary": {
    "status": "approved",
@@ -674,6 +1171,101 @@
     }
    ],
    "source": null
+  },
+  "instance.ru:inst.gen_49.benjamin_oracle": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3bc90255d852"
+  },
+  "instance.ru:inst.gen_49.blessing_of_joseph": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "adf5c8b27927"
+  },
+  "instance.ru:inst.gen_49.burial_charge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ed4dee2e2314"
+  },
+  "instance.ru:inst.gen_49.oracles_first_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b7c6ff6c010"
+  },
+  "instance.ru:inst.gen_49.oracles_other_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:36:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:37:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ac41c9bdaffe"
   },
   "instance:inst.gen_49.benjamin_oracle": {
    "status": "approved",

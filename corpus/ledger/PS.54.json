@@ -219,6 +219,231 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.54.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "מַשְׂכִּיל оставлен как «маскил» в буквальном слое; Синодальный: «учение». Заголовок Пс. 53 в Синодальном — «Учение Давида», номера стихов совпадают с еврейскими."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Replace «возданный» with «вознесённый» (or «впервые прозвучавший»). Replace the last sentence with «В Синодальном переводе это Пс. 53, заголовок звучит «Учение Давида», а номера стихов совпадают с еврейскими», or drop it. Use the Synodal form «Зифеи» (gen. «Зифеев») for the people of Ziph. (PS.54.1 English: 'a cry first made in hiding among the Ziphites'; RusSynodal Пс. 53:1–3: «Начальнику хора… Учение Давида, / когда пришли Зифеи… / Боже! именем Твоим спаси меня»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d860c58fdd13"
+  },
+  "verse.ru:PS.54.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "Зифеи (род. Зифеев) — форма Синодального перевода (Пс. 53:2; 1 Цар. 23:19); в английском Ziphites. В литерале, драматическом слое, комментарии, примечании и глоссе везде одна форма."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Use «Зифеи» (gen. «Зифеев») in the literal and dramatic layers, the commentary, the note on הַזִּיפִים and gloss pos 2 (e.g. «В приходе Зифеев…», «Пришли Зифеи»), and correct the reviewer note. (PS.54.2: הַזִּיפִים; RusSynodal Пс. 53:2: «когда пришли Зифеи и сказали Саулу: не у нас ли скрывается Давид?»; 1 Цар. 23:19: «И пришли Зифеи к Саулу в Гиву»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2f612cba8bd"
+  },
+  "verse.ru:PS.54.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7ce06a3c236"
+  },
+  "verse.ru:PS.54.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[consider] Consider «глагол, образованный от „ухо“: буквально „обрати ухо“» without the invented «ухай». (PS.54.4: הַאֲזִינָה, from אֹזֶן 'ear')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "93da44481cfb"
+  },
+  "verse.ru:PS.54.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "זָרִים передано «чужие», как в Синодальном; עָרִיצִים — «лютые» в буквальном слое (Синодальный: «сильные»), в драматическом — «беспощадные люди». В комментарии сказано, что «сильные» слабее еврейского слова."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Quote the Synodal as «и сильные ищут души моей» and say that «сильные» is weaker than עָרִיצִים (внушающие ужас), or drop the Synodal sentence. Write «Зифеи» for the Ziphites. (PS.54.5: וְעָרִיצִים בִּקְשׁוּ נַפְשִׁי; RusSynodal Пс. 53:5: «ибо чужие восстали на меня, и сильные ищут души моей; они не имеют Бога пред собою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b919ceb0ae55"
+  },
+  "verse.ru:PS.54.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "בְּסֹמְכֵי: буквальный слой сохраняет «среди поддерживающих»; Синодальный читает «Господь подкрепляет душу мою» и «среди» не передаёт, о чём сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Quote the Synodal exactly, «Господь подкрепляет душу мою», in the commentary and the reviewer note; the point that it does not render «среди» still holds. (PS.54.6: אֲדֹנָי בְּסֹמְכֵי נַפְשִׁי; RusSynodal Пс. 53:6: «Вот, Бог помощник мой; Господь подкрепляет душу мою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": "[consider] Consider «„помощник тех, кто…“» or «„подкрепляет“» so the alternative reads as a full reading. (PS.54.6 English note: \"'among' (the Lord is one of them), 'is the helper of' or 'with'\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f0510ae9aaeb"
+  },
+  "verse.ru:PS.54.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "Игра שׁוֹרְרַי (корень שׁוּר «наблюдать») передана словом «наблюдающие за мной» в буквальном слое и «те, кто за мной следит» в литературном; Синодальный даёт «врагам моим»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Quote the Synodal as «Он воздаст за зло врагам моим; истиною Твоею истреби их». Write «Зифеев» for the Ziphites. (PS.54.7: יָשִׁיב הָרַע לְשֹׁרְרָי; RusSynodal Пс. 53:7: «Он воздаст за зло врагам моим; истиною Твоею истреби их»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "314fbc5678ab"
+  },
+  "verse.ru:PS.54.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [
+    "Синодальное «усердно» передаёт дух נְדָבָה, но не понятие добровольной жертвы; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Усердно принесу Тебе жертву, славлю имя Твоё, Господи, ибо оно благо»); you may add that «усердно» catches the spirit of נְדָבָה but not the freewill offering, or drop the sentence. (PS.54.8: בִּנְדָבָה אֶזְבְּחָה־לָּךְ; RusSynodal Пс. 53:8: «Усердно принесу Тебе жертву, славлю имя Твоё, Господи, ибо оно благо»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8030aa598580"
+  },
+  "verse.ru:PS.54.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:40:06+00:00",
+     "note": "[should_fix] Quote the Synodal as «и на врагов моих смотрело око моё». (PS.54.9: רָאֲתָה עֵינִי (perfect); RusSynodal Пс. 53:9: «ибо Ты избавил меня от всех бед, и на врагов моих смотрело око моё»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a7a974020d9"
   }
  },
  "notes": []

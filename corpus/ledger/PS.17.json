@@ -368,7 +368,390 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.17.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется по тексту Пс 16:1; «правду» в нём, как и в иврите, стоит без пояснения. Опечатка в «KJV» исправлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Quote the Synodal as «Услышь, Господи, правду, внемли воплю моему… из уст нелживых» and adjust the remark: it leaves «правду» bare, as the Hebrew does. Also fix the Cyrillic «КJV» typo. (Synodal Ps 16:1: «Услышь, Господи, правду, внемли воплю моему… из уст нелживых»; ru commentary: «(«Услышь, Господи, правду мою… не из лживых уст»)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d781871b20c"
+  },
+  "verse.ru:PS.17.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "Синодальный перевод следует тому же чтению, что и KJV (возвратный глагол, тук как место заключения); прежняя оценка заменена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[blocker] Replace the last sentence with: Синодальный перевод («Они заключились в туке своем, гордо говорят устами своими») следует тому же чтению, что и KJV: возвратный глагол и тук как место заключения. (Synodal Ps 16:10: «Они заключились в туке своем, гордо говорят устами своими»; ru commentary: «Синодальный перевод («Они сомкнули тук свой…») сохраняет действительный глагол… то есть следует иврит точнее, чем KJV».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d0896d6afb99"
+  },
+  "verse.ru:PS.17.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "Синодальный перевод ставит «нас» при «окружают», но «меня» при последней фразе; ни с KJV, ни с ASV/BBE он не совпадает полностью."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[blocker] Quote the Synodal exactly and say that it has «нас» for the surrounding but supplies «меня» as the object of the last clause, matching neither KJV nor ASV/BBE exactly. (Synodal Ps 16:11: «На всяком шагу ныне окружают нас; они устремили глаза свои, чтобы низложить меня на землю»; ru commentary: «сбить нас на землю… подставляет «нас», как ASV и BBE».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2cc1f5aad117"
+  },
+  "verse.ru:PS.17.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:34+00:00",
+   "agent_notes": [
+    "כְּפִיר — «молодой лев»; Синодальное «скимен» упомянуто в комментарии. Для יִכְסוֹף выбрано «томится жаждой», а не Синодальное «жаждет добычи» (добычи в иврите нет)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[consider] Consider quoting the Synodal exactly and «изголодавшийся, чтобы терзать» in the dramatic layer. (PS.17.12: «יִכְסוֹף לִטְרֹף»; ru dramatic «изголодавшийся по добыче».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3fdcae07264d"
+  },
+  "verse.ru:PS.17.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:52+00:00",
+   "agent_notes": [
+    "В Синодальном переводе «мечом Твоим» (орудие): «спаси душу мою от нечестивого мечом Твоим». Еврейский текст не имеет предлога, поэтому в буквальном слое сохранено приложение «от нечестивого — меча Твоего»; в комментарии отмечено расхождение с Синодальным."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f5f53e156cb6"
+  },
+  "verse.ru:PS.17.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:52+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно (Пс 16:14: «от людей мира, которых удел в этой жизни, которых чрево наполняешь из сокровищниц Твоих»); «Qere» заменено на «кре», как в PS.17.11."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («…от людей мира, которых удел в этой жизни, которых чрево наполняешь из сокровищниц Твоих»). Also write «кре» instead of the Latin «Qere», as in PS.17.11. (Synodal Ps 16:14: «от людей мира, которых удел в этой жизни, которых чрево наполняешь из сокровищниц Твоих»; ru commentary: «получивших удел в этой жизни… сокровенным Твоим».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0626bbc332ef"
+  },
+  "verse.ru:PS.17.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:52+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно (Пс 16:15), сказано, что тмуна передана как «образ», близко к KJV «likeness». Прежнее утверждение о «видении лика» заменено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[blocker] Quote the Synodal exactly («А я в правде буду взирать на лице Твое; пробудившись, буду насыщаться образом Твоим») and say it renders temunah as «образ», close to KJV 'likeness'. (Synodal Ps 16:15: «А я в правде буду взирать на лице Твое; пробудившись, буду насыщаться образом Твоим»; ru commentary: «буду насыщен видением лика Твоего… передаёт тмуна как «видение лика»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "138edf96a234"
+  },
+  "verse.ru:PS.17.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «От лица Твоего суд мне да изыдет; да воззрят очи Твои на правоту». (Synodal Ps 16:2: «От лица Твоего суд мне да изыдет; да воззрят очи Твои на правоту»; ru commentary: «(«да изыдет суд мой; очи Твои да видят правоту»)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "519b6d6bc749"
+  },
+  "verse.ru:PS.17.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "В последней фразе подлежащее — «уста»: «не преступят уста мои», как в иврите (בַּל־יַעֲבָר־פִּי). Буквальный слой исправлен."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Render the last clause with the mouth as subject: «я решил: не преступят уста мои». (PS.17.3: «זַמֹּתִי בַּל־יַעֲבָר־פִּי»; English literal 'my mouth shall not transgress'; ru literal «не преступит уст моих [слово моё]».) [should_fix] Quote the Synodal exactly; the claim that it follows the noun reading (like YLT) can stay. (Synodal Ps 16:3: «…искусил меня и ничего не нашел; от мыслей моих не отступают уста мои»; ru commentary: «мысли мои не расходятся с словами моими».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c78f53196e99"
+  },
+  "verse.ru:PS.17.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («…я охранял себя от путей притеснителя»); the claim that it follows the first reading and adds «себя от» stays. (Synodal Ps 16:4: «В делах человеческих, по слову уст Твоих, я охранял себя от путей притеснителя»; ru commentary: «я хранил себя от путей хищника».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "25573c342ac3"
+  },
+  "verse.ru:PS.17.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Утверди шаги мои на путях Твоих, да не колеблются стопы мои». (Synodal Ps 16:5: «Утверди шаги мои на путях Твоих, да не колеблются стопы мои»; ru commentary: «(«Утверди стопы мои на стезях Твоих, да не поскользнутся ноги мои»)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "55f4b4d1e078"
+  },
+  "verse.ru:PS.17.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "«Речь» в переводе оставлена как слово Синодального, а в комментарии объяснено, что имра — сказанное слово, а не ораторская речь."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[should_fix] Rewrite as: «Речь» (имра) здесь — сказанное слово, высказывание, а не ораторская речь, как можно понять KJV «speech». Also quote the Synodal exactly: «К Тебе взываю я, ибо Ты услышишь меня, Боже». (ru commentary: «а не «речь» в смысле KJV, то есть oration»; ru literal «услышь речь мою».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "55b1a9108b04"
+  },
+  "verse.ru:PS.17.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[consider] Consider «слово, придуманное Ковердейлом» in the commentary and the note. (English: \"'Lovingkindness' is Coverdale's coinage for chesed\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51d6f77aa932"
+  },
+  "verse.ru:PS.17.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:34+00:00",
+   "agent_notes": [
+    "אִישׁוֹן בַּת־עָיִן: в буквальном слое «зрачок, дочь глаза»; в драматическом — «зеница ока», как в Синодальном, потому что это устоявшийся русский образ. Игра «человечек» в слове ишон передана в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[consider] Consider «сокроешь меня» in the literal layer and gloss. (PS.17.8: «תַּסְתִּירֵנִי»; English literal 'you will hide me'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa91b7762a22"
+  },
+  "verse.ru:PS.17.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:25+00:00",
+   "agent_notes": [
+    "Синодальный перевод сохраняет нефеш в «врагов души моей», в отличие от KJV «deadly enemies»; это оговорено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:33:38+00:00",
+     "note": "[blocker] Quote the Synodal exactly and say that, unlike KJV 'deadly enemies', it keeps nefesh as «врагов души моей», close to the reading 'against my life'. (Synodal Ps 16:9: «от лица нечестивых, нападающих на меня, от врагов души моей, окружающих меня»; ru commentary: «(«от нечестивых, которые обижают меня, от смертельных врагов моих…») почти повторяет KJV».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "828728304cdf"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Нумерация: Псалом 17 по еврейскому счёту — это Псалом 16 в Синодальном переводе; цитаты Синодального даны по его нумерации стихов, которая здесь совпадает.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:30:34+00:00"
+  }
+ ]
 }

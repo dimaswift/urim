@@ -704,6 +704,682 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.22.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:18+00:00",
+   "agent_notes": [
+    "Per the request, the Synodal sentences are replaced: in the Synodal (Пс 21) the heading «При появлении зари» is verse 1, as in the Hebrew, so verse numbers agree with the Hebrew; only the psalm number differs. The KJV sentence is kept as in the English."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Replace the Synodal sentences with: «В Синодальном переводе (Пс 21) заголовок, „При появлении зари“, считается стихом 1, как в иврите, так что номера стихов совпадают с ивритскими; отличается только номер псалма.» Keep the KJV sentence as the English has it. (Synodal Ps 21:1 «Начальнику хора. При появлении зари. Псалом Давида.»; 21:2 «Боже мой! Боже мой! … для чего Ты оставил меня?» (Hebrew PS.22.1 superscription, PS.22.2 אֵלִי אֵלִי לָמָה עֲזַבְתָּנִי).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c49e0131673"
+  },
+  "verse.ru:PS.22.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:18+00:00",
+   "agent_notes": [
+    "Per the request, the Synodal remark now says that «вложил в меня упование» keeps the root בטח and the link with vv. 5–6, unlike the KJV's 'hope'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Fix the last sentence: the Synodal «вложил в меня упование» keeps the root בטח and the link with vv. 5–6 (unlike the KJV's 'hope'). Quote it correctly or drop the Synodal remark. (Synodal Ps 21:10 «Но Ты извел меня из чрева, вложил в меня упование у грудей матери моей.»; PS.22.10 מַבְטִיחִי (causative of בטח).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d36bfbb486e7"
+  },
+  "verse.ru:PS.22.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:18+00:00",
+   "agent_notes": [
+    "Per the request, the Synodal remark now says that «оставлен я» keeps the passive but softens 'thrown' to 'left'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Replace the last sentence: the Synodal «оставлен я» keeps the passive but softens 'thrown' to 'left'. Or drop the Synodal remark. (Synodal Ps 21:11 «На Тебя оставлен я от утробы; от чрева матери моей Ты — Бог мой.»; PS.22.11 הָשְׁלַכְתִּי (Hophal, 'I was thrown').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24bf60738884"
+  },
+  "verse.ru:PS.22.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e132512e8fb0"
+  },
+  "verse.ru:PS.22.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:03+00:00",
+   "agent_notes": [
+    "По просьбе рецензента везде «Васан» (как в Синодальном); «abbirei Bashan» осталось только как транслитерация. Синодальное «тучные Васанские» процитировано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Use the Synodal «Васан» everywhere: literal «могучие [быки] Васана», gloss pos 5 «Васана», and «Васан» in the commentary and the note (keep 'abbirei Bashan' only as the transliteration). Quote the Synodal as «тучные Васанские». (PS.22.13 אַבִּירֵי בָשָׁן; Synodal Ps 21:13 «Множество тельцов обступили меня; тучные Васанские окружили меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b6f5c7a3333"
+  },
+  "verse.ru:PS.22.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "491591b783d5"
+  },
+  "verse.ru:PS.22.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9a08f1507c7a"
+  },
+  "verse.ru:PS.22.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7cc4cbb119dd"
+  },
+  "verse.ru:PS.22.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [
+    "В еврейском тексте нет глагола «пронзили»: «как лев — руки мои и ноги мои». Синодальный перевод следует греческому чтению («пронзили руки мои и ноги мои»); в буквальном слое я оставил масоретское чтение без глагола и сказал об этом в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Write «как лев — руки мои и ноги мои» or «как лев [терзает] руки мои и ноги мои». (PS.22.17 כָּאֲרִי יָדַי וְרַגְלָי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d070c5adb010"
+  },
+  "verse.ru:PS.22.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4dcda346eb24"
+  },
+  "verse.ru:PS.22.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "77d32d2c04f0"
+  },
+  "verse.ru:PS.22.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Say that the Synodal keeps the second half verbless (with «далеки» agreeing with «слова») and that it adds the bracketed «внемли мне» from the Greek. (Synodal Ps 21:2 «Боже мой! Боже мой! [внемли мне!] для чего Ты оставил меня? Далеки от спасения моего слова вопля моего.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b749a9cf154"
+  },
+  "verse.ru:PS.22.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [
+    "Божественное имя в литературном слое — «Господь», в буквальном — YHWH, как требует навык."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2adf9741751f"
+  },
+  "verse.ru:PS.22.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [
+    "יְחִידָתִי передано «единственную мою» (в Синодальном: «одинокую мою»). Для словесного глосса выбрано «единственная моя»: корень יחד, «один, единственный»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8b637d0db0b8"
+  },
+  "verse.ru:PS.22.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [
+    "רֵמִים — «дикие быки» (ури́); Синодальный даёт «единороги», как и KJV; в комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a1224d6ec87"
+  },
+  "verse.ru:PS.22.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "827a6975c90d"
+  },
+  "verse.ru:PS.22.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a8d0b02cb4a6"
+  },
+  "verse.ru:PS.22.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:27+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: Синодальный стих (Пс 21:25) процитирован точно, «не презрел и не пренебрег скорби страждущего»; утверждение о замене на «нищего» убрано. Синодальный, как и иврит, сохраняет повтор корня («скорби страждущего»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Quote the Synodal as «не презрел и не пренебрёг скорби страждущего» and remove the claim that it swaps in «нищего». (Synodal Ps 21:25 «ибо Он не презрел и не пренебрег скорби страждущего»; PS.22.25 עֱנוּת עָנִי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a17981e5bf07"
+  },
+  "verse.ru:PS.22.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Pick one convention for the whole chapter (the capitals of vv. 2–24 match the Synodal). (PS.22.26 «От тебя [идёт] хвала моя»; PS.22.20 «А Ты, YHWH».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ce86306eb016"
+  },
+  "verse.ru:PS.22.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [
+    "«Анавим» передано как «смиренные» (как в английском 'the humble'); Синодальный читает «бедные». В комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3239fbf9b20f"
+  },
+  "verse.ru:PS.22.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e8ad516d00ae"
+  },
+  "verse.ru:PS.22.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Correct the quotation, and note that the Synodal, like the KJV, uses a noun for the participle מֹשֵׁל. (Synodal Ps 21:29 «ибо Господне есть царство, и Он — Владыка над народами.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c9122ae1b69"
+  },
+  "verse.ru:PS.22.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3c32526d7e79"
+  },
+  "verse.ru:PS.22.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [
+    "Последняя фраза («и душу свою не сохранил в жизни») сохраняет единственное число после множественного подлежащего, как в иврите; Синодальный перевод сглаживает её («не могущие сохранить жизнь своей душе»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e57d3bc183c9"
+  },
+  "verse.ru:PS.22.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:12+00:00",
+   "agent_notes": [
+    "Стих очень сжат; в буквальном слое сохранён порядок иврита, в драматическом выбрано понимание «о Господе будут рассказывать из рода в род», как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Correct the quotation. (Synodal Ps 21:31 «Потомство [мое] будет служить Ему, и будет называться Господним вовек»; PS.22.31 יְסֻפַּר לַאדֹנָי לַדּוֹר.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59aded46c7dc"
+  },
+  "verse.ru:PS.22.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:27+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: Синодальный (Пс 21:32) процитирован точно; сказано, что он оставляет глагол без дополнения, но вводит подлежащее «Господь», которого нет в иврите."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[should_fix] Quote the Synodal correctly, and say that it leaves the verb without an object but adds the subject «Господь». (Synodal Ps 21:32 «придут и будут возвещать правду Его людям, которые родятся, что сотворил Господь.»; PS.22.32 כִּי עָשָׂה (no object, no named subject).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:47:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "401b2c9297c8"
+  },
+  "verse.ru:PS.22.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f4e15a98bb2"
+  },
+  "verse.ru:PS.22.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "934120529f6c"
+  },
+  "verse.ru:PS.22.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d367d4987df"
+  },
+  "verse.ru:PS.22.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [
+    "אנכי выделено союзом «а я», как в Синодальном; «червь» (תוֹלַעַת) оставлен без добавлений."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9c30286db2f"
+  },
+  "verse.ru:PS.22.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [
+    "יַפְטִירוּ בְשָׂפָה: в буквальном слое «размыкают губу», в драматическом «кривят губы»; Синодальное «говорят языком» толкует жест, а не слово."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": "[consider] Correct the quotation. (Synodal Ps 21:8 «Все, видящие меня, ругаются надо мною, говорят устами, кивая головою».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5154e76b73a8"
+  },
+  "verse.ru:PS.22.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:40:11+00:00",
+   "agent_notes": [
+    "Синодальный перевод, как и KJV, читает стих как пересказ («он уповал на Господа»); здесь, следуя ивритскому тексту и английскому комментарию, дан призыв «Возложи на YHWH!» (императив גֹּל) как речь насмешников. В комментарии отмечено расхождение с Синодальным."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:45:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "40e8ab2cfdb7"
   }
  },
  "notes": [

@@ -166,6 +166,161 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.87.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:44:55+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: Синодальный текст процитирован точно, «Основание его на горах святых»; вывод о заглавной «Его» убран. Сказано лишь, что Синодальный, как и еврейский, оставляет открытым, к чему относится «его»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly as «Основание его на горах святых». Delete the inference that it chooses God as founder through a capital «Его». You may say that the Synodal, like the Hebrew, leaves the antecedent open. (PS.87.1: יְסוּדָתוֹ (masculine suffix, two readings in the English). Synodal Пс 86:1: «Сынов Кореевых. Псалом. Песнь. Основание его на горах святых.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "424ad224b6f3"
+  },
+  "verse.ru:PS.87.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:44:55+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: последнее предложение комментария заменено точной цитатой Синодального перевода; сказано, что он верен по смыслу, но ставит «Господь» перед «любит» и теряет порядок «причастие первым»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": "[should_fix] Replace the last sentence of directors_commentary with the exact Synodal quotation «Господь любит врата Сиона более всех селений Иакова». Say that it is accurate in sense but puts «Господь» before «любит», so it loses the participle-first order, as the English says of the KJV. Do not claim it keeps the Hebrew order. (PS.87.2: אֹהֵב יְהוָה (participle first). Synodal Пс 86:2: «Господь любит врата Сиона более всех селений Иакова».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "38935b90a940"
+  },
+  "verse.ru:PS.87.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:54+00:00",
+   "agent_notes": [
+    "Села оставлено непереведённым, как «Села» (в Синодальном тексте слово опущено, но в еврейском оно есть)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d65038e2d160"
+  },
+  "verse.ru:PS.87.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:54+00:00",
+   "agent_notes": [
+    "Рахав передан как «Раав» (форма Синодального перевода), Куш — как «Куш», с пояснением, что Синодальный и KJV читают «Ефиопия». Филистия — «Филистия» (Синодальный: «Филистимляне»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": "[consider] Either use «Раав» throughout, or add a note in the commentary that «Рахав» in the literal layer transliterates the Hebrew and is the Synodal «Раав». (PS.87.4: רַהַב; Synodal Пс 86:4: «о Рааве и Вавилоне».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "80d15d8e8bde"
+  },
+  "verse.ru:PS.87.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": "[consider] Optionally add one clause in the commentary: the Hebrew treats Zion as feminine, while Russian «Сион» is masculine. (PS.87.5: יֻלַּד־בָּהּ ... יְכוֹנְנֶהָ (feminine suffixes).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "be3f69d07f03"
+  },
+  "verse.ru:PS.87.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c9965f9be493"
+  },
+  "verse.ru:PS.87.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:54+00:00",
+   "agent_notes": [
+    "Слово כְּחֹלְלִים: «играющие на свирелях» (от «пронзать») против «пляшущих»; в буквальном слое выбрано «как играющие на свирелях», в примечании сохранены оба прочтения. Синодальный перевод: «играющие»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc5c249fafab"
   }
  },
  "notes": []

@@ -219,6 +219,219 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.61.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:51+00:00",
+   "agent_notes": [
+    "Синодальный перевод нумерует этот псалом как 60-й и считает надписание отдельным стихом 1 (то есть наши 61:1–9 = Синодальные 60:1–10). Нумерация корпуса следует ивриту. «Начальнику хора» и «на струнных орудиях» — формулы Синодального перевода; «нагинат» передано как «струнная музыка», как в английском чтении Радака и Меири."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[consider] Quote it as «на струнном орудии». (Синодальный Пс 60:1: «Начальнику хора. На струнном орудии. Псалом Давида.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4e092592d37e"
+  },
+  "verse.ru:PS.61.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7354f0f71c92"
+  },
+  "verse.ru:PS.61.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:39+00:00",
+   "agent_notes": [
+    "Исправлена опечатка: «имперфект». Остальное без изменений."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[should_fix] Correct «импферфект» to «имперфект». Change nothing else. (PS.61.3: \"תַנְחֵנִי\" (HVhi2ms, imperfect); ru commentary: «В иврите это импферфект»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a7192d37eb0a"
+  },
+  "verse.ru:PS.61.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[consider] Quote it as «крепкая защита от врага». (Синодальный Пс 60:4: «ибо Ты прибежище мое, Ты крепкая защита от врага»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d44830871f91"
+  },
+  "verse.ru:PS.61.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:39+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном «поселюсь» заменена на замечание о Синодальном «Да живу я»: желание сохранено, но смысл жизни гостем (גור) потерян."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[should_fix] Drop the sentence about the Synodal «поселюсь», or replace it with: the Synodal «Да живу я» keeps the wish but loses the sense of 'living as a guest' (גור). (Синодальный Пс 60:5: «Да живу я вечно в жилище Твоем и покоюсь под кровом крыл Твоих»; PS.61.5: \"אָגוּרָה\" (HVqc1cs))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:15+00:00",
+     "note": "[consider] When next revised, write «чем „covert“ у KJV и „кров“ в Синодальном». (Синодальный Пс 60:5: «и покоюсь под кровом крыл Твоих»; ru commentary: «тайнее, чем „покров“ у KJV и в Синодальном»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f58740a39312"
+  },
+  "verse.ru:PS.61.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:39+00:00",
+   "agent_notes": [
+    "В буквальном слое убрано «[во]»; во Втор. 2:9 цитата дана без «ни ступни»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[should_fix] In translation_literal write 'Ты дал владение боящихся имени Твоего' (drop '[во]'). In the note on יְרֻשַּׁת quote Deut 2:9 as «не дам тебе ничего из земли его во владение», without 'ни ступни'. (PS.61.6: \"נָתַתָּ יְרֻשַּׁת יִרְאֵי שְׁמֶךָ\" (יְרֻשַּׁת HNcfsc, construct: '[the] possession of'); EN literal: \"you have given [the] possession of [those who] fear your name\"; EN note: \"I will not give you any of his land as a possession\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "556a77fdfd6b"
+  },
+  "verse.ru:PS.61.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:39+00:00",
+   "agent_notes": [
+    "Синодальный процитирован как «Приложи дни ко дням царя»; «Лета его как многие роды» названо толкованием KJV, а Синодальный сохраняет «в род и род»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[should_fix] Quote the Synodal as «Приложи дни ко дням царя» (it keeps the 'add' picture, as an imperative) and say «Лета его как многие роды» is the KJV's reading, while the Synodal keeps «в род и род». (Синодальный Пс 60:7: «Приложи дни ко дням царя, лета его продли в род и род»; EN: \"'His years as many generations' is the KJV's gloss\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9db177e5d61d"
+  },
+  "verse.ru:PS.61.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:39+00:00",
+   "agent_notes": [
+    "Синодальный процитирован как «заповедуй милости и истине охранять его»: он сохраняет повеление «ман» и добавляет цель «охранять»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": "[should_fix] Quote the Synodal as «заповедуй милости и истине охранять его» and say it keeps the imperative of מַן (as 'заповедуй') while supplying the purpose 'охранять'; keep the point that 'милость' is too soft for חֶסֶד. (Синодальный Пс 60:8: «да пребудет он вечно пред Богом; заповедуй милости и истине охранять его»; PS.61.8: \"מַן\" (HVpv2ms, imperative))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d10d77200b8"
+  },
+  "verse.ru:PS.61.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "17f667b83490"
   }
  },
  "notes": [

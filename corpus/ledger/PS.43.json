@@ -115,6 +115,123 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.43.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:18:29+00:00",
+   "agent_notes": [
+    "В синодальном переводе этот псалом нумеруется как 42. «Не-хасид» в буквальном слое передан как «не преданный верностью»: синодальное «народ недобрый» смягчает отсутствие хеседа; комментарий говорит об этом одним предложением."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:20:11+00:00",
+     "note": "[consider] Consider «Ты избавишь меня» in the literal layer, to match the gloss, and «от народа» (or «с народом») for miggoy. Phrase the Synodal remark so that it does not claim the riv repetition is kept. (PS.43.1: «מִגּוֹי … תְפַלְּטֵנִי» (Vpi2ms, one act); Синодальный: «вступись в тяжбу мою с народом недобрым»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d80d6bb34e99"
+  },
+  "verse.ru:PS.43.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:00+00:00",
+   "agent_notes": [
+    "По запросу рецензента: неточная цитата Синодального перевода заменена точной («для чего я сетуя хожу от оскорблений врага?»); сказано, что «от оскорблений» делает врага причиной, как и KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:20:11+00:00",
+     "note": "[should_fix] Delete the last sentence of directors_commentary (the one starting «Синодальный перевод («для чего я хожу печальный…»). The English commentary has no such sentence. If you keep a Synodal comparison, quote «для чего я сетуя хожу от оскорблений врага?» exactly and say that «от оскорблений» makes the enemy the cause, as the KJV does. (PS.43.2: «לָמָּה־קֹדֵר אֶתְהַלֵּךְ בְּלַחַץ אוֹיֵב»; Синодальный, Пс 42:2: «для чего я сетуя хожу от оскорблений врага?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:21:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "70c170ed0259"
+  },
+  "verse.ru:PS.43.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:00+00:00",
+   "agent_notes": [
+    "По запросу рецензента: цитата Синодального перевода исправлена («да ведут они меня и приведут на святую гору Твою и в обители Твои»); фраза про артикль заменена. Во множественном числе Синодальный стих даёт «обители»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:20:11+00:00",
+     "note": "[should_fix] In directors_commentary, correct the Synodal quote to «да ведут они меня и приведут на святую гору Твою и в обители Твои» (the plural point still holds) or drop the sentence. Replace «то, чего не может русский или английский артикль» with wording such as «то, чего не передаст ни русский, ни английский перевод». (PS.43.3: «אֶל־הַר־קָדְשְׁךָ וְאֶל־מִשְׁכְּנוֹתֶיךָ»; Синодальный, Пс 42:3: «да ведут они меня и приведут на святую гору Твою и в обители Твои»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:21:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de1d42c8fb7c"
+  },
+  "verse.ru:PS.43.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:18:29+00:00",
+   "agent_notes": [
+    "Кинор — «кинор (лира)» в примечании; синодальный текст говорит «гусли», что в русской традиции звучит как инструмент другого рода."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:20:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8399391d6265"
+  },
+  "verse.ru:PS.43.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:18:29+00:00",
+   "agent_notes": [
+    "«Спасения лица моего» оставлено во множественном числе в буквальном слое; синодальное «Спаситель мой» теряет и «лицо», и множественное число. В драматическом слое — «тот, кто возвращает мне поднятое лицо», без добавления новых фактов, кроме образа лица, который уже есть в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:20:11+00:00",
+     "note": "[consider] Consider adding «(в синодальной нумерации — Пс 41:6, 12)» after the reference, and «надо мной» in the literal layer. (PS.43.5: «וּמַה־תֶּהֱמִי עָלָי»; Синодальный нумерует этот псалом как 42, а соседний как 41)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "17f701e54f31"
   }
  },
  "notes": []

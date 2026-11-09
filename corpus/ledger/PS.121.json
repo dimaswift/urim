@@ -1,0 +1,362 @@
+{
+ "chapter_ref": "PS.121",
+ "items": {
+  "verse.en:PS.121.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:01+00:00",
+   "agent_notes": [
+    "Applied the reviewer request: the מֵאַיִן note now cites Jacob's question to the shepherds of Haran (Gen 29:4), not Joseph's brothers. The verse is a question, so I read אֶשָּׂא as a plain present 'I lift up' (YLT, BBE) rather than KJV/ASV 'I will lift up'.",
+    "Whether the mountains are a source of help (hills with shrines, or hills from which rescuers might appear) or a threat (bandits, high places) is disputed. Radak, Meiri and Metzudat David read the speaker as a watcher scanning the heights for helpers; I follow that and keep the dramatic layer open to the question. The 'high places' reading is my own and is marked as such in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": "[should_fix] In the philological note on מֵאַיִן, replace 'the same word Joseph's brothers are asked in Gen 29:4' with 'the same word Jacob uses when he asks the shepherds of Haran \"from where are you?\" in Gen 29:4'. (Metzudat Zion on PS.121.1: \"מאין. מאיזה מקום וכן מאין אתם (בראשית כט)\"; Gen 29:4: Jacob says to the shepherds \"my brethren, whence be ye?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": "[consider] Soften the 'nearness' of מֵעִם to a possible nuance and mark the polemic reading as an interpretation without a source here, or ground it in Radak's 'if I lift my eyes to the mountains it will not help me'. (PS.121.2: \"עֶזְרִי מֵעִם יְהוָה\"; Ibn Ezra and Radak read the verse only as 'no help but from YHWH, who made the upper and lower world'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:01+00:00",
+   "agent_notes": [
+    "Applied the reviewer request: the literal layer keeps the jussive ('May he not give…'), and the commentary presents the wish as one reading of the form, noting Ibn Ezra (אל = לא) and the Targum (לָא) behind the KJV 'will not'. STEPBible glosses 'he permit'; I corrected it to 'may he not give' for the pair of אַל words, with לַמּוֹט glossed as 'to the slipping' (a noun, 'stumbling').",
+    "The dramatic layer shifts from the speaker's 'I' in verse 1 to a second-person voice ('your foot'). The text does not say who speaks; Malbim hears a voice answering the speaker, Radak and Meiri one person comforting another. I leave the speaker unnamed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": "[should_fix] Keep the jussive in the literal layer, but in the commentary add that Ibn Ezra reads אַל here as plain לֹא ('will not') and the Targum translates it with לָא, so the KJV 'will not' follows an old reading; present the wish as one reading of the jussive form, not as the KJV losing the Hebrew. (Ibn Ezra on PS.121.3: \"אל - כמו לא\"; Targum: \"לָא יִתֵּן לְאִתְמוֹטָטָא רִגְלָךְ לָא נָיֵם נָטְרָךְ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [
+    "The Hebrew verb יַכֶּכָּה is the same 'strike' verb used of sunstroke in 2 Kings 4:18-20 and Isa 49:10; I did not use those parallels as a source because the packet does not give them, but the sense of sunstroke is the common one. The moon's harm is attested in the commentaries only as medieval theory about moisture (Radak, Meiri, Metzudat David); I flag that as the commentators' world, not as established ancient belief."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": "[consider] Consider 'and the moon in the night' in the literal layer, and adding Ibn Ezra to the list of commentators on the moon's harm. (PS.121.6: \"וְיָרֵחַ בַּלָּיְלָה\"; Ibn Ezra on PS.121.5: \"השמש תזיק ברוב החום שלה והלבנה בלילה תוסיף לחה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.121.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:39:30+00:00",
+   "agent_notes": [
+    "Meiri notes that Deut 28:6 has the order 'coming in, going out', and that this verse reverses it. I used his remark and kept the Hebrew order 'going out and coming in'. The Targum's 'going out for business and coming in to labour in the Torah' is an interpretive expansion, not a translation, and I mention it only as such."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:03+00:00",
+     "note": "[consider] Drop 'hidden' or mark it as a proposed etymology. (PS.121.8: \"מֵעַתָּה וְעַד־עוֹלָם\"; STEPBible gloss: \"perpetuity\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.121.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:59+00:00",
+   "agent_notes": [
+    "В Синодальном переводе этот псалом — 120-й (греческая нумерация); здесь сохранена еврейская нумерация корпуса, 121. Надписание «Песнь восхождения» — как в Синодальном; в буквальном слое «для восхождений», как в иврите (lamma'alot)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": "[consider] Either drop the sentence about the Synodal keeping the question, or quote it as «Возвожу очи мои к горам, откуда придет помощь моя» and note that it can be read either as a question or as a statement. (PS.121.1: \"מֵאַיִן יָבֹא עֶזְרִי\"; RusSynodal Пс 120:1: «Возвожу очи мои к горам, откуда придет помощь моя.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "65ea45c7607c"
+  },
+  "verse.ru:PS.121.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:51:35+00:00",
+   "agent_notes": [
+    "Составной предлог מֵעִם передан слитно «от-близ», как в глоссе, без вставной связки; тире в скобках без пробела: «[—]»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": "[should_fix] In translation_literal drop «[того, что]» and render the compound preposition directly, e.g. «Помощь моя [—] от-с YHWH, творца неба и земли» (or «от-близ», to match the gloss). Write the bracket as «[—]» without the inner space, here and in PS.121.5. (PS.121.2: \"עֶזְרִי מֵעִם יְהוָה\"; English literal: \"My help [is] from with YHWH, maker of heaven and earth.\"; the localizer's own gloss for pos 2 is «[исходит] от близ»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:52:09+00:00",
+     "note": "[consider] When PS.121.5 is next reopened, write its brackets as «[—]» to match PS.121.2. (PS.121.5 Russian literal: «YHWH [— ] хранитель твой; YHWH [— ] тень твоя…»; PS.121.2: «Помощь моя [—] от-близ YHWH»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "762686076a7e"
+  },
+  "verse.ru:PS.121.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:59+00:00",
+   "agent_notes": [
+    "אַל с юссивом передан в буквальном слое как пожелание («да не отдаст он… да не дремлет»), в драматическом — как уверение; Синодальный выбирает утверждение («не даст… не воздремлет»), что и отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "530a69a01df3"
+  },
+  "verse.ru:PS.121.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": "[consider] Quote it as «не дремлет и не спит», and if you like, note that the Synodal leaves הִנֵּה untranslated. (PS.121.4: \"הִנֵּה לֹא־יָנוּם וְלֹא יִישָׁן\"; RusSynodal Пс 120:4: «Не дремлет и не спит хранящий Израиля»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5edb9ae45a38"
+  },
+  "verse.ru:PS.121.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:59+00:00",
+   "agent_notes": [
+    "צֵל — «сень» в Синодальном; в буквальном слое «тень» (прямое значение), в драматическом «сень»/«тень» сохранены оба образа."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7f7dc71aae9"
+  },
+  "verse.ru:PS.121.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cde7bf866444"
+  },
+  "verse.ru:PS.121.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:51:35+00:00",
+   "agent_notes": [
+    "В буквальном слое и глоссе רָע — «беда» (вред, несчастье), как в английском harm; в драматическом слое оставлено «зла» (английское evil), а комментарий объясняет, почему Синодальное «зло» сдвигает смысл."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": "[should_fix] In translation_literal write «YHWH сохранит тебя от всякого вреда (беды)», for example «от всякой беды», and gloss token 4 the same way («беды» or «вреда»). The dramatic layer may keep «зла», as the English dramatic has 'evil'. (PS.121.7: \"יְהוָה יִשְׁמָרְךָ מִכָּל־רָע\"; English literal: \"YHWH will keep you from all harm\"; gloss pos 4 \"harm\"; Russian commentary: «превращает רָע … в нравственное «зло»»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:52:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0eba0fadf205"
+  },
+  "verse.ru:PS.121.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:51:35+00:00",
+   "agent_notes": [
+    "Синодальное чтение процитировано дословно по Пс 120:8: «выхождение твое и вхождение твое, отныне и вовек»; в буквальном слое «до века», на этом слове построена сценическая ремарка."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:50:34+00:00",
+     "note": "[should_fix] Quote the Synodal correctly: «Синодальное «выхождение твое и вхождение твое» тоже сохраняет порядок». In the closing staging sentence, name the word the Russian text actually ends on, «до века» (or «вовек»), instead of «навеки». (PS.121.8: \"צֵאתְךָ וּבוֹאֶךָ … מֵעַתָּה וְעַד־עוֹלָם\"; RusSynodal Пс 120:8: «выхождение твое и вхождение твое, отныне и вовек»; Russian literal: «отныне и до века»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:52:09+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41d169e91326"
+  }
+ },
+ "notes": []
+}

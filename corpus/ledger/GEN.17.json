@@ -1,6 +1,63 @@
 {
  "chapter_ref": "GEN.17",
  "items": {
+  "causal.ru:caus.gen_17.abraham_laughs_pleads.isaac_and_ishmael_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f9c448edd86"
+  },
+  "causal.ru:caus.gen_17.circumcision_command.circumcision_performed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de6387220238"
+  },
+  "causal.ru:caus.gen_17.sarai_renamed_sarah.abraham_laughs_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3aaa17217107"
+  },
   "causal:caus.gen_17.abraham_laughs_pleads.isaac_and_ishmael_promised": {
    "status": "approved",
    "produced_by": {
@@ -57,6 +114,158 @@
     }
    ],
    "source": null
+  },
+  "component.ru:comp.abraham.circumcision.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2a41237eef71"
+  },
+  "component.ru:comp.abraham.name.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46aa5ce5e9f9"
+  },
+  "component.ru:comp.household_of_abraham.circumcision.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a568d9d9a0c"
+  },
+  "component.ru:comp.isaac.covenant_heir.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52db05fb542b"
+  },
+  "component.ru:comp.ishmael.circumcision.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "86b94c320938"
+  },
+  "component.ru:comp.ishmael.divine_blessing.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e34ff447f73"
+  },
+  "component.ru:comp.sarah.name.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d642ad9ab61"
+  },
+  "component.ru:comp.yhwh.abrahamic_covenant.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6704956e953b"
   },
   "component:comp.abraham.circumcision.1": {
    "status": "approved",
@@ -211,6 +420,215 @@
     }
    ],
    "source": null
+  },
+  "edge.ru:edge.gen_17.abraham_circumcises_household": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "94cf52b921d1"
+  },
+  "edge.ru:edge.gen_17.abraham_circumcises_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "008812fc187d"
+  },
+  "edge.ru:edge.gen_17.abraham_pleads_for_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "19f3f6868859"
+  },
+  "edge.ru:edge.gen_17.yhwh_blesses_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8cef00a2aaa5"
+  },
+  "edge.ru:edge.gen_17.yhwh_blesses_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3881b24ff704"
+  },
+  "edge.ru:edge.gen_17.yhwh_commands_abraham_walk": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2dc1958aa479"
+  },
+  "edge.ru:edge.gen_17.yhwh_commands_circumcision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe5d08281076"
+  },
+  "edge.ru:edge.gen_17.yhwh_covenant_with_isaac": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "adc1bca4893e"
+  },
+  "edge.ru:edge.gen_17.yhwh_promises_abraham_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1bed98d4cb2e"
+  },
+  "edge.ru:edge.gen_17.yhwh_renames_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe2746a8f042"
+  },
+  "edge.ru:edge.gen_17.yhwh_renames_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8f1b569f8dea"
   },
   "edge:edge.gen_17.abraham_circumcises_household": {
    "status": "approved",
@@ -421,6 +839,27 @@
    ],
    "source": null
   },
+  "entity.ru:group.household_of_abraham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [
+    "Название составлено как описание («Мужчины дома Авраама»), по обороту Синодального перевода 17:23 «весь мужеский пол людей дома Авраамова»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": "[consider] Consider «аншей вейто» to match the Hebrew and the English transliteration. (GEN.17.27: \"וְכָל־אַנְשֵׁי בֵיתוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cb93990432ca"
+  },
   "entity:group.household_of_abraham": {
    "status": "approved",
    "produced_by": {
@@ -441,6 +880,149 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_17.abraham_laughs_pleads": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "365cb38d7cf7"
+  },
+  "event.ru:evt.gen_17.circumcision_command": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a52d988d7deb"
+  },
+  "event.ru:evt.gen_17.circumcision_performed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f584ef14ac5"
+  },
+  "event.ru:evt.gen_17.covenant_promises": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5479331c23f6"
+  },
+  "event.ru:evt.gen_17.el_shaddai_appears": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:59:48+00:00",
+   "agent_notes": [
+    "По просьбе рецензента возраст передан словами, как в Синодальном переводе 16:16: «когда Авраму было восемьдесят шесть лет»; то же для слов Радака («когда Авраму было девяносто девять лет»). El Shaddai — «Бог Всемогущий» по Синодальному переводу."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": "[should_fix] In temporal_reasoning_note write «Измаил родился, когда Авраму было восемьдесят шесть лет (Быт 16:16)» instead of «на 86-м году Аврама»; likewise state Radak's point as «к концу года, когда Авраму было девяносто девять лет», not «к концу 99-го года». (GEN.16.16: \"Abram was fourscore and six years old, when Hagar bare Ishmael\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:00:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b88f16f09b1a"
+  },
+  "event.ru:evt.gen_17.isaac_and_ishmael_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "22ff0c5627bc"
+  },
+  "event.ru:evt.gen_17.sarai_renamed_sarah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [
+    "Имена Сары даны по Синодальному переводу: до переименования «Сара» (в Синодальном тексте 17:15 — «Сара», в обращении «Сарою»), после — «Сарра». Заголовок следует этой паре. В сущности person.sarah остаётся уже принятая форма «Сара (Сарра, Сарай)»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d65137ec64ea"
   },
   "event:evt.gen_17.abraham_laughs_pleads": {
    "status": "approved",
@@ -721,6 +1303,198 @@
    ],
    "source": null
   },
+  "instance.ru:inst.gen_17.abram_renamed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "397b3571677a"
+  },
+  "instance.ru:inst.gen_17.appearance_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b25cfa0d060"
+  },
+  "instance.ru:inst.gen_17.circumcision_sign_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "300f92b54225"
+  },
+  "instance.ru:inst.gen_17.covenant_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f8257c670d6"
+  },
+  "instance.ru:inst.gen_17.household_circumcised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "841338b1592b"
+  },
+  "instance.ru:inst.gen_17.isaac_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [
+    "Значение имени Исаак («он смеётся», евр. yitzchak) сохранено в пояснении; повтор со смехом Авраама в 17:17 передан словами «смех»/«рассмеялся», как в Синодальном переводе."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "231e34bf7d3a"
+  },
+  "instance.ru:inst.gen_17.ishmael_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aba0469da726"
+  },
+  "instance.ru:inst.gen_17.plea_for_ishmael": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06f63438741c"
+  },
+  "instance.ru:inst.gen_17.sarah_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2772ac112ca"
+  },
+  "instance.ru:inst.gen_17.sarai_renamed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": "[consider] Consider «Сарра получает, наравне с Авраамом, новое имя и место в завете». (GEN.17.15-16: \"Sarah shall her name be. And I will bless her\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4a7956b72dc"
+  },
   "instance:inst.gen_17.abram_renamed": {
    "status": "approved",
    "produced_by": {
@@ -912,6 +1686,25 @@
     }
    ],
    "source": null
+  },
+  "system.ru:sys.circumcision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:57:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:59:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "add95aeb1867"
   },
   "system:sys.circumcision": {
    "status": "approved",

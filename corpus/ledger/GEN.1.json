@@ -1,6 +1,82 @@
 {
  "chapter_ref": "GEN.1",
  "items": {
+  "causal.ru:caus.gen_1.day2_firmament.day3_waters_gathered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6fbee29695e5"
+  },
+  "causal.ru:caus.gen_1.day3_vegetation.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d0f331f21fb"
+  },
+  "causal.ru:caus.gen_1.day6_humankind.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f1a356f5c4c4"
+  },
+  "causal.ru:caus.gen_1.day6_land_animals.day6_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "54328328d801"
+  },
   "causal:caus.gen_1.day2_firmament.day3_waters_gathered": {
    "status": "approved",
    "produced_by": {
@@ -78,6 +154,122 @@
     }
    ],
    "source": null
+  },
+  "component.ru:comp.earth.condition.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "«Formless and void» — синодальное «безвидна и пуста» (тоху ва-боху)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c990bd78ffc6"
+  },
+  "component.ru:comp.earth.condition.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "49691f7a21be"
+  },
+  "component.ru:comp.greater_luminary.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1badb38a8739"
+  },
+  "component.ru:comp.humankind.nature.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0c24710237aa"
+  },
+  "component.ru:comp.humankind.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c468c7df616"
+  },
+  "component.ru:comp.lesser_luminary.office.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "da32f4533b85"
   },
   "component:comp.earth.condition.1": {
    "status": "approved",
@@ -194,6 +386,291 @@
     }
    ],
    "source": null
+  },
+  "edge.ru:edge.gen_1.blesses_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d3680385747"
+  },
+  "edge.ru:edge.gen_1.blesses_sea_and_air_creatures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9fddcd44831"
+  },
+  "edge.ru:edge.gen_1.commands_earth_to_sprout": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3c3c847762cb"
+  },
+  "edge.ru:edge.gen_1.commands_humankind_to_rule": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d7e0efb9b6a8"
+  },
+  "edge.ru:edge.gen_1.creates_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3772614ce6a0"
+  },
+  "edge.ru:edge.gen_1.creates_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f01f42bf7f9"
+  },
+  "edge.ru:edge.gen_1.gathers_waters": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b6624c3a7525"
+  },
+  "edge.ru:edge.gen_1.gives_plants_to_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "55a3428af157"
+  },
+  "edge.ru:edge.gen_1.gives_plants_to_birds": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8ea5e346933f"
+  },
+  "edge.ru:edge.gen_1.gives_plants_to_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df9611a07c28"
+  },
+  "edge.ru:edge.gen_1.makes_firmament": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68f4aa4e2178"
+  },
+  "edge.ru:edge.gen_1.makes_greater_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a47166587c19"
+  },
+  "edge.ru:edge.gen_1.makes_land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "313fee53050f"
+  },
+  "edge.ru:edge.gen_1.makes_lesser_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d316c9b323c6"
+  },
+  "edge.ru:edge.gen_1.separates_light_from_darkness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95b64ed3a170"
   },
   "edge:edge.gen_1.blesses_humankind": {
    "status": "approved",
@@ -480,6 +957,221 @@
    ],
    "source": null
   },
+  "entity.ru:artifact.greater_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "Синодальное «светило большее / меньшее»; названия «солнце» и «луна» в тексте нет, и в переводе они не добавлены."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c5e15bf9810"
+  },
+  "entity.ru:artifact.lesser_luminary": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "00a9a6d4caec"
+  },
+  "entity.ru:group.birds": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7dd03da89e02"
+  },
+  "entity.ru:group.humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "«Humankind» передано как «Человек (человечество)»: синодальное «человек» (1:26–27) — собирательное, как и ивритское адам."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4707344091a8"
+  },
+  "entity.ru:group.land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "237c38b333ab"
+  },
+  "entity.ru:group.sea_and_air_creatures": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "caab88632d96"
+  },
+  "entity.ru:loc.earth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48c50ca1c0ce"
+  },
+  "entity.ru:loc.heaven": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "Для «firmament» взято синодальное «твердь»; «expanse» передано как «простор», чтобы не потерять английское различие."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d8b37edbae03"
+  },
+  "entity.ru:loc.seas": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "170b99492d0a"
+  },
+  "entity.ru:substance.darkness": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1770376de561"
+  },
+  "entity.ru:substance.light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8540102d78fe"
+  },
   "entity:artifact.greater_luminary": {
    "status": "approved",
    "produced_by": {
@@ -704,6 +1396,257 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_1.beginning": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает 1:1 как самостоятельное предложение («В начале сотворил Бог небо и землю»); раши и YLT видят в нём вводное придаточное. Я сохранил позицию английского текста: отдельная сцена."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d6f507c8c487"
+  },
+  "event.ru:evt.gen_1.day1_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "38396f1713a3"
+  },
+  "event.ru:evt.gen_1.day2_firmament": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "573a26567a8d"
+  },
+  "event.ru:evt.gen_1.day3_land_sea": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "886adfc1f1d4"
+  },
+  "event.ru:evt.gen_1.day3_vegetation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "15b7d27ce10f"
+  },
+  "event.ru:evt.gen_1.day3_waters_gathered": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1c312db5eb10"
+  },
+  "event.ru:evt.gen_1.day4_luminaries": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c3e1ca58111"
+  },
+  "event.ru:evt.gen_1.day5_sea_and_sky": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[consider] Consider «больших морских чудовищ», as in the verse layers. (GEN.1.21: «הַתַּנִּינִם הַגְּדֹלִים»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7cb326e06761"
+  },
+  "event.ru:evt.gen_1.day6_food_given": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "363690ab060d"
+  },
+  "event.ru:evt.gen_1.day6_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b585cff785c2"
+  },
+  "event.ru:evt.gen_1.day6_land_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9d3bdecb4842"
+  },
+  "event.ru:evt.gen_1.day6_land_life": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9c8054ef6a9"
+  },
+  "event.ru:evt.gen_1.day6_very_good": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [
+    "Метка «шестой день» в синодальном написана «день шестой»; сохранена дословная формула."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c9a395c707d9"
   },
   "event:evt.gen_1.beginning": {
    "status": "approved",
@@ -1229,6 +2172,253 @@
    ],
    "source": null
   },
+  "instance.ru:inst.gen_1.day_and_night_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "87ee98773bb9"
+  },
+  "instance.ru:inst.gen_1.dry_land_appears": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d5bdad7f8a7f"
+  },
+  "instance.ru:inst.gen_1.earth_and_seas_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "72af59f5614e"
+  },
+  "instance.ru:inst.gen_1.firmament_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95cd5c85eb95"
+  },
+  "instance.ru:inst.gen_1.heaven_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "63ec419b3f43"
+  },
+  "instance.ru:inst.gen_1.humankind_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "774113b77a4b"
+  },
+  "instance.ru:inst.gen_1.humankind_created": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ca2a69b2d9a5"
+  },
+  "instance.ru:inst.gen_1.land_animals_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3106e22ab34f"
+  },
+  "instance.ru:inst.gen_1.let_there_be_light": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ee79c9899eb8"
+  },
+  "instance.ru:inst.gen_1.luminaries_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "076d5112e643"
+  },
+  "instance.ru:inst.gen_1.plants_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec0deb631247"
+  },
+  "instance.ru:inst.gen_1.sea_and_sky_life_blessed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0af4a478a336"
+  },
+  "instance.ru:inst.gen_1.sea_and_sky_life_made": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[consider] Consider «больших морских чудовищ» here and in the alias, to agree with verse 21. (GEN.1.21: «הַתַּנִּינִם הַגְּדֹלִים»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d6af38b6ef0e"
+  },
   "instance:inst.gen_1.day_and_night_named": {
    "status": "approved",
    "produced_by": {
@@ -1475,6 +2665,63 @@
     }
    ],
    "source": null
+  },
+  "system.ru:sys.creation_by_word": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "50597210fa81"
+  },
+  "system.ru:sys.divine_blessing_fertility": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2dd28ea3e4ff"
+  },
+  "system.ru:sys.divine_naming": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c6fd2267cb35"
   },
   "system:sys.creation_by_word": {
    "status": "approved",
@@ -2252,6 +3499,653 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:GEN.1.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «небо» в единственном числе; в буквальном слое стоит «небеса» (шамайим — форма множественного числа), как в английском. В комментарии сказано, что Синодальный здесь повторяет выбор KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e56eba2e708c"
+  },
+  "verse.ru:GEN.1.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d69bd3cdf41b"
+  },
+  "verse.ru:GEN.1.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "44ce98c08b02"
+  },
+  "verse.ru:GEN.1.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96bb13bf6fbd"
+  },
+  "verse.ru:GEN.1.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:36:21+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария переписано: Синодальный перевод сохраняет различие между «день один» и «день третий», но артикль шестого дня передать не может, так как в русском артикля нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[should_fix] Replace the last sentence with a consistent one, e.g. «В русском нет артикля, так что Синодальный перевод („день третий“, но „день один“ в 1:5) сохраняет различие между количественным и порядковым числом, а артикля шестого дня передать не может». (GEN.1.13 (ru commentary): «Синодальный перевод, как и KJV, здесь следует русскому обороту, но тоже опускает различие: „день третий“ сохранено, а вот в 1:5 стоит „день один“, и ряд сохраняется.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "caccd1b638ba"
+  },
+  "verse.ru:GEN.1.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [
+    "מְאֹרֹת: «светила», как в Синодальном. В 1:15 Синодальный переводит то же слово «светильниками»; здесь везде «светила», чтобы термин был один. В драматических слоях «лампы» и «светильники» сохранены вслед за английским образом.",
+    "מוֹעֲדִים: в дословном слое «сроки (установленные времена)», в драматическом «назначенные сроки»; Синодальный даёт «времена» и смягчает слово, как и KJV. Об этом сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "62efe8578e34"
+  },
+  "verse.ru:GEN.1.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21aea7ac3044"
+  },
+  "verse.ru:GEN.1.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [
+    "הַמָּאוֹר הַגָּדֹל / הַקָּטֹן: «большое / малое светило»; Синодальный читает «большее / меньшее». Выбрано дословное «большое / малое»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[consider] Consider one label for et throughout the chapter. (GEN.1.16: «אֶת־שְׁנֵי הַמְּאֹרֹת»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ef3a1bcd13c"
+  },
+  "verse.ru:GEN.1.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa3ef9349078"
+  },
+  "verse.ru:GEN.1.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b73c275f3197"
+  },
+  "verse.ru:GEN.1.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "17ba234aaa6d"
+  },
+  "verse.ru:GEN.1.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:36:21+00:00",
+   "agent_notes": [
+    "По просьбе рецензента порядок слов выправлен по ивриту: «безвидностью и-пустотой» (тоху, воху); в примечании пара названа «безвидность и пустота»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[should_fix] Swap the two words: in translation_literal write «была безвидностью и-пустотой», and gloss pos 3 as «безвидность» and pos 4 as «и пустота». (GEN.1.2: «תֹהוּ וָבֹהוּ»; English literal \"was formlessness and-emptiness\"; the Russian note: «Рифмованная пара, „бесформенная пустошь и пустота“»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b5ea353cf555"
+  },
+  "verse.ru:GEN.1.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [
+    "שֶׁרֶץ נֶפֶשׁ חַיָּה: «кишение живых существ»; Синодальное «пресмыкающихся» сужает слово. נֶפֶשׁ в глоссах — «существо» («душа» в дословном слое с пояснением в скобках)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "70d69cd63a59"
+  },
+  "verse.ru:GEN.1.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [
+    "הַתַּנִּינִם: «большие морские чудовища»; Синодальный переводит «рыб больших», как KJV «китов», это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "81d7000ccf54"
+  },
+  "verse.ru:GEN.1.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b1bd8f6dddc"
+  },
+  "verse.ru:GEN.1.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ace7769dd9a"
+  },
+  "verse.ru:GEN.1.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6daeb6f061fa"
+  },
+  "verse.ru:GEN.1.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:37:02+00:00",
+   "agent_notes": [
+    "По запросу рецензента в translation_dramatic: «И взглянул Бог на то, что сделал», глагол «сделал» (а не «сотворил») ближе к ивритскому вайя'ас и к английскому made.",
+    "В литературном слое «каждого по его роду» оставлено по-разному для скота и зверей: оба слова лемина женского рода в иврите, но по-русски «по его роду» читается ровнее при существительном мужского рода; в буквальном слое сохранено «по роду её»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[should_fix] In translation_dramatic write «И взглянул Бог на то, что сделал» (or «создал»). (GEN.1.25: «וַיַּעַשׂ אֱלֹהִים»; English dramatic \"And God looked on what he had made\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "176e5f919926"
+  },
+  "verse.ru:GEN.1.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [
+    "adam без артикля: «человека» в Синодальном; в комментарии оговорено, что слово собирательное. В глоссе — «человека (человечество)»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dbd51b77d879"
+  },
+  "verse.ru:GEN.1.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f2bbfba1eabf"
+  },
+  "verse.ru:GEN.1.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [
+    "kavash передан глаголом «покорите»; Синодальный даёт «обладайте ею», что мягче. Это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e21c784c410d"
+  },
+  "verse.ru:GEN.1.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "39b0c31c6e02"
+  },
+  "verse.ru:GEN.1.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4cffda21660"
+  },
+  "verse.ru:GEN.1.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [
+    "nefesh chayyah — «душа живая», как в Синодальном; в литературном слое «живая душа» заменено описанием «в ком есть дыхание жизни», как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[consider] Consider glossing pos 11 as «который» (or «что»). (GEN.1.30: «אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1eb9f59274ce"
+  },
+  "verse.ru:GEN.1.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[consider] Consider «всё, что сделал» (or «создал»). (GEN.1.31: «אֶת־כָּל־אֲשֶׁר עָשָׂה»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5db606433d07"
+  },
+  "verse.ru:GEN.1.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f69e74d36bf"
+  },
+  "verse.ru:GEN.1.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [
+    "«день один» оставлено как в еврейском (кардинальное число) и в Синодальном; русская игра слов «день — ночь» не удерживается, потому в заметке о глаголе «называть» она описана."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a8e358fef269"
+  },
+  "verse.ru:GEN.1.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [
+    "Для ракиа в обоих слоях взято «свод», а не Синодальное «твердь»: церковнославянское слово несёт оттенок твёрдости, как латинское firmamentum, которого еврейский корень не требует. «Твердь» названа в комментарии и заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "84ef0724d32f"
+  },
+  "verse.ru:GEN.1.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:36:21+00:00",
+   "agent_notes": [
+    "В драматическом слое «сделал» (асá) вместо «сотворил», чтобы «сотворил» осталось за глаголом бара; буквальный слой и комментарий без изменений."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": "[should_fix] In translation_dramatic replace «И Бог сотворил свод» with «И Бог сделал свод» (or «создал»), keeping «сотворил» for bara. (GEN.1.7: «וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ»; English dramatic \"So God made the vault\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fffff73fe546"
+  },
+  "verse.ru:GEN.1.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [
+    "Синодальный перевод включает в скобках «И увидел Бог, что это хорошо» по Септуагинте; в еврейском этих слов нет. Комментарий это отмечает."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24da764c19ec"
+  },
+  "verse.ru:GEN.1.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:32:53+00:00",
+   "agent_notes": [
+    "Каламбур йиккаву — миквэ не удерживается по-русски («соберётся» — «собрание» сохраняет общий корень, и это отмечено в комментарии к ст. 10)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:35:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de21cdcca000"
   }
  },
  "notes": [

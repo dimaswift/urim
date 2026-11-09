@@ -1,0 +1,517 @@
+{
+ "chapter_ref": "PS.141",
+ "items": {
+  "verse.en:PS.141.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:09:20+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 is the superscription plus the opening cry; the KJV splits it as 141:0 and 141:1. I translated the Hebrew verse as one unit."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[consider] Say that the KJV 'cry' is, if anything, stronger than קָרָא 'call', and keep the superscription in the dramatic layer as plain as the Hebrew. (PS.141.1: \"מִזְמוֹר לְדָוִד יְהוָה קְרָאתִיךָ\"; KJV: \"Lord, I cry unto thee\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:51+00:00",
+   "agent_notes": [
+    "Revised after review: the literal layer now keeps עַד as 'until'. Open points: (a) 'his nets' is singular after plural 'wicked'; Radak takes the suffix as Saul, Meiri as the chief enemy (Saul or Doeg); KJV 'their own' harmonizes. (b) I keep יַחַד with the wicked, as Metzudat David, Meiri and YLT do; Ibn Ezra joins it to אָנֹכִי, and KJV's 'withal' may reflect that reading (my inference). (c) Radak, Meiri and Metzudat David reorder the end as 'until I pass', i.e. before I reach the trap; the literal layer keeps the Hebrew order."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[should_fix] Make the literal layer keep עַד as 'until', e.g. 'Let wicked [men] fall into his nets together, I, until I pass by.' (PS.141.10: \"יַחַד אָנֹכִי עַד־אֶעֱבוֹר\"; token gloss 6 \"until\"; commentary: \"The Hebrew has עַד־אֶעֱבוֹר, 'until I pass over'\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:13:43+00:00",
+     "note": "[consider] If revised later, attribute the 'trap already sprung when I pass' picture to Metzudat David and give Meiri as 'they perish so that I may pass safely'. (PS.141.10 Meiri: \"ימותו הם עד שאוכל אנכי לעבור לבטח\"; Metzudat David: \"הם יפלו בפח טרם אשר אעבור אני במקום הפח\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:51+00:00",
+   "agent_notes": [
+    "Revised after review: I no longer call KJV 'sacrifice' wrong. מִנְחָה is literally a 'gift' (Metzudat Zion) and in the priestly laws is grain, but Meiri and Metzudat David take the evening מִנְחָה as the daily tamid offering, so 'sacrifice' has traditional support. The literal layer keeps 'offering'. The missing comparison particle כ is stated by Ibn Ezra, Radak and Meiri."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[should_fix] Drop the claim that the KJV 'sacrifice' is wrong or too wide; say that מִנְחָה is literally a 'gift' (Metzudat Zion), grain in the priestly laws, while Meiri and Metzudat David take the evening one as the tamid, so 'sacrifice' has traditional support. (PS.141.2 Metzudat David: \"כמנחת ערב והיא עולת תמיד של בין הערבים\"; Meiri: \"כמנחת ערב ר״ל קרבן התמיד\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:13:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:51+00:00",
+   "agent_notes": [
+    "Revised after review: the doubling of the request is attributed to Radak and Metzudat David; Meiri's view is given as distinct (a second request, for the words once they are at the lips); Malbim's step-up reading stands beside them. I also corrected the note on דַּל: Rashi takes it as the upper lip, Ibn Ezra and Radak as 'door', Metzudat Zion as 'lifting'. Meiri accepts the noun reading of שָׁמְרָה but finds it unlikely and prefers an understood verb; the earlier note had this wrong. The 'poor' pun on דַּל is my own hearing, not a source's."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[should_fix] Attribute the doubling to Radak and Metzudat David, and give Meiri's view as distinct (a second request, for the words at the lips), next to Malbim's step-up reading. (PS.141.3 Meiri: \"ונצרה על דל שפתי הוא תפלה אחרת\"; Radak: \"וזה הפסוק כפול בענין במלות שונות\"; Metzudat David: \"וכפל הדבר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:13:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:09:20+00:00",
+   "agent_notes": [
+    "אֶלְחַם (word 14) is glossed 'I eat', not 'I fight': the STEPBible lemma is לָחַם B, 'to eat', from the same root as לֶחֶם 'bread', which Ibn Ezra, Radak and Rashi all read as eating. Word 10 אישים is a rare plural of אִישׁ (BDB lists it only here and in Prov 8:4 as 'men'); Rashi glosses it simply as 'with men'. In the literal layer I render אֶת as 'with', as Rashi and Meiri do."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:51+00:00",
+   "agent_notes": [
+    "Revised after review. KJV keeps the wish ('Let the righteous smite me'), supplies 'it shall be' before 'a kindness' and before the oil, and writes 'which shall not break my head'. 'Break my head' follows Radak and Ibn Ezra; I follow Metzudat Zion's 'refuse, withhold' (Num 30:6) for יָנִי. The verse remains the psalm's hardest; חֶסֶד may be adverbial ('in loyalty', YLT). The last clause is obscure and my rendering stays close to the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[should_fix] In the commentary and the יֶהֶלְמֵנִי note, say that the KJV keeps 'Let ... smite me' and supplies 'it shall be' before חֶסֶד and the oil; say that 'break my head' follows Radak and Ibn Ezra, while Metzudat Zion's sense 'refuse, withhold' (Num 30:6) is the one you follow. (PS.141.5 KJV: \"Let the righteous smite me; it shall be a kindness ... which shall not break my head\"; Radak: \"אותה המכה אל ישבר ראשי\"; Ibn Ezra: \"לא ישברו ראשי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:13:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:09:20+00:00",
+   "agent_notes": [
+    "Another crux. Verbs נִשְׁמְטוּ (perfect) and וְשָׁמְעוּ (converted perfect) are both read in the dramatic layer as future/imprecatory, as Radak and Meiri allow; the literal layer keeps the perfect for the first. The meaning of 'at the hands of the rock' (בִּידֵי־סֶלַע) is uncertain: 'by the sides of a cliff' (ASV), 'into the power of the rock', or 'at the hands of the Rock' (God). I keep 'hands' in the literal layer and flag the options."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:09:20+00:00",
+   "agent_notes": [
+    "The KJV 'grave's mouth' for לְפִי שְׁאוֹל is fine; its 'as when one cutteth and cleaveth wood' adds the word 'wood', which is not in the Hebrew (Rashi supplies עֵצִים, so does Radak implicitly). YLT 'at the command of Saul' is a mistaken confusion of שְׁאוֹל with שָׁאוּל. I gloss פֹלֵחַ/בֹקֵעַ as 'one who plows' and 'one who splits' in the literal text, keeping 'earth' ambiguous between plowing and splitting wood on the ground."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[consider] Say that the two words are spelled identically without vowels, differing only in the pointing. (PS.141.7: \"לְפִי שְׁאוֹל\"; YLT: \"at the command of Saul\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:51+00:00",
+   "agent_notes": [
+    "Revised after review: the Genesis 24:20 comparison (Rebekah emptying her jar) is cited by Rashi, Ibn Ezra, Radak and Metzudat Zion; Metzudat David calls the verb a figure for the life leaving the body; Meiri compares 1 Samuel 1:15, 'I poured out my soul'. Word 3 is written יְהֹוִה with the vowels of אֱלֹהִים, the reading instruction that avoids saying the name twice beside אֲדֹנָי; I gloss it YHWH."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": "[should_fix] Attribute the Genesis 24:20 citation to Rashi, Ibn Ezra, Radak and Metzudat Zion, and if you keep Meiri, cite him for 1 Samuel 1:15, 'I poured out my soul'. (PS.141.8 Meiri: \"כענין ואשפוך את נפשי לפני ה׳ (ש״א א טו)\"; Metzudat David: \"אל תשפוך נפשי והוא ענין מליצה\"; Metzudat Zion: \"כמו ותער כדה (בראשית כד)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:13:43+00:00",
+     "note": "[consider] Optionally link the KJV 'God' to the Elohim reading of the pointed name, which the Targum also shows. (PS.141.8: \"יְהֹוִה אֲדֹנָי\"; KJV: \"O God the Lord\"; Targum: \"אֱלֹהִים יְיָ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.141.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:09:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:11:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.141.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Нумерация: только английские Библии считают надписание отдельным стихом (стих 0); в еврейском тексте и в Синодальном переводе оно входит в стих 1. У Синодального это Пс 140. Ссылки на другие псалмы даны по еврейскому счёту, как в самой главе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[should_fix] Say that only the English Bibles count the heading separately; the Hebrew and the Synodal both count it as part of verse 1. If you like, add that in the Synodal this is Psalm 140. (PS.141.1 (Synodal Пс 140:1): \"Псалом Давида. Господи! к Тебе взываю: поспеши ко мне, внемли голосу моления моего, когда взываю к Тебе.\"; English: \"the English Bibles count this heading as verse 0\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ad27e9912de"
+  },
+  "verse.ru:PS.141.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод опускает и «вместе», и «пока»; «перейду» ближе к עבר, чем «спасусь» у KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('Падут нечестивые в сети свои, а я перейду') and note that it drops both 'вместе' and 'пока'. (PS.141.10 (Synodal Пс 140:10): \"Падут нечестивые в сети свои, а я перейду.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f38f81c6fe93"
+  },
+  "verse.ru:PS.141.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:13:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c35bec5c3fd4"
+  },
+  "verse.ru:PS.141.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:13:47+00:00",
+   "agent_notes": [
+    "שָׁמְרָה передано существительным «стража» (как в английском слое); Синодальный перевод читает «охрану»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5600ed01b215"
+  },
+  "verse.ru:PS.141.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Для фигуры עֲלִלוֹת / לְהִתְעוֹלֵל выбрано «делать дела»: общий корень сохраняется и по-русски. Синодальный перевод цитируется точно; он читает עֲלִלוֹת как «извинения»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[should_fix] Keep the shared root in the literal layer and glosses 6–7 (e.g. 'творить деяния' or 'делать дела'), and in the commentary say that this Russian rendering keeps the doubling, instead of citing the English 'practice practices'. (PS.141.4: \"לְהִתְעוֹלֵל עֲלִלוֹת\"; English literal: \"to practice practices\"; ru commentary: \"Английское «practice practices» сохраняет удвоение\".) [should_fix] Quote the Synodal exactly ('для извинения дел греховных', 'да не вкушу я от сластей их') and say it reads עֲלִלוֹת as 'извинения', or drop the quote. (PS.141.4 (Synodal Пс 140:4): \"не дай уклониться сердцу моему к словам лукавым для извинения дел греховных вместе с людьми, делающими беззаконие, и да не вкушу я от сластей их.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2f9088f4cd2"
+  },
+  "verse.ru:PS.141.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно и отнесён к чтению «не повредит голове моей», как у KJV; здесь принято другое чтение יָנִי — «пусть не откажется». Ссылка на Пс 23:5 по еврейскому счёту."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[blocker] Either drop the Synodal sentence at the end of the commentary or quote the Synodal exactly ('Пусть наказывает меня праведник: это милость; ... это лучший елей, который не повредит голове моей') and say that it follows the 'not hurt my head' reading, like the KJV. Also change 'Пс 22:5' to 'Пс 23:5': the chapter uses Hebrew numbering, and the English has Ps 23:5. (PS.141.5 (Synodal Пс 140:5): \"Пусть наказывает меня праведник: это милость; пусть обличает меня: это лучший елей, который не повредит голове моей; но мольбы мои — против злодейств их.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52609508e938"
+  },
+  "verse.ru:PS.141.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Замечание о Синодальном переводе сведено к тому, что в нём «по утесам» и «кротки»; о его происхождении сказано осторожно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[blocker] Drop the last sentence of the commentary, or replace it with the exact Synodal text ('Вожди их рассыпались по утесам и слышат слова мои, что они кротки') and a correct remark, e.g. that the Synodal follows the Greek with 'по утесам' and 'кротки'. (PS.141.6 (Synodal Пс 140:6): \"Вожди их рассыпались по утесам и слышат слова мои, что они кротки.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9c47d05b7e4"
+  },
+  "verse.ru:PS.141.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно, как и ссылка на Пс 22:15."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[blocker] Replace the last sentence of the commentary with the exact Synodal text ('Как будто землю рассекают и дробят нас; сыплются кости наши в челюсти преисподней') or drop it; do not claim it says 'кости их' or 'ад'. Also change 'Пс 21:15' to 'Пс 22:15' (the English has Psalm 22:15, and the chapter uses Hebrew numbering). (PS.141.7 (Synodal Пс 140:7): \"Как будто землю рассекают и дробят нас; сыплются кости наши в челюсти преисподней.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24c5ab500fac"
+  },
+  "verse.ru:PS.141.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [
+    "Синодальное «не отринь души моей» передаёт אַל־תְּעַר как «отвергнуть», а не как «излить». Ссылка Пс 123:2."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('не отринь души моей') and adjust the remark: it renders אַל־תְּעַר as 'reject', not as 'pour out'. Write 'Пс 123:2'. (PS.141.8 (Synodal Пс 140:8): \"Но к Тебе, Господи, Господи, очи мои; на Тебя уповаю, не отринь души моей!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "421b8f51d6cc"
+  },
+  "verse.ru:PS.141.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:18:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:16:08+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: 'Сохрани меня от силков, поставленных для меня, от тенет беззаконников'. (PS.141.9 (Synodal Пс 140:9): \"Сохрани меня от силков, поставленных для меня, от тенет беззаконников.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:19:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "323375b75496"
+  }
+ },
+ "notes": [
+  {
+   "note": "Citations are limited to the commentaries in the packet (Rashi, Ibn Ezra, Radak, Meiri, Metzudat David and Zion, Malbim, Targum) and a few lexical facts I am confident of. In verse 2 I relied on the Ibn Ezra, Radak and Meiri statement that the comparison particle כ is missing and is understood. The Malbim and Metzudat David's historical readings tie the psalm to David and Saul; I treat them as one tradition, not as the text's own claim.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T16:09:20+00:00"
+  },
+  {
+   "note": "Verses 4, 6, 7 and 9 are approved and left out of this fragment. Citations are limited to the commentaries in the packet and a few lexical facts I am sure of; the Malbim and Metzudat David readings tying the psalm to David and Saul are one tradition, not the text's claim.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T16:12:51+00:00"
+  }
+ ]
+}

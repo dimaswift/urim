@@ -272,10 +272,25 @@
   },
   {
    "verse_id": "GEN.43.5",
-   "translation_literal": "And if there is not you sending, we will not go down, for the man said to us, You shall not see my face, unless your brother [is] with you.",
-   "translation_dramatic": "'But if you will not send him, we will not go down. We cannot. The man said it plainly: you will not see my face unless your brother is with you.'",
-   "directors_commentary": "The second half of the ultimatum is the mirror of the first, and Judah repeats the Egyptian's words nearly verbatim from verse 3: a negotiator who will not paraphrase. Note that 'we will not go down' is the first time any of the sons has refused their father outright. It is respectful but absolute.\n\nThe KJV adds 'him' in italic-style ('wilt not send him'), which is not in the Hebrew: the object is simply understood, and the omission matters because Judah leaves Benjamin unnamed. In the whole exchange no one in this scene says 'Benjamin'. He is 'the brother', 'the boy', 'him': a presence in the room that everyone is stepping around.",
-   "philological_notes": [],
+   "translation_literal": "And if [there is] no you sending, we will not go down, for the man said to us: You will not see my face, except your brother [be] with you.",
+   "translation_dramatic": "\"But if you will not send him,\" said Judah, \"we will not go down. For the man told us: You will not see my face unless your brother is with you.\"",
+   "directors_commentary": "Judah is still speaking: the verse opens with a plain \"and if\", the other side of the offer in v. 4. His grammar is hard. The Hebrew says \"there is not you sending\", a participle that treats Jacob's refusal as a present fact, and the KJV's \"wilt not send\" turns that into a future wish. Judah answers in kind, \"we will not go down\", a flat statement, not a threat. He does not name Benjamin here. In vv. 3-5 Judah speaks of \"our brother\" and \"the young man\", and Israel names Benjamin only in his prayer in v. 14.\n\nTo \"see the face\" of a ruler means to be admitted to his presence, as at a court. So the man's condition is a door that stays shut for the brothers, not a threat of violence, and the brothers are repeating it exactly. The KJV (\"Ye shall not see my face, except your brother be with you\") keeps the sense, but its subjunctive \"be\" softens a condition the Hebrew states as a plain \"except [that] your brother [is] with you\". The verb \"send\" (shalach) will return in v. 8 (\"send the young man\") and v. 14 (\"he will send you\"), so the scene turns on who sends whom.",
+   "philological_notes": [
+    {
+     "term": "אֵינְךָ מְשַׁלֵּחַ",
+     "translit": "'einkha meshallei'ach",
+     "root": "שלח",
+     "note": "'There is not you sending': a negative participle clause. It describes Jacob's present refusal, not a future one. The same root carries the scene: 'send' in v. 8, 'he will send' in v. 14.",
+     "sources": []
+    },
+    {
+     "term": "לֹא־תִרְאוּ פָנַי",
+     "translit": "lo'-tir'u fanai",
+     "root": "ראה",
+     "note": "'You will not see my face': the idiom for being received by someone with authority. The man's refusal is of audience, not of sight.",
+     "sources": []
+    }
+   ],
    "token_glosses": [
     {
      "pos": 1,
@@ -283,7 +298,7 @@
     },
     {
      "pos": 2,
-     "gloss": "there is not you"
+     "gloss": "[there is] no you"
     },
     {
      "pos": 3,
@@ -307,7 +322,7 @@
     },
     {
      "pos": 8,
-     "gloss": "said"
+     "gloss": "he said"
     },
     {
      "pos": 9,
@@ -327,7 +342,7 @@
     },
     {
      "pos": 13,
-     "gloss": "unless"
+     "gloss": "except"
     },
     {
      "pos": 14,
@@ -335,7 +350,7 @@
     },
     {
      "pos": 15,
-     "gloss": "[is] with you"
+     "gloss": "[be] with you"
     }
    ]
   },
@@ -791,63 +806,46 @@
   },
   {
    "verse_id": "GEN.43.11",
-   "translation_literal": "And Israel their father said to them, If so, then, this do: take from the song-of the land in your vessels, and take down to the man a gift: a little balm and a little honey, gum and ladanum, pistachios and almonds.",
-   "translation_dramatic": "And Israel was silent a long while. Then he spoke, and his voice was a father's, practical, bleak and spent. 'If it must be so, then do this. Take the best the land sings of, in your vessels, and carry it down to the man as a gift: a little balm, a little honey, gum and myrrh, pistachios and almonds.'",
-   "directors_commentary": "Jacob yields, and the way he yields is revealing. He does not say yes to Benjamin; he says *'im ken efo*, 'if it is so, then', a phrase soaked in resignation. Rashi hears a man who has to find the cure for his own decision. He surrenders to necessity and begins to plan, which is what practical fathers do.\n\nThe gift is a diplomatic present, a *minchah*, the same word later used for grain offerings and tribute. Jacob has done this before: Sforno notes that his gift to Esau (ch. 32–33) was large to please a covetous eye, while this one is small, choice and rare, fit for a wealthy man who counts nothing. These are the goods Canaan exported: Radak cites Ezekiel 27:17 for balm and honey in the trade of Judah and Israel with Tyre. Balm, gum and ladanum were aromatics and cosmetics, honey (probably fruit syrup, perhaps of grapes) a luxury, pistachios and almonds foods that Egypt did not grow in quantity.\n\nThe phrase *mizimrat ha'aretz*, 'from the *zimrah* of the land', is a famous puzzle. The word is built on the root of 'song' (*zemer*): 'what the land is praised for', 'what it sings about'. Rashi's reading, 'that which everyone sings about when it comes into the world', and Ibn Ezra's 'anything excellent' agree. The KJV 'best fruits' is a decent guess, but it drops the music. The botanical terms are uncertain: Rashi admits he does not know *botnim*, Radak says pine nuts, Ibn Ezra 'walnuts, some say'; *nekhot* is gum tragacanth or storax, *lot* ladanum or mastic (Radak, citing Genesis Rabbah). KJV 'spices and myrrh' is traditional; 'balm' for *tsori* is the conventional rendering of an unidentified resin.",
+   "translation_literal": "And he said to them, Israel their father: If so, then, this do: take from the praised [produce] of the land in your vessels, and take down to the man a gift: a little balm and a little honey, nekhot and lot, batnim and almonds.",
+   "translation_dramatic": "Then Israel, their father, spoke to them. \"If it is so, then do this. Take from what the land is most praised for, and carry it down in your vessels to the man as a gift: a little balm, a little honey, gum and ladanum, pistachios and almonds.\"",
+   "directors_commentary": "Jacob gives way in one sentence of three quick commands: do this, take, carry down. His first words are \"if so, then\" (im ken efo), the sound of a man who has run out of other options; Radak reads it as \"since I cannot hold him back now\", and Rashi hears a man who must look for some remedy (\"where is the plan?\"). The KJV's \"If it must be so now\" adds \"must\" and moves efo (\"then\") to \"now\"; the Hebrew has neither.\n\nThe gift (minchah) is the word for what one brings to a superior. Note the repeated \"a little\" (me'at): Sforno says a small, choice gift suits a lord who counts silver as nothing, in contrast to the large droves Jacob once sent Esau. \"The praised [produce] of the land\" (zimrat ha'aretz) is a rare word; Rashi connects it with song, \"what everyone sings of\", and Ibn Ezra with zemirot (Isa 24:16). The KJV's \"best fruits\" narrows it to fruit, and the list that follows is not fruit. Radak notes that balm and honey were exports of the land of Israel, citing Ezekiel 27:17.\n\nThe list is the hardest part. The sources do not agree. For nekhot, Rashi says wax, and Radak reports the same from Genesis Rabbah, with lot as mastic; Radak also reports Saadia as carob (nekhot) and chestnut (lot), and Saadia's balm as theriac. For batnim Radak says pine nuts, Ibn Ezra says it is not a bad word in Scripture and some say walnuts, and Rashi admits that he does not know it: he saw 'pistachios' (pshtzyas) in the alphabet commentary of R. Makhir, though he himself thinks they are peaches. The English \"gum\" and \"ladanum\" used in the dramatic layer are the modern conventional glosses, and the sources in front of us do not give them, nor does \"pistachios\". The KJV's \"spices and myrrh\" and \"nuts\" choose one reading of each without saying that the others exist.",
    "philological_notes": [
     {
-     "term": "מִזִּמְרַת הָאָרֶץ",
-     "translit": "mizimRat ha'Aretz",
+     "term": "זִמְרַת הָאָרֶץ",
+     "translit": "zimrat ha'aretz",
      "root": "זמר",
-     "note": "A hapax built on the root of 'song' or 'praise': 'what the land is praised for', its choice products. Rashi and Ibn Ezra read it as the most renowned products; KJV 'best fruits'.",
+     "note": "'The praised [produce] of the land': a rare word. Rashi links it to singing, since everyone sings of it; Ibn Ezra to zemirot (Isa 24:16). The KJV's 'best fruits' narrows it.",
      "sources": [
       "Rashi on Genesis 43:11",
       "Ibn Ezra on Genesis 43:11"
      ]
     },
     {
-     "term": "מִנְחָה",
-     "translit": "minChah",
-     "root": "מנח",
-     "note": "A gift, tribute or present offered to a superior, to win favour. Later also the grain offering.",
+     "term": "נְכֹאת וָלֹט",
+     "translit": "nekhot valot",
+     "root": "נכא; לוט",
+     "note": "Two goods whose identity is disputed. Rashi: nekhot is wax. Radak, citing Genesis Rabbah: wax and mastic; Saadia: carob and chestnut. 'Gum' and 'ladanum' are the modern conventional glosses, unsourced here.",
      "sources": [
-      "Radak on Genesis 43:11"
-     ]
-    },
-    {
-     "term": "צֳרִי",
-     "translit": "tzoRi",
-     "root": "צרי",
-     "note": "'Balm', a resin exported from Gilead (compare Ezekiel 27:17). The plant is unidentified.",
-     "sources": [
+      "Rashi on Genesis 43:11",
       "Radak on Genesis 43:11"
      ]
     },
     {
      "term": "בָּטְנִים",
-     "translit": "bateNim",
+     "translit": "batnim",
      "root": "בטן",
-     "note": "Probably pistachios. Rashi says he does not know what they are; Radak identifies them as pine nuts; Ibn Ezra says some say walnuts.",
+     "note": "Uncertain. Radak: pine nuts. Ibn Ezra: some say walnuts. Rashi does not know the word: he reports 'pistachios' from R. Makhir, but thinks they are peaches.",
      "sources": [
       "Rashi on Genesis 43:11",
       "Radak on Genesis 43:11",
       "Ibn Ezra on Genesis 43:11"
-     ]
-    },
-    {
-     "term": "אֵפוֹא",
-     "translit": "'efO'",
-     "root": "אפו",
-     "note": "'Then, in that case': a particle of resignation. Rashi reads it as Jacob reasoning himself into the necessary arrangement.",
-     "sources": [
-      "Rashi on Genesis 43:11"
      ]
     }
    ],
    "token_glosses": [
     {
      "pos": 1,
-     "gloss": "and said"
+     "gloss": "and he said"
     },
     {
      "pos": 2,
@@ -887,7 +885,7 @@
     },
     {
      "pos": 11,
-     "gloss": "from the choice products of"
+     "gloss": "from the praised [produce] of"
     },
     {
      "pos": 12,
@@ -911,7 +909,7 @@
     },
     {
      "pos": 17,
-     "gloss": "a little"
+     "gloss": "a little of"
     },
     {
      "pos": 18,
@@ -919,7 +917,7 @@
     },
     {
      "pos": 19,
-     "gloss": "and a little"
+     "gloss": "and a little of"
     },
     {
      "pos": 20,
@@ -927,15 +925,15 @@
     },
     {
      "pos": 21,
-     "gloss": "gum"
+     "gloss": "nekhot (a spice or resin; sources differ)"
     },
     {
      "pos": 22,
-     "gloss": "and ladanum"
+     "gloss": "and lot (a resin; sources differ)"
     },
     {
      "pos": 23,
-     "gloss": "pistachios"
+     "gloss": "batnim (a nut; sources differ)"
     },
     {
      "pos": 24,
@@ -1031,15 +1029,15 @@
   },
   {
    "verse_id": "GEN.43.13",
-   "translation_literal": "And [obj] your brother, take, and arise, return to the man.",
-   "translation_dramatic": "And your brother, take him too. Get up now, and go back to the man.",
-   "directors_commentary": "Israel's voice here is a string of bare commands: take, arise, return. No 'please', no argument. A father who has lost every argument gives orders because he has no more reasons. The word order puts 'your brother' first, before the verbs: the one thing he cannot say aloud is the name Benjamin.\n\nThe KJV's 'take also your brother' adds 'also' and smooths the staccato; 'go again' is archaic for 'return'. Note 'the man': the brothers and their father never call Joseph anything else. Only the reader knows who he is.",
+   "translation_literal": "And your brother take, and arise, return to the man.",
+   "translation_dramatic": "\"And your brother: take him. Rise. Go back to the man.\"",
+   "directors_commentary": "Three commands, almost without a pause: take, arise, return. The object comes first: \"and your brother take\". In this verse he is not named; Israel says \"your brother\", and the name Benjamin comes only in his prayer in v. 14. The KJV's \"Take also your brother\" adds an \"also\" that is not in the Hebrew and flattens the fronting; the brother is the point of the sentence, not an addition to the list.\n\nThe verb \"return\" (shuvu) echoes v. 12, where the silver is to be \"returned\" (hamushav) and \"taken back\" (tashivu). The same root governs the money and the journey. In v. 12 the silver comes back to the man, and now the brothers do. \"Arise, return\" has no \"and\" between its last two verbs, which makes it brisk, a string of orders with no room to argue. Sforno adds that the gift goes before them so that it will appease the man's face first, citing Proverbs 17:8.",
    "philological_notes": [
     {
-     "term": "וְק֖וּמוּ שׁ֥וּבוּ",
-     "translit": "veKumu Shuvu",
-     "root": "קום, שוב",
-     "note": "Two imperatives side by side, 'arise, return': a pair of verbs that makes the order urgent, not two separate actions. The KJV 'arise, go again' keeps the pair but the sense of 'return' (shuv) is lost in 'go again', and shuv will recur through the chapter as the key verb for money, men and the sons coming back.",
+     "term": "שׁוּבוּ",
+     "translit": "shuvu",
+     "root": "שוב",
+     "note": "'Return': the same root as hamushav and tashivu in v. 12. The silver is to return to the man, and so are the brothers. The KJV's 'go again' hides the echo.",
      "sources": []
     }
    ],
@@ -1185,22 +1183,15 @@
   },
   {
    "verse_id": "GEN.43.15",
-   "translation_literal": "And the men took [obj] this gift, and double silver they took in their hand, and [obj] Benjamin; and they arose and went down [to] Egypt and stood before Joseph.",
-   "translation_dramatic": "So the men took up the gift, and silver twice over in their hands, and Benjamin. They rose, they went down into Egypt, and they stood before Joseph.",
-   "directors_commentary": "The verbs march: took, took, took, arose, went down, stood. The text lists Benjamin between the silver and the gift, as one more thing to be carried. That is how the brothers have been made to treat him by their father's fear. The chain ends with 'stood before Joseph', the same verb of standing that echoes the dreams in which they were to bow. They stand; the bowing comes later.\n\nThe KJV 'that present' is fine. But 'double money' sounds like interest: it is mishneh kesef, a second portion of silver, the original sum plus what they found, per verse 12. 'Went down' is literal: Egypt is downhill from Canaan, and 'going down' is the book's standing phrase for the journey.\n\nThe Targum and Rashi note that Aramaic uses different verbs for taking silver in the hand and for taking a person: Benjamin is 'led', not 'taken'.",
+   "translation_literal": "And the men took this gift, and double silver they took in their hand, and Benjamin; and they arose and went down [to] Egypt and stood before Joseph.",
+   "translation_dramatic": "So the men took the gift, and twice the silver they carried in their hands, and Benjamin. They rose and went down to Egypt, and they stood before Joseph.",
+   "directors_commentary": "The verb \"took\" runs through the verse, and the list is arranged as an inventory: the gift, the double silver, and last of all Benjamin, as the final object of \"took\", after the goods. The text gives no emotion here and says only what is carried. Rashi's remark (on Onkelos) is that Aramaic uses a different verb for taking an object in the hand and for taking a person; Hebrew uses one \"took\" for all three, so Benjamin is carried like goods. Whether that is what the narrator intends is for the actors to decide, but nothing in the grammar separates him from the silver.\n\nThe KJV's \"that present\" and \"took double money\" are accurate enough; \"this gift\" (ha-minchah hazot) points at the very list Israel has just given. The silver is described as \"double\" (mishneh) exactly as in v. 12, so the narrator is checking the instructions off. The going down and the standing are told in four brisk verbs: they arose, they went down, they stood. \"Stood before\" is the posture of petitioners before a ruler. Radak says they met Joseph in the market on their way to lodgings, and Sforno that they stood before him before the gift was brought; both are readings, not stated in the verse.",
    "philological_notes": [
     {
-     "term": "מִשְׁנֶה־כֶּסֶף",
-     "translit": "mishneh-Kesef",
-     "root": "שנה",
-     "note": "'A double of silver', that is, twice the sum, not interest. Compare the instruction in 43:12.",
-     "sources": []
-    },
-    {
-     "term": "וְאֶת־בִּנְיָמִ֑ן",
-     "translit": "ve'et-binyaMin",
-     "root": "בנימן",
-     "note": "The same verb 'took' governs Benjamin. Rashi notes that Onkelos renders the taking of Benjamin with a verb of leading, because Aramaic distinguishes taking an object from leading a person.",
+     "term": "וְאֶת־בִּנְיָמִן",
+     "translit": "ve'et-binyamin",
+     "root": "בנה ימין",
+     "note": "Benjamin is the last object of 'took', after the gift and the silver. Rashi notes that the Aramaic targum distinguishes taking an object from leading a person; the Hebrew does not.",
      "sources": [
       "Rashi on Genesis 43:15"
      ]
@@ -1279,25 +1270,26 @@
   },
   {
    "verse_id": "GEN.43.16",
-   "translation_literal": "And Joseph saw Benjamin with them, and said to [the one who was] over his house: Bring [obj] the men to the house, and slaughter a slaughter, and prepare, for with me the men will eat at noon.",
-   "translation_dramatic": "Joseph looked, and Benjamin was among them. He turned to the man over his house. 'Bring these men into my house. Slaughter, and make it ready, for they will eat with me at noon.'",
-   "directors_commentary": "Joseph sees Benjamin, and the text gives us only the seeing. Give the actor a beat of silence; everything he feels is held in the verb. Then his voice becomes administrative: bring, slaughter, prepare. The emotion goes underground into a household order.\n\nHe says 'slaughter a slaughter' (tevach tevach): an infinitive absolute with its verb, which means a real slaughter of an animal, a feast, not a snack. Rashi notes the form is odd as a command. The KJV 'slay' sounds like killing men; the Hebrew is ritual and kitchen slaughter. Meat was for festivals and honored guests, so this signals status. The KJV 'ruler of his house' and 'dine' are acceptable; 'steward' (ASV) captures the office, literally 'the one over his house'.\n\nTsohorayim is 'noon' (the dual: the double light of midday). Radak says it was when the great and the judges ate, after the morning's work; Sforno suggests Joseph was at the king's gate. A meal at his table means these foreign shepherds are being treated as equals, which should terrify them.",
+   "translation_literal": "And Joseph saw with them Benjamin, and said to the one [who was] over his house: Bring the men to the house, and slaughter a slaughter and prepare, for with me the men will eat at the noons.",
+   "translation_dramatic": "And Joseph saw Benjamin among them. He said to the steward of his house, \"Bring the men into the house. Slaughter, and make ready, for these men will eat with me at midday.\"",
+   "directors_commentary": "Benjamin comes last in the clause: \"Joseph saw with them... Benjamin.\" The text records only that he sees him and speaks; whatever Joseph feels is left to the actor. His order goes to the man \"over his house\", the steward, and it is very short: bring, slaughter, prepare. The KJV's \"slay, and make ready\" drops the cognate object. The Hebrew says \"slaughter a slaughter\" (tevoach tevach), the root doubled for emphasis, and tevach means the slaughtered animal, the slaughtered meat itself, a meal worth ordering in advance. Rashi reads the first verb as an infinitive standing for a command, \"as if it were to slaughter a slaughter and to prepare\", since an imperative would have been utevach. Also the KJV's \"home\" is the house, with the directional ending (habayetah), and \"these men\" repeats \"the men\".\n\n\"At the noon\" is a dual (tzohorayim, \"the two lights\"), the high point of the day. Radak says midday was when princes and judges ate once they had done the city's business (Eccl 10:17), and Joseph was the one over all of it. Rashi notes that the Aramaic renders it as sheiruta, the first meal. The KJV's \"dine\" is right for the hour. Sforno's reading (the order is given so that Joseph can watch how the brothers treat Benjamin) is his own and is not in the verse.",
    "philological_notes": [
     {
-     "term": "וּטְבֹ֤חַ טֶ֙בַח֙",
-     "translit": "uteVoach Tevach",
+     "term": "וּטְבֹחַ טֶבַח",
+     "translit": "utevoach tevach",
      "root": "טבח",
-     "note": "Imperative with an absolute infinitive and its noun: 'slaughter a slaughter'. Rashi observes the form reads like 'to slaughter a slaughter', and that the imperative would normally be tevach.",
+     "note": "An infinitive used as a command, with its cognate noun: 'slaughter a slaughter'. Rashi: 'like to slaughter a slaughter and to prepare', not an imperative form, which would have been utevach. The KJV's 'slay' loses the noun.",
      "sources": [
       "Rashi on Genesis 43:16"
      ]
     },
     {
      "term": "בַּצָּהֳרָיִם",
-     "translit": "BatzohoRayim",
+     "translit": "batzohorayim",
      "root": "צהר",
-     "note": "'At noon', a dual form for the two lights of midday. Radak ties it to the hour of the rulers' meal (Ecclesiastes 10:16).",
+     "note": "'At the noons', a dual of the word for midday. Rashi: the Aramaic gives sheiruta, the first meal; Radak: the hour of the meal of princes and judges.",
      "sources": [
+      "Rashi on Genesis 43:16",
       "Radak on Genesis 43:16"
      ]
     }
@@ -1365,7 +1357,7 @@
     },
     {
      "pos": 16,
-     "gloss": "and prepare"
+     "gloss": "and prepare [it]"
     },
     {
      "pos": 17,
@@ -1385,7 +1377,7 @@
     },
     {
      "pos": 21,
-     "gloss": "at noon"
+     "gloss": "at midday"
     }
    ]
   },
@@ -1444,41 +1436,45 @@
   },
   {
    "verse_id": "GEN.43.18",
-   "translation_literal": "And the men were afraid because they were brought [to] the house of Joseph, and they said: On account of the silver that was returned in our sacks at the beginning we are being brought, to roll himself upon us and to throw himself upon us, and to take us for slaves, and [obj] our donkeys.",
-   "translation_dramatic": "And fear took the men, because they were being led into Joseph's house. They whispered it to one another: 'It is the silver. The silver that was put back in our sacks the first time. That is why we are brought here, so that he can fall on us, and seize us as slaves, and our donkeys too.'",
-   "directors_commentary": "The brothers have just been honored, and they read it as a snare. This is guilt reading signs: a guest who is never a guest is a prisoner. Ancient travelers going to buy grain slept in the town's inns, not in the vizier's house (Rashi), so the invitation itself looks wrong to them. Play it as a whisper among men who have been on edge for months.\n\nTwo rare verbs carry the dread: lehitgolel and lehitnappel, 'to roll himself upon us' and 'to throw himself upon us'. Both are reflexive: he will do it of his own accord, as a man hurls himself on someone. Rashi and Ramban read the first as a charge 'rolling' onto them, and Onkelos as a pretext. The KJV has 'seek occasion against us, and fall upon us', which softens the physical image into a legal one. In the Hebrew they feel a body coming down on them.\n\nThe last words are the ones that give them away: 'and our donkeys', the pack animals that carry the family's life home. Ramban says they fear the grain cannot be sent home and all will starve. 'Slaves' is plain 'avadim'; KJV's 'bondmen' is archaic.",
+   "translation_literal": "And the men feared, for they were brought [to] the house of Joseph; and they said, On account of the matter of the silver, the [one] returned in our sacks at the beginning, we [are] being brought, to roll himself upon us and to throw himself upon us, and to take us as slaves, and our donkeys.",
+   "translation_dramatic": "Fear took the men. The gate had closed behind them, and the road led not to an inn but to the house of Joseph, and no one had told them why. They spoke low, and each word was a stone dropped into the silence: it was the silver. The silver that had come home in their sacks the first time. That was why they were led in. A great man was looking for a way to fall upon them, to bring his whole weight down on them, to make slaves of them, and to take their donkeys as well.",
+   "directors_commentary": "Play the fear first, and play its logic second. The brothers have been summoned to the great man's house, not lodged at a caravanserai, and in the ancient world that could mean arrest. Rashi says as much: other grain buyers did not sleep in the house of the vizier but in the inns of the city, so this looks like a roundup (Rashi on Genesis 43:18). Their guilty conscience then does the rest: the returned silver is the only thing they can think of. Note that the money was in fact innocent, and they do not yet know it.\n\nThe three verbs of the threat are rare and the commentators divide on them. Rashi hears a charge 'rolling' onto them: the accusation about the silver rolls and falls upon them (Rashi on Genesis 43:18), and Radak likewise reads a pretext, a trumped-up case (Radak on Genesis 43:18). Ramban reads the verbs bodily: lehitgolel as a man turning from side to side upon his fellow, as in 'Amasa wallowing in blood' (2 Samuel 20:12), and lehitnappel as a man throwing himself, by his own will, with his full height onto another (Ramban on Genesis 43:18). Onkelos has two different renderings: for lehitgolel 'to exalt himself over us', the swell of the sea upon its waves, and for lehitnappel 'to find a pretext against us', since a matter that is not true is said to 'fall' (Ramban on Genesis 43:18, citing Onkelos). Ibn Ezra derives lehitgolel from biglal, 'on account of' (Deuteronomy 15:10), and lehitnappel as a man who falls upon someone by himself and says, 'You made me fall' (Ibn Ezra on Genesis 43:18). The Hebrew repeats 'upon us' twice, and an actor should let it ring: two blows, then the third, 'to take us as slaves'.\n\nThe KJV smooths all this into 'seek occasion against us, and fall upon us'. 'Seek occasion' is a good rendering of the pretext reading, but it hides the two reflexive (hitpael) verbs: the man does this to himself, with his own weight. The KJV also says 'bondmen' for avadim, plain 'slaves', and 'asses' where the Hebrew has the working donkeys, their road home. Ramban notes the donkeys are a real fear and not a flourish: without them the grain cannot go back to Canaan, and the families starve (Ramban on Genesis 43:18). The word 'silver' (kesef) is also the money itself: unminted weighed metal, not coin.",
    "philological_notes": [
     {
      "term": "לְהִתְגֹּלֵל",
-     "translit": "lehitgoLel",
+     "translit": "lehitgolel",
      "root": "גלל",
-     "note": "Reflexive 'to roll oneself upon': a charge or accusation rolling down on them (Rashi), or a man tumbling over his fellow (Ramban, citing 2 Samuel 20:12).",
+     "note": "Hitpael of 'to roll': 'to roll himself upon us'. Rashi takes it as a charge that rolls onto them; Ramban as a man turning over his fellow, as in 2 Sam 20:12 and Isa 9:4; Onkelos as 'exalting himself' over them; Ibn Ezra derives it from biglal, 'on account of'.",
      "sources": [
       "Rashi on Genesis 43:18",
-      "Ramban on Genesis 43:18"
+      "Ramban on Genesis 43:18",
+      "Ibn Ezra on Genesis 43:18",
+      "Onkelos on Genesis 43:18"
      ]
     },
     {
      "term": "וּלְהִתְנַפֵּל",
-     "translit": "ulehitnaPel",
+     "translit": "ulehitnapel",
      "root": "נפל",
-     "note": "Reflexive 'to throw oneself upon', a deliberate attack with one's full height (Ramban).",
+     "note": "Hitpael of 'to fall': 'to throw himself upon us'. Radak and Onkelos (le'istakkefa) hear a pretext; Ramban hears a man falling upon another, by his own will, with his whole height; Ibn Ezra hears a man who falls upon another and says 'you made me fall'.",
      "sources": [
-      "Ramban on Genesis 43:18"
+      "Radak on Genesis 43:18",
+      "Ramban on Genesis 43:18",
+      "Ibn Ezra on Genesis 43:18"
      ]
     },
     {
      "term": "בַּתְּחִלָּה",
-     "translit": "batechiLah",
+     "translit": "batechilah",
      "root": "חלל",
-     "note": "'At the beginning', that is, on the first journey; also in 43:20. KJV 'at the first time' is awkward.",
+     "note": "'At the beginning', 'the first time'. The brothers use the word in 43:18 and again in 43:20, so the story of the first journey frames both of their speeches.",
      "sources": []
     }
    ],
    "token_glosses": [
     {
      "pos": 1,
-     "gloss": "and they were afraid"
+     "gloss": "and they feared (written with two yods)"
     },
     {
      "pos": 2,
@@ -1486,7 +1482,7 @@
     },
     {
      "pos": 3,
-     "gloss": "because"
+     "gloss": "for"
     },
     {
      "pos": 4,
@@ -1494,7 +1490,7 @@
     },
     {
      "pos": 5,
-     "gloss": "to the house of"
+     "gloss": "[to] the house of"
     },
     {
      "pos": 6,
@@ -1518,7 +1514,7 @@
     },
     {
      "pos": 11,
-     "gloss": "that was returned"
+     "gloss": "the [one] returned"
     },
     {
      "pos": 12,
@@ -1534,7 +1530,7 @@
     },
     {
      "pos": 15,
-     "gloss": "are being brought"
+     "gloss": "[are] being brought"
     },
     {
      "pos": 16,
@@ -1562,7 +1558,7 @@
     },
     {
      "pos": 22,
-     "gloss": "for slaves"
+     "gloss": "as slaves"
     },
     {
      "pos": 23,
@@ -1640,26 +1636,26 @@
   },
   {
    "verse_id": "GEN.43.20",
-   "translation_literal": "And they said: Pardon, my lord! Coming down, we came down at the beginning to buy food.",
-   "translation_dramatic": "'Please, my lord,' they said. 'We did come down once before. We came down for one thing only: to buy food.'",
-   "directors_commentary": "The speech begins with a cry: bi adoni. It is a petition, two words that sound like a man dropping to his knees. The sources disagree on what exactly it is. Rashi takes it from an Aramaic word of plea; Ramban rejects that and says it is a cry of protest at injustice; Ibn Ezra reads a short form of 'on me, my lord, be the guilt' (1 Samuel 25:24). All agree the tone is begging. The KJV 'O sir' reduces it to a polite address.\n\nThen 'yarod yaradnu', 'coming down, we came down', the verb doubled for emphasis: we really did come down. The KJV 'we came indeed down' keeps this. Rashi also hears a social note in 'down': we, who were used to feeding others, now need you. The brothers insist on their one innocent purpose, food.",
+   "translation_literal": "And they said, On me, my lord: coming down, we came down at the beginning to buy food.",
+   "translation_dramatic": "\"Please, my lord,\" they said, and the words came out broken. \"Hear us. We came down once before, at the beginning. We came down for one thing only: to buy food.\"",
+   "directors_commentary": "The speech opens with a word the commentators cannot agree on. 'Bi adoni' is literally 'in me, my lord' or 'on me, my lord', and it stands alone, with no verb. Rashi hears a plea and derives it from an Aramaic cry, 'baya, baya' (Rashi on Genesis 43:20), and Radak and Onkelos ('by request, my lord') also hear a request (Radak on Genesis 43:20). Ibn Ezra reads a shortened phrase like Abigail's 'on me, my lord, be the guilt' (1 Samuel 25:24): 'do to me what you will, but hear me' (Ibn Ezra on Genesis 43:20). Ramban rejects Rashi's derivation: the Aramaic word is a cry of complaint over a wrong, not a request, and it does not give a 'bi' (Ramban on Genesis 43:20). He holds that 'bi' occurs only with 'adoni' or with the divine name Adonai, and reads it as an emphatic address, 'on me yourself you are lord and ruler' (Ramban on Genesis 43:20). The actor may therefore choose between a plea, a surrender and a formal salute; the Hebrew is deliberately short, and a nervous speaker is cut off in mid-phrase.\n\nThe KJV's 'O sir' flattens it: 'adoni' is 'my lord', the title a petitioner gives to a superior, and 'sir' also drops the 'bi'. 'We came indeed down' keeps the infinitive absolute (yarod yaradnu, 'coming down, we came down'), which is an emphatic, pressing 'we really did come down'. Rashi hears also the verb 'to go down' as a descent in fortune: they used to feed others, and now they need him (Rashi on Genesis 43:20, citing Genesis Rabbah). In Hebrew geography, one always 'goes down' to Egypt, and one always goes up to Canaan, so the verb is also plain direction. They speak first about the grain, not about the silver: a polite way to put the innocent fact before the dangerous one.",
    "philological_notes": [
     {
-     "term": "בִּ֣י אֲדֹנִ֑י",
-     "translit": "bi adoNi",
-     "root": "בי",
-     "note": "A plea formula, 'pardon, my lord'. Rashi derives it from an Aramaic word for request; Ramban disputes that and calls it a cry of distress; Ibn Ezra reads it as an abbreviated 'upon me, my lord, [be the guilt]'. The meaning of a petition is shared by all.",
+     "term": "בִּי",
+     "translit": "bi",
+     "root": "ב",
+     "note": "Literally 'in me' or 'on me'. Rashi takes it as a plea (Aramaic baya); Ibn Ezra as a shortened 'on me [be the guilt], my lord' (1 Sam 25:24); Ramban rejects the Aramaic derivation and reads 'on me, you are lord'. My own reading is that the phrase is a formula of address that the text does not explain.",
      "sources": [
       "Rashi on Genesis 43:20",
-      "Ramban on Genesis 43:20",
-      "Ibn Ezra on Genesis 43:20"
+      "Ibn Ezra on Genesis 43:20",
+      "Ramban on Genesis 43:20"
      ]
     },
     {
-     "term": "יָרֹ֥ד יָרַ֛דְנוּ",
-     "translit": "yaRod yaRadnu",
+     "term": "יָרֹד יָרַדְנוּ",
+     "translit": "yarod yaradnu",
      "root": "ירד",
-     "note": "Infinitive absolute and finite verb: 'we truly came down'. Rashi adds that going down is also a decline in status for them.",
+     "note": "Infinitive absolute before the finite verb: 'coming down, we came down', emphatic. Rashi hears a descent in fortune too.",
      "sources": [
       "Rashi on Genesis 43:20"
      ]
@@ -1672,7 +1668,7 @@
     },
     {
      "pos": 2,
-     "gloss": "pardon"
+     "gloss": "on me (a plea or an address)"
     },
     {
      "pos": 3,
@@ -1680,7 +1676,7 @@
     },
     {
      "pos": 4,
-     "gloss": "coming down"
+     "gloss": "coming down (emphatic)"
     },
     {
      "pos": 5,
@@ -2745,27 +2741,28 @@
   },
   {
    "verse_id": "GEN.43.34",
-   "translation_literal": "And portions were lifted from before his face to them, and the portion of Benjamin was great beyond the portions of all of them, five hands; and they drank, and they became drunk with him.",
-   "translation_dramatic": "Portions were carried from Joseph's own table to theirs, as a host does to honor a guest. But Benjamin's portion was five times the size of any of the others. And they drank, and drank deep, and for that evening the wine loosened the long strain of the weeks behind them. They were drunk with him.",
-   "directors_commentary": "Sending portions from the host's own table was the highest honor at an ancient banquet: it said 'you are mine.' Benjamin's five-fold share (literally 'five hands,' that is, five parts, as Ibn Ezra and Onkelos read it) is also a test: Sforno says Joseph wanted to see whether they would envy the favorite, as they once envied him in his coat. Radak says he was making up to Benjamin, who had been dragged from his father on account of nothing.\n\nKJV's 'messes' is an archaic word for a dish of food, and BBE's 'five times as much' is a paraphrase. 'Five hands' literally means five shares. And 'were merry' for vayishkeru softens the verb: it means 'became drunk,' the same word used of Noah in 9:21. Rashi, citing Genesis Rabbah, says neither Joseph nor his brothers had drunk wine since the day they sold him, and this was the first time. Do not play it as a riot. Play it as relief: the first time in twenty years they have been at one table with the dread lifted.",
+   "translation_literal": "And he lifted portions from with his face to them, and the portion of Benjamin was great beyond the portions of all of them, five hands; and they drank and they became drunk with him.",
+   "translation_dramatic": "Then portions were lifted from the table before Joseph's own face and carried down to them, one by one. And Benjamin's portion rose above the rest, heaped higher than all the others, five times over. The cups went round. The brothers drank, and went on drinking, until the wine had loosened them, there at the afternoon table, with the lord of Egypt drinking beside them.",
+   "directors_commentary": "This is a banquet of rank, and the actors must play the seating and the serving as a message. Portions were carried from the host's own table as a mark of favour (the Hebrew says literally 'from with his face'), so each plate is a statement about status. Benjamin's is five 'hands' larger than anyone's. The idiom is a share, a 'hand', as in the later 'five parts' of Genesis 47:24; the KJV's 'five times so much' is a fair sense, but it flattens a word that means a measure of share, and YLT keeps 'five hands'. The commentators disagree on how it was reckoned. Rashi lists whose shares were added to Benjamin's (Joseph's, Asenath's, Manasseh's and Ephraim's), while Ibn Ezra denies that every single portion was multiplied by five, since that would be extravagant. Sforno sees a test: would the brothers envy him? They show no sign of it. Radak adds a motive of tenderness: Joseph consoles Benjamin for the years he was kept from his father.\n\nThe last clause is the surprise. KJV and ASV soften וַיִּשְׁכְּרוּ to 'were merry', and BBE to 'took wine freely'. The Hebrew says they became drunk, the same root as Noah's drunkenness (Gen 9:21), and it is placed deliberately beside 'with him'. The meal is the noon meal promised in 43:16 and 43:25, so the drinking is an afternoon one. Play it as relief after a day of dread: these men have been accused, searched and frightened, and now the room has turned. Sforno reads their drinking as a lapse: the wines were royal and unfamiliar to them, and they did not hold back as one should when dining with the great (he cites Prov 23:1). That tension is there for the actor to use. They are drunk and unguarded in front of the man who holds their lives.",
    "philological_notes": [
+    {
+     "term": "חָמֵשׁ יָדוֹת",
+     "translit": "chamesh yadot",
+     "root": "ידה",
+     "note": "Literally 'five hands'. Here 'hand' is a share or part, so 'five hands more' means five shares beyond each brother's. Gen 47:24 uses the same word for 'parts'. English 'five times' hides the word and the reckoning, which the commentators dispute.",
+     "sources": [
+      "Rashi on Genesis 43:34",
+      "Ibn Ezra on Genesis 43:34",
+      "Sforno on Genesis 43:34"
+     ]
+    },
     {
      "term": "מַשְׂאֹת",
      "translit": "mas'ot",
      "root": "נשא",
-     "note": "'Lifted things': portions sent from the host's table, from the root nasa, to lift. Rashi glosses it simply as 'portions' (manot).",
+     "note": "Portions sent from the host's table, from the verb 'to lift'. Rashi glosses it as portions (מָנוֹת) and Ibn Ezra as a gift (דורון). The word is repeated three times, so the whole verse is a play on who is lifted above whom; the KJV 'messes' is archaic for a serving of food.",
      "sources": [
       "Rashi on Genesis 43:34",
-      "Ibn Ezra on Genesis 43:34"
-     ]
-    },
-    {
-     "term": "חָמֵשׁ יָדוֹת",
-     "translit": "chamesh yadot",
-     "root": "ידי",
-     "note": "'Five hands': the idiom means five shares or parts. Onkelos has 'five parts'; Ibn Ezra glosses yadot as chalakim, parts.",
-     "sources": [
-      "Onkelos on Genesis 43:34",
       "Ibn Ezra on Genesis 43:34"
      ]
     },
@@ -2773,8 +2770,9 @@
      "term": "וַיִּשְׁכְּרוּ",
      "translit": "vayishkeru",
      "root": "שכר",
-     "note": "'They became drunk': the same root as Noah's drunkenness (9:21). It is not necessarily a disgrace here, since the text does not describe any disorder.",
+     "note": "'And they became drunk'. It is the same root as Noah's drunkenness. The KJV 'were merry' and BBE 'freely' soften it. Rashi takes it as the first wine they and Joseph had drunk since the sale, quoting Genesis Rabbah. Sforno reads it as a lapse: unaccustomed royal wines, and no restraint at table with the great, citing Prov 23:1.",
      "sources": [
+      "Rashi on Genesis 43:34",
       "Sforno on Genesis 43:34"
      ]
     }
@@ -2782,7 +2780,7 @@
    "token_glosses": [
     {
      "pos": 1,
-     "gloss": "and [portions] were lifted"
+     "gloss": "and he lifted"
     },
     {
      "pos": 2,
@@ -2790,11 +2788,11 @@
     },
     {
      "pos": 3,
-     "gloss": "from"
+     "gloss": "from with"
     },
     {
      "pos": 4,
-     "gloss": "before his face"
+     "gloss": "his face"
     },
     {
      "pos": 5,
@@ -2802,7 +2800,7 @@
     },
     {
      "pos": 6,
-     "gloss": "and it was greater"
+     "gloss": "and it was great"
     },
     {
      "pos": 7,
@@ -2814,7 +2812,7 @@
     },
     {
      "pos": 9,
-     "gloss": "than the portions of"
+     "gloss": "beyond the portions of"
     },
     {
      "pos": 10,

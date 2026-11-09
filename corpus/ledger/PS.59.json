@@ -398,6 +398,404 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.59.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:35+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: Синодальный перевод (Пс 58:1) печатает «Не погуби.» отдельной фразой и не говорит, напев это или мольба; непереведённым оставляет «Altaschith» только KJV. Прежняя фраза о том, что Синодальный видит в этом название напева, убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] Replace the Synodal sentence: the Synodal prints 'Не погуби.' as a bare phrase without saying whether it is a tune or a plea; only the KJV leaves it untranslated as 'Altaschith'. (RusSynodal Пс 58:1: \"Начальнику хора. Не погуби. Писание Давида, когда Саул послал стеречь дом его, чтобы умертвить его.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "840ef98e3f03"
+  },
+  "verse.ru:PS.59.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован точно: «Сила — у них, но я к Тебе прибегаю». Он читает «его сила» о враге, как Раши и Радак, и теряет глагол «шамар»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] Quote the Synodal as 'Сила — у них, но я к Тебе прибегаю' (it reads 'his strength' of the enemy, like Rashi and Radak, and loses the verb שמר), or drop the Synodal comparison. (RusSynodal Пс 58:10: \"Сила — у них, но я к Тебе прибегаю, ибо Бог — заступник мой.\" Hebrew PS.59.10: עֻזּוֹ אֵלֶיךָ אֶשְׁמֹרָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51b416efd166"
+  },
+  "verse.ru:PS.59.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [
+    "Кетив/кере: «хасди» — написано «его милость», читается «моя милость». В глоссе отмечено «(написано: его)». «Предварит» из Синодального перевода использовано в комментарии как соответствующее английскому «prevent» KJV: в русском оно сохраняет старое значение «опередит»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Use 'Бог верности моей' (and the matching gloss) here, as in verse 18. (PS.59.11: אֱלֹהֵי חסדו/חַסְדִּי; PS.59.18: אֱלֹהֵי חַסְדִּי; ru note on v.11: \"читается «моя верность» (кере)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "22fab631ad76"
+  },
+  "verse.ru:PS.59.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [
+    "«Не убивай их»: еврейское «ханиэмо» передано как «заставь их скитаться» (Каин, Быт 4:12), тогда как Синодальный перевод даёт «рассей их»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Quote 'расточи их'. (RusSynodal Пс 58:12: \"расточи их силою Твоею и низложи их, Господи, защитник наш.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acf2a9579219"
+  },
+  "verse.ru:PS.59.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:44+00:00",
+   "agent_notes": [
+    "По просьбе рецензента сглаживание «за грех уст их и слова губ их» отнесено только к KJV; Синодальный («Слово языка их — грех уст их») сохраняет безглагольное приравнивание, хотя вместо «губ» у него «языка»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] Attribute the 'за грех уст их и слова губ их' smoothing to the KJV only, and say the Synodal ('Слово языка их — грех уст их') keeps the verbless equation. (RusSynodal Пс 58:13: \"Слово языка их — грех уст их, да будут уловлены в гордости своей за клятву и ложь, которую произносят.\" KJV 59:12: \"For the sin of their mouth and the words of their lips\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ae1b478c8dd"
+  },
+  "verse.ru:PS.59.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:44+00:00",
+   "agent_notes": [
+    "Синодальный процитирован дословно: «Расточи их во гневе, расточи, чтобы их не было». «Расточи» теряет оттенок доведения до конца, который есть в כלה; «чтобы их не было» в Синодальном, как и «that they may not be» в KJV, делает последнюю фразу целью."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] Quote the Synodal as 'Расточи их во гневе, расточи, чтобы их не было', and in the כַּלֵּה note say that 'расточи' (scatter) loses the sense of finishing off, instead of 'Синодальное «истреби» передаёт тот же смысл'. (RusSynodal Пс 58:14: \"Расточи их во гневе, расточи, чтобы их не было; и да познают, что Бог владычествует над Иаковом до краев земли.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7f8674542d08"
+  },
+  "verse.ru:PS.59.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6dc912155ef"
+  },
+  "verse.ru:PS.59.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:44+00:00",
+   "agent_notes": [
+    "Значение «роптать» у לון принимает только KJV («grudge»); Синодальный («несытые проводят ночи») читает «ночуют», как и этот перевод."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] In the commentary and the וַיָּלִינוּ note, say only the KJV ('grudge') takes the sense 'murmur'; the Synodal ('несытые проводят ночи') reads 'spend the night', as this translation does. (RusSynodal Пс 58:16: \"пусть бродят, чтобы найти пищу, и несытые проводят ночи.\" Hebrew PS.59.16: וַיָּלִינוּ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "963d6484a570"
+  },
+  "verse.ru:PS.59.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:12+00:00",
+   "agent_notes": [
+    "חסד передан как «верность по завету» (буквально, комментарий ссылается на «верную любовь»); Синодальный «милость» разобран в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Quote 'защитою и убежищем'. (RusSynodal Пс 58:17: \"ибо Ты был мне защитою и убежищем в день бедствия моего.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "744a3d51db3c"
+  },
+  "verse.ru:PS.59.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Quote 'заступник мой, Бог мой, милующий меня'. (RusSynodal Пс 58:18: \"Сила моя! Тебя буду воспевать я, ибо Бог — заступник мой, Бог мой, милующий меня.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ab1c46d6965"
+  },
+  "verse.ru:PS.59.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Name the refrain with this translation's word ('моё убежище, твердыня'). (ru literal PS.59.10: \"ибо Бог — убежище моё\"; PS.59.17: \"Ты был твердыней для меня\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3ae15225aacd"
+  },
+  "verse.ru:PS.59.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4087f46833d"
+  },
+  "verse.ru:PS.59.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ac55976e55e"
+  },
+  "verse.ru:PS.59.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [
+    "«Без [моей] вины»: бели-авон передано как «без вины [моей]», по Синодальному; притяжательное местоимение в квадратных скобках, потому что в иврите его нет."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2bde96dc5106"
+  },
+  "verse.ru:PS.59.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b75044dee3c"
+  },
+  "verse.ru:PS.59.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "775294179971"
+  },
+  "verse.ru:PS.59.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:35+00:00",
+   "agent_notes": [
+    "В буквальном слое «изрыгают» заменено на «изливают», как в глоссе (נבע — бить ключом). Комментарий по-прежнему отмечает, что Синодальное «изрыгают» передаёт грубый поток."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[should_fix] In translation_literal replace 'они изрыгают устами своими' with a rendering of נבע that matches the gloss, e.g. 'они изливают устами своими' or 'бьёт ключом из уст их'. (PS.59.8: הִנֵּה יַבִּיעוּן בְּפִיהֶם (gloss 'they gush forth'); English literal: \"they gush forth with their mouth\"; ru commentary: \"Синодальное «изрыгают» делает то же\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f57ea8ec4e4"
+  },
+  "verse.ru:PS.59.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:44:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:35+00:00",
+     "note": "[consider] Quote 'посмеёшься', 'посрамишь'. (RusSynodal Пс 58:9: \"Но Ты, Господи, посмеешься над ними; Ты посрамишь все народы.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b02413eb690"
   }
  },
  "notes": [

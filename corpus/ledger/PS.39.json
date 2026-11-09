@@ -306,6 +306,334 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.39.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Имя: Синодальный пишет Идифум (Пс 38:1), еврейская форма — Едутун (ידותון). В переводных слоях и глоссе — Идифум, Едутун только в объяснении. «Company» передано как «певцы Идифума» (гильдия, не род)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Use Идифум in the literal layer and the gloss of pos 2 ('для Идифума'), as in the dramatic layer; keep the Hebrew form Едутун only as an explanation in the commentary and note. Consider 'для певцов Идифума' instead of 'для рода Идифума', since the English 'company' is a guild, not a clan. (PS.39.1: \"לִידוּתוּן\"; ru literal \"для Едутуна\", ru dramatic \"для рода Идифума\"; Synodal Пс 38:1 \"Начальнику хора, Идифуму\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e537033e426b"
+  },
+  "verse.ru:PS.39.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fc085a09e2b5"
+  },
+  "verse.ru:PS.39.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74a28700dbb5"
+  },
+  "verse.ru:PS.39.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [
+    "חֲמוּדוֹ: Синодальный выбирает «красоту его», как и KJV; в комментарии это отмечено. Двойное «Села» сохранено транслитерацией «Села»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c1c90c7e87f"
+  },
+  "verse.ru:PS.39.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:10:39+00:00",
+   "agent_notes": [
+    "ger и toshav переданы как «пришелец» и «поселенец» в буквальном слое; Синодальный даёт «странник у Тебя и пришлец». В комментарии оставлены транслитерации ger и toshav, чтобы различие терминов было видно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[consider] Use one form ('пришелец') in literal and gloss, and retype 'хараш' in Cyrillic. (PS.39.13: \"כִּי גֵר אָנֹכִי עִמָּךְ\"; ru literal \"пришлец я у Тебя\", gloss pos 11 \"пришелец\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68030cb5c1db"
+  },
+  "verse.ru:PS.39.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:55+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено по замечанию: Синодальный («отступи от меня, чтобы я мог подкрепиться») читает второй глагол как «подкрепиться», как KJV и Раши, а не как «просветлеть»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Correct the last sentence: 'Синодальный перевод («отступи от меня, чтобы я мог подкрепиться») понимает второй глагол как «подкрепиться», то есть как KJV и Раши, а не как «просветлеть».' (PS.39.14: \"הָשַׁע מִמֶּנִּי וְאַבְלִיגָה\"; Synodal Пс 38:14 \"Отступи от меня, чтобы я мог подкрепиться, прежде нежели отойду, и не будет меня\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e23160d4ebcd"
+  },
+  "verse.ru:PS.39.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Синодальное «обуздывать уста мои» — узда, как и в KJV; сравнение с намордником оставлено только в этом смысле."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with: 'Синодальный перевод («буду обуздывать уста мои»), как и KJV, видит здесь узду, а не намордник.' Or drop the Synodal comparison. (PS.39.2: \"אֶשְׁמְרָה לְפִי מַחְסוֹם\"; Synodal Пс 38:2 \"буду обуздывать уста мои, доколе нечестивый предо мною\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "54a0be26416e"
+  },
+  "verse.ru:PS.39.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Синодальное «скорбь моя подвиглась» процитировано точно; оно мягче, чем еврейское «взбаламучена»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Quote the Synodal correctly: '«Скорбь моя подвиглась» в Синодальном тоже мягко…'. (PS.39.3: \"וּכְאֵבִי נֶעְכָּר\"; Synodal Пс 38:3 \"и скорбь моя подвиглась\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3c0cc5446449"
+  },
+  "verse.ru:PS.39.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Еврейские термины даны кириллицей: хагиг, хегьон (в соответствии с «хевель» и «хамудо» в других главах)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Write 'хагиг' and 'хегьон' (or 'гагиг'/'гегьон') in Cyrillic, consistent with 'хевель', 'хамудо' elsewhere in the chapter. (PS.39.4: \"הֲגִיגִי\"; ru commentary \"Ось стиха — hагиг\", note \"связывает с hегйон\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": "[consider] Write 'во вздохе моём' in the literal layer and the gloss, and 'полуголосый звук' in the commentary. (PS.39.4: \"בַּהֲגִיגִי תִבְעַר אֵשׁ\"; ru literal \"в вздохе моём горит огонь\", commentary \"полуголосой звук\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9c735249b631"
+  },
+  "verse.ru:PS.39.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Хéлед/хеледа написано кириллицей. Синодальное чтение стиха 5 в комментарии не цитируется, чтобы не исказить его."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Write 'хéлед/хеледа' (or 'халед') in Cyrillic in both places, e.g. 'с «обитателями хеледа» (Ис 38:11)'. (PS.39.5: \"מֶה חָדֵל אָנִי\"; ru commentary \"«обитателями хäледа» (Ис 38:11)\", note \"«обитателей хäледа»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2dfb1ba4925e"
+  },
+  "verse.ru:PS.39.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:34+00:00",
+   "agent_notes": [
+    "Синодальное «суета» (как и «vanity» в KJV) названо церковным словом; для «живущий» отмечено, что оно не передаёт «поставленный, стоящий»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[should_fix] Say 'хевель: «суета» (Синодальный, как и «vanity» в KJV) — церковное слово'; and for nitsav say 'KJV «at his best state» — известная натяжка; Синодальный «живущий» тоже не передаёт «поставленный, стоящий»', or drop the Synodal there. (PS.39.6: \"אַךְ כָּל הֶבֶל כָּל אָדָם נִצָּב\"; Synodal Пс 38:6 \"Подлинно, совершенная суета — всякий человек живущий\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:16:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfeb3fc40a6b"
+  },
+  "verse.ru:PS.39.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ff0d9c090fd0"
+  },
+  "verse.ru:PS.39.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6fa3b70b6fb4"
+  },
+  "verse.ru:PS.39.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:11:52+00:00",
+   "agent_notes": [
+    "נָבָל — «глупец» в моральном смысле; Синодальный даёт «безумный». Для читателя оставлено «глупец (навал)» с отсылкой к Навалу из 1 Цар 25 (в Синодальном — 1 Цар 25, «Навал»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:14:14+00:00",
+     "note": "[consider] Quote it as «на поругание безумному». (PS.39.9: \"חֶרְפַּת נָבָל אַל תְּשִׂימֵנִי\"; Synodal Пс 38:9 \"не предавай меня на поругание безумному\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "69d8763c795d"
   }
  },
  "notes": []

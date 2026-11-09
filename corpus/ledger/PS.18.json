@@ -1113,7 +1113,1078 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.18.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "Нумерация. В еврейском тексте надписание — стих 1, и Синодальный перевод следует ему, но под номером псалма 17 (по греческому счёту). Здесь везде сохранён еврейский счёт стихов; комментарий говорит об отличии от KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4deaf4102f0"
+  },
+  "verse.ru:PS.18.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e3fdb58534a"
+  },
+  "verse.ru:PS.18.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "Три глагола (вскочил/летел/парил) разведены по тону: «воссел — полетел — ринулся»; редкое וַיֵּדֶא отмечено в заметке как «парил, пикировал»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c8c07b169d3"
+  },
+  "verse.ru:PS.18.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4846790350ee"
+  },
+  "verse.ru:PS.18.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:08+00:00",
+   "agent_notes": [
+    "Божественное имя во всём стихе записано как YHWH, как в соседних стихах (в комментарии было «ЙХВХ»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Write the divine name as «YHWH» everywhere in this verse, as in PS.18.1–12 and 25–51. (PS.18.13 commentary: «этот псалом отдаёт эту роль одному лишь ЙХВХ»; PS.18.12 and PS.18.25 literal: «YHWH».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2028c7aa22e"
+  },
+  "verse.ru:PS.18.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [
+    "По замечанию рецензента везде «ЙХВХ» заменено на «YHWH» (буквальный слой, глоссы, комментарии, заметки), как в остальной главе. В драматическом слое, как и прежде, стоит «Господь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace every «ЙХВХ» with «YHWH» (literal layer, token gloss 3, commentary, note on עֶלְיוֹן). (PS.18.14 literal: «И загремел на небесах ЙХВХ»; gloss pos 3 «ЙХВХ»; Hebrew יְהוָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cdd25b18a4cd"
+  },
+  "verse.ru:PS.18.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace «ЙХВХ» with «YHWH» in the commentary. (PS.18.15 commentary: «отдаёт арсенал ЙХВХ».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "907e55d7d5a7"
+  },
+  "verse.ru:PS.18.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 17:16) цитируется точно: «от грозного гласа Твоего, Господи, от дуновения духа гнева Твоего». «Грозный глас» сохраняет упрёк (גְּעָרָה), но «гнева Твоего» теряет ноздри: אַף прочитано только как гнев."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («от грозного гласа Твоего, Господи, от дуновения духа гнева Твоего») and say what it really does: «грозный глас» keeps the rebuke, but «гнева Твоего» drops the nostrils (אַף read only as anger). Also write YHWH instead of ЙХВХ in the literal layer, the gloss and the commentary, as in the rest of the chapter. (PS.18.16 (Синодальный, Пс 17:16): «…от грозного гласа Твоего, Господи, от дуновения духа гнева Твоего»; Hebrew מִגַּעֲרָתְךָ … רוּחַ אַפֶּךָ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "238b0b73b35b"
+  },
+  "verse.ru:PS.18.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:32:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "647618dcae63"
+  },
+  "verse.ru:PS.18.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:32:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Say that the Synodal, like the KJV, uses one root («сильный / сильнее») for עָז and אָמְצוּ. (PS.18.18 (Синодальный, Пс 17:18): «от врага моего сильного … которые были сильнее меня»; Hebrew עָז … אָמְצוּ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fd44d8d04baf"
+  },
+  "verse.ru:PS.18.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace every «ЙХВХ» with «YHWH» (literal layer, token gloss 5, commentary). (PS.18.19 literal: «и ЙХВХ становится опорой мне»; Hebrew וַיְהִי־יְהוָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d003957ee5b"
+  },
+  "verse.ru:PS.18.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:08+00:00",
+   "agent_notes": [
+    "Синодальный («Возлюблю Тебя, Господи, крепость моя!») ставит будущее время, как и KJV, и тоже превращает присутствующее заявление в обещание; предложение о Синодальном переводе в комментарии исправлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace the sentence «Синодальный перевод читает глагол так же («люблю Тебя, Господи») и в этом точнее KJV» with an accurate one: the Synodal «Возлюблю Тебя, Господи» also turns the statement into a promise, as the KJV does. (PS.18.2 (Синодальный, Пс 17:2): «Возлюблю Тебя, Господи, крепость моя!»; Hebrew אֶרְחָמְךָ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a28ad0e73fb"
+  },
+  "verse.ru:PS.18.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:32:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "635fc1846e71"
+  },
+  "verse.ru:PS.18.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace «ЙХВХ» with «YHWH» in the literal layer and token gloss 2. (PS.18.21 literal: «Воздаёт мне ЙХВХ по правде моей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "859271629639"
+  },
+  "verse.ru:PS.18.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:39:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[should_fix] Replace every «ЙХВХ» with «YHWH» (literal layer, token gloss 4, commentary). (PS.18.22 literal: «Ибо я хранил пути ЙХВХ»; commentary «Пути ЙХВХ», «для ЙХВХ».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "300f8f62b6a7"
+  },
+  "verse.ru:PS.18.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:32:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "685ad78a3d63"
+  },
+  "verse.ru:PS.18.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:32:52+00:00",
+   "agent_notes": [
+    "תָּמִים передано как «непорочный» (как в Синодальном переводе) в драматическом слое и «цельный» в комментарии, где объясняется, что значит это слово."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "64d49784e150"
+  },
+  "verse.ru:PS.18.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Drop the claim about «по»; and in PS.18.25–36 write «KJV» as in the rest of the chapter. (PS.18.25 Hebrew כְּצִדְקִי כְּבֹר יָדַי; literal «по правде моей, по чистоте рук моих».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8070a5ed3f8b"
+  },
+  "verse.ru:PS.18.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [
+    "Ивр. חסיד / תמים: «верный» и «непорочный»; синодальное «милостивый» отмечено в комментарии как сужение заветного слова."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b97e63b84822"
+  },
+  "verse.ru:PS.18.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [
+    "Игра корней נבר / תתברר и עקש / תתפתל передана парами «чистый — чист», «лукавый — лукав»; повтор корня в русском сохранён, но звукопись не передать."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3f6dca5f5842"
+  },
+  "verse.ru:PS.18.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "79f03bfd387c"
+  },
+  "verse.ru:PS.18.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Quote Пс 17:29 as «Ты возжигаешь светильник мой, Господи; Бог мой просвещает тьму мою»; the point about «просвещает» stands. (PS.18.29 (Синодальный, Пс 17:29): «Ты возжигаешь светильник мой, Господи; Бог мой просвещает тьму мою».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b2249f2ee09"
+  },
+  "verse.ru:PS.18.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "В Синодальном для סֶלַע и צוּר стоят «твердыня» и «скала»; в буквальном слое выбрано «утёс» для סלע и «скала» для צור, чтобы сохранить два разных слова для камня."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fbcda8dddfd1"
+  },
+  "verse.ru:PS.18.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает גדוד как «войско» и глагол как «поражаю» (чтение от рцц, «сокрушать»), а не «бегу»; в комментарии это отмечено как чтение Радака и Меири."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d3b8804dd7be"
+  },
+  "verse.ru:PS.18.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc3eb5602366"
+  },
+  "verse.ru:PS.18.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "259d39c786f4"
+  },
+  "verse.ru:PS.18.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a03ff64e0c0"
+  },
+  "verse.ru:PS.18.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32acb831c0a7"
+  },
+  "verse.ru:PS.18.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddcebe9bd9e7"
+  },
+  "verse.ru:PS.18.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:35+00:00",
+   "agent_notes": [
+    "Ивр. ענוה передано как «смирение» (букв. «Твоё снисхождение, Твоё смирение»): синодальное «милость Твоя» теряет мысль о нисхождении, на которой держится комментарий. В буквальном слое — «смирение Твоё», в драматическом — «снисхождение»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6544684255a2"
+  },
+  "verse.ru:PS.18.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "25bd9cc58b58"
+  },
+  "verse.ru:PS.18.38": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f467d1ce9a7"
+  },
+  "verse.ru:PS.18.39": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Use one numbering in both places (the Hebrew, Пс 110:6, as the chapter note says), or give both. (PS.18.39 commentary: «(Пс 109:6 в русской нумерации)»; note: «о раздроблении головы (Пс 110:6)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7ec98fe6e211"
+  },
+  "verse.ru:PS.18.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4a8cebe4c58"
+  },
+  "verse.ru:PS.18.40": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "875ec140119c"
+  },
+  "verse.ru:PS.18.41": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [
+    "Идиома «дать затылок» передана в буквальном слое как «ты дал мне загривок», в драматическом — как «обратил ко мне тыл» (так и в Синодальном). Слово עֹרֶף — «затылок, загривок», а не «шеи», как в английском KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7632ce34284f"
+  },
+  "verse.ru:PS.18.42": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "88aa09543632"
+  },
+  "verse.ru:PS.18.43": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0fe5f1f9e673"
+  },
+  "verse.ru:PS.18.44": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "25ca137c702b"
+  },
+  "verse.ru:PS.18.45": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [
+    "Звуковую игру שמע — ישמעו («по слуху уха слышатся мне») в русском удалось сохранить только в буквальном слое; в драматическом слое она заменена словами «стоит им услышать»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "298a09198a49"
+  },
+  "verse.ru:PS.18.46": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [
+    "Глагол יַחְרְגוּ встречается только здесь; выбрано «трепеща», как в Синодальном, с оговоркой о «хромоте» и «освобождении» в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a44330c4cdb"
+  },
+  "verse.ru:PS.18.47": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba9e590828d7"
+  },
+  "verse.ru:PS.18.48": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:07+00:00",
+   "agent_notes": [
+    "וַיַּדְבֵּר передан как «гонит» (образ погонщика), а не «покоряет», как в Синодальном; комментарий отмечает это отличие."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "decd5e7a327c"
+  },
+  "verse.ru:PS.18.49": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:19+00:00",
+   "agent_notes": [
+    "Игру слов кам̣ай («восстающие на меня») и теромемени («Ты возносишь меня») по-русски передаёт пара «восстали» — «вознёс»; Синодальный перевод тоже выбирает «над восставшими на меня», но ставит «вознёс» в прошедшем времени, а в обороте «от человека жестокого» смягчает хамас."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc4878c3ab1a"
+  },
+  "verse.ru:PS.18.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "בְלִיַּעַל в буквальном слое — «ничтожества» (не «беззакония», как в Синодальном): так видна связь с «ничтожным», а не только с законом. Синодальное «беззаконие» упомянуто в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d112c345552"
+  },
+  "verse.ru:PS.18.50": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «между народами» (не «язычниками», как KJV) и «славить»; в буквальном слое оставлено «благодарить» для ʼодеха, а «славить» — в драматическом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Quote «между иноплеменниками»; the point that the Synodal avoids «язычники» still stands. (PS.18.50 (Синодальный, Пс 17:50): «За то буду славить Тебя, Господи, между иноплеменниками и буду петь имени Твоему».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bb8e59b13e96"
+  },
+  "verse.ru:PS.18.51": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:19+00:00",
+   "agent_notes": [
+    "Кетив магдил / кре мигдол: в буквальном слое дан кетив («делающий великими»), как в английском; Синодальный перевод читает «дивно спасает». Хесед везде «верность по завету»; в Синодальном — «милость»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6525a33b1dfe"
+  },
+  "verse.ru:PS.18.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "שְׁאוֹל — «Шеол»; в Синодальном стоит «ад», комментарий об этом говорит. Термин «Шеол» согласован с loc.sheol («Шеол (преисподняя)»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d6ca2ea23e4"
+  },
+  "verse.ru:PS.18.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75dfc2f26e93"
+  },
+  "verse.ru:PS.18.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [
+    "Рифмующуюся пару וַתִּגְעַשׁ וַתִּרְעַשׁ передать рифмой не удалось; выбраны созвучные «содрогнулась и затряслась» (драматический слой) — звукопись описана в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": "[consider] Quote the Synodal as «Потряслась и всколебалась земля… ибо разгневался [Бог]». (PS.18.8 (Синодальный, Пс 17:8): «Потряслась и всколебалась земля, дрогнули и подвиглись основания гор, ибо разгневался [Бог]».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d47d2625a3d"
+  },
+  "verse.ru:PS.18.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:33:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:38:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0baef203e75c"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Нумерация псалма в Синодальном переводе иная (Пс 17:26–37), поэтому ссылки на синодальный текст даны без номеров стихов. Ссылки на другие стихи (например, «стих 27», «стих 36») относятся к ивритской нумерации, как и в английском.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:34:35+00:00"
+  }
+ ]
 }

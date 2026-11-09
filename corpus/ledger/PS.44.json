@@ -582,7 +582,636 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.44.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [
+    "maskil оставлено транслитерацией «маскил» в буквальном слое; в драматическом слое — пояснение «поучение», как в Синодальном («Учение»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "318c933a9528"
+  },
+  "verse.ru:PS.44.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8b8e06507c43"
+  },
+  "verse.ru:PS.44.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[consider] Quote it exactly; the point about «грабят нас» losing «для себя» still stands. (Synodal Пс 43:11: «Ты обратил нас вспять от врага, и ненавидящие нас грабят нас».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fea53f8bda2c"
+  },
+  "verse.ru:PS.44.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ff1d4bf366b9"
+  },
+  "verse.ru:PS.44.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод (43:13) читает «и не увеличил цены за него»; в буквальном слое сохранено «не-богатство» и «ты не умножил [богатство]» по ивриту, с дополнением в скобках."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[consider] Capitalise throughout («Твой», «Ты»), and quote the Synodal as «и не возвысил цены его». (PS.44.13 ru dramatic: «Ты продал свой народ… не нажил ты состояния»; Synodal Пс 43:13: «Ты без выгоды продал народ Твой и не возвысил цены его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8dfff412370f"
+  },
+  "verse.ru:PS.44.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[consider] Quote it as «на поношение соседям нашим, на посмеяние и поругание живущим вокруг нас». (Synodal Пс 43:14: «Ты отдал нас на поношение соседям нашим, на посмеяние и поругание живущим вокруг нас».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ac36d4340470"
+  },
+  "verse.ru:PS.44.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [
+    "Dashes restored in the nominal sentences of the commentary, as requested."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Restore the dash (—) in these nominal sentences: ««Притча» (משל) здесь — поговорка», «Покачивание головой (מנוד ראש) — жест насмешки», «Игра здесь — хиазм», «гойим — политические объединения, леуммим — народы…; Израиль — поговорка… покачивание головой», «KJV «heathen» — устаревшее слово». (PS.44.15 ru commentary: «Покачивание головой (מנוד ראש) жест насмешки», «Игра здесь хиазм», «гойим политические объединения, леуммим народы со своей верой, так что для политики Израиль поговорка, а для религии покачивание головой», «KJV «heathen» устаревшее слово».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e856a45bba01"
+  },
+  "verse.ru:PS.44.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21a0680acbf4"
+  },
+  "verse.ru:PS.44.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [
+    "Synodal is quoted as «от голоса злословящего и клевещущего, от взоров врага и мстителя»; it loses the reflexive of מִתְנַקֵּם."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write «Стих — обрывок», «Первая пара — два вида словесного оскорбления», «Последнее слово, митнаккем, — возвратная форма». Quote the Synodal as «от голоса злословящего и клевещущего, от взоров врага и мстителя»; it still loses the reflexive. (PS.44.17 ru commentary: «Стих обрывок, в нём нет глагола», «Первая пара два вида словесного оскорбления», «Последнее слово, митнаккем, возвратная форма»; Synodal Пс 43:17: «от голоса злословящего и клевещущего, от взоров врага и мстителя».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aec2d03e0b79"
+  },
+  "verse.ru:PS.44.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write ««Поступить лживо» (שקר) — язык договорной измены» and «так что это утверждение — заявление о верности вассала». In translation_literal, capitalise «Тебя» and «Твоём», as the glosses and the other verses do. (PS.44.18 ru: ««Поступить лживо» (שקר) язык договорной измены», note: «так что утверждение это верность вассала».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ca0674986377"
+  },
+  "verse.ru:PS.44.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b7d4890adc2c"
+  },
+  "verse.ru:PS.44.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [
+    "Пара po'al pa'alta в буквальном слое — «деяние Ты содеял» (однокоренные слова), в драматическом — «дело, которое Ты совершил»; Синодальный: «о деле, которое Ты соделал»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "043597d848ad"
+  },
+  "verse.ru:PS.44.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [
+    "Literal layer now «покрыл нас глубокой тьмой», matching the gloss; the tension between «тенью смертною» (Synodal, צל־מות) and «глубокой тьмой» is explained in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Restore the dashes («— это место запустения», «KJV «dragons» — ошибка перевода; зверь — шакал», «Начальное כי — камень преткновения»). Quote the Synodal as «когда Ты сокрушил нас в земле шакалов и покрыл нас тенью смертною». In translation_literal, capitalise «Ты»; consider «покрыл нас глубокой тьмой», to match the gloss, instead of the mixed «покрыл над нами тенью смертной тьмы». (PS.44.20 ru commentary: ««место шакалов» это место запустения», «KJV «dragons» ошибка перевода; зверь это шакал», «Начальное כי камень преткновения»; Synodal Пс 43:20: «когда Ты сокрушил нас в земле шакалов и покрыл нас тенью смертною».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": "[consider] Make the gloss for pos 6 match the literal layer («нас», or «[над] нами»). (PS.44.20: וַתְּכַס עָלֵינוּ בְצַלְמָוֶת; ru literal «и покрыл нас глубокой тьмой».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0a1f1ba1cd7c"
+  },
+  "verse.ru:PS.44.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write «Простёртые открытые ладони, обращённые вверх, — древняя поза молитвы». (PS.44.21 ru commentary: «Простёртые открытые ладони вверх древняя поза молитвы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "82e58e5b3a06"
+  },
+  "verse.ru:PS.44.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [
+    "Divine «Он» capitalised in the literal layer and in the pos 6 gloss, as «Тебя» and «Твой» are elsewhere."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write «Глагол «исследовать» (חקר) — глагол судебного следствия». In translation_literal and the gloss for pos 6, write «Он». (PS.44.22 ru: «Глагол «исследовать» (חקר) глагол судебного следствия»; literal «Ибо он знает тайны сердца»; dramatic «Он ведь знает».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "782795466d2c"
+  },
+  "verse.ru:PS.44.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [
+    "«Тебя» capitalised in the literal layer, the pos 2 gloss and the note on עָלֶיךָ."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write «убийство — следствие их верности» and «Толкование Раши — «овцы мясника»». Capitalise «Тебя» in translation_literal, in the pos 2 gloss and in the note on עָלֶיךָ. (PS.44.23 ru: «убийство следствие их верности, а не греха», «Толкование Раши «овцы мясника»»; literal «Ибо за тебя мы убиваемы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b04f052966b5"
+  },
+  "verse.ru:PS.44.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Write «Это обвинение — молитва, а не отречение». (PS.44.24 ru commentary: «Обвинение это молитва, а не отречение».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a45542163a25"
+  },
+  "verse.ru:PS.44.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:20:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[consider] Use one word in all three places («бедствие» or «страдание», as in Исх 3:7). (PS.44.25: תִּשְׁכַּח עָנְיֵנוּ וְלַחֲצֵנוּ; English literal 'our affliction'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e47f5560cbd0"
+  },
+  "verse.ru:PS.44.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:20:51+00:00",
+   "agent_notes": [
+    "בטן переведено «чрево» в буквальном слое (грубо-телесное слово, как в оригинале); Синодальный имеет «утроба»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c969d557181"
+  },
+  "verse.ru:PS.44.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:20:51+00:00",
+   "agent_notes": [
+    "חסד передано как «верность завету» в литературном слое и как «милость» (так в Синодальном) только в комментарии при сопоставлении; в буквальном слое — «верность завету Твоей».  Синодальный перевод здесь выбирает «милость Твою», что мягче, чем «верность завету»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[consider] Write «ради Твоей верности завету» in translation_literal and in the pos 6 gloss. (PS.44.27: לְמַעַן חַסְדֶּךָ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2a8d85c19e15"
+  },
+  "verse.ru:PS.44.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:44+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено по замечанию: цитата Синодального «поразил племена и изгнал их», последний глагол понят как изгнание, как и в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] In directors_commentary, replace the last sentence: quote «поразил племена и изгнал их» and say that the Synodal, like the KJV, takes the last verb as expulsion. Otherwise drop the sentence. (PS.44.3: תָּרַע לְאֻמִּים וַתְּשַׁלְּחֵם; Synodal Пс 43:3: «Ты рукою Твоею истребил народы, а их насадил; поразил племена и изгнал их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bb5781e0b81c"
+  },
+  "verse.ru:PS.44.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] In directors_commentary, replace the last sentence with: «Синодальный переводит близко к еврейскому: «и не их мышца спасла их, но Твоя десница и Твоя мышца» — и сохраняет то же слово в обоих местах.» Otherwise drop the Synodal sentence. (PS.44.4: זְרוֹעָם … וּזְרוֹעֲךָ; Synodal Пс 43:4: «ибо не мечом своим они приобрели землю, и не их мышца спасла их, но Твоя десница и Твоя мышца и свет лица Твоего, ибо Ты благоволил к ним».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "37f0dbce7e29"
+  },
+  "verse.ru:PS.44.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:44+00:00",
+   "agent_notes": [
+    "В драматическом слое «Ты — Тот, Кто есть» заменено на «Ты — тот же», как в Синодальном; в комментарии точная цитата Синодального и пояснение о «даруй» и единственном числе «спасение»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] Replace the Synodal sentence in directors_commentary with the exact wording «Боже, Царь мой! Ты тот же; даруй спасение Иакову», and say that it renders צַוֵּה as «даруй» and the plural as the singular «спасение». In translation_dramatic, change «Ты — Тот, Кто есть» to «Ты — Он» or «Ты — тот же». (PS.44.5: אַתָּה־הוּא מַלְכִּי אֱלֹהִים צַוֵּה יְשׁוּעוֹת יַעֲקֹב; Synodal Пс 43:5: «Боже, Царь мой! Ты тот же; даруй спасение Иакову».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1bb757449386"
+  },
+  "verse.ru:PS.44.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [
+    "nenaggeach передано «бодаем» (Синодальный: «избодаем»), чтобы сохранить образ рогатого животного; буквальный слой оставляет настоящее время еврейского имперфекта, Синодальный выбрал будущее."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0dff880b0150"
+  },
+  "verse.ru:PS.44.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:44+00:00",
+   "agent_notes": [
+    "В буквальном слое и в глоссе 7 — простое настоящее «не спасает меня», как в еврейском; в драматическом слое «не спасёт», как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] In translation_literal, change «и меч мой не спасёт меня» to «и меч мой не спасает меня»; change the gloss for pos 7 to «спасает меня». The dramatic «не спасёт» may stay, as in the English. (PS.44.7: וְחַרְבִּי לֹא תוֹשִׁיעֵנִי; English literal: 'and my sword does not save me'; ru commentary: «Еврейский текст — простое настоящее».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7f8462c61f8"
+  },
+  "verse.ru:PS.44.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:21:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b15e917fc488"
+  },
+  "verse.ru:PS.44.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:26:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:00+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal as «О Боге похвалимся всякий день, и имя Твое прославлять будем вовек» and say that it puts both halves in the future and loses the completed «мы хвалились». Otherwise drop the sentence. (PS.44.9: בֵּאלֹהִים הִלַּלְנוּ … וְשִׁמְךָ לְעוֹלָם נוֹדֶה; Synodal Пс 43:9: «О Боге похвалимся всякий день, и имя Твое прославлять будем вовек».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "86b5d0c79f3f"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Нумерация: в еврейском тексте надписание — стих 1, поэтому все номера на единицу выше, чем в Синодальном переводе (там это Пс 43). В комментарии к PS.44.1 это сказано; ссылки на стихи внутри комментариев даны по еврейской нумерации, как в английском.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T18:21:55+00:00"
+  }
+ ]
 }

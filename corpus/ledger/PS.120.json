@@ -1,0 +1,309 @@
+{
+ "chapter_ref": "PS.120",
+ "items": {
+  "verse.en:PS.120.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 includes the superscription (KJV 120:0), so the literal layer carries both title and cry. 'Ascents' (maʿalot) is rendered by its root sense; the three ancient explanations (temple steps, pilgrim ascents, return from exile) are in the commentary, with Rashi, Radak and Meiri cited from the packet.",
+    "ויענני is a wayyiqtol after a perfect: 'I called … and he answered'. Radak (on the verse) reads it as past standing for future. I kept the plain past, which is what KJV, ASV and YLT-like readings also do, apart from YLT's present 'answereth'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": "[consider] Attribute the Sukkah citation to Rashi only; consider dropping 'to no one else' from the dramatic layer. (PS.120.1 Radak: \"ואמרו כי היו אומרים אותם הלוים בחמש עשרה מדרגות\"; Hebrew: \"אֶל־יְהוָה בַּצָּרָתָה לִּי קָרָאתִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:48+00:00",
+   "agent_notes": [
+    "Reviewer request applied: the oath-formula claim is now offered as a possible echo of the 'may God do so to you and more also' pattern, with no source. Rashi (God as the giver; 'add' = guards and partitions, citing Arakhin 15b) and Metzudat David (what further guard could be set on you, since you already lie behind the wall of lips and teeth) are described as they read.",
+    "The subject of yitten and yosif is unexpressed (3ms). Rashi takes it as God; the KJV, ASV and Webster use impersonal passives; YLT and BBE say 'He'. I kept the Hebrew's open subject in the literal layer ('will [one] give') and used 'He' in the dramatic layer, following the reading shared by Rashi, YLT and BBE and the context of v.2 (the LORD is addressed).",
+    "Gloss 3 (lekha) carries the masculine ending and gloss 6 (lakh) the feminine, as in the packet's morphology; the tongue (lashon) is grammatically feminine here, which suits lakh. The shift is odd and I kept both as 'to you' without forcing an explanation. STEPBible's 'will anyone give' and 'will anyone add' were changed to the plain 'he will give' / 'he will add', since 'anyone' presumes the impersonal reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": "[should_fix] In the note on מַה־יִּתֵּן לְךָ וּמַה־יֹּסִיף, either drop the oath-formula claim or present it as a possible echo with no source (empty sources), and describe what Rashi (God as the giver; 'add' = guards and partitions) and Metzudat David (what more guard could be placed on you) actually say if you keep them as sources. In the directors_commentary, soften 'the line is built on an oath-curse pattern' to 'the line may echo the oath-curse pattern'. (PS.120.3 Rashi: \"מַה יִּתֵּן לְךָ. הַקָּדוֹשׁ בָּרוּךְ הוּא … וּמַה יּוֹסִיף לְךָ. שְׁמִירָה וּמְחִיצּוֹת\"; Metzudat David: \"מה היא השמירה אשר יתן עוד עליך … הלא כבר נתונה אתה לפנים מחומת השפתים והשינים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:29+00:00",
+     "note": "[consider] Leave the sources of the רְמִיָּה note empty (as in PS.120.2), keeping the sentence that the bow sense comes from the lexica. (PS.120.3 packet commentaries: Rashi, Radak, Meiri, Metzudat David, Malbim, Targum only; no lexicon)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [
+    "STEPBible glosses רְתָמִים as 'broom plants'; KJV and ASV have 'juniper'. I follow broom (Retama raetam), which is the standard lexical identification and which also fits Meiri's note that it is a wood whose coals stay hot. I did not cite a lexicon by page."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": "[consider] Make the commentary refer to 'a warrior' (or change the literal layer), so both say the same thing. (PS.120.4: \"חִצֵּי גִבּוֹר שְׁנוּנִים\"; translation_literal: \"Arrows of a warrior, sharpened\") [consider] Replace 'and under them' with 'and with them' or similar. (PS.120.4: \"עִם גַּחֲלֵי רְתָמִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [
+    "Meshech and Kedar are about a thousand miles apart (Anatolia/Black Sea region versus the Arabian desert), so the line is not a literal address; Rashi, Radak, Ibn Ezra and Meiri each take it as exile among nations. The 'figure of speech' reading is Meiri's alternative; the interpretation that the poet is a long-distance sojourner in two extremes is my own wording.",
+    "STEPBible glosses אָהֳלֵי קֵדָר as 'tents of Kedar' with entity person.kedar; the packet's Names section calls Kedar a tribe. I glossed it as the name only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": "[consider] Keep the sources for the Ishmael link and mark the goat-hair and 'dark' details as unsourced background, or drop them. (PS.120.5 Metzudat Zion: \"וקדר הם ממלכות ישמעאל\"; Radak: \"המשפחות המיוחסות אשר בישמעאל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [
+    "רַבַּת is feminine adjective 'much/long' used adverbially; Ibn Ezra and Radak note the final tav as standing for he. I render 'much' in the literal layer and 'long' in the dramatic layer. לָּהּ is an ethical dative, glossed '[for] herself'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.120.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:38:38+00:00",
+   "agent_notes": [
+    "The syntax of the last line is deliberately compressed in Hebrew: 'I [am] peace, and when I speak, they [are] for war.' Radak, Rashi and Metzudat David take the speech to be words of peace; Ibn Ezra the same, so 'peace' is bracketed in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:39:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.120.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [
+    "Надписание «Песнь восхождения» (Синодальный; в английском «ascents»). «Песнь степеней» упомянута в комментарии как параллель «song of degrees» в KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7da52011edca"
+  },
+  "verse.ru:PS.120.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b9cfadb4b4a7"
+  },
+  "verse.ru:PS.120.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d3c827caf0d1"
+  },
+  "verse.ru:PS.120.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [
+    "«Дрок» (Синодальный: «дроковые угли») для רְתָמִים; в буквальном слое использовано «дрока» тоже. Английское broom (Retama raetam) — именно ракитник/дрок пустыни; название растения нетривиально, проверьте."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": "[consider] Use the same word in the commentary as in the literal layer, or explain why they differ. (PS.120.4: \"חִצֵּי גִבּוֹר שְׁנוּנִים\"; literal «Стрелы воина, заострённые»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d7c1e444a46a"
+  },
+  "verse.ru:PS.120.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [
+    "Мешех и Кидар: Синодальный перевод пишет «Мосох» (по Септуагинте) и «Кидарские». Для Мешеха выбрана форма «Мешех», как в современных переводах и в списке народов Иафета (Быт 10:2); «Мосох» упомянут в комментарии. «Кидар» совпадает с Синодальным.",
+    "Игра слов Мешех — «протягивание, долгое время» передана в комментарии и заметке; в самом переводе её сохранить нельзя."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "860837af1c6a"
+  },
+  "verse.ru:PS.120.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:50:35+00:00",
+   "agent_notes": [
+    "По замечанию рецензента буквальный слой исправлен: «Много жила для себя душа моя с ненавидящим мир». Сохранены «моя» и женское согласование (שָׁכְנָה — 3 ж. ед.); נפש передано как «душа», в согласии с комментарием («душа устроилась поудобнее»). Глоссы 2–4 приведены в соответствие: «жила», «для себя», «душа моя»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": "[should_fix] Make the literal line grammatical and keep 'my' and the feminine agreement, e.g. «Много жила для себя жизнь моя с ненавидящим мир» (or «душа моя», bracketing «[я сам]» if you want). Then make glosses 2–4 match it (e.g. «жила», «для себя», «жизнь моя»). (PS.120.6: \"רַבַּת שָׁכְנָה לָּהּ נַפְשִׁי\" (שָׁכְנָה HVqp3fs, לָּהּ 3fs, נַפְשִׁי 'my self'); English literal: \"Much has my self dwelt for itself\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "392c8c0a251e"
+  },
+  "verse.ru:PS.120.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:48:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:49:58+00:00",
+     "note": "[consider] Check the Synodal wording and quote it exactly («Я мирен: но только заговорю, они — к войне»). (PS.120.7: \"אֲנִי־שָׁלוֹם וְכִי אֲדַבֵּר הֵמָּה לַמִּלְחָמָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "299e02d9b776"
+  }
+ },
+ "notes": []
+}

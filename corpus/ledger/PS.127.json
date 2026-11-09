@@ -1,0 +1,235 @@
+{
+ "chapter_ref": "PS.127",
+ "items": {
+  "verse.en:PS.127.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:51+00:00",
+   "agent_notes": [
+    "The superscription is counted as word positions 1-3 of verse 1 (the KJV numbers it verse 0), so the glosses cover 20 words. 'Of Solomon' (lishlomoh) is rendered 'of Solomon' in both layers; the commentators split between 'by Solomon', 'about Solomon' and 'for Solomon' (Ibn Ezra and Radak read the lamed as 'on account of'), and the commentary says so.",
+    "STEPBible glosses H1004B bayit as 'a house' and 'ir as 'a city'; I kept the English indefinite in the literal layer but the commentary notes that the Hebrew has no article either, unlike the KJV's 'the house' and 'the city'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:47:27+00:00",
+     "note": "[consider] Add 'Meiri on Psalms 127:1' to the shaqad note's sources. (PS.127.1: Meiri \"ושקד הוא מלשון התמדה או לשון מהירות\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.127.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:51+00:00",
+   "agent_notes": [
+    "The line 'ken yiten lididO shena' is genuinely ambiguous: 'so he gives sleep to his beloved' (sleep as the gift), 'he gives to his beloved while asleep' (so Radak, who reads shena as shena with alef for he), or 'thus' as 'in this way / likewise'. I kept 'sleep' as the object in the literal layer and put the alternative in the commentary. The five English versions split here: the BBE takes 'in sleep', the rest 'sleep'.",
+    "shena' is spelled with final alef where the usual form is shena (with he); Radak and Metzudat Zion both note this. The Masoretic text has no Ketiv/Qere here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:47:27+00:00",
+     "note": "[consider] Consider 'So' or 'Thus' instead of 'Yet' in the dramatic layer, and 'kingship' alone for Radak. (PS.127.2: \"כֵּן יִתֵּן לִידִידוֹ שֵׁנָא\"; Radak: \"כן נתן האל יתברך המלוכה בלא עמל לשלמה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.127.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:53:17+00:00",
+   "agent_notes": [
+    "Revised after the reviewer's requests. Commentary now says beten covers both belly and womb, that the KJV's 'womb' is accurate, and that the literal layer keeps 'belly' for its bodily register; the Genesis 25:23 example is removed. 'Not earned' is removed: sakhar is read by Ibn Ezra, Metzudat David and Malbim as a payment for deeds, given by YHWH; only the psalm's point that toil alone does not secure sons remains.",
+    "STEPBible glosses נחלת בנים as 'inheritance ... [is] sons'; I kept the verbless clause and bracketed 'is'. Rashi reads 'sons' as a teacher's disciples and the 'fruit of the belly' as the Torah in the heart; I mention it in a note but keep the plain sense in the translation. Rashi's quotation of Prov 22:18 is taken from the packet.",
+    "The Targum's 'good sons' and 'children of the womb' (ולדי מעא) are from the packet; I read the Targum's 'reward of good deeds' as supporting the deeds-reward reading, which is my inference."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:47:27+00:00",
+     "note": "[should_fix] In the directors_commentary, drop the claim that beten 'is not the KJV's womb' and is 'simply the belly'. Say instead that beten means both belly and womb, that the KJV's 'womb' is accurate, and that the literal layer keeps 'belly' for its bodily register. Remove or correct the Genesis 25:23 example, which the KJV itself translates 'womb'. (PS.127.3: \"פְּרִי הַבָּטֶן\", STEPBible gloss 'the womb'; KJV, YLT, ASV and Webster all read 'the fruit of the womb'.) [should_fix] Remove 'not earned' from the directors_commentary, or make it agree with the sakhar note: the commentators read sakhar as a reward for deeds, paid by YHWH. The psalm's point that toil alone does not secure them can stay. (PS.127.3: \"שָׂכָר פְּרִי הַבָּטֶן\"; Ibn Ezra: \"שכר המעשה\"; Malbim: \"בעד זכות ומצות שכרו הוא פרי בטן\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:53:48+00:00",
+     "note": "[consider] Add 'Metzudat David on Psalms 127:3' to the sakhar note's sources, or drop the name from the commentary. (PS.127.3: \"שָׂכָר פְּרִי הַבָּטֶן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.127.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:51+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:47:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.127.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:51+00:00",
+   "agent_notes": [
+    "The subject of 'they will not be ashamed' is unclear: the sons (ASV), the father (Radak mentions both) or both (Ibn Ezra). The dramatic layer keeps the plural 'they' and leaves the question open, as the Hebrew does.",
+    "STEPBible glosses 'et at position 12 as 'with'; I kept the gloss 'with' (dibber 'et is 'speak with') and noted in the commentary that some read it as 'speak against', which would make the gate a place of dispute rather than a courtroom of equals. I did not cite Meiri's long Talmudic reading (Kiddushin 30b), only the short Rashi reference, since I have not seen the passage itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:47:27+00:00",
+     "note": "[consider] Either drop the 'speak against' claim from the notes or add it to the commentary with a source. Say 'the sons, or (Ibn Ezra, Radak) father and sons' instead of 'the sons are the speakers'. (PS.127.5: Ibn Ezra \"לא יבושו - האב והבנים\"; Radak \"האב והבנים כשידברו בשער\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.127.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:00:05+00:00",
+   "agent_notes": [
+    "Заглавие: «под именем Соломона» сохраняет неоднозначность лямед (от / для / о Соломоне); «в память» исключало авторство Соломона и сужало смысл."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:58:49+00:00",
+     "note": "[should_fix] Replace «в память Соломона» with a phrase that keeps the ambiguity, such as «под именем Соломона» or «с именем Соломона». (PS.127.1: \"שִׁיר הַֽמַּֽעֲלוֹת לִשְׁלֹמֹה\"; English dramatic: \"A song for the pilgrim climb, set in Solomon's name.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:40+00:00",
+     "note": "[consider] Drop the Synodal remark on articles, or say that Russian, like the Hebrew, leaves 'house' and 'city' indefinite. (PS.127.1: \"אִם־יְהוָה לֹא־יִבְנֶה בַיִת\"; commentary: «Синодальный перевод («созиждет дома», «охранит города») тоже ставит их без артикля, как и иврит».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3036d91d3960"
+  },
+  "verse.ru:PS.127.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:00:05+00:00",
+   "agent_notes": [
+    "«едящие» вместо «евшие»: причастие настоящего времени ('okhlei), как в иврите. Написание шена' описано как «с конечным алефом» («с необычным конечным алефом» в заметке), по замечанию рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:58:49+00:00",
+     "note": "[should_fix] Replace «евшие» with «едящие» in translation_literal, in token gloss pos 7 («[вы,] едящие») and in the commentary's «Три причастия (… «евшие»)». (PS.127.2: \"מַשְׁכִּימֵי קוּם מְאַחֲרֵי־שֶׁבֶת אֹכְלֵי לֶחֶם הָעֲצָבִים\"; English literal: \"[you who] eat the bread of the toils\".) [should_fix] Write «с конечным алефом» in the commentary and «с необычным конечным алефом» in the shena' note. (PS.127.2: \"שֵׁנָא\" (final alef); commentary: «написано с конечной алефом вместо обычной хе»; note: «с необычной конечной алефом».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "db264a928c48"
+  },
+  "verse.ru:PS.127.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:57:29+00:00",
+   "agent_notes": [
+    "В буквальном слое оставлено «чрева» (beten — «живот, чрево»), как в Синодальном; английский слой выбрал «belly», русское «плод чрева» одновременно и буквально, и привычно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:58:49+00:00",
+     "note": "[consider] Consider «они — собственное наследие Господа» and «В деревенском хозяйстве». (PS.127.3 English dramatic: \"Sons: they are the LORD's own inheritance\"; commentary: \"In a village economy a family without sons…\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5bfdf2669d8c"
+  },
+  "verse.ru:PS.127.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:57:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:58:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a943d2fc88b"
+  },
+  "verse.ru:PS.127.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:57:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «Не останутся они в стыде, когда будут говорить с врагами в воротах». Здесь «они» — сыновья (глагол во множественном числе), как и в английском комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:58:49+00:00",
+     "note": "[consider] Consider «Блажен, блажен человек…». (PS.127.5 English dramatic: \"Blessed, blessed is the man whose quiver is full of them.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99bac94bb93c"
+  }
+ },
+ "notes": []
+}

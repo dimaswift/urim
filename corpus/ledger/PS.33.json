@@ -465,6 +465,498 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.33.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [
+    "Нумерация Синодального перевода другая: это Пс 32. Ссылка английского слоя на Пс 32:11 дана в комментарии с пометкой «Пс 31:11 в синодальной нумерации»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[consider] Write: «Такое же начало звучит в конце Пс 32:11 (Синод. 31:11: „торжествуйте, все правые сердцем“)». (Synodal Ps 31:11: «Веселитесь о Господе и радуйтесь, праведные; торжествуйте, все правые сердцем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a267b65501ee"
+  },
+  "verse.ru:PS.33.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт גוים как «язычники»; здесь «народы», как в английском слое, с пояснением в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c55457a527ad"
+  },
+  "verse.ru:PS.33.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[consider] Quote «помышления сердца Его». (Synodal Ps 32:11: «Совет же Господень стоит вовек; помышления сердца Его — в род и род»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a3eae89bfe1c"
+  },
+  "verse.ru:PS.33.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [
+    "אשרי: «блаженство» в буквальном слое, «счастлив» в драматическом (как «Happy» английского слоя); Синодальный даёт «блажен». Комментарий объясняет различие между אשרי и ברוך."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6925b24952b"
+  },
+  "verse.ru:PS.33.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[consider] Write «увидел Он» and «которого глагол сам по себе не требует». (PS.33.13 ru literal: \"увидел он всех сынов человека\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eba91cc3f118"
+  },
+  "verse.ru:PS.33.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba605da09791"
+  },
+  "verse.ru:PS.33.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:46+00:00",
+   "agent_notes": [
+    "יַחַד передано «вместе» (буквально); Синодальный («создал сердца всех их») читает его как «всех», что близко к раввинистическому прочтению."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[consider] Pick one spelling (the more common «Мальбим») and one source format («на Пс 33:N») for the whole chapter. (PS.33.4 ru: \"Мальбим на Пс 33:4\"; PS.33.15 ru: \"Малбим доказывает…\", \"Радак на Псалом 33:15\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96acf0390c1e"
+  },
+  "verse.ru:PS.33.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:46+00:00",
+   "agent_notes": [
+    "גִּבּוֹר: Синодальный «исполин»; в комментарии отмечено, что это профессиональный воин, а «исполин» (как и KJV «mighty man») смягчает или смещает смысл."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[consider] Consider «Нет царя, спасённого множеством войска» or «Не спасается царь множеством войска». (PS.33.16: \"אֵין־הַמֶּלֶךְ נוֹשָׁע בְּרָב־חָיִל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0bf602081a34"
+  },
+  "verse.ru:PS.33.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:54+00:00",
+   "agent_notes": [
+    "Синодальный стих цитируется по Пс 32:17 («Ненадежен конь для спасения, не избавит великою силою своею»); в комментарии сказано, что он, как и KJV, смягчает שֶׁקֶר «ложь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Quote the Synodal as «Ненадежен конь для спасения» and say that it, like the KJV, softens שֶׁקֶר 'lie'. Correct «к иврите» to «к ивриту». (PS.33.17: \"שֶׁקֶר הַסּוּס לִתְשׁוּעָה\"; Synodal Ps 32:17: «Ненадежен конь для спасения, не избавит великою силою своею»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ed1162df4a31"
+  },
+  "verse.ru:PS.33.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:46+00:00",
+   "agent_notes": [
+    "חֶסֶד: Синодальный «милость»; в буквальном слое «верная любовь» (завет), в комментарии оговорено, что «милость» уже, чем хесед. В v.22 в буквальном слое — «верность по завету», как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "219c5fe1e2f7"
+  },
+  "verse.ru:PS.33.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:54+00:00",
+   "agent_notes": [
+    "נַפְשָׁם передано «жизнь их» в буквальном слое и в глоссе 3; «душа» оставлена только в цитате Синодального."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Render נַפְשָׁם as «жизнь их» in the literal layer and gloss 3 («Избавить от смерти жизнь их…»). In the commentary, quote the Synodal accurately («…и во время голода пропитает их»). (PS.33.19: \"לְהַצִּיל מִמָּוֶת נַפְשָׁם\"; English literal: \"To deliver from death their life\"; Synodal Ps 32:19: «что Он душу их избавит от смерти и во время голода пропитает их»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5dac32932188"
+  },
+  "verse.ru:PS.33.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:40+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: «Благодарите» (глагол ydh, не «славьте») в буквальном и в глоссе 1; עָשׂוֹר — «на невеле [о] десяти», глосса 5 «десяти», чтобы буквальный слой сохранил открытое чтение (десятиструнный невел или второй инструмент). Синодальное «славьте» и «на псалтири десятиструнной» отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Use «Благодарите YHWH…» in the literal layer and gloss 1 («благодарите»). Render עָשׂוֹר as «на невеле [о] десяти» or similar, with gloss 5 «десяти», so that the literal layer keeps the open reading. (PS.33.2: \"הוֹדוּ לַיהוָה בְּכִנּוֹר בְּנֵבֶל עָשׂוֹר\"; English literal: \"Give thanks to YHWH with lyre, with harp [of] ten\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": "[consider] Say the Targum reads one ten-stringed harp (like the Synodal «на псалтири десятиструнной»), while the KJV follows the two-instrument reading. (PS.33.2, Targum: \"בְּנִבְלָא דַעֲסַרְתֵּי נִימִין\"; KJV: \"with the psaltery and an instrument of ten strings\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec825d840512"
+  },
+  "verse.ru:PS.33.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:54+00:00",
+   "agent_notes": [
+    "В буквальном слое «Жизнь наша», как в английском; Синодальный «уповает» и «защита» отмечены как смягчающие חִכְּתָה и מָגֵן."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Quote the Synodal accurately and note that «уповает» blurs חִכְּתָה ('waited, held out') and «защита» softens the concrete מָגֵן 'shield'. You may also consider «жизнь наша» for נַפְשֵׁנוּ in the literal layer, as in the English ('Our life'). (PS.33.20: \"נַפְשֵׁנוּ חִכְּתָה לַיהוָה עֶזְרֵנוּ וּמָגִנֵּנוּ הוּא\"; Synodal Ps 32:20: «Душа наша уповает на Господа: Он — помощь наша и защита наша»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e091163789f6"
+  },
+  "verse.ru:PS.33.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Quote the Synodal accurately («…ибо на святое имя Его мы уповали») and keep only the point that it smooths 'name of his holiness' into «святое имя». Fix «империфект» to «имперфект». (PS.33.21: \"כִּי בְשֵׁם קָדְשׁוֹ בָטָחְנוּ\"; Synodal Ps 32:21: «О Нем веселится сердце наше, ибо на святое имя Его мы уповали»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f32253cfac12"
+  },
+  "verse.ru:PS.33.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:54+00:00",
+   "agent_notes": [
+    "כַּאֲשֶׁר везде «как», чтобы буквальный слой, глосса и комментарий («соразмерно») согласовывались."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Render כַּאֲשֶׁר as «как» or «так же, как» in the literal layer and in gloss 5 (e.g. «…на нас, как мы ждали Тебя»), so that it matches the commentary and the English. (PS.33.22: \"כַּאֲשֶׁר יִחַלְנוּ לָךְ\"; English literal: \"just as we have waited for you\"; ru literal: \"так как мы ждали Тебя\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddd4c6c1e405"
+  },
+  "verse.ru:PS.33.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc8846c9a09a"
+  },
+  "verse.ru:PS.33.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9fa905e9cbd"
+  },
+  "verse.ru:PS.33.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:40+00:00",
+   "agent_notes": [
+    "חסד везде «верность по завету» (буквальный слой и глосса 4); в драматическом слое «верная любовь Господня», как в ст. 18. Синодальное «милость» названо в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] In the literal layer write «верностью по завету YHWH полна земля» (or the same term as gloss 4), and consider «верной любви Господней» in the dramatic layer, as in v.18. (PS.33.5: \"חֶסֶד יְהוָה מָלְאָה הָאָרֶץ\"; English literal: \"[with] the covenant loyalty of YHWH the earth is full\"; ru gloss 4: \"верность завету\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "008106c7e436"
+  },
+  "verse.ru:PS.33.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b0751a368895"
+  },
+  "verse.ru:PS.33.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:40+00:00",
+   "agent_notes": [
+    "Исправлено утверждение о Синодальном переводе: «как груды» следует масоретскому тексту (נֵד), а чтение «как в мехе» (נֹאד) сохранилось в Септуагинте и церковнославянском («яко мех»). Мысль о Синодальном «как в мех» убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": "[should_fix] Correct the sentence: the Synodal «как груды» follows the Masoretic text, and the wineskin reading survives in the Septuagint and the Church Slavonic («яко мех»). Or drop the Synodal comparison. (PS.33.7: \"כֹּנֵס כַּנֵּד מֵי הַיָּם\"; Synodal Ps 32:7: «Он собрал, как груды, воды морские, положил бездны в хранилищах»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "318d8f59681b"
+  },
+  "verse.ru:PS.33.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "64e06b2f63ab"
+  },
+  "verse.ru:PS.33.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:56:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:59:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e4c687305182"
   }
  },
  "notes": []

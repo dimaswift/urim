@@ -183,6 +183,198 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.67.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:33+00:00",
+   "agent_notes": [
+    "Первое предложение комментария переписано по замечанию рецензента: нумерация надписания в еврейском тексте, KJV и Синодальном переводе (Пс 66)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[should_fix] Rewrite the first sentence as: «Это надписание, и в еврейском тексте оно считается первым стихом, поэтому стих 1 в KJV у нас стих 2; в Синодальном переводе надписание тоже стих 1, но сам псалом имеет номер 66». (PS.67.1: \"לַמְנַצֵּחַ בִּנְגִינֹת מִזְמוֹר שִׁיר\"; RusSynodal Пс 66:1: \"Начальнику хора. На струнных орудиях. Псалом. Песнь.\"; English commentary: \"which is why the KJV's verse 1 is our verse 2\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:00:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acd752caf130"
+  },
+  "verse.ru:PS.67.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[consider] Quote the Synodal as «будь милостив к нам и благослови нас, освети нас лицем Твоим». (RusSynodal Пс 66:2: \"освети нас лицем Твоим\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cefabf8287e0"
+  },
+  "verse.ru:PS.67.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[consider] Quote the Synodal exactly, and say that its «дабы» keeps the purpose sense of לָדַעַת. (RusSynodal Пс 66:3: \"дабы познали на земле путь Твой, во всех народах спасение Твое\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a3d7189ce1f2"
+  },
+  "verse.ru:PS.67.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:33+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном переводе исправлена: он, в отличие от KJV, сохраняет множественное «народы» («Да восхвалят Тебя народы, Боже»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[should_fix] Replace the sentence «Синодальный перевод („Да славят Тебя люди, Боже“) тоже читает единственное „люди“ и теряет множественное число» with «Синодальный перевод („Да восхвалят Тебя народы, Боже“), в отличие от KJV, сохраняет множественное число», or delete it. Keep everything else. (PS.67.4: \"יוֹדוּךָ עַמִּים\" (plural); RusSynodal Пс 66:4: \"Да восхвалят Тебя народы, Боже, да восхвалят Тебя народы все\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:00:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2445a1fa0a8a"
+  },
+  "verse.ru:PS.67.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:33+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован точно («судишь народы праведно и племена на земле управляешь»); порядок еврейского приведён по замечанию рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[should_fix] Change the sentence to «Следуйте порядку еврейского: племена радуются, народы судимы по ровной земле, племена на земле ведомы». Quote the Synodal exactly as «судишь народы праведно и племена на земле управляешь», with «праведно» in place of «справедливо» in the sentence that follows. (PS.67.5: \"יִשְׂמְחוּ וִירַנְּנוּ לְאֻמִּים כִּי־תִשְׁפֹּט עַמִּים מִישׁוֹר וּלְאֻמִּים בָּאָרֶץ תַּנְחֵם\"; RusSynodal Пс 66:5: \"ибо Ты судишь народы праведно и племена на земле управляешь\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:00:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eda65291ff05"
+  },
+  "verse.ru:PS.67.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:33+00:00",
+   "agent_notes": [
+    "Последнее предложение заменено: Синодальный перевод, как и в стихе 4, сохраняет множественное «народы»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[should_fix] Replace the last sentence with «Синодальный перевод здесь, как и в стихе 4, сохраняет множественное „народы“», or delete it. (PS.67.6: \"יוֹדוּךָ עַמִּים\"; RusSynodal Пс 66:6: \"Да восхвалят Тебя народы, Боже, да восхвалят Тебя народы все\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:00:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a735d66a5773"
+  },
+  "verse.ru:PS.67.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[consider] Add «да» to the Synodal quotation. (RusSynodal Пс 66:7: \"Земля дала плод свой; да благословит нас Бог, Бог наш\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ed81ecd04fa"
+  },
+  "verse.ru:PS.67.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:33+00:00",
+   "agent_notes": [
+    "Синодальное чтение исправлено: «Да благословит нас Бог, и да убоятся Его все концы земли» — оба глагола как пожелание, «убоятся». Прежняя ссылка на «благоговеют» убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:14+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with «Синодальный перевод („Да благословит нас Бог, и да убоятся Его все концы земли“) читает оба глагола как пожелание и говорит „убоятся“, поэтому слово требует той же осторожности актёра», or delete it. Correct the matching reviewer note too. (PS.67.8: \"וְיִירְאוּ אֹתוֹ כָּל־אַפְסֵי־אָרֶץ\"; RusSynodal Пс 66:8: \"Да благословит нас Бог, и да убоятся Его все концы земли\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:00:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "372152f3c694"
   }
  },
  "notes": [

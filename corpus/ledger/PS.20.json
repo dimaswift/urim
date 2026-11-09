@@ -240,6 +240,238 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.20.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:39+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: в Синодальном переводе надписание тоже стих 1, поэтому стихи совпадают с еврейскими, а псалом — 19-й; отстаёт только KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[should_fix] Replace «то же происходит и в Синодальном переводе, где этот псалом — 19-й и нумерация сдвинута так же» with something like «в Синодальном переводе надписание тоже стих 1, поэтому стихи совпадают с еврейскими, а сам псалом — 19-й». (PS.20.1 Hebrew: \"לַמְנַצֵּחַ מִזְמוֹר לְדָוִד\" (verse 1); KJV map: PS.20.1 = KJV 20:0. English commentary speaks of the KJV only.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:42:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e678bb52343"
+  },
+  "verse.ru:PS.20.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:08+00:00",
+   "agent_notes": [
+    "Синодальный читает «Господи! спаси царя», присоединяя «царя» к глаголу (как YLT); здесь следую акценту и еврейским комментаторам: «Господи, спаси! Да ответит нам Царь…». Это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[consider] Quote the Synodal exactly: «Господи! спаси царя и услышь нас, когда будем взывать». (Synodal Пс 19:10: «Господи! спаси царя и услышь нас, когда будем взывать».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc19f5ed4fb4"
+  },
+  "verse.ru:PS.20.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "67fef1e20330"
+  },
+  "verse.ru:PS.20.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ebd52a19ae87"
+  },
+  "verse.ru:PS.20.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:39+00:00",
+   "agent_notes": [
+    "Синодальное «да сделает тучным» сохраняет еврейский образ (дешен), в отличие от «accept» в KJV; убрана прежняя ссылка на «примет благосклонно»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[should_fix] Replace «(и «примет благосклонно» в Синодальном)» with a remark that the Synodal «да сделает тучным» keeps the Hebrew picture, unlike the KJV's 'accept'. Otherwise drop the Synodal from this sentence. (PS.20.4 Hebrew: \"וְעוֹלָתְךָ יְדַשְּׁנֶה סֶלָה\"; Synodal Пс 19:4: «и всесожжение твое да сделает тучным».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:42:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8bc4837715ff"
+  },
+  "verse.ru:PS.20.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e27101249813"
+  },
+  "verse.ru:PS.20.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:39+00:00",
+   "agent_notes": [
+    "Ссылка на Пс 60:14 дана тройной нумерацией: еврейская, Синодальная 59:14, KJV 60:12 — как в английском тексте."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[should_fix] In both the commentary and the note, restore the English reference: «Пс 60:14 по еврейской нумерации (Синодальный 59:14; KJV 60:12)». (English PS.20.6 commentary: \"Rashi connects the verb to the gathering of the army (Ps 60:14, KJV 60:12)\"; note: \"by comparison with Ps 60:14 (KJV 60:12)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:42:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "70fc57983990"
+  },
+  "verse.ru:PS.20.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[consider] Quote it as «со святых небес Своих». (Synodal Пс 19:7: «отвечает ему со святых небес Своих могуществом спасающей десницы Своей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c44c2bc4da2"
+  },
+  "verse.ru:PS.20.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:39+00:00",
+   "agent_notes": [
+    "Синодальный, как YLT, ничего не подставляет к первым двум частям; последний глагол назкир там передан словом «хвалимся», что теряет каузатив. Глоссу 9 оставил «поминаем (призываем)»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[should_fix] Replace «Синодальный подставляет «хвалятся»» with «Синодальный, как YLT, ничего не подставляет («Иные колесницами, иные конями»), а последний глагол назкир передаёт словом «хвалимся»». Optionally add that «хвалимся» also loses the causative. (PS.20.8 Hebrew: \"אֵלֶּה בָרֶכֶב וְאֵלֶּה בַסּוּסִים וַאֲנַחְנוּ בְּשֵׁם־יְהוָה אֱלֹהֵינוּ נַזְכִּיר\"; Synodal Пс 19:8: «Иные колесницами, иные конями, а мы именем Господа, Бога нашего, хвалимся».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:42:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2dda40fe0fd5"
+  },
+  "verse.ru:PS.20.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:39+00:00",
+   "agent_notes": [
+    "Исправлена ссылка: Пс 147:6 еврейской нумерации = Пс 146:6 Синодальной."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:42+00:00",
+     "note": "[should_fix] Change «Пс 146:9 в Синодальной нумерации» to «Пс 146:6 в Синодальной нумерации». (English PS.20.9: \"who 'lifts up the humble' (Ps 147:6, Rashi)\"; KJV PS.147.6: \"The Lord lifteth up the meek\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:42:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c701313a9153"
   }
  },
  "notes": [

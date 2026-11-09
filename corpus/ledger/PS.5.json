@@ -285,7 +285,301 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.5.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:16:28+00:00",
+   "agent_notes": [
+    "Последний абзац комментария переписан по замечанию рецензента: Синодальный («На духовых [орудиях]») идёт за чтением «инструмент» (как Раши вслед за Менахемом); отвергаемое Раши чтение «наследие» сохранилось в церковнославянском («о наследствующей», по Септуагинте). Строки RusSynodal в пакете относятся к Товиту, поэтому цитаты Синодального взяты по замечаниям рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[should_fix] Rewrite the last paragraph of the commentary: the Synodal reads «На духовых [орудиях]», an instrument reading (as Rashi after Menahem); the 'inheritance' reading Rashi rejects survives in the Church Slavonic «о наследствующей» (after the Septuagint). Or drop the paragraph. (PS.5.1 Synodal: «Начальнику хора. На духовых [орудиях]. Псалом Давида.»; Church Slavonic: «В конец, о наследствующей, псалом Давиду». The packet's RusSynodal lines for PS.5 are Tobit 5, so the localizer quoted from memory (its own note asks for a check).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:17:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ad6dff1804a"
+  },
+  "verse.ru:PS.5.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "03c8755d2645"
+  },
+  "verse.ru:PS.5.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:16:28+00:00",
+   "agent_notes": [
+    "«Осуди их, Боже» — Синодальный; слово сохраняет юридический смысл ha'ashimem (приговор), в отличие от «Destroy» KJV. Исправлена и философская заметка."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[should_fix] Quote the Synodal as «Осуди их, Боже» and say that «осуди» keeps the legal sense of ha'ashimem (a verdict), unlike the KJV 'Destroy'. Correct the agent note the same way. (PS.5.11 Synodal: «Осуди их, Боже, да падут они от замыслов своих; по множеству нечестия их отвергни их, ибо они возмутились против Тебя». Hebrew: הַאֲשִׁימֵם אֱלֹהִים.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:17:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dafe8d0e9877"
+  },
+  "verse.ru:PS.5.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[consider] Quote «уповающие на Тебя»; the point (less of the refuge image than chasah) stands. (PS.5.12 Synodal: «И возрадуются все уповающие на Тебя, вечно будут ликовать, и Ты будешь покровительствовать им».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b832f93a3742"
+  },
+  "verse.ru:PS.5.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:16:14+00:00",
+   "agent_notes": [
+    "Источники переведены так же, как в стихах 1–12: «Раши на Псалмы 5:13», «Меири на Псалмы 5:13», «Радак на Псалмы 5:13», «Ибн Эзра на Псалмы 5:13», «Мецудат Цион на Псалмы 5:13».",
+    "Цитата «RusSynodal» в пакете относится не к этому стиху (это Ездр 8, а не Пс 5:13), поэтому сверка с Синодальным переводом сделана по памяти: «венчаешь его»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[should_fix] Translate every source of PS.5.13 the same way as verses 1–12: «Раши на Псалмы 5:13», «Меири на Псалмы 5:13», «Радак на Псалмы 5:13», «Ибн Эзра на Псалмы 5:13», «Мецудат Цион на Псалмы 5:13». (verse.ru:PS.5.13 sources: \"Rashi on Psalms 5:13\", \"Meiri on Psalms 5:13\"; verse.ru:PS.5.12 sources: «Раши на Псалмы 5:12».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:17:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "652a514862f9"
+  },
+  "verse.ru:PS.5.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [
+    "הֲגִיגִי передано как «вздох»/«бормотание сердца»; синодальное «помышление» — то самое «интеллектуальное» чтение, на которое указывает комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[consider] Quote «уразумей помышления мои»; consider «Словам моим внемли, YHWH» in the literal layer. (PS.5.2 Synodal: «Услышь, Господи, слова мои, уразумей помышления мои». Hebrew: אֲמָרַי הַאֲזִינָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f72f5ff17b8c"
+  },
+  "verse.ru:PS.5.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[consider] Write «несовершенный вид привычного действия» or «несовершенное, обозначающее привычное действие». (English commentary PS.5.3: \"the Hebrew form is a habitual imperfect, 'I am praying' as a settled practice\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "962ca36fae97"
+  },
+  "verse.ru:PS.5.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "39a2fda8a18c"
+  },
+  "verse.ru:PS.5.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:16:28+00:00",
+   "agent_notes": [
+    "Синодальный дан дословно по замечанию рецензента; отмечено, что «не» перенесено к причастию и теряет выделение «не такой Бог»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Ибо Ты Бог, не любящий беззакония; у Тебя не водворится злой») and say that it keeps the guest image («не водворится») but moves «не» to the participle, losing the 'not a God of this sort' emphasis. (PS.5.5: כִּי לֹא אֵל חָפֵץ רֶשַׁע אָתָּה (\"not\" before \"God\"); English commentary: \"the Hebrew word order puts 'not' before 'a God'\"; Synodal: «Ибо Ты Бог, не любящий беззакония; у Тебя не водворится злой».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:17:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "58326667dadc"
+  },
+  "verse.ru:PS.5.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": "[consider] Quote the Synodal exactly; the point about «нечестивые» replacing the boasters stands. (PS.5.6 Synodal: «Нечестивые не пребудут пред очами Твоими: Ты ненавидишь всех, делающих беззаконие».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4f4048426dc5"
+  },
+  "verse.ru:PS.5.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7be55c14da6d"
+  },
+  "verse.ru:PS.5.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "039b017505cc"
+  },
+  "verse.ru:PS.5.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:12:31+00:00",
+   "agent_notes": [
+    "שׁוֹרְרָי — «подстерегающие меня»; в драматическом слое образ слежки сохранён («смотри, как они следят за мной»), синодальное «враги» его стирает."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:15:24+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ca72c2b631b"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.5.1–12 — это текст книги Товита (Тов 5), а не Пс 5: привязка стихов синодального текста к этому отрывку сбита. Синодальный Пс 5 я привёл по памяти там, где сравнение с ним полезно; сверьте цитаты.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:12:31+00:00"
+  }
+ ]
 }

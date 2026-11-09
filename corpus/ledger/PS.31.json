@@ -538,6 +538,533 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.31.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [
+    "Синодальный перевод нумерует этот псалом как 30-й (по Септуагинте), а надписание считает стихом 1, как и еврейский текст; номера стихов совпадают с еврейскими, расходится только номер псалма. «Начальнику хора» — выбор Синодального перевода для ламнацеах; в комментарии это сказано."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[consider] Align gloss pos 3 with the literal («Давиду»), and use one form for source citations across the chapter. (PS.31.1: לְדָוִד, ru literal «псалом Давиду», gloss pos 3 «Давида»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "973cc6f348b0"
+  },
+  "verse.ru:PS.31.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [
+    "В Синодальном переводе «душа моя и утроба моя»; буквальный слой держится «нутра/чрева» (בטן), как в английском «belly»: «чрево моё»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[consider] Consider «Будь милостив ко мне» or «Окажи мне благоволение» in the literal layer, or soften the commentary's sentence about the Synodal. (PS.31.10: חָנֵּנִי יְהוָה, English literal 'Show me favour')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f14002e8e0b8"
+  },
+  "verse.ru:PS.31.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a119518dee1"
+  },
+  "verse.ru:PS.31.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a36dc68da4e8"
+  },
+  "verse.ru:PS.31.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [
+    "אֹבֵד: «пропавший сосуд», а не «разбитый» (так в Синодальном); обоснование в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "40e9b1ee65d7"
+  },
+  "verse.ru:PS.31.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b63fcde73f51"
+  },
+  "verse.ru:PS.31.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "825f2344714f"
+  },
+  "verse.ru:PS.31.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d91bbd91525"
+  },
+  "verse.ru:PS.31.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:04+00:00",
+   "agent_notes": [
+    "Буквальный слой «спаси меня в верности Твоей» сохраняет предлог «в», на котором настаивает комментарий; глосса — «в верной любви Твоей»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[should_fix] Make the literal layer «спаси меня в верности Твоей» (or «в верной любви Твоей») and gloss pos 6 «в верной любви Твоей», keeping the preposition «в» the commentary insists on. (PS.31.17: הוֹשִׁיעֵנִי בְחַסְדֶּךָ, English literal 'save me in your covenant loyalty'; ru commentary: «KJV „for thy mercies' sake“ … превращает בְחַסְדֶּךָ („в Твоём חֶסֶד“) в причину; предлог здесь „в“»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:58:42+00:00",
+     "note": "[consider] Optionally make gloss pos 6 «в верности Твоей», as in the literal layer and in v. 8. (PS.31.17: הוֹשִׁיעֵנִי בְחַסְדֶּךָ; ru literal «спаси меня в верности Твоей», gloss pos 6 «в верной любви Твоей»; PS.31.8 gloss pos 3 «в верности Твоей»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a5c2e0e11d3d"
+  },
+  "verse.ru:PS.31.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 30:18) переводит שְׁאוֹל как «преисподняя»; здесь «Шеол», как в словаре книги (loc.sheol). Предлог «ל» передан движением вниз: «до Шеола»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59b47ce356fb"
+  },
+  "verse.ru:PS.31.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "09ea09387bbd"
+  },
+  "verse.ru:PS.31.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [
+    "В литературном слое «Господи» вместо YHWH, по обычаю Синодального перевода; в буквальном слое YHWH оставлено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "89aab38f0686"
+  },
+  "verse.ru:PS.31.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:12+00:00",
+   "agent_notes": [
+    "По замечанию рецензента в буквальном слое «уповающих на Тебя» заменено на «ищущих убежища в Тебе» (חֹסִים, как в глоссе и в ст. 2 «я прибегнул»). Синодальное «уповающим» названо в комментарии как более слабое."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[should_fix] In the literal layer, replace «для уповающих на Тебя» with «для ищущих убежища в Тебе» (or «прибегающих к Тебе»), matching the gloss and v. 2 «я прибегнул». (PS.31.20: פָּעַלְתָּ לַחֹסִים בָּךְ, English literal 'for those taking refuge in you'; ru commentary: «Синодальный перевод („уповающим на Тебя…“) … „уповающим“ ослабляет образ убежища»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:58:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e84c64d2eb14"
+  },
+  "verse.ru:PS.31.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [
+    "רֻכְסֵי — «козни»: слово спорное, выбрано то, что охватывает оба толкования (союзы и замыслы); Синодальный: «мятежи человеческие»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[consider] Check the Synodal quotations against the text when it is available, and quote it exactly or paraphrase without quotation marks. (PS.31.21 ru commentary: «Синодальный перевод („от мятежей человеческих… под сенью“)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "82b90abd368b"
+  },
+  "verse.ru:PS.31.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[consider] Consider «ибо Он соделал дивной верную любовь Свою ко мне» in the literal layer. (PS.31.22: כִּי הִפְלִיא חַסְדּוֹ לִי, English literal 'he has made wonderful his covenant loyalty to me')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4ca5cb5990f"
+  },
+  "verse.ru:PS.31.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d0093efb52a0"
+  },
+  "verse.ru:PS.31.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:16+00:00",
+   "agent_notes": [
+    "חֲסִידָיו передано «верные ему» (Синодальный: «праведные Его»), а אֱמוּנִים — «хранящие верность», чтобы сохранить различие двух слов."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4cd17f6ec95"
+  },
+  "verse.ru:PS.31.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:07+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 30:25) читает «да укрепляется сердце ваше, все надеющиеся на Господа»: он сохраняет юссив с «сердцем» как подлежащим, как и еврейский текст, поэтому в комментарии это отмечено одним предложением. Глагол יחל передан как «ждущие/надеющиеся»: в буквальном слое «ждущие», в драматическом «надеетесь», чтобы слышалось упование."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e42589a0550b"
+  },
+  "verse.ru:PS.31.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "463d365814e0"
+  },
+  "verse.ru:PS.31.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ec03cfcd07d"
+  },
+  "verse.ru:PS.31.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3668a516c1da"
+  },
+  "verse.ru:PS.31.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:04+00:00",
+   "agent_notes": [
+    "Dramatic layer: «Ты и прежде искупил меня» (совершенный вид «искупил» не читается как «купал»), по замечанию рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[should_fix] In the dramatic layer, replace «Ты уже выкупал меня» with a form that cannot be read as 'bathed', such as «Ты и прежде выкупил меня» or «Ты уже искупил меня однажды». (PS.31.6: פָּדִיתָה, English dramatic 'You have bought me back before'; ru dramatic «Ты уже выкупал меня»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:58:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35e0108b0f4e"
+  },
+  "verse.ru:PS.31.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [
+    "Синодальное «почитающих суетных идолов» толкует הבלי שוא как идолов; в буквальном слое оставлено «хранящие тщеты пустоты», в литературном — «пустое… идолы и ложь», как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "788e00dcfe73"
+  },
+  "verse.ru:PS.31.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:04+00:00",
+   "agent_notes": [
+    "חַסְדֶּךָ в буквальном слое и в глоссе — «в верности Твоей», как в ст. 17 и 22, в согласии с примечанием и комментарием."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": "[should_fix] Render חַסְדֶּךָ in the literal layer and in gloss pos 3 as «в верности Твоей» (or «в верной любви Твоей»), as v. 17 and v. 22 gloss it, so the translation agrees with its own note and commentary. (PS.31.8: אָגִילָה וְאֶשְׂמְחָה בְּחַסְדֶּךָ, English literal 'in your covenant loyalty'; ru note: «„Милость“ слишком тонка; „верность завету“ сохраняет смысл союза»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:58:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "305f6eba182f"
+  },
+  "verse.ru:PS.31.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:11+00:00",
+   "agent_notes": [
+    "Синодальное «на пространном месте» передаёт מרחב так же, как и литературный слой, поэтому в комментарии оно упомянуто как совпадающее."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66d68650e4ee"
   }
  },
  "notes": []

@@ -480,7 +480,490 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.9.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:23:59+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено по замечанию рецензента: Синодальный («По смерти Лабена») разделяет слово, как KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Delete the last sentence about the Synodal, or replace it with: «Синодальный перевод („По смерти Лабена“) разделяет слово, как KJV». (PS.9.1: Hebrew עַלְמ֥וּת לַבֵּ֗ן; Synodal 9:1 «Начальнику хора. По смерти Лабена. Псалом Давида.»; the English commentary ends at 'a psalm with a performance tradition attached', with no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4af7d13329bf"
+  },
+  "verse.ru:PS.9.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a43d3661b908"
+  },
+  "verse.ru:PS.9.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d1224ee10f8"
+  },
+  "verse.ru:PS.9.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0286c0b18bf7"
+  },
+  "verse.ru:PS.9.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:24:08+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно: «ибо Он взыскивает за кровь; помнит их, не забывает вопля угнетённых». Глагол вместо титула — тот же выбор, что у KJV; «угнетённых» следует Кетиву. Прежняя фраза о «бедных» убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Delete the Synodal sentence on 'the title' and the words «Синодальный перевод говорит „бедных“», or correct them: the Synodal has a verb («взыскивает»), like the KJV a clause, and «угнетенных», which follows the Ketiv. (PS.9.13: Hebrew דֹרֵשׁ דָּמִים; Synodal 9:13 «ибо Он взыскивает за кровь; помнит их, не забывает вопля угнетенных».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "19b2c1e37358"
+  },
+  "verse.ru:PS.9.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "429e89fefb67"
+  },
+  "verse.ru:PS.9.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13d73b0f7e7d"
+  },
+  "verse.ru:PS.9.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:24:08+00:00",
+   "agent_notes": [
+    "Синодальное «Обрушились народы в яму…» сохраняет «народы», в отличие от KJV «heathen»; сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Delete the Synodal sentence, or quote it correctly and say that, unlike the KJV 'heathen', it keeps «народы». (PS.9.16: Synodal 9:16 «Обрушились народы в яму, которую выкопали; в сети, которую скрыли они, запуталась нога их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8573e42b7b59"
+  },
+  "verse.ru:PS.9.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:37+00:00",
+   "agent_notes": [
+    "«Хиггайон» и «Села» оставлены транслитерацией, как в Синодальном переводе («Села»); «Хиггайон» в Синодальном переводе передан как «размышление», это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[consider] Check the Synodal 9:17 before keeping the sentence; if unsure, drop it. (PS.9.17: the packet's RusSynodal lines for PS.9 are from Tobit (ledger note of the localizer).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "772b709e55f0"
+  },
+  "verse.ru:PS.9.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:37+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «Шеол» как «ад»; в буквальном слое оставлен «Шеол», как в терминах книги (loc.sheol), а в драматическом — «преисподняя»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[consider] Quote «Да обратятся нечестивые в ад» and, if kept, note that the Synodal reads the verb as a wish (Radak's 'prayer' reading). (PS.9.18: Synodal 9:18 «Да обратятся нечестивые в ад, все народы, забывающие Бога».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a2991b68c81"
+  },
+  "verse.ru:PS.9.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:37+00:00",
+   "agent_notes": [
+    "Для двух слов «бедный» различены «нуждающийся» (אביון) и «угнетённые» (עניים); Синодальный перевод оба раза говорит «нищий» и «бедные»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2368af0dd93"
+  },
+  "verse.ru:PS.9.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[consider] Quote «Славлю Тебя, Господи, всем сердцем моим, возвещаю все чудеса Твои». (PS.9.2: Synodal 9:2 «Славлю Тебя, Господи, всем сердцем моим, возвещаю все чудеса Твои».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e0a38a5dbdb"
+  },
+  "verse.ru:PS.9.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:24:08+00:00",
+   "agent_notes": [
+    "Синодальное «пред лицем Твоим» и «народы» процитированы точно; утверждение о «язычниках» убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Quote the Synodal correctly and drop the claim that it has «язычники»; keep that it preserves «пред лицем Твоим». (PS.9.20: Synodal 9:20 «Восстань, Господи, да не превозмогает человек, да судятся народы пред лицем Твоим».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f089e64d9948"
+  },
+  "verse.ru:PS.9.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:24:08+00:00",
+   "agent_notes": [
+    "Транскрипция מוֹרֶה везде «морэ» (чтобы не путать с «море»). Синодальное «Наведи, Господи, страх на них» читает «страх», как большинство; «законодатель» — церковнославянское чтение (Постави, Господи, законоположителя над ними)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with: the Synodal («Наведи, Господи, страх на них») reads 'fear', with the majority; the 'lawgiver' reading is the Church Slavonic. Write the transliteration of מוֹרֶה as «морэ» (in the commentary and the note on מוֹרָה). (PS.9.21: Synodal 9:21 «Наведи, Господи, страх на них; да знают народы, что человеки они»; Hebrew שִׁיתָה יְהוָה מוֹרָה לָהֶם.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9bae79334a70"
+  },
+  "verse.ru:PS.9.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5bf431d4b95"
+  },
+  "verse.ru:PS.9.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:23:59+00:00",
+   "agent_notes": [
+    "Синодальное чтение приведено точно; оно сохраняет «лице», но, как KJV, читает глаголы как будущее."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Delete the closing Synodal sentence, or quote it correctly («преткнутся и погибнут пред лицем Твоим») and say it keeps «лице» but, like the KJV, reads the verbs as future. (PS.9.4: Synodal 9:4 «Когда враги мои обращены назад, то преткнутся и погибнут пред лицем Твоим»; the English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ff72673d8502"
+  },
+  "verse.ru:PS.9.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [
+    "В Синодальном «судия правый» (прилагательное); в буквальном слое сохранено «судящий правду» по структуре еврейского текста."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[consider] Quote «Судия праведный». (PS.9.5: Synodal 9:5 «Ты воссел на престоле, Судия праведный».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "37e0c95363f4"
+  },
+  "verse.ru:PS.9.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:23:59+00:00",
+   "agent_notes": [
+    "Синодальную цитату привёл точно и убрал утверждение о смягчении до «укротил»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Delete the Synodal sentence, or quote «вознегодовал на народы… изгладил на веки и веки» and drop the claim that it softens the verb to «укротил». (PS.9.6: Synodal 9:6 «Ты вознегодовал на народы, погубил нечестивого, имя их изгладил на веки и веки»; the English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46412fe93b2b"
+  },
+  "verse.ru:PS.9.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:23:59+00:00",
+   "agent_notes": [
+    "Синодальный стих процитирован дословно; говорится лишь, что он читается иначе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («У врага совсем не стало оружия, и города Ты разрушил; погибла память их с ними») or drop the quotation and keep only that it reads differently. (PS.9.7: Synodal 9:7 «У врага совсем не стало оружия, и города Ты разрушил; погибла память их с ними.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:24:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd4a3bb46403"
+  },
+  "verse.ru:PS.9.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e8d3994cabf"
+  },
+  "verse.ru:PS.9.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:19:02+00:00",
+   "agent_notes": [
+    "«Вселенная» в Синодальном для תֵּבֵל; в драматическом слое выбрано «весь мир», в буквальном — «обитаемая земля» в скобках, чтобы сохранить оттенок «населённого мира»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:22:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68eaa6e6ea3f"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.9.1–12 — не текст Псалма 9, а отрывок из книги Товита (Товия, Рафаил, Гаваил). Я их не использовал: сверка с Синодальным переводом сделана по памяти, её стоит проверить по тексту.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:19:02+00:00"
+  }
+ ]
 }

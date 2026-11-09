@@ -470,6 +470,485 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.77.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:48+00:00",
+   "agent_notes": [
+    "Имя Иедутун: в глоссах и тексте стоит «Идифун»; Синодальный перевод (Пс 76:1) пишет «Идифум», и так он процитирован в комментарии по просьбе рецензента. Если книга должна держаться формы Синодального, «Идифун» стоит заменить на «Идифум» во всём стихе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, write: «Синодальный перевод тоже включает надписание в стих 1 и читает «На Идифум», оставляя вопрос открытым». (RusSynodal Пс 76:1: \"Начальнику хора. На Идифум. Псалом Асафа.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": "[consider] Pick one spelling for the translations and the gloss, and keep «Идифум» only inside the Synodal quote. If the book follows the Synodal, use «Идифум» throughout. (RusSynodal Пс 76:1: \"Начальнику хора. На Идифум. Псалом Асафа.\"; ru literal: \"на Идифун\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f24b0d340071"
+  },
+  "verse.ru:PS.77.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [
+    "Игра רחמים («утробы») не сохраняется в Синодальном «щедроты», поэтому в комментарии и в замечании объяснено значение корня; в драматическом слое выбрано «милосердие»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f8c4302ce1d"
+  },
+  "verse.ru:PS.77.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "426324fc0406"
+  },
+  "verse.ru:PS.77.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:48+00:00",
+   "agent_notes": [
+    "Краткое божественное имя יָהּ передано «Йа» и в буквальном, и в драматическом слое (по запросу рецензента), и в комментарии; Синодальный перевод читает «Господа» и опускает «ибо», что отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In translation_dramatic, write «Я буду помнить дела Йа» instead of «дела Господни». In directors_commentary, quote the Synodal as «Буду вспоминать о делах Господа; буду вспоминать о чудесах Твоих древних» and say that it, too, drops the «ибо» (ки) as well as hiding the short name and the change of person. (PS.77.12 \"מַעַלְלֵי־יָהּ\"; English dramatic: \"I will remember the deeds of Yah\"; ru commentary: \"KJV «the works of the LORD» ставит полное имя там, где в еврейском краткое\"; RusSynodal Пс 76:12: \"Буду вспоминать о делах Господа; буду вспоминать о чудесах Твоих древних\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "79f0a7e71582"
+  },
+  "verse.ru:PS.77.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:20+00:00",
+   "agent_notes": [
+    "Синодальный Пс 76:13 процитирован по просьбе рецензента: «буду вникать во все дела Твои, размышлять о великих Твоих деяниях»; отмечено, что «великих» добавлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, translate the English KJV sentence (KJV «meditate also of… and talk of» верен в общих чертах, но сглаживает две вещи). If you mention the Synodal, quote it as «буду вникать во все дела Твои, размышлять о великих Твоих деяниях» and note that it adds «великих». (English commentary: \"The KJV's 'meditate also of... and talk of' is faithful in outline but blurs two things\"; RusSynodal Пс 76:13: \"буду вникать во все дела Твои, размышлять о великих Твоих деяниях\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c5a7e1eefeb"
+  },
+  "verse.ru:PS.77.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:03+00:00",
+   "agent_notes": [
+    "Игра слов «Элохим / боги» («Кто бог велик, как Бог?») в русском сохраняется только через «бог» и «Бог»; в драматическом слое оставлено «среди всех, кого зовут богами»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a958f6b58129"
+  },
+  "verse.ru:PS.77.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:20+00:00",
+   "agent_notes": [
+    "Синодальное «Ты явил могущество Твое среди народов» процитировано; мысль английского слоя о каузативе ходаъта сохранена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal as «Ты явил могущество Твое среди народов», or keep only the English point about the KJV 'declared' and the causative hoda'ta. (RusSynodal Пс 76:15: \"Ты Бог, творящий чудеса; Ты явил могущество Твое среди народов\"; ru commentary: \"«Ты среди народов показал силу Твою» ближе к еврейскому\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2349c86b2983"
+  },
+  "verse.ru:PS.77.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:03+00:00",
+   "agent_notes": [
+    "Селах передано как «Села», по Синодальному переводу (в Синодальном это Пс 76, нумерация стихов та же). «Сыны Иакова и Иосифа»: Синодальный читает так же, поэтому в комментарии добавлено одно предложение о нём."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "91793663db2f"
+  },
+  "verse.ru:PS.77.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:20+00:00",
+   "agent_notes": [
+    "Вместо «и бездны возмутились» дано Синодальное «вострепетали бездны», как просил рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, replace «Синодальное «и бездны возмутились» передаёт смысл» with «Синодальное «вострепетали бездны» передаёт смысл (KJV «were troubled» слабее)». Keep the rest. (RusSynodal Пс 76:17: \"видели Тебя воды и убоялись, и вострепетали бездны\"; English: \"The KJV also puts 'the depths also were troubled' where the Hebrew says the tehomot... trembled\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a53a12545b19"
+  },
+  "verse.ru:PS.77.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:30:59+00:00",
+   "agent_notes": [
+    "По запросу рецензента изменена только одна фраза комментария: «Синодальное «летали» передаёт движение, но не возвратность» (Синодальный Пс 76:18: «стрелы Твои летали»). Остальное оставлено без изменений."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, write «Пс 18:15». If you want the Synodal number too, add it as «(в Синодальном 17:15)». (English commentary: \"the arrows of God (as in Ps 18:15)\"; ru: \"(как в Пс 17:15)\"; ledger note: \"ссылки в комментариях даны по еврейскому тексту (77), как в английском слое\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": "[should_fix] In directors_commentary, write «Синодальное «летали» передаёт движение, но не возвратность». Change nothing else. (RusSynodal Пс 76:18: \"Облака изливали воды, тучи издавали гром, и стрелы Твои летали\"; ru commentary: \"Синодальное «расходились» передаёт движение, но не возвратность\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:31:33+00:00",
+     "note": "[consider] Add \"Radak on Psalm 77:18\" to the sources of the note on חֲצָצֶיךָ. (PS.77.18 ru note: \"Радак и Меири предлагают «гравий, камни»\"; sources: Rashi, Metzudat David, Meiri)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfa221942600"
+  },
+  "verse.ru:PS.77.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:03+00:00",
+   "agent_notes": [
+    "«בגלגל» в буквальном слое — «в колесе»; Синодальный даёт «в круге небесном» (как Радак и Ибн-Эзра читают небесный свод), а в комментарии оставлены все чтения толкователей."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d922d82bc17"
+  },
+  "verse.ru:PS.77.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:48+00:00",
+   "agent_notes": [
+    "Предложение о Синодальном переводе заменено по запросу: Синодальный ставит оба глагола в прошедшее, как KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In directors_commentary, replace the Synodal sentence with: «Синодальный перевод («Гласом моим воззвал я к Богу… и Он внял мне») тоже ставит оба глагола в прошедшее, как KJV». Change nothing else. (RusSynodal Пс 76:2: \"Гласом моим воззвал я к Богу, гласом моим к Богу, и Он внял мне\"; the commentary says the Synodal reads «Гласом моим к Богу, и я воззову» and «Он внемлет» in the future.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e799f953be3d"
+  },
+  "verse.ru:PS.77.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:20+00:00",
+   "agent_notes": [
+    "«Пс 136:13» по еврейской нумерации (как в английском слое); Синодальное «и следы Твои неведомы» процитировано по просьбе рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[should_fix] In the note on וּשְׁבִילְךָ, write «Пс 136:13». In directors_commentary, quote the Synodal as «и следы Твои неведомы». (English note: \"twelve paths, one for each tribe, from Ps 136:13\"; ru note: \"по Пс 135:13\"; RusSynodal Пс 76:20: \"и следы Твои неведомы\" (the commentary quotes «и следов Твоих не познали»).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:30:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b8dc985e5af2"
+  },
+  "verse.ru:PS.77.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6507e774b9a0"
+  },
+  "verse.ru:PS.77.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [
+    "Трудное место «рука моя»: в буквальном слое оставлен образ «излилась» (Нифаль от נגר), как в английском слое; Синодальный выбирает «простёрта» (как в ASV и YLT). Это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74a9e12bffd3"
+  },
+  "verse.ru:PS.77.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c22951486283"
+  },
+  "verse.ru:PS.77.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[consider] Quote «сомкнуть очей моих». (RusSynodal Пс 76:5: \"Ты не даешь мне сомкнуть очей моих\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa1860bc0f24"
+  },
+  "verse.ru:PS.77.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[consider] Quote «о летах веков минувших». (RusSynodal Пс 76:6: \"Размышляю о днях древних, о летах веков минувших\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cc3d1ec2339e"
+  },
+  "verse.ru:PS.77.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "22f85e578bab"
+  },
+  "verse.ru:PS.77.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": "[consider] Write «со стиха 3». (ru commentary: \"титул, которым говорящий пользуется с стиха 3\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "09fb2459bf2f"
+  },
+  "verse.ru:PS.77.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:27:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d2d11644d5c6"
   }
  },
  "notes": [
@@ -481,6 +960,15 @@
     "run": "main"
    },
    "at": "2026-11-03T14:27:16+00:00"
+  },
+  {
+   "note": "Нумерация: Синодальный перевод считает надписание частью стиха 1 и называет этот псалом 76-м; ссылки в комментариях даны по еврейскому тексту (77), как в английском слое.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T19:24:17+00:00"
   }
  ]
 }

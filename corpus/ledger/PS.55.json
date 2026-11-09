@@ -514,6 +514,554 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.55.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [
+    "Нумерация: в Синодальном переводе этот псалом — 54-й, но счёт стихов совпадает с еврейским (надписание — стих 1), в отличие от KJV; поэтому комментарий о сдвиге на единицу сказан применительно к KJV, а в русском указано, что Синодальный счёт стихов еврейский.",
+    "«Маскил» оставлен транслитерацией в буквальном слое; Синодальный переводит «Учение» — это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d0bd643362b7"
+  },
+  "verse.ru:PS.55.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "Синодальное «Погуби, Господи, и раздели языки их» процитировано точно; сохранена мысль о согласии «погуби» со старыми толкователями."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Quote the Synodal as «Погуби, Господи, и раздели языки их» and keep the point that 'погуби' agrees with the old commentators. (PS.55.10 (Синодальный Пс 54:10): «Погуби, Господи, и раздели языки их, ибо я вижу насилие и распри в городе». Hebrew בַּלַּע אֲדֹנָי פַּלַּג לְשׁוֹנָם.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc7078de4110"
+  },
+  "verse.ru:PS.55.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "Цитата исправлена на «преступление и бедствие посреди его»; сказано, что пара ближе к אָוֶן и עָמָל, чем «mischief and sorrow»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Correct the quote to «преступление и бедствие посреди его», and say that the Synodal pair is closer to אָוֶן and עָמָל than the KJV's 'mischief and sorrow'. Or drop the sentence. (PS.55.11 (Синодальный Пс 54:11): «днем и ночью обходят его по стенам его; преступление и бедствие посреди его». Hebrew וְאָוֶן וְעָמָל בְּקִרְבָּהּ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "790e26b94dd9"
+  },
+  "verse.ru:PS.55.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "Последнее предложение заменено по просьбе: Синодальное «обман и коварство» передаёт תֹּךְ как «обман», здесь выбрано «гнёт»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Change the last sentence to: «Синодальный „обман и коварство“ передаёт תֹּךְ как „обман“, тогда как здесь выбрано „гнёт“». (PS.55.12 (Синодальный Пс 54:12): «посреди его пагуба; обман и коварство не сходят с улиц его». Hebrew תֹּךְ וּמִרְמָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "746b0e973eb6"
+  },
+  "verse.ru:PS.55.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[consider] Quote «не враг поносит меня, — это я перенес бы». (Синодальный Пс 54:13: «ибо не враг поносит меня, — это я перенес бы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cef7f8c6a4b6"
+  },
+  "verse.ru:PS.55.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a240fe1c452b"
+  },
+  "verse.ru:PS.55.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "Последнее предложение заменено на сопоставление с Синодальным «ходили вместе в дом Божий»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary with one that matches the Synodal: «Синодальный перевод („ходили вместе в дом Божий“) тоже делает дом Божий целью пути, как KJV». Or drop the sentence. (PS.55.15 (Синодальный Пс 54:15): «с которым мы разделяли искренние беседы и ходили вместе в дом Божий». The localization packet for PS.55 contains no RusSynodal text.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a9449c65ecf6"
+  },
+  "verse.ru:PS.55.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [
+    "Первый глагол (кетив `яши` / кере `яши'`) передан как «пусть смерть взыщет с них, как заимодавец»: так читают Ибн Эзра, Мецудат Цион и Мальбим. Синодальный перевод («да придёт на них смерть») нейтрален и не передаёт образ долга; в комментарии это сказано.",
+    "Шеол в буквальном слое оставлен как «Шеол», в драматическом тоже; Синодальный даёт «ад», что в современном русском вводит в заблуждение. В комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[consider] Quote «да найдет на них смерть», consider «злые дела» or «злодеяния» for רָעוֹת, and write the note's reference as «Пс 88:23 (евр. 89:23)». (PS.55.16: כִּי־רָעוֹת בִּמְגוּרָם; Синодальный Пс 54:16: «Да найдет на них смерть».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "91585c362b80"
+  },
+  "verse.ru:PS.55.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0501cf116d76"
+  },
+  "verse.ru:PS.55.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [
+    "Тетраграмма в этом отрывке — в стихах 17 и 23: в буквальном слое остаётся YHWH, в драматическом — Господь."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[consider] Write «и в полдни» or «и в полдень [двойной]» and leave the dual to the commentary. (PS.55.18: וְצָהֳרַיִם (dual).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf7bb52db580"
+  },
+  "verse.ru:PS.55.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:20+00:00",
+   "agent_notes": [
+    "Ссылка на Пс 143:1 теперь с еврейской нумерацией в скобках. Синодальный («от восстающих на меня, ибо их много у меня») цитируется как враждебное прочтение."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Write «Пс 143:1 (евр. 144:1)». Quote the Synodal as «от восстающих на меня, ибо их много у меня», which still takes the hostile reading. (PS.55.19 English note: 'battle' (Ps 144:1, Eccl 9:18); Синодальный Пс 54:19: «избавит в мире душу мою от восстающих на меня, ибо их много у меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3af899dc38ed"
+  },
+  "verse.ru:PS.55.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "594ebdb674ca"
+  },
+  "verse.ru:PS.55.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [
+    "`яанем` в буквальном слое — «и ответит им»; Синодальный («смирит их») выбирает другой корень `'anah`. Отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7684a0ac40f"
+  },
+  "verse.ru:PS.55.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:20+00:00",
+   "agent_notes": [
+    "Утверждение о «с Ним» снято: Синодальный («нарушил союз свой») передаёт חִלֵּל как нарушение, а не осквернение."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Replace the sentence with: «Синодальный перевод („нарушил союз свой“) тоже передаёт חִלֵּל как нарушение, а не осквернение». Drop the claim about «с Ним». (PS.55.21 (Синодальный Пс 54:21): «Простер он руки свои на тех, которые с ним в мире; нарушил союз свой». Hebrew חִלֵּל בְּרִיתוֹ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d5f1a262dd3"
+  },
+  "verse.ru:PS.55.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:20+00:00",
+   "agent_notes": [
+    "В буквальном слое «а война [была] сердце его»; в Синодальном «в сердце его вражда» — предлог «в» добавлен, как и прежде."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Write «а война [была] сердце его» in the literal layer and «война была сердце его» in the commentary. Quote the Synodal as «Уста его мягче масла, а в сердце его вражда»; the point about the added «в» still stands. (PS.55.22: וּקְרָב־לִבּוֹ; Синодальный Пс 54:22: «Уста его мягче масла, а в сердце его вражда».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad736833419a"
+  },
+  "verse.ru:PS.55.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:20+00:00",
+   "agent_notes": [
+    "יְהָבְךָ: в буквальном слое «то, что Он дал тебе» (Ибн Эзра), в драматическом «всё, что Он возложил на тебя»; Синодальный «Возложи на Господа заботы твои» идёт за прочтением «бремя, забота»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Quote «Возложи на Господа заботы твои». Write the reference as «Пс 14:5 (евр. 15:5)», the form v.22 uses. (PS.55.23 (Синодальный Пс 54:23): «Возложи на Господа заботы твои, и Он поддержит тебя». English commentary: 'the same word as in Ps 15:5'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51f5097db007"
+  },
+  "verse.ru:PS.55.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02d63007d455"
+  },
+  "verse.ru:PS.55.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[consider] Quote «я стенаю в горести моей, и смущаюсь»; 'смущаюсь' is nearer to the uproar of אָהִימָה than the sentence suggests. (Синодальный Пс 54:3: «внемли мне и услышь меня; я стенаю в горести моей, и смущаюсь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e0ab4431dc5e"
+  },
+  "verse.ru:PS.55.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: ссылка на Пс 66:11 дана как «Пс 65:11 (евр. 66:11)», цитата Синодального исправлена на «навлекают на меня беззаконие»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Write «Пс 65:11 (евр. 66:11)» in the commentary and in the עָקַת note, and correct the quote to «навлекают на меня беззаконие». (PS.55.4: Hebrew Ps 66:11 שַׂמְתָּ מוּעָקָה בְמָתְנֵינוּ = Синодальный Пс 65:11; Синодальный Пс 54:4: «ибо они навлекают на меня беззаконие».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfdd31912cf5"
+  },
+  "verse.ru:PS.55.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1410425cb915"
+  },
+  "verse.ru:PS.55.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:38+00:00",
+   "agent_notes": [
+    "Синодальное «и ужас объял меня» процитировано точно; отмечено, что «объял» сохраняет образ обёртывания."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": "[should_fix] Quote the Synodal as «и ужас объял меня» and say that 'объял' keeps the image of wrapping, nearer to וַתְּכַסֵּנִי than the KJV's 'overwhelmed'. Or drop the sentence. (PS.55.6 (Синодальный Пс 54:6): «страх и трепет нашел на меня, и ужас объял меня». Hebrew וַתְּכַסֵּנִי פַּלָּצוּת.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e87d34fd49a0"
+  },
+  "verse.ru:PS.55.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d840399f2c3"
+  },
+  "verse.ru:PS.55.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5455f04ea64b"
+  },
+  "verse.ru:PS.55.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:39+00:00",
+   "agent_notes": [
+    "סֹעָה (hapax) передан в буквальном слое как «несущийся (ветер)»; Синодальный даёт «от вихря»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46bfa56e9a35"
   }
  },
  "notes": []

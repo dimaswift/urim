@@ -513,6 +513,549 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.50.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод нумерует этот псалом 49-м и передаёт «אל אלהים יהוה» как «Бог богов, Господь» (так же читают YLT и BBE). В буквальном слое оставлена цепочка «Бог, Бог, YHWH» по ивриту, в драматическом — «Господь» по синодальному обычаю."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[consider] Consider «изрёк» or «сказал» in the literal layer and gloss 6. (PS.50.1: אֵל אֱלֹהִים יְהוָה דִּבֶּר, English 'has spoken')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8b916e3751c"
+  },
+  "verse.ru:PS.50.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:29+00:00",
+   "agent_notes": [
+    "בהררי־אלף: Синодальный читает «на тысяче гор»; в буквальном слое сохранена неловкость иврита («на горах тысячи»), варианты толкователей — в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "85d88d6593c8"
+  },
+  "verse.ru:PS.50.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Убраны замечания о Синодальном «движется на поле» и «Моё»; мягкий дефис в «ивритском» устранён."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Remove «; «движется на поле» в Синодальном близко к иврит­скому смыслу» and change «мягче, чем «Моё» в Синодальном и KJV «are mine»» to «мягче, чем KJV «are mine»»; also remove the soft hyphen in «иврит­скому» if the phrase stays. (PS.50.11: וְזִיז שָׂדַי עִמָּדִי; Synodal Ps 49:11: «знаю всех птиц на горах, и животные на полях предо Мною»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4e64a409d7e"
+  },
+  "verse.ru:PS.50.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:29+00:00",
+   "agent_notes": [
+    "תבל: Синодальный переводит «вселенная»; в тексте выбрано «мир», как в английском слое, а «вселенная» упомянута в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3a4a27cea984"
+  },
+  "verse.ru:PS.50.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [
+    "אַבִּירִים: Синодальный перевод читает «волов»; в буквальном слое оставлено «сильных», в драматическом — «тучных быков»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bd8356d771d6"
+  },
+  "verse.ru:PS.50.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:30+00:00",
+   "agent_notes": [
+    "Замечание о смягчении глагола теперь относится только к KJV; про Синодальный перевод сказано лишь, что он сохраняет «принеси в жертву», а תּוֹדָה передаёт словом «хвала» (Пс 49:14)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Make the softening a remark about the KJV only: «У KJV «Offer unto God thanksgiving» смягчает глагол, который означает именно «заколоть, принести в жертву» (זָבַח); «offer» в еврейском нет. Синодальный перевод сохраняет «принеси в жертву», но передаёт תּוֹדָה словом «хвала». (PS.50.14: English 'The KJV 'Offer unto God thanksgiving' softens a verb that is specifically 'slaughter, sacrifice' (זָבַח)'; Synodal Ps 49:14: «Принеси в жертву Богу хвалу»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "367b70f46122"
+  },
+  "verse.ru:PS.50.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52d15fae75c2"
+  },
+  "verse.ru:PS.50.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "142e87825915"
+  },
+  "verse.ru:PS.50.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acb021ad5e11"
+  },
+  "verse.ru:PS.50.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:30+00:00",
+   "agent_notes": [
+    "Убраны утверждения о том, какому чтению следует Синодальный перевод: английский комментарий называет только Таргум."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Delete the last sentence «Синодальный перевод («бежишь с ним») следует второму чтению.» and replace «У Синодального перевода «ты бежишь с ним» и «общаешься» передают смысл свободно, а KJV» with «KJV». (PS.50.18: Synodal Ps 49:18: «Когда видишь вора, сходишься с ним, и с прелюбодеями сообщаешься»; the English commentary makes no claim about a translation following רוץ besides the Targum)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c4a824792418"
+  },
+  "verse.ru:PS.50.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:30+00:00",
+   "agent_notes": [
+    "Убрано сравнение «пускаешь на зло»; Синодальное «сплетает» оставлено (Пс 49:19: «язык твой сплетает коварство»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Delete «у Синодального перевода «пускаешь на зло» близко к этому, а» so that the sentence reads «…или пускают скотину в поле; у KJV «givest thy mouth to evil» бледнее». «Синодальное «сплетает»» is correct and may stay. (PS.50.19: Synodal Ps 49:19: «уста твои открываешь на злословие, и язык твой сплетает коварство»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "575d156ad94c"
+  },
+  "verse.ru:PS.50.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: сказано только о KJV «hath shined»; Синодальное «является» не цитируется как «воссиял»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Replace «Синодальное «воссиял», как и KJV «hath shined», верно, но KJV простовато» with «KJV «hath shined» верно, но простовато» (as the English has it), or quote the Synodal correctly as «является», which hides the light verb. (PS.50.2: Synodal Ps 49:2: «С Сиона, который есть верх красоты, является Бог»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "703f97e6accf"
+  },
+  "verse.ru:PS.50.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e496d4ee799"
+  },
+  "verse.ru:PS.50.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:30+00:00",
+   "agent_notes": [
+    "Синодальный перевод подставляет «грехи твои» (Пс 49:21), не «всё»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Change «и Синодальный перевод подставляет «всё»» to «и Синодальный перевод подставляет «грехи твои»». (PS.50.21: Synodal Ps 49:21: «Изобличу тебя и представлю пред глаза твои грехи твои»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ef92047617c"
+  },
+  "verse.ru:PS.50.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:54+00:00",
+   "agent_notes": [
+    "אֱלוֹהַּ передано «Элоах» в буквальном слое, как и в английском («Eloah»); в драматическом слое — «Бог», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[consider] Consider «и некому будет вас вырвать». (PS.50.22: וְאֵין מַצִּיל; English dramatic 'there is no one left to pull you free')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8ad243ff42e"
+  },
+  "verse.ru:PS.50.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:30+00:00",
+   "agent_notes": [
+    "В буквальном слое «дам ему увидеть спасение Божие» (еврейское אַרְאֶנּוּ, «Я дам ему увидеть»); в комментарии Синодальный перевод процитирован точно: «кто наблюдает за путем своим»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] In the literal layer write «…и полагающему путь — дам ему увидеть спасение Божие» (or «явлю ему»). In the commentary replace «Синодальное «держится прямого пути» добавляет «прямого», а KJV» with «KJV» (or quote the Synodal correctly: «кто наблюдает за путем своим»). (PS.50.23: אַרְאֶנּוּ בְּיֵשַׁע אֱלֹהִים, English literal 'I will let him look on the salvation of God'; Synodal Ps 49:23: «и кто наблюдает за путем своим, тому явлю Я спасение Божие»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f179dc9ac01b"
+  },
+  "verse.ru:PS.50.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: упрёк в превращении молитвы в предсказание адресован только KJV, как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Replace «Синодальное «и не умолкнет» и KJV…превращают» with «KJV «shall come, and shall not keep silence» превращает», as in the English. (PS.50.3: Synodal Ps 49:3: «грядет Бог наш, и не в безмолвии: пред Ним огонь поядающий»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5b974ca2e73"
+  },
+  "verse.ru:PS.50.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Исправлено: будущее «he shall call» отнесено к KJV; Синодальное настоящее «призывает» названо сохраняющим смысл."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Replace «Синодальное «призовёт небо свыше и землю на суд народа Своего» и KJV «that he may judge his people» точны, но будущее «призовёт» теряет…» with «KJV «that he may judge his people» точно, но будущее «he shall call» теряет…» (the Synodal's present «призывает» may be named as keeping it). (PS.50.4: English 'The KJV reads 'that he may judge his people', which is accurate, but 'he shall call' loses the sense that the summons is going out right now'; Synodal Ps 49:4: «Он призывает свыше небо и землю, судить народ Свой»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b3abd39a1bbb"
+  },
+  "verse.ru:PS.50.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Убраны замечания о Синодальном «преподобных» и «посредством жертвы»; остались только ремарки о KJV, как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Remove «Синодальное «преподобных» и» and «Синодальное «посредством жертвы» и» from the commentary, «Преподобные» Синодального и» from the note on חֲסִידַי, and «так же Синодальный» from the note on עֲלֵי־זָבַח; keep the KJV remarks as the English has them. (PS.50.5: English commentary names only KJV 'saints' and 'by sacrifice'; Synodal Ps 49:5: «соберите ко Мне святых Моих, вступивших в завет со Мною при жертве»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a81f3c0f8b1d"
+  },
+  "verse.ru:PS.50.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[consider] Quote the Synodal exactly («судия сей есть Бог») or drop the Synodal remark. (PS.50.6: Synodal Ps 49:6: «И небеса возвестят правду Его, ибо судия сей есть Бог»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6af78e5d45be"
+  },
+  "verse.ru:PS.50.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "14ecedde000f"
+  },
+  "verse.ru:PS.50.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Удалено предложение о Синодальном «ибо»; в английском комментарии его нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Delete the sentence «Синодальное «ибо всесожжения твои всегда предо Мною» ближе ко второму: «ибо» превращает фразу в причину.» (PS.50.8: Synodal Ps 49:8: «Не за жертвы твои Я буду укорять тебя; всесожжения твои всегда предо Мною»; the English commentary has no such sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9c82ac9abac9"
+  },
+  "verse.ru:PS.50.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:43+00:00",
+   "agent_notes": [
+    "Убрана неверная отсылка к «стада» в Синодальном (там «дворов»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:14+00:00",
+     "note": "[should_fix] Replace «а «folds» («стада» в Синодальном) для загонов верно по смыслу» with «а «folds» для загонов верно» (or name the Synodal's «дворов» correctly). (PS.50.9: Synodal Ps 49:9: «не приму тельца из дома твоего, ни козлов из дворов твоих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eb89759a935f"
   }
  },
  "notes": []

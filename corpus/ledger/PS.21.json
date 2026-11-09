@@ -303,6 +303,312 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.21.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:55+00:00",
+   "agent_notes": [
+    "Скобки переписаны по просьбе рецензента: нумерация KJV (21:0), еврейская (стих 1) и Синодальная (Пс 20, греческая нумерация, где Пс 9 и 10 — один). Имя Малбим пишу как «Мальбим», чтобы совпадало со ст. 13–14; в заблокированных ст. 5 и 6 осталось «Малбим», их надо привести к тому же написанию при следующей правке."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[should_fix] Rewrite the parenthesis as: «(в KJV оно печатается без номера, как 21:0; в Синодальном переводе это тоже стих 1, а сам псалом имеет номер 20, потому что Синодальный следует греческой нумерации, где псалмы 9 и 10 составляют один)». Also spell Malbim one way across the chapter (v. 13–14 have «Мальбим»). (PS.21.1: the Hebrew heading לַמְנַצֵּחַ מִזְמוֹר לְדָוִד is verse 1 in the Hebrew, which still numbers the psalm 21; Synodal Пс 9 = Hebrew Ps 9–10.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:43:26+00:00",
+     "note": "[consider] When verses 5 and 6 are next revised, spell the name «Мальбим» there as in verses 1, 13 and 14. (PS.21.5 commentary: «Малбим указывает тот же момент»; PS.21.6: «Малбим идёт дальше»; PS.21.1: «Мальбим считает первые два стиха прологом».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2c8248763532"
+  },
+  "verse.ru:PS.21.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa19064b1037"
+  },
+  "verse.ru:PS.21.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5053b5d1bf73"
+  },
+  "verse.ru:PS.21.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:55+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено по просьбе рецензента: Синодальное «не могли выполнить» ставит в прошедшее то, что в еврейском стоит в будущем."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[should_fix] Replace the last sentence with: «Синодальное „предприняли против Тебя злое, составили замыслы“ оставляет существительное нейтральным, как и еврейский текст, но „не могли выполнить“ ставит в прошедшее то, что в еврейском — „не смогут“»; or drop the Synodal sentence. (PS.21.12 (Synodal Пс 20:12): «ибо они предприняли против Тебя злое, составили замыслы, но не могли выполнить их.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:43:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec480b50c482"
+  },
+  "verse.ru:PS.21.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:42:46+00:00",
+   "agent_notes": [
+    "По запросу рецензента последнее предложение первого абзаца заменено: Синодальный (Пс 20:13) цитируется дословно («Ты поставишь их целью») и сближается с чтением Мецудат Давид (мишень для стрелы), а не с чтением «обратишь в бегство», как было в прежней версии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[blocker] Replace the last sentence of the first paragraph with: «Синодальный перевод (Пс 20:13) идёт другим путём: „Ты поставишь их целью“ — ближе к чтению Мецудат Давид (враги отставлены как мишень для стрелы)». Keep the rest; quote the Synodal verbatim or not at all. (PS.21.13 (Synodal Пс 20:13): «Ты поставишь их целью, с луков Твоих пустишь стрелы в лице их.»; Metzudat David: «שיעמדו מובדל בפאה אחת להיות למטרא לחץ» (set apart as a target for the arrow).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:43:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5044c4966f2c"
+  },
+  "verse.ru:PS.21.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:53+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 20:14), насколько я помню, передаёт два глагола как «будем петь и славить»; здесь «славить» заменено на «играть» (на струнах), чтобы сохранить различие пения и игры на инструменте. Формулировки Синодального перевода в обоих стихах приведены по памяти и требуют сверки."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[consider] Quote «будем воспевать и прославлять»; capitalise «Твоей», «Твоём» in the literal layer and glosses; quote v. 2 as «в силе Твоей радуется царь». (PS.21.14: «רוּמָה יְהוָה בְעֻזֶּךָ» addressed to YHWH; Synodal Пс 20:14: «Вознесись, Господи, силою Твоею: мы будем воспевать и прославлять Твое могущество.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d06457db47b8"
+  },
+  "verse.ru:PS.21.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[consider] Quote «веселится … радуется»; write «В еврейском тексте два разных слова для радости». (Synodal Пс 20:2: «Господи! силою Твоею веселится царь и о спасении Твоем безмерно радуется.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e377cdcee64"
+  },
+  "verse.ru:PS.21.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [
+    "«Села» оставлено как в Синодальном переводе: это знак исполнения с утраченным значением, не слово. Hapax «арешет» передано как «прошение»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[consider] Quote «прошения уст его не отринул». (Synodal Пс 20:3: «Ты дал ему, чего желало сердце его, и прошения уст его не отринул».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3330caa39734"
+  },
+  "verse.ru:PS.21.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [
+    "В Синодальном стих 4 читает глагол как «встретил» (ср. «упредил» в церковнославянском); комментарий предупреждает об архаизме KJV «preventest» и отмечает, что русское «встретил» передаёт смысл верно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ab43fcce4c9"
+  },
+  "verse.ru:PS.21.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[consider] Quote «долгоденствие на век и век». (Synodal Пс 20:5: «Он просил у Тебя жизни; Ты дал ему долгоденствие на век и век.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ce3c042712be"
+  },
+  "verse.ru:PS.21.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[consider] Quote «Ты возложил на него честь и величие» (same order as the KJV's 'honour and majesty'). (Synodal Пс 20:6: «Велика слава его в спасении Твоем; Ты возложил на него честь и величие.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6ef7192dd92"
+  },
+  "verse.ru:PS.21.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [
+    "«Ты сделал его благословениями» — буквальный слой сохраняет, что царь сам становится благословением; Синодальное «положил на него благословения» этого оттенка не передаёт, и комментарий говорит об этом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d61e758da42"
+  },
+  "verse.ru:PS.21.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:55+00:00",
+   "agent_notes": [
+    "Синодальное «во благости Всевышнего» — по тексту Синодального перевода, как просил рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": "[should_fix] Replace «Синодальное „по милости“ тоже» with «Синодальное „во благости“ тоже»; the rest of the sentence stands. (PS.21.8 (Synodal Пс 20:8): «ибо царь уповает на Господа, и во благости Всевышнего не поколеблется.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:43:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc1cb78142a9"
+  },
+  "verse.ru:PS.21.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:38:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:40:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f79a3269963f"
   }
  },
  "notes": []

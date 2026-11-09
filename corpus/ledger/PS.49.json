@@ -467,6 +467,471 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.49.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [
+    "Корах — по Синодальному переводу «Корей» (сыны Кореевы); так и в надписи, и в комментарии. Нумерация здесь ивритская (надпись — стих 1); в Синодальном переводе тот же псалом идёт как Пс 48, и стихи в нём считаются так же, но номер псалма иной."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a378341e736"
+  },
+  "verse.ru:PS.49.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [
+    "Убрал фразу о Синодальном переводе, как просили; в английском её нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Delete the final sentence about the Synodal translation (or, if you keep it, say that the Synodal here has «могилы» and so does not follow the Greek). (PS.49.10: וְלֹא יִרְאֶה הַשָּׁחַת; English commentary ends at 'Say \"pit\".' with no Synodal claim; ru packet: 'RusSynodal, for names and register' section is empty)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24feee24b0f4"
+  },
+  "verse.ru:PS.49.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Change «с стиха 3» to «со стиха 3». (PS.49.11 ru commentary: «которое было ключевым словом с стиха 3»; English 'which has been the keyword since verse 3')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d65680aa4c3"
+  },
+  "verse.ru:PS.49.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [
+    "В комментарии у Раши Антиох и Селевк названы как основатели городов Антиохии и Селевкии; имена даны в привычных русских формах."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "33edea89f9c7"
+  },
+  "verse.ru:PS.49.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:29:36+00:00",
+   "agent_notes": [
+    "Припев: «נִדְמוּ» оставлено двойственным. В буквальном слое выбрано «умолкли» (от дмм, по Раши), в драматическом слое звучат и «умолкает», и «подобен»; синодальное «погибающим» берёт лишь одно из значений."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[consider] Use one numbering throughout: «Пс 25:13 («душа его во благе водворится»)». (PS.49.13 ru note: «Ибн Эзра сравнивает глагол с Пс 25:13»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "024fee93356d"
+  },
+  "verse.ru:PS.49.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:29:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5dfc59e1fe97"
+  },
+  "verse.ru:PS.49.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [
+    "Синодальное чтение исправлено на будущее время: «заключат их в преисподнюю»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Change «к иврит» to «к ивриту». While there, the Synodal reads «заключат их в преисподнюю» (future), not «заключили»; correct the quote or drop it. (PS.49.15 ru commentary: «сохраняет пастуха и тем ближе к иврит»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d48087f0453b"
+  },
+  "verse.ru:PS.49.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Use «жизнь мою» in translation_literal and in the gloss for pos 4 («жизнь мою»), as the English does. (PS.49.16: אַךְ־אֱלֹהִים יִפְדֶּה נַפְשִׁי; English literal 'God will redeem my life'; ru note on נַפְשִׁי: «а не отделимая душа»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b1ee2de0b0f7"
+  },
+  "verse.ru:PS.49.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [
+    "Фраза о страдательной форме теперь относится только к KJV, как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Make the sentence about the KJV only, as in the English («„is made rich“ у KJV — страдательная форма…»); drop the claim about the Synodal or note that the Synodal «богатеет» keeps the active. (PS.49.17: אַל־תִּירָא כִּי־יַעֲשִׁר אִישׁ; English: \"'Made rich' in the KJV is a passive; the Hebrew verb is active\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ea7edbde3b0"
+  },
+  "verse.ru:PS.49.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:29:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[consider] Write «ни даже части его». (PS.49.18 English: \"Ibn Ezra reads it as 'not even a part of it'\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b2cb962ae0b"
+  },
+  "verse.ru:PS.49.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:29:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bad83b3f9823"
+  },
+  "verse.ru:PS.49.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[consider] Consider «буквально «приухать», «взять в ухо»» or simply «глагол от слова «ухо»». (PS.49.2: הַאֲזִינוּ, from אֹזֶן 'ear')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d17491adf18"
+  },
+  "verse.ru:PS.49.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:33:15+00:00",
+   "agent_notes": [
+    "По запросу рецензента глосса к слову 5 (עַד) исправлена на «до»; слово 6 осталось «вечности». Остальные слои не менялись."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Gloss pos 5 as «до» (keep pos 6 «вечности»). (PS.49.20: עַד־נֵצַח לֹא יִרְאוּ־אוֹר; English glosses pos 5 'until', pos 6 'perpetuity')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": "[consider] When the verse is next touched, correct the Synodal quote to «он пойдёт к роду отцов своих» or drop the quote. (PS.49.20: תָּבוֹא עַד־דּוֹר אֲבוֹתָיו; ru commentary: «синодальное («Она пойдёт к роду отцов своих…»)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa63f4fc0b3a"
+  },
+  "verse.ru:PS.49.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:29:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2bb5723c6d51"
+  },
+  "verse.ru:PS.49.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[consider] When these verses are next touched, check each Synodal quote against the Synodal text or drop the sentence. (PS.49.3: גַּם־בְּנֵי אָדָם גַּם־בְּנֵי־אִישׁ; ru packet section 'RusSynodal' is empty)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eb73c13d7732"
+  },
+  "verse.ru:PS.49.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0a6fa134ee78"
+  },
+  "verse.ru:PS.49.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [
+    "כנור передан в буквальном слое как «на кинноре», в драматическом — «на гуслях»; Синодальный перевод пишет «на гуслях». Выбор ради слуха русского читателя, термин «киннор» сохранён в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ce360b96efa"
+  },
+  "verse.ru:PS.49.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [
+    "Убрал последнюю фразу о Синодальном переводе: в английском комментарии её нет, и она неверно цитировала Синодальный текст."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] Delete the final sentence about the Synodal translation, or correct it to «беззаконие путей моих» and tie it to Ibn Ezra's reading (crooked path) rather than to YLT. (PS.49.6: עֲוֺן עֲקֵבַי יְסוּבֵּנִי; English commentary has no Synodal sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b973f6f2085a"
+  },
+  "verse.ru:PS.49.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f39f2f5b5d5"
+  },
+  "verse.ru:PS.49.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:30:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d21a47a493c"
+  },
+  "verse.ru:PS.49.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:32:42+00:00",
+     "note": "[should_fix] In translation_literal change «выкуп души их» to «выкуп жизни их», so that it agrees with the gloss, the note and the English. (PS.49.9: וְיֵקַר פִּדְיוֹן נַפְשָׁם; English literal 'And costly [is] the ransom of their life'; ru note: «здесь речь о живом человеке»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:35:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9c0b3a37d95c"
   }
  },
  "notes": []

@@ -250,6 +250,259 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.64.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод нумерует надписание отдельным стихом лишь в еврейской нумерации; здесь, как в иврите, надписание — стих 1. «Начальнику хора» — синодальная форма для לַמְנַצֵּחַ, в глоссе оставлено «начальнику хора»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[consider] Add one sentence that in the Synodal this is Псалом 63 and that psalm references here follow the Hebrew numbering. (PS.64.1 commentary: ««стих 1» английской Библии короля Иакова (KJV) у нас — стих 2»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2354a12dae88"
+  },
+  "verse.ru:PS.64.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[consider] Quote the Synodal wording exactly. (Synodal Пс 63:10: «И убоятся все человеки, и возвестят дело Божие, и уразумеют, что это Его дело»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2a11d76c4a4"
+  },
+  "verse.ru:PS.64.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:27+00:00",
+   "agent_notes": [
+    "Синодальный текст отличается от иврита только «уповать» вместо חסה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[should_fix] Correct the Synodal quotation to «А праведник возвеселится о Господе и будет уповать на Него; и похвалятся все правые сердцем» and say it differs from the Hebrew only in «уповать» for חסה; drop «„прославятся“ вместо „будут хвалиться“». (Synodal Пс 63:11: «А праведник возвеселится о Господе и будет уповать на Него; и похвалятся все правые сердцем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:05+00:00",
+     "note": "[consider] Use one convention for pronouns referring to God in the literal layer and the glosses. (PS.64.11 literal «и найдёт убежище в нём»; gloss pos 5 «в Нём»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7c0f63999ba"
+  },
+  "verse.ru:PS.64.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[consider] Quote the Synodal as «в молитве моей». (Synodal Пс 63:2: «Услышь, Боже, голос мой в молитве моей, сохрани жизнь мою от страха врага»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "129010edc10c"
+  },
+  "verse.ru:PS.64.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:27+00:00",
+   "agent_notes": [
+    "Синодальная цитата в скобках исправлена по замечанию рецензента: «укрой меня от замысла коварных, от мятежа злодеев»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[should_fix] Replace the quotation in the parenthesis with «укрой меня от замысла коварных, от мятежа злодеев», keeping the remark that «мятеж» follows the KJV and «замысел» narrows סוֹד; or delete the parenthesis, which the English does not have. (Synodal Пс 63:3: «укрой меня от замысла коварных, от мятежа злодеев»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3fbe9f9c7a9a"
+  },
+  "verse.ru:PS.64.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:27+00:00",
+   "agent_notes": [
+    "Синодальный перевод напрягает лук и сохраняет единственное «слово»; лук добавлен, как у KJV, — в иврите его нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[should_fix] Delete the Synodal sentence at the end of the commentary, or correct it: the Synodal has «напрягли лук свой — язвительное слово», keeps the singular 'word' but, like the KJV, adds a bow the Hebrew does not name. (Synodal Пс 63:4: «которые изострили язык свой, как меч; напрягли лук свой — язвительное слово»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf8500204f5e"
+  },
+  "verse.ru:PS.64.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [
+    "Игра созвучия יָרָה / יָרֵא («стрелять» / «бояться») в русском не передаётся; сказано об этом в комментарии, как и в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "012a64cfc378"
+  },
+  "verse.ru:PS.64.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "67a405424bb2"
+  },
+  "verse.ru:PS.64.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:27+00:00",
+   "agent_notes": [
+    "Синодальный текст приведён дословно; он читается как повествование, а не как речь заговорщиков."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[should_fix] Delete the last sentence of the commentary (the Synodal comparison), or replace it with the actual Synodal wording «Изыскивают неправду, делают расследование за расследованием даже до внутренней жизни человека и до глубины сердца» and say it reads as narration, not as the plotters' speech. (PS.64.7 EN commentary has no Synodal remark; Synodal Пс 63:7: «Изыскивают неправду, делают расследование за расследованием...»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9774740cf311"
+  },
+  "verse.ru:PS.64.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[consider] Use the same form in the literal layer and gloss 3 (e.g. «стрелой» in both). (PS.64.8: «וַיֹּרֵם אֱלֹהִים חֵץ פִּתְאוֹם»; literal «И выстрелил в них Бог, стрела, внезапно»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b47ea2837260"
+  },
+  "verse.ru:PS.64.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:27+00:00",
+   "agent_notes": [
+    "Синодальное «удалятся» следует смыслу бегства, как «flee away» у KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:10+00:00",
+     "note": "[should_fix] Delete the Synodal sentence at the end of the commentary, or correct it to «язык их погубит их; все, видящие их, удалятся от них» and say it follows the sense of flight, as the KJV 'flee away'. (Synodal Пс 63:9: «язык их погубит их; все, видящие их, удалятся от них»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9aaf14e99941"
   }
  },
  "notes": []

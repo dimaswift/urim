@@ -1,0 +1,152 @@
+{
+ "chapter_ref": "PS.134",
+ "items": {
+  "verse.en:PS.134.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:27+00:00",
+   "agent_notes": [
+    "The packet's verse 1 includes the superscription 'Song of the Ascents' (tokens 1-2), which the KJV numbers as 134:0. I glossed and translated it as part of the verse, as the Hebrew versification has it.",
+    "STEPBible glosses הִנֵּה 'here!'; I kept a presentative 'behold' in the literal layer and 'Come' in the dramatic one. The five English versions split on whether it is rendered at all (BBE drops it).",
+    "Which group 'servants of YHWH who stand in the house of YHWH by night' names (priests, Levites, night-watch, or all pilgrims) is disputed. The commentaries differ (Ibn Ezra: priests; Radak: the pious who rise at night; Meiri: those in the Temple court). I kept the commentary open and did not decide.",
+    "The Targum's 'those who guard the Temple' is my reading of its Aramaic (מַטְרַת בֵּית מַקְדְשָׁא, 'watch of the sanctuary'); check it if you rely on it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:04+00:00",
+     "note": "[consider] Consider anchoring this on the Targum ('who stand at the watch of the sanctuary and praise in the nights'), which gives both the guard and the night praise, or cite 1 Chr 9:33 for the singers on duty day and night. (Targum on PS.134.1: \"דְקָיְמִין עַל בֵּית מַטְרַת בֵּית מַקְדְשָׁא ... וּמְשַׁבְּחִין בְּלֵילְוָן\" ('who stand over the house of the watch of the sanctuary ... and praise by night'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.134.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:27+00:00",
+   "agent_notes": [
+    "קֹדֶשׁ has no preposition, so 'in the sanctuary', 'toward the sanctuary' (ASV) and 'in holiness' are all possible. The literal layer keeps the bare noun 'holiness/sanctuary' with a bracketed alternative; the dramatic layer chooses 'in the holy place'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:04+00:00",
+     "note": "[consider] Consider 'Lift your hands toward the holy place' and leave the open palms to the commentary, where they already are. (PS.134.2: \"שְׂאוּ יְדֵכֶם קֹדֶשׁ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.134.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:59:44+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the 'deliberate and polemical' claim and the Baal/Shamash reference are removed. The third paragraph now rests on Radak's gloss (the heavens that give blessing, the earth that yields its produce) and on Malbim's reading (a blessing not drawn from the order of the heavens but from Zion).",
+    "The pronoun in 'bless you' is 2nd masculine singular, a change from the plural address of vv.1-2. Radak takes it as the poet's own voice, Meiri as said to the people or the king. I translated the singular as 'you' and noted the shift in the commentary without deciding who speaks.",
+    "The Hebrew can be read 'May YHWH bless you from Zion, [he who is] maker of heaven and earth' or 'May the maker of heaven and earth bless you from Zion'. Metzudat David reorders it to the second. The literal layer keeps the Hebrew order, which allows both.",
+    "Ibn Ezra's packet comment begins with 'הללויה' and seems to belong to another lemma, so I did not cite him. The Num 6:24 parallel is my own observation (same verb form and subject), not drawn from the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:04+00:00",
+     "note": "[should_fix] In the third paragraph of the commentary, drop 'deliberate and polemical' and the Baal/Shamash claim, or present it as one modern reading and mark it as interpretation; you may build the paragraph on Radak's own gloss (heavens that give the blessing, earth that yields its crop) instead, which the packet supports. (PS.134.3: \"יְבָרֶכְךָ יְהוָה מִצִּיּוֹן עֹשֵׂה שָׁמַיִם וָאָרֶץ\"; the commentaries read the title differently (Radak: the maker of the heavens that give blessing and the earth that yields its produce; Malbim: a blessing not drawn from the order of the heavens but from Zion).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:01:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.134.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:05:36+00:00",
+   "agent_notes": [
+    "По замечанию рецензента убрано добавленное предложение о Синодальном переводе из третьего абзаца: комментарий снова следует английскому и ничего не говорит о русской Библии.",
+    "Буквальный слой передаёт «בַּלֵּילוֹת» как «в ночах» (множественное число, как в иврите); в драматическом слое — «пока тянутся ночи».",
+    "В первом абзаце комментария нумерация 119–133 (синодальная) стоит в скобках как справка о нумерации, не как цитата перевода."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:04:31+00:00",
+     "note": "[should_fix] Remove the added sentence about the Synodal translation from the third paragraph. Or, if you keep a Synodal comparison, quote the Synodal Пс 133:1 exactly (as I recall it: «стоящие в доме Господнем, во время ночи», singular) and say that it, like the KJV, turns the plural into one night. Also fix the reviewer note, which says the literal layer has «по ночам» when it has «в ночах». (PS.134.1: \"בַּלֵּילוֹת\" ('in the nights'); English commentary: \"The KJV 'by night' ... turns the plural 'nights' into one night\" (no sentence about any Russian Bible))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:06:13+00:00",
+     "note": "[consider] Consider «Песнь восхождений» in the dramatic layer too, so the title reads the same in both layers. (PS.134.1: \"שִׁיר הַמַּעֲלוֹת\" ('song of the ascents', plural))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc20a3f68535"
+  },
+  "verse.ru:PS.134.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:03:09+00:00",
+   "agent_notes": [
+    "«Кодеш» в буквальном слое оставлено без предлога («[в/к] святости»), в литературном выбрано «к святилищу» — так в Синодальном переводе; другие прочтения («в святости», «во святилище») разобраны в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "42fd47a67ee0"
+  },
+  "verse.ru:PS.134.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:03:09+00:00",
+   "agent_notes": [
+    "Порядок слов в Синодальном переводе («Благословит тебя Господь с Сиона, сотворивший небо и землю») сохраняет еврейский; «небо» в единственном числе у Синодального перевода, тогда как в иврите «шамаим» — форма множественного числа; оба слоя здесь держатся множественного числа («небеса»), как в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:31+00:00",
+     "note": "[consider] Keep additions about the Russian Bible to what you can quote from the packet, or mark them as your own note in reviewer_notes. (PS.134.3: \"עֹשֵׂה שָׁמַיִם וָאָרֶץ\"; English commentary ends the paragraph at \"a plain 'from' (min)\") [consider] Consider «творящий небеса и землю» or «Создатель небес и земли» in the literal layer and the gloss. (PS.134.3: \"עֹשֵׂה\" (HVqrmsc, 'maker of'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7f2c7f27bd43"
+  }
+ },
+ "notes": []
+}

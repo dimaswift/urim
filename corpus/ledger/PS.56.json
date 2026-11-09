@@ -313,6 +313,307 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.56.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:58+00:00",
+   "agent_notes": [
+    "Синодальный в заголовке: «О голубице, безмолвной в удалении» и «захватили»; цитата дана дословно по запросу рецензента, ссылка на 1 Царств дана с нумерацией Синодального."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('захватили', 'О голубице, безмолвной в удалении') or drop the Synodal sentence; write the reference as '1 Царств 21:11–16 (в Синодальном 21:10–15)'. (PS.56.1 commentary: 'Синодальный переводит здесь «схватили»… («по голубице безмолвной в удалении»)'; English commentary has no Synodal sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3085c467f840"
+  },
+  "verse.ru:PS.56.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4de195d07a8"
+  },
+  "verse.ru:PS.56.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:58+00:00",
+   "agent_notes": [
+    "Синодальный дан дословно: «В Боге восхвалю я слово Его, в Господе восхвалю слово Его»; суть замечания (оба имени сохранены, добавлено «Его») оставлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[should_fix] Replace the quotation with the Synodal wording 'В Боге восхвалю я слово Его, в Господе восхвалю слово Его'; the point (both names kept, 'Его' added) stands. (PS.56.11 ru commentary: '(«О Боге хвалюсь словом Его, о Господе хвалюсь словом Его»)')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "233bd817751a"
+  },
+  "verse.ru:PS.56.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e16c69e203d6"
+  },
+  "verse.ru:PS.56.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:50+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 55:13) читает «я воздам хвалу Тебе» и передаёт «обеты» словом «обеты Твои»; в буквальном слое «тодот» передано как «благодарственные жертвы», как у Радака и в Таргуме. Хвала в Синодальном — абстракция, о чём сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5912c5745e2"
+  },
+  "verse.ru:PS.56.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:39:50+00:00",
+   "agent_notes": [
+    "Синодальный перевод, как и KJV, передаёт «нефеш» как «душа»; в буквальном слое выбрано «жизнь моя», в комментарии оговорено. Вторая часть стиха в Синодальном без вопроса («и ноги мои от преткновения»), то есть ближе к ивриту, чем KJV.",
+    "Названия комментаторов (Радак, Раши, Меири, Мецудат Давид, Малбим) даны в обычной русской транслитерации; в sources оставлены как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32aead68bdee"
+  },
+  "verse.ru:PS.56.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aae67cd9e59b"
+  },
+  "verse.ru:PS.56.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [
+    "«Марóм» — «о Высочайший»: Синодальный переводит «о Высочайший» (как и KJV), а не наречием «гордо»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[consider] Write 'о, Всевышний'. (PS.56.3 ru commentary: '(«ибо много восстающих на меня, о Высочайший»)')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6cd019bfd0e2"
+  },
+  "verse.ru:PS.56.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[consider] Quote the Synodal exactly or paraphrase without quotation marks. (PS.56.4 ru commentary, last sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2512257b0d74"
+  },
+  "verse.ru:PS.56.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "45bf0caea4db"
+  },
+  "verse.ru:PS.56.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [
+    "«Йеацевý» передано «причиняют боль» (корень ‘эцев), а не «искажают слова», как в Синодальном («искажают слова мои»): Синодальный здесь следует KJV-линии «wrest»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[consider] Consider 'огорчают' or 'причиняют боль' in the literal layer and gloss. (PS.56.6: יְעַצֵּבוּ; English 'they hurt')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "78aa1f7a25ab"
+  },
+  "verse.ru:PS.56.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:43:58+00:00",
+   "agent_notes": [
+    "В буквальном слое убрано «[если бы]»: ивритское קִוּוּ — перфект, как «ждали» в стихе 14; глосса 8 — «жизни моей» (נפש в этом стихе — жизнь)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[should_fix] In the literal layer write 'как ждали они жизни моей' (no '[если бы]'), and gloss token 8 'жизни моей', as in verse 14. (PS.56.7: כַּאֲשֶׁר קִוּוּ נַפְשִׁי; English literal 'as they have waited for my life', gloss 8 'my life')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:44:40+00:00",
+     "note": "[consider] Quote the Synodal exactly ('Собираются, притаиваются, наблюдают за моими пятами, чтобы уловить душу мою') or paraphrase without quotation marks. (PS.56.7 ru commentary: '(«Собираются, скрываются, следят за пятами моими, как бы подстерегая душу мою»)')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a83b0829761a"
+  },
+  "verse.ru:PS.56.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [
+    "Последнее слово еврейского ряда («אֵין», помечено в packet как заблудшее) глоссировано как «[не]», отдельно не переведено: это маргиналия, не часть стиха."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[consider] Quote the Synodal exactly. (PS.56.8 ru commentary, last sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b051e1cb964d"
+  },
+  "verse.ru:PS.56.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:41:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:42:58+00:00",
+     "note": "[consider] Quote the Synodal exactly ('исчислены'). (PS.56.9 ru commentary, last sentence)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "64a1c26a37e0"
   }
  },
  "notes": []

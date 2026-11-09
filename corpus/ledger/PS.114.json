@@ -1,0 +1,377 @@
+{
+ "chapter_ref": "PS.114",
+ "items": {
+  "verse.en:PS.114.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:24:08+00:00",
+   "agent_notes": [
+    "לֹעֵז is a participle of לָעַז, found only here in the Bible. 'Speaking a foreign language' follows STEPBible, Rashi and Radak; the literal layer keeps the participle ('speaking in a foreign tongue'), which all five English versions turn into a noun phrase ('strange language')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[consider] Consider ending the dramatic line at 'whose speech was a stranger's'. (Radak on 114:1: \"אי אפשר שלא היו מבינים שהרי היו ביניהם כמה שנים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:24:08+00:00",
+   "agent_notes": [
+    "The verb הָיְתָה is feminine singular with the masculine name Judah; Ibn Ezra explains it as Judah = the community (feminine), and I follow him. I gloss 'it became', not 'was', because the psalm narrates an event, not a state. 'His sanctuary' is the plain sense of לְקָדְשׁוֹ (קֹדֶשׁ, 'holiness', here a holy place or holy thing); Rashi and Radak read it as the people made holy, Meiri as a share of rank. I keep 'holy place' in the literal layer and leave the question open in the commentary. The tradition about Nachshon appears in Rashi and Radak, but it is midrash, not the psalm's own statement, so I mark it as such."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[consider] Consider 'and Israel His realm' without the added land. (PS.114.2: \"יִשְׂרָאֵל מַמְשְׁלוֹתָיו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:24:08+00:00",
+   "agent_notes": [
+    "Both verbs of the first colon are perfect/wayyiqtol (past narration) and the second colon is imperfect (יִסֹּב). I keep the tense shift visible in the literal layer: 'saw ... fled' against 'turns'. Rashi, Meiri and Metzudat David tie the Jordan to Joshua 3–4; Ibn Ezra says the Jordan's waters stood up in one heap, which matches Joshua 3:16."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[consider] Add a sentence noting that the KJV turns the Jordan's own active verb into a passive, and mark the Ugarit comparison as general background not drawn from the packet. (PS.114.3: \"הַיַּרְדֵּן יִסֹּב לְאָחוֹר\" (HVqi3ms); KJV: \"Jordan was driven back\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:26:55+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: רָקַד is kept as a verb of leaping and dancing, but the claim that it excludes trembling is dropped. The image is joyful in form; Ibn Ezra, Radak and Metzudat David read it as quaking in dread, and verse 7 answers it with 'tremble'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[should_fix] Keep the point that רָקַד is a verb of leaping and dancing, but drop the claim that it excludes trembling: say that the image is joyful in form while the commentators (Ibn Ezra, Radak, Metzudat David) read it as quaking in dread, and that verse 7 answers it with 'tremble'. (PS.114.7: \"מִלִּפְנֵי אָדוֹן חוּלִי אָרֶץ\"; Metzudat David on 114:4: \"רקדו ההרים כאילים לגודל החרדה\"; Radak on 114:4: \"חרדו ורעשו הרים\"; Ibn Ezra: \"רעשו מפני כבוד השם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:27:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:24:08+00:00",
+   "agent_notes": [
+    "STEPBible glosses מַה־לְּךָ as 'what? [is] to you'; I corrected it to 'what [is] to you?' as one idiom ('what ails you?'). כִּי תָנוּס is 'that you flee' (imperfect, 'that you keep fleeing'); the sea and Jordan are now addressed in the second person, so the grammar of the psalm changes at verse 5 from report to apostrophe."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:24:08+00:00",
+   "agent_notes": [
+    "The five English versions split: KJV/ASV/Webster put the question into past or present subordinate clauses ('that ye skipped', 'that ye skip'), YLT reads it as an exclamation ('ye skip as rams!'), BBE as 'why were you jumping'. The Hebrew has no question word in this verse: it is the same two cola as verse 4 with the verb in the second person imperfect. I read it as elliptical for 'what [is] to you, that you skip?' carried over from verse 5, which is the reading all commentaries in the packet assume (Metzudat David). The literal layer leaves the verse unsupplemented, with the carried question in brackets."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[consider] Describe the split as KJV/Webster (past), ASV (present), YLT (exclamation), BBE ('why'); soften the 'only frolic' contrast in line with v. 4. (Webster: \"Ye mountains, [that] ye skipped like rams\"; YLT: \"O mountains, ye skip as rams!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:26:55+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: Ibn Ezra and Meiri are listed for the imperative reading of חוּלִי, the infinitive reading goes to Radak (Meiri only reports it as others' view), and the אָדוֹן note now cites Radak on 114:5. The English versions split between 'tremble' (KJV, ASV, Webster), 'be afraid' (YLT) and 'be troubled' (BBE); I keep 'writhe' in the literal layer to keep the labour-pain root visible."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[should_fix] In the commentary and the חוּלִי note, list Meiri with Ibn Ezra for the imperative reading and give the infinitive to Radak (Meiri mentions it as others' view). Change the source of the אָדוֹן note to 'Radak on Psalm 114:5'. (Meiri (packet, under 114:6): \"וחולי צווי במקום עתיד כמו תחולי ... וי״מ חולי מקור בכנוי מדבר בעדו\"; Radak on 114:5: \"והתשובה מלפני אדון. כעבד שהוא חרד וזע מפני אדונו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:27:35+00:00",
+     "note": "[consider] Consider glossing pos 3 as 'writhe, tremble' so the gloss matches the literal layer. (PS.114.7: \"מִלִּפְנֵי אָדוֹן חוּלִי אָרֶץ\"; literal: \"writhe, O earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.114.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:26:55+00:00",
+   "agent_notes": [
+    "Revised per the reviewer: Metzudat Zion defines חַלָּמִישׁ as hard rock and illustrates it with Deuteronomy 32:13; the claim about 'the other place where it occurs' is dropped. The link to the rock Moses struck is my own reading (Meiri on 114:4 cites Psalm 78:15-20 for the striking of the rock), so I cite it only there."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:25:51+00:00",
+     "note": "[should_fix] Say that Metzudat Zion defines חַלָּמִישׁ as hard rock and illustrates it with Deuteronomy 32:13; drop 'the other place where it occurs'. (Metzudat Zion on 114:8: \"חלמיש. הוא סלע קשה כמו ושמן מחלמיש צור (דברים ל״ב:י״ג)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:27:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.114.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:32+00:00",
+   "agent_notes": [
+    "Нумерация: в Синодальном переводе этот псалом — 113-й (113:1–8), в еврейской Библии — 114-й. Ссылки в заметках даны по еврейской нумерации, как в английском источнике.",
+    "לֹעֵז в литеральном слое передано как «говорящего на чужом наречии»; Синодальный даёт «из народа иноплеменного» — смысл тот же, но «иноплеменный» говорит о происхождении, а не о языке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10f86f80687a"
+  },
+  "verse.ru:PS.114.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[consider] Consider a bracket or a short note that «стала» keeps the Hebrew feminine (Judah as the community). (PS.114.2: \"הָיְתָה יְהוּדָה לְקָדְשׁוֹ\"; Synodal: «Иуда сделался святынею Его»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75473ad65a8f"
+  },
+  "verse.ru:PS.114.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:36:11+00:00",
+   "agent_notes": [
+    "«KJV» передано как «перевод короля Иакова» во всех комментариях, чтобы подлежащее было переводом, а не «королём Иакова»; в стихе 3 «a ghost» из английского комментария передано как «призрачный взгляд» (взгляд без предмета)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[should_fix] Replace «король Иакова добавляет» with «перевод короля Иакова добавляет» (or «KJV добавляет»), so the subject is the translation, not 'the king of Jacob'. (PS.114.3 commentary: «король Иакова добавляет «it», давая призраку, что видеть»; English: \"the KJV adds 'it'\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:36:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eb33b5a00a7b"
+  },
+  "verse.ru:PS.114.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[consider] Consider «резвость стада» or «игру стада». (PS.114.4 commentary: «держать сразу две вещи: проказу стада и дрожь горы»; English: \"the caper of a flock\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8909e262dab0"
+  },
+  "verse.ru:PS.114.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[consider] Consider «вышел из рассказа об истории и шагнул в саму сцену». (PS.114.5 commentary: «создаётся впечатление, что поэт вышел из строя истории и шагнул в сцену»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f96d43dd9ed"
+  },
+  "verse.ru:PS.114.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:36:11+00:00",
+   "agent_notes": [
+    "Запутанную фразу о симметрии стихов 3–6 переписано ясно: пара стиха 5 повторяет пару стиха 3, пара стиха 6 — пару стиха 4."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[should_fix] Write «Перевод короля Иакова и ASV считают…» (or «KJV и ASV понимают…»). (PS.114.6 commentary: «Король Иакова и ASV считают «that ye skipped» придаточным»; English: \"The KJV and ASV treat 'that ye skipped' as a clause\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:36:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "92cceaccd50c"
+  },
+  "verse.ru:PS.114.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:36:11+00:00",
+   "agent_notes": [
+    "Йод — буква мужского рода: «с лишним йодом». Для אָדוֹן в буквальном слое сохранено «Владыка», в драматическом — «Господь», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[should_fix] Write «Перевод короля Иакова печатает «Lord»…», and change «с лишней йодом» to «с лишним йодом» (or «с лишней буквой йод») in the commentary and in the note on חוּלִי. (PS.114.7 commentary: «Король Иакова печатает «Lord» для אָדוֹן»; commentary and note on חוּלִי: «с лишней йодом»; English: \"The KJV prints 'Lord'\", \"with a superfluous yod\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:36:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "49029aadaba5"
+  },
+  "verse.ru:PS.114.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:36:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:34:54+00:00",
+     "note": "[should_fix] Change to «с лишним йодом, который Раши и Мецудат Цион отмечают как излишний» (or «с лишней буквой йод, которую…»). (PS.114.8 note on הַהֹפְכִי: «с лишней йодом, которую Раши и Мецудат Цион отмечают как излишнюю»; English: \"with an extra yod, which Rashi and Metzudat Zion mark as superfluous\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:36:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c7eb0fb3e74"
+  }
+ },
+ "notes": []
+}

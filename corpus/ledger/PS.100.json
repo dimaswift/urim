@@ -112,6 +112,114 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.100.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:06:33+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 99:1) озаглавливает псалом «Псалом хвалебный» и включает заголовок в стих 1: «Псалом хвалебный. Воскликните Господу, вся земля!». Комментарий приводит именно эту цитату; про нумерацию сказано только то, что в еврейском счёте заголовок входит в стих 1, а KJV считает его стихом 0.",
+    "В буквальном слое глагол הריעו передан как «воскликните в ликовании», чтобы сохранить оттенок радостного клича (корень рууа‘); YHWH оставлено, как в английском буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:05:53+00:00",
+     "note": "[should_fix] In directors_commentary change «а Синодальный — „хвалебной песнью“» to «а Синодальный — „Псалом хвалебный“». Change the last sentence to «В еврейской нумерации заголовок входит в стих 1; KJV считает его стихом 0.» (or say that the Synodal also includes it in verse 1). Fix the same quote in the reviewer note. (PS.100.1 (Synodal Ps 99:1): «Псалом хвалебный. Воскликните Господу, вся земля!»; EN commentary ends 'the KJV counts it as verse 0.' with nothing about the Synodal)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3bb843746d14"
+  },
+  "verse.ru:PS.100.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "98c7357e0772"
+  },
+  "verse.ru:PS.100.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:36+00:00",
+   "agent_notes": [
+    "Кетив/Кере: в буквальном слое следую Кере («и Ему [принадлежим] мы», как в Синодальном «и мы — Его»); Кетив «и не мы сами» объяснён в комментарии и заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:53+00:00",
+     "note": "[consider] Add the Hebrew to each form, «ло» (לֹא) and «ло» (לוֹ), or say outright that the two sound the same and differ only in spelling. (PS.100.3 Ketiv וְלֹא, Qere וְלוֹ; EN: \"read lo' ('and not') ... says lo ('to him')\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eeee363ea703"
+  },
+  "verse.ru:PS.100.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:53+00:00",
+     "note": "[consider] Quote the Synodal as «входите во врата Его… во дворы Его», and write «[во] врата Его» in the literal layer. (PS.100.4 (Synodal Ps 99:4): «Входите во врата Его со славословием, во дворы Его — с хвалою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "124c6845de4b"
+  },
+  "verse.ru:PS.100.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:36+00:00",
+   "agent_notes": [
+    "חסד — «верность завета» в буквальном слое, «милость» в драматическом (как в Синодальном «милость Его»); אמונה — «верность»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:53+00:00",
+     "note": "[consider] Consider «преданность завету» or «милость завета» for chesed, or «надёжность» for emunah, so that the two terms stay distinct in the literal layer. (PS.100.5: \"עוֹלָם חַסְדּוֹ וְעַד־דֹּר וָדֹר אֱמוּנָתוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad1c588d3ce6"
   }
  },
  "notes": []

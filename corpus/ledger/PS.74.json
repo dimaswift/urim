@@ -502,6 +502,491 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.74.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:28+00:00",
+   "agent_notes": [
+    "Комментарий теперь цитирует Синодальный перевод точно: «возгорелся гнев Твой на овец пажити Твоей» (Пс 73:1). Образ дыма в Синодальном отсутствует; именно это и отмечено. Про KJV («thine anger smoke») сказано отдельно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («возгорелся гнев Твой») or keep the English's KJV point («thine anger smoke» в KJV) instead of a Synodal quotation; quote the Synodal only where you have its text. (PS.74.1 English commentary: \"The KJV 'thine anger smoke' hides the body\"; Synodal Ps 73:1: \"возгорелся гнев Твой на овец пажити Твоей\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "08fa73cf86b5"
+  },
+  "verse.ru:PS.74.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:28+00:00",
+   "agent_notes": [
+    "יְנָאֵץ передан как «будет презирать» и в буквальном слое, и в глоссе 6, согласно примечанию и комментарию; в драматическом слое «плевать на имя» сохраняет тот же смысл. Синодальное «хулить» и KJV «blaspheme» упомянуты в комментарии как слишком церковные."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[should_fix] Render יְנָאֵץ as «будет презирать» (or «пренебрегать») in the literal layer and in gloss pos 6, so the verse agrees with its note and commentary and with the English 'spurn'. (PS.74.10: \"יְנָאֵץ אוֹיֵב שִׁמְךָ\"; English literal: \"will the enemy spurn your name\"; ru commentary: \"Синодальное «хулить» для второго ... слишком церковно\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "017dc0cae1e6"
+  },
+  "verse.ru:PS.74.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [
+    "כַלֵּה в буквальном слое — «истреби [их]», в соответствии с английским «finish [them]»; в комментарии сохранены обе трактовки (рука или враг) и версии Раши и Меири. Синодальный: «Исторгни её из недр Твоих»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[consider] Prefer «доверши [их]» or «покончи [с ними]» in the literal layer and gloss; quote the Synodal as «порази их». (PS.74.11: \"מִקֶּרֶב חֵיקְךָ כַלֵּה\"; English literal: \"finish [them]\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8be05d23f42"
+  },
+  "verse.ru:PS.74.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[consider] Drop «Синодальный — «Но»», or say that the Synodal leaves the ו untranslated. (PS.74.12: \"וֵאלֹהִים מַלְכִּי מִקֶּדֶם\"; Synodal Ps 73:12: \"Боже, Царь мой от века\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "176d9fff5cf3"
+  },
+  "verse.ru:PS.74.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:48+00:00",
+   "agent_notes": [
+    "По запросу рецензента: пометка о Синодальном переводе для תנינים исправлена на «змиев» (Пс 73:13: «головы змиев в воде»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[should_fix] Replace «(Синодальный: «чудовища»)» with «(Синодальный: «змиев»)» or drop the Synodal remark. (PS.74.13: \"שִׁבַּרְתָּ רָאשֵׁי תַנִּינִים עַל־הַמָּיִם\"; Synodal Ps 73:13: \"Ты сокрушил головы змиев в воде\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:47+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dde72af456d9"
+  },
+  "verse.ru:PS.74.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [
+    "Слово צִיִּים оставлено в буквальном слое непереведённым («цийим»), как и в английском; синодальный перевод читает «людям пустыни» (так же понимают Радак, Меири и Мецудат Давид). В драматическом слое выбран тот же смысл, но коротко, «для обитателей безводных мест»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4696699ea363"
+  },
+  "verse.ru:PS.74.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e245aea54339"
+  },
+  "verse.ru:PS.74.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [
+    "מָאוֹר передан как «светило» (в ед. ч.), а не «свет»; в драматическом слое — «лампа луны», по Ибн Эзре и Мецудат Давиду. Синодальный перевод ставит «светила и солнце»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3359cfbc5d80"
+  },
+  "verse.ru:PS.74.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ab2713934373"
+  },
+  "verse.ru:PS.74.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:48+00:00",
+   "agent_notes": [
+    "По запросу рецензента: буквальный слой теперь «презрели», тот же глагол, что в глоссе 8 (множественное число при собирательном «народ», как в иврите)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[should_fix] Make the literal layer «и народ безумный презрел имя Твоё» (or «презрели», to match the plural verb), the same verb as gloss pos 8. (PS.74.18: \"וְעַם נָבָל נִאֲצוּ שְׁמֶךָ\"; English literal: \"a foolish people have spurned your name\"; ru note: \"«blasphemed» в KJV сильнее, чем в иврите\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:47+00:00",
+     "note": "[consider] Quote the Synodal as «враг поносил Господа, и люди безумные хулят имя Твое», and say it chooses «безумные» and «хулят». (PS.74.18: \"אוֹיֵב חֵרֵף יְהוָה וְעַם נָבָל נִאֲצוּ שְׁמֶךָ\"; Synodal Ps 73:18: \"Вспомни это: враг поносил Господа, и люди безумные хулят имя Твое\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e3b23d50de14"
+  },
+  "verse.ru:PS.74.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [
+    "חַיַּת дважды переведён так, чтобы повтор был слышен: «зверю» и «жизнь/душа твоих бедных». Синодальный перевод читает «зверям душу горлицы» и «стадо нищих», то есть берёт во второй части значение «стадо, сонм», как Раши и Радак."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[consider] Quote the Synodal as «собрания убогих Твоих не забудь навсегда» and adjust «стадо» to «собрание» in the explanation. (PS.74.19: \"חַיַּת עֲנִיֶּיךָ אַל־תִּשְׁכַּח לָנֶצַח\"; Synodal Ps 73:19: \"собрания убогих Твоих не забудь навсегда\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "908b8c78f320"
+  },
+  "verse.ru:PS.74.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d4ed33f9715"
+  },
+  "verse.ru:PS.74.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9c05f2c4d33d"
+  },
+  "verse.ru:PS.74.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "efaabf030663"
+  },
+  "verse.ru:PS.74.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [
+    "Игра слов «רִיבָה רִיבֶךָ» передана как «веди свою тяжбу» в буквальном слое («тяжись тяжбой Твоей») и «защити дело Твоё» в синодальном; эхо корня в русском слабее."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": "[consider] Where a Synodal wording is quoted in guillemets, quote it exactly or present it as a paraphrase. (PS.74.22: \"זְכֹר חֶרְפָּתְךָ מִנִּי־נָבָל כָּל־הַיּוֹם\"; Synodal Ps 73:22: \"вспомни вседневное поношение Твое от безумного\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b21d58fa2c8f"
+  },
+  "verse.ru:PS.74.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96099f25d986"
+  },
+  "verse.ru:PS.74.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f59ea28574a"
+  },
+  "verse.ru:PS.74.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [
+    "אוֹת — «знамёна/знамения»: в Синодальном «знамёна … вместо знамений». В буквальном слое использовано «знамёна … как знамения», чтобы сохранить повтор корня."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32dfb8c8c9a4"
+  },
+  "verse.ru:PS.74.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [
+    "Самый тёмный стих отрывка; перевод сохраняет обрывистость еврейского текста. Синодальное «видно было, как бы кто поднимал топор на чащу дерев» принято как понимание, близкое к английскому."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "84858b086d6a"
+  },
+  "verse.ru:PS.74.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a3c3e9e6d8ec"
+  },
+  "verse.ru:PS.74.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e9db7d88590"
+  },
+  "verse.ru:PS.74.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [
+    "נִינָם передан как «будем угнетать их» (от ינה), как в английском буквальном слое; Синодальный: «разорим их всех вместе». Версии Раши («их правители») и Меири («их потомство») сохранены в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a7c31d411518"
+  },
+  "verse.ru:PS.74.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:17:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4f16c98aa61b"
   }
  },
  "notes": []

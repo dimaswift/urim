@@ -1,0 +1,653 @@
+{
+ "chapter_ref": "PS.140",
+ "items": {
+  "verse.en:PS.140.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "Verse 1 is the superscription; the KJV numbers it 140:0 and its verse 1 is Hebrew verse 2. Every KJV number in this window is therefore one lower than the Hebrew.",
+    "The commentators attach the psalm to Doeg or the Ziphites (Radak, Meiri, Malbim), while the Targum gives only 'by the hand of David'. I mention the traditional occasion as tradition and do not state it as fact."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Cite only the packet's sources (or STEPBible/Strong's from the word table), and leave the root empty for particles such as אַךְ. (PS.140.1 notes sources ['BDB on נצח']; PS.140.14 note root 'אכ'; PS.140.13 note root 'אבי'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:15+00:00",
+   "agent_notes": [
+    "Removed the claim of an intentional sound play. The echo with v. 8 is between two different verbs of covering (sakak in v. 8, kasah here); no source in the packet calls it deliberate, so it is only stated as a thematic echo."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[should_fix] Replace the last sentence: the two verses echo each other through two different verbs of covering (סכך in v. 8, כסה here), not through one root. Do not call the echo an intentional sound play unless a source in the packet says so. (PS.140.10: יְכַסֵּמוֹ, lemma כָּסָה (H3680); PS.140.8: סַכֹּתָה, lemma סָכַךְ (H5526B).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:12:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "Qere/Ketiv: the packet marks 'yamitu' (Q), 'may they be dropped'. Meiri reads the form as 'yamitu' = 'yintu' (be inclined, tilted down); Ibn Ezra and Radak take the coals as falling from heaven. The KJV 'let them be cast' for yapilem is shaky: the subject of the hiphil is unspecified, which I preserve as 'let one fell them'. The five English versions split on the closing 'pits': ASV 'whence they shall not rise', BBE 'deep waters'. I follow Strong's H4113 'pits' and note that the word is a hapax of disputed meaning."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Name the read form yimmotu (Niphal, 'let them totter or slip down') and say that Meiri reads the causative ימיטו ('let them tip [coals] down'). (PS.140.11: table 'יִמּ֥וֹטוּ (Q(K)) … HVNi3mp'; Meiri 'ימיטו כמו ינטו'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "'madchefot' (H4073) is a hapax; STEPBible 'blows', KJV 'to overthrow him', BBE 'blow on blow', YLT 'overflowing'. I render 'to thrusts', a literal plural of the root dachaf (push, hurry). The gloss is mine and is flagged for the reviewer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Say 'this line' and 'as is the rendering here' instead. (PS.140.12 commentary: 'The last line of the window completes the circle'; 'are guesses, as is mine'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:15+00:00",
+   "agent_notes": [
+    "Dropped the claim that the KJV flattens the pair. The audit now names the real points: 'maintain' for the plain verb 'asah, and the supplied 'and'. The parallelism din/mishpat and 'ani/evyonim is intact in the KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[should_fix] Drop the claim that the KJV flattens the pair. If the KJV needs an audit here, the real points are 'maintain' for the plain verb יַעֲשֶׂה ('do') and the supplied 'and'. The parallelism of דִּין/מִשְׁפָּט and עָנִי/אֶבְיוֹנִים is intact in the KJV. (PS.140.13 KJV (140:12): 'maintain the cause of the afflicted, and the right of the poor'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:12:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:07:48+00:00",
+   "agent_notes": [
+    "The final אֶת־פָּנֶיךָ is written without a preposition. The usual 'dwell in your presence' is an interpretive smoothing; the literal text has the object marker or 'with', and STEPBible glosses it 'with'. In the literal layer I wrote 'with your face' and explained it in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Write 'with your face' without brackets. In the dramatic layer, let 'only' qualify the righteous ('the righteous alone') rather than the time. (PS.140.14: token 7 'אֶת … with'; Metzudat David 'הצדיקים לבד הם יודו'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:15+00:00",
+   "agent_notes": [
+    "Corrected the Habakkuk reference to 1:15 (Radak and Metzudat Zion quote 'yeguruhu bechermo', which stands in Hab 1:15) in both the commentary and the note on yaguru."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[should_fix] Change 'Hab 1:9' to 'Hab 1:15' in both the directors_commentary and the philological note on יָגוּרוּ. (PS.140.3 Radak: 'יאספם כמו יגורהו בחרמו'; Metzudat Zion: 'כמו יגורהו בחרמו (חבקוק א)'. The phrase stands in Hab 1:15.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:12:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "'akhshuv occurs only here. Rashi glosses it 'spider' (Old French iraigne), Radak, Ibn Ezra and Metzudat Zion a kind of snake; the Targum has 'akkuvita (spider). I follow the snake reading, since it is paired with nachash and with venom, and I flag the dispute. I render it 'viper' without claiming a species.",
+    "chemat is 'venom' here, not 'heat/wrath' (Rashi on Deut 32:33 as cited). STEPBible has 'venom' for the lemma, so no gloss correction was needed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Replace the anatomical claim with Radak's reading of the spittle under the lips. (PS.140.4 Radak: 'בהתקצף האדם ומדבר בחימה תצא לו מפיו ליחה … תחת שפתיו ודמה אותו לארס'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "STEPBible takes the lamed on 'ma'gal' with yad as 'to the side of' (leyad). I keep 'at the side of a track'. 'ma'gal' is a cart-track or beaten path; the KJV's 'wayside' is acceptable."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[consider] Call פַּח a fowler's trap (or snare), not a pit-trap. (PS.140.6 Metzudat David: 'חבלי הפח העשויים לסגור פי הפח'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:12:15+00:00",
+   "agent_notes": [
+    "Rewrote the pointing sentence: the Masoretic pointing of YHWH here is the vowels of Elohim, so the reader says 'Elohim Adonai' (Targum 'Elohim YY', Meiri 'atah ha-Elohim YHWH'); the KJV's 'O God the Lord' renders that reading, it does not reverse the order. STEPBible's gloss 'O Yahweh' for token 1 is left as the written form; the note on the token says what is read."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": "[should_fix] Rewrite the sentence on the pointing: יְהֹוִה is pointed with the vowels of Elohim, so the reader says 'Elohim Adonai' (as the Targum's אֱלֹהִים יְיָ and Meiri show), and the KJV's 'O GOD the Lord' renders that reading rather than reversing the order. (PS.140.8: Hebrew יְהֹוִ֣ה אֲ֭דֹנָי (Strong's H3069, the Elohim-pointed form); Targum 'אֱלֹהִים יְיָ'; Meiri 'אתה האלהים ה׳'; KJV 'O God the Lord'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:12:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.140.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:08:09+00:00",
+   "agent_notes": [
+    "'zemamo' occurs only here. The sense 'his plot' follows Rashi and Metzudat Zion; the Rabbinic reading 'muzzle' (Rashi citing Genesis Rabbah) is noted in the commentary as an alternative. 'yarumu' is read as 'they would rise/exalt themselves', with the preceding 'al taphek' (do not bring forth); the YLT splits the clause differently, and the KJV 'lest' is an interpretive addition.",
+    "Targum and Rashi name Doeg and Amalek in this verse; I cite them in the notes only where the packet supplies the text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:10:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.140.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод, в отличие от KJV, считает надписание стихом 1 («Начальнику хора. Псалом Давида.»), так что нумерация стихов совпадает с еврейской; отличается только номер псалма (139). Комментарий исправлен."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Rewrite the last sentence: the Synodal, unlike the KJV, counts the superscription as verse 1 («Начальнику хора. Псалом Давида.»), so its verse numbers match the Hebrew; only the psalm number differs (139). Correct the reviewer note as well. (Synodal Пс 139:1 «Начальнику хора. Псалом Давида.», 139:2 «Избавь меня, Господи…»; reviewer note on verse.ru:PS.140.13: «В Синодальном переводе это Пс 139:13».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6dd0744e25a1"
+  },
+  "verse.ru:PS.140.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Quote it as «Да покроет головы окружающих меня зло собственных уст их» (it reads רֹאשׁ as plural 'heads', worth a word), or drop the sentence. (Synodal Пс 139:10: «Да покроет головы окружающих меня зло собственных уст их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fade18a6555"
+  },
+  "verse.ru:PS.140.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly and say that, like the KJV, it turns יַפִּלֵם into a passive («да будут они повержены») and so hides the agent; remove the claim about «Он». (Synodal Пс 139:11: «Да падут на них горящие угли; да будут они повержены в огонь, в пропасти, так, чтобы не встали».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2030fd8de51c"
+  },
+  "verse.ru:PS.140.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [
+    "В буквальном слое и в глоссе 8 «зло» стоит в именительном падеже как подлежащее; Синодальное «зло увлечет притеснителя в погибель» тоже делает зло подлежащим. Прежняя заметка о Синодальном исправлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] In translation_literal and token_glosses pos 8, write the nominative «зло» so evil is the subject: «муж насилия — зло пусть гонит его к толчкам» (or «…, зло — пусть гонит его к толчкам»). (PS.140.12: אִישׁ־חָמָס רָע יְצוּדֶנּוּ (token 8 רָע, HAamsa 'evil'; token 9 'let it hunt him'); English literal 'a man of violence, evil, let it hunt him to thrusts'; the Russian dramatic layer itself has «пусть … выследит само зло».) [should_fix] Quote the Synodal exactly («зло увлечет притеснителя в погибель»), which also has evil as the subject, or drop the sentence. Correct the reviewer note too. (Synodal Пс 139:12: «Человек злоязычный не утвердится на земле; зло увлечет притеснителя в погибель». The packet's RusSynodal section for PS.140 is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b9b29b66b13c"
+  },
+  "verse.ru:PS.140.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:12:28+00:00",
+   "agent_notes": [
+    "В Синодальном переводе это Пс 139:13: «сделает суд угнетённым и справедливость бедным». Буквальный слой следует ивриту (עָנִי в ед. числе, אֶבְיֹנִים во мн.), а не Синодальному."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[consider] Quote «сотворит суд угнетённым и справедливость бедным». (Synodal Пс 139:13: «Знаю, что Господь сотворит суд угнетенным и справедливость бедным».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59be762e3137"
+  },
+  "verse.ru:PS.140.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:12:28+00:00",
+   "agent_notes": [
+    "Ивритское אֶת־פָּנֶיךָ после «сидеть» передано буквально «с лицом Твоим»; Синодальный сглаживает до «пред лицем Твоим», так же поступает драматический слой. Для אַךְ выбрано «только» в буквальном слое и «Так!» в Синодальном духе отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c48538ad2a72"
+  },
+  "verse.ru:PS.140.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "00e0cd80cbb4"
+  },
+  "verse.ru:PS.140.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[consider] Quote «всякий день ополчаются на брань». (Synodal Пс 139:3: «которые злое мыслят в сердце, всякий день ополчаются на брань».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "795a0f02e142"
+  },
+  "verse.ru:PS.140.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Replace the last sentence with something like «Синодальное „яд аспида под устами их“, как и KJV, выбирает змею», or drop it. (Synodal Пс 139:4: «изощряют язык свой, как змея; яд аспида под устами их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7db8e58fe176"
+  },
+  "verse.ru:PS.140.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "60e9939915fa"
+  },
+  "verse.ru:PS.140.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно; «по дороге» теряет колею регулярного пути (маагал), об этом сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly and drop the claim that it mixes up the names; if anything, say that it keeps four terms and renders מַעְגָּל as «по дороге», which loses the rut of a regular path. (Synodal Пс 139:6: «Гордые скрыли силки для меня и петли, раскинули сеть по дороге, тенета поставили для меня»; Hebrew פַּח … חֲבָלִים … רֶשֶׁת … מֹקְשִׁים.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d18aa123cd6"
+  },
+  "verse.ru:PS.140.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Quote it as «услышь, Господи, голос молений моих» and say that the Synodal, like the KJV ('hear'), does not keep the image of the ear in הַאֲזִינָה. (Synodal Пс 139:7: «Я сказал Господу: Ты Бог мой; услышь, Господи, голос молений моих!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b7d45cd7b20f"
+  },
+  "verse.ru:PS.140.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [
+    "В цитате Синодального «крепость» заменено на «сила» (Пс 139:8); в собственном переводе «крепость спасения» оставлено как перевод עֹז."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Change «крепость» to «сила» inside the Synodal quotation; the rest of the sentence (the doubled name, «брань» as a gloss of נָשֶׁק) can stay. (Synodal Пс 139:8: «Господи, Господи, сила спасения моего! Ты покрыл голову мою в день брани».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "34cfd4f5249a"
+  },
+  "verse.ru:PS.140.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:16:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:15:00+00:00",
+     "note": "[should_fix] Quote it as «не дай успеха злому умыслу его: они возгордятся». The point that the Synodal adds no 'lest' still stands. (Synodal Пс 139:9: «Не дай, Господи, желаемого нечестивому; не дай успеха злому умыслу его: они возгордятся».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:17:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c03cf404a277"
+  }
+ },
+ "notes": []
+}

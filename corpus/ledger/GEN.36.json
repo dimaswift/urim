@@ -1,6 +1,63 @@
 {
  "chapter_ref": "GEN.36",
  "items": {
+  "component.ru:comp.esau.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "372dfa326a87"
+  },
+  "component.ru:comp.esau.wealth.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "770dd44f7456"
+  },
+  "component.ru:comp.esau.wife_oholibamah.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "62fc6a579a25"
+  },
   "component:comp.esau.dwelling.1": {
    "status": "approved",
    "produced_by": {
@@ -59,6 +116,179 @@
     }
    ],
    "source": null
+  },
+  "edge.ru:edge.gen_36.adah_bears_eliphaz": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "720e71d5c4f3"
+  },
+  "edge.ru:edge.gen_36.esau_leaves_jacob": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35e37c672587"
+  },
+  "edge.ru:edge.gen_36.esau_marries_adah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0356b3ef1416"
+  },
+  "edge.ru:edge.gen_36.esau_marries_mahalath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "В Быт 36:3 Синодальный называет жену Васемафой, а в Быт 28:9 она Махалафа. В корпусе уже стоят «Махалафа (Басемат)» и «Васемафа» для person.adah; здесь использовано Васемафа, как в Быт 36, с пометой «(Махалафа)». Стоит свести эти имена при проверке корпуса."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": "[consider] No change here; the identity question of Esau's wives belongs to the ontology layer (person.adah's canonical name), and the user may want to settle it there. (GEN.36.2-3: «Аду, дочь Елона Хеттеянина … и Васемафу, дочь Измаилову»; GEN.26.34: «Васемафу, дочь Елона Хеттеянина».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a1f409db6e2"
+  },
+  "edge.ru:edge.gen_36.esau_marries_oholibamah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "07f04b134eff"
+  },
+  "edge.ru:edge.gen_36.mahalath_bears_reuel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa91b4f0aef0"
+  },
+  "edge.ru:edge.gen_36.oholibamah_bears_jalam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c71132b4d1c7"
+  },
+  "edge.ru:edge.gen_36.oholibamah_bears_jeush": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cb11a684661a"
+  },
+  "edge.ru:edge.gen_36.oholibamah_bears_korah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "62300a673c09"
   },
   "edge:edge.gen_36.adah_bears_eliphaz": {
    "status": "approved",
@@ -231,6 +461,164 @@
    ],
    "source": null
   },
+  "entity.ru:person.anah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b16bfb3b2756"
+  },
+  "entity.ru:person.eliphaz": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ed8ba61e345"
+  },
+  "entity.ru:person.jalam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "Синодальный: Иеглом (Jalam), Иеус (Jeush), Корей (Korah). Корея из Быт 36 не следует путать с Кореем из Числ 16, в тексте это сохранено в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": "[consider] On a later pass, drop «Иеелом» or replace it with a form a Russian Bible actually uses. (GEN.36.5: «Оливема родила Иеуса, Иеглома и Корея» (Synodal); 1 Chr 1:35 Synodal «Иеуш, Иеглом и Корей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1ee3055d84e4"
+  },
+  "entity.ru:person.jeush": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": "[consider] On a later pass, consider «Иеуш» as the alias, the variant a Russian reader will meet. (GEN.36.5: «Иеуса»; 1 Chr 1:35 Synodal: «Иеуш».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fd9be413cac6"
+  },
+  "entity.ru:person.korah.gen_36_5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59669caa984a"
+  },
+  "entity.ru:person.oholibamah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "Имя по Синодальному переводу: Оливема (в английском Oholibamah). Каноническое имя и в событиях, и в связях одно и то же."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c42acc2332e1"
+  },
+  "entity.ru:person.reuel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "Синодальный: Рагуил (в Исх 2:18 и Числ 10:29 тот же корень, там Рагуил/Реуил у Мадианитянина). Принята форма Рагуил, как в Быт 36."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f640974dd95"
+  },
+  "entity.ru:person.zibeon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "395027800c4b"
+  },
   "entity:person.anah": {
    "status": "approved",
    "produced_by": {
@@ -388,6 +776,86 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_36.esau_marries_ishmaels_daughter": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9177de4cc084"
+  },
+  "event.ru:evt.gen_36.esau_moves_to_seir": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "Сеир: «гора Сеир» в Синодальном, в тексте события передано как «нагорье Сеир» из-за английского hill country, но имя локации в корпусе остаётся «Сеир (гора Сеир)»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": "[consider] No change to the text is needed; on a later pass, make the note match it. (GEN.36.8: «И поселился Исав на горе Сеир; Исав, он же Едом» (Synodal).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df4e491cfbfa"
+  },
+  "event.ru:evt.gen_36.esau_takes_canaanite_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [
+    "Ада и Оливема: Синодальный в Быт 36:2 называет Ану сыном Цивеона, а не дочерью, как в английском («daughter of Anah, daughter of Zibeon»). Перевод следует английскому тексту корпуса, где Ана и Оливема названы как в еврейском тексте."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bab2672e46a3"
+  },
+  "event.ru:evt.gen_36.sons_born_in_canaan": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T22:20:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T22:21:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "680a99ce5e81"
   },
   "event:evt.gen_36.esau_marries_ishmaels_daughter": {
    "status": "approved",

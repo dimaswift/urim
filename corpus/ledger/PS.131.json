@@ -1,0 +1,159 @@
+{
+ "chapter_ref": "PS.131",
+ "items": {
+  "verse.en:PS.131.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:54:41+00:00",
+   "agent_notes": [
+    "The superscription 'Song of the Ascents, of David' is verse 1 in the Hebrew numbering (KJV 131:0 plus 131:1); I translated it as part of the verse. I followed the Hebrew as given.",
+    "Rashi (Ps 131:1) links 'great things' to the buildings and plantings of his son; the packet quotes it but it is a midrashic reading, so I mention it only as a reading, not as the sense of the text. Ibn Ezra and Radak both take 'walked' as intransitive ('went about', not 'pursued'), which is why the literal layer reads 'walked in'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:55:54+00:00",
+     "note": "[consider] Present the pilgrim setting as one reading beside Radak's exile reading, and either drop Malbim from the nifla'ot note or attribute only the quantity/quality distinction to him. (PS.131.1 Radak: \"באלה המעלות שהם על הגלות\"; Malbim: \"גדולות מצד הכמות, ונפלאות מצד האיכות\") [consider] Keep the image to the raised, haughty gaze, or keep it knowing it follows Meiri. (PS.131.1: \"וְלֹא־רָמוּ עֵינַי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.131.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:58:28+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary no longer says Malbim and Ibn Ezra read the doubling as intensity. It now cites Ibn Ezra (the sense is doubled) and Metzudat David (the repetition expresses persistence), and states Malbim's own reading separately: the first verb goes with 'like a weaned child upon his mother' (trust in God alone), the second with 'like a weaned child upon me' (the soul silent like the child, knowing it has no strength of its own). The line 'the soul becomes the mother' is removed; the mother is God, as Malbim says.",
+    "Gloss corrected against STEPBible: pos 6 and 9 'gamul' is a passive participle ('weaned one'), not a verb; pos 1-2 'im lo' is glossed as the oath formula 'surely [if I have] not', following Radak, Meiri and Metzudat David. The Hebrew has no completed oath, so the literal layer keeps the bare 'if not' and the dramatic layer renders it as an assertion.",
+    "Judgment call on 'alai' (pos 10): the five English versions split (KJV 'even as', YLT 'by me', ASV 'within me', BBE drops it). I keep the literal 'upon me' in layer 1 and 'within me' in the dramatic layer, following Rashi ('in my inner part'), Metzudat David ('in my inside') and Ibn Ezra ('like in my eyes'). Unsourced: that the verb shiviti means 'I have levelled' is my reading of the root, supported by Ibn Ezra's gloss 'I have set'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:55:54+00:00",
+     "note": "[should_fix] In the directors_commentary replace 'Malbim and Ibn Ezra feel the doubling as intensity' with Ibn Ezra and Metzudat David (who says the repetition expresses persistence); if Malbim is kept, state his actual reading (each verb takes one of the two similes). (PS.131.2 Malbim: \"ומפרש שויתי נפשי כגמול עלי אמו, ודוממתי כגמול עלי נפשי\"; Metzudat David: \"וכפל הדבר להתמדתו\"; Ibn Ezra: \"הטעם כפול\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:57:46+00:00",
+     "note": "[should_fix] In the directors_commentary of PS.131.2, replace 'so that the soul becomes the mother who carries it' with Malbim's own reading: the second simile says the soul is silent like a weaned child that knows it has no strength of its own, and the mother it leans on is God (as verse 3's commentary says). (PS.131.2 Malbim: \"ודוממתי כגמול עלי נפשי, ר\"ל שנפשי דוממת כגמול הדומם ... ומבאר מי היא האם\"; \"שבטחתי רק על ה'\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:15+00:00",
+     "note": "[consider] Mention that Rashi reads gamul as a nursing child (so the BBE has a precedent), and mark the 'two or three years' as a general estimate rather than a sourced fact. (PS.131.2 Rashi: \"גָּמֻל. יוֹנֵק שָׁדַיִם\"; \"כְּיוֹנֵק שְׁדֵי אִמּוֹ\") [consider] Add a short note that Ibn Ezra and Metzudat Zion allow 'I have likened' for vedomamti. (PS.131.2 Metzudat Zion: \"ודוממתי. מל׳ דמיון\"; Ibn Ezra: \"מגזרת דומם או מן דמיון\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.131.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:54:41+00:00",
+   "agent_notes": [
+    "Verse 3 turns from the individual to the community, and may be a later liturgical addition for the pilgrim use of the Ascents. That is my own reading, not a sourced claim. Malbim and Metzudat David read it as Israel imitating David's stance."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:55:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.131.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:01:17+00:00",
+   "agent_notes": [
+    "Синодальную цитату исправил: «и я не входил в великое и для меня недосягаемое». Синодальный сохраняет глагол движения (входить), близкий к halakh, и замечание об этом оставлено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:00:26+00:00",
+     "note": "[should_fix] Correct the quote to «и я не входил в великое и для меня недосягаемое» and say that the Synodal keeps a verb of motion (входить) close to halakh, or drop the Synodal sentence altogether. (PS.131.1 (Synodal Пс 130:1): \"не надмевалось сердце мое и не возносились очи мои, и я не входил в великое и для меня недосягаемое\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:01:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e78d6e36ece"
+  },
+  "verse.ru:PS.131.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:01:17+00:00",
+   "agent_notes": [
+    "В буквальном слое «и утишил» вместо «умолкить заставил», без второго «не»: оборот ʾim loʾ — начало клятвы, одно отрицание. Синодальный превращает клятву в риторический вопрос; это сказано в комментарии, цитата дана точно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:00:26+00:00",
+     "note": "[should_fix] Replace «умолкить заставил» with a real verb of silencing, e.g. «и утишил» or «и заставил умолкнуть», in both the literal layer and gloss pos 4, and drop the added second «не»: «Если не уравнял я и утишил душу мою…». (PS.131.2: \"אִם־לֹא שִׁוִּיתִי וְדוֹמַמְתִּי נַפְשִׁי\"; English literal 'If not I have levelled and I have silenced my soul') [should_fix] Either quote the Synodal exactly and say it turns the oath into a rhetorical question («Не смирял ли я и не успокаивал ли души моей…?»), or drop the two Synodal remarks; fix the closing parenthesis to «душа моя была во мне» or remove it. (PS.131.2 (Synodal Пс 130:2): \"Не смирял ли я и не успокаивал ли души моей, как дитяти, отнятого от груди матери? душа моя была во мне, как дитя, отнятое от груди\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:01:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3e5f640f7880"
+  },
+  "verse.ru:PS.131.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:59:03+00:00",
+   "agent_notes": [
+    "«Ждать» для yachal выбрано вместо Синодального «уповать»: комментарий объясняет напряжённое ожидание, а «уповай» остаётся привычным церковнославянским эквивалентом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:26+00:00",
+     "note": "[consider] Consider glossing pos 3 as «к» (or «на») without brackets, and «Жди, Израиль, YHWH» → «Жди, Израиль, к YHWH» or keep the accusative and say so in a note. (PS.131.3: \"יַחֵל יִשְׂרָאֵל אֶל־יְהוָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c28e17ab6f89"
+  }
+ },
+ "notes": []
+}

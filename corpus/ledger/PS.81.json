@@ -403,6 +403,401 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.81.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "Исправлено «Псалмов 8 и 83» на «8 и 84» (еврейская нумерация, как в примечании)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Change «Псалмов 8 и 83» in the commentary to «Псалмов 8 и 84», matching the note and the Hebrew numbering used across the chapter. (English commentary: \"also in the headings of Psalms 8 and 84\"; ru note: \"в надписях Псалмов 8 и 84\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "abdcbd9db172"
+  },
+  "verse.ru:PS.81.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[consider] Consider «Да не будет у тебя бога чужого. Не поклоняйся богу иноземному» and «Ваал и Ашера». (PS.81.10: \"לֹא־יִהְיֶה בְךָ אֵל זָר\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bb8ce1d7bcbc"
+  },
+  "verse.ru:PS.81.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [
+    "В буквальном слое имя YHWH сохранено, в драматическом — «Господь» по Синодальному переводу."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eabb2e7b9d64"
+  },
+  "verse.ru:PS.81.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[consider] Consider «и Израиль не захотел меня» or «не был согласен со мной». (PS.81.12: \"וְיִשְׂרָאֵל לֹא־אָבָה לִי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a3f9ef36b2c"
+  },
+  "verse.ru:PS.81.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:36+00:00",
+   "agent_notes": [
+    "Раши: в примечании добавлено «слова» и дана форма «подстерегающие меня» (שׁוֹרְרָי, Пс 5:9), как просил рецензент; в Синодальном Пс 5:9 это «подстерегающих меня»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Write «с корнем слова «подстерегающие меня» (שׁוֹרְרָי, Пс 5:9) в смысле «того, что видит сердце»». (English note: \"Rashi connects it with the root of 'my watchers' (Ps 5:9) in the sense of 'what the heart sees'\"; Ps 5:9: \"שׁוֹרְרָי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e078b3b74adb"
+  },
+  "verse.ru:PS.81.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:32:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "462f7888c502"
+  },
+  "verse.ru:PS.81.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:32:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b9023a0cbaa6"
+  },
+  "verse.ru:PS.81.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:36+00:00",
+   "agent_notes": [
+    "Глагол יכחשו передан через ложную покорность («лживо покорялись бы ему») в буквальном слое и в глоссе 3, как просил рецензент. В комментарии цитата Синодального исправлена по тексту Пс 80:16: «раболепствовали бы Ему, и такое состояние их продолжалось бы вечно»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Render the verb with a word for false submission, for example «лживо покорялись бы ему» or «льстиво кланялись бы ему», in the literal layer and in gloss 3. (PS.81.16: \"מְשַׂנְאֵי יְהוָה יְכַחֲשׁוּ־לוֹ\"; English literal: \"Haters of YHWH would cringe to him\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "039fa02156c1"
+  },
+  "verse.ru:PS.81.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:32:48+00:00",
+   "agent_notes": [
+    "Смена лица («накормил бы его» → «насытил бы тебя») сохранена в литеральном слое. Нумерация стихов в Синодальном сдвинута на один (Пс 80:13–17); ссылки в заметках даны по ивритской нумерации."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[consider] Quote the Synodal only where the wording is certain, or drop the added Synodal sentences, which the English does not have. (PS.81.17: \"וַיַּאֲכִילֵהוּ … אַשְׂבִּיעֶךָ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d705e54b419c"
+  },
+  "verse.ru:PS.81.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "Убрано предложение о Синодальном переводе, где цитата была неверна и говорилось о причастии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Delete the last sentence of the commentary, or quote the Synodal correctly («Радостно пойте Богу, твердыне нашей; восклицайте Богу Иакова») and drop the claim about a participle. (PS.81.2: \"לֵאלֹהִים עוּזֵּנוּ\"; Synodal Пс 80:2: \"Радостно пойте Богу, твердыне нашей; восклицайте Богу Иакова\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d7746a57687c"
+  },
+  "verse.ru:PS.81.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "Синодальную цитату заменил точной: «дайте тимпан»; сказано только, что «дайте» сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Delete the Synodal sentence, or quote it correctly and say only that the Synodal keeps «дайте» (closer to the Hebrew than the KJV's 'bring hither'). (PS.81.3: \"וּתְנוּ־תֹף כִּנּוֹר נָעִים\"; Synodal Пс 80:3: \"возьмите псалом, дайте тимпан, сладкозвучные гусли с псалтирью\"; English: \"the KJV smooths it into 'bring hither the timbrel', which invents an errand\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1b8eee029b17"
+  },
+  "verse.ru:PS.81.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [
+    "בַּכֵּסֶה: в дословном слое «при покрытии» (как в английском), в драматическом — «в полнолуние»; Синодальный даёт «в назначенное время». Оба прочтения названы в комментарии и заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eed94e68587d"
+  },
+  "verse.ru:PS.81.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "511800b848e3"
+  },
+  "verse.ru:PS.81.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "Ссылка дана по еврейской нумерации, «Псалме 77:16», как в английском тексте."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Write «как в Псалме 77:16» (Hebrew numbering, as the English has), or add «(Синодальный 76:16)» after it. (English commentary: \"Joseph standing for all Israel, as in Psalm 77:16\"; Hebrew Ps 77:16: \"בְּנֵי־יַעֲקֹב וְיוֹסֵף\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": "[consider] Check the quotation against the Synodal Ps 80:6 and correct it, or drop the Synodal sentence. (PS.81.6: \"שְׂפַת לֹא־יָדַעְתִּי אֶשְׁמָע\"; ru commentary: «Синодальный перевод («он дал это во свидетельство Иосифу… Там услышал я язык…») выбирает «против земли» и тоже вводит «там»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df0acc4b4cc5"
+  },
+  "verse.ru:PS.81.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:44+00:00",
+   "agent_notes": [
+    "דּוּד: выбрано «корзина» вслед за английским слоем; Синодальный даёт «корзина» (80:7), так что выбор с ним совпадает. «Горшки» — другое древнее прочтение, оно сохранено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8f6b602536d"
+  },
+  "verse.ru:PS.81.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "Везде «Меривы», как в Синодальном; синодальная цитата исправлена («из среды грома»); ссылка на Псалом 42:7 дана по еврейской нумерации."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] Use «Меривы» in the literal and dramatic layers and in gloss 10. Quote the Synodal correctly («из среды грома») or drop the quotation, and fix the localizer note to match. Cite «Псалме 42:7» (Hebrew numbering, as in the English). (PS.81.8: \"עַל־מֵי מְרִיבָה\"; Synodal Пс 80:8: \"из среды грома услышал тебя, при водах Меривы испытал тебя\"; English commentary: \"like אזכרך in Psalm 42:7\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b962e1405279"
+  },
+  "verse.ru:PS.81.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:07+00:00",
+   "agent_notes": [
+    "В буквальном слое условие оставлено открытым («если послушаешь меня»); в драматическом сохранено «о, если бы»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:36:38+00:00",
+     "note": "[should_fix] In the literal layer write «Израиль, если послушаешь меня» (or «если ты будешь слушать меня»), and make gloss 7 «послушаешь». Keep «о, если бы» in the dramatic layer. (PS.81.9: \"אִם־תִּשְׁמַע־לִי\"; Radak: \"שאם תשמע אלי ולא יהיה בך אל זר\"; English ledger note: \"the literal layer leaves the clause open\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:38:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c74c8fdd93c2"
   }
  },
  "notes": []

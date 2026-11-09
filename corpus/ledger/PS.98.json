@@ -204,6 +204,207 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.98.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:06:50+00:00",
+   "agent_notes": [
+    "Синодальный перевод Пс 97:1 («Его десница и святая мышца Его доставили Ему победу») говорит о победе, а не о спасении, как и KJV; в комментарии это сказано прямо. В буквальном слое hoshi'ah передано как «спасла», в соответствии с древнееврейским."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[should_fix] Replace the Synodal sentence in the commentary with: «Синодальный перевод („Его десница и святая мышца Его доставили Ему победу“), как и KJV, говорит о победе, а не о спасении». Delete the reviewer note's claim that the Synodal has «спасла». (PS.98.1: הוֹשִֽׁיעָה־לּ֥וֹ יְ֝מִינ֗וֹ; Синодальный Пс 97:1: «Его десница и святая мышца Его доставили Ему победу»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e3fa5f143ae"
+  },
+  "verse.ru:PS.98.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[consider] Quote the Synodal as «пред очами народов». (PS.98.2: לְעֵינֵי הַגּוֹיִם; Синодальный Пс 97:2: «открыл пред очами народов правду Свою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4754979a93c"
+  },
+  "verse.ru:PS.98.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:06:50+00:00",
+   "agent_notes": [
+    "Хесед передан как «верность завета», а не «милость»; в буквальном слое «верность» повторяется (хесед и эмуна), что отражает два разных слова. В комментарии Синодальный приведён как «милость» и «истина»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[should_fix] In translation_literal write «Вспомнил он верность завета своего и верность свою к дому Израилеву» (or another rendering of hesed as covenant loyalty that is not «милость»), and change gloss pos 2 to «верность завета его». (PS.98.3: זָכַר חַסְדּוֹ וֶאֱמוּנָתוֹ; English literal: \"He has remembered his covenant-loyalty and his faithfulness\"; ru note on חַסְדּוֹ: «не „милость“ (KJV)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2c7ab3dd416"
+  },
+  "verse.ru:PS.98.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:06:50+00:00",
+   "agent_notes": [
+    "В примечании к הָרִיעוּ — «пред царём» (ср. Пс 98:6). Синодальный Пс 97:4 в комментарии процитирован по замечанию рецензента: «Восклицайте Господу»; стоит сверить с текстом Синодального издания."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[should_fix] In the הָרִיעוּ note write «пред царём»; in the commentary quote the Synodal as «Восклицайте Господу». (PS.98.6: הָרִיעוּ לִפְנֵי הַמֶּלֶךְ; English note: \"set 'before the king'\"; Синодальный Пс 97:4: «Восклицайте Господу, вся земля»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9db3efaf0f41"
+  },
+  "verse.ru:PS.98.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [
+    "כִּנּוֹר — «кинор» в комментарии и «лира» в переводе; Синодальный пишет «гусли», и это отмечено в заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[consider] Correct the quotation to «с гуслями, с гуслями и с гласом псалмопения». (Синодальный Пс 97:5: «пойте Господу с гуслями, с гуслями и с гласом псалмопения»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0800d52a11a3"
+  },
+  "verse.ru:PS.98.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [
+    "שׁוֹפָר — «шофар» / «рог»; Синодальный: «звук рога». Хацоцера — «труба»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[consider] Correct the quotation to «при звуке труб и рога». (Синодальный Пс 97:6: «при звуке труб и рога торжествуйте пред Царем Господом»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ddd36592fb3"
+  },
+  "verse.ru:PS.98.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c78be2905d8"
+  },
+  "verse.ru:PS.98.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": "[consider] Correct the quotation to «да рукоплещут реки, да ликуют вместе горы». (Синодальный Пс 97:8: «да рукоплещут реки, да ликуют вместе горы»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "17ee1575a9b9"
+  },
+  "verse.ru:PS.98.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:05+00:00",
+   "agent_notes": [
+    "Двусмысленное בָא передано причастием («идёт»), как в английском и в Синодальном («Он идёт судить землю»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a51b8351ad2a"
   }
  },
  "notes": []

@@ -1,0 +1,250 @@
+{
+ "chapter_ref": "PS.125",
+ "items": {
+  "verse.en:PS.125.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:46:01+00:00",
+   "agent_notes": [
+    "The superscription is counted as part of verse 1 in the Hebrew (KJV 125:0 and 125:1), so the word table opens with 'song of the ascents'. I translated it in the literal layer and let the dramatic layer carry it as a spoken heading.",
+    "STEPBible glosses 'yishev' as 'it will remain'. I kept 'sits/dwells' in the literal layer because the root yashav is the ordinary verb 'to sit, dwell', and the contrast with the shaken mountain depends on it. The English versions all say 'abideth'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:45:14+00:00",
+     "note": "[should_fix] Remove 'BDB on mot' from the yimmot note's sources (leave sources empty or cite a packet commentary that supports the gloss, e.g. Metzudat David 'לא ינטה ממקומו'). (PS.125.1: packet commentaries are Rashi, Ibn Ezra, Radak, Meiri, Metzudat David, Malbim and the Targum; no lexicon entry is given)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:46:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.125.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:44:00+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:45:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.125.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:44:00+00:00",
+   "agent_notes": [
+    "'Lot' (goral) and 'sceptre' (shevet) are given as the literal words. Both can be read as land, since lots divided the territory. I did not cite sources beyond the packet commentaries, and Metzudat Zion's note on shevet and goral is quoted by name only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:45:14+00:00",
+     "note": "[consider] Either drop the added sentence or keep the subject impersonal ('it will not be let to lie there'). (PS.125.3: כִּי לֹא יָנוּחַ שֵׁבֶט הָרֶשַׁע)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.125.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:46:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:45:14+00:00",
+     "note": "[should_fix] In the commentary and the heitivah note, replace 'built on the same root' / 'shares its root' with 'a related root (yatav / tov)' or 'a sound-play on the word for good', keeping the 'do-good to the good' point. (PS.125.4: pos 1 הֵיטִיבָה lemma יָטַב H3190; pos 3 לַטּוֹבִים lemma טוֹב H2896)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:46:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.125.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:46:01+00:00",
+   "agent_notes": [
+    "STEPBible glosses 'et' as 'with'. Here it is the preposition 'et' (with), not the object marker, so I glossed it 'with' and not [obj]. The Hebrew 'et' after hālak (hiphil) is read as 'with' by Ibn Ezra and most translators, which gives 'lead them away with the workers of iniquity'.",
+    "The sentence 'peace upon Israel' has no verb in the Hebrew. It can be a wish or a statement. I chose a wish in the dramatic layer and left the literal layer verbless, so both readings stay open. The five English versions split between 'shall be' (KJV, Webster) and a plain or optative reading (YLT, BBE)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:45:14+00:00",
+     "note": "[should_fix] Delete the sentence claiming the KJV softens the preposition; if you keep a remark on 'et', say that the KJV, like this translation, reads it as 'with' (sharing the evildoers' fate), not as the object marker. (PS.125.5: Hebrew 'et po'alei ha'aven', glossed 'with the doers of'; KJV: \"the Lord shall lead them forth with the workers of iniquity\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:46:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.125.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:56:24+00:00",
+   "agent_notes": [
+    "Комментарий теперь цитирует Синодальный дословно: «не подвигнется: пребывает вовек». Замечание о том, что в нём, как и в еврейском, нет «не может» и сохранён настоящий «пребывает», оставлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:55:36+00:00",
+     "note": "[should_fix] In the commentary, quote the Synodal exactly: «не подвигнется: пребывает вовек», and adjust the remark so it still holds (the Synodal, like the Hebrew, has no «не может» and keeps a present «пребывает»), or drop the sentence. (PS.125.1: לֹא־יִמּוֹט לְעוֹלָם יֵשֵׁב; RusSynodal Пс. 124:1 «не подвигнется: пребывает вовек»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:56:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1aba0f796127"
+  },
+  "verse.ru:PS.125.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:36+00:00",
+     "note": "[consider] Consider «Малбим приходит к тому же с другой стороны». (PS.125.2 English commentary: \"Malbim makes the same argument in the other direction\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eecb51e66fbe"
+  },
+  "verse.ru:PS.125.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:23+00:00",
+   "agent_notes": [
+    "«Жезл нечестия» и «жребий праведных» — как в Синодальном переводе; «шевет» передан «жезлом», в комментарии оставлен и смысл «скипетр власти». Синодальный (Пс. 124:3) читает глагол «не оставит», а еврейское «не будет покоиться» передано буквально в буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:36+00:00",
+     "note": "[consider] Consider «в неправде» / «на беззаконие» to keep the בְּ, and gloss pos 13 accordingly. (PS.125.3: בְּעַוְלָתָה יְדֵיהֶם, English literal \"send out their hands in injustice\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9aa66f7c9e98"
+  },
+  "verse.ru:PS.125.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a7572914be5"
+  },
+  "verse.ru:PS.125.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:56:24+00:00",
+   "agent_notes": [
+    "Цитата из Синодального исправлена на «да отведёт Господь с делающими беззаконие»; мысль о том, что 'эт читается как «с», сохранена. «О извилистых» исправлено на «об извилистых»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:55:36+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («да отведёт Господь с делающими беззаконие»); the point that it reads 'et as «с», not as an object marker, still stands. Correct «о извилистых тропах» to «об извилистых тропах». (PS.125.5: יוֹלִיכֵם יְהוָה אֶת־פֹּעֲלֵי הָאָוֶן; RusSynodal Пс. 124:5 «да отведёт Господь с делающими беззаконие»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:56:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "572bd03817ba"
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.125.3] 'Lot' (goral) and 'sceptre' (shevet) are given as the literal words. Both can be read as land, since lots divided the territory. I did not cite sources beyond the packet commentaries, and Metzudat Zion's note on shevet and goral is quoted by name only.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T15:46:01+00:00"
+  }
+ ]
+}

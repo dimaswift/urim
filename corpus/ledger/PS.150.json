@@ -1,0 +1,297 @@
+{
+ "chapter_ref": "PS.150",
+ "items": {
+  "verse.en:PS.150.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:21:19+00:00",
+   "agent_notes": [
+    "Gloss of אֵל (pos 4) corrected from STEPBible 'God' with the entity deity.yhwh: here it is the common noun 'God', parallel to יָהּ in the first colon; I keep the literal 'God' and do not flatten it to the name.",
+    "בִּרְקִיעַ עֻזּוֹ: KJV/ASV/Webster 'firmament of his power' keeps the Latin-derived 'firmament'; YLT 'expanse' is closer. Whether the possessive points to the sky as the seat of his might or to the strength he shows there is open; Ibn Ezra, Radak and Meiri read the sky/spheres, Ibn Ezra (citing Yehuda ha-Levi) the Ark. I kept both senses open in the literal layer and followed the sky in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": "[consider] Attribute the sanctuary reading to the Targum and Yehuda ha-Levi, and the heavenly reading of both cola to Radak, Meiri and Metzudat David; align the gloss of pos 5 with the literal layer. (PS.150.1: Radak \"בקדשו. הוא עולם המלאכים\"; Targum \"בְּבֵית מַקְדְשֵׁיהּ\") [consider] Keep sources to the packet's commentaries, or mark lexical points as the philologist's own. (PS.150.1: Ibn Ezra \"בקדשו השמים. וככה ברקיע עזו, כמו: ועזו בשחקים\" (nothing on the Latin or Greek))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.150.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:21:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": "[consider] Move the Radak reference to the paragraph on כְּרֹב גֻּדְלוֹ. (PS.150.2: Radak \"הללוהו כרוב גדלו. שהתגדל והתקדש בעמים על גאולתם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.150.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:23:37+00:00",
+   "agent_notes": [
+    "Per the reviewer's request, the shofar note no longer cites Radak for the shofar/trumpet distinction; the distinction is left as a lexical point with the Targum cited only for its rendering of the word. Radak is cited only for what he says: the trumpets (חצוצרות) are included in this praise.",
+    "STEPBible glosses נֵבֶל as 'lyre' and כִּנּוֹר as 'harp'; I kept 'lute' out and rendered נֵבֶל 'harp' and כִּנּוֹר 'lyre' in the glosses, since the kinnor is the better-attested lyre and the nevel a larger, jar-shaped harp or lyre. The identification of both is not certain; the five English versions split (psaltery/harp, corded instruments)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": "[should_fix] In the שׁוֹפָר note, drop Radak as a source for the shofar/trumpet distinction (keep the Targum, שופרא, or the lexical point uncited), and say in the note or the commentary that Radak counts the trumpets (חצוצרות) as included in this praise. (PS.150.3: Radak \"הללוהו בתקע שופר. ובכללו החצוצרות\" ('and the trumpets are included in it'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.150.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:23:37+00:00",
+   "agent_notes": [
+    "Per the reviewer's request, the Genesis 4:21 sentence now says Jubal is the father of all who play the lyre and the pipe, without attributing it to his brother's line.",
+    "מִנִּים is uncertain: Rashi, Metzudat Zion and Radak (who says the instrument is not known to us) do not identify it; Ibn Ezra reads it as 'many kinds, one tune'; Meiri guesses an organ. I glossed it 'strings', following the common reading (cf. Ps 45:9 [8]) and flagged it as uncertain."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": "[should_fix] Correct the sentence to: 'it appears in Genesis 4:21, where Jubal is the father of all who play the lyre and the pipe'; do not attribute it to his brother's line. (GEN.4.21: \"and his brother's name was Jubal: he was the father of all such as handle the harp and organ\" (ושם אחיו יובל הוא היה אבי כל תפש כנור ועוגב))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.150.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:21:19+00:00",
+   "agent_notes": [
+    "צִלְצְלֵי־שָׁמַע / צִלְצְלֵי תְרוּעָה: Rashi, Radak, Metzudat David take both as cymbals (the second 'sounding the teruah'); Meiri and Metzudat Zion take the second as trumpets. I render 'cymbals' for both and note the dispute in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.150.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:21:19+00:00",
+   "agent_notes": [
+    "הַנְּשָׁמָה is grammatically singular; its verb תְּהַלֵּל is the jussive-or-imperfect, 'let/shall praise'. I render 'let' in the literal layer ('let every breath praise'), a choice between a wish and a statement."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:44+00:00",
+     "note": "[consider] Write 'Radak counts thirteen praises (by my count, twelve imperatives and the jussive tehallel)'. (PS.150.1: Radak \"זה המזמור יש בו שלשה עשר הלולים רמז לשלש עשרה מדות\"; PS.150.6: \"תְּהַלֵּל יָהּ הַלְלוּ־יָהּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.150.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:28:48+00:00",
+   "agent_notes": [
+    "Буквальный слой: «Хвалите Йах!» без запятой, Йах — дополнение, не звательная форма. В комментарии Синодальное «Аллилуия» названо транслитерацией, в которой имя сохранилось лишь как -ия; фраза о «Хвалите Господа» отнесена только к KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": "[should_fix] In translation_literal write «Хвалите Йах!» (no comma), so Yah is the object, not a vocative. (PS.150.1: \"הַלְלוּ יָהּ\" (HVpv2mp + object), English \"Praise Yah!\") [should_fix] Make the sentence about the KJV only (or say the Synodal keeps it as «Аллилуия», a transliteration in which the name survives only as -ия); drop «Синодальное «Хвалите Господа»». (PS.150.1: RusSynodal \"Аллилуия. Хвалите Бога во святыне Его\"; English commentary: \"the KJV's 'Praise ye the Lord' hides both the name\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:30:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "11a2d4245a25"
+  },
+  "verse.ru:PS.150.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:26:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06f74a84ac26"
+  },
+  "verse.ru:PS.150.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:28:48+00:00",
+   "agent_notes": [
+    "Транслитерация «тека» дана кириллицей; последняя клауза драматического слоя переписана: «пока звук не станет таким же мягким и широким, каким резким был первый удар»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": "[should_fix] Write «тека» (in Cyrillic) in the commentary, and rephrase the clause, e.g. «пока звук не станет таким же мягким и широким, каким резким был первый удар». (PS.150.3: \"בְּתֵקַע שׁוֹפָר\"; English dramatic: \"until the sound is gentle and wide as the blast was sharp\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:30:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ed4973b863d7"
+  },
+  "verse.ru:PS.150.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:26:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «с тимпаном и ликами» (מָחוֹל — «лики», хороводы) и «на струнах и органе»; «орган» для עוּגָב — тот же анахронизм, что в KJV. В дословном слое выбрано «бубен», «пляска», «свирель»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a083822c8af0"
+  },
+  "verse.ru:PS.150.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:26:29+00:00",
+   "agent_notes": [
+    "צֶלְצְלֵי־שָׁמַע / תְרוּעָה: дословно «кимвалы слуха» и «кимвалы клича»; Синодальный перевод даёт «звучные» и «громогласные» — два оттенка громкости, которых в еврейском нет."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f6c621c256ca"
+  },
+  "verse.ru:PS.150.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:28:48+00:00",
+   "agent_notes": [
+    "Буквальный слой: «Хвалите Йах!» без запятой, как в стихе 1."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:27:53+00:00",
+     "note": "[should_fix] In translation_literal write «Хвалите Йах!» without the comma, matching verse 1. (PS.150.6: \"הַלְלוּ־יָהּ\" (HVpv2mp), English \"Praise Yah!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:30:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7698a3ea0e84"
+  }
+ },
+ "notes": [
+  {
+   "note": "Radak on 150:1 counts thirteen הַלְלוּ in the psalm; I count twelve imperatives plus תְּהַלֵּל in verse 6, which gives thirteen, and I use that in the commentary.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T16:21:19+00:00"
+  }
+ ]
+}

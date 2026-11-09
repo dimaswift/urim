@@ -1,0 +1,1319 @@
+{
+ "chapter_ref": "PS.109",
+ "items": {
+  "verse.en:PS.109.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [
+    "Hebrew verse 1 carries the superscription (KJV 109:0) and the first line (KJV 109:1). Translated as one verse, as the Hebrew has it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Write 'Num 30:4 [Hebrew 30:5]' here, and 'Ps 36:10 [Hebrew 36:11]' in verse 12. (PS.109.1: Metzudat Zion \"החרש יחרש (במדבר ל)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:36+00:00",
+   "agent_notes": [
+    "Corrected the note on וְדָרְשׁוּ: the anomalous short vowel (hataf qamats) sits under the dalet, not the resh (Meiri: 'הדל״ת נקראת בקמץ חטף'; Rashi: 'נָקוּד חֲטַף קָמַץ'; Radak: 'חטף')."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[should_fix] In the note on וְדָרְשׁוּ, change 'under the resh' to 'under the dalet'. (PS.109.10: Meiri \"במלת ודרשו שהדל״ת נקראת בקמץ חטף\"; Rashi \"נָקוּד חֲטַף קָמַץ\"; Radak \"ומלת ודרשו נקראת בקמ\"ץ רחב ... שהוא חטף\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:22:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [
+    "yegi'o is rendered 'his toil' in the literal layer; STEPBible has 'property', which is the sense by metonymy (the product of labor). Kept 'toil' for the Hebrew root yg' and explained in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:36+00:00",
+   "agent_notes": [
+    "The creditor's-mercy reading (a lender who stretches out the term) is now credited to Meiri alone. Malbim's reading is stated: no one repays the orphans, out of the kindness their father showed others, with kindness of their own."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[should_fix] Attribute the creditor reading to Meiri alone, and either drop Malbim or state his reading: no one repays to the orphans the kindness their father showed others. (PS.109.12: Meiri \"אל יהי לו מכל נושיו מושך חסד להאריכו\"; Malbim \"ולא ימצאו עזר ע\"י החסד שעשה אביהם לאחרים שהוא יגמול בחסד הזה לבניו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:22:12+00:00",
+     "note": "[consider] Write 'Ps 36:10 [Hebrew 36:11]' in the commentary and the note. (PS.109.12: \"מֹשֵׁךְ חָסֶד\"; Ps 36 English v.10 \"O continue thy lovingkindness\" = Hebrew 36:11 \"מְשֹׁךְ חַסְדְּךָ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [
+    "Whether vv.6-19 are the psalmist's own imprecation or the enemies' curse that he quotes (so that v.20 answers it) is disputed; the commentaries in the packet read them as his curse, Malbim as the curse his enemies laid on him turned back on them. I translated the Hebrew as it stands and did not adjudicate."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [
+    "The verbs of vv.17-19 are past-tense narrative forms (wayyiqtol), not jussives. KJV, Webster and BBE turn them into wishes ('so let it come'); ASV and YLT keep the past. I kept the past in the literal layer and the dramatic layer; Radak and Meiri read the past as a prophetic perfect for the future, which I give in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:36+00:00",
+   "agent_notes": [
+    "Corrected the Leviticus reference: the verse is 6:10 in the English numbering and 6:3 in the Hebrew; Metzudat Zion's 'ומדו בד' is the Hebrew 6:3."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[should_fix] Change 'Leviticus 6:3 (6:10 in the Hebrew)' to 'Leviticus 6:10 (6:3 in the Hebrew)'. (PS.109.18: Metzudat Zion \"כמדו. ענין מלבוש מה כמו ומדו בד (ויקרא ו׳)\" (the Hebrew Leviticus 6, where the phrase is v.3).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:22:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:36+00:00",
+   "agent_notes": [
+    "Corrected the note on וּלְמֵזַח: it is the mem of mezach that is pointed with tsere, which Meiri calls unusual ('שלא כמנהג'). Not the preposition's vowel."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[should_fix] Change the last sentence of the note to say that the mem of mezach is pointed with tsere, which Meiri calls unusual. (PS.109.19: Meiri \"ובאה המ״ם במלת ולמזח נקודה בצרי שלא כמנהג\"; Hebrew \"וּלְמֵזַח\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:22:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:36+00:00",
+   "agent_notes": [
+    "Corrected the order of the double divine name: the Hebrew reads יְהוִה אֲדֹנָי, which with the Elohim vowels is read Elohim Adonai ('God the Lord'), as the Targum (אֱלֹהִים יְיָ) and the KJV have it. The dramatic layer's 'LORD God' is kept as a natural English rendering."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[should_fix] In the commentary and in the note on יְהוִה אֲדֹנָי, change 'read as Adonai Elohim (Lord God)' to 'read as Elohim Adonai (God the Lord), as the Targum and KJV have it'. The dramatic layer's 'LORD God' can stay or follow the same order. (PS.109.21: Hebrew \"וְאַתָּה יְהוִה אֲדֹנָי\"; Targum \"וְאַתְּ אֱלֹהִים יְיָ\"; KJV \"O God the Lord\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:22:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [
+    "STEPBible glosses chalal as 'someone has pierced'; the form is a stative perfect (pointed unusually, half qamets, half patach, as Ibn Ezra, Radak and Meiri note), so I glossed it 'is pierced'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:50+00:00",
+   "agent_notes": [
+    "The preposition min in mi-shamen can mean 'from fatness' (lost fat) or 'for lack of oil/fat'; I took it as the first. The English versions agree on 'fatness' except BBE."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "The Hebrew has a participle-less imperfect 'they see me' followed directly by 'they shake': a sequence without 'when'. I kept it paratactic in the literal layer and supplied 'when' only in the dramatic layer, where the KJV and ASV also supply it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "Final -āh on 'asitāh is the 3fs suffix 'it'. Meiri reads it as a mappiq he standing for 'asita otah; I follow the plain suffix reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "'qamu vayyevoshu' is a perfect followed by a wayyiqtol, which can be a prophetic perfect or a wish. The five English versions split (KJV/ASV as jussive, YLT as plain statement, BBE as petition). Meiri on Psalm 109:28 takes the perfect as standing for the future. I rendered it as a certainty in the literal layer ('they have arisen and they are ashamed') and as a confident assertion in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Say that the pronoun is added after the verb for emphasis. (PS.109.28: \"יְקַלְלוּ־הֵמָּה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "STEPBible glosses 'soṭnay' as 'accusers'; I kept 'my accusers' but noted the root śṭn, the same as in v.4 and v.20 and in the later noun 'satan'. I corrected the gloss of 'kmʿyl' to 'like a robe' (STEPBible's 'like <the> robe' keeps the article of the vocalization, which English does not need). Radak and Meiri both note that the mem is unexpectedly without dagesh."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Align the literal layer and the glosses on one mood, or add a sentence to the commentary noting the ambiguity. (PS.109.29: \"יִלְבְּשׁוּ שׂוֹטְנַי כְּלִמָּה וְיַעֲטוּ\" (imperfects, wish or future).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "The Targum has 'among the wise' for 'rabbim', which differs from the Hebrew 'many'. I follow the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:40+00:00",
+   "agent_notes": [
+    "'mishoftei nafsho' is literally 'from the judges of his life/soul'. The KJV 'condemn' and BBE 'go after his soul' interpret; Malbim reads a literal court setting. I kept 'judges' in the literal layer and left the court reading open in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [
+    "STEPBible glosses 'va'ani tefillah' as '[am] prayer'; I kept the verbless Hebrew 'and I - prayer' in the literal layer and unpacked it in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [
+    "The speaker of vv.6-19 is disputed. Most English versions read them as David's imprecations; others (and Radak's note on the singular 'him') take them as the enemies' words quoted against David, opening after the plural 'they' of vv.2-5 and closing before v.20 ('This is the reward of my accusers'). The singular 'him' after plural enemies is the pressure point. Both literal and dramatic layers keep the verbs as jussive wishes, without choosing a speaker; the commentary mentions the option.",
+    "STEPBible tags satan as deity.satan. Here haSatan has no article and works as a common noun, 'an accuser/adversary' (cf. v.4 yistenuni, v.20, v.29, and 1 Kgs 11:14, where 'a satan' is a human rival). I glossed it 'an accuser' and kept 'Satan' out of the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Add a clause noting that Radak takes the satan as an accusing angel, while Ibn Ezra takes him as a man. (PS.109.6: Radak \"מלאך שטן יעמוד על ימינו לשטנו\"; Ibn Ezra \"והוא אדם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Drop 'found here and in Ps 40:7' (or say 'rarer than chatta't'), and drop the 'only the ASV' comparison. (PS.109.7: KJV \"let his prayer become sin\"; ASV \"be turned into sin\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.109.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:17:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:20:33+00:00",
+     "note": "[consider] Soften 'wrong' to 'narrower than' or 'a choice'. (PS.109.9: \"יִהְיוּ־בָנָיו יְתוֹמִים\"; STEPBible gloss \"children his\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.109.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [
+    "Нумерация: Синодальный перевод считает этот псалом 108-м, а стих 1 открывается заглавием «Начальнику хора»; в Библии на иврите заглавие — часть стиха 1. Комментарий переводит замечание про нумерацию KJV по существу, с оговоркой о Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[consider] Write 'в Синодальном (где это Пс 108) заглавие, как и в иврите, входит в стих 1'. (PS.109.1: \"לַמְנַצֵּחַ לְדָוִד מִזְמוֹר אֱלֹהֵי תְהִלָּתִי אַל־תֶּחֱרַשׁ\" (title and first line in one verse).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddeca0a719ee"
+  },
+  "verse.ru:PS.109.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b7b34d75a1b8"
+  },
+  "verse.ru:PS.109.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fea8946eebbf"
+  },
+  "verse.ru:PS.109.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9cb5fa36e1b"
+  },
+  "verse.ru:PS.109.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [
+    "«В другом роде» — буквально, как в еврейском (бедор ахер); Синодальный перевод пишет «в следующем роде». Комментарий объясняет, почему выбрано буквальное чтение."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e82d9042837"
+  },
+  "verse.ru:PS.109.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:39+00:00",
+   "agent_notes": [
+    "В буквальном слое, глоссах и комментарии божественное имя записано как YHWH, как в ст. 26–30 и в остальных Псалмах; в драматическом слое остаётся «Господь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] Write 'YHWH' instead of 'ЙХВХ' in the literal layer, the glosses and the commentary of v.14, as in vv.26-30 and the rest of the Russian Psalms. (PS.109.14: \"אֶל־יְהוָה\" rendered 'пред ЙХВХ'; PS.109.26: \"עָזְרֵנִי יְהוָה\" rendered 'Помоги мне, YHWH'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acadfdeba9e1"
+  },
+  "verse.ru:PS.109.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:39+00:00",
+   "agent_notes": [
+    "В буквальном слое и глоссах YHWH вместо «ЙХВХ»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] Write 'YHWH' instead of 'ЙХВХ' in the literal layer and the glosses. (PS.109.15: \"נֶגֶד־יְהוָה תָּמִיד\" rendered 'пред ЙХВХ постоянно'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8f3e53af3f7"
+  },
+  "verse.ru:PS.109.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [
+    "хесед передан в литературном слое как «верность», в буквальном — «верная доброта»; Синодальный перевод даёт «милость», комментарий отмечает, что это слишком мягко."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d804b92bca98"
+  },
+  "verse.ru:PS.109.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d9cb2b25b5b4"
+  },
+  "verse.ru:PS.109.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e298e63d706c"
+  },
+  "verse.ru:PS.109.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "594126719e96"
+  },
+  "verse.ru:PS.109.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a532a76917c7"
+  },
+  "verse.ru:PS.109.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:58+00:00",
+   "agent_notes": [
+    "В еврейском нет глагола: KJV подставляет пожелание («пусть будет»), Синодальный «Таково воздаяние» читает фразу как утверждение; в буквальном слое оставлено «Это — плата», без глагола. «Душа» (нефеш) объяснена как «жизнь, я сам»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] Render the English sense: the KJV 'let this be' supplies a wish where the Hebrew has no verb ('это есть' is equally possible); the Synodal 'Таково воздаяние' reads it as a statement. Say that 'душа' (нефеш) here means 'жизнь, я сам', instead of saying that the word misleads. (PS.109.20: \"זֹאת פְּעֻלַּת שֹׂטְנַי\" (no verb); English commentary: \"the KJV 'let this be' supplies a wish for a verb the Hebrew leaves out; it could equally read 'this is'\".) [should_fix] Write 'YHWH' instead of 'ЙХВХ' in the literal layer and the glosses. (PS.109.20: \"מֵאֵת יְהוָה\" rendered 'от ЙХВХ'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c28d4836dcdf"
+  },
+  "verse.ru:PS.109.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:58+00:00",
+   "agent_notes": [
+    "В буквальном слое и глоссах имя пишется YHWH, как в английском слое; в комментарии — тоже YHWH, еврейский термин заметки оставлен как есть."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] Write 'YHWH' instead of 'ЙХВХ' in the literal layer, the gloss and the commentary (the Hebrew term of the note stays as it is). (PS.109.21: \"וְאַתָּה יְהוִה אֲדֹנָי\" rendered 'А Ты, ЙХВХ, Адонай'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": "[consider] Quote the Synodal as «Господи, Господи» and write «в драматическом слое» instead of «в литературном слое». (PS.109.21: \"וְאַתָּה יְהוִה אֲדֹנָי\"; dramatic layer \"Но Ты, Господи, Боже мой\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b65d78f5562e"
+  },
+  "verse.ru:PS.109.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc839923ba15"
+  },
+  "verse.ru:PS.109.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b183b192cdb"
+  },
+  "verse.ru:PS.109.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:48+00:00",
+   "agent_notes": [
+    "Игра на слове шемен («елей» в ст. 18 и «тук, жир» здесь) сохранена: в обоих местах «масло/елей», в ст. 24 «жир»; полностью русский текст её не удерживает."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "25bbe3e43755"
+  },
+  "verse.ru:PS.109.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59fc83bd5d4c"
+  },
+  "verse.ru:PS.109.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [
+    "חֶסֶד передан как «верность завета» в буквальном слое и «милость» (как в Синодальном) только в комментарии; в драматическом слое — «верная любовь»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[consider] Write '«mercy» в KJV'. (PS.109.26: \"הוֹשִׁיעֵנִי כְחַסְדֶּךָ\"; KJV \"according to thy mercy\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f8281a20c64"
+  },
+  "verse.ru:PS.109.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b776f7314e2"
+  },
+  "verse.ru:PS.109.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:58+00:00",
+   "agent_notes": [
+    "Термин «ваййиктол (с вав-последовательным)» дан по замечанию рецензента; в заметке — «Перфект и за ним ваййиктол»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] In the commentary write 'перфект и за ним форма ваййиктол (с вав-последовательным)', and in the note on קָמוּ וַיֵּבֹשׁוּ write 'Перфект и за ним ваййиктол'. (PS.109.28: \"קָמוּ וַיֵּבֹשׁוּ\"; English commentary: \"is perfect plus wayyiqtol\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4127253964b5"
+  },
+  "verse.ru:PS.109.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [
+    "שׂוֹטְנַי передано как «обвиняющие меня» в литературном слое и «противники мои» в буквальном, чтобы сохранить судебный оттенок корня שטן; Синодальный перевод здесь говорит «противники мои»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ae6d3f6d1f9b"
+  },
+  "verse.ru:PS.109.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "27d269208807"
+  },
+  "verse.ru:PS.109.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "30ff090d9a83"
+  },
+  "verse.ru:PS.109.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:59+00:00",
+   "agent_notes": [
+    "«Одесную бедного» следует Синодальному переводу; в комментарии отмечено, что «судящие душу его» у Синодального совпадает с буквальным чтением, а не с «осуждающими» KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d9bbd66ecb0"
+  },
+  "verse.ru:PS.109.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [
+    "Безглагольное «и я — молитва»: в буквальном слое оставлено голое уравнение; Синодальный переводит «а я молюсь» (подставляет глагол). Об этом сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a4bfc7b3e985"
+  },
+  "verse.ru:PS.109.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef366967092a"
+  },
+  "verse.ru:PS.109.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [
+    "Синодальный перевод пишет «диавол» (в греческой традиции — как имя). Здесь «сатан» без артикля передан нарицательно: «обвинитель», как в комментарии на английском. В буквальном слое оставлено «обвинитель»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "968f6915925d"
+  },
+  "verse.ru:PS.109.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[consider] Write 'со ст. 2'. (PS.109.7: \"יֵצֵא רָשָׁע\" (commentary: 'которым с ст. 2 названы враги').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "863f0ad283ef"
+  },
+  "verse.ru:PS.109.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:39+00:00",
+   "agent_notes": [
+    "Синодальный перевод имеет «достоинство» и в Пс 108:8, и в Деян 1:20 (в славянском в Деяниях «епископство», в KJV «bishoprick»); в комментарии это сказано, а «Английские читатели» заменено на «Читатель»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": "[should_fix] Say that the Synodal uses 'достоинство' both in Ps 108:8 and in Acts 1:20 (the Slavonic has 'епископство', the KJV 'bishoprick'). Replace 'Английские читатели могут не заметить' with 'Читатель может не заметить'. (PS.109.8: \"פְּקֻדָּתוֹ יִקַּח אַחֵר\"; English commentary: \"the KJV's 'office' sits so near to 'bishoprick' in Acts\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec7cd49c8412"
+  },
+  "verse.ru:PS.109.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:25:23+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7056247b140a"
+  }
+ },
+ "notes": []
+}

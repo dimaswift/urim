@@ -150,17 +150,17 @@
    "source": null
   },
   "verse.en:PS.99.8": {
-   "status": "draft",
+   "status": "approved",
    "produced_by": {
     "model": "claude-sonnet-5-5",
     "skill": "urim-philologist@1",
     "run": "main"
    },
-   "produced_at": "2026-11-03T15:04:43+00:00",
+   "produced_at": "2026-11-09T16:33:56+00:00",
    "agent_notes": [
     "Reviewer request addressed: the commentary no longer says 'for the first time in the psalm'. It says that after the third-person narrative of vv. 6-7 the psalm returns to addressing God as 'you', as in vv. 3-4.",
     "STEPBible glosses אֵל as 'a God' and נֹשֵׂא as 'forgiving'. I kept 'forgiving' in the gloss and the dramatic layer, and used 'lifting [up sin]' in the literal layer to show the root. The five English versions split on 'inventions' (KJV, Webster), 'doings' (ASV), 'actions' (YLT) and 'wrongdoing' (BBE) for עֲלִילוֹתָם. I chose 'deeds', the neutral sense of the word, which can be bad or good depending on context.",
-    "Who 'them' and the avenged 'deeds' are is disputed. Rashi, Ibn Ezra, Radak and Metzudat David read the deeds as the sins of the people or of Moses, Aaron and Samuel; Ibn Ezra and Radak link the vengeance to Korah's party. The Hebrew does not say, and I left the referents open in the translations and gave both readings in the commentary."
+    "Who 'them' and the avenged 'deeds' are is disputed. Rashi and Metzudat David read the vengeance as falling on Moses, Aaron and Samuel; Ibn Ezra and Radak link it to Korah's party. The Hebrew does not say, and I left the referents open in the translations and gave both readings in the commentary."
    ],
    "history": [
     {
@@ -179,6 +179,18 @@
      "status": "draft",
      "at": "2026-11-03T15:05:30+00:00",
      "note": "Escalated: still disputed after the last round. [should_fix] In the third paragraph, replace 'Rashi and Ibn Ezra think of Moses and Aaron…' with 'Rashi and Metzudat David think of Moses and Aaron…'. Keep Ibn Ezra only with Radak on Korah's party, and adjust the following sentence about Metzudat David so it is not repeated. (PS.99.8 Ibn Ezra: \"ונוקם על עלילותם - בדבר השרופים והבלועים\"; Rashi: \"משה ואהרן 'שמעו נא המורים' ... שמואל על שלא הדריך בניו\"; Metzudat David: \"משה ואהרן מתו על מי מריבה ושמואל לא האריך ימים על אשר לא הדריך את בניו\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:32:45+00:00",
+     "note": "In the third paragraph of the commentary, replace 'Rashi and Ibn Ezra think of Moses and Aaron…' with 'Rashi and Metzudat David think of Moses and Aaron…'. Keep Ibn Ezra only with Radak on Korah's party, and adjust the following sentence about Metzudat David so it is not repeated. (Ibn Ezra on 99:8: 'ונוקם על עלילותם - בדבר השרופים והבלועים'; Rashi: Moses and Aaron at Meribah, Samuel for not guiding his sons; Metzudat David: 'משה ואהרן מתו על מי מריבה ושמואל לא האריך ימים על אשר לא הדריך את בניו'.)",
+     "by": "user"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:34:37+00:00",
+     "note": "[consider] Optionally write that Ibn Ezra and Radak read the vengeance as falling on Korah and his party (the burned and the swallowed) for what they did against Moses and Aaron. (PS.99.8 Radak: \"ונוקם על עלילותם. על העלילות שעשו להם קרח וכל עדתו\"; Ibn Ezra: \"בדבר השרופים והבלועים\".)",
      "by": "urim-critic@3 · claude-opus-5-5"
     }
    ],
@@ -202,6 +214,219 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.99.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:08:11+00:00",
+   "agent_notes": [
+    "Убрано выдуманное «двизжется»; теперь приведено подлинное синодальное «да колеблется земля», совпадающее с буквальным слоем."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[should_fix] Drop «а „да двизжется земля“ передаёт то же колебание старинным словом», or replace it with the Synodal's actual «да колеблется земля», which matches the literal layer. (Packet ru.PS.99.1-9: the 'RusSynodal' section is empty. Synodal Ps 98:1: «Господь царствует: да трепещут народы! Он восседает на Херувимах: да колеблется земля!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:09:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0621edeb775"
+  },
+  "verse.ru:PS.99.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:05:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[consider] Write «YHWH на Сионе велик» and gloss «велик». (PS.99.2: יְהוָה בְּצִיּוֹן גָּדוֹל — no verb.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b09872bd1742"
+  },
+  "verse.ru:PS.99.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:08:11+00:00",
+   "agent_notes": [
+    "В буквальном слое глагол «благодарят» (как в глоссе 1); в драматическом оставлено «славят»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[should_fix] In the literal layer use the thanks verb, matching gloss 1: «Пусть благодарят имя Твоё, великое и страшное: свят Он» (or «пусть воздают благодарение имени Твоему»); the dramatic layer may keep «славят». (PS.99.3: יוֹדוּ (HVhi3mp), English literal 'Let them give thanks [to] your name'; ru note: «„Славить“ у KJV („praise“) слабее».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:09:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "674669fa26df"
+  },
+  "verse.ru:PS.99.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:05:05+00:00",
+   "agent_notes": [
+    "Нумерация: этот псалом в Синодальном — 98-й; в корпусе сохранена еврейская нумерация."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8863a3f87b6"
+  },
+  "verse.ru:PS.99.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:05:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[consider] Quote the Synodal as «поклоняйтесь подножию ног Его» and, optionally, note that its refrain «свято оно» again differs from the Hebrew הוּא. (Synodal Ps 98:5: «Превозносите Господа, Бога нашего, и поклоняйтесь подножию ног Его: свято оно!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e60582326fe5"
+  },
+  "verse.ru:PS.99.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:08:11+00:00",
+   "agent_notes": [
+    "יַעֲנֵם передан привычным несовершенным видом русского глагола («отвечал им [раз за разом]»); ивритскую форму называю «имперфектом», чтобы не путать с русским видом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[blocker] Replace «отвечал бы им» with the habitual imperfective («и Он, Он отвечал им», optionally «[раз за разом]») in the literal layer, gloss 11, the note on יַעֲנֵם and the commentary, and call the Hebrew form «имперфект» rather than «несовершенный вид», which in Russian names the Russian aspect. (PS.99.6: וְהוּא יַעֲנֵם (HVqi3ms, imperfect after the participle קֹרִאים); English literal 'and he, he would answer them', commentary 'a habit'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:09:00+00:00",
+     "note": "[consider] Quote the Synodal as «взывали к Господу, и Он внимал им»; the point about the simple past still holds. (Synodal Ps 98:6: «Моисей и Аарон между священниками Его, и Самуил между призывающими имя Его взывали к Господу, и Он внимал им.» PS.99.6 ru commentary: «Синодальный („взывали к Господу, и Он отвечал им“) берёт простое прошедшее, как KJV».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16d97fccd2ed"
+  },
+  "verse.ru:PS.99.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:08:11+00:00",
+   "agent_notes": [
+    "Синодальный: «откровения» для עֵדֹת и «устав, который Он дал им» для חֹק; совпадает с буквальным слоем в חֹק."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[should_fix] Correct the Synodal sentence: it renders עֵדֹת as «откровения» and חֹק as «устав, который Он дал им» (so it agrees with the literal layer on חֹק). (PS.99.7: וְחֹק נָתַן לָמוֹ. Synodal Ps 98:7: «они хранили Его откровения и устав, который Он дал им.» The packet quotes no Synodal text.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:09:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d6d4c1ac5bc"
+  },
+  "verse.ru:PS.99.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:08:11+00:00",
+   "agent_notes": [
+    "Синодальное «Богом прощающим и наказывающим» сохраняет простое «и»; цитата приведена по Синодальному тексту."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with one that quotes it accurately: «Синодальный („Богом прощающим и наказывающим за дела их“) сохраняет простое „и“ иврита, в отличие от KJV». (PS.99.8: אֵל נֹשֵׂא … וְנֹקֵם (bare 'and'). Synodal Ps 98:8: «Ты был для них Богом прощающим и наказывающим за дела их.» The packet quotes no Synodal text.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:09:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0a42af309ee8"
+  },
+  "verse.ru:PS.99.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:05:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:07:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f1bdede97cb"
   }
  },
  "notes": []

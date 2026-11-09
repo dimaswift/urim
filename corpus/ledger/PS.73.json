@@ -612,7 +612,706 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.73.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [
+    "Нумерация: в Синодальном переводе это Пс 72, а надписание не считается отдельным стихом. В комментарии к стиху 1 об этом сказано коротко.",
+    "אַךְ передано как «Только [или: Так]» в буквальном слое и «Как благ» в драматическом; Синодальный перевод читает «Как благ Бог к Израилю», то есть как восклицание."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[consider] Optionally follow the English order: «Истинно [или: Только] благ Израилю Бог». (PS.73.1 English literal: \"Surely [or: Only] good to Israel [is] God\"; ru: «Только [или: Так] благ Израилю Бог»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a57d825886e"
+  },
+  "verse.ru:PS.73.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [
+    "Стих намеренно оставлен тёмным, как в английском: не выбирается ни подлежащее, ни наполнение «воды полноты». Синодальный перевод выбирает «Потому туда обращается народ Его, и пьёт воду полной чашею»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9cecd4993be"
+  },
+  "verse.ru:PS.73.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Change «в Всевышнем» to «во Всевышнем» in translation_literal. (PS.73.11 ru translation_literal: «И есть ли разумение в Всевышнем?»; ru gloss pos 7: «во Всевышнем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8211940a1007"
+  },
+  "verse.ru:PS.73.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "532e8df53fbd"
+  },
+  "verse.ru:PS.73.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [
+    "Источники даны по-русски единообразно со стихами 1–12: «Раши на Пс 73:13», «BDB, ריק»; имя «Ибн Эзра» без дефиса."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Translate the sources as in verses 1-12 («Раши на Пс 73:13», «BDB, ריק»), and write «Ибн Эзра» without a hyphen in the commentary. (PS.73.13 ru notes sources: [\"Rashi on Psalm 73:13\", \"BDB ריק\"]; PS.73.1 ru sources: [\"Меири на Пс 73:1\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "623f76249f09"
+  },
+  "verse.ru:PS.73.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Ибн Эзра на Пс 73:14», «BDB, נגע») and «Ибн Эзра» without a hyphen in the commentary. (PS.73.14 ru notes sources: [\"Ibn Ezra on Psalm 73:14\"]; PS.73.4 ru: [\"Ибн Эзра на Пс 73:4\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[consider] Quote it as «и подвергал себя ранам всякий день и обличениям всякое утро». (PS.73.14 ru commentary: «и подвергался ранам всякий день и обличениям каждое утро»; Synodal Пс 72:14: «и подвергал себя ранам всякий день и обличениям всякое утро».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a5101c655b93"
+  },
+  "verse.ru:PS.73.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:49+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно: «то я виновен был бы пред родом сынов Твоих». Прежняя ссылка на «завет» убрана: Синодальный, как и KJV, смягчает «предал бы» до «виновен был бы»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian as in verses 1-12: «Радак на Пс 73:15», «Меири на Пс 73:15», «BDB, בגד». (PS.73.15 ru notes sources: [\"Radak on Psalm 73:15\", \"BDB בגד\"], [\"Meiri on Psalm 73:15\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[should_fix] Quote the Synodal as «то я виновен был бы пред родом сынов Твоих» and replace the «завет» remark: the Synodal, like the KJV, softens «предал» to «виновен был бы». (PS.73.15 ru commentary: «то нарушил бы завет рода сынов Твоих» … «слово „завет“ вводит то, чего в еврейском нет»; Synodal Пс 72:15: «Но если бы я сказал: „буду рассуждать так“, — то я виновен был бы пред родом сынов Твоих.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d38eafe87b9"
+  },
+  "verse.ru:PS.73.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian: «Раши на Пс 73:16», «Радак на Пс 73:16», «Меири на Пс 73:16», «BDB, עמל». (PS.73.16 ru notes sources: [\"Rashi on Psalm 73:16\", \"BDB עמל\"], [\"Radak on Psalm 73:16\", \"Meiri on Psalm 73:16\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[consider] Quote it as «И думал я, как бы уразуметь это, но это трудно было в глазах моих». (PS.73.16 ru commentary: «думал я узнать это, но это трудно было в глазах моих»; Synodal Пс 72:16: «И думал я, как бы уразуметь это, но это трудно было в глазах моих».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f6cb038b78d"
+  },
+  "verse.ru:PS.73.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:17», «BDB, מקדש», «BDB, אחרית») and the names without hyphens: «Ибн Эзра», «Мецудат Давид». (PS.73.17 ru notes sources: [\"Rashi on Psalm 73:17\", \"BDB מקדש\"]; PS.73.6 ru: «Мецудат Давид на Пс 73:6»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d7c83e5ff88"
+  },
+  "verse.ru:PS.73.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [
+    "Буквальный слой: прошедшее «Ты низверг их» для הִפַּלְתָּם (хифиль, совершенный вид), как и в глоссе; первый глагол תָּשִׁית остаётся настоящим/несовершенным: «Ты ставишь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Мецудат Цион на Пс 73:18», «Ибн Эзра на Пс 73:18»), the names without hyphens, and in translation_literal use the past «Ты низверг их в развалины», as the gloss does. (PS.73.18 ru notes sources: [\"Metzudat Zion on Psalm 73:18\", \"Ibn Ezra on Psalm 73:18\"]; English literal: \"you made them fall to ruins\"; ru gloss pos 5: «Ты низверг их»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fdaa03f4d1e0"
+  },
+  "verse.ru:PS.73.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [
+    "Синодальные цитаты в ст. 19, 21, 22, 23–28 даны по памяти, пакет синодального текста не содержит. Цитата в ст. 21 исправлена: в Синодальном «когда возмущалось сердце моё и терзалась утроба моя», а не «возгорчилось». Прошу сверить."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:19», «Мецудат Цион на Пс 73:19») and «Мецудат Цион» without a hyphen. (PS.73.19 ru notes sources: [\"Rashi on Psalm 73:19\", \"Metzudat Zion on Psalm 73:19\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68466b54775d"
+  },
+  "verse.ru:PS.73.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e79480dedd8c"
+  },
+  "verse.ru:PS.73.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:49+00:00",
+   "agent_notes": [
+    "Цитата Синодального дана дословно, с пометкой, что он читает בעיר как «пробудив их», а צלם передаёт словом «мечты»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian: «Раши на Пс 73:20», «Радак на Пс 73:20», «Меири на Пс 73:20», «Мецудат Цион на Пс 73:20». Also check the Synodal quote («как сон по пробуждении, Господи, пробудившись, Ты уничижишь образ их»): the packet gives no Synodal text, and the received Synodal reads differently («так Ты, Господи, пробудив их, уничтожишь мечты их»); quote it only as it stands, or drop the quote. (PS.73.20 ru notes sources: [\"Rashi on Psalms 73:20\", \"Radak on Psalms 73:20\", \"Meiri on Psalms 73:20\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Как сновидение по пробуждении, так Ты, Господи, пробудив их, уничтожишь мечты их», and say it reads the verb as «пробудив их»; or drop the quote. (PS.73.20 ru commentary: «Как сон по пробуждении, Господи, так, когда пробудишь, Ты уничтожишь мечты их»; Synodal Пс 72:20: «Как сновидение по пробуждении, так Ты, Господи, пробудив их, уничтожишь мечты их.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "668683da1a36"
+  },
+  "verse.ru:PS.73.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:49+00:00",
+   "agent_notes": [
+    "Цитата Синодального дана дословно: «кипело» вместо «скисло», «внутренность» вместо «почек»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write all sources in Russian («Мецудат Цион на Пс 73:21», «Ибн Эзра на Пс 73:21», «Меири на Пс 73:21», «Раши на Пс 73:21», «Радак на Пс 73:21», «BDB, כליה») and the names without hyphens. (PS.73.21 ru notes sources: [\"Metzudat Zion on Psalm 73:21\", \"Ibn Ezra on Psalm 73:21\"], [\"Meiri on Psalm 73:21\", \"BDB כליה\"], [\"Rashi on Psalm 73:21\", \"Radak on Psalm 73:21\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[should_fix] Quote the Synodal as «Когда кипело сердце моё, и терзалась внутренность моя» and say it chooses «кипело» and names the kidneys with the general «внутренность». (PS.73.21 ru commentary: «Когда возмущалось сердце моё и терзалась утроба моя» … «вместо „почек“ говорит „утроба“»; Synodal Пс 72:21: «Когда кипело сердце моё, и терзалась внутренность моя».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f942e5e504d1"
+  },
+  "verse.ru:PS.73.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:22», «BDB, בער», «BDB, בהמה») and «Мецудат Давид» without a hyphen. (PS.73.22 ru notes sources: [\"Rashi on Psalm 73:22\", \"BDB בער\"], [\"BDB בהמה\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[consider] Quote the Synodal as «то я был невежда и не разумел; как скот был я пред Тобою». (PS.73.22 ru commentary: «я был бессмыслен и не понимал; как скот был я пред Тобою»; Synodal Пс 72:22: «то я был невежда и не разумел; как скот был я пред Тобою».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e62d74e54ee"
+  },
+  "verse.ru:PS.73.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:23», «Ибн Эзра на Пс 73:23», «BDB, תמיד») and «Ибн Эзра» without a hyphen. (PS.73.23 ru notes sources: [\"Rashi on Psalm 73:23\", \"Ibn Ezra on Psalm 73:23\"], [\"BDB תמיד\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d33b765f9689"
+  },
+  "verse.ru:PS.73.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:24», «Ибн Эзра на Пс 73:24», «Радак на Пс 73:24») and «Ибн Эзра» without a hyphen. (PS.73.24 ru notes sources: [\"Rashi on Psalms 73:24\", \"Ibn Ezra on Psalms 73:24\", \"Radak on Psalms 73:24\"])",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c58f9f3db41f"
+  },
+  "verse.ru:PS.73.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:25», «Ибн Эзра на Пс 73:25», «Таргум на Пс 73:25») and capitalize «Тобой» in translation_literal. (PS.73.25 ru notes sources: [\"Rashi on Psalms 73:25\", \"Ibn Ezra on Psalms 73:25\", \"Targum on Psalms 73:25\"]; ru translation_literal: «И с тобой не желал я»; ru gloss pos 4: «и с Тобой»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0a91ad2caf09"
+  },
+  "verse.ru:PS.73.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Раши на Пс 73:26», «Радак на Пс 73:26», «Мецудат Цион на Пс 73:26», «Ибн Эзра на Пс 73:26») and fix «КJV» to «KJV». (PS.73.26 ru notes sources: [\"Rashi on Psalms 73:26\", \"Radak on Psalms 73:26\", \"Metzudat Zion on Psalms 73:26\"]; ru commentary: «КJV «faileth» верно»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc2bfb375b36"
+  },
+  "verse.ru:PS.73.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:24:43+00:00",
+   "agent_notes": [
+    "По просьбе рецензента Синодальный перевод (Пс 72:27) процитирован дословно: «Ибо вот, удаляющие себя от Тебя гибнут; Ты истребляешь всякого отступающего от Тебя». Добавлено, что он, как и поздние английские переводы, теряет образ блуда. Остальной текст стиха не менялся."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Мецудат Цион на Пс 73:27», «Раши на Пс 73:27»), spell the commentator «Мецудат Цион» throughout, and capitalize «Тебя», «Ты» in translation_literal and glosses pos 5 and 8. (PS.73.27 ru notes sources: [\"Metzudat Zion on Psalms 73:27\", \"Rashi on Psalms 73:27\"]; ru translation_literal: «дальние от тебя погибнут; ты истребил всякого блудодействующего от тебя»; PS.73.4 ru: «Мецудат Цион на Пс 73:4»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": "[should_fix] Quote the Synodal as «Ибо вот, удаляющие себя от Тебя гибнут; Ты истребляешь всякого отступающего от Тебя» and say that it, like the later English versions, loses the image of whoring. (PS.73.27 ru commentary: «Ты истребляешь всякого, кто блудно отступает от Тебя» … «сохраняет образ блуда, но в наречии „блудно“»; Synodal Пс 72:27: «Ты истребляешь всякого отступающего от Тебя.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:25:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f65a9c07e9d"
+  },
+  "verse.ru:PS.73.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] Write the sources in Russian («Ибн Эзра на Пс 73:28», «Мецудат Цион на Пс 73:28», «Раши на Пс 73:28»), spell «Мецудат Цион», and capitalize «Твоих» in translation_literal and gloss pos 12. (PS.73.28 ru notes sources: [\"Ibn Ezra on Psalms 73:28\", \"Metzudat Zion on Psalms 73:28\", \"Rashi on Psalms 73:28\"]; ru translation_literal: «рассказать обо всех делах твоих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "76fa2022e30d"
+  },
+  "verse.ru:PS.73.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "506e04b5e20f"
+  },
+  "verse.ru:PS.73.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [
+    "חַרְצֻבּוֹת: в буквальном слое «узы», как в Ис 58:6 («разрешить оковы неправды»); Синодальный перевод даёт «нет им страданий до смерти их». Выбор «узы» следует английскому буквальному слою и комментарию."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cb1e639e31dc"
+  },
+  "verse.ru:PS.73.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "af18f303c63c"
+  },
+  "verse.ru:PS.73.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d220a20dcc95"
+  },
+  "verse.ru:PS.73.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:20:45+00:00",
+   "agent_notes": [
+    "В буквальном слое поставлено множественное «глаза их», по ивриту עֵינֵמוֹ (двойственное с суффиксом 3 м. мн.); при этом первый глагол остаётся в единственном числе, как в еврейском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": "[should_fix] In translation_literal write the plural, e.g. «Выходит от жира — глаза их; переступили замыслы сердца», matching the gloss for pos 3. (PS.73.7 word table: עֵינֵ֑מוֹ morph HNcfdc/Sp3mp; English literal: \"It goes out from fat, their eyes\"; ru gloss pos 3: «глаза их»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "37a372853b3e"
+  },
+  "verse.ru:PS.73.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [
+    "יָמִיקוּ — гапакс, «насмехаются» остаётся гипотезой, как и в английском; Синодальный перевод: «Они над всем издеваются, злобно говорят о притеснении»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d0d3879d7ab5"
+  },
+  "verse.ru:PS.73.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:16:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:19:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "128385a61328"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Все источники в notes теперь по-русски («Раши на Пс 73:19», «BDB, כליה»); комментаторы пишутся без дефисов: Мецудат Цион, Мецудат Давид, Ибн Эзра.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T19:21:06+00:00"
+  }
+ ]
 }

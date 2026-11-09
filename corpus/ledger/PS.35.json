@@ -592,6 +592,620 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.35.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:16:48+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: нумерация. Стих 0 — только в KJV; в Синодальном надписание входит в стих 1 (Пс 34:1: «Давида. Вступись, Господи, в тяжбу с тяжущимися со мною…»), а сам псалом там — 34-й."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Say that only the KJV has the superscription as verse 0; in the Synodal it is part of verse 1, and the psalm is numbered 34. (PS.35.1: \"לְדָוִד רִיבָה יְהוָה\"; English commentary: \"which is why the KJV has it as verse 0\"; RusSynodal Пс 34:1: «Давида. Вступись, Господи, в тяжбу с тяжущимися со мною…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc9252f6a4c3"
+  },
+  "verse.ru:PS.35.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b458a3405ae2"
+  },
+  "verse.ru:PS.35.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:16:48+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: Синодальная цитата дана точно («Восстали на меня свидетели неправедные: чего я не знаю, о том допрашивают меня»), с оговоркой, что «неправедные» толкует חָמָס так же, как KJV («false»), тогда как еврейское слово называет насилие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («свидетели неправедные… допрашивают меня») and note that «неправедные» interprets חָמָס as the KJV does, or drop the Synodal sentence. (PS.35.11: \"יְקוּמוּן עֵדֵי חָמָס\"; RusSynodal Пс 34:11: «Восстали на меня свидетели неправедные: чего я не знаю, о том допрашивают меня»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e562962b506a"
+  },
+  "verse.ru:PS.35.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [
+    "שְׁכוֹל — «бездетность, осиротение»; Синодальный даёт «сиротством душе моей», в буквальном слое — «бездетность», в драматическом — «осиротевшая душа»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "72f33141517b"
+  },
+  "verse.ru:PS.35.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:17:15+00:00",
+   "agent_notes": [
+    "Убрано «как будто отвергнутая» из драматического слоя; в комментарии Синодальное «изнурял постом душу мою» теперь сопоставлено с ASV «afflicted», а не с KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Drop «как будто отвергнутая» from translation_dramatic, and in the commentary correct the Synodal to «изнурял постом душу мою» (it then sides with ASV 'afflicted', not with the KJV) or remove the comparison. (PS.35.13: \"וּתְפִלָּתִי עַל־חֵיקִי תָשׁוּב\"; English dramatic \"the prayer came home to me, falling back on my own breast\"; RusSynodal Пс 34:13: «изнурял постом душу мою, и молитва моя возвращалась в недро мое»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": "[consider] When the chapter is next touched, write the sources of vv.13-28 in Russian as in vv.1-12 («Ибн Эзра на Псалмы 35:13») and normalize the transliterations. (PS.35.13 sources: \"Ibn Ezra on Psalms 35:13\"; PS.35.1 sources: \"Радак на Псалмы 35:1\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9cb5eb0b3f31"
+  },
+  "verse.ru:PS.35.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[consider] Quote the Synodal correctly and say it adds «как бы это был», as the KJV does. (PS.35.14: \"כְּרֵעַ כְּאָח לִי הִתְהַלָּכְתִּי\"; RusSynodal Пс 34:14: «Я поступал, как бы это был друг мой, брат мой»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6ed2b6dcac9"
+  },
+  "verse.ru:PS.35.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:17:15+00:00",
+   "agent_notes": [
+    "Синодальное «ругатели» названо ещё одной догадкой о значении נֵכִים (вместо ошибочного «бичи»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Replace «Синодальное „бичи“ предлагает ещё одну догадку» with the Synodal «ругатели» (another interpretive guess), or drop the Synodal from the list. (PS.35.15: \"נֶאֶסְפוּ עָלַי נֵכִים\"; RusSynodal Пс 34:15: «собирались ругатели против меня, не знаю за что, поносили и не переставали»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "855d25d25356"
+  },
+  "verse.ru:PS.35.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:17:15+00:00",
+   "agent_notes": [
+    "Ссылка на Псалом 43:6 дана по синодальной нумерации (в английском Psalm 44:6), как в остальных стихах главы."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Change «как в Псалме 44:6» to «как в Псалме 43:6» (Synodal numbering, as elsewhere in the chapter). (PS.35.16: English commentary \"as in Psalm 44:6\"; ru v.4 «Псалом 43:19» for English \"Psalm 44:19\"; ledger note on verse.ru:PS.35.1: «Ссылки на Синодальный даются по его нумерации»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3a355e39979e"
+  },
+  "verse.ru:PS.35.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [
+    "אֲדֹנָי в буквальном слое — «Владыка», чтобы отличить от יהוה (YHWH) в ст. 22; в драматическом слое — «Господи»/«Владыка» по слуху."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[consider] Check and correct the Synodal quotation («Отведи»). (PS.35.17: \"הָשִׁיבָה נַפְשִׁי\"; RusSynodal Пс 34:17)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c83e11666ae3"
+  },
+  "verse.ru:PS.35.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2162eb04583"
+  },
+  "verse.ru:PS.35.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[consider] Check the Synodal wording; if it is «враждующие против меня неправедно», say that it follows the Hebrew, not the KJV. (PS.35.19: \"אֹיְבַי שֶׁקֶר\"; RusSynodal Пс 34:19: «Да не радуются надо мною враждующие против меня неправедно»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6e6910b8b32d"
+  },
+  "verse.ru:PS.35.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9045b1ed75e0"
+  },
+  "verse.ru:PS.35.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "299faca64cb8"
+  },
+  "verse.ru:PS.35.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:17:15+00:00",
+   "agent_notes": [
+    "הֶאָח передано как «Ага! Ага!» во всех слоях, в согласии со ст. 25."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Render הֶאָח as «Ага! Ага!» in translation_literal and translation_dramatic, and gloss pos 5 and 6 as «ага!», so v.21 matches v.25 and the commentary. (PS.35.21: \"הֶאָח ׀ הֶאָח\" (English literal \"Aha, aha\"); PS.35.25: \"הֶאָח נַפְשֵׁנוּ\", ru «Ага!»; ru note on v.25: «Его повторение в ст. 21 и 25 обрамляет речь врагов»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4da6b9b3ed0c"
+  },
+  "verse.ru:PS.35.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[consider] Use the vocative «Господи» in the dramatic layers of vv.22 and 24. (PS.35.22: \"רָאִיתָה יְהוָה\" (address); ru v.24 dramatic «Господь, Боже мой»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "85be5b616aec"
+  },
+  "verse.ru:PS.35.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:17:15+00:00",
+   "agent_notes": [
+    "Буквальный слой: «Пробудись и проснись» (הָעִירָה וְהָקִיצָה); Синодальное «Подвигнись, пробудись» процитировано точно и названо иным решением той же пары."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Make the literal «Пробудись и проснись для суда моего…» (gloss pos 2 «и проснись»), and correct the Synodal quotation to «Подвигнись, пробудись для суда моего…» or drop it. (PS.35.23: \"הָעִירָה וְהָקִיצָה\" (packet gloss pos 2 \"and wake up\"; English literal \"Rouse yourself and wake up\"); RusSynodal Пс 34:23: «Подвигнись, пробудись для суда моего, для тяжбы моей, Боже мой и Господи мой!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ca058fa862f8"
+  },
+  "verse.ru:PS.35.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bdb7ce8b3388"
+  },
+  "verse.ru:PS.35.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:16:57+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено по замечанию: Синодальный перевод смягчает הֶאָח до «хорошо!», но сохраняет «душа» («по душе нашей!»); утверждение о превращении возгласа в целую фразу убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Correct the last sentence of the commentary: the Synodal has «хорошо! по душе нашей!», softening הֶאָח to «хорошо» but keeping «душа»; drop the claim that it expands the cry into a whole clause. (PS.35.25: \"הֶאָח נַפְשֵׁנוּ\"; RusSynodal Пс 34:25: «Да не говорят в сердце своем: „хорошо! по душе нашей!“»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7cfed1e0830"
+  },
+  "verse.ru:PS.35.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a9fff4fcd678"
+  },
+  "verse.ru:PS.35.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:02:39+00:00",
+   "agent_notes": [
+    "Синодальный переводит חֲפֵצֵי צִדְקִי как «желающие правды моей» и שְׁלוֹם как «мир»; в буквальном слое сохранено «правда моя», а в комментарии отмечена полнота значения «шалом»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "31f8d3b32de3"
+  },
+  "verse.ru:PS.35.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:16:57+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено по замечанию: у Синодального перевода «будет проповедовать», и, как «speak» в KJV, оно теряет бормотание глагола הגה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[should_fix] Replace «будет повторять» with «будет проповедовать» in the last sentence of the commentary and say that it, like the KJV 'speak', loses the murmur of הגה. (PS.35.28: \"וּלְשׁוֹנִי תֶּהְגֶּה צִדְקֶךָ\"; RusSynodal Пс 34:28: «И язык мой будет проповедовать правду Твою и хвалу Твою всякий день»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "82b8e456f5fa"
+  },
+  "verse.ru:PS.35.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [
+    "סְגֹר: в буквальном слое «и запри [путь]»; Синодальный «прегради путь». Спорное слово сохранено как у английского филолога, с обеими традициями в заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d8d22d1c6da"
+  },
+  "verse.ru:PS.35.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "db3578d7a465"
+  },
+  "verse.ru:PS.35.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [
+    "Мов — «мякина» (шелуха при веянии), а не «прах», как в Синодальном; «мякина» сохраняет образ тока и параллель с Пс 1:4 в английском комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f7028eb9727"
+  },
+  "verse.ru:PS.35.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7844bd382398"
+  },
+  "verse.ru:PS.35.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": "[consider] Check the Synodal wording and correct the remark. (PS.35.7: \"שַׁחַת רִשְׁתָּם\"; RusSynodal Пс 34:7)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f1c41a285a29"
+  },
+  "verse.ru:PS.35.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e44d8f30accb"
+  },
+  "verse.ru:PS.35.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:00:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:15:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4bcb63c7aa70"
   }
  },
  "notes": []

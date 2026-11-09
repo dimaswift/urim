@@ -1,0 +1,368 @@
+{
+ "chapter_ref": "PS.138",
+ "items": {
+  "verse.en:PS.138.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [
+    "אֱלֹהִים is plural in form and has no article. Rashi reads it as angels/princes, Ibn Ezra, Radak, Meiri and Metzudat David as judges and the wise (as in Ex 22:8), the Targum as 'judges'. The five English versions all say 'the gods'. I kept 'gods' in the literal layer and in the dramatic layer, and set out the readings in the commentary rather than choosing one.",
+    "The superscription 'of David' is KJV verse 0 and the Hebrew verse 1. The LXX adds a reference to Haggai and Zechariah; I do not mention it because it is not in the packet."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [
+    "'Over all your name your word' (עַל־כָּל־שִׁמְךָ אִמְרָתֶךָ) is syntactically ambiguous. KJV/ASV read 'you have magnified your word above all your name'. Radak and Meiri read the nouns as reversed ('your name above all your word'), and Ibn Ezra and Rashi each take 'name' as the divine attributes. I kept the Hebrew word order in the literal layer and followed the KJV reading in the dramatic layer, flagging the ambiguity in the commentary."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": "[consider] Optionally trim to what 'on the day' and 'made me bold … strength' carry. (PS.138.3: בְּיוֹם קָרָאתִי וַתַּעֲנֵנִי תַּרְהִבֵנִי בְנַפְשִׁי עֹז)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [
+    "STEPBible glosses כִּי as 'if'. I corrected it to 'for/because' (KJV 'when'). With 'because' the kings praise on the strength of what they have heard; with 'when' the praise is future."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": "[consider] Drop 'Let them come', mark the kings-as-v.1-audience link as your own reading or remove it, and credit the 'given up' detail to Radak and Meiri alone. (PS.138.4: יוֹדוּךָ יְהוָה כָּל־מַלְכֵי־אָרֶץ; Ibn Ezra: שמשחתני להיותי נגיד ועמים ישרתוני)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:06:44+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the 'not of war, not of wine or wanting' line is removed from translation_dramatic; the kings sing 'of the ways of the LORD'. The Ibn Ezra and Metzudat David contrast stays in the commentary, attributed.",
+    "Corrected STEPBible 'so they may sing' to 'and they will sing', to match the verse 4 futures. The packet lists the lemma of גָדוֹל as גַּל, which looks like a data slip for גָּדוֹל (H1419); the gloss is unaffected.",
+    "The commentary's remark that foreign rulers sang praises of their own gods is general background of my own, without a citation. The Targum rendering 'paths' (כְּבִישֵׁי) is paraphrased from the packet's text."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": "[should_fix] Remove 'not of war, not of wine or wanting' from translation_dramatic and let the kings sing 'in' or 'of the ways of the LORD'. The Ibn Ezra and Metzudat David contrast stays in the commentary, where it is already attributed. (PS.138.5: וְיָשִׁירוּ בְּדַרְכֵי יְהוָה, 'and they will sing in the ways of YHWH'; Ibn Ezra: לא יהיה להם שירות חשק, או שירות מלחמות)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:07:20+00:00",
+     "note": "[consider] Optionally let the kings' song rise 'in the ways of the LORD' rather than 'on the very roads he has walked'. (PS.138.5: וְיָשִׁירוּ בְּדַרְכֵי יְהוָה, 'and they will sing in the ways of YHWH')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [
+    "יְיֵדָע is an unusual form. The commentaries (Rashi, Ibn Ezra, Meiri, Metzudat David and Zion) read it as a causative of ידע, 'he makes known / disciplines', citing Judg 8:16 (וַיּוֹדַע); Radak takes it as 'he makes known'. I glossed and translated it as the plain 'he knows' that the five versions share and put the other reading in the commentary. The claim that 'knows from afar' means 'keeps at a distance' is a common reading, not one I can source to a lexicon."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": "[consider] Gloss word 7 as 'the nose / anger of' to match the literal layer, and present the Targum's 'nostril' as a literal rendering on its own, not as support for Ibn Ezra's reading. (PS.138.7: עַל אַף אֹיְבַי; Targum: עַל נְחִירָא בַּעֲלֵי דְבָבַי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.138.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:03:58+00:00",
+   "agent_notes": [
+    "STEPBible glosses יִגְמֹר as 'he will avenge'. I corrected it to 'he will complete': גמר means to bring to an end, to finish, and 'avenge' does not fit בַּעֲדִי ('on my behalf'). The Targum has 'will complete evil upon them', which does read it as vengeance; I note this in the commentary. In the Hebrew the second יהוה is a vocative at the head of the next clause, as the accents show.",
+    "Malbim's gloss on אַל־תֶּרֶף ('as a father does not let go of his son') is paraphrased from the packet and not quoted."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:05:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.138.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:08:04+00:00",
+   "agent_notes": [
+    "אֱלֹהִים в стихе 1 переведено «пред богами», как в Синодальном переводе; толкование о судьях и ангелах вынесено в комментарий, в самом тексте оно не навязано."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": "[consider] Quote the superscription as «Давида». (Синодальный, Пс 137:1: «Давида. Славлю Тебя всем сердцем моим, пред богами пою Тебе».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52870b9a4b62"
+  },
+  "verse.ru:PS.138.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:06+00:00",
+   "agent_notes": [
+    "Цитаты Синодального исправлены: «Поклоняюсь» и «пред святым храмом Твоим». Замечание о смягчении направления переписано: с «пред» оно остаётся в силе лишь отчасти, поэтому сказано, что «пред» передаёт направление «к» и «лицом к»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": "[should_fix] Correct both quotes to «Поклоняюсь» and «пред святым храмом Твоим». Keep the remark about softening the direction only if it still holds with «пред». (Синодальный, Пс 137:2: «Поклоняюсь пред святым храмом Твоим и славлю имя Твоё за милость Твою и за истину Твою, ибо Ты возвеличил слово Твоё превыше всякого имени Твоего».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:11:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "be0849880ba2"
+  },
+  "verse.ru:PS.138.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef17bf86f1ef"
+  },
+  "verse.ru:PS.138.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:06+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено формулировкой рецензента: Синодальный, как и KJV, пишет «когда услышат»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary with something like: «Синодальный, как и KJV, пишет „когда услышат“, превращая совершившееся слушание в будущее условие». Alternatively, drop the sentence. (Синодальный, Пс 137:4: «Прославят Тебя, Господи, все цари земные, когда услышат слова уст Твоих»; PS.138.4 Hebrew כִּי שָׁמְעוּ (perfect).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:11:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13f605ac4c6e"
+  },
+  "verse.ru:PS.138.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:08:04+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "61fd33061c27"
+  },
+  "verse.ru:PS.138.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:08:04+00:00",
+   "agent_notes": [
+    "יְיֵדָע переведено «узнаёт» (как в Синодальном: «гордого узнаёт издали»); прочтение «наставляет, карает» сохранено только в заметке и комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "56e072f7b1c5"
+  },
+  "verse.ru:PS.138.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:06+00:00",
+   "agent_notes": [
+    "Цитата Синодального исправлена: «прострёшь на ярость врагов моих руку Твою»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": "[should_fix] Correct the quote to «Синодальный пишет „прострёшь на ярость врагов моих руку Твою“». (Синодальный, Пс 137:7: «прострёшь на ярость врагов моих руку Твою, и спасёт меня десница Твоя».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:11:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "56deaa194d67"
+  },
+  "verse.ru:PS.138.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:11:06+00:00",
+   "agent_notes": [
+    "Цитата исправлена на «Господь совершит за меня»; замечание переписано: «за меня» близко передаёт בַּעֲדִי."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:10:00+00:00",
+     "note": "[should_fix] Correct the quote to «Господь совершит за меня» and rewrite the remark to say that its «за меня» renders בַּעֲדִי closely. (Синодальный, Пс 137:8: «Господь совершит за меня! Милость Твоя, Господи, вовек; дела рук Твоих не оставляй»; PS.138.8 יְהוָה יִגְמֹר בַּעֲדִי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:11:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "985b1d929daa"
+  }
+ },
+ "notes": []
+}

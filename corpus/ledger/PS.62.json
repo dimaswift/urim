@@ -309,6 +309,302 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.62.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:16+00:00",
+   "agent_notes": [
+    "По запросу рецензента заменено предложение о Синодальном переводе: это Пс 61, заголовок считается стихом 1 (61:1 «Начальнику хора. На Идифуме. Псалом Давида»), номера стихов совпадают с еврейскими, различается только номер псалма. Остальное без изменений."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[should_fix] Remove «(и в Синодальном переводе)», or replace it with an accurate note: in the Synodal this is Psalm 61, with the heading counted as verse 1, so only the psalm number differs. (PS.62.1 EN commentary: \"which is why the KJV's numbers are all one behind\"; PS.62.13 = Synodal Пс 61:13 \"Ты воздаешь каждому по делам его\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:53:36+00:00",
+     "note": "[should_fix] Replace the sentence with: «В Синодальном переводе это Псалом 61; заголовок там, как и в еврейском тексте, считается стихом 1, так что номера стихов совпадают с еврейскими и различается только номер псалма.» (PS.62.1 ru commentary: «заголовок там не считается отдельным стихом … а стихи идут так же, как в KJV»; Synodal Пс 61:1 «Начальнику хора. На Идифуме. Псалом Давида», 61:13 «Ты воздаешь каждому по делам его» = PS.62.13)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:56+00:00",
+     "note": "[consider] Keep «Идифун» as the chosen form across the Psalms headings (39, 62, 77), or mention the Synodal «Идифум» once in the commentary. (PS.62.1: \"עַל־יְדוּתוּן\"; Synodal Пс 61:1 «Начальнику хора. На Идифуме. Псалом Давида»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fbf41ae5bbe6"
+  },
+  "verse.ru:PS.62.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [
+    "Игра «сыны Адама» / «сыны человеческие (ish)»: по-русски сохранены «сыны Адама» и «сыны мужей». Образ весов («взойти» — подняться) оставлен, Синодальный «на весах они легче пуха» стирает его, а у «пуха» нет hevel («дыхание»). Выбрано «дуновение»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c678d68cf099"
+  },
+  "verse.ru:PS.62.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:37+00:00",
+   "agent_notes": [
+    "В буквальном слое 'ошек — «вымогательство», газель — «грабёж», как в глоссах и комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[should_fix] In translation_literal write «Не уповайте на вымогательство, и в грабеже не становитесь дуновением…» (or the same with «на грабёж»), so that 'oshek is «вымогательство» and gazel is «грабёж», as in the gloss and the commentary. (PS.62.11: \"בְעֹשֶׁק וּבְגָזֵל\" (gloss: in extortion, and in robbery); EN literal: \"Do not trust in extortion, and in robbery do not become breath\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:53:36+00:00",
+     "note": "[consider] Make gloss pos 4 «и в грабеже» so that it matches the literal layer. (PS.62.11: \"וּבְגָזֵל\" (gloss: and in robbery))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5d39126534b"
+  },
+  "verse.ru:PS.62.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "be36ad1c5036"
+  },
+  "verse.ru:PS.62.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:49:09+00:00",
+   "agent_notes": [
+    "חֶסֶד передан как «милость» в буквальном слое (как в Синодальном) и как «верность, которая не отпускает» в драматическом; в комментарии объяснено, что слово шире «милости».",
+    "תְשַׁלֵּם — «воздаёшь» (так и в Синодальном); игра с корнем шалом в слове не передаётся, поэтому она объяснена в примечании и в комментарии.",
+    "В английском комментарии разбирается «renderest» (KJV) и «every man»; в русском это переосмыслено под Синодальный перевод, где тоже стоит «каждому» (добавление), — добавлено одно предложение об этом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[consider] For example «И Твоя, Господи, милость — верность, что не разжимает руки». (PS.62.13: \"וּלְךָ־אֲדֹנָי חָסֶד\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9198b206d403"
+  },
+  "verse.ru:PS.62.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [
+    "Нумерация: в Синодальном переводе это Псалом 61, и номера стихов там на единицу меньше, как в KJV; в комментарии к стиху 1 добавлено это уточнение.",
+    "'akh передано как «Только» (шесть раз, стихи 2, 3, 5, 6, 7, 10), чтобы сохранить молотоподобный повтор; Синодальный переводит по-разному («Только», «Он только», «Они только»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a6a2d647c008"
+  },
+  "verse.ru:PS.62.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [
+    "Синодальный: «Только Он— скала моя и спасение мое, защита моя: не поколеблюсь много» — тот же выбор, что у английского буквального слоя («не поколеблюсь много»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[consider] Pick one gender for the KJV across the chapter, or name it («KJV тоже смягчает…»). (PS.62.3 KJV (62:2): \"I shall not be greatly moved\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "81f6ee128793"
+  },
+  "verse.ru:PS.62.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:37+00:00",
+   "agent_notes": [
+    "הַדְּחוּיָה передано причастием страдательного залога «толкаемая» (ограда толкаемая); то же слово повторено в эхе в стихе 5 («толкаемая ограда»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[should_fix] In translation_literal and token gloss pos 11 render הַדְּחוּיָה as a passive participle, e.g. «ограда поваленная/толкаемая», and use the same word where verse 5 refers back to it. (PS.62.4: \"גָּדֵר הַדְּחוּיָה\" (gloss: <the> pushed down, Vqsfsa passive participle); EN literal: \"a fence being pushed down\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:53:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2a06245e0302"
+  },
+  "verse.ru:PS.62.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:37+00:00",
+   "agent_notes": [
+    "В буквальном слое «устами его» (בְּפִיו), как в глоссе; единственное число сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[should_fix] In translation_literal write «устами его благословляют» in place of «устами своими благословляют»; if verse 4's «падающая» changes (see that finding), make the echo in the commentary and in the lehadiach note quote the new word. (PS.62.5: \"בְּפִיו יְבָרֵכוּ\" (with mouth his they bless); EN literal: \"with his mouth they bless\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:53:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a195a37e50a6"
+  },
+  "verse.ru:PS.62.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[consider] For example «человек, который сам себя успокаивает, стоя на краю». (PS.62.6: \"דּוֹמִּי נַפְשִׁי\" (be silent, my soul))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "954282898c52"
+  },
+  "verse.ru:PS.62.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "73c3332dbec7"
+  },
+  "verse.ru:PS.62.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": "[consider] Write «Бог обещал ему царство» or «Бог поручился, что даст ему царство». (PS.62.8 EN commentary: \"God has pledged him the kingship\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d71ab188f369"
+  },
+  "verse.ru:PS.62.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:48:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:51:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2fb28cb3df1"
   }
  },
  "notes": []

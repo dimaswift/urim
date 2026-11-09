@@ -1,0 +1,746 @@
+{
+ "chapter_ref": "GEN.10",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_10.nimrod_mighty_hunter",
+   "title": "Нимрод, сын Хуша, становится сильным звероловом",
+   "narrative_summary": "У Хуша рождается Нимрод, который начинает быть сильным на земле. Он — сильный зверолов пред Господом, отчего и возникает поговорка.",
+   "temporal_reasoning_note": "В тексте нет даты («начал быть силен на земле»). Событие помещено по оценке через 60 лет после начала потопа (якорь anchor.flood) с погрешностью 40 лет: после поколения внуков Ноя и до разделения земли во дни Фалека (около 101 года после потопа по цепочке масоретского текста). MACRO_ERA, потому что текст не называет года, а говорит лишь о возвышении одного человека в раннем послепотопном мире."
+  },
+  {
+   "event_id": "evt.gen_10.nimrod_kingdom",
+   "title": "Царство Нимрода начинается с Вавилона, Эреха, Аккада и Халне",
+   "narrative_summary": "Царство Нимрода вначале составляли Вавилон, Эрех, Аккад и Халне в земле Сеннаар.",
+   "temporal_reasoning_note": "«Начало царства его» следует за его возвышением как сильного человека; 10 лет после начала этого возвышения (погрешность 15 лет) — оценка, текстовой даты нет. MACRO_ERA. Вавилон здесь — город; повесть о Вавилонской башне (Быт 11) этим событием не датируется."
+  },
+  {
+   "event_id": "evt.gen_10.asshur_builds_cities",
+   "title": "Ассур выходит из той земли и строит Ниневию и другие города",
+   "narrative_summary": "Из той земли вышел Ассур и построил Ниневию, Реховоф-ир, Калах и Ресен между Ниневией и Калахом; это город великий.",
+   "temporal_reasoning_note": "«Из той земли» (10:11) помещает событие после царства Нимрода в Сеннааре; 10 лет после его начала с погрешностью 15 лет — оценка. MACRO_ERA. Замечание о прочтении: еврейский текст можно понять так, что вышел Ассур (человек), или так, что Нимрод вышел в Ассирию (так Таргум Псевдо-Ионафана и примечание на полях KJV); я следую простому прочтению с Ассуром как подлежащим, как Онкелос. Время в пути не вычисляется: текст не говорит о путешествии, только о строительстве (от Аккада до Ниневии около 388 км по прямой)."
+  },
+  {
+   "event_id": "evt.gen_10.canaanite_clans_spread",
+   "title": "Племена ханаанские рассеиваются по своей земле",
+   "narrative_summary": "После того как родились племена ханаанские, они рассеялись, и предел ханаанеев шёл от Сидона к Герару до Газы, а к Содому, Гоморре, Адме и Цевоиму — до Лаши.",
+   "temporal_reasoning_note": "«Впоследствии» (10:18) помещает рассеяние после рождения ханаанских племён; текст не связывает его с разделением во дни Фалека, которое я использую как грубый якорь: 10 лет после начала, погрешность 30 лет, длительность 50 лет. MACRO_ERA. Описание пределов в 10:19 — результат, а не отдельное событие. Путешествие не описано, поэтому время в пути не используется.",
+   "ancient_year_marker": "Впоследствии"
+  },
+  {
+   "event_id": "evt.gen_10.earth_divided",
+   "title": "Земля разделяется во дни Фалека",
+   "narrative_summary": "Во дни Фалека земля была разделена, и об этом напоминает имя Фалек.",
+   "temporal_reasoning_note": "«Во дни его» (10:25) без указания года. Фалек прожил 239 лет (Быт 11:16–19), так что «дни его» охватывают всю его жизнь. Начало привязано к его рождению со смещением 120 лет и погрешностью 120 лет (от 0 до 240 лет после рождения, вся продолжительность жизни); середина в 120 лет — условность, а не прочтение текста. Длительность 10 лет — условный срок. MACRO_ERA, потому что текст относит событие лишь ко дням Фалека. Совпадает ли оно с рассеянием при Вавилоне — это прочтение, в тексте не сказано.",
+   "ancient_year_marker": "Во дни его"
+  },
+  {
+   "event_id": "evt.gen_10.peleg_born",
+   "title": "У Евера рождается сын Фалек",
+   "narrative_summary": "У Евера родились два сына; имя одному — Фалек, другому — Иоктан. Фалек назван так, потому что во дни его земля была разделена.",
+   "temporal_reasoning_note": "В этой главе не датировано. По цепочке масоретского текста Быт 11:10–16 от потопа: Арфаксад через 2 года, Сала через 35 лет после рождения Арфаксада, Евер через 30 после Салы, Фалек через 34 после Евера: 2+35+30+34 = 101 год после начала потопа. Смещение 101 год от anchor.flood, погрешность 3 года (возраст считается в целых годах), REGNAL_YEAR, поскольку дата выводится из числовых возрастов."
+  }
+ ],
+ "causal_edges": [],
+ "entities": [
+  {
+   "entity_id": "group.anamim",
+   "canonical_name": "Анамим",
+   "phonetic_name": "А-на-мим",
+   "aliases": [
+    "Анамиты"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Народ, происходящий от Мицраима (10:13)."
+  },
+  {
+   "entity_id": "group.arkites",
+   "canonical_name": "Аркеи",
+   "phonetic_name": "Ар-кеи",
+   "aliases": [],
+   "etymology_meaning": "Жители Арки, финикийского города (вероятно).",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:17)."
+  },
+  {
+   "entity_id": "group.arvadites",
+   "canonical_name": "Арвадеи",
+   "phonetic_name": "Ар-ва-деи",
+   "aliases": [],
+   "etymology_meaning": "Жители Арвада, финикийского острова-города.",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:18)."
+  },
+  {
+   "entity_id": "group.caphtorim",
+   "canonical_name": "Кафторим",
+   "phonetic_name": "Каф-то-рим",
+   "aliases": [
+    "Кафториты"
+   ],
+   "etymology_meaning": "Жители Кафтора, вероятно Крита (неясно).",
+   "summary_bio": "Народ, происходящий от Мицраима (10:14)."
+  },
+  {
+   "entity_id": "group.casluhim",
+   "canonical_name": "Каслухим",
+   "phonetic_name": "Кас-лу-хим",
+   "aliases": [
+    "Каслухиты"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Народ, происходящий от Мицраима; от него вышли филистимляне (10:14)."
+  },
+  {
+   "entity_id": "group.dodanim",
+   "canonical_name": "Доданим",
+   "phonetic_name": "До-да-ним",
+   "aliases": [
+    "Роданим"
+   ],
+   "etymology_meaning": "Значение неясно; некоторые рукописи читают «Роданим».",
+   "summary_bio": "Народ, причисляемый к сынам Иавана (10:4)."
+  },
+  {
+   "entity_id": "group.hamathites",
+   "canonical_name": "Хифамеи",
+   "phonetic_name": "Ха-ма-тим",
+   "aliases": [
+    "Хамафеи"
+   ],
+   "etymology_meaning": "Жители Хамата.",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:18)."
+  },
+  {
+   "entity_id": "group.hivites",
+   "canonical_name": "Евеи",
+   "phonetic_name": "Хи-вим",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:17)."
+  },
+  {
+   "entity_id": "group.kittim",
+   "canonical_name": "Киттим",
+   "phonetic_name": "Кит-тим",
+   "aliases": [
+    "Киттеи"
+   ],
+   "etymology_meaning": "Вероятно, от Кития на Кипре.",
+   "summary_bio": "Народ, причисляемый к сынам Иавана (10:4), упомянутый среди островов народов."
+  },
+  {
+   "entity_id": "group.lehabim",
+   "canonical_name": "Легавим",
+   "phonetic_name": "Ле-ха-вим",
+   "aliases": [
+    "Легавиты"
+   ],
+   "etymology_meaning": "Вероятно, связано с Ливией (неясно).",
+   "summary_bio": "Народ, происходящий от Мицраима (10:13)."
+  },
+  {
+   "entity_id": "group.ludim",
+   "canonical_name": "Лудим",
+   "phonetic_name": "Лу-дим",
+   "aliases": [
+    "Лудиты"
+   ],
+   "etymology_meaning": "Множественное число от имени, возможно Луд (неясно).",
+   "summary_bio": "Народ, происходящий от Мицраима (10:13)."
+  },
+  {
+   "entity_id": "group.naphtuhim",
+   "canonical_name": "Нафтухим",
+   "phonetic_name": "Наф-ту-хим",
+   "aliases": [
+    "Нафтухиты"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Народ, происходящий от Мицраима (10:13)."
+  },
+  {
+   "entity_id": "group.pathrusim",
+   "canonical_name": "Патрусим",
+   "phonetic_name": "Пат-ру-сим",
+   "aliases": [
+    "Патруситы"
+   ],
+   "etymology_meaning": "Вероятно, «жители Верхнего Египта» (Патрос).",
+   "summary_bio": "Народ, происходящий от Мицраима (10:14)."
+  },
+  {
+   "entity_id": "group.sinites",
+   "canonical_name": "Синеи",
+   "phonetic_name": "Си-ним",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:17)."
+  },
+  {
+   "entity_id": "group.zemarites",
+   "canonical_name": "Цемареи",
+   "phonetic_name": "Це-ма-рим",
+   "aliases": [],
+   "etymology_meaning": "Жители Цемара, вероятно Сумура (неясно).",
+   "summary_bio": "Ханаанское племя, происходящее от Ханаана (10:18)."
+  },
+  {
+   "entity_id": "loc.accad",
+   "canonical_name": "Аккад",
+   "phonetic_name": "Ак-кад",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, Аккад, месопотамский город или область.",
+   "summary_bio": "Город в Сеннааре в начале царства Нимрода (10:10)."
+  },
+  {
+   "entity_id": "loc.calah",
+   "canonical_name": "Калах",
+   "phonetic_name": "Ка-лах",
+   "aliases": [
+    "Кальху"
+   ],
+   "etymology_meaning": "Значение неясно; ассирийский город Кальху.",
+   "summary_bio": "Город, построенный Ассуром (10:11–12), к югу от Ниневии."
+  },
+  {
+   "entity_id": "loc.calneh",
+   "canonical_name": "Халне",
+   "phonetic_name": "Хал-не",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Город в Сеннааре в начале царства Нимрода (10:10); местоположение неясно."
+  },
+  {
+   "entity_id": "loc.erech",
+   "canonical_name": "Эрех",
+   "phonetic_name": "Э-рех",
+   "aliases": [
+    "Урук"
+   ],
+   "etymology_meaning": "Значение неясно; месопотамский город Урук.",
+   "summary_bio": "Город в Сеннааре, одно из четырёх начал царства Нимрода (10:10)."
+  },
+  {
+   "entity_id": "loc.gaza",
+   "canonical_name": "Газа",
+   "phonetic_name": "Га-за",
+   "aliases": [
+    "Азза"
+   ],
+   "etymology_meaning": "Вероятно, «сильная» (неясно).",
+   "summary_bio": "Город на юго-западном углу ханаанского предела (10:19)."
+  },
+  {
+   "entity_id": "loc.lasha",
+   "canonical_name": "Лаша",
+   "phonetic_name": "Ла-ша",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Место на восточном или юго-восточном краю ханаанского предела (10:19). Местоположение неизвестно."
+  },
+  {
+   "entity_id": "loc.mesha",
+   "canonical_name": "Меша",
+   "phonetic_name": "Ме-ша",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Западный предел поселений сынов Иоктана (10:30). Местоположение неизвестно."
+  },
+  {
+   "entity_id": "loc.nineveh",
+   "canonical_name": "Ниневия",
+   "phonetic_name": "Ни-не-вия",
+   "aliases": [
+    "Реховоф-ир"
+   ],
+   "etymology_meaning": "Вероятно, от названия ассирийского города Нину’а.",
+   "summary_bio": "Город, построенный Ассуром (10:11), позднее великая столица Ассирии. Реестр читает здесь также «Реховоф-ир»."
+  },
+  {
+   "entity_id": "loc.resen",
+   "canonical_name": "Ресен",
+   "phonetic_name": "Ре-сен",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «узда» или «недоуздок» (неясно).",
+   "summary_bio": "Город, построенный между Ниневией и Калахом, названный «городом великим» (10:12)."
+  },
+  {
+   "entity_id": "loc.sephar",
+   "canonical_name": "Сефар",
+   "phonetic_name": "Се-фар",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Гора восточная, предел поселений иоктанидов (10:30). Местоположение спорно."
+  },
+  {
+   "entity_id": "person.abimael",
+   "canonical_name": "Авимаил",
+   "phonetic_name": "А-ви-ма-ил",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «отец мой — Эл (Бог)».",
+   "summary_bio": "Сын Иоктана (10:28)."
+  },
+  {
+   "entity_id": "person.almodad",
+   "canonical_name": "Алмодад",
+   "phonetic_name": "Ал-мо-дад",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:26)."
+  },
+  {
+   "entity_id": "person.aram",
+   "canonical_name": "Арам",
+   "phonetic_name": "А-рам",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «нагорье».",
+   "summary_bio": "Сын Сима и отец Уца, Хула, Гефера и Маша (10:22–23)."
+  },
+  {
+   "entity_id": "person.arpachshad",
+   "canonical_name": "Арфаксад",
+   "phonetic_name": "Ар-пах-шад",
+   "aliases": [
+    "Арпахшад"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Сима и отец Салы, в роде, ведущем к Аврааму (10:22, 24)."
+  },
+  {
+   "entity_id": "person.ashkenaz",
+   "canonical_name": "Аскеназ",
+   "phonetic_name": "Ас-ке-наз",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Гомера и внук Иафета (10:3)."
+  },
+  {
+   "entity_id": "person.asshur",
+   "canonical_name": "Ассур",
+   "phonetic_name": "Ас-сур",
+   "aliases": [
+    "Ашшур"
+   ],
+   "etymology_meaning": "Имя ассирийского бога и страны; происхождение неясно.",
+   "summary_bio": "Сын Сима (10:22). Он вышел из земли, где было царство Нимрода, и построил Ниневию, Реховоф-ир, Калах и Ресен (10:11–12, по одному из прочтений)."
+  },
+  {
+   "entity_id": "person.cush",
+   "canonical_name": "Хуш",
+   "phonetic_name": "Хуш",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; позднее — название земли к югу от Египта.",
+   "summary_bio": "Старший из названных сынов Хама. Отец Севы, Хавилы, Савты, Раамы, Савтехи и Нимрода (10:6–8)."
+  },
+  {
+   "entity_id": "person.dedan.gen_10_7",
+   "canonical_name": "Дедан",
+   "phonetic_name": "Де-дан",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Раамы, внук Хуша (10:7). Другой Дедан, внук Авраама, упомянут в Быт 25."
+  },
+  {
+   "entity_id": "person.diklah",
+   "canonical_name": "Дикла",
+   "phonetic_name": "Дик-ла",
+   "aliases": [],
+   "etymology_meaning": "«Пальмовая роща» (вероятно).",
+   "summary_bio": "Сын Иоктана (10:27)."
+  },
+  {
+   "entity_id": "person.eber",
+   "canonical_name": "Евер",
+   "phonetic_name": "Е-вер",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «область за рекой» или «переходящий на ту сторону».",
+   "summary_bio": "Правнук Сима через Арфаксада и Салу. Предок «всех сынов Еверовых» и отец Фалека и Иоктана (10:21, 24–25)."
+  },
+  {
+   "entity_id": "person.elam.gen_10_22",
+   "canonical_name": "Елам",
+   "phonetic_name": "Е-лам",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «нагорье».",
+   "summary_bio": "Сын Сима (10:22). По нему названа земля Елам."
+  },
+  {
+   "entity_id": "person.elishah",
+   "canonical_name": "Елиса",
+   "phonetic_name": "Е-ли-са",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иавана и внук Иафета (10:2, 4)."
+  },
+  {
+   "entity_id": "person.gether",
+   "canonical_name": "Гефер",
+   "phonetic_name": "Ге-фер",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Арама (10:23)."
+  },
+  {
+   "entity_id": "person.gomer",
+   "canonical_name": "Гомер",
+   "phonetic_name": "Го-мер",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; возможно, «завершение» (вероятно).",
+   "summary_bio": "Старший из названных сынов Иафета. Отец Аскеназа, Рифата и Фогармы (10:2–3)."
+  },
+  {
+   "entity_id": "person.hadoram",
+   "canonical_name": "Гадорам",
+   "phonetic_name": "Га-до-рам",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:27)."
+  },
+  {
+   "entity_id": "person.havilah",
+   "canonical_name": "Хавила",
+   "phonetic_name": "Ха-ви-ла",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:29), тёзка хушитского Хавилы из 10:7."
+  },
+  {
+   "entity_id": "person.havilah.gen_10_7",
+   "canonical_name": "Хавила",
+   "phonetic_name": "Ха-ви-ла",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; возможно, «песчаная земля».",
+   "summary_bio": "Сын Хуша (10:7). Второй Хавила — сын Иоктана (10:29)."
+  },
+  {
+   "entity_id": "person.hazarmaveth",
+   "canonical_name": "Хацармавеф",
+   "phonetic_name": "Ха-цар-ма-вет",
+   "aliases": [],
+   "etymology_meaning": "«Двор смерти» (вероятно); связывают с Хадрамаутом.",
+   "summary_bio": "Сын Иоктана (10:26)."
+  },
+  {
+   "entity_id": "person.hul",
+   "canonical_name": "Хул",
+   "phonetic_name": "Хул",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Арама (10:23)."
+  },
+  {
+   "entity_id": "person.javan",
+   "canonical_name": "Иаван",
+   "phonetic_name": "Йа-ван",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, ионийцы (греки).",
+   "summary_bio": "Сын Иафета и отец Елисы, Фарсиса, Киттима и Доданима (10:2, 4)."
+  },
+  {
+   "entity_id": "person.jerah",
+   "canonical_name": "Иерах",
+   "phonetic_name": "Йе-рах",
+   "aliases": [],
+   "etymology_meaning": "«Луна» (вероятно).",
+   "summary_bio": "Сын Иоктана (10:26)."
+  },
+  {
+   "entity_id": "person.jobab.gen_10_29",
+   "canonical_name": "Иовав",
+   "phonetic_name": "Йо-вав",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Последний из названных сынов Иоктана (10:29)."
+  },
+  {
+   "entity_id": "person.joktan",
+   "canonical_name": "Иоктан",
+   "phonetic_name": "Йок-тан",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, «он мал».",
+   "summary_bio": "Младший сын Евера и отец тринадцати сыновей, чьи поселения перечислены от Меши к Сефару (10:25–30)."
+  },
+  {
+   "entity_id": "person.lud",
+   "canonical_name": "Луд",
+   "phonetic_name": "Луд",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Сима (10:22)."
+  },
+  {
+   "entity_id": "person.madai",
+   "canonical_name": "Мадай",
+   "phonetic_name": "Ма-дай",
+   "aliases": [],
+   "etymology_meaning": "Вероятно, название мидян.",
+   "summary_bio": "Третий из названных сынов Иафета (10:2), имя, позднее связанное с мидянами."
+  },
+  {
+   "entity_id": "person.magog",
+   "canonical_name": "Магог",
+   "phonetic_name": "Ма-гог",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Второй из названных сынов Иафета (10:2). Больше текст о нём здесь ничего не говорит."
+  },
+  {
+   "entity_id": "person.mash",
+   "canonical_name": "Маш",
+   "phonetic_name": "Маш",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Арама (10:23)."
+  },
+  {
+   "entity_id": "person.meshech",
+   "canonical_name": "Мешех",
+   "phonetic_name": "Ме-шех",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иафета (10:2), назван после Фувала."
+  },
+  {
+   "entity_id": "person.mizraim",
+   "canonical_name": "Мицраим",
+   "phonetic_name": "Миц-ра-им",
+   "aliases": [
+    "Египет"
+   ],
+   "etymology_meaning": "Еврейское название Египта; форма двойственного числа.",
+   "summary_bio": "Сын Хама, предок Египта и народов, перечисленных в 10:13–14, включая род, от которого вышли филистимляне."
+  },
+  {
+   "entity_id": "person.nimrod",
+   "canonical_name": "Нимрод",
+   "phonetic_name": "Ним-род",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; возможно, «взбунтуемся» (народное прочтение).",
+   "summary_bio": "Сын Хуша. Он начал быть силён на земле и был сильным звероловом пред Господом, что стало поговоркой. Его царство вначале составляли Вавилон, Эрех, Аккад и Халне в земле Сеннаар (10:8–10)."
+  },
+  {
+   "entity_id": "person.obal",
+   "canonical_name": "Овал",
+   "phonetic_name": "О-вал",
+   "aliases": [
+    "Эвал"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:28)."
+  },
+  {
+   "entity_id": "person.ophir",
+   "canonical_name": "Офир",
+   "phonetic_name": "О-фир",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; также название золотоносной страны.",
+   "summary_bio": "Сын Иоктана (10:29)."
+  },
+  {
+   "entity_id": "person.peleg",
+   "canonical_name": "Фалек",
+   "phonetic_name": "Фа-лек",
+   "aliases": [
+    "Пелег"
+   ],
+   "etymology_meaning": "«Разделение» (текст объясняет имя тем, что во дни его земля была разделена).",
+   "summary_bio": "Сын Евера, брат Иоктана. Во дни его земля была разделена (10:25)."
+  },
+  {
+   "entity_id": "person.put",
+   "canonical_name": "Фут",
+   "phonetic_name": "Фут",
+   "aliases": [
+    "Пут"
+   ],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Хама (10:6)."
+  },
+  {
+   "entity_id": "person.raamah",
+   "canonical_name": "Раама",
+   "phonetic_name": "Ра-а-ма",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Хуша и отец Шевы и Дедана (10:7)."
+  },
+  {
+   "entity_id": "person.riphath",
+   "canonical_name": "Рифат",
+   "phonetic_name": "Ри-фат",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Гомера и внук Иафета (10:3)."
+  },
+  {
+   "entity_id": "person.sabtah",
+   "canonical_name": "Савта",
+   "phonetic_name": "Сав-та",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Хуша (10:7)."
+  },
+  {
+   "entity_id": "person.sabteca",
+   "canonical_name": "Савтеха",
+   "phonetic_name": "Сав-те-ха",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Хуша (10:7)."
+  },
+  {
+   "entity_id": "person.seba",
+   "canonical_name": "Сева",
+   "phonetic_name": "Се-ва",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Первый из названных сынов Хуша (10:7)."
+  },
+  {
+   "entity_id": "person.sheba.gen_10_28",
+   "canonical_name": "Шева",
+   "phonetic_name": "Ше-ва",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:28), из рода Сима, в отличие от хушита Шевы из 10:7."
+  },
+  {
+   "entity_id": "person.sheba.gen_10_7",
+   "canonical_name": "Шева",
+   "phonetic_name": "Ше-ва",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Раамы, внук Хуша (10:7). Ещё двое мужчин по имени Шева упомянуты в Книге Бытие."
+  },
+  {
+   "entity_id": "person.shelah",
+   "canonical_name": "Сала",
+   "phonetic_name": "Са-ла",
+   "aliases": [
+    "Шелах"
+   ],
+   "etymology_meaning": "Значение неясно; возможно, «росток» или «просьба».",
+   "summary_bio": "Сын Арфаксада и отец Евера (10:24)."
+  },
+  {
+   "entity_id": "person.sheleph",
+   "canonical_name": "Шалеф",
+   "phonetic_name": "Ша-леф",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:26)."
+  },
+  {
+   "entity_id": "person.sidon",
+   "canonical_name": "Сидон",
+   "phonetic_name": "Си-дон",
+   "aliases": [
+    "Цидон"
+   ],
+   "etymology_meaning": "Значение неясно; возможно, «рыбная ловля» (вероятно).",
+   "summary_bio": "Первенец Ханаана (10:15). Город Сидон получил от него своё имя."
+  },
+  {
+   "entity_id": "person.tarshish",
+   "canonical_name": "Фарсис",
+   "phonetic_name": "Фар-сис",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; также название далёкого приморского места.",
+   "summary_bio": "Сын Иавана (10:4)."
+  },
+  {
+   "entity_id": "person.tiras",
+   "canonical_name": "Фирас",
+   "phonetic_name": "Фи-рас",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Седьмой и последний из названных сынов Иафета (10:2)."
+  },
+  {
+   "entity_id": "person.togarmah",
+   "canonical_name": "Фогарма",
+   "phonetic_name": "Фо-гар-ма",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Гомера и внук Иафета (10:3)."
+  },
+  {
+   "entity_id": "person.tubal",
+   "canonical_name": "Фувал",
+   "phonetic_name": "Фу-вал",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иафета (10:2), назван вместе с братом Мешехом."
+  },
+  {
+   "entity_id": "person.uz",
+   "canonical_name": "Уц",
+   "phonetic_name": "Уц",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Арама (10:23)."
+  },
+  {
+   "entity_id": "person.uzal",
+   "canonical_name": "Узал",
+   "phonetic_name": "У-зал",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно.",
+   "summary_bio": "Сын Иоктана (10:27)."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.asshur.dwelling.1",
+   "label_key": "Местопребывание",
+   "label_value": "В Ассирии (Ниневия, Калах)",
+   "evidence_explanation": "Быт 10:11: Ассур вышел из той земли и построил Ниневию и Калах, города Ассирии (по прочтению, где Ассур — подлежащее)."
+  },
+  {
+   "component_id": "comp.canaanites.territory.1",
+   "label_key": "Земля",
+   "label_value": "Ханаан, от Сидона до Газы и Лаши",
+   "evidence_explanation": "Быт 10:19 проводит предел от Сидона к Герару до Газы, а к Содому — до Лаши."
+  },
+  {
+   "component_id": "comp.nimrod.occupation.1",
+   "label_key": "Занятие",
+   "label_value": "Сильный зверолов пред Господом",
+   "evidence_explanation": "Быт 10:9: «он был сильный зверолов пред Господом»."
+  },
+  {
+   "component_id": "comp.nimrod.office.1",
+   "label_key": "Должность",
+   "label_value": "Царь, чьё царство начинается в Сеннааре",
+   "evidence_explanation": "Быт 10:10: «царство его вначале составляли Вавилон, Эрех, Аккад и Халне»."
+  }
+ ],
+ "systems": [],
+ "system_instances": [],
+ "edges": [
+  {
+   "edge_id": "edge.gen_10.asshur_builds_calah",
+   "interaction_label": "строит",
+   "description": "Ассур строит Калах (10:11)."
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_nineveh",
+   "interaction_label": "строит",
+   "description": "Ассур строит Ниневию, выйдя из той земли (10:11)."
+  },
+  {
+   "edge_id": "edge.gen_10.asshur_builds_resen",
+   "interaction_label": "строит",
+   "description": "Ассур строит Ресен между Ниневией и Калахом, «город великий» (10:12)."
+  },
+  {
+   "edge_id": "edge.gen_10.eber_fathers_peleg",
+   "interaction_label": "родит",
+   "description": "У Евера два сына, Фалек и Иоктан (10:25)."
+  },
+  {
+   "edge_id": "edge.gen_10.nimrod_rules_babel",
+   "interaction_label": "правит",
+   "description": "Вавилон — первый город царства Нимрода (10:10)."
+  }
+ ]
+}

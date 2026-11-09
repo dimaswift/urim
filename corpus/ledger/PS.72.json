@@ -445,6 +445,470 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.72.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [
+    "Заглавие «Соломону» в Синодальном — отдельная строка (надписание); здесь оно часть стиха, как в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[consider] Quote the Synodal exactly, or leave it out, since the English has no Synodal comparison. (Synodal Ps 71:1: «Боже! даруй царю Твой суд и сыну царя Твою правду»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8f4e05b739e"
+  },
+  "verse.ru:PS.72.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [
+    "Для שְׁבָא и סְבָא в подстрочнике взяты «Шева» и «Сева» (по звучанию иврита); Синодальный даёт «Аравии» и «Савы». Для תַרְשִׁישׁ — «Фарсис», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[consider] Quote the Synodal exactly and adjust the remark about the two verbs. (Synodal Ps 71:10: «цари Фарсиса и островов поднесут ему дань; цари Аравии и Савы принесут дары»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32d7612d1385"
+  },
+  "verse.ru:PS.72.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "60b42b6603d2"
+  },
+  "verse.ru:PS.72.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8e81a8e90af2"
+  },
+  "verse.ru:PS.72.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Восстановлено замечание английского комментария о KJV «spare»; Синодальный процитирован точно («будет милосерд», «души убогих спасет»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Restore the English point about the KJV 'spare'; if the Synodal is mentioned, quote it exactly ('будет милосерд', 'души убогих спасет'). (Synodal Ps 71:13: «Будет милосерд к нищему и убогому, и души убогих спасет»; English commentary: \"The KJV 'spare' for yachos is fair, but it hides the feeling\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": "[consider] Gloss pos 1 as «сжалится» so that «над» reads naturally, or gloss pos 2 as «[на]». (PS.72.13: «יָחֹס עַל־דַּל וְאֶבְיוֹן»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "08cea99e7e0b"
+  },
+  "verse.ru:PS.72.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:44+00:00",
+   "agent_notes": [
+    "Сказано, что Синодальное «от коварства и насилия» согласно с прочтением «обман»; «лихва» оставлена церковнославянскому тексту, как просил рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Replace the sentence: the Synodal 'от коварства и насилия' agrees with the 'обман' reading (the 'лихва' reading belongs to the Church Slavonic), or remove the Synodal sentence. (PS.72.14: «מִתּוֹךְ וּמֵחָמָס»; Synodal Ps 71:14: «от коварства и насилия избавит души их»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51d5de45af0c"
+  },
+  "verse.ru:PS.72.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:14:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «золото Шевы» как «золото Аравийское»; в буквальном слое оставлено «Шева», в драматическом — «Шева» тоже, чтобы сохранить имя."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48047aa9b9d2"
+  },
+  "verse.ru:PS.72.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:44+00:00",
+   "agent_notes": [
+    "Синодальное «плоды его будут колебаться, как лес на Ливане» процитировано дословно; сказано, что, как и KJV «shake», оно смягчает йир'аш. В последнем абзаце цитата «в городах размножатся люди» оставлена: она точна."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('будут колебаться, как лес на Ливане') and say that it, like the KJV 'shake', softens yir'ash; or remove the Synodal sentence. (PS.72.16: «יִרְעַשׁ כַּלְּבָנוֹן פִּרְיוֹ»; Synodal Ps 71:16: «плоды его будут колебаться, как лес на Ливане, и в городах размножатся люди»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cbbaab8e8988"
+  },
+  "verse.ru:PS.72.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:14:19+00:00",
+   "agent_notes": [
+    "Игра слов יְבָרֲכוּ / יְאַשְּׁרוּהוּ (глаголы ברך и אשר): в русском «благословляться им» и «назвать счастливым» удерживают различие; Синодальное «ублажат» близко ко второму глаголу, но звучит архаично, поэтому в драматическом слое взято «назовут счастливым»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[consider] Quote the Synodal exactly. (Synodal Ps 71:17: «доколе пребывает солнце, будет передаваться имя его, и благословятся в нем племена, все народы ублажат его»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b401bcd0a1da"
+  },
+  "verse.ru:PS.72.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:14:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b543df365850"
+  },
+  "verse.ru:PS.72.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:44+00:00",
+   "agent_notes": [
+    "Буквальный слой: «и да наполнит слава его всю землю», глосс 5 — «и да наполнит», по просьбе рецензента; знак дополнения (поз. 7) оставлен отдельным глоссом. Это следует ивритскому порядку «да наполнится… всю землю» с русским прямым дополнением."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Write the literal layer as 'и да наполнит слава его всю землю' and gloss pos 5 as 'и да наполнит' (keep pos 7 as the object marker). (PS.72.19: «וְיִמָּלֵא כְבוֹדוֹ אֶת־כֹּל הָאָרֶץ»; English literal: \"may his glory fill all the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": "[consider] Quote the Synodal with its «да» («и да наполнится славою Его вся земля») and say that it, too, keeps the wish. (PS.72.19: «וְיִמָּלֵא כְבוֹדוֹ אֶת־כֹּל הָאָרֶץ»; Synodal Ps 71:19: «и да наполнится славою Его вся земля»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "30aa08ffb0f7"
+  },
+  "verse.ru:PS.72.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном переписана по запросу рецензента: цитата точная («да судит праведно людей Твоих и нищих Твоих на суде»), утверждение о «справедливости», как в ASV, снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Either quote the Synodal exactly («да судит праведно людей Твоих и нищих Твоих на суде») and drop the claim that it says 'справедливость' like the ASV, or remove the added Synodal sentence. (Synodal Ps 71:2: «да судит праведно людей Твоих и нищих Твоих на суде»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "709b57f853fe"
+  },
+  "verse.ru:PS.72.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:14:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e301a259221e"
+  },
+  "verse.ru:PS.72.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba35598d10ad"
+  },
+  "verse.ru:PS.72.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно; сказано, что он сохраняет «судит», а последний глагол смягчает до «смирит»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly and say what it actually does (keeps 'судит', softens the last verb to 'смирит'), or remove the added Synodal sentence. (Synodal Ps 71:4: «Да судит нищих народа, да спасет сынов убогого и смирит притеснителя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "14ca90e27ca0"
+  },
+  "verse.ru:PS.72.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Синодальный читает глагол как будущее («будут бояться») и, как KJV, сливает два предлога в «доколе пребудут»; прежнее «Да благоговеют» было ошибкой."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly and say that it reads a future ('будут бояться') and, like the KJV, merges the two prepositions into 'доколе пребудут'; or remove the Synodal sentence. (Synodal Ps 71:5: «будут бояться Тебя, доколе пребудут солнце и луна, в роды родов»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74eea2ca027e"
+  },
+  "verse.ru:PS.72.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [
+    "Игру יֵרֵד / וְיֵרְדְּ (стихи 6 и 8) по-русски передать нельзя; она оговорена в комментарии и примечании к стиху 8."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99f54ba9b902"
+  },
+  "verse.ru:PS.72.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Утверждение, будто Синодальный читает «цадик» как «правда» и отходит от Масоретского текста, снято: он читает «праведник»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('процветет праведник') and remove the claim that it departs from the Masoretic text, or remove the added Synodal sentence. (PS.72.7: «יִפְרַח־בְּיָמָיו צַדִּיק»; Synodal Ps 71:7: «во дни его процветет праведник, и будет обилие мира, доколе не престанет луна»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41f6a00db68b"
+  },
+  "verse.ru:PS.72.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:19:32+00:00",
+   "agent_notes": [
+    "Синодальный читает глагол как будущее («будет обладать»), как KJV, а не как юссив; в моей строке юссив передан словом «владычествует»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('будет обладать ... до концов земли') and correct what the sentence says about its verb, or remove the added Synodal sentence. (Synodal Ps 71:8: «он будет обладать от моря до моря и от реки до концов земли»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:20:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a381304aae1a"
+  },
+  "verse.ru:PS.72.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:11:05+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «צִיִּים» как «жители пустынь» (как и подстрочный слой); корабельное чтение Ибн Эзры упомянуто в комментарии и примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:17:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7957952573eb"
   }
  },
  "notes": []

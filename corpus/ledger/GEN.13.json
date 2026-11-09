@@ -1,6 +1,63 @@
 {
  "chapter_ref": "GEN.13",
  "items": {
+  "causal.ru:caus.gen_13.herdsmen_strife.separation_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa4e6a08886a"
+  },
+  "causal.ru:caus.gen_13.lot_chooses_plain.promise_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bcdc5f32a64a"
+  },
+  "causal.ru:caus.gen_13.separation_proposal.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0aaaf5220d76"
+  },
   "causal:caus.gen_13.herdsmen_strife.separation_proposal": {
    "status": "approved",
    "produced_by": {
@@ -76,6 +133,128 @@
     }
    ],
    "source": null
+  },
+  "component.ru:comp.abraham.dwelling.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99b8c4c8db01"
+  },
+  "component.ru:comp.abraham.dwelling.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "76424aeb9812"
+  },
+  "component.ru:comp.abraham.offspring_promise.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:55:11+00:00",
+   "agent_notes": [
+    "«Прах земной» в обоих полях, как в просьбе рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[should_fix] Use 'прах земной' in both fields: 'Потомство, как прах земной' and 'Господь сделает потомство Аврама, как прах земной'. (GEN.13.16: כַּעֲפַר הָאָרֶץ; English label: 'Offspring like the dust of the earth')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:56:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0ed5776aff5"
+  },
+  "component.ru:comp.lot.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "12b0c8002496"
+  },
+  "component.ru:comp.lot.wealth.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "79bf04e7a63a"
+  },
+  "component.ru:comp.men_of_sodom.moral_state.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa05d78fb525"
   },
   "component:comp.abraham.dwelling.3": {
    "status": "approved",
@@ -193,6 +372,82 @@
    ],
    "source": null
   },
+  "edge.ru:edge.gen_13.abram_proposes_parting": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fb33874c6a8c"
+  },
+  "edge.ru:edge.gen_13.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4cc1ed3d54c0"
+  },
+  "edge.ru:edge.gen_13.yhwh_commands_walk": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "11e788d6e87a"
+  },
+  "edge.ru:edge.gen_13.yhwh_promises_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9a71a6b359ac"
+  },
   "edge:edge.gen_13.abram_proposes_parting": {
    "status": "approved",
    "produced_by": {
@@ -268,6 +523,164 @@
     }
    ],
    "source": null
+  },
+  "entity.ru:group.herdsmen_of_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b62adfa3122b"
+  },
+  "entity.ru:group.herdsmen_of_lot": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ac385b46b082"
+  },
+  "entity.ru:group.men_of_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "852aa185360b"
+  },
+  "entity.ru:group.perizzites": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «Ферезеи». Значение «жители селений» дано с той же оговоркой, что в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4b52f95a5aff"
+  },
+  "entity.ru:loc.gomorrah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "795f4e6ea8bc"
+  },
+  "entity.ru:loc.hebron": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [
+    "Киръят-арба передано как «Кириаф-Арба», как в Синодальном (Быт 23:2)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d5135984302b"
+  },
+  "entity.ru:loc.sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2306cc4a3263"
+  },
+  "entity.ru:loc.zoar": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [
+    "Синодальный перевод пишет «Сигор» (13:10) и в 14:2 «Бела, то есть Сигор»; использованы обе формы. Объяснение имени («малый») опирается на Быт 19."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96bb249c5f24"
   },
   "entity:group.herdsmen_of_abram": {
    "status": "approved",
@@ -454,6 +867,170 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_13.altar_worship_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59b033b6afda"
+  },
+  "event.ru:evt.gen_13.ascent_from_egypt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [
+    "Слово «Негев» оставлено для топонима юга, хотя Синодальный пишет просто «на юг»; в тексте события это географическое название. «Переходы» (13:3) переданы словом «переходы»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f366f2f18fe6"
+  },
+  "event.ru:evt.gen_13.herdsmen_strife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "000661b503bf"
+  },
+  "event.ru:evt.gen_13.lot_chooses_plain": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [
+    "Синодальный: «окрестность Иорданская»; в заглавии выбрано «долина Иордана» для ясности, в пересказе «равнина»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cfd387409010"
+  },
+  "event.ru:evt.gen_13.lot_settles_by_sodom": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3c6626dcc635"
+  },
+  "event.ru:evt.gen_13.promise_to_abram": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:55:11+00:00",
+   "agent_notes": [
+    "По требованию рецензента «песок земной» заменён на «прах земной»: в 13:16 стоит כַּעֲפַר הָאָרֶץ, «как прах земной». Синодальный перевод здесь читает «песок земной» (так же, как в 22:17 для חוֹל), поэтому Синодальный текст в этом месте расходится с еврейским."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[should_fix] Replace 'потомство, как песок земной' with 'потомство, как прах земной' (or 'как пыль земную'). (GEN.13.16: כַּעֲפַר הָאָרֶץ, 'like the dust of the earth' (English summary: 'descendants like the dust of the earth'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:56:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bb0b7f500646"
+  },
+  "event.ru:evt.gen_13.separation_proposal": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "91efd89391da"
+  },
+  "event.ru:evt.gen_13.settles_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95003841b5ae"
   },
   "event:evt.gen_13.altar_worship_bethel": {
    "status": "approved",
@@ -799,6 +1376,71 @@
     }
    ],
    "source": null
+  },
+  "instance.ru:inst.gen_13.altar_at_mamre": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "430f79dcedbd"
+  },
+  "instance.ru:inst.gen_13.invoking_at_bethel": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:50:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c1edcf833bb8"
+  },
+  "instance.ru:inst.gen_13.promise_of_land": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:55:11+00:00",
+   "agent_notes": [
+    "«Прах земной» вместо «песок земной», по тому же основанию (עָפָר, а не חוֹל)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[should_fix] Replace 'как песок земной' with 'как прах земной'. (GEN.13.16: כַּעֲפַר הָאָרֶץ, 'like the dust of the earth')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:56:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6971a5079eef"
   },
   "instance:inst.gen_13.altar_at_mamre": {
    "status": "approved",
@@ -1242,6 +1884,376 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:GEN.13.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [
+    "Имя Аврам (а не Авраам) и Сара/Сарай: до 17-й главы текст называет его Аврам, как и Синодальный перевод. Слово «Негев» оставлено как название области, в Синодальном — «на юг»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4e6e7c4ea44a"
+  },
+  "verse.ru:GEN.13.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:55:35+00:00",
+   "agent_notes": [
+    "Dramatic layer now says «до самого Сигора» (Synodal, and entity loc.zoar); the literal layer keeps the Hebrew form «Цоар»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[should_fix] In translation_dramatic write 'до самого Сигора'; the literal 'Цоар' may stay as the Hebrew form. (GEN.13.10: צֹעַר; Synodal 'до Сигора'; entity.ru:loc.zoar canonical_name 'Сигор')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:56:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bce73e2cda25"
+  },
+  "verse.ru:GEN.13.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f0cc7b008a5c"
+  },
+  "verse.ru:GEN.13.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8f2b6509d578"
+  },
+  "verse.ru:GEN.13.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:37+00:00",
+   "agent_notes": [
+    "Синодальный перевод «пред Господом» смягчает сказанное; в буквальном слое — «против YHWH», как в английском, потому что ламед здесь может значить и «пред», и «против». В комментарии добавлено, что Синодальный выбирает «пред»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[consider] Consider one spelling ('Ибн Эзра') and one source style across the chapter. (GEN.13.13 sources 'Раши к Бытию 13:13' vs GEN.13.1 'Rashi on Genesis 13:1')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d58edd19d30"
+  },
+  "verse.ru:GEN.13.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:37+00:00",
+   "agent_notes": [
+    "Четыре направления в буквальном слое переданы с окончаниями направления: «к северу, и к югу, и к востоку, и к морю [т. е. к западу]»; «ям» («море») — слово для запада."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "19d1e0ec5d56"
+  },
+  "verse.ru:GEN.13.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:55:35+00:00",
+   "agent_notes": [
+    "Brackets removed: the Hebrew participle רֹאֶה is expressed in Russian by the present «видишь», so no word is added."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[should_fix] Remove the brackets: literal 'которую ты видишь', and gloss pos 7 'видишь' (or 'видящий'). (GEN.13.15: אֲשֶׁר־אַתָּה רֹאֶה, 'that you [are] seeing')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:56:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "273faf2ae662"
+  },
+  "verse.ru:GEN.13.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21c63970546b"
+  },
+  "verse.ru:GEN.13.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3a027f33bbad"
+  },
+  "verse.ru:GEN.13.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:37+00:00",
+   "agent_notes": [
+    "«Дубрава Мамре» — форма Синодального перевода; в буквальном слое «дубы», потому что еврейское эйлоней — отдельные большие деревья. «И двинул шатёр» в Синодальном — удачная передача вайе'эхаль; в буквальном слое «и шатрствовал» ради структуры еврейского."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1b58dee30db4"
+  },
+  "verse.ru:GEN.13.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35f9ff50f961"
+  },
+  "verse.ru:GEN.13.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[consider] Consider 'между Бет-Элем и между Аем' in the literal layer to match GEN.12.8. (GEN.13.3: בֵּין בֵּית־אֵל וּבֵין הָעָי; GEN.12.8 ru literal: 'Бет-Эль с запада, а Ай с востока')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51db8b357623"
+  },
+  "verse.ru:GEN.13.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1dc4e762d82a"
+  },
+  "verse.ru:GEN.13.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6095989d00da"
+  },
+  "verse.ru:GEN.13.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bacd073535b5"
+  },
+  "verse.ru:GEN.13.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[consider] Consider one form across layers (e.g. 'хананей и ферезей' in both). (GEN.13.7: וְהַכְּנַעֲנִי וְהַפְּרִזִּי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "07b8b72149c4"
+  },
+  "verse.ru:GEN.13.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «анашим ахим» как «мы родственники»; в буквальном слое оставлено «мы — люди, братья», в драматическом — «мы же братья»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "97aa7e668720"
+  },
+  "verse.ru:GEN.13.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:51:48+00:00",
+   "agent_notes": [
+    "Глаголы «веэймина» и «веасмиела» переданы как «пойду вправо» / «пойду влево» в драматическом слое и как «буду правым» / «буду левым» в буквальном, чтобы сохранить образование глаголов от существительных."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:53:46+00:00",
+     "note": "[consider] Consider 'вправо и влево (веэймина, веасмиела)'. (GEN.13.9: וְאֵימִנָה ... וְאַשְׂמְאִילָה)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21a0eec078fc"
   }
  },
  "notes": [

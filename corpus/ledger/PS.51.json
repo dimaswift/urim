@@ -450,6 +450,467 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.51.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:56+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию рецензента: в Синодальном переводе это Пс 50, но надписание там занимает стихи 1–2, как в еврейском тексте, так что номера стихов совпадают с еврейскими, и «Помилуй меня, Боже» — стих 3 (так же в PS.51.13: Пс 50:13 = евр. 51:13)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] Replace «То же и в Синодальном переводе: там это Пс 50, надписание не нумеруется, и «Помилуй меня, Боже» — стих 1, тогда как в еврейском тексте это стих 3.» with: «В Синодальном переводе это Пс 50, но надписание там занимает стихи 1–2, как в еврейском, так что номера стихов совпадают с еврейскими: «Помилуй меня, Боже» — стих 3.» Correct the reviewer note the same way. (PS.51.13 ru commentary itself cites «Духа Твоего Святаго» as Пс 50:13 for Hebrew 51:13; the familiar «Сердце чистое сотвори во мне, Боже» is Пс 50:12 = Hebrew 51:12.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d73f5e50e3e5"
+  },
+  "verse.ru:PS.51.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d9bca27dbc8"
+  },
+  "verse.ru:PS.51.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9c0eca2ca41"
+  },
+  "verse.ru:PS.51.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:56+00:00",
+   "agent_notes": [
+    "Сравнение с Синодальным переводом переписано: «дух правый» там (Пс 50:12: «и дух правый обнови внутри меня») совпадает с KJV «right spirit»; английский комментарий о русском тексте ничего не говорит, это добавлено переводчиком."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] Replace «Синодальное «дух правый» следует KJV («right spirit»)» with «Синодальное «дух правый», как и KJV «right spirit», …». (English PS.51.12 commentary compares only the KJV 'right spirit' with nakhon; it says nothing of the Russian. Синодальный Пс 50:12: «и дух правый обнови внутри меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48ffbc4050cc"
+  },
+  "verse.ru:PS.51.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:36:05+00:00",
+   "agent_notes": [
+    "По запросу рецензента комментарий заканчивается фразой о нумерации: Пс 50:13 в Синодальном, 11 в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] End the commentary with: «Заметим и нумерацию: в еврейском тексте заголовок псалма — стих 1, поэтому этот стих — 13; так же и в Синодальном (Пс 50:13), а в KJV, где заголовок не считается, он 11.» (PS.51.13 ru commentary: «Синодальное «Духа Твоего Святаго» (Пс 50:13)» vs «в Синодальном переводе, где заголовок не считается, он 11». English: 'this verse is 13 where the KJV counts it as 11'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "484c1c2f5704"
+  },
+  "verse.ru:PS.51.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [
+    "Синодальный: «Духом владычественным утверди меня» — выбирает «знатный, владычественный» (оттенок Раши), а не «готовый, добровольный». Здесь «дух доброхотный (готовый)»; в комментарии отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2268c4dbdd43"
+  },
+  "verse.ru:PS.51.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [
+    "פֹשְׁעִים — «отступники» (бунтующие против власти), חַטָּאִים — «грешники»; Синодальный даёт «беззаконных» и «нечестивых». Различие передано, чтобы сохранить пару."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6b6cf5d404fc"
+  },
+  "verse.ru:PS.51.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:36:05+00:00",
+   "agent_notes": [
+    "По запросу: «восхвалит» Синодального (Пс 50:16) теряет звук крика, а не «возрадуется»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] Replace «Синодальное «возрадуется» слабее» with «Синодальное «восхвалит» теряет звук крика». (Пс 50:16 (Синодальный): «Избавь меня от кровей, Боже, Боже спасения моего, и язык мой восхвалит правду Твою.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f3808f07450"
+  },
+  "verse.ru:PS.51.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [
+    "אֲדֹנָי — «Господи» (обращение), не имя YHWH; в буквальном слое «мой Владыка» (дословно «мой господин») для различения."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c67c7795ee92"
+  },
+  "verse.ru:PS.51.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [
+    "Синодальный, как и KJV, делает из «и я дал бы» отдельное предложение через тире; в буквальном слое оставлена цепочка с «и»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[consider] Quote the Synodal as «— я дал бы ее». (Пс 50:18 (Синодальный): «ибо жертвы Ты не желаешь, — я дал бы ее; к всесожжению не благоволишь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9ac9a14df1a"
+  },
+  "verse.ru:PS.51.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ec8921f5285"
+  },
+  "verse.ru:PS.51.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[consider] Quote the Synodal exactly, or drop the quotation marks. (Пс 50:2 (Синодальный).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a218325cc12"
+  },
+  "verse.ru:PS.51.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4707bb0b03a"
+  },
+  "verse.ru:PS.51.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:36:05+00:00",
+   "agent_notes": [
+    "По запросу: в Синодальном «возношение» передаёт олу, «всесожжение» — калиль, так что «всесожжение» Синодального здесь — не ола. В глоссах и буквальном слое ола остаётся «всесожжением», как в уже утверждённых стихах 18–19; различие вынесено в комментарий."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] Replace «Синодальное ставит «возношение и всесожжение», а еврейское слово для первого — калиль.» with «Синодальное «возношение и всесожжение» передаёт олу как «возношение», а калиль как «всесожжение», так что «всесожжение» Синодального здесь — не ола.» (PS.51.21 tokens 5 עוֹלָה, 6 וְכָלִיל; the ru glosses themselves: pos 5 «всесожжение», pos 6 «и цельное приношение».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2f554702977"
+  },
+  "verse.ru:PS.51.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "936ee71ed0db"
+  },
+  "verse.ru:PS.51.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [
+    "Керé «множь!» (herev) передано в буквальном слое как «Умножь!», в драматическом — через повтор; Синодальное «многократно омой» следует скорее кетиву. Оба прочтения названы в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "888db3a3a989"
+  },
+  "verse.ru:PS.51.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8566660a6c05"
+  },
+  "verse.ru:PS.51.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[consider] Quote it as «Тебе, Тебе единому согрешил я и лукавое пред очами Твоими сделал». (Пс 50:6 (Синодальный): «Тебе, Тебе единому согрешил я и лукавое пред очами Твоими сделал».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "278f329afde7"
+  },
+  "verse.ru:PS.51.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [
+    "Слово «зачат»/«родила» в Синодальном переводе подталкивает к учению о первородном грехе; в буквальном слое сохранено «был рождён в муках» (חוֹלָלְתִּי) и «разгорячила меня» (יֶחֱמַתְנִי), как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "01b3b1d2dba9"
+  },
+  "verse.ru:PS.51.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:56+00:00",
+   "agent_notes": [
+    "Драматический слой исправлен по английскому: «В потаённой глубине моей Ты учишь меня мудрости» (прежний вариант «в потаённом месте меня» был неточен)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": "[should_fix] Change to «В потаённой глубине моей Ты учишь меня мудрости.» (PS.51.8 English dramatic: 'In the secret place of me, you teach me wisdom.')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:36:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7ccb7c02aec3"
+  },
+  "verse.ru:PS.51.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:53+00:00",
+   "agent_notes": [
+    "Игру слов חטא «грешить» → «снять грех» (תְּחַטְּאֵנִי) в русском не удержать; в буквальном слое — «обезгрешишь меня», в комментарии и примечании пояснено. Синодальное «окропи» тоже скрывает игру."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:34:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "84f0881a4997"
   }
  },
  "notes": []

@@ -360,6 +360,359 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.91.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [
+    "Шаддай передано как «Шаддай (Всемогущий)» в глоссе и «Шаддай» в буквальном слое; в драматическом слое и Синодальный перевод, и этот текст используют «Всемогущий». «Елйон» в буквальном слое — «Всевышний» без артикля, как в Синодальном.",
+    "Нумерация: в Синодальном переводе этот псалом — Пс. 90, стихи совпадают по порядку с ивритскими (91:1 = 90:1). Для сопоставления с Синодальным текстом это нужно держать в уме."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[consider] Consider «в тени Шаддая» in the literal layer and «Шаддая (Всемогущего)» in gloss 5. (PS.91.1: בְּצֵל שַׁדַּי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd77bb594cb2"
+  },
+  "verse.ru:PS.91.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [
+    "תְאֻנֶּה в буквальном слое «не позволено будет случиться»; Синодальное «не приключится тебе зло» близко по смыслу к «befall» KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8f16e40d5459"
+  },
+  "verse.ru:PS.91.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5cb12125d6c2"
+  },
+  "verse.ru:PS.91.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:30+00:00",
+   "agent_notes": [
+    "Добавлено подлежащее «ты» в буквальном слое и в глоссе; в комментарии исправлено «море» (опечатка вместо «мор», чума) на «моровую язву»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[should_fix] Add the subject: «чтобы ты не ударил о камень ногу твою», and gloss pos 5 «[ты] ударишь» (or «ты не ударил» with pos 4 «чтобы не»). (PS.91.12: פֶּן־תִּגֹּף בָּאֶבֶן רַגְלֶךָ; English literal 'lest you strike on the stone your foot', gloss 5 'you strike')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:56:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32fdae2ca4ba"
+  },
+  "verse.ru:PS.91.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:30+00:00",
+   "agent_notes": [
+    "Синодальный перевод следует Септуагинте (аспид и василиск, лев и дракон), поэтому его пары не совпадают с еврейскими (лев и кобра, молодой лев и змей). В комментарии восстановлены замечания о KJV и сказано об этом. Для פֶּתֶן в буквальном и драматическом слоях оставлен «аспид» как обычное русское слово для ядовитой змеи."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[should_fix] Restore the KJV remarks from the English. If you keep the Synodal comparison, quote it exactly and say that it follows the Septuagint (аспид и василиск, лев и дракон), so its pairs do not match the Hebrew names; drop the implication that the Synodal «аспид» renders פֶּתֶן. (PS.91.13: עַל־שַׁחַל וָפֶתֶן תִּדְרֹךְ תִּרְמֹס כְּפִיר וְתַנִּין. Synodal Ps 90:13: «на аспида и василиска наступишь; попирать будешь льва и дракона». English commentary: \"The KJV's 'adder' is a fair snake for peten, but 'dragon' is no longer what an English ear hears… 'Under feet' is simply archaic\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:56:11+00:00",
+     "note": "[consider] Write «Этот «дракон» для русского уха тоже звучит…». (PS.91.13 ru commentary: «Это «дракон» для русского уха тоже звучит как крылатое чудовище»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "08f2debe35fc"
+  },
+  "verse.ru:PS.91.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:30+00:00",
+   "agent_notes": [
+    "חָשַׁק в буквальном слое — «возжелал», в драматическом — «прильнул» (чтобы не смешивать «возлюбил» Синодального, которое смягчает глагол). Исправлено замечание о «therefore» в KJV; Синодальное «за то, что» верно передаёт первое כִּי."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[blocker] Replace the sentence with the English point: KJV 'therefore will I deliver him' adds a 'therefore' where the Hebrew has only «и» before «избавлю его»; the cause is carried by «ибо» (כִּי) at both ends. If you mention the Synodal, say that «за то, что» correctly renders the first כִּי. (PS.91.14: כִּי בִי חָשַׁק וַאֲפַלְּטֵהוּ (the verse begins with כִּי; 'and' stands only before 'I will deliver him'). English commentary: \"The KJV also writes 'therefore will I deliver him', where the Hebrew has only 'and'\". Synodal Ps 90:14: «За то, что он возлюбил Меня, избавлю его») [should_fix] In translation_literal and gloss pos 3 use «возжелал» (or «привязался»), for example «Ибо ко Мне он возжелал…» / «он возжелал»; keep «прильнул/прилепился» for the dramatic layer only. (PS.91.14: כִּי בִי חָשַׁק; English literal 'For in me he has desired', gloss 3 'he has desired'; ru note on חָשַׁק: «Быть привязанным, желать»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:56:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0c8d4c4527b7"
+  },
+  "verse.ru:PS.91.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:30+00:00",
+   "agent_notes": [
+    "Глагол стиха 14 назван по-еврейски (אֲפַלְּטֵהוּ, корень פלט), чтобы не читался как русское слово; указано, что KJV «deliver» и Синодальное «избавлю» используются в обоих стихах и скрывают разные глаголы."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[should_fix] Write the verb so it cannot be read as a Russian word (for example «для глагола פלט (пиллет) в стихе 14» or «для אֲפַלְּטֵהוּ»), and name the translations: KJV 'deliver' (and Synodal «избавлю») is used in both v.14 and v.15, which hides the different Hebrew verb חלץ. (PS.91.15 English commentary: \"the KJV's 'deliver' has already been used for palat in verse 14, so it hides that Hebrew has a different verb here\"; PS.91.14: וַאֲפַלְּטֵהוּ, PS.91.15: אֲחַלְּצֵהוּ)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:56:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b8934d19010"
+  },
+  "verse.ru:PS.91.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:30+00:00",
+   "agent_notes": [
+    "Буквальный слой и глоссы приведены в соответствие с примечанием: «дам ему взглянуть на спасение Моё». Замечания о KJV («with long life», «shew him») восстановлены, Синодальное добавлено одной фразой. Цитата Быт 25:8 / Иов 42:17 дана без кавычек, потому что Синодальный текст там звучит иначе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[should_fix] Render the literal as «…и Я дам ему взглянуть на спасение Моё» and gloss 4/5 as «и Я дам ему взглянуть» / «на спасение Моё», matching the note. (PS.91.16: וְאַרְאֵהוּ בִּישׁוּעָתִי; English literal 'I will let him look on my salvation', gloss 5 'on my salvation')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:56:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24f645846c8b"
+  },
+  "verse.ru:PS.91.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[consider] Consider «какие строили на скалах иудейских холмов» and, in the dramatic layer, «на Него я опираюсь всем своим весом» or «на Него вся моя надежда». (PS.91.2: מַחְסִי וּמְצוּדָתִי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ed54128fc573"
+  },
+  "verse.ru:PS.91.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": "[consider] Capitalize divine pronouns in v.2–11 (Он, Его, Своим) to match v.14–16 and PS.90. (PS.91.3 «Ибо он, он избавит тебя»; PS.91.14 «ибо он познал имя Моё»; PS.90.4 «в очах Твоих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9a0c4a3b6c45"
+  },
+  "verse.ru:PS.91.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [
+    "סֹחֵרָה: в буквальном слое «окружающий щит»; Синодальный даёт «щит и ограждение» — тот же выбор в пользу «окружающей» защиты, а не отдельного вида оружия."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8b0c8a09ae92"
+  },
+  "verse.ru:PS.91.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2a3b1ea0883c"
+  },
+  "verse.ru:PS.91.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d17ffc08b60"
+  },
+  "verse.ru:PS.91.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d43a8c0ade7"
+  },
+  "verse.ru:PS.91.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ff45ca0cefc"
+  },
+  "verse.ru:PS.91.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:50:59+00:00",
+   "agent_notes": [
+    "Стих разделён по акцентам на два обращения, как в английском; Синодальный сливает их («Ты сказал: „Господь — упование моё“; Всевышнего избрал ты прибежищем твоим»), то есть тоже делит речь на две реплики, но иначе распределяет слова."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:53:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "963e3aabdac2"
   }
  },
  "notes": []

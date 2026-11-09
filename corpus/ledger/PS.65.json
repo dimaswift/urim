@@ -319,6 +319,332 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.65.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [
+    "Нумерация: по просьбе рецензента сказано, что в Синодальном переводе надписание считается стихом 1, поэтому номера стихов совпадают с еврейскими, а номер псалма иной (64)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Replace the sentence 'То же и в Синодальном переводе, где … надписание не нумеруется' with: 'В Синодальном переводе псалом стоит под номером 64, но надписание там считается стихом 1, так что номера стихов совпадают с еврейскими'. (RusSynodal Пс 64:1: \"Начальнику хора. Псалом Давида. Песнь.\"; Пс 64:2: \"Тебе, Боже, принадлежит хвала в Сионе\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0bc20fb6b30e"
+  },
+  "verse.ru:PS.65.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [
+    "פֶּלֶג אֱלֹהִים — «поток Божий» (так и в Синодальном). Глагол וַתְּשֹׁקְקֶהָ оставлен с двойным смыслом: «напоил/дал перелиться» и «жаждущую»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[consider] Use 'поток Божий' in the commentary too, or say that the phrase quotes a reading. (PS.65.10: \"פֶּלֶג אֱלֹהִים מָלֵא מָיִם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4253dbfb3eb5"
+  },
+  "verse.ru:PS.65.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [
+    "Для нахет взята переходная форма «осаживая гряды её», как просил рецензент; Синодальный перевод цитируется в его написании («ее»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Use a transitive form in the literal and in the pos 3 gloss, e.g. 'осаживая гряды её' / 'осаживая'. Quote the Synodal exactly: 'Напояешь борозды ее, уравниваешь глыбы ее, размягчаешь ее каплями дождя, благословляешь произрастения ее'. (PS.65.11: \"נַחֵת גְּדוּדֶיהָ\" (English: 'settling its ridges'); RusSynodal Пс 64:11: \"Напояешь борозды ее, уравниваешь глыбы ее, размягчаешь ее каплями дождя, благословляешь произрастения ее.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "579ebae805d0"
+  },
+  "verse.ru:PS.65.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [
+    "מַעְגָּלֶיךָ — «колеи Твои»; в Синодальном «стези Твои». Выбрана «колея», как в английском комментарии, где подчёркнут след колеса."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "590040f2e694"
+  },
+  "verse.ru:PS.65.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:57:08+00:00",
+   "agent_notes": [
+    "По запросу рецензента заменено предложение о Синодальном переводе в первом абзаце комментария: «источают на пустынные пажити» (Пс 64:13) тоже добавляет «на» и оставляет подлежащим стези Твои. Остальной текст не менялся."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Replace the sentence about the Synodal in the first paragraph with: 'Синодальный перевод («источают на пустынные пажити») тоже добавляет «на» и оставляет подлежащим стези Твои'. (PS.65.13: \"יִרְעֲפוּ נְאוֹת מִדְבָּר\"; RusSynodal Пс 64:12-13: \"и стези Твои источают тук, источают на пустынные пажити, и холмы препоясываются радостью\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f4c5813bbac"
+  },
+  "verse.ru:PS.65.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:06+00:00",
+   "agent_notes": [
+    "Слово כָרִים передано как «луга» вслед за Синодальным переводом («Луга одеваются стадами») и толкованиям Раши, Радака и Ибн Эзры; прочтение «бараны» (Мецудат Давид) сохранено в буквальном слое в скобках и в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "916d8ac21ab3"
+  },
+  "verse.ru:PS.65.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [
+    "דֻמִיָּה: в литеральном слое передано буквально — «тишина», а не «хвала ожидает». Синодальный перевод выбирает «Тебе принадлежит хвала» и опускает слово совсем; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfe05f6599d7"
+  },
+  "verse.ru:PS.65.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[consider] Quote 'к Тебе прибегает всякая плоть'; make the gloss and the literal agree in number. (RusSynodal Пс 64:3: \"Ты, слышащий молитву! к Тебе прибегает всякая плоть.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f82fdc9b7d1f"
+  },
+  "verse.ru:PS.65.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает дела беззаконные как «перевесили меня» и «Ты очистишь»; в комментарии указано, что это ближе к KJV, чем к буквальному «слова беззаконий». Глагол כפר передан «Ты покрываешь/искупаешь» (литерально «искупаешь»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[consider] Quote it as 'Дела беззаконные превозмогли меня; но Ты очистишь преступления наши'. (RusSynodal Пс 64:4: \"Дела беззаконные превозмогли меня; но Ты очистишь преступления наши.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fc392ae8b462"
+  },
+  "verse.ru:PS.65.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [
+    "Синодальное «святаго храма Твоего» процитировано точно; отмечено, что, как и KJV, оно превращает «святое храма Твоего» в «святой храм»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('Насытимся благами дома Твоего, святаго храма Твоего') and say that, like the KJV, it turns 'святое храма Твоего' into 'святой храм'. (PS.65.5: \"קְדֹשׁ הֵיכָלֶךָ\"; RusSynodal Пс 64:5: \"Насытимся благами дома Твоего, святаго храма Твоего.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d482722fc7f4"
+  },
+  "verse.ru:PS.65.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('Страшное по правде Твоей отвечай нам, Боже, Спаситель наш, упование всех концов земли и находящихся в море далеко') and say that it keeps 'страшное' and, like the KJV, turns the distant sea into people ('находящихся в море далеко'); or drop the sentence. (RusSynodal Пс 64:6: \"Страшное по правде Твоей отвечай нам, Боже, Спаситель наш, упование всех концов земли и находящихся в море далеко\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eade755af93f"
+  },
+  "verse.ru:PS.65.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:53:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[consider] Quote it as 'поставивший горы силою Своею, опоясанный могуществом'. (RusSynodal Пс 64:7: \"поставивший горы силою Своею, опоясанный могуществом\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf1f9b800b3d"
+  },
+  "verse.ru:PS.65.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Gloss pos 2 as 'шум'. Quote the Synodal as 'укрощающий шум морей, шум волн их и мятеж народов'. (PS.65.8: \"מַשְׁבִּיחַ שְׁאוֹן יַמִּים\"; English gloss pos 2 'the roar of'; RusSynodal Пс 64:8: \"укрощающий шум морей, шум волн их и мятеж народов!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c81d5dfddc33"
+  },
+  "verse.ru:PS.65.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:55:30+00:00",
+     "note": "[should_fix] Reorder the literal so that the signs are the object: 'И живущие [на] краях убоятся знамений Твоих; …'. In the last sentence of the commentary quote the Synodal exactly ('Утро и вечер пробуждаешь к веселию') and say that it renders the causative with 'пробуждаешь к веселию'. (PS.65.9: \"וַיִּירְאוּ יֹשְׁבֵי קְצָוֹת מֵאוֹתֹתֶיךָ\" (מֵ- 'from/of' on the signs); RusSynodal Пс 64:9: \"И убоятся знамений Твоих живущие на пределах земли. Утро и вечер пробуждаешь к веселию.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:57:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df299fc07e88"
   }
  },
  "notes": []

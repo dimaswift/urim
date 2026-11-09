@@ -135,6 +135,137 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.23.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:43:34+00:00",
+   "agent_notes": [
+    "Нумерация стихов здесь еврейская (PS.23), в Синодальном переводе это Пс 22. В 1-м стихе «Господь» в драматическом слое следует Синодальному переводу, а в буквальном слое оставлено YHWH."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d29bb2bf536"
+  },
+  "verse.ru:PS.23.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:43:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acd737990972"
+  },
+  "verse.ru:PS.23.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:28+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: в комментарии Синодальный перевод процитирован как «направляет меня на стези правды ради имени Своего», оговорка о единственном числе убрана; оставлена мысль, что «стези», как и KJV 'paths', звучит нравственнее, чем «колеи».",
+    "В буквальном слое «имени своего» оставлено строчным и без сакральной заглавной: это перевод слов древнееврейского текста, а не принятое в Синодальном написание. В драматическом слое для слуха — «ради Своего имени»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal as «направляет меня на стези правды ради имени Своего» and drop the clause about the singular. If you keep a point, say that «стези», like the KJV 'paths', sounds more moral than «колеи». (PS.23.3 KJV: \"he leadeth me in the paths of righteousness for his name's sake\"; English commentary: \"The KJV's 'paths of righteousness'\"; Hebrew מַעְגְּלֵי is plural (construct).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:46:32+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dcd3bedd6193"
+  },
+  "verse.ru:PS.23.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:43:34+00:00",
+   "agent_notes": [
+    "«צלמות» передано в буквальном слое как «тень-смерти / глубокая тьма», в драматическом — «долина смертной тени» по Синодальному переводу; оба прочтения сохранены в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c628ff0715fc"
+  },
+  "verse.ru:PS.23.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:43:34+00:00",
+   "agent_notes": [
+    "В Синодальном переводе «умастил елеем» и «чаша моя преисполнена» — оба выбора близки к еврейскому; «наполнена» в драматическом слое выбрано для естественной интонации."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4117b6ff7ad4"
+  },
+  "verse.ru:PS.23.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:43:34+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «и я пребуду» (по LXX), масоретское «вернусь» — в комментарии и примечании; «хесед» передан как «верность по завету» в буквальном слое и «милость» только в ссылках на Синодальный перевод."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:44:41+00:00",
+     "note": "[consider] Consider «и вернусь в доме YHWH» or «вернусь [и буду] в доме YHWH» in the literal layer, so that it matches the Hebrew preposition and gloss 9. (PS.23.6 Hebrew וְשַׁבְתִּי בְּבֵית־יְהוָה; English literal: \"I will return in the house of YHWH\"; ru gloss pos 9: «в доме».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa7fcdcec2a3"
   }
  },
  "notes": []

@@ -1,0 +1,110 @@
+{
+ "chapter_ref": "PS.117",
+ "items": {
+  "verse.en:PS.117.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:10+00:00",
+   "agent_notes": [
+    "Revised after review: removed the claim that no earlier psalm addresses the nations (Ps 47:2, 66:1, 96:7, 100:1 do), and corrected the Targum sentence: it renders both verbs with שבח, so it does not keep them apart. Also dropped the stray 'and' from the gloss of word 6, since the Hebrew has no conjunction there.",
+    "Radak (future days of the Messiah) and Malbim (captives of Sennacherib) disagree on the historical setting; the commentary reports both and does not choose."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:27:30+00:00",
+     "note": "[should_fix] In directors_commentary, delete the sentence 'Every psalm before it is sung by Israel, to Israel or about Israel' and the claim that the address to the nations is new; say instead that Psalm 117 compresses into two verses a summons to the nations that the Psalter has made before (e.g. Ps 47:2, 66:1, 96:7, 100:1). (PS.47.2 (KJV 47:1): \"O clap your hands, all ye people; shout unto God\"; PS.66.1: \"Make a joyful noise unto God, all ye lands\"; PS.96.7: \"Give unto the LORD, O ye kindreds of the people\"; PS.100.1: \"Make a joyful noise unto the LORD, all ye lands\".) [should_fix] Rewrite the Targum sentence of the שַׁבְּחוּהוּ note: the Targum uses שבח for both verbs (שַׁבְּחוּ ... שַׁבַּחוּ ליה), so it, like the KJV, does not keep the two Hebrew verbs distinct; keep the Radak citation as it is. (Targum on PS.117.1: \"שַׁבְּחוּ יַת יְיָ כָּל עַמַיַא שַׁבַּחוּ לֵיהּ כָּל אוּמַיָא\" against the Hebrew \"הַֽלְל֣וּ ... שַׁ֝בְּח֗וּהוּ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:28:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.117.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:26:27+00:00",
+   "agent_notes": [
+    "גָּבַר עָלֵינוּ: ASV and KJV render 'great toward us'; YLT 'mighty to us'. The verb is 'to be strong, to prevail', and עַל after it can mean 'over' as well as 'toward'. I kept 'prevailed over us' in the literal layer and 'toward us' as the other possible sense; the choice is mine and the sources are lexicon-level only.",
+    "Radak's and Malbim's historical readings (return from exile; Sennacherib's captives) differ, and Meiri and Metzudat David read the psalm as messianic. I did not choose among them in the dramatic layer; the commentary only says that the psalm as written does not name its occasion."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:27:30+00:00",
+     "note": "[consider] Consider 'begins and ends on the same verb, הַלְלוּ, each time with the divine name', and drop 'failings' or attribute the reading. (PS.117.1 \"הַֽלְל֣וּ אֶת־יְ֭הוָה\"; PS.117.2 \"הַֽלְלוּ־יָֽהּ\"; Radak on 117:2: \"עד שהוציאנו מן הגלות\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.117.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:16+00:00",
+   "agent_notes": [
+    "По запросу рецензента: «в отличие от KJV» (Синодальный различает два глагола, KJV — нет) и «призыв, который Псалтирь уже произносила прежде»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:36:27+00:00",
+     "note": "[should_fix] In directors_commentary replace «Синодальный перевод, как и KJV, различает два глагола» with «Синодальный перевод, в отличие от KJV, различает два глагола». (PS.117.1 KJV: \"O praise the LORD, all ye nations: praise him, all ye people\"; Synodal (Пс 116:1): «Хвалите Господа, все народы, прославляйте Его, все племена».) [should_fix] Rewrite as «сжат призыв, который уже звучал в Псалтири прежде» (or «который Псалтирь уже произносила прежде»). (English: \"it compresses into that space a summons the Psalter has made before\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:38:25+00:00",
+     "note": "[consider] Consider «и передаёт» instead of «но передаёт», and one capitalisation of the pronoun across the literal layer and the glosses. (PS.117.1 ru: «различает два глагола ... но передаёт אֻמִּים множественным «племена», сохраняя то, что KJV потеряла»; gloss pos 6 «славьте Его!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "258104ca08c4"
+  },
+  "verse.ru:PS.117.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:16+00:00",
+   "agent_notes": [
+    "По запросу рецензента: краткое Божье имя везде «Йах», как в переводе Пс 116 в корпусе (было «Яһ»). В драматическом слое оставлено «Аллилуия!», как в соседнем чтении Господа."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:36:27+00:00",
+     "note": "[should_fix] Replace «Яһ» with «Йах» everywhere in the verse: literal «Хвалите Йах!», the commentary («краткую форму Божьего имени, Йах») and gloss pos 9 «Йах». (PS.117.2: \"הַֽלְלוּ־יָֽהּ\"; PS.116 ru literal: «Хвалите Йах!».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:38:25+00:00",
+     "note": "[consider] No change needed; keep the Synodal comparison. (PS.117.2 Synodal (Пс 116:2): «Ибо велика милость Его к нам, и истина Господня вовек»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c9ac060fc9d"
+  }
+ },
+ "notes": []
+}

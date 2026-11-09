@@ -810,6 +810,790 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.69.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте надписание — стих 1, а в Синодальном переводе оно не нумеруется (Пс 68:1 — «Спаси меня, Боже»), поэтому все стихи здесь на единицу больше синодальных. Комментарий об этом сохранён.",
+    "«Шошаним» оставлено транслитерацией со значением «лилии» в скобках; Синодальный перевод даёт «на лилиях». Название не переводится как настроение: это обозначение напева, инструмента или символа."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd9ce9f9a790"
+  },
+  "verse.ru:PS.69.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [
+    "«Ревность» (кин'а) выбрана вслед за Синодальным «ревность по доме Твоём»: слово то же, что «зависть/ревность»; процитирован Ин 2:17 только как позднее прочтение, как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "907f32f74f30"
+  },
+  "verse.ru:PS.69.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [
+    "Синтаксис «וָאֶבְכֶּה בַצּוֹם נַפְשִׁי» в буквальном слое передан как «в посте души моей»; русская «и постился» из Синодального перевода дана только в литературном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4eb8b280d795"
+  },
+  "verse.ru:PS.69.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66b5e0b3c635"
+  },
+  "verse.ru:PS.69.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:16+00:00",
+   "agent_notes": [
+    "Глагол записан один раз, «ясиху», без скобочного варианта."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Write the verb once, as «ясиху» (יָשִׂיחוּ), and delete the parenthesis «(ясихү)». (PS.69.13 ru commentary: \"Глагол яси́ху (ясихү) значит «размышлять, болтать, обсуждать»\"; Hebrew יָשִׂיחוּ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "707c99dcefd2"
+  },
+  "verse.ru:PS.69.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:16+00:00",
+   "agent_notes": [
+    "В буквальном слое хэсед передан как «верность [завета]», в согласии с глоссой 9 и комментарием; Синодальный здесь говорит «милость»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] In translation_literal replace «по множеству милости Твоей» with «по множеству верности [завета] Твоей» (or «верной любви Твоей»), matching the gloss for pos 9 and the commentary. (PS.69.14 (en literal): \"in the greatness of your covenant loyalty\"; ru commentary: \"КДЖ передаёт хэсед как «милость», что теряет его вес\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "83dd660b0e93"
+  },
+  "verse.ru:PS.69.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f6990f3f87d8"
+  },
+  "verse.ru:PS.69.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[consider] Pick one word for בְאֵר («яма» or «колодец») and use it in the literal layer, the gloss and the commentary alike. (PS.69.16 ru literal: \"да не затворит надо мною ров уст своих\"; gloss pos 11: \"колодец\"; en literal: \"[the] pit\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "76973564eaa9"
+  },
+  "verse.ru:PS.69.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[consider] Use the same Russian rendering of hesed as in verse 14 (e.g. «верность Твоя»), keeping «хэсед» for the commentary. (PS.69.17 (en literal): \"for good [is] your covenant loyalty\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c2651347f17"
+  },
+  "verse.ru:PS.69.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fad409ca5add"
+  },
+  "verse.ru:PS.69.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f884753fee1"
+  },
+  "verse.ru:PS.69.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [
+    "«נפש» в буквальном слое — «горло», как в английском (и по Радаку и Мецудат-Давиду); Синодальный перевод читает «до души моей». Это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "978f555baa67"
+  },
+  "verse.ru:PS.69.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b0686e77b025"
+  },
+  "verse.ru:PS.69.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "865eb7cf62d9"
+  },
+  "verse.ru:PS.69.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [
+    "рош: буквальный слой — «горькая трава», как в английском; Синодальный и КДЖ читают «желчь». Это оговорено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16face432089"
+  },
+  "verse.ru:PS.69.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [
+    "Спорное слово «шеломим»: следую прочтению «благополучие, мир» (Раши, Радак, Меири), как и английский слой; Синодальный даёт «мирное пиршество»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ccbe122842b2"
+  },
+  "verse.ru:PS.69.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:39+00:00",
+   "agent_notes": [
+    "В английском комментарии сказано, что проклятие «впервые» обращается к Богу напрямую; перенесено как есть, но в стихах 14–20 уже есть повелительные формы, так что утверждение стоит проверить."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d59786c06e53"
+  },
+  "verse.ru:PS.69.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [
+    "חֲרוֹן אַפְּךָ передано в буквальном слое как «пыл гнева твоего» (חרון «жар» + אף «нос, гнев»); Синодальный: «пламень ярости Твоей»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41132a862880"
+  },
+  "verse.ru:PS.69.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [
+    "טִירָה в буквальном слое — «стан» (у Синодального «жилище»); в комментарии сохранены варианты Радака и Мецудат Цион («дворец»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "54e4a43efeba"
+  },
+  "verse.ru:PS.69.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:06+00:00",
+   "agent_notes": [
+    "В буквальном слое восстановлено местоимение «Ты» (אַתָּה), как в английском: «Ибо Ты — кого Ты поразил, [того] они преследуют». Слово חֲלָלֶיךָ передано как «пронзённых Тобою», в согласии с примечанием."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Restore the pronoun in translation_literal, e.g. «Ибо Ты — кого Ты поразил, [того] они преследуют; и о боли пронзённых Тобою рассказывают». (PS.69.27 (en literal): \"For you, [those] whom you struck, they have pursued\"; ru gloss pos 2: \"ты\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6fa77925c484"
+  },
+  "verse.ru:PS.69.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f51e124e9940"
+  },
+  "verse.ru:PS.69.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [
+    "סֵפֶר חַיִּים: буквально «свиток жизни»; Синодальный — «книга живых». Драматический слой использует «свиток живых», как английский."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10cd091c774d"
+  },
+  "verse.ru:PS.69.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [
+    "«Шиболет» передано «поток» (стремнина), не «колос»; «яван» — «тина»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10d5b838f568"
+  },
+  "verse.ru:PS.69.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d96259ead679"
+  },
+  "verse.ru:PS.69.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1bbf8e28d93f"
+  },
+  "verse.ru:PS.69.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:06+00:00",
+   "agent_notes": [
+    "В буквальном слое и в глоссе имя оставлено как YHWH, по правилу буквального слоя; в драматическом слое — «Господу»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Replace «ЙХВХ» with «YHWH» in translation_literal and in the gloss for pos 2. (PS.69.32 ru literal: \"И будет угодно ЙХВХ более, чем вол\"; en literal: \"it will be good to YHWH\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c7a7d726df9"
+  },
+  "verse.ru:PS.69.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3e68303f227e"
+  },
+  "verse.ru:PS.69.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:06+00:00",
+   "agent_notes": [
+    "YHWH в буквальном слое и в глоссе; в драматическом слое исправлена сломанная фраза: «и Своих узников, сидящих в оковах». Мальбим и остальные источники не менялись."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Replace «ЙХВХ» with «YHWH» in translation_literal and in the gloss for pos 5. In the dramatic layer, also consider mending «тех, кто Его и сидит в оковах» (reads as broken Russian) to «и Своих узников, сидящих в оковах». (PS.69.34 ru literal: \"Ибо слушает убогих ЙХВХ\"; en literal: \"For YHWH is listening to the needy\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "183c59b096fc"
+  },
+  "verse.ru:PS.69.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [
+    "רֹמֵשׂ — «пресмыкающееся» (так Синодальный и Быт 1:24–26: «пресмыкающиеся»), чтобы сохранить связь с Бытием."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8456eaa3abd9"
+  },
+  "verse.ru:PS.69.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:02:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bad792de30c1"
+  },
+  "verse.ru:PS.69.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:06+00:00",
+   "agent_notes": [
+    "Источники в примечаниях восстановлены в точности как в английском: «Metzudat David on Psalms 69:37», «Malbim on Psalms 69:37»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Restore the sources exactly as in the English: \"Metzudat David on Psalms 69:37\" and \"Malbim on Psalms 69:37\". (PS.69.37 en sources: \"Metzudat David on Psalms 69:37\", \"Malbim on Psalms 69:37\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": "[consider] Spell the name «Малбим» in the note, as in the commentary and the other verses. (PS.69.37 ru note: \"Мальбим слышит в нём мирное, ничем не нарушаемое обитание\"; commentary: \"Малбим добавляет\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e522e0e46e2a"
+  },
+  "verse.ru:PS.69.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d52d70447e12"
+  },
+  "verse.ru:PS.69.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "334883332b68"
+  },
+  "verse.ru:PS.69.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c3a03329a30c"
+  },
+  "verse.ru:PS.69.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:16+00:00",
+   "agent_notes": [
+    "По замечанию рецензента тетраграмматон записан как YHWH в буквальном слое, в глоссе 6 и в комментарии, как в остальных русских псалмах; «Адонай» передан как «Господи»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": "[should_fix] Write the Tetragrammaton as «YHWH» in translation_literal and in the gloss for pos 6, as in the rest of the Russian Psalms; adjust the mention in the ledger-facing commentary if it refers to «ЙХВХ». (PS.69.7 ru literal: \"Господи ЙХВХ воинств\"; PS.69.14 ru literal: \"к Тебе, YHWH\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:07:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2636c3f8cb57"
+  },
+  "verse.ru:PS.69.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba1a3696178c"
+  },
+  "verse.ru:PS.69.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:01:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:04:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c0415e0618d"
   }
  },
  "notes": [

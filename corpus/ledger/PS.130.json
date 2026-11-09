@@ -1,0 +1,379 @@
+{
+ "chapter_ref": "PS.130",
+ "items": {
+  "verse.en:PS.130.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:28+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 carries the superscription 'A Song of the Ascents' (KJV counts it as verse 0), so the verse has five words and the prayer begins mid-verse. I translated all five words as one verse."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[should_fix] In the directors_commentary, drop the claim that the KJV reverses the Hebrew order and the contrast about ending on the name; keep only the real audit point (the KJV's \"Lord\" hides the name YHWH). Present \"I call\" as a possible reading of the perfect (a performative perfect), not as a correction of the KJV's \"have I cried\". (PS.130.1 KJV: \"Out of the depths have I cried unto thee, O Lord.\"; Hebrew מִמַּעֲמַקִּים קְרָאתִיךָ יְהוָה (HVqp1cs, perfect).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[should_fix] Remove the claim that the KJV hides the plural. If you want an audit point here, say that the Hebrew is a dual (both ears) and that the KJV's \"ears\" keeps it, so the KJV is accurate in this verse. (PS.130.2 KJV: \"let thine ears be attentive to the voice of my supplications\"; Hebrew אָזְנֶיךָ (HNcfdc, dual).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:48:26+00:00",
+   "agent_notes": [
+    "יָהּ (Yah) is glossed as the short form of the divine name; STEPBible gives 'O Yahweh'. I kept 'Yah' in the literal layer to keep the contrast with the following אֲדֹנָי visible; BBE does the same ('O Jah')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[consider] Mark the judicial reading as one option beside the commentators' \"endure, survive\", and drop or soften the remark about the speaker fumbling the address. (Metzudat David on 130:3: \"מי יוכל לעמוד ולהתקיים\"; Radak: \"כמעט נהיה כלים ואובדים\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:48:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[consider] Attribute the sinners-turn-back reading to Ibn Ezra and the despair reading to Meiri, and give Malbim's own contrast separately. (Meiri on 130:4: \"כבר נואש מן הסליחה\"; Malbim on 130:4: \"בשר ודם ע\"י שרוצה שייראו מפניו לא ימחול על עון\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:48:26+00:00",
+   "agent_notes": [
+    "STEPBible reads קִוִּיתִי as 'I wait for' and הוֹחָלְתִּי as 'I hope'. Two roots (קוה and יחל) are used in the verse; the literal layer renders them as 'wait' and 'hope' consistently with v.7 (יַחֵל 'hope')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[consider] Say that Meiri reads הוחלתי as equivalent to יחלתי (Piel); give the קוה/קַו etymology as a lexical suggestion or name its source. (Meiri on 130:5: \"והוחלתי בודד כמו יחלתי\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:28+00:00",
+   "agent_notes": [
+    "The Hebrew has no verb in the first colon: 'My soul — for my Lord'. English versions supply 'waits' (KJV, ASV) or 'is watching' (BBE); YLT keeps the ellipsis. I bracketed the supplied verb in the literal layer. The KJV's 'I say' is an addition with no Hebrew behind it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[should_fix] Rewrite the Malbim sentence: the watchmen's hope is certain but tied to the fixed hour of dawn; the soul's hope in God is greater because it is not bound to time, since God can redeem before the appointed hour (Malbim on vv. 6-7). (Malbim on 130:6: \"שמצד שתקותו נתלה בזמן לא יגיע רק בעתו אחר עבור י\"ב שעות של הלילה, וא\"א שיבא הבקר קודם לכן\"; Malbim on 130:7: \"תוחלתם אינו נתלה בזמן רק בה'... יוכל לפדותו קודם הזמן המיועד אל הגאולה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:56:13+00:00",
+     "note": "[consider] Add \"Meiri on Psalms 130:6\" to the sources of the שֹׁמְרִים note. (Meiri on 130:6: \"וי״מ נפשי לה׳ ... להיותי מאותם השומרים לבקר לקום ממטתם להתפלל\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:48:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[consider] Limit the examples of פדה to the firstborn, slaves and captives, and soften the claim about the psalm's place in the collection. (PS.130.7: פְדוּת (H6304).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.130.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:28+00:00",
+   "agent_notes": [
+    "Commentary on 'iniquities' as punishment (Meiri) is cited from the packet; the reading of עָוֺן as 'guilt or its consequence' is standard (BDB) but I did not quote a lexicon entry."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:54:49+00:00",
+     "note": "[should_fix] Drop the claim that the KJV hides the link between v. 7 and v. 8; say instead that the KJV's redemption / redeem keeps the Hebrew פְּדוּת / יִפְדֶּה pairing. (PS.130.7 KJV: \"with him is plenteous redemption\"; PS.130.8 KJV: \"And he shall redeem Israel\"; Hebrew פְדוּת / יִפְדֶּה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:56:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.130.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [
+    "Заглавие в Синодальном переводе — «Песнь восхождения» (единственное число); в буквальном слое оставлено «восхождений» по ивриту. Так же «из глубин» (буквально) против «из глубины» (Синодальный перевод): иврит имеет множественное число интенсивности."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": "[consider] Consider keeping a short mention that the KJV says \"degrees\", i.e. steps. (en PS.130.1 directors_commentary: \"the KJV's \\\"degrees\\\" is the old word for steps\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "05a059415efa"
+  },
+  "verse.ru:PS.130.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "28e67090638d"
+  },
+  "verse.ru:PS.130.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [
+    "יָהּ передано «Йа» в буквальном слое, а в литературном — «Ях»; Синодальный перевод ставит здесь просто «Господи», так что различие двух форм обращения видно только в комментарии. «Ях» в литературном слое — русская традиционная передача краткой формы имени."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": "[consider] Consider «Йах» or «Йа» in the dramatic layer to match the literal layer and the other psalms. (PS.130.3: יָהּ; ru PS.68, PS.102, PS.112 dramatic: «Йах»; PS.77, PS.68.19 dramatic: «Йа».) [consider] Consider «Он мог бы их хранить» for consistency with the chapter. (PS.130.3 directors_commentary: «Бог не просто замечает грехи, он мог бы их хранить».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fbc92e29e8a4"
+  },
+  "verse.ru:PS.130.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «да благоговеют пред Тобою» (толкует תִּוָּרֵא как желание); буквальный слой следует ивриту — «чтобы Тебя боялись»; в комментарии сказано об этом различии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "af08df482467"
+  },
+  "verse.ru:PS.130.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:00:56+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: буквальный слой теперь «и на слово Его я надеюсь» (порядок слов иврита, предлог «на»), глосса к слову 5 — «и на слово Его». Остальные слои не менялись."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": "[should_fix] In translation_literal write «и на слово Его я надеюсь» (keeping the Hebrew word order), and change the pos 5 gloss to «и на слово Его». (PS.130.5: וְלִדְבָרוֹ הוֹחָלְתִּי, English literal \"and for his word I hope\"; the Synodal has «на слово Его надеюсь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:01:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f61f894260a"
+  },
+  "verse.ru:PS.130.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "15f17e1b1336"
+  },
+  "verse.ru:PS.130.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [
+    "חֶסֶד в литературном слое — «неизменная верность», в буквальном — «верность завету»; Синодальный перевод даёт «милость»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d2437a9905d8"
+  },
+  "verse.ru:PS.130.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:58:40+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:00:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a8ae89c473ec"
+  }
+ },
+ "notes": [
+  {
+   "note": "[verse.en:PS.130.3] יָהּ (Yah) is glossed as the short form of the divine name; STEPBible gives 'O Yahweh'. I kept 'Yah' in the literal layer to keep the contrast with the following אֲדֹנָי visible; BBE does the same ('O Jah').",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T15:55:28+00:00"
+  },
+  {
+   "note": "[verse.en:PS.130.5] STEPBible reads קִוִּיתִי as 'I wait for' and הוֹחָלְתִּי as 'I hope'. Two roots (קוה and יחל) are used in the verse; the literal layer renders them as 'wait' and 'hope' consistently with v.7 (יַחֵל 'hope').",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T15:55:28+00:00"
+  }
+ ]
+}

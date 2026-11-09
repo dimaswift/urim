@@ -140,7 +140,152 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.1.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:34+00:00",
+   "agent_notes": [
+    "אַשְׁרֵי передано «О блаженства человека» в буквальном слое (множественное число сохранено словом «блаженства»); синодальное «Блажен муж» — в драматическом слое. רשעים — «нечестивые» (как в Синодальном), хотя английский комментарий оспаривает «ungodly»: русское «нечестивый» несёт тот же богословский оттенок, это отмечено в комментарии. לצים — «насмешники»; Синодальный даёт «развратители»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": "[consider] Consider «злодеев» or «неправедных» in the literal layers of verses 1, 4, 5 and 6, leaving «нечестивые» to the Synodal comparison. Otherwise, add a sentence saying why the literal layer still uses it. (PS.1.1 English commentary: 'רָשָׁע means \"guilty, in the wrong\", a courtroom word, and \"ungodly\" imports a theological reading'; English literal 'wicked ones'.) [consider] Consider «на сиденье насмешников» in the literal layer and gloss pos 12. (PS.1.1: וּבְמוֹשַׁב לֵצִים; English 'in the seat of mockers'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e78dacc760eb"
+  },
+  "verse.ru:PS.1.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:13:59+00:00",
+   "agent_notes": [
+    "По запросу рецензента: местоимение «его» везде строчное (буквальный слой, глосса 6, драматический слой, комментарий); в буквальном слое «[— ]» заменено простым тире."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": "[should_fix] Write the pronoun in lowercase, «в Торе его», in the literal layer, in gloss pos 6, in the dramatic layer («над Торой его») and in the commentary («второе „его Тора“»). Replace «[— ]» in the literal layer with a plain dash: «Но именно в Торе YHWH — отрада его». (PS.1.2: וּבְתוֹרָתוֹ יֶהְגֶּה; English literal 'and in his Torah he murmurs'; English commentary: 'read the second \"his Torah\" as the man's own ... The Hebrew allows either subject.')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ca29992d5430"
+  },
+  "verse.ru:PS.1.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:13:59+00:00",
+   "agent_notes": [
+    "По запросу рецензента: Синодальное «успеет» процитировано точно («и во всем, что он ни делает, успеет»).",
+    "Блок «RusSynodal» в пакете содержит текст из Книги Товита, а не Пс 1:3; цитата Синодального взята из запроса рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Синодальное «успеет» ближе к ивриту, чем «prosper»». (PS.1.3 Synodal: «и во всем, что он ни делает, успеет»; Russian commentary: «Синодальное «успевает» ближе к ивриту, чем «prosper»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d798e6970ee"
+  },
+  "verse.ru:PS.1.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:34+00:00",
+   "agent_notes": [
+    "מץ — «мякина»; Синодальный даёт «прах», что отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cf7fbaee17af"
+  },
+  "verse.ru:PS.1.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": "[consider] Consider «время, когда жизнь человека взвешивается» or «когда подводится итог жизни». (PS.1.5 English commentary: 'as the time when the measure of a life is taken'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "12ebbc7ae8b7"
+  },
+  "verse.ru:PS.1.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:13:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b25d47da02a"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Блок «RusSynodal» в пакете для PS.1.1–6 содержит не Псалтирь, а Книгу Товита (1:1–8): нумерация источника сбита. Я не опирался на него; сверял с синодальным текстом Пс 1 по памяти: «Блажен муж…», «в законе Господа воля его», «при потоках вод», «как прах, возметаемый ветром», «в собрании праведных».",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:11:34+00:00"
+  }
+ ]
 }

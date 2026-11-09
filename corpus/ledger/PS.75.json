@@ -247,6 +247,265 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.75.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: нумерация заглавия в Синодальном (Пс 74:1) и в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] Replace «которое в Синодальном переводе стоит без номера или вынесен в надпись» with «как и в Синодальном переводе (Пс 74:1), а в KJV оно напечатано без номера». (PS.75.1 «לַמְנַצֵּחַ אַל־תַּשְׁחֵת מִזְמוֹר לְאָסָף שִׁיר»; RusSynodal Пс 74:1 «Начальнику хора. Не погуби. Псалом Асафа. Песнь.» (numbered verse 1).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1b17daec0ae4"
+  },
+  "verse.ru:PS.75.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[consider] Quote «вечно». (RusSynodal Пс 74:10 «А я буду возвещать вечно, буду воспевать Бога Иаковлева».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ee4861ceec44"
+  },
+  "verse.ru:PS.75.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:53+00:00",
+   "agent_notes": [
+    "Говорящий в «я отсеку» спорен (Бог или Израиль); перевод оставляет «я» без пояснений, как в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "56ef6604ff22"
+  },
+  "verse.ru:PS.75.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном переводе заменена по замечанию: Синодальный тоже ставит «ибо», но сохраняет безымянных «они»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] Replace the sentence «Синодальный перевод превращает «и» в «и призываем имя Твоё»… о чём рассказывают» with: «Синодальный перевод — «ибо близко имя Твоё; возвещают чудеса Твои» — тоже ставит «ибо» вместо простого «и», но сохраняет безымянных «они», которые возвещают чудеса». Keep the rest. (PS.75.2 Hebrew «וְקָרוֹב שְׁמֶךָ סִפְּרוּ נִפְלְאוֹתֶיךָ» (sipperu, 3rd plural); RusSynodal Пс 74:2 «Славим Тебя, Боже, славим, ибо близко имя Твое; возвещают чудеса Твои».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8999ec356fcc"
+  },
+  "verse.ru:PS.75.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован точно: «Когда изберу время, Я произведу суд по правде»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Синодальный перевод — «когда изберу время, Я произведу суд по правде» — здесь точен: Бог избирает срок». (PS.75.3 «כִּי אֶקַּח מוֹעֵד אֲנִי מֵישָׁרִים אֶשְׁפֹּט»; RusSynodal Пс 74:3 «Когда изберу время, Я произведу суд по правде».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d962a0486808"
+  },
+  "verse.ru:PS.75.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[consider] Quote «Я утвердил столпы её»; the point (between 'bear up' and 'regulate') still holds. (RusSynodal Пс 74:4 «Колеблется земля и все живущие на ней: Я утвердил столпы ее».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02159aba2c7f"
+  },
+  "verse.ru:PS.75.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Игра корня г-л-л передана парой «хвастающим — не хвастайтесь»; транслитерация кириллицей («тахоллу»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] Write the word in Cyrillic: «не тахоллу (не хвастайтесь)». (PS.75.5 «אָמַרְתִּי לַהוֹלְלִים אַל־תָּהֹלּוּ»; commentary «холелим (хвастающим) — не тahollu (не хвастайтесь)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "286dffec49dc"
+  },
+  "verse.ru:PS.75.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e850cbb6b8d5"
+  },
+  "verse.ru:PS.75.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Термин construct передан как «сопряжённое состояние (status constructus)»; последнее предложение драматического слоя переписано по замечанию."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] In the commentary and the note, replace every «состояние определённости / в состоянии определённости / определённое состояние» with «сопряжённое состояние (status constructus)» / «в сопряжённом состоянии». In the dramatic layer, rewrite the last sentence as «Ни из одного из этих мест никто не поднимется». (PS.75.7 «וְלֹא מִמִּדְבַּר הָרִים» (morph HR/Ncmsc, construct); Radak «כי ממדבר קמו\"ץ ואינו סמוך» (סמוך = construct). English: 'so the word is not in the construct'; 'Our text points it with a patah, the construct'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e74e2710b953"
+  },
+  "verse.ru:PS.75.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:18:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[consider] Quote «унижает… возносит» and say that the Synodal varies the verb, where the Hebrew repeats r-w-m. (RusSynodal Пс 74:8 «но Бог есть судия: одного унижает, а другого возносит».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c879a8c9a25f"
+  },
+  "verse.ru:PS.75.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:23:58+00:00",
+   "agent_notes": [
+    "Ссылка на Синодальную нумерацию исправлена на Пс 10:6 (евр. 11:6)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:22:41+00:00",
+     "note": "[should_fix] In the commentary change «Псалом 10:7 по Синодальной нумерации» to «Псалом 10:6 по Синодальной нумерации», and in the note on כּוֹס write «Пс 10:6 (евр. 11:6)». (PS.75.9 «כִּי כוֹס בְּיַד־יְהוָה»; English commentary 'Psalm 11:6'; RusSynodal Пс 10:6 «Дождем прольет на нечестивых горящие угли, огонь и серу; и палящий ветер — их доля из чаши».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7728a335e8f"
   }
  },
  "notes": []

@@ -303,6 +303,280 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.63.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:55:43+00:00",
+   "agent_notes": [
+    "Убрано утверждение о «пустыне Идумейской»; оставлено только то, что Синодальный перевод тоже считает надписание стихом 1."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[should_fix] Drop «но читает в нём „пустыня Идумейская“» from the commentary (or attribute «Идумейская» to the Septuagint and the Church Slavonic text) and keep only that the Synodal also counts the heading as verse 1. (Синодальный, Пс 62:1: «Псалом Давида, когда он был в пустыне Иудейской»; Hebrew בְּמִדְבַּר יְהוּדָה.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:56:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e23178e834cf"
+  },
+  "verse.ru:PS.63.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "164f96fdda81"
+  },
+  "verse.ru:PS.63.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [
+    "«Лисицы» — как в Синодальном; еврейское שׁוּעָל может означать и шакала."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[consider] Check the Synodal wording before quoting it, or drop the comparison, which the English does not have. (Синодальный, Пс 62:11: «сразят их силою меча; достанутся они в добычу лисицам».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e1f353e11f0"
+  },
+  "verse.ru:PS.63.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:55:43+00:00",
+   "agent_notes": [
+    "Местоимение «им» (בּוֹ) написано со строчной буквы там, где антецедент спорен (буквальный слой, глосса, примечание, комментарий); в драматическом слое выбран Бог, поэтому «Его»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[should_fix] Write «им» in lower case in translation_literal, in the token gloss for pos 7 and in the note's opening «Тот, кто клянётся им»; the dramatic layer, which chooses God, may keep «Его». (PS.63.12: «יִתְהַלֵּל כָּל־הַנִּשְׁבָּע בּוֹ»; English literal: 'every one who swears by him'; ru note: «Предшествующее слово спорно: Бог … или царь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:56:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e99f82720473"
+  },
+  "verse.ru:PS.63.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:55:43+00:00",
+   "agent_notes": [
+    "Сравнение с Синодальным исправлено: «от ранней зари ищу» сохраняет смысл «зари», как и KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[should_fix] In the commentary replace «Синодальное „Тебя ищу я“ передаёт лишь „ищу“» with a sentence saying that the Synodal «от ранней зари ищу» keeps the dawn sense, or drop the Synodal comparison. (Синодальный, Пс 62:2: «Боже! Ты Бог мой, Тебя от ранней зари ищу я»; Hebrew אֲשַׁחֲרֶךָּ (root שחר, 'dawn').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:56:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4aadd351b1f"
+  },
+  "verse.ru:PS.63.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:55:43+00:00",
+   "agent_notes": [
+    "Синодальный, как и KJV, переставляет порядок: «чтобы видеть силу Твою… как я видел Тебя во святилище»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[should_fix] Replace «Синодальный перевод сохраняет этот порядок: „Так видел я Тебя во святилище“» with a note that the Synodal, like the KJV, reverses the order («чтобы видеть силу Твою… как я видел Тебя во святилище»), or drop the sentence. (Синодальный, Пс 62:3: «чтобы видеть силу Твою и славу Твою, как я видел Тебя во святилище»; Hebrew כֵּן בַּקֹּדֶשׁ חֲזִיתִיךָ לִרְאוֹת עֻזְּךָ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:56:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0cde22e6fb5"
+  },
+  "verse.ru:PS.63.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [
+    "«Хесед» передан как «верная любовь» (в буквальном слое — «милость-верность»); Синодальный даёт «милость». В комментарии оставлена пометка о том, что слово — термин верности по союзу."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f40939562909"
+  },
+  "verse.ru:PS.63.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36e29023ebe8"
+  },
+  "verse.ru:PS.63.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «туком и елеем» (חֵלֶב וָדֶשֶׁן — «жир и тучность»); «елей» в еврейском тексте нет, как нет и «костного мозга» в KJV. Я оставил «жир и тучность»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[consider] Write «Говорящий — в пустыне, голодный». (English: 'The speaker is in the wilderness, hungry'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c23e71b4a031"
+  },
+  "verse.ru:PS.63.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:55:43+00:00",
+   "agent_notes": [
+    "В буквальном слое «размышляю» заменено на «бормочу», как в глоссе и комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[should_fix] In translation_literal change «размышляю о Тебе» to «бормочу о Тебе» (or «шепчу о Тебе»), matching the gloss and the commentary. (PS.63.7: «בְּאַשְׁמֻרוֹת אֶהְגֶּה־בָּךְ»; English literal: 'in the night-watches I murmur on you'; ru gloss pos 6: «бормочу».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:56:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4bee7300e4a1"
+  },
+  "verse.ru:PS.63.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[consider] Quote the Synodal as «возрадуюсь». (Синодальный, Пс 62:8: «и в тени крыл Твоих я возрадуюсь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e59a8e49299"
+  },
+  "verse.ru:PS.63.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:52:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:54:20+00:00",
+     "note": "[consider] Consider «меня держала десница Твоя» or «за меня держалась десница Твоя» in the literal layer. (PS.63.9: «בִּי תָּמְכָה יְמִינֶךָ».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "583a38cc5073"
   }
  },
  "notes": []

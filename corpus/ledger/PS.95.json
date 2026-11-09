@@ -235,6 +235,267 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.95.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "Комментарий исправлен по замечанию: Синодальный даёт «Твердыне спасения нашего» там, где иврит говорит цур, «скала»; утверждение, будто Синодальный не различает два глагола, убрано (он различает: «воспоём … воскликнем»). Замечание о KJV («make a joyful noise») оставлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] In the commentary, say the Synodal has 'Твердыне спасения нашего' where the Hebrew says tsur, 'скала', and drop the claim that the Synodal does not tell the verbs apart (it has 'воспоем … воскликнем'). Alternatively, keep the English's KJV remark ('make a joyful noise' flattens teru'ah). (PS.95.1 (Synodal Пс 94:1): \"Приидите, воспоем Господу, воскликнем Твердыне спасения нашего\"; Hebrew \"לְצ֣וּר\" ('to the rock').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d57fea62df4"
+  },
+  "verse.ru:PS.95.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "Синодальный процитирован как «был раздражаем родом сим»: мягче, чем акут («гнушался»), и с добавленным «сим», как в KJV. На «омерзителен» больше не ссылаемся."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] Quote the Synodal as 'был раздражаем родом сим': milder than aqut 'гнушался', and with an added 'сим' like the KJV's 'this'. Do not cite it as support for 'омерзителен'. (PS.95.10 (Synodal Пс 94:10): \"Сорок лет Я был раздражаем родом сим\"; Hebrew \"אָק֨וּט בְּד֗וֹר\" ('I loathed a generation').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32d1cfa7da27"
+  },
+  "verse.ru:PS.95.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:57:53+00:00",
+   "agent_notes": [
+    "Оборот «если войдут» оставлен незаконченной клятвой в буквальном слое; в литературном слое дан смысл («никогда не войдут»), как и в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[consider] Pick one numbering for the corpus, or give both ('Пс 88:36 (евр. 89:36)'). (English PS.95.11: \"compare Ps 89:36\", \"(Ps 132:14)\"; PS.95.10: \"Ps 119:176\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "29a62c907140"
+  },
+  "verse.ru:PS.95.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "«Псалмы» отнесены к KJV; сказано, что синодальное «в песнях» соответствует ивритскому зимрот."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] Attribute 'psalms' to the KJV ('«Псалмы» в KJV — слово греческого происхождения…'), and say that the Synodal's 'в песнях' matches the Hebrew zemirot. (PS.95.2 (Synodal Пс 94:2): \"предстанем лицу Его со славословием, в песнях воскликнем Ему\"; KJV: \"make a joyful noise unto him with psalms\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8dcf4818c424"
+  },
+  "verse.ru:PS.95.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:57:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fb0413fd4bde"
+  },
+  "verse.ru:PS.95.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:57:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[consider] Quote it as 'вершины гор'. (PS.95.4 (Synodal Пс 94:4): \"и вершины гор — Его же\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "05a7ebe23dc8"
+  },
+  "verse.ru:PS.95.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "Замечание о порядке слов теперь о KJV; сказано, что Синодальный сохраняет порядок иврита."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] Make the word-order remark about the KJV ('his hands formed the dry land'), or say that the Synodal keeps the Hebrew order. Do not say the Synodal hides it. (PS.95.5 Hebrew \"וְ֝יַבֶּ֗שֶׁת יָדָ֥יו יָצָֽרוּ\" ('and the dry land his hands formed'); Synodal Пс 94:5: \"и сушу образовали руки Его\"; KJV: \"and his hands formed the dry land\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "55992f5438a9"
+  },
+  "verse.ru:PS.95.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "Замечание о «worship» отнесено к KJV; сказано, что Синодальный сохраняет три позы. Фраза о том, что три глагола будто бы одинаковы, убрана."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] Make the remark about the KJV's 'worship', which loses the physical act. Or say that the Synodal's 'поклонимся, припадем, преклоним колена' keeps three postures. (PS.95.6 (Synodal Пс 94:6): \"Приидите, поклонимся и припадем, преклоним колена\"; KJV: \"O come, let us worship and bow down\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3c84243ef9bb"
+  },
+  "verse.ru:PS.95.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:35+00:00",
+   "agent_notes": [
+    "Открытое «если»: KJV и YLT оставляют его открытым, Синодальный («О, если бы вы ныне послушали»), ASV и BBE делают его пожеланием. Фраза о «паствы» переписана в один тезис. Радак: места — Рефидим и Мерива."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": "[should_fix] Say that the KJV and YLT leave the clause open, while the Synodal ('О, если бы вы ныне послушали'), the ASV and the BBE make it a wish. Rewrite the 'паствы' sentence so it makes one clear point, or drop it. Give Radak's places as 'в Рефидиме и Мериве'. (PS.95.7 (Synodal Пс 94:7): \"народ паствы Его и овцы руки Его. О, если бы вы ныне послушали гласа Его\"; English commentary: \"tested God at Rephidim and Meribah\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:14+00:00",
+     "note": "[consider] Optionally restore a short clause on the KJV's 'his pasture' beside the Synodal 'народ паствы Его'. (PS.95.7 English commentary: \"it makes 'pasture' a possessive ('his pasture') where the Hebrew says the people whom he pastures, as Radak reads it\"; Synodal Пс 94:7: \"народ паствы Его\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "945b83b542eb"
+  },
+  "verse.ru:PS.95.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:57:53+00:00",
+   "agent_notes": [
+    "Мерива и Масса даны как собственные имена (так в Синодальном, Исх 17:7); в Синодальном Масса в этом стихе — «день искушения», в литературном слое оставлено имя, а значение «испытание» вынесено в комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "841e579a31c5"
+  },
+  "verse.ru:PS.95.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:57:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ab8e86b17287"
   }
  },
  "notes": []

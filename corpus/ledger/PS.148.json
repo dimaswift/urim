@@ -1,0 +1,620 @@
+{
+ "chapter_ref": "PS.148",
+ "items": {
+  "verse.en:PS.148.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [
+    "Two gloss choices: הַלְלוּ יָהּ is written as two words in this text (STEPBible tokens 1–2), so I glossed them 'praise' + 'Yah' and render 'Hallelu-Yah' in the literal layer; KJV/ASV merge it into a single 'Praise ye the Lord/Jehovah'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[consider] Trim the added clause, and let the note say what Meiri says (an imperative of continual praise). (PS.148.1: \"הַֽ֝לְל֗וּהוּ בַּמְּרוֹמִֽים\"; Meiri: \"אע״פ שלא יתכן בזה צווי אנושי... לשון צווי בדרך הודעת התמדת הדבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "Ibn Ezra's proof text for חַיָּה / בְּהֵמָה is Leviticus 25:7 ('for your livestock and the wild animal in your land'), now cited as such."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] Replace 'in Exodus and Deuteronomy' with 'in Leviticus 25:7 (\"for your livestock and the wild animal in your land\")', the verse Ibn Ezra cites. (PS.148.10 Ibn Ezra: \"החיה - שאינה ביישוב וכל בהמה שהיא ביישוב, כמו: ולבהמתך ולחיה אשר בארצך\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [
+    "בְּתוּלוֹת: literal layer says 'young women' (virgins) because the word names a marital/social status, not just age; dramatic layer uses 'maidens'. נְעָרִים: 'youths' rather than KJV's 'children' (the word covers boys from infancy through young manhood)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[consider] Give the status claim as the agent's own lexical note and cite Radak for what he says (the 'also'). (PS.148.12 Radak: \"שאין דרך הבתולות להתעסק אלא בקשוט גופן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:20:49+00:00",
+   "agent_notes": [
+    "הוֹדוֹ is glossed 'his splendor' (STEPBible) and rendered 'splendor' in both layers; KJV 'glory' and BBE 'kingdom' blur it with כָּבוֹד and מַלְכוּת. BBE's 'is to be praised' for נִשְׂגָּב is a paraphrase, not the Hebrew.",
+    "Metzudat David glosses הודו as 'his majesty is fitting', and Meiri takes it as a hint at providence; I follow the plain sense (splendor above earth and heaven) and cite them only for what they say."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[consider] Drop the refuge sense or mark it as the agent's own etymological aside. (PS.148.13 Radak: \"כי במעט זמן תשוב ותכלה גדולתם המשגב לה' לבדו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:20:49+00:00",
+   "agent_notes": [
+    "Hebrew has no subject for וַיָּרֶם beyond the LORD of v. 13; the wayyiqtol is rendered as a past/perfect ('has raised'), as most versions do. A future or timeless reading is possible, and Radak reads it as the future ingathering from exile; I left that to the commentary.",
+    "תְּהִלָּה is the first word of a phrase in apposition ('praise for all his faithful'): the horn is a cause of praise. Ibn Ezra and Radak differ on whether עַם־קְרֹבוֹ is a construct; Ibn Ezra says it is not, and I render it as 'a people [who are] his near ones'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[consider] Say the KJV renders the conjunction as 'also'; close the dramatic layer with 'Praise Yah' to mirror v. 1. (PS.148.14: \"וַיָּ֤רֶם ... הַֽלְלוּ־יָֽהּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "Qere/Ketiv: the packet marks צְבָאָיו as Q(K). I glossed the reading as shown ('his hosts', plural) and did not construct a Ketiv form; ASV has the singular 'host'. Commentary now names the form the verse has, 'his hosts' (צְבָאָיו), as requested."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] In the directors_commentary replace 'hosts' (צְבָאוֹת) with 'his hosts' (צְבָאָיו), the form the verse has. (PS.148.2: \"הַֽ֝לְל֗וּהוּ כָּל־צְבָאָֽיו\" (token 6, צְבָאָֽיו, 'hosts his'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[consider] Keep the dramatic layer to the sun, moon and shining stars. (PS.148.3: \"הַֽ֭לְלוּהוּ שֶׁ֣מֶשׁ וְיָרֵ֑חַ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [
+    "שְׁמֵי הַשָּׁמָיִם is a superlative-style construct ('heavens of the heavens'). KJV and ASV keep the literal 'heavens of heavens'; BBE 'highest heavens' is an interpretation. I kept the literal form and explained it in the commentary. The medieval commentators in the packet disagree on which sphere it names (Radak, Meiri, Malbim); I did not adopt their cosmology."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "Cross-reference corrected: the sea monsters are in verse 7, not the next verse."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] In the last paragraph of the directors_commentary change 'the sea monsters in the next verse' to 'the sea monsters of verse 7'. (PS.148.6: \"וַיַּעֲמִידֵ֣ם לָעַ֣ד לְעוֹלָ֑ם חָק־נָ֝תַ֗ן\"; PS.148.7: \"תַּ֝נִּינִ֗ים וְכָל־תְּהֹמֽוֹת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "תַּנִּינִים: five versions split ('dragons' KJV/Webster/YLT, 'sea-monsters' ASV, 'sea-beasts' BBE). I chose 'sea monsters' for the dramatic layer and left the Hebrew word 'tannînim' in the literal layer, since the word covers both great sea creatures (Gen 1:21) and chaos-monsters, and the psalm's context (with 'deeps') points to the sea. Rashi and Metzudat Zion read it as large fish. Count fixed: six verses (1–6) of heavens before the earth in verse 7."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] Change 'after seven verses' to 'after six verses' in the directors_commentary. (PS.148.1: \"הַֽלְל֣וּ אֶת־יְ֭הוָה מִן־הַשָּׁמַ֑יִם\"; PS.148.7: \"הַֽלְל֣וּ אֶת־יְ֭הוָה מִן־הָאָ֑רֶץ\" (vv. 1-6 heavens, v. 7 the earth))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "קִיטוֹר: I kept the STEPBible gloss 'smoke' in the glosses and rendered 'smoke' literally, but the commentary now says 'vapour' (KJV) is defensible: Radak, Ibn Ezra and Metzudat Zion read it as a smoke-like vapour rising from the ground, and Rashi gives Old French bruine ('mist'). The Gen 19:28 parallel is my own cross-reference, not a packet citation."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] Attribute the 'vapour rising from the ground like smoke' reading to Radak, Ibn Ezra and Metzudat Zion (not Rashi) in both the commentary and the קִיטוֹר note; if Rashi stays, give him as 'mist' (Old French bruine). Soften the KJV audit: the packet's commentators read קיטור as a smoke-like vapour, so 'vapour' is defensible. (PS.148.8 Rashi: \"וְקִיטוֹר. עִנְיַן שׁוֹאָה שֶׁקּוֹרִין בְּרוּאִינ״ה בְּלַעַ״ז\"; Radak: \"קיטור שהוא חם והוא האויר עולה מן הארץ דומה לעשן\"; Metzudat Zion: \"הוא האד העולה מן הארץ דומה הוא לעשן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.148.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:24:05+00:00",
+   "agent_notes": [
+    "Token 4 glossed 'tree of' (construct), token 5 'fruit', per the reviewer request."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:22:56+00:00",
+     "note": "[should_fix] Gloss token 4 as 'tree of' and leave token 5 as 'fruit'. (PS.148.9: \"עֵ֥ץ פְּ֝רִ֗י\" (token 4 עֵ֥ץ, STEPBible 'tree[s] of'; token 5 פְּ֝רִ֗י 'fruit'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:24:38+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.148.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:26:09+00:00",
+   "agent_notes": [
+    "Запрос рецензента учтён: свёртывание возгласа в «Praise ye the Lord» приписано только KJV; о Синодальном переводе сказано отдельно, что он сохраняет возглас одним словом «Аллилуия» и тем самым скрывает два слова «хвалите» и «Йа»; он же ставит «Господа» на месте YHWH. В примечании к הַלְלוּ исправлено «это это слово» на «это слово».",
+    "В буквальном слое возглас передан как «Хвалите-Йа!», а не как «Аллилуия», чтобы были видны оба слова; в драматическом слое имя Господа по традиции Синодального перевода — «Господь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": "[should_fix] In the second paragraph say that only the KJV folds the cry into «Praise ye the Lord»; if the Synodal stays, say it keeps the cry as one word «Аллилуия», which also hides the two words «хвалите» and «Йа». In the הַלְלוּ note change «это это слово» to «это слово». (PS.148.1: \"הַ֥לְלוּ יָ֨הּ הַֽלְל֣וּ אֶת־יְ֭הוָה\"; English commentary: \"The KJV folds the cry into a single 'Praise ye the Lord'\" (KJV only); ru v. 14 agent note: \"Вместо привычного «Аллилуия» Синодального перевода…\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eb1d0fc038ac"
+  },
+  "verse.ru:PS.148.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24b463a3a334"
+  },
+  "verse.ru:PS.148.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a9869d32e0a"
+  },
+  "verse.ru:PS.148.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [
+    "בְּתוּלוֹת: «девицы» в Синодальном переводе; в буквальном слое «девы», так как слово называет статус, а не только возраст. «Отроки» Синодального перевода для נְעָרִים передают «юнцы» в буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f17c49ce1e46"
+  },
+  "verse.ru:PS.148.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:46+00:00",
+   "agent_notes": [
+    "Для הוֹדוֹ выбрано «великолепие» (Синодальный: «слава Его»), чтобы отличить הוד от כָּבוֹד, которое по-русски естественно передаётся словом «слава»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": "[consider] Use one convention through the chapter: Latin translit and the English source names as in vv. 1-12, and one choice for the capitalization of divine pronouns. (PS.148.13 note נִשְׂגָּב sources: \"Радак на Псалом 148:13\"; PS.148.1 note sources: \"Meiri on Psalm 148:1\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "974b06562b0d"
+  },
+  "verse.ru:PS.148.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:46+00:00",
+   "agent_notes": [
+    "חֲסִידָיו: в Синодальном переводе «преподобных Своих», в русском богослужебном и церковном языке слово несёт позднейший оттенок святости. Здесь «верные Ему», как в английском слое; об этом сказано в комментарии.",
+    "Вместо привычного «Аллилуия» Синодального перевода стоит «Хвалите Господа» (литературный слой) и «Хвалите Йа» (буквальный): слитное «Аллилуия» скрыло бы повтор הַלְלוּ из начала псалма, о котором говорит комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": "[consider] Restore Latin translit and English source names; verify the Synodal quotation before relying on «преподобных» in the commentary and the חֲסִידָיו discussion. (PS.148.14 note חֲסִידָיו: translit \"хасидав\", sources \"Ибн Эзра на Псалом 148:14\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fad7fef2fbe"
+  },
+  "verse.ru:PS.148.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [
+    "מַלְאָכִים: Синодальный перевод пишет «Ангелы»; в буквальном слое «посланники», в драматическом — «вестники», чтобы сохранить значение функции, как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b1a95030bb6"
+  },
+  "verse.ru:PS.148.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": "[consider] Check the Synodal wording; if it is «звезды света», say it keeps the literal construct. (PS.148.3: \"כָּל־כּ֥וֹכְבֵי אֽוֹר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a30b1c1ac92c"
+  },
+  "verse.ru:PS.148.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02ae6551ff9e"
+  },
+  "verse.ru:PS.148.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "69ac20ab0767"
+  },
+  "verse.ru:PS.148.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": "[consider] Quote the word as the literal layer has it, «прейдёт», or explain the two forms. (PS.148.6: \"וְלֹ֣א יַעֲבֽוֹר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a17b657d6ef"
+  },
+  "verse.ru:PS.148.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [
+    "תַּנִּינִים: в буквальном слое оставлено «таннины» с пояснением, а в драматическом — «морские чудовища». Синодальный перевод читает «великие рыбы» (так понимают Раши и Мецудат Цион), поэтому в комментарии это сказано отдельно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8aacc5a6cde8"
+  },
+  "verse.ru:PS.148.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [
+    "קִיטוֹר: в буквальном слое «дым», как в английском, чтобы сохранить связь с корнем курения; Синодальный перевод здесь «туман», что близко к чтению Раши и поясняется в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e0bf291899de"
+  },
+  "verse.ru:PS.148.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:23:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:25:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f88bf2d88b52"
+  }
+ },
+ "notes": []
+}

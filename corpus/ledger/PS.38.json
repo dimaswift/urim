@@ -505,6 +505,489 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.38.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте надписание — стих 1, в Синодальном перевод нумерует этот псалом как 37, и надписание стоит без номера, поэтому все номера сдвинуты на единицу. Идентификаторы стихов оставлены еврейскими."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fbd598c306e3"
+  },
+  "verse.ru:PS.38.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [
+    "Адонай в буквальном слое — «Владыка мой», в литературном — «Господи», как в Синодальном; различие с YHWH из стиха 2 объяснено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d13b77378733"
+  },
+  "verse.ru:PS.38.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a284ba44c2b"
+  },
+  "verse.ru:PS.38.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [
+    "Еврейское нéга‘ («язва, поражение») передано как «язва» (так и в Синодальном); отсылка к Левит 13 в комментарии сохранена. «Любящие меня» в буквальном слое, «друзья» в литературном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[consider] Quote the Synodal exactly, and gloss pos 3 as 'напротив' or 'поодаль', as the note itself explains it. (PS.38.12: \"מִנֶּגֶד נִגְעִי יַעֲמֹדוּ\"; ru note on minneged: \"«Напротив, на виду»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "571c3b8aa8f6"
+  },
+  "verse.ru:PS.38.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:13:03+00:00",
+   "agent_notes": [
+    "Синодальное сравнение исправлено по замечанию рецензента: хаввот — «погибель», «козни» передают обман."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[should_fix] Correct the last sentence: 'Синодальный («говорят о погибели моей и замышляют всякий день козни») передаёт хаввот как погибель, в отличие от KJV, а «козни» передают обман.' Or drop the Synodal comparison. (PS.38.13: \"דִּבְּרוּ הַוּוֹת\"; Synodal Ps 37:13: \"и желающие мне зла говорят о погибели моей и замышляют всякий день козни\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2d0793fe811"
+  },
+  "verse.ru:PS.38.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[consider] Use one spelling throughout, preferably the usual 'Мальбим'. (PS.38.14 ru: \"Мальбим добавляет\"; PS.38.3 ru: \"Малбим — как внутренние стрелы\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16d7977b4b0f"
+  },
+  "verse.ru:PS.38.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "65350e15ff22"
+  },
+  "verse.ru:PS.38.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [
+    "Тетраграмма в буквальном слое остаётся YHWH, в драматическом — «Господи»; «Адонай» передано как «Владыка»/«Господи» по контексту, чтобы не слить два имени."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d1ab9a86a228"
+  },
+  "verse.ru:PS.38.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9a2e00971429"
+  },
+  "verse.ru:PS.38.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [
+    "Синодальный: «я близок к падению»; здесь буквально «поставлен для хромоты», в драматическом слое — «готов упасть». Комментарий отмечает, что «хромать» не равно «остановиться»; в русском такой путаницы нет, поэтому разбор KJV сведён к сути."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d95c8f96ab4"
+  },
+  "verse.ru:PS.38.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:12:15+00:00",
+   "agent_notes": [
+    "По замечанию рецензента исправлена последняя фраза комментария: Синодальный перевод (Пс 37:19) — «беззаконие моё я сознаю, сокрушаюсь о грехе моём» — передаёт де'аг как сокрушение, раскаяние, а не как «скорблю»; страх слышнее в слове «тревога»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[should_fix] Replace the last sentence: 'Синодальный («беззаконие моё я сознаю, сокрушаюсь о грехе моём») передаёт де'аг как сокрушение, раскаяние, а в слове «тревога» слышнее страх.' Or drop the Synodal comparison. (PS.38.19: \"אֶדְאַג מֵחַטָּאתִי\"; Synodal Ps 37:19: \"Беззаконие мое я сознаю, сокрушаюсь о грехе моем\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ffac0636248b"
+  },
+  "verse.ru:PS.38.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:13:03+00:00",
+   "agent_notes": [
+    "Синодальное предложение в комментарии переписано по замечанию рецензента: Синодальный повторяет отрицание, как KJV, и меняет «гнев» и «ярость» местами."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[should_fix] Rewrite the Synodal sentence: 'Синодальный перевод (37:2), как и KJV, повторяет отрицание: «не в ярости Твоей обличай меня и не во гневе Твоём наказывай меня», — и к тому же меняет слова местами.' (PS.38.2 ru commentary: \"Синодальный перевод (37:2) тоже ставит отрицание один раз в начале: «не в ярости Твоей обличай меня и не во гневе Твоём наказывай меня»\"; Hebrew: \"אַל־בְּקֶצְפְּךָ תוֹכִיחֵנִי וּבַחֲמָתְךָ תְיַסְּרֵנִי\" (one אַל))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "874d257a786d"
+  },
+  "verse.ru:PS.38.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[consider] Quote the Synodal exactly. (Synodal Ps 37:20: \"А враги мои живут и укрепляются, и умножаются ненавидящие меня безвинно\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4b93bd371d83"
+  },
+  "verse.ru:PS.38.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [
+    "Игра с корнем сатан (ястэнуни): в русском «обвиняют/враждуют» не сохраняет корень; он назван в заметке. Qere/Ketiv рэдефи/радофи оставлено как в английском комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3137cb37ca83"
+  },
+  "verse.ru:PS.38.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ee98b3b98c4"
+  },
+  "verse.ru:PS.38.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[consider] Quote the Synodal exactly and note 'Спаситель' for תְּשׁוּעָתִי; consider 'Владыка мой' for consistency with vv. 10 and 16. (PS.38.23: \"אֲדֹנָי תְּשׁוּעָתִי\"; Synodal Ps 37:23: \"Поспеши на помощь мне, Господи, Спаситель мой!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d92d0bff537"
+  },
+  "verse.ru:PS.38.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a31fe471f8fc"
+  },
+  "verse.ru:PS.38.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2d56182f14ff"
+  },
+  "verse.ru:PS.38.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[consider] Quote the Synodal as 'как тяжёлое бремя отяготели на мне'. (Synodal Ps 37:5: \"ибо беззакония мои превысили голову мою, как тяжелое бремя отяготели на мне\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad34b58e7d39"
+  },
+  "verse.ru:PS.38.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "844eb94f10a8"
+  },
+  "verse.ru:PS.38.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c9febbcc11a"
+  },
+  "verse.ru:PS.38.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:24+00:00",
+   "agent_notes": [
+    "Нискле: в слое-глоссе выбрано «жжение» (чтение «жечь, палить»), как в английском; Синодальное «воспаление» близко к нему."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8464aa1e536"
+  },
+  "verse.ru:PS.38.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:13:03+00:00",
+   "agent_notes": [
+    "Синодальное чтение заменено на «кричу от терзания сердца моего» по замечанию рецензента; в нём крик сохраняет громкость, но теряет льва."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:11:43+00:00",
+     "note": "[should_fix] Replace the last sentence with the real Synodal: 'Синодальный перевод (37:9) говорит «кричу от терзания сердца моего»: крик сохраняет громкость, но теряет льва.' If you cannot check the Synodal wording, drop the sentence. (PS.38.9: \"שָׁאַגְתִּי מִנַּהֲמַת לִבִּי\"; Synodal Ps 37:9: \"Я изнемог и сокрушен чрезмерно; кричу от терзания сердца моего\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:13:37+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "28ec0f4ab0d9"
   }
  },
  "notes": []

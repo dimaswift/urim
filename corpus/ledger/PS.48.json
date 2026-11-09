@@ -337,6 +337,341 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.48.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:14+00:00",
+   "agent_notes": [
+    "Корей, как в PS.42–47 (Синодальный: «Сынов Кореевых»); в драматическом слое и комментарии — «сынов Корея» / «Кореевы сыны»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Use Корей as in PS.42–47: literal «Песнь, псалом сынам Корея», gloss pos 4 «Корея», and «Кореевы сыны»/«сынов Корея» in the dramatic layer and commentary. Replace «(так же и в Синодальном переводе)» with: in the Synodal the heading is also verse 1, so its verse numbers match the Hebrew, and only the psalm number (47) differs. (PS.48.1: «לִבְנֵי־קֹֽרַח»; Synodal Пс 47:1 «Песнь. Псалом. Сынов Кореевых.»; ru PS.47.1 literal «…сынов Корея»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ebb81138d57"
+  },
+  "verse.ru:PS.48.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Quote the Synodal as «Мы размышляли, Боже, о благости Твоей посреди храма Твоего» and say that it renders chesed as «благость». (PS.48.10: «דִּמִּינוּ אֱלֹהִים חַסְדֶּךָ»; Synodal Пс 47:10 «Мы размышляли, Боже, о благости Твоей посреди храма Твоего»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "051e3a4d3ec6"
+  },
+  "verse.ru:PS.48.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:14+00:00",
+   "agent_notes": [
+    "В буквальном слое порядок иврита сохранён без скобок: «правдой полна десница Твоя»; Синодальный («десница Твоя полна правды») сглаживает его так же, как KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Correct the last sentence: the Synodal («десница Твоя полна правды») follows the same smoothed order as the KJV. Remove the brackets in the literal layer: «правдой полна десница Твоя». (PS.48.11: «צֶדֶק מָלְאָה יְמִינֶךָ»; Synodal Пс 47:11 «десница Твоя полна правды»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5853f09260c7"
+  },
+  "verse.ru:PS.48.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ebda968a251f"
+  },
+  "verse.ru:PS.48.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:28:39+00:00",
+   "agent_notes": [
+    "«Башни» и «Обойдите… окружите»: Синодальный перевод (Пс 47:13) тоже передаёт удвоение двух глаголов («Обойдите Сион и окружите его»), поэтому я сохранил пару в буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[consider] Quote the Synodal wording exactly. (Synodal Пс 47:13 «Пойдите вокруг Сиона и обойдите его, пересчитайте башни его»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f0da590fd74"
+  },
+  "verse.ru:PS.48.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:28:39+00:00",
+   "agent_notes": [
+    "Для חֵילָה выбрано «внешняя стена» (так читают Радак и Мецудат Цион); Синодальный перевод даёт «укрепления его», что ближе к общему смыслу, но скрывает образ низкой внешней стены перед высокой. אַרמנות — «дворцы» в Синодальном переводе; я везде оставил «твердыни», чтобы слово совпадало с «твердынями» ст. 4 и с комментарием."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[consider] Quote «рассмотрите домы его» (which, like the KJV's «consider», misses the climb) and make the glosses and literal layer agree on the pronoun. (PS.48.14: «פַּסְּגוּ אַרְמְנוֹתֶיהָ»; Synodal Пс 47:14 «обратите сердце ваше к укреплениям его, рассмотрите домы его»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f1671f6fb0de"
+  },
+  "verse.ru:PS.48.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:31:45+00:00",
+   "agent_notes": [
+    "По просьбе рецензента исправлена последняя фраза комментария: Синодальный перевод («Он будет вождем нашим до самой смерти») берёт чтение из двух слов и, как KJV, превращает глагол в существительное («вождь») и добавляет «самой». В драматическом слое «Он, только Он» заменено на «Он, Он Сам»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Correct the last sentence: the Synodal («Он будет вождем нашим до самой смерти») takes the two-word reading and, like the KJV, turns the verb into a noun («вождь») and adds «самой». In the dramatic layer, write «Он, Он Сам» instead of «Он, только Он». (PS.48.15: «הוּא יְנַהֲגֵנוּ עַל־מוּת»; Synodal Пс 47:15 «Он будет вождем нашим до самой смерти»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "92d9556dc3d2"
+  },
+  "verse.ru:PS.48.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c3959a3236d0"
+  },
+  "verse.ru:PS.48.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт נוֹף как «прекрасная возвышенность», а יַרְכְּתֵי צָפוֹן как «по сторонам севера». В буквальном слое оставлено «отдалённые части Цафона» (имя собственное, как в английском буквальном слое: Zaphon); Синодальный «по сторонам севера» упомянут в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[consider] Quote «на северной стороне ее», and spell Ibn Ezra one way across the chapter, as in the earlier chapters. (Synodal Пс 47:3 «Прекрасная возвышенность, радость всей земли гора Сион; на северной стороне ее город великого Царя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ef73f130ee9"
+  },
+  "verse.ru:PS.48.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Replace the last sentence: the Synodal («Бог в жилищах его известен, как заступник») keeps the passive «известен», and «жилища» loses the sense of a fortified citadel, as the KJV's «palaces» does. (PS.48.4: «בְּאַרְמְנוֹתֶיהָ נוֹדַע לְמִשְׂגָּב»; Synodal Пс 47:4 «Бог в жилищах его известен, как заступник»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32758f914687"
+  },
+  "verse.ru:PS.48.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8de434fbfd1b"
+  },
+  "verse.ru:PS.48.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d885f5b011f"
+  },
+  "verse.ru:PS.48.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:32:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[should_fix] Replace the last sentence: the Synodal («страх объял их там и муки, как у женщины в родах») has «страх», like the KJV's «fear», and so blunts the bodily trembling in the same way. (PS.48.7: «רְעָדָה אֲחָזָתַם שָׁם»; Synodal Пс 47:7 «страх объял их там и муки, как у женщины в родах»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:32:53+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e11a49e013f"
+  },
+  "verse.ru:PS.48.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[consider] Quote the Synodal wording exactly. (Synodal Пс 47:8 «восточным ветром Ты сокрушил Фарсийские корабли»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b881d19abf26"
+  },
+  "verse.ru:PS.48.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:25:58+00:00",
+   "agent_notes": [
+    "«Господь Саваоф» — форма Синодального перевода для YHWH tseva'ot; в буквальном слое YHWH сохранено, а צְבָאוֹת дано как «воинств», в драматическом — «Господа Саваофа»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:31:04+00:00",
+     "note": "[consider] Say that the Synodal omits Selah, and quote «на веки» as written. (PS.48.9: «יְכוֹנְנֶהָ עַד־עוֹלָם סֶלָה»; Synodal Пс 47:9 «…Бог утвердит его на веки.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ac7209e1019"
   }
  },
  "notes": []

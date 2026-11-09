@@ -134,6 +134,144 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.70.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:50+00:00",
+   "agent_notes": [
+    "Синодальную цитату исправил на «В воспоминание» (Пс 69:1); утверждение, что она сохраняет неопределённость, кто кого поминает, оставил."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[should_fix] In the directors_commentary, correct the quote to «В воспоминание» (and adjust the remark if it no longer holds), or drop the sentence, which the English does not have. (PS.70.1: לְהַזְכִּיר; Synodal Ps 69:1: «Начальнику хора. Псалом Давида. В воспоминание.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b53fed25747"
+  },
+  "verse.ru:PS.70.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:03:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[consider] Use «элохистском». (PS.70.2: אֱלֹהִים)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7f0bc3e213b7"
+  },
+  "verse.ru:PS.70.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:03:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[consider] Write, for example, «Выражение „отброшены назад“ (буквально „отступят вспять“) тоже намеренное удвоение». (PS.70.3: יִסֹּגוּ אָחוֹר)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74a5c9a8a3cd"
+  },
+  "verse.ru:PS.70.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:50+00:00",
+   "agent_notes": [
+    "Заключительное замечание о Синодальном теперь цитирует «за поношение меня» и «хорошо! хорошо!» точно; мысль, что образ пяты утрачен, сохранена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[should_fix] In the last sentence of the directors_commentary, quote the Synodal exactly («за поношение меня … „хорошо! хорошо!“») or drop the clause about «в стыде своём»; keep the point that the Synodal does not keep the image of the heel. (PS.70.4: עַל־עֵקֶב בָּשְׁתָּם; Synodal Ps 69:4: «Да будут обращены назад за поношение меня говорящие [мне]: „хорошо! хорошо!“»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "024a761223aa"
+  },
+  "verse.ru:PS.70.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:50+00:00",
+   "agent_notes": [
+    "Синодальное сравнение заменено точной цитатой «велик Бог!» — утверждение величия без пожелания (джуссива)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[should_fix] In the directors_commentary, replace the Synodal sentence with an exact quote («велик Бог!», which states God's greatness without the jussive wish), or drop the sentence; the English has no Synodal comparison here. (PS.70.5: יִגְדַּל אֱלֹהִים; Synodal Ps 69:5: «и любящие спасение Твое да говорят непрестанно: „велик Бог!“»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a83ef7c72bd"
+  },
+  "verse.ru:PS.70.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:03:24+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:05:01+00:00",
+     "note": "[consider] Quote the Synodal as «не замедли». (PS.70.6: אַל־תְּאַחַר; Synodal Ps 69:6: «Господи! не замедли.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "849167a9299c"
   }
  },
  "notes": []

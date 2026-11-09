@@ -236,6 +236,259 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.52.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [
+    "Маскил оставлен транслитерацией, как и в английском; Синодальный переводит «Учение». В комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99a906979e62"
+  },
+  "verse.ru:PS.52.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[consider] Consider «пышная» or «цветущая» for ra'anan, and quote the Synodal as «как зеленеющая маслина». (PS.52.10: 'כְּזַיִת רַעֲנָן'; Synodal Пс 51:10: «А я, как зеленеющая маслина, в доме Божием».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "23439bfaa7a1"
+  },
+  "verse.ru:PS.52.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:19+00:00",
+   "agent_notes": [
+    "Синодальное «пред святыми Твоими» процитировано дословно; отмечено, что оно называет хасидим «святыми» и теряет связь с хеседом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly («ибо оно благо пред святыми Твоими») and say it calls them 'святые', which also loses the link to chesed; or remove the Synodal sentence. (PS.52.11: 'נֶגֶד חֲסִידֶיךָ' (before your faithful ones); Synodal Пс 51:11: «Вечно буду славить Тебя за то, что Ты соделал, и уповать на имя Твое, ибо оно благо пред святыми Твоими».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a51e2075894"
+  },
+  "verse.ru:PS.52.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:19+00:00",
+   "agent_notes": [
+    "Литеральный слой: «При приходе Доика» вместо «В приходе Доика», как просил рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[should_fix] In translation_literal, replace «В приходе Доика» with «При приходе Доика» or «Когда пришёл Доик» (the gloss at pos 1 already reads «когда пришёл»). (PS.52.2: 'בְּבוֹא דּוֹאֵג הָאֲדֹמִי' (in the coming of Doeg the Edomite); English literal 'When Doeg the Edomite came'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:39:03+00:00",
+     "note": "[consider] Consider one form throughout the verse, preferably the Synodal «Идумеянин». (PS.52.2: 'דּוֹאֵג הָאֲדֹמִי'; Synodal 1 Цар 21:7 and Пс 51:2: «Доик Идумеянин».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8a93b0a12169"
+  },
+  "verse.ru:PS.52.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно; отмечено, что «со мною» добавлено и в еврейском его нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly («милость Божия всегда со мною») and note that it adds 'со мною', which the Hebrew does not have; or remove the Synodal sentence. (PS.52.3: 'חֶסֶד אֵל כָּל־הַיּוֹם' (the chesed of God all the day); Synodal Пс 51:3: «Что хвалишься злодейством, сильный? милость Божия всегда со мною».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "988167319982"
+  },
+  "verse.ru:PS.52.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:19+00:00",
+   "agent_notes": [
+    "Синодальное «как изощренная бритва, он у тебя, коварный!» процитировано дословно; сохранено замечание, что «коварный» — обращение."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[should_fix] In directors_commentary, replace «работающий лукаво» with the Synodal's actual words («как изощренная бритва, он у тебя, коварный!»), keeping the point that it is an address; or remove the Synodal sentence. (PS.52.4: 'כְּתַעַר מְלֻטָּשׁ עֹשֵׂה רְמִיָּה'; Synodal Пс 51:4: «Гибель вымышляет язык твой; как изощренная бритва, он у тебя, коварный!».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e1f42160de61"
+  },
+  "verse.ru:PS.52.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[consider] Consider «ты любишь» in the literal layer and glosses of verses 5 and 6, matching the commentary. (PS.52.5: 'אָהַבְתָּ רָּע מִטּוֹב' (you love evil more than good); Synodal «ты любишь больше зло, нежели добро».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7df7113c0129"
+  },
+  "verse.ru:PS.52.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[consider] Consider quoting the Synodal exactly («всякие гибельные речи, язык коварный»). (Synodal Пс 51:6: «ты любишь всякие гибельные речи, язык коварный».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d1fa166c520"
+  },
+  "verse.ru:PS.52.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:19+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно; замечание о «жилище» сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly («сокрушит тебя вконец, изринет тебя и исторгнет тебя из жилища твоего и корень твой из земли живых») or remove the quotation and keep only the remark about 'жилище'. (PS.52.7: 'יִתָּצְךָ לָנֶצַח יַחְתְּךָ וְיִסָּחֲךָ מֵאֹהֶל'; Synodal Пс 51:7: «За то Бог сокрушит тебя вконец, изринет тебя и исторгнет тебя из жилища твоего и корень твой из земли живых».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:39:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6853740cba3a"
+  },
+  "verse.ru:PS.52.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [
+    "Звуковая игра yir'u / yira'u («увидят» / «убоятся») в русском не воспроизводится; в литеральном слое сохранена цепочка «и увидят… и убоятся», игра объяснена в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ffffc924158c"
+  },
+  "verse.ru:PS.52.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:34:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ebcff665096"
   }
  },
  "notes": [

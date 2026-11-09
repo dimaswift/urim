@@ -248,6 +248,281 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.32.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [
+    "Синодальное «отпущены беззакония» процитировано полностью; «отпущены» оставляет образ освобождения, но «поднят» (נשא) буквальнее. В буквальном слое פֶּשַׁע — «мятеж», как в глоссе 5."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal «отпущены беззакония» and adjust the remark (отпущены is 'released', closer to the image than 'forgiven'). In the literal layer, render פֶּשַׁע as «мятеж» («чей мятеж поднят»), matching gloss pos 5. (PS.32.1: \"נְשׂוּי־פֶּשַׁע\" (gloss pos 5 «мятеж»); RusSynodal Пс 31:1: «Блажен, кому отпущены беззакония и чьи грехи покрыты!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d489dd895079"
+  },
+  "verse.ru:PS.32.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c7cfa093a47"
+  },
+  "verse.ru:PS.32.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[consider] List the Synodal verbs in its own order. (RusSynodal Пс 31:11: «Веселитесь о Господе и радуйтесь, праведные; торжествуйте, все правые сердцем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95f5cec17b2c"
+  },
+  "verse.ru:PS.32.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [
+    "Синодальное «не вменит греха» теряет «кривизну» עָוֺן, на которой настаивает комментарий; сказано об этом. В буквальном слое עָוֺן оставлено «виной»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «не вменит греха». Note that it renders עָוֺן as «грех», which loses the 'crookedness' the commentary stresses. (PS.32.2: \"לֹא יַחְשֹׁב יְהוָה לוֹ עָוֺן\"; RusSynodal Пс 31:2: «Блажен человек, которому Господь не вменит греха, и в чьем духе нет лукавства!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "34a0538c4e7a"
+  },
+  "verse.ru:PS.32.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[consider] Consider «износились» or «обветшали» in the literal layer and gloss pos 3. (PS.32.3: \"בָּלוּ עֲצָמָי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "899a2d15be63"
+  },
+  "verse.ru:PS.32.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [
+    "חַרְבֹנֵי передано грамматическим множественным: «в знойных засухах лета». Синодальное «свежесть моя исчезла» процитировано, «моя влага» оставлено только как перевод לְשַׁדִּי в слоях."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Use a grammatical plural for חַרְבֹנֵי, e.g. «в сушь летнюю», «в знойных засухах лета» or «в жарах летних», in the literal layer, gloss pos 9 and the note. Quote the Synodal «свежесть моя исчезла» instead of «моя влага». (PS.32.4: \"נֶהְפַּךְ לְשַׁדִּי בְּחַרְבֹנֵי קַיִץ\"; RusSynodal Пс 31:4: «свежесть моя исчезла, как в летнюю засуху»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": "[consider] Split the sentence: end the Synodal remark at «исчезла», then «Говорящий — зелёное растение в августе». (PS.32.4: \"נֶהְפַּךְ לְשַׁדִּי\"; RusSynodal Пс 31:4: «свежесть моя исчезла, как в летнюю засуху»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f119014726c8"
+  },
+  "verse.ru:PS.32.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:49+00:00",
+   "agent_notes": [
+    "По запросу рецензента цитата Синодального перевода (Пс 31:5) в комментарии приведена дословно; остальной текст стиха не менялся."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Rewrite the paragraph on Synodal smoothing. «открыл» for אוֹדִיעֲךָ may stay. Say that the Synodal «снял» keeps the image of נשא, and drop the claim that the Russian loses «Ты». (PS.32.5: \"וְאַתָּה נָשָׂאתָ עֲוֺן חַטָּאתִי\"; RusSynodal Пс 31:5: «и Ты снял с меня вину греха моего»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": "[should_fix] In the commentary, quote the Synodal exactly: «Но я открыл Тебе грех мой и не скрыл беззакония моего; я сказал: „исповедаю Господу преступления мои“, и Ты снял с меня вину греха моего». Change nothing else in the paragraph. (PS.32.5: \"חַטָּאתִי אוֹדִיעֲךָ\"; RusSynodal Пс 31:5: «Но я открыл Тебе грех мой и не скрыл беззакония моего; я сказал: \"исповедаю Господу преступления мои\", и Ты снял с меня вину греха моего»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:21+00:00",
+     "note": "[consider] Consider «В Синодальном переводе: …» or «Синодальный перевод: …». (PS.32.5 ru commentary: «Перевод Синодальный: «Но я открыл Тебе грех мой…»»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9d95344fe198"
+  },
+  "verse.ru:PS.32.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [
+    "Вместо «потоп» (слишком напоминает Ноя) поставлено «разлив» для שֶׁטֶף. Синодальное «благопотребное» оставляет объект «обретения» несказанным; в буквальном слое сохранено «во время обретения»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal «во время благопотребное» and say that it leaves the object of 'finding' unstated (closer to 'a fitting time') rather than choosing Ibn Ezra's reading. (PS.32.6: \"לְעֵת מְצֹא\"; RusSynodal Пс 31:6: «За то помолится Тебе всякий праведник во время благопотребное»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": "[consider] Rewrite as «Синодальный перевод ставит вместо него «и тогда»». (PS.32.6: \"רַק לְשֵׁטֶף מַיִם רַבִּים\"; RusSynodal Пс 31:6: «и тогда разлив многих вод не достигнет его»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66b191752d34"
+  },
+  "verse.ru:PS.32.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («охраняешь меня от скорби», «радостями избавления») and adjust the remark: «радостями» still softens 'shouts of escape'. Write the reference as «Пс 91 (в Синодальном 90)». (PS.32.7: \"מִצַּר תִּצְּרֵנִי רָנֵּי פַלֵּט\"; RusSynodal Пс 31:7: «Ты покров мой: Ты охраняешь меня от скорби, окружаешь меня радостями избавления»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "157681d10335"
+  },
+  "verse.ru:PS.32.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («буду руководить тебя, око Мое над тобою»). Say that it keeps the Hebrew's 'my eye upon you', and remove the sentence that prefers the ASV over it. (PS.32.8: \"אִיעֲצָה עָלֶיךָ עֵינִי\"; RusSynodal Пс 31:8: «буду руководить тебя, око Мое над тобою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46dc842d0b9e"
+  },
+  "verse.ru:PS.32.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:59:28+00:00",
+   "agent_notes": [
+    "Синодальный текст цитируется по Пс 31:9 («как конь, как лошак несмысленный … чтобы они покорялись тебе»); «покорялись» названо парафразом בַּל קְרֹב."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:57:36+00:00",
+     "note": "[should_fix] Quote the Synodal as it reads («несмысленный», «которых челюсти нужно обуздывать…», «чтобы они покорялись тебе»). Say that it paraphrases בַּל קְרֹב as 'submit to you' rather than following either the purpose reading or the result reading; keep Rashi, Radak, Ibn Ezra and Meiri on the purpose reading. (PS.32.9: \"בַּל קְרֹב אֵלֶיךָ\"; RusSynodal Пс 31:9: «чтобы они покорялись тебе»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acd212495177"
   }
  },
  "notes": []

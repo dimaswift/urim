@@ -403,6 +403,439 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.88.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Имена приведены к одной форме во всех полях: «сыны Кореевы» (как в Пс 42, 46, 47, 49) и «Еман Езрахит» (как в Синодальном и Пс 89). В Синодальном заглавие — «Учение Емана Езрахита»; «Махалат» оставлено транслитерацией в буквальном слое, а в комментарии приведено синодальное «Махалаф»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Use one form for each name in every field and gloss of this verse: Еман Езрахит (as in the Synodal and PS.89) and Корей / сыны Кореевы (as in PS.42, PS.46, PS.47, PS.49), in the literal layer and in glosses 4, 10 and 11. (PS.88.1 Hebrew: \"לִבְנֵי קֹרַח … לְהֵימָן הָאֶזְרָחִי\"; Synodal Пс 87:1: \"Сынов Кореевых … Учение Емана Езрахита\"; ru literal: \"Маскил Хемана Эзрахита\"; ru dramatic: \"от имени Емана Езрахитянина\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "acac78fc8e4c"
+  },
+  "verse.ru:PS.88.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[consider] Use the same word in the literal layer and the gloss ('от бедствия' or 'от горести'), and write the transliteration as «óни» or 'oni with the Hebrew beside it. (PS.88.10 Hebrew: \"דָאֲבָה מִנִּי עֹנִי\"; ru literal: \"истомилось от нищеты\"; gloss 4: \"бедствия\"; ru commentary: \"«они» (нищета, бедствие) и «эйни» (око моё)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1084ff921dfd"
+  },
+  "verse.ru:PS.88.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Синодальное «Разве мертвые встанут», как и KJV, повторяет «мёртвые» и теряет слово рефаим; игра רפאים / רפא сохранена как собственное прочтение автора."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Correct the sentence: the Synodal ('Разве мертвые встанут'), like the KJV ('shall the dead arise'), repeats 'the dead' and loses the new word רְפָאִים. Do not quote the Synodal in other words than its own. (PS.88.11 Hebrew: \"אִם־רְפָאִים יָקוּמוּ\"; Synodal Пс 87:11: \"Разве мертвые встанут и будут славить Тебя?\"; ru commentary: \"Синодальное «Неужели тени встанут» передаёт перемену слова, а KJV делает второе полустишие простым повтором\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5652686faa93"
+  },
+  "verse.ru:PS.88.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Синодальное «в месте тления» читается как описание, а не как имя; «истина Твоя» для אֱמוּנָה отмечено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Quote the Synodal as 'в месте тления' (and, if you mention it, 'истина Твоя' for אֱמוּנָה); keep the observation that it reads the word as a description, not a name. (PS.88.12 Hebrew: \"אֱמוּנָתְךָ בָּאֲבַדּוֹן\"; Synodal Пс 87:12: \"Или во гробе будет возвещаема милость Твоя, и истина Твоя в месте тления?\"; ru commentary: \"Синодальное «в месте погибели» читает это как описание\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59e21fe31233"
+  },
+  "verse.ru:PS.88.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:03+00:00",
+   "agent_notes": [
+    "נשיה — «земля забвения», как в Синодальном; «забвение» оставлено существительным-страной, чтобы сохранить мысль комментария о «стране с границей»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51bfb51404fc"
+  },
+  "verse.ru:PS.88.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:03+00:00",
+   "agent_notes": [
+    "В комментарии к KJV 'prevent' добавлено замечание о Синодальном «предваряет»: он сохраняет то же старое значение «опережает», но современному русскому слуху оно тоже малопонятно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "73922a9802e9"
+  },
+  "verse.ru:PS.88.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[consider] Add '(по еврейской нумерации)' or give the Synodal numbers (Пс 43:10, 43:24, 73:1) with a label. (PS.88.15 ru commentary: \"(Пс 44:10, 44:24)\"; ru note: \"(Пс 44:10, 74:1)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0bf5d0fcc0d2"
+  },
+  "verse.ru:PS.88.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:03+00:00",
+   "agent_notes": [
+    "אפונה передано «оцепенел»; Синодальный даёт «изнемогаю». Выбор — суждение, как и в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[consider] Consider 'с юности' in the literal layer and gloss 4, keeping Rashi's alternative in the note. (PS.88.16 Hebrew: \"וְגֹוֵעַ מִנֹּעַר\"; Synodal Пс 87:16: \"истаеваю с юности\"; ru literal: \"умираю от юности\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "767afaa5c725"
+  },
+  "verse.ru:PS.88.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:31+00:00",
+   "agent_notes": [
+    "Ссылки на другие псалмы даны по русской (синодальной) нумерации с пометкой, как в PS.88.11: Пс 42:8 → 41:8, 124:4 → 123:4, 94:23 → 93:23."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Mark these references '(по русской нумерации)' as in v9 and v11, or give the Hebrew numbers of the English (Пс 42:8, 124:4, 94:23) with that label. (PS.88.17 English commentary: \"(Ps 42:8, Ps 124:4) … (Ps 94:23)\"; ru commentary: \"(Пс 41:8, Пс 123:4) … (Пс 93:23)\"; PS.88.11 ru: \"(Пс 113:25 в русской нумерации)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d74237a76ec"
+  },
+  "verse.ru:PS.88.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:03+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "caa915b1e6b0"
+  },
+  "verse.ru:PS.88.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:31+00:00",
+   "agent_notes": [
+    "Синодальный текст (Пс 87:19) читает «знакомых моих не видно»: это перифраз, и слово «тьма», последнее слово псалма, в нём пропадает. В комментарии это сказано прямо, а в буквальном слое «тьма» сохранена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Replace the last sentence: the Synodal reads 'знакомых моих не видно', which paraphrases the line and loses the word 'тьма' (the psalm's last word) altogether, unlike the KJV, which keeps it with 'into darkness'. (PS.88.19 Hebrew: \"מְיֻדָּעַי מַחְשָׁךְ\"; Synodal Пс 87:19: \"Ты удалил от меня друга и искреннего; знакомых моих не видно.\"; ru commentary: \"Синодальный перевод, как и KJV, добавляет «во тьму».\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4fee8b050822"
+  },
+  "verse.ru:PS.88.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[consider] Write the name one way in the whole chapter, as the neighbouring psalms do. (PS.88.2 ru literal: \"ЙХВХ, Бог спасения моего\"; PS.88.14 ru literal: \"А я к Тебе, YHWH, воззвал\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e1656992628"
+  },
+  "verse.ru:PS.88.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Синодальное «к молению моему» процитировано в его собственных словах; в комментарии сказано, что оно превращает громкий возглас в тихую мольбу."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Say that the Synodal reads 'к молению моему', which turns the loud ringing cry into a quiet supplication, rather than 'вопль'. (PS.88.3 Hebrew: \"הַטֵּה־אָזְנְךָ לְרִנָּתִי\"; Synodal Пс 87:3: \"приклони ухо Твое к молению моему\"; ru commentary: \"Синодальное «вопль» хорошо передаёт смысл, но сглаживает רִנָּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c402b7ad773e"
+  },
+  "verse.ru:PS.88.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b856f72cefd3"
+  },
+  "verse.ru:PS.88.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Синодальное «Я сравнялся с нисходящими в могилу» процитировано точно, с замечанием, что оно теряет счётоводческое «сочтён»; ссылка на Раши — Пс 22:20 по еврейской нумерации, как в примечании."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Quote the Synodal as 'Я сравнялся с нисходящими в могилу' (and note that it loses the bookkeeping 'сочтён'), and make the commentary's reference Пс 22:20 по еврейской нумерации, as in the note. (PS.88.5 Hebrew: \"נֶחְשַׁבְתִּי עִם־יוֹרְדֵי בוֹר\"; Synodal Пс 87:5: \"Я сравнялся с нисходящими в могилу\"; ru commentary: \"Раши связывает его с похожим словом в Пс 22:19 (по еврейской нумерации)\"; ru note: \"Раши сравнивает Пс 22:20 (по еврейской нумерации)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f58e6a702bb8"
+  },
+  "verse.ru:PS.88.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [
+    "חָפְשִׁי передано «свободный» (как у бывшего раба), а не синодальным «брошенный»: комментарий строится на этом слове. Синодальный переводит иначе, и это сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b3812131ad93"
+  },
+  "verse.ru:PS.88.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "563f67d80929"
+  },
+  "verse.ru:PS.88.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:51:41+00:00",
+   "agent_notes": [
+    "Синодальное «Отяготела на мне ярость Твоя» процитировано точно; замечание о потере «разбивания» в слове «волны» сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": "[should_fix] Quote the Synodal correctly ('Отяготела на мне ярость Твоя') or drop the quotation; the remark that 'волны' loses the breaking can stay. (PS.88.8 Hebrew: \"עָלַי סָמְכָה חֲמָתֶךָ\"; Synodal Пс 87:8: \"Отяготела на мне ярость Твоя, и всеми волнами Твоими Ты поразил меня.\"; ru commentary: \"Синодальное «суровость Твоя налегла на меня» хорошо\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a030050dcf4a"
+  },
+  "verse.ru:PS.88.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:53+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:50:13+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "38f7ea9fbd1b"
   }
  },
  "notes": []

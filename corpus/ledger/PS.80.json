@@ -459,6 +459,440 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.80.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:35:27+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте и в Синодальном надпись — стих 1 (Синодальный псалом 79, стихи совпадают с еврейскими); на единицу отстаёт нумерация KJV. Надпись Синодального пишу «Шошаним-Эдуф», как в самом переводе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[should_fix] Replace the numbering sentence: the Hebrew counts the heading as verse 1, and so does the Synodal (its psalm is numbered 79, the verses agree); it is the KJV whose verse numbers run one behind. Also spell the Synodal heading as «Шошаним-Эдуф». (PS.80.1: \"לַמְנַצֵּחַ אֶל־שֹׁשַׁנִּים עֵדוּת לְאָסָף מִזְמוֹר\" is Synodal 79:1 \"Начальнику хора. На музыкальном орудии Шошаним-Эдуф. Псалом Асафа\"; the English says the one-behind numbering is the KJV's.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6e742536bc67"
+  },
+  "verse.ru:PS.80.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Quote the Synodal exactly and note that it, like the KJV, gives the rooting to God. (PS.80.10: \"וַתַּשְׁרֵשׁ שָׁרָשֶׁיהָ\" (3fs, the vine roots); Synodal 79:10 «Ты очистил для нее место, и утвердил корни ее».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "54e2da04bc14"
+  },
+  "verse.ru:PS.80.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [
+    "«Кедры Божии» — Синодальный; в буквальном слое «кедры Божии» без «как», как в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a53cf30ad8e2"
+  },
+  "verse.ru:PS.80.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e2802312abb"
+  },
+  "verse.ru:PS.80.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [
+    "גדר переведено «ограды» (так в Синодальном), в комментарии оговорено, что это каменная стена, а не живая изгородь; «стены» оставлено в глоссах и буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Drop the sentence about «её» drifting to a person, quote «обрывают ее», and capitalize «Ты» in the literal and gloss. (PS.80.13: \"וְאָרוּהָ כָּל־עֹבְרֵי דָרֶךְ\"; Synodal 79:13 «так что обрывают ее все, проходящие по пути»; ru literal «Зачем ты пробил».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "49ad928c6404"
+  },
+  "verse.ru:PS.80.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Quote «полевой зверь» and give the Psalm reference with its numbering stated. (Synodal 79:14 «Лесной вепрь подрывает ее, и полевой зверь объедает ее».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ea7961e6b1b3"
+  },
+  "verse.ru:PS.80.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "959ee3f5a5b9"
+  },
+  "verse.ru:PS.80.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [
+    "Редкое וכנה передано «основание» (в духе Раши); Синодальный читает «то, что насадила десница Твоя». Игру בן «побег» / «сын» (ст. 16 и 18) в драматическом слое сохранить нельзя, она вынесена в комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Write «и на сына, [которого] Ты укрепил для Себя». (PS.80.16: \"וְעַל־בֵּן אִמַּצְתָּה לָּךְ\"; ru PS.80.18 literal «[которого] ты укрепил».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a2320b1fde5"
+  },
+  "verse.ru:PS.80.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "929baa562c11"
+  },
+  "verse.ru:PS.80.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [
+    "בן־אדם переведено «сын человеческий» в буквальном слое (как в Синодальном) и «смертный» в драматическом, чтобы не звучало как титул; в комментарии это объяснено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Write «Мессия, сын Ефремов» (or «Машиах бен Эфраим») and «Ты укрепил». (PS.80.3 ru: «Ефремом»; English PS.80.18: \"a figure he calls the messiah of Ephraim\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f213a6867f5"
+  },
+  "verse.ru:PS.80.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7fc28ee9500"
+  },
+  "verse.ru:PS.80.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [
+    "«Сидящий на херувимах» (Синодальный: «Ты, сидящий на херувимах») — причастие передано буквально; «Иосиф» сохранён как имя всего народа, как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Quote «восседающий на Херувимах». (PS.80.2: \"יֹשֵׁב הַכְּרוּבִים\"; Synodal 79:2 «восседающий на Херувимах, яви Себя».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec037d1de7c0"
+  },
+  "verse.ru:PS.80.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:12+00:00",
+   "agent_notes": [
+    "По просьбе рецензента синодальный текст приведён дословно («Господи Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!»), а стихи 4 и 8 цитируются в формулировках буквальных слоёв этой главы: «Боже, верни нас», «Боже воинств»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[should_fix] Quote the Synodal as «Господи Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!», and cite verses 4 and 8 in the wording of this chapter's literal layers («Боже, верни нас», «Боже воинств»). (PS.80.20: \"יְהוָה אֱלֹהִים צְבָאוֹת הֲשִׁיבֵנוּ הָאֵר פָּנֶיךָ וְנִוָּשֵׁעָה\" = Synodal 79:20 «Господи Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!»; ru PS.80.4 literal «Боже, верни нас», ru PS.80.8 literal «Боже воинств».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:50+00:00",
+     "note": "[consider] Optionally use «просвети лицо Твоё» in the literal and gloss, as in verses 4 and 8. (PS.80.20: \"הָאֵר פָּנֶיךָ\"; ru PS.80.4 and PS.80.8 literal «и просвети лицо Твоё».) [consider] Optionally write «номер псалма там на единицу ниже». (PS.80.20 = Synodal 79:20.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b4c97263552"
+  },
+  "verse.ru:PS.80.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:35:27+00:00",
+   "agent_notes": [
+    "Ссылки на Пс 44:24; 78:65 даны по синодальной нумерации: Пс 43:24; 77:65."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[should_fix] Write «Пс 43:24; 77:65 по Синодальной нумерации» (or give both in Hebrew numbering and say so). (English PS.80.3 commentary: \"(Ps 44:24; 78:65)\" in Hebrew numbering; Hebrew 78:65 = Synodal 77:65, so Hebrew 44:24 = Synodal 43:24.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1139b4a41bf6"
+  },
+  "verse.ru:PS.80.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "24a2b35f87b7"
+  },
+  "verse.ru:PS.80.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [
+    "Игра слов עָשַׁנְתָּ («дымился/дымишься») потеряна в Синодальном («негодуешь»); в буквальном слое сохранён дым, в драматическом — «пылать» и дым. Термин «Господь Бог сил» — Синодальный; в буквальном слое YHWH оставлен."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[consider] Gloss pos 4 «до» and pos 5 «каких пор / когда», or mark pos 4 «доколе (до)» and pos 5 «[когда]». (PS.80.5: \"עַד־מָתַי\" (two words: 'until' + 'when').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a074ab420e14"
+  },
+  "verse.ru:PS.80.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [
+    "שָׁלִישׁ: буквально «третья мера»; Синодальный — «в большой мере»; в драматическом слое выбрано «мера за мерой, полная мера»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f31423050af8"
+  },
+  "verse.ru:PS.80.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:35:27+00:00",
+   "agent_notes": [
+    "«לָמוֹ» в буквальном слое и глоссе — «между собой», как в английском и у KJV; Синодальное «над нами» оговорено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[should_fix] In translation_literal and the pos-6 gloss replace «про себя» with «между собой» (gloss: «между собой / над ними»). (PS.80.7: \"וְאֹיְבֵינוּ יִלְעֲגוּ־לָמוֹ\"; English literal \"our enemies mock among themselves\", gloss \"among themselves / at them\"; the Russian commentary itself explains it as talk among the enemies (KJV \"among themselves\").)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b565a70fcd01"
+  },
+  "verse.ru:PS.80.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:35:27+00:00",
+   "agent_notes": [
+    "Синодальный текст цитируется дословно: «Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!»"
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": "[should_fix] Quote the Synodal as «Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!». (PS.80.8: \"אֱלֹהִים צְבָאוֹת הֲשִׁיבֵנוּ וְהָאֵר פָּנֶיךָ וְנִוָּשֵׁעָה\" = Synodal 79:8 «Боже сил! восстанови нас; да воссияет лице Твое, и спасемся!».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:36:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6158d3fe7676"
+  },
+  "verse.ru:PS.80.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:31:26+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:34:14+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c01223967fc2"
   }
  },
  "notes": []

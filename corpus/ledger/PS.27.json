@@ -318,6 +318,338 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.27.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [
+    "מָעוֹז: в литеральном слое «твердыня», в драматическом «крепость»; Синодальный даёт «крепость жизни моей». Два глагола страха: «бояться» (יָרֵא) и «страшиться» (פָּחַד) — так же различает Синодальный."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "436e2c52224e"
+  },
+  "verse.ru:PS.27.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary with the Synodal as it reads, «ибо отец мой и мать моя оставили меня, но Господь примет меня», noting that it, unlike the KJV, keeps the fact; or drop the Synodal sentence. (PS.27.10 Hebrew: \"כִּי־אָבִי וְאִמִּי עֲזָבוּנִי\"; Synodal Пс 26:10: \"ибо отец мой и мать моя оставили меня, но Господь примет меня\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "244509002c53"
+  },
+  "verse.ru:PS.27.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [
+    "שׁוֹרְרַי переведено «подстерегающие меня» (от שׁוּר), а не «враги», как в Синодальном; термин впервые в корпусе."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[consider] Quote the Synodal exactly. (Synodal Пс 26:11.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "01c6a4512afc"
+  },
+  "verse.ru:PS.27.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [
+    "נֶפֶשׁ: в литеральном слое «в горло», в драматическом «на растерзание их голоду» — выбор для передачи образа аппетита; Синодальный: «на волю врагов моих»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[consider] Quote the Synodal as it reads («на произвол врагам моим»), or drop the quotation. (Synodal Пс 26:12.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e78f68f1db41"
+  },
+  "verse.ru:PS.27.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Change «(Брахот 4а, со ссылкой на Раши и Радака)» to «(Брахот 4а; на него ссылаются Раши и Радак)» or equivalent. (English PS.27.13 commentary: \"which the Talmud (b. Berakhot 4a, cited by Rashi and Radak) takes as David's doubt\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": "[consider] Quote the Synodal as «Но я верую, что увижу благость Господа на земле живых». (Synodal Пс 26:13: \"Но я верую, что увижу благость Господа на земле живых\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "784884ec5b85"
+  },
+  "verse.ru:PS.27.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:52:07+00:00",
+   "agent_notes": [
+    "По замечанию рецензента имя везде «Мальбим», как в PS.27.1; источники даны в той же английской форме, что и в других стихах («Malbim on Psalms 27:14» и т. д.)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Spell the name «Мальбим» in the commentary and note, and give the sources in the same form as the other verses (\"Malbim on Psalms 27:14\", \"Radak on Psalms 27:14\", \"Metzudat David on Psalms 27:14\", \"Ibn Ezra on Psalms 27:14\", \"Metzudat Zion on Psalms 27:14\"). (PS.27.1 ru note: \"Мальбим проводит это различие\"; PS.27.14 ru commentary: \"Малбим идёт дальше\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": "[consider] Quote the Synodal as «мужайся, и да укрепляется сердце твое». (Synodal Пс 26:14: \"Надейся на Господа, мужайся, и да укрепляется сердце твое, и надейся на Господа\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9b663deaf83a"
+  },
+  "verse.ru:PS.27.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [
+    "Синодальный цитируется дословно; он делает стих условием («Если будут наступать… то они сами преткнутся и падут»), сохраняя образ поедания."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Quote the Synodal as it reads and say that it makes the verse a condition («если будут наступать… преткнутся и падут»), keeping the eating image; or drop the Synodal sentence. (Synodal Пс 26:2: \"Если будут наступать на меня злодеи, противники и враги мои, чтобы пожрать плоть мою, то они сами преткнутся и падут\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d8a7bfdf0dc"
+  },
+  "verse.ru:PS.27.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [
+    "Игру חנה («стан станет») передать нельзя; в литеральном слое «расположится станом … стан», в драматическом без игры. Синодальный: «Если ополчится против меня полк»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5cdc6149bf5d"
+  },
+  "verse.ru:PS.27.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [
+    "«Благость» в литеральном слое оставлена, в драматическом נֹעַם передан как «сладость» по английскому слою."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Replace «в Его кротости» with a word for pleasantness or sweetness, e.g. «любоваться благостью Господа» or «любоваться Господом, Его сладостью». (PS.27.4 Hebrew: \"לַחֲזוֹת בְּנֹעַם־יְהוָה\"; English dramatic: \"to gaze on the LORD in his sweetness\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ad09ada0190"
+  },
+  "verse.ru:PS.27.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [
+    "Нумерация псалмов в заметках — еврейская (Пс 76:3, а не 75:3), как в остальных стихах."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Use the chapter's Hebrew numbering throughout («Пс 76:3», as in the note); quote the Synodal as it reads or drop the quote and its claim about «селение»; change «куда не доведёт ничей взгляд» to «куда не достанет ничей взгляд». (PS.27.5 English commentary: \"citing 'in Salem is his booth' (Ps 76:3)\"; Synodal Пс 26:5: \"ибо Он укрыл бы меня в скинии Своей в день бедствия, скрыл бы меня в потаенном месте селения Своего, вознес бы меня на скалу\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a61334c3183f"
+  },
+  "verse.ru:PS.27.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[consider] Quote the Synodal exactly. (Synodal Пс 26:6.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "64fc9d3e6c2a"
+  },
+  "verse.ru:PS.27.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Quote the Synodal as «Услышь, Господи, голос мой, которым я взываю, помилуй меня и внемли мне» and say that it supplies the relative «которым», as Ibn Ezra reads; or drop the Synodal sentence. (Synodal Пс 26:7: \"Услышь, Господи, голос мой, которым я взываю, помилуй меня и внемли мне\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddd1fceb40ad"
+  },
+  "verse.ru:PS.27.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:53:29+00:00",
+   "agent_notes": [
+    "לְךָ в литеральном слое — «Тебе»; Синодальный «от Тебя» ближе к «по Твоему поручению» Раши, это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[should_fix] Quote the Synodal as «Сердце мое говорит от Тебя: „ищите лица Моего“; и я буду искать лица Твоего, Господи» and note that «от Тебя» reads לְךָ as 'from you', near Rashi's 'on your errand'; or drop the quote. (Synodal Пс 26:8: \"Сердце мое говорит от Тебя: «ищите лица Моего»; и я буду искать лица Твоего, Господи\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "829c892895ba"
+  },
+  "verse.ru:PS.27.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:07+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:30+00:00",
+     "note": "[consider] Quote the Synodal as it reads, or drop the quotation. (Synodal Пс 26:9.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16448db8ca14"
   }
  },
  "notes": []

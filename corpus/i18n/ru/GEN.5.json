@@ -1,0 +1,438 @@
+{
+ "chapter_ref": "GEN.5",
+ "verses": [],
+ "events": [
+  {
+   "event_id": "evt.gen_5.adam_genealogy",
+   "title": "Родословие Адама от сотворения до сыновей Ноя",
+   "narrative_summary": "Книга родословия Адама напоминает, что Бог сотворил человека мужчиной и женщиной по подобию Своему и благословил их. Затем перечисляются десять поколений от Адама до Ноя с возрастом каждого при рождении сына и при смерти.",
+   "temporal_reasoning_note": "Вся глава — цепочка возрастов, отсчитываемых от сотворения (числа масоретского текста), поэтому родительское событие начинается от anchor.creation и длится 1657 лет — достаточно, чтобы вместить последнюю смерть в цепочке (Мафусал, AM 1656). Дочерние события датируются от рождения отцов. В 5:1-2 вспоминается «день сотворения человека», то есть сама опорная точка.",
+   "ancient_year_marker": "В день, когда Бог сотворил человека"
+  },
+  {
+   "event_id": "evt.gen_5.seth_born",
+   "title": "Адам в 130 лет рождает Сифа по подобию своему",
+   "narrative_summary": "Адам в возрасте 130 лет рождает сына по подобию своему и нарекает ему имя Сиф. Он живёт ещё 800 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:3: «Адам жил сто тридцать лет и родил»: смещение 130 лет от anchor.creation, принятое за рождение Адама (он был сотворён взрослым, но текст ведёт его годы от дня сотворения, 5:1-2). Возраст — целое число лет, поэтому погрешность 1 год; REGNAL_YEAR, так как текст даёт числовой возраст. Длительность в один день для рождения условна. По счёту опорной точки это AM 131; 5:4 (ещё 800 лет) — остаток его жизни, охваченный смертью в 930 лет.",
+   "ancient_year_marker": "Когда Адам прожил 130 лет"
+  },
+  {
+   "event_id": "evt.gen_5.adam_dies",
+   "title": "Адам умирает в 930 лет",
+   "narrative_summary": "Всех дней Адама было 930 лет; и он умер.",
+   "temporal_reasoning_note": "5:5: 130 + 800 = 930 лет от anchor.creation (рождения Адама). Погрешность 1 год, как для любого возраста; REGNAL_YEAR.",
+   "ancient_year_marker": "930 лет"
+  },
+  {
+   "event_id": "evt.gen_5.enosh_born",
+   "title": "Сиф в 105 лет рождает Еноса",
+   "narrative_summary": "Сиф в возрасте 105 лет рождает Еноса. Он живёт ещё 807 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:6: смещение 105 лет от НАЧАЛА жизни Сифа. Цепочка даёт AM 236, что согласуется с evt.gen_4.enosh_born (ок. 3878 г. до н. э.). Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Сиф прожил 105 лет"
+  },
+  {
+   "event_id": "evt.gen_5.seth_dies",
+   "title": "Сиф умирает в 912 лет",
+   "narrative_summary": "Всех дней Сифа было 912 лет; и он умер.",
+   "temporal_reasoning_note": "5:8: 105 + 807 = 912 лет от рождения Сифа. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "912 лет"
+  },
+  {
+   "event_id": "evt.gen_5.kenan_born",
+   "title": "Енос в 90 лет рождает Каинана",
+   "narrative_summary": "Енос в возрасте 90 лет рождает Каинана. Он живёт ещё 815 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:9: смещение 90 лет от НАЧАЛА жизни Еноса. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Енос прожил 90 лет"
+  },
+  {
+   "event_id": "evt.gen_5.enosh_dies",
+   "title": "Енос умирает в 905 лет",
+   "narrative_summary": "Всех дней Еноса было 905 лет; и он умер.",
+   "temporal_reasoning_note": "5:11: 90 + 815 = 905 лет от рождения Еноса. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "905 лет"
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_born",
+   "title": "Каинан в 70 лет рождает Малелеила",
+   "narrative_summary": "Каинан в возрасте 70 лет рождает Малелеила. Он живёт ещё 840 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:12: смещение 70 лет от НАЧАЛА жизни Каинана. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Каинан прожил 70 лет"
+  },
+  {
+   "event_id": "evt.gen_5.kenan_dies",
+   "title": "Каинан умирает в 910 лет",
+   "narrative_summary": "Всех дней Каинана было 910 лет; и он умер.",
+   "temporal_reasoning_note": "5:14: 70 + 840 = 910 лет от рождения Каинана. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "910 лет"
+  },
+  {
+   "event_id": "evt.gen_5.jared_born",
+   "title": "Малелеил в 65 лет рождает Иареда",
+   "narrative_summary": "Малелеил в возрасте 65 лет рождает Иареда. Он живёт ещё 830 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:15: смещение 65 лет от НАЧАЛА жизни Малелеила. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Малелеил прожил 65 лет"
+  },
+  {
+   "event_id": "evt.gen_5.mahalalel_dies",
+   "title": "Малелеил умирает в 895 лет",
+   "narrative_summary": "Всех дней Малелеила было 895 лет; и он умер.",
+   "temporal_reasoning_note": "5:17: 65 + 830 = 895 лет от рождения Малелеила. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "895 лет"
+  },
+  {
+   "event_id": "evt.gen_5.enoch_born",
+   "title": "Иаред в 162 года рождает Еноха",
+   "narrative_summary": "Иаред в возрасте 162 лет рождает Еноха. Он живёт ещё 800 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:18: смещение 162 года от НАЧАЛА жизни Иареда. Это Енох из рода Сифа, а не каинитский Енох из Быт 4:17. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Иаред прожил 162 года"
+  },
+  {
+   "event_id": "evt.gen_5.jared_dies",
+   "title": "Иаред умирает в 962 года",
+   "narrative_summary": "Всех дней Иареда было 962 года; и он умер.",
+   "temporal_reasoning_note": "5:20: 162 + 800 = 962 года от рождения Иареда. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "962 года"
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_born",
+   "title": "Енох в 65 лет рождает Мафусала и ходит пред Богом",
+   "narrative_summary": "Енох в возрасте 65 лет рождает Мафусала. После этого он ходит пред Богом 300 лет и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:21: смещение 65 лет от НАЧАЛА жизни Еноха. 5:22 («ходил пред Богом триста лет») продолжается до 365 и составляет промежуток вплоть до evt.gen_5.enoch_taken. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Енох прожил 65 лет"
+  },
+  {
+   "event_id": "evt.gen_5.enoch_taken",
+   "title": "Еноха в 365 лет не стало, потому что Бог взял его",
+   "narrative_summary": "Всех дней Еноха было 365 лет. Он ходил пред Богом; и не стало его, потому что Бог взял его.",
+   "temporal_reasoning_note": "5:23-24: 65 + 300 = 365 лет от рождения Еноха. Текст говорит, что он умер не обычным образом; дата — конец его лет. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "365 лет"
+  },
+  {
+   "event_id": "evt.gen_5.lamech_born",
+   "title": "Мафусал в 187 лет рождает Ламеха",
+   "narrative_summary": "Мафусал в возрасте 187 лет рождает Ламеха. Он живёт ещё 782 года и рождает других сынов и дочерей.",
+   "temporal_reasoning_note": "5:25: смещение 187 лет от НАЧАЛА жизни Мафусала. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Мафусал прожил 187 лет"
+  },
+  {
+   "event_id": "evt.gen_5.methuselah_dies",
+   "title": "Мафусал умирает в 969 лет",
+   "narrative_summary": "Всех дней Мафусала было 969 лет; и он умер.",
+   "temporal_reasoning_note": "5:27: всех дней его было 969 лет (187 + 782). Возраста — целые годы, поэтому человек, который «умер в 969 лет», умирает на своём 969-м году, прожив 968 полных лет: смещение 968 лет от его рождения. Мафусал родился через 687 лет после anchor.creation (130+105+90+70+65+162+65), а anchor.flood наступает через 1655 лет после неё, так что 687 + 968 = 1655: его смерть приходится на сам год потопа (600-й год Ноя, 7:6). Текст исключает смерть после начала потопа: уцелели только Ной и бывшие в ковчеге (7:21-23). Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "969 лет"
+  },
+  {
+   "event_id": "evt.gen_5.noah_born",
+   "title": "Ламех в 182 года рождает Ноя",
+   "narrative_summary": "Ламех в возрасте 182 лет рождает сына и нарекает ему имя Ной, сказав, что он утешит их в работе и трудах рук их при возделывании земли, которую проклял Господь.",
+   "temporal_reasoning_note": "5:28-29: смещение 182 года от НАЧАЛА жизни Ламеха. Цепочка относит рождение Ноя к AM 1056, за 600 лет до потопа, как и сказано в основании anchor.flood. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Ламех прожил 182 года"
+  },
+  {
+   "event_id": "evt.gen_5.lamech_dies",
+   "title": "Ламех умирает в 777 лет",
+   "narrative_summary": "Ламех живёт 595 лет по рождении Ноя и рождает других сынов и дочерей. Всех дней его 777 лет; и он умирает.",
+   "temporal_reasoning_note": "5:30-31: 182 + 595 = 777 лет от рождения Ламеха, за пять лет до потопа. Погрешность 1 год; REGNAL_YEAR.",
+   "ancient_year_marker": "777 лет"
+  },
+  {
+   "event_id": "evt.gen_5.noah_sons_born",
+   "title": "Ной в 500 лет рождает Сима, Хама и Иафета",
+   "narrative_summary": "Когда Ною было 500 лет, он рождает Сима, Хама и Иафета.",
+   "temporal_reasoning_note": "5:32: смещение 500 лет от НАЧАЛА жизни Ноя. Текст называет возраст, в котором он начал рождать; трое сыновей не обязаны родиться в один год (Быт 11:10 относит рождение Сима к 502-му году Ноя), отсюда погрешность в 3 года. REGNAL_YEAR.",
+   "ancient_year_marker": "Когда Ною было 500 лет"
+  }
+ ],
+ "causal_edges": [],
+ "entities": [
+  {
+   "entity_id": "person.enoch",
+   "canonical_name": "Енох",
+   "phonetic_name": "Ханох",
+   "aliases": [
+    "Ханох"
+   ],
+   "etymology_meaning": "Вероятно, «посвящённый» или «введённый в дело», от корня со значением «воспитывать, посвящать».",
+   "summary_bio": "Сын Иареда в роде Сифа и отец Мафусала. Он прожил 365 лет, ходил пред Богом и был взят Богом, так что его не стало. Не путать с Енохом, сыном Каина (Быт 4:17)."
+  },
+  {
+   "entity_id": "person.jared",
+   "canonical_name": "Иаред",
+   "phonetic_name": "Йе́ред",
+   "aliases": [
+    "Иеред"
+   ],
+   "etymology_meaning": "Вероятно, «нисхождение» или «нисходящий», от глагола «сходить вниз».",
+   "summary_bio": "Сын Малелеила и отец Еноха в роде Сифа. Он прожил 962 года."
+  },
+  {
+   "entity_id": "person.kenan",
+   "canonical_name": "Каинан",
+   "phonetic_name": "Кейна́н",
+   "aliases": [
+    "Кенан"
+   ],
+   "etymology_meaning": "Вероятно, «приобретение» или «кузнец», родственно корню имени Каина.",
+   "summary_bio": "Сын Еноса и отец Малелеила в роде Сифа. Он прожил 910 лет."
+  },
+  {
+   "entity_id": "person.lamech",
+   "canonical_name": "Ламех",
+   "phonetic_name": "Ле́мех",
+   "aliases": [],
+   "etymology_meaning": "Значение неясно; возможна связь с аккадским словом, означающим «сильный человек» или «униженный».",
+   "summary_bio": "Сын Мафусала в роде Сифа и отец Ноя. При рождении Ноя он дал ему имя по утешению, которого ждал от проклятой земли. Он прожил 777 лет. Не путать с Ламехом, потомком Каина (Быт 4:18)."
+  },
+  {
+   "entity_id": "person.mahalalel",
+   "canonical_name": "Малелеил",
+   "phonetic_name": "Махала́лел",
+   "aliases": [
+    "Маалалел"
+   ],
+   "etymology_meaning": "Вероятно, «хвала Богу» или «Бог прославляется».",
+   "summary_bio": "Сын Каинана и отец Иареда в роде Сифа. Он прожил 895 лет."
+  },
+  {
+   "entity_id": "person.methuselah",
+   "canonical_name": "Мафусал",
+   "phonetic_name": "Метуше́лах",
+   "aliases": [
+    "Мафусаил"
+   ],
+   "etymology_meaning": "Неясно; вероятно, «человек дротика» или «человек Шелаха».",
+   "summary_bio": "Сын Еноха и отец Ламеха. Он прожил 969 лет — самая долгая жизнь, записанная в Библии."
+  }
+ ],
+ "components": [
+  {
+   "component_id": "comp.adam.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:5: всех дней жизни Адама было 930 лет; и он умер."
+  },
+  {
+   "component_id": "comp.enoch.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:18: Иаред рождает Еноха; 5:23 называет его 365 лет."
+  },
+  {
+   "component_id": "comp.enoch.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Взят Богом",
+   "evidence_explanation": "Быт 5:24: не стало его, потому что Бог взял его; о смерти не сообщается."
+  },
+  {
+   "component_id": "comp.enoch.walk_with_god.1",
+   "label_key": "Отношение к Богу",
+   "label_value": "Ходит пред Богом",
+   "evidence_explanation": "Быт 5:22 и 5:24: Енох ходил пред Богом 300 лет по рождении Мафусала, пока не был взят."
+  },
+  {
+   "component_id": "comp.enosh.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:6: Сиф рождает Еноса; срок его жизни назван в 5:11."
+  },
+  {
+   "component_id": "comp.enosh.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:11: Енос прожил 905 лет; и он умер."
+  },
+  {
+   "component_id": "comp.jared.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:15: Малелеил рождает Иареда; срок его жизни назван в 5:20."
+  },
+  {
+   "component_id": "comp.jared.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:20: Иаред прожил 962 года; и он умер."
+  },
+  {
+   "component_id": "comp.kenan.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:9: Енос рождает Каинана; срок его жизни назван в 5:14."
+  },
+  {
+   "component_id": "comp.kenan.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:14: Каинан прожил 910 лет; и он умер."
+  },
+  {
+   "component_id": "comp.lamech.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:25: Мафусал рождает Ламеха; срок его жизни назван в 5:31."
+  },
+  {
+   "component_id": "comp.lamech.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:31: Ламех прожил 777 лет; и он умер."
+  },
+  {
+   "component_id": "comp.mahalalel.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:12: Каинан рождает Малелеила; срок его жизни назван в 5:17."
+  },
+  {
+   "component_id": "comp.mahalalel.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:17: Малелеил прожил 895 лет; и он умер."
+  },
+  {
+   "component_id": "comp.methuselah.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:21: Енох рождает Мафусала; срок его жизни назван в 5:27."
+  },
+  {
+   "component_id": "comp.methuselah.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:27: Мафусал прожил 969 лет; и он умер."
+  },
+  {
+   "component_id": "comp.seth.life.1",
+   "label_key": "Жизнь",
+   "label_value": "Жив",
+   "evidence_explanation": "Быт 5:3: Адаму рождается Сиф; 5:8 называет срок его жизни."
+  },
+  {
+   "component_id": "comp.seth.life.2",
+   "label_key": "Жизнь",
+   "label_value": "Умер",
+   "evidence_explanation": "Быт 5:8: Сиф прожил 912 лет; и он умер."
+  }
+ ],
+ "systems": [
+  {
+   "system_id": "sys.divine_taking",
+   "name": "Взятие человека Богом",
+   "ancient_near_east_context": "Тексты по всему древнему Ближнему Востоку говорят об избранных людях, изъятых из человеческого мира, — таков Утнапишти, получивший жизнь среди богов; Еноха, а позднее Илию, отмечает и Еврейская Библия.",
+   "rules_and_mechanics": [
+    "Единственный действующий — Бог: глагол «взять» (лаках), а не «умереть».",
+    "Взятый прежде «ходил пред Богом».",
+    "Человека попросту «не стало» на земле, о смерти не сообщается."
+   ]
+  }
+ ],
+ "system_instances": [
+  {
+   "instance_id": "inst.gen_5.enoch_taken",
+   "outcome_summary": "Через 365 лет Еноха не стало, потому что Бог взял его.",
+   "significance_note": "Единственный в главе, чья жизнь заканчивается без припева «и он умер»."
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_blessed",
+   "outcome_summary": "Бог благословляет мужчину и женщину при сотворении.",
+   "significance_note": "Благословение — основание плодовитости и родов, о которых говорит остальная глава."
+  },
+  {
+   "instance_id": "inst.gen_5.humankind_named",
+   "outcome_summary": "Бог нарекает сотворённых мужчину и женщину именем «человек» («Адам») в день их сотворения.",
+   "significance_note": "Общее имя для обоих полов связывает род Адама со всем человечеством."
+  },
+  {
+   "instance_id": "inst.gen_5.noah_named",
+   "outcome_summary": "Ламех нарекает сына Ноем, надеясь, что тот принесёт утешение в трудах проклятой земли.",
+   "significance_note": "Связывает род Сифа с проклятием из Быт 3 и предвосхищает роль Ноя после потопа."
+  },
+  {
+   "instance_id": "inst.gen_5.seth_named",
+   "outcome_summary": "Адам рождает сына по подобию своему и по образу своему и нарекает ему имя Сиф.",
+   "significance_note": "Слова повторяют сотворение Адама по подобию Божию (5:1): образ передаётся через род."
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "edge.gen_5.adam_fathers_seth",
+   "interaction_label": "рождает",
+   "description": "Адам в 130 лет рождает Сифа по подобию своему."
+  },
+  {
+   "edge_id": "edge.gen_5.enoch_fathers_methuselah",
+   "interaction_label": "рождает",
+   "description": "Енох в 65 лет рождает Мафусала."
+  },
+  {
+   "edge_id": "edge.gen_5.enosh_fathers_kenan",
+   "interaction_label": "рождает",
+   "description": "Енос в 90 лет рождает Каинана."
+  },
+  {
+   "edge_id": "edge.gen_5.god_blesses_humankind",
+   "interaction_label": "благословляет",
+   "description": "Бог благословил их, когда они были сотворены (5:2)."
+  },
+  {
+   "edge_id": "edge.gen_5.god_creates_humankind",
+   "interaction_label": "творит",
+   "description": "Бог сотворил мужчину и женщину по подобию Своему (5:1-2)."
+  },
+  {
+   "edge_id": "edge.gen_5.god_takes_enoch",
+   "interaction_label": "берёт",
+   "description": "Бог берёт Еноха, и того уже нет."
+  },
+  {
+   "edge_id": "edge.gen_5.jared_fathers_enoch",
+   "interaction_label": "рождает",
+   "description": "Иаред в 162 года рождает Еноха."
+  },
+  {
+   "edge_id": "edge.gen_5.kenan_fathers_mahalalel",
+   "interaction_label": "рождает",
+   "description": "Каинан в 70 лет рождает Малелеила."
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_fathers_noah",
+   "interaction_label": "рождает",
+   "description": "Ламех в 182 года рождает сына."
+  },
+  {
+   "edge_id": "edge.gen_5.lamech_names_noah",
+   "interaction_label": "нарекает имя",
+   "description": "Ламех нарекает сына Ноем, сказав, что тот утешит их в трудах."
+  },
+  {
+   "edge_id": "edge.gen_5.mahalalel_fathers_jared",
+   "interaction_label": "рождает",
+   "description": "Малелеил в 65 лет рождает Иареда."
+  },
+  {
+   "edge_id": "edge.gen_5.methuselah_fathers_lamech",
+   "interaction_label": "рождает",
+   "description": "Мафусал в 187 лет рождает Ламеха."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_ham",
+   "interaction_label": "рождает",
+   "description": "Ной в 500 лет рождает Хама."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_japheth",
+   "interaction_label": "рождает",
+   "description": "Ной в 500 лет рождает Иафета."
+  },
+  {
+   "edge_id": "edge.gen_5.noah_fathers_shem",
+   "interaction_label": "рождает",
+   "description": "Ной в 500 лет рождает Сима."
+  },
+  {
+   "edge_id": "edge.gen_5.seth_fathers_enosh",
+   "interaction_label": "рождает",
+   "description": "Сиф в 105 лет рождает Еноса."
+  }
+ ]
+}

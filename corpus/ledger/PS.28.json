@@ -202,6 +202,191 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.28.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [
+    "В Синодальном переводе это Пс 27, и надпись «Давидов» входит в стих 1; здесь счёт еврейский, как в корпусе. Синодальный «не будь безмолвен» передаёт только «תחשה»; «תחרש» («не будь глух») в комментарии и в буквальном слое сохранено отдельно."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": "[consider] Consider «чтобы ты не промолчал от меня» in translation_literal and the pos 10 gloss. (PS.28.1: \"פֶּן־תֶּחֱשֶׁה מִמֶּנִּי\"; English literal: \"lest you be silent from me\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f0219db26c74"
+  },
+  "verse.ru:PS.28.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:19+00:00",
+   "agent_notes": [
+    "По запросу рецензента: в буквальном слое דביר передан как «сокровенный покой» (как в глоссах), а «святая святых» оставлено только в комментарии и примечании. Латинский «остаток» отнесён к одному KJV; Синодальный «во храм святой» назван отдельно как перевод, не передающий דביר."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": "[should_fix] In translation_literal, replace «к святая святых твоей» with «к сокровенному покою святыни твоей» (as the glosses have it), keeping 'holy of holies' for the commentary and the note. (PS.28.2: \"אֶל־דְּבִיר קָדְשֶׁךָ\"; English literal: \"to the innermost room of your holiness\".) [should_fix] In directors_commentary, make the Latin claim about the KJV only, e.g. «„Holy oracle“ у KJV — наследие латыни; Синодальный „святой храм“ тоже не передаёт דביר», or drop the Synodal from that sentence. (English commentary PS.28.2: \"The KJV 'holy oracle' is a Latin leftover.\"; Russian: «„Святой храм“ Синодального перевода и „holy oracle“ у KJV — наследие латыни».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:58+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dfe1ea10566e"
+  },
+  "verse.ru:PS.28.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [
+    "Синодальное «не погуби меня» смягчает «תמשכני» («не тащи меня»); в буквальном слое оставлено «не тащи», в драматическом — «не уноси»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a8ea118aa720"
+  },
+  "verse.ru:PS.28.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bedd5b086567"
+  },
+  "verse.ru:PS.28.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "778354f74f3c"
+  },
+  "verse.ru:PS.28.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2ead5f4e795"
+  },
+  "verse.ru:PS.28.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7bfbe3937bca"
+  },
+  "verse.ru:PS.28.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [
+    "«למו» — «им», множественное число, как в английском; в Синодальном «народа Своего». «Помазанник» принят по Синодальному."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "985603f87d35"
+  },
+  "verse.ru:PS.28.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:49+00:00",
+     "note": "[consider] Consider «и неси их» without «на руках». (PS.28.9: \"וְנַשְּׂאֵם\"; English dramatic: \"Be their shepherd, and carry them\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13daafa47419"
   }
  },
  "notes": []

@@ -1,0 +1,645 @@
+{
+ "chapter_ref": "PS.108",
+ "items": {
+  "verse.en:PS.108.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "The superscription is verse 1 in the Hebrew (KJV 108:0, no number), so every KJV verse number in this psalm is one lower than the Hebrew's. I translated each Hebrew verse as it stands."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "Rashi reads 'cast my sandal over Edom' as servants taking off the speaker's sandals; the other common reading is a gesture of taking possession. The text does not say which, so the literal layer stays literal and the commentary names both. I could not source the possession reading in the packet's commentaries, so the note on it has no source."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "הלא at the head of the verse can be a question ('have you not rejected us?') or, as in the ASV, a statement leading into 'and you do not go out'. I kept the question in the literal layer, which is how most of the five versions take the first half. The second half is a plain statement in all of them."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:14+00:00",
+   "agent_notes": [
+    "Revised after the request: the dramatic layer has no vocative, no 'Give it now' and no 'leaned on it long enough'. Urgency comes from the bare imperative and the flat verdict on human rescue. 'mitsar' is taken as 'from the foe' (STEPBible, ASV), though the same consonants can be the noun 'distress', which is how the KJV reads it; the commentary says so."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[should_fix] Rewrite the dramatic layer without the vocative 'LORD', without 'Give it now' and without 'and we have leaned on it long enough'; urgency can come from the abrupt imperative and the verdict 'worthless is the rescue man gives'. (PS.108.13: \"הָבָה־לָּנוּ עֶזְרָת מִצָּר וְשָׁוְא תְּשׁוּעַת אָדָם\" (give us help from the foe, and worthless is the deliverance of man))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:19:51+00:00",
+     "note": "[consider] Consider 'is worth nothing' or 'is empty' instead of 'empty breath'. (PS.108.13: \"וְשָׁוְא תְּשׁוּעַת אָדָם\" (and worthless is the deliverance of man))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:14:52+00:00",
+   "agent_notes": [
+    "בֵּאלֹהִים: STEPBible reads 'in God' with the preposition בְּ. The English versions split between 'through God' (KJV, ASV, Webster), 'in God' (YLT) and 'with God' (BBE). The literal layer keeps 'in God'; the dramatic layer uses 'with' because that is how a hearer would take the instrumental/accompanying sense.",
+    "Metzudat Zion cites Isaiah 14:19 ('כפגר מובס') for יָבוּס. I take the citation from the packet as given and did not check the verse myself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[consider] Keep to trampling underfoot, as the cited source does, or give a source for the agricultural sense. (PS.108.14: Metzudat Zion \"יבוס. ענין רמיסה ודריסה כמו כפגר מובס\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "כבודי 'my glory': rendered 'my glory' in the literal layer and 'my very soul' in the dramatic one, following Radak, Meiri and Metzudat Zion, who take it as the soul/self. Ibn Ezra's parallel with 'my heart rejoices and my glory exults' supports it. Rashi's second reading ('even in keeping with my honor') is a different sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "The remark in the commentary that Shachar is also the name of a Canaanite dawn deity is my own reading and unsourced here; I flagged it as such in the text. The KJV does not play on the root עור either, so this is an audit point, not a claim that the psalmist is polemicizing."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[consider] Make the instrument names agree between literal, glosses and commentary, and say 'the KJV's psaltery and harp' rather than attributing it to the 1611 translators. (PS.108.3: \"עוּרָה הַנֵּבֶל וְכִנּוֹר\"; literal \"Awake, the lyre and harp!\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "STEPBible marks בָּלְאֻמִּים with (V), a variant reading; I glossed the form as it stands. Radak notes the lamed is soft where a dagesh would be expected; no effect on the meaning."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:14+00:00",
+   "agent_notes": [
+    "Revised after the request: the directors' commentary now follows Rashi (citing Pesachim 50b) with the assignments in his order: 'above the heavens' (here) for those who act lishmah, 'to the heavens' (Ps 57:11) for those who do not. I read Rashi's words as given in the packet and did not check Pesachim itself."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[should_fix] In the directors_commentary, swap the two: Rashi (citing Pesachim 50b) assigns 'above the heavens' to those who act for the right reason (lishmah) and 'to the heavens' to those who do not. (PS.108.5, Rashi in the packet: \"מֵעַל שָׁמַיִם. וְכָתוּב אֶחָד אוֹמֵר עַד שָׁמַיִם? ... כָּאן בְּעוֹשִׂין לִשְׁמָהּ, כָּאן בְּעוֹשִׂין שֶׁלֹּא לִשְׁמָהּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:19:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:14+00:00",
+   "agent_notes": [
+    "Revised after the request: the sentence praising the KJV's added 'above' is gone. The KJV, like the Hebrew, leaves the second line without a verb; 'above' translates the Hebrew 'al. I keep the second line verbless in the literal layer and mark the carried-over wish in brackets in the dramatic layer only through rhythm, not through added words."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[should_fix] Remove the sentence 'The KJV adds above to cover it, which is fair'; if you keep a KJV note, say the KJV, like the Hebrew, leaves the second line without a verb ('above' is the Hebrew 'al). (PS.108.6: \"וְעַל כָּל־הָאָרֶץ כְּבוֹדֶךָ\"; KJV 108:5 \"and thy glory above all the earth\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:19:51+00:00",
+     "note": "[consider] Check that the Radak citation points to the verse it comments on, or cite it as 108:6. (PS.108.6: \"רוּמָה עַל־שָׁמַיִם אֱלֹהִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[consider] Hedge the David link as a sound echo, or cite a source; consider 'Save with your right hand'. (PS.108.7: \"הוֹשִׁיעָה יְמִינְךָ וַעֲנֵנִי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": "[consider] Align the gloss with the literal ('in his holiness'), and attribute the 'portion' sense to Metzudat Zion. (PS.108.8: \"בְּקָדְשׁוֹ\"; Metzudat Zion: \"שכם. ענין חלק\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.108.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:15:58+00:00",
+   "agent_notes": [
+    "מחקקי: STEPBible has 'commander's staff', the KJV 'lawgiver', the ASV 'sceptre'. The participle of חקק means one who engraves or decrees, and a cognate noun (מחקק) is a ruler's staff elsewhere. I kept 'my lawgiver' in the literal layer and offered 'staff' in the commentary. The Hebrew is the same as in Ps 60, so the split between the English versions is old."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:18:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.108.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте надписание — стих 1, в Синодальной Библии это Пс 107:1 без отдельного номера у надписания (там Пс 107 соответствует ивритскому Пс 108, а стихи сдвинуты на один). Номера стихов в корпусе — еврейские."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "affc8d83c90f"
+  },
+  "verse.ru:PS.108.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [
+    "Edom передан как «Едом» (а не «Идумея» Синодальной), чтобы имя совпадало с ивритским и с комментарием; Синодальная читает «Идумея» — упомянул в комментарии к ст. 11."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f6e2fe83684c"
+  },
+  "verse.ru:PS.108.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Delete the last sentence «Синодальная переводит „до Идумеи“, называя Едом по-гречески.» (PS.108.11: \"מִי נָחַנִי עַד אֱדוֹם\"; Synodal Ps 107:11: «Кто введет меня в укрепленный город? Кто доведет меня до Едома?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a189014a06f4"
+  },
+  "verse.ru:PS.108.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7356bcd2a4b2"
+  },
+  "verse.ru:PS.108.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [
+    "Синодальная («помощь в тесноте») идёт за KJV и читает «бедствие»; буквальный слой, как ASV, берёт «врага». Транслитерации и ссылки на источники оставлены латиницей, как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Rewrite the Synodal sentence as «Синодальная („помощь в тесноте“) идёт за KJV и читает „бедствие“; „суетна“ передаёт шав»; change «в Идумею» to «к Едому»; spell «Мецудат Давид» throughout; keep sources as in the English (\"Metzudat David on Psalms 108:13\") and translits in Latin (mitsar, shav', adam). (PS.108.13: \"הָבָה לָּנוּ עֶזְרָת מִצָּר\"; Synodal Ps 107:13: «Подай нам помощь в тесноте, ибо защита человеческая суетна»; English commentary \"lead it to Edom\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "83835be206c9"
+  },
+  "verse.ru:PS.108.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Quote the Synodal as «С Богом мы окажем силу; Он низложит врагов наших» and say it renders the idiom as «окажем силу»; spell «Мецудат Цион»; keep sources as in the English (\"Metzudat Zion on Psalm 108:14\") and translits in Latin (na'aseh chayil, yavus). (PS.108.14: \"בֵּאלֹהִים נַעֲשֶׂה חָיִל\"; Synodal Ps 107:14: «С Богом мы окажем силу; Он низложит врагов наших»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": "[consider] Consider «и Он, Он растопчет врагов наших» in the literal layer and the gloss for pos 4, to match the rest of the verse. (PS.108.14: \"וְהוּא יָבוּס צָרֵינוּ\"; ru literal «и он, он растопчет врагов наших»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e544e1198905"
+  },
+  "verse.ru:PS.108.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[consider] Consider «Синодальная („Готово сердце моё“) ближе к BBE и YLT». (Synodal Ps 107:2: «Готово сердце мое, Боже»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cf8a47ae8187"
+  },
+  "verse.ru:PS.108.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [
+    "Синодальная читает «Я встану рано» и, как KJV, теряет игру слов с глаголом «будить»; предложение заменено по замечанию рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Delete the sentence «Синодальная („проснись, псалтирь и цевница! разбужу я зарю“) сохраняет повтор глагола.», or replace it with: «Синодальная („Воспрянь, псалтирь и гусли! Я встану рано“), как и KJV, теряет игру слов.» (PS.108.3: \"עוּרָה הַנֵּבֶל וְכִנּוֹר אָעִירָה שָּׁחַר\"; Synodal Ps 107:3: «Воспрянь, псалтирь и гусли! Я встану рано.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b52560b00b9b"
+  },
+  "verse.ru:PS.108.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[consider] Quote it as «между народами… среди племён». (Synodal Ps 107:4: «Буду славить Тебя, Господи, между народами; буду воспевать Тебя среди племен»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "23be254ffa7b"
+  },
+  "verse.ru:PS.108.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] In the commentary's first paragraph write «милость (хесед), то есть верность по завету, идёт „над“ небесами, верность (эмет) — лишь „до“ облаков», so the names match the literal; and quote the Synodal as «ибо превыше небес милость Твоя и до облаков истина Твоя». (PS.108.5: \"כִּי גָדוֹל מֵעַל שָׁמַיִם חַסְדֶּךָ וְעַד שְׁחָקִים אֲמִתֶּךָ\"; ru literal «милость Твоя … верность Твоя»; ru commentary «верность по завету (хесед) … истина (эмет)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0f6b0f0e252"
+  },
+  "verse.ru:PS.108.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Write «Во второй строке»; quote the Synodal in full with «да будет слава Твоя» and say that it, unlike the Hebrew and the KJV, adds the verb (or drop the Synodal sentence, which is not in the English). (PS.108.6: \"וְעַל כָּל הָאָרֶץ כְּבוֹדֶךָ\" (no verb); Synodal Ps 107:6: «Будь превознесен выше небес, Боже, и над всею землею да будет слава Твоя»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4dac45f16c26"
+  },
+  "verse.ru:PS.108.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:21:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[consider] Write «лема‘ан»; consider «спаси десницей Твоей» without brackets in the literal and gloss. (PS.108.7: \"הוֹשִׁיעָה יְמִינְךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f94a20477cc"
+  },
+  "verse.ru:PS.108.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] In translation_literal and the gloss for pos 2, change «говорил» to «сказал». (PS.108.8: \"אֱלֹהִים דִּבֶּר בְּקָדְשׁוֹ\"; English literal \"God has spoken\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "735a8a66d959"
+  },
+  "verse.ru:PS.108.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:26:22+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:24:52+00:00",
+     "note": "[should_fix] Replace the last sentence with «Синодальная („Иуда — скипетр мой“) выбирает, как ASV, жезл правителя», or delete it. (PS.108.9: \"יְהוּדָה מְחֹקְקִי\"; Synodal Ps 107:9: «Ефрем — крепость главы моей, Иуда — скипетр мой»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:27:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df86616afc56"
+  }
+ },
+ "notes": [
+  {
+   "note": "Verses 7 to 12 are locked and left out of this fragment.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T15:19:14+00:00"
+  }
+ ]
+}

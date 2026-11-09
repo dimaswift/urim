@@ -1,0 +1,1257 @@
+{
+ "chapter_ref": "PS.118",
+ "items": {
+  "verse.en:PS.118.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [
+    "Five English versions split on 'chesed': mercy (KJV, BBE, Webster), lovingkindness (ASV), kindness (YLT). I kept 'steadfast love' in the literal layer to carry the covenant sense; the STEPBible gloss 'covenant loyalty' is the same idea."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider presenting these as your own lexical notes (empty sources) or citing a packet commentary that makes the point, such as Ibn Ezra on 118:1 for the missing הוּא. (PS.118.1 notes: sources [\"BDB on חֶסֶד\"], [\"BDB on ידה\"]; the packet gives only STEPBible glosses and the commentaries)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [
+    "STEPBible glosses 'amilam' as 'I fended off them' (from mul). The traditional commentators (Rashi, Metzudat Zion) link it to a root meaning to cut off/wither (cf. Ps 90:6 yemolel); the verb is also the one used for circumcision. I rendered 'I cut them off' and mentioned the circumcision link as a possible echo, not a certainty. I did not consider the STEPBible gloss wrong, only weaker than 'cut off'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [
+    "STEPBible glosses do'akhu 'they were extinguished'; KJV/ASV 'are quenched'. I kept the Hebrew sense (they flickered out, a perfect of completed action). Rashi derives da'akh from the idea of a flame leaping from the wick; I cite him by the packet text."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:34:13+00:00",
+   "agent_notes": [
+    "Per the reviewer's request: the Ibn Ezra citation and the claim that the KJV hides the purpose clause are removed, and the typo is gone. The infinitive-absolute note now rests on the form itself and on BDB/HALOT-level grammar, with no source cited. Rashi's identification of the addressee ('you, my enemy') is cited for the 'you'. The Hebrew has no object marker or modifier for 'sorely'; that nuance is the infinitive absolute's intensity, as all five English versions render it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[should_fix] Either drop the Ibn Ezra source from the infinitive-absolute note or cite it only for לִנְפֹּל as a full form. Delete the sentence claiming that the KJV's 'that I might fall' hides the purpose. Also fix the typo 'a ally'. (PS.118.13 Ibn Ezra: \"דחה, לנפול - שלם, כמו לנדוח ידו\"; KJV: \"Thou hast thrust sore at me that I might fall\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:35:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [
+    "The pointing of עזי וזמרת יה is disputed: the commentaries in the packet (Rashi, Ibn Ezra, Radak, Meiri) discuss the 'extra' yod of עזי and the construct-looking זמרת, and read it either as 'my strength and my song' or 'the strength and song of Yah'. I translated 'my strength and [my] song [is] Yah' as the surface structure, with the suffix of עזי doing double duty. The same line is Exod 15:2 and Isa 12:2.",
+    "The packet's STEPBible gloss for pos 2 is 'and strength' and for pos 1 '[is] might my'; I corrected pos 2 to 'and [my] song' since זִמְרָה here is 'song' (so KJV, ASV, BBE), not 'strength'. Radak's alternate 'praise/valour' reading (Meiri compares זמרת הארץ, Gen 43:11, 'the choicest product') is noted but not followed."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [
+    "STEPBible glosses חיל as 'strength'; the idiom עשה חיל is 'to act with force / achieve valour', and I used 'valour' in the literal layer. KJV 'doeth valiantly' keeps the idiom."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider 'never faltering, unlike the right hand of heroes and nobles'. (PS.118.16 Radak: \"שלא תמוט לעולם כמו ימין הגבורים והנדיבים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [
+    "Malbim's reading (the poet was ill and disciplined by suffering) and Rashi's reading (Israel in exile) differ; the Hebrew itself only says 'I will not die'. I left the speaker unspecified in the translation layers."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider 'I will not die, but I will live' in the literal layer and 'but (rather)' as the gloss for pos 3. (PS.118.17: \"לֹֽא אָמ֥וּת כִּי־אֶֽחְיֶ֑ה\"; KJV/ASV/YLT \"I shall not die, but live\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider citing Malbim on 118:20 for the king's gate, or saying 'temple gates' for Malbim on v. 19. (PS.118.20 Malbim: \"זה השער לה', שהיה להמלך שער מיוחד\"; PS.118.19 Malbim: \"שערי צדק שהמה שערי בהמ\"ק\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider keeping 'answered' while mentioning Malbim's reading as 'afflicted', which links v. 21 back to v. 18. (PS.118.21 Malbim: \"אני נותן הודאה על שעניתני ביסורים, כי ע\"י כן ותהי לי לישועה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [
+    "I have not read the stone saying through any later quotation in the translation layers; the commentary mentions the New Testament citation only as background. Interpretive options in the packet (David, Israel among the nations, Hezekiah in Malbim) are listed, none chosen."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:29:31+00:00",
+   "agent_notes": [
+    "Ibn Ezra's alternative reading (the verbs as elided 'a day made for rejoicing') is noted. I kept the plain cohortatives 'let us be glad and let us rejoice in it'; 'in it' (בו) can refer to the day or to YHWH's deed, and the Hebrew does not decide."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:33:37+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the second paragraph of the commentary now says the KJV renders both אָנָּא ('I beseech thee') and both נָּא ('now') but moves them, so the two identically built Hebrew lines read differently in English. The points about the added 'send', 'prosperity' and the 'I' are kept.",
+    "STEPBible glosses אָנָּא 'we beg you' (plural); the form is not plural. The speaker in the Hebrew is unmarked, so I glossed 'I/we beg' neutrally as 'I beg you' and the 'we' of ASV/BBE is a reading of the liturgical setting, not of the grammar. נָּא is glossed 'now/please' as a particle of entreaty, not of time; the KJV 'now' in 'Save now' is the old sense of 'pray' and is easily misread as temporal. The Hebrew phrase הושיעה נא is the source of 'Hosanna'; I rely on the standard derivation, not on a source in the packet.",
+    "Targum, Ibn Ezra, Radak and Malbim read the speakers differently (priests, Israel, all at once); I did not choose between them in the text and cite none beyond Radak and Malbim as they appear in the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[should_fix] Correct the second paragraph so that it says the KJV renders both אָנָּא ('I beseech thee') and both נָּא ('now') but moves them around, so the two identically built Hebrew lines read differently in English. Keep the points about the added 'send', 'prosperity' and the 'I'. (PS.118.25 KJV: \"Save now, I beseech thee, O Lord: O Lord, I beseech thee, send now prosperity.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:35:05+00:00",
+     "note": "[consider] Reword the note as 'Ibn Ezra and Metzudat David read נָּא after both verbs as עתה, now', and in the commentary allow that the KJV's 'now' follows that traditional reading while 'please' is the more common sense of the particle. (PS.118.25 Metzudat David: \"אבקש את ה׳ הושיעה עתה והצליחה עתה\"; Ibn Ezra: \"אנא השם הושיעה עתה והצליחה עתה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:30:08+00:00",
+   "agent_notes": [
+    "בֵּרַכְנוּכֶם has a plural 'you' while הַבָּא is singular: the Hebrew shifts from the one who comes to the group addressed. The packet commentaries disagree about who speaks to whom (priests to pilgrims, Rashi/Ibn Ezra; priests to the king, Malbim). I left the speaker unspecified in the dramatic layer, since the verse itself names none."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:30:08+00:00",
+   "agent_notes": [
+    "אִסְרוּ־חַג בַּעֲבֹתִים is genuinely disputed. The literal layer keeps 'bind the festival with thick cords/boughs' and brackets nothing in, because Hebrew has no word for 'sacrifice'. Rashi, Radak, Ibn Ezra, Meiri and Metzudat David take חַג as the festival offering, bound with ropes up to the altar horns; the Targum has a bound lamb. BBE ('let the holy dance be ordered with branches') reflects the other reading, עֲבֹת as leafy boughs (cf. Ezek 6:13, 'leafy tree'), a procession. I chose cords in the glosses and described both in the commentary. The 'leafy boughs' parallel is my own reading, not drawn from a packet commentary.",
+    "STEPBible glosses אֵל as '[is] God' and entity deity.yhwh; I kept 'God' and glossed יְהוָה separately, reading 'God [is] YHWH' as a confession of identity. KJV 'which hath shewed us light' turns the Hebrew's separate clause 'and he gave light to us' into a relative clause; I keep the clause. The Hebrew וַיָּאֶר is a past/perfective narrative form, so 'gave light'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:30:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:30:08+00:00",
+   "agent_notes": [
+    "The versions render חֶסֶד 'mercy' (KJV), 'kindness' (YLT), 'lovingkindness' (ASV). I used 'covenant loyalty' in the gloss and 'steadfast love' in the dramatic layer, and 'loyal love' in the literal."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[consider] Consider giving v. 29 the same literal wording and glosses as v. 1. (PS.118.29 = PS.118.1: \"הוֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [
+    "'Yah' is the short form of the divine name; I rendered it 'Yah' in the literal layer and 'the LORD' in the dramatic layer. The merchav/metzar contrast is my own observation of the word pair (Ibn Ezra on Ps 118:5 notes merchav is the opposite of metzar)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [
+    "'be'ozerai' (in my helpers) is a beth essentiae / 'among' construction; the versions split ('with them that help me' KJV, 'my great helper' BBE, 'among my helpers' YLT). I took 'in my helpers' literally and explained it in the commentary. Ibn Ezra quotes Rabbi Moshe (ibn Chiquitilla) for the reading that YHWH alone stands against all helpers."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:34:13+00:00",
+   "agent_notes": [
+    "Per the reviewer's request: 'better' is correct for tov + min (the Hebrew comparative); the commentary now says so and keeps only the point that the KJV flattens chasah/batach into 'trust ... confidence'. STEPBible glosses מִ֝בְּטֹ֗חַ 'more than to trust'; I split the min and the infinitive in the gloss as 'than trusting'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": "[should_fix] Remove the claim that 'better' is a KJV error, and explain instead that tov + min is the Hebrew comparative ('better than'). Keep the point that the KJV flattens chasah/batach into 'trust ... confidence', which is sound. (PS.118.8: \"ט֗וֹב לַחֲס֥וֹת בַּיהוָ֑ה מִ֝בְּטֹ֗חַ בָּאָדָֽם\" (STEPBible pos 4 'more than to trust'); YLT \"Better to take refuge in Jehovah than to trust in man\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:35:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.118.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:28:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:32:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.118.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [
+    "Древнееврейское «хесед» передано как «милость» в литературном слое (так в Синодальном переводе), а в комментарии и в примечаниях объяснено, что это верность завета. В буквальном слое выбрано «милость-верность», чтобы смысл завета был виден сразу.",
+    "Нумерация: в Синодальном переводе и в православном богослужении этот псалом — 117-й; здесь стихи даны по еврейской нумерации (118)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] No change to this verse. The Psalms RusSynodal ingest needs fixing (book mapping and Synodal numbering) before further Psalms localization relies on Synodal quotations. (build/ir/source/PS.json RusSynodal 'PS.1.1': «Книга сказаний Товита, сына Товиилова…»; work/localization/ru.PS.118.md: the 'RusSynodal, for names and register' section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "590e37b5a79d"
+  },
+  "verse.ru:PS.118.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:44:26+00:00",
+   "agent_notes": [
+    "В Синодальном тексте еврейское несовершенное передано прошедшим временем («низложил»); в буквальном слое сохранено будущее «отсеку», как в иврите."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Change the quotation to «но именем Господним я низложил их». The point that the Synodal text keeps the force but loses the cutting and circumcision sense still holds; it also turns the Hebrew imperfect into a past tense. (PS.118.10 Hebrew: \"בְּשֵׁם יְהוָה כִּי אֲמִילַם\"; Synodal Ps 117:10: «Все народы окружили меня, но именем Господним я низложил их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ca32e1207fd"
+  },
+  "verse.ru:PS.118.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Quote «Обступили меня, окружили меня» and say that the Synodal text varies the verb where the Hebrew repeats סבב. (Synodal Ps 117:11: «Обступили меня, окружили меня, но именем Господним я низложил их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7d8702ffae83"
+  },
+  "verse.ru:PS.118.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [
+    "«До‘ху» передано глаголом «угасли» (Синодальный: «погасли»). Слово «колючие» — «терновый огонь», как в Синодальном: «как огонь в терновнике»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Quote «угасли, как огонь в терновнике». (Synodal Ps 117:12: «Окружили меня, как пчелы [сот], и угасли, как огонь в терновнике: именем Господним я низложил их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe6e7d5016c7"
+  },
+  "verse.ru:PS.118.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [
+    "Инфинитив-абсолютив דַּחֹה דְחִיתַנִי в буквальном слое передан повтором корня («толкая, толкнул ты меня»); Синодальный перевод передаёт усиление наречием («сильно толкнули»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d1f3cca4081b"
+  },
+  "verse.ru:PS.118.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован как «Господь — сила моя и песнь»; сказано, что, как и KJV, он выносит имя вперёд и теряет еврейский порядок. Опечатка «сземер» исправлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Write «связывают его с земер». Quote the Synodal text as «Господь — сила моя и песнь», and note that, like the KJV, it moves the name to the front, so the Hebrew order (the two nouns first, the name last) is lost. (PS.118.14 Hebrew: \"עָזִּי וְזִמְרָת יָהּ\"; Synodal Ps 117:14: «Господь — сила моя и песнь; Он соделался моим спасением».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "294a8edb5d1b"
+  },
+  "verse.ru:PS.118.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "Синодальное «в жилищах праведников» процитировано вместо «в шатрах праведных»; довод о простом слове для жилища сохранён."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Quote «в жилищах праведников» instead. The argument still holds: a plain word for dwelling, not a sanctuary. (PS.118.15 Hebrew: \"בְּאָהֳלֵי צַדִּיקִים\"; Synodal Ps 117:15: «Глас радости и спасения в жилищах праведников: десница Господня творит силу!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "769c83a0c751"
+  },
+  "verse.ru:PS.118.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "Синодальное «десница Господня высока» процитировано как статичное состояние, подобно «is exalted» в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Quote the Synodal text correctly: «В Синодальном переводе — «десница Господня высока»», which, like the KJV's 'is exalted', is a static state, not the image of a raised hand. (PS.118.16 Hebrew: \"יְמִין יְהוָה רוֹמֵמָה\"; Synodal Ps 117:16: «Десница Господня высока, десница Господня творит силу!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd7fcc84b44e"
+  },
+  "verse.ru:PS.118.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "11913e5cf36b"
+  },
+  "verse.ru:PS.118.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Quote «Строго наказал меня Господь». (Synodal Ps 117:18: «Строго наказал меня Господь, но смерти не предал меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4302aec358b9"
+  },
+  "verse.ru:PS.118.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "Оговорка о Синодальном «познаю Господа» удалена; вместо неё сказано, что «прославлю Господа», как и «praise» в KJV, теряет публичное благодарение корня ידה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Delete the clause «но Синодальный перевод читает אודה יה как «познаю Господа», выбирая другое значение корня». If you want a Synodal comparison, say that «прославлю Господа», like the KJV's 'praise', loses the public thanksgiving of ידה. (PS.118.19 Hebrew: \"אָבֹא־בָם אוֹדֶה יָהּ\"; Synodal Ps 117:19: «Отворите мне врата правды; войду в них, прославлю Господа».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1248d575cf0c"
+  },
+  "verse.ru:PS.118.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:44:26+00:00",
+   "agent_notes": [
+    "Синодальное «ныне» в «Да скажет ныне Израиль» понято как временное, как и «now» в KJV; в литературном слое оставлено «сейчас», в буквальном — «же» как передача вежливой частицы נָא."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Quote «Да скажет ныне Израиль» and say that the Synodal «ныне», like the KJV's 'now', makes נָא temporal. Change «113:9–11» to «113:17–19». (PS.118.2 Hebrew: \"יֹאמַר־נָא יִשְׂרָאֵל\"; Synodal Ps 117:2: «Да скажет ныне Израиль: ... ибо вовек милость Его». Hebrew Ps 115:9 «Israel, trust thou in the LORD» = Synodal 113:17 «Дом Израилев! уповай на Господа».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a31b4de474c"
+  },
+  "verse.ru:PS.118.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fab7d7bf3b15"
+  },
+  "verse.ru:PS.118.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a312aa385e6"
+  },
+  "verse.ru:PS.118.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:38:42+00:00",
+   "agent_notes": [
+    "Синодальное «главою угла» сохраняет ту же неопределённость, что и еврейское ראש פנה (краеугольный камень или замковый), поэтому в комментарии это отмечено как совпадение с Синодальным переводом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "78f9a1eaba72"
+  },
+  "verse.ru:PS.118.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "Буквальный слой — «От YHWH произошло это; оно чудесно в наших глазах»; в глоссе pos 3 «было/произошло», «это» только в pos 4. Женский род זאת/היא передан средним родом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Change the literal layer to «От YHWH произошло это; оно чудесно в наших глазах». Gloss pos 3 as «было/произошло» without a second «это», so that pos 4 alone carries «это». (PS.118.23 Hebrew: \"הָיְתָה זֹּאת הִיא נִפְלָאת בְּעֵינֵינוּ\" (feminine זֹאת/הִיא, which Russian renders with neuter «это/оно»).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e31423fba84c"
+  },
+  "verse.ru:PS.118.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:43:53+00:00",
+   "agent_notes": [
+    "«Когортативные глаголы» вместо искажённого написания."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Write «когортативные глаголы». (PS.118.24 Hebrew: \"נָגִילָה וְנִשְׂמְחָה\" (cohortatives).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c417219c2673"
+  },
+  "verse.ru:PS.118.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:39:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 117:25) читает «спаси же» и «споспешествуй же» и ставит «О, Господи!». Здесь сохранена симметрия двух строк и повтор אָנָּא; «Осанна» названа в комментарии, потому что синодальный текст её не слышит. הַצְלִיחָה передано «даруй успех», а не «споспешествуй»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8eb7a21fd778"
+  },
+  "verse.ru:PS.118.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:39:29+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «Благословляем вас из дома Господня» — совпадает с выбором מִבֵּית как «из дома». Множественное «вас» сохранено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5845a76ac63"
+  },
+  "verse.ru:PS.118.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:44:47+00:00",
+   "agent_notes": [
+    "По запросу рецензента заменено последнее предложение комментария: Синодальный перевод («вяжите вервями жертву, [ведите] к рогам жертвенника») идёт за первым чтением, как и KJV, и так же вставляет «жертву» вместо חַג. Утверждение о выборе шествия и ветвей убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary: the Synodal translation («вяжите вервями жертву, [ведите] к рогам жертвенника») follows the first reading, like the KJV, and supplies «жертву» for חַג just as the KJV supplies «sacrifice». Remove the claim that it chooses the procession and branches. (PS.118.27 Hebrew: \"אִסְרוּ־חַג בַּעֲבֹתִים עַד־קַרְנוֹת הַמִּזְבֵּחַ\"; Synodal Ps 117:27: «Бог — Господь, и осиял нас; вяжите вервями жертву, [ведите] к рогам жертвенника». (The packet carried no Synodal text, see the note on PS.118.1.))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "344c76578c75"
+  },
+  "verse.ru:PS.118.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:39:29+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5dd32d914d3"
+  },
+  "verse.ru:PS.118.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:39:29+00:00",
+   "agent_notes": [
+    "חֶסֶד: в буквальном слое «верность по завету»; в драматическом «милость» заменена на «неизменная любовь». Синодальный текст имеет «милость», комментарий это называет."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Give v. 29 the same literal wording and glosses as v. 1, and use one capitalisation of «его/Его» for God throughout the chapter. (PS.118.29 = PS.118.1: \"הוֹדוּ לַיהוָה כִּי־טוֹב כִּי לְעוֹלָם חַסְדּוֹ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a77e33526ca8"
+  },
+  "verse.ru:PS.118.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Quote «дом Ааронов» when citing the Synodal text. (Synodal Ps 117:3: «Да скажет ныне дом Ааронов: ибо вовек милость Его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "438f885f330a"
+  },
+  "verse.ru:PS.118.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b388869544b"
+  },
+  "verse.ru:PS.118.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:44:26+00:00",
+   "agent_notes": [
+    "Краткая форма имени יָהּ везде записана как «Йах» (так же, как в Пс 118:14), по замечанию рецензента; в драматическом слое, как и в Синодальном, стоит «Господь»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[should_fix] Write «Йах» for יָהּ everywhere in this verse (literal: «…к Йах; ответил мне на просторе Йах»; glosses «к Йах», «Йах»; commentary). Correct the Synodal quotation to «Из тесноты воззвал я к Господу, и услышал меня, и на пространное место вывел меня Господь»; the point that it adds «вывел» stands. (PS.118.5 Hebrew: \"קָרָאתִי יָּהּ ... בַמֶּרְחָב יָהּ\" = PS.118.14 \"וְזִמְרָת יָהּ\" (ru: «Йах»). Synodal Ps 117:5: «Из тесноты воззвал я к Господу, и услышал меня, и на пространное место вывел меня Господь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:45:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6258dc5ea5b5"
+  },
+  "verse.ru:PS.118.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "252fcc5c6cc7"
+  },
+  "verse.ru:PS.118.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": "[consider] Quote «Господь мне помощник», and mark the Hebrew numbering in the note as the commentary does. (Synodal Ps 117:7: «Господь мне помощник: буду смотреть на врагов моих».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "399b0a403f70"
+  },
+  "verse.ru:PS.118.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06bc46471d42"
+  },
+  "verse.ru:PS.118.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:37:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:42:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e38488f2acd"
+  }
+ },
+ "notes": []
+}

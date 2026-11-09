@@ -239,7 +239,249 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.8.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:21:12+00:00",
+   "agent_notes": [
+    "Синодальный заголовок процитирован полностью: «Начальнику хора. На Гефском орудии. Псалом Давида.» В литеральном слое «гиттите» оставлено как транслитерация, потому что значение слова неизвестно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[should_fix] Quote the Synodal in full: «Начальнику хора. На Гефском орудии. Псалом Давида.» (PS.8.1: \"עַל־הַגִּתִּית\"; Synodal Ps 8:1: «Начальнику хора. На Гефском орудии. Псалом Давида.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a336b20748e"
+  },
+  "verse.ru:PS.8.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:18:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59352567be12"
+  },
+  "verse.ru:PS.8.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:21:12+00:00",
+   "agent_notes": [
+    "Форма «тена» в комментарии и примечании описана как «имперфект (форма будущего времени) в значении прошедшего» — так передан термин Мецудат Цион («натат атид бемаком авар»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[should_fix] Correct «величествено» to «величественно» in translation_literal. In the commentary and the tenah note, replace «несовершенный вид в значении прошедшего» with «имперфект (форма будущего времени) в значении прошедшего». (PS.8.2: \"כַּמָּה אַדִּיר\"; Metzudat Zion: \"תנה. כמו נתת עתיד במקום עבר\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c6fde37271ec"
+  },
+  "verse.ru:PS.8.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:21:12+00:00",
+   "agent_notes": [
+    "«Мстящий за себя» для митнакем — возвратная форма; «чтобы прекратить врага» без вставного «[для]»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[should_fix] Write «мстящего за себя» in the literal layer and in gloss 10 («и мстящего за себя»), and «тот, кто мстит за себя» in the mitnaqqem note. Replace «чтобы прекратить [для] врага» with «чтобы прекратить врага» or «чтобы положить конец врагу», without «[для]»; gloss 8 «чтобы прекратить» may stay. (PS.8.3: \"לְהַשְׁבִּית אוֹיֵב וּמִתְנַקֵּם\"; English: \"to make cease [the] enemy and [the] self-avenger\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cf7ca28cfe12"
+  },
+  "verse.ru:PS.8.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:21:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Когда взираю я на небеса Твои — дело Твоих перстов, на луну и звезды, которые Ты поставил». (PS.8.4: \"מַעֲשֵׂי אֶצְבְּעֹתֶיךָ\"; Synodal Ps 8:4: «Когда взираю я на небеса Твои — дело Твоих перстов, на луну и звезды, которые Ты поставил»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b9dbaa10ba3f"
+  },
+  "verse.ru:PS.8.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:18:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ee81cdcc07d"
+  },
+  "verse.ru:PS.8.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:18:18+00:00",
+   "agent_notes": [
+    "Синодальный: «Ты немного умалил его пред Ангелами». Еврейское elohim — «Бог/боги»; в обоих слоях оставлено «Бог» («от Бога», «недостаёт немногого до Самого Бога»), а не «ангелы», как в Синодальном; расхождение объяснено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[consider] Consider «И ты сделал, [что] ему недостаёт немного от Бога» and quote the Synodal as «Не много Ты умалил его пред Ангелами». (PS.8.6: \"וַתְּחַסְּרֵהוּ מְּעַט מֵאֱלֹהִים\"; Synodal: «Не много Ты умалил его пред Ангелами»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e3e4ce23466"
+  },
+  "verse.ru:PS.8.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:18:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[consider] Consider «Небеса — тонкая работа, весь же удел — работа прочная» and «Чуткое ухо заметит неожиданное». (PS.8.7 commentary, English: \"The heavens are delicate work; the whole realm is solid.\" / \"A surprise for the careful ear\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "37dc4b787439"
+  },
+  "verse.ru:PS.8.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:18:18+00:00",
+   "agent_notes": [
+    "Tzoneh и alafim — редкие слова; передал как «мелкий скот» и «волы» по смыслу, как в Синодальном («овец и волов»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a85e45198a87"
+  },
+  "verse.ru:PS.8.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:21:12+00:00",
+   "agent_notes": [
+    "Синодальная цитата дана в точности с запросом рецензента («всё, преходящее морскими стезями»); в Синодальном причастие читается как отдельная группа."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:57+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «птиц небесных и рыб морских, всё, преходящее морскими стезями»; the point that it treats the participle as a separate group stands. (PS.8.9: \"עֹבֵר אָרְחוֹת יַמִּים\"; Synodal Ps 8:9: «птиц небесных и рыб морских, все, преходящее морскими стезями»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f382bc71ea27"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.8.1–10 взяты из книги Товита (из-за расхождения нумерации), а не из псалма 8, поэтому я на них не опирался. Синодальный текст Пс 8 я сверял по памяти; проверьте цитаты, где комментарий ссылается на синодальный выбор.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:18:18+00:00"
+  }
+ ]
 }

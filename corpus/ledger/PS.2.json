@@ -261,7 +261,306 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.2.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "Нумерация в примечании к рагшу названа еврейской (Пс 63:3 [по еврейской нумерации 64:3]), как просил рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Change «по английской нумерации» to «по еврейской нумерации» (Пс 63:3 [по еврейской нумерации 64:3]). (PS.2.1 ru note: \"сближают его с «сонмом» злодеев в Пс 63:3 [по английской нумерации 64:3]\"; KJV Ps 64:2: \"from the insurrection of the workers of iniquity\" (Hebrew 64:3 רִגְשַׁת פֹּעֲלֵי אָוֶן))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e50d2bb6577c"
+  },
+  "verse.ru:PS.2.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно («Итак вразумитесь, цари; научитесь, судьи земли!»), добавлено замечание, что «итак» теряет оборот «и ныне»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Итак вразумитесь, цари; научитесь, судьи земли!») and adjust the remark: it renders ве'атта as «итак», losing the 'and now' turn; or drop the sentence. (PS.2.10 Synodal: \"Итак вразумитесь, цари; научитесь, судьи земли!\"; ru commentary: \"Синодальный перевод («И ныне, цари, образумьтесь; научитесь, судьи земли!»)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "608dc0bc4d28"
+  },
+  "verse.ru:PS.2.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a6cf61e9853"
+  },
+  "verse.ru:PS.2.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [
+    "בַר передан как «сына» (так в английском слое); Синодальный: «Почтите Сына». «Целуйте» сохранено для буквальности нашаку, а «чистоту» (чтение Меири) и «избранного» оговорены в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[consider] Use «блаженны, блаженны все…» or a single emphatic «блаженны». (PS.2.12 en dramatic: \"But happy, happy are all who take refuge in him\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1ec6b97b6098"
+  },
+  "verse.ru:PS.2.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [
+    "Слово «Помазанник» в Синодальном пишется с заглавной; в комментарии оставлено в кавычках, как в английском слое, с пояснением, что это ещё не титул будущего Искупителя."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5414947e7206"
+  },
+  "verse.ru:PS.2.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8ddfb23d8f15"
+  },
+  "verse.ru:PS.2.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "В примечании к йисхак ссылки даны как Пс 58:9 [по еврейской нумерации 59:9] и 36:13 [37:13]."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Write «по еврейской нумерации» instead of «по английской нумерации» in this note (the 37:13 reference is the same in both). (PS.2.4 ru note: \"сравнивает Пс 58:9 [по английской нумерации 59:9] и 36:13 [37:13]\"; KJV Ps 59:8: \"But thou, O LORD, shalt laugh at them\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2ae2698d3f88"
+  },
+  "verse.ru:PS.2.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[consider] Pick one convention for divine pronouns across the literal layers and glosses of the chapter. (PS.2.5 ru literal: \"в гневе своём, и в ярости своей\"; gloss pos 4: \"в гневе Своём\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "865620e7f242"
+  },
+  "verse.ru:PS.2.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено: Синодальный перевод читает «Я помазал Царя Моего», то есть идёт по чтению «помазал», как YLT."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Correct the last sentence of the commentary: the Synodal has «Я помазал Царя Моего над Сионом, святою горою Моею», following the 'anoint' reading like YLT; or delete the sentence, since the English has none. (PS.2.6 Synodal: \"Я помазал Царя Моего над Сионом, святою горою Моею\"; ru commentary: \"Синодальный перевод («Я поставил Царя Моего над Сионом, святою горою Моею») тоже выбирает «поставил», как и комментаторы.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "34267de1ce79"
+  },
+  "verse.ru:PS.2.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "В буквальном слое скобки убраны: «Сын Мой ты», так как в еврейском связки нет, а глосса «ты» соответствует слову אתה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Write «Сын Мой ты» (no brackets) in translation_literal. (PS.2.7 Hebrew: \"בְּנִי אַתָּה\"; ru gloss pos 8: \"ты\"; ru literal: \"«Сын Мой [ты]; Я, ныне, Я родил тебя»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46011db09dce"
+  },
+  "verse.ru:PS.2.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:11:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[consider] Quote it as «проси у Меня, и дам народы в наследие Тебе и пределы земли во владение Тебе». (PS.2.8 ru commentary: \"«проси у Меня, и дам тебе народы в наследие тебе…»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4eff447bb0e3"
+  },
+  "verse.ru:PS.2.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:15:20+00:00",
+   "agent_notes": [
+    "Утверждение о том, что Синодальный перевод читает «упасёшь», убрано: Синодальный перевод имеет «Ты поразишь их жезлом железным»; чтение «пасти» — церковнославянское «упасеши» по Септуагинте. Из примечания к теро'эм упоминание Синодального перевода удалено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:14:00+00:00",
+     "note": "[should_fix] Remove the claim that the Synodal reads 'упасёшь'. In the commentary either drop the last sentence or say that the Synodal has «Ты поразишь их жезлом железным» (the 'shepherd' reading is the Church Slavonic «упасеши», after the LXX); in the note on תְּרֹעֵם delete «а также Синодальный перевод («упасёшь»)». (PS.2.9 Synodal: \"Ты поразишь их жезлом железным; сокрушишь их, как сосуд горшечника\"; ru commentary: \"Синодальный перевод следует второму чтению: «Ты упасёшь их жезлом железным…»\"; ru note: \"что и принимают YLT, BBE, а также Синодальный перевод («упасёшь»)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:16:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7b6bde81e871"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Цитаты «RusSynodal» в пакете для PS.2.1–12 не относятся к Псалму 2: это текст из Товита 2:1–10 (сбой выравнивания нумерации). Я сверялся с Синодальным переводом Пс 2 по памяти и не опирался на пакет.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:11:56+00:00"
+  },
+  {
+   "note": "В пакете строка RusSynodal для стихов этого отрывка содержит текст другой книги (Тов 2), поэтому цитаты Синодального перевода взяты из замечаний рецензента и из прежнего перевода, а не из пакета.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:15:20+00:00"
+  }
+ ]
 }

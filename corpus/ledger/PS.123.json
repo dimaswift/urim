@@ -1,0 +1,193 @@
+{
+ "chapter_ref": "PS.123",
+ "items": {
+  "verse.en:PS.123.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:16+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the commentary now says that only the KJV, Webster and YLT ('dwellest', 'dweller') soften 'sits', and that the ASV 'sittest' keeps the Hebrew picture (BBE 'whose seat is' also does).",
+    "The Hebrew verse 1 includes the title; the KJV counts it as 123:0 and puts the first line at 123:1, so the whole of the Hebrew verse is translated here.",
+    "I glossed הַיֹּשְׁבִי as 'the one who sits enthroned', where STEPBible has 'the one who sits'. The 'enthroned' is my reading from context. The altitude of Jerusalem (about 750 metres) is my own background knowledge, not from the commentaries in the packet."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:41:31+00:00",
+     "note": "[should_fix] In the directors_commentary, rewrite the sentence so that only the KJV and Webster ('dwellest') soften 'sits' to 'dwells', and the ASV's 'sittest' is named as keeping the Hebrew picture (YLT's 'dweller' may be added to the softening side). (PS.123.1 ASV: \"O thou that sittest in the heavens\"; KJV: \"O thou that dwellest in the heavens\"; Hebrew הַיֹּשְׁבִי 'the one who sits')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:45+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.123.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:22+00:00",
+   "agent_notes": [
+    "STEPBible glosses אֱלֹהֵינוּ as 'God our' and tags both YHWH and Elohenu with the same entity; I kept the gloss and left the entity as it is. For 'until he shows favor' I follow the Hebrew verb חנן (show favor, be gracious); KJV and ASV 'have mercy' is a reasonable but narrower rendering. Malbim's reading of the mistress as an intermediary between master and servant is his own and I mention it only briefly."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:31+00:00",
+     "note": "[consider] Consider giving the root as יד, and crediting the reading about the held-back blow to Radak (with Meiri's 'some explain'). (PS.123.2 commentaries: Meiri \"וי״מ אל יד אדוניהם ... בעת שירצו להכותם\"; Radak \"שיכו אותם ... וירפו ידם מהם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.123.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:22+00:00",
+   "agent_notes": [
+    "Ibn Ezra reads רב as 'for a long time' (temporal); most modern versions read it as 'greatly/much'. I kept 'much' in the literal layer, which can carry both, and noted the time reading in the commentary. BBE ('all men are looking down on us') paraphrases away the 'surfeit' image."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.123.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:22+00:00",
+   "agent_notes": [
+    "Ketiv/Qere in לִגְאֵי יוֹנִים: written as one word לגאיונים, read as two. I glossed the reading (לִגְאֵי יוֹנִים) as 'to the arrogant of oppressors' in the word table and gave the Ketiv in a note. Rashi (on 123:4) records this directly. Ibn Ezra and Radak take the Ketiv as one word like עליונים, from גאה 'be proud'; Metzudat Zion derives it from גאוה plus אונאה; Rashi reads גיא היונים (the valley of the yonim, i.e. Jerusalem) for the phrase, which I regard as homiletic and did not use for the translation. Radak and Meiri explain the construction הלעג השאננים as a construct with the first noun's head elided ('the mockery [of] the at-ease'), and that is how I read it. I left the phrase לִגְאֵי יוֹנִים as 'to the arrogant ones, the oppressors', which is a judgment call; the Hebrew is difficult and 'to the proud oppressors' is a common reading (cf. YLT/ASV 'the proud')."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:41:31+00:00",
+     "note": "[consider] Consider 'those who crush us and look down', or similar wording that keeps to oppression. (PS.123.4: \"לִגְאֵי יוֹנִים\", glossed 'of arrogant oppressors')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.123.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:57+00:00",
+   "agent_notes": [
+    "В Синодальном переводе этот псалом нумеруется как 122-й. Для הַיֹּשְׁבִי в буквальном слое выбрано «сидящий на престоле» (глагол ישב — об воцарившемся и судящем), а не синодальное «Живущий»; в комментарии отмечено, что Синодальный, как и KJV, смягчает образ до жилища.",
+    "שִׁיר הַמַּעֲלוֹת: «Песнь восхождения» — так в Синодальном; в драматическом слое «Песнь для дороги вверх» передаёт образ паломничества."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:14+00:00",
+     "note": "[consider] Consider «сидящий в небесах» (or «сидящий [на престоле]») in the literal layer, leaving the enthronement to the dramatic layer and the commentary; in the note write «Глагол ישב употребляется о воцарённых царях». (PS.123.1: הַיֹּשְׁבִי בַּשָּׁמָיִם; en literal: \"the one who sits in the heavens\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d16110714b80"
+  },
+  "verse.ru:PS.123.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:02+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован по просьбе рецензента: «доколе Он помилует нас» (Пс 122:2); сказано, что он сохраняет «рабов» и «рабы», а не «рабыня»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:14+00:00",
+     "note": "[should_fix] In the directors_commentary, quote the Synodal as «доколе Он помилует нас» and say it keeps «рабы» and «раба» (not «рабыня»); or drop the Synodal sentence, which the English does not have. (PS.123.2 (Синодальный, Пс 122:2): «как очи рабы — на руку госпожи ее, так очи наши — к Господу, Богу нашему, доколе Он помилует нас»; ru commentary: «Синодальный перевод («доколе не умилосердится над нами») тоже выбирает «милосердие», но «рабы» и «рабыня» в нём сохранены»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:52:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7ab93817779"
+  },
+  "verse.ru:PS.123.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:14+00:00",
+     "note": "[consider] Quote the Synodal exactly: «довольно мы насыщены презрением». (PS.123.3 (Синодальный, Пс 122:3): «ибо довольно мы насыщены презрением»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1480fb37a334"
+  },
+  "verse.ru:PS.123.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:02+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно: «поношением от надменных и уничижением от гордых» (Пс 122:4); оставлена мысль, что обе пары переданы общим смыслом, без разделения ктив и кере."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:14+00:00",
+     "note": "[should_fix] In the directors_commentary, quote the Synodal exactly: «поношением от надменных и уничижением от гордых» (Пс 122:4), and keep the point that it renders both pairs by general sense without separating ketiv and qere; or drop the Synodal sentence, which the English does not have. (PS.123.4 (Синодальный, Пс 122:4): «довольно насыщена душа наша поношением от надменных и уничижением от гордых»; ru commentary: «Синодальный перевод («от наслаждающихся и уничижением от гордых»)»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:52:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d267a27351f7"
+  }
+ },
+ "notes": []
+}

@@ -1532,6 +1532,1477 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.78.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:09+00:00",
+   "agent_notes": [
+    "По запросу рецензента исправлена последняя фраза комментария: Синодальный перевод говорит «закону моему», как KJV, но «Маскил» передаёт словом «Учение» («Учение Асафа»), а не опускает его."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Replace the last sentence with: «Синодальный перевод, как и KJV, говорит «закону моему», а «Маскил» передаёт как «Учение» («Учение Асафа»)». Drop the claim that it omits the word. (PS.78.1: \"מַשְׂכִּיל לְאָסָף\"; ru commentary: «Синодальный перевод, как и KJV, говорит «закону моему» и опускает слово «Маскил»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6578efd0ac03"
+  },
+  "verse.ru:PS.78.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36a1ee488a83"
+  },
+  "verse.ru:PS.78.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7a3d4dde44f"
+  },
+  "verse.ru:PS.78.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [
+    "Цоан передан как «Цоан» по современной традиции, а не «Танис»; в Синодальном — «поле Цоан». Название города Танис упомянуто в комментарии, как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02629cc8e758"
+  },
+  "verse.ru:PS.78.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ca5bbbbfebed"
+  },
+  "verse.ru:PS.78.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:19+00:00",
+   "agent_notes": [
+    "Ссылка на Пс 23:3 дана по еврейской нумерации с пометой синодальной (Пс 22:3), как просил рецензент. Синодальный стих этого места — Пс 77:14."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Write «Пс 23:3» (or «Пс 22:3 [Синод.]», as verse 65 does with its marked references). (PS.78.14 en commentary cites \"Ps 23:3\" for the shepherd's verb וַיַּנְחֵם; ru: «(ср. Пс 22:3)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "49651b82a599"
+  },
+  "verse.ru:PS.78.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6af7ba180f71"
+  },
+  "verse.ru:PS.78.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "db04be63ab69"
+  },
+  "verse.ru:PS.78.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [
+    "«Всевышний» (Синодальный) для עליון; в буквальном слое «Высочайший», чтобы был виден титул. В комментарии KJV «provoking» передан как «раздражение»: в Синодальном стоит «раздражали»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d3471b32369"
+  },
+  "verse.ru:PS.78.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "83ef395cb6d5"
+  },
+  "verse.ru:PS.78.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "240f5cc70021"
+  },
+  "verse.ru:PS.78.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:09+00:00",
+   "agent_notes": [
+    "По запросу рецензента Синодальный перевод процитирован точно: «произнесу гадания из древности». Он передаёт חִידוֹת как «гадания», а אַבִּיעָה сводит к «произнесу», как KJV к 'utter'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Quote the Synodal as «произнесу гадания из древности» and say it renders חִידוֹת as «гадания» and flattens אַבִּיעָה to «произнесу», as the KJV does with 'utter'. (PS.78.2: \"אַבִּיעָה חִידוֹת מִנִּי־קֶדֶם\"; ru commentary: «Синодальный перевод («изреку загадки из древности») сохраняет слово «загадки», но «изолью» заменяет на «изреку»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3e0f37e9d5d6"
+  },
+  "verse.ru:PS.78.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 77:20) передаёт «שאר» как «мясо», а «хлеб» оставляет хлебом; в буквальном слое я сохранил «хлеб» и «плоть/мясо» как два слова, а комментарий переносит замечание комментаторов о том, что «хлеб» может означать и мясо."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b595bb50b46b"
+  },
+  "verse.ru:PS.78.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [
+    "Тетраграмма: в буквальном слое остаётся YHWH, в драматическом «Господь» (по Синодальному)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c2964ef2f895"
+  },
+  "verse.ru:PS.78.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8f2b82e7aa5f"
+  },
+  "verse.ru:PS.78.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35b11785d0ab"
+  },
+  "verse.ru:PS.78.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:49+00:00",
+   "agent_notes": [
+    "«דגן שמים» — «зерно небесное»; Синодальный переводит «хлеб небесный», что смещает образ. Комментарий об английском «corn» заменён пояснением о зерне, с отсылкой к KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "07dac8008f2f"
+  },
+  "verse.ru:PS.78.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [
+    "אַבִּירִים: в литеральном слое «могучих», в драматическом «сильных»; синодальное «ангельский» следует той же традиции, что и KJV (Таргум, Раши, Радак), но в еврейском слове «ангелов» нет, поэтому в переводе оставлено «могучие»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7dc7c0256893"
+  },
+  "verse.ru:PS.78.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d483817e285"
+  },
+  "verse.ru:PS.78.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [
+    "שְׁאֵר передано как «плоть» в литеральном слое (синодальное «мясо») и «мясо» в драматическом; одно слово для понятия «пища-плоть» нигде не меняется."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6b296527f20e"
+  },
+  "verse.ru:PS.78.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfdcfe1b9ffe"
+  },
+  "verse.ru:PS.78.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "786da6ee4444"
+  },
+  "verse.ru:PS.78.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "830b66ec2c35"
+  },
+  "verse.ru:PS.78.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "71f1aabc8086"
+  },
+  "verse.ru:PS.78.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:33:35+00:00",
+   "agent_notes": [
+    "Ссылка исправлена по замечанию рецензента: «Пс 18:9» — нумерация еврейского текста и английской версии; в Синодальном переводе тот же стих стоит как Пс 17:9, это сказано в скобках."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Write «Пс 18:9» (or «Пс 17:9 [Синод.]»). (PS.78.31 en commentary: \"Ps 18:9\"; ru: «Радак сравнивает «поднялся дым от ноздрей Его» (Пс 17:9)».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b17d53a0bb8"
+  },
+  "verse.ru:PS.78.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "09535d9044bd"
+  },
+  "verse.ru:PS.78.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [
+    "Созвучие הֶבֶל и בֶּהָלָה (те же три согласные) по-русски не передать; «дуновение» и «смятение» сохраняют образ и смысл. Синодальное «в суете» и «в смятении»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02b6805a9ebb"
+  },
+  "verse.ru:PS.78.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e356c5c1f36"
+  },
+  "verse.ru:PS.78.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [
+    "צוּר — «скала» (синодальное «защита»); גֹּאֵל — «искупитель» с пояснением правового смысла в комментарии, у Синодального «Избавитель»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "802092c60635"
+  },
+  "verse.ru:PS.78.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:27:33+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68e7cf46f85d"
+  },
+  "verse.ru:PS.78.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6ac53c654014"
+  },
+  "verse.ru:PS.78.38": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b95d2287b56"
+  },
+  "verse.ru:PS.78.39": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16662af7f82f"
+  },
+  "verse.ru:PS.78.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf63a64d304a"
+  },
+  "verse.ru:PS.78.40": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9c45b346a6ca"
+  },
+  "verse.ru:PS.78.41": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "Глагол הִתְווּ толкуется двояко (поставили предел — Радак, Малбим; потребовали знамения — Раши). В буквальном слое выбрано «положили знак на», в драматическом — «очертили границу», как в английском слое; Синодальный («оскорбляли») идёт третьим путём."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5e73d9f87e7"
+  },
+  "verse.ru:PS.78.42": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36ebe3f56443"
+  },
+  "verse.ru:PS.78.43": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "Цоан — форма Синодального перевода (английское Zoan, Танис). «Поле Цоан» оставлено буквально, как в Синодальном; комментарий объясняет, что «поле» здесь — область вокруг города."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "371c69683616"
+  },
+  "verse.ru:PS.78.44": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf3dafbbb56f"
+  },
+  "verse.ru:PS.78.45": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "עָרֹב — «смесь, рой»; Синодальный переводит «насекомые». В буквальном слое — «рой», в комментарии оговорено, что Еврейский текст не называет существо."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f775263cdba"
+  },
+  "verse.ru:PS.78.46": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "חָסִיל: Синодальный — «гусеница» (как KJV «caterpiller»); в буквальном слое «хасиль», в драматическом — «пожирающая саранча»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "563eeb03dd35"
+  },
+  "verse.ru:PS.78.47": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "חֲנָמַל передано «льдом/морозом» (Радак, Меири, Саадия); Синодальный даёт «льдом». В буквальном слое оставлена транслитерация «ханамаль», как в английском «chanamal»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba113d07ecb2"
+  },
+  "verse.ru:PS.78.48": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:16+00:00",
+   "agent_notes": [
+    "רְשָׁפִים — «молнии» в Синодальном; имя Решефа сохранено в комментарии как собственное прочтение английского комментатора."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59abd45a6569"
+  },
+  "verse.ru:PS.78.49": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [
+    "«Злых ангелов» Синодального перевода я не повторяю в буквальном слое: там «вестники зла», чтобы не звучало как демоны; в комментарии это оговорено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1ac7087dd543"
+  },
+  "verse.ru:PS.78.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[consider] Quote the Synodal as «постановил устав в Иакове и положил закон в Израиле», and note that it also turns עֵדוּת into «устав». (PS.78.5: \"וַיָּקֶם עֵדוּת בְּיַעֲקֹב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d6be1e135e3"
+  },
+  "verse.ru:PS.78.50": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dce9258928cc"
+  },
+  "verse.ru:PS.78.51": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [
+    "אוֹנִים: Синодальный «начатки сил»; в буквальном слое «начаток мужской силы», в драматическом «первенец их силы» — чтобы сохранить намёк на отцовскую мощь."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "536025c062ab"
+  },
+  "verse.ru:PS.78.52": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d67190285cc1"
+  },
+  "verse.ru:PS.78.53": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e014ef8b2266"
+  },
+  "verse.ru:PS.78.54": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "60e60237ebd5"
+  },
+  "verse.ru:PS.78.55": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e594e53c01cb"
+  },
+  "verse.ru:PS.78.56": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2a7d86b0ea8f"
+  },
+  "verse.ru:PS.78.57": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [
+    "קֶשֶׁת רְמִיָּה: «лук обмана» в буквальном слое, «неверный лук» (как в Синодальном) в драматическом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a82fd9e8495"
+  },
+  "verse.ru:PS.78.58": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:28:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e9e00cc1f15"
+  },
+  "verse.ru:PS.78.59": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:34:06+00:00",
+   "agent_notes": [
+    "Силом в родительном падеже: «с разрушением Силома» (в запросе рецензента — «Силом», как в PS.78.67)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Write «с разрушением Силома» instead of «с разрушением Шило». (PS.78.59 commentary: «Ибн-Эзра связывает отвержение с разрушением Шило»; PS.78.67 commentary uses «Силом».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "962a64597767"
+  },
+  "verse.ru:PS.78.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "791386446683"
+  },
+  "verse.ru:PS.78.60": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:36:30+00:00",
+   "agent_notes": [
+    "По запросу рецензента заменено предложение о Синодальном переводе: оно теперь называет «отринул жилище в Силоме, скинию, где обитал Он между человеками» и точно говорит, что сохранено (мысль об обитании в обеих половинах) и что нет (игра одного корня). Прежнее «оставил скинию… шатёр» не совпадало с Синодальным текстом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[should_fix] Use one name for Shiloh: «Силом», declined («в Силоме»), in the literal layer, the gloss for pos 3, the note on מִשְׁכַּן שִׁלוֹ and the note on אֹהֶל. Keep the transliteration mishkan shilo in the term's translit field. (PS.78.60: \"וַיִּטֹּשׁ מִשְׁכַּן שִׁלוֹ\". Literal: «жилище Шило»; dramatic: «обитель в Силоме»; note on אֹהֶל: «под завесами в Шило».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:35:31+00:00",
+     "note": "[should_fix] Replace that sentence with: «Синодальное «отринул жилище в Силоме, скинию, где обитал Он между человеками» сохраняет мысль об обитании в обеих половинах, но не игру одного корня». The English commentary has no Synodal sentence, so dropping it is also acceptable. (PS.78.60: \"וַיִּטֹּשׁ מִשְׁכַּן שִׁלוֹ אֹהֶל שִׁכֵּן בָּאָדָם\"; ru commentary: «Синодальное «оставил скинию в Силоме, шатёр, где Он обитал между человеками» сохраняет корень во второй половине, но не в первой».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:37:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e9008d73111"
+  },
+  "verse.ru:PS.78.61": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fd5f2f565c33"
+  },
+  "verse.ru:PS.78.62": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d2dd767ac96a"
+  },
+  "verse.ru:PS.78.63": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [
+    "הוללו: в Синодальном «не пели брачных песен»; в буквальном слое сохранён корень хвалы («не были восхвалены»), в драматическом — свадебная песня."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d04a935c3c1"
+  },
+  "verse.ru:PS.78.64": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "deee36af560c"
+  },
+  "verse.ru:PS.78.65": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [
+    "Адонай переведён как «Господь» (так в Синодальном); различие с YHWH, которое «Господь» тоже передаёт, объяснено в комментарии, чтобы читатель его не потерял.",
+    "מתרונן из вина: Синодальный читает «побеждённый вином» (исполин); я оставил буквальное «ликующий от вина», как в английском буквальном слое, а в драматическом слое следую Раши: воин встаёт с кличем."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e74ae65836c"
+  },
+  "verse.ru:PS.78.66": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7f9908cef057"
+  },
+  "verse.ru:PS.78.67": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "401dea5dca77"
+  },
+  "verse.ru:PS.78.68": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8a896440dac"
+  },
+  "verse.ru:PS.78.69": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d8100020a8ac"
+  },
+  "verse.ru:PS.78.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [
+    "כסל («упование» в Синодальном) передано в буквальном слое как «упование», в драматическом — «доверие»; в комментарии объяснено, что корень связан с поясницей, опорой тела."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a9ceda2d296c"
+  },
+  "verse.ru:PS.78.70": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[consider] Capitalize the pronouns for God throughout the chapter («Он», «Его», «Свой»), as in the Synodal and in vv. 1-12. (PS.78.70 ru: «И избрал он Давида, раба своего, и взял его от овчарен»; PS.78.72: «И пас он их» (David).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c9c9c927443"
+  },
+  "verse.ru:PS.78.71": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [
+    "עלות: Синодальный «от доящих»; в переводе «ещё кормящих овец», как в английском, с примечанием о корне «сосать»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[consider] Consider «От овец, что ещё кормили ягнят и за которыми он ходил, взял его Бог…». (PS.78.71: \"מֵאַחַר עָלוֹת הֱבִיאוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "576e8fab45bc"
+  },
+  "verse.ru:PS.78.72": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:29:09+00:00",
+   "agent_notes": [
+    "תם: «чистота сердца» (Синодальный) в драматическом слое; в буквальном — «цельность», как у английского 'integrity'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e1e9de7af1a"
+  },
+  "verse.ru:PS.78.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [
+    "«Строптивое и мятежное» — как в Синодальном (Втор 21:18, «сын буйный и непокорный» там передан иначе); в заметке оставлено пояснение о связи двух слов."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": "[consider] Check the Synodal wording; if it is «не установившему», drop the remark that it is weaker. (PS.78.8: \"דּוֹר לֹא־הֵכִין לִבּוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d97a0fc12f93"
+  },
+  "verse.ru:PS.78.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:26:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:32:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8f40780174a"
   }
  },
  "notes": []

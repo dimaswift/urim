@@ -1,6 +1,63 @@
 {
  "chapter_ref": "GEN.6",
  "items": {
+  "causal.ru:caus.gen_6.earth_corrupt.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "876f79f3bdc4"
+  },
+  "causal.ru:caus.gen_6.god_commands_ark.noah_builds_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d001a9b3450d"
+  },
+  "causal.ru:caus.gen_6.yhwh_regrets_making_man.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48521cecc176"
+  },
   "causal:caus.gen_6.earth_corrupt.god_commands_ark": {
    "status": "approved",
    "produced_by": {
@@ -57,6 +114,103 @@
     }
    ],
    "source": null
+  },
+  "component.ru:comp.humankind.lifespan_limit.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99c7dc4647da"
+  },
+  "component.ru:comp.humankind.moral_state.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "07a6e18f6593"
+  },
+  "component.ru:comp.noah.character.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "362377f7b35f"
+  },
+  "component.ru:comp.noah.favour_with.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "914e6de5a797"
+  },
+  "component.ru:comp.yhwh.mood.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "«Раскаялся» и «восскорбел» — слова Синодального перевода (6:6); в ярлыке дано «Скорбит и сожалеет»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eedd7fc77331"
   },
   "component:comp.humankind.lifespan_limit.1": {
    "status": "approved",
@@ -164,6 +318,215 @@
     }
    ],
    "source": null
+  },
+  "edge.ru:edge.gen_6.god_commands_noah_build": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96d411b6482e"
+  },
+  "edge.ru:edge.gen_6.god_promises_covenant_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "195f48d29eb4"
+  },
+  "edge.ru:edge.gen_6.noah_fathers_ham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "135500d06b1e"
+  },
+  "edge.ru:edge.gen_6.noah_fathers_japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f1aa9c03d5e"
+  },
+  "edge.ru:edge.gen_6.noah_fathers_shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13a3019ef512"
+  },
+  "edge.ru:edge.gen_6.noah_obeys_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "11a414bc7010"
+  },
+  "edge.ru:edge.gen_6.sons_of_god_father_gibborim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9eb80fd89031"
+  },
+  "edge.ru:edge.gen_6.sons_of_god_take_daughters": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e59c2c5925d1"
+  },
+  "edge.ru:edge.gen_6.yhwh_favours_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ea4c5cd54841"
+  },
+  "edge.ru:edge.gen_6.yhwh_limits_humankind": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4cb94f3e3d7c"
+  },
+  "edge.ru:edge.gen_6.yhwh_resolves_to_destroy": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "50d1a8f0d6ba"
   },
   "edge:edge.gen_6.god_commands_noah_build": {
    "status": "approved",
@@ -375,6 +738,231 @@
     }
    ],
    "source": null
+  },
+  "entity.ru:artifact.ark_of_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «ковчег»; для еврейского тева (то же слово, что для корзины Моисея) дана оговорка в этимологии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[consider] Consider keeping «с отверстием для света вверху», or ask that the English be aligned; no change required. (GEN.6.16: צֹהַר תַּעֲשֶׂה לַתֵּבָה, 'a tzohar you shall make for the ark'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2e1f5bffd21"
+  },
+  "entity.ru:group.daughters_of_men": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4aef045a321a"
+  },
+  "entity.ru:group.gibborim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f3b21f11a077"
+  },
+  "entity.ru:group.nephilim": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «нефилим» словом «исполины»; каноническое имя оставлено «Нефилимы» (как в современных изданиях и комментариях), «исполины» дано в алиасах."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef8e25f358c9"
+  },
+  "entity.ru:group.sons_of_god": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "«Сыны Божии» — по Синодальному переводу; спорность толкования (небесные существа, потомки Сифа, правители) сохранена."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "897db577c506"
+  },
+  "entity.ru:group.wives_of_noahs_sons": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1aa6e9cf118a"
+  },
+  "entity.ru:person.ham": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a075d5997e0b"
+  },
+  "entity.ru:person.japheth": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c09e065f435"
+  },
+  "entity.ru:person.noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:44:38+00:00",
+   "agent_notes": [
+    "То же исправление в summary_bio: «ходящий с Богом» вместо «ходящий пред Богом»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[should_fix] In summary_bio replace «ходящий пред Богом» with «ходящий с Богом». (GEN.6.9: אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ, 'with the God walked Noah'; English bio: 'who walks with God'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:45:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9da7452052c1"
+  },
+  "entity.ru:person.noahs_wife": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4aecd037bb7d"
+  },
+  "entity.ru:person.shem": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "Синодальное «Сим» (алиас «Сем» — по LXX/Вульгате); «Хам», «Иафет» — по Синодальному."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c6f5fe2e0650"
   },
   "entity:artifact.ark_of_noah": {
    "status": "approved",
@@ -596,6 +1184,168 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_6.earth_corrupt": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[consider] Consider «насилие» («полной насилия», «полна насилия») here, in the causal explanation and in the flood-judgment system, so that they agree with the verses. (GEN.6.11: וַתִּמָּלֵא הָאָרֶץ חָמָס, 'the earth was filled with violence'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3617e59e5245"
+  },
+  "event.ru:evt.gen_6.god_commands_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7431290fada"
+  },
+  "event.ru:evt.gen_6.lifespan_decree": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a5dc4c611a4"
+  },
+  "event.ru:evt.gen_6.nephilim_heroes": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b86f24238be8"
+  },
+  "event.ru:evt.gen_6.noah_builds_ark": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [
+    "Заглавие события следует тексту 6:22 («делает всё, что повелел Бог»); в русском переводе отдельно сохранён повтор «так он и сделал»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6eb25dbad5cf"
+  },
+  "event.ru:evt.gen_6.noah_sons_born": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:44:38+00:00",
+   "agent_notes": [
+    "По просьбе рецензента «ходивший пред Богом» заменено на «ходивший с Богом», как в еврейском (אֶת־הָאֱלֹהִים) и в буквальном слое GEN.6.9. Синодальный перевод здесь читает «пред Богом»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[should_fix] In narrative_summary replace «ходивший пред Богом» with «ходивший с Богом». (GEN.6.9: אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ, 'with the God walked Noah'; English summary: 'who walked with God'; verse.ru:GEN.6.9 literal: «с Богом ходил Ной».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:45:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d28176a2fc79"
+  },
+  "event.ru:evt.gen_6.sons_of_god_take_wives": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b51261972bc1"
+  },
+  "event.ru:evt.gen_6.yhwh_regrets_making_man": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "571c7691ffd7"
   },
   "event:evt.gen_6.earth_corrupt": {
    "status": "approved",
@@ -939,6 +1689,101 @@
    ],
    "source": null
   },
+  "instance.ru:inst.gen_6.ark_commanded": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ea0b71d6a88"
+  },
+  "instance.ru:inst.gen_6.covenant_promised": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "53be8052c5fe"
+  },
+  "instance.ru:inst.gen_6.flood_announced_to_noah": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "805313ca8bde"
+  },
+  "instance.ru:inst.gen_6.flood_resolved": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "113e11579910"
+  },
+  "instance.ru:inst.gen_6.lifespan_decreed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "364d6a05718f"
+  },
   "instance:inst.gen_6.ark_commanded": {
    "status": "approved",
    "produced_by": {
@@ -1033,6 +1878,82 @@
     }
    ],
    "source": null
+  },
+  "system.ru:sys.covenant_promise": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d74b81857da6"
+  },
+  "system.ru:sys.divine_command": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3284602cb528"
+  },
+  "system.ru:sys.divine_decree": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95ddb724f785"
+  },
+  "system.ru:sys.divine_flood_judgment": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:39:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe046eaad8b3"
   },
   "system:sys.covenant_promise": {
    "status": "approved",
@@ -1595,6 +2516,444 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:GEN.6.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "Созвучие ha-adam и ha-adamah передано в комментарии транслитерацией; в русском тексте «человек» и «земля/почва» его не воспроизводят. В буквальном слое ha-adamah переведено «почвы», в литературном — «земли», чтобы не ломать русскую фразу."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5a77b7ddd13"
+  },
+  "verse.ru:GEN.6.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a80cb86b7ce"
+  },
+  "verse.ru:GEN.6.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f83f2eb68ad0"
+  },
+  "verse.ru:GEN.6.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a24681406529"
+  },
+  "verse.ru:GEN.6.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [
+    "Синодальный переводит חָמָס как «злодеяния» и читает אֶת־הָאָרֶץ как «с земли»; в буквальном слое выбрано «насилие» и «[вместе] с землёй», двусмысленность сохранена в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9ab06ab4f9d4"
+  },
+  "verse.ru:GEN.6.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [
+    "קִנִּים переведено «гнёзда» в буквальном слое (Синодальный: «отделения»); игра כָּפַר / כֹּפֶר передана как «покроешь … покрытием» и в комментарии объяснена; в драматическом слое — «осмоли смолой»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dbd5c3901073"
+  },
+  "verse.ru:GEN.6.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[consider] Consider «И вот как сделаешь его» (or «И вот это — [то], как сделаешь его») for the literal, and «высота его, вздымающаяся ввысь» or simply «высота его» for the dramatic layer. (GEN.6.15: וְזֶה אֲשֶׁר תַּעֲשֶׂה אֹתָהּ, 'and this is how you shall make it'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "93bd8a839222"
+  },
+  "verse.ru:GEN.6.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [
+    "צֹהַר оставлено в буквальном слое как «цохар», как и в английском: ни «окно» (Синодальный: «отверстие»), ни «светильник» не доказаны. В драматическом слое дано пояснение «место для света»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e902dfe03b2"
+  },
+  "verse.ru:GEN.6.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5599c7fb7ab3"
+  },
+  "verse.ru:GEN.6.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [
+    "Термин «завет» (בְּרִית) и глагол «поставлю» (הֲקִמֹתִי) совпадают с Синодальным; различие с карат («заключить») оговорено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4c124beffb2"
+  },
+  "verse.ru:GEN.6.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ba77a598e64"
+  },
+  "verse.ru:GEN.6.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "«Сыны Божии» (בני האלהים) оставлены в синодальной форме; в литературном слое сохранено «сыны Божии» без выбора между толкованиями. Для ha-adam в литературном слое использовано «люди»/«человек» по контексту, а не «мужчины», как в английском «men»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddddc851708f"
+  },
+  "verse.ru:GEN.6.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6cd1ceafad48"
+  },
+  "verse.ru:GEN.6.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "22558c951b0c"
+  },
+  "verse.ru:GEN.6.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4831723edb1"
+  },
+  "verse.ru:GEN.6.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "יָדוֹן в буквальном слое дано в скобках «[спорить/пребывать]», потому что значение неясно; в литературном слое выбрано «пребудет». Синодальное «быть пренебрегаемым» — ещё одно прочтение; об этом сказано в комментарии и заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a924e7dc167e"
+  },
+  "verse.ru:GEN.6.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "הנפלים оставлено транслитерацией «нефилимы» в литературном слое, как в английском; Синодальный перевод даёт «исполины», что отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": "[consider] Consider «в обоих слоях перевода» so that the statement matches both the English and the ru layers. (English commentary on GEN.6.4: \"'Nephilim' stays untranslated in the dramatic layer.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de1827681bde"
+  },
+  "verse.ru:GEN.6.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4bf0cf576ca"
+  },
+  "verse.ru:GEN.6.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "309ef99636ab"
+  },
+  "verse.ru:GEN.6.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "89485521332b"
+  },
+  "verse.ru:GEN.6.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "Игра слов Ной (נח) / благоволение (חן) сохранена в комментарии через иврит и транслитерацию; в русском тексте она не слышна, поэтому указано, что это наблюдение, а не слова комментаторов."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3ebd9781d154"
+  },
+  "verse.ru:GEN.6.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:41:52+00:00",
+   "agent_notes": [
+    "Синодальное «житие Ноя» передаёт תולדות; в буквальном слое выбрано «порождения», в литературном — «история Ноя», следуя английскому «story of»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:43:51+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9bbd2143f7bc"
   }
  },
  "notes": [

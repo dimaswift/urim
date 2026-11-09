@@ -303,6 +303,338 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.85.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Цитата Синодального перевода (Пс 84:1) приведена дословно по замечанию рецензента; остальное предложение пересобрано так, чтобы не утверждать лишнего."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] In directors_commentary, replace the quote with «Начальнику хора. Кореевых сынов. Псалом.» and keep the rest of the sentence only if it still holds. (RusSynodal Пс 84:1: \"Начальнику хора. Кореевых сынов. Псалом.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": "[consider] Consider «сынам Корея» in the literal layer and gloss, so the name matches the Russian Bible and the dramatic layer. (PS.85.1: \"לִבְנֵי־קֹרַח\"; RusSynodal Пс 84:1: \"Кореевых сынов\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a05305f77986"
+  },
+  "verse.ru:PS.85.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[consider] Consider «ищет путь между чистой благодатью и чистой заслугой». (PS.85.10 en commentary: \"Malbim reads the verse as steering between pure grace and pure merit\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2bb8f19c2406"
+  },
+  "verse.ru:PS.85.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Добавлено замечание, что Синодальный перевод читает перфекты как будущее, как обетование."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Quote «Милость и истина сретятся, правда и мир облобызаются» and, if you like, note that the Synodal reads the perfects as future, as a promise. (RusSynodal Пс 84:11: \"Милость и истина сретятся, правда и мир облобызаются;\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "045f0965cb7c"
+  },
+  "verse.ru:PS.85.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1576ae85b45a"
+  },
+  "verse.ru:PS.85.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:44:45+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 84:13) начинает просто с «и» («и Господь даст благо»): «гам» там не передано вовсе. Так и сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Replace the sentence with: «Синодальный перевод начинает просто с «и» («и Господь даст благо»), не делая из «гам» восклицания, но и не передавая «также»». Also translate the English source labels in philological_notes («Metzudat David on Psalms 85:13» → «Мецудат Давид на Псалмы 85:13», likewise Metzudat Zion), as the other verses do. (RusSynodal Пс 84:13: \"и Господь даст благо, и земля наша даст плод свой;\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "880bb55c2857"
+  },
+  "verse.ru:PS.85.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:44:45+00:00",
+   "agent_notes": [
+    "Синодальный перевод («и поставит на путь стопы свои») не добавляет «нас», как KJV, но делает «стопы» дополнением; это отмечено в последнем предложении комментария. Имена толкователей даны единообразно: Мецудат Давид, Мецудат Цион, Ибн Эзра, Мальбим."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Rewrite the last sentence: the Synodal («и поставит на путь стопы свои»), unlike the KJV, adds no «нас», but makes «стопы» the object. Spell «Мальбим», and translate the source labels («Ibn Ezra on Psalms 85:14» → «Ибн Эзра на Псалмы 85:14», «Metzudat Zion…» → «Мецудат Цион…»). (PS.85.14 en commentary: \"the KJV smooths it: 'and shall set us in the way of his steps'. The word 'us' is not in the Hebrew\"; RusSynodal Пс 84:14: \"правда пойдет пред Ним и поставит на путь стопы свои.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a481ca87bf74"
+  },
+  "verse.ru:PS.85.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [
+    "Идиома «шув швут» передана буквально «повернул пленение» в буквальном слое, а в драматическом — «вернул из плена»; повтор корня «шув» (стихи 2, 4, 5, 7, 9) в русском приходится передавать разными глаголами («повернул», «отвратил», «верни/обрати», «снова оживишь», «обратятся»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a44cf59c93fc"
+  },
+  "verse.ru:PS.85.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6db620e3ae2e"
+  },
+  "verse.ru:PS.85.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Цитата Синодального перевода заменена точной; замечание о переходности «отвратил» оставлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «отъял всю ярость Твою, отвратил лютость гнева Твоего». The remark that «отвратил» is transitive (as Radak and Meiri read the verb) can stay. (RusSynodal Пс 84:4: \"отъял всю ярость Твою, отвратил лютость гнева Твоего.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "95fd668e7255"
+  },
+  "verse.ru:PS.85.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21557e4a56ae"
+  },
+  "verse.ru:PS.85.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Цитата заменена точной, конец комментария переписан по предложению рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Quote «Неужели вечно будешь гневаться на нас, прострешь гнев Твой от рода в род?» and rewrite the end, e.g. «…но, как и KJV, не противопоставляет «леолам» и «ледор водор»». (RusSynodal Пс 84:6: \"Неужели вечно будешь гневаться на нас, прострешь гнев Твой от рода в род?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32ca05f02b91"
+  },
+  "verse.ru:PS.85.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Синодальное «снова» названо наречием, поглотившим глагол «шув» — как и в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Quote «Неужели снова не оживишь нас, чтобы народ Твой возрадовался о Тебе?» and say that the Synodal, like the KJV («revive us again»), turns «ташув» into the adverb «снова», so the verb «шув» is lost. (RusSynodal Пс 84:7: \"Неужели снова не оживишь нас, чтобы народ Твой возрадовался о Тебе?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68bf9c3b8412"
+  },
+  "verse.ru:PS.85.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e1f5034aeecd"
+  },
+  "verse.ru:PS.85.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:14+00:00",
+   "agent_notes": [
+    "Убрано утверждение, что Синодальный перевод расходится с еврейским; лат. «a» в «лехисла» заменена кириллической."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:43:46+00:00",
+     "note": "[should_fix] Quote the Synodal exactly; say it renders «хасидав» as «избранным Своим» and the last clause as a wish («да не впадут они снова в безрассудство»), like the KJV, ASV and BBE. Drop the claim that it departs from the Hebrew. Replace the Latin 'a' in «лехислa» with Cyrillic «а». (RusSynodal Пс 84:9: \"Послушаю, что скажет Господь Бог. Он скажет мир народу Своему и избранным Своим, но да не впадут они снова в безрассудство.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:45:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e0752e6af15"
   }
  },
  "notes": []

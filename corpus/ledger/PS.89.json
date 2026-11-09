@@ -1089,6 +1089,1115 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.89.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:30+00:00",
+   "agent_notes": [
+    "Одна форма имени во всех слоях: «Ефам Езрахит», как в Синодальном (Пс 88:1). Утверждение о нумерации KJV восстановлено, добавлено, что Синодальный нумерует стихи как еврейский текст и отличается лишь номером псалма (88)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Restore the English claim about the KJV numbering (the Synodal numbers verses as the Hebrew does, only the psalm number differs: Пс 88). Use one form of the name in all three layers and the glosses (the Synodal Пс 88:1 has 'Ефама Езрахита'), and fix the sentence to 'Слова «Эйтана» могут значить: написано Эйтаном, для него или из его собрания'. (PS.89.1 English commentary: \"That is why the KJV numbers the first line of the psalm itself as 89:1, one verse behind the Hebrew.\" Hebrew: מַשְׂכִּיל לְאֵיתָן הָאֶזְרָחִי (the heading is verse 1).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f7867a8e1b9d"
+  },
+  "verse.ru:PS.89.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b1e9553b6b84"
+  },
+  "verse.ru:PS.89.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:30+00:00",
+   "agent_notes": [
+    "Имя Раав передаётся склоняемой формой «Раава», как в Синодальном; сравнение с Синодальным ограничено тем, что оно сохраняет имя."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Correct the last sentence: the Synodal keeps the name ('Ты низложил Раава, как пораженного'), or drop the Synodal comparison, which the English does not make. (PS.89.11: \"אַתָּה דִכִּאתָ כֶחָלָל רָהַב\"; Synodal Пс 88:11: \"Ты низложил Раава, как пораженного; крепкою мышцею Твоею рассеял врагов Твоих\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a85c0d14710"
+  },
+  "verse.ru:PS.89.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d0f9c0fb2b31"
+  },
+  "verse.ru:PS.89.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:17+00:00",
+   "agent_notes": [
+    "По просьбе рецензента исправлено последнее предложение: Синодальный (Пс 88:13) сохраняет настоящее время, «радуются», в отличие от будущего «shall rejoice» в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Replace the last sentence: the Synodal keeps the present ('радуются'), unlike the KJV's 'shall rejoice'. (PS.89.13: \"תָּבוֹר וְחֶרְמוֹן בְּשִׁמְךָ יְרַנֵּנוּ\"; Synodal Пс 88:13: \"Север и юг Ты сотворил; Фавор и Ермон о имени Твоем радуются\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "14f46917c780"
+  },
+  "verse.ru:PS.89.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:17+00:00",
+   "agent_notes": [
+    "По просьбе рецензента Синодальный приведён дословно («Крепка мышца Твоя, сильна рука Твоя, высока десница Твоя!»); сказано, что, как и KJV, он превращает «Тебе мышца с силою» в прилагательное."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Quote the Synodal as it reads and say that, like the KJV, it turns 'Тебе мышца с силою' into an adjective ('крепка мышца Твоя'); or drop the Synodal sentence. (PS.89.14: \"לְךָ זְרוֹעַ עִם־גְּבוּרָה\"; Synodal Пс 88:14: \"Крепка мышца Твоя, сильна рука Твоя, высока десница Твоя!\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cf87d4dd46a9"
+  },
+  "verse.ru:PS.89.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f982d18697cf"
+  },
+  "verse.ru:PS.89.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [
+    "Теруа переведено «клич радости», в литеральном слое «клич радости»; Синодальный даёт «трубные звуки». Мнение раввинов о роге (Раши) сохранено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "062e782eddfc"
+  },
+  "verse.ru:PS.89.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [
+    "Игра «цедека/цдака» и корня рум («поднимать») передана повтором «поднят/возвышен» для связи со стихами 14, 18, 20."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "08834a7ea4d9"
+  },
+  "verse.ru:PS.89.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Quote 'Ты украшение силы их' and adjust the comparison. (PS.89.18: \"כִּי־תִפְאֶרֶת עֻזָּמוֹ אָתָּה\"; Synodal Пс 88:18: \"ибо Ты украшение силы их\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e1af63634f75"
+  },
+  "verse.ru:PS.89.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e3ba405a38d7"
+  },
+  "verse.ru:PS.89.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Pick one convention for the chapter (the Synodal capitalizes) and apply it to every verse. (PS.89.12 \"ты, ты основал их\" vs PS.89.13 \"Ты, Ты сотворил их\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bd4c6a298845"
+  },
+  "verse.ru:PS.89.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «о святом Твоём» (единственное число), как KJV; указано в комментарии. Слово «хасидим» передано «верные Тебе»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5ce1f43d796"
+  },
+  "verse.ru:PS.89.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5262fc4c8632"
+  },
+  "verse.ru:PS.89.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d7661e76748"
+  },
+  "verse.ru:PS.89.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:17+00:00",
+   "agent_notes": [
+    "По просьбе рецензента исправлено: Синодальный читает «Враг не превозможет его» — третье, общее прочтение, не совпадающее ни с «взыскивать», ни с «обманывать»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Correct the last sentence: the Synodal has 'Враг не превозможет его', a third, general rendering; or drop it. (PS.89.23: \"לֹא־יַשִּׁא אוֹיֵב בּוֹ\"; Synodal Пс 88:23: \"Враг не превозможет его, и сын беззакония не притеснит его\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bad538001727"
+  },
+  "verse.ru:PS.89.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1226f1dfd046"
+  },
+  "verse.ru:PS.89.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [
+    "Пара эмуна и хесед передана как «верность» и «милость» (так в Синодальном переводе); в комментарии оговорено, что хесед — верность в союзе, а не жалость. Нумерация стихов здесь еврейская (Синодальный: Пс 88:25–36)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16399fc5dd73"
+  },
+  "verse.ru:PS.89.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "85aa0b6e381b"
+  },
+  "verse.ru:PS.89.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "34bcc081f88e"
+  },
+  "verse.ru:PS.89.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dda63cb4fb9c"
+  },
+  "verse.ru:PS.89.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dc0bd84bec2a"
+  },
+  "verse.ru:PS.89.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:30+00:00",
+   "agent_notes": [
+    "Предложение о Синодальном заменено точной цитатой («на небесах Ты утвердил верность Твою») без критики."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Delete the sentence about the Synodal adding 'незыблемость', or quote it as it reads ('на небесах Ты утвердил верность Твою') without the criticism. (PS.89.3: \"שָׁמַיִם תָּכִן אֱמוּנָתְךָ בָהֶם\"; Synodal Пс 88:3: \"Ибо я сказал: милость навеки устроена; на небесах Ты утвердил верность Твою\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "99a26a67654b"
+  },
+  "verse.ru:PS.89.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e5791204d34"
+  },
+  "verse.ru:PS.89.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:44+00:00",
+   "agent_notes": [
+    "Ссылка на псалом дана по еврейской нумерации, как во всей главе: «Пс 132:12 (в Синодальном 131:12)»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Write 'Пс 132:12 (в Синодальном 131:12)' or simply 'Пс 132:12', matching the Hebrew numbering used for the chapter. (PS.89.31 English commentary: \"...in the spirit of Psalm 132:12\"; Russian: \"в духе Пс 131:12\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1287cb7e77b7"
+  },
+  "verse.ru:PS.89.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "473e1c6f2b9e"
+  },
+  "verse.ru:PS.89.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [
+    "«Жезл» (шевет) и «язвы» (нега'им): Синодальный даёт «ударами»; оставлено «язвами» по английскому слою и по сути слова."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e93fc6273f6e"
+  },
+  "verse.ru:PS.89.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fdcb4fdb7283"
+  },
+  "verse.ru:PS.89.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "694eccf0f58c"
+  },
+  "verse.ru:PS.89.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:44+00:00",
+   "agent_notes": [
+    "Ссылка на псалом дана по еврейской нумерации: «Пс 95:11 (в Синодальном 94:11)»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Write 'Пс 95:11 (в Синодальном 94:11)' or 'Пс 95:11'. (PS.89.36 English commentary cites \"Psalm 95\"; Russian: \"как в Пс 94:11: «если они войдут в покой Мой»\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c479b8c7add"
+  },
+  "verse.ru:PS.89.37": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [
+    "В Синодальном переводе это Пс 88:38; нумерация стихов в русской Библии сдвинута на единицу. Слово «семя» оставлено как в Синодальном переводе (в комментарии — «потомство», «род»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Keep the source names as the packet gives them in every verse, or translate them consistently throughout. (PS.89.37 sources: \"Радак на Пс 89:37\" vs PS.89.36: \"Radak on Psalm 89:36\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d5559b02d1f9"
+  },
+  "verse.ru:PS.89.38": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ce85e868a34a"
+  },
+  "verse.ru:PS.89.39": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d8dd1f97408"
+  },
+  "verse.ru:PS.89.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa40309ec3e3"
+  },
+  "verse.ru:PS.89.40": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [
+    "Редкий глагол ne'artah передан в буквальном слое как «отверг», в драматическом — «разорвал»; Синодальный перевод: «пренебрёг». Комментарий сохраняет рассуждение английского о Плач 2:7."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Consider 'посвящённый венец его' in the literal layer. (PS.89.40: \"חִלַּלְתָּ לָאָרֶץ נִזְרוֹ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "419a9dcfab87"
+  },
+  "verse.ru:PS.89.41": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9726b5a02417"
+  },
+  "verse.ru:PS.89.42": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "90745e4da1e8"
+  },
+  "verse.ru:PS.89.43": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e3ace6e6f797"
+  },
+  "verse.ru:PS.89.44": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0164939a8bbd"
+  },
+  "verse.ru:PS.89.45": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [
+    "Hapax mitaharo передан как «сияние» (по Раши), в соответствии с английским слоем; Синодальный перевод — «блеск», что близко. Остальные прочтения (Радак, Ибн Эзра) названы в заметке."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "203dd606a29d"
+  },
+  "verse.ru:PS.89.46": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c3f7d4944da"
+  },
+  "verse.ru:PS.89.47": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [
+    "Божье имя в литеральном слое оставлено как YHWH; в драматическом слое и в тексте комментария по традиции — «Господи»/«Господь»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Quote 'будешь скрываться непрестанно'. (PS.89.47: \"עַד־מָה יְהוָה תִּסָּתֵר לָנֶצַח\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16a1bd747457"
+  },
+  "verse.ru:PS.89.48": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:48:32+00:00",
+   "agent_notes": [
+    "Игра слов adam (человек / «земное существо») не передаётся по-русски; в комментарии она объяснена, а в драматическом слое выбрано «сыновья человеческие» вслед за Синодальным переводом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "537b9e4aa435"
+  },
+  "verse.ru:PS.89.49": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:02+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 88:49) передаёт שְׁאוֹל как «преисподняя» и нефеш как «душа»; здесь «Шеол» оставлен именем собственным (как в packet: loc.sheol — Шеол), а нефеш — «жизнь», с пояснением в заметке. Нумерация стихов в Синодальном на единицу меньше (Пс 88)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "44243f78cbd2"
+  },
+  "verse.ru:PS.89.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e92c39ae7411"
+  },
+  "verse.ru:PS.89.50": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:02+00:00",
+   "agent_notes": [
+    "חֲסָדֶיךָ — «милости» (так в Синодальном); в литературном слое выбрано «верности», чтобы не потерять идею союзной верности, о которой говорит комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75ca6da0e9fd"
+  },
+  "verse.ru:PS.89.51": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[consider] Give the usual order in the parenthesis: '(обычно «многие народы», рабим после существительного)'. (PS.89.51: \"כָּל־רַבִּים עַמִּים\" (usual order: עַמִּים רַבִּים).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d9de4c722599"
+  },
+  "verse.ru:PS.89.52": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:02+00:00",
+   "agent_notes": [
+    "עִקְּבוֹת в буквальном слое — «пятки» (от עָקֵב), в литературном — «следы», как в Синодальном («следы помазанника Твоего»); комментарий сохраняет оба толкования (след и «запоздание»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "613b1b8f5fca"
+  },
+  "verse.ru:PS.89.53": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:49:02+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ecd201b0625"
+  },
+  "verse.ru:PS.89.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f7323c0a921"
+  },
+  "verse.ru:PS.89.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [
+    "«бней элим» передано как «сыны богов» (буквально); Синодальный: «между сынами Божиими». В комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "44bd1168fe79"
+  },
+  "verse.ru:PS.89.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:30+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно («Страшен Бог в великом сонме святых»); «великий» отнесено к совету и в буквальном слое, и в глоссе, как в английском; драматический слой приведён в согласие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": "[should_fix] Quote the Synodal correctly ('Страшен Бог в великом сонме святых') and say that it, like this translation, puts 'великий' on the council; or drop the Synodal sentence. (PS.89.8: \"אֵל נַעֲרָץ בְּסוֹד־קְדֹשִׁים רַבָּה\"; Synodal Пс 88:8: \"Страшен Бог в великом сонме святых, страшен Он для всех окружающих Его\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:54:35+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d72e6c8345b8"
+  },
+  "verse.ru:PS.89.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:47:27+00:00",
+   "agent_notes": [
+    "«Яхве/Яг»: краткое имя «Йах» в Синодальном — «Господи»; в буквальном слое оставлено «Йах», в литературном — «Яхве мощный» избегнуто, дано «Йах»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:52:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9231a560e862"
   }
  },
  "notes": []

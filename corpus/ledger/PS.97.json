@@ -272,6 +272,293 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.97.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "Начало комментария переписано по замечанию рецензента: имя YHWH стоит первым, перед глаголом מָלָךְ, как возглас-приветствие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] Replace the opening of directors_commentary with something like: 'Это тронный клич псалмов: имя YHWH стоит первым, перед глаголом מָלָךְ, как возглас-приветствие «YHWH — Царь!», как толпа на Древнем Востоке встречала нового царя.' (PS.97.1: יְהוָה מָלָךְ (pos 1 YHWH, pos 2 'he has reigned').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "81693f891e5b"
+  },
+  "verse.ru:PS.97.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "В буквальном слое נַפְשׁוֹת передано как «жизни» (и в глоссе 6); синодальное «души святых Своих» подано в комментарии как отход от смысла «верности»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] In translation_literal write 'Он хранит жизни верных Своих' and make gloss 6 'жизни'. In directors_commentary, quote the Synodal as 'Он хранит души святых Своих' and say that 'святых', like the KJV 'saints', suggests holiness rather than loyalty (or drop the quote). Update the agent's note on 'преподобные' to match. (PS.97.10: שֹׁמֵר נַפְשׁוֹת חֲסִידָיו, word table pos 6 'the lives of'; ru literal 'Он хранит души верных Своих'; Synodal Ps 96:10 'души святых Своих'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd97db1dbf95"
+  },
+  "verse.ru:PS.97.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "Синодальное «сияет» следует греческому чтению, о котором упоминает Меири, а не еврейскому «посеян»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] In directors_commentary, replace the last sentence. Say that the Synodal ('Свет сияет на праведника, и на правых сердцем — веселие') follows the Greek 'shines', the reading Meiri mentions, and does not keep the Hebrew 'посеян'. Alternatively, drop the Synodal comparison. (PS.97.11: אוֹר זָרֻעַ לַצַּדִּיק; ru note on זָרֻעַ: 'Меири отмечает предположение, что слово стоит вместо «сияет» (זרוח)'; Synodal Ps 96:11 'Свет сияет на праведника'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7610b2610f3"
+  },
+  "verse.ru:PS.97.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "В драматическом слое вместо буквального «призываете в памяти» — «храните в памяти»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] Replace with an idiomatic phrase, e.g. 'то святое имя, которое вы храните в памяти' or 'которое вы вспоминаете'. (English dramatic PS.97.12: 'the holy name that you call to mind'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6fee04ecdcaf"
+  },
+  "verse.ru:PS.97.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[consider] Consider 'Облако и густой мрак' in the literal layer and gloss 2 'и густой мрак'. (PS.97.2: עָנָן וַעֲרָפֶל, gloss 'and thick darkness'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2f2b77655b93"
+  },
+  "verse.ru:PS.97.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[consider] Correct the quote or drop it. (Synodal Ps 96:3.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7f8092c63f56"
+  },
+  "verse.ru:PS.97.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "Ссылка на Пс 48:7 дана с синодальной нумерацией (47:7). Синодальное «трепещет» названо смягчением корчей."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] In the note on וַתָּחֵל, write 'Пс 48:7' (or 'Пс 48:7 (в Синодальном 47:7)'). In directors_commentary, quote the Synodal as 'Молнии Его освещают вселенную; земля видит и трепещет' and say that 'трепещет' softens the writhing, or drop the quote. (English note on וַתָּחֵל: 'Ps 48:7, Mic 4:9'; ru: 'Пс 47:7, Мих 4:9'; Synodal Ps 96:4 'земля видит и трепещет'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": "[consider] Next time the verse is touched, align the agent note with the revised reference. (PS.97.4 ru note on וַתָּחֵל: 'Пс 48:7 (в Синодальном 47:7), Мих 4:9'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "44533ced2fa8"
+  },
+  "verse.ru:PS.97.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[consider] Correct the quote or drop it. (Synodal Ps 96:5.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7897b7a9c520"
+  },
+  "verse.ru:PS.97.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "Синодальный перевод берёт настоящее время («возвещают… видят»), как KJV, и сохраняет множественное «народы»; прежнее утверждение о прошедшем времени снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] Correct the last sentence of directors_commentary: the Synodal ('Небеса возвещают правду Его, и все народы видят славу Его') takes the present, like the KJV, and keeps the plural 'народы'. Or drop the Synodal sentence. (PS.97.6: הִגִּידוּ … וְרָאוּ (perfect, waw + perfect); Synodal Ps 96:6 'возвещают … видят'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ecce008bee5"
+  },
+  "verse.ru:PS.97.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:10+00:00",
+   "agent_notes": [
+    "Игра слов אֱלִילִים («ничтожные») и אֵל/אֱלֹהִים передана описательно: «ничтожества», «не-боги». В Синодальном переводе «истуканы» и «идолы» стирают эту игру; в литературном слое выбрано «ничтожные» с пояснением в комментарии.",
+    "כָּל־אֱלֹהִים переведено «все боги» (в Синодальном «все боги», с адресацией богам). Комментарий сохраняет толкования Радака, Мецудат Давид и Таргума."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df875d8e747e"
+  },
+  "verse.ru:PS.97.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:01:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[consider] Correct the quote or drop it. (Synodal Ps 96:8.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3914e34fcb86"
+  },
+  "verse.ru:PS.97.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:04:46+00:00",
+   "agent_notes": [
+    "Синодальное «высок над всею землёю» — прилагательное, как в KJV, и потому теряет титул עֶלְיוֹן."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:03:21+00:00",
+     "note": "[should_fix] Rewrite the Synodal sentence in directors_commentary: the Synodal ('ибо Ты, Господи, высок над всею землею, превознесен над всеми богами') has 'высок', an adjective, as the KJV does, and so loses the title עֶלְיוֹן. Or drop the sentence. (PS.97.9: כִּי־אַתָּה יְהוָה עֶלְיוֹן עַל־כָּל־הָאָרֶץ; Synodal Ps 96:9 'высок над всею землею'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:05:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5ea8a805a972"
   }
  },
  "notes": []

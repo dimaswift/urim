@@ -414,6 +414,464 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.66.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [
+    "Заглавие «Начальнику хора» — как в Синодальном; глагол hari'u передан в буквальном слое как «воскликните [с кличем]», а в драматическом — «грянет клич», чтобы сохранить силу царского приветствия."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "01d1fe2890ab"
+  },
+  "verse.ru:PS.66.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b5ce25598f4"
+  },
+  "verse.ru:PS.66.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de40a56aa4b6"
+  },
+  "verse.ru:PS.66.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "«Над головой нашей» вместо «во главе нас»; Синодальный цитируется целиком («Ты посадил человека на главу нашу; … на свободу»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Replace «во главе нас» with «над головой нашей» (or «на голову нашу») in the literal layer, in gloss 3 and in the commentary's quotation of the literal; quote the Synodal as «мы вошли в огонь и в воду, и Ты вывел нас на свободу». (PS.66.12: הִרְכַּבְתָּ אֱנוֹשׁ לְרֹאשֵׁנוּ; EN commentary: 'pictures a charioteer or horseman trampling over the people'; RU dramatic: «ездить по нашим головам»; Synodal Пс 65:12: «Ты посадил человека на главу нашу; мы вошли в огонь и в воду, и Ты вывел нас на свободу».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5854fa338e28"
+  },
+  "verse.ru:PS.66.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "Местоимения о Боге написаны с заглавной, как в PS.65 и PS.66.1–12. Синодальное «воздам Тебе обеты мои» названо в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Capitalize the pronouns for God (дом Твой, Тебе) in the literal, dramatic layers and glosses; in the commentary say that KJV's 'I will go into thy house' is acceptable though the verb is the plain 'come, enter', and quote the Synodal with «воздам Тебе обеты мои». (PS.66.13 ru literal: «Войду [в] дом твой … исполню тебе»; PS.66.3 ru: «дела Твои», «Тебе»; EN commentary: \"KJV's 'I will go into thy house' is acceptable, though the Hebrew verb is the plain 'come, enter'\"; Synodal Пс 65:13: «Войду в дом Твой со всесожжениями, воздам Тебе обеты мои».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e13fdc89fbd"
+  },
+  "verse.ru:PS.66.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "Суд. 11:35 цитируется по Синодальному в мужском роде («я отверз уста мои пред Господом»), так как говорит Иеффай."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Write «я отверз уста мои пред Господом» (masculine, Jephthah); quote the Synodal v. 14 as «…и изрек язык мой в скорби моей»; write «Тебе» for God in the dramatic layer. (EN commentary: \"(Ibn Ezra compares Judges 11:35, 'I have opened my mouth to the LORD')\"; Synodal Суд 11:35 (Jephthah): «я отверз уста мои пред Господом»; Synodal Пс 65:14: «которые произнесли уста мои и изрек язык мой в скорби моей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c16f351f6c8b"
+  },
+  "verse.ru:PS.66.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "Глагол «ала» (а не «алья»); «Тебе» с заглавной в обоих слоях и в глоссе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Write «Тебе» for God in the literal, dramatic layers and gloss 4; transliterate the verb «ала» (alah), not «алья». (PS.66.15: אַעֲלֶה־לָּךְ; EN commentary: \"'offer up' (alah) and 'make' (asah)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4c8f1a2c7091"
+  },
+  "verse.ru:PS.66.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Write «Он» for God in the literal, dramatic layers and gloss 8; say «KJV „declare“ вместо „рассказать“ (сафар) допустимо». (PS.66.16 ru literal: «что сделал он для души моей»; EN commentary: \"'Declare' for 'recount' (saphar) is acceptable\" (in the KJV paragraph).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "18e7d54c7a82"
+  },
+  "verse.ru:PS.66.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "Синодальное «и превознес Его языком моим» следует глагольному чтению, как KJV; утверждение о переносе хвалы «на» язык снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Say that the Synodal («и превознес Его языком моим») follows the verbal reading, like KJV, and drop the claim that it moves praise 'on' the tongue; capitalize the pronouns for God (К Нему, хвала Ему) in all layers and glosses. (Synodal Пс 65:17: «Я воззвал к Нему устами моими и превознес Его языком моим»; RU PS.65 and PS.66.1–12 capitalize («Твои», «Его», «о Нём»).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "46b86243059b"
+  },
+  "verse.ru:PS.66.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:56:06+00:00",
+   "agent_notes": [
+    "«Господь» в дословном слое передаёт Адонай (אֲדֹנָי), как принято в Синодальном переводе; в пьесе стих читается по первому прочтению (чистое сердце как условие услышанной молитвы)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[consider] Drop «но заменяет „Владыку“ (Адонай) на „Господа“» or say that the Synodal renders Adonai as «Господь» by convention. (PS.66.18: לֹא יִשְׁמַע אֲדֹנָי; EN commentary has no remark on a translation's rendering of Adonai.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3d753c91d7a7"
+  },
+  "verse.ru:PS.66.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:11+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: в драматическом слое местоимение о Боге с заглавной («Он»), как «Тебе», «Твоей» в Пс 66:3. В комментарии исправлена цитата Синодального перевода: прежняя фраза была склеена с замечанием о KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Capitalize «Он» for God in the dramatic layer. (PS.66.19 ru dramatic: «Но он услышал! Бог услышал, он склонился…»; PS.66.3 ru: «Тебе», «Твоей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "223c633bd645"
+  },
+  "verse.ru:PS.66.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ab956dd53379"
+  },
+  "verse.ru:PS.66.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:11+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: «Своей/Свою» с заглавной в буквальном и драматическом слоях и в глоссе 7; Синодальный перевод процитирован дословно: «Который не отверг молитвы моей и не отвратил от меня милости Своей». «Хесед» передан как «верная любовь», как в соседних стихах."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Write «Своей» for God in the literal, dramatic layers and gloss 7, and quote the Synodal as «Который не отверг молитвы моей и не отвратил от меня милости Своей». (PS.66.7 ru: «могуществом Своим»; PS.66.20 ru: «верной любви своей»; Synodal Пс 65:20: «Благословен Бог, Который не отверг молитвы моей и не отвратил от меня милости Своей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b976f2802eac"
+  },
+  "verse.ru:PS.66.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [
+    "yekhachashu: Синодальный переводит «покорятся Тебе» (как KJV «submit»); в буквальном слое оставлено «лгут Тебе», в комментарии объяснено, что корень значит «лгать, притворяться»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d6e7946dc4ac"
+  },
+  "verse.ru:PS.66.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f02fdc527c05"
+  },
+  "verse.ru:PS.66.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[consider] Write «страшного [в] деле» in the literal layer. (PS.66.5: נוֹרָא עֲלִילָה (HNcfsa); EN literal: 'awesome [in] deed'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2a639b2c3bb"
+  },
+  "verse.ru:PS.66.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:45+00:00",
+   "agent_notes": [
+    "Драматический слой переведён в третьем лице («они перешли»), как просил рецензент; литературный слой сохраняет несовершенное «проходят»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[should_fix] Write «Через реку они перешли пешком» (third person) in the dramatic layer. (PS.66.6: בַּנָּהָר יַעַבְרוּ בְרָגֶל (HVqi3mp, 'they pass over'); EN dramatic: \"Through the river they crossed on foot.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:01:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d889e06ec46"
+  },
+  "verse.ru:PS.66.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [
+    "В еврейском тексте Кетив/Кере у глагола yarumu; в глоссе взято чтение Кере, как в таблице пакета."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c9455d091d65"
+  },
+  "verse.ru:PS.66.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1bdac0603a30"
+  },
+  "verse.ru:PS.66.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:54:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:58:28+00:00",
+     "note": "[consider] Quote the Synodal as «Он сохранил душу нашу в живых и не дал поколебаться ноге нашей». (Synodal Пс 65:9: «Он сохранил душу нашу в живых и не дал поколебаться ноге нашей».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "49038d0adffe"
   }
  },
  "notes": []

@@ -1,0 +1,333 @@
+{
+ "chapter_ref": "PS.110",
+ "items": {
+  "verse.en:PS.110.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:22:42+00:00",
+   "agent_notes": [
+    "Revised after the reviewer request: the 'for David' reading of the lamed is attributed to Radak (who compares 'say of me: he is my brother', Gen 20:13); Ibn Ezra is cited only for his view that another poet composed the psalm about David. The general by/for/about range of lamed is stated as grammar, without a source.",
+    "The five English versions split on נְאֻם: KJV/Webster 'said', ASV 'saith', YLT 'affirmation', BBE 'said'. I keep 'utterance' in the literal layer because נְאֻם is the prophetic oracle formula, not the ordinary verb. The title lamed is glossed 'of David' in the literal layer and left open in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": "[should_fix] Attribute the remark on the lamed to Radak ('for/about David', as in Genesis 20:13), and say that Ibn Ezra holds that another poet wrote the psalm about David. If you keep the three-way 'by/for/about', present it as general grammar, not as Ibn Ezra's words. (PS.110.1 Ibn Ezra: \"זה המזמור חברו אחד מהמשוררים על דוד\"; Radak: \"ולמ\"ד לדוד פירושו בעבור כלמ\"ד אמרי לי אחי הוא\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": "[consider] Hedge the Joel 4:13 link ('some connect it with…'), or drop it. (PS.110.2 Metzudat Zion: \"רדה. ענין ממשלה כמו וירד מים עד ים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:22:42+00:00",
+   "agent_notes": [
+    "Revised after the reviewer request: no claim that Rashi notes the difficulty of יַלְדֻתֶיךָ. The form is described on my own reading (a singular noun carrying the plural-type suffix -ֶיךָ), and the only Rashi remark is that his citations spell the word both ways.",
+    "This verse is the hardest of the window: נְדָבֹת, בְּהַדְרֵי־קֹדֶשׁ (cf. the reading הַרְרֵי 'mountains of holiness' in many manuscripts, which I do not rely on here) and מֵרֶחֶם מִשְׁחָר all admit several readings, and the five English versions split three ways. I follow the Masoretic text as pointed, with 'holy splendours', and give the main alternatives in the commentary."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": "[should_fix] Drop the claim that Rashi notes the difficulty. Either describe the form yourself, without a source (a singular noun with the plural-type suffix -ֶיךָ), or say only that Rashi's citations spell it both ways. (PS.110.3 Rashi: \"לְךָ טַל יַלְדוּתֶיךָ. לְךָ יֵחָשֵׁב יַלְדוּתֶיךָ\" and (second reading) \"לְךָ טַל יַלְדוּתֶךָ. יַלְדוּת טוֹבָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:33+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:22:42+00:00",
+   "agent_notes": [
+    "Revised after the reviewer request: the Targum reads מַלְכִּי־צֶדֶק as 'a righteous king' said of the addressee ('because of the merit that you were a righteous king'), not as the merit of Melchizedek the person. The Ecclesiastes 3:18 comparison is now attributed to Metzudat Zion alone; Rashi's own comparison (Lam 1:1) and gloss ('on the commission of') are given.",
+    "דִּבְרָתִי is rendered 'matter' in the literal layer, with the sense 'in the manner/rank of' discussed in the commentary. KJV 'after the order of' is a tradition (via Hebrews 5-7), not a Hebrew word; I say so in the commentary without taking sides on how the New Testament uses the verse."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": "[should_fix] Rewrite the Targum sentence: the Targum reads מַלְכִּי־צֶדֶק as 'a righteous king', said of the addressee: 'because of the merit that you were a righteous king'. It is not the merit of Melchizedek. (PS.110.4 Targum: \"בְּגִין זְכוּתָא דַהֲוֵיתָא מְלַךְ זַכַּי\" (because of the merit that you were a righteous king)) [should_fix] In the דִּבְרָתִי note, attribute the Ecclesiastes 3:18 comparison to Metzudat Zion alone, and give Rashi's own comparison (Lamentations 1:1) and gloss ('on the commission of'). (PS.110.4 Rashi: \"יוֹ״ד יְתֵרָה, כְּמוֹ ״רַבָּתִי עָם״ ... עַל פְּקֻדַּת מַלְכִּי צֶדֶק\"; Metzudat Zion: \"על דברת בני אדם (קהלת ג׳:י״ח)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:33+00:00",
+     "note": "[consider] Say 'king of Salem (Gen 14:18), which Malbim identifies with Jerusalem'. (PS.110.4 Malbim: \"ע\"ש המלך הראשון שהיה בירושלים, כמ\"ש ומלכי צדק מלך שלם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:31+00:00",
+   "agent_notes": [
+    "STEPBible's entity link tags אֲדֹנָי as deity.yhwh. Whether the subject is God at the king's right hand or the king himself (with God's seat on the right in v. 1) is disputed; I kept 'the Lord' (אֲדֹנָי) as God, following the Targum (the Shekhinah of the LORD) and Rashi."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:31+00:00",
+   "agent_notes": [
+    "The line has several cruxes: מָלֵא גְוִיּוֹת has no stated object (KJV 'fills the places' supplies one, ASV the same); רֹאשׁ may be singular ('a head') or collective ('heads'); אֶרֶץ רַבָּה is 'a wide land' or 'many lands'. I kept the Hebrew singulars in the literal layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.110.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:19:31+00:00",
+   "agent_notes": [
+    "Verb tenses throughout (מָחַץ in 5 and 6 perfect, the rest imperfect) are read as prophetic perfects mixed with future imperfects. I kept the Hebrew tenses in the literal layer and unified them in the dramatic layer, as Ibn Ezra explains the perfects as a standing, timeless fact."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:21:16+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.110.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:48+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован по Пс 109:1: «Сказал Господь Господу моему». Добавлено, что он, как и KJV, передаёт נְאֻם простым «сказал» и стирает различие YHWH/адони словами «Господь/Господу»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": "[should_fix] Quote the Synodal correctly: «Сказал Господь Господу моему». Say that it, like the KJV, both renders נְאֻם as the plain «сказал» and erases the YHWH/adoni distinction with «Господь/Господу». (PS.110.1 (Synodal Ps 109:1): «Сказал Господь Господу моему: седи одесную Меня, доколе положу врагов Твоих в подножие ног Твоих»; Hebrew נְאֻם יְהוָה לַאדֹנִי)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "320099ba9a11"
+  },
+  "verse.ru:PS.110.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:48+00:00",
+   "agent_notes": [
+    "Убрана ошибочная фраза о «скипетре» в Синодальном: в Пс 109:2 там тоже «жезл». «Rod» в KJV названо верным."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": "[should_fix] Delete «но Синодальный выбирает «скипетр» вместо «жезла»» (or say that the Synodal also has «жезл»). Rephrase «сказано нормально» as e.g. «Rod в KJV передано верно». (PS.110.2 (Synodal Ps 109:2): «Жезл силы Твоей пошлёт Господь с Сиона: господствуй среди врагов Твоих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:28+00:00",
+     "note": "[consider] Consider splitting it: «В Синодальном переводе (Пс 109:2) тоже стоит «жезл», а «господствуй среди врагов Твоих» точно, как и «rule thou in the midst of thine enemies» в KJV.» (PS.110.2 (Synodal Ps 109:2): «Жезл силы Твоей пошлёт Господь с Сиона: господствуй среди врагов Твоих»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a7c05196ff7e"
+  },
+  "verse.ru:PS.110.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:27:47+00:00",
+   "agent_notes": [
+    "Стих с неясным текстом (mishchar, yalduteikha): Синодальное «из чрева прежде денницы подобно росе рождение Твоё» следует греческому, а не масоретскому тексту; здесь перевод сделан с иврита, как в английских слоях."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": "[consider] Consider «в великолепиях святыни» in the literal layer and gloss pos 5, to match the Hebrew and the note. (PS.110.3: בְּהַדְרֵי־קֹדֶשׁ; English literal 'in holy splendours')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "53119aff8811"
+  },
+  "verse.ru:PS.110.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:30:48+00:00",
+   "agent_notes": [
+    "Везде «коэн» для כֹהֵן и «диврати» для דִּבְרָתִי. В литеральном слое сохранено «по делу» для дословности, в драматическом — «по слову»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": "[should_fix] Write «коэн» (or «коген») for כֹהֵן and «диврати» for דִּבְרָתִי, consistently throughout the commentary. (PS.110.4: עַל־דִּבְרָתִי מַלְכִּי־צֶדֶק; אַתָּה־כֹהֵן; commentary: «Священник» (коhен) … «У дивръяти лишняя йод»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f207facbdbed"
+  },
+  "verse.ru:PS.110.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:27:47+00:00",
+   "agent_notes": [
+    "Adonai (божественный титул) передан словом «Владыка», чтобы отличить его от человеческого «господин мой» из стиха 1; Синодальный перевод ставит просто «Господь». Выбор термина сделан впервые для книги."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1d370a87257c"
+  },
+  "verse.ru:PS.110.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:27:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": "[consider] Quote «наполнит землю трупами»; write «Равву Аммонитскую» instead of «Раввата Аммонитского», as in v. 5. (PS.110.6 (Synodal Ps 109:6): «совершит суд над народами, наполнит землю трупами, сокрушит голову в земле обширной»; the Synodal names the Ammonite city «Равва» (2 Цар 12), as the v. 5 commentary does)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8062cf7c73e1"
+  },
+  "verse.ru:PS.110.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:27:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:29:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4a6bdf8d3fd6"
+  }
+ },
+ "notes": []
+}

@@ -281,6 +281,310 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.84.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [
+    "Синодальный перевод называет это слово «на гефском орудии» и нумерует псалом 83, а надписание считает за отдельный стих. Здесь сохранена еврейская нумерация, а слово הַגִּתִּית оставлено без перевода («гиттит»), как и в английском слое: значение неизвестно.",
+    "Имя קֹרַח дано в форме Синодального перевода: Корей («сыновей Корея»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[consider] Write 'как песнь сбора винограда, связанную с давильней'. (English PS.84.1 commentary: \"or as a vintage song tied to the winepress (גַּת)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3f0fa05604f3"
+  },
+  "verse.ru:PS.84.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "89c8f264b753"
+  },
+  "verse.ru:PS.84.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Желаю лучше быть у порога в доме Божием, нежели жить в шатрах нечестия». (RusSynodal Пс 83:11: \"Желаю лучше быть у порога в доме Божием, нежели жить в шатрах нечестия.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a20247b1b75"
+  },
+  "verse.ru:PS.84.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает שֶׁמֶשׁ как «солнце и щит» — так же, как здесь; «хождение в непорочности» соответствует Синодальному «ходящим непорочно»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[consider] Quote the last clause as the Synodal has it: «ходящих в непорочности Он не лишает благ». (RusSynodal Пс 83:12: \"ибо Господь Бог есть солнце и щит, Господь дает благодать и славу; ходящих в непорочности Он не лишает благ.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d9123e6bb7b9"
+  },
+  "verse.ru:PS.84.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [
+    "Источники в примечании восстановлены в английской форме (Radak on Psalms 84:13, Meiri on Psalms 84:13), как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Restore the sources as 'Radak on Psalms 84:13' and 'Meiri on Psalms 84:13'. (English PS.84.13 note sources: \"Radak on Psalms 84:13\", \"Meiri on Psalms 84:13\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": "[consider] Write «Господь воинств» in the dramatic layer, «КДж» for KJV in the commentary, and «в сопряжённом состоянии» in the ashrei note, as elsewhere in the chapter. (PS.84.13: \"יְהוָה צְבָאוֹת\"; ru PS.84.9 dramatic: \"Господь, Бог воинств\"; ru PS.84.6 note: \"форма множественного числа в сопряжённом состоянии\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "39e9179525dd"
+  },
+  "verse.ru:PS.84.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно: «Как вожделенны жилища Твои, Господи сил!». Он выбирает «вожделенны» — слово желания, а не любви-привязанности; в комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Quote the Synodal as «Как вожделенны жилища Твои, Господи сил!» and adjust the remark accordingly (it chooses 'вожделенны', a word of desire, for יְדִידוֹת), or drop the Synodal sentence. (RusSynodal Пс 83:2: \"Как вожделенны жилища Твои, Господи сил!\"; Hebrew PS.84.2: \"מַה־יְּדִידוֹת מִשְׁכְּנוֹתֶיךָ\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fc49e8fad68"
+  },
+  "verse.ru:PS.84.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Истомилась душа моя, желая во дворы Господни; сердце моё и плоть моя восторгаются к Богу живому». (RusSynodal Пс 83:3: \"Истомилась душа моя, желая во дворы Господни; сердце мое и плоть моя восторгаются к Богу живому.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d8aa9aaae1c5"
+  },
+  "verse.ru:PS.84.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f9dae9ed2a0"
+  },
+  "verse.ru:PS.84.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec3a3f95cd00"
+  },
+  "verse.ru:PS.84.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод («стези направлены к Тебе») добавляет цель пути, которой нет в иврите, — как ASV и BBE; в драматическом слое «в сердцах их» (множественное число, как в иврите)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('у которого в сердце стези направлены к Тебе') and say that it, like the ASV and BBE, supplies a destination the Hebrew lacks. In the dramatic layer write 'в сердцах их' (or 'в их сердцах'). (RusSynodal Пс 83:6: \"Блажен человек, которого сила в Тебе и у которого в сердце стези направлены к Тебе.\" PS.84.6 Hebrew: \"מְסִלּוֹת בִּלְבָבָם\" (in their heart); English dramatic: \"The highways are already laid in their hearts.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3231965f8030"
+  },
+  "verse.ru:PS.84.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:05+00:00",
+   "agent_notes": [
+    "הַבָּכָא передано как «долина Бака»: так сохраняется имя собственное, а игра с «плачем» (בכה) вынесена в комментарий и примечание. Синодальный перевод выбирает «долину плача» и теряет название места. Слово מוֹרֶה в обоих слоях передано как «ранний дождь»; второе значение («учитель») не введено в текст, чтобы не добавлять факта, и раскрыто в комментарии и примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d6b61fbb715d"
+  },
+  "verse.ru:PS.84.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «приходят от силы в силу, являются пред Богом на Сионе». (RusSynodal Пс 83:8: \"приходят от силы в силу, являются пред Богом на Сионе.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "809dd936e247"
+  },
+  "verse.ru:PS.84.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:43:19+00:00",
+   "agent_notes": [
+    "Синодальный перевод опускает «Села»; последнее предложение комментария исправлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:42:00+00:00",
+     "note": "[should_fix] Replace the last sentence with: '«Selah» в КДж просто транслитерировано; Синодальный перевод опускает это слово.' (RusSynodal Пс 83:9: \"Господи, Боже сил! услышь молитву мою, внемли, Боже Иаковлев!\" (no 'Села'); Hebrew PS.84.9 ends \"סֶלָה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e2a0ce9c57cf"
   }
  },
  "notes": []

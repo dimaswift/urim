@@ -310,6 +310,299 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.36.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[consider] Quote it as «Раба Господня Давида». (PS.36.1: «לְעֶבֶד־יְהוָה לְדָוִד»; Synodal Ps 35:1: «Начальнику хора. Раба Господня Давида».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c80f190db5e9"
+  },
+  "verse.ru:PS.36.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [
+    "Игра слов «свет — свет» (אוֹר … אוֹר) в русском сохраняется дословно: «во свете Твоём мы видим свет», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e38fbf73e509"
+  },
+  "verse.ru:PS.36.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:35+00:00",
+   "agent_notes": [
+    "Синодальная цитата исправлена («Продли милость Твою…»); добавлено, что, как KJV «continue», она сохраняет длительность и теряет натяжение. В буквальном слое оставлено «Простри»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[should_fix] Correct the quote to «Продли милость Твою к знающим Тебя и правду Твою к правым сердцем». Optionally note that, like KJV 'continue', it keeps the duration and loses the pull. (PS.36.11: «מְשֹׁךְ חַסְדְּךָ»; Synodal Ps 35:11: «Продли милость Твою к знающим Тебя и правду Твою к правым сердцем».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "051b12dcdea8"
+  },
+  "verse.ru:PS.36.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[consider] Quote «рука грешника» when this verse is next revised. (Synodal Ps 35:12: «да не наступит на меня нога гордыни, и рука грешника да не изгонит меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f1c4f4759922"
+  },
+  "verse.ru:PS.36.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:35+00:00",
+   "agent_notes": [
+    "Синодальная цитата исправлена: «низринуты и не могут встать»; замечание о настоящем времени сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[should_fix] Change the quote to «низринуты и не могут встать». Keep the remark about the present tense. (PS.36.13: «דֹּחוּ וְלֹא־יָכְלוּ קוּם»; Synodal Ps 35:13: «Там пали делающие беззаконие, низринуты и не могут встать».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "399f2a8d957d"
+  },
+  "verse.ru:PS.36.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:35+00:00",
+   "agent_notes": [
+    "Цитата Синодального исправлена: он сохраняет «в сердце моём» (Пс 35:2), в отличие от BBE, который читает «в его сердце»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[should_fix] Replace «Синодальный перевод тоже читает «в глубине сердца его».» with a sentence saying the Synodal, unlike BBE, keeps «в сердце моём» («Нечестие беззаконного говорит в сердце моём»), or drop the sentence. (PS.36.2: «בְּקֶרֶב לִבִּי»; Synodal Ps 35:2: «Нечестие беззаконного говорит в сердце моём: нет страха Божия пред глазами его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bdfff6cf96f4"
+  },
+  "verse.ru:PS.36.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:35+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно («будто отыскивает беззаконие своё, чтобы возненавидеть его»); отмечена близость к чтению Радака."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[should_fix] Quote the Synodal correctly: «будто отыскивает беззаконие своё, чтобы возненавидеть его». Optionally note that this is near Radak's reading. Otherwise drop the sentence. (PS.36.3: «לִמְצֹא עֲוֹנוֹ לִשְׂנֹא»; Synodal Ps 35:3: «ибо он льстит себе в глазах своих, будто отыскивает беззаконие своё, чтобы возненавидеть его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "635aa24db41f"
+  },
+  "verse.ru:PS.36.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:07:35+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно; добавлено замечание, что «не хочет» смягчает חָדַל «перестал»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[should_fix] Quote the Synodal as «слова уст его — неправда и лукавство; не хочет он вразумиться, чтобы делать добро». You may add that it softens חָדַל 'ceased' into 'does not want'. Otherwise drop the quote. (PS.36.4: «חָדַל לְהַשְׂכִּיל לְהֵיטִיב»; Synodal Ps 35:4: «Слова уст его — неправда и лукавство; не хочет он вразумиться, чтобы делать добро».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:08:19+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "de68552ec0bf"
+  },
+  "verse.ru:PS.36.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a342d09d23d9"
+  },
+  "verse.ru:PS.36.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [
+    "חֶסֶד: «милость» Синодального упомянута только в комментарии; в слоях перевода выбрано «верность союзу» (буквальный) и «милосердная верность»/«неизменная любовь» (драматический), чтобы сохранить идею верности внутри союза. Синодальный: «милость»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f48ab9131ea"
+  },
+  "verse.ru:PS.36.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [
+    "אֵל в «горах Божиих» Синодальный сохраняет как «горы Божии»; здесь оставлено так же, с пояснением об усилительном значении."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[consider] Use «человека и скот» (or «людей и скотов», as in the Synodal) in the literal so that it matches the gloss. (PS.36.7: «אָדָם וּבְהֵמָה תוֹשִׁיעַ»; token 8 gloss «и скот».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d62dd6d52b37"
+  },
+  "verse.ru:PS.36.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": "[consider] Quote «покойны» when this verse is next revised. (Synodal Ps 35:8: «Сыны человеческие в тени крыл Твоих покойны».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "363a76da6857"
+  },
+  "verse.ru:PS.36.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:04:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:06:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7a6c1619a64"
   }
  },
  "notes": []

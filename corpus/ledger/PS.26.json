@@ -269,6 +269,252 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.26.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [
+    "В синодальном переводе стих 1 заканчивается «не колеблюсь» и «уповая на Господа» (причастие); в буквальном слое сохранены две отдельные клаузы еврейского текста, как и сказано в комментарии. «Я» вынесено вперёд ради эмфазы."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": "[consider] Write «KJV («therefore I shall not slide») придумывает следствие»; check the Synodal quote; consider «Давида» or «О Давиде / Давидов» to keep the ambiguity. (PS.26.1 English: \"The KJV 'therefore I shall not slide' invents a result\"; ledger note on verse.en:PS.26.1: \"'Of David' is left open\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f1448cf07f43"
+  },
+  "verse.ru:PS.26.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [
+    "«Зимма» — в Синодальном «злодейство»; в тексте оставлено «замысел» (Раши), в комментарии указано «злодейство» Синодального перевода как вариант."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": "[consider] Quote the Synodal exactly when it is available. (PS.26.10 ru commentary, last sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32997dffff33"
+  },
+  "verse.ru:PS.26.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b4f553480b75"
+  },
+  "verse.ru:PS.26.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [
+    "«Мишор» — «ровное место»; Синодальный перевод даёт «на правом пути», что совпадает с чтением Раши («на прямом пути»); отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": "[consider] Check the Synodal wording; consider «стала» or «стоит» for עָמְדָה. (PS.26.12: \"רַגְלִי עָמְדָה בְמִישׁוֹר\"; English literal \"My foot has stood on level ground\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c951a38824b"
+  },
+  "verse.ru:PS.26.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт «כליותי» как «внутренности мои»; в буквальном слое оставлено «почки мои», в комментарии отмечено, что Синодальный перевод смягчает телесный образ. Кери и кетив: выбрано повелительное «расплавь» (кери), как в Синодальном переводе."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "89efacce8dda"
+  },
+  "verse.ru:PS.26.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "848e3dc3c097"
+  },
+  "verse.ru:PS.26.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [
+    "«мети шав» — «люди пустоты/лжи»; в Синодальном «люди лживые», «нааламим» — «коварные» (у Синодального), в слое буквальном — «скрывающиеся»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c2061f77e128"
+  },
+  "verse.ru:PS.26.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d5a2d61ba23"
+  },
+  "verse.ru:PS.26.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "98b66bcc2d68"
+  },
+  "verse.ru:PS.26.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5679ae2de927"
+  },
+  "verse.ru:PS.26.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:48:55+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию рецензента: последнее предложение комментария теперь говорит, что Синодальный перевод («место жилища славы Твоей») сохраняет «слава», в отличие от «honour» в KJV. Остальные слои без изменений."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": "[should_fix] Rewrite the last sentence of the commentary: the Synodal («место жилища славы Твоей») keeps «слава», unlike the KJV «honour». (PS.26.8 English commentary: \"the verse says kavod, 'glory', not the 'honour' of the KJV\"; KJV: \"the place where thine honour dwelleth\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:49:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f374da0b96f"
+  },
+  "verse.ru:PS.26.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:46:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe2a53e675e4"
   }
  },
  "notes": []

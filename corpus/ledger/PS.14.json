@@ -167,7 +167,172 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.14.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:28:57+00:00",
+   "agent_notes": [
+    "Надписание «Начальнику хора. Давида.» оставлено в стихе 1, как в иврите. В пояснении Синодальный перевод упомянут только как нумерующий псалом 13 и передающий слово как «безумец»; утверждение о выделении надписания в отдельный стих убрано по замечанию рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": "[should_fix] Drop the statement that the Synodal sets the heading apart as its own verse; if the parenthesis is kept, say only that the Synodal numbers the psalm 13 and uses 'безумец'. The note on numbering in reviewer notes should be corrected the same way. (PS.14.1: \"לַמְנַצֵּחַ לְדָוִד אָמַר נָבָל\"; Synodal Ps 13 has seven verses, and v.1 includes the heading together with 'Сказал безумец…')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:29:38+00:00",
+     "note": "[consider] Consider using the same word for נָבָל in the literal layer and the gloss (either 'безумец' or 'глупец'). (PS.14.1: \"אָמַר נָבָל בְּלִבּוֹ\"; ru literal: \"Сказал глупец\", gloss pos 4: \"безумец\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6caa1523b64f"
+  },
+  "verse.ru:PS.14.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:26:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b892adbe9d4b"
+  },
+  "verse.ru:PS.14.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:26:35+00:00",
+   "agent_notes": [
+    "נֶאֱלָחוּ — «стали гнилыми, испорченными»: образ тухлого, скисшего; Синодальный даёт «сделались равно непотребными». Коренной образ запаха сохранён в глоссе и в драматическом слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "39e8b944c086"
+  },
+  "verse.ru:PS.14.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:26:35+00:00",
+   "agent_notes": [
+    "אָכְלוּ לֶחֶם — буквально «они едят хлеб» без «как»; Синодальный (как и KJV) вводит сравнение «как едят хлеб». В комментарии это оговорено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": "[consider] Gloss pos 2 as 'знают' to match the literal layer and the form. (PS.14.4: \"הֲלֹא יָדְעוּ\" (HVqp3cp); ru literal: \"Разве не знают\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "116c303bb39d"
+  },
+  "verse.ru:PS.14.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:26:35+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": "[consider] Write 'ибо Бог [—] с родом праведным' or simply 'ибо Бог с родом праведным', without bracketing 'с'. (PS.14.5: \"כִּי אֱלֹהִים בְּדוֹר צַדִּיק\"; English: \"for God [is] with a righteous generation\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2eb3870e3d66"
+  },
+  "verse.ru:PS.14.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:26:35+00:00",
+   "agent_notes": [
+    "תָבִישׁוּ — несовершенный вид («продолжаете посрамлять»); Синодальный даёт «посмеялись» (прошедшее), отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06f149f13af0"
+  },
+  "verse.ru:PS.14.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:28:57+00:00",
+   "agent_notes": [
+    "בְּשׁוּב в буквальном слое передано как «При возвращении ЙХВХ [к] плену народа своего»: неперех. оборот в согласии с глоссой «при возвращении», без переходного «возвратит … к плену»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:28:12+00:00",
+     "note": "[should_fix] In the literal layer render בְּשׁוּב as an intransitive turning or a verbal noun that agrees with the gloss, e.g. 'При возвращении ЙХВХ [к] плену народа своего' or 'Когда ЙХВХ обратится [к] плену народа своего'. Do not use transitive 'возвратит … к плену'. (PS.14.7: \"בְּשׁוּב יְהוָה שְׁבוּת עַמּוֹ\"; English literal: \"In the turning back of YHWH [to] the captivity of his people\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:29:38+00:00",
+     "note": "[consider] Consider saying 'будущее время в буквальном слое и «да возрадуется» в этом комментарии' instead of referring to the English 'will' and 'let'. (PS.14.7: \"יָגֵל יַעֲקֹב יִשְׂמַח יִשְׂרָאֵל\"; ru literal: \"возрадуется Иаков, возвеселится Израиль\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7776e08d92dc"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строка «RusSynodal» в пакете для всех стихов PS.14.1-7 содержит текст из книги Товита (Тов 14), а не Пс 13 (14). Я не опирался на неё; синодальные формулировки Пс 13 (14) («безумец», «нет Бога», «развратились», «гнусные дела», «призрел», «уклонились», «как едят хлеб», «упование его») привожу по памяти. Стоит проверить привязку синодального текста в источнике.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:26:35+00:00"
+  }
+ ]
 }

@@ -1,0 +1,975 @@
+{
+ "chapter_ref": "PS.145",
+ "items": {
+  "verse.en:PS.145.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [
+    "The Hebrew verse 1 includes the superscription; KJV and the other versions number it 145:0 and start the psalm at 145:1 after it. I translate the Hebrew verse as one unit and say so in the commentary.",
+    "STEPBible glosses אֱלוֹהַי as 'O God my' and links it to deity.yhwh; I glossed it 'my God' (the entity link is the packet's, not mine). Radak's remark that 'the name is written and not read' refers to the Ketiv/Qere of the divine name, which I did not use because the claim concerns the Hebrew form, not this verse's sense."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [
+    "I did not use 'saints' for חסידיך in the translations: the word is about covenant loyalty (ḥesed), and 'saints' carries later Christian associations. Radak also reads it as 'those who go beyond' in contemplating God's works; I kept that reading out of the translations and used it only in the commentary, as his own interpretation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [
+    "The packet shows the pronoun in the verse shifting from 'your' (v.11) to 'his' (v.12) mid-sentence. Meiri says this is the prophets' habit of switching between second and third person; I kept the Hebrew shift in the literal layer and smoothed it in the dramatic layer."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:20:20+00:00",
+   "agent_notes": [
+    "Addressed the request: the last sentence of the commentary now gives Ibn Ezra's point that the vav of gevurotav (the 'his' suffix) refers back to 'the glory of your kingdom' in verse 11, which accounts for the shift from 'your' to 'his'. Meiri's separate remark (prophetic style moves between second and third person) is kept as his own."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[should_fix] Correct the last sentence of the commentary. Ibn Ezra explains the 'his' suffix (the vav) of gevurotav as pointing back to 'your kingdom' in verse 11, which accounts for the switch from 'your' to 'his'. Also fix the same description in reviewer_notes if you repeat it. (PS.145.12, Ibn Ezra: \"וי\"ו גבורותיו - שב אל כבוד מלכותך יאמרו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:21:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:20:20+00:00",
+   "agent_notes": [
+    "Addressed the request: the sentence about royal inscriptions is deleted. The contrast kept is the one Radak and Meiri draw: a human reign ends, in the king's life or at his death, and God's has no end. Verse 13b (the nun line, tokens 9-15) is marked (X) in the packet's word table; I translated it as part of the verse but flagged it in the commentary as a line that the Masoretic text lacks in most printings. The reviewer may want to check how the packet's source treats it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[should_fix] Delete the sentence about royal inscriptions. Keep the contrast that Radak and Meiri draw: a human reign ends, in the king's life or at his death, and God's has no end. (PS.145.13 commentary: \"Royal inscriptions wished kings a long life, never an unending one\"; compare 1 Kings 1:31 \"Let my lord king David live for ever\", Daniel 2:4, Nehemiah 2:3. The contrast the packet's commentators actually draw (Radak, Meiri: human kingship 'has an end, in his life or at his death') is about the reign ending, not about wishes.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:21:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [
+    "יְשַׂבֵּרוּ is Piel of שׂבר 'to hope, look expectantly' (BDB), not שׁבר 'to break'. STEPBible gives 'they wait'; I glossed 'they look expectantly'. The five English versions agree on 'wait / look'. Meaning of 'meat' in KJV is archaic 'food'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:19:39+00:00",
+   "agent_notes": [
+    "Reviewer request addressed: the literal layer no longer uses a genitive. Hebrew has lekhol ('to/for every') with chai, then ratzon as a separate noun; I render 'satisfying to every living [thing] favour/desire' and gloss token 5 'to every' and token 6 'living [thing]'. The five English versions (KJV, YLT, ASV, Webster) all read 'the desire of every living thing'; BBE restructures as 'every living thing has its desire in full measure'. I keep the traditional sense 'desire' in the dramatic layer, as the commentators (Radak, Meiri, Metzudat David, Ibn Ezra) take it, and flag 'favour' as the other live reading of ratzon.",
+    "Malbim's reading (ratzon as the abstract subject that opens God's hand) is quoted from the packet as an outlier and is not adopted in the translation. The Rashi note contains an Old French gloss (אפיימנ״ט) that I did not try to decode or cite."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[should_fix] Make the literal layer follow the Hebrew order without a genitive, e.g. 'and satisfying every living [thing] [with] favour/desire'. Gloss token 5 'to every' or 'every' and token 6 'living [thing]'. In the commentary, say that the KJV's genitive is one reading and that the Hebrew puts ratzon as a separate object. (PS.145.16: \"וּמַשְׂבִּיעַ לְכָל־חַי רָצוֹן\" (lekhol = 'to/for every', ratzon a separate noun); YLT \"satisfying The desire of every living thing\" also smooths, but Malbim: \"הרצון הוא הפותח את ידי ה'\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:21:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [
+    "KJV 'holy' for חָסִיד is a harmonizing choice; the word is 'loyal, committed to covenant love' (ḥesed). I used 'loyal' in the literal layer; the packet's STEPBible 'faithful' is retained in the gloss. The same word is in the nun line in v13."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [
+    "BBE 'give honour to his name' for 'call to him' is an interpretive paraphrase, noted in the commentary. Radak and Ibn Ezra differ on whether 'in truth' limits the promise (only sincere callers) or defines a sincere heart; I follow the plain sense and mention the sincerity reading."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [
+    "I read the verbs as habitual imperfects ('he does/hears/saves'), as YLT does, rather than KJV's future 'will'. The ordering desire, cry, save is kept."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[consider] Say that Exodus 2:23 has the same word with the same suffix, 'their cry for help'. (PS.145.19: שַׁוְעָתָם; Exodus 2:23 \"וַתַּעַל שַׁוְעָתָם\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[consider] Rephrase: the word 'all' appears once on each side, so the guarded and the destroyed balance each other. (PS.145.20: \"אֶת־כָּל־אֹהֲבָיו וְאֵת כָּל־הָרְשָׁעִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:16:05+00:00",
+   "agent_notes": [
+    "The first clause is poetic chiasm: 'the praise of YHWH' stands first, before the verb, and 'my mouth' follows the verb. The Hebrew verb for 'bless' in the second clause is a jussive (וִיבָרֵךְ), so 'let all flesh bless'; STEPBible's 'so it may bless' is retained in the gloss."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[consider] Say that the form can be read as a jussive ('let'), a purpose clause ('so that') or a future. Keep 'let' in the literal layer as one choice, and quote Metzudat David as reading 'all flesh too will bless, like me'. (PS.145.21: morph HC/Vpu3ms; Metzudat David \"גם כל בשר יברכו וגו׳ כמוני\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [
+    "STEPBible gives lemma גַּל for גָּדוֹל, which is a lemma error (גָּדוֹל, H1419). Glossed by meaning only."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:20:20+00:00",
+   "agent_notes": [
+    "Addressed the request: the commentary and the note on yeshabbach no longer say the KJV makes the verb plural. They say only that the KJV adds 'One' and 'to another' to explain dor ledor; its verb stays singular, like the Hebrew."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[should_fix] In the commentary and in the note on יְשַׁבַּח, remove the claim that the KJV makes the verb plural. Say only that the KJV adds 'One' and 'to another' to explain dor ledor. The KJV keeps the singular, like the Hebrew. (PS.145.4: KJV \"One generation shall praise thy works to another\"; Hebrew דּוֹר לְדוֹר יְשַׁבַּח (HVpi3ms))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:21:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [
+    "Qere/Ketiv on 'your greatness': the text written (Ketiv) is plural גדולותיך 'your greatnesses', read (Qere) as singular גְּדֻלָּתְךָ. Radak explains the plural spelling as many things from the human receiver's side and the Qere as unity in God. Followed the Qere in the translation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.145.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:15:48+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:18:34+00:00",
+     "note": "[consider] Attribute the plants to Meiri alone. Either drop the claim about ANE gods or mark it as general background, and keep to the contrast Ibn Ezra and Malbim draw with human kings. (PS.145.9, Radak: \"אפי' למיני החיות והבהמות והעופות\"; Meiri: \"והוא טוב לצמחים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.145.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: заглавие в King James и родственных переводах выделено в стих 0, а в Синодальном, как и в еврейском тексте, остаётся в стихе 1 (отличается только номер псалма, 144)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Say that the KJV and related English translations split the title off as verse 0, while the Synodal, like the Hebrew, keeps it in verse 1 (only its psalm number, 144, differs). (Synodal Ps 144:1 \"Хвала Давида. Превознесу Тебя, Боже мой, Царь мой…\"; English commentary names only \"the KJV and its siblings\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e2bbe903161"
+  },
+  "verse.ru:PS.145.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Replace 'ЙХВХ' with 'YHWH' in the literal layer and in the gloss for token 2. (PS.145.10 ru literal \"Будут благодарить Тебя, ЙХВХ\"; PS.145.18 ru \"Близок YHWH\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21f243365d12"
+  },
+  "verse.ru:PS.145.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[consider] Quote the Synodal exactly, as above. (Synodal Ps 144:11 \"да проповедуют славу царства Твоего, и да повествуют о могуществе Твоем\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f16032ef696"
+  },
+  "verse.ru:PS.145.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[consider] Quote the Synodal as «о славном величии царства Твоего». (Synodal Ps 144:12 \"о славном величии царства Твоего\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "28001653e28b"
+  },
+  "verse.ru:PS.145.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [
+    "Строка на нун (вторая часть стиха 13, в квадратных скобках в английском) передана в скобках, как в английском слое; в Синодальном переводе её нет (там стих кончается на «родах и родах»). Синодальный нумерует этот псалом как Пс 144.",
+    "По замечанию рецензента: местоимения о Боге написаны с заглавной буквы (Твоё, Твоя, Своих, Его, Он) в обоих слоях и в глоссах; «вечное царство» отнесено только к KJV, «церковнославянской» убрано. То же правило проведено в стихах 14–21."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Capitalize the pronouns that refer to God (Твоё, Твоя, Своих, Его, Он) in the literal and dramatic layers and in the glosses for tokens 1, 5, 12 and 15. In the commentary, attribute 'an everlasting kingdom' to the KJV only and drop 'церковнославянской и'. (PS.145.13 ru literal \"Царство твоё [есть] царство всех веков\"; PS.145.12 ru \"могущества Его\"; PS.144.5 ru \"небеса Твои\"; Church Slavonic Ps 144:13 \"Царство Твое царство всех век\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": "[consider] Write '[есть]' (as in gloss 6) or drop the bracket: «и владычество Твоё [есть] в каждом роде и роде». (PS.145.13 ru literal \"и владычество Твоё [— ] в каждом роде и роде\"; English \"and your dominion [is] in every generation and generation\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9dae2810567f"
+  },
+  "verse.ru:PS.145.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Write 'Он' for God in the dramatic layer. In the commentary, quote the Synodal exactly: «восставляет всех низверженных». (PS.145.14 ru dramatic \"каждого, кто падает, он подпирает\"; Synodal Ps 144:14 \"восставляет всех низверженных\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2c2f66d5d44d"
+  },
+  "verse.ru:PS.145.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [
+    "yesaberu («уповают, ждут с надеждой») совпадает с Синодальным «уповают»; в драматическом слое — «ждёт»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Capitalize Тебе and Ты in the literal and dramatic layers and in the glosses for tokens 3, 5 and 6. (PS.145.15 ru literal \"Глаза всех к тебе с надеждой смотрят, и ты, дающий\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddecd85459c7"
+  },
+  "verse.ru:PS.145.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [
+    "ratzon передано в буквальном слое «благоволение/желание» (как в английском «favour/desire»), в драматическом — «желание»; Синодальный выбирает «по благоволению», комментарий это отмечает."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Write 'руку Твою' in the literal layer and in the gloss for token 3. (PS.145.16 ru literal \"Открывающий руку твою\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7e98944c05c8"
+  },
+  "verse.ru:PS.145.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [
+    "chasid переведён «предан» (верный, милостивый); Синодальный даёт «благ», что отмечено в комментарии как близкое по смыслу, но стёртое по оттенку завета."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Capitalize Своих, Его and Он for God in the literal and dramatic layers and in the glosses for tokens 4 and 7. (PS.145.17 ru literal \"Праведен YHWH во всех путях своих\"; Synodal Ps 144:17 \"во всех путях Своих\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "681c81fc2ab5"
+  },
+  "verse.ru:PS.145.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Write 'Его' for God in the literal and dramatic layers and in the glosses for tokens 4 and 7. (PS.145.18 ru literal \"ко всем призывающим его\"; Synodal Ps 144:18 \"ко всем призывающим Его\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9dbc444663f4"
+  },
+  "verse.ru:PS.145.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Capitalize Его and Он for God in the literal and dramatic layers and in the glosses for tokens 2, 3, 6 and 7. In the commentary, quote the Synodal as «Желание боящихся Его Он исполняет». (PS.145.19 ru literal \"Желание боящихся его он делает\"; Synodal Ps 144:19 \"Желание боящихся Его Он исполняет, вопль их слышит и спасает их\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c11f0059947a"
+  },
+  "verse.ru:PS.145.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[consider] Quote the Synodal as «Всякий день буду благословлять Тебя». (Synodal Ps 144:2 \"Всякий день буду благословлять Тебя\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7bf1ac516707"
+  },
+  "verse.ru:PS.145.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Capitalize Его and Он for God in the literal and dramatic layers and in the glosses for tokens 5 and 9. (PS.145.20 ru literal \"всех любящих его ... он истребляет\"; Synodal Ps 144:20 \"всех любящих Его\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d75ff6952ef"
+  },
+  "verse.ru:PS.145.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:25:31+00:00",
+   "agent_notes": [
+    "В буквальном слое «будет говорить» вместо «пусть говорит»: еврейское имперфект первого глагола не юссив, юссив только второй глагол (вивáрех)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] In the literal layer and in the gloss for token 3, write 'будет говорить' (or 'скажет') instead of 'пусть говорит'. In the commentary, say that the Synodal ('Уста мои изрекут хвалу Господа') puts 'my mouth' first, as the KJV does, and keeps only the jussive 'да благословляет'. (PS.145.21: \"תְּהִלַּת יְהוָה יְדַבֶּר־פִּי\"; English literal \"The praise of YHWH my mouth will speak\"; Synodal Ps 144:21 \"Уста мои изрекут хвалу Господа\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dca085d10841"
+  },
+  "verse.ru:PS.145.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [
+    "Божественное имя в буквальном слое и в глоссе — YHWH, как в соседних стихах (145.14, 146.1)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Replace 'ЙХВХ' with 'YHWH' in the literal layer and in the gloss for token 2. (PS.145.3 ru literal \"Велик [есть] ЙХВХ\"; PS.145.14 ru \"Поддерживающий [есть] YHWH\"; PS.146.1 ru \"душа моя, YHWH\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cfee66c073f2"
+  },
+  "verse.ru:PS.145.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[consider] Quote the Synodal as «Род роду будет восхвалять дела Твои», and write «King James, как и еврейский, сохраняет единственное число глагола». (Synodal Ps 144:4 \"Род роду будет восхвалять дела Твои\"; English \"The KJV keeps the singular verb, as the Hebrew does\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "325053261a08"
+  },
+  "verse.ru:PS.145.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном переводе заменена по просьбе рецензента: он сохраняет смысл «размышлять»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Replace the sentence about the Synodal with: «Синодальный перевод („А я буду размышлять…“) сохраняет этот смысл.», or delete it. (PS.145.5: \"אָשִׂיחָה\"; Synodal Ps 144:5 \"А я буду размышлять о высокой славе величия Твоего\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0ad3e95a5b9a"
+  },
+  "verse.ru:PS.145.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:19:28+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "21ecf6231f91"
+  },
+  "verse.ru:PS.145.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [
+    "Ссылка на Псалом 19:3 дана с номером по Синодальной нумерации в скобках (Синод. 18:3)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Write 'в Псалме 19 (19:3)' in the commentary; if you mention the Synodal number, add it in parentheses (Синод. 18:3). (PS.145.7 English commentary \"used in Psalm 19 for 'day to day pours out speech'\"; ru note \"ссылаясь на Псалом 19:3\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bdca07b1d18e"
+  },
+  "verse.ru:PS.145.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [
+    "Синодальное чтение процитировано как «щедр и милостив»; YHWH в буквальном слое и в глоссе."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Replace 'ЙХВХ' with 'YHWH' in the literal layer and in the gloss for token 3. In the commentary, quote the Synodal as «щедр и милостив». (PS.145.8 ru literal \"Благодатен и милосерден ЙХВХ\"; Synodal Ps 144:8 \"Щедр и милостив Господь, долготерпелив и многомилостив\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3710706f1ca2"
+  },
+  "verse.ru:PS.145.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:24:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:23:23+00:00",
+     "note": "[should_fix] Replace 'ЙХВХ' with 'YHWH' in the literal layer, in the gloss for token 2 and in the commentary («благ YHWH»). (PS.145.9 ru literal \"Благ ЙХВХ ко всему\"; PS.145.17 ru \"Праведен YHWH\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:26:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "285a680b76f7"
+  }
+ },
+ "notes": []
+}

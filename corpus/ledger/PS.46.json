@@ -278,6 +278,272 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.46.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:49+00:00",
+   "agent_notes": [
+    "Имя «Корах» дано по Синодальному: «сынов Кореевых», как в PS.44; «аламоф» цитируется по Синодальному («На аламоф»), в собственном переводе — «аламот» по транслитерации."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[should_fix] Write «сынов Кореевых» in translation_literal, translation_dramatic and the commentary, and gloss pos 3 as «Кореевых» (or «Корея»). Quote the Synodal as «На аламоф» instead of «на музыку: „аламоф“». (PS.46.1: \"לִבְנֵי־קֹרַח\"; Synodal Ps 45:1: \"Начальнику хора. Сынов Кореевых. На аламоф. Песнь.\"; corpus/i18n/ru/PS.44.json: «сынов Кореевых».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36c6fb20cacb"
+  },
+  "verse.ru:PS.46.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [
+    "עֲגָלוֹת: в обоих слоях «повозки»; Синодальное «колесницы» вынесено в комментарий как поддержанное традицией толкование."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2de8b810e4ac"
+  },
+  "verse.ru:PS.46.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [
+    "הַרְפּוּ: Синодальное «Остановитесь» близко к военному смыслу «опустите руки»; драматический слой выбирает «Опустите руки», как английский."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[consider] Consider «Отпустите. Опустите руки — и познайте…», closer to the English, leaving the weapon to the commentary. (PS.46.11: \"הַרְפּוּ\"; English dramatic: \"Let go. Drop your hands, and know that I am God.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "29e88c76fbc6"
+  },
+  "verse.ru:PS.46.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "149a014658b1"
+  },
+  "verse.ru:PS.46.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d4862954b00"
+  },
+  "verse.ru:PS.46.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[should_fix] Replace «в Синодальном „пришла в смятение“ тоже иначе» with «в Синодальном „поколебалась“ тоже иначе» (or drop the Synodal comparison). (Synodal Ps 45:3: \"посему не убоимся, хотя бы поколебалась земля, и горы двинулись в сердце морей.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6adc9b256f5e"
+  },
+  "verse.ru:PS.46.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:49+00:00",
+   "agent_notes": [
+    "Суффикс -ו (3 л. м. р. ед.) не может относиться к אֶרֶץ (женского рода, стих 3), поэтому «его» — моря; Синодальный ставит «их». Пары звуков «г-м» и «х-м» соответствуют транслитерации йегему йехмеру."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[should_fix] In translation_literal, translation_dramatic and the glosses for pos 3 and 6, replace «её» with «его» (моря), e.g. «воды его», «от его вздымания», or «их» as the Synodal does with «моря». In directors_commentary, drop «и Синодальный» from «(так KJV и Синодальный, продолжая третий стих)» and say the Synodal reads «Пусть шумят». Also make the sound pair «г-м» и «х-м» to match the transliteration йегему йехмеру. (PS.46.4: \"מֵימָיו … בְּגַאֲוָתוֹ\" (morph Sp3ms); PS.46.3: \"בְּהָמִיר אָרֶץ\" (אֶרֶץ feminine). Synodal Ps 45:4: \"Пусть шумят, вздымаются воды их, трясутся горы от волнения их.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec30cb1da83a"
+  },
+  "verse.ru:PS.46.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[consider] Consider «имперфект пиэля» here and «имперфект» in verse 4. (PS.46.5: \"יְשַׂמְּחוּ\" (HVpi3mp); PS.46.4 commentary: «Глаголы стоят в несовершенном виде».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fe73302aa4ef"
+  },
+  "verse.ru:PS.46.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [
+    "לִפְנוֹת בֹּקֶר: буквально «на повороте утра»; Синодальный — «с раннего утра». Отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0be0ea5a4dd"
+  },
+  "verse.ru:PS.46.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:49+00:00",
+   "agent_notes": [
+    "Синодальный добавляет подлежащее «Всевышний» там, где в еврейском только глагол נָתַן; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": "[should_fix] Replace the closing quotation with the Synodal text: «Восшумели народы; двинулись царства: Всевышний дал глас Свой, и растаяла земля» (and, if you comment on it, note that the Synodal supplies «Всевышний» where the Hebrew has only the verb נָתַן). (Synodal Ps 45:7: \"Восшумели народы; двинулись царства: Всевышний дал глас Свой, и растаяла земля.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:28:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a4f75f591f6"
+  },
+  "verse.ru:PS.46.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [
+    "Имя YHWH сохранено в буквальном слое; в драматическом — «Господь» по Синодальному переводу. «Господь сил» — как в Синодальном переводе, в глоссе «воинств»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1198c98530d1"
+  },
+  "verse.ru:PS.46.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:23:49+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:25:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3ac64a4dfdfe"
   }
  },
  "notes": []

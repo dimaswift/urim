@@ -406,7 +406,405 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.7.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:30+00:00",
+   "agent_notes": [
+    "По замечанию рецензента ссылка на стих исправлена: «(ст. 15; в KJV ст. 14)» — в соответствии с еврейской и синодальной нумерацией, о которой сказано выше в комментарии.",
+    "Имя Куш в литературном слое передано как «Хус» (так в Синодальном переводе), в буквальном слое — «Куш» по еврейскому тексту."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[should_fix] Say that the verses are numbered one higher than in the KJV only (the Synodal numbers the title as verse 1, like the Hebrew), and replace «сын Иеминиев» with the Synodal's own «из племени Вениаминова». In the commentary call the man «Хус» throughout, mentioning the Hebrew form «Куш» once; the literal layer may keep «Куш». (PS.7.1 (Synodal): «Плачевная песнь, которую Давид воспел Господу по делу Хуса, из племени Вениаминова»; Synodal 7:2 is «Господи, Боже мой! на Тебя я уповаю», as in the Hebrew numbering; PS.7.16 ru commentary: «в Синодальном нумерация совпадает с еврейской».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:21:50+00:00",
+     "note": "[should_fix] In the commentary replace «(ст. 15 по KJV, ст. 16 в Синодальном)» with «(ст. 15; в KJV ст. 14)», so the reference agrees with the Hebrew and Synodal numbering stated above. (PS.7.15: «הִנֵּה יְחַבֶּל־אָוֶן» = Synodal 7:15 «Вот, нечестивый зачал неправду…» = KJV 7:14 'Behold, he travaileth with iniquity'; en PS.7.1 commentary: \"'he travails with iniquity' (v. 15)\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:23:25+00:00",
+     "note": "[consider] Give each gloss a self-contained form, e.g. pos 9 «вениамитянина (бен-)», pos 10 «(-иемини; одно слово с предыдущим)»; optionally note that the Synodal renders shiggaion as «Плачевная песнь». (PS.7.1 ru glosses: pos 9 «вениамитянина («бен-»», pos 10 «иемини — одно слово)»; Synodal 7:1 «Плачевная песнь, которую Давид воспел Господу по делу Хуса, из племени Вениаминова».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06509116e69f"
+  },
+  "verse.ru:PS.7.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [
+    "«Утробы» (Синодальный) = «почки» (ивр. kelayot); в буквальном слое «почки», в литературном — «почки», в комментарии сказано, что Синодальный выбирает «утробы»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b30236ce41f7"
+  },
+  "verse.ru:PS.7.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bf94ddbf6c33"
+  },
+  "verse.ru:PS.7.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6527e7a87441"
+  },
+  "verse.ru:PS.7.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:36+00:00",
+   "agent_notes": [
+    "Пакет приводит в качестве «RusSynodal» для всех шести стихов тексты из другой книги (Товит), поэтому сверка с Синодальным переводом сделана по памяти: Синодальный в ст. 13–14 делает подлежащим Бога («Он изострит меч Свой»), в ст. 14 читает «палящими». Это отмечено в комментариях."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[consider] Use Cyrillic transliteration in the prose of vv. 13-18 as in vv. 1-12, and one spelling of Metzudat Zion across the chapter. (PS.7.13 ru: «это darakh, „наступать“»; PS.7.7 ru: «„Ярости“ (эврот)»; PS.7.3 ru: «Мецудат Цийон»; PS.7.14 ru: «Мецудат Цион».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c0f4fd9f18c2"
+  },
+  "verse.ru:PS.7.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:36+00:00",
+   "agent_notes": [
+    "לְדֹלְקִים: в буквальном слое «для горящих» (причастие), в драматическом — «огненные», как в Синодальном («палящими»); второе прочтение («преследователи», как в KJV) сохранено в комментарии и примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "58ae3359d6d1"
+  },
+  "verse.ru:PS.7.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:33+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно, по просьбе рецензента: «Вот, нечестивый зачал неправду, был чреват злобою и родил себе ложь». В комментарии отмечено, что Синодальный ставит зачатие первым и добавляет подлежащее «нечестивый». Строка RusSynodal в пакете относится к другому стиху (Рагуил и Една) и не использовалась.",
+    "Слова aven, amal, sheqer переданы как «нечестие», «пагуба», «ложь», как и прежде. «Пагуба» для amal сохранена ради единообразия с прежним переводом; «нечестие» для aven — по смыслу «беззакония»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Вот, нечестивый зачал неправду, был чреват злобою и родил себе ложь») or drop the quotation; if kept, note that it puts conception first and adds «нечестивый». (PS.7.15 (Synodal): «Вот, нечестивый зачал неправду, был чреват злобою и родил себе ложь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cbd02ebbcb88"
+  },
+  "verse.ru:PS.7.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:36+00:00",
+   "agent_notes": [
+    "Русская игра слов «ров» / «яма» передаёт пару בּוֹר / שַׁחַת, как и «выкопал … углубил» передаёт пару כָּרָה / חָפַר."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[consider] Quote the Synodal exactly or present the wording without quotation marks as a paraphrase. (Synodal 7:16 «рыл ров, и выкопал его, и упал в яму, которую приготовил»; 7:17 «злоба его обратится на его голову, и злодейство его упадет на его темя»; 7:18 «Славлю Господа по правде Его и пою имени Господа Всевышнего»; 7:4 «неправда в руках моих»; 7:13 «Он изощряет Свой меч».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c8e182e132d"
+  },
+  "verse.ru:PS.7.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:36+00:00",
+   "agent_notes": [
+    "Ключевой повтор корня שׁוּב (ст. 13 и 17) передан как «обратится» в обоих местах, как в Синодальном; «עמל» везде «пагуба», «חמס» — «злодейство» по Синодальному, а в буквальном слое — «насилие»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74865b66e4be"
+  },
+  "verse.ru:PS.7.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[consider] Remove the stray opening quotation mark. (PS.7.18 ru: «„Элион, Всевышний, — древний титул…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c09b89807a49"
+  },
+  "verse.ru:PS.7.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3add76a87201"
+  },
+  "verse.ru:PS.7.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b89386931ac8"
+  },
+  "verse.ru:PS.7.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [
+    "«Руки/ладони»: ивр. kappai — «ладони»; в литературном слое «на моих ладонях», как в английском, хотя Синодальный говорит «на руках моих»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f74a9b18b592"
+  },
+  "verse.ru:PS.7.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:57+00:00",
+   "agent_notes": [
+    "Запрос ревьюера выполнен: приведена подлинная формулировка Синодального («я, который спасал даже того, кто без причины стал моим врагом») и сказано, что она, как KJV и ASV, передаёт утвердительное чтение Радака."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[should_fix] Replace the sentence about the Synodal with its real wording («я, который спасал даже того, кто без причины стал моим врагом») and say that, like the KJV and ASV, it renders Radak's affirmative reading. (PS.7.5 (Synodal): «если я платил злом тому, кто был со мною в мире, — я, который спасал даже того, кто без причины стал моим врагом, —».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:21:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1b5e7528faf0"
+  },
+  "verse.ru:PS.7.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": "[consider] Consider «втопчет в землю» in the literal layer. (PS.7.6: «וְיִרְמֹס לָאָרֶץ חַיָּי»; Synodal «пусть втопчет в землю жизнь мою».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3b5aceafe549"
+  },
+  "verse.ru:PS.7.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c1c751812562"
+  },
+  "verse.ru:PS.7.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad6f475ea401"
+  },
+  "verse.ru:PS.7.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:17:18+00:00",
+   "agent_notes": [
+    "Слово «непорочность» (Синодальный: «по непорочности моей во мне») заменено в литературном слое образом «цельность, которую ношу на себе», как в английском слое; в комментарии отмечено, что так читает составитель, а не комментаторы."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:19:46+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f517d2c8f0c8"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете взяты из Книги Товита (Тов 7), а не из Пс 7: сверка с синодальным текстом по пакету невозможна. Ссылки на Синодальный перевод в комментариях сделаны по тексту Пс 7 как он есть в Синодальной Библии (в ней заглавие не нумеруется, и стихи на единицу меньше, чем в еврейской нумерации).",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:17:18+00:00"
+  }
+ ]
 }

@@ -395,7 +395,425 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.10.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:58+00:00",
+   "agent_notes": [
+    "Синодальный Пс 9:22 («стоишь вдали, скрываешь Себя во время скорби») цитируется точно; возвратное «Себя» в нём есть, как и в KJV, а в иврите его нет. Так что синодальный перевод здесь делает тот же выбор, что и KJV.",
+    "Блок «RusSynodal» в пакете для PS.10.1–7 содержит текст книги Товита, а не псалма (сбой выравнивания); я опирался на синодальный текст Пс 9:22–28, который привёл рецензент."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Quote the Synodal as «скрываешь Себя» and say that it, like the KJV, adds the reflexive; or drop the Synodal from the sentence as the English has it. (PS.10.1 RU: «Синодальное „стоишь вдали, скрываешься“ и KJV … близки к тексту, но в KJV „thyself“ („себя“) добавлено». Synodal Ps 9:22: «Для чего, Господи, стоишь вдали, скрываешь Себя во время скорби?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "81f5ac0c0ced"
+  },
+  "verse.ru:PS.10.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e489a4183f9"
+  },
+  "verse.ru:PS.10.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8e3666e9619f"
+  },
+  "verse.ru:PS.10.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [
+    "«Смиренных» (Кере) против «бедных» (Ктив); Синодальный здесь «не забудь угнетённых» — смысл близкий, но не тот же."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "085ff172faf3"
+  },
+  "verse.ru:PS.10.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:42+00:00",
+   "agent_notes": [
+    "Блок «RusSynodal» в пакете для этого стиха содержит посторонний текст (Тов 11); сверка с Синодальным переводом сделана по памяти: Пс 9:32 «Для чего нечестивый пренебрегает Бога, говоря в сердце своем: „Ты не взыщешь“?». Нумерация стихов в Синодальном тексте иная (Пс 9:22–39 соответствует Пс 10 в еврейской Библии)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[consider] Keep the source keys as the English has them. (PS.10.13 sources: «Радак на Пс 10:13», «Мецудат-Давид на Пс 10:13».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4274bde0091f"
+  },
+  "verse.ru:PS.10.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:43+00:00",
+   "agent_notes": [
+    "Синодальный текст (Пс 9:35) процитирован дословно; как и KJV, он добавляет «себя», которого нет в еврейском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Drop the Synodal sentence, or quote Ps 9:35 exactly («Тебе предает себя бедный; сироте Ты помощник») and note that, like the KJV, it supplies 'себя'. (PS.10.14 RU: «Синодальный перевод передаёт ту же мысль словами „тебе предоставлен бедный; Ты помощник сироте“». Synodal Ps 9:35: «Тебе предает себя бедный; сироте Ты помощник».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1c0b4b19d835"
+  },
+  "verse.ru:PS.10.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:43+00:00",
+   "agent_notes": [
+    "Синодальный текст (Пс 9:36) процитирован дословно; он превращает обрывающуюся концовку в придаточное цели, как и «till thou find none» в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Drop the Synodal sentence, or quote Ps 9:36 exactly («Сокруши мышцу нечестивому и злому, так чтобы искать и не найти его нечестия») and say that, like the KJV, it turns the ending into a purpose clause. (PS.10.15 en commentary has no Synodal sentence; RU: «Синодальный перевод („Сокруши мышцу нечестивого и злого; взыщи нечестие его, и не найдёшь его“) сохраняет ту же обрывающуюся концовку». Synodal Ps 9:36 reads «Сокруши мышцу нечестивому и злому, так чтобы искать и не найти его нечестия».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": "[consider] Write «актёр» for «актор». (PS.10.15 RU: «Пусть актор оставит последнюю фразу висеть в воздухе»; PS.10.3 RU: «и актёр должен играть именно так».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0cc3cc78f278"
+  },
+  "verse.ru:PS.10.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[consider] Quote «исчезнут язычники с земли Его». (Synodal Ps 9:37: «Господь — царь на веки, навсегда; исчезнут язычники с земли Его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32cfa196c312"
+  },
+  "verse.ru:PS.10.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:43+00:00",
+   "agent_notes": [
+    "Синодальный текст (Пс 9:38) процитирован дословно; он ставит глаголы в повелительное наклонение («укрепи», «открой»), в отличие и от еврейского, и от KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Drop the Synodal sentence, or quote Ps 9:38 exactly and say that it turns the two imperfects into imperatives («укрепи», «открой»), unlike both the Hebrew and the KJV. (PS.10.17 en commentary has no Synodal sentence; RU: «Синодальный перевод („…укрепишь сердце их, приклонишь ухо Твоё“) читает глаголы в настоящем и будущем, как и KJV». Synodal Ps 9:38: «Господи! Ты слышишь желания смиренных; укрепи сердце их; открой ухо Твое».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": "[consider] Write «актёру» for «актору». (PS.10.17 RU: «и актору стоит дать голосу успокоиться».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "75db22f5a364"
+  },
+  "verse.ru:PS.10.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:35:43+00:00",
+   "agent_notes": [
+    "Синодальный текст (Пс 9:39) процитирован дословно; он сохраняет «устрашает», но «от земли» превращает в «на земле»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Drop the Synodal sentence, or quote Ps 9:39 exactly and say it keeps 'устрашает' but turns 'from the earth' into 'на земле'. (PS.10.18 RU: «Синодальный перевод („чтобы человек, от земли, не устрашал более“) близок к еврейскому и сохраняет „устрашал“». Synodal Ps 9:39: «чтобы дать суд сироте и угнетенному, да не устрашает более человек на земле».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9ac6d67af76"
+  },
+  "verse.ru:PS.10.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9228fbcc93a1"
+  },
+  "verse.ru:PS.10.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6db77a1c500f"
+  },
+  "verse.ru:PS.10.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [
+    "Идиому «высота носа его» в литерале оставил буквальной; в драматическом слое — «задирает нос», близко к русской идиоме, но без добавления фактов."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e508eff1af3"
+  },
+  "verse.ru:PS.10.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[consider] Write «высоко [—] суды твои» and align 'тверды' / 'преуспевают' between the literal, gloss and note. (PS.10.5 RU literal: «Пути его тверды … высоко [суды] твои»; en: 'on high [are] your judgments'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f4efa8597d47"
+  },
+  "verse.ru:PS.10.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dde96d496e93"
+  },
+  "verse.ru:PS.10.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:34:58+00:00",
+   "agent_notes": [
+    "«Клятвенного проклятия» — родительный при «полон»: מָלֵא управляет родительным (ср. «полон рот его»). Глоссу pos 1 привёл в соответствие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": "[should_fix] Write «Клятвенного проклятия полон рот его, и обманов, и притеснения» (and the gloss pos 1 «клятвенного проклятия» if you want it to match). (PS.10.7 RU literal: «Клятвенное проклятие полон рот его, и обманов, и притеснения»; Hebrew אָלָה פִּיהוּ מָלֵא וּמִרְמוֹת וָתֹךְ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:36:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "29e3b3da5e4d"
+  },
+  "verse.ru:PS.10.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [
+    "Слово chelekhah оставлено с глоссой «несчастному» (по Радаку и Мецудат Цион); чтение Раши («войско твоё») приведено в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "136fb97b5e3b"
+  },
+  "verse.ru:PS.10.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:20:14+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:34:11+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "09556f0c6321"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.10.1–12 содержат текст книги Товита, а не псалма: в пакете сбита сверка с Синодальным переводом. Переводил с иврита и английских слоёв; синодальную параллель (Пс 9:22–34 по русской нумерации, где Пс 9 и 10 слиты) стоит подставить вручную.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:20:14+00:00"
+  },
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.10.1–12 содержат текст книги Товита, а не псалма: в пакете сбита сверка с Синодальным переводом. Переводил с иврита и английских слоёв; синодальную параллель (Пс 9:22–34 по русской нумерации, где Пс 9 и 10 слиты) стоит подставить вручную.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:32:19+00:00"
+  }
+ ]
 }

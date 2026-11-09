@@ -1,0 +1,360 @@
+{
+ "chapter_ref": "PS.124",
+ "items": {
+  "verse.en:PS.124.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:36+00:00",
+   "agent_notes": [
+    "Revised per the reviewer's request: the 'partisan LORD' claim is gone and Ibn Ezra's Joshua 5:13 reading now supports 'on our side'. The KJV is no longer said to add 'now may Israel say'; the KJV keeps the Hebrew order, and the fronting is Metzudat David's סרס המקרא (reordering of the verse). The superscription (KJV 124:0) is rendered with the verse; לְדָוִד is glossed 'of David' as the packet has it, and its sense (by, for, or belonging to David) is left open in the note.",
+    "The five English versions split on נָא: KJV and ASV render it 'now', YLT 'Pray', BBE 'let ... now'. I kept 'please' in the literal layer and 'now' in the dramatic one, following Ibn Ezra's עתה (Ibn Ezra on Ps 124:1)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[should_fix] In the directors_commentary of PS.124.1, drop the claim that 'on our side' wrongly makes the LORD a partisan. Say instead that Ibn Ezra's Joshua 5:13 reading supports it. Also drop the claim that the KJV adds 'now may Israel say': the KJV keeps the Hebrew order, and Metzudat David's סרס המקרא is the reading that moves the clause to the front. (PS.124.1: \"לוּלֵי יְהוָה שֶׁהָיָה לָנוּ יֹאמַר־נָא יִשְׂרָאֵל\"; Ibn Ezra: \"שהיה לנו - כמו הלנו אתה אם לצרינו\"; Radak (124:2): \"לנו, כמו עמנו\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:46:29+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:45:36+00:00",
+   "agent_notes": [
+    "Revised per the reviewer's request: the literal layer now reads 'a torrent would have passed over our soul', matching the gloss and the repeated phrase in v. 5. The throat/life sense of נֶפֶשׁ sits in the note and the commentary. Rashi's reading of נַחְלָה as 'sickness' is mentioned but not followed; Radak, Meiri and Metzudat David take it as a torrent with a paragogic ה."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[should_fix] Make the literal layer of PS.124.4 'a torrent would have passed over our soul', so it matches the gloss and v. 5. Leave the throat/life sense in the נַפְשֵׁנוּ note and the commentary. (PS.124.4: \"נַחְלָה עָבַר עַל־נַפְשֵׁנוּ\"; PS.124.5: \"אֲזַי עָבַר עַל־נַפְשֵׁנוּ\"; v. 5 commentary: \"'passed over our soul' is repeated from verse 4\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:46:29+00:00",
+     "note": "[consider] Say that the KJV adds the article ('the stream') where the Hebrew has the bare noun, rather than calling 'torrent' the singular. (PS.124.4: \"נַחְלָה עָבַר\"; KJV: \"the stream had gone over our soul\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [
+    "עָבַר is singular with plural הַמַּיִם. Meiri and Radak cite Numbers 19:13 for the pattern, and Ibn Ezra reads it as picking up the singular נחל of v. 4. I kept the singular 'it had passed' in the literal layer.",
+    "הַזֵּידוֹנִים occurs only here in the Hebrew Bible (HALOT, BDB). The root is זיד, 'to seethe' or 'boil up', which gives 'seething' or 'raging' here and 'insolent' in the related זָדוֹן. The English versions split between 'proud' (KJV, ASV, YLT) and 'waters of pride' (BBE). I chose 'seething' for the literal layer to keep the sense of foaming that the water image needs."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[consider] Attribute the repetition remark to Metzudat David alone. (Metzudat David on 124:5: \"וכפל הדבר פעמים ושלש להתחזקות\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[consider] Replace Metzudat David with Meiri in that sentence, and consider trimming 'torn and bleeding'. (Ibn Ezra: \"שב אל בלעונו חיים\"; Meiri: \"ואחר שאמר אזי חיים בלעונו אמ׳ ברוך ה׳\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [
+    "Verb tenses in vv. 3-5 are perfects in the 'then' clause of an unreal condition ('would have swallowed'), while v. 7 shifts to a true past ('has escaped'). I translated the shift as it stands."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[consider] List Psalm 91:3 with the other parallels and drop 'mainly'. Either say concretely what the KJV obscures or drop that clause. (PS.91.3: \"כִּי הוּא יַצִּילְךָ מִפַּח יָקוּשׁ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.124.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:42:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:41+00:00",
+     "note": "[consider] Either source the claim about the gods of the nations or soften it, and drop 'the sea' or attribute it to the Targum. (PS.124.8: \"עֹשֵׂה שָׁמַיִם וָאָרֶץ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.124.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:55:14+00:00",
+   "agent_notes": [
+    "Commentary: the Synodal quotation now reads exactly «Если бы не Господь был с нами, — да скажет Израиль, —»; nothing else changed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly: «Если бы не Господь был с нами, — да скажет Израиль, —». Change nothing else. (Синодальный, Пс 123:1: «Если бы не Господь был с нами, — да скажет Израиль, —»; the commentary quotes: «Если бы не Господь был с нами, — пусть скажет Израиль, —»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec26bda2d2a4"
+  },
+  "verse.ru:PS.124.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "231088ba8423"
+  },
+  "verse.ru:PS.124.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:38+00:00",
+   "agent_notes": [
+    "«Ярость» в драматическом слое и «в разгорании их носа» в буквальном: образ ноздри сохранён только в буквальном слое и в комментарии. Синодальный здесь: «когда возгорелась ярость их на нас»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0b95366be87b"
+  },
+  "verse.ru:PS.124.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:38+00:00",
+   "agent_notes": [
+    "В драматическом слое английское «flooding the dry bed» передано как «затопляя сухое русло»; в комментарии «wadi» дано как «русло (вади)» при первом упоминании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9cd04a3d152e"
+  },
+  "verse.ru:PS.124.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:55:14+00:00",
+   "agent_notes": [
+    "Literal layer: kept the singular «прошёл бы», as the Hebrew עָבַר and the English do, with the subject saved for the end after a dash; the dramatic layer is unchanged."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": "[should_fix] Keep the singular in translation_literal, as the English does, for example: «Тогда прошёл бы над душою нашей — воды, вздымающиеся.» Leave the dramatic layer as it is. (PS.124.5: \"אֲזַי עָבַר עַל־נַפְשֵׁנוּ הַמַּיִם הַזֵּידוֹנִים\" (עבר: 3ms); English literal: \"Then it would have passed over our soul, the waters, the seething.\"; ru gloss pos 2: «прошёл бы»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2437f4806cc9"
+  },
+  "verse.ru:PS.124.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35f285342f8b"
+  },
+  "verse.ru:PS.124.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:55:14+00:00",
+   "agent_notes": [
+    "Commentary: the Synodal quotation now reads exactly «Душа наша избавилась, как птица, из сети ловящих: сеть расторгнута, и мы избавились»; nothing else changed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": "[should_fix] In directors_commentary, quote the Synodal exactly: «Душа наша избавилась, как птица, из сети ловящих: сеть расторгнута, и мы избавились». Change nothing else. (Синодальный, Пс 123:7: «Душа наша избавилась, как птица, из сети ловящих: сеть расторгнута, и мы избавились»; the commentary quotes «Душа наша спаслась, как птица, из сети ловящих…»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:55:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4611797f68d8"
+  },
+  "verse.ru:PS.124.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:52:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "08c03d2eb0dc"
+  }
+ },
+ "notes": []
+}

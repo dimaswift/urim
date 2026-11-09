@@ -512,6 +512,579 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.71.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 70:1) передаёт ḥāsâ как «уповаю», а bôsh как «да не постыжусь». В буквальном слое я оставил телесный образ («я укрылся») и «стыд», а в комментарии указал, что Синодальный выбирает более отвлечённое «уповаю»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[consider] On a later pass, restore the English source strings in v.1–12 and capitalise the divine pronouns in the literal layer of v.1–8. (PS.71.1 sources: \"Меири на Псалом 71:1\"; PS.71.13 sources: \"Metzudat Zion on Psalm 71:13\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ac5a99461d2c"
+  },
+  "verse.ru:PS.71.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a606c0eec0d"
+  },
+  "verse.ru:PS.71.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [
+    "Радап — «гонитесь»; Синодальный «преследуйте» близок к KJV «persecute», которое комментарий находит слабым; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Quote the Synodal as above and say it gives 'преследуйте', close to the KJV's 'persecute' that the commentary finds too weak; or drop the Synodal sentence. (Synodal Пс 70:11: \"говоря: «Бог оставил его; преследуйте и схватите его, ибо нет избавляющего».\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b27b8354fc4"
+  },
+  "verse.ru:PS.71.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a83050ac7e08"
+  },
+  "verse.ru:PS.71.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:44+00:00",
+   "agent_notes": [
+    "שֹׂטְנֵי передано как «обвинители», чтобы сохранить судебный оттенок корня; Синодальный перевод читает «враги души моей» и теряет его. В комментарии это сказано."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c462d36a202f"
+  },
+  "verse.ru:PS.71.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "По замечанию рецензента Синодальное процитировано полностью (Пс 70:14) и сказано, что оно, как и KJV, опускает «всей» и образ счёта; прежнее «надеюсь в Синодальном» исправлено на «уповать»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Quote the Synodal as above and say that, like the KJV, it drops 'всей' and the counting picture; or drop both Synodal remarks. (Synodal Пс 70:14: \"А я всегда буду уповать и умножать хвалу Тебе.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3aaffb5031ba"
+  },
+  "verse.ru:PS.71.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "Синодальное «не знаю им числа» приведено точно; игра слов «рассказывать/считать» сохранена голосом, как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Replace «не знаю счёта» with «не знаю им числа» in the Synodal remark. (Synodal Пс 70:15: \"Уста мои будут возвещать правду Твою, всякий день благодеяния Твои, ибо я не знаю им числа.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "03889c5cc8c4"
+  },
+  "verse.ru:PS.71.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "Замечание принято: Синодальное «Войду в размышление о силах Господа Бога» названо как сохраняющее множественное число."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Drop 'Синодальное «в силе» делает то же' or replace it with: 'Синодальный («Войду в размышление о силах Господа Бога») сохраняет множественное число.' (Synodal Пс 70:16: \"Войду в размышление о силах Господа Бога; воспомяну правду Твою — единственно Твою.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fb0cd964ee56"
+  },
+  "verse.ru:PS.71.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2c909fe23a9"
+  },
+  "verse.ru:PS.71.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "Синодальное «силы Твоей» поставлено рядом с KJV («strength»): оно теряет образ руки. Сам перевод слоёв («мышцу Твою») не менялся."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Replace 'Синодальное «мышцу Твою» сохраняет её' with 'Синодальное «силы Твоей» делает то же, что KJV'. (Synodal Пс 70:18: \"доколе не возвещу силы Твоей роду сему и могущества Твоего всем грядущим.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a058ab5958e3"
+  },
+  "verse.ru:PS.71.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "В Синодальном «до превыспренних» — место сохранено, но слово церковнославянского склада."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Replace «до небес» with «до превыспренних» in the Synodal remark. (Synodal Пс 70:19: \"Сила Твоя и правда Твоя, Боже, до превыспренних.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "29f93c6049a3"
+  },
+  "verse.ru:PS.71.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [
+    "Глаголы 3 и 7 различены: תפלטני (palat) — «освободишь меня», הושיעני (yasha') — «спаси меня»; в 3-м слове имперфект, в 7-м повеление. Литерал следует иврита, а не Синодальному, где оба первых глагола — повеления."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Literal: 'В правде Твоей Ты избавишь меня и выведешь меня; приклони ко мне ухо Твоё и спаси меня.' Gloss pos 3 'и выведешь меня', pos 7 'и спаси меня'. (PS.71.2: \"וּֽתְפַלְּטֵ֑נִי ... וְהוֹשִׁיעֵֽנִי\" (H6403 deliver; H3467 save); English literal \"you will deliver me ... and save me\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": "[consider] Optional: 'выведешь меня' for וּתְפַלְּטֵנִי would echo the escape image the v.4 commentary gives palet. (PS.71.2: \"תַּצִּילֵנִי וּֽתְפַלְּטֵנִי\" (English literal: \"you will rescue me and you will deliver me\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6cb9ee6c6aa7"
+  },
+  "verse.ru:PS.71.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "Синодальное «посылал на меня» названо ближним к BBE «sent»; замечание об «опять» оставлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Replace 'Синодальное «Ты показал мне» стоит с KJV' with 'Синодальное «посылал на меня» стоит с BBE'; the remark on 'опять' can stay. (Synodal Пс 70:20: \"Ты, Который посылал на меня многие и лютые беды, и опять оживишь меня\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48cdf332ad4f"
+  },
+  "verse.ru:PS.71.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "«Смысл в том, что Бог снова обращается к нему» — по замечанию рецензента вместо буквального «приходит вокруг»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Write 'Смысл в том, что Бог снова обращается к нему' (or 'возвращается к нему'). (PS.71.21 English commentary: \"The sense is of God coming round\"; ru: \"Смысл — Бог приходит вокруг\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e48aa6b73381"
+  },
+  "verse.ru:PS.71.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:44+00:00",
+   "agent_notes": [
+    "נֶבֶל — «арфа» в Синодальном переводе, а כִּנּוֹר — «гусли». В тексте оставлены «лира» (נֶבֶל) и «кинор»-«арфа» по английскому слою; в комментарии отмечено расхождение с Синодальным. Стоит проверить, не лучше ли писать «псалтирь» и «гусли» как у Синодального."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c60e54fdaaa"
+  },
+  "verse.ru:PS.71.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:26+00:00",
+   "agent_notes": [
+    "Синодальное процитировано (Пс 70:23): «избавил», тогда как «redeemed» только в KJV. В английском слое «искупил/выкупил» для פדה сохранено как в прежней версии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Quote the Synodal as above; say only the KJV has 'which thou hast redeemed', and that the Synodal has 'избавил'. (Synodal Пс 70:23: \"Радуются уста мои, когда я пою Тебе, и душа моя, которую Ты избавил.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "81a34d130060"
+  },
+  "verse.ru:PS.71.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:44+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[consider] Quote the Synodal as above and note it keeps the doubled 'ибо'. (Synodal Пс 70:24: \"ибо постыжены, ибо посрамлены ищущие мне зла.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "686b0a60c18e"
+  },
+  "verse.ru:PS.71.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [
+    "Цитата Синодального заменена точной (Пс 70:3). Для сэла и мецуда у Синодального «гора» и «ограда»; в литерале оставлены «утёс» и «твердыня»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Replace the quotation with the Synodal wording above and say it gives 'гора' and 'ограда' for 'утёс' and 'твердыня', or drop the Synodal sentence. (Synodal Пс 70:3: \"Будь мне твердым убежищем, куда я всегда мог бы укрываться; Ты повелел спасти меня, ибо Ты гора моя и ограда моя.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a48164c397aa"
+  },
+  "verse.ru:PS.71.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ed27406f85bc"
+  },
+  "verse.ru:PS.71.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Quote it as above and say the Synodal keeps both nouns, 'надежда' and 'упование', and the double title 'Господи Боже'; or drop the Synodal sentence. (Synodal Пс 70:5: \"ибо Ты — надежда моя, Господи Боже, упование мое от юности моей.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b014dc1c78e0"
+  },
+  "verse.ru:PS.71.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [
+    "Глагол gôzî переведён в буквальном слое как «ты — тот, кто отсёк меня» (пуповину) с пометой в скобках, по масоретской огласовке; Синодальный даёт «Ты — мой покровитель» (по другому прочтению). Это сказано в комментарии.",
+    "Слово «внутренности матери» (me'ê 'immî) оставлено грубо-анатомическим, как в английском комментарии; Синодальный смягчает до «чрева матери»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[consider] Quote 'На Тебе утверждался я от утробы'. (Synodal Пс 70:6: \"На Тебе утверждался я от утробы; Ты извел меня из чрева матери моей.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e387d6a870c"
+  },
+  "verse.ru:PS.71.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Quote the Synodal as above (or only its 'как бы дивом'), keeping the remark that 'диво' is close to Malbim's reading. (Synodal Пс 70:7: \"Для многих я был как бы дивом, но Ты твердая моя надежда.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1dabd0209f69"
+  },
+  "verse.ru:PS.71.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:15:47+00:00",
+   "agent_notes": [
+    "Глагол в иврите в единственном числе (יִמָּלֵא), подлежащее «уста» (פִּי, ед. ч. «рот»). По русскому слову «уста» поставлено «да наполнятся»; в глоссе то же, для согласования."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[should_fix] Write 'Да наполнятся уста мои хвалой Твоей, весь день — великолепием Твоим.' The gloss for pos 1 can stay 'да наполнится' (Hebrew singular פִי) or become 'да наполнятся'; keep it consistent with the sentence. (PS.71.8 ru literal: \"Да наполнится уста мои хвалой твоей\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:16:52+00:00",
+     "note": "[consider] On a later pass, check the Synodal wording of Пс 70:8 and say it keeps «великолепие» for tif'ārâ. (Synodal Пс 70:8: \"…чтобы воспевать славу Твою, всякий день великолепие Твое.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "afdb2b0ca352"
+  },
+  "verse.ru:PS.71.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:04:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:12:34+00:00",
+     "note": "[consider] Quote the Synodal as above. (Synodal Пс 70:9: \"Не отвергни меня во время старости; когда будет оскудевать сила моя, не оставь меня.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c2a13c31bd5f"
   }
  },
  "notes": []

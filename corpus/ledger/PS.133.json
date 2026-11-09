@@ -1,0 +1,141 @@
+{
+ "chapter_ref": "PS.133",
+ "items": {
+  "verse.en:PS.133.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:37+00:00",
+   "agent_notes": [
+    "The superscription is part of verse 1 in this numbering (the KJV counts it as 133:0). I translated 'leDavid' as 'of David' without deciding whether it means authorship, dedication or association.",
+    "'gam yachad' is glossed 'also together' in the literal layer; the KJV 'in unity' is an interpretive addition (yachad can mean 'together' or 'as one', but 'unity' as a moral quality is not in the word). Ibn Ezra reads 'gam' as a hint at the priests; I left that to the commentary and did not build it into the translation."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:58:41+00:00",
+     "note": "[consider] Say 'degrees' renders Latin gradus, 'steps', rather than transliterating it; give Radak's reading as the King Messiah and the high priest of his time. (PS.133.1: Radak, \"על מלך המשיח ועל כהן גדול שיהיה בימיו\"; KJV \"A Song of degrees\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.133.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:37+00:00",
+   "agent_notes": [
+    "midotav (H4060, 'his measures/garments'): STEPBible glosses 'robes'. I kept 'garments' and read 'pi midotav' as 'the mouth/opening of his garments', following Rashi (opening of the tunic at the neck) and Radak (beit hatzavar, the neck opening). The KJV 'skirts' (hem) reads the oil running much further down; I flag that as a split, not an error with certainty.",
+    "Rashi cites the Talmudic reading (Horayot 12a) of the psalm as Moses and Aaron; I mention the tradition only briefly and do not rely on it, since I did not quote the Talmud text itself."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:58:41+00:00",
+     "note": "[consider] Write 'Leviticus 6:3 (6:10 in English Bibles)'; in the haṭov note, say Radak reads the article from the vowel of ka- in kashemen. (PS.133.2: Radak, \"כשמן. בפת\"ח הכ\"ף להורות על ה\"א הידיעה\"; Metzudat Zion, \"כמו מדו בד (ויקרא ו)\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.133.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:37+00:00",
+   "agent_notes": [
+    "The five English versions agree on the sense but KJV/Webster insert a second 'as the dew' ('and as the dew that descended'). The Hebrew has a single 'ketal ... sheyyored'. Ibn Ezra and Radak both note one 'ketal' serves two clauses. I followed the Hebrew with one 'like'.",
+    "Hermon (c. 2,800 m) lies about 200 km north of Jerusalem; the claim that its dew falls on Zion is geographically odd, as Ibn Ezra, Meiri and Rashi all notice. I give the poetic-hyperbole reading and leave the alternatives (Malbim's channel image) to the notes."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:58:41+00:00",
+     "note": "[consider] Optionally add Malbim's reading (Hermon receives the dew for Zion's sake) to the commentary, since the note promises it. (PS.133.2 Rashi: \"וְהַטַּל יוֹרֵד מֵחֶרְמוֹן לְהַרְרֵי צִיּוֹן\"; PS.133.3 Malbim: \"כטל חרמון שאינו מכוון לצורך הר חרמון רק שיורד על הררי ציון\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.133.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:58+00:00",
+   "agent_notes": [
+    "Синодальный даёт «Песнь восхождения» (единственное число); здесь в глоссе и буквальном слое «восхождений», как в иврите (множественное число), а в драматическом слое — «Песнь для подъёма». Нумерация: этот псалом в Синодальном — 132-й."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:18+00:00",
+     "note": "[consider] Write «Инфинитив конструкт от «яшав», «сидеть, оставаться, жить»» in the shevet note. (PS.133.1 note root \"ישב\"; English note: \"Infinitive construct of yashav\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8d0f17172c3"
+  },
+  "verse.ru:PS.133.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:58+00:00",
+   "agent_notes": [
+    "Синодальный перевод: «на края одежды его»; здесь «до ворота одежд» — по Раши и Радаку, у которых «пи мидотав» — вырез туники у шеи. В комментарии отмечено, что Синодальный выбирает «края»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:18+00:00",
+     "note": "[consider] Write «Левит 6:3 (6:10 в Синодальном переводе)» in the commentary and in the midotav note. (PS.133.2 commentary: «ср. «маддо бад», льняная одежда в Левит 6:3»; RusSynodal Лев 6:10: «и пусть священник оденется в льняную одежду свою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f24ad0fc7e4d"
+  },
+  "verse.ru:PS.133.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:04:57+00:00",
+   "agent_notes": [
+    "По запросу рецензента исправлена одна фраза комментария: Синодальный добавляет союз «и» («благословение и жизнь на веки»), так что «жизнь» становится вторым дополнением, а не содержанием благословения. Остальное не менялось."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:04:18+00:00",
+     "note": "[should_fix] In the directors_commentary, replace «Синодальный же добавляет «на веки», связывая «жизнь» с «благословением» союзом «и»» with something like «Синодальный же добавляет союз «и» («благословение и жизнь на веки»), так что «жизнь» становится вторым дополнением, а не содержанием благословения». Change nothing else. (PS.133.3: \"צִוָּה יְהוָה אֶת־הַבְּרָכָה חַיִּים עַד־הָעוֹלָם\"; RusSynodal Пс 132:3: «ибо там заповедал Господь благословение и жизнь на веки»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:05:27+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5df888892256"
+  }
+ },
+ "notes": []
+}

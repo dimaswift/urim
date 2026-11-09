@@ -158,6 +158,176 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.53.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:06+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте надписание — стих 1, в Синодальном переводе это Пс 52 с безномерной надписью, а песня начинается со стиха 2. Комментарий говорит об этом отдельно, потому что английский сравнивает с KJV (там сдвиг на единицу), а Синодальный сдвигает номер псалма.",
+    "«Махалаф» — форма Синодального перевода для מָחֲלַת; «Маскил» оставлен транслитерацией, а не «Учение» (как в Синодальном), чтобы связь с מַשְׂכִּיל в ст. 3 была видна."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[consider] Either use «Махалаф», as the Synodal does, or say in the commentary that «Махалат» is a transliteration from the Hebrew. (PS.53.1 ru literal: «на Махалат»; RusSynodal Ps 52:1: «На махалаф».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "78d532dd6e48"
+  },
+  "verse.ru:PS.53.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:10+00:00",
+   "agent_notes": [
+    "Удалено последнее предложение комментария (цитата Синодального), как просил рецензент; в английском его нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[should_fix] Delete the last sentence of the directors_commentary (the one beginning «Синодальный перевод („Сказал безумец…“)»). The English has nothing there, and the quote does not match the Synodal. (PS.53.2 en directors_commentary ends at 'not as a debating point.'; RusSynodal Ps 52:2: «Сказал безумец в сердце своем: „нет Бога“. Развратились они и совершили гнусные преступления; нет делающего добро.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:38:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "58fa0b557c88"
+  },
+  "verse.ru:PS.53.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:10+00:00",
+   "agent_notes": [
+    "Буквальный слой переведён в настоящем времени, как в английском и в еврейском (הִשְׁקִיף — причастная сцена). Синодальный «призрел с небес» — прошедшее, как и KJV; сказано об этом в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[should_fix] Put the literal layer in the present, as the English does: «Элохим с небес смотрит вниз на сынов Адама, чтобы увидеть…». Change gloss pos 3 to «смотрит вниз». In the commentary, replace «Синодальное „приник с небес“ передаёт склонённость взгляда ближе» with «Синодальный говорит „призрел с небес“», or delete that sentence. (PS.53.3 en literal: \"Elohim from heaven looks down upon the sons of Adam\"; ru commentary: «„Looked down“ в KJV … ставит это в прошедшее время; в еврейском — настоящее»; RusSynodal Ps 52:3: «Бог с небес призрел на сынов человеческих».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:38:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9fc7683a20a7"
+  },
+  "verse.ru:PS.53.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:06+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[consider] Consider «вместе они испортились» or «вместе стали мерзки». (PS.53.4: נֶאֱלָחוּ 'they have become corrupt/foul'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9688a442f40d"
+  },
+  "verse.ru:PS.53.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:10+00:00",
+   "agent_notes": [
+    "Синодальный: «съедающие народ мой, как едят хлеб»; комментарий приведён в соответствие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[should_fix] Replace «„как пищу“ в Синодальном» with «„как едят хлеб“ в Синодальном». (RusSynodal Ps 52:5: «съедающие народ мой, как едят хлеб? Бога не призывают»; ru commentary: «„As they eat bread“ в KJV и „как пищу“ в Синодальном».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:38:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "68bdc26e3f1d"
+  },
+  "verse.ru:PS.53.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:35:06+00:00",
+   "agent_notes": [
+    "Условное «страх, которого не было» передано двусмысленной конструкцией, как в оригинале; в комментарии сохранены обе традиции чтения. Синодальное «где нет страха» соответствует KJV, а не чтению «такого страха, какого никогда не было»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[consider] Write «стоит в перфекте» (and «пророческий перфект»). (PS.53.6 en: \"The verb פִּזַּר is a perfect\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "94e0eca0af4b"
+  },
+  "verse.ru:PS.53.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:38:10+00:00",
+   "agent_notes": [
+    "Вместо предложения о Синодальном «Скоро ли придёт» (такого в Синодальном нет) сказано, что Синодальный сохраняет оборот «Кто даст с Сиона спасение Израилю!»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:37:10+00:00",
+     "note": "[should_fix] Replace «Синодальное „Скоро ли придёт“ тоже звучит как вздох-желание» with «Синодальный сохраняет оборот: „Кто даст с Сиона спасение Израилю!“», or delete the sentence; the English has none. (RusSynodal Ps 52:7: «„Кто даст с Сиона спасение Израилю!“ Когда Бог возвратит пленение народа Своего, тогда возрадуется Иаков и возвеселится Израиль.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:38:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd91c69362ae"
   }
  },
  "notes": []

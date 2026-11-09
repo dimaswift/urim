@@ -6949,6 +6949,69 @@
    "produced_at": "2026-10-28T21:03:29+00:00",
    "source": "cef6bdf42180"
   },
+  "ui:site.missing": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "451e9e4ddb2f"
+  },
+  "ui:site.no_meaning": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "ff1015e8aee3"
+  },
+  "ui:site.no_vectors": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "7c4c81ee08a8"
+  },
+  "ui:site.read_only": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "8c2f30a78823"
+  },
+  "ui:site.server_only": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "f95b43fab0b4"
+  },
+  "ui:site.static": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "fedf0262251e"
+  },
+  "ui:site.static_title": {
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:10:01+00:00",
+   "source": "93ad706f1c62"
+  },
   "ui:status.approved": {
    "produced_by": {
     "model": "claude-sonnet-5-5",
@@ -8048,6 +8111,24 @@
     "run": "main"
    },
    "at": "2026-10-28T21:07:57+00:00"
+  },
+  {
+   "note": "[site.static] «Статичная копия» — короткая метка для плашки; «статичная» вместо «статическая», как говорят в интерфейсах.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:10:01+00:00"
+  },
+  {
+   "note": "[site.no_meaning] «Поиск по смыслу» для search by meaning; «по словам» — для обычного текстового поиска.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:10:01+00:00"
   }
  ]
 }

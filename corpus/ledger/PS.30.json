@@ -293,6 +293,305 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.30.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:14+00:00",
+   "agent_notes": [
+    "Убрал фразу о том, что Синодальный сохраняет неоднозначность заглавия: в английском комментарии её нет, а текста Синодального в пакете нет. Оставлено только замечание о нумерации заглавия."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] Delete the sentence «Синодальный перевод („Псалом. Песнь на обновление дома Давида“) сохраняет ту же неоднозначность.» Keep the remark that the Synodal counts the title as its own verse. (PS.30.1 en commentary has no Synodal sentence; ledger: «все ссылки на него в комментариях даны по памяти и требуют сверки»; the packet's RusSynodal section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b916b8b7bc6c"
+  },
+  "verse.ru:PS.30.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[consider] Use «станет ли благодарить Тебя» in the literal and gloss 7, and in PS.30.5 «и благодарите» for וְהוֹדוּ, so the thanks root reads the same across 5, 10 and 13. (PS.30.10: \"הֲיוֹדְךָ\", gloss 'will it give thanks to you'; ru commentary: «„благодарить“ (ходa) повторяет ходу».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "abb113e62486"
+  },
+  "verse.ru:PS.30.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:14+00:00",
+   "agent_notes": [
+    "Буквальный слой и глосса — «и яви мне милость», чтобы следовать корню ханан и согласоваться с примечанием. Ссылку на Синодальное «помилуй меня» убрал: текста в пакете нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] Write «и яви мне милость» (or «и будь милостив ко мне») in the literal layer and in gloss 3, so the literal follows the Hebrew and agrees with the note. (PS.30.11: \"וְחָנֵּנִי\", gloss 'and show me favor'; ru note: «„have mercy“ (KJV) переносит его в иное семейство слов — рахамим»; ru commentary: «то же и в Синодальном „помилуй меня“».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e14ebeff1f60"
+  },
+  "verse.ru:PS.30.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:14+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном «разрешил вретище» удалена: текста Синодального в пакете нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] Delete «Синодальное „разрешил вретище моё“ как раз передаёт „развязал“.», or replace it with «Синодальное „снял с меня вретище“ делает то же, что KJV.» (PS.30.12: \"פִּתַּחְתָּ שַׂקִּי\"; en commentary: \"The KJV 'put off my sackcloth' hides the Hebrew verb\" (no Synodal sentence); the packet's RusSynodal section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": "[consider] Write «и опоясал меня радостью» without brackets, and gloss 8 «радостью». (PS.30.12: \"וַתְּאַזְּרֵנִי שִׂמְחָה\"; en literal \"girded me [with] joy\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b6829c14dc41"
+  },
+  "verse.ru:PS.30.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:54:55+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: в буквальном слое «YHWH, Боже мой, вовек буду благодарить Тебя», в глоссе 9 «буду благодарить Тебя», местоимения с заглавной. Из последнего абзаца комментария убрана цитата Синодального перевода и сравнение с ним: раздел RusSynodal в пакете пуст, а точной цитаты я не знаю. Оставлена только мысль о двух глаголах."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] Write «YHWH, Боже мой, вовек буду благодарить Тебя» in the literal layer and «буду благодарить Тебя» in gloss 9; capitalize «Тебе»/«Тебя». In the last commentary paragraph keep only the point about the two verbs and drop the quote «слава моя» unless you can quote the Synodal exactly. (PS.30.13: \"אוֹדֶךָּ\", gloss 'I will give thanks to you'; en literal \"for ever I will give thanks to you\"; ru commentary: «передаёт оба глагола, зимер и одека, одним „славить“». The packet's RusSynodal section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": "[consider] Write «Мецудат Цион» throughout, and give the translits and sources in Latin like the other verses (\"kavod\", \"Radak on Psalms 30:13\"). (PS.30.13 ru commentary: «Мецудат Цийон определяет его как душу»; sources «Мецудат Цийон на Псалмы 30:13»; PS.30.12 ru sources: \"Metzudat Zion on Psalms 30:12\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "404949034489"
+  },
+  "verse.ru:PS.30.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:14+00:00",
+   "agent_notes": [
+    "Фраза о Синодальном переводе удалена: текста Синодального в пакете нет, сверить по памяти нельзя."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] Replace the sentence with «Синодальное „Ты поднял меня“ тоже передаёт лишь подъём, но не колодец», or delete it. (PS.30.2 en commentary has no Synodal sentence; the packet's RusSynodal section is empty; ledger: references to the Synodal «даны по памяти».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "11fb871baea9"
+  },
+  "verse.ru:PS.30.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[consider] Quote «воззвал», or drop the Synodal remark. (PS.30.3 ru commentary: «Синодальное „взывал“ достаточно сильно»; no Synodal text in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c4ef3428906"
+  },
+  "verse.ru:PS.30.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:55:14+00:00",
+   "agent_notes": [
+    "Нефеш в буквальном слое и в глоссе — «жизнь мою», как в английском; в драматическом слое оставлено «душа», как там же. Фраза о Синодальном «из преисподней» удалена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[should_fix] In the literal layer and gloss 5 write «жизнь мою» («Ты возвёл из Шеола жизнь мою»), and in the commentary write «так что „возвёл жизнь мою“ — именно то, что хочет сказать говорящий». Drop the sentence about the Synodal «из преисподней», or quote the Synodal exactly only if you have its text (Пс 29:4 reads «Ты вывел из ада душу мою»). (PS.30.4: \"הֶעֱלִיתָ מִן־שְׁאוֹל נַפְשִׁי\", gloss 'my life'; en literal \"you brought up my life from Sheol\"; en commentary \"so 'brought up my life' is exactly what the speaker means\". The packet's RusSynodal section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:56:00+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9760517905a"
+  },
+  "verse.ru:PS.30.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "77a0e44007fb"
+  },
+  "verse.ru:PS.30.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [
+    "Глагол ялин передан «ночует», чтобы сохранить образ гостя из комментария; в Синодальном «водворяется плач»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[consider] Drop the parenthesis or check the Synodal number. (PS.30.6 en commentary: \"compare 2 Kings 12:11\" (Hebrew numbering, from Meiri).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "27f56d093794"
+  },
+  "verse.ru:PS.30.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10e3922d7247"
+  },
+  "verse.ru:PS.30.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0085f61618c6"
+  },
+  "verse.ru:PS.30.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:51:50+00:00",
+   "agent_notes": [
+    "Пара YHWH / Адонай: в драматическом слое «Господи» и «Владыке мой», чтобы сохранить различие имени и титула, которое в Синодальном стёрто («к Тебе, Господи, взывал я, и Господа молил»)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:54:06+00:00",
+     "note": "[consider] Quote it exactly or paraphrase without quotation marks. (PS.30.9 ru commentary; no Synodal text in the packet.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "445366fb378b"
   }
  },
  "notes": []

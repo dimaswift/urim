@@ -249,6 +249,245 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.16.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [
+    "«Михтам» оставлен транслитерацией, как и в английском слое: значение слова неизвестно, толкования Раши, Ибн Эзры и Таргума переданы в комментарии. С заголовком Синодального перевода отдельной сверки не делалось."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[consider] Quote it as «Храни меня, Боже, ибо я на Тебя уповаю». (Синодальный Пс 15:1: «Храни меня, Боже, ибо я на Тебя уповаю».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b64bfae1b780"
+  },
+  "verse.ru:PS.16.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «не оставишь души моей в аде и не дашь святому Твоему увидеть тление». «Ад» для Шеола и «тление» для шахат — те же выборы, что у KJV, которые комментарий оспаривает; «святому» — титул вместо слова хасид. В переводе «Шеол» и «яма»: так ближе к еврейскому тексту."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c1c289a01bc"
+  },
+  "verse.ru:PS.16.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bb90b1f33791"
+  },
+  "verse.ru:PS.16.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:31:50+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован дословно; сказано, что он убирает женский род и конец стиха читает близко к KJV, а не к ASV и BBE (по запросу рецензента)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[should_fix] In the last paragraph of the commentary, quote the Synodal as «Я сказал Господу: Ты Господь мой; блага мои Тебе не нужны». Say that it drops the feminine 'you' and reads the last clause close to the KJV ('my goodness extendeth not to thee'), not like the ASV and BBE. (Синодальный Пс 15:2: «Я сказал Господу: Ты Господь мой; блага мои Тебе не нужны»; PS.16.2 Hebrew: טוֹבָתִי בַּל־עָלֶיךָ.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:32:25+00:00",
+     "note": "[consider] Optionally drop the closing sentence «Так он не идёт ни за ASV и BBE, ни за чтением Раши о милости» or keep only the ASV/BBE half. (Синодальный Пс 15:2: «блага мои Тебе не нужны»; PS.16.2 en commentary has no comparison with Rashi for the Synodal.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "62ddf78b7cd8"
+  },
+  "verse.ru:PS.16.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:31:50+00:00",
+   "agent_notes": [
+    "Синодальное чтение описано точно: «дивным Твоим» понято как вторая группа, а «Твоим» в еврейском нет (по запросу рецензента)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («К святым, которые на земле, и к дивным Твоим — к ним всё желание моё») and describe what it does: it reads אַדִּירֵי as a second group and adds «Твоим», which is not in the Hebrew. (Синодальный Пс 15:3: «К святым, которые на земле, и к дивным Твоим — к ним всё желание моё»; PS.16.3 Hebrew: וְאַדִּירֵי כָּל־חֶפְצִי־בָם.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:32:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "56328c925928"
+  },
+  "verse.ru:PS.16.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[consider] Quote it as «Пусть умножаются скорби у тех, которые текут к богу чужому». (Синодальный Пс 15:4: «Пусть умножаются скорби у тех, которые текут к богу чужому».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b0b6dfbf6447"
+  },
+  "verse.ru:PS.16.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10749b1c3d17"
+  },
+  "verse.ru:PS.16.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [
+    "Синодальное «межи мои прошли по прекрасным местам» близко к KJV и сохраняет образ межевых вервей, но теряет «пали» (жребий). В переводе оставлено «пали»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6b5c12a44074"
+  },
+  "verse.ru:PS.16.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:31:50+00:00",
+   "agent_notes": [
+    "Синодальное «внутренность» отнесено к чтениям, сохраняющим телесный образ, хотя и менее точно, чем «почки»; с ASV и BBE не сгруппировано (по запросу рецензента)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with the actual quote («даже и ночью учит меня внутренность моя») and say that «внутренность» keeps the bodily image, though less exactly than «почки»; do not group it with ASV 'heart' and BBE 'thoughts'. (Синодальный Пс 15:7: «Благословлю Господа, вразумившего меня; даже и ночью учит меня внутренность моя»; PS.16.7 Hebrew: יִסְּרוּנִי כִלְיוֹתָי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:32:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3bd63b94c3af"
+  },
+  "verse.ru:PS.16.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[consider] Mark the psalm references as Hebrew numbering, as PS.6 and PS.7 do, or give the Synodal number beside them. (PS.16.8 ru commentary: «защитник на суде тоже стоял там (Пс 109:31)»; Синодальный Пс 109 is the Hebrew Psalm 110.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4347fbc703b4"
+  },
+  "verse.ru:PS.16.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:29:12+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:50+00:00",
+     "note": "[consider] Add one sentence: the Synodal has «язык мой» for «кеводи», following the Greek, and is not reading the Hebrew. (Синодальный Пс 15:9: «Оттого возрадовалось сердце моё и возвеселился язык мой»; PS.16.9 Hebrew: וַיָּגֶל כְּבוֹדִי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a9721b002ecb"
   }
  },
  "notes": []

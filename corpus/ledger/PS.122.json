@@ -1,0 +1,425 @@
+{
+ "chapter_ref": "PS.122",
+ "items": {
+  "verse.en:PS.122.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [
+    "The superscription (שִׁיר הַמַּעֲלוֹת לְדָוִד) is verse 1 in the Hebrew, so the five English versions, which number it 122:0, put the opening line of the psalm at 122:1 as well. I translated the superscription and the line together as one verse, as the Hebrew has them.",
+    "STEPBible glosses בְּאֹמְרִים as 'in [those who] said'. I kept 'in those saying' in the literal layer, since the preposition bet after שָׂמַח is causal ('rejoice in/at'), and the participle is present-continuous rather than a past event; KJV and ASV 'when they said' flatten that. Also the Targum's 'ascents of the abyss' (מַסוּקִין דִתְהוֹמָא) is a distinct tradition about the Songs of Ascents; I mention it only as a tradition, not as the meaning here."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[consider] Let the dramatic layer keep the remembered past the commentary argues for, e.g. 'Our feet were standing, standing still, in your gates, Jerusalem.' (PS.122.2: \"עֹמְדוֹת הָיוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [
+    "הַבְּנוּיָה is a passive participle with the article ('the built one'). Reading it as 'rebuilt' or 'built up' is a choice the Hebrew does not force; I kept it plain. The Targum and Rashi (citing Taanit 5a) read an earthly versus heavenly Jerusalem; the Targum text in the packet says so explicitly."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[consider] Attach the Rashi and Ibn Ezra sources to what they actually say (Shiloh / heavenly city; towns gathered in), soften the hill-country claim, and consider 'the built one' in the literal layer. (PS.122.3, Ibn Ezra: \"למדינה שהתחברו אליה כל בנותיה מסביב\"; Rashi: \"כְּשִׁילֹה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [
+    "עֵדוּת לְיִשְׂרָאֵל is ambiguous: 'a testimony to Israel', or 'an ordinance for Israel' (ASV). I kept 'testimony' with a note that 'decree' is possible. The Hebrew lacks a verb, so the clause floats; I did not decide between 'it is a testimony' and 'as a testimony'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:43:23+00:00",
+   "agent_notes": [
+    "Revised per the request: the sentence about agreement is gone. The point kept is that the thrones are the grammatical subject of 'sat' (active), where the KJV, ASV and Webster make it a passive 'are set'. Radak's two thrones (one for the Shekhinah, one for the monarchy) is cited as his, not endorsed."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[should_fix] Drop the sentence about odd agreement (a plural verb with a feminine plural noun); the perfect 3rd plural is common gender. Keep the point that thrones are the subject of 'sat'. (PS.122.5: \"יָשְׁבוּ\" tagged HVqp3cp (3rd common plural) in the packet)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:05+00:00",
+     "note": "[consider] Consider dropping the added clause and keeping the past 'sat' as the literal layer does. (PS.122.5: \"כִּי שָׁמָּה יָשְׁבוּ כִסְאוֹת לְמִשְׁפָּט\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:43:23+00:00",
+   "agent_notes": [
+    "Revised per the request. The note on 'ask' now cites Metzudat David and Radak for the other reading (asking of God, which is the KJV's 'pray'). The greeting idiom is my own reading and carries no source; Rashi and Meiri point the same way (words addressed to the city) but I did not cite them for it."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[should_fix] In the note on שַׁאֲלוּ שְׁלוֹם, either remove the Metzudat David source or cite it (with Radak) for the other reading: that the commentators take 'ask' as asking of God, which is the KJV's 'pray'. Keep the greeting idiom as your own reading without a source. (PS.122.6, Metzudat David: \"לזאת שאלו מה׳ שלום ירושלים\" ('ask from the LORD the peace of Jerusalem'); Radak: \"שאלו מהאל יתברך שלום ירושלים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:05+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [
+    "חֵיל here is the outer rampart or glacis in front of the wall, the same word as in Lam 2:8 (cited by Metzudat Zion and Meiri in the packet). STEPBible says 'rampart'; KJV 'walls' and BBE 'inside your walls' blur the distinction between the outer rampart (חֵיל) and the main wall (חוֹמָה). I kept 'rampart'. YLT's 'high places' for אַרְמְנוֹת is not what the lexicon says: 'fortresses, citadels'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[consider] Present 'walls' as a narrower but defensible reading rather than a mishearing, and drop the added third clause from the dramatic layer. (PS.122.7, Meiri: \"יהי שלום בחילך ר״ל בחומותיך\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:40:32+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[consider] Note that KJV renders נָא as 'now' and loses the cohortative's request rather than the particle itself; source or soften the claim about דבר. (PS.122.8: \"אֲדַבְּרָה־נָּא\"; KJV \"I will now say\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.122.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:43:23+00:00",
+   "agent_notes": [
+    "Revised per the blocker: the claim that 'our God' is the only first-person-plural place is removed. The commentary now says verse 9 returns to the 'we' of verses 1-2 ('let us go', 'our feet') and to the 'house of YHWH' of verse 1, closing the frame."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:42:06+00:00",
+     "note": "[blocker] Remove the claim that 'our God' is the only first-person-plural place in the psalm; if you keep the point, say that verse 9 returns to the 'we' of verses 1-2 ('let us go', 'our feet'), closing the frame. (PS.122.2: \"עֹמְדוֹת הָיוּ רַגְלֵינוּ\" ('our feet'); PS.122.1: \"נֵלֵךְ\" (HVqi1cp, 'let us go'))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:44:05+00:00",
+     "note": "[consider] Attribute the 'asking of God' reading to Radak alone, or say Ibn Ezra paraphrases the seeking as a wish for the city's good. (PS.122.9, Ibn Ezra: \"למען בית השם אבקש שיהיה טוב לך\"; Radak: \"אבקשה מה' יתברך טוב בעבורך\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.122.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:36+00:00",
+   "agent_notes": [
+    "Слово מַעֲלוֹת передано «восхождения» (множественное число, как в Синодальном: «Песнь восхождения»; в Синодальном нумерация псалма 121). Жанровое название оставлено без толкования, как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[consider] Quote it as «Возрадовался я, когда сказали мне». (Synodal Пс 121:1: «Возрадовался я, когда сказали мне: \"пойдем в дом Господень\"»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a15e6b9891a7"
+  },
+  "verse.ru:PS.122.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e79dd86786f0"
+  },
+  "verse.ru:PS.122.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:03+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно: «Иерусалим, устроенный как город, слитый в одно»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Иерусалим, устроенный как город, слитый в одно». (PS.122.3: שֶׁחֻבְּרָה לָּהּ יַחְדָּו; Synodal Пс 121:3: «Иерусалим, устроенный как город, слитый в одно,»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b954d3c06fb9"
+  },
+  "verse.ru:PS.122.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:03+00:00",
+   "agent_notes": [
+    "Синодальное «по закону Израилеву» читает עֵדוּת как установление (как ASV), а «восходят» держит в настоящем времени (как KJV); оба факта сказаны в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[should_fix] Quote the Synodal as «по закону Израилеву» and say that it takes עֵדוּת as an ordinance (like the ASV), while keeping the present tense «восходят» like the KJV. (PS.122.4: עֵדוּת לְיִשְׂרָאֵל; Synodal Пс 121:4: «куда восходят колена, колена Господни, по закону Израилеву, славить имя Господне»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "70b078cd834a"
+  },
+  "verse.ru:PS.122.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:36+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6cdbc19949c5"
+  },
+  "verse.ru:PS.122.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:03+00:00",
+   "agent_notes": [
+    "Синодальное «Просите мира Иерусалиму» сохраняет глагол «просить», как иврит; «Pray» в KJV его меняет. Опечатка «иврительскому» исправлена на «ивритскому»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («Просите мира Иерусалиму») and say that it keeps the verb 'ask', as the Hebrew does (the KJV 'Pray' is the one that changes it). Replace «иврительскому» with «ивритскому». (PS.122.6: שַׁאֲלוּ שְׁלוֹם יְרוּשָׁלִָם; Synodal Пс 121:6: «Просите мира Иерусалиму: да благоденствуют любящие тебя!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b5ca4540cb55"
+  },
+  "verse.ru:PS.122.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:49:36+00:00",
+   "agent_notes": [
+    "חֵיל — «передовая стена, вал»; Синодальное «в стенах твоих» смешивает его с חוֹמָה, а אַרְמְנוֹת — «твердыни», тогда как Синодальный даёт «чертоги». Выбор оправдан в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b420bc02eb1d"
+  },
+  "verse.ru:PS.122.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:03+00:00",
+   "agent_notes": [
+    "В буквальном слое сохранены и просьба «позвольте мне говорить», и частица «прошу»; в пословном глоссе позиция 4 — «позвольте мне говорить», позиция 5 — «прошу»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[should_fix] Make the literal layer keep both the request and the particle, e.g. «Ради братьев моих и друзей моих позвольте мне говорить, прошу: мир в тебе.», and gloss pos 4 as «позвольте мне говорить» (or «да скажу»), leaving «прошу» to pos 5 alone. (PS.122.8: אֲדַבְּרָה־נָּא שָׁלוֹם בָּךְ; English literal: \"let me speak, please: peace in you\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "555c8ae926df"
+  },
+  "verse.ru:PS.122.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:53:03+00:00",
+   "agent_notes": [
+    "Синодальное «желаю блага тебе» превращает когортатив в пожелание; утверждение о том, что оно следует Радаку, снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:51:54+00:00",
+     "note": "[should_fix] Quote the Synodal as «желаю блага тебе» and say that it turns the cohortative 'I will seek' into a wish, losing the resolve the commentary describes; drop the claim that it takes Radak's reading. (PS.122.9: אֲבַקְשָׁה טוֹב לָךְ; Synodal Пс 121:9: «Ради дома Господа, Бога нашего, желаю блага тебе.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:54:25+00:00",
+     "note": "[consider] Write «так что два стиха составляют пару» or «два стиха — соответствующая пара». (PS.122.9: \"לְמַעַן בֵּית־יְהוָה\" (and PS.122.8: \"לְמַעַן אַחַי\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "87803e058ff5"
+  }
+ },
+ "notes": []
+}

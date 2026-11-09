@@ -788,6 +788,790 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.68.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:06+00:00",
+   "agent_notes": [
+    "Комментарий исправлен по замечанию рецензента: в Синодальном переводе надписание тоже стих 1, номера стихов совпадают с еврейскими, отличается лишь номер псалма (Пс 67, по греческой нумерации)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Replace the sentence with: «В Синодальном переводе надписание тоже стих 1, так что номера стихов совпадают с еврейскими; отличается лишь номер псалма: Пс 67 по греческой нумерации». (PS.68.1: the superscription is verse 1 in the Hebrew; Synodal Пс 67:1 «Начальнику хора. Псалом Давида. Песнь.»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2dcf23442249"
+  },
+  "verse.ru:PS.68.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "84bde497de30"
+  },
+  "verse.ru:PS.68.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [
+    "חַיָּתְךָ: в буквальном слое «живая община твоя»; Синодальный перевод — «стадо Твоё»; в драматическом слое выбрано «стадо», чтобы сохранить образ."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6dddb79335bc"
+  },
+  "verse.ru:PS.68.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [
+    "הַמְבַשְּׂרוֹת — женский род: «вестницы», тогда как Синодальный перевод пишет «провозвестниц»; сохранён женский род, на который опирается английский комментарий."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "97c7ebe36531"
+  },
+  "verse.ru:PS.68.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [
+    "В Синодальном переводе «домостроительница»; здесь «живущая в доме», ближе к ивриту (невáт байит)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "492cfab2ea15"
+  },
+  "verse.ru:PS.68.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:29+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: «Йеракрак» с русской к (в комментарии было «Йерақрақ»). Прежний «хавилского золота» у Раши оставлен как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Write «Йеракрак» with the Russian к. (PS.68.14: בִּירַקְרַק; the commentary text «Йерақрақ, „зеленоватый“».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "91fad1fba888"
+  },
+  "verse.ru:PS.68.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [
+    "Шаддай передано как «Всемогущий» (так в Синодальном переводе); Васан и Селмон — по Синодальному переводу (Син. Пс 67:15–16), а не «Васан», «Селмон»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9f9f647b062c"
+  },
+  "verse.ru:PS.68.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f786476e1343"
+  },
+  "verse.ru:PS.68.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "056c5bcf00f3"
+  },
+  "verse.ru:PS.68.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [
+    "В буквальном слое Adonai передано как «Владыка», чтобы отличить его от YHWH (оставлено как есть); в драматическом слое — «Господь», как в Синодальном переводе."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6b5958514c98"
+  },
+  "verse.ru:PS.68.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "880de2c74ea6"
+  },
+  "verse.ru:PS.68.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[consider] Quote the Synodal wording exactly. (Synodal Пс 67:2 «Да восстанет Бог».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8f27a425208b"
+  },
+  "verse.ru:PS.68.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:29+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: комментарий теперь цитирует Синодальный стих целиком (Пс 67:20) и прямо говорит, что он сохраняет образ ноши, но делает Бога тем, кто возлагает её на нас, — противоположно прочтению «несёт Бог». Прежнее утверждение, что Синодальный перевод «опускает образ ноши», было неверным и убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Quote the full Synodal verse and say that it keeps the burden but makes God the one who lays it on us, the opposite of the reading in this commentary («несёт Бог»). (PS.68.20: יוֹם יוֹם יַעֲמָס־לָנוּ; Synodal Пс 67:20 «Бог возлагает на нас бремя, но Он же и спасает нас».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7bc817378da1"
+  },
+  "verse.ru:PS.68.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "13c021354b74"
+  },
+  "verse.ru:PS.68.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "06a74c1b77b9"
+  },
+  "verse.ru:PS.68.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "39306bd2340d"
+  },
+  "verse.ru:PS.68.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:00:10+00:00",
+   "agent_notes": [
+    "Глагол тимхац («раздробит») сохранён в буквальном слое; Синодальный перевод («омочил») следует чтению «окрасит», о котором говорится в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "847650a19bb1"
+  },
+  "verse.ru:PS.68.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[consider] Use «KJV» throughout and keep one convention for divine pronouns across the chapter. (PS.68.25 dramatic «Они видели, как ты идёшь, Боже»; PS.68.2 dramatic «Да встанет Бог… враги Его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74411e78cabd"
+  },
+  "verse.ru:PS.68.26": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "18a26ec793a1"
+  },
+  "verse.ru:PS.68.27": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:28+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован по просьбе рецензента: «вы — от семени Израилева». Он заменяет «источник» на «семя»: смысл происхождения сохранён, образ родника потерян."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Quote the Synodal correctly and say that it replaces «источник» with «семя», keeping the sense of descent but losing the image of the spring; keep the point that it renders YHWH as «Господь». (PS.68.27: מִמְּקוֹר יִשְׂרָאֵל 'from the fountain of Israel'; Synodal Пс 67:27 «вы — от семени Израилева».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "401dade2725e"
+  },
+  "verse.ru:PS.68.28": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:28+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован как «князья Иудины — владыки их»; он тоже угадывает значение («владыки»), которого корень רגם «бросать камни» не даёт."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Quote the Synodal as «князья Иудины — владыки их» and say that it, too, guesses a meaning ('rulers') that the root רגם 'to stone' does not give. (PS.68.28: שָׂרֵי יְהוּדָה רִגְמָתָם; Synodal Пс 67:28 «Там Вениамин младший — князь их; князья Иудины — владыки их».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3917a5c0cbd2"
+  },
+  "verse.ru:PS.68.29": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1f35fc0c43f7"
+  },
+  "verse.ru:PS.68.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e856d27ab4c0"
+  },
+  "verse.ru:PS.68.30": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:28+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован как «Ради храма Твоего в Иерусалиме цари принесут Тебе дары»: он читает מִן как причину, как КДЖ, Раши и Радак."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Quote the Synodal as «Ради храма Твоего в Иерусалиме цари принесут Тебе дары» and say that it reads מִן as cause, as the KJV, Rashi and Radak do. (PS.68.30: מֵהֵיכָלֶךָ עַל־יְרוּשָׁלָםִ; KJV 'Because of thy temple at Jerusalem'; Synodal Пс 67:30 «Ради храма Твоего в Иерусалиме».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "479938ec2788"
+  },
+  "verse.ru:PS.68.31": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [
+    "חַיַּת קָנֶה — «зверь тростников» оставлен как зверь (не «копьеносцы» Синодального «зверя в тростнике» — здесь Синодальный совпадает с образом зверя). Два прочтения מִתְרַפֵּס сохранены в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "82df261af5dc"
+  },
+  "verse.ru:PS.68.32": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [
+    "כּוּשׁ передан «Куш» в буквальном слое и «Куш» в комментарии с пояснением; Синодальный переводит «Ефиопия». «Вельможи» в Синодальном для חַשְׁמַנִּים; в буквальном слое оставлено «знатные»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd42bbaa7c65"
+  },
+  "verse.ru:PS.68.33": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [
+    "אֲדֹנָי — «Владыка» в обоих слоях, чтобы на слух отличать от «Господь» (יהוה); Синодальный пишет «Господу» для обоих имён, и комментарий об этом сказано отдельным предложением."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b573dc287db"
+  },
+  "verse.ru:PS.68.34": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:06:28+00:00",
+   "agent_notes": [
+    "В буквальном слое и в глоссе к слову 1 — «тому, кто едет», в согласии с «едущего» в 68:5. Синодальный текст процитирован: «Шествующего на небесах небес от века. Вот, Он дает гласу Своему глас силы»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[blocker] In translation_literal and in the gloss for pos 1, write «тому, кто едет» (literal: «Тому, кто едет по небесам небес древности»), matching «едущего» in v5. In the commentary's Synodal sentence, quote «Шествующего на небесах небес от века. Вот, Он дает гласу Своему глас силы». (PS.68.34: לָרֹכֵב בִּשְׁמֵי שְׁמֵי־קֶדֶם, English literal 'To the rider in the heavens of the heavens of ancient time'; v5 has the same רֹכֵב, rendered «едущего» in the ru literal.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": "[consider] End the sentence with «…в чтении „от века“ и, по смыслу, в „гласе силы“ (KJV „a mighty voice“)», or drop the English quotation. (PS.68.34: קוֹל עֹז; KJV 'and that a mighty voice'; Synodal Пс 67:34 «глас силы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d5088d6c8e6"
+  },
+  "verse.ru:PS.68.35": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3988dfb38159"
+  },
+  "verse.ru:PS.68.36": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:57+00:00",
+   "agent_notes": [
+    "נוֹרָא — «внушающий трепет»; Синодальное «страшен» сегодня звучит слишком грубо, как и английское terrible."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fa6243d36d9d"
+  },
+  "verse.ru:PS.68.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[consider] When the packet gives no Synodal text, quote it only where sure of the wording, or describe its choice without quotation marks. (Synodal Пс 67:4 «А праведники да возвеселятся, да возрадуются пред Богом и восторжествуют в радости».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f868afe21a4b"
+  },
+  "verse.ru:PS.68.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:06+00:00",
+   "agent_notes": [
+    "Синодальный перевод выбирает небесное прочтение («на небесах»), как и KJV, и заменяет имя Йах на «Господь»; предыдущая формулировка («пустынное прочтение») была неверна и исправлена."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Correct the Synodal sentence: «Синодальный перевод („превозносите Шествующего на небесах; Господь имя Ему“) выбирает небесное прочтение, как и KJV, а краткое имя Йах заменяет на „Господь“». (PS.68.5: לָרֹכֵב בָּעֲרָבוֹת; KJV 'him that rideth upon the heavens'; Synodal Пс 67:5 «превозносите Шествующего на небесах».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2fb33f0affe"
+  },
+  "verse.ru:PS.68.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:06+00:00",
+   "agent_notes": [
+    "Синодальный перевод сохраняет «судья вдов» в том же порядке слов, что и в еврейском; прежнее «защитник» исправлено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Quote the Synodal as «Отец сирот и судья вдов Бог во святом Своем жилище» and say that it keeps «судья», with the same word order as the Hebrew. (PS.68.6: וְדַיַּן אַלְמָנוֹת; Synodal Пс 67:6 «судья вдов».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8be16ef657d3"
+  },
+  "verse.ru:PS.68.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:05:06+00:00",
+   "agent_notes": [
+    "מוֹשִׁיב передан причастием «поселяющий» (буквальный слой) и «[Он] поселяет» (глосса). В цитате из Синодального перевода («Бог одиноких вводит в дом, выводит узников из оков…») приведена точная форма, а не пересказ."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": "[should_fix] Render מוֹשִׁיב as «поселяющий» in the literal layer («Бог, поселяющий одиноких в доме…») and gloss pos 2 as «[Он] поселяет». (PS.68.7: אֱלֹהִים מוֹשִׁיב יְחִידִים בַּיְתָה, English literal 'God, causing the solitary to dwell [in] a household'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:09:20+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "76d9df09225a"
+  },
+  "verse.ru:PS.68.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "420f7f17ea2f"
+  },
+  "verse.ru:PS.68.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:59:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "80ad50bd3eac"
   }
  },
  "notes": []

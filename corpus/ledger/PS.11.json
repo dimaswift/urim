@@ -168,6 +168,162 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.11.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:41+00:00",
+   "agent_notes": [
+    "Заголовок «Начальнику хора» (так в Синодальном переводе) для לַמְנַצֵּחַ; в Синодальном переводе заголовок стоит отдельным стихом, здесь он в составе ст. 1, как в иврите.",
+    "Кере נודי передано формой женского рода («Беги»), поскольку обращение к «душе моей»; кетив (мн. ч.) оставлен в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": "[consider] Write the names without hyphens as in earlier chapters, and consider «перфект» for the Hebrew perfect (vv. 1, 3). (PS.11.1 commentary: \"Ибн-Эзра считает их врагами\"; PS.10 ru uses \"Ибн Эзра\") [consider] «Как же вы можете говорить мне…» stays closer to the text. (PS.11.1: \"אֵיךְ תֹּאמְרוּ לְנַפְשִׁי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2b32dc9b6e83"
+  },
+  "verse.ru:PS.11.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": "[consider] Check the quotation against an edition of the Synodal (Пс 10:2) and correct it, probably to «во тьме». (PS.11.2: \"בְּמוֹ־אֹפֶל\"; localizer note: the RusSynodal rows in the packet are Tobit, quoted from memory)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd3a95454fe8"
+  },
+  "verse.ru:PS.11.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:41+00:00",
+   "agent_notes": [
+    "הַשָּׁתוֹת передано как «основания» (так и в Синодальном переводе); вариант «сети» — в примечании."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8287d000b0e9"
+  },
+  "verse.ru:PS.11.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:25:55+00:00",
+   "agent_notes": [
+    "По замечанию рецензента скобки сняты: в еврейском тексте нет глагола-связки, и русское тире передаёт её без скобок; «в» и «Его» стоят в иврите (приставка и суффикс)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": "[should_fix] In translation_literal, remove the brackets from «в» and «его», and capitalise the pronoun as elsewhere: «YHWH — в храме святости Своей; YHWH — на небесах престол Его.» Bracket only words that are not in the Hebrew. (PS.11.4: \"בְּהֵיכַל קָדְשׁוֹ ... בַּשָּׁמַיִם כִּסְאוֹ\" (pos 2 HR/Ncmsc, pos 6 Sp3ms))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:26:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c807efcb239f"
+  },
+  "verse.ru:PS.11.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:25:55+00:00",
+   "agent_notes": [
+    "В драматическом слое образ тошноты убран: «Сама душа Господа ненавидит его» — глагол שנא, как в иврите и у Синодального перевода."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": "[should_fix] Use the verb 'hate' in translation_dramatic, for example «Сама душа Господа ненавидит его.» Do not add the image of nausea. (PS.11.5: \"שָׂנְאָה נַפְשׁוֹ\" (pos 7 'hates'); English dramatic: \"The LORD's own soul hates him.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:26:28+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e7d0469268d"
+  },
+  "verse.ru:PS.11.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:41+00:00",
+   "agent_notes": [
+    "זִלְעָפוֹת в буквальном слое — «палящий жар», в драматическом — «палящий ветер» вслед за Раши; Синодальный перевод выбирает «палящий ветер»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "621d3e3a2128"
+  },
+  "verse.ru:PS.11.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:22:41+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:25:08+00:00",
+     "note": "[consider] Check the quotation against an edition of the Synodal (Пс 10:7) and correct it, probably to «лице Его видит праведника». (PS.11.7: \"יָשָׁר יֶחֱזוּ פָנֵימוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "675cdd697de6"
   }
  },
  "notes": [
@@ -179,6 +335,15 @@
     "run": "main"
    },
    "at": "2026-11-03T12:31:50+00:00"
+  },
+  {
+   "note": "Строки «RusSynodal» в пакете для PS.11.1–7 — это не текст псалма, а отрывки из книги Товита (другая нумерация). Они не использованы; форму Синодального перевода (Пс 10) я привожу по памяти: для сверки с изданием.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:22:41+00:00"
   }
  ]
 }

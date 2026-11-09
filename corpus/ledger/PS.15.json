@@ -125,6 +125,121 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.15.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:05+00:00",
+   "agent_notes": [
+    "Цитата из Синодального исправлена по просьбе рецензента: «пребывать» (Пс 14:1), а не «жить». Церковнославянское «обитает… вселится» в комментарий не включено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:29:18+00:00",
+     "note": "[should_fix] Replace «Церковнославянское и синодальное «жить» теряет смысл гостя и чужеземца» with an accurate quote, e.g. «Синодальное «пребывать» теряет смысл гостя и чужеземца». Keep the rest. (PS.15.1 (Synodal Пс 14:1): «Господи! кто может пребывать в жилище Твоем? кто может обитать на святой горе Твоей?»; Church Slavonic: «Господи, кто обитает в жилищи Твоем? или кто вселится во святую гору Твою?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6e97d2599021"
+  },
+  "verse.ru:PS.15.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:57+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:29:18+00:00",
+     "note": "[consider] Quote the Synodal as written: «ходит непорочно… говорит истину в сердце своем». (PS.15.2 (Synodal Пс 14:2): «Тот, кто ходит непорочно, и делает правду, и говорит истину в сердце своем»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6a75b5a5f3f7"
+  },
+  "verse.ru:PS.15.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:57+00:00",
+   "agent_notes": [
+    "Игру ra'ah / re'ehu и звукопись ragal 'al leshono по-русски не воспроизвести; она объяснена в комментарии через транслитерацию. «Искреннему» в Синодальном переводе соответствует re'ehu (его ближний); в буквальном слое — «его другу/ближнему», «его близкому» для qarov."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:29:18+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c88cd6669994"
+  },
+  "verse.ru:PS.15.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:30:05+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно: «кто клянётся, хотя бы злому, и не изменяет»; утверждение о «своём вреде» убрано. «Хотя бы злому» отмечено как третье прочтение lehara' (клятва, данная злому человеку)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:29:18+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («кто клянется, хотя бы злому, и не изменяет»; «в глазах которого презрен отверженный») and drop the claim that it supplies «свой вред». If you like, note instead that «хотя бы злому» reads lehara' as an oath made to a wicked man, a third reading. (PS.15.4 (Synodal Пс 14:4): «тот, в глазах которого презрен отверженный, но который боящихся Господа славит; кто клянется, хотя бы злому, и не изменяет»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:30:39+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "555dfc84a200"
+  },
+  "verse.ru:PS.15.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:57+00:00",
+   "agent_notes": [
+    "Neshekh передан как «рост» в Синодальном переводе («отдаёт в рост»); в тексте комментария объяснён образ «укуса». «Ростовщичество» в комментарии для usury KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:29:18+00:00",
+     "note": "[consider] Consider giving the Synodal verse in brackets, as you did for the psalm number, e.g. «Исх 22:24 (Синод. 22:25)». (PS.15.5: «Исх 22:24»; PS.15.3: «2 Цар 19:28»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4acc25653a2f"
   }
  },
  "notes": [

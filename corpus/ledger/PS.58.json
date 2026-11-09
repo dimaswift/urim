@@ -280,6 +280,294 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.58.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [
+    "Синодальное «Писание Давида» для מִכְתָּם: оставлено в комментарии как чтение перевода; в тексте — «Миктам», как в еврейском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Replace «песнь уединённая» with the Synodal's «Писание Давида», or drop the Synodal sentence. Write «Мальбим» as in earlier chapters. (PS.58.1: מִכְתָּם; Synodal Ps 57:1 «Начальнику хора. Не погуби. Писание Давида.»; corpus/i18n/ru/PS.57.json «Мальбим».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f061ed02be9"
+  },
+  "verse.ru:PS.58.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Write «Мальбим», «Ибн Эзра», «Мецудат Давид», «Мецудат Цион». Quote the Synodal exactly or drop the quotation. (PS.58.10 commentary «Радак, Меири, Малбим и KJV»; Synodal Ps 57:10 «Прежде нежели котлы ваши ощутят горящий терн, и свежее и обгоревшее да разнесет вихрь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": "[consider] Consider: «он понимает «котлы» буквально и читает חַי/חָרוֹן как «свежее и обгоревшее», с Радаком и Мальбимом». (Synodal Ps 57:10 «Прежде нежели котлы ваши ощутят горящий терн, и свежее и обгоревшее да разнесет вихрь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef4e3cef0194"
+  },
+  "verse.ru:PS.58.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:42:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[consider] Quote «омоет стопы свои»; write «Мецудат Давид», «Мецудат Цион». (Synodal Ps 57:11 «Возрадуется праведник, когда увидит отмщение; омоет стопы свои в крови нечестивого».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a60a092ea632"
+  },
+  "verse.ru:PS.58.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [
+    "Синодальное «плод праведнику» сохраняет земледельческий образ, в отличие от «reward» в KJV; цитата дана точно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Delete the closing Synodal sentence, or replace it with the actual Synodal wording «подлинно есть плод праведнику! итак есть Бог, судящий на земле!» and note that it keeps «плод». Spell the commentators as in earlier chapters (Ибн Эзра). (PS.58.12: Hebrew פְּרִי לַצַּדִּיק; Synodal Ps 57:12 «подлинно есть плод праведнику! итак есть Бог, судящий на земле!»; the English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5392f78306c6"
+  },
+  "verse.ru:PS.58.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [
+    "אֵלֶם в Синодальном переводе понят как «судьи» (истолкование слова, не «боги»); сказано в комментарии и в примечании."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Remove the Synodal sentence from the commentary and «в Синодальном — «сильные»» from the אֵלֶם note, or replace them with the actual reading «судьи» (an interpretation of the word, not 'gods'). Spell «Мальбим», «Ибн Эзра», «Мецудат Давид» as in earlier chapters. (PS.58.2: אֵלֶם; Synodal Ps 57:2 «Подлинно ли правду говорите вы, судьи, и справедливо судите, сыны человеческие?»; corpus/i18n/ru/PS.57.json uses «Мальбим», «Ибн Эзра», «Мецудат Давид».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cc772e1d1be1"
+  },
+  "verse.ru:PS.58.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [
+    "Синодальный перевод цитируется точно и отмечено, что он сохраняет образ весов."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Delete the last sentence about the Synodal, or quote it correctly («на земле кладете на весы злодеяния рук ваших») and say that it keeps the scales. Write «Ибн Эзра» without a hyphen, as in earlier chapters. (PS.58.3: תְּפַלֵּסוּן 'you weigh out'; Synodal Ps 57:3 «Беззаконие составляете в сердце, на земле кладете на весы злодеяния рук ваших».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "baeabd0b6a6f"
+  },
+  "verse.ru:PS.58.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Write «Мальбим», «Ибн Эзра», «Мецудат Давид». Quote the Synodal exactly («С самого чрева матери отступили нечестивые, от утробы заблуждаются, говоря ложь») or drop the quotation. (PS.58.4 commentary «Только Малбим разводит два глагола»; corpus/i18n/ru/PS.57.json «Мальбим», «Ибн Эзра».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8bca1080b68c"
+  },
+  "verse.ru:PS.58.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:42:11+00:00",
+   "agent_notes": [
+    "פֶּתֶן — «кобра»; Синодальный перевод даёт «аспид». Слово «аспид» в русском тоже означает ядовитую змею Ближнего Востока, поэтому в драматическом слое выбрано «аспид», а в буквальном и в заметках — «кобра»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[consider] Write «Мецудат Цион»; consider «потому читатель чувствует». (PS.58.5 commentary «Мецудат-Цион приводит Притчи 21:13».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9e7828cc4a85"
+  },
+  "verse.ru:PS.58.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:42:11+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[consider] Quote the Synodal exactly or drop it; write «Мецудат Цион». (Synodal Ps 57:6 «и не слышит голоса заклинателя, самого искусного в заклинаниях».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0714d07ca849"
+  },
+  "verse.ru:PS.58.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Write «Мальбим», «Ибн Эзра», «Мецудат Цион» as in earlier chapters. (PS.58.7 commentary «Малбим видит в зубах клевету»; corpus/i18n/ru/PS.57.json «Мальбим», «Мецудат Цион».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "234c1065309e"
+  },
+  "verse.ru:PS.58.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:47:30+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[should_fix] Write «Мальбим», «Ибн Эзра», «Мецудат Давид», «Мецудат Цион». Quote the Synodal exactly or drop the quotation. (PS.58.8 commentary «Малбим слышит в этом»; Synodal Ps 57:8 «Да исчезнут, как вода протекающая; когда напрягут стрелы, пусть они будут как переломленные».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:48:21+00:00",
+     "note": "[consider] Say «он ближе к Мальбиму, сохраняя образ сломанных стрел» instead of «идёт вторым путём». (PS.58.8 commentary: «Мальбим слышит в этом, что у стрел обламываются наконечники, а «cut in pieces» в KJV — что нечестивых рассекают»; Synodal Ps 57:8 «когда напрягут стрелы, пусть они будут как переломленные».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2fc6edf0990e"
+  },
+  "verse.ru:PS.58.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:42:11+00:00",
+   "agent_notes": [
+    "אֵשֶׁת — «выкидыш женщины»; Синодальный перевод: «выкидыш, не видящий солнца». Версию Раши (слепое роющее животное) сохранил как в английском комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:45:42+00:00",
+     "note": "[consider] Quote the Synodal exactly or drop it; write «Ибн Эзра». (Synodal Ps 57:9 «Да исчезнут, как распускающаяся улитка; да не видят солнца, как выкидыш женщины».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b630915f9531"
   }
  },
  "notes": []

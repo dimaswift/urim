@@ -368,6 +368,371 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.86.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:24+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: в комментарии сказано, что Синодальный перевод, как и KJV, читает здесь «услышь меня»; «об ответе» исправлено; в буквальном слое одно «я» без скобок."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with one saying that the Synodal, like the KJV, has «услышь меня» here; or delete it. Correct «о ответе» to «об ответе». Make the literal layer «…ибо беден и нищ я.» (one unbracketed «я»). (PS.86.1 Hebrew עֲנֵנִי כִּי־עָנִי וְאֶבְיוֹן אָנִי; Synodal Пс 85:1 «Приклони, Господи, ухо Твое и услышь меня, ибо я беден и нищ».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:46:26+00:00",
+     "note": "[consider] Write «Молитва Давида.» (or «Молитва, [принадлежащая] Давиду.») without the bare comma. (PS.86.1: תְּפִלָּה לְדָוִד)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "610913308641"
+  },
+  "verse.ru:PS.86.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[consider] Consider «Ибо велик ты» without brackets, and correct the Synodal quotation. (PS.86.10 Hebrew כִּי־גָדוֹל אַתָּה; Synodal Пс 85:10 «ибо Ты велик и творишь чудеса, — Ты, Боже, един Ты».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0b9489ed05e6"
+  },
+  "verse.ru:PS.86.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e64bb6e2140c"
+  },
+  "verse.ru:PS.86.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:24+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: последнее предложение о Синодальном переводе удалено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[should_fix] In the commentary, delete the last sentence about the Synodal, or quote it correctly («Буду восхвалять Тебя… и славить имя Твое вечно») and drop the claim that it uses «славить» for both verbs. (PS.86.12 Hebrew אוֹדְךָ ... וַאֲכַבְּדָה שִׁמְךָ; Synodal Пс 85:12 «Буду восхвалять Тебя, Господи, Боже мой, всем сердцем моим и славить имя Твое вечно».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:46:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "92c0e9f158e5"
+  },
+  "verse.ru:PS.86.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:43+00:00",
+   "agent_notes": [
+    "По просьбе рецензента «Мейри» заменено на «Меири» в комментарии. Предложение о Синодальном переводе оставлено: Пс 85:13 в Синодальном — «ибо милость Твоя велика на мне, и Ты избавил душу мою от ада преисподнего»; цитата приведена по памяти, пакет текста Синодального перевода не содержит."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[should_fix] Write «Меири» in place of «Мейри» in the commentary. (PS.86.13 commentary: «а Мейри читает его как будущее»; PS.86.1 note: «Меири говорит, что אביון добавлено…».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:46:26+00:00",
+     "note": "[consider] Use one form for source citations across the chapter. (PS.86.13 sources «Мецудат Давид на Псалмы 86:13»; PS.86.1 sources «Metzudat David on Psalms 86:1»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7581633993f"
+  },
+  "verse.ru:PS.86.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:45:43+00:00",
+   "agent_notes": [
+    "Последнее предложение о Синодальном переводе заменено, как просил рецензент: теперь оно приводит слова Пс 85:14 («гордые», «скопище мятежников», «не представляют они Тебя пред собою») и не утверждает, что перевод стирает различие между дерзостью и беспощадностью. Цитата приведена по тексту, названному в запросе рецензента; в пакете русского текста Библии нет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[should_fix] In the commentary, delete the last sentence about the Synodal, or replace it with the actual wording («гордые», «скопище мятежников», «не представляют они Тебя пред собою») and drop the claim that it blurs arrogance and ruthlessness. (PS.86.14 Hebrew זֵדִים קָמוּ עָלַי וַעֲדַת עָרִיצִים; Synodal Пс 85:14 «Боже! гордые восстали на меня, и скопище мятежников ищет души моей; не представляют они Тебя пред собою». The packet carries no Russian Bible text, so the quotation was not checked against a source.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:46:26+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bdb982302730"
+  },
+  "verse.ru:PS.86.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:37+00:00",
+   "agent_notes": [
+    "אֲדֹנָי в буквальном слое передан как «Владыка мой», чтобы отличить его от יהוה (Господь, в буквальном слое — YHWH); в драматическом слое, как и в Синодальном, — «Господи»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e528f6c66422"
+  },
+  "verse.ru:PS.86.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:37+00:00",
+   "agent_notes": [
+    "בֶּן־אֲמָתֶךָ: Синодальный — «сын рабы Твоей»; в драматическом слое оставлено «рабыни», чтобы сохранить социальный смысл (рабыня, а не «раба» как слово без пола)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3dd97b4d40a5"
+  },
+  "verse.ru:PS.86.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:41:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "56d45c7b35ee"
+  },
+  "verse.ru:PS.86.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [
+    "חָסִיד передан как «преданный» (Синодальный: «благочестив»). В комментарии объяснено, что это человек хеседа, а не «святой»; Синодальный выбор отмечен как вариант."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[consider] Consider «ибо предан я» without brackets. (PS.86.2 Hebrew כִּי־חָסִיד אָנִי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a40a30f55f29"
+  },
+  "verse.ru:PS.86.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [
+    "Начиная со стиха 3 божественный титул אֲדֹנָי — «Владыка» в буквальном слое, «Господи» в драматическом (Синодальный пишет «Господи» и для יהוה, и для אדני, различая их только в шрифте)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ebae799177a4"
+  },
+  "verse.ru:PS.86.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "595825d6770d"
+  },
+  "verse.ru:PS.86.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [
+    "סַלָּח («прощающий», прилагательное, единственное употребление) передан как «прощающий» в буквальном слое и «скор прощать» в драматическом; Синодальный читает «благ и милостив», то есть слышит здесь «милосердного»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c7ba1e6e7be6"
+  },
+  "verse.ru:PS.86.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[consider] Consider writing חָנֵּנִי, together with the English. (PS.86.3 Hebrew חָנֵּנִי אֲדֹנָי.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8333d7ae288"
+  },
+  "verse.ru:PS.86.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5b626d5ec711"
+  },
+  "verse.ru:PS.86.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6821c0d4d975"
+  },
+  "verse.ru:PS.86.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:40:56+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:44:15+00:00",
+     "note": "[consider] Consider quoting the Synodal exactly, or paraphrasing without quotation marks. (Synodal Пс 85:9 «Все народы, Тобою сотворенные, придут…»; 85:6 «Услышь, Господи, молитву мою и внемли гласу моления моего»; 85:8 «Нет между богами подобного Тебе, Господи»; 85:17 «Покажи на мне знамение во благо… потому что Ты, Господи, помог мне».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4061c9c85bbc"
   }
  },
  "notes": [

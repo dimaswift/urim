@@ -494,6 +494,497 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.34.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:27+00:00",
+   "agent_notes": [
+    "Первая фраза комментария исправлена: причина идёт так же, как в английском (в иврите это первый стих, поэтому в KJV все последующие стихи нумеруются на единицу меньше). Замечание о Синодальном переводе заменено точным чтением Пс 33:1: «когда он притворился безумным пред Авимелехом» — Синодальный толкует ṭaʿam как притворное безумие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[should_fix] Rewrite the first sentence so the cause runs as in the English: 'в иврите оно считается первым стихом, поэтому в KJV все последующие стихи нумеруются на единицу меньше'. Replace the Synodal remark with the real reading 'когда он притворился безумным пред Авимелехом' (it interprets ṭaʿam as feigned madness) or drop it. (English commentary PS.34.1: \"in the Hebrew it counts as verse 1, which is why the KJV numbers everything after it one lower\"; Synodal Пс 33:1: \"Давида, когда он притворился безумным пред Авимелехом и был изгнан от него, и ушел\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "33cae2ea979d"
+  },
+  "verse.ru:PS.34.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [
+    "Синодальный: «Бойтесь Господа, святые Его; ибо нет скудости у боящихся Его». «Святые» в русской традиции не несёт того оттенка, что «saints» в английской, но комментарий всё же поясняет «посвящённый народ»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b2317ae5bf97"
+  },
+  "verse.ru:PS.34.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52bd8747a7c5"
+  },
+  "verse.ru:PS.34.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7370d2adcf67"
+  },
+  "verse.ru:PS.34.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:02:05+00:00",
+   "agent_notes": [
+    "Синодальную цитату заменил точным текстом Пс 33:13 («Хочет ли человек жить и любит ли долгоденствие, чтобы видеть благо?») и переписал замечание: Синодальный сохраняет «чтобы видеть благо», передаёт «дни» как «долгоденствие», а причастия превращает в вопросы."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[should_fix] Replace the quotation with the Synodal text and adjust the remark (the Synodal keeps 'чтобы видеть благо' and renders 'loving days' as 'долгоденствие'), or drop the Synodal sentence. (Synodal Пс 33:13: \"Хочет ли человек жить и любит ли долгоденствие, чтобы видеть благо?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8a1872a60e09"
+  },
+  "verse.ru:PS.34.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:02:05+00:00",
+   "agent_notes": [
+    "Синодальную цитату исправил на «от коварных слов»; замечание теперь говорит только о том, что глагол «говорить» пропал. Заодно поправил «в сельском хозяйстве» на «в сельской экономике» — так точнее по английскому village economy."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[should_fix] Quote the Synodal correctly ('от коварных слов') and say only that it turns 'от говорения коварства' into 'коварных слов', dropping the verb 'говорить'; or remove the Synodal sentence. (Synodal Пс 33:14: \"Удерживай язык свой от зла и уста свои от коварных слов\"; ru commentary: \"Синодальное «от лукавых речей» ... не сохраняет ... единственное слово «коварство»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:44+00:00",
+     "note": "[consider] Shorten to 'Синодальный перевод даёт «от коварных слов»: глагол «говорить» пропадает, а «коварство» становится определением к «словам».' (ru commentary PS.34.14: \"Синодальное «от коварных слов» заменяет «от говорения коварства» на «от коварных слов»\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ad9959628341"
+  },
+  "verse.ru:PS.34.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Quote 'следуй за ним'; the remark that it is softer than 'гнаться' still holds. (Synodal Пс 33:15: \"Уклоняйся от зла и делай добро; ищи мира и следуй за ним\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0bbd5e36e2e9"
+  },
+  "verse.ru:PS.34.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [
+    "Слово shav'ah передано как «вопль о помощи»; Синодальный даёт «вопль их»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Pick one convention for divine pronouns across the chapter (the Synodal capitalises) and soften the comparison to what the English claims. (PS.34.16 ru literal: \"и уши его\"; PS.34.10 ru literal: \"святые Его\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32a524bb6f62"
+  },
+  "verse.ru:PS.34.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "048e92f15f96"
+  },
+  "verse.ru:PS.34.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "31eeeb234286"
+  },
+  "verse.ru:PS.34.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [
+    "Синодальное «смиренных духом» смещает акцент к смирению; в слоях держу «сокрушённых духом», как в иврите (dakke'ei ruach)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Settle one spelling per commentator for the language (e.g. Мальбим, Мецудат Цион) and use it throughout. (PS.34.19 ru commentary: \"Радак и Малбим\", \"Мецудат Цийон\"; PS.34.12 ru commentary: \"Мальбим\", \"Мецудат Цион\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "080716e9c480"
+  },
+  "verse.ru:PS.34.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:01:27+00:00",
+   "agent_notes": [
+    "Глосса слова 8 приведена в соответствие с буквальным слоем: «[есть] в устах моих»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[should_fix] Change the gloss of pos 8 to '[есть] в устах моих' (or 'в устах моих'), matching the literal layer. (PS.34.2: \"תָּמִיד תְּהִלָּתוֹ בְּפִי\"; English gloss pos 8: \"[is] in my mouth\"; ru commentary: \"без глагола, как простой факт\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "00580e20450a"
+  },
+  "verse.ru:PS.34.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "43183ae69306"
+  },
+  "verse.ru:PS.34.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3bb15852d0d0"
+  },
+  "verse.ru:PS.34.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:58:25+00:00",
+   "agent_notes": [
+    "Глагол ye'shamu: Синодальный перевод, как и KJV, читает «погибнут» (от shamem, «быть опустошённым»). В литеральном слое я оставил «будут признаны виновными» (корень asham), как в английском слое, а в комментарии отметил расхождение с Синодальным."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0560fb6f0608"
+  },
+  "verse.ru:PS.34.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:02:05+00:00",
+   "agent_notes": [
+    "Английское «ransom» заменено русским описанием: выкуп, уплата выкупа за жизнь или освобождение человека от долга."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[should_fix] Replace 'ransom' with Russian, e.g. 'глагол выкупа, уплаты выкупа за жизнь или освобождения человека от долга'. (ru commentary PS.34.23: \"Падá — глагол выкупа, ransom или освобождения человека от долга\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:02:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4259d86d69d7"
+  },
+  "verse.ru:PS.34.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Quote the Synodal exactly; its 'кроткие' is worth noting next to the ASV 'meek' the commentary already criticises. (Synodal Пс 33:3: \"Господом будет хвалиться душа моя; услышат кроткие и возвеселятся\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f19bc936100f"
+  },
+  "verse.ru:PS.34.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bffedd6034ea"
+  },
+  "verse.ru:PS.34.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Quote 'от всех опасностей моих'; it also bears on the commentary's point about mĕgurot. (Synodal Пс 33:5: \"Я взыскал Господа, и Он услышал меня, и от всех опасностей моих избавил меня\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "52522ab18c40"
+  },
+  "verse.ru:PS.34.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [
+    "В Синодальном «Кто обращал взор к Нему, те просвещались, и лица их не постыдятся» (Пс 33:6): «просвещались» передаёт тот же выбор света, что и «сияли»; «не постыдятся» в Синодальном — будущее, как и в иврите (ʾal + имперфект), так что здесь Синодальный ближе к ивриту, чем KJV."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f351ddaeabee"
+  },
+  "verse.ru:PS.34.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": "[consider] Write 'имя Иисус Навин (Иехошуа)'. (English note PS.34.7: \"The same root gives the name Joshua\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b0b2ae2460d7"
+  },
+  "verse.ru:PS.34.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [
+    "Синодальный: «Ангел Господень ополчается вокруг боящихся Его и избавляет их». Выбрано «располагается станом» для ḥoneh, чтобы сохранить военный образ лагеря; «ополчается» Синодального близок, но не говорит о лагере."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fda650a10435"
+  },
+  "verse.ru:PS.34.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:57:52+00:00",
+   "agent_notes": [
+    "Синодальный: «вкусите, и увидите, как благ Господь! Блажен человек, который уповает на Него». «Уповает» ослабляет образ убежища; в комментарии это отмечено, как и в английском для KJV «trusteth». Игра ṭaʿam (стихи 1 и 9) сохранена: «вкус» — «вкусите»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:00:40+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a956278ca5fc"
   }
  },
  "notes": []

@@ -276,6 +276,303 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.96.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:24+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован как «Воспойте Господу песнь новую»; сказано, что приставка в «воспойте» немного отделяет глагол от «песни», тогда как повтор ширу … шир … ширу сохранён в «пойте» буквального слоя."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] Quote the Synodal as «Воспойте Господу песнь новую»; note that its prefixed «воспойте» separates the verb from «песнь» a little, whereas the Hebrew repeats shiru … shir … shiru, which the literal layer's «пойте» keeps. (PS.96.1 שִׁירוּ לַיהוָה שִׁיר חָדָשׁ; Синодальный Пс 95:1: «Воспойте Господу песнь новую; воспойте Господу, вся земля!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f273d0c845d2"
+  },
+  "verse.ru:PS.96.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:24+00:00",
+   "agent_notes": [
+    "Синодальное «по правде» вместо «справедливо»; остальное предложение сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] Replace «Синодальное «справедливо» тоже верно» with «Синодальное «по правде» тоже верно», keeping the rest of the sentence. (PS.96.10 יָדִין עַמִּים בְּמֵישָׁרִים; Синодальный Пс 95:10: «Он будет судить народы по правде».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7c209fbe647c"
+  },
+  "verse.ru:PS.96.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e3a20c23c540"
+  },
+  "verse.ru:PS.96.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:24+00:00",
+   "agent_notes": [
+    "Синодальное «и да ликуют все дерева дубравные» процитировано точно; добавлено, что оно опускает еврейское «аз» («тогда») и превращает второй глагол в пожелание."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] Quote the Synodal as «и да ликуют все дерева дубравные»; optionally add that it drops the Hebrew 'аз ('тогда') and turns the second verb into a wish. (PS.96.12 אָז יְרַנְּנוּ כָּל־עֲצֵי־יָעַר; Синодальный Пс 95:12: «да радуется поле и все, что на нем, и да ликуют все дерева дубравные».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f844a0723406"
+  },
+  "verse.ru:PS.96.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:00+00:00",
+   "agent_notes": [
+    "По просьбе рецензента имена комментаторов приведены к форме остальных стихов главы: «Мальбим» и «Мецудат-Давид» (в тексте комментария и в заметках; ссылки в sources остались как есть)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] Write «Мальбим» and «Мецудат-Давид» in the commentary and notes of PS.96.13, as in the other verses of the chapter. (PS.96.13 commentary «Малбим видит в них два прихода», note «Малбим различает два прихода»; PS.96.6 «Мальбим различает внутреннюю природу»; PS.96.9 «Радак и Мецудат-Давид».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f0d046e48b98"
+  },
+  "verse.ru:PS.96.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d4ae4675d6e"
+  },
+  "verse.ru:PS.96.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a23b36a57a97"
+  },
+  "verse.ru:PS.96.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "40402c18aa8c"
+  },
+  "verse.ru:PS.96.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [
+    "Игру слов 'элохим' — 'элилим' по-русски не передать; в комментарии она объяснена, а в драматическом слое голос «опускается» от «богов» к «ничтожествам». Синодальный перевод даёт «идолы»; в буквальном слое оставлено транслитерированное 'элилим' по образцу английского слоя."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0945d3871fa9"
+  },
+  "verse.ru:PS.96.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f487efa6117a"
+  },
+  "verse.ru:PS.96.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:24+00:00",
+   "agent_notes": [
+    "Синодальное «племена народов» процитировано точно; отмечено, что оно сохраняет смысл родства менее ясно, чем «семьи»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] In the note on מִשְׁפְּחוֹת עַמִּים, quote the Synodal correctly («племена народов») and say that it keeps the sense of kinship less clearly than «семьи», or drop the Synodal remark. (PS.96.7 מִשְׁפְּחוֹת עַמִּים; Синодальный Пс 95:7: «Воздайте Господу, племена народов, воздайте Господу славу и честь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5081cbf5f332"
+  },
+  "verse.ru:PS.96.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:59:08+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a678a973d3d9"
+  },
+  "verse.ru:PS.96.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:03:24+00:00",
+   "agent_notes": [
+    "Синодальное «во благолепии святыни» процитировано по тексту стиха; сказано, что, как и буквальный слой, оно оставляет смысл открытым."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:02:03+00:00",
+     "note": "[should_fix] Replace «Синодальный выбирает «в благолепном святилище», то есть святое место» with the Synodal wording of this verse, «во благолепии святыни», and say that it, like the literal layer, leaves the sense open (or drop the sentence). (PS.96.9 בְּהַדְרַת־קֹדֶשׁ; Синодальный Пс 95:9: «поклонитесь Господу во благолепии святыни»; Пс 28:2: «поклонитесь Господу во благолепном святилище Его».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:03:59+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b0163b48ae15"
   }
  },
  "notes": []

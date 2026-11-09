@@ -1,6 +1,90 @@
 {
  "chapter_ref": "GEN.2",
  "items": {
+  "causal.ru:caus.gen_2.alone_decision.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:38:16+00:00",
+   "agent_notes": [
+    "Цитата дана в единственном числе, «сделаю ему помощника», как в еврейском («אֶעֱשֶׂה») и в английском; Синодальное «сотворим» идёт от греческой традиции."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[should_fix] Quote the singular, as the Hebrew and the English do: «Решение Бога «сделаю ему помощника» (2:18) исполняется, когда Он строит жену из ребра (2:22)». (GEN.2.18: \"אֶעֱשֶׂה־לּוֹ עֵזֶר כְּנֶגְדּוֹ\" (en: \"I will make him a helper\"); verse.ru:GEN.2.18 commentary: «множественное «сотворим» берётся из греческой традиции, а в еврейском стоит «сделаю»»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bae5c1f04381"
+  },
+  "causal.ru:caus.gen_2.animals_named.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "428218dd108c"
+  },
+  "causal.ru:caus.gen_2.garden_planted.man_placed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6026451178c2"
+  },
+  "causal.ru:caus.gen_2.woman_formed.man_speaks_one_flesh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6277f0214fa2"
+  },
   "causal:caus.gen_2.alone_decision.woman_formed": {
    "status": "approved",
    "produced_by": {
@@ -80,6 +164,215 @@
     }
    ],
    "source": null
+  },
+  "component.ru:comp.adam.companionship.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2aa29f72b03f"
+  },
+  "component.ru:comp.adam.dwelling.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8334f9f1492e"
+  },
+  "component.ru:comp.adam.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "61755532bde9"
+  },
+  "component.ru:comp.adam.occupation.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6245af174a65"
+  },
+  "component.ru:comp.adam.shame.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1a91d398e4cd"
+  },
+  "component.ru:comp.adam.wife.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c6c952943232"
+  },
+  "component.ru:comp.tree_of_knowledge.access.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c40106aa6274"
+  },
+  "component.ru:comp.woman_of_eden.husband.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dde24d1a462f"
+  },
+  "component.ru:comp.woman_of_eden.life.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e360c598934c"
+  },
+  "component.ru:comp.woman_of_eden.shame.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6d85c6f2c7b2"
+  },
+  "component.ru:comp.yhwh.work.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2523e06607ee"
   },
   "component:comp.adam.companionship.1": {
    "status": "approved",
@@ -296,6 +589,145 @@
    ],
    "source": null
   },
+  "edge.ru:edge.gen_2.adam_names_animals": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d3f032687a5"
+  },
+  "edge.ru:edge.gen_2.adam_names_woman": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "951917fc24bf"
+  },
+  "edge.ru:edge.gen_2.yhwh_brings_woman_to_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5880d1275f0c"
+  },
+  "edge.ru:edge.gen_2.yhwh_builds_woman": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:38:16+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[should_fix] Label «строит»; description «Бог строит из ребра, взятого у человека, жену». (GEN.2.22: \"וַיִּבֶן\" (en edge: label \"builds\", \"God builds the rib taken from the man into a woman\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "71084219270a"
+  },
+  "edge.ru:edge.gen_2.yhwh_commands_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b90cdd3eb37d"
+  },
+  "edge.ru:edge.gen_2.yhwh_forms_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0519f9f68d3f"
+  },
+  "edge.ru:edge.gen_2.yhwh_places_adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ea2b4768d470"
+  },
   "edge:edge.gen_2.adam_names_animals": {
    "status": "approved",
    "produced_by": {
@@ -428,6 +860,244 @@
     }
    ],
    "source": null
+  },
+  "entity.ru:artifact.tree_of_knowledge": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "121bc9c1f21b"
+  },
+  "entity.ru:artifact.tree_of_life": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "da244c05849d"
+  },
+  "entity.ru:loc.cush": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f2894513316"
+  },
+  "entity.ru:loc.eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Синодальное написание «Едем» (с «Е»), как в 2:8 и 2:10; в «Едемском саду» и «рае» Синодальный текст чередует «рай» и «сад». В названии локации взято «Сад Едемский» по 2:15."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02613be2ea3a"
+  },
+  "entity.ru:loc.euphrates": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Use «Перат» or drop the alias, since the phonetic name already gives «Перат». (GEN.2.14: \"הוּא פְרָת\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2c50c18779f"
+  },
+  "entity.ru:loc.garden_of_eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "74337034bdbc"
+  },
+  "entity.ru:loc.gihon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a445573f61ac"
+  },
+  "entity.ru:loc.havilah.gen_2_11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d08d94e1ca19"
+  },
+  "entity.ru:loc.pishon": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Синодальный перевод: Фисон; псевдоним «Пишон» — по транслитерации с иврита."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "98d58447e093"
+  },
+  "entity.ru:loc.tigris": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Синодальный текст: «Хиддекель [Тигр]». Каноническое имя «Тигр» (привычное читателю), «Хиддекель» — псевдоним и фонетическое имя."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "60f2589e6944"
+  },
+  "entity.ru:person.adam": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Синодальный перевод до 2:25 говорит «человек» и лишь в 2:25 «Адам»; канонически оставлено «Адам», «человек» дан псевдонимом. Игра слов адам / адама («человек» / «земля») пояснена в этимологии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "35d8c5246634"
+  },
+  "entity.ru:person.woman_of_eden": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Каноническое имя «Жена» следует Синодальному переводу (2:22–25: «жена»); «женщина» дана псевдонимом. Игра слов ишша / иш в русском («жена» / «муж») сохранена в этимологии, хотя в других местах Синодального текста она не звучит так явно, как в иврите."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "55660880486f"
   },
   "entity:artifact.tree_of_knowledge": {
    "status": "approved",
@@ -678,6 +1348,187 @@
     }
    ],
    "source": null
+  },
+  "event.ru:evt.gen_2.alone_decision": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cbd581af2bad"
+  },
+  "event.ru:evt.gen_2.animals_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1faa81b67e14"
+  },
+  "event.ru:evt.gen_2.command_trees": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f5ce7274ddc"
+  },
+  "event.ru:evt.gen_2.garden_planted": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "71a387e4ec87"
+  },
+  "event.ru:evt.gen_2.man_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "338e9b6dbbc2"
+  },
+  "event.ru:evt.gen_2.man_placed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "140f58741b64"
+  },
+  "event.ru:evt.gen_2.man_speaks_one_flesh": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Consider «Вот, наконец, кость от костей моих…». (GEN.2.23: \"זֹאת הַפַּעַם עֶצֶם מֵעֲצָמַי\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "1e60dadfb634"
+  },
+  "event.ru:evt.gen_2.sabbath": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [
+    "Глагол «совершил/почил» (2:2) оставлен как в Синодальном переводе: «завершил» и «почил»; в заголовке выбрано «почивает», чтобы сохранить библейский регистр."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c1aaf566ea5d"
+  },
+  "event.ru:evt.gen_2.woman_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:38:16+00:00",
+   "agent_notes": [
+    "По просьбе рецензента везде «строит» (евр. וַיִּבֶן), а не «создаёт» Синодального перевода: образ строительства сохранён."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[should_fix] Use «строит» in the title and the summary, e.g. «Бог строит жену из ребра человека» and «Из ребра Он строит жену и приводит её к человеку». (GEN.2.22: \"וַיִּבֶן יְהוָה אֱלֹהִים אֶת־הַצֵּלָע\" (en event: \"God builds the woman from the man's rib\"; verse.ru:GEN.2.22: «Синодальный перевод «создал из ребра… жену» теряет образ строительства»))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "32d91122a4ae"
   },
   "event:evt.gen_2.alone_decision": {
    "status": "approved",
@@ -1044,6 +1895,139 @@
    ],
    "source": null
   },
+  "instance.ru:inst.gen_2.animals_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "17363cd237b1"
+  },
+  "instance.ru:inst.gen_2.animals_named": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "da227db0ba5c"
+  },
+  "instance.ru:inst.gen_2.first_marriage": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "50786d2bc203"
+  },
+  "instance.ru:inst.gen_2.man_formed": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0cb26d62c4ef"
+  },
+  "instance.ru:inst.gen_2.sabbath_sanctified": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ff3410c89c13"
+  },
+  "instance.ru:inst.gen_2.tree_prohibition": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e5fd00a9437a"
+  },
+  "instance.ru:inst.gen_2.woman_built": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Consider «построил из ребра жену» for consistency with the verse layer. (GEN.2.22: \"וַיִּבֶן\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e14e0780a264"
+  },
   "instance:inst.gen_2.animals_formed": {
    "status": "approved",
    "produced_by": {
@@ -1176,6 +2160,82 @@
     }
    ],
    "source": null
+  },
+  "system.ru:sys.divine_formation": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4543623b3ed5"
+  },
+  "system.ru:sys.marriage": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5bc00304f275"
+  },
+  "system.ru:sys.naming_by_man": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eec706542228"
+  },
+  "system.ru:sys.sabbath_sanctification": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:31:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a13efe3dbb23"
   },
   "system:sys.divine_formation": {
    "status": "approved",
@@ -1828,6 +2888,509 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:GEN.2.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [
+    "В примечании к צְבָאָם отсылки Втор 4:19 и 3 Цар 22:19 даны по Синодальной нумерации (3-я книга Царств = 1 Царей)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6c86cd5034ba"
+  },
+  "verse.ru:GEN.2.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41c26de57d9a"
+  },
+  "verse.ru:GEN.2.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [
+    "Имена рек и земель — по Синодальному: Фисон, Хавила. «Бдолах» и «оникс» — тоже по Синодальному (бдолах — в Числ 11:7 так же)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b1cd1a4eca5f"
+  },
+  "verse.ru:GEN.2.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e9c1c7593599"
+  },
+  "verse.ru:GEN.2.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b11f7e7c0707"
+  },
+  "verse.ru:GEN.2.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [
+    "Хиддекель, Ашшур и Перат даны в форме Синодального перевода только там, где она есть (Хиддекель, Ассирия, Евфрат); в буквальном слое сохранены еврейские Ашшур и Перат, чтобы было видно, что стоит в тексте. В глоссах — «Ашшур», «Перат»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "be9c562a03e6"
+  },
+  "verse.ru:GEN.2.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Write «ваяннихеху» in Cyrillic. (GEN.2.15: \"וַיַּנִּחֵהוּ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "081ac9ec5bfe"
+  },
+  "verse.ru:GEN.2.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Refer to the Russian «будешь есть» instead of the English, and drop «тоже» before «теряет удвоение». (verse.ru:GEN.2.16 translation_literal: «есть-есть будешь»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e348bd3b5b69"
+  },
+  "verse.ru:GEN.2.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Give the KJV words as they are, e.g. «“thou shalt surely die” в KJV («непременно умрёшь») точно…». (GEN.2.17 KJV: \"thou shalt surely die\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0fdae27ebdd1"
+  },
+  "verse.ru:GEN.2.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [
+    "«Помощник, соответственный ему» — выбор Синодального перевода для 'ezer kenegdo'; в буквальном слое я передал «помощь, соответствующую ему», а в драматическом — «стоящего лицом к лицу». Игра Раши (помощь или противник) в русском звучит только в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c27bd28df9bd"
+  },
+  "verse.ru:GEN.2.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [
+    "Конец стиха трудный; в буквальном слое сохранён порядок еврейского, с «[было]» в скобках, в драматическом дан читаемый вариант без добавления смысла."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4b2ab0e7efcd"
+  },
+  "verse.ru:GEN.2.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd7de09de467"
+  },
+  "verse.ru:GEN.2.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a13015734804"
+  },
+  "verse.ru:GEN.2.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ec88027cf11b"
+  },
+  "verse.ru:GEN.2.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "22f607c1d761"
+  },
+  "verse.ru:GEN.2.23": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:38:25+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария переписано по замечанию рецензента: теперь оно прямо говорит, что Синодальное «жена» … «от мужа» передаёт смысл, но не игру слов (слова не однокоренные), и что «зот» в нём сведён к одному «это». Остальной текст стиха не менялся.",
+    "В буквальном слое иш / иша переданы как «мужчина» / «женщина», потому что по-русски нет пары однокоренных слов; в драматическом слое сохранено то же. Синодальные «муж» / «жена» оставлены только в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[should_fix] Rewrite the last sentence of directors_commentary: the Synodal «жена» … «от мужа» keeps the sense but not the wordplay (the two words share no root), keeps «это», and loses the threefold zot. (GEN.2.23: \"לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ\"; localizer's note: «по-русски «муж» и «жена» … дают лишь отдалённое созвучие»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:39:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b5d0a43bd4f6"
+  },
+  "verse.ru:GEN.2.24": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9bf67c35ba17"
+  },
+  "verse.ru:GEN.2.25": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:33:26+00:00",
+   "agent_notes": [
+    "Игра слов «аруммим» («нагие») — «арум» («хитрый») из 3:1 не передаётся по-русски: Синодальный перевод даёт «наги» и «хитрее», и связь теряется. Я сохранил её в комментарии и в примечании, а в переводе оставил «нагие»/«без одежды».",
+    "В буквальном слое «Адам» передан как «человек» с артиклем (ha-adam), как в английском буквальном слое; Синодальный перевод пишет «Адам»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "769a7293ce1b"
+  },
+  "verse.ru:GEN.2.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "10c49af1d2ab"
+  },
+  "verse.ru:GEN.2.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [
+    "В литеральном слое имя יהוה оставлено как YHWH; в драматическом и в комментарии — «Господь Бог», как в Синодальном переводе. «Толедот» передано как «происхождение» (так в Синодальном), а в комментарии объяснено как «родословие / то, что произвели на свет»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a3d012b018ee"
+  },
+  "verse.ru:GEN.2.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2753da2dd46d"
+  },
+  "verse.ru:GEN.2.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9658d292e07b"
+  },
+  "verse.ru:GEN.2.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [
+    "Синодальное «душою живою» в комментарии разобрано как аналог KJV 'living soul': Синодальный перевод делает тот же выбор, что и KJV; в литеральном слое — «существо живое». Игра слов адам/адама передана в комментарии как «человек из земли»; в драматическом слое сохранить звуковую связь по-русски не удалось (человек — земля)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": "[consider] Quote the Synodal as «душею живою». (GEN.2.7 Synodal: «и стал человек душею живою»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "41195c101dcf"
+  },
+  "verse.ru:GEN.2.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "20e29370fbb0"
+  },
+  "verse.ru:GEN.2.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:34:20+00:00",
+   "agent_notes": [
+    "«Дерево познания добра и зла» оставлено в драматическом слое как в списке терминов; в литеральном — «древо познания [= знания] добра и зла» с буквальным «познания»; комментарий предлагает «знание» (даат) как процесс."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:37:34+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "724ec5c2a943"
   }
  },
  "notes": [
@@ -2091,6 +3654,15 @@
     "run": "main"
    },
    "at": "2026-11-02T13:43:45+00:00"
+  },
+  {
+   "note": "[urim-critic@3 · claude-opus-5-5, consider] causal.ru:caus.gen_2.animals_named.woman_formed: This approved causal text still says «создаёт жену», while the revised event, edge and causal texts now say «строит», following וַיִּבֶן. (GEN.2.22: \"וַיִּבֶן יְהוָה אֱלֹהִים אֶת־הַצֵּלָע\" (built))",
+   "produced_by": {
+    "model": "claude-opus-5-5",
+    "skill": "urim-critic@3",
+    "run": "main"
+   },
+   "at": "2026-11-09T21:39:07+00:00"
   }
  ]
 }

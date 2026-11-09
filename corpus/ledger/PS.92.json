@@ -339,6 +339,388 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.92.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [
+    "Нумерация: в еврейском тексте надписание — стих 1, поэтому каждый стих здесь на единицу выше, чем в Синодальном переводе (Пс 91). Комментарии называют стихи по еврейской нумерации."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f8bf76c3396f"
+  },
+  "verse.ru:PS.92.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[consider] Quote the Synodal exactly; the point about the kept repetition stands. (Synodal Ps 91:10: «Ибо вот, враги Твои, Господи, — вот, враги Твои гибнут, и рассыпаются все делающие беззаконие».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4bc65e371cc7"
+  },
+  "verse.ru:PS.92.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [
+    "Синодальный перевод, как и KJV, читает «единорог»; в комментарии это отмечено, а в обеих переводных строках стоит «дикий бык» (ивр. рэ'эм)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[consider] Consider one tense across the literal layer and gloss (the English literal has 'raise', its gloss 'have raised'). (PS.92.11: «וַתָּרֶם כִּרְאֵים קַרְנִי».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6329e0e42d89"
+  },
+  "verse.ru:PS.92.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "Синодальный цитируется по тексту; в буквальном слое «слышат о восстающих» вместо нерусского «слышат на». Глосса к слову 4 приведена в соответствие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Replace the Synodal sentence with the actual text («око мое смотрит на врагов моих, и уши мои слышат о восстающих на меня злодеях») and say instead that it, like YLT, adds nothing, but renders шурай as plain «врагов», losing the watching. While there, consider «слышат о восстающих» in the literal layer: «слышат на» is not Russian. (PS.92.12 (Synodal Ps 91:12): «и око мое смотрит на врагов моих, и уши мои слышат о восстающих на меня злодеях»; Hebrew וַתַּבֵּט עֵינִי בְּשׁוּרָי has no word for revenge.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d32ef7f33483"
+  },
+  "verse.ru:PS.92.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:11+00:00",
+   "agent_notes": [
+    "הַלְּבָנוֹן с артиклем передан «на Ливане», как в Синодальном; в комментарии сказано, что это сама горная цепь."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3ea477c7d9ea"
+  },
+  "verse.ru:PS.92.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "Имя Мальбим пишется так же, как в остальном псалме."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Write «Мальбим» in the note of v14, as in the rest of the psalm. (PS.92.14 note: «Малбим подчёркивает…»; PS.92.10 note: «Мальбим (Пс 92:10) понимает…».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": "[consider] Optionally say only that the Synodal opens with the bare participle «Насажденные», as the Hebrew שְׁתוּלִים does. (Synodal Ps 91:14: «Насажденные в доме Господнем, они цветут во дворах Бога нашего».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c14d8693bfb2"
+  },
+  "verse.ru:PS.92.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:00:34+00:00",
+   "agent_notes": [
+    "Цитата Синодального перевода (Пс 91:15) восстановлена дословно: «сочны и свежи». В комментарии сказано, что «сочны» передаёт дашен через сок, а не буквальным «тучны»; в литеральном слое оставлено «тучными» как ближайшее к ивриту."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Write «Мальбим». (PS.92.15 commentary: «как читают Малбим и Таргум».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": "[should_fix] Restore the exact Synodal quotation «сочны и свежи» in the commentary. If you want to keep the point about dashen, say that «сочны» renders it as juice rather than the literal «тучны». (Synodal Ps 91:15: «они и в старости плодовиты, сочны и свежи»; Hebrew PS.92.15 דְּשֵׁנִים וְרַעֲנַנִּים.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:01:03+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "80fb56e261e3"
+  },
+  "verse.ru:PS.92.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:04+00:00",
+   "agent_notes": [
+    "По замечанию рецензента: «Малбим» исправлен на «Мальбим» (так принято в русской литературе)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Write «у Мальбима». (PS.92.16 commentary: «у Малбима говорят старцы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "69ea135e6ab1"
+  },
+  "verse.ru:PS.92.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [
+    "Имя YHWH в буквальном слое оставлено как YHWH, в драматическом — «Господь»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd45536ea2ce"
+  },
+  "verse.ru:PS.92.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[consider] Drop «тоже», or say the Synodal chooses «истину» where this translation has «верность». (PS.92.3 literal: «а верность твою — в ночи»; Synodal Ps 91:3 «и истину Твою в ночи».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "51be0462f895"
+  },
+  "verse.ru:PS.92.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "В комментарии KJV цитируется как «с торжественным звуком» (в английском — 'with a solemn sound'), Синодальный — дословно: «на десятиструнном и псалтири, с песнью на гуслях». Хигайон в буквальном слое — «бормотание», в драматическом — «тихий шёпот лиры»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Write «с торжественным звуком» for the KJV phrase, and quote the Synodal exactly: «на десятиструнном и псалтири, с песнью на гуслях». (KJV Ps 92:3 'upon the harp with a solemn sound'; Synodal Ps 91:4 «на десятиструнном и псалтири, с песнью на гуслях».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f513b416d883"
+  },
+  "verse.ru:PS.92.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[consider] Quote «возвеселил»; consider «о делах рук Твоих кричу я от радости». (Synodal Ps 91:5: «Ибо Ты возвеселил меня, Господи, творением Твоим: я восхищаюсь делами рук Твоих»; Hebrew בְּמַעֲשֵׂי יָדֶיךָ אֲרַנֵּן.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d39ef10219c6"
+  },
+  "verse.ru:PS.92.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "Синодальный «дивно глубоки» повторяет мэод перед глаголом; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Quote the Synodal exactly; its «дивно» even mirrors מְאֹד in front of the verb, which the next sentence can mention. (Synodal Ps 91:6: «Как велики дела Твои, Господи! дивно глубоки помышления Твои!»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bbd4df250f29"
+  },
+  "verse.ru:PS.92.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:53:54+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fc77d9a6b614"
+  },
+  "verse.ru:PS.92.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "Синодальный цитируется как «…и делающие беззаконие цветут, чтобы исчезнуть навеки» — целевая связка сохранена, как в иврите (לְהִשָּׁמְדָם)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Quote «чтобы исчезнуть навеки» and keep the remark that it preserves the purpose clause. (Synodal Ps 91:8: «…и делающие беззаконие цветут, чтобы исчезнуть навеки»; Hebrew לְהִשָּׁמְדָם עֲדֵי־עַד.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc546284837a"
+  },
+  "verse.ru:PS.92.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:57+00:00",
+   "agent_notes": [
+    "Драматический слой без идиомы «на высоте»: «А Ты, Господи, превыше всего — навеки». В буквальном слое и в глоссе — «высота», как существительное."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:15+00:00",
+     "note": "[should_fix] Rephrase the dramatic layer without the idiom, e.g. «А Ты, Господи, — в вышине. Навеки.» or «А Ты, Господи, превыше всего — навеки.»; the gloss for pos 2 may stay or become «высота» to match the literal layer. (PS.92.9: «וְאַתָּה מָרוֹם לְעֹלָם יְהוָה»; English dramatic 'But you, LORD, are on high. Forever.')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:00:01+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e646d2f3a36c"
   }
  },
  "notes": []

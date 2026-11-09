@@ -412,6 +412,428 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.40.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:04+00:00",
+   "agent_notes": [
+    "Нумерация: Синодальный, как и еврейский текст, считает заголовок стихом 1, так что номера стихов совпадают, различается только номер псалма (Пс 39). KJV печатает заголовок как надпись, и её номера стихов на единицу меньше. Предложение о нумерации переписано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Rewrite the numbering sentence. The Synodal counts the title as verse 1, like the Hebrew, so its verse numbers match and only the psalm number differs (Пс 39). The KJV prints the title as a heading, so its verse numbers are one lower. (PS.40.1: \"לַמְנַצֵּחַ לְדָוִד מִזְמוֹר\" is Synodal Пс 39:1 'Начальнику хора. Псалом Давида.'; Synodal Пс 39:2 'Твердо уповал я на Господа' = Hebrew 40:2.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d2066a7a5c76"
+  },
+  "verse.ru:PS.40.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:04+00:00",
+   "agent_notes": [
+    "Синодальный добавляет «Твою» («правду Твою»), тем самым выбирая Божью правду там, где в еврейском нет суффикса; вторая половина — «я не возбранял устам моим»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Quote the Synodal correctly, «Я возвещал правду Твою… я не возбранял устам моим». Say that it adds «Твою», so it chooses God's righteousness where the Hebrew has no suffix. (PS.40.10: \"בִּשַּׂרְתִּי צֶדֶק\" (no suffix); Synodal Пс 39:10: «Я возвещал правду Твою в собрании великом; я не возбранял устам моим: Ты, Господи, знаешь».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "108f63d4f382"
+  },
+  "verse.ru:PS.40.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:04+00:00",
+   "agent_notes": [
+    "Синодальное «пред великим собранием» избегает KJV «from» и близко к прочтению, которое защищают Радак и Меири."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Replace the last sentence. The Synodal reads «пред великим собранием» ('before'): it avoids the KJV's 'from' and is close to the reading that Radak and Meiri defend. (PS.40.11: \"לְקָהָל רָב\"; Synodal Пс 39:11: «не утаивал милости Твоей и истины Твоей пред великим собранием».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b676f5317c23"
+  },
+  "verse.ru:PS.40.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a88521a2c51"
+  },
+  "verse.ru:PS.40.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:16+00:00",
+   "agent_notes": [
+    "Синодальный цитируется как «так что видеть не могу»; замечание о «взирать» убрано, сказано, что Синодальный, в отличие от KJV, сохраняет простой глагол без «вверх»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Quote the Synodal as «так что видеть не могу», and say it keeps the plain verb without the KJV's 'up'. Drop the remark about «взирать». (PS.40.13: \"וְלֹא־יָכֹלְתִּי לִרְאוֹת\"; Synodal Пс 39:13: «постигли меня беззакония мои, так что видеть не могу… сердце мое оставило меня».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d8ca8aa7796"
+  },
+  "verse.ru:PS.40.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:13+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "222fec5479a6"
+  },
+  "verse.ru:PS.40.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:15:13+00:00",
+   "agent_notes": [
+    "«Посрамятся» и «устыдятся» развели как два разных глагола (стыд и замешательство); Синодальный даёт «постыдятся и посрамятся»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[consider] Quote «ищущие погибели душе моей». Write «и толкование Раши «закончить»». Align the pos 7 gloss with the literal layer. (PS.40.15: \"מְבַקְשֵׁי נַפְשִׁי לִסְפּוֹתָהּ\"; Synodal Пс 39:15: «Да постыдятся и посрамятся все, ищущие погибели душе моей!».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "568422893db1"
+  },
+  "verse.ru:PS.40.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:16+00:00",
+   "agent_notes": [
+    "В буквальном слое сохранена «пята» («на пяте стыда своего»), как требовал рецензент; в стихе ст. 16 параллель дана как «Пс 35:21 (34:21 в Синодальном)». Синодальный: «Да смутятся от посрамления своего»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Make the literal layer keep the heel, for example «Да ужаснутся на пяте стыда своего говорящие мне: «Ага! Ага!»», with glosses to match (pos 2 «на», pos 3 «пяте»). Write the parallel as «Пс 35:21 (34:21 в Синодальном)». Quote the Synodal as «Да смутятся от посрамления своего». (PS.40.16: \"יָשֹׁמּוּ עַל־עֵקֶב בָּשְׁתָּם\" (English literal: 'on the heel of their shame'); Synodal Пс 39:16: «Да смутятся от посрамления своего говорящие мне: «хорошо! хорошо!»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "90c966d7c3ae"
+  },
+  "verse.ru:PS.40.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:16+00:00",
+   "agent_notes": [
+    "Синодальное «велик Господь!» понято как утверждение, как в YLT, в отличие от KJV и ASV (пожелание)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Quote the Synodal as «велик Господь!». Say that it takes the cry as a statement, like the YLT, unlike the KJV and ASV. (PS.40.17: \"יִגְדַּל יְהוָה\"; Synodal Пс 39:17: «и любящие спасение Твое да говорят непрестанно: «велик Господь!»».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b6fe0228d706"
+  },
+  "verse.ru:PS.40.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:16+00:00",
+   "agent_notes": [
+    "עָנִי везде «бедный», אֶבְיוֹן везде «нищий», как в Синодальном («Я же беден и нищ»): в буквальном слое, глоссах, комментарии и заметке."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Render עָנִי as «бедный» and אֶבְיוֹן as «нищий» throughout: in the literal layer («А я — бедный и нищий»), in the glosses (pos 2 «бедный», pos 3 «и нищий»), in the commentary and in the note. (PS.40.18: \"וַאֲנִי עָנִי וְאֶבְיוֹן\"; Synodal Пс 39:18: «Я же беден и нищ»; Metzudat Zion: evyon is lower, lacking everything.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd4fe3288a26"
+  },
+  "verse.ru:PS.40.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:04+00:00",
+   "agent_notes": [
+    "Синодальное чтение приведено как «Твердо уповал я на Господа»: удвоение глагола передано наречием «твердо»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Quote the Synodal as «Твердо уповал я на Господа». Keep the point that it renders the doubled verb with an adverb (твердо) instead of the repetition. (PS.40.2: \"קַוֹּה קִוִּיתִי יְהוָה\"; Synodal Пс 39:2: «Твердо уповал я на Господа, и Он приклонился ко мне».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "294c2ac99020"
+  },
+  "verse.ru:PS.40.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:19:04+00:00",
+   "agent_notes": [
+    "Опечатка «Миrry clay» исправлена на «miry clay»; Синодальное «из тинистого болота» передаёт два еврейских существительных одним оборотом."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[should_fix] Change «Миrry clay» to «miry clay». Quote the Synodal as «из тинистого болота», which still renders the two Hebrew nouns with one phrase. (PS.40.3: \"מִטִּיט הַיָּוֵן\"; KJV 'miry clay'; Synodal Пс 39:3: «извлек меня из страшного рва, из тинистого болота».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:19:55+00:00",
+     "note": "[consider] Write «KJV «miry clay» сводит в одно выражение то, что в еврейском — два существительных подряд: тит хаяван, «грязь тины»…». (PS.40.3: \"מִטִּיט הַיָּוֵן\"; KJV 'out of the miry clay')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9df6eb4bbf02"
+  },
+  "verse.ru:PS.40.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "43f6388233a9"
+  },
+  "verse.ru:PS.40.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0f8e3efbf4d2"
+  },
+  "verse.ru:PS.40.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [
+    "אֵין עֲרֹךְ אֵלֶיךָ: буквальный слой оставляет «нет упорядочения к Тебе», сохраняя оба смысла (сравнить / перечислить по порядку); Синодальный выбрал первый («некому уподобиться Тебе»), KJV — второй; отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[consider] Quote it as «кто уподобится Тебе!». (PS.40.6: \"אֵין עֲרֹךְ אֵלֶיךָ\"; Synodal Пс 39:6: «о чудесах и помышлениях Твоих о нас — кто уподобится Тебе!».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dab52424d3f6"
+  },
+  "verse.ru:PS.40.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «уши открыл Ты у меня» (как KJV «opened»), а не «выкопал»; в комментарии это оговорено. Евр 10:5 в русском тексте — «тело уготовил», что соответствует греческой традиции."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": "[consider] Quote «Ты открыл мне уши» and give Heb 10:5 one way, «тело уготовал Мне». (PS.40.7: \"אָזְנַיִם כָּרִיתָ לִּי\"; Synodal Пс 39:7: «Ты открыл мне уши».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6f2ce652a941"
+  },
+  "verse.ru:PS.40.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "537728a3cae8"
+  },
+  "verse.ru:PS.40.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:14:05+00:00",
+   "agent_notes": [
+    "Синодальный «внутри сердца моего» вместо «во внутренностях моих»: в буквальном слое оставлено «внутренностей», в драматическом — «внутри меня»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:17:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a0bb0c07b87b"
   }
  },
  "notes": []

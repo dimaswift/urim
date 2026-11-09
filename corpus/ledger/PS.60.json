@@ -320,6 +320,331 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.60.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:21+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: в Синодальном надписание занимает стихи 1–2 (Пс 59:1–2), как в еврейском тексте и в этом издании; отличается только номер псалма. Счёт KJV (надписание как стих 0) противопоставлен им обоим."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Rewrite the sentence: the KJV counts the superscription as verse 0, so its verse 1 is our verse 3; the Synodal, like the Hebrew and this edition, counts the superscription as verses 1–2 (Пс 59:1–2), only the psalm number differs (59 for 60). Fix the same claim in reviewer notes if repeated. (PS.60.1 ru commentary: \"Синодальный перевод делает так же (наш стих 3 у него — стих 1, а надписание занимает стихи 1–2 псалма 59 в его счёте)\"; PS.60.2 ru: \"Синодальный перевод помещает это в надписание (Пс 59:2)\"; English: \"The KJV counts the superscription as verse 0, so its 'verse 1' is our verse 3\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ddf7e4f89889"
+  },
+  "verse.ru:PS.60.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [
+    "Синодальный: «умывальная чаша моя; на Едома простру сапог мой». Литерал сохраняет «бросаю сандалию»; в комментарии отмечено, что Синодальный говорит «простру», и это снимает резкость жеста."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[consider] Use 'горшок омовения моего' in the literal layer, or 'таз' in all three places. (PS.60.10: \"מוֹאָ֤ב סִ֬יר רַחְצִ֗י\"; ru gloss pos 2: \"горшок\"; English literal: \"the pot of my washing\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f60fe7fb286f"
+  },
+  "verse.ru:PS.60.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a5aa0f1e171a"
+  },
+  "verse.ru:PS.60.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:21+00:00",
+   "agent_notes": [
+    "Синодальный процитирован дословно; он, как и KJV, строит первую половину придаточным («Который отринул нас»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Quote the Synodal as 'Не Ты ли, Боже, Который отринул нас и не выходишь, Боже, с войсками нашими?' and say it makes the same relative clause as the KJV, or drop the Synodal sentence. (PS.60.12: \"הֲלֹֽא־אַתָּ֣ה אֱלֹהִ֣ים זְנַחְתָּ֑נוּ\"; English: \"The KJV makes the first half a relative clause ('thou, O God, which hadst cast us off'), which the Hebrew does not have\"; Synodal Ps 59:12: \"Не Ты ли, Боже, Который отринул нас и не выходишь, Боже, с войсками нашими?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e7dfd6fae8c0"
+  },
+  "verse.ru:PS.60.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:04+00:00",
+   "agent_notes": [
+    "По запросу рецензента: «Мецудат Давид» во всём тексте комментария и заметок; источники возвращены к английским ключам («Ibn Ezra on Psalms 60:13» и т. д.).",
+    "В комментарии исправлена неточность прежней версии: «от беды» в KJV — это «from trouble», а Синодальный перевод («в скорби») назван отдельно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Write 'Мецудат Давид' everywhere in the commentary and notes, and restore the sources to the English keys: 'Ibn Ezra on Psalms 60:13', 'Radak on Psalms 60:13', 'Metzudat David on Psalms 60:13'. (PS.60.13 ru: \"Метудат-Давид просто говорит\", sources \"Метудат-Давид на Псалмы 60:13\"; PS.60.3 ru: \"Мецудат Давид говорит именно это\", sources \"Metzudat David on Psalms 60:3\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "896c277c0657"
+  },
+  "verse.ru:PS.60.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:04+00:00",
+   "agent_notes": [
+    "По запросу рецензента: «Мецудат Давид» и «Мецудат Цион» в комментарии и заметках; источники — английские ключи («Metzudat Zion on Psalms 60:14», «Radak on Psalms 60:14», «Rashi on Psalms 60:14»)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Write 'Мецудат Давид' and 'Мецудат Цион' in commentary and notes, and restore the sources to 'Metzudat Zion on Psalms 60:14', 'Radak on Psalms 60:14', 'Rashi on Psalms 60:14'. (PS.60.14 ru: \"Метудат-Давид поясняет\", sources \"Метудат-Цион на Псалмы 60:14\", \"Раши на Псалмы 60:14\"; PS.60.11 ru: \"Мецудат Цион\", sources \"Metzudat Zion on Psalms 60:11\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e595a8047009"
+  },
+  "verse.ru:PS.60.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [
+    "Имена по Синодальному: Иоав, Едом (в Синодальном также «Идумея»), «долина Соляная», Месопотамия/Сирия Сова для Арам-Нахараим и Арам-Цова. В буквальном слое — транслитерация Арам-Нахараим и Арам-Цова."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "163c4198843f"
+  },
+  "verse.ru:PS.60.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:21+00:00",
+   "agent_notes": [
+    "В буквальном слое последняя фраза: «Ты восстановишь нам» — לָנוּ как дательный, без «себе»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Render the last clause literally as 'Ты восстановишь нам' (or 'Ты вернёшь [это] нам'), keeping לָנוּ as a dative 'нам' and dropping 'себе'. (PS.60.3: \"תְּשׁ֣וֹבֵ֥ב לָֽנוּ\"; English literal: \"you will restore to us\"; ru gloss pos 6: \"нам\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "369045dab1eb"
+  },
+  "verse.ru:PS.60.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [
+    "Глаголы 2 м. ед. обращены к Богу: «Ты потряс, Ты расколол»; «исцели» — повеление."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ba0691e482e4"
+  },
+  "verse.ru:PS.60.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fb363ca2ea6a"
+  },
+  "verse.ru:PS.60.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [
+    "Игра слов нес / лѣhитносес сохранена в тексте комментария через транслитерацию; в драматическом слое — «знамя, чтобы его подняли»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "744108d63b19"
+  },
+  "verse.ru:PS.60.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[consider] Write 'спаси десницей Твоей' without brackets. (PS.60.7: \"הוֹשִׁ֖יעָה יְמִֽינְךָ֣\"; ru literal: \"спаси [десницей] Твоей\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e57b908f0bcc"
+  },
+  "verse.ru:PS.60.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:46:58+00:00",
+   "agent_notes": [
+    "Долина Сокхоф: взято написание Синодального (Пс 59:8, Быт 33:17); в английском слое «Succoth»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "60264f628c4f"
+  },
+  "verse.ru:PS.60.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:50:21+00:00",
+   "agent_notes": [
+    "Манассия (мужское имя) — «мой», в согласии с еврейским וְלִי."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:49:12+00:00",
+     "note": "[should_fix] Change 'Манассия — моя' to 'Манассия — мой' in the dramatic layer. (PS.60.9: \"וְלִ֬י מְנַשֶּׁ֗ה\"; ru dramatic: \"Галаад — мой. Манассия — моя.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:50:56+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "36126d80fb51"
   }
  },
  "notes": []

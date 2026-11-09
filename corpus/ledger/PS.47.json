@@ -224,6 +224,216 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.47.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:11+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: «сынов Кореевых» в обоих слоях и в глоссе, «Кореевы» в комментарии; пояснение о нумерации заменено формулировкой рецензента."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[should_fix] Replace the parenthesis with: «(В Синодальном переводе это псалом 46; надписание там, как и в еврейском, — стих 1, так что номера стихов совпадают с еврейскими.)». Write «сынов Кореевых» in the literal layer, the dramatic layer and the gloss of pos 3 («Кореевых»), and «Кореевы» (or «сыны Кореевы») for «Корахиты» in the commentary. (PS.47.1: «לִבְנֵי־קֹרַח» — Synodal Пс 46:1 «Сынов Кореевых»; corpus/i18n/ru/PS.42.json and PS.44.json use «сынов Кореевых».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "580cf8653c43"
+  },
+  "verse.ru:PS.47.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [
+    "«нобли»/«князья»: nedivei 'ammim передано «знатные [мужи] народов», Синодальный говорит «князья народов». Предлог перед «народ Бога Авраамова» в иврите отсутствует; в буквальном слое он не добавлен."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[consider] Quote the Synodal as it stands, and note that it adds «над ними» as well as «к». (Synodal Пс 46:10 «князья народов собрались к народу Бога Авраамова, ибо щиты земли — Божии; Он превознесен над ними».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5f17d4780dc0"
+  },
+  "verse.ru:PS.47.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[consider] Quote «восплещите руками… воскликните Богу гласом радости». (Synodal Пс 46:2.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "59344d40a787"
+  },
+  "verse.ru:PS.47.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[consider] Use «внушающий трепет» (or «грозный») in the literal layer so it agrees with the gloss. (PS.47.3: «נוֹרָא» (niphal participle, 'to be feared').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4ae6ff3e0eaf"
+  },
+  "verse.ru:PS.47.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c77d3f39c563"
+  },
+  "verse.ru:PS.47.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[consider] Quote «красу Иакова, которого возлюбил» and say that the Synodal drops «села» altogether. (PS.47.5: «אֲשֶׁר־אָהֵב סֶלָה» — Synodal Пс 46:5 «избрал нам наследие наше, красу Иакова, которого возлюбил».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aec1eabb5f4e"
+  },
+  "verse.ru:PS.47.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [
+    "shofar передан как «шофар (бараний рог)»: Синодальный перевод говорит «трубный звук», и комментарий объясняет, почему это неточно. В драматическом слое — «рог»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[consider] Consider «Бог взошёл!» and quote the Synodal «при звуке трубы». (PS.47.6: «עָלָה אֱלֹהִים» (qal perfect); English dramatic 'God has gone up!'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c0b497716070"
+  },
+  "verse.ru:PS.47.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b92f52093251"
+  },
+  "verse.ru:PS.47.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:27:11+00:00",
+   "agent_notes": [
+    "По просьбе рецензента: последнее предложение комментария заменено; Синодальный перевод («пойте все разумно») понимает маскил как наречие."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": "[should_fix] Replace the last sentence of the commentary with: «Синодальный перевод («пойте все разумно») берёт маскил как наречие, как KJV и Таргум.» (PS.47.8: «זַמְּרוּ מַשְׂכִּיל» — Synodal Пс 46:8 «ибо Бог — Царь всей земли; пойте все разумно».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:27:42+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "951be1be6661"
+  },
+  "verse.ru:PS.47.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T18:24:42+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T18:26:23+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9b6fb2e4f9bf"
   }
  },
  "notes": [

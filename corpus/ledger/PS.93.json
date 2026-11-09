@@ -125,6 +125,135 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.93.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:47+00:00",
+   "agent_notes": [
+    "Литеральный слой по просьбе рецензента: «в величие облёкся он; облёкся он, YHWH, в силу, препоясался он», порядок слов еврейский."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:21+00:00",
+     "note": "[should_fix] In translation_literal keep the Hebrew order but use the reflexive with «в»: «в величие облёкся он; облёкся он, YHWH, в силу, препоясался он» (or «величием облёкся он; облёкся он, YHWH, силой»). (PS.93.1: \"גֵּאוּת לָבֵשׁ לָבֵשׁ יְהוָה עֹז\" (English literal: \"majesty he has put on; he has put on, YHWH, strength\"))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:59:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a2c4b39f1636"
+  },
+  "verse.ru:PS.93.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:47+00:00",
+   "agent_notes": [
+    "В комментарии Синодальный перевод процитирован точно: «искони» и «от века»; «от начала» убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:21+00:00",
+     "note": "[should_fix] Replace «от начала» with «искони» in the sentence on the Synodal (e.g. «Синодальный перевод выбирает „искони“ и „от века“…»), or drop that sentence. (PS.93.2 (Пс 92:2, Синодальный): «Престол Твой утвержден искони: Ты — от века»; Hebrew: \"נָכוֹן כִּסְאֲךָ מֵאָז מֵעוֹלָם אָתָּה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:59:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f195ff31d2e9"
+  },
+  "verse.ru:PS.93.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:55:54+00:00",
+   "agent_notes": [
+    "Синодальный перевод передаёт последнее слово как «волны свои»; я оставил «грохот», следуя английскому выбору «pounding» и корню «дробить»; в заметке об этом сказано."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:57:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "16db0a7b45c5"
+  },
+  "verse.ru:PS.93.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:47+00:00",
+   "agent_notes": [
+    "Синодальный стих процитирован точно; утверждение о потере 'адирим снято, сказано лишь, что «сильных» отнесено к волнам, как в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:21+00:00",
+     "note": "[should_fix] In the commentary, quote the Synodal exactly as «Но паче шума вод многих, сильных волн морских, силен в вышних Господь» and drop the claim that 'adirim is lost there: say instead that the Synodal renders it «сильных… силен», keeps the name last, but attaches «сильных» to the waves (as the KJV does), not to the waters. Or drop the Synodal sentence altogether. (PS.93.4 (Пс 92:4, Синодальный): «Но паче шума вод многих, сильных волн морских, силен в вышних Господь»; Hebrew: \"אַדִּירִים מִשְׁבְּרֵי־יָם אַדִּיר בַּמָּרוֹם יְהוָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:59:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "93a31c81a8d5"
+  },
+  "verse.ru:PS.93.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:58:47+00:00",
+   "agent_notes": [
+    "Синодальный стих процитирован точно («принадлежит святость на долгие дни»); вывод о «на долгие дни» против «for ever» в KJV сохранён."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:57:21+00:00",
+     "note": "[should_fix] Quote the Synodal exactly: «Откровения Твои несомненно верны. Дому Твоему, Господи, принадлежит святость на долгие дни». The point about «на долгие дни» against the KJV's «for ever» stays. (PS.93.5 (Пс 92:5, Синодальный): «Откровения Твои несомненно верны. Дому Твоему, Господи, принадлежит святость на долгие дни»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:59:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "869f1c855593"
   }
  },
  "notes": []

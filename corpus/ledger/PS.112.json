@@ -1,0 +1,466 @@
+{
+ "chapter_ref": "PS.112",
+ "items": {
+  "verse.en:PS.112.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:25:00+00:00",
+   "agent_notes": [
+    "Per the reviewer request, the literal layer and the token-3 gloss now read 'the happinesses of', matching the note on 'ashrei. Only verses 1, 5 and 9 are revised; 2-4 and 6-8 are approved and left out."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[should_fix] In translation_literal and the token-3 gloss replace 'the blessings of' with 'the happinesses of' (or 'O the happiness of'), matching the philological note. (PS.112.1: אַשְׁרֵי־אִישׁ (YLT 'O the happiness of one fearing'); PS.112.2: יְבֹרָךְ 'it will be blessed')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:36+00:00",
+     "note": "[consider] Keep one form of the opening shout; consider dropping 'not a burden'. (PS.112.1: הַלְלוּ יָהּ ... בְּמִצְוֹתָיו חָפֵץ מְאֹד)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[consider] Correct the transliteration to 'venamas'. (PS.112.10: שִׁנָּיו יַחֲרֹק וְנָמָס)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [
+    "The Hebrew gives no subject for 'gracious and compassionate and righteous'. KJV/ASV/BBE make it God, YLT leaves it open. The medieval commentators split (Ibn Ezra, Meiri: God; Radak: also the upright man who learned it from his Maker). I keep the ambiguity in both translations and explain it in the commentary. In Psalm 111:4 the same three words describe YHWH, which tilts toward God."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[consider] Say that two of the three words are the stock pair (Psalm 111:4, Exodus 34:6) and 'righteous' is added; fix 'skin-light'. (PS.112.4: חַנּוּן וְרַחוּם וְצַדִּיק)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:25:00+00:00",
+   "agent_notes": [
+    "KJV remark rewritten per the reviewer request: 'guide' follows Rashi (manhig, 'directs his affairs'), 'discretion' is an interpretive rendering in the sense Radak and Meiri give (right measure). The commentary now says what the KJV loses: the sustain/supply sense of yekhalkel and the word 'justice'."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[should_fix] Rewrite the KJV remark: 'guide' follows Rashi's reading and 'discretion' is an interpretive rendering of mishpat in the sense Radak and Meiri give (right measure), not an invention; say what the KJV loses (the 'sustain/supply' sense of yekhalkel, the word 'justice') instead of calling it invented. (PS.112.5: יְכַלְכֵּל דְּבָרָיו בְּמִשְׁפָּט; Rashi: 'מַנְהִיג חֲפָצָיו'; Radak: 'במדה שוה... לא יפזר כל כך ממונו')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[consider] Make the logic of ki consistent: either v6 grounds v5 or v5's conduct leads to v6, not both. (PS.112.6: כִּי־לְעוֹלָם לֹא־יִמּוֹט)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[consider] Consider 'Evil news may come' without the messenger; fix 'one news' to 'a piece of news'. (PS.112.7: מִשְּׁמוּעָה רָעָה לֹא יִירָא נָכוֹן לִבּוֹ)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:21:52+00:00",
+   "agent_notes": [
+    "STEPBible glosses 'he will look on his foes'; the KJV/ASV 'his desire upon' is an addition. Literal layer keeps the bare Hebrew with 'look on'."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[consider] Soften to a staging choice, acknowledging that the idiom and the commentators read it as seeing the foes' downfall. (PS.112.8: עַד אֲשֶׁר־יִרְאֶה בְצָרָיו; Radak: 'הרע שירצה לראות בהם')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.112.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:25:00+00:00",
+   "agent_notes": [
+    "The claim that pizzar is the verb for sowing is dropped, along with 'of seed' in the note. The sower is kept only as an explicit staging image, and the sense is grounded in Radak/Meiri ('to this one and that one') and the Targum's 'scattered his money' (badar mamonei)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:23:44+00:00",
+     "note": "[should_fix] Drop the claim that pizzar is the verb for sowing (and 'of seed' in the note's list); if the sower image stays, present it explicitly as a staging image, and ground the sense in Radak/Meiri ('to this one and that one') and the Targum's 'scattered his money'. (PS.112.9: פִּזַּר נָתַן לָאֶבְיוֹנִים; Radak: 'וטעם פיזר שנותן לזה ולזה ולכל האביונים'; Targum: 'בַּדַר מָמוֹנֵיהּ' (scattered his money))",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:25:36+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.112.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:37+00:00",
+   "agent_notes": [
+    "Синодальный перевод нумерует этот псалом как 111 и передаёт «галлелу-Йах» как «Аллилуия». В дословном слое оставлено «Хвалите Йах», в драматическом — «Аллилуия», как привычно русскому уху."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6e02be405aa6"
+  },
+  "verse.ru:PS.112.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:10+00:00",
+   "agent_notes": [
+    "Транслитерация исправлена на «венамас»; Синодальное «будет досадовать» сохраняет досаду, которую KJV теряет."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[should_fix] Replace 'Синодальное «огорчится» смягчает так же' with an accurate remark (the Synodal 'будет досадовать' keeps the vexation the KJV loses) or drop it. While there, correct the transliteration 'Нанамас' to 'венамас' (וְנָמָס). (PS.112.10: רָשָׁע יִרְאֶה וְכָעָס)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:33:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c9d8a8b4afd4"
+  },
+  "verse.ru:PS.112.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:10+00:00",
+   "agent_notes": [
+    "Комментарий теперь прямо противопоставляет KJV «upon earth» («на всей земле») ивритскому «ха-арец» («эта страна»); предложение о Синодальном убрано, так как его «на земле» двусмысленно так же."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[should_fix] Make the contrast visible: e.g. 'KJV «mighty upon earth» (на всей земле) — вольное прочтение; «ха-арец» — это страна, а в псалме Израиля — эта страна'; drop or correct the Synodal sentence (its 'на земле' is ambiguous in the same way). (PS.112.2: גִּבּוֹר בָּאָרֶץ יִהְיֶה זַרְעוֹ; English: 'ha-aretz is the land, which in a psalm of Israel means this land')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:33:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "080530b8a39f"
+  },
+  "verse.ru:PS.112.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "af285dae95df"
+  },
+  "verse.ru:PS.112.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:37+00:00",
+   "agent_notes": [
+    "Три слова без подлежащего («милостив, и сострадателен, и праведен») переданы без «Он есть», как в иврите. Синодальный перевод («Он благ, милосерд и праведен») выбирает Бога как подлежащее; это отмечено в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[consider] Quote the Synodal wording exactly. (PS.112.4: חַנּוּן וְרַחוּם וְצַדִּיק)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "23ea69cd2453"
+  },
+  "verse.ru:PS.112.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:10+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован по рецензенту («он даст твёрдость словам своим на суде»): он читает «деварав» как «слова», а «мишпат» как «суд»; сравнение с английским комментарием, где «дела» и «справедливость», дано отдельным предложением."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[should_fix] Either quote the Synodal correctly ('он даст твердость словам своим на суде', which reads devarav as 'words' and mishpat as 'court') and compare it accurately, or drop the Synodal sentence. (PS.112.5: יְכַלְכֵּל דְּבָרָיו בְּמִשְׁפָּט; the English commentary makes no claim about the Synodal)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:33:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d24fcd59a3db"
+  },
+  "verse.ru:PS.112.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[should_fix] Drop the sentence, or say that the Synodal ('Он вовек не поколеблется') also loses the 'ибо'. (PS.112.6: כִּי־לְעוֹלָם לֹא־יִמּוֹט)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:33:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "62af778f2fd6"
+  },
+  "verse.ru:PS.112.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4d972ba0cf72"
+  },
+  "verse.ru:PS.112.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:33:10+00:00",
+   "agent_notes": [
+    "Из буквального слоя убрано «[желаемого]»; «ашер» глоссировано как «что». Предложение о Синодальном переводе убрано, чтобы не приписывать ему непроверенный текст."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[should_fix] Drop '[желаемого]' from the literal layer (e.g. 'доколе не увидит на врагах своих' or 'до того, что увидит на врагах своих'); gloss token 6 as 'что' (or '[того,] как'), not 'не'; replace the Synodal quote with 'когда посмотрит на врагов своих' or drop the Synodal sentence. (PS.112.8: עַד אֲשֶׁר־יִרְאֶה בְצָרָיו (token 6 אֲשֶׁר, HTr, 'that'); English literal: 'until that he looks on his foes')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:33:48+00:00",
+     "note": "[consider] Optionally say in the commentary that 'доколе не' is the Russian idiom for 'until' and carries no negation; consider glossing token 6 as '[того,] как'. (PS.112.8: עַד אֲשֶׁר־יִרְאֶה בְצָרָיו)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8084f2ac392e"
+  },
+  "verse.ru:PS.112.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T20:29:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T20:31:49+00:00",
+     "note": "[consider] Quote the Synodal as 'расточил'. (PS.112.9: פִּזַּר נָתַן לָאֶבְיוֹנִים)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "363b541ce016"
+  }
+ },
+ "notes": [
+  {
+   "note": "Psalm 112 is an alphabetic acrostic, one letter per half-line, and Psalm 111 uses the same device. Radak and Meiri say two letters per verse, the last two verses holding three. The literal layer cannot reproduce the acrostic and does not try.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T15:21:52+00:00"
+  }
+ ]
+}

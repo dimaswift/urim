@@ -490,6 +490,460 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.25.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [
+    "«Давиду» в одном стихе с текстом, как в еврейском; в Синодальном переводе это тоже часть стиха 1 (в английской нумерации KJV надпись выделена в «стих 0»). Нумерация стихов в Синодальном переводе Пс 24 совпадает с еврейской.",
+    "Nefesh передан как «душа» в дословном слое и «всё моё существо» в литературном; в комментарии объяснено, что это горло, дыхание, жажда жизни. Синодальный перевод тоже говорит «душу мою»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[consider] Consider one convention for the divine pronouns in all literal layers of the chapter, capitalized as in v2 to v12. (PS.25.1 ru literal «К тебе, YHWH»; PS.25.2 ru literal «на Тебя я уповал».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d81cd8d1a5f1"
+  },
+  "verse.ru:PS.25.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[consider] Consider «Все стези YHWH» in the literal layer and «стези» in gloss pos 2, and «“Стези” из стиха 4 возвращаются» in the commentary. (PS.25.4: \"אֹרְחוֹתֶיךָ לַמְּדֵנִי\" (ru «стезям Твоим»); PS.25.10: \"כָּל־אָרְחוֹת יְהוָה\" (English 'All [the] paths of YHWH').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a66924b8284f"
+  },
+  "verse.ru:PS.25.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[consider] Quote the Synodal text exactly. The same applies to the loose quotations in v18 («Призри на страдание мое и на изнеможение мое») and v22 («Избавь, Боже, Израиля от всех скорбей его»). (Пс 24:11 (Synodal): «Ради имени Твоего, Господи, прости согрешение мое, ибо велико оно».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "189dcb8ca227"
+  },
+  "verse.ru:PS.25.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [
+    "Двусмысленность последнего слова (кто избирает — Бог или человек) сохранена в обоих слоях; Синодальный перевод («путь, который избрать») тоже оставляет её открытой."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a27b5e351d7"
+  },
+  "verse.ru:PS.25.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [
+    "נפש передано как «душа» в буквальном слое (так и Синодальный перевод), а в драматическом и в комментарии объяснено как «сам человек». Глагол תלין — «заночует»: ночлег сохранён в буквальном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f9e43ea58a63"
+  },
+  "verse.ru:PS.25.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "05183192d383"
+  },
+  "verse.ru:PS.25.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[consider] Check the Synodal wording. If it is «извлекает», say that the Synodal keeps the habitual present, unlike the KJV. (Пс 24:15 (Synodal): «Очи мои всегда к Господу, ибо Он извлекает из сети ноги мои».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8d41260c6765"
+  },
+  "verse.ru:PS.25.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cd0207995246"
+  },
+  "verse.ru:PS.25.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [
+    "הרחיבו в буквальном слое оставлено без объекта («расширили»), как в иврите; два прочтения (Радак и Ибн Эзра) разобраны в комментарии. Игра «тесное — широкое» (צרות / הרחיבו) передана словами «теснины» и «простор»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[consider] Consider dropping «[себя]» from the literal layer and gloss pos 3, to match the English and the note. (PS.25.17: \"צָרוֹת לְבָבִי הִרְחִיבוּ\" (English 'have made wide', no object).)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bc629b381a9e"
+  },
+  "verse.ru:PS.25.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4faf4fdda767"
+  },
+  "verse.ru:PS.25.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:19+00:00",
+   "agent_notes": [
+    "По просьбе рецензента сопряжённая форма передана родительным падежом: «ненавистью насилия», без «к». В переводе для чтения вслух оставлено «само насилие», как в английском."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[should_fix] Render the construct with a genitive, not «к»: literal «и ненавистью насилия ненавидят меня» (or «насильственной ненавистью»), glosses pos 5 «и ненавистью», pos 6 «насилия», and in the חָמָס note write «ненависть насилия» instead of «ненависть [к] насилию». (PS.25.19: \"וְשִׂנְאַת חָמָס שְׂנֵאוּנִי\" (construct: hatred of violence = violent hatred); the ru note itself says «ненависть, которая состоит в насилии».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "87d5c04a3097"
+  },
+  "verse.ru:PS.25.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "019b6f16704d"
+  },
+  "verse.ru:PS.25.20": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66b8c135b66b"
+  },
+  "verse.ru:PS.25.21": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [
+    "Лишнее יהוה после конца стиха получило глоссу «Господь [лишнее слово после конца стиха]» и в переводах не используется, как в английском слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "508fbae97607"
+  },
+  "verse.ru:PS.25.22": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:45:17+00:00",
+   "agent_notes": [
+    "В Синодальном переводе это стих 24:22 (нумерация Псалмов в греческой традиции сдвинута); ссылки на соседние стихи в комментарии даны по ивритской нумерации, как в английском тексте."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "f15d54f7aa93"
+  },
+  "verse.ru:PS.25.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:49:50+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено по замечанию рецензента: Синодальный перевод (Пс 24:3) даёт пожелание «да не постыдятся», передаёт בוגדים нравственным словом «беззаконнующие», а ריקם — словом «втуне». Утверждение о том, что ריקם не передано, убрано.",
+    "В буквальном слое «предающие» и «впустую» оставлены близко к ивриту; в драматическом «вероломных» выбрано как слово, не уходящее в одну лишь мораль."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": "[should_fix] Fix the last sentence of the commentary: the Synodal translation, like the KJV, gives a wish («да не постыдятся»), turns בוגדים into the moral «беззаконнующие», and renders ריקם as «втуне». Do not say that ריקם is left untranslated. (Пс 24:3 (Synodal): «Да не постыдятся и все надеющиеся на Тебя: да постыдятся беззаконнующие втуне»; PS.25.3: \"הַבּוֹגְדִים רֵיקָם\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:50:21+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e039994ce00"
+  },
+  "verse.ru:PS.25.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "df6f2b1dc5b5"
+  },
+  "verse.ru:PS.25.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9899a1f6e966"
+  },
+  "verse.ru:PS.25.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [
+    "Rachamim — «милосердие» / chasadim — «верность завету» (в Синодальном: «щедроты» и «милости»). В дословном слое оставил «милосердие» и «верности завету», чтобы сохранить различие, которое в Синодальном стёрто."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c5ed91f1e062"
+  },
+  "verse.ru:PS.25.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "132183103725"
+  },
+  "verse.ru:PS.25.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [
+    "В литературном слое «прям» (yashar) передан как «прям и справедлив»; Синодальный перевод даёт «праведен». Синодальное «потому наставляет» стоит в том же настоящем времени, что и иврит."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "288d734b8325"
+  },
+  "verse.ru:PS.25.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:44:38+00:00",
+   "agent_notes": [
+    "Anavim — «смиренные»; Синодальный перевод здесь «кроткие». Выбрал «смиренные», потому что комментарий противопоставляет anav мягкой слабости, которую слышно в «кротких»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:48:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "960584c70891"
   }
  },
  "notes": [

@@ -291,6 +291,316 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.76.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:37+00:00",
+   "agent_notes": [
+    "В Синодальном переводе этот псалом — 75-й, а надписание не нумеруется; ниже стихи совпадают со стихами еврейского текста на единицу больше. Комментарий об этом сохранён как в английском."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8df4d63bf9f2"
+  },
+  "verse.ru:PS.76.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [
+    "Синодальный читает עַנְוֵי как «угнетённых» («всех угнетенных земли»), а не «кротких»; сказано в комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Replace the last sentence with the Synodal's actual 'всех угнетенных земли', noting that it takes the 'oppressed' sense rather than 'кроткие'. (Synodal Ps 75:10: \"когда восстал Бог на суд, чтобы спасти всех угнетенных земли.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "6cf954901845"
+  },
+  "verse.ru:PS.76.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [
+    "Множественное חֵמֹת передано в буквальном слое как «яростей»; Синодальный «остаток гнева Ты укротишь» процитирован; имя — «Сеннахирима»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Write 'о гневе Сеннахирима'. Optionally quote the Synodal 'остаток гнева Ты укротишь', and mark the plural in the literal layer (e.g. 'остаток яростей'). (Synodal Ps 75:11: \"остаток гнева Ты укротишь\"; 4 Цар 18:13: \"Сеннахирим\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b5ee7e584c36"
+  },
+  "verse.ru:PS.76.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:37+00:00",
+   "agent_notes": [
+    "Имя YHWH сохранено в буквальном слое; в драматическом — «Господь». «Страшный» / «Страшного» в Синодальном («Страшному») — в буквальном слое «Внушающему страх» для מוֹרָא, чтобы сохранить связь с корнем «страх»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "18cb9440e3b1"
+  },
+  "verse.ru:PS.76.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:22:28+00:00",
+   "agent_notes": [
+    "Глагол ивцор в буквальном слое передан как «срезает» (виноградарский образ, Ибн Эзра); Синодальный перевод выбирает другое значение корня — «укрощает» (Раши, Мецудат Цийон, Меири). Обе возможности названы в комментарии и в примечании.",
+    "Корень «бояться» держится в конце псалма словом «грозен» (в Синодальном — «страшен», как и в ст. 8 и 12; псалом там нумеруется 75). Слово «ужасный» не взято: в русском оно звучит как простая оценка."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[consider] Consider one Russian word for נוֹרָא/מוֹרָא across vv. 8, 12 and 13 (the Synodal 'страшен/Страшному' would serve), or make the commentary's advice match the choice. (PS.76.8 literal: \"страшен Ты\"; PS.76.12 literal: \"Внушающему страх\"; PS.76.13 literal: \"грозен для царей земли\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "9655e04f4ee2"
+  },
+  "verse.ru:PS.76.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:37+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[consider] Quote the Synodal exactly: 'Известен во Иудее Бог; у Израиля велико имя Его'. (Synodal Ps 75:2: \"Известен во Иудее Бог; у Израиля велико имя Его.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "863247eac2f5"
+  },
+  "verse.ru:PS.76.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария исправлено по Синодальному: «в Салиме жилище Его и пребывание Его на Сионе»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Correct the last sentence: the Synodal has 'в Салиме жилище Его и пребывание Его на Сионе'. (Synodal Ps 75:3: \"И было в Салиме жилище Его и пребывание Его на Сионе.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e36353b51f4a"
+  },
+  "verse.ru:PS.76.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:37+00:00",
+   "agent_notes": [
+    "Цитаты Синодального перевода в комментариях приведены по памяти; их стоит сверить с изданием."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "57c35b52551e"
+  },
+  "verse.ru:PS.76.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно («Ты славен, Ты могущественнее гор хищников»); имя в примечании — «Сеннахирима», как в 4 Цар 18:13."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] In the commentary, quote the Synodal exactly ('Ты славен, Ты могущественнее гор хищников') or drop the quotation. Keep the remark that it chooses the comparison. In the note, write 'Сеннахирима'. (Synodal Ps 75:5: \"Ты славен, Ты могущественнее гор хищников.\"; 4 Цар 18:13 (Synodal): \"Сеннахирим, царь Ассирийский\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "cbdce16524cd"
+  },
+  "verse.ru:PS.76.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:21:37+00:00",
+   "agent_notes": [
+    "אֶשְׁתּוֹלְלוּ: в драматическом слое передано «лежат обобранные» с оттенком «одураченные»; Выбор между двумя чтениями оставлен рецензенту."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "087b89ecdcdd"
+  },
+  "verse.ru:PS.76.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('От прещения Твоего, Боже Иаковлев, вздремали и колесницы и кони') or drop the quotation. (Synodal Ps 75:7: \"От прещения Твоего, Боже Иаковлев, вздремали и колесницы и кони.\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a6e30f9b37a8"
+  },
+  "verse.ru:PS.76.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [
+    "В буквальном слое и в глоссе 7 — «со времени» (мֵאָז); Синодальный процитирован точно."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Quote the Synodal exactly ('…пред лицем Твоим во время гнева Твоего?') or drop it, and write 'со времени' in the literal layer and in gloss 7. (Synodal Ps 75:8: \"Ты страшен, и кто устоит пред лицем Твоим во время гнева Твоего?\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c979f2a53016"
+  },
+  "verse.ru:PS.76.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:25:46+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:24:30+00:00",
+     "note": "[should_fix] Write 'против Сеннахирима' in the note. (4 Цар 18:13 (Synodal): \"Сеннахирим, царь Ассирийский\"; corpus/i18n/ru/PS.76.json v. 13: \"войска Сеннахирима\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:26:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "841eff845e4f"
   }
  },
  "notes": [

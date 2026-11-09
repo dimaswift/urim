@@ -408,6 +408,433 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.83.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [
+    "Нумерация по еврейскому тексту: надписание — стих 1, поэтому номера на единицу больше, чем в Синодальном переводе (там это Пс 82). Синодальный: «Песнь. Псалом Асафа»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7a7e9bde8420"
+  },
+  "verse.ru:PS.83.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Use «Киссон» in the literal, dramatic and gloss text. (Synodal Ps 82:10: «что Иавину у потока Киссона».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5d7aeb1200eb"
+  },
+  "verse.ru:PS.83.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [
+    "Аэндор — форма Синодального перевода (Пс 82:11); в буквальном слое «Эн-Дор» не использовано, чтобы имя читалось как в Библии. Два слова в оригинале (עֵין, דֹּאר) глоссируются как «в Эн-» и «-дор» вслед за английским разбором."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Pick one spelling for the name (the Synodal «Аендор») and keep «Эн-Дор» only as the explained etymology («источник Дор»). (Synodal Ps 82:11: «которые истреблены в Аендоре».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a29ef83e2183"
+  },
+  "verse.ru:PS.83.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно; он передаёт недивим и несихим как «князья» и «вожди», а в моём переводе сохранено различие «вельможи» и «князья». Имена Орив/Зив/Зевей/Салман — по Синодальному."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Поступи с ними, с князьями их, … и со всеми вождями их, как с Зевеем и Салманом») and say it renders nedivim/nesikhim as «князья»/«вожди». Or drop the sentence. (PS.83.12: \"שִׁיתֵמוֹ נְדִיבֵמוֹ … כָּל־נְסִיכֵמוֹ\"; Synodal Ps 82:12: «Поступи с ними, с князьями их, как с Оривом и Зивом, и со всеми вождями их, как с Зевеем и Салманом».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ef845e8b0771"
+  },
+  "verse.ru:PS.83.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:45+00:00",
+   "agent_notes": [
+    "ne'ot переведено «пастбища», как в английском слое; Синодальный перевод читает «селения Божии» (так же понимает Раши). Оба прочтения названы в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5a50c8d08747"
+  },
+  "verse.ru:PS.83.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:08+00:00",
+   "agent_notes": [
+    "По просьбе рецензента сравнение восстановлено в буквальном слое и в глоссах 3–4 («как катящееся», «как солому»); «перекати-поле» оставлено в драматическом слое и в комментарии. Синодальный перевод читает галгал как «пыль в вихре»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Restore the simile in translation_literal and in glosses 3–4, for example «Боже мой, сделай их как катящееся, как солому перед ветром» (glosses «как катящееся», «как солому»); keep «перекати-поле» for the dramatic layer and the commentary. (PS.83.14: \"שִׁיתֵמוֹ כַגַּלְגַּל כְּקַשׁ לִפְנֵי־רוּחַ\". English literal: \"set them like the tumbling thing, like chaff before wind\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": "[consider] Write «после грамматически множественного «Элогим» (Бог) предыдущего стиха» instead of «Боги». (PS.83.13: \"נְאוֹת אֱלֹהִים\"; en commentary on 83:14: \"after the plural 'God' of the last verse\"; ru: «после множественного «Боги» предыдущего стиха».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "604b3e6834e8"
+  },
+  "verse.ru:PS.83.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Make the literal layer and gloss 2 agree («сжигает» in both), and quote «опаляет горы». (PS.83.15: \"כְּאֵשׁ תִּבְעַר־יָעַר\"; Synodal Ps 82:15: «Как огонь сжигает лес, и как пламя опаляет горы».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "93033ea9b263"
+  },
+  "verse.ru:PS.83.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Quote «приведи их в смятение»; in the dramatic layer write «Гони их бурей Твоей». (Synodal Ps 82:16: «так погони их бурею Твоею и вихрем Твоим приведи их в смятение».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dfae19ff2d58"
+  },
+  "verse.ru:PS.83.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Use «Малбим» and «Мецудат Цион» throughout (vv. 15–18). (ru PS.83.5: «Мецудат Цион»; ru PS.83.17: «Мальбим», «Мецудат Зион».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "efacb98fe1d3"
+  },
+  "verse.ru:PS.83.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:08+00:00",
+   "agent_notes": [
+    "Исправлена опечатка в комментарии («на двух близких словах о позоре»), цитата Синодального перевода приведена по Пс 82:18: «Да постыдятся и смятутся навеки, и да посрамятся и погибнут»; там второй глагол передан как «смятутся», а не «ужаснутся»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Change it to «на двух близких словах о позоре» and quote the Synodal as «Да постыдятся и смятутся навеки, и да посрамятся и погибнут». (ru commentary: «стих построен на двух близких слова о позоре»; Synodal Ps 82:18: «Да постыдятся и смятутся навеки, и да посрамятся и погибнут».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "bfef22f61e31"
+  },
+  "verse.ru:PS.83.19": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:38:45+00:00",
+   "agent_notes": [
+    "В комментарии добавлено одно предложение о Синодальном переводе: он относит «одно» к имени («одно имя Твоё — Господь»). Это тот же выбор, что у KJV. Божье имя в литеральном слое оставлено YHWH, в драматическом — «Господь»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Quote it as «Ты, Которого одно имя Господь». (Synodal Ps 82:19: «и да познают, что Ты, Которого одно имя Господь, Всевышний над всею землею».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4225244246d6"
+  },
+  "verse.ru:PS.83.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно («не премолчи, не безмолвствуй и не оставайся в покое»); он сохраняет все три отрицания, поэтому прежнее замечание о «двух словах» снято."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Either quote the Synodal exactly («не премолчи, не безмолвствуй и не оставайся в покое») and say it keeps all three, or drop the Synodal sentence, which the English does not have. (PS.83.2: \"אַל־דֳּמִי־לָךְ אַל־תֶּחֱרַשׁ וְאַל־תִּשְׁקֹט\": three negated terms; Synodal Ps 82:2: «Боже! не премолчи, не безмолвствуй и не оставайся в покое, Боже». The packet's 'RusSynodal' section is empty.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "14df55be693c"
+  },
+  "verse.ru:PS.83.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "02098e17311f"
+  },
+  "verse.ru:PS.83.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "79bc4654e072"
+  },
+  "verse.ru:PS.83.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:35+00:00",
+   "agent_notes": [
+    "В буквальном слое «из [бытия] народом» — как в глоссе и в примечании; по-русски тяжеловато, но это намеренно ради структуры иврита (мин + гой)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] In translation_literal, replace «из [числа] народов» with «из [бытия] народом» (or «чтобы не быть им народом»), matching the gloss and the note. (PS.83.5: \"וְנַכְחִידֵם מִגּוֹי\". English literal: \"let us wipe them out from [being] a nation\"; ru gloss pos 4: «из [бытия] народом».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "ee20c088e580"
+  },
+  "verse.ru:PS.83.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:35+00:00",
+   "agent_notes": [
+    "Синодальный перевод процитирован дословно: «Сговорились единодушно» — как и ASV, он передаёт «сердце» словом «единодушно»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Correct the Synodal sentence: quote «Сговорились единодушно» and note that, like the ASV, it turns 'heart' into 'one accord'. Or drop the sentence. (PS.83.6: \"נוֹעֲצוּ לֵב יַחְדָּו\"; Synodal Ps 82:6: «Сговорились единодушно, заключили против Тебя союз».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a314ae18f187"
+  },
+  "verse.ru:PS.83.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:42:35+00:00",
+   "agent_notes": [
+    "Синодальный «селения Едомовы» процитирован дословно; замечание об Идумее убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[should_fix] Quote the Synodal as «селения Едомовы и Измаильтяне, Моав и Агаряне». Say only that it renders 'tents' as «селения», and delete the remark about Idumea. (PS.83.7: \"אָהֳלֵי אֱדוֹם\"; Synodal Ps 82:7: «селения Едомовы и Измаильтяне, Моав и Агаряне».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:43:17+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "96c0002a3449"
+  },
+  "verse.ru:PS.83.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [
+    "Гевал и Амалик — написания Синодального перевода (Пс 82:8). Если в других книгах корпуса принято иное написание Амалика, стоит свериться."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "eb1505fb7913"
+  },
+  "verse.ru:PS.83.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T19:37:45+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T19:41:22+00:00",
+     "note": "[consider] Use «Они стали сильной рукой сынов Лота» and quote the Synodal exactly. (PS.83.9: \"הָיוּ זְרוֹעַ לִבְנֵי־לוֹט\"; Synodal Ps 82:9: «И Ассур пристал к ним: они стали мышцею для сынов Лотовых».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "63402a0f4192"
   }
  },
  "notes": []

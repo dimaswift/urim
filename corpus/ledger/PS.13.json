@@ -135,7 +135,157 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.13.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:42+00:00",
+   "agent_notes": [
+    "Комментарий исправлен по замечанию: в KJV надписание не нумеруется, поэтому её первое «How long» — стих 2 в иврите; Синодальный (Пс 12) нумерует надписание как иврит, надписание = стих 1."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": "[should_fix] In directors_commentary replace the clause about the Synodal with the English point: in the KJV the heading is not numbered, so its opening 'How long' (KJV v. 1) is verse 2 in the Hebrew; the Synodal (Пс 12) numbers it as the Hebrew does, heading = стих 1. (PS.13.1 en: \"which is why the KJV's opening 'How long' is verse 2 in the Hebrew\"; Synodal Пс 12:1-2 numbers the superscription as v. 1.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5e7e21ebdc49"
+  },
+  "verse.ru:PS.13.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:42+00:00",
+   "agent_notes": [
+    "Синодальный процитирован точно: «будешь забывать меня вконец». Замечание о KJV оставлено как есть."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («будешь забывать меня вконец») or drop the Synodal sentence, which the English does not have; keep the KJV remark as it is. (Synodal Пс 12:2: «Доколе, Господи, будешь забывать меня вконец, доколе будешь скрывать лице Твое от меня?»; PS.13.2 Hebrew: \"תִּשְׁכָּחֵנִי נֶצַח\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:22+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e162fd63e0f5"
+  },
+  "verse.ru:PS.13.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:25:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": "[consider] Write «“take counsel” у KJV и ASV (в Синодальном «слагать советы в душе моей»)». (PS.13.3 en: \"The KJV's 'take counsel in my soul'\"; Synodal Пс 12:3: «Доколе мне слагать советы в душе моей, скорбь в сердце моем день и ночь?»)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c71bc551b28b"
+  },
+  "verse.ru:PS.13.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:25:38+00:00",
+   "agent_notes": [
+    "«Да не усну сном смертным» в Синодальном добавляет «сном»; в буквальном слое я оставил «усну [сном] смерти» с квадратными скобками, как в иврите стоит просто «смерть»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c8a23b29fb08"
+  },
+  "verse.ru:PS.13.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:25:38+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "83681cea1d3a"
+  },
+  "verse.ru:PS.13.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:27:42+00:00",
+   "agent_notes": [
+    "חסד передано «верность Твою в союзе» (в буквальном слое и в глоссе), גמל — нейтрально: «поступил со мною сполна», без оттенка платы, чтобы слои согласовались с комментарием."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:26:52+00:00",
+     "note": "[should_fix] In translation_literal and token_glosses pos 2 use «на верность Твою» (or «на верность Твою в союзе»), and replace «воздал сполна» (literal, gloss pos 10, note on גָמַל עָלָי) with a neutral rendering such as «поступил со мною сполна» / «обошёлся со мною в полной мере», so the layers agree with the commentary. (PS.13.6 en literal: \"in your covenant loyalty I have trusted ... for he has dealt fully with me\"; ru commentary: \"«милость» ... сплющивает это слово до жалости\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:28:22+00:00",
+     "note": "[consider] Consider «на Твою неизменную любовь» or «на Твою верность» in translation_dramatic, so the layer does not use the word the commentary rejects. (PS.13.6 en dramatic: \"I have trusted in your steadfast love\"; ru commentary: \"«милость» ... сплющивает это слово до жалости\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "fdf004710f42"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "Пакет приводит в качестве «RusSynodal» не текст Псалма 13, а несвязанные отрывки (Товит 13). Я не опирался на них; синодальный перевод этого псалма (Пс 12:1-6) известен мне по памяти, и там, где мой перевод с иврита совпадает с ним или расходится, это сказано в комментариях. Стоит поправить привязку синодального текста в пакете.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:25:38+00:00"
+  }
+ ]
 }

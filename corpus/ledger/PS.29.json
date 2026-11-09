@@ -238,6 +238,253 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.29.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [
+    "«Бней элим» переведено «сыны богов» в буквальном слое, как в английском; Синодальный перевод читает «сыны Божии». В драматическом слое выбрано «сыны богов» с пояснением «небесный совет»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "961151be1aa3"
+  },
+  "verse.ru:PS.29.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:52:55+00:00",
+   "agent_notes": [
+    "Синодальный текст процитирован точно; сказано только то, что в нём верно: прошедшее «восседал» и будущее «будет восседать» для второго глагола."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": "[should_fix] Quote the Synodal exactly («Господь восседал над потопом, и будет восседать Господь царем вовек») and keep only what is true of it: the past 'восседал' and the future 'будет восседать' for the second verb; drop 'как и KJV, ставит «на потопе»'. (PS.29.10 (RusSynodal Пс 28:10): \"Господь восседал над потопом, и будет восседать Господь царем вовек.\" The English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:53:31+00:00",
+     "note": "[consider] Use one rendering of lammabbûl in the literal layer and the gloss (e.g. «к Потопу» or «над Потопом»), with the same capitalisation. (PS.29.10: literal «YHWH на потопе восседал», gloss pos 2 «над Потопом»; English gloss 'to the Flood'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "aa145529ffdd"
+  },
+  "verse.ru:PS.29.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "87ef7ea6638d"
+  },
+  "verse.ru:PS.29.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [
+    "«Благолепие святыни» — у Синодального «в благолепном святилище»; в буквальном слое дано «в великолепии святыни», в комментарии оговорено, что это не внутреннее качество."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "782907b7bc25"
+  },
+  "verse.ru:PS.29.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": "[consider] Write «Раши объясняет «хир‘им» старофранцузской глоссой». (PS.29.3 English commentary: \"Rashi's Old French gloss explains hirʿîm\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "530bfca3db88"
+  },
+  "verse.ru:PS.29.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "387c1108a11c"
+  },
+  "verse.ru:PS.29.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:52:55+00:00",
+   "agent_notes": [
+    "Синодальную фразу заменил точной цитатой «сокрушает… сокрушает» и отметил, что повтор одного глагола теряет усиление от причастия к пиэлю."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": "[should_fix] Replace «ломит… ломает» with the Synodal's «сокрушает… сокрушает» (the same verb twice, so the escalation from שֹׁבֵר to וַיְשַׁבֵּר is lost), or drop the sentence. (PS.29.5 (RusSynodal Пс 28:5): \"Глас Господа сокрушает кедры; Господь сокрушает кедры Ливанские.\" The English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:53:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "d4430838e128"
+  },
+  "verse.ru:PS.29.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [
+    "Синодальный перевод, как и KJV, читает рэем как «единорог» (след Септуагинты). Здесь «дикий бык» (тур), как требует комментарий; «Сирион» — форма Синодального перевода."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "48a441c76e98"
+  },
+  "verse.ru:PS.29.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:50:05+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "666d27b8a9a5"
+  },
+  "verse.ru:PS.29.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:52:55+00:00",
+   "agent_notes": [
+    "Везде «Кадес» (Синодальный Пс 28:8), в стихе, глоссе и комментарии."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": "[should_fix] Use «Кадес» everywhere in the verse: translation_literal, token gloss pos 8 and the directors_commentary (both mentions of «Кадеш»). (PS.29.8: literal \"пустыню Кадеш\", dramatic \"пустыню Кадес\"; RusSynodal Пс 28:8 \"потрясает Господь пустыню Кадес\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:53:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "83f417f2f5bb"
+  },
+  "verse.ru:PS.29.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:52:55+00:00",
+   "agent_notes": [
+    "Синодальную фразу привёл дословно и отметил, что, как и KJV, она добавляет «о Его славе» к голому «Слава!». В буквальном слое «всё [в нём] говорит» вместо прежнего «всё [он] говорит»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:51:48+00:00",
+     "note": "[should_fix] In the directors_commentary replace the last sentence with the exact Synodal text, «Глас Господа разрешает от бремени ланей и обнажает леса; и во храме Его все возвещает о Его славе», and say that, like the KJV, it adds «о Его славе» to the bare «Слава!»; or drop the Synodal sentence. (PS.29.9 (RusSynodal Пс 28:9): \"Глас Господа разрешает от бремени ланей и обнажает леса; и во храме Его все возвещает о Его славе.\" The English commentary has no Synodal sentence.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:53:31+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b96bc5fe9e79"
   }
  },
  "notes": []

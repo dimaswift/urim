@@ -321,7 +321,365 @@
     }
    ],
    "source": null
+  },
+  "verse.ru:PS.19.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [
+    "Псалом 19 в еврейской нумерации — это Псалом 18 в Синодальном переводе; стихи при этом совпадают, так как в обеих традициях заглавие считается первым стихом. В комментарии это сказано одной фразой."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b604e63985b0"
+  },
+  "verse.ru:PS.19.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Write YHWH instead of ЙХВХ in the literal layer and in token_glosses pos 2 and 7. (PS.19.10 ru literal: \"Страх ЙХВХ чист ... суды ЙХВХ истина\"; PS.19.15 ru literal: \"YHWH, скала моя\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c11c7e382f04"
+  },
+  "verse.ru:PS.19.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [
+    "Синодальное чтение процитировано точно («вожделеннее золота, и даже множества золота чистого, слаще меда и капель сота»); утверждение о порядке слов убрано."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Quote the Synodal correctly («вожделеннее золота, и даже множества золота чистого ... капель сота») and drop the claim about word order, or drop the Synodal sentence altogether. (RusSynodal Ps 18:11: \"они вожделеннее золота, и даже множества золота чистого, слаще меда и капель сота\"; Hebrew PS.19.11 \"מִזָּהָב וּמִפַּז רָב\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "654928337b28"
+  },
+  "verse.ru:PS.19.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [
+    "Слово 'eqev («пятка», затем «следствие») — в буквальном слое «следствие», в драматическом «награда», как в Синодальном; пояснение о пятке — в комментарии."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7091853e5c3c"
+  },
+  "verse.ru:PS.19.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:36:43+00:00",
+   "agent_notes": [
+    "Синодальный перевод (Пс 18:13) читает «погрешности» и «тайных грехов»; в буквальном слое «ошибки» и «скрытых [вещей]», потому что nistarot — «скрытые», а слова «грехов» в иврите нет. Глагол naqqeni передан «оправдай меня» в буквальном и «признай меня невиновным» в драматическом слое, чтобы сохранить судебный образ; Синодальный выбирает «очисти»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d5096099668"
+  },
+  "verse.ru:PS.19.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [
+    "Синодальное «от умышленных» упомянуто как чтение, которое, как и KJV, указывает скорее на поступки, чем на надменных людей."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Replace «Синодальный перевод тоже выбирает отвлечённое «от наглости»» with the Synodal's actual «от умышленных» (which, like the KJV, points to wilful acts rather than to proud people), or drop the sentence. (RusSynodal Ps 18:14: \"и от умышленных удержи раба Твоего, чтобы не возобладали мною. Тогда я буду непорочен и чист от великого развращения\"; Hebrew PS.19.14 \"מִזֵּדִים\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": "[consider] Capitalize the pronouns referring to God («раба Твоего», «перед Тобою»), as in verse 12. (PS.19.12 ru literal: \"Также раб Твой предостережён ими\"; PS.19.14 ru literal: \"удержи раба твоего\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "2e122523a9d2"
+  },
+  "verse.ru:PS.19.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [
+    "Синодальное «благоугодны пред Тобою» процитировано точно; замечание о «помышлении» сохранено."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Quote the Synodal as «благоугодны пред Тобою» and drop 'сохраняет «лицо»'; the remark that it is close to the KJV with «помышление» can stay. (RusSynodal Ps 18:15: \"Да будут слова уст моих и помышление сердца моего благоугодны пред Тобою, Господи, твердыня моя и Избавитель мой!\"; Hebrew PS.19.15 \"לְפָנֶיךָ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": "[consider] Write «Твоим», «Тебе», and say «приходит выкупить грешника» (or «вызволить»). (PS.19.15: \"וְגֹאֲלִי\"; PS.19.12 ru: \"раб Твой\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "65d0e1fb4db0"
+  },
+  "verse.ru:PS.19.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [
+    "Слово raqia' передано как «свод» в драматическом слое и как «твердь» в буквальном: «твердь» — слово Синодального перевода (Быт 1:6), и оно сохраняет образ тверди как отбитого листа; «свод» добавляет читаемый образ для слуха."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "61e5f356de3b"
+  },
+  "verse.ru:PS.19.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "5c93c6dbbcf8"
+  },
+  "verse.ru:PS.19.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [
+    "Буквальный слой следует ивриту («без того, чтобы слышался голос их») и не вставляет «где», как это делают KJV и Синодальный перевод; в комментарии это отмечено."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "622bb3005ea6"
+  },
+  "verse.ru:PS.19.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0d98223afd99"
+  },
+  "verse.ru:PS.19.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[consider] Write «И вот оно выходит, солнце» or let the bridegroom image carry the personification («выходит солнце, как жених»). (PS.19.6: \"וְהוּא כְּחָתָן יֹצֵא מֵחֻפָּתוֹ\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "570b241b742e"
+  },
+  "verse.ru:PS.19.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:37:21+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "88f8593af1f3"
+  },
+  "verse.ru:PS.19.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [
+    "По просьбе рецензента божественное имя везде записано как YHWH (в буквальном слое, в глоссах и в комментарии), а не «ЙХВХ». В драматическом слое — «Господь», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Write YHWH instead of ЙХВХ in the literal layer, in token_glosses pos 2 and 7, and in the commentary (also the commentary of PS.19.2, which says «заветное имя ЙХВХ»). (PS.19.8 ru literal: \"Наставление ЙХВХ цельно\"; PS.19.15 ru literal: \"пред лицом твоим, YHWH, скала моя\"; Hebrew PS.19.8 \"תּוֹרַת יְהוָה\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "a8bdbcc18dc9"
+  },
+  "verse.ru:PS.19.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T17:41:01+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T17:39:43+00:00",
+     "note": "[should_fix] Write YHWH instead of ЙХВХ in the literal layer and in token_glosses pos 2 and 7. (PS.19.9 ru literal: \"Повеления ЙХВХ прямы ... заповедь ЙХВХ чиста\"; PS.19.15 ru literal: \"YHWH, скала моя\")",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T17:41:57+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b28398506081"
   }
  },
- "notes": []
+ "notes": [
+  {
+   "note": "[verse.ru:PS.19.2] Рецензент отметил, что комментарий к PS.19.2 тоже содержит «заветное имя ЙХВХ»; этот стих вне данного окна, его нужно править отдельной задачей PS.19.1-12.",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:41:01+00:00"
+  },
+  {
+   "note": "[urim-critic@3 · claude-opus-5-5, consider] verse.ru:PS.19.2: The commentary of this approved verse still says «заветное имя ЙХВХ», while the revised verses 8-10 and 15 now write YHWH; the localizer flagged it as outside its window. (PS.19.2 ru commentary: \"заветное имя ЙХВХ дожидается стиха 8\"; PS.19.8 ru literal: \"Наставление YHWH цельно\")",
+   "produced_by": {
+    "model": "claude-opus-5-5",
+    "skill": "urim-critic@3",
+    "run": "main"
+   },
+   "at": "2026-11-09T17:41:57+00:00"
+  }
+ ]
 }

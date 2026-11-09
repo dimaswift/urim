@@ -1,0 +1,789 @@
+{
+ "chapter_ref": "PS.132",
+ "items": {
+  "verse.en:PS.132.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:01:26+00:00",
+   "agent_notes": [
+    "Corrected the heading's position as asked: Pss 120–134 are fifteen Songs of the Ascents and 132 is the thirteenth. The title is counted as part of Hebrew verse 1 (KJV 132:0 and 132:1).",
+    "STEPBible glosses עֻנּוֹתוֹ as 'being afflicted he'; I glossed it 'his afflictions', a noun with a possessive suffix. Ibn Ezra on this verse calls it a noun from the same root as עִנּוּי. The Targum's 'סִגוּפֵיהּ' (his mortifications) agrees with the noun reading."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[blocker] Change 'the fifteenth and last of the Songs of the Ascents' to 'the thirteenth of the fifteen Songs of the Ascents (Pss 120–134)'. (PS.132.1: \"שִׁיר הַמַּעֲלוֹת\" heads Psalms 120–134; the commentary's own range puts 132 thirteenth.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:02:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [
+    "STEPBible glosses בַּעֲבוּר as 'forsake of', which is wrong (a slip from the root עזב). Corrected to 'for the sake of'. In the verse the hiphil of שׁוב with פנים is 'turn back the face', i.e. refuse a petitioner; BBE's 'give up your king' is an interpretation. Whether 'anointed' is David or his successor is open (Rashi on Psalms 132:10 says Solomon, Ibn Ezra says David); the text does not name him."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:01:26+00:00",
+   "agent_notes": [
+    "Rewrote the echo as asked. In v. 10 God is asked not to turn back (hiphil תָּשֵׁב) the anointed's face; in v. 11 God himself will not turn back (qal יָשׁוּב) from the oath. Same root שוב, God the subject both times."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[should_fix] Rewrite the echo: in v. 10 God is asked not to turn back his anointed's face; in v. 11 God swears an oath he himself will not turn back from. The same verb, both times with God as subject. (PS.132.10: \"אַל־תָּשֵׁב פְּנֵי מְשִׁיחֶךָ\" (HVhj2ms, 'you turn away'); PS.132.11: \"לֹא־יָשׁוּב מִמֶּנָּה\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:02:07+00:00",
+     "note": "[consider] Either cut the circular sentence or say plainly that the verse calls 2 Samuel 7's promise an oath, and drop the KJV/YLT contrast over אֱמֶת. (PS.132.11: \"נִשְׁבַּע־יְהוָה לְדָוִד אֱמֶת\"; KJV \"in truth\", YLT \"truth\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [
+    "Qere-style oddities: עֵדֹתִי is pointed with holem (Ibn Ezra, Radak, Meiri note it stands for the shureq form עֵדוּתִי / 'testimony'), and אֲלַמְּדֵם is imperfect ('I will teach them'), which Meiri and Ibn Ezra discuss. The relative זוֹ is a rare feminine form; Rashi glosses it 'that which I shall teach them'. I read it as 'my testimonies, which I will teach them'. 'Their sons also' (גם־בניהם) starts the apodosis with the verb יֵשְׁבוּ at the end of the verse."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[consider] Either render 'my testimony' to follow the commentators and the singular זוֹ, or say in the note why you keep the plural. (PS.132.12: \"וְעֵדֹתִי זוֹ אֲלַמְּדֵם\"; Radak: \"ועדותי. בחולם כמו בשורק\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:01:00+00:00",
+   "agent_notes": [
+    "Revised per the reviewer's request: the earlier claim that the KJV drops a preposition, and the reading that the choice happened 'inside' Zion, are removed. בָּחַר regularly takes its object with בְּ (as in 'chose Zion'), so token 4 is glossed 'Zion' with the preposition marked as the verb's object marker, and the literal layer reads 'has chosen Zion'.",
+    "The five English versions agree on the sense and differ only in register: YLT 'fixed on' and BBE 'heart is on' render the verb's choosing idiomatically. The Metzudat Zion citation (Job 23:13) is as given in the packet. The Radak and Malbim claims are summarised from the packet text only."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[should_fix] Remove the claim that the KJV drops a preposition and the 'choice happened inside the place' reading; say instead that בָּחַר takes its object with בְּ. In the literal layer write 'has chosen Zion' (or 'has chosen [in] Zion'), and gloss token 4 'Zion' or '<in> Zion'. (PS.132.13: \"כִּי־בָחַר יְהוָה בְּצִיּוֹן\"; STEPBible puts the preposition in angle brackets, '<in> Zion', marking it as the object marker of the verb, not a translatable 'in'.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:02:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:10+00:00",
+   "agent_notes": [
+    "Verse 14 switches from the narrator (v. 13, 'the LORD has chosen') to YHWH speaking in the first person. The Hebrew has no quotation marker; I added none in the literal layer and let the dramatic layer carry the shift. Malbim reads it as God's answer to 'Arise, O LORD, to your resting place' (v. 8)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:10+00:00",
+   "agent_notes": [
+    "צֵידָהּ is vocalized with mappiq in the he (so 'her', a suffix), and the lemma is צַיִד 'game, provisions'. Ketiv/Qere is not at issue, but the word is rare: Radak and Meiri take it as 'provision' (as in 'provision for the road'). The KJV 'abundantly bless' renders the infinitive absolute בָּרֵךְ אֲבָרֵךְ; the literal layer keeps the doubling. Radak's note on the mappiq (relating the word to a different noun) is cryptic in the packet and I did not rely on it."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[consider] Drop 'who go hungry elsewhere'. (PS.132.15: \"אֶבְיוֹנֶיהָ אַשְׂבִּיעַ לָחֶם\" ('her needy ones I will satisfy with bread').)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:10+00:00",
+   "agent_notes": [
+    "I glossed מְשִׁיחִי as 'my anointed one' (the king), not as a capitalized title. The messianic readings of Radak and Meiri are quoted only as commentary; the Hebrew itself names the Davidic king."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[consider] Drop the claim about the KJV and 'my anointed'; consider dropping 'and it will not go out' from the dramatic layer. (PS.132.17 KJV: \"I have ordained a lamp for mine anointed\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:57:10+00:00",
+   "agent_notes": [
+    "STEPBible lists נִזְרוֹ under the lemma נָסָה (H5145H), which looks like a lemma error; the word is נֵזֶר 'consecrated diadem' (root נזר). I glossed it 'his crown/diadem'. The verb יָצִיץ 'will blossom/shine' (root צוץ) is the point of the verse: the same verb family as the high priest's gold ציץ (Exod 28:36), which Radak mentions."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [
+    "אביר יעקב is a title of God (Gen 49:24, Isa 49:26): 'the Mighty One of Jacob'. KJV adds 'God' without italics here. Note also that the two verbs of the verse, 'swore' and 'vowed', are a poetic pair (Radak: the matter doubled in other words)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[consider] Reword: the KJV's 'tabernacle' actually sharpens the irony, or drop the sentence. (PS.132.3 KJV: \"Surely I will not come into the tabernacle of my house\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:01:26+00:00",
+   "agent_notes": [
+    "Dropped the locative claim: בְאֶפְרָתָה is the name Ephrathah with the preposition בְּ 'in', as the reviewer said. The ark reading of the feminine suffix is a modern one and is marked as such in the commentary. Rashi and Metzudat David do not read it that way, and Radak takes the feminine to mean the Divine Presence.",
+    "The five English versions agree on 'wood/forest' for יָעַר. I kept 'Jaar' in the literal layer because the Hebrew has no article and the packet's registry ties it to Kiriath-jearim; that identification is the modern one, not the packet commentators', who point to Ornan's threshing floor."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[should_fix] Drop the locative claim from the אֶפְרָתָה note (it is the name Ephrathah with the preposition 'in'). In the commentary write that ark (אֲרוֹן) is usually masculine but occasionally treated as feminine, and mark the ark reading as a modern one not found in the packet's commentators. (PS.132.6: \"בְאֶפְרָתָה\" (preposition בְּ + Npf, STEPBible 'in Ephrathah'); Metzudat David and Rashi, the note's sources, say nothing of a locative.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:02:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T15:55:55+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.en:PS.132.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-philologist@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T16:01:26+00:00",
+   "agent_notes": [
+    "Removed the 'quiet rejoicing' contrast; the commentary now keeps only the point that רנן is a ringing public cry. The jussive reading ('let them…') follows the KJV, ASV and BBE; YLT renders both verbs as plain presents."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T15:59:49+00:00",
+     "note": "[should_fix] Remove 'not the quiet \"rejoicing\" the translations imply'; the translations already render it as a shout. Keep the point that it is a ringing public cry. (PS.132.9 KJV: \"let thy saints shout for joy\"; YLT: \"Thy pious ones cry aloud\".)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T16:02:07+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": null
+  },
+  "verse.ru:PS.132.1": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [
+    "עֻנּוֹתוֹ: в Синодальном «кротости его» (Пс 131:1); в литеральном слое — «его смирения/самоистязания» через «страдания», в драматическом — «всё, что он вытерпел». В комментарии объяснено, что комментаторы читают слово как добровольное самоограничение Давида."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[consider] Verify each Synodal quotation in vv. 1, 8, 9, 14, 16, 18 or drop the quotations you cannot check. (PS.132.1 ru: «слово עֻנּוֹת — как «кротости его»»; the localization packet for PS.132.1-18 lists no RusSynodal verse text.)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dd02f5e3248f"
+  },
+  "verse.ru:PS.132.10": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "947e8547d000"
+  },
+  "verse.ru:PS.132.11": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [
+    "פְּרִי בִטְנְךָ: сохранено «плод чрева твоего», как в Синодальном."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "45765800cddb"
+  },
+  "verse.ru:PS.132.12": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "be5ca5b66e39"
+  },
+  "verse.ru:PS.132.13": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:10+00:00",
+   "agent_notes": [
+    "В синодальном переводе этот псалом — 131-й, а эти стихи — 12–17; нумерация здесь по еврейскому тексту. «Жилище» (мошав) совпадает с синодальным; Сион в драматическом слое — мужского рода русского слова («по нему»), хотя в иврите суффикс женский."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "c3626d381e4c"
+  },
+  "verse.ru:PS.132.14": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:05:26+00:00",
+   "agent_notes": [
+    "«меная» исправлено на «менуха» (транслитерация מְנוּחָה, как в английском m'nuchah)."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[should_fix] Replace «меная» with «менуха» in the commentary. (PS.132.14: \"זֹאת־מְנוּחָתִי\"; English: \"the word is the same, m'nuchah\"; ru: «и слово то же — меная».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:06:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "b808d6ce7545"
+  },
+  "verse.ru:PS.132.15": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:10+00:00",
+   "agent_notes": [
+    "Синодальный перевод читает «пищу его благословлю обильно»; здесь «цейда» передано как «провиант/припасы» вслед за английским и комментаторами (Меири), а удвоение «благословляя, благословлю» сохранено в литеральном слое."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[consider] Check the Synodal wording; if it reads «благословляя благословлю», say that it keeps the Hebrew doubling, or drop the sentence. (PS.132.15: \"צֵידָהּ בָּרֵךְ אֲבָרֵךְ\"; ru: «Синодальное «благословлю обильно» передаёт удвоение наречием».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "67e364fb28b7"
+  },
+  "verse.ru:PS.132.16": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:10+00:00",
+   "agent_notes": [
+    "«Хасидим» — «верные», а не синодальное «преподобные»: слово отягощено церковной окраской; в комментарии это оговорено. «ישע» — «спасение» в литеральном слое, «избавление» в драматическом."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[consider] Quote v. 9 in this chapter's own wording («Священники Твои да облекутся в правду, и верные Твои да воспоют»). (PS.132.9 ru literal: «и верные твои — да воспоют»; PS.132.16 ru commentary: «Священники Твои да облекутся правдою, и преподобные Твои да возрадуются».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "7de48c52cf10"
+  },
+  "verse.ru:PS.132.17": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:10+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e24d5e706ede"
+  },
+  "verse.ru:PS.132.18": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:10+00:00",
+   "agent_notes": [
+    "Игра «яциц / цицъ» (цвести — золотая пластина первосвященника) сохранена в комментарии через транслитерацию; в переводе использован глагол «расцветёт». Синодальное «блистать» отражено в примечании (Раши)."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[consider] Write «циц» in both places. (PS.132.18 English: \"the tzitz (Exod 28:36)\"; ru note: «Тот же корень даёт цец».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "8e9c5cbeb67b"
+  },
+  "verse.ru:PS.132.2": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [
+    "אֲבִיר יַעֲקֹב: Синодальный даёт «Сильный Иакова»; сохранено, без добавленного «Бог»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "4edde81ee44e"
+  },
+  "verse.ru:PS.132.3": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "431ff85616fd"
+  },
+  "verse.ru:PS.132.4": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:05:26+00:00",
+   "agent_notes": [
+    "Исправлено по замечанию: «так что клятва ужесточается: ни даже короткой дрёмы»."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[should_fix] Rewrite as «так что клятва ужесточается: ни даже короткой дрёмы» (or «нельзя даже вздремнуть»). (PS.132.4 English: \"so the oath tightens: not even a nap\"; ru: «так что клятва ужесточается: не даже короткого отдыха».)",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:06:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "3f82a1807427"
+  },
+  "verse.ru:PS.132.5": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:05:26+00:00",
+   "agent_notes": [
+    "Последнее предложение комментария заменено на указание о Синодальном переводе (Пс 131:5): единственное число «жилища Сильному Иакова», как в KJV."
+   ],
+   "history": [
+    {
+     "status": "changes_requested",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": "[should_fix] Delete the last sentence of the commentary, or replace it with: «Синодальный перевод, как и KJV, ставит единственное число: «жилища Сильному Иакова» (Пс 131:5).» (PS.132.5 ru: «Синодальный перевод сохраняет множественное: «жилище» стоит в единственном числе, но «места» и «жилища» названы рядом.» English ends at '…which Malbim cites for this verse.')",
+     "by": "urim-critic@3 · claude-opus-5-5"
+    },
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:06:02+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "dbb01ee9e61c"
+  },
+  "verse.ru:PS.132.6": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [
+    "Название יָעַר: в Синодальном «поля Иаарские», Ефрафа — «Ефрафа»; прежнее соглашение корпуса для Ефраты/Эфрафы ещё не задано, выбрана синодальная форма «Ефрафа». Местоимение женского рода оставлено без антецедента: в Синодальном «о нём» (мужской род), здесь «о ней»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "e6cb3c109fa0"
+  },
+  "verse.ru:PS.132.7": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "66911db88219"
+  },
+  "verse.ru:PS.132.8": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "0e71ecade8f7"
+  },
+  "verse.ru:PS.132.9": {
+   "status": "approved",
+   "produced_by": {
+    "model": "claude-sonnet-5-5",
+    "skill": "urim-localizer@1",
+    "run": "main"
+   },
+   "produced_at": "2026-11-09T21:02:34+00:00",
+   "agent_notes": [
+    "חֲסִידֶיךָ: Синодальный «преподобные», но комментарий (как и английский, критикующий «saints») объясняет «верные завету»; в переводных слоях выбрано «верные Твои»."
+   ],
+   "history": [
+    {
+     "status": "approved",
+     "at": "2026-11-09T21:04:25+00:00",
+     "note": null,
+     "by": "urim-critic@3 · claude-opus-5-5"
+    }
+   ],
+   "source": "078beee09db6"
+  }
+ },
+ "notes": []
+}
